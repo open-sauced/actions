@@ -10,8 +10,6 @@ runs:
   steps:
     - run: |
         ./cache.sh > data.json
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       shell: bash
     - run: |
         git config user.name GitHub
