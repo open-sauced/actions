@@ -18,14 +18,14 @@ runs:
         -vv \
         --data "{
           \"query\": \"query ViewerOpenSaucedGoalsAndStarredRepos(\$gitHubOAuthToken: String!) { gitHub(auths: {gitHubOAuthToken: \$gitHubOAuthToken}) { viewer { starredRepositories(first: 10, orderBy: {field: STARRED_AT, direction: DESC}) { totalCount edges { node { nameWithOwner } } } repository(name: \\\"open-sauced-goals\\\") { issues(first: 10, orderBy: {field: CREATED_AT, direction: DESC}) { edges { node { title } } } } } } }\",
-          \"variables\": {\"gitHubOAuthToken\": \"${{ secrets.GITHUB_TOKEN }}\"},
+          \"variables\": {\"gitHubOAuthToken\": \"${{ GITHUB_TOKEN }}\"},
           \"operationName\": \"ViewerOpenSaucedGoalsAndStarredRepos\"
         }"
       shell: bash
     - run: |
         git config user.name GitHub
         git config user.email noreply@github.com
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+        git remote set-url origin https://x-access-token:${{ GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
       shell: bash
     - run: |
         git add .
