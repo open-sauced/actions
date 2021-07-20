@@ -6,6 +6,5 @@ branding:
   color: 'white'
 
 runs:
-  using: "composite"
-  steps:
-  - run: node action.mjs
+  using: 'node15'
+  main: action.mjs
