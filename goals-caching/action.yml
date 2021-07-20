@@ -6,5 +6,5 @@ branding:
   color: 'white'
 
 runs:
-  using: 'node15'
+  using: 'node14'
   main: action.mjs
