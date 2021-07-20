@@ -9,15 +9,3 @@ runs:
   using: "composite"
   steps:
   - run: node action.mjs
-  - run: |
-      git config user.name GitHub
-      git config user.email noreply@github.com
-      git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-  shell: bash
-  - run: |
-      git add .
-      if output=$(git status --porcelain) && [ ! -z "$output" ]; then
-        git commit --author "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" --message "update the goals cache"
-        git push
-      fi
-  shell: bash
