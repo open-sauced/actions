@@ -9,7 +9,7 @@ runs:
   using: "composite"
   steps:
     - run: |
-        ./cache.sh > data.json
+        ./goals-caching/cache.sh > data.json
       shell: bash
     - run: |
         git config user.name GitHub
