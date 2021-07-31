@@ -11,5 +11,5 @@ inputs:
     required: true
 
 runs:
-  using: node12
-  main: action.js
+  using: node16
+  main: update-open-sauced-goals-cache.js
