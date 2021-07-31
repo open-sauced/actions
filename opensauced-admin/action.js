@@ -3,21 +3,21 @@ import dotenv from "dotenv"
 
 dotenv.config() 
 
-// console.log(process.env.OPEN_SAUCED_PRIVATE_KEY.substr(0, 100))
-
 async function run() {
   const app = new App({
     appId: +process.env.OPEN_SAUCED_APP_ID,
     privateKey: process.env.OPEN_SAUCED_PRIVATE_KEY,
   })
 
-  // iterate over all installations
+  // iterate over all installation repos. Leveraging the installation token
+  // allows us to make changes across all installed repos
   await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
+    // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
-      
       return
     }
-
+    
+    // temporary debugger 
     if (repository.full_name !== "bdougie/open-sauced-goals") {
       return
     }
@@ -27,9 +27,12 @@ async function run() {
       path: "data.json"
     })
 
+    // convert from base64 to parseable JSOON 
+    // (replace with octokit/plugin-create-or-update-text-file.js)
     const content = Buffer.from(data.content, "base64").toString()
     const parsedData = JSON.parse(content)
 
+    // update repo stats
     for (const item of parsedData) {
       const [owner, repo] = item.full_name.split("/")
       const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
@@ -39,9 +42,11 @@ async function run() {
 
     }
     
+    // convert back to base64 (replace with octokit/plugin-create-or-update-text-file.js)
     const dataString = JSON.stringify(parsedData, null, 2)
     const base64String = Buffer.from(dataString).toString("base64")
     
+    // only make commit if there are changes
     await octokit.rest.repos.createOrUpdateFileContents({
       owner: repository.owner.login,
       repo: repository.name, 
@@ -51,6 +56,7 @@ async function run() {
       sha: data.sha 
     })
     
+    // remove 
     console.log(repository.html_url)
   })
 }
