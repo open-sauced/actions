@@ -1,0 +1,15 @@
+name: goals-caching
+description: This is an action cache open-sauced-goals to data.json and stars.json
+author: Brian Douglas
+branding:
+  icon: 'thumbs-up'
+  color: 'white'
+
+inputs:
+  token:
+    description: A GitHub access token
+    required: true
+
+runs:
+  using: node12
+  main: action.js
