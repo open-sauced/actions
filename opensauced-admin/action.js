@@ -17,10 +17,11 @@ async function run() {
       return
     }
     
-    // temporary debugger 
-    if (repository.full_name !== "bdougie/open-sauced-goals") {
-      return
-    }
+    // for debugging 
+    // if (repository.full_name !== "bdougie/open-sauced-goals") {
+    //   return
+    // }
+
     const {data} = await octokit.rest.repos.getContent({
       owner: repository.owner.login,
       repo: repository.name,
@@ -39,7 +40,6 @@ async function run() {
       item.stargazers_count = currentRepoResponse.data.stargazers_count
       item.forks_count = currentRepoResponse.data.forks_count
       item.open_issues_count = currentRepoResponse.data.open_issues_count
-
     }
     
     // convert back to base64 (replace with octokit/plugin-create-or-update-text-file.js)
