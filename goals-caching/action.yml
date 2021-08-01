@@ -5,6 +5,7 @@ branding:
   icon: 'thumbs-up'
   color: 'white'
 
-runs:
-  using: node12
-  main: update-open-sauced-goals-cache.js
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'
+
