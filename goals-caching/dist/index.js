@@ -11,6 +11,7 @@ __nccwpck_require__.a(__webpack_module__, async (__webpack_handle_async_dependen
 
 
 
+const login = process.env.LOGIN
 const octokit = new octokit__WEBPACK_IMPORTED_MODULE_1__/* .Octokit */ .vd({
   auth: process.env.GITHUB_TOKEN,
 })
@@ -54,7 +55,7 @@ async function getRepoGoals(issues) {
   );
 }
 
-const starsData = await getStars("bdougie")
+const starsData = await getStars(login)
 
 // goals fetch and combine that with the stars
 // fetch all goal repos
@@ -62,7 +63,7 @@ let repoIssues
 let stagedIssues
 try {
   stagedIssues = await octokit.rest.issues.listForRepo({
-    owner: "bdougie",
+    owner: login,
     repo: "open-sauced-goals" 
   })
   console.log("stagedIssues", stagedIssues)
