@@ -4,12 +4,3 @@ author: Brian Douglas
 branding:
   icon: 'thumbs-up'
   color: 'white'
-
-inputs:
-  token:
-    description: A GitHub access token
-    required: true
-
-runs:
-  using: node12
-  main: action.js
