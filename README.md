@@ -63,3 +63,22 @@ jobs:
           git push
         fi
 ```
+**deploy updates**
+Use [@vercel/ncc](https://github.com/vercel/ncc) to compile your code and modules into one file used for distribution.
+
+Install vercel/ncc by running this command in your terminal. npm i -g @vercel/ncc
+
+Compile your update-open-sauced-goals-cache.js file. 
+```sh
+cd goals-caching
+ncc build update-open-sauced-goals-cache.js --license licenses.txt
+```
+
+You'll see a new dist/index.js file with your code and the compiled modules. You will also see an accompanying dist/licenses.txt file containing all the licenses of the node_modules you are using.
+
+From your terminal, commit the updates to your action.yml, dist/index.js, and node_modules files.
+
+git dist/index.js
+git commit -m "updated vercel/ncc"
+git tag -a -m "My first action release" v1.1
+git push --follow-tags
