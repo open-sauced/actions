@@ -6,5 +6,5 @@ branding:
   color: 'white'
 
 runs:
-  using: node16
+  using: node12
   main: update-open-sauced-goals-cache.js
