@@ -26,4 +26,4 @@ jobs:
           ${{ runner.os }}-
     - name: Build
       run: npm install
-    - run: node opensauced-admin/action.js
+    - run: node open-sauced-admin/action.js

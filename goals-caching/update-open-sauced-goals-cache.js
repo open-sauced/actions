@@ -1,5 +1,4 @@
-import {Octokit} from "@octokit/rest"
-import { request } from "@octokit/request";
+import {Octokit} from "octokit"
 import fs from "fs";
 
 const octokit = new Octokit({
@@ -30,7 +29,7 @@ async function getRepoGoals(issues) {
       // all goal issues follow the "owner/repo" format 
       let [owner, name] = issue.title.split("/");
   
-      const {data} = await octokit.repos.get({
+      const {data} = await octokit.rest.repos.get({
         owner: owner,
         repo: name,
       })
@@ -64,10 +63,6 @@ try {
   
 const repoGoalsData = await getRepoGoals(repoIssues)
 
-const finalData = {
-  stars: starsData,
-  goals: repoGoalsData
-}
-
 // create or update the json store
-fs.writeFileSync("data.json", JSON.stringify(finalData, null, 2));
+fs.writeFileSync("data.json", JSON.stringify(repoGoalsData, null, 2));
+fs.writeFileSync("stars.json", JSON.stringify(starsData, null, 2));
