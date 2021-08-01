@@ -44,7 +44,7 @@ async function getRepoGoals(issues) {
   );
 }
 
-const {login} = await octokit.rest.users.getAuthenticated()
+const {login} = await octokit.request('GET /user')
 console.log(login) 
 const starsData = await getStars(login)
 
@@ -54,7 +54,7 @@ let repoIssues
 let stagedIssues
 try {
   stagedIssues = await octokit.rest.issues.listForRepo({
-    owner: "bdougie",
+    owner: login,
     repo: "open-sauced-goals" 
   })
   console.log("stagedIssues", stagedIssues)
