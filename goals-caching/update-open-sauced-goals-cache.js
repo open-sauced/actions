@@ -1,6 +1,7 @@
 import {Octokit} from "octokit"
 import fs from "fs";
 
+const login = process.env.LOGIN
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 })
@@ -44,8 +45,6 @@ async function getRepoGoals(issues) {
   );
 }
 
-const {login} = await octokit.request('GET /user')
-console.log(login) 
 const starsData = await getStars(login)
 
 // goals fetch and combine that with the stars
