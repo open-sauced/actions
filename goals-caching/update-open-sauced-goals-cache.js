@@ -44,7 +44,9 @@ async function getRepoGoals(issues) {
   );
 }
 
-const starsData = await getStars("bdougie")
+const {login} = await octokit.rest.users.getAuthenticated()
+console.log(login) 
+const starsData = await getStars(login)
 
 // goals fetch and combine that with the stars
 // fetch all goal repos
