@@ -48,6 +48,7 @@ jobs:
     - uses: open-sauced/actions/goals-caching@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        LOGIN: ${{ github.repository_owner }}
     - name: Set up Git
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
