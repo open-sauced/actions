@@ -4,6 +4,8 @@ This is a collection of actions that power various features within Open Sauced.
 ## opensauced-admin
 This action is powered by the OPEN_SAUCED_APP_ID (installed on all goal repos) and updates the contents of the data.json files with the newest data every Wednesday and Saturday. 
 
+_Not meant for 3rd party usage outside this repository._
+
 **example usage:**
 ```yml
 jobs:
@@ -48,7 +50,7 @@ jobs:
         node-version: 16
     - name: Build
       run: npm install
-    - uses: open-sauced/actions/goals-caching@docker
+    - uses: open-sauced/actions/goals-caching@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Set up Git
