@@ -45,11 +45,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: 16
-    - name: Build
-      run: npm install
     - uses: open-sauced/actions/goals-caching@main
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
