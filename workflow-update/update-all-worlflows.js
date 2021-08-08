@@ -3,6 +3,14 @@ import dotenv from "dotenv"
 
 dotenv.config() 
 
+const workflowURL = "https://api.github.com/repos/open-sauced/goals-template/contents/.github/workflows/goals-caching.yml"
+//
+//fetch this urll and get contents.
+//
+// convert back to base64 (replace with octokit/plugin-create-or-update-text-file.js)
+// const dataString = JSON.stringify(workflow, null, 2)
+const base64String = Buffer.from(workflow).toString("base64")
+
 const login = process.env.LOGIN
 
 async function run() {
@@ -18,68 +26,41 @@ async function run() {
     if (repository.name !== "open-sauced-goals") {
       return
     }
-    
+
     // for debugging 
     // if (repository.full_name !== "bdougie/open-sauced-goals") {
     //   return
     // }
-    
-    const {
-      updated,
-      data: { commit },
-    } = await octokit.createOrUpdateTextFile({
+
+    const {data} = await octokit.rest.repos.getContent({
+      owner: repository.owner.login,
+      repo: repository.name,
+      path: "VERSION"
+      // path: ".github/workflows/goals-caching.yml"
+    })
+
+    console.log(data)
+
+    // only make commit if there are changes
+    await octokit.rest.repos.createOrUpdateFileContents({
       owner: login,
       repo: "open-sauced-goals",
-      path: "goals-caching.yml",
-      content: workflow,
-      message: "updated from latest open-sauced/goals-template",
+      path: "VERSION",
+      content: base64String,
+      message:"pdated from latest open-sauced/goals-template",
+      sha: data.sha
     });
 
-    if (updated) {
-      console.log("test.txt updated via %s", data.commit.html_url);
-    } else {
-      console.log("test.txt already up to date");
-    }
-    
+
+//     if (updated) {
+//       console.log("test.txt updated via %s", commit.html_url);
+//     } else {
+//       console.log("test.txt already up to date");
+//     }
+
     // remove 
     console.log(repository.html_url)
   })
 }
 
-const workflow = `
-name: push issues data to goals
-
-on:
-  workflow_dispatch:
-  issues: 
-    types: ["opened", "edited", "deleted", "labeled", "unlabeled"]
-    
-  schedule: 
-    - cron: "0 1 * * 0,2,4,6"
-
-jobs:
-  sauce-grab:
-    name: Open Sauced Issue Caching
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - uses: open-sauced/actions/goals-caching@main
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        LOGIN: ${{ github.repository_owner }}
-    - name: Set up Git
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        git config user.name GitHub
-        git config user.email noreply@github.com
-        git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-    - name: Commit and push changes
-      run: |
-        git add .
-        if output=$(git status --porcelain) && [ ! -z "$output" ]; then
-          git commit --author "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>" --message "update the goals cache"
-          git push
-        fi
-`
 run()
