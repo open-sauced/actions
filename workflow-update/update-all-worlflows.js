@@ -1,15 +1,8 @@
 import { App } from "octokit"
 import dotenv from "dotenv"
 
-dotenv.config() 
+dotenv.config()
 
-const workflowURL = "https://api.github.com/repos/open-sauced/goals-template/contents/.github/workflows/goals-caching.yml"
-//
-//fetch this urll and get contents.
-//
-// convert back to base64 (replace with octokit/plugin-create-or-update-text-file.js)
-// const dataString = JSON.stringify(workflow, null, 2)
-const base64String = Buffer.from(workflow).toString("base64")
 
 const login = process.env.LOGIN
 
@@ -32,21 +25,27 @@ async function run() {
     //   return
     // }
 
+
+    // fetch from the source of truth (goals-template)
+    const template = await octokit.rest.repos.getContent({
+      owner: "open-sauced",
+      repo: "goals-template",
+      path: "VERSION"
+    })
+
+    // user's workflow data
     const {data} = await octokit.rest.repos.getContent({
       owner: repository.owner.login,
       repo: repository.name,
       path: "VERSION"
-      // path: ".github/workflows/goals-caching.yml"
     })
-
-    console.log(data)
 
     // only make commit if there are changes
     await octokit.rest.repos.createOrUpdateFileContents({
       owner: login,
       repo: "open-sauced-goals",
       path: "VERSION",
-      content: base64String,
+      content: template.data.content,
       message:"pdated from latest open-sauced/goals-template",
       sha: data.sha
     });
