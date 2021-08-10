@@ -3,15 +3,7 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-const login = process.env.LOGIN
-// let errorHappened
-
-if (login === undefined) {
-  console.error("process.env.LOGIN is not defined")
-}
-
 async function createIssueForError(octokit, owner, repo) {
-  // const installationId = 9812988
 
   const { data: issue } = await octokit.request("POST /repos/{owner}/{repo}/issues", {
     owner,
@@ -65,7 +57,7 @@ async function run(octokit) {
     // only make commit if there are changes
     try {
       await octokit.rest.repos.createOrUpdateFileContents({
-        owner: login,
+        owner: repository.owner.login,
         repo: "open-sauced-goals",
         path: ".github/workflows/goals-caching.yml",
         content: template.data.content,
