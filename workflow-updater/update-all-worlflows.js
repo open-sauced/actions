@@ -4,6 +4,8 @@ import dotenv from "dotenv"
 dotenv.config()
 
 async function createIssueForError(octokit, owner, repo) {
+  // TODO: check if blocked label exist on issue named bdougie/open-sauced-goals
+  // return 
 
   const { data: issue } = await octokit.request("POST /repos/{owner}/{repo}/issues", {
     owner,
