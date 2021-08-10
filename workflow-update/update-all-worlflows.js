@@ -14,7 +14,8 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
+  // await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
+  await app.eachRepository({installationId: 18777169}, async ({repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
@@ -30,23 +31,23 @@ async function run() {
     const template = await octokit.rest.repos.getContent({
       owner: "open-sauced",
       repo: "goals-template",
-      path: "VERSION"
+      path: ".github/workflows/goals-caching.yml"
     })
 
     // user's workflow data
     const {data} = await octokit.rest.repos.getContent({
       owner: repository.owner.login,
       repo: repository.name,
-      path: "VERSION"
+      path: ".github/workflows/goals-caching.yml"
     })
 
     // only make commit if there are changes
     await octokit.rest.repos.createOrUpdateFileContents({
       owner: login,
       repo: "open-sauced-goals",
-      path: "VERSION",
+      path: ".github/workflows/goals-caching.yml",
       content: template.data.content,
-      message:"pdated from latest open-sauced/goals-template",
+      message:"updated from latest open-sauced/goals-template",
       sha: data.sha
     });
 
