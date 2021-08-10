@@ -3,10 +3,37 @@ import dotenv from "dotenv"
 
 dotenv.config()
 
-
 const login = process.env.LOGIN
+// let errorHappened
 
-async function run() {
+if (login === undefined) {
+  console.error("process.env.LOGIN is not defined")
+}
+
+async function createIssueForError(octokit, owner, repo) {
+  // const installationId = 9812988
+
+  const { data: issue } = await octokit.request("POST /repos/{owner}/{repo}/issues", {
+    owner,
+    repo,
+    labels: ["blocked"],
+    title: `${owner}/${repo}`,
+    body: `
+     Please update your permissions with the Open Sauced App.
+
+     The Open Sauced App attempted to update this repository, but
+     couldn't due to a pending permissions request. Please enable those permission using this link
+     https://github.com/bdougie/open-sauced-goals/settings/installations
+    `,
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+console.log(`issue created at ${issue.html_url}`);
+}
+
+async function run(octokit) {
   const app = new App({
     appId: +process.env.OPEN_SAUCED_APP_ID,
     privateKey: process.env.OPEN_SAUCED_PRIVATE_KEY,
@@ -14,18 +41,12 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  // await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
-  await app.eachRepository({installationId: 18777169}, async ({repository, octokit}) => {
+  // the installationID is for my (bdougie/open-sauced-goal specific installation
+  await app.eachRepository({installationId: 9812988}, async ({context, repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
     }
-
-    // for debugging 
-    // if (repository.full_name !== "bdougie/open-sauced-goals") {
-    //   return
-    // }
-
 
     // fetch from the source of truth (goals-template)
     const template = await octokit.rest.repos.getContent({
@@ -33,33 +54,33 @@ async function run() {
       repo: "goals-template",
       path: ".github/workflows/goals-caching.yml"
     })
-
+    
     // user's workflow data
     const {data} = await octokit.rest.repos.getContent({
       owner: repository.owner.login,
       repo: repository.name,
       path: ".github/workflows/goals-caching.yml"
     })
-
+    
     // only make commit if there are changes
-    await octokit.rest.repos.createOrUpdateFileContents({
-      owner: login,
-      repo: "open-sauced-goals",
-      path: ".github/workflows/goals-caching.yml",
-      content: template.data.content,
-      message:"updated from latest open-sauced/goals-template",
-      sha: data.sha
-    });
+    try {
+      await octokit.rest.repos.createOrUpdateFileContents({
+        owner: login,
+        repo: "open-sauced-goals",
+        path: ".github/workflows/goals-caching.yml",
+        content: template.data.content,
+        message:"updated from latest open-sauced/goals-template",
+        sha: data.sha
+      })
+    } catch(err) { 
+      console.log("ERROR HAS BEEN CAUGHT", err) 
 
-
-//     if (updated) {
-//       console.log("test.txt updated via %s", commit.html_url);
-//     } else {
-//       console.log("test.txt already up to date");
-//     }
-
-    // remove 
-    console.log(repository.html_url)
+      if (err.status === 403) {
+        // if it fails, try to create an issue
+        await createIssueForError(octokit, repository.owner.login, repository.name)
+        console.log(`UPDATED: ${repository.html_url}`)
+      }
+    }
   })
 }
 

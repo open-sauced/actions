@@ -56,8 +56,7 @@ async function run() {
       sha: data.sha 
     })
     
-    // remove 
-    console.log(repository.html_url)
+    console.log(`UPDATED: ${repository.html_url}`)
   })
 }
 
