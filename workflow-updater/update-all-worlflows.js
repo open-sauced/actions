@@ -4,10 +4,22 @@ import dotenv from "dotenv"
 dotenv.config()
 
 async function createIssueForError(octokit, owner, repo) {
+  const blockedIssues = await octokit.rest.issues.listForRepo({
+    owner,
+    repo,
+    labels: ["bug"],
+    state: "open"
+  })
+
+  if (blockedIssues.data.length > 0) {
+    console.log(`issue already created`);
+    return
+  }
+
   const { data: issue } = await octokit.request("POST /repos/{owner}/{repo}/issues", {
     owner,
     repo,
-    labels: ["blocked"],
+    labels: ["bug"],
     title: `${owner}/${repo}`,
     body: `
     Please update your permissions with the Open Sauced App.
@@ -20,7 +32,7 @@ async function createIssueForError(octokit, owner, repo) {
   .catch((err) => {
     console.log(err);
   });
-  
+
   console.log(`issue created at ${issue.html_url}`);
 }
 
@@ -33,7 +45,7 @@ async function run(octokit) {
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
   // the installationID is for my (bdougie/open-sauced-goal specific installation
-  await app.eachRepository({installationId: 9812988}, async ({context, repository, octokit}) => {
+  await app.eachRepository({installationId: 17529396}, async ({context, repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
