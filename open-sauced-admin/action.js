@@ -11,7 +11,7 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
+  await app.eachRepository(async ({repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
@@ -56,8 +56,7 @@ async function run() {
       sha: data.sha 
     })
     
-    // remove 
-    console.log(repository.html_url)
+    console.log(`UPDATED: ${repository.html_url}`)
   })
 }
 
