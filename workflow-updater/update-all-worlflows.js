@@ -45,7 +45,7 @@ async function run(octokit) {
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
   // the installationID is for my (bdougie/open-sauced-goal specific installation
-  await app.eachRepository({installationId: 17529396}, async ({context, repository, octokit}) => {
+  await app.eachRepository(async ({context, repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
