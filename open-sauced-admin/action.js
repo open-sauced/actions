@@ -26,7 +26,9 @@ async function run() {
       owner: repository.owner.login,
       repo: repository.name,
       path: "data.json"
-    })
+    }).catch((err) => {
+      console.log(err);
+    });
 
     // convert from base64 to parseable JSOON 
     // (replace with octokit/plugin-create-or-update-text-file.js)
