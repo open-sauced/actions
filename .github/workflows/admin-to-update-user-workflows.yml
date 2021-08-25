@@ -1,4 +1,4 @@
-name: Update all user's open-sauced-goal workflows
+name: Update open-sauced-goals
 on:
   workflow_dispatch: 
   
