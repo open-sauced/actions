@@ -26,7 +26,7 @@ async function createIssueForError(octokit, owner, repo) {
     
     The Open Sauced App attempted to update this repository, but
     couldn't due to a pending permissions request. Please enable those permission using this link
-    https://github.com/bdougie/open-sauced-goals/settings/installations
+    https://github.com/${owner}/open-sauced-goals/settings/installations
     `,
   })
   .catch((err) => {
