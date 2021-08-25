@@ -1,4 +1,4 @@
-name: Update all user goal data
+name: Update all user data
 on:
   workflow_dispatch:
   schedule: 
