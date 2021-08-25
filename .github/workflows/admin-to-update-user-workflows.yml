@@ -26,3 +26,6 @@ jobs:
     - name: Build
       run: npm install
     - run: node workflow-updater/update-all-worlflows.js
+      env:
+        OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
+        OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
