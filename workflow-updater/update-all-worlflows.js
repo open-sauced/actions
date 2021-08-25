@@ -21,7 +21,7 @@ async function createIssueForError(octokit, owner, repo) {
     repo,
     labels: ["bug"],
     title: `${owner}/${repo}`,
-    body: `Please update your permissions with the Open Sauced App.\n\nThe Open Sauced App attempted to update this repository, but couldn't due to a pending permissions request. Please enable those permission using this [link](https://github.com/${owner}/open-sauced-goals/settings/installations)`,
+    body: `Please update your permissions with the Open Sauced App.\n\nThe Open Sauced App attempted to update this repository, but couldn't due to a pending permissions request. Please enable those permission using this [link](https://github.com/${owner}/open-sauced-goals/settings/installations).`,
   })
   .catch((err) => {
     console.log(err);
