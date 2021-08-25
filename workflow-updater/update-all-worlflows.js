@@ -65,7 +65,7 @@ async function run(octokit) {
       path: ".github/workflows/goals-caching.yml"
     })
     
-    // only make commit if there are changes
+    // TODO: only make commit if there are changes
     try {
       await octokit.rest.repos.createOrUpdateFileContents({
         owner: repository.owner.login,
@@ -86,8 +86,11 @@ async function run(octokit) {
         state: "open"
       })
 
-      console.log(blockedIssues)
-      const blocked = issues.length > 0
+      const blocked = blockedIssues.length > 0
+
+      if (blocked) {
+        console.log(`BLOCKED: ${repository.html_url}`)
+      }
 
       if (!blocked && err.status === 403) {
         // if it fails, try to create an issue
