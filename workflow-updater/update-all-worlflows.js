@@ -24,7 +24,7 @@ async function createIssueForError(octokit, owner, repo, installationId) {
     body: `Please update your permissions with the Open Sauced App.\n\nThe Open Sauced App attempted to update this repository, but couldn't due to a pending permissions request. Please enable those permission using this [link]( https://github.com/settings/installations/${installationId}/permissions/update).`,
   })
   .catch((err) => {
-    console.log(err);
+    console.log(err.data.message);
   });
 
   console.log(`issue created at ${issue.html_url}`);
@@ -72,7 +72,7 @@ async function run(octokit) {
           sha: data.sha
         })
       } catch(err) { 
-        console.log("ERROR HAS BEEN CAUGHT", err) 
+        console.log("ERROR HAS BEEN CAUGHT: ", err.response.data.message) 
         
         // TODO: check if blocked label exist on issue named bdougie/open-sauced-goals
         const blockedIssues = await octokit.request('GET /repos/{owner}/{repo}/issues', {
@@ -91,7 +91,11 @@ async function run(octokit) {
         if (!blocked && err.status === 403) {
           // if it fails, try to create an issue
           await createIssueForError(octokit, repository.owner.login, repository.name, installation.id)
-          console.log(`UPDATED: ${repository.html_url}`)
+          console.log(`ISSUE OPENED: ${repository.html_url}`)
+        }
+
+        if (err.status === 404) {
+          console.log(`MISSING: ${repository.html_url}`) 
         }
       }
     })
