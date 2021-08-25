@@ -59,7 +59,10 @@ async function run(octokit) {
         owner: repository.owner.login,
         repo: repository.name,
         path: ".github/workflows/goals-caching.yml"
-      })
+      }).catch((err) => {
+        console.log(err.response.data.message)
+        return {data: {content: []}}
+      });
       
       // TODO: only make commit if there are changes
       try {
