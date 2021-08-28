@@ -1,4 +1,4 @@
-name: Update open-sauced-goals
+name: Populate the Supabase
 on:
   workflow_dispatch: 
   
@@ -25,7 +25,9 @@ jobs:
           ${{ runner.os }}-
     - name: Build
       run: npm install
-    - run: node workflow-updater/update-all-worlflows.js
+    - run: node populate-the-supabase/action.js
       env:
         OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
         OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
+        SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}

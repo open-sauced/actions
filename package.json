@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/open-sauced/actions#readme",
   "dependencies": {
+    "@supabase/supabase-js": "^1.22.3",
     "dotenv": "^10.0.0",
     "octokit": "^1.1.0"
   }

@@ -64,6 +64,12 @@ jobs:
           git push
         fi
 ```
+
+## workflow-updater
+This is an action to update the open-sauced-goals action workflow for all users.
+## populate-the-supabase
+This is an action to populate the supabase database with the most recents stars.json data. This DB will identify suggestions using how issues, forks, and how recently the star was created. 
+
 **deploy updates**
 Use [@vercel/ncc](https://github.com/vercel/ncc) to compile your code and modules into one file used for distribution.
 

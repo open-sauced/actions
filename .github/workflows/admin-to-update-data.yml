@@ -1,4 +1,4 @@
-name: Update all user goal data
+name: Update all user data
 on:
   workflow_dispatch:
   schedule: 
@@ -27,7 +27,9 @@ jobs:
           ${{ runner.os }}-
     - name: Build
       run: npm install
-    - run: node open-sauced-admin/action.js
+    - run: |
+        node open-sauced-admin/data.js
+        node open-sauced-admin/stars.js
       env:
         OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
         OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
