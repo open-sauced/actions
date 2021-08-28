@@ -44,16 +44,18 @@ async function run() {
         const [owner, repo] = item.full_name.split("/")
         const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
         item.id = currentRepoResponse.data.id
+        await supabase.from('user_stars').insert({user_id: repository.owner.id,star_id: item.id})
       }
       
-     // send parsedData to supabase
-     const result = await supabase
-      .from('stars')
-      .upsert(parsedData  )
-    
-      console.log(result) 
-      
+     // send parsedData to stars table
+     await supabase.from('stars').upsert(parsedData  )
+ 
       console.log(`ADDED STARS FROM: ${repository.html_url}`)
+
+      // send parsedData to supabase
+      supabase.from('users')
+      .upsert({id: repository.owner.id, login: repository.owner.login})
+    
     } catch (err) {
       console.log(`ERROR: ${err}`)
       console.log(`SKIPPED: ${repository.html_url}`)
