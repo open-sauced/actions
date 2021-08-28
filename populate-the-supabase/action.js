@@ -19,7 +19,7 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
+  await app.eachRepository(async ({repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
@@ -38,11 +38,18 @@ async function run() {
       // convert from base64 to parseable JSOON 
       const content = Buffer.from(data.content, "base64").toString()
       const parsedData = JSON.parse(content)
+
+      // update data with repo id
+      for (const item of parsedData) {
+        const [owner, repo] = item.full_name.split("/")
+        const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
+        item.id = currentRepoResponse.data.id
+      }
       
      // send parsedData to supabase
      const result = await supabase
       .from('stars')
-      .insert(parsedData)
+      .upsert(parsedData  )
     
       console.log(result) 
       
