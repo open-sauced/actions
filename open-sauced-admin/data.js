@@ -17,16 +17,15 @@ async function run() {
       return
     }
     
-    const {data} = await octokit.rest.repos.getContent({
-      owner: repository.owner.login,
-      repo: repository.name,
-      path: "data.json"
-    }).catch((err) => {
-      console.log(`data.json: ${err}`)
-      return {data: {content: []}}
-    });
-
     try {
+      const {data} = await octokit.rest.repos.getContent({
+        owner: repository.owner.login,
+        repo: repository.name,
+        path: "data.json"
+      }).catch((err) => {
+        console.log(`data.json: ${err}`)
+        return {data: {content: []}}
+      });
       // convert from base64 to parseable JSOON 
       const content = Buffer.from(data.content, "base64").toString()
       const parsedData = JSON.parse(content)
