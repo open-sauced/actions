@@ -2,14 +2,13 @@ import { App } from "octokit"
 import dotenv from "dotenv"
 import { createClient } from '@supabase/supabase-js'
 
-// TODO: move to env
-const anon_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYyOTkzMDc3OCwiZXhwIjoxOTQ1NTA2Nzc4fQ.zcdbd7kDhk7iNSMo8SjsTaXi0wlLNNQcSZkzZ84NUDg"
-const supabaseUrl = "https://ibcwmlhcimymasokhgvn.supabase.co"
+dotenv.config() 
+
+const anon_key = process.env.SUPABASE_ANON_KEY
+const supabaseUrl = process.env.SUPABASE_URL
 
 // Create a single supabase client for interacting with your database
 const supabase = createClient(supabaseUrl, anon_key)
-
-dotenv.config() 
 
 async function run() {
   const app = new App({
@@ -44,7 +43,12 @@ async function run() {
         const [owner, repo] = item.full_name.split("/")
         const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
         item.id = currentRepoResponse.data.id
-        await supabase.from('user_stars').insert({user_id: repository.owner.id,star_id: item.id})
+        await supabase.from('user_stars').insert({
+          user_id: repository.owner.id,
+          star_id: item.id,
+          repo_name: item.full_name,
+          recency_score: parsedData.indexOf(item)
+        })
       }
       
      // send parsedData to stars table
