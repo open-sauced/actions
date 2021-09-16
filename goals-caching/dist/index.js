@@ -63,7 +63,7 @@ async function renameGoals(){
       return await octokit.rest.issues.update({
         owner:login,
 	repo:"open-sauced-goals",
-	number:goal.number,
+	issue_number:goal.number,
         title:goal.title
       })
     })
