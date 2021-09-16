@@ -34,6 +34,7 @@ async function getRepoGoals(issues) {
         owner: owner,
         repo: name,
       })
+      console.log(`Title: ${issue.title} vs. ${data.full_name}`);
       if(data.full_name.trim() !== issue.title){
 	goalsToRename.push({title:data.full_name,number:issue.number})
       }
