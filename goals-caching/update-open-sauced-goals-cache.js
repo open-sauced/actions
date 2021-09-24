@@ -34,23 +34,39 @@ async function getRepoGoals(issues) {
         owner: owner,
         repo: name,
       })
-      
+      console.log(`Title: ${issue.title} vs. ${data.full_name}`);
+      if(data.full_name.trim() !== issue.title){
+	goalsToRename.push({title:data.full_name,number:issue.number})
+      }
       return {
         full_name: data.full_name,
         stargazers_count: data.stargazers_count,
         open_issues_count: data.open_issues_count,
-        forks_count: data.forks_count
+        forks_count: data.forks_count,
       }
     }),
   );
 }
-
+async function renameGoals(){
+  return Promise.all(
+    goalsToRename.map(async goal => {
+      return await octokit.rest.issues.update({
+        owner:login,
+	repo:"open-sauced-goals",
+	issue_number:goal.number,
+        title:goal.title
+      })
+    })
+  );
+    
+}
 const starsData = await getStars(login)
 
 // goals fetch and combine that with the stars
 // fetch all goal repos
 let repoIssues
 let stagedIssues
+let goalsToRename = [];
 try {
   stagedIssues = await octokit.rest.issues.listForRepo({
     owner: login,
@@ -63,7 +79,7 @@ try {
 }
   
 const repoGoalsData = await getRepoGoals(repoIssues)
-
+if(goalsToRename.length > 0) await renameGoals()
 // create or update the json store
 fs.writeFileSync("data.json", JSON.stringify(repoGoalsData, null, 2));
 fs.writeFileSync("stars.json", JSON.stringify(starsData, null, 2));
