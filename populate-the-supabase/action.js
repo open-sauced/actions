@@ -18,7 +18,7 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  await app.eachRepository( async ({repository, octokit}) => {
+  await app.eachRepository(async ({repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
@@ -43,12 +43,13 @@ async function run() {
         const [owner, repo] = item.full_name.split("/")
         const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
         const {
+          id,
           stargazers_count,
           description,
           open_issues,
-        } = currentRepoResponse
+        } = currentRepoResponse.data
 
-        item.id = currentRepoResponse.data.id
+        item.id = id
         await supabase.from('user_stars').insert({
           user_id: repository.owner.id,
           star_id: item.id,
