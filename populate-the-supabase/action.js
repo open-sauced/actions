@@ -2,7 +2,7 @@ import { App } from "octokit"
 import dotenv from "dotenv"
 import { createClient } from '@supabase/supabase-js'
 
-dotenv.config() 
+dotenv.config()
 
 const anon_key = process.env.SUPABASE_ANON_KEY
 const supabaseUrl = process.env.SUPABASE_URL
@@ -18,7 +18,7 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  await app.eachRepository(async ({repository, octokit}) => {
+  await app.eachRepository( async ({repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
@@ -42,24 +42,33 @@ async function run() {
       for (const item of parsedData) {
         const [owner, repo] = item.full_name.split("/")
         const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
+        const {
+          stargazers_count,
+          description,
+          open_issues,
+        } = currentRepoResponse
+
         item.id = currentRepoResponse.data.id
         await supabase.from('user_stars').insert({
           user_id: repository.owner.id,
           star_id: item.id,
           repo_name: item.full_name,
-          recency_score: parsedData.indexOf(item)
+          recency_score: parsedData.indexOf(item),
+          description: description,
+          issues: open_issues,
+          stars: stargazers_count,
         })
       }
-      
+
      // send parsedData to stars table
      await supabase.from('stars').upsert(parsedData  )
- 
+
       console.log(`ADDED STARS FROM: ${repository.html_url}`)
 
       // send parsedData to supabase
       supabase.from('users')
       .upsert({id: repository.owner.id, login: repository.owner.login})
-    
+
     } catch (err) {
       console.log(`ERROR: ${err}`)
       console.log(`SKIPPED: ${repository.html_url}`)
