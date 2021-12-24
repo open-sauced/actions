@@ -70,7 +70,7 @@ async function run() {
           description: description,
           issues: open_issues,
           stars: stargazers_count,
-          contributors: contributorNames.slice(0,2) // grab first two names only
+          contributors: JSON.stringify(contributorNames.slice(0,2)) // grab first two names only
         })
       }
 
