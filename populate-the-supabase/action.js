@@ -2,6 +2,7 @@ import { App } from "octokit"
 import dotenv from "dotenv"
 import { createClient } from '@supabase/supabase-js'
 import api from "./lib/persistedGraphQL.js";
+import fetchContributorNames from "./lib/contributorNameHelper.js";
 
 dotenv.config()
 
@@ -10,11 +11,6 @@ const supabaseUrl = process.env.SUPABASE_URL
 
 // Create a single supabase client for interacting with your database
 const supabase = createClient(supabaseUrl, anon_key)
-
-const fetchContributorNames = async(contributors) => {
-  // TODO Add this to avatarUrl in additionto login.
-  return contributors.map((contributor) => contributor.login )
-}
 
 async function run() {
   const app = new App({
@@ -55,13 +51,13 @@ async function run() {
           open_issues,
         } = currentRepoResponse.data
 
-
         const persistedData = await api.persistedRepoDataFetch({owner: owner, repo: repo})
         const {contributors_oneGraph} = persistedData.data.gitHub.repositoryOwner.repository;
 
         const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
 
         item.id = id
+
         await supabase.from('user_stars').insert({
           user_id: repository.owner.id,
           star_id: item.id,
