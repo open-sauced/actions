@@ -20,7 +20,7 @@ async function run() {
 
   // iterate over all installation repos. Leveraging the installation token
   // allows us to make changes across all installed repos
-  await app.eachRepository({installationId: 9812988}, async ({repository, octokit}) => {
+  await app.eachRepository( async ({repository, octokit}) => {
     // checkout only goal repos
     if (repository.name !== "open-sauced-goals") {
       return
@@ -58,7 +58,7 @@ async function run() {
 
         item.id = id
 
-        await supabase.from('user_stars_duplicate').insert({
+        await supabase.from('user_stars').insert({
           user_id: repository.owner.id,
           star_id: item.id,
           repo_name: item.full_name,
@@ -71,12 +71,12 @@ async function run() {
       }
 
      // send parsedData to stars table
-     await supabase.from('stars_duplicate').upsert(parsedData  )
+     await supabase.from('stars').upsert(parsedData  )
 
       console.log(`ADDED STARS FROM: ${repository.html_url}`)
 
       // send parsedData to supabase
-      supabase.from('users_duplicate')
+      supabase.from('users')
       .upsert({id: repository.owner.id, login: repository.owner.login})
 
     } catch (err) {
