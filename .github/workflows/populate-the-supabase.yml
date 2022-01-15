@@ -37,6 +37,6 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: './populate-the-supabase/*.json'
-          commit_message: "chore: updated supabase data"
-          commit_user_name: 0-vortex
-          commit_user_email: 237133+0-vortex@users.noreply.github.com
+          commit_message: "chore: update supabase data"
+          commit_user_name: open-sauced[bot]
+          commit_user_email: 63161813+open-sauced[bot]@users.noreply.github.com
