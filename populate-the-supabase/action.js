@@ -1,6 +1,8 @@
 import { App } from 'octokit'
 import { createClient } from '@supabase/supabase-js'
-import api from "./lib/persistedGraphQL.js"
+import { writeFile } from 'fs/promises'
+
+import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
 import cron from './cron.json'
 
@@ -9,13 +11,13 @@ const supabaseUrl = process.env.SUPABASE_URL
 const limitDays = parseInt(process.env.LIMIT_DAYS) || 7
 let limitUsers = parseInt(process.env.LIMIT_USERS) || 3
 const {checked} = cron
-const now = new Date()
+const lastExecuted = new Date()
 const parsedCache = {}
-const promises = [];
+const promises = []
 
 for (const item in checked) {
-  const date = new Date(checked[item].timestamp)
-  const diff = now - date
+  const date = new Date(checked[item].lastExecuted)
+  const diff = lastExecuted - date
   parsedCache[item] = {
     ...checked[item],
     offsetDays: Number(diff / 1000 / 60 / 60 / 24).toFixed(0)
@@ -75,8 +77,13 @@ async function run() {
             open_issues,
           } = currentRepoResponse.data
 
-          const persistedData = await api.persistedRepoDataFetch({owner: owner, repo: repo})
-          const {contributors_oneGraph} = persistedData.data.gitHub.repositoryOwner.repository;
+          const {data, errors} = await api.persistedRepoDataFetch({owner: owner, repo: repo})
+
+          if (errors && errors.length > 0) {
+            continue
+          }
+
+          const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository;
 
           const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
 
@@ -95,7 +102,7 @@ async function run() {
         }
 
         // send parsedData to stars table
-        await supabase.from('stars').upsert(parsedData)
+        // await supabase.from('stars').upsert(parsedData)
 
         console.log(`ADDED STARS FROM: ${repository.html_url}`)
 
@@ -106,7 +113,7 @@ async function run() {
 
         checked[repository.owner.login] = {
           owner: repository.owner.login,
-          timestamp: now,
+          lastExecuted,
         }
 
         resolve(checked[repository.owner.login]);
@@ -121,7 +128,10 @@ async function run() {
   await Promise.all(promises);
 
   // write to file and commit block
-  console.log(JSON.stringify(checked));
+  await writeFile('./populate-the-supabase/cron.json', JSON.stringify({
+    lastExecuted,
+    checked
+  }, null, 2))
 }
 
 run()

@@ -1,33 +1,42 @@
 name: Populate the Supabase
 on:
-  workflow_dispatch: 
-  
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
 jobs:
   distinguished-mode:
     name: run update
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-node@v2
-      with:
-        node-version: 16
-    - name: Cache node modules
-      uses: actions/cache@v2
-      env:
-        cache-name: cache-node-modules
-      with:
-        # npm cache files are stored in `~/.npm` on Linux/macOS
-        path: ~/.npm
-        key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-        restore-keys: |
-          ${{ runner.os }}-build-${{ env.cache-name }}-
-          ${{ runner.os }}-build-
-          ${{ runner.os }}-
-    - name: Build
-      run: npm install
-    - run: node populate-the-supabase/action.js
-      env:
-        OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
-        OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
-        SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
-        SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      - name: "☁️ checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "🔧 setup node"
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 16
+
+      - name: "🔧 install npm@latest"
+        run: npm i -g npm@latest
+
+      - name: "📦 install dependencies"
+        uses: bahmutov/npm-install@v1
+
+      - name: "🔍 populate supabase"
+        run: node populate-the-supabase/action.js
+        env:
+          OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
+          OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          LIMIT_DAYS: 7
+          LIMIT_USERS: 3
+
+      - name: "🚀 Commit changes"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: './populate-the-supabase/*.json'
+          commit_message: "chore: updated supabase data"
+          commit_user_name: 0-vortex
+          commit_user_email: 237133+0-vortex@users.noreply.github.com
