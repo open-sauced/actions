@@ -59,12 +59,12 @@ async function run() {
           path: "stars.json"
         }).catch((err) => {
           console.log(`stars.json: ${err}`)
-          return {data: {content: []}}
+          return {data: {content: btoa("[]")}}
         })
 
-        // convert from base64 to parseable JSOON
+        // convert from base64 to parseable JSON
         const content = Buffer.from(data.content, "base64").toString()
-        const parsedData = JSON.parse(content)
+        const parsedData = JSON.parse(content);
 
         // update data with repo id
         for (const item of parsedData) {
