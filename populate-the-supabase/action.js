@@ -59,8 +59,8 @@ async function run() {
 
         item.id = id
 
-        await supabase.from('user_stars_duplicate').upsert({
-          id: repository.owner.id,
+        await supabase.from('user_stars').insert({
+          id: repository.id,
           user_id: repository.owner.id,
           star_id: item.id,
           repo_name: item.full_name,
@@ -69,7 +69,7 @@ async function run() {
           issues: open_issues,
           stars: stargazers_count,
           contributors: contributorNames.slice(0,2) // grab first two names only
-        }, {onConflict: 'id'})
+        })
       }
 
       console.log(`ADDED STARS FROM: ${repository.html_url}`)
