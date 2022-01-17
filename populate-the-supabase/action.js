@@ -72,6 +72,9 @@ async function run() {
         })
       }
 
+      // send parsedData to stars table
+      await supabase.from('stars').upsert(parsedData, {onConflict: "id"})
+
       console.log(`ADDED STARS FROM: ${repository.html_url}`)
 
       // send parsedData to supabase
@@ -85,6 +88,7 @@ async function run() {
       console.log(`ADDED USER FROM: ${repository.owner.login}`)
 
     } catch (err) {
+      console.log(`ERROR: ${err}`)
       console.log(`SKIPPED: ${repository.html_url}`)
       return
     }
