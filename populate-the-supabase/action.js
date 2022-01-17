@@ -102,7 +102,7 @@ async function run() {
         }
 
         // send parsedData to stars table
-        // await supabase.from('stars').upsert(parsedData)
+        await supabase.from('stars').upsert(parsedData)
 
         console.log(`ADDED STARS FROM: ${repository.html_url}`)
 

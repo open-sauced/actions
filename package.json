@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node --experimental-json-modules -r dotenv/config ./populate-the-supabase/action.js"
+    "supabase": "node ./populate-the-supabase/action.js",
+    "supabase:dev": "node --experimental-json-modules -r dotenv/config ./populate-the-supabase/action.js"
   },
   "repository": {
     "type": "git",
@@ -14,14 +15,16 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/open-sauced/actions/issues"
   },
   "homepage": "https://github.com/open-sauced/actions#readme",
   "dependencies": {
     "@supabase/supabase-js": "^1.22.3",
-    "dotenv": "^10.0.0",
     "octokit": "^1.1.0"
+  },
+  "devDependencies": {
+    "dotenv": "^11.0.0"
   }
 }

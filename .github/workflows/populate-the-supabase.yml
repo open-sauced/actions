@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  distinguished-mode:
+  populate-the-supabase:
     name: run update
     runs-on: ubuntu-latest
     steps:
@@ -24,7 +24,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: "🔍 populate supabase"
-        run: node populate-the-supabase/action.js
+        run: npm run supabase
         env:
           OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
           OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
@@ -36,7 +36,7 @@ jobs:
       - name: "🚀 Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: './populate-the-supabase/*.json'
+          file_pattern: ./populate-the-supabase/*.json
           commit_message: "chore: update supabase data"
           commit_user_name: open-sauced[bot]
           commit_user_email: 63161813+open-sauced[bot]@users.noreply.github.com
