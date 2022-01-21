@@ -36,9 +36,10 @@ async function run() {
         return {data: {content: []}}
       });
 
-      // convert from base64 to parseable JSOON 
+      // convert from base64 to parseable JSON
       const content = Buffer.from(data.content, "base64").toString()
       const parsedData = JSON.parse(content)
+      const starsData = data.content.length > 0
 
       // update data with repo id
       for (const item of parsedData) {
@@ -59,6 +60,7 @@ async function run() {
         item.id = id
 
         await supabase.from('user_stars').insert({
+          id: repository.id,
           user_id: repository.owner.id,
           star_id: item.id,
           repo_name: item.full_name,
@@ -70,14 +72,20 @@ async function run() {
         })
       }
 
-     // send parsedData to stars table
-     await supabase.from('stars').upsert(parsedData  )
+      // send parsedData to stars table
+      await supabase.from('stars').upsert(parsedData, {onConflict: "id"})
 
       console.log(`ADDED STARS FROM: ${repository.html_url}`)
 
       // send parsedData to supabase
-      supabase.from('users')
-      .upsert({id: repository.owner.id, login: repository.owner.login})
+     await supabase.from('users')
+      .upsert({id: repository.owner.id, stars_data: starsData,
+        open_issues: repository.open_issues, private: repository.private}, {
+          onConflict:
+          'id'
+        })
+
+      console.log(`ADDED USER FROM: ${repository.owner.login}`)
 
     } catch (err) {
       console.log(`ERROR: ${err}`)

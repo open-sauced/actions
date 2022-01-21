@@ -14,8 +14,9 @@ async function getStars(user) {
   })
   return Promise.all(
     data.map(async repo => {
-  
+
     return {
+      id: repo.id,
       full_name: repo.full_name,
       stargazers_count: repo.stargazers_count,
       open_issues_count: repo.open_issues_count,
@@ -29,7 +30,7 @@ async function getRepoGoals(issues) {
     issues.map(async issue => {
       // all goal issues follow the "owner/repo" format 
       let [owner, name] = issue.title.split("/");
-  
+
       const {data} = await octokit.rest.repos.get({
         owner: owner,
         repo: name,
@@ -58,7 +59,7 @@ async function renameGoals(){
       })
     })
   );
-    
+
 }
 const starsData = await getStars(login)
 
