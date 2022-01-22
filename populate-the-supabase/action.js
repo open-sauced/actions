@@ -1,23 +1,32 @@
 import { App } from 'octokit'
 import { createClient } from '@supabase/supabase-js'
-import { writeFile } from 'fs/promises'
+import { writeFile } from 'node:fs/promises'
 
 import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
+import consoleHeader from './lib/consoleHeader.js'
 import cron from './cron.json'
 
 const anon_key = process.env.SUPABASE_ANON_KEY
 const supabaseUrl = process.env.SUPABASE_URL
-const limitDays = parseInt(process.env.LIMIT_DAYS) || 7
-let limitUsers = parseInt(process.env.LIMIT_USERS) || 3
-const {checked} = cron
+const limitDays = parseInt(process.env.LIMIT_DAYS) || 2
+let limitUsers = parseInt(process.env.LIMIT_USERS) || 5
+const checked = {...cron.checked}
 const lastExecuted = new Date()
 const parsedCache = {}
-const promises = []
+const parseInstallations = []
+const parseData = []
+
+consoleHeader('OPEN SAUCED', {
+  font: 'block',
+});
+console.log(`Started execution at ${lastExecuted}`)
 
 for (const item in checked) {
   const date = new Date(checked[item].lastExecuted)
   const diff = lastExecuted - date
+
+  // generate a cache of items with offset dates
   parsedCache[item] = {
     ...checked[item],
     offsetDays: Number(diff / 1000 / 60 / 60 / 24).toFixed(0)
@@ -33,112 +42,223 @@ async function run() {
     privateKey: process.env.OPEN_SAUCED_PRIVATE_KEY,
   })
 
-  // iterate over all installation repos. Leveraging the installation token
-  // allows us to make changes across all installed repos
-  for await (const { octokit, repository } of app.eachRepository.iterator()) {
-    if (repository.name !== "open-sauced-goals") {
+  consoleHeader('Parsing installations');
+  for await (const {installation} of app.eachInstallation.iterator()) {
+    if (installation.account.login === 'open-sauced') {
       continue
     }
 
-    if ((parsedCache[repository.owner.login] !== undefined
-        && parsedCache[repository.owner.login].offsetDays < limitDays)) {
-      continue
-    }
+    console.log(`Fetching data for installation ${installation.account.login}`)
+    // we don't have a local commit log of checking these installations
+    if (typeof parsedCache[installation.account.login] === 'undefined') {
+      console.log(`${installation.account.login} is not in our cache, adding to the queue`)
+      parseInstallations.push(installation);
+    } else {
+      // we have a local cache of this installation
+      let parsed = false;
 
-    if (promises.length >= limitUsers) {
+      if (
+        parsedCache[installation.account.login].offsetDays >= limitDays
+      ) {
+        parseInstallations.push(installation);
+        parsed = true;
+      }
+
+      console.log(`${installation.account.login} has been checked ${
+        parsedCache[installation.account.login].offsetDays} days ago, ${parsed ? 'adding to the queue' : 'skipping'}`)
+    }
+  }
+
+  for await (const installation of parseInstallations) {
+    if (parseData.length >= limitUsers) {
       break
     }
 
-    promises.push(new Promise(async (resolve, reject) => {
-      try {
-        console.log(`Processing ${repository.full_name}`)
+    console.log(`Fetching stars data for user ${installation.account.login}`)
 
-        const {data} = await octokit.rest.repos.getContent({
-          owner: repository.owner.login,
-          repo: repository.name,
-          path: "stars.json"
-        }).catch((err) => {
-          console.log(`stars.json: ${err}`)
-          return {data: {content: btoa("[]")}}
-        })
-
-      // convert from base64 to parseable JSOON
-      const content = Buffer.from(data.content, "base64").toString()
-      const parsedData = JSON.parse(content)
-      const starsData = data.content.length > 0
-
-        // update data with repo id
-        for (const item of parsedData) {
-          const [owner, repo] = item.full_name.split("/")
-          const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
-          const {
-            id,
-            stargazers_count,
-            description,
-            open_issues,
-          } = currentRepoResponse.data
-
-          const {data, errors} = await api.persistedRepoDataFetch({owner: owner, repo: repo})
-
-          if (errors && errors.length > 0) {
-            continue
+    // check if we have access to open-sauced-goals repo and fail safe exit if not
+    const installationExists = await app.octokit.rest.apps
+      .getRepoInstallation({
+        owner: installation.account.login,
+        repo: 'open-sauced-goals',
+      })
+      .then(() => true)
+      .catch((response) => {
+        if (response.status === 404) {
+          console.log(`${installation.account.login} is missing open-sauced-goals repo, flagging to skip`)
+          checked[installation.account.login] = {
+            owner: installation.account.login,
+            notFound: true,
+            lastExecuted,
           }
-
-          const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository;
-
-          const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
-
-          item.id = id
-
-        await supabase.from('user_stars').insert({
-          id: repository.id,
-          user_id: repository.owner.id,
-          star_id: item.id,
-          repo_name: item.full_name,
-          recency_score: parsedData.indexOf(item),
-          description: description,
-          issues: open_issues,
-          stars: stargazers_count,
-          contributors: contributorNames.slice(0,2) // grab first two names only
-        })
-      }
-
-      // send parsedData to stars table
-      await supabase.from('stars').upsert(parsedData, {onConflict: "id"})
-
-        console.log(`ADDED STARS FROM: ${repository.html_url}`)
-
-      // send parsedData to supabase
-     await supabase.from('users')
-      .upsert({id: repository.owner.id, stars_data: starsData,
-        open_issues: repository.open_issues, private: repository.private}, {
-          onConflict:
-          'id'
-        })
-
-      console.log(`ADDED USER FROM: ${repository.owner.login}`)
-
-        checked[repository.owner.login] = {
-          owner: repository.owner.login,
-          lastExecuted,
+        } else {
+          console.log(`Error getting repo installation for ${installation.account.login}`, response.toString())
         }
 
-        resolve(checked[repository.owner.login]);
-      } catch (err) {
-        console.log(`ERROR: ${err}`)
-        console.log(`SKIPPED: ${repository.html_url}`)
-        reject(err);
-      }
-    }));
+        return false
+      })
+
+    // if installation exists we proceed towards parsing
+    if (installationExists) {
+      const octokit = await app.getInstallationOctokit(installation.id);
+
+      const {data: repository} = await octokit.rest.repos.get({
+        owner: installation.account.login,
+        repo: 'open-sauced-goals',
+      }).catch((err) => {
+        console.log(`${installation.account.login} open-sauced-goals: ${err}`)
+        return {data: null}
+      })
+
+      const {data} = await octokit.rest.repos.getContent({
+        owner: installation.account.login,
+        repo: 'open-sauced-goals',
+        path: 'stars.json'
+      }).catch((err) => {
+        console.log(`${installation.account.login} stars.json: ${err}`)
+        return {data: {content: btoa("[]")}}
+      })
+
+      // convert from base64 to parseable JSON
+      const content = Buffer.from(data.content, "base64").toString()
+      const parsedData = JSON.parse(content);
+      const starsData = data.content.length > 0
+
+      parseData.push({
+        installation,
+        parsedData,
+        starsData,
+        repository,
+      })
+    }
   }
 
-  await Promise.all(promises);
+  consoleHeader('Parsing stars');
+  console.log(`Existing installation queue was ${parseInstallations.length}`)
+  console.log(`Attempting to parse ${parseData.length} users out of ${limitUsers} process.env.LIMIT_USERS`)
 
-  // write to file and commit block
-  await writeFile('./populate-the-supabase/cron.json', JSON.stringify({
-    lastExecuted,
-    checked
-  }, null, 2))
+  await Promise.all(
+    parseData.map(async ({installation, parsedData, starsData, repository}) =>
+      new Promise(async (resolve, reject) => {
+        try {
+          console.log(`Processing installation #${installation.id}, ${installation.account.login} stars.json`)
+          const octokit = await app.getInstallationOctokit(installation.id);
+
+          // update data with repo id
+          for await (const item of parsedData) {
+            const [owner, repo] = item.full_name.split("/")
+            const currentRepoResponse = await octokit.rest.repos.get({owner, repo})
+              .catch((err) => {
+                return {errors: [err]}
+              })
+
+            if (currentRepoResponse.errors && currentRepoResponse.errors.length > 0) {
+              console.log(`ERROR for ${owner}/${repo}`, currentRepoResponse.errors)
+              // reject(currentRepoResponse.errors)
+              continue
+            }
+
+            const {
+              id,
+              stargazers_count,
+              description,
+              open_issues,
+            } = currentRepoResponse.data
+
+            const {data, errors} = await api.persistedRepoDataFetch({owner, repo})
+
+            if (errors && errors.length > 0) {
+              console.log(`ERROR for ${owner}/${repo}`, errors)
+              // reject(errors)
+              continue
+            }
+
+            if (
+              data.gitHub.repositoryOwner === null
+              || typeof data.gitHub.repositoryOwner.repository !== "object"
+            ) {
+              console.log(`ERROR for ${owner}/${repo}`, "No owner")
+              // reject("No owner")
+              continue
+            }
+
+            const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository;
+
+            const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
+
+            item.id = id
+
+            const userStars = {
+              id: repository.id,
+              user_id: installation.account.id,
+              star_id: item.id,
+              repo_name: item.full_name,
+              recency_score: parsedData.indexOf(item),
+              description: description,
+              issues: open_issues,
+              stars: stargazers_count,
+              contributors: contributorNames.slice(0,2) // grab first two names only
+            };
+
+            await supabase
+              .from('user_stars')
+              .insert(userStars)
+          }
+
+          // send parsedData to stars table
+          await supabase
+            .from('stars')
+            .upsert(parsedData, {
+              onConflict: "id"
+            })
+
+          console.log(`ADDED STARS FROM: ${installation.account.login}`)
+
+          // send parsedData to supabase
+          supabase
+            .from('users')
+            .upsert({
+              id: installation.account.id,
+              stars_data: starsData,
+              open_issues: repository.open_issues_count,
+              private: repository.private,
+            }, {
+              onConflict: "id"
+            })
+
+          checked[installation.account.login] = {
+            owner: installation.account.login,
+            notFound: false,
+            lastExecuted,
+          }
+
+          resolve(checked[installation.account.login]);
+        } catch (err) {
+          console.log(`UNEXPECTED ERROR: ${err}`)
+          console.log(`SKIPPED: ${installation.account.login}`)
+          reject(err);
+        }
+      })
+    )
+  )
+
+  // check whether we have new data to cache
+  consoleHeader('Versioning changes');
+  if (Object.keys(checked).length > Object.keys(cron.checked).length) {
+    console.log('cron.json cached users: ', Object.keys(cron.checked).length);
+    console.log('cron.json parsed users: ', Object.keys(checked).length - Object.keys(cron.checked).length);
+
+    // write to file and commit block
+    await writeFile('./populate-the-supabase/cron.json', JSON.stringify({
+      lastExecuted,
+      checked
+    }, null, 2))
+    console.log('Wrote changes to cron.json, make sure to commit this file');
+  } else {
+    console.log('Nothing to commit to cron.json');
+  }
+
+  consoleHeader('Finished');
 }
 
-run()
+await run()
