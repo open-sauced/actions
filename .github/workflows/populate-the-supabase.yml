@@ -30,8 +30,8 @@ jobs:
           OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          LIMIT_DAYS: 7
-          LIMIT_USERS: 3
+          LIMIT_DAYS: 2
+          LIMIT_USERS: 5
 
       - name: "🚀 Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v4
