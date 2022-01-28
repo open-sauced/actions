@@ -6,8 +6,10 @@
   "type": "module",
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
-    "supabase": "node --experimental-json-modules ./populate-the-supabase/action.js",
-    "supabase:dev": "node --experimental-json-modules -r dotenv/config ./populate-the-supabase/action.js"
+    "populate": "node --experimental-json-modules ./hot-supabase/populate.js",
+    "populate:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/populate.js",
+    "seed": "node --experimental-json-modules ./hot-supabase/seed.js",
+    "seed:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/seed.js"
   },
   "repository": {
     "type": "git",
@@ -21,14 +23,16 @@
   },
   "homepage": "https://github.com/open-sauced/actions#readme",
   "dependencies": {
-    "@supabase/supabase-js": "^1.29.3",
+    "@antfu/utils": "^0.5.0",
+    "@supabase/supabase-js": "^1.29.4",
     "cfonts": "^2.10.0",
+    "csv-stringify": "^6.0.5",
     "node-fetch": "^3.2.0",
     "octokit": "^1.7.1"
   },
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^14.2.0"
+    "dotenv": "^14.3.2"
   }
 }

@@ -1,15 +1,13 @@
 import { App } from 'octokit'
-import { createClient } from '@supabase/supabase-js'
 import { writeFile } from 'node:fs/promises'
 
+import { supabase } from './lib/supabase.js'
 import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
 import consoleHeader from './lib/consoleHeader.js'
 import cron from './cron.json'
 
-const anon_key = process.env.SUPABASE_ANON_KEY
-const supabaseUrl = process.env.SUPABASE_URL
-const limitDays = parseInt(process.env.LIMIT_DAYS) || 2
+const limitDays = parseInt(process.env.LIMIT_DAYS) || 1
 let limitUsers = parseInt(process.env.LIMIT_USERS) || 5
 const checked = {...cron.checked}
 const lastExecuted = new Date()
@@ -17,9 +15,9 @@ const parsedCache = {}
 const parseInstallations = []
 const parseData = []
 
-consoleHeader('OPEN SAUCED', {
+consoleHeader(' OPEN |SAUCED', {
   font: 'block',
-});
+})
 console.log(`Started execution at ${lastExecuted}`)
 
 for (const item in checked) {
@@ -33,16 +31,13 @@ for (const item in checked) {
   }
 }
 
-// Create a single supabase client for interacting with your database
-const supabase = createClient(supabaseUrl, anon_key)
-
 async function run() {
   const app = new App({
     appId: +process.env.OPEN_SAUCED_APP_ID,
     privateKey: process.env.OPEN_SAUCED_PRIVATE_KEY,
   })
 
-  consoleHeader('Parsing installations');
+  consoleHeader('Parsing installations')
   for await (const {installation} of app.eachInstallation.iterator()) {
     if (installation.account.login === 'open-sauced') {
       continue
@@ -52,16 +47,16 @@ async function run() {
     // we don't have a local commit log of checking these installations
     if (typeof parsedCache[installation.account.login] === 'undefined') {
       console.log(`${installation.account.login} is not in our cache, adding to the queue`)
-      parseInstallations.push(installation);
+      parseInstallations.push(installation)
     } else {
       // we have a local cache of this installation
-      let parsed = false;
+      let parsed = false
 
       if (
         parsedCache[installation.account.login].offsetDays >= limitDays
       ) {
-        parseInstallations.push(installation);
-        parsed = true;
+        parseInstallations.push(installation)
+        parsed = true
       }
 
       console.log(`${installation.account.login} has been checked ${
@@ -100,7 +95,7 @@ async function run() {
 
     // if installation exists we proceed towards parsing
     if (installationExists) {
-      const octokit = await app.getInstallationOctokit(installation.id);
+      const octokit = await app.getInstallationOctokit(installation.id)
 
       const {data: repository} = await octokit.rest.repos.get({
         owner: installation.account.login,
@@ -121,7 +116,7 @@ async function run() {
 
       // convert from base64 to parseable JSON
       const content = Buffer.from(data.content, "base64").toString()
-      const parsedData = JSON.parse(content);
+      const parsedData = JSON.parse(content)
       const starsData = data.content.length > 0
 
       parseData.push({
@@ -133,7 +128,7 @@ async function run() {
     }
   }
 
-  consoleHeader('Parsing stars');
+  consoleHeader('Parsing stars')
   console.log(`Existing installation queue was ${parseInstallations.length}`)
   console.log(`Attempting to parse ${parseData.length} users out of ${limitUsers} process.env.LIMIT_USERS`)
 
@@ -142,7 +137,7 @@ async function run() {
       new Promise(async (resolve, reject) => {
         try {
           console.log(`Processing installation #${installation.id}, ${installation.account.login} stars.json`)
-          const octokit = await app.getInstallationOctokit(installation.id);
+          const octokit = await app.getInstallationOctokit(installation.id)
 
           // update data with repo id
           for await (const item of parsedData) {
@@ -182,7 +177,7 @@ async function run() {
               continue
             }
 
-            const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository;
+            const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository
 
             const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
 
@@ -198,7 +193,7 @@ async function run() {
               issues: open_issues,
               stars: stargazers_count,
               contributors: contributorNames.slice(0,2) // grab first two names only
-            };
+            }
 
             await supabase
               .from('user_stars')
@@ -232,33 +227,33 @@ async function run() {
             lastExecuted,
           }
 
-          resolve(checked[installation.account.login]);
+          resolve(checked[installation.account.login])
         } catch (err) {
           console.log(`UNEXPECTED ERROR: ${err}`)
           console.log(`SKIPPED: ${installation.account.login}`)
-          reject(err);
+          reject(err)
         }
       })
     )
   )
 
   // check whether we have new data to cache
-  consoleHeader('Versioning changes');
-  if (Object.keys(checked).length > Object.keys(cron.checked).length) {
-    console.log('cron.json cached users: ', Object.keys(cron.checked).length);
-    console.log('cron.json parsed users: ', Object.keys(checked).length - Object.keys(cron.checked).length);
+  consoleHeader('Versioning changes')
+  if (parseData.length > 0) {
+    console.log('cron.json cached users: ', Object.keys(cron.checked).length)
+    console.log('cron.json parsed users: ', parseData.length)
 
     // write to file and commit block
-    await writeFile('./populate-the-supabase/cron.json', JSON.stringify({
+    await writeFile('./src/cron.json', JSON.stringify({
       lastExecuted,
       checked
     }, null, 2))
-    console.log('Wrote changes to cron.json, make sure to commit this file');
+    console.log('Wrote changes to cron.json, make sure to commit this file')
   } else {
-    console.log('Nothing to commit to cron.json');
+    console.log('Nothing to commit to cron.json')
   }
 
-  consoleHeader('Finished');
+  consoleHeader('Finished')
 }
 
 await run()
