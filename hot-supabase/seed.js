@@ -71,9 +71,9 @@ async function run() {
       return supaDump('./seed/', table, Object.keys(rows[0]), rows)
     })
 
-  consoleHeader('Versioning changes')
-  await supaSeed(seeds)
-  console.log('Wrote changes to supabase/seed.sql, make sure to commit this file')
+  // consoleHeader('Versioning changes')
+  // await supaSeed(seeds)
+  // console.log('Wrote changes to supabase/seed.sql, make sure to commit this file')
 
   consoleHeader('Finished')
 }

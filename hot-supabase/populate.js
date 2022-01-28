@@ -244,7 +244,7 @@ async function run() {
     console.log('cron.json parsed users: ', parseData.length)
 
     // write to file and commit block
-    await writeFile('./src/cron.json', JSON.stringify({
+    await writeFile('./hot-supabase/cron.json', JSON.stringify({
       lastExecuted,
       checked
     }, null, 2))
