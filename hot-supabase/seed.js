@@ -1,6 +1,6 @@
-import {p} from '@antfu/utils'
+import { p } from '@antfu/utils'
 
-import {supabase, supaCount, supaDump, supaSeed} from './lib/supabase.js';
+import { supabase, supaCount, supaDump, supaSeed } from './lib/supabase.js';
 import consoleHeader from "./lib/consoleHeader.js";
 
 const lastExecuted = new Date()
