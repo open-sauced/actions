@@ -1,4 +1,45 @@
 {
-  "lastExecuted": "2022-01-17T22:26:18.356Z",
-  "checked": {}
+  "lastExecuted": "2022-02-02T23:06:26.989Z",
+  "checked": {
+    "bmilagre": {
+      "owner": "bmilagre",
+      "notFound": true,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "BboyAkers": {
+      "owner": "BboyAkers",
+      "notFound": true,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "mlagatuz": {
+      "owner": "mlagatuz",
+      "notFound": true,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "carrollsa": {
+      "owner": "carrollsa",
+      "notFound": false,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "pac96": {
+      "owner": "pac96",
+      "notFound": false,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "msradam": {
+      "owner": "msradam",
+      "notFound": false,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "djdefi": {
+      "owner": "djdefi",
+      "notFound": false,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    },
+    "BenjaminMichaelis": {
+      "owner": "BenjaminMichaelis",
+      "notFound": false,
+      "lastExecuted": "2022-02-02T23:06:26.989Z"
+    }
+  }
 }
