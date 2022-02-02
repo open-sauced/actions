@@ -1,16 +1,16 @@
-name: Populate the Supabase
+name: Seed the Supabase
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '42 */2 * * *'
   workflow_dispatch:
 
 concurrency:
   group: supabase-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
-  populate-the-supabase:
-    name: run populate-the-supabase
+  seed-the-supabase:
+    name: run seed-the-supabase
     runs-on: ubuntu-latest
     steps:
       - name: "☁️ checkout repository"
@@ -27,20 +27,16 @@ jobs:
       - name: "📦 install dependencies"
         uses: bahmutov/npm-install@v1
 
-      - name: "🔍 populate supabase"
-        run: npm run populate
+      - name: "🔍 seed supabase"
+        run: npm run seed
         env:
-          OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
-          OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          LIMIT_DAYS: 1
-          LIMIT_USERS: 5
 
       - name: "🚀 Commit changes"
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          file_pattern: ./hot-supabase/*.json
-          commit_message: "chore: update supabase data [skip ci]"
+          file_pattern: ./hot-supabase/seed/
+          commit_message: "chore: seed supabase data [skip ci]"
           commit_user_name: open-sauced[bot]
           commit_user_email: 63161813+open-sauced[bot]@users.noreply.github.com
