@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T10:43:28.808Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T12:49:49.010Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1058,18 +1058,18 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (387461746, 1049, 58392246, 'muhammaddzaky/mhdraihandzaky.github.io', 22, 'Hello Teman Teman Belajar Html Atau Dasar Desinger', 0, 1, ['muhammaddzaky']),
 (387113590, 1050, 58392246, 'muhammaddzaky/ipinfo-python', 23, 'IPinfo IPinfo Python Client Library', 0, 1, ['muhammaddzaky']),
 (388022569, 1051, 58392246, 'muhammaddzaky/zuramai', 24, null, 0, 1, ['zuramai']),
+(387114155, 1052, 58392246, 'muhammaddzaky/script', 25, 'script', 0, 1, ['muhammaddzaky']),
 (390224428, 1053, 58392246, 'muhammaddzaky/smamuhamamddiyah.github.io', 26, null, 0, 1, ['muhammaddzaky']),
 (379769983, 1054, 58392246, 'Dzaky-official/MhdraihandzakySaragih', 27, null, 0, 1, ['muhammaddzaky']),
-(387114155, 1052, 58392246, 'muhammaddzaky/script', 25, 'script', 0, 1, ['muhammaddzaky']),
+(322785065, 1055, 58392246, 'advanced-rest-client/arc-settings', 28, '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', 0, 2, ['jarrodek','arcauto']),
 (373681744, 1056, 58392246, 'muhammaddzaky/project-kalian', 29, 'Hello', 0, 1, ['muhammaddzaky']),
+(402189545, 1057, 59651629, 'juntossomosmais/frontend-guideline', 0, '📝 Front-end Guideline by Juntos Somos Mais', 1, 954, ['felipefialho','hick97']),
 (258994492, 1058, 59651629, 'HarshCasper/Data-Structures', 1, 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', 0, 9, ['HarshCasper']),
 (240786294, 1059, 59651629, 'HarshCasper/Rotten-Scripts', 2, 'Scripts that will make you go WOW 😍💻 ', 27, 897, ['HarshCasper','vybhav72954']),
 (345922282, 1060, 59651629, 'Saul-Mirone/milkdown', 3, '🍼 Plugin driven WYSIWYG  markdown editor framework.', 8, 5108, ['Saul-Mirone','xiadd']),
 (21911597, 1061, 59651629, 'tayllan/awesome-algorithms', 4, 'A curated list of awesome places to learn and/or practice algorithms.', 1, 10609, ['tayllan','mostafatouny']),
 (85077558, 1062, 59651629, 'kamranahmedse/developer-roadmap', 5, 'Roadmap to becoming a developer in 2021', 89, 181474, ['kamranahmedse','eihabkhan']),
 (88011908, 1063, 59651629, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 28, 60353, ['tuvtran','sayands']),
-(322785065, 1055, 58392246, 'advanced-rest-client/arc-settings', 28, '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', 0, 2, ['jarrodek','arcauto']),
-(402189545, 1057, 59651629, 'juntossomosmais/frontend-guideline', 0, '📝 Front-end Guideline by Juntos Somos Mais', 1, 954, ['felipefialho','hick97']),
 (404324019, 1064, 59651629, 'arpit456jain/Getting-Started-with-open-source', 7, 'step by step guide for beginners for getting started with open source ', 3, 43, ['arpit456jain','astha2412']),
 (273839530, 1065, 59651629, 'Python-World/python-mini-projects', 8, 'A collection of simple python mini projects to enhance your python skills', 41, 8692, ['AdityaJ7','chavarera']),
 (210332258, 1066, 59651629, 'hasura/learn-graphql', 9, 'Real world GraphQL tutorials for frontend developers with deadlines!', 19, 798, ['praveenweb','Yagger']),
