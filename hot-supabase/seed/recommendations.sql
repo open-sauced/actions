@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-02T23:09:22.013Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T01:01:32.810Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2921,9 +2921,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (319742187, 'mdn/translated-content', 472, 245, 'All translated MDN content in raw form', ['mfuji09','SphinxKnight'], 1, 0, 0),
 (319935795, 'zawad2221/Twitter-Django-Bot', 8, 0, 'Twitter Bot who like and retweet #django #python. ', ['zawad2221'], 1, 12, 0),
 (320016849, 'udberg/MGF-Conference-Page', 7, 0, 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ['udberg'], 1, 5, 0),
+(320029758, 'lokeshn011101/nextjs-tailwind-starter', 1, 0, 'A Next.js-Tailwind starter', ['lokeshn011101'], 1, 17, 0),
 (320073577, 'discord/focus-rings', 987, 2, 'A centralized system for displaying and stylizing focus indicators anywhere on a webpage.', ['faultyserver','aweary'], 1, 19, 0),
 (320142424, 'rern/rAudio-1', 92, 1, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', ['rern'], 1, 5, 0),
-(320029758, 'lokeshn011101/nextjs-tailwind-starter', 1, 0, 'A Next.js-Tailwind starter', ['lokeshn011101'], 1, 17, 0),
 (320198472, 'brokorus/terraform-azure-keyvault-tfvar-generator', 1, 0, null, ['brokorus'], 1, 2, 0),
 (320365682, 'thembari/API', 2, 0, null, ['vinosamari'], 1, 20, 0),
 (320393623, 'kentcdodds/remix-kentcdodds', 923, 23, 'My personal website', ['kentcdodds','smeijer'], 1, 27, 0),
