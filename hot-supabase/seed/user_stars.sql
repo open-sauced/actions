@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T06:46:06.043Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T08:44:32.402Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -4262,6 +4262,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71359796, 445282270, 31227151, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 573, ['bdougie','0-vortex']),
 (426820139, 447732936, 3941856, 'open-sauced/hot', 0, '🍕The site that recommends the hottest projects on GitHub.', 11, 42, ['bdougie','0-vortex']),
 (136938012, 444433367, 656318, 'vendure-ecommerce/vendure', 0, 'A headless GraphQL ecommerce framework for the modern web', 146, 3140, ['michaelbromley','Draykee']),
+(45936895, 314182635, 19350071, 'Automattic/wp-calypso', 0, 'The JavaScript and API powered WordPress.com', 3814, 11967, ['tyxla','aduth']),
+(351914021, 313760653, 3037127, 'adleong/tapshark', 0, null, 0, 17, ['adleong']),
+(326404870, 278088103, 5467696, 'SigNoz/signoz', 0, 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', 227, 5686, ['ankitnayan','palash-signoz']),
+(161633214, 312341626, 9935383, 'trailheadapps/lwc-recipes', 0, 'A collection of easy-to-digest code examples for Lightning Web Components on Salesforce Platform', 1, 1568, ['pozil','muenzpraeger']),
+(529502, 314317770, 4573607, 'scrapy/scrapy', 0, 'Scrapy, a fast high-level web crawling & scraping framework for Python.', 781, 42679, ['pablohoffman','dangra']),
 (3655872, 382153724, 49351279, 'vercel/ms', 0, 'Tiny millisecond conversion utility', 19, 3826, ['leo','rauchg']),
 (438410446, 425791199, 7293310, 'saitho/streamdeck-calculator', 0, 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', 7, 1, ['saitho']),
 (370470353, 402886161, 29004466, 'ViktorStiskala/tyre-energy-label', 0, 'EU tyre label generator', 0, 1, ['ViktorStiskala']),
@@ -4311,14 +4316,19 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (364474335, 352793229, 22655167, 'google/zx', 0, 'A tool for writing better scripts', 17, 27354, ['antonmedv','antongolub']),
 (214587193, 353169129, 72912813, 'supabase/supabase', 0, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 201, 27513, ['kiwicopple','MildTomato']),
 (234290189, 353272785, 46935495, 'sarthakvarshney8081/kube-cluster', 0, 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', 0, 1, ['path2himanshu']),
+(7761553, 275257239, 14043845, 'jimniels/teamcolors', 0, 'Team Colors for professional sports teams', 1, 125, ['jimniels','qwz']),
+(292835647, 311230796, 26205172, 'nuxt/image', 0, 'Optimized Images for Nuxt', 124, 559, ['pi0','farnabaz']),
 (6554957, 398824985, 49831545, 'edankwan/penis.js', 0, null, 9, 1097, ['jesseditson','edankwan']),
 (113912360, 398740147, 34394719, 'developit/microbundle', 0, '📦 Zero-configuration bundler for tiny modules.', 78, 6706, ['developit','ForsakenHarmony']),
 (15204860, 353295436, 22620727, 'papers-we-love/papers-we-love', 0, 'Papers from the computer science community to read and discuss.', 26, 52941, ['zeeshanlakhani','DarrenN']),
 (300538230, 353612066, 31478648, 'praveenscience/Hacktoberfest-Project-Ideas', 0, 'Instead of just adding your name and email, why not create a list of project ideas?', 102, 308, ['praveenscience','PranavViswanathan']),
+(275741530, 306906348, 4199845, 'fischertechnik/plc_training_factory_24v', 0, 'Training Factory Industry 4.0 (24V)', 0, 6, ['AlexanderSteiger']),
 (325571244, 422278376, 26007940, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 32, ['fanaticscripter','actions-user']),
 (401475275, 422313558, 74208843, 'powershellsupport/MarkdownRenderFW', 0, 'MarkdownRender for .NET Framework', 1, 1, ['sassdawe']),
 (127035128, 420634958, 12410942, 'Shopify/quilt', 0, 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', 98, 1153, ['lemonmade','michenly']),
 (16072585, 422280843, 289882, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 32, 17590, ['chrismccord','josevalim']),
+(395376449, 308781524, 29295102, 'flan6/ml-cv-bot', 0, 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', 0, 1, ['flan6']),
+(341721634, 259232283, 10012151, 'helins/wasm.cljc', 0, 'Spec compliant WebAssembly compiler, decompiler, and generator', 0, 154, ['helins']),
 (332861685, 361357857, 51794934, 'jeanrauwers/react-native-bootcamp', 0, 'React Native Bootcamp 2021 (completely free)', 0, 53, ['jeanrauwers']),
 (366871642, 374469734, 1228996, 'deepgram/python-sdk', 0, 'Official Python SDK for Deepgram''s automated speech recognition APIs.', 6, 6, ['frumsdotxyz','phazonoverload']),
 (207085951, 373584272, 24217493, 'hackjunction/JunctionApp', 1, 'All-in-one hackathon platform for organisers', 169, 42, ['juiceo','Earlo']),
@@ -4345,6 +4355,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (272753737, 360558767, 2808728, 'WomenWhoCode/wwcsf-algos', 0, 'Algorithms and whiteboarding interview prep for the WWCSF community', 25, 177, ['elaguerta','beginner789']),
 (71359796, 304890007, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 573, ['bdougie','0-vortex']),
 (178137889, 342917803, 68660520, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury']),
+(429658975, 208603857, 5713670, 'open-sauced/party-line', 0, null, 0, 4, ['regexident','jessmitch42']),
 (68414068, 351353449, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 31, 7457, ['bkeepers','gr2m']),
 (343965132, 418247835, 16165980, 'microsoft/ML-For-Beginners', 0, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 6, 28909, ['jlooper','softchris']),
 (428727515, 417311106, 71297412, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14']),
