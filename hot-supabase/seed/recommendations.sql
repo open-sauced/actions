@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T18:45:32.385Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T20:43:20.033Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1854,9 +1854,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (170738310, 'trustwallet/wallet-core', 1217, 14, 'Cross-platform, cross-blockchain wallet library.', ['hewigovens','alejandro-isaza'], 1, 5, 0),
 (170907813, 'victor-perez/nuxt-helmet', 174, 8, ':construction_worker: Helmet for Nuxt', ['victor-perez','doron2402'], 1, 20, 0),
 (170973676, 'devefy/Flutter-Streaming-Service-App-UI', 237, 1, null, ['devefy'], 1, 12, 0),
-(171412223, 'gr2m/twitter-together', 575, 17, ':bird: A GitHub action to tweet from a repository', ['gr2m','semantic-release-bot'], 1, 7, 0),
 (171061051, 'lostpebble/pullstate', 898, 36, 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', ['lostpebble','schummar'], 1, 6, 0),
 (171149815, 'bikenik/alfred-anki', 39, 17, 'Create New Cards into any decks with any ''Note Type''.', ['bikenik'], 1, 3, 0),
+(171412223, 'gr2m/twitter-together', 575, 17, ':bird: A GitHub action to tweet from a repository', ['gr2m','semantic-release-bot'], 1, 7, 0),
 (171563505, 'Asabeneh/JavaScript-for-Everyone', 385, 0, 'A step by step guide to learn JavaScript and programming', ['Asabeneh','engineerabdulsalam'], 1, 13, 0),
 (171564612, 'khlam/debloat-samsung-android', 163, 24, 'ADB commands to aggressively de-bloat Samsung Android Phones without root. Make Samsung One UI closer to stock Android.', ['khlam'], 1, 21, 0),
 (171566590, 'serverless-nextjs/serverless-next.js', 2995, 150, '⚡ Deploy your Next.js apps on AWS Lambda@Edge via Serverless Components', ['dphang','danielcondemarin'], 1, 15, 0),
