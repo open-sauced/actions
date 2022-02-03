@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T08:44:32.608Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T10:43:28.812Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1187,13 +1187,13 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (84238782, 'sapegin/jest-cheat-sheet', 4315, 0, 'Jest cheat sheet', ['sapegin','bjoluc'], 1, 19, 0),
 (84312659, 't4t5/messengyr', 50, 0, 'A clone of Facebook Messenger. Built with Elixir + Phoenix.', ['t4t5'], 1, 2, 0),
 (84347372, 'WebThingsIO/gateway', 2499, 227, 'WebThings Gateway', ['mrstegeman','hobinjk'], 1, 28, 0),
-(84692493, 'tc39/proposal-temporal', 2080, 147, 'Provides standard objects and functions for working with dates and times.', ['ptomato','Ms2ger'], 1, 26, 0),
 (84829308, 'stacktecnologias/stack-repo', 255, 1, 'Repositório para armazenamento de código e notebooks de postagens do blog e cursos.', ['stacktecnologias','jmcabreira'], 1, 26, 0),
 (85031126, 'ivbeg/awesome-status-pages', 1080, 0, 'Awesome list of status page open source software, services and public status pages of major internet companies', ['ivbeg','mynameismax'], 1, 7, 0),
 (85031442, 'poteto/hiring-without-whiteboards', 25556, 42, '⭐️  Companies that don''t have a broken hiring process', ['poteto','abdusabri'], 1, 6, 0),
 (85039965, 'litmuschaos/litmus', 2391, 244, 'Litmus helps  SREs and developers practice chaos engineering in a Cloud-native way. Chaos experiments are published at the ChaosHub  (https://hub.litmuschaos.io). Community notes is at https://hackmd.io/a4Zu_sH4TZGeih-xCimi3Q', ['ksatchit','rajdas98'], 2, 9, 0),
 (85077558, 'kamranahmedse/developer-roadmap', 181474, 89, 'Roadmap to becoming a developer in 2021', ['kamranahmedse','eihabkhan'], 1, 5, 1),
 (85325902, 'ikatyang/emoji-cheat-sheet', 5990, 27, 'A markdown version emoji cheat sheet', ['renovate-bot','ikatyang'], 1, 6, 0),
+(84692493, 'tc39/proposal-temporal', 2080, 147, 'Provides standard objects and functions for working with dates and times.', ['ptomato','Ms2ger'], 1, 26, 0),
 (85371262, 'williamfiset/Algorithms', 11589, 73, 'A collection of algorithms and data structures', ['williamfiset','micahstairs'], 1, 10, 0),
 (85386965, 'acekyd/made-in-nigeria', 584, 10, 'It is rumored that Nigerians only know how to consume tools and not create them. Here is a curation of awesome tools built by Nigerians that can be used by anybody and from anywhere in the world.', ['acekyd','whizkydee'], 1, 18, 0),
 (85427974, 'colinstein/Brainfuck', 1, 0, 'A Brianfuck interpreter written in ruby', ['colinstein'], 1, 25, 0),
@@ -1201,8 +1201,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (86115145, 'astorfi/TensorFlow-World', 4529, 3, ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', ['astorfi','hadikazemi'], 1, 25, 0),
 (86370198, 'mechero/spring-boot-testing-strategies', 306, 0, 'Sample project demonstrating different Test Strategies that can be followed when using Spring Boot.', ['mechero'], 1, 17, 0),
 (86491149, 'ChromeDevTools/devtools-protocol', 707, 13, 'Chrome DevTools Protocol', ['devtools-bot','paulirish'], 1, 21, 0),
-(86679721, 'sindresorhus/quick-lru', 441, 2, 'Simple “Least Recently Used” (LRU) cache', ['sindresorhus','javi11'], 1, 4, 0),
-(86756976, 'dnote/dnote', 2194, 58, 'A simple command line notebook for programmers', ['sungwoncho','monomaxbot'], 1, 6, 0),
 (86764843, 'ruby/date', 39, 3, 'A subclass of Object includes Comparable module for handling dates.', ['nobu','hsbt'], 1, 22, 0),
 (86894350, 'Idnan/bash-guide', 10527, 24, 'A guide to learn bash', ['omergulen','gibatronic'], 1, 20, 0),
 (86981224, 'maximegris/angular-electron', 4918, 7, 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', ['maximegris','whyboris'], 1, 3, 0),
@@ -1220,6 +1218,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (88475372, 'nin-jin/slides', 99, 0, 'Мои слайды для конференций', ['nin-jin','nin--jin'], 1, 4, 0),
 (88674404, 'GoogleContainerTools/distroless', 11526, 91, '🥑  Language focused docker images, minus the operating system.  ', ['loosebazooka','chanseokoh'], 1, 15, 0),
 (88741624, 'goabstract/Marketing-for-Engineers', 11859, 20, 'A curated collection of marketing articles & tools to grow your product. ', ['LisaDziuba','Geek-1001'], 1, 28, 0),
+(86679721, 'sindresorhus/quick-lru', 441, 2, 'Simple “Least Recently Used” (LRU) cache', ['sindresorhus','javi11'], 1, 4, 0),
+(86756976, 'dnote/dnote', 2194, 58, 'A simple command line notebook for programmers', ['sungwoncho','monomaxbot'], 1, 6, 0),
 (88760614, 'automerge/automerge', 11839, 69, 'A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.', ['ept','orionz'], 1, 6, 0),
 (88897663, 'Shopify/polaris-react', 4419, 377, 'Shopify’s admin product component library', ['AndrewMusgrave','BPScott'], 1, 22, 0),
 (88905488, 'ShangtongZhang/DeepRL', 2640, 5, 'Modularized Implementation of Deep RL Algorithms in PyTorch', ['ShangtongZhang','wassname'], 1, 29, 0),

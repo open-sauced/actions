@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T08:44:32.174Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T10:43:28.557Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2482,8 +2482,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (4, 125, 5, 'mjackson/rollup-plugin-url-resolve', 191302278),
 (8, 95, 0, 'theredditbandit/awesome-cybersec', 374067908),
 (197, 1315, 3, 'hosseinmoein/DataFrame', 108669343),
-(99, 940, 6, 'Defi-Cartel/salmonella', 349376361),
 (37, 268, 0, 'bennycode/trading-signals', 267563398),
+(99, 940, 6, 'Defi-Cartel/salmonella', 349376361),
 (25, 96, 4, 'thanhnguyennguyen/trading-indicator', 237114405),
 (64, 387, 14, 'TulipCharts/tulipnode', 76993879),
 (39, 109, 3, 'szferguson/Binance-Trailing-Stop-Loss', 127493242),
@@ -2732,8 +2732,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (8, 30, 2, 'lislis/workshop-rust-games', 212644970),
 (0, 1, 2, 'anton164/boatmobile-nodeboats-jsconf2019', 202672524),
 (5, 29, 7, 'PanoptikumIO/pan', 67985685),
-(1, 2, 2, 'RubyHabits/ruby-habits-library', 60201474),
 (1, 2, 0, 'RubyStarters/RubyStarters.github.io', 45103523),
+(1, 2, 2, 'RubyHabits/ruby-habits-library', 60201474),
 (1051, 6181, 13, 'rubocop/rails-style-guide', 2454047),
 (16, 18, 24, 'where2help/where2help', 44002833),
 (0, 1, 2, 'TeamTessie/tessietodo-static', 38612708),
@@ -3180,8 +3180,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (33, 396, 26, 'timoxley/columnify', 15185110),
 (567, 1759, 0, 'kunal-kushwaha/Competitive-Programming-Resources', 286448779),
 (553, 3394, 154, 'securingsincity/react-ace', 27292141),
-(3399, 6135, 34, 'kunal-kushwaha/DSA-Bootcamp-Java', 391055597),
 (53, 69, 4, 'sameersrivastava13/Vaccine-Tracker-App', 380767610),
+(3399, 6135, 34, 'kunal-kushwaha/DSA-Bootcamp-Java', 391055597),
 (76, 28, 6, 'pankajkumarbij/easy-job-intern', 330878745),
 (2, 23, 1, 'avishmehta68710/linkedinBot', 382567662),
 (0, 1, 0, 'Lahirutech/three.js', 316676750),
