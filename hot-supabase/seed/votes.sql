@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T16:51:01.971Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T18:45:32.329Z
 -- COPY votes(voteid, created_at, github_user_id, repo_name, vote_code) FROM 'votes.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -24,8 +24,8 @@ INSERT INTO votes(voteid, created_at, github_user_id, repo_name, vote_code) VALU
 (54, '2022-01-16T20:57:00.494985+00:00', 5713670, 'vercel/hyper', '5713670-vercel/hyper'),
 (57, '2022-01-17T05:35:43.447998+00:00', 5713670, 'photonstorm/phaser', '5713670-photonstorm/phaser'),
 (60, '2022-01-17T07:16:40.352999+00:00', 5713670, 'golang/go', '5713670-golang/go'),
-(64, '2022-01-17T22:42:21.64514+00:00', 16826624, 'supabase/supabase', '16826624-supabase/supabase'),
 (61, '2022-01-17T07:24:18.452165+00:00', 5713670, 'open-sauced/hot', '5713670-open-sauced/hot'),
+(64, '2022-01-17T22:42:21.64514+00:00', 16826624, 'supabase/supabase', '16826624-supabase/supabase'),
 (67, '2022-01-17T22:42:32.01327+00:00', 16826624, 'MunGell/awesome-for-beginners', '16826624-MunGell/awesome-for-beginners'),
 (70, '2022-01-18T18:22:32.005557+00:00', 62628408, 'open-sauced/hot', '62628408-open-sauced/hot'),
 (71, '2022-01-18T19:59:10.341079+00:00', 44076215, 'open-sauced/hot', '44076215-open-sauced/hot'),
