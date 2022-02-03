@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T20:43:20.264Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T22:43:24.093Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2148,8 +2148,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1, 3, 0, 'jatinderji/StudentMS', 201438745),
 (251, 307, 102, 'praveenscience/Hacktoberfest-Project-Ideas', 300538230),
 (0, 1, 0, 'abdamah/SpringBoot2SecurityJwt', 396178107),
-(0, 3, 0, 'jbagaresgaray/ionic-react-coffee-vending-app', 384389481),
 (2, 5, 1, 'naturalnat/symptoms-client', 388180308),
+(0, 3, 0, 'jbagaresgaray/ionic-react-coffee-vending-app', 384389481),
 (0, 1, 0, 'Rosh3639/tsf', 395315972),
 (1, 7, 0, 'gaelgthomas/prisma-sqlite-example', 393811607),
 (894, 16620, 21, 'pmndrs/react-three-fiber', 172521926),
