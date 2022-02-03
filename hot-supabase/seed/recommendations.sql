@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T02:46:32.136Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T04:47:13.218Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -994,8 +994,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (64700934, 'OpenZeppelin/openzeppelin-contracts', 14464, 97, 'OpenZeppelin Contracts is a library for secure smart contract development.', ['frangio','nventuro'], 1, 24, 0),
 (64782550, 'indiegogo/apple-pay-js-stubs', 39, 1, 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', ['glentregoning','julianguyen'], 1, 27, 0),
 (64877453, 'paypal/paypal-checkout-components', 1024, 36, 'Javascript Integration for PayPal Button and PayPal Checkout', ['bluepnume','gregjopa'], 1, 25, 0),
-(64889181, 'jmtyszka/bidskit', 49, 13, 'Utility functions for working with DICOM and BIDS neuroimaging data', ['jmtyszka','nair-r'], 1, 7, 0),
 (65089884, 'jonschlinkert/dry', 60, 2, 'Dry is a new template engine and language, and is a superset of Shopify''s Liquid, with first-class support for advanced inheritance features, and more. From the creators of Enquirer, Assemble, Remarkable, and Micromatch.', ['jonschlinkert'], 1, 3, 0),
+(64889181, 'jmtyszka/bidskit', 49, 13, 'Utility functions for working with DICOM and BIDS neuroimaging data', ['jmtyszka','nair-r'], 1, 7, 0),
 (65144724, 'metakirby5/codi.vim', 2465, 42, ':notebook_with_decorative_cover: The interactive scratchpad for hackers.', ['metakirby5','still-dreaming-1'], 1, 11, 0),
 (65626639, 'freeman-lab/pixel-grid', 182, 3, 'render a grid of small squares', ['freeman-lab','joehand'], 1, 24, 0),
 (65678789, 'FormidableLabs/webpack-dashboard', 13847, 32, 'A CLI dashboard for webpack dev server', ['kenwheeler','ryan-roemer'], 1, 12, 0),
