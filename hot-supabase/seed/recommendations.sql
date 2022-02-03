@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T14:43:24.812Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T16:51:02.336Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2987,8 +2987,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (328831244, 'ibraheemdev/modern-unix', 18508, 57, 'A collection of modern/faster/saner alternatives to common unix commands.', ['ibraheemdev','hderms'], 1, 3, 0),
 (328887233, 'EugeCos/stylish-sidebar', 8, 0, 'An open source, production-ready React sidebar component that can be quickly implemented into any desktop dashboard.', ['EugeCos'], 1, 8, 0),
 (328981878, 'udberg/NearbyRestaurants', 1, 0, 'This project showcases a Telegram bot that helps you check for the restaurants closest to you.', ['udberg'], 1, 8, 0),
-(329025126, 'keithtelliott/FlipAgain', 4, 6, 'Flashcard app', ['keithtelliott','jtoar'], 1, 3, 0),
 (329140702, 'enochndika/kimia-UI', 237, 1, 'A collection of UI Components  for React built with Tailwind CSS 3', ['enochndika'], 1, 5, 0),
+(329025126, 'keithtelliott/FlipAgain', 4, 6, 'Flashcard app', ['keithtelliott','jtoar'], 1, 3, 0),
 (329252220, 'udberg/Dr-Robot', 4, 0, 'A Twitter bot that tracks tweets about Coronavirus, suggests the nearby hospitals, the most common symptoms of it, and the number of cases in five countries including Nigeria, South Africa, Cameroun, Rwanda, and Kenya.', ['udberg','abeidahmed'], 1, 9, 0),
 (330032932, 'MattMarquise/Wondrous-Theme', 2, 0, 'Theme template inspired by Superhuman site', ['MattMarquise'], 1, 22, 0),
 (330168809, 'domitriusclark/mdnext-blog', 5, 0, null, [], 1, 1, 0),
