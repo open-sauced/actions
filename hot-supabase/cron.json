@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-02-03T03:14:48.913Z",
+  "lastExecuted": "2022-02-03T03:26:16.462Z",
   "checked": {
     "bmilagre": {
       "owner": "bmilagre",
@@ -645,6 +645,36 @@
       "owner": "ThomasErhel",
       "notFound": false,
       "lastExecuted": "2022-02-03T03:14:48.913Z"
+    },
+    "lucywheel": {
+      "owner": "lucywheel",
+      "notFound": true,
+      "lastExecuted": "2022-02-03T03:26:16.462Z"
+    },
+    "TriStanNtn": {
+      "owner": "TriStanNtn",
+      "notFound": false,
+      "lastExecuted": "2022-02-03T03:26:16.462Z"
+    },
+    "teezzan": {
+      "owner": "teezzan",
+      "notFound": false,
+      "lastExecuted": "2022-02-03T03:26:16.462Z"
+    },
+    "nobalpha": {
+      "owner": "nobalpha",
+      "notFound": false,
+      "lastExecuted": "2022-02-03T03:26:16.462Z"
+    },
+    "BolajiAyodeji": {
+      "owner": "BolajiAyodeji",
+      "notFound": false,
+      "lastExecuted": "2022-02-03T03:26:16.462Z"
+    },
+    "Borrus-sudo": {
+      "owner": "Borrus-sudo",
+      "notFound": false,
+      "lastExecuted": "2022-02-03T03:26:16.462Z"
     }
   }
 }
