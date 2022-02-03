@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T12:49:48.851Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T14:43:24.812Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1550,8 +1550,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (128565937, 'iamadamdev/bypass-paywalls-chrome', 21036, 0, 'Bypass Paywalls web browser extension for Chrome and Firefox.', ['iamadamdev','iscreamcoke'], 2, 24.5, 0),
 (128604122, 'praditautama/wwwid-pwa-challenge', 5, 0, null, ['praditautama'], 1, 16, 0),
 (128778692, 'testing-library/jest-dom', 2924, 51, ':owl: Custom jest matchers to test the state of the DOM', ['gnapse','smacpherson64'], 1, 24, 0),
-(129253372, 'Parithi/Integrating-Vuforia-7-and-JPCT-AE-in-Android', 6, 3, 'This repository contains the project for rending a 3D Model (3DS, OBJ and more) supported by JPCT-AE and rendered over Vuforia 7', ['Parithi'], 1, 14, 0),
 (129062358, 'mgulener/turkiye-regex-kaliplari', 405, 3, 'Türkiye''de kullanılan bazı kalıpların regex kodları', ['mgulener','ooguz'], 1, 7, 0),
+(129253372, 'Parithi/Integrating-Vuforia-7-and-JPCT-AE-in-Android', 6, 3, 'This repository contains the project for rending a 3D Model (3DS, OBJ and more) supported by JPCT-AE and rendered over Vuforia 7', ['Parithi'], 1, 14, 0),
 (129313877, 'woubuc/sweep', 141, 16, 'Reduce the disk usage of your projects by removing dependencies & builds', ['woubuc','Atul9'], 1, 11, 0),
 (129456680, 'altangent/ccxws', 509, 48, 'WebSocket client for 38 cryptocurrency exchanges', ['bmancini55','ejfrancis'], 1, 21, 0),
 (129543408, 'witchard/tutorial-react-parcel-express', 38, 0, 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', ['witchard','aronhoyer'], 1, 6, 0),

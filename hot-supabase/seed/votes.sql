@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T12:49:48.374Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T14:43:24.316Z
 -- COPY votes(voteid, created_at, github_user_id, repo_name, vote_code) FROM 'votes.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -26,6 +26,7 @@ INSERT INTO votes(voteid, created_at, github_user_id, repo_name, vote_code) VALU
 (60, '2022-01-17T07:16:40.352999+00:00', 5713670, 'golang/go', '5713670-golang/go'),
 (61, '2022-01-17T07:24:18.452165+00:00', 5713670, 'open-sauced/hot', '5713670-open-sauced/hot'),
 (64, '2022-01-17T22:42:21.64514+00:00', 16826624, 'supabase/supabase', '16826624-supabase/supabase'),
+(67, '2022-01-17T22:42:32.01327+00:00', 16826624, 'MunGell/awesome-for-beginners', '16826624-MunGell/awesome-for-beginners'),
 (70, '2022-01-18T18:22:32.005557+00:00', 62628408, 'open-sauced/hot', '62628408-open-sauced/hot'),
 (71, '2022-01-18T19:59:10.341079+00:00', 44076215, 'open-sauced/hot', '44076215-open-sauced/hot'),
 (73, '2022-01-18T20:01:27.390085+00:00', 44076215, 'flutter/flutter', '44076215-flutter/flutter'),
@@ -43,6 +44,5 @@ INSERT INTO votes(voteid, created_at, github_user_id, repo_name, vote_code) VALU
 (92, '2022-01-20T00:16:30.283986+00:00', 11777161, 'microsoft/vscode', '11777161-microsoft/vscode'),
 (93, '2022-01-23T23:07:38.899855+00:00', 14043845, 'open-sauced/hot', '14043845-open-sauced/hot'),
 (94, '2022-01-23T23:07:41.135137+00:00', 14043845, 'supabase/supabase', '14043845-supabase/supabase'),
-(67, '2022-01-17T22:42:32.01327+00:00', 16826624, 'MunGell/awesome-for-beginners', '16826624-MunGell/awesome-for-beginners'),
 (95, '2022-01-24T04:23:33.106499+00:00', 5713670, 'microsoft/vscode', '5713670-microsoft/vscode'),
 (97, '2022-01-25T14:22:30.051256+00:00', 5713670, 'supabase/supabase', '5713670-supabase/supabase');
