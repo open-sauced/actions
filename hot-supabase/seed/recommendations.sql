@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T02:43:19.339Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T04:43:31.697Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -609,10 +609,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (29028775, 'facebook/react-native', 100073, 2176, 'A framework for building native applications using React', ['shergin','mdvacca'], 2, 17.5, 0),
 (29102367, 'junit-team/junit5', 4936, 138, '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', ['sbrannen','marcphilipp'], 1, 23, 0),
 (29217054, 'asim/go-micro', 17390, 53, 'A framework for distributed systems development', ['asim','milosgajdos'], 1, 18, 0),
-(29227314, 'hackclub/dinosaurs', 320, 2, 'dinoooooooooos', ['maxwofford','zachlatta'], 1, 17, 0),
-(29357796, 'jbhuang0604/awesome-computer-vision', 15367, 58, 'A curated list of awesome computer vision resources', ['jbhuang0604','davidstutz'], 1, 22, 0),
 (29371034, 'micro/micro', 10808, 83, 'A distributed cloud operating system', ['asim','ben-toogood'], 1, 15, 0),
 (29420377, 'posquit0/Awesome-CV', 14988, 183, ':page_facing_up: Awesome CV is LaTeX template for your outstanding job application', ['posquit0','nitrogl'], 1, 9, 0),
+(29227314, 'hackclub/dinosaurs', 320, 2, 'dinoooooooooos', ['maxwofford','zachlatta'], 1, 17, 0),
+(29357796, 'jbhuang0604/awesome-computer-vision', 15367, 58, 'A curated list of awesome computer vision resources', ['jbhuang0604','davidstutz'], 1, 22, 0),
 (29514104, 'netlify/netlify-cms', 14793, 632, 'A Git-based CMS for Static Site Generators', ['erquhart','erezrokah'], 3, 11.666666666666666, 0),
 (29749635, 'donnemartin/data-science-ipython-notebooks', 22080, 22, 'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.', ['donnemartin','besirkurtulmus'], 1, 19, 0),
 (29994403, 'K-Phoen/rulerz', 844, 26, 'Powerful implementation of the Specification pattern in PHP', ['K-Phoen','bobdercole'], 1, 6, 0),
@@ -2843,9 +2843,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (308573793, 'testsmt/yinyang', 123, 11, 'A fuzzing framework for SMT solvers', ['wintered','muchang'], 1, 18, 0),
 (308578276, 'KalleHallden/workflow_automation', 108, 1, null, ['scaldings','KalleHallden'], 1, 18, 0),
 (308972885, 'write-the-docs-quorum/quorum-meetups', 6, 12, 'The Quorum program brings together various Write the Docs meetup chapters that are in a common time zone to provide quarterly ''super'' meetups over Zoom throughout the year. These are quarterly regional remote meetups, hence the name: QRRM.', ['barbaricyawps','shrielenee'], 1, 15, 0),
+(309068302, 'KalleHallden/NameGenRoulette', 26, 4, null, [], 1, 17, 0),
 (309212011, 'gndelia/codemod-replace-react-fc-typescript', 71, 2, 'jscodeshift''s codemod to replace React.FC when using React with Typescript', ['gndelia','liby'], 1, 18, 0),
 (309228394, 'Himujjal/libytdl', 3, 0, 'A c library for downloading YT videos written in Nim', ['Himujjal'], 1, 1, 0),
-(309068302, 'KalleHallden/NameGenRoulette', 26, 4, null, [], 1, 17, 0),
 (309305892, 'WarenGonzaga/fork-corner', 25, 7, 'A modern and global open source fork corner label for your project''s landing page.', ['WarenGonzaga','junsantilla'], 1, 23, 0),
 (310047727, 'codeSTACKr/mega-menu', 19, 0, null, ['codeSTACKr'], 1, 13, 0),
 (310064429, 'fedecalendino/spotify-data-reader', 2, 0, null, ['fedecalendino'], 1, 17, 0),
