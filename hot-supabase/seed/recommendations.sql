@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T12:46:50.563Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T14:43:28.050Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2614,8 +2614,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (274299728, 'shadowruge/futebol_screpping', 3, 3, 'webscrepping_python3', ['shadowruge'], 1, 14, 0),
 (274357906, 't-bast/lightning-docs', 100, 2, 'Some in-depth articles about the Lightning Network', ['t-bast','joostjager'], 1, 19, 0),
 (274396505, 'kevin51jiang/react-spotify-auth', 25, 3, 'Easy Spotify Authentication, written in React', ['kevin51jiang','rpeyron'], 1, 11, 0),
-(274495425, 'remotion-dev/remotion', 8844, 52, '🎥      Create videos programmatically in React', ['JonnyBurger','Iamshankhadeep'], 1, 14, 0),
 (274481422, 'bmarvinb/software-engineer-interview-questions', 266, 0, 'A lot of questions and links to prepare yourself for your next dream job interview', ['bmarvinb','veerbhadrasolanki'], 1, 22, 0),
+(274495425, 'remotion-dev/remotion', 8844, 52, '🎥      Create videos programmatically in React', ['JonnyBurger','Iamshankhadeep'], 1, 14, 0),
 (274497109, 'unsplash/datasets', 1812, 8, '🎁  3,000,000+ Unsplash images made available for research and machine learning', ['TimmyCarbone','lukechesser'], 1, 0, 0),
 (274521122, 'open-sauced/tweeps', 3, 3, null, ['bdougie'], 1, 10, 0),
 (274593180, 'Surya1231/ContestMania', 33, 1, 'A platform for tracking your competitive progress on various competitive coding websites.', ['Surya1231','sanketcn'], 1, 1, 0),
@@ -3024,8 +3024,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (334195792, 'teezzan/flw_validator', 1, 0, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', ['teezzan'], 1, 11, 0),
 (334229943, 'nodegui/svelte-nodegui', 2596, 22, 'Build performant, native and cross-platform desktop applications with native Svelte + powerful CSS-like styling.🚀', ['halfnelson','shirakaba'], 1, 18, 0),
 (334274271, 'opensearch-project/OpenSearch', 4265, 321, '🔎 Open source distributed and RESTful search engine.', ['kimchy','s1monw'], 1, 9, 0),
-(334465533, 'Leonardo-Borba/auction-assistant', 1, 0, 'A bot to monitor MGT auctions and do automatic bids', ['Leonardo-Borba'], 1, 0, 0),
 (334417379, 'charliegerard/gaze-detection', 441, 2, '👀 Use machine learning in JavaScript to detect eye movements and build gaze-controlled experiences.', ['charliegerard'], 1, 7, 0),
+(334465533, 'Leonardo-Borba/auction-assistant', 1, 0, 'A bot to monitor MGT auctions and do automatic bids', ['Leonardo-Borba'], 1, 0, 0),
 (334777857, 'mszoek/airyx', 1232, 51, 'A BSD-based OS project that aims to provide an experience like and some compatibility with macOS', ['mszoek','iddan'], 1, 4, 0),
 (335105505, 'KenSikes/GitTest', 1, 0, 'just learnining to use Github', ['KenSikes'], 1, 3, 0),
 (335136633, 'idris92/EMS-commerce', 2, 0, 'This is an EMS e-commerce website', ['idris92'], 1, 24, 0),

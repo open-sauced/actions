@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T12:46:50.755Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T14:43:28.218Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -293,6 +293,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (148829497, 284, 43814157, 'o2sh/onefetch', 22, 'Git repository summary on your terminal', 6, 3690, ['o2sh','spenserblack']),
 (127553476, 285, 43814157, 'rust-embedded/rust-raspberrypi-OS-tutorials', 23, ':books: Learn to write an embedded OS in Rust :crab:', 0, 7360, ['andre-richter','rahealy']),
 (114466145, 286, 43814157, 'yewstack/yew', 24, 'Rust / Wasm framework for building client web apps', 102, 18327, ['DenisKolodin','jstarry']),
+(39575101, 287, 43814157, 'phil-opp/blog_os', 25, 'Writing an OS in Rust', 50, 8148, ['phil-opp','drprofesq']),
 (132750724, 288, 43814157, 'danistefanovic/build-your-own-x', 26, '🤓 Build your own (insert technology here)', 207, 125993, ['danistefanovic','bauripalash']),
 (31315121, 289, 43814157, 'clap-rs/clap', 27, 'A full featured, fast Command Line Argument Parser for Rust', 159, 7225, ['kbknapp','epage']),
 (26850443, 290, 43814157, 'rust-lang/rust-clippy', 28, 'A bunch of lints to catch common mistakes and improve your Rust code', 1254, 6766, ['bors','oli-obk']),
@@ -338,7 +339,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (283329479, 332, 20734038, 'LarsRosenkilde/Instagram-Posted-Sources', 10, 'Different small scripts, i''ve posted on Instagram', 1, 65, ['LarsRosenkilde']),
 (11349513, 333, 20734038, 'mikaelcarrara/mikaelcarrara.github.com', 11, 'mikaelcarrara.github.com', 0, 2, ['mikaelcarrara','eduardofiorezi']),
 (50182994, 334, 20734038, 'googlecodelabs/tools', 12, 'Codelabs management & hosting tools', 145, 2888, ['cassierecher','nicolasgarnier']),
-(39575101, 287, 43814157, 'phil-opp/blog_os', 25, 'Writing an OS in Rust', 50, 8148, ['phil-opp','drprofesq']),
 (310047727, 335, 20734038, 'codeSTACKr/mega-menu', 13, null, 0, 19, ['codeSTACKr']),
 (274299728, 336, 20734038, 'shadowruge/futebol_screpping', 14, 'webscrepping_python3', 3, 3, ['shadowruge']),
 (168267539, 337, 20734038, 'andrersp/controleEstoque', 15, 'Controle de Estoque PyQt5', 3, 115, ['andrersp','rhenter']),
