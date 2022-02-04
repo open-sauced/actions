@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T01:01:36.019Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T02:43:19.339Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2843,9 +2843,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (308573793, 'testsmt/yinyang', 123, 11, 'A fuzzing framework for SMT solvers', ['wintered','muchang'], 1, 18, 0),
 (308578276, 'KalleHallden/workflow_automation', 108, 1, null, ['scaldings','KalleHallden'], 1, 18, 0),
 (308972885, 'write-the-docs-quorum/quorum-meetups', 6, 12, 'The Quorum program brings together various Write the Docs meetup chapters that are in a common time zone to provide quarterly ''super'' meetups over Zoom throughout the year. These are quarterly regional remote meetups, hence the name: QRRM.', ['barbaricyawps','shrielenee'], 1, 15, 0),
-(309068302, 'KalleHallden/NameGenRoulette', 26, 4, null, [], 1, 17, 0),
 (309212011, 'gndelia/codemod-replace-react-fc-typescript', 71, 2, 'jscodeshift''s codemod to replace React.FC when using React with Typescript', ['gndelia','liby'], 1, 18, 0),
 (309228394, 'Himujjal/libytdl', 3, 0, 'A c library for downloading YT videos written in Nim', ['Himujjal'], 1, 1, 0),
+(309068302, 'KalleHallden/NameGenRoulette', 26, 4, null, [], 1, 17, 0),
 (309305892, 'WarenGonzaga/fork-corner', 25, 7, 'A modern and global open source fork corner label for your project''s landing page.', ['WarenGonzaga','junsantilla'], 1, 23, 0),
 (310047727, 'codeSTACKr/mega-menu', 19, 0, null, ['codeSTACKr'], 1, 13, 0),
 (310064429, 'fedecalendino/spotify-data-reader', 2, 0, null, ['fedecalendino'], 1, 17, 0),
@@ -3513,10 +3513,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (397494904, 'Borrus-sudo/rapide-structs', 2, 0, 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ['Borrus-sudo'], 1, 7, 0),
 (397812789, 'zuramai/starback.js', 284, 0, 'Create a beautiful star falling background with starback.js', ['zuramai','dicka88'], 1, 9, 0),
 (398016775, 'fireship-io/wavy-curvey-blobby-website', 116, 1, 'A website design with lots of waves, curves, a blobs', ['codediodeio'], 1, 6, 0),
+(398039380, 'vasspilka/bank', 14, 2, 'Sample Bank application used for my 2021 ElixirConf presentation', ['vasspilka'], 1, 20, 0),
 (398337342, 'Steffen911/license-checker-action', 1, 0, 'Run license-checker via GitHub Actions', ['Steffen911'], 1, 2, 0),
 (398345592, '3mer3wadh/CustomUI', 1, 0, 'Trying to create nice UI with xamarin forms ', ['3mer3wadh'], 1, 24, 0),
 (398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 145, 1, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ['imsiddhant07','dakshp07'], 1, 0, 0),
-(398039380, 'vasspilka/bank', 14, 2, 'Sample Bank application used for my 2021 ElixirConf presentation', ['vasspilka'], 1, 20, 0),
 (398627486, 'jquense/sass-tailwind-functions', 8, 0, 'Sass plugin implementing TailwindCSS functions', ['jquense'], 1, 3, 0),
 (398656870, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', 12, 0, ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ['gungunfebrianza'], 1, 15, 0),
 (398666208, 'nachtfunke/basic-pattern-repository', 194, 0, 'Simple patterns for <use>. Just SVG - for your delight!', ['nachtfunke'], 1, 13, 0),

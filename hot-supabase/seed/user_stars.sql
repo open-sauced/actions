@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T01:01:36.164Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T02:43:19.499Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -772,13 +772,13 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (16685462, 763, 1917293, 'humhub/humhub', 19, 'HumHub is an Open Source Enterprise Social Network. Easy to install, intuitive to use and extendable with countless freely available modules.', 551, 5587, ['luke-','buddh4']),
 (10865436, 764, 1917293, 'dypsilon/frontend-dev-bookmarks', 20, 'Manually curated collection of resources for frontend web developers.', 115, 32955, ['dypsilon','arthurvr']),
 (211665033, 765, 1917293, 'andreasbm/web-skills', 21, 'A visual overview of useful skills to learn as a web developer', 43, 5129, ['andreasbm','AkshatJen']),
-(104443108, 766, 1917293, 'ukncsc/secure-development-and-deployment', 22, 'NCSC Guidance for secure development and deployment', 4, 383, ['toby-ncsc','HowWeRollingham']),
-(35955666, 767, 1917293, 'jlevy/the-art-of-command-line', 23, 'Master the command line, in one page', 201, 100692, ['jlevy','petk']),
 (261787758, 768, 1917293, 'bradtraversy/design-resources-for-developers', 24, 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', 1, 34352, ['Alaev','StefanSelfTaught']),
 (162977720, 769, 1917293, 'romenrg/evergreen-skills-developers', 25, 'List of evergreen skills, based on software development best practices & cross-framework principles, that should serve as a fair assessment of skilled software engineers / developers', 1, 1293, ['romenrg','axelhzf']),
 (3105906, 770, 1917293, 'PharkMillups/beautiful-docs', 26, 'Pointers to useful, well-written, and otherwise beautiful documentation.', 29, 7276, ['PharkMillups','logankoester']),
 (97054975, 771, 1917293, 'Kristories/awesome-guidelines', 27, 'A curated list of high quality coding style conventions and standards.', 0, 6388, ['Kristories','shlomif']),
 (13491895, 772, 1917293, 'EbookFoundation/free-programming-books', 28, ':books: Freely available programming books', 40, 217088, ['vhf','MHM5000']),
+(104443108, 766, 1917293, 'ukncsc/secure-development-and-deployment', 22, 'NCSC Guidance for secure development and deployment', 4, 383, ['toby-ncsc','HowWeRollingham']),
+(35955666, 767, 1917293, 'jlevy/the-art-of-command-line', 23, 'Master the command line, in one page', 201, 100692, ['jlevy','petk']),
 (401300251, 773, 1917293, 'Gen-R/organisation', 29, 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', 0, 2, ['mrchristian']),
 (414403319, 774, 79887, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene']),
 (417156746, 775, 79887, 'mpetuska/kon', 1, 'Kotlin Object Notation - Lightweight DSL to build fluid JSON trees', 0, 29, ['mpetuska']),
@@ -4200,8 +4200,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (5316345, 4201, 469997, 'sobingt/testgithub', 14, 'Test', 0, 1, ['sobingt']),
 (243834124, 4202, 3941856, 'cncf/tag-contributor-strategy', 16, 'CNCF Technical Advisory Group on Contributor Strategy -- maintainer relations, building up contributors, governance, graduation, and more.', 33, 60, ['carolynvs','jberkus']),
 (136938012, 4203, 656318, 'vendure-ecommerce/vendure', 0, 'A headless GraphQL ecommerce framework for the modern web', 134, 3071, ['michaelbromley','Draykee']),
-(379608568, 4204, 656318, 'Codesee-io/remote-companies', 1, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', 0, 36, ['jessicarose','ramonh']),
 (277795317, 4205, 656318, 'flaki/simplayground', 2, 'Playground for fiddling with HTML email and extracting the useful bits', 0, 2, ['flaki','ramonh']),
+(379608568, 4204, 656318, 'Codesee-io/remote-companies', 1, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', 0, 36, ['jessicarose','ramonh']),
 (212644970, 4206, 656318, 'lislis/workshop-rust-games', 3, 'RustFest workshop', 2, 30, ['ramonh','lislis']),
 (202672524, 4207, 656318, 'anton164/boatmobile-nodeboats-jsconf2019', 4, 'The code that powered the Boatmobile at Nodebots, JSConf 2019.', 2, 1, ['opheliasdaisies','HipsterBrown']),
 (67985685, 4208, 656318, 'PanoptikumIO/pan', 5, 'The podcast showcase & community / Phoenix based web application', 14, 29, ['haslinger','optikfluffel']),
