@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T14:43:28.050Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T16:47:10.312Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1960,7 +1960,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (184339195, 'graphiti-api/graphiti-rails', 37, 13, null, ['wagenet','richmolj'], 1, 27, 0),
 (184413359, 'dividat/ocaml-semver', 17, 0, ' Semantic version handling for OCaml', ['etaque','knuton'], 1, 6, 0),
 (184456251, 'microsoft/PowerToys', 65380, 2097, 'Windows system utilities to maximize productivity', ['bao-qian','crutkas'], 1, 11, 0),
-(191051391, 'redwoodjs/redwood', 10379, 264, 'The App Framework for Startups', ['peterp','thedavidprice'], 5, 10.8, 2),
 (184520105, 'sw-yx/spark-joy', 5708, 11, '✨😂easy ways to add design flair, user delight, and whimsy to your product.', ['sw-yx','EriecTanijaya'], 1, 14, 0),
 (184609434, 'fhkingma/bitswap', 202, 3, 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', ['fhkingma'], 1, 8, 0),
 (184754654, 'asamuzaK/webext-schema', 1, 0, 'WebExtensions schemas fetched from hg.mozilla.org', ['asamuzaK'], 1, 22, 0),
@@ -2912,9 +2911,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (317893562, 'm1pl/semantic-release-helm', 16, 5, 'semantic-release plugin to update appVersion in a Helm chart', ['m1pl','AlexanderBabel'], 1, 15, 0),
 (318024453, 'CTNicholas/tauque', 5, 0, 'Tauque, a zero-config JS/TS bundler with serious pulling power. Uses esbuild (100x quicker than Rollup/Webpack).', ['CTNicholas'], 1, 10, 0),
 (318264472, 'tomhicks/react-audible-debug', 31, 0, 'Audio debugging for React applications', ['tomhicks'], 1, 20, 0),
-(318616207, 'colinhemphill/nextjs-resume', 40, 25, null, ['colinhemphill'], 1, 10, 0),
 (319118126, 'teaminformaticainclusiva/Vida_de_TI', 1, 1, 'Repositorio baseado em Python para facilitar a vido do Brother Ti!', ['shadowruge'], 1, 2, 0),
 (319167362, 'hay-kot/mealie', 1139, 56, 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', ['hay-kot','sephrat'], 1, 23, 0),
+(318616207, 'colinhemphill/nextjs-resume', 40, 25, null, ['colinhemphill'], 1, 10, 0),
 (319185224, 'ubenmackin/ACVM', 103, 9, 'GUI frontend for qemu for Apple Silicon based Macs', ['ubenmackin','KhaosT'], 1, 18, 0),
 (319302752, 'whittlem/pycryptobot', 1311, 64, 'Python Crypto Bot', ['whittlem','markhollingworth-worthit'], 1, 3, 0),
 (319475939, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 6, 2, 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ['tapjdey','WillemJiang'], 1, 26, 0),
@@ -2996,8 +2995,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (330307199, 'MattMarquise/Lifestyle-Blog-Shop-Page', 1, 0, 'Lifestyle Blog - Shop Page', ['MattMarquise'], 1, 14, 0),
 (330488581, 'MattMarquise/styleguide', 1, 0, 'Style guides for Google-originated open-source projects', ['IsaacG','eglaysher'], 1, 15, 0),
 (330614682, 'udberg/sqlZoo', 1, 0, 'This project completes the SQL quizzes from https://sqlzoo.net/wiki/SQL_Tutorial which lets you build and run queries against existing tables. Each tutorial will show you a table and then have you run queries against it to answer specific questions.', ['udberg'], 1, 10, 0),
-(330778168, 'ScalableOrg/fintech-lite', 156, 6, 'I plan to do a series of livestreams on how a basic fintech wallet works. This repo is where all the code will live.', ['OpesanyaAdebayo','Sokan93'], 1, 12, 0),
 (330833462, 'purnima143/Kurakoo', 81, 22, 'Kurakoo is an online community of people providing answers to questions just like Quora site. Kurakoo is especially for school-college students, people from around the different colleges visit Kurakoo to ask questions from a community of people who answer them.', ['codewithvk','himanshujaidka'], 1, 19, 0),
+(330778168, 'ScalableOrg/fintech-lite', 156, 6, 'I plan to do a series of livestreams on how a basic fintech wallet works. This repo is where all the code will live.', ['OpesanyaAdebayo','Sokan93'], 1, 12, 0),
 (330878745, 'pankajkumarbij/easy-job-intern', 28, 6, 'The main motive behind the design of this project to provide the best job and internship opportunities.', ['pankajkumarbij','EkjotKaur'], 1, 25, 0),
 (331438435, 'MattMarquise/CANOO-ev-app-redesign', 3, 0, 'CANOO ev app redesign', ['MattMarquise'], 1, 16, 0),
 (331521421, 'udberg/RailsCarApp', 2, 0, null, ['udberg'], 1, 11, 0),
@@ -3269,6 +3268,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (369652397, 'whitep4nth3r/unbreak.tech', 6, 1, 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', ['whitep4nth3r'], 1, 12, 0),
 (369719645, 'Dhaiwat10/react-link-preview', 72, 2, 'A React library that generates beautiful previews for your links.', ['Dhaiwat10','semantic-release-bot'], 1, 26, 0),
 (369896619, 'OrderAndCh4oS/hicetnunc-radio', 20, 17, 'Radio player for audio tracks in a tezos wallet.', ['OrderAndCh4oS','jclayton'], 1, 1, 0),
+(191051391, 'redwoodjs/redwood', 10379, 264, 'The App Framework for Startups', ['peterp','thedavidprice'], 5, 10.8, 3),
 (369905667, 'Mintbean/DevCollective.io', 34, 12, 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ['monarchwadia','CoderDill'], 1, 3, 0),
 (370005059, 'lesmo/LesmoMovies', 1, 0, null, ['lesmo'], 1, 6, 0),
 (370083769, 'SysSn13/leetcode-rating-predictor', 97, 4, 'Leetcode Rating Predictor built with Node. Browser extension and web interface.', ['SysSn13','Ajink7'], 1, 23, 0),
@@ -3658,4 +3658,4 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (41881900, 'microsoft/vscode', 125676, 5350, 'Visual Studio Code', ['bpasero','jrieken'], 1, 3, 2),
 (214587193, 'supabase/supabase', 25467, 244, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ['kiwicopple','MildTomato'], 12, 11.5, 3),
 (31792824, 'flutter/flutter', 133601, 10100, 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ['engine-flutter-autoroll','abarth'], 1, 29, 2),
-(426820139, 'open-sauced/hot', 31, 6, '🍕The site that recommends the hottest projects on GitHub.', ['bdougie','hokagedemehin'], 20, 0, 7);
+(426820139, 'open-sauced/hot', 31, 6, '🍕The site that recommends the hottest projects on GitHub.', ['bdougie','hokagedemehin'], 20, 0, 8);

@@ -1955,7 +1955,6 @@ star_id,repo_name,stars,issues,description,contributors,total_stars,avg_recency_
 184339195,graphiti-api/graphiti-rails,37,13,,"[""wagenet"",""richmolj""]",1,27,0
 184413359,dividat/ocaml-semver,17,0, Semantic version handling for OCaml,"[""etaque"",""knuton""]",1,6,0
 184456251,microsoft/PowerToys,65380,2097,Windows system utilities to maximize productivity,"[""bao-qian"",""crutkas""]",1,11,0
-191051391,redwoodjs/redwood,10379,264,The App Framework for Startups,"[""peterp"",""thedavidprice""]",5,10.8,2
 184520105,sw-yx/spark-joy,5708,11,"✨😂easy ways to add design flair, user delight, and whimsy to your product.","[""sw-yx"",""EriecTanijaya""]",1,14,0
 184609434,fhkingma/bitswap,202,3,Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables,"[""fhkingma""]",1,8,0
 184754654,asamuzaK/webext-schema,1,0,WebExtensions schemas fetched from hg.mozilla.org,"[""asamuzaK""]",1,22,0
@@ -3264,6 +3263,7 @@ star_id,repo_name,stars,issues,description,contributors,total_stars,avg_recency_
 369652397,whitep4nth3r/unbreak.tech,6,1,UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.,"[""whitep4nth3r""]",1,12,0
 369719645,Dhaiwat10/react-link-preview,72,2,A React library that generates beautiful previews for your links.,"[""Dhaiwat10"",""semantic-release-bot""]",1,26,0
 369896619,OrderAndCh4oS/hicetnunc-radio,20,17,Radio player for audio tracks in a tezos wallet.,"[""OrderAndCh4oS"",""jclayton""]",1,1,0
+191051391,redwoodjs/redwood,10379,264,The App Framework for Startups,"[""peterp"",""thedavidprice""]",5,10.8,3
 369905667,Mintbean/DevCollective.io,34,12,"DevCollective.io is an open source community of developers, by developers, for developers. If you like what we're doing, don't pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We're a diverse, inclusive and newbie-friendly project.","[""monarchwadia"",""CoderDill""]",1,3,0
 370005059,lesmo/LesmoMovies,1,0,,"[""lesmo""]",1,6,0
 370083769,SysSn13/leetcode-rating-predictor,97,4,Leetcode Rating Predictor built with Node. Browser extension and web interface.,"[""SysSn13"",""Ajink7""]",1,23,0

@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T14:43:27.993Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T16:47:09.998Z
 -- COPY votes(voteid, created_at, github_user_id, repo_name, vote_code) FROM 'votes.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -16,6 +16,8 @@ INSERT INTO votes(voteid, created_at, github_user_id, repo_name, vote_code) VALU
 (105, '2022-02-04T00:58:07.751221+00:00', 237133, 'getify/You-Dont-Know-JS', '237133-getify/You-Dont-Know-JS'),
 (15, '2022-01-13T07:07:11.957732+00:00', 5713670, 'jwasham/coding-interview-university', '5713670-jwasham/coding-interview-university'),
 (106, '2022-02-04T00:58:10.457586+00:00', 237133, 'forem/forem', '237133-forem/forem'),
+(107, '2022-02-04T15:07:36.221438+00:00', 7221308, 'open-sauced/hot', '7221308-open-sauced/hot'),
+(108, '2022-02-04T15:08:55.728481+00:00', 7221308, 'redwoodjs/redwood', '7221308-redwoodjs/redwood'),
 (19, '2022-01-13T07:10:03.331997+00:00', 5713670, 'sveltejs/kit', '5713670-sveltejs/kit'),
 (20, '2022-01-13T07:10:27.974549+00:00', 5713670, 'vitejs/vite', '5713670-vitejs/vite'),
 (29, '2022-01-13T07:16:03.364504+00:00', 5713670, 'DopplerHQ/awesome-interview-questions', '5713670-DopplerHQ/awesome-interview-questions'),
