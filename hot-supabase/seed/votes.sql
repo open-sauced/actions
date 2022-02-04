@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T22:43:24.240Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T01:01:35.676Z
 -- COPY votes(voteid, created_at, github_user_id, repo_name, vote_code) FROM 'votes.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -10,7 +10,12 @@ INSERT INTO votes(voteid, created_at, github_user_id, repo_name, vote_code) VALU
 (100, '2022-01-25T23:48:23.190923+00:00', 5713670, 'flutter/flutter', '5713670-flutter/flutter'),
 (101, '2022-01-26T22:47:52.020398+00:00', 5713670, 'AriaMinaei/theatre', '5713670-AriaMinaei/theatre'),
 (10, '2022-01-13T06:55:51.030046+00:00', 5713670, 'papers-we-love/papers-we-love', '5713670-papers-we-love/papers-we-love'),
+(102, '2022-02-04T00:57:41.260295+00:00', 237133, 'open-sauced/hot', '237133-open-sauced/hot'),
+(103, '2022-02-04T00:57:53.300441+00:00', 237133, 'redwoodjs/redwood', '237133-redwoodjs/redwood'),
+(104, '2022-02-04T00:58:01.889271+00:00', 237133, 'vitejs/vite', '237133-vitejs/vite'),
+(105, '2022-02-04T00:58:07.751221+00:00', 237133, 'getify/You-Dont-Know-JS', '237133-getify/You-Dont-Know-JS'),
 (15, '2022-01-13T07:07:11.957732+00:00', 5713670, 'jwasham/coding-interview-university', '5713670-jwasham/coding-interview-university'),
+(106, '2022-02-04T00:58:10.457586+00:00', 237133, 'forem/forem', '237133-forem/forem'),
 (19, '2022-01-13T07:10:03.331997+00:00', 5713670, 'sveltejs/kit', '5713670-sveltejs/kit'),
 (20, '2022-01-13T07:10:27.974549+00:00', 5713670, 'vitejs/vite', '5713670-vitejs/vite'),
 (29, '2022-01-13T07:16:03.364504+00:00', 5713670, 'DopplerHQ/awesome-interview-questions', '5713670-DopplerHQ/awesome-interview-questions'),

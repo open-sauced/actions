@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-03T22:43:24.289Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T01:01:36.019Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -419,7 +419,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (14259390, 'Maatwebsite/Laravel-Excel', 10435, 5, '🚀 Supercharged Excel exports and imports in Laravel', ['patrickbrouwers','MaatwebsiteSupport'], 1, 21, 0),
 (14346979, 'snipe/snipe-it', 5622, 1032, 'A free open source IT asset/license management system', ['snipe','dmeltzer'], 1, 11, 0),
 (14370955, 'sahat/hackathon-starter', 32496, 45, 'A boilerplate for Node.js web applications', ['sahat','YasharF'], 2, 6, 0),
-(14440270, 'getify/You-Dont-Know-JS', 147708, 130, 'A book series on JavaScript. @YDKJS on twitter.', ['getify','machineloop'], 4, 6.5, 0),
 (14499588, 'AgileVentures/LocalSupport', 61, 75, 'A directory of local support services and volunteer opportunities', ['tansaku','mtc2013'], 1, 20, 0),
 (14571443, 'up-for-grabs/up-for-grabs.net', 2432, 43, 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ['shiftkey','ritwik12'], 2, 24, 0),
 (14705691, 'ziadoz/awesome-php', 26056, 104, 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ['ziadoz','josegonzalez'], 1, 14, 0),
@@ -444,6 +443,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (15505662, 'cknadler/vim-anywhere', 3300, 42, 'Use Vim everywhere you''ve always wanted to', ['mmai','jtheoof'], 1, 14, 0),
 (15585444, 'IanLunn/Hover', 25707, 36, 'A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.', ['IanLunn','Minimalistic'], 1, 9, 0),
 (15708275, 'akvo/akvo-product-design', 10, 61, 'Products Design Documents', ['adriancollier','mtwestra'], 1, 7, 0),
+(14440270, 'getify/You-Dont-Know-JS', 147708, 130, 'A book series on JavaScript. @YDKJS on twitter.', ['getify','machineloop'], 4, 6.5, 1),
 (15776379, 'nprapps/pym.js', 789, 1, 'Resize an iframe responsively depending on the height of its content and the width of its container.', ['onyxfish','jjelosua'], 1, 9, 0),
 (15823460, 'redisson/redisson', 18027, 254, 'Redisson - Redis Java client with features of In-Memory Data Grid. Over 50 Redis based Java objects and services: Set, Multimap, SortedSet, Map, List, Queue, Deque, Semaphore, Lock, AtomicLong, Map Reduce, Publish / Subscribe, Bloom filter, Spring Cache, Tomcat, Scheduler, JCache API, Hibernate, MyBatis, RPC, local cache ...', ['mrniko','jackygurui'], 1, 7, 0),
 (15884926, 'hishamhm/htop', 5630, 319, 'htop is an interactive text-mode process viewer for Unix systems. It aims to be a better ''top''.', ['hishamhm','Explorer09'], 1, 22, 0),
@@ -1080,7 +1080,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (72891330, 'kubernetes/ingress-nginx', 11783, 300, 'NGINX Ingress Controller for Kubernetes', ['aledbf','k8s-ci-robot'], 1, 11, 0),
 (72931382, 'vuelidate/vuelidate', 6189, 112, 'Simple, lightweight model-based validation for Vue.js', ['dobromir-hristov','Frizi'], 1, 15, 0),
 (73184139, 'fkhadra/react-toastify', 8145, 44, 'React notification made easy 🚀 !', ['fkhadra','rhdeck'], 1, 1, 0),
-(73648678, 'forem/forem', 18420, 411, 'For empowering community 🌱', ['benhalpern','rhymes'], 3, 15.666666666666666, 0),
 (73918606, 'tapestry-cloud/website', 8, 18, 'Source Tapestry Project for tapestry.cloud', ['carbontwelve','leonstafford'], 1, 4, 0),
 (74069383, 'InnerSourceCommons/InnerSourcePatterns', 545, 55, 'Proven approaches that can guide you through applying open source best practices within your organization', ['spier','lenucksi'], 1, 17, 0),
 (74175805, 'istio/istio', 29015, 645, 'Connect, secure, control, and observe services.', ['howardjohn','istio-testing'], 1, 9, 0),
@@ -1095,6 +1094,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (74974426, 'RD17/ambar', 1831, 2, ':mag: Ambar: Document Search Engine', ['sochix','isido993'], 1, 11, 0),
 (75077977, 'coopcycle/coopcycle-web', 457, 519, 'Logistics & marketplace platform. Only for worker-owned business.', ['alexsegura','Atala'], 1, 18, 0),
 (75078016, 'coopcycle/coopcycle-app', 122, 144, 'CoopCycle native app', ['alexsegura','Atala'], 2, 15, 0),
+(73648678, 'forem/forem', 18420, 411, 'For empowering community 🌱', ['benhalpern','rhymes'], 3, 15.666666666666666, 1),
 (75189212, 'jivoi/awesome-osint', 7865, 2, ':scream: A curated list of amazingly awesome OSINT', ['spmedia','jivoi'], 1, 22, 0),
 (75262873, 'dwyl/learn-elixir', 1311, 89, ':droplet: Learn the Elixir programming language to build functional, fast, scalable and maintainable web applications!', ['nelsonic','Cleop'], 1, 12, 0),
 (75291705, 'unicodeveloper/awesome-nextjs', 6842, 53, ':notebook_with_decorative_cover: :books: A curated list of awesome resources : books, videos, articles about using Next.js (A minimalistic framework for universal server-rendered React applications) ', ['unicodeveloper','timneutkens'], 1, 11, 0),
@@ -1960,6 +1960,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (184339195, 'graphiti-api/graphiti-rails', 37, 13, null, ['wagenet','richmolj'], 1, 27, 0),
 (184413359, 'dividat/ocaml-semver', 17, 0, ' Semantic version handling for OCaml', ['etaque','knuton'], 1, 6, 0),
 (184456251, 'microsoft/PowerToys', 65380, 2097, 'Windows system utilities to maximize productivity', ['bao-qian','crutkas'], 1, 11, 0),
+(191051391, 'redwoodjs/redwood', 10379, 264, 'The App Framework for Startups', ['peterp','thedavidprice'], 5, 10.8, 2),
 (184520105, 'sw-yx/spark-joy', 5708, 11, '✨😂easy ways to add design flair, user delight, and whimsy to your product.', ['sw-yx','EriecTanijaya'], 1, 14, 0),
 (184609434, 'fhkingma/bitswap', 202, 3, 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', ['fhkingma'], 1, 8, 0),
 (184754654, 'asamuzaK/webext-schema', 1, 0, 'WebExtensions schemas fetched from hg.mozilla.org', ['asamuzaK'], 1, 22, 0),
@@ -2464,7 +2465,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (257171786, 'mjebrahimi/Awesome-Microservices-NetCore', 1503, 0, '💎 A collection of awesome training series, articles, videos, books, courses, sample projects, and tools for Microservices in .NET Core', ['mjebrahimi','logcorner'], 1, 2, 0),
 (257314632, 'onflow/fcl-js', 227, 35, 'FCL (Flow Client Library) - The best tool for building JavaScript (browser & NodeJS) applications on Flow 🌊', ['JeffreyDoyle','orodio'], 1, 28, 0),
 (257404606, 'textileio/js-examples', 50, 3, 'Examples and demos using Textile''s Javascript/Typescript libraries and clients.', ['andrewxhill','carsonfarmer'], 1, 29, 0),
-(257485422, 'vitejs/vite', 35335, 771, 'Next generation frontend tooling. It''s fast!', ['yyx990803','patak-dev'], 4, 9.75, 1),
 (257567981, 'chandrikadeb7/Face-Mask-Detection', 1132, 14, 'Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras', ['chandrikadeb7','vaishnavi-1'], 1, 28, 0),
 (257631498, 'onelittlenightmusic/graphql-mesh-docker', 30, 1, 'Dockerfile / docker-compose / Kubernetes manifest / Helm chart for GraphQL Mesh', ['onelittlenightmusic','raveinid'], 1, 12, 0),
 (257665403, 'google/triage-party', 432, 26, '🎉 Triage Party: massively multi-player GitHub triage 🎉', ['tstromberg','vavilen84'], 1, 29, 0),
@@ -2563,7 +2563,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (268264498, 'chakra-ui/chakra-ui-vue-next', 128, 7, '⚡️ The next most epic version of Chakra UI Vue based on Vue 3 🚀(WIP)', ['codebender828','koca'], 1, 6, 0),
 (268292479, 'ivan-bilan/The-NLP-Pandect', 1633, 0, 'A comprehensive reference for all topics related to Natural Language Processing', ['ivan-bilan','anoopkunchukuttan'], 1, 10, 0),
 (268296877, 'PiyushSuthar/covid19-twitter-bot', 1, 0, 'A Bot that tweets Covid Updates daily!', ['PiyushSuthar'], 1, 12, 0),
-(191051391, 'redwoodjs/redwood', 10379, 264, 'The App Framework for Startups', ['peterp','thedavidprice'], 5, 10.8, 1),
 (268350681, 'Rem0o/FanControl.Releases', 1792, 86, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', ['Rem0o'], 1, 26, 0),
 (268424739, 'helix-editor/helix', 5010, 237, 'A post-modern modal text editor.', ['archseer','cessen'], 1, 17, 0),
 (268546030, 'philnash/github-weekends', 5, 6, 'A silly browser extension that marks weekend contributions on GitHub''s contribution graph in red', ['philnash'], 1, 3, 0),
@@ -2812,6 +2811,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (302921248, '5t3ph/11ty-sass-skeleton', 126, 0, 'Featuring absolutely nothing beyond a base HTML5 template and the essential setup to watch and compile your Sass alongside 11ty.', ['5t3ph'], 1, 8, 0),
 (302922505, 'devtron-labs/devtron', 1615, 177, 'Software Delivery Workflow For Kubernetes', ['vikramdevtron','nishant-d'], 1, 9, 0),
 (303743342, 'zebp/wasm-remapper-web', 22, 0, 'Remap WebAssembly binaries automatically in the browser built with ReactJS and Rust using WebAssembly', ['zebp'], 1, 24, 0),
+(257485422, 'vitejs/vite', 35335, 771, 'Next generation frontend tooling. It''s fast!', ['yyx990803','patak-dev'], 4, 9.75, 2),
 (303802332, 'vmware-tanzu/community-edition', 858, 277, 'VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.', ['dvonthenen','joshrosso'], 1, 17, 0),
 (303830736, 'tidbyt/pixlet', 154, 9, 'Build apps for pixel-based displays.', ['matslina','rohansingh'], 1, 16, 0),
 (303861532, 'WordPress/pattern-directory', 66, 39, 'The WordPress Block Pattern Directory', ['ryelle','StevenDufresne'], 1, 3, 0),
@@ -3513,10 +3513,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (397494904, 'Borrus-sudo/rapide-structs', 2, 0, 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ['Borrus-sudo'], 1, 7, 0),
 (397812789, 'zuramai/starback.js', 284, 0, 'Create a beautiful star falling background with starback.js', ['zuramai','dicka88'], 1, 9, 0),
 (398016775, 'fireship-io/wavy-curvey-blobby-website', 116, 1, 'A website design with lots of waves, curves, a blobs', ['codediodeio'], 1, 6, 0),
-(398039380, 'vasspilka/bank', 14, 2, 'Sample Bank application used for my 2021 ElixirConf presentation', ['vasspilka'], 1, 20, 0),
 (398337342, 'Steffen911/license-checker-action', 1, 0, 'Run license-checker via GitHub Actions', ['Steffen911'], 1, 2, 0),
 (398345592, '3mer3wadh/CustomUI', 1, 0, 'Trying to create nice UI with xamarin forms ', ['3mer3wadh'], 1, 24, 0),
 (398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 145, 1, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ['imsiddhant07','dakshp07'], 1, 0, 0),
+(398039380, 'vasspilka/bank', 14, 2, 'Sample Bank application used for my 2021 ElixirConf presentation', ['vasspilka'], 1, 20, 0),
 (398627486, 'jquense/sass-tailwind-functions', 8, 0, 'Sass plugin implementing TailwindCSS functions', ['jquense'], 1, 3, 0),
 (398656870, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', 12, 0, ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ['gungunfebrianza'], 1, 15, 0),
 (398666208, 'nachtfunke/basic-pattern-repository', 194, 0, 'Simple patterns for <use>. Just SVG - for your delight!', ['nachtfunke'], 1, 13, 0),
@@ -3655,7 +3655,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (135786093, 'typescript-cheatsheets/react', 30556, 5, 'Cheatsheets for experienced React developers getting started with TypeScript', ['sw-yx','eps1lon'], 8, 13.5, 2),
 (112150776, '11ty/eleventy', 10908, 441, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ['zachleat','MadeByMike'], 5, 12.4, 1),
 (20929025, 'microsoft/TypeScript', 76845, 5382, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', ['ahejlsberg','sheetalkamat'], 1, 19, 1),
-(426820139, 'open-sauced/hot', 31, 6, '🍕The site that recommends the hottest projects on GitHub.', ['bdougie','hokagedemehin'], 20, 0, 6),
 (41881900, 'microsoft/vscode', 125676, 5350, 'Visual Studio Code', ['bpasero','jrieken'], 1, 3, 2),
 (214587193, 'supabase/supabase', 25467, 244, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ['kiwicopple','MildTomato'], 12, 11.5, 3),
-(31792824, 'flutter/flutter', 133601, 10100, 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ['engine-flutter-autoroll','abarth'], 1, 29, 2);
+(31792824, 'flutter/flutter', 133601, 10100, 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ['engine-flutter-autoroll','abarth'], 1, 29, 2),
+(426820139, 'open-sauced/hot', 31, 6, '🍕The site that recommends the hottest projects on GitHub.', ['bdougie','hokagedemehin'], 20, 0, 7);
