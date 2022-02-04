@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T08:43:24.994Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T10:43:31.639Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3206,8 +3206,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1429, 534, 403, 'Ishaan28malik/Hacktoberfest-2021', 153251691),
 (2349, 10434, 1610, 'OpenRA/OpenRA', 959908),
 (1, 1, 2, 'EliseeCode/exolingo', 333719667),
-(1, 2, 0, 'tunakasif/Electromagnetic-Suspension-System', 211155535),
 (14, 135, 4, 'SysSn13/leetcode-rating-predictor', 370083769),
+(1, 2, 0, 'tunakasif/Electromagnetic-Suspension-System', 211155535),
 (20, 211, 0, 'mdisec/golang-for-hackers-turkish-edition', 399239075),
 (202, 1784, 39, 'browserify/watchify', 10379106),
 (0, 1, 0, 'tomp2/pynightlight', 393803046),
