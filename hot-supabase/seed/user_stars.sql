@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T18:43:22.339Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T20:43:38.566Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2915,15 +2915,14 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (77702046, 2918, 527550, 'github/opensourcefriday', 23, '🚲 Contribute to the open source community every Friday', 4, 1031, ['MikeMcQuaid','kenyonj']),
 (112750686, 2919, 527550, 'grnet/webdns4', 24, 'A Ruby-on-Rails Webdns Frontend for Powerdns', 11, 2, ['ctrochalakis','vitsalis']),
 (117581345, 2920, 527550, 'grnet/archiving', 25, 'A Ruby-On-Rails Frontend for Bacula', 6, 1, ['parstra','ctrochalakis']),
-(115532550, 2921, 527550, 'kkentzo/mockit', 26, 'A development tool to quickly mock various aspects of an http endpoint using the command-line', 0, 2, ['kkentzo']),
 (7710647, 2922, 527550, 'jedisct1/libsodium', 27, 'A modern, portable, easy to use crypto library.', 3, 9799, ['jedisct1','evoskuil']),
 (45502812, 2923, 527550, 'unrelentingtech/freepass', 28, '[DEPRECATED] password manager thing', 2, 310, ['unrelentingtech','quininer']),
 (4449421, 2924, 527550, 'karmi/elasticsearch-paramedic', 29, 'A simple tool to inspect the state and statistics about ElasticSearch clusters', 4, 673, ['karmi','walokra']),
 (95560, 2925, 3941126, 'thuss/standalone-migrations', 0, 'A gem to use Rails Database Migrations in non Rails projects', 14, 948, ['thuss','mistersourcerer']),
 (5954, 2926, 3941126, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4541, ['jeremyevans','ciconia']),
 (184366, 2927, 3941126, 'opal/opal', 2, 'Ruby ♥︎ JavaScript', 108, 4560, ['elia','adambeynon']),
-(294972, 2928, 3941126, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 13, 3501, ['PikachuEXE','fnando']),
 (70342215, 2929, 3941126, 'bootstrap-vue/bootstrap-vue', 4, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', 167, 13612, ['tmorehouse','pi0']),
+(294972, 2928, 3941126, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 13, 3501, ['PikachuEXE','fnando']),
 (203587744, 2930, 3941126, 'hoppscotch/hoppscotch', 5, '👽 Open source API development ecosystem https://hoppscotch.io', 46, 34707, ['liyasthomas','AndrewBastin']),
 (26500787, 2931, 3941126, 'tonsky/FiraCode', 6, 'Free monospaced font with programming ligatures', 285, 61064, ['tonsky','thundernixon']),
 (72066935, 2932, 3941126, 'cs01/gdbgui', 7, 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', 118, 8342, ['cs01','ampresent']),
@@ -3232,6 +3231,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (19319131, 3234, 3754311, 'mrmaffen/vlc-android-sdk', 27, 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', 77, 792, ['mrmaffen','xhochy']),
 (133681780, 3235, 3754311, 'shalvah/DownloadThisVideo', 28, 'Twitter bot for easily downloading videos/GIFs off tweets', 3, 585, ['shalvah','notpushkin']),
 (132750724, 3236, 3754311, 'danistefanovic/build-your-own-x', 29, '🤓 Build your own (insert technology here)', 207, 126006, ['danistefanovic','bauripalash']),
+(115532550, 2921, 527550, 'kkentzo/mockit', 26, 'A development tool to quickly mock various aspects of an http endpoint using the command-line', 0, 2, ['kkentzo']),
 (71359796, 3237, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (133134007, 3238, 69519470, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2933, 10698, ['wing328','fehguy']),
 (68414068, 3239, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 30, 7378, ['bkeepers','gr2m']),
@@ -4337,6 +4337,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (214587193, 374153645, 3861088, 'supabase/supabase', 0, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 200, 27512, ['kiwicopple','MildTomato']),
 (37552628, 375812408, 908380, 'ueberauth/guardian', 0, 'Elixir Authentication', 4, 3160, ['doomspork','Hanspagh']),
 (399821046, 321809845, 907680, 'varbhat/exatorrent', 0, 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', 6, 1375, ['varbhat']),
+(26500787, 455678420, 6499373, 'tonsky/FiraCode', 0, 'Free monospaced font with programming ligatures', 295, 61794, ['tonsky','thundernixon']),
 (399772846, 323523231, 55907631, 'commclassroom/mobileapp', 0, 'This is an official mobile app for community classroom', 5, 57, ['thisisamank','VarunSAthreya']),
 (279163614, 320434477, 2658040, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 3, 20, ['0-vortex']),
 (285782908, 307155109, 12400445, 'jmc265/dotfiles', 0, null, 0, 3, ['bw-jamescross','jmc265']),

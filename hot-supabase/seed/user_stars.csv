@@ -4332,6 +4332,7 @@ star_id,id,user_id,repo_name,recency_score,description,issues,stars,contributors
 214587193,374153645,3861088,supabase/supabase,0,The open source Firebase alternative. Follow to stay updated about our public Beta.,200,27512,"[""kiwicopple"",""MildTomato""]"
 37552628,375812408,908380,ueberauth/guardian,0,Elixir Authentication,4,3160,"[""doomspork"",""Hanspagh""]"
 399821046,321809845,907680,varbhat/exatorrent,0,Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.,6,1375,"[""varbhat""]"
+26500787,455678420,6499373,tonsky/FiraCode,0,Free monospaced font with programming ligatures,295,61794,"[""tonsky"",""thundernixon""]"
 399772846,323523231,55907631,commclassroom/mobileapp,0,This is an official mobile app for community classroom,5,57,"[""thisisamank"",""VarunSAthreya""]"
 279163614,320434477,2658040,0-vortex/0-vortex,0,Config files for my GitHub profile.,3,20,"[""0-vortex""]"
 285782908,307155109,12400445,jmc265/dotfiles,0,,0,3,"[""bw-jamescross"",""jmc265""]"
