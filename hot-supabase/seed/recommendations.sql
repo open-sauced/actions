@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T04:43:31.697Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T06:43:19.178Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -609,10 +609,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (29028775, 'facebook/react-native', 100073, 2176, 'A framework for building native applications using React', ['shergin','mdvacca'], 2, 17.5, 0),
 (29102367, 'junit-team/junit5', 4936, 138, '✅ The 5th major version of the programmer-friendly testing framework for Java and the JVM', ['sbrannen','marcphilipp'], 1, 23, 0),
 (29217054, 'asim/go-micro', 17390, 53, 'A framework for distributed systems development', ['asim','milosgajdos'], 1, 18, 0),
-(29371034, 'micro/micro', 10808, 83, 'A distributed cloud operating system', ['asim','ben-toogood'], 1, 15, 0),
-(29420377, 'posquit0/Awesome-CV', 14988, 183, ':page_facing_up: Awesome CV is LaTeX template for your outstanding job application', ['posquit0','nitrogl'], 1, 9, 0),
 (29227314, 'hackclub/dinosaurs', 320, 2, 'dinoooooooooos', ['maxwofford','zachlatta'], 1, 17, 0),
 (29357796, 'jbhuang0604/awesome-computer-vision', 15367, 58, 'A curated list of awesome computer vision resources', ['jbhuang0604','davidstutz'], 1, 22, 0),
+(29371034, 'micro/micro', 10808, 83, 'A distributed cloud operating system', ['asim','ben-toogood'], 1, 15, 0),
+(29420377, 'posquit0/Awesome-CV', 14988, 183, ':page_facing_up: Awesome CV is LaTeX template for your outstanding job application', ['posquit0','nitrogl'], 1, 9, 0),
 (29514104, 'netlify/netlify-cms', 14793, 632, 'A Git-based CMS for Static Site Generators', ['erquhart','erezrokah'], 3, 11.666666666666666, 0),
 (29749635, 'donnemartin/data-science-ipython-notebooks', 22080, 22, 'Data science Python notebooks: Deep learning (TensorFlow, Theano, Caffe, Keras), scikit-learn, Kaggle, big data (Spark, Hadoop MapReduce, HDFS), matplotlib, pandas, NumPy, SciPy, Python essentials, AWS, and various command lines.', ['donnemartin','besirkurtulmus'], 1, 19, 0),
 (29994403, 'K-Phoen/rulerz', 844, 26, 'Powerful implementation of the Specification pattern in PHP', ['K-Phoen','bobdercole'], 1, 6, 0),

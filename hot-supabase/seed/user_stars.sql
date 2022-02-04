@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T04:43:31.571Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T06:43:19.174Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1428,8 +1428,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (291293670, 1440, 30369246, 'durgeshsamariya/awesome-github-profile-readme-templates', 24, 'This repository contains best profile readme''s for your reference. ', 4, 955, ['durgeshsamariya','JayantGoel001']),
 (321770581, 1441, 30369246, 'jgehrcke/github-repo-stats', 25, ' A GitHub Action for advanced repository traffic analysis and reporting.', 2, 83, ['jgehrcke','gautamkrishnar']),
 (68720867, 1442, 30369246, 'firstcontributions/first-contributions', 26, '🚀✨ Help beginners to contribute to open source projects', 1303, 21873, ['firstcontributions-bot','Roshanjossey']),
-(153099672, 1444, 30369246, 'inancgumus/learngo', 28, '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', 6, 11870, ['inancgumus','firasuke']),
 (28457823, 1443, 30369246, 'freeCodeCamp/freeCodeCamp', 27, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 122, 337699, ['QuincyLarson','raisedadead']),
+(153099672, 1444, 30369246, 'inancgumus/learngo', 28, '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', 6, 11870, ['inancgumus','firasuke']),
 (21405028, 1445, 30369246, 'ardanlabs/gotraining', 29, 'Go Training Class Material : ', 2, 10071, ['ardan-bkennedy','jcbwlkr']),
 (734957, 1446, 34903088, 'kelektiv/node-cron', 0, 'Cron for NodeJS.', 100, 7258, ['ncb000gt','jodevsa']),
 (351087635, 1447, 34903088, 'samuelkraft/routes', 1, 'Trail Routes - Curated running & hiking trails in Sweden', 1, 8, ['samuelkraft']),
