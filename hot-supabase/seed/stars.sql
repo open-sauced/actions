@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T20:43:38.384Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T22:43:26.927Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2485,8 +2485,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (9497, 42672, 781, 'scrapy/scrapy', 529502),
 (201, 3765, 248, 'amplication/amplication', 262862475),
 (4212, 13704, 207, 'kubernetes/kops', 62091339),
-(239, 4950, 0, 'fpereiro/backendlore', 235283287),
 (0, 5, 6, 'philnash/github-weekends', 268546030),
+(239, 4950, 0, 'fpereiro/backendlore', 235283287),
 (168, 8255, 62, 'charmbracelet/glow', 219616873),
 (19, 468, 7, 'compumike/hairpin-proxy', 306587975),
 (781, 10946, 189, 'picturepan2/spectre', 53321815),
@@ -2525,10 +2525,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1058, 9951, 1168, 'VSCodeVim/Vim', 46041284),
 (84, 262, 174, 'status-im/nimbus-eth2', 141717232),
 (34, 336, 6, 'solana-labs/solana-season', 360565698),
+(284, 1555, 1, 'yjjnls/awesome-blockchain', 127364556),
 (1, 36, 1, 'artano-io/artano', 337840518),
 (32, 464, 6, 'CRED-CLUB/synth-ios', 271593527),
 (2612, 8190, 80, 'gzc/CLRS', 14887195),
-(284, 1555, 1, 'yjjnls/awesome-blockchain', 127364556),
 (0, 1, 0, 'akshay9677/reactor-gen', 326244055),
 (903, 5278, 10, 'mrdbourke/machine-learning-roadmap', 278289913),
 (2, 35, 0, 'manojkarthick/expenses', 297892625),
@@ -2542,10 +2542,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (2225, 21968, 46, 'go-kit/kit', 30215630),
 (181, 1161, 53, 'gocarina/gocsv', 19331272),
 (2, 3, 8, 'clintjedwards/basecoat', 72811914),
+(42, 132, 3, 'liyasthomas/banner', 190142142),
 (52, 145, 23, 'kothariji/SyntaxMeets', 300874884),
 (160, 1169, 0, 'kkdai/project52', 39433529),
 (90, 9, 0, 'skycoin/arena', 169529444),
-(42, 132, 3, 'liyasthomas/banner', 190142142),
 (12, 24, 20, 'etesync/etebase-docs', 273019730),
 (4, 27, 11, 'sumup-oss/foundry', 107290035),
 (6, 9, 2, 'OpenKudos/python_client', 152447206),
@@ -2569,9 +2569,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1251, 13908, 953, 'bevyengine/bevy', 234798675),
 (108, 559, 124, 'nuxt/image', 292835647),
 (41, 266, 15, 'googlecreativelab/creatability-components', 153687898),
+(299, 5433, 47, 'reakit/reakit', 104133653),
 (1871, 11798, 4, 'trekhleb/learn-python', 146619556),
 (26662, 185097, 101, 'kamranahmedse/developer-roadmap', 85077558),
-(299, 5433, 47, 'reakit/reakit', 104133653),
 (0, 4, 0, 'james-a-rob/mega-feed', 405353162),
 (54, 66, 12, 'SalesforceLabs/survey-force', 2151073),
 (331, 1778, 25, 'resemble-ai/Resemblyzer', 202577283),
@@ -2592,8 +2592,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (42, 299, 7, 'demystifyfp/FsToolkit.ErrorHandling', 141843316),
 (328, 4796, 443, 'FreeTubeApp/FreeTube', 123220152),
 (86, 708, 132, 'woodpecker-ci/woodpecker', 179344069),
-(42, 119, 4, 'hallee/eslint-action', 174250271),
 (71, 1973, 28, 'krzkaczor/ts-essentials', 148948562),
+(42, 119, 4, 'hallee/eslint-action', 174250271),
 (4, 20, 3, 'saitho/semantic-release-backmerge', 236156799),
 (104, 1235, 61, 'dom96/jester', 4178258),
 (0, 1, 1, 'saitho/discord-bot-reloaded', 394368306),

@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T20:43:38.566Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T22:43:27.182Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2915,14 +2915,15 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (77702046, 2918, 527550, 'github/opensourcefriday', 23, '🚲 Contribute to the open source community every Friday', 4, 1031, ['MikeMcQuaid','kenyonj']),
 (112750686, 2919, 527550, 'grnet/webdns4', 24, 'A Ruby-on-Rails Webdns Frontend for Powerdns', 11, 2, ['ctrochalakis','vitsalis']),
 (117581345, 2920, 527550, 'grnet/archiving', 25, 'A Ruby-On-Rails Frontend for Bacula', 6, 1, ['parstra','ctrochalakis']),
+(115532550, 2921, 527550, 'kkentzo/mockit', 26, 'A development tool to quickly mock various aspects of an http endpoint using the command-line', 0, 2, ['kkentzo']),
 (7710647, 2922, 527550, 'jedisct1/libsodium', 27, 'A modern, portable, easy to use crypto library.', 3, 9799, ['jedisct1','evoskuil']),
 (45502812, 2923, 527550, 'unrelentingtech/freepass', 28, '[DEPRECATED] password manager thing', 2, 310, ['unrelentingtech','quininer']),
 (4449421, 2924, 527550, 'karmi/elasticsearch-paramedic', 29, 'A simple tool to inspect the state and statistics about ElasticSearch clusters', 4, 673, ['karmi','walokra']),
 (95560, 2925, 3941126, 'thuss/standalone-migrations', 0, 'A gem to use Rails Database Migrations in non Rails projects', 14, 948, ['thuss','mistersourcerer']),
 (5954, 2926, 3941126, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4541, ['jeremyevans','ciconia']),
 (184366, 2927, 3941126, 'opal/opal', 2, 'Ruby ♥︎ JavaScript', 108, 4560, ['elia','adambeynon']),
-(70342215, 2929, 3941126, 'bootstrap-vue/bootstrap-vue', 4, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', 167, 13612, ['tmorehouse','pi0']),
 (294972, 2928, 3941126, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 13, 3501, ['PikachuEXE','fnando']),
+(70342215, 2929, 3941126, 'bootstrap-vue/bootstrap-vue', 4, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', 167, 13612, ['tmorehouse','pi0']),
 (203587744, 2930, 3941126, 'hoppscotch/hoppscotch', 5, '👽 Open source API development ecosystem https://hoppscotch.io', 46, 34707, ['liyasthomas','AndrewBastin']),
 (26500787, 2931, 3941126, 'tonsky/FiraCode', 6, 'Free monospaced font with programming ligatures', 285, 61064, ['tonsky','thundernixon']),
 (72066935, 2932, 3941126, 'cs01/gdbgui', 7, 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', 118, 8342, ['cs01','ampresent']),
@@ -3217,8 +3218,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (188660663, 3220, 3754311, 'CorentinJ/Real-Time-Voice-Cloning', 13, 'Clone a voice in 5 seconds to generate arbitrary speech in real-time', 57, 32215, ['CorentinJ','alexpeattie']),
 (255770685, 3221, 3754311, 'rdbeach/wb', 14, 'Online collaborative Whiteboard that is simple, free, easy to use and  to deploy', 11, 20, ['lovasoa','rdbeach']),
 (417937257, 3222, 3754311, 'monicatvera/preview-credit-card', 15, 'A credit card preview app', 0, 3, ['monicatvera']),
-(320826343, 3223, 3754311, 'RainerChiang/simpleness', 16, 'hugo theme simpleness', 1, 21, ['RainerChiang','yzwdroid']),
 (71359796, 3224, 3754311, 'open-sauced/open-sauced', 17, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
+(320826343, 3223, 3754311, 'RainerChiang/simpleness', 16, 'hugo theme simpleness', 1, 21, ['RainerChiang','yzwdroid']),
 (415688405, 3225, 3754311, 'wtm-buea/WTM-official-website', 18, 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', 6, 2, ['alicendeh','Julia-yossa']),
 (8162715, 3226, 3754311, 'saleor/saleor', 19, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 274, 14770, ['maarcingebala','dominik-zeglen']),
 (7705569, 3227, 3754311, 'wger-project/wger', 20, 'Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django', 119, 1635, ['rolandgeider','petervanderdoes']),
@@ -3231,7 +3232,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (19319131, 3234, 3754311, 'mrmaffen/vlc-android-sdk', 27, 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', 77, 792, ['mrmaffen','xhochy']),
 (133681780, 3235, 3754311, 'shalvah/DownloadThisVideo', 28, 'Twitter bot for easily downloading videos/GIFs off tweets', 3, 585, ['shalvah','notpushkin']),
 (132750724, 3236, 3754311, 'danistefanovic/build-your-own-x', 29, '🤓 Build your own (insert technology here)', 207, 126006, ['danistefanovic','bauripalash']),
-(115532550, 2921, 527550, 'kkentzo/mockit', 26, 'A development tool to quickly mock various aspects of an http endpoint using the command-line', 0, 2, ['kkentzo']),
 (71359796, 3237, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (133134007, 3238, 69519470, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2933, 10698, ['wing328','fehguy']),
 (68414068, 3239, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 30, 7378, ['bkeepers','gr2m']),
