@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T04:43:17.989Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T06:43:20.211Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2248,8 +2248,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (226112204, 'rodridev77/crud-cadastro', 1, 1, null, ['markusbue'], 1, 8, 0),
 (226202216, 'martinwoodward/smart-xmas', 195, 0, 'Star this repo to add some sparkle to my tree', ['martinwoodward'], 1, 11, 0),
 (226207937, 'airbnb/ts-migrate', 4257, 41, 'A tool to help migrate JavaScript code quickly and conveniently to TypeScript', ['Rudeg','edsrzf'], 1, 26, 0),
-(226668668, 'nomi-sec/PoC-in-GitHub', 3246, 7, '📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.', ['motikan2010-bot'], 1, 8, 0),
 (226408450, 'neovide/neovide', 5746, 165, 'No Nonsense Neovim Client in Rust', ['Kethku','jonvaldes'], 1, 2, 0),
+(226668668, 'nomi-sec/PoC-in-GitHub', 3246, 7, '📡 PoC auto collect from GitHub. ⚠️ Be careful Malware.', ['motikan2010-bot'], 1, 8, 0),
 (226992581, 'googleapis/python-pubsub', 168, 18, null, ['dhermes','plamut'], 1, 18, 0),
 (227265548, 'gluesql/gluesql', 1203, 52, 'GlueSQL is quite sticky, it attaches to anywhere.', ['panarch','ever0de'], 1, 0, 0),
 (227427615, 'hiteshchoudhary/docker-youtube', 11, 0, 'A repo for docker series on youtube', ['hiteshchoudhary','lcobootcamp'], 1, 16, 0),
@@ -2566,8 +2566,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (268424739, 'helix-editor/helix', 5010, 237, 'A post-modern modal text editor.', ['archseer','cessen'], 1, 17, 0),
 (268546030, 'philnash/github-weekends', 5, 6, 'A silly browser extension that marks weekend contributions on GitHub''s contribution graph in red', ['philnash'], 1, 3, 0),
 (268556270, 'bradleytaunt/wyf', 5, 0, 'Simple CSS ''plugin'' for toggle-styled figure elements (Watch Your Figure)', ['bradleytaunt'], 1, 8, 0),
-(268672917, 'billydh/zoom-reporting', 16, 1, null, ['billydh'], 1, 7, 0),
 (268972184, 'shilohc/map2gazebo', 87, 7, null, [], 1, 10, 0),
+(268672917, 'billydh/zoom-reporting', 16, 1, null, ['billydh'], 1, 7, 0),
 (269152507, 'smfils1/youtube-clone', 29, 26, 'A YouTube Clone using the MERN stack', ['smfils1'], 1, 11, 0),
 (269174002, 'counterpoint-studio/artgift', 5, 0, 'An open source web application for booking and managing Art Gifts', ['teropa','samueldiggins'], 1, 0, 0),
 (269211843, 'seek-oss/capsize', 727, 8, 'Flipping how we define typography in CSS.', ['michaeltaranto','mattcompiles'], 1, 9, 0),
@@ -3106,8 +3106,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (345606467, 'themesberg/glass-ui', 159, 0, 'CSS UI library based on the glassmorphism design specifications', ['zoltanszogyenyi'], 1, 5, 0),
 (345707949, 'kotest/kotest-assertions-arrow', 13, 5, 'Kotest extentsions for Arrow', ['sksamuel','i-walker'], 1, 21, 0),
 (345722773, 'Dev-Simulator/8-bit-env', 21, 0, null, ['mikedane'], 1, 20, 0),
-(345796271, 'george-hawkins/financials', 1, 0, null, ['george-hawkins'], 1, 20, 0),
 (345728485, 'khang-nd/DEV-stats', 9, 0, 'Display DEV.to stat card anywhere', ['khang-nd'], 1, 6, 0),
+(345796271, 'george-hawkins/financials', 1, 0, null, ['george-hawkins'], 1, 20, 0),
 (345922282, 'Saul-Mirone/milkdown', 5108, 8, '🍼 Plugin driven WYSIWYG  markdown editor framework.', ['Saul-Mirone','xiadd'], 1, 3, 0),
 (345956598, 'irevenko/octotui', 196, 3, '🐙🐱🖥️ GitHub stats in your terminal', ['irevenko','spenserblack'], 1, 25, 0),
 (346048523, 'udberg/Tasklist', 3, 0, 'Go from idea to action in seconds with Tasklist’s simple boards, list, and cards. This is a fun, flexible, and free way to organize plans, projects, and more. It has an elegant design and makes doing things fun. In this project, you can list tasks you want to perform in order of their priorities. The tasks automatically clear after it has been marked as completed.', ['udberg'], 1, 23, 0),

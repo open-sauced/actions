@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T04:43:17.992Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T06:43:20.208Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -431,8 +431,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (326532559, 424, 2228196, 'lesmo/pi-home', 11, 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', 0, 2, ['balena-ci','chrisys']),
 (88077974, 425, 2228196, 'tanhauhau/react-web-config', 12, 'react-native-config for Web', 4, 15, ['tanhauhau']),
 (205250704, 426, 2228196, 'microsoft/DialoGPT', 13, 'Large-scale pretraining for dialogue', 51, 1500, ['dreasysnail','mgalley']),
-(260719813, 428, 2228196, 'NyaomiDEV/Glasstron', 15, 'The go-to solution to Electron composition effects, such as blurry windows.', 7, 196, ['NyaomiDEV','KorbsStudio']),
 (115736320, 427, 2228196, 'klutchell/balena-pihole', 14, 'Pi-hole is a Linux network-level advertisement and Internet tracker blocking application.', 3, 252, ['klutchell','chrisys']),
+(260719813, 428, 2228196, 'NyaomiDEV/Glasstron', 15, 'The go-to solution to Electron composition effects, such as blurry windows.', 7, 196, ['NyaomiDEV','KorbsStudio']),
 (203569485, 429, 2228196, 'IjzerenHein/react-navigation-shared-element', 16, 'React Navigation bindings for react-native-shared-element 💫', 59, 964, ['IjzerenHein','phamhoaivu911']),
 (43830564, 430, 2228196, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
 (8859474, 431, 2228196, 'skylot/jadx', 18, 'Dex to Java decompiler', 186, 28205, ['skylot','asashour']),
