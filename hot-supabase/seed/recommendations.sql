@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T14:43:21.703Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T16:45:54.706Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -854,8 +854,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (50264296, 'jgthms/bulma', 44817, 361, 'Modern CSS framework based on Flexbox', ['jgthms','Wikiki'], 1, 10, 0),
 (50274171, 'vuejs/rollup-plugin-vue', 824, 68, 'Roll .vue files', ['yyx990803','znck'], 1, 6, 0),
 (50365232, 'werf/werf', 2838, 230, 'The CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism', ['distorhead','alexey-igrychev'], 1, 6, 0),
-(50565430, 'pnpm/pnpm', 14382, 661, 'Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具', ['zkochan','rstacruz'], 1, 8, 0),
 (50372538, 'GoogleCloudPlatform/community', 1547, 67, 'This repository holds the content submitted to https://cloud.google.com/community. Files added to the tutorials/ directory will appear at https://cloud.google.com/community/tutorials.', ['ToddKopriva','JimTravis'], 1, 8, 0),
+(50565430, 'pnpm/pnpm', 14382, 661, 'Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具', ['zkochan','rstacruz'], 1, 8, 0),
 (50658096, 'kehers/paystack', 108, 10, 'Nodejs API wrapper for Paystack', ['Subomi','kehers'], 1, 16, 0),
 (50685592, 'GoogleCloudPlatform/cloud-vision', 1059, 52, 'Sample code for Google Cloud Vision', ['tswast','amygdala'], 1, 15, 0),
 (50874860, 'go-ping/ping', 813, 26, 'ICMP Ping library for Go', ['sparrc','CHTJonas'], 1, 10, 0),
