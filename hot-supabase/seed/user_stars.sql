@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T06:43:20.208Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T08:43:36.158Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3015,8 +3015,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (49516849, 3017, 455338, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 65, 3856, ['xwmx','heywoodlh']),
 (6887156, 3018, 455338, 'Yggdroot/indentLine', 16, 'A vim plugin to display the indention levels with thin vertical lines', 68, 3690, ['Yggdroot','stardiviner']),
 (41906632, 3019, 455338, 'brookhong/Surfingkeys', 17, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', 353, 3792, ['brookhong','jgkamat']),
-(9625333, 3020, 455338, 'mhinz/vim-startify', 18, ':link: The fancy start screen for Vim.', 52, 4488, ['mhinz','blueyed']),
 (74367471, 3021, 455338, 'mjswensen/themer', 19, '🎨 themer takes a set of colors and generates themes for your apps (editors, terminals, wallpapers, and more).', 19, 4492, ['mjswensen','spenserblack']),
+(9625333, 3020, 455338, 'mhinz/vim-startify', 18, ':link: The fancy start screen for Vim.', 52, 4488, ['mhinz','blueyed']),
 (3287, 3022, 455338, 'preservim/nerdcommenter', 20, 'Vim plugin for intensely nerdy commenting powers', 94, 4457, ['alerque','scrooloose']),
 (12785573, 3023, 455338, 'sheerun/vim-polyglot', 21, 'A solid language pack for Vim.', 42, 4698, ['sheerun','CH-DanReif']),
 (139329396, 3024, 455338, 'rhysd/vim.wasm', 22, 'Vim editor ported to WebAssembly', 11, 4917, ['brammool','rhysd']),

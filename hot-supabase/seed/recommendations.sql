@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T06:43:20.211Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T08:43:36.393Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2566,8 +2566,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (268424739, 'helix-editor/helix', 5010, 237, 'A post-modern modal text editor.', ['archseer','cessen'], 1, 17, 0),
 (268546030, 'philnash/github-weekends', 5, 6, 'A silly browser extension that marks weekend contributions on GitHub''s contribution graph in red', ['philnash'], 1, 3, 0),
 (268556270, 'bradleytaunt/wyf', 5, 0, 'Simple CSS ''plugin'' for toggle-styled figure elements (Watch Your Figure)', ['bradleytaunt'], 1, 8, 0),
-(268972184, 'shilohc/map2gazebo', 87, 7, null, [], 1, 10, 0),
 (268672917, 'billydh/zoom-reporting', 16, 1, null, ['billydh'], 1, 7, 0),
+(268972184, 'shilohc/map2gazebo', 87, 7, null, [], 1, 10, 0),
 (269152507, 'smfils1/youtube-clone', 29, 26, 'A YouTube Clone using the MERN stack', ['smfils1'], 1, 11, 0),
 (269174002, 'counterpoint-studio/artgift', 5, 0, 'An open source web application for booking and managing Art Gifts', ['teropa','samueldiggins'], 1, 0, 0),
 (269211843, 'seek-oss/capsize', 727, 8, 'Flipping how we define typography in CSS.', ['michaeltaranto','mattcompiles'], 1, 9, 0),
