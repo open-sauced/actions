@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T16:45:54.706Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T18:43:23.398Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2341,13 +2341,13 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (240215314, 'docker/awesome-compose', 14033, 35, 'Awesome Docker Compose samples', ['aiordache','glours'], 1, 6, 0),
 (240312952, 'benawad/destiny', 3462, 44, 'Prettier for File Structures', ['benawad','sQVe'], 1, 20, 0),
 (240315046, 'jina-ai/jina', 13197, 66, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', ['hanxiao','jina-bot'], 1, 1, 0),
-(240335383, 'HarryDulaney/deezer-example-web-app', 2, 0, 'Full-Stack Web Application Client for Deezer''s music API. ', ['HarryDulaney'], 1, 14, 0),
 (240574799, 'devato/inertia_phoenix', 58, 12, 'Inertiajs Adapter for Elixir Phoenix', ['tmartin8080','bigx333'], 1, 10, 0),
 (240673378, 'phuoc-ng/html-dom', 4284, 22, 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', ['phuoc-ng','surajhell88'], 1, 1, 0),
 (240786294, 'HarshCasper/Rotten-Scripts', 897, 27, 'Scripts that will make you go WOW 😍💻 ', ['HarshCasper','vybhav72954'], 1, 2, 0),
 (240795158, 'KSJaay/Alita', 80, 0, 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ['KSJaay','PegosStelios'], 1, 16, 0),
 (240960453, 'cmgriffing/idiosyncrasy', 7, 6, null, ['CodeItQuick','cmgriffing'], 1, 28, 0),
 (240969480, 'romkatv/zsh4humans', 665, 7, 'A turnkey configuration for Zsh', ['romkatv','Syphdias'], 1, 2, 0),
+(240335383, 'HarryDulaney/deezer-example-web-app', 2, 0, 'Full-Stack Web Application Client for Deezer''s music API. ', ['HarryDulaney'], 1, 14, 0),
 (241080452, 'brettmillerb/sqlpackage-docker', 1, 0, 'Github repo to build and release container image for sqlpackage', ['brettmillerb'], 1, 22, 0),
 (241092383, 'docker/build-push-action', 1931, 27, 'GitHub Action to build and push Docker images with Buildx', ['crazy-max','zappy-shu'], 1, 4, 0),
 (241303926, 'mikenye/docker-readsb', 73, 0, 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', ['mikenye','SalazarBruno'], 1, 17, 0),
