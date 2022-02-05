@@ -4352,6 +4352,7 @@ star_id,id,user_id,repo_name,recency_score,description,issues,stars,contributors
 71359796,304890007,69519470,open-sauced/open-sauced,0,🍕  This is a project to identify your next open source contribution. ,29,573,"[""bdougie"",""0-vortex""]"
 178137889,342917803,68660520,mpsalisbury/raytracer,0,Ray Tracer from Ray Tracer Challenge,0,3,"[""mpsalisbury""]"
 429658975,208603857,5713670,open-sauced/party-line,0,,0,4,"[""regexident"",""jessmitch42""]"
+169100692,455114859,24910512,NVlabs/stylegan,0,StyleGAN - Official TensorFlow Implementation,10,12163,"[""tkarras"",""nurpax""]"
 68414068,351353449,35429278,probot/probot,0,🤖 A framework for building GitHub Apps to automate and improve your workflow,31,7457,"[""bkeepers"",""gr2m""]"
 343965132,418247835,16165980,microsoft/ML-For-Beginners,0,"12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all",6,28909,"[""jlooper"",""softchris""]"
 428727515,417311106,71297412,HMTEUNIS/react-beats,0,,0,1,"[""WBian618"",""dandesantis14""]"
