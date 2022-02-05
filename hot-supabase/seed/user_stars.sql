@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-04T22:43:27.182Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T01:01:03.283Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3218,8 +3218,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (188660663, 3220, 3754311, 'CorentinJ/Real-Time-Voice-Cloning', 13, 'Clone a voice in 5 seconds to generate arbitrary speech in real-time', 57, 32215, ['CorentinJ','alexpeattie']),
 (255770685, 3221, 3754311, 'rdbeach/wb', 14, 'Online collaborative Whiteboard that is simple, free, easy to use and  to deploy', 11, 20, ['lovasoa','rdbeach']),
 (417937257, 3222, 3754311, 'monicatvera/preview-credit-card', 15, 'A credit card preview app', 0, 3, ['monicatvera']),
-(71359796, 3224, 3754311, 'open-sauced/open-sauced', 17, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (320826343, 3223, 3754311, 'RainerChiang/simpleness', 16, 'hugo theme simpleness', 1, 21, ['RainerChiang','yzwdroid']),
+(71359796, 3224, 3754311, 'open-sauced/open-sauced', 17, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (415688405, 3225, 3754311, 'wtm-buea/WTM-official-website', 18, 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', 6, 2, ['alicendeh','Julia-yossa']),
 (8162715, 3226, 3754311, 'saleor/saleor', 19, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 274, 14770, ['maarcingebala','dominik-zeglen']),
 (7705569, 3227, 3754311, 'wger-project/wger', 20, 'Self hosted FLOSS fitness/workout, nutrition and weight tracker written with Django', 119, 1635, ['rolandgeider','petervanderdoes']),
