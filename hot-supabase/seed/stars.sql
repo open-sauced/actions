@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T08:43:35.969Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T10:43:27.202Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2149,6 +2149,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (3318, 42728, 297, 'syncthing/syncthing', 14712850),
 (431, 3160, 21, 'horsicq/Detect-It-Easy', 20387062),
 (0, 1, 0, 'smcgivern/urm-evaluator', 2712004),
+(0, 3, 0, 'ChristBM/platzi_conf_merch', 427228421),
 (2, 7, 0, 'tkwant/react-steps', 417268538),
 (9, 67, 2, 'xizon/poemkit', 355395936),
 (23, 179, 0, 'louelladev/Helpful-Tech-Resources', 420110494),
@@ -2717,8 +2718,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (4, 6, 5, 'teambit/react-tailwind-env', 364674634),
 (85, 504, 29, 'lfades/static-tweet', 247512481),
 (56, 781, 4, 'orbit-love/orbit-model', 191414235),
-(29, 43, 4, 'orbit-love/github-actions-templates', 364149329),
 (7, 100, 1, 'kothariji/Querylizer', 338315224),
+(29, 43, 4, 'orbit-love/github-actions-templates', 364149329),
 (12, 139, 3, 'github/maintainerweek', 353082105),
 (55, 227, 9, 'taylorbryant/jekyll-starter-tailwind', 110053683),
 (673, 1367, 178, 'winder/Universal-G-Code-Sender', 4801382),
@@ -2946,7 +2947,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (7, 146, 4, 'pathivu/pathivu', 220651147),
 (37, 431, 37, 'akosbalasko/yarle', 151837779),
 (1651, 2350, 892, 'Azure/azure-sdk-for-python', 4127088),
-(0, 3, 0, 'ChristBM/platzi_conf_merch', 427228421),
 (1568, 3221, 734, 'Qiskit/qiskit-terra', 83821669),
 (45, 179, 12, 'NewBieBR/typescript-react-native-starter', 195459553),
 (8, 30, 1, 'cassidoo/shopify-next-netlify', 387501063),
@@ -3209,8 +3209,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (6, 13, 0, 'netlify/labs', 426366708),
 (68, 466, 1, 'roottusk/vapi', 293301937),
 (11, 150, 0, 'antfu/utils', 356744623),
-(0, 3, 0, '0-vortex/rss-feed-parser', 451964411),
 (18, 152, 12, 'swinton/screenshot-website', 245505091),
+(0, 3, 0, '0-vortex/rss-feed-parser', 451964411),
 (6, 14, 0, 'RapidAPI/DevRel-Examples-External', 411237210),
 (20, 170, 6, 'jslicense/licensee.js', 35319136),
 (477, 17712, 69, 'vadimdemedes/ink', 94061307),
