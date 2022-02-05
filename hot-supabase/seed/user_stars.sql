@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T18:43:23.300Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T20:43:24.096Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3151,6 +3151,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (62091339, 3153, 22620727, 'kubernetes/kops', 25, 'Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management', 211, 13622, ['k8s-ci-robot','justinsb']),
 (235283287, 3154, 22620727, 'fpereiro/backendlore', 26, 'How I write backends', 0, 4936, ['fpereiro','sshine']),
 (219616873, 3155, 22620727, 'charmbracelet/glow', 27, 'Render markdown on the CLI, with pizzazz! 💅🏻', 59, 7639, ['meowgorithm','muesli']),
+(306587975, 3156, 22620727, 'compumike/hairpin-proxy', 28, 'PROXY protocol support for internal-to-LoadBalancer traffic for Kubernetes Ingress users. If you''ve had problems with ingress-nginx, cert-manager, LetsEncrypt ACME HTTP01 self-check failures, and the PROXY protocol, read on.', 7, 462, ['compumike','themightychris']),
 (286080143, 3157, 22620727, 'upptime/upptime', 29, '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', 47, 8945, ['upptime-bot','pabio-escobar']),
 (234290189, 3158, 46935495, 'sarthakvarshney8081/kube-cluster', 0, 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', 0, 1, ['path2himanshu']),
 (234755443, 3159, 46935495, 'sarthakvarshney8081/dockerlabs', 1, 'Docker  - Beginners | Intermediate | Advanced', 0, 1, ['collabnix','sangam14']),
@@ -3177,8 +3178,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (22392639, 3180, 22655167, 'yjs/yjs', 17, 'Shared data types for building collaborative software', 38, 5935, ['dmonad','nikgraf']),
 (388693827, 3181, 22655167, 'antfu/vitesse-webext', 18, '⚡️ WebExtension Vite Starter Template', 3, 1032, ['antfu','tmkx']),
 (386740498, 3182, 22655167, 'lukesmurray/scrawl', 19, 'A chrome extension which lets you draw on any web page with excalidraw', 5, 46, ['lukesmurray']),
-(380298833, 3184, 22655167, 'prisma-labs/bema', 21, '🐎 Delightful benchmarking for Node.js ', 9, 59, ['jasonkuhrt','iheyunfei']),
 (262501222, 3183, 22655167, 'privatenumber/esbuild-loader', 20, '⚡️ Speed up your Webpack build with esbuild', 7, 2557, ['privatenumber','egoist']),
+(380298833, 3184, 22655167, 'prisma-labs/bema', 21, '🐎 Delightful benchmarking for Node.js ', 9, 59, ['jasonkuhrt','iheyunfei']),
 (368917877, 3185, 22655167, 'BuilderIO/qwik', 22, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', 17, 1271, ['mhevery','adamdbradley']),
 (130884470, 3186, 22655167, 'solidjs/solid', 23, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', 22, 13199, ['ryansolid','davedbase']),
 (7122594, 3187, 22655167, 'directus/directus', 24, 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', 200, 13248, ['rijkvanzanten','benhaynes']),
@@ -3616,7 +3617,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (202445312, 3619, 61131314, 'open-wa/wa-automate-nodejs', 24, ' 💬 🤖  The most advanced NodeJS WhatsApp library for chatbots with advanced features. Be sure to 🌟 this repository for updates! ', 27, 1991, ['smashah','danielcardeenas']),
 (36502, 3620, 61131314, 'git/git', 25, 'Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.', 90, 40523, ['gitster','peff']),
 (305896956, 3621, 61131314, 'Mogakamo/developer-community-stats', 26, '🚀 A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats', 0, 1, ['subeshb1','shankar524']),
-(306587975, 3156, 22620727, 'compumike/hairpin-proxy', 28, 'PROXY protocol support for internal-to-LoadBalancer traffic for Kubernetes Ingress users. If you''ve had problems with ingress-nginx, cert-manager, LetsEncrypt ACME HTTP01 self-check failures, and the PROXY protocol, read on.', 7, 462, ['compumike','themightychris']),
 (181575785, 3622, 61131314, 'kentcdodds/react-hooks', 27, 'Learn React Hooks! 🎣 ⚛', 5, 2009, ['kentcdodds','Aprillion']),
 (65750241, 3623, 61131314, 'expo/expo', 28, 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', 1328, 15588, ['brentvatne','terribleben']),
 (31792824, 3624, 61131314, 'flutter/flutter', 29, 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', 10100, 133601, ['engine-flutter-autoroll','abarth']),
