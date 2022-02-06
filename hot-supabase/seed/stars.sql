@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T08:43:36.211Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T10:43:16.231Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2003,9 +2003,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (4, 5, 9, 'judicaelandria/check', 276914940),
 (7, 20, 20, 'coroo/pytest-coverage-commentator', 310766137),
 (0, 3, 1, 'jlengstorf/ast-transformations', 222535759),
+(4, 100, 2, 'SergeyMyssak/nextjs-sitemap', 275585532),
 (3, 2, 1, 'github/automatic-contrib-prs', 417656389),
 (1446, 5054, 179, 'PyGithub/PyGithub', 3544490),
-(4, 100, 2, 'SergeyMyssak/nextjs-sitemap', 275585532),
 (391, 1072, 48, 'sigmavirus24/github3.py', 3710711),
 (46, 123, 14, 'srggrs/assign-one-project-github-action', 225862895),
 (2, 5, 0, '3cpt/recorrente', 399220892),

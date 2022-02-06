@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T08:43:36.374Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T10:43:16.436Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -434,7 +434,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (115736320, 427, 2228196, 'klutchell/balena-pihole', 14, 'Pi-hole is a Linux network-level advertisement and Internet tracker blocking application.', 3, 252, ['klutchell','chrisys']),
 (260719813, 428, 2228196, 'NyaomiDEV/Glasstron', 15, 'The go-to solution to Electron composition effects, such as blurry windows.', 7, 196, ['NyaomiDEV','KorbsStudio']),
 (203569485, 429, 2228196, 'IjzerenHein/react-navigation-shared-element', 16, 'React Navigation bindings for react-native-shared-element 💫', 59, 964, ['IjzerenHein','phamhoaivu911']),
-(43830564, 430, 2228196, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
 (8859474, 431, 2228196, 'skylot/jadx', 18, 'Dex to Java decompiler', 186, 28205, ['skylot','asashour']),
 (7550637, 432, 2228196, 'xenia-project/xenia', 19, 'Xbox 360 Emulator Research Project ', 225, 5424, ['benvanik','DrChat']),
 (54421302, 433, 2228196, 'iCatButler/pcsxr', 20, 'https://pcsxr.svn.codeplex.com/svn/pcsxr', 13, 330, ['iCatButler','loathingKernel']),
@@ -482,13 +481,14 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (429407366, 476, 19617280, 'ryanlabar/next-page-transitions', 2, null, 0, 3, ['ryanlabar']),
 (427157632, 477, 19617280, 'netlify-templates/sveltekit-netlify-starter', 3, 'SvelteKit Starter ready for deployment on Netlify', 1, 1, ['renovate-bot','maxcell']),
 (425853395, 478, 19617280, 'csellis/component-library', 4, 'SvelteKit + Tailwind + Storybook', 1, 2, ['csellis']),
+(43830564, 430, 2228196, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
 (407327246, 479, 19617280, 'angeloashmore/gatsby-4-prismic-demo', 5, null, 1, 2, ['angeloashmore']),
-(389974232, 480, 19617280, 'slinkity/slinkity', 6, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 13, 173, ['Holben888','ArkaneMoose']),
-(71359796, 481, 19617280, 'open-sauced/open-sauced', 7, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (266427736, 482, 19617280, '5t3ph/11ty-netlify-jumpstart', 8, 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', 0, 175, ['5t3ph','Waterstraal']),
 (115110181, 483, 19617280, 'swc-project/swc', 9, 'swc is a super-fast compiler written in rust; producing widely-supported javascript from modern standards and typescript.', 241, 18858, ['kdy1','dsherret']),
 (318616207, 484, 19617280, 'colinhemphill/nextjs-resume', 10, null, 25, 40, ['colinhemphill']),
+(389974232, 480, 19617280, 'slinkity/slinkity', 6, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 13, 173, ['Holben888','ArkaneMoose']),
 (276970401, 485, 19617280, '5t3ph/stylestage', 11, 'A modern CSS showcase styled by community contributions. Add your stylesheet!', 2, 1339, ['5t3ph','cbirdsong']),
+(71359796, 481, 19617280, 'open-sauced/open-sauced', 7, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (187874263, 486, 19617280, 'rjt-rockx/mee6-levels-api', 12, 'An API wrapper for Mee6 levels', 0, 18, ['rjt-rockx','Lioness100']),
 (398666208, 487, 19617280, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 194, ['nachtfunke']),
 (274274791, 488, 19617280, 'vseventer/eleventy-plugin-helmet', 14, 'A document head manager for Eleventy.', 5, 15, ['vseventer','peterjcaulfield']),
@@ -1793,6 +1793,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (382172039, 1805, 30334776, 'Helewud/Travel-Log-App', 18, null, 1, 4, ['Helewud']),
 (389664802, 1806, 30334776, 'Helewud/MapLog', 19, null, 0, 1, ['Helewud']),
 (363500480, 1807, 30334776, 'Helewud/Vidly', 20, null, 0, 1, ['Helewud']),
+(389086554, 1808, 30334776, 'BolajiAyodeji/headless-swag-store', 21, 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', 0, 3, ['BolajiAyodeji','acasazza']),
+(389071137, 1809, 30334776, 'BolajiAyodeji/linear-regression', 22, 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', 0, 1, ['BolajiAyodeji']),
 (388004440, 1810, 30334776, 'oscafrica/open-source-challenge-2021', 23, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', 1, 46, ['BolajiAyodeji','Petec0x0']),
 (908607, 1811, 30334776, 'numpy/numpy', 24, 'The fundamental package for scientific computing with Python.', 2295, 19152, ['charris','teoliphant']),
 (191414235, 1812, 30334776, 'orbit-love/orbit-model', 25, 'A framework for building high gravity communities 🪐', 4, 758, ['dzello','patrickjwoods']),
@@ -1814,9 +1816,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (334195792, 1828, 25867172, 'teezzan/flw_validator', 11, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', 0, 1, ['teezzan']),
 (330778168, 1829, 25867172, 'ScalableOrg/fintech-lite', 12, 'I plan to do a series of livestreams on how a basic fintech wallet works. This repo is where all the code will live.', 6, 156, ['OpesanyaAdebayo','Sokan93']),
 (23511343, 1830, 25867172, 'ultraembedded/riscv', 13, 'RISC-V CPU Core (RV32IM)', 5, 427, ['ultraembedded']),
-(389086554, 1808, 30334776, 'BolajiAyodeji/headless-swag-store', 21, 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', 0, 3, ['BolajiAyodeji','acasazza']),
 (288511462, 1831, 25867172, 'teezzan/commitSpy-Core', 14, 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', 0, 2, ['teezzan']),
-(389071137, 1809, 30334776, 'BolajiAyodeji/linear-regression', 22, 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', 0, 1, ['BolajiAyodeji']),
 (316471703, 1832, 25867172, 'teezzan/katacoda-scenarios', 15, 'Katacoda Scenarios', 0, 1, ['teezzan']),
 (90408889, 1833, 25867172, 'moleculerjs/moleculer-web', 16, ':earth_africa: Official API Gateway service for Moleculer framework', 21, 240, ['icebob','AndreMaz']),
 (256039268, 1834, 25867172, 'progresak/lucrat-project', 17, 'Lucrative automatic trading strategy system', 25, 3, ['progresak']),
