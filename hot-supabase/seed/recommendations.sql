@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T12:48:36.760Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T14:43:22.702Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -949,10 +949,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (59239347, 'portainer/portainer', 20485, 834, 'Making Docker and Kubernetes management easy.', ['deviantony','chiptus'], 1, 15, 0),
 (59522149, 'gruntwork-io/terragrunt', 5465, 353, 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ['brikis98','yorinasub17'], 1, 10, 0),
 (59573221, 'sobolevn/awesome-cryptography', 3485, 16, 'A curated list of cryptography resources and links.', ['sobolevn','lk-geimfari'], 1, 23, 0),
+(59669326, 'xoofx/markdig', 2737, 70, 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ['xoofx','MihaZupan'], 1, 28, 0),
 (59826401, 'mikeckennedy/write-pythonic-code-demos', 663, 0, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', ['mikeckennedy','hclivess'], 1, 2, 0),
 (59904484, 'tc39/proposal-set-methods', 243, 8, 'Strawman for new Set methods', ['Ginden','gsathya'], 1, 10, 0),
 (59909973, 'ngrx/example-app', 1365, 24, 'Example app showcasing the ngrx platform', ['MikeRyanDev','krjordan'], 1, 16, 0),
-(59669326, 'xoofx/markdig', 2737, 70, 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ['xoofx','MihaZupan'], 1, 28, 0),
 (60125647, 'jimmywarting/StreamSaver.js', 2791, 48, 'StreamSaver writes stream to the filesystem directly asynchronous', ['jimmywarting','TexKiller'], 1, 12, 0),
 (60201474, 'RubyHabits/ruby-habits-library', 2, 2, 'An app to run our Ruby Habits library :D', ['evatrostlos','alicetragedy'], 1, 6, 0),
 (60243197, 'nextcloud/server', 17779, 1907, '☁️ Nextcloud server, a safe home for all your data', ['rullzer','MorrisJobke'], 1, 12, 0),
@@ -2591,8 +2591,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (272328835, 'timburgan/timburgan', 592, 135, null, ['timburgan','kwacky1'], 1, 11, 0),
 (272382323, 'cozyCodr/coderXcoded.github.io', 1, 0, 'practice of what i have learnt on freecodecamp.org', ['cozyCodr'], 1, 3, 0),
 (272492043, 'shuding/nextra', 2571, 98, 'The Next.js Static Site Generator', ['shuding','pacocoursey'], 2, 26, 0),
-(272529198, 'telekom/das-schiff', 216, 2, 'This is home of Das Schiff - Deutsche Telekom Technik''s engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs. ', ['vukg','Cellebyte'], 1, 2, 0),
 (272597848, '20BBrown14/digital-terrain-mc-js', 1, 7, 'Javascript for the Digital Terrain MC Server Website', ['20BBrown14','ColomboJuan'], 1, 17, 0),
+(272529198, 'telekom/das-schiff', 216, 2, 'This is home of Das Schiff - Deutsche Telekom Technik''s engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs. ', ['vukg','Cellebyte'], 1, 2, 0),
 (272753737, 'WomenWhoCode/wwcsf-algos', 168, 25, 'Algorithms and whiteboarding interview prep for the WWCSF community', ['elaguerta','beginner789'], 1, 0, 0),
 (272942303, 'theanam/webaudio-oscilloscope', 50, 5, 'A highly customizable oscilloscope for Web Audio 🔈 🎤', ['theanam'], 1, 25, 0),
 (273019730, 'etesync/etebase-docs', 24, 20, 'The Etebase documentation', ['tasn','Salt-Factory'], 1, 26, 0),
