@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T04:46:32.483Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T06:45:51.685Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3040,8 +3040,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (336889949, 'NYRI4/Comfy', 195, 2, 'Stay comfy while talking to your friends', ['NYRI4'], 1, 2, 0),
 (336945933, 'learn-academy-2021-alpha/Syllabus', 2, 0, null, ['sjproctor','JzGo'], 1, 1, 0),
 (337216037, 'arch-linux-calamares-installer/alci-iso-pure', 4, 0, null, ['erikdubois'], 1, 28, 0),
-(337752915, 'udberg/TwitterClone', 4, 0, null, ['udberg'], 1, 16, 0),
 (337366449, 'NicolaDeastra/The-Lazy-Media-api', 13, 0, 'Unofficial The Lazy Media API', ['NicolaDeastra'], 1, 10, 0),
+(337496044, 'cncf/cartografos', 33, 1, 'The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.', ['daniellemcook','siforster'], 1, 24, 0),
+(337544200, 'learn-academy-2021-alpha/lecture-examples', 1, 0, null, ['minachuong','sjproctor'], 1, 0, 0),
+(337752915, 'udberg/TwitterClone', 4, 0, null, ['udberg'], 1, 16, 0),
 (337840518, 'artano-io/artano', 36, 1, 'A Cardano NFT Marketplace', ['MatejaSela','xoriole'], 1, 2, 0),
 (337850512, 'Call-for-Code-for-Racial-Justice/Call-for-Code-for-Racial-Justice', 11, 4, 'The main repository for information on Call for Code® for Racial Justice projects, hosted by The Linux Foundation.', ['krook','demilolu'], 1, 0, 0),
 (338102540, 'john-smilga/node-express-course', 938, 5, null, ['john-smilga'], 1, 3, 0),
@@ -3261,8 +3263,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (368642007, 'ulissesdias/si700-2021-1st-backend-', 1, 0, null, ['ulissesdias'], 1, 5, 0),
 (368658267, 'Rich-Harris/svelte-cubed', 749, 31, 'Svelte ❤️ Three', ['Rich-Harris','gonfva'], 1, 0, 0),
 (368859622, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 2, 0, 'Exploring RDP Instrument Pricing Analytics API for Zero Coupon Curves', ['umernalla'], 1, 25, 0),
-(337496044, 'cncf/cartografos', 33, 1, 'The Cartografos working group aims to provide tools to help adopters and end-users to navigate the CNCF landscape and the wider cloud native ecosystem.', ['daniellemcook','siforster'], 1, 24, 0),
-(337544200, 'learn-academy-2021-alpha/lecture-examples', 1, 0, null, ['minachuong','sjproctor'], 1, 0, 0),
 (368917877, 'BuilderIO/qwik', 1271, 17, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', ['mhevery','adamdbradley'], 1, 22, 0),
 (369362064, 'reactwg/react-18', 3777, 0, 'Workgroup for React 18 release.', ['caabernathy','gaearon'], 2, 3.5, 0),
 (369652397, 'whitep4nth3r/unbreak.tech', 6, 1, 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', ['whitep4nth3r'], 1, 12, 0),
