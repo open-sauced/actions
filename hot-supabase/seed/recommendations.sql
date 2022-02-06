@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T01:02:10.904Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T02:49:32.738Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2427,11 +2427,11 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (252029824, 'BabylonJS/BabylonReactNative', 183, 32, 'Build React Native applications with the power of Babylon Native', ['ryantrem','chrisfromwork'], 1, 0, 0),
 (252367817, 'duty-machine/duty-machine', 485, 1980, '一个备份网络文章的服务。声援陈玫、蔡伟及其女友小唐，请关注端点星事件。', [], 1, 9, 0),
 (252927078, 'recogito/recogito-js', 116, 6, 'A JavaScript library for text annotation', ['rsimon','Apeli'], 1, 25, 0),
-(253226107, 'telety/telety', 1, 1, null, ['mvandervliet'], 1, 0, 0),
 (253458494, 'bakkeby/patches', 131, 5, 'Collection of patches for dwm, st and dmenu', ['bakkeby'], 1, 28, 0),
 (253816668, 'iamcco/coc-leetcode', 25, 12, 'leetcode 扩展', ['iamcco'], 1, 12, 0),
 (254060596, 'zellwk/crud-demo', 77, 4, 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', ['zellwk'], 1, 26, 0),
 (254141208, 'piscinajs/piscina', 2131, 31, 'A fast, efficient Node.js Worker Thread Pool implementation', ['jasnell','addaleax'], 1, 18, 0),
+(253226107, 'telety/telety', 1, 1, null, ['mvandervliet'], 1, 0, 0),
 (254180747, 'jpedroschmitz/gatsby-starter-ts', 242, 3, 'TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start. Ready for Gatsby v4 🔥 ', ['renovate-bot','jpedroschmitz'], 1, 4, 0),
 (254399512, 'rodridev77/bank-loan', 2, 1, null, ['rodridev77'], 1, 9, 0),
 (254660586, 'openmainframeproject/cobol-programming-course', 1963, 9, 'Training materials and labs for a ''Getting Started'' level course on COBOL', ['MikeBauerCA','tanto259'], 1, 29, 0),
