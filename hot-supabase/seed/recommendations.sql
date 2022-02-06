@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T10:43:16.433Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T12:48:36.760Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -949,10 +949,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (59239347, 'portainer/portainer', 20485, 834, 'Making Docker and Kubernetes management easy.', ['deviantony','chiptus'], 1, 15, 0),
 (59522149, 'gruntwork-io/terragrunt', 5465, 353, 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ['brikis98','yorinasub17'], 1, 10, 0),
 (59573221, 'sobolevn/awesome-cryptography', 3485, 16, 'A curated list of cryptography resources and links.', ['sobolevn','lk-geimfari'], 1, 23, 0),
-(59669326, 'xoofx/markdig', 2737, 70, 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ['xoofx','MihaZupan'], 1, 28, 0),
 (59826401, 'mikeckennedy/write-pythonic-code-demos', 663, 0, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', ['mikeckennedy','hclivess'], 1, 2, 0),
 (59904484, 'tc39/proposal-set-methods', 243, 8, 'Strawman for new Set methods', ['Ginden','gsathya'], 1, 10, 0),
 (59909973, 'ngrx/example-app', 1365, 24, 'Example app showcasing the ngrx platform', ['MikeRyanDev','krjordan'], 1, 16, 0),
+(59669326, 'xoofx/markdig', 2737, 70, 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ['xoofx','MihaZupan'], 1, 28, 0),
 (60125647, 'jimmywarting/StreamSaver.js', 2791, 48, 'StreamSaver writes stream to the filesystem directly asynchronous', ['jimmywarting','TexKiller'], 1, 12, 0),
 (60201474, 'RubyHabits/ruby-habits-library', 2, 2, 'An app to run our Ruby Habits library :D', ['evatrostlos','alicetragedy'], 1, 6, 0),
 (60243197, 'nextcloud/server', 17779, 1907, '☁️ Nextcloud server, a safe home for all your data', ['rullzer','MorrisJobke'], 1, 12, 0),
@@ -3201,8 +3201,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (360565698, 'solana-labs/solana-season', 336, 6, null, ['mattytay','chaseeb'], 1, 0, 0),
 (360655524, 'education/GitHubGraduation-2021', 1404, 1345, 'Join the GitHub Graduation Yearbook and ''walk the stage'' on June 5.', ['juanpflores','elisemoe'], 1, 5, 0),
 (360794368, 'hschne/rails-mini-profiler', 346, 12, 'Performance profiling for Rails, made simple 🦔', ['hschne','olleolleolle'], 2, 10, 0),
-(361178225, 'rodrigo-brito/ninjabot', 912, 7, 'A fast cryptocurrency trading bot implemented in Go', ['rodrigo-brito','panapol-p'], 1, 16, 0),
 (361044034, 'slidevjs/slidev', 16821, 48, 'Presentation Slides for Developers (Beta)', ['antfu','nico-bachner'], 4, 9.5, 1),
+(361178225, 'rodrigo-brito/ninjabot', 912, 7, 'A fast cryptocurrency trading bot implemented in Go', ['rodrigo-brito','panapol-p'], 1, 16, 0),
 (361335799, '100devs/todo-mvc-auth-local', 14, 1, null, ['leonnoel','JeremySeckinger'], 1, 4, 0),
 (361722943, 'Dhaiwat10/simple-nft', 1, 0, null, ['rhlsthrm','krzkaczor'], 1, 28, 0),
 (362234372, 'edoardottt/cariddi', 345, 4, 'Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, tokens and more...', ['edoardottt'], 1, 13, 0),

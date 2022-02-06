@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T10:43:16.436Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T12:48:36.750Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -434,6 +434,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (115736320, 427, 2228196, 'klutchell/balena-pihole', 14, 'Pi-hole is a Linux network-level advertisement and Internet tracker blocking application.', 3, 252, ['klutchell','chrisys']),
 (260719813, 428, 2228196, 'NyaomiDEV/Glasstron', 15, 'The go-to solution to Electron composition effects, such as blurry windows.', 7, 196, ['NyaomiDEV','KorbsStudio']),
 (203569485, 429, 2228196, 'IjzerenHein/react-navigation-shared-element', 16, 'React Navigation bindings for react-native-shared-element 💫', 59, 964, ['IjzerenHein','phamhoaivu911']),
+(43830564, 430, 2228196, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
 (8859474, 431, 2228196, 'skylot/jadx', 18, 'Dex to Java decompiler', 186, 28205, ['skylot','asashour']),
 (7550637, 432, 2228196, 'xenia-project/xenia', 19, 'Xbox 360 Emulator Research Project ', 225, 5424, ['benvanik','DrChat']),
 (54421302, 433, 2228196, 'iCatButler/pcsxr', 20, 'https://pcsxr.svn.codeplex.com/svn/pcsxr', 13, 330, ['iCatButler','loathingKernel']),
@@ -481,14 +482,13 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (429407366, 476, 19617280, 'ryanlabar/next-page-transitions', 2, null, 0, 3, ['ryanlabar']),
 (427157632, 477, 19617280, 'netlify-templates/sveltekit-netlify-starter', 3, 'SvelteKit Starter ready for deployment on Netlify', 1, 1, ['renovate-bot','maxcell']),
 (425853395, 478, 19617280, 'csellis/component-library', 4, 'SvelteKit + Tailwind + Storybook', 1, 2, ['csellis']),
-(43830564, 430, 2228196, 'auchenberg/volkswagen', 17, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
 (407327246, 479, 19617280, 'angeloashmore/gatsby-4-prismic-demo', 5, null, 1, 2, ['angeloashmore']),
+(389974232, 480, 19617280, 'slinkity/slinkity', 6, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 13, 173, ['Holben888','ArkaneMoose']),
+(71359796, 481, 19617280, 'open-sauced/open-sauced', 7, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (266427736, 482, 19617280, '5t3ph/11ty-netlify-jumpstart', 8, 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', 0, 175, ['5t3ph','Waterstraal']),
 (115110181, 483, 19617280, 'swc-project/swc', 9, 'swc is a super-fast compiler written in rust; producing widely-supported javascript from modern standards and typescript.', 241, 18858, ['kdy1','dsherret']),
 (318616207, 484, 19617280, 'colinhemphill/nextjs-resume', 10, null, 25, 40, ['colinhemphill']),
-(389974232, 480, 19617280, 'slinkity/slinkity', 6, 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', 13, 173, ['Holben888','ArkaneMoose']),
 (276970401, 485, 19617280, '5t3ph/stylestage', 11, 'A modern CSS showcase styled by community contributions. Add your stylesheet!', 2, 1339, ['5t3ph','cbirdsong']),
-(71359796, 481, 19617280, 'open-sauced/open-sauced', 7, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (187874263, 486, 19617280, 'rjt-rockx/mee6-levels-api', 12, 'An API wrapper for Mee6 levels', 0, 18, ['rjt-rockx','Lioness100']),
 (398666208, 487, 19617280, 'nachtfunke/basic-pattern-repository', 13, 'Simple patterns for <use>. Just SVG - for your delight!', 0, 194, ['nachtfunke']),
 (274274791, 488, 19617280, 'vseventer/eleventy-plugin-helmet', 14, 'A document head manager for Eleventy.', 5, 15, ['vseventer','peterjcaulfield']),
