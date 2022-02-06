@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T16:49:27.363Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T18:44:49.382Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1741,8 +1741,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (154178913, 'wazo-platform/wazo-react-native-demo', 29, 11, 'A simple demonstration of Wazo''s SDK with React Native', ['manuquentin'], 1, 26, 0),
 (154181635, 'microbium/microbium-app', 86, 0, 'Draw new worlds', ['jpweeks','courdek'], 1, 8, 0),
 (154401464, 'lirantal/awesome-nodejs-security', 1790, 3, 'Awesome Node.js Security resources', ['lirantal','alemagio'], 1, 4, 0),
-(154688866, 'nakov/Practical-Cryptography-for-Developers-Book', 2406, 42, 'Practical Cryptography for Developers: Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems, RSA, Elliptic Curves, ECC, secp256k1, ECDH, ECIES, Digital Signatures, ECDSA, EdDSA', ['nakov','kasperkarlsson'], 1, 1, 0),
 (154548852, 'amazon-archives/aws-media-services-workflow-composer', 11, 2, 'Create flexible, intelligent file-based video workflows on AWS using dynamic rules.', ['aburkleaux-amazon','jamesiri'], 1, 23, 0),
+(154688866, 'nakov/Practical-Cryptography-for-Developers-Book', 2406, 42, 'Practical Cryptography for Developers: Hashes, MAC, Key Derivation, DHKE, Symmetric and Asymmetric Ciphers, Public Key Cryptosystems, RSA, Elliptic Curves, ECC, secp256k1, ECDH, ECIES, Digital Signatures, ECDSA, EdDSA', ['nakov','kasperkarlsson'], 1, 1, 0),
 (154704604, 'iLoveCodingOrg/javascript-cheatsheet', 623, 0, 'Learn the basic terminologies, concepts and syntax of JavaScript', ['azizali'], 1, 16, 0),
 (154829724, 'CSFrequency/react-firebase-hooks', 2240, 21, 'React Hooks for Firebase.', ['chrisbianca','andipaetzold'], 1, 13, 0),
 (154894457, 'open-policy-agent/gatekeeper', 2202, 244, 'Gatekeeper - Policy Controller for Kubernetes', ['maxsmythe','sozercan'], 1, 12, 0),
@@ -1837,8 +1837,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (168251225, 'LEARNAcademy/Syllabus', 8, 1, null, ['sjproctor','JzGo'], 1, 10, 0),
 (168267539, 'andrersp/controleEstoque', 115, 3, 'Controle de Estoque PyQt5', ['andrersp','rhenter'], 1, 15, 0),
 (168709940, 'kudulab/dojo', 259, 7, 'Containerize your development and operations environment', ['xmik','tomzo'], 1, 6, 0),
-(169250119, 'evilmartians/lefthook', 1855, 72, 'Fast and powerful Git hooks manager for any type of projects.', ['Envek','skryukov'], 1, 22, 0),
 (168927777, 'Mtihc/bustabit-script-simulator', 15, 6, 'Simulate running a script on bustabit', ['Mtihc'], 1, 27, 0),
+(169250119, 'evilmartians/lefthook', 1855, 72, 'Fast and powerful Git hooks manager for any type of projects.', ['Envek','skryukov'], 1, 22, 0),
 (169371413, 'MoienTajik/AspNetCore-Developer-Roadmap', 8282, 4, 'Roadmap to becoming an ASP.NET Core developer in 2021', ['MoienTajik','ImgBotApp'], 2, 5, 0),
 (169529444, 'skycoin/arena', 9, 0, null, ['gz-c','jdknives'], 1, 24, 0),
 (169556401, 'radzenhq/radzen-blazor', 1402, 32, 'The home of the Radzen Blazor components.', ['enchev','akorchev'], 1, 3, 0),
@@ -1854,8 +1854,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (170738310, 'trustwallet/wallet-core', 1217, 14, 'Cross-platform, cross-blockchain wallet library.', ['hewigovens','alejandro-isaza'], 1, 5, 0),
 (170907813, 'victor-perez/nuxt-helmet', 174, 8, ':construction_worker: Helmet for Nuxt', ['victor-perez','doron2402'], 1, 20, 0),
 (170973676, 'devefy/Flutter-Streaming-Service-App-UI', 237, 1, null, ['devefy'], 1, 12, 0),
-(171149815, 'bikenik/alfred-anki', 39, 17, 'Create New Cards into any decks with any ''Note Type''.', ['bikenik'], 1, 3, 0),
 (171061051, 'lostpebble/pullstate', 898, 36, 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', ['lostpebble','schummar'], 1, 6, 0),
+(171149815, 'bikenik/alfred-anki', 39, 17, 'Create New Cards into any decks with any ''Note Type''.', ['bikenik'], 1, 3, 0),
 (171412223, 'gr2m/twitter-together', 575, 17, ':bird: A GitHub action to tweet from a repository', ['gr2m','semantic-release-bot'], 1, 7, 0),
 (171563505, 'Asabeneh/JavaScript-for-Everyone', 385, 0, 'A step by step guide to learn JavaScript and programming', ['Asabeneh','engineerabdulsalam'], 1, 13, 0),
 (171564612, 'khlam/debloat-samsung-android', 163, 24, 'ADB commands to aggressively de-bloat Samsung Android Phones without root. Make Samsung One UI closer to stock Android.', ['khlam'], 1, 21, 0),

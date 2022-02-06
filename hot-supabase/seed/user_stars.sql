@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T16:49:27.211Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T18:44:49.378Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2631,9 +2631,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (11297301, 2610, 13490604, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 345, ['Drugoy','Stevoisiak']),
 (308573793, 2611, 13490604, 'testsmt/yinyang', 18, 'A fuzzing framework for SMT solvers', 11, 123, ['wintered','muchang']),
 (22399826, 2612, 13490604, 'lifting-bits/mcsema', 19, 'Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode', 109, 2204, ['artemdinaburg','pgoodman']),
+(234091935, 2613, 13490604, 'i5ik/sirdb', 20, ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', 3, 525, ['i5ik','rom10']),
 (77358263, 2614, 13490604, 'SpaceVim/SpaceVim', 21, 'A community-driven modular vim/neovim distribution - The ultimate vimrc', 120, 17586, ['wsdjeg','sei40kr']),
 (54630945, 2615, 13490604, 'JelteF/derive_more', 22, 'Some more derive(Trait) options', 43, 817, ['JelteF','L-as']),
-(234091935, 2613, 13490604, 'i5ik/sirdb', 20, ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', 3, 525, ['i5ik','rom10']),
 (30153200, 2616, 13490604, 'junegunn/vim-peekaboo', 23, ':eyes: '' / @ / CTRL-R', 29, 960, ['junegunn','gelguy']),
 (303743342, 2617, 13490604, 'zebp/wasm-remapper-web', 24, 'Remap WebAssembly binaries automatically in the browser built with ReactJS and Rust using WebAssembly', 0, 22, ['zebp']),
 (222258954, 2618, 13490604, 'dstotijn/hetty', 25, 'Hetty is an HTTP toolkit for security research.', 30, 3609, ['dstotijn','holiman']),
