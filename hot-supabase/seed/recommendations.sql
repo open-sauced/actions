@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T06:45:51.685Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T08:43:36.500Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1862,10 +1862,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (171566590, 'serverless-nextjs/serverless-next.js', 2995, 150, '⚡ Deploy your Next.js apps on AWS Lambda@Edge via Serverless Components', ['dphang','danielcondemarin'], 1, 15, 0),
 (171691256, 'orbit-love/awesome-dot-dev', 169, 1, 'A list of awesome developer resources on the .dev TLD', ['patrickjwoods','dzello'], 1, 7, 0),
 (171914326, 'dimonga/OMNIA-AI-TRUCK', 1, 0, 'We are trying to build an escape room truck that will go all across people to alleviate their fear of AI by educating them about AI.', ['dimonga','tartarJR'], 1, 28, 0),
-(172227885, 'tiangolo/full-stack-fastapi-postgresql', 7691, 183, 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', ['tiangolo','ebreton'], 1, 16, 0),
 (172362850, 'BaseMax/TrigonometricFunctions', 12, 0, 'Analysis and thinking about trigonometry functions and how they work.', ['BaseMax'], 1, 28, 0),
 (172378503, 'romkatv/powerlevel10k', 23891, 19, 'A Zsh theme', ['romkatv','dritter'], 1, 9, 0),
 (172471552, 'aliyr/Nodejs-Developer-Roadmap', 3694, 5, 'A Developer Roadmap to becoming a Node.js developer in 2019', ['aliyr','AGrant24'], 1, 7, 0),
+(172227885, 'tiangolo/full-stack-fastapi-postgresql', 7691, 183, 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', ['tiangolo','ebreton'], 1, 16, 0),
 (172473381, 'JamesUgbanu/react-native-woocommerce-api', 33, 0, null, ['JamesUgbanu','anwar-gul'], 1, 29, 0),
 (172481928, 'londonappbrewery/Flutter-Course-Resources', 8332, 38, 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ['TheMuellenator','angelabauer'], 1, 14, 0),
 (172490214, 'rohanbaraskar/UiPath-11', 9, 0, 'UiPath Projects', ['ishmeet1995'], 1, 0, 0),

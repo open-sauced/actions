@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T06:45:51.359Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T08:43:36.374Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1793,8 +1793,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (382172039, 1805, 30334776, 'Helewud/Travel-Log-App', 18, null, 1, 4, ['Helewud']),
 (389664802, 1806, 30334776, 'Helewud/MapLog', 19, null, 0, 1, ['Helewud']),
 (363500480, 1807, 30334776, 'Helewud/Vidly', 20, null, 0, 1, ['Helewud']),
-(389086554, 1808, 30334776, 'BolajiAyodeji/headless-swag-store', 21, 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', 0, 3, ['BolajiAyodeji','acasazza']),
-(389071137, 1809, 30334776, 'BolajiAyodeji/linear-regression', 22, 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', 0, 1, ['BolajiAyodeji']),
 (388004440, 1810, 30334776, 'oscafrica/open-source-challenge-2021', 23, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', 1, 46, ['BolajiAyodeji','Petec0x0']),
 (908607, 1811, 30334776, 'numpy/numpy', 24, 'The fundamental package for scientific computing with Python.', 2295, 19152, ['charris','teoliphant']),
 (191414235, 1812, 30334776, 'orbit-love/orbit-model', 25, 'A framework for building high gravity communities 🪐', 4, 758, ['dzello','patrickjwoods']),
@@ -1816,7 +1814,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (334195792, 1828, 25867172, 'teezzan/flw_validator', 11, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', 0, 1, ['teezzan']),
 (330778168, 1829, 25867172, 'ScalableOrg/fintech-lite', 12, 'I plan to do a series of livestreams on how a basic fintech wallet works. This repo is where all the code will live.', 6, 156, ['OpesanyaAdebayo','Sokan93']),
 (23511343, 1830, 25867172, 'ultraembedded/riscv', 13, 'RISC-V CPU Core (RV32IM)', 5, 427, ['ultraembedded']),
+(389086554, 1808, 30334776, 'BolajiAyodeji/headless-swag-store', 21, 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', 0, 3, ['BolajiAyodeji','acasazza']),
 (288511462, 1831, 25867172, 'teezzan/commitSpy-Core', 14, 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', 0, 2, ['teezzan']),
+(389071137, 1809, 30334776, 'BolajiAyodeji/linear-regression', 22, 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', 0, 1, ['BolajiAyodeji']),
 (316471703, 1832, 25867172, 'teezzan/katacoda-scenarios', 15, 'Katacoda Scenarios', 0, 1, ['teezzan']),
 (90408889, 1833, 25867172, 'moleculerjs/moleculer-web', 16, ':earth_africa: Official API Gateway service for Moleculer framework', 21, 240, ['icebob','AndreMaz']),
 (256039268, 1834, 25867172, 'progresak/lucrat-project', 17, 'Lucrative automatic trading strategy system', 25, 3, ['progresak']),
