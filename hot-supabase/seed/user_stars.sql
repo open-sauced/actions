@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T22:57:35.074Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T01:02:10.782Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1352,10 +1352,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (14747598, 1364, 65249694, 'typicode/json-server', 5, 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', 608, 58650, ['typicode','bahmutov']),
 (71335054, 1365, 65249694, 'jimmysuncpt/Algorithms', 6, 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', 7, 2003, ['jimmysuncpt','itlonewolf']),
 (316567096, 1366, 65249694, 'ilithya/abstract-sketches-p5js', 7, 'Short Tutorial for #GitHubUniverse 2020.', 0, 4, ['ilithya']),
-(154181635, 1367, 65249694, 'microbium/microbium-app', 8, 'Draw new worlds', 0, 86, ['jpweeks','courdek']),
 (252367817, 1368, 65249694, 'duty-machine/duty-machine', 9, '一个备份网络文章的服务。声援陈玫、蔡伟及其女友小唐，请关注端点星事件。', 1980, 485, []),
 (30025372, 1369, 65249694, 'Huxpro/huxpro.github.io', 10, 'My Blog / Jekyll Themes / PWA', 104, 6034, ['Huxpro','BruceZhaoR']),
 (1481305, 1370, 65249694, 'realpython/python-guide', 11, 'Python best practices guidebook, written for humans. ', 102, 24081, ['kennethreitz','sigmavirus24']),
+(154181635, 1367, 65249694, 'microbium/microbium-app', 8, 'Draw new worlds', 0, 86, ['jpweeks','courdek']),
 (3678731, 1371, 65249694, 'webpack/webpack', 12, 'A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ''loaders'', modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.', 305, 60100, ['sokra','timse']),
 (184460, 1372, 24352546, 'celery/celery', 0, 'Distributed Task Queue (development branch)', 487, 18411, ['ask','thedrow']),
 (399495186, 1373, 24352546, 'tiangolo/sqlmodel', 1, 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', 135, 6352, ['tiangolo','Batalex']),
