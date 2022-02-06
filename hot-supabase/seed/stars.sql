@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T20:43:18.052Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T22:43:18.918Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -283,8 +283,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (20, 39, 0, 'olist/work-at-olist-data', 149792249),
 (5581, 51644, 15, 'ripienaar/free-for-dev', 32484381),
 (74, 266, 20, 'Unity-Technologies/com.unity.cinemachine', 112369276),
-(1301, 14152, 73, 'ueberdosis/tiptap', 145464445),
 (11952, 52270, 14, 'h5bp/html5-boilerplate', 486550),
+(1301, 14152, 73, 'ueberdosis/tiptap', 145464445),
 (18, 74, 24, 'mattrglobal/jsonld-signatures-bbs', 247553843),
 (40, 417, 17, 'tiagoad/suicide-linux', 96234685),
 (97, 328, 0, 'mochow13/competitive-programming-library', 138463948),
@@ -2808,8 +2808,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1312, 21959, 198, 'nocodb/nocodb', 108761645),
 (5, 141, 16, 'akd-io/create-next-stack', 371575501),
 (106, 496, 67, 'microsoft/vscode-edge-devtools', 175666043),
-(198, 902, 47, 'banzaicloud/logging-operator', 138716355),
 (112, 563, 22, 'rdfjs/N3.js', 3058202),
+(198, 902, 47, 'banzaicloud/logging-operator', 138716355),
 (0, 32, 0, 'mgdigital/tsinject', 417782582),
 (8, 116, 5, 'icons-pack/react-simple-icons', 200424238),
 (174, 418, 0, 'Asabeneh/JavaScript-for-Everyone', 171563505),
@@ -3297,8 +3297,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (173, 2993, 610, 'organicmaps/organicmaps', 324829379),
 (763, 5607, 7, 'rossant/awesome-math', 41793121),
 (159, 1062, 0, 'github/opensourcefriday', 77702046),
-(772, 8100, 137, 'nukeop/nuclear', 68968979),
 (11, 24, 89, 'takeshape/takeshape-samples', 143305698),
+(772, 8100, 137, 'nukeop/nuclear', 68968979),
 (943, 8451, 56, 'hackerkid/Mind-Expanding-Books', 36554250),
 (9603, 29977, 147, 'nolimits4web/swiper', 3721224),
 (309, 7781, 20, 'jamiebuilds/unstated', 119693982),

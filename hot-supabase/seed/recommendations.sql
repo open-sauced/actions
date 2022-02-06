@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T20:43:18.256Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-06T22:43:19.087Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1129,8 +1129,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (78217547, 'palashmon/JavaScript30', 98, 1, 'Participating in 30 Day Vanilla JS Challenges by @wesbos', ['palashmon'], 1, 7, 0),
 (78302226, 'hussien89aa/DataStructureAndAlgorithms', 611, 24, 'Write code that run faster, use less memory and prepare for your Job Interview', ['hussien89aa'], 1, 5, 0),
 (78369010, 'webslides/WebSlides', 5782, 62, 'Create HTML presentations in seconds —', ['Antonio-Laguna','jlantunez'], 1, 4, 0),
-(78819190, 'prettier/prettier-eslint', 3441, 37, 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', ['zimme','kentcdodds'], 1, 7, 0),
 (78685286, 'akbarpasha/team6718', 1, 0, 'FRC Team 6718', ['raychatter','Clementef'], 1, 24, 0),
+(78819190, 'prettier/prettier-eslint', 3441, 37, 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', ['zimme','kentcdodds'], 1, 7, 0),
 (78847475, 'rossmann-engineering/EasyModbusTCP.NET', 473, 36, 'Modbus TCP, Modbus UDP and Modbus RTU client/server library for .NET implementations', ['rossmann-engineering','da66en'], 1, 8, 0),
 (78880128, 'ohld/igbot', 4107, 35, '🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!', ['ohld','sudoguy'], 1, 3, 0),
 (79052338, 'wikiti/pandoc-book-template', 270, 2, 'A simple Pandoc template to build documents and ebooks.', ['wikiti','ilikerobots'], 1, 5, 0),
@@ -3136,8 +3136,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (349522340, 'google/lyra', 2948, 40, 'A Very Low-Bitrate Codec for Speech Compression', ['jsoref','aluebs'], 1, 17, 0),
 (350240448, 'mhmzdev/DevFolio', 286, 3, 'Live portfolio designed using Flutter 2.0 available for android and web.', ['mhmzdev'], 1, 19, 0),
 (350360184, 'calendso/calendso', 9101, 121, 'Scheduling infrastructure for absolutely everyone.', ['baileypumfleet','PeerRich'], 1, 0, 0),
-(350383594, 'oasis-sh/oasis', 249, 18, 'The chat and forums platform for communities', ['heybereket','HenryLeC'], 1, 21, 0),
 (350770929, 'academind/react-complete-guide-code', 2153, 49, 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', ['maxschwarzmueller'], 1, 9, 0),
+(350383594, 'oasis-sh/oasis', 249, 18, 'The chat and forums platform for communities', ['heybereket','HenryLeC'], 1, 21, 0),
 (350802931, 'trainerroad/react-race-planner', 9, 0, 'A coding challenge for prospective engineering hires', ['colinrobertbrooks','tah9m9'], 1, 2, 0),
 (350831642, 'geerlingguy/internet-monitoring', 1172, 1, 'Monitor your network and internet speed with Docker & Prometheus', ['vegasbrianc','geerlingguy'], 1, 4, 0),
 (350874478, 'notrab/headless-dropshipping-starter', 330, 3, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ['renovate-bot','notrab'], 2, 3.5, 0),
