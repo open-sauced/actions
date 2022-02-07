@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T08:44:46.003Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T10:43:29.780Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2180,9 +2180,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (215240608, 'SteveSandersonMS/presentation-2019-10-NDCSydney', 73, 1, null, ['SteveSandersonMS'], 1, 6, 0),
 (215346317, 'andrejtonev/cabpp', 6, 0, 'C++ header-only library implementing a Cyclic Asynchronous Buffer (CAB)', ['andrejtonev'], 1, 16, 0),
 (215390876, 'malgamves/CommunityWriterPrograms', 1515, 15, 'A list of Developer Community Writer Programs', ['malgamves','karllhughes'], 3, 12, 0),
+(215623243, 'ralexander-phi/license_approval', 4, 0, 'Track licenses and approvals', ['ralexander-phi'], 1, 0, 0),
 (215833537, 'menon92/DL-Sneak-Peek', 61, 0, 'Deep learning with TensorFlow, Keras', ['menon92'], 1, 21, 0),
 (215854292, 'CodesmithLLC/cs-bin-solutions', 103, 11, 'Solution code to CS Bin Challenges', ['katesmatthews','allisons11'], 1, 3, 0),
-(215623243, 'ralexander-phi/license_approval', 4, 0, 'Track licenses and approvals', ['ralexander-phi'], 1, 0, 0),
 (215868040, 'AnkitSharma-007/BookCart', 99, 3, 'An e-commerce application for an online book store.', ['AnkitSharma-007'], 1, 12, 0),
 (215954800, 'PurpleBooth/a-good-readme-template', 283, 0, 'A template to make good README.md', ['PurpleBooth','caduzeraa'], 1, 23, 0),
 (216099642, 'EvanBacon/react-native-ink', 26, 24, 'React Native for CLIs', ['EvanBacon'], 1, 29, 0),
@@ -2704,8 +2704,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (285625792, 'stripe-samples/connect-onboarding-for-express', 14, 1, 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ['kho-stripe','cjavilla-stripe'], 1, 1, 0),
 (285635423, 'magiclabs/example-nextjs', 59, 4, null, ['hcote','FYJen'], 1, 18, 0),
 (285695824, 'beamkenya/ex_pesa', 19, 0, 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ['manuelgeek','lenileiro'], 1, 6, 0),
-(285782908, 'jmc265/dotfiles', 2, 0, null, ['bw-jamescross','jmc265'], 1, 0, 0),
 (285998667, 'keiya01/react-performance-testing', 245, 6, 'A library to test runtime performance in React', ['keiya01','JulienBlacas'], 1, 5, 0),
+(285782908, 'jmc265/dotfiles', 2, 0, null, ['bw-jamescross','jmc265'], 1, 0, 0),
 (286080143, 'upptime/upptime', 8945, 47, '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ['upptime-bot','pabio-escobar'], 1, 29, 0),
 (286132785, 'lesmo/gitfolio', 1, 0, ':octocat: personal website + blog for every github user', ['imfunniee','bcliden'], 1, 29, 0),
 (286339134, 'csharpfritz/csharp_with_csharpfritz', 375, 8, 'Show notes, slides, and samples from the CSharp with CSharpFritz show', ['csharpfritz','NikiforovAll'], 1, 1, 0),
@@ -3147,8 +3147,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (351632872, 'jcv8000/Codex', 111, 3, 'A free note-taking software for programmers and Computer Science students', ['jcv8000'], 1, 23, 0),
 (351669095, 'seek-oss/vanilla-extract', 4324, 15, 'Zero-runtime Stylesheets-in-TypeScript', ['mattcompiles','seek-oss-ci'], 1, 1, 0),
 (351728562, 'lukeocodes/nuxt-contentful-starter', 2, 0, 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ['lukeocodes'], 1, 9, 0),
-(351877820, 'GuillaumeFalourd/poc-github-actions', 12, 5, 'Various proofs of concept examples using Github Actions 🤖', ['GuillaumeFalourd'], 1, 6, 0),
 (351909863, 'cloudflare/durable-objects-template', 13, 1, null, ['a-robinson','xortive'], 1, 25, 0),
+(351877820, 'GuillaumeFalourd/poc-github-actions', 12, 5, 'Various proofs of concept examples using Github Actions 🤖', ['GuillaumeFalourd'], 1, 6, 0),
 (351914021, 'adleong/tapshark', 16, 0, null, ['adleong'], 1, 0, 0),
 (351958053, 'giscus/giscus', 1116, 31, 'A comments system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:', ['laymonage','nschonni'], 1, 17, 0),
 (352170777, 'spieglt/Cloaker.js', 20, 0, 'Simple password-based file encryption entirely in your browser, interoperable with Cloaker.', ['spieglt'], 1, 23, 0),
