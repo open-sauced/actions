@@ -4376,6 +4376,7 @@ star_id,id,user_id,repo_name,recency_score,description,issues,stars,contributors
 379900883,348860575,6241164,Deveshb15/real-twitter-banner,0,,0,42,"[""Deveshb15"",""jainaayush01""]"
 286546354,349215600,16259450,netlify/explorers,0,,64,234,"[""jlengstorf"",""bencodezen""]"
 138393139,350456159,15004099,trimstray/the-book-of-secret-knowledge,0,"A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",52,58967,"[""trimstray"",""lbonanomi""]"
+501689,456168834,5381468,antlr/stringtemplate4,0,StringTemplate 4,41,768,"[""parrt"",""sharwell""]"
 268098312,415612821,44642314,ZedThree/clang-tidy-review,0,Create a pull request review based on clang-tidy warnings,6,17,"[""ZedThree"",""kgfoundrydig""]"
 124227308,417287027,52336027,entityframeworktutorial/EF6-Code-First-Demo,0,Entity Framework 6 Code-First Demo Project,0,127,"[""entityframeworktutorial""]"
 349217272,414641681,11858762,this-is-learning/rxjs-fundamentals-course,0,"RxJS Fundamentals, an Open Learning course by This is Learning.",2,92,"[""Armenvardanyan95"",""LayZeeDK""]"

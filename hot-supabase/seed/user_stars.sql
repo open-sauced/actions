@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T01:01:43.999Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T02:47:29.001Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -309,8 +309,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (348060227, 300, 7293310, 'withastro/astro', 8, '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', 118, 8725, ['FredKSchott','matthewp']),
 (43830564, 301, 7293310, 'auchenberg/volkswagen', 9, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
 (163883279, 302, 7293310, 'nektos/act', 10, 'Run your GitHub Actions locally 🚀', 72, 20036, ['cplee','catthehacker']),
-(378449409, 303, 7293310, 'mame82/LucaAppIssues', 11, 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', 0, 34, ['mame82']),
 (332757634, 304, 7293310, 'jonasstrehle/supercookie', 12, '⚠️ Browser fingerprinting via favicon!', 8, 3633, ['jonasstrehle','szepeviktor']),
+(378449409, 303, 7293310, 'mame82/LucaAppIssues', 11, 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', 0, 34, ['mame82']),
 (41766002, 305, 7293310, 'ampproject/amphtml', 13, 'The AMP web component framework.', 1717, 14778, ['dvoytenko','renovate-bot']),
 (360512124, 306, 7293310, 'sebinside/WissenschaftlichesSchreiben-Schnelleinstieg', 14, 'Wissenschaftliches Schreiben folgt vielen Regeln, die gerade für Unerfahrene verwirrend wirken können. Dieses Dokument dient hierfür als Schnelleinstieg sowie als Zusammenfassung üblicher Werkzeuge für die Erstellung von LaTeX-Dokumenten.', 1, 110, ['sebinside','dfuchss']),
 (11423758, 307, 7293310, 'mame/quine-relay', 15, 'An uroboros program with 100+ programming languages', 14, 11631, ['mame','pczarn']),
@@ -2668,6 +2668,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (341704034, 2647, 667716, 'microsoft/Power-Fx', 24, 'Power Fx low-code programming language', 27, 2579, ['gregli-msft','bryancroteau-MSFT']),
 (277057483, 2648, 667716, 'apparition47/MailTrackerBlocker', 25, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', 10, 995, ['apparition47','danieldickison']),
 (5543112, 2649, 667716, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 151, 3115, ['jcs','pushcx']),
+(177423398, 2650, 667716, 'getify/eslint-plugin-proper-ternary', 27, 'ESLint rules to ensure proper usage of ternary/conditional expressions', 5, 88, ['getify','kaykayehnn']),
 (341346826, 2651, 667716, 'jvns/dns-lookup', 28, null, 1, 212, ['jvns']),
 (137308605, 2652, 667716, 'tamino-martinius/node-ts-dedent', 29, 'TypeScript package which smartly trims and strips indentation from multi-line strings', 4, 98, ['tamino-martinius','AviVahl']),
 (269174002, 2653, 46828701, 'counterpoint-studio/artgift', 0, 'An open source web application for booking and managing Art Gifts', 0, 5, ['teropa','samueldiggins']),
@@ -2805,13 +2806,12 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (218115303, 2810, 28281924, 'vercel/swr', 16, 'React Hooks for data fetching', 56, 20438, ['shuding','huozhi']),
 (157616880, 2811, 28281924, 'iptv-org/iptv', 17, 'Collection of publicly available IPTV channels from all over the world', 222, 43545, ['freearhey','LaneSh4d0w']),
 (333280676, 2812, 28281924, 'juliobonon/learn-rust', 18, 'Just a small project to learn rust lang.', 0, 1, ['juliobonon']),
-(177423398, 2650, 667716, 'getify/eslint-plugin-proper-ternary', 27, 'ESLint rules to ensure proper usage of ternary/conditional expressions', 5, 88, ['getify','kaykayehnn']),
 (18765044, 2813, 28281924, 'golang/oauth2', 19, 'Go OAuth2', 151, 3948, ['rakyll','adg']),
 (320609581, 2814, 28281924, 'HeavyBR/adventofcode', 20, 'My solutions for Advent Of Code 2020, all of made with Go Language', 0, 1, ['HeavyBR']),
 (234231371, 2815, 28281924, 'gofiber/fiber', 21, '⚡️ Express inspired web framework written in Go', 50, 17421, ['Fenny','kiyonlin']),
 (237448876, 2816, 28281924, 'qiangxue/go-rest-api', 22, 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', 10, 735, ['qiangxue','chartinmarrel']),
-(46641250, 2818, 28281924, 'codeceptjs/CodeceptJS', 24, 'Supercharged End 2 End Testing Framework for NodeJS', 297, 3596, ['DavertMik','PeterNgTr']),
 (191531341, 2817, 28281924, 'site-prism/site_prism', 23, null, 6, 208, ['luke-hill','natritmeyer']),
+(46641250, 2818, 28281924, 'codeceptjs/CodeceptJS', 24, 'Supercharged End 2 End Testing Framework for NodeJS', 297, 3596, ['DavertMik','PeterNgTr']),
 (146218451, 2819, 28281924, 'seanpmaxwell/overnight', 25, 'TypeScript decorators for the ExpressJS Server.', 12, 792, ['joeykilpatrick','seanpmaxwell']),
 (52631841, 2820, 28281924, 'gothinkster/realworld', 26, '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', 52, 62690, ['EricSimons','anishkny']),
 (139914932, 2821, 28281924, 'quarkusio/quarkus', 27, 'Quarkus: Supersonic Subatomic Java. ', 1897, 9041, ['gsmet','geoand']),
@@ -4381,6 +4381,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (379900883, 348860575, 6241164, 'Deveshb15/real-twitter-banner', 0, null, 0, 42, ['Deveshb15','jainaayush01']),
 (286546354, 349215600, 16259450, 'netlify/explorers', 0, null, 64, 234, ['jlengstorf','bencodezen']),
 (138393139, 350456159, 15004099, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 52, 58967, ['trimstray','lbonanomi']),
+(501689, 456168834, 5381468, 'antlr/stringtemplate4', 0, 'StringTemplate 4', 41, 768, ['parrt','sharwell']),
 (268098312, 415612821, 44642314, 'ZedThree/clang-tidy-review', 0, 'Create a pull request review based on clang-tidy warnings', 6, 17, ['ZedThree','kgfoundrydig']),
 (124227308, 417287027, 52336027, 'entityframeworktutorial/EF6-Code-First-Demo', 0, 'Entity Framework 6 Code-First Demo Project', 0, 127, ['entityframeworktutorial']),
 (349217272, 414641681, 11858762, 'this-is-learning/rxjs-fundamentals-course', 0, 'RxJS Fundamentals, an Open Learning course by This is Learning.', 2, 92, ['Armenvardanyan95','LayZeeDK']),
