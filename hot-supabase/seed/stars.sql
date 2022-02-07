@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T20:43:24.874Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T22:43:20.175Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -170,8 +170,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 743, 0, 'Orbiter/Test_voice_input', 91309349),
 (0, 13, 0, 'codingmamalabs/raspi-ansible', 134571997),
 (46, 1521, 15, 'pacocoursey/next-themes', 302823066),
-(0, 0, 4, 'fission-suite/ucan', 431201404),
 (21230, 58372, 3773, 'elastic/elasticsearch', 507775),
+(0, 0, 4, 'fission-suite/ucan', 431201404),
 (121, 737, 27, 'sebastienros/fluid', 93786445),
 (1, 8, 2, 'BrunoMNDantas/TPL4J', 148236762),
 (0, 8, 0, 'jquense/sass-tailwind-functions', 398627486),
@@ -2538,7 +2538,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (76, 631, 18, 'HACK3RY2J/Anon-SMS', 246542492),
 (204, 3769, 226, 'amplication/amplication', 262862475),
 (780, 10948, 189, 'picturepan2/spectre', 53321815),
-(4, 20, 3, '0-vortex/0-vortex', 279163614),
 (37, 242, 0, 'jordansinger/health-macos-swiftui-example', 279712319),
 (4212, 13707, 214, 'kubernetes/kops', 62091339),
 (4973, 29508, 3, 'GokuMohandas/MadeWithML', 156157055),
@@ -3071,6 +3070,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (17, 135, 14, 'leafac/caxa', 338335614),
 (0, 12, 0, 'BaseMax/WebSinatra', 172915698),
 (126, 3482, 6, 'bvaughn/react-error-boundary', 97559842),
+(4, 20, 3, '0-vortex/0-vortex', 279163614),
 (0, 1, 0, 'MattMarquise/styleguide', 330488581),
 (1, 13, 0, 'BaseMax/MongoCSample', 174172286),
 (24, 30, 11, 'wazo-platform/wazo-react-native-demo', 154178913),

@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T20:43:25.237Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T22:43:20.391Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2219,8 +2219,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (220872906, 'lesmo/wubbalubbadubdub', 1, 2, 'Este proyecto es un explorador de la Rick and Morty API, que tiene datos de todos los episodios, personajes y locaciones en los que se viven las increíbles aventuras de Rick and Morty.', ['lesmo'], 1, 28, 0),
 (221078443, 'google/android-emulator-hypervisor-driver-for-amd-processors', 403, 39, null, ['Taogle2018'], 1, 13, 0),
 (221095754, 'bundit/kord-app', 534, 36, 'Spotify, Soundcloud, and YouTube all in one website!', ['bundit','Khaoz-Topsy'], 1, 26, 0),
-(221425180, 'partycorgi/partycorgi', 46, 9, 'A GitHub repo containing party corgi related information and documents', ['RyanWarner','jlengstorf'], 1, 5, 0),
 (221316636, 'airsonic-advanced/airsonic-advanced', 449, 146, null, ['randomnicode','muff1nman'], 1, 1, 0),
+(221425180, 'partycorgi/partycorgi', 46, 9, 'A GitHub repo containing party corgi related information and documents', ['RyanWarner','jlengstorf'], 1, 5, 0),
 (221512407, 'neovim/nvim-lspconfig', 3471, 20, 'Quickstart configurations for the Nvim LSP client', ['mjlbach','h-michael'], 1, 11, 0),
 (221631156, 'trekhleb/machine-learning-experiments', 1163, 21, '🤖 Interactive Machine Learning experiments: 🏋️models training + 🎨models demo', ['trekhleb'], 1, 1, 0),
 (221981891, 'microsoft/playwright', 31667, 447, 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', ['pavelfeldman','dgozman'], 3, 11.333333333333334, 0),
