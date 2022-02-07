@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T10:43:29.780Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T12:49:47.579Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2704,8 +2704,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (285625792, 'stripe-samples/connect-onboarding-for-express', 14, 1, 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ['kho-stripe','cjavilla-stripe'], 1, 1, 0),
 (285635423, 'magiclabs/example-nextjs', 59, 4, null, ['hcote','FYJen'], 1, 18, 0),
 (285695824, 'beamkenya/ex_pesa', 19, 0, 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ['manuelgeek','lenileiro'], 1, 6, 0),
-(285998667, 'keiya01/react-performance-testing', 245, 6, 'A library to test runtime performance in React', ['keiya01','JulienBlacas'], 1, 5, 0),
 (285782908, 'jmc265/dotfiles', 2, 0, null, ['bw-jamescross','jmc265'], 1, 0, 0),
+(285998667, 'keiya01/react-performance-testing', 245, 6, 'A library to test runtime performance in React', ['keiya01','JulienBlacas'], 1, 5, 0),
 (286080143, 'upptime/upptime', 8945, 47, '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ['upptime-bot','pabio-escobar'], 1, 29, 0),
 (286132785, 'lesmo/gitfolio', 1, 0, ':octocat: personal website + blog for every github user', ['imfunniee','bcliden'], 1, 29, 0),
 (286339134, 'csharpfritz/csharp_with_csharpfritz', 375, 8, 'Show notes, slides, and samples from the CSharp with CSharpFritz show', ['csharpfritz','NikiforovAll'], 1, 1, 0),
@@ -3147,8 +3147,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (351632872, 'jcv8000/Codex', 111, 3, 'A free note-taking software for programmers and Computer Science students', ['jcv8000'], 1, 23, 0),
 (351669095, 'seek-oss/vanilla-extract', 4324, 15, 'Zero-runtime Stylesheets-in-TypeScript', ['mattcompiles','seek-oss-ci'], 1, 1, 0),
 (351728562, 'lukeocodes/nuxt-contentful-starter', 2, 0, 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ['lukeocodes'], 1, 9, 0),
-(351909863, 'cloudflare/durable-objects-template', 13, 1, null, ['a-robinson','xortive'], 1, 25, 0),
 (351877820, 'GuillaumeFalourd/poc-github-actions', 12, 5, 'Various proofs of concept examples using Github Actions 🤖', ['GuillaumeFalourd'], 1, 6, 0),
+(351909863, 'cloudflare/durable-objects-template', 13, 1, null, ['a-robinson','xortive'], 1, 25, 0),
 (351914021, 'adleong/tapshark', 16, 0, null, ['adleong'], 1, 0, 0),
 (351958053, 'giscus/giscus', 1116, 31, 'A comments system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:', ['laymonage','nschonni'], 1, 17, 0),
 (352170777, 'spieglt/Cloaker.js', 20, 0, 'Simple password-based file encryption entirely in your browser, interoperable with Cloaker.', ['spieglt'], 1, 23, 0),
