@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T18:44:31.620Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T20:43:25.024Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2152,13 +2152,13 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (297419763, 2132, 72279316, 'github/india', 25, 'GitHub resources and information for the developer community in India', 3, 1368, ['mvkaran','GitHubIndiaBot']),
 (377305568, 2133, 72279316, 'madebygps/self-taught-guide-to-cloud-computing', 26, 'Learn the fundamentals of cloud computing', 0, 2240, ['madebygps','rishabkumar7']),
 (103633984, 2134, 72279316, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (December 2021)', 38, 72884, ['goldbergyoni','anediaz']),
+(109887187, 2135, 72279316, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 122, 826, ['danthareja']),
 (412662918, 2136, 57826091, 'Developer-DAO/DAO-job-board', 0, 'A job board connecting DAOs with talent.', 28, 52, ['angeljgomezc','carlomigueldy']),
 (431203802, 2137, 57826091, 'Dhaiwat10/svelte-link-preview', 1, 'Svelte port of @dhaiwat10/react-link-preview', 0, 12, ['Dhaiwat10']),
 (430789888, 2138, 57826091, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 22, 111, ['etr2460','Dhaiwat10']),
 (430024025, 2139, 57826091, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene']),
 (410474951, 2140, 57826091, 'moonshotcollective/moonswap', 4, null, 8, 5, ['farque65','QEDK']),
 (413183643, 2141, 57826091, 'Vrushank264/VQVAE-PyTorch', 5, 'PyTorch Implementation of Vector Quantized Variational AutoEncoders.', 0, 2, ['Vrushank264']),
-(109887187, 2135, 72279316, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 122, 826, ['danthareja']),
 (407233777, 2142, 57826091, 'slipHQ/run-wasm', 6, 'Run WASM based code executions in the browser easily', 17, 355, ['kennethcassel','cameronmoreau']),
 (402841129, 2143, 57826091, 'Developer-DAO/developer-dao-nft-contract', 7, null, 1, 128, ['dabit3']),
 (403159506, 2144, 57826091, 'Developer-DAO/developerdao.com', 8, 'A community of builders who believe in collective ownership of the internet', 11, 314, ['with-heart','fmoliveira']),
@@ -4049,6 +4049,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (341721634, 4050, 10012151, 'helins/wasm.cljc', 0, 'Spec compliant WebAssembly compiler, decompiler, and generator', 1, 149, ['helins']),
 (141843316, 4051, 10012151, 'demystifyfp/FsToolkit.ErrorHandling', 1, 'An opinionated F# Library for error handling', 8, 289, ['TheAngryByrd','tamizhvendan']),
 (174960187, 4052, 10012151, 'PEZ/rn-rf-shadow', 2, 'An example project to get you started with React Native using shadow-cljs in 3 minutes', 3, 221, ['PEZ','bpringe']),
+(266602206, 4053, 10012151, 'athensresearch/ClojureFam', 3, 'Clojure Learning Program', 65, 194, ['nthd3gr33','Bardia95']),
 (140516922, 4054, 10012151, 'DesignRevision/shards-dashboard', 4, '🔥A beautiful Bootstrap 4 admin dashboard templates pack.', 11, 1181, ['hisk']),
 (150498735, 4055, 10012151, 'mauricioszabo/atom-chlorine', 5, 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', 8, 173, ['mauricioszabo','seancorfield']),
 (61276677, 4056, 10012151, 'Eschults/useful_stuff', 6, 'Memo for my beloved students', 0, 247, ['Eschults','cveneziani']),
@@ -4056,7 +4057,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (18442377, 4058, 10012151, 'lewagon/dotfiles', 8, 'Default configuration for Le Wagon''s students', 1, 12598, ['ssaunier','dmilon']),
 (395376449, 4059, 29295102, 'flan6/ml-cv-bot', 0, 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', 0, 1, ['flan6']),
 (365466475, 4060, 29295102, 'DenisMirand4/Bot_Albion_Labour', 1, null, 0, 3, ['DenisMirand4']),
-(266602206, 4053, 10012151, 'athensresearch/ClojureFam', 3, 'Clojure Learning Program', 65, 194, ['nthd3gr33','Bardia95']),
 (289278036, 4061, 29295102, 'leooverlord/ConsoleAppSamples', 2, 'Repositório com exemplos.', 0, 1, ['leooverlord']),
 (206573022, 4062, 29295102, 'HA6Bots/Automatic-Youtube-Reddit-Text-To-Speech-Video-Generator-and-Uploader', 3, 'A series of 3 programs that will automatically receive scripts from Reddit, allow the user to edit them, then be sent off to a video generator where they will be uploaded to YouTube automatically.', 15, 243, ['HA6Bots']),
 (102664411, 4063, 29295102, 'alinebastos/dev-practice', 4, 'Practice your skills with these ideas.', 4, 1282, ['alinebastos','adeonir']),
