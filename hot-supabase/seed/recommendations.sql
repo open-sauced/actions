@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T04:46:56.812Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T06:46:09.304Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1043,7 +1043,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (70107786, 'vercel/next.js', 78667, 1236, 'The React Framework', ['timneutkens','ijjk'], 2, 14, 0),
 (70137417, 'corda/corda', 3779, 233, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', ['Clintonio','exFalso'], 2, 3.5, 0),
 (70198875, 'airbnb/lottie-android', 32219, 46, 'Render After Effects animations natively on Android and iOS, Web, and React Native', ['gpeal','felipecsl'], 1, 24, 0),
-(70318490, 'asika32764/vue2-animate', 1334, 7, 'A port of Animate.css for use with transitions in Vue.js 2.0 / 3.0 and Alpine.js.', ['asika32764','haydenbbickerton'], 1, 16, 0),
 (70342215, 'bootstrap-vue/bootstrap-vue', 13612, 167, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', ['tmorehouse','pi0'], 1, 4, 0),
 (70418925, 'sithis993/Crypter', 378, 18, 'Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller', ['sithis993'], 1, 26, 0),
 (70487339, 'ang3lkar/pretty-diffs', 31, 0, 'Enable fancy colored diffs in your minitest assertions', ['ang3lkar'], 1, 6, 0),
@@ -1055,6 +1054,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (70942762, 'danielyxie/bitburner', 712, 127, 'Bitburner Game', ['hydroflame','danielyxie'], 1, 18, 0),
 (71002855, 'muryoimpl/slippr', 12, 0, 'markdown presentation app by Electron', ['muryoimpl','takkanm'], 1, 6, 0),
 (71133469, 'reviewdog/reviewdog', 4594, 77, '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ['haya14busa','renovate-bot'], 1, 18, 0),
+(70318490, 'asika32764/vue2-animate', 1334, 7, 'A port of Animate.css for use with transitions in Vue.js 2.0 / 3.0 and Alpine.js.', ['asika32764','haydenbbickerton'], 1, 16, 0),
 (71220757, 'swisskyrepo/PayloadsAllTheThings', 33077, 17, 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ['swisskyrepo','p0dalirius'], 1, 27, 0),
 (71230327, 'spring-projects-experimental/spring-boot-thin-launcher', 559, 18, 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', ['dsyer','mnewquis'], 1, 24, 0),
 (71293321, 'diegomura/react-pdf', 10170, 222, '📄  Create PDF files using React', ['diegomura','jeetiss'], 1, 18, 0),
@@ -2718,8 +2718,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (287500642, 'DeepARSDK/vonage-web-js', 7, 0, 'Video call using Vonage SDK with face masks provided by DeepAR SDK for Web', ['Sikter','Luka-M'], 1, 15, 0),
 (287542207, '0xPolygon/polygon-sdk', 397, 20, 'A Framework for Building Ethereum-compatible Blockchain Networks', ['ferranbt','Kourin1996'], 1, 16, 0),
 (287573157, 'Leniolabs/layoutit-grid', 1086, 13, 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', ['patak-dev','agustin-capeletto-lenio'], 1, 0, 0),
-(287743349, 'docker/login-action', 327, 7, 'GitHub Action to login against a Docker registry', ['crazy-max','tonistiigi'], 1, 3, 0),
 (288234242, 'nolar/kopf', 803, 125, 'A Python framework to write Kubernetes operators in just a few lines of code', ['nolar','dlmiddlecote'], 1, 7, 0),
+(287743349, 'docker/login-action', 327, 7, 'GitHub Action to login against a Docker registry', ['crazy-max','tonistiigi'], 1, 3, 0),
 (288511462, 'teezzan/commitSpy-Core', 2, 0, 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', ['teezzan'], 1, 14, 0),
 (288627285, 'wobsoriano/v-dashboard', 655, 0, 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ['wobsoriano','sebassu'], 1, 25, 0),
 (289072201, 'sounishnath003/Educatify', 5, 0, 'The Classroom made in India - Digital India Project - (BGI)', ['sounishnath003','sayancoding'], 1, 27, 0),
