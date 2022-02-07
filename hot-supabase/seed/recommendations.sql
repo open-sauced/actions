@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T12:49:47.579Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-07T14:43:19.493Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2568,7 +2568,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (268556270, 'bradleytaunt/wyf', 5, 0, 'Simple CSS ''plugin'' for toggle-styled figure elements (Watch Your Figure)', ['bradleytaunt'], 1, 8, 0),
 (268672917, 'billydh/zoom-reporting', 16, 1, null, ['billydh'], 1, 7, 0),
 (268972184, 'shilohc/map2gazebo', 87, 7, null, [], 1, 10, 0),
-(269152507, 'smfils1/youtube-clone', 29, 26, 'A YouTube Clone using the MERN stack', ['smfils1'], 1, 11, 0),
 (269174002, 'counterpoint-studio/artgift', 5, 0, 'An open source web application for booking and managing Art Gifts', ['teropa','samueldiggins'], 1, 0, 0),
 (269211843, 'seek-oss/capsize', 727, 8, 'Flipping how we define typography in CSS.', ['michaeltaranto','mattcompiles'], 1, 9, 0),
 (269230051, 'BaseMax/WebMoleGame', 3, 0, 'Mole game with HTML, CSS, JavaScript. (Web-based)', ['BaseMax'], 1, 3, 0),
@@ -2696,6 +2695,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (284462639, 'Sunchit/Coding-Decoded', 54, 0, 'LeetCode solutions ', ['Sunchit','shyam2520'], 1, 22, 0),
 (284546323, 'Abhirup-99/DesktopWallpaper', 1, 0, null, ['Abhirup-99','Abhirup-2019'], 1, 10, 0),
 (284707810, 'posva/vue-ts-lib', 139, 5, 'Vue 3 library starter in TS with lint, auto release, changelog and tests', ['posva','renovate-bot'], 1, 8, 0),
+(269152507, 'smfils1/youtube-clone', 29, 26, 'A YouTube Clone using the MERN stack', ['smfils1'], 1, 11, 0),
 (284951208, 'Threagile/threagile', 277, 19, 'Agile Threat Modeling Toolkit', ['cschneider4711','scottbrown'], 1, 14, 0),
 (285092252, 'serverless-stack/serverless-stack', 3927, 260, '💥 SST makes it easy to build serverless apps. Set breakpoints and test your functions locally. https://serverless-stack.com', ['fwang','jayair'], 1, 9, 0),
 (285135417, 'erkrnt/sample-web-frameworks', 3, 0, 'This repo includes a variety of current frameworks and bundlers.', ['erkrnt'], 1, 29, 0),
