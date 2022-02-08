@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T08:44:12.939Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T10:43:41.871Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -875,8 +875,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (12, 209, 0, 'joelthelion/life_web', 432685277),
 (381, 13631, 36, 'pmndrs/zustand', 180328715),
 (2, 78, 0, 'jessicarose/open-advice-1-1s', 199173392),
-(115, 3333, 185, 'concrete-utopia/utopia', 267429516),
 (50, 302, 15, 'get-woke/woke', 291779008),
+(115, 3333, 185, 'concrete-utopia/utopia', 267429516),
 (73, 829, 46, 'JelteF/derive_more', 54630945),
 (114, 640, 0, 'iLoveCodingOrg/javascript-cheatsheet', 154704604),
 (4, 19, 2, 'teamrabu/rabu-schedule', 1626929),
@@ -2461,10 +2461,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (971, 9877, 481, 'AdguardTeam/AdGuardHome', 62712899),
 (4, 73, 0, 'mikenye/docker-readsb', 241303926),
 (26, 195, 3, 'wiedehopf/graphs1090', 167717410),
-(1355, 25245, 43, 'tannerlinsley/react-query', 207645083),
 (6, 28, 0, 'freeletics/array_enum', 163827812),
 (3, 13, 0, 'masaun/NFT-auth-token', 304026138),
 (0, 6, 0, 'me-rakib/javascript-projects-learning', 378961149),
+(1355, 25245, 43, 'tannerlinsley/react-query', 207645083),
 (389, 380, 4, 'mazipan/hello-open-source', 151799924),
 (68, 488, 9, 'Azure/counterfit', 362276202),
 (1, 2, 1, 'jramirez857/email-cleaner', 420484145),
