@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T02:48:07.913Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T04:46:32.759Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1259,12 +1259,12 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (358985215, 1271, 10291643, 'jitterted/mobreg', 2, 'Remote Mob Programming Organizer', 20, 21, ['tedyoung']),
 (40484063, 1272, 10291643, 'testdouble/contributing-tests', 3, null, 0, 1038, ['searls','kevbuchanan']),
 (387286310, 1273, 10291643, 'eventhorizongames/EventHorizon.Game.Server.Zone', 4, null, 0, 1, ['canhorn']),
-(65750241, 1274, 10291643, 'expo/expo', 5, 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', 1328, 15588, ['brentvatne','terribleben']),
 (357732194, 1275, 10291643, 'gilesvessey/ms3-hl-driver', 6, 'Arduino driven addressable LED strip driver for my Mazdaspeed3''s custom headlights.', 0, 1, ['gilesvessey']),
 (294816887, 1276, 10291643, 'bdougie/git-twitch', 7, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners']),
 (324976584, 1277, 10291643, 'ddd-crew/welcome-to-ddd', 8, 'Definitions of DDD and fundamental concepts to reduce the learning curve and confusion', 0, 543, ['NTCoding','Max-Git']),
 (149731937, 1278, 10291643, 'remotemobprogramming/mob', 9, 'Tool for smooth git handover.', 6, 729, ['simonharrer','gregorriegler']),
 (16408992, 1279, 10291643, 'neovim/neovim', 10, 'Vim-fork focused on extensibility and usability', 1524, 49560, ['justinmk','janlazo']),
+(65750241, 1274, 10291643, 'expo/expo', 5, 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', 1328, 15588, ['brentvatne','terribleben']),
 (76578028, 1280, 10291643, 'willemlarsen/mobprogrammingrpg', 11, 'A game for exploring the development practice of mob programming', 1, 162, ['willemlarsen','JayBazuzi']),
 (220418983, 1281, 10291643, 'amannn/action-semantic-pull-request', 12, 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', 2, 134, ['amannn','semantic-release-bot']),
 (210045783, 1282, 10291643, 'asottile/re-assert', 13, 'show where your regex match assertion failed!', 0, 59, ['asottile']),
