@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T06:45:59.595Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T08:44:13.243Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3430,8 +3430,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (257485422, 3432, 3846874, 'vitejs/vite', 16, 'Next generation frontend tooling. It''s fast!', 771, 35335, ['yyx990803','patak-dev']),
 (9967702, 3433, 3846874, 'w3c/wcag', 17, 'Web Content Accessibility Guidelines', 653, 620, ['michael-n-cooper','awkawk']),
 (17884290, 3434, 3846874, 'tschaub/gh-pages', 18, 'General purpose task for publishing files to a gh-pages branch on GitHub', 101, 2689, ['tschaub','greenkeeperio-bot']),
-(557980, 3436, 3846874, 'socketio/socket.io', 20, 'Realtime application framework (Node.JS server)', 118, 54942, ['rauchg','darrachequesne']),
 (37627792, 3435, 3846874, 'nfl/react-helmet', 19, 'A document head manager for React', 188, 15865, ['cwelch5','doctyper']),
+(557980, 3436, 3846874, 'socketio/socket.io', 20, 'Realtime application framework (Node.JS server)', 118, 54942, ['rauchg','darrachequesne']),
 (1700621, 3437, 3846874, 'necolas/normalize.css', 21, 'A modern alternative to CSS resets', 68, 46228, ['necolas','jonathantneal']),
 (10114077, 3438, 3846874, 'SBoudrias/Inquirer.js', 22, 'A collection of common interactive command line user interfaces.', 206, 15408, ['SBoudrias','LitoMore']),
 (667561, 3439, 3846874, 'Marak/faker.js', 23, 'generate massive amounts of realistic fake data in Node.js and the browser', 303, 34373, ['Marak','FotoVerite']),
