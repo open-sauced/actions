@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T04:46:32.876Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T06:45:59.785Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1271,6 +1271,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (94554082, 'dylanaraps/pywal', 5910, 121, '🎨 Generate and change color-schemes on the fly.', ['dylanaraps','LoLei'], 1, 15, 0),
 (94808954, 'tabrindle/envinfo', 599, 30, 'Generate a report about your development environment for debugging and issue reporting', ['tabrindle','gengjiawen'], 1, 21, 0),
 (95011980, 'go-ego/riot', 6029, 50, 'Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.', ['vcaesar','szyhf'], 1, 5, 0),
+(95114338, 'github/accessibilityjs', 2190, 5, 'Client side accessibility error scanner.', ['muan','mislav'], 1, 18, 0),
+(95331263, 'samccone/bundle-buddy', 2868, 20, 'A tool to understand your bundle size and why files are in your bundle', ['samccone','susielu'], 1, 12, 0),
 (95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 315, 6, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', ['callicoder'], 1, 4, 0),
 (95650568, 'git-srinivas/ds-js', 2, 0, null, ['git-srinivas','superman32432432'], 1, 25, 0),
 (95755693, 'yangshun/lago', 1974, 6, '📕 Data Structures and Algorithms library in TypeScript', ['yangshun','mauris'], 1, 14, 0),
@@ -1295,8 +1297,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (97559842, 'bvaughn/react-error-boundary', 3353, 5, 'Simple reusable React error boundary component', ['bvaughn','kentcdodds'], 2, 7, 0),
 (97841590, 'burkeholland/express-react-starter', 175, 8, 'A starter template for running React and Express from the same project', ['burkeholland'], 1, 8, 0),
 (97947902, 'aai210/Best-on-CodePen', 13, 0, 'Here collected a collection of favorite CodePen', ['aai210'], 1, 16, 0),
-(95331263, 'samccone/bundle-buddy', 2868, 20, 'A tool to understand your bundle size and why files are in your bundle', ['samccone','susielu'], 1, 12, 0),
-(95114338, 'github/accessibilityjs', 2190, 5, 'Client side accessibility error scanner.', ['muan','mislav'], 1, 18, 0),
 (97989275, 'theseus-os/Theseus', 1641, 25, 'Theseus is a modern OS written from scratch in Rust that explores 𝐢𝐧𝐭𝐫𝐚𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧, novel OS structure, and state management. It strives to close the semantic gap between compiler and hardware in order to maximally leverage the power of language safety, and thus shift OS responsibilities (resource management) into the compiler.', ['kevinaboos','arysef'], 1, 25, 0),
 (98029592, 'ziishaned/learn-regex', 40108, 56, 'Learn regex the easy way', ['ziishaned','bueltge'], 1, 25, 0),
 (98315735, 'downshift-js/downshift', 10195, 86, '🏎 A set of primitives to build simple, flexible, WAI-ARIA compliant React autocomplete, combobox or select dropdown components.', ['kentcdodds','silviuaavram'], 1, 26, 0),
@@ -1324,8 +1324,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (100949236, 'cba85/electron-webview', 187, 1, '💻 A simple electron webview with cool features.', ['cba85'], 1, 5, 0),
 (101194285, 'NethermindEth/nethermind', 456, 188, 'Our flagship .NET Core Ethereum client for Linux, Windows, MacOs - full and actively developed.', ['tkstanczak','LukaszRozmej'], 1, 10, 0),
 (101296881, 'mtdvio/every-programmer-should-know', 50059, 32, 'A collection of (mostly) technical things every software developer should know about', ['mr-mig','YellowFoxH4XOR'], 1, 15, 0),
-(101704343, 'unidoc/unioffice', 3122, 28, 'Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents', ['tbaliance','gunnsth'], 1, 12, 0),
 (101448498, 'SohoHouse/nuxt-oauth', 110, 29, 'Simple OAuth2 integration for your Nuxt app', ['samtgarson','hamishhossack'], 1, 5, 0),
+(101704343, 'unidoc/unioffice', 3122, 28, 'Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents', ['tbaliance','gunnsth'], 1, 12, 0),
 (101752630, 'joaocarmo/vcard-creator', 16, 0, 'A JavaScript vCard creator library for both Node.js and the web.', ['joaocarmo','Falklian'], 1, 6, 0),
 (101770883, 'tortuvshin/open-source-flutter-apps', 1872, 1, ':iphone: List of open source Flutter applications :octocat:', ['tortuvshin','j-j-gajjar'], 1, 9, 0),
 (101814136, 'theKashey/react-focus-lock', 886, 56, 'It is a trap! A lock for a Focus. 🔓', ['theKashey','ai'], 1, 0, 0),
@@ -1335,6 +1335,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (102664411, 'alinebastos/dev-practice', 1282, 4, 'Practice your skills with these ideas.', ['alinebastos','adeonir'], 1, 4, 0),
 (102784450, 'klaussinani/ao', 1927, 108, 'Elegant Microsoft To-Do desktop app', ['klaussinani','mariosinani'], 1, 22, 0),
 (102969245, 'golang-standards/project-layout', 28432, 71, 'Standard Go Project Layout', ['kcq','xis'], 1, 14, 0),
+(103084166, 'accurics/terrascan', 2698, 94, 'Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.', ['cesar-rodriguez','kanchwala-yusuf'], 1, 8, 0),
 (103279624, 'moleculerjs/moleculer-template-nano', 4, 6, ':mortar_board: Minimal project template for one microservice.', ['icebob'], 1, 9, 0),
 (103313840, 'wesbos/cobalt2-vscode', 674, 26, 'Cobalt2 Theme for VS Code', ['wesbos','palashmon'], 1, 21, 0),
 (103633984, 'goldbergyoni/nodebestpractices', 72884, 38, ':white_check_mark:  The Node.js best practices list (December 2021)', ['goldbergyoni','anediaz'], 3, 21.333333333333332, 0),
@@ -1345,7 +1346,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (104307778, 'halturin/ergo', 1235, 6, 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', ['halturin','Zert'], 1, 22, 0),
 (104366016, 'protofire/blockchain-learning-path', 1242, 3, 'A suggested learning path for blockchain development', ['mariano-aguero','fvictorio'], 1, 22, 0),
 (104394958, 'true-myth/true-myth', 427, 6, 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ['chriskrycho','bmakuh'], 1, 11, 0),
-(103084166, 'accurics/terrascan', 2698, 94, 'Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.', ['cesar-rodriguez','kanchwala-yusuf'], 1, 8, 0),
 (104443108, 'ukncsc/secure-development-and-deployment', 383, 4, 'NCSC Guidance for secure development and deployment', ['toby-ncsc','HowWeRollingham'], 1, 22, 0),
 (104957153, 'nestjs/awesome-nestjs', 5074, 21, 'A curated list of awesome things related to NestJS 😎', ['juliandavidmr','Tony133'], 1, 20, 0),
 (105006329, 'shiplab/vesseljs', 40, 13, 'Vessel.js Ship Design Library', ['icarofonseca','ferrari212'], 1, 1, 0),
