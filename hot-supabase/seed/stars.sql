@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T20:43:20.688Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T22:43:35.915Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2305,13 +2305,13 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (457, 4562, 22, 'redecentralize/alternative-internet', 11220178),
 (9, 338, 0, 'tc39/proposal-error-cause', 292781184),
 (4, 160, 0, 'lemonadejs/lemonadejs', 304563696),
-(55, 119, 1, 'fireship-io/wavy-curvey-blobby-website', 398016775),
 (0, 1, 0, 'adiel/coypu', 14862081),
+(55, 119, 1, 'fireship-io/wavy-curvey-blobby-website', 398016775),
 (13, 95, 7, 'jkrems/proposal-pkg-exports', 156453051),
 (0, 1, 0, 'adil-Pathan/ionic-tk-social-network', 376475936),
-(240, 2090, 25, 'ryo-ma/github-profile-trophy', 289523918),
 (19, 172, 5, 'A11yance/aria-query', 79065400),
 (658, 8322, 49, 'phil-opp/blog_os', 39575101),
+(240, 2090, 25, 'ryo-ma/github-profile-trophy', 289523918),
 (552, 1852, 6, 'bonigarcia/webdrivermanager', 32280638),
 (37, 195, 31, 'BabylonJS/BabylonReactNative', 252029824),
 (698, 7777, 180, 'clap-rs/clap', 31315121),
@@ -2436,8 +2436,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (267, 2434, 44, 'nakov/Practical-Cryptography-for-Developers-Book', 154688866),
 (3, 13, 0, 'masaun/NFT-auth-token', 304026138),
 (0, 2, 29, 'jgettings/food-planner', 146790989),
-(0, 14, 0, 'vunderkind/ethereum-dappiverse', 426988203),
 (73, 684, 2, 'oleg-agapov/data-engineering-book', 313285274),
+(0, 14, 0, 'vunderkind/ethereum-dappiverse', 426988203),
 (2, 2, 0, 'mit-dci/dlc-oracle-nodejs-samples', 135149082),
 (1355, 25245, 43, 'tannerlinsley/react-query', 207645083),
 (413, 1398, 3, 'videolan/vlc-android', 123426934),
