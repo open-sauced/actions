@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T10:43:42.013Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T12:49:19.093Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1283,8 +1283,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (265308478, 1295, 10291643, 'aslotte/MLOps.NET', 26, 'A machine learning model operations and management tool for ML.NET', 31, 65, ['aslotte','Brett-Parker']),
 (3660761, 1296, 10291643, 'andreassolberg/jso', 27, 'Easy to use OAuth 2.0 javascript library for use in your javascript application.', 48, 849, ['andreassolberg','fkooman']),
 (240960453, 1297, 10291643, 'cmgriffing/idiosyncrasy', 28, null, 6, 7, ['CodeItQuick','cmgriffing']),
-(38832942, 1299, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 28, 8633, ['Aharris88','jneidel']),
 (139069331, 1298, 10291643, 'forestryio/ubuild-hugo', 29, null, 3, 11, ['dwalkr']),
+(38832942, 1299, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 28, 8633, ['Aharris88','jneidel']),
 (1219740, 1300, 67718832, 'StylishThemes/GitHub-Dark', 1, ':octocat: Dark GitHub style', 49, 9477, ['silverwind','Mottie']),
 (53133861, 1301, 67718832, 'nikitavoloboev/my-mac-os', 2, 'List of applications and tools that make my macOS experience even more amazing', 3, 18345, ['nikitavoloboev','herbygillot']),
 (51270739, 1302, 67718832, 'viatsko/awesome-vscode', 3, '🎨 A curated list of delightful VS Code packages and resources.', 49, 19677, ['viatsko','lannonbr']),
