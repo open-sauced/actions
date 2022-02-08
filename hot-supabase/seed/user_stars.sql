@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T16:50:36.700Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T18:43:40.778Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3206,8 +3206,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (28573936, 3208, 3754311, 'mahees/angular-nfc', 1, 'Angular and Ionic NFC wrapper for phonegap-nfc', 0, 4, ['mahees']),
 (20387062, 3209, 3754311, 'horsicq/Detect-It-Easy', 2, 'Program for determining types of files for Windows, Linux and MacOS.', 24, 3008, ['horsicq','hypn0chka']),
 (2712004, 3210, 3754311, 'smcgivern/urm-evaluator', 3, null, 0, 1, ['smcgivern']),
-(427228421, 3211, 3754311, 'ChristBM/platzi_conf_merch', 4, 'PWA store using React, PayPal payments and other interesting configurations.', 0, 3, ['ChristBM']),
 (417268538, 3212, 3754311, 'tkwant/react-steps', 5, null, 0, 6, ['tkwant']),
+(427228421, 3211, 3754311, 'ChristBM/platzi_conf_merch', 4, 'PWA store using React, PayPal payments and other interesting configurations.', 0, 3, ['ChristBM']),
 (355395936, 3213, 3754311, 'xizon/poemkit', 6, 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', 2, 56, ['xizon']),
 (420110494, 3214, 3754311, 'louelladev/Helpful-Tech-Resources', 7, 'A collection of helpful and educational resources I found on social media', 0, 89, ['louelladev']),
 (197915964, 3215, 3754311, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 41, ['albertopoljak','HuyaneMatsu']),
