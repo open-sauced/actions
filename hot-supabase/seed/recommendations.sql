@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T04:46:48.217Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T06:46:35.829Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2852,8 +2852,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (310456670, 'BuilderIO/mitosis', 3780, 22, 'Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more. ', ['steve8708','Dkendal'], 1, 9, 0),
 (310490480, 'cachecleanerjeet/readme-stats-github', 16, 0, 'Generate your GitHub''s Stats in SVG', ['avipatilpro'], 1, 17, 0),
 (310686619, 'tailwindlabs/tailwindcss-aspect-ratio', 572, 2, null, ['adamwathan','RobinMalfait'], 1, 17, 0),
-(310852173, 'cometkim/asdf-grain', 3, 0, 'Grain language plugin for asdf version manager.', ['cometkim'], 1, 27, 0),
 (310766137, 'coroo/pytest-coverage-commentator', 19, 20, 'A Github action to comments a Pytest Coverage on PR', ['coroo'], 1, 0, 0),
+(310852173, 'cometkim/asdf-grain', 3, 0, 'Grain language plugin for asdf version manager.', ['cometkim'], 1, 27, 0),
 (311205362, '5t3ph/11ty-email-generator', 42, 0, 'Generate simple, responsive email templates, with inlined CSS on build using 11ty.', ['5t3ph'], 1, 25, 0),
 (311361403, 'KaterinaLupacheva/my-projects-dashboard', 50, 0, 'Next.js, Material UI, MongoDB Personal Dashboard with dev.to, GitHub, Twitter, and npm API integration.', ['KaterinaLupacheva'], 1, 16, 0),
 (311443569, 'smarthomejunkie/MyDevices', 15, 0, 'A list of all the Smart Home devices that I use.', ['smarthomejunkie'], 1, 10, 0),
