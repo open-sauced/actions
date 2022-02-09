@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T22:43:36.359Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T01:02:09.620Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2096,8 +2096,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (163883279, 2076, 569510, 'nektos/act', 11, 'Run your GitHub Actions locally 🚀', 72, 20036, ['cplee','catthehacker']),
 (140912432, 2077, 569510, 'simonw/sqlite-utils', 12, 'Python CLI utility and library for manipulating SQLite databases', 42, 604, ['simonw','simonwiles']),
 (107914493, 2078, 569510, 'simonw/datasette', 13, 'An open source multi-tool for exploring and publishing data', 336, 5654, ['simonw','russss']),
-(332479921, 2079, 569510, 'nix-community/lorri', 14, 'Your project’s nix-env [maintainer=@Profpatsch]', 26, 207, ['Profpatsch','grahamc']),
 (375818901, 2080, 569510, 'henrik-ch/financials', 15, null, 0, 1, ['henrik-ch','george-hawkins']),
+(332479921, 2079, 569510, 'nix-community/lorri', 14, 'Your project’s nix-env [maintainer=@Profpatsch]', 26, 207, ['Profpatsch','grahamc']),
 (91948540, 2081, 569510, 'ranaroussi/yfinance', 16, 'Download market data from Yahoo! Finance''s API', 393, 6180, ['ranaroussi','bradmetz']),
 (16773572, 2082, 569510, 'geerlingguy/mac-dev-playbook', 17, 'Mac setup and configuration via Ansible.', 7, 4215, ['geerlingguy','dspolleke']),
 (277568940, 2083, 569510, 'nix-dot-dev/getting-started-nix-template', 18, 'Based on nix.dev tutorials, repository template to get you started with Nix.', 6, 297, ['domenkozar','avdv']),

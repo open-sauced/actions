@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-08T22:43:36.148Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T01:02:09.329Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -819,6 +819,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (46958040, 'tapaswenipathak/Open-Source-Programs', 2720, 37, 'A list of open source programs.', ['tapaswenipathak','emetowinner'], 1, 11, 0),
 (47018239, 'DopplerHQ/awesome-interview-questions', 44454, 2, ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ['MaksimAbramchuk','ryan-blunden'], 4, 10, 1),
 (47099511, 'jlevy/og-equity-compensation', 8577, 52, 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ['jlevy','RacheltheEditor'], 1, 3, 0),
+(47184304, 'keon/awesome-nlp', 12642, 7, ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ['NirantK','keon'], 1, 23, 0),
 (47403260, 'instana/nodejs', 60, 3, 'Node.js in-process collectors for Instana', ['basti1302','bripkens'], 1, 10, 0),
 (47996258, 'thoughtworks/talisman', 1325, 42, 'By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.', ['svishwanath-tw','harinee'], 1, 13, 0),
 (47997753, 'zo0r/react-native-push-notification', 6250, 206, 'React Native Local and Remote Notifications', ['Dallas62','zo0r'], 1, 2, 0),
@@ -1245,7 +1246,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (91599439, 'KatDevsGames/z3randomizer', 42, 7, 'Zelda 3 Randomizer Template ASM', ['KatDevsGames','KevinCathcart'], 1, 4, 0),
 (91653269, 'akiraux/Akira', 4605, 38, 'Native Linux App for UI and UX Design built in Vala and GTK', ['Alecaddd','giacomoalbe'], 1, 2, 0),
 (91948540, 'ranaroussi/yfinance', 6180, 393, 'Download market data from Yahoo! Finance''s API', ['ranaroussi','bradmetz'], 1, 16, 0),
-(47184304, 'keon/awesome-nlp', 12642, 7, ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ['NirantK','keon'], 1, 23, 0),
 (92266575, 'thinhvo0108/react-paypal-express-checkout', 105, 32, 'React component that renders Paypal''s express check out button', ['thinhvo0108','grahamannett'], 1, 26, 0),
 (92283780, 'fastify/fastify-nextjs', 364, 6, 'React server side rendering support for Fastify with Next', ['mcollina','delvedor'], 1, 28, 0),
 (92865843, 'vmbrasseur/Public_Speaking', 1308, 22, 'A repository of resources about public speaking, specifically in the context of software development and IT conferences.', ['vmbrasseur','lisaychuang'], 1, 21, 0),
@@ -3345,9 +3345,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (380298833, 'prisma-labs/bema', 59, 9, '🐎 Delightful benchmarking for Node.js ', ['jasonkuhrt','iheyunfei'], 1, 21, 0),
 (380302418, 'ayushiee/fb-clone', 73, 0, 'A simple and responsive facebook clone built using Typescript and React.', ['ayushiee','karanpratapsingh'], 1, 12, 0),
 (380721582, 'devoverid/conf2021', 7, 0, 'Devover Conference 2021', [], 1, 21, 0),
+(380767610, 'sameersrivastava13/Vaccine-Tracker-App', 71, 4, 'Check Your Nearest Vaccination Center And Slots Availability using pincode and district name.', ['sameersrivastava13','kumarishalini6'], 1, 23, 0),
 (380874662, 'sdras/fortnite-vscode-theme', 162, 6, null, ['sdras','MichaelCurrin'], 2, 2, 0),
 (380948393, 'ABHCH/Expense-Track', 1, 0, 'I am develop Expense tracker using Javascript HTml css', ['ABHCH'], 1, 26, 0),
-(380767610, 'sameersrivastava13/Vaccine-Tracker-App', 71, 4, 'Check Your Nearest Vaccination Center And Slots Availability using pincode and district name.', ['sameersrivastava13','kumarishalini6'], 1, 23, 0),
 (381092723, 'yousefvand/secret-service', 36, 0, 'Service to keep secrets of applications', ['yousefvand','juergenhoetzel'], 1, 5, 0),
 (381240280, 'Dhaiwat10/react-agora', 5, 2, 'Plug-and-play React wrapper for AgoraRTC.', ['Dhaiwat10','Nazeeh21'], 1, 21, 0),
 (381428539, 'satyawikananda/elucidator-blog-starter', 11, 0, 'Opinionated Vue 3 + Vite + Typescript blog starter ⚔', ['satyawikananda','ifirmawan'], 1, 18, 0),
