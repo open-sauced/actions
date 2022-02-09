@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T20:43:18.617Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T22:43:20.217Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1222,9 +1222,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (47018239, 1214, 27487712, 'DopplerHQ/awesome-interview-questions', 5, ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', 2, 44454, ['MaksimAbramchuk','ryan-blunden']),
 (217796246, 1215, 27487712, 'mudaliaraditya/EpollServer', 6, 'simple epoll server library', 0, 1, ['mudaliaraditya']),
 (36307949, 1216, 27487712, 'sagielevy/C2Py', 7, 'Convert C Structs to Python with ease!', 3, 8, ['sagielevy','sagielightricks']),
-(81021705, 1217, 27487712, 'x0st/snake', 8, 'A console snake written in C++', 0, 21, ['x0st']),
 (23123294, 1218, 27487712, 'angrave/SystemProgramming', 9, 'Angrave''s Crowd-Sourced System Programming Book used at UIUC', 0, 5162, ['angrave']),
 (83875228, 1219, 27487712, 'AndsonYe/MultipartEncoder', 10, 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', 2, 44, ['AndsonYe']),
+(81021705, 1217, 27487712, 'x0st/snake', 8, 'A console snake written in C++', 0, 21, ['x0st']),
 (23202799, 1220, 27487712, 'microsoft/cpprestsdk', 11, 'The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.', 766, 6641, ['stgates','ras0219-msft']),
 (33157169, 1221, 27487712, 'libcpr/cpr', 12, 'C++ Requests: Curl for People, a spiritual port of Python Requests.', 50, 4217, ['whoshuu','COM8']),
 (997856, 1222, 27487712, 'mrtazz/restclient-cpp', 13, 'C++ client for making HTTP/REST requests', 21, 1332, ['mrtazz','lawmaestro']),
@@ -2928,8 +2928,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (26500787, 2931, 3941126, 'tonsky/FiraCode', 6, 'Free monospaced font with programming ligatures', 285, 61064, ['tonsky','thundernixon']),
 (72066935, 2932, 3941126, 'cs01/gdbgui', 7, 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', 118, 8342, ['cs01','ampresent']),
 (7122594, 2933, 3941126, 'directus/directus', 8, 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', 200, 13248, ['rijkvanzanten','benhaynes']),
-(11730342, 2935, 3941126, 'vuejs/vue', 10, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 546, 191645, ['yyx990803','vue-bot']),
 (43441403, 2934, 3941126, 'strapi/strapi', 9, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 548, 41932, ['soupette','alexandrebodin']),
+(11730342, 2935, 3941126, 'vuejs/vue', 10, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 546, 191645, ['yyx990803','vue-bot']),
 (76679496, 2936, 3941126, 'kuchin/awesome-cto', 11, 'A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups', 0, 10845, ['kuchin','maximveksler']),
 (100781035, 2937, 3941126, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 280, 9249, ['zserge','rajivshah3']),
 (270054, 2938, 3941126, 'ffi/ffi', 13, 'Ruby FFI', 111, 1900, ['larskanis','tduehr']),

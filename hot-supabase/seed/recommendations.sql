@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T20:43:18.839Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T22:43:20.339Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -407,7 +407,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (13812337, 'osmlab/name-suggestion-index', 431, 96, 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', ['bhousel','kjonosm'], 1, 4, 0),
 (13825712, 'VirtoCommerce/vc-platform', 936, 57, 'VirtoCommerce Platform repository', ['vc-ci','tatarincev'], 1, 0, 0),
 (13840241, 'freeCodeCamp/devdocs', 27264, 122, 'API Documentation Browser', ['Thibaut','simon04'], 2, 3.5, 0),
-(13855476, 'go-gorm/gorm', 26275, 43, 'The fantastic ORM library for Golang, aims to be developer friendly', ['jinzhu','emirb'], 1, 29, 0),
 (13900913, 'dracula/dracula-theme', 17536, 49, '🧛🏻‍♂️ One theme. All platforms.', ['zenorocha','heinst'], 1, 14, 0),
 (14095175, 'SFTtech/openage', 10714, 253, 'Free (as in freedom) open source clone of the Age of Empires II engine :rocket:', ['TheJJ','heinezen'], 1, 21, 0),
 (14096802, 'danmayer/coverband', 1942, 4, 'Ruby production code coverage collection and reporting (line of code usage)', ['danmayer','kbaum'], 1, 17, 0),
@@ -3658,4 +3657,5 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (41881900, 'microsoft/vscode', 125676, 5350, 'Visual Studio Code', ['bpasero','jrieken'], 1, 3, 2),
 (214587193, 'supabase/supabase', 25467, 244, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ['kiwicopple','MildTomato'], 12, 11.5, 3),
 (31792824, 'flutter/flutter', 133601, 10100, 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ['engine-flutter-autoroll','abarth'], 1, 29, 2),
-(426820139, 'open-sauced/hot', 31, 6, '🍕The site that recommends the hottest projects on GitHub.', ['bdougie','hokagedemehin'], 20, 0, 8);
+(426820139, 'open-sauced/hot', 31, 6, '🍕The site that recommends the hottest projects on GitHub.', ['bdougie','hokagedemehin'], 20, 0, 8),
+(13855476, 'go-gorm/gorm', 26275, 43, 'The fantastic ORM library for Golang, aims to be developer friendly', ['jinzhu','emirb'], 1, 29, 1);
