@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T12:49:47.582Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T14:43:19.706Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1429,6 +1429,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (321770581, 1441, 30369246, 'jgehrcke/github-repo-stats', 25, ' A GitHub Action for advanced repository traffic analysis and reporting.', 2, 83, ['jgehrcke','gautamkrishnar']),
 (68720867, 1442, 30369246, 'firstcontributions/first-contributions', 26, '🚀✨ Help beginners to contribute to open source projects', 1303, 21873, ['firstcontributions-bot','Roshanjossey']),
 (28457823, 1443, 30369246, 'freeCodeCamp/freeCodeCamp', 27, 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', 122, 337699, ['QuincyLarson','raisedadead']),
+(153099672, 1444, 30369246, 'inancgumus/learngo', 28, '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', 6, 11870, ['inancgumus','firasuke']),
+(21405028, 1445, 30369246, 'ardanlabs/gotraining', 29, 'Go Training Class Material : ', 2, 10071, ['ardan-bkennedy','jcbwlkr']),
 (734957, 1446, 34903088, 'kelektiv/node-cron', 0, 'Cron for NodeJS.', 100, 7258, ['ncb000gt','jodevsa']),
 (351087635, 1447, 34903088, 'samuelkraft/routes', 1, 'Trail Routes - Curated running & hiking trails in Sweden', 1, 8, ['samuelkraft']),
 (367138146, 1448, 34903088, 'samuelkraft/notion-blog-nextjs', 2, 'Next.js example blog powered by Notion Public API', 1, 452, ['samuelkraft','Dipeshwagle']),
@@ -1443,8 +1445,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (363558647, 1457, 34903088, 'theodorusclarence/vite-react-tailwind-starter', 11, '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', 0, 22, ['theodorusclarence']),
 (316836816, 1458, 34903088, 'saadeghi/daisyui', 12, '⭐️ ⭐️ ⭐️ ⭐️ ⭐️  Tailwind Components', 22, 6860, ['saadeghi','actions-user']),
 (154829724, 1459, 34903088, 'CSFrequency/react-firebase-hooks', 13, 'React Hooks for Firebase.', 21, 2240, ['chrisbianca','andipaetzold']),
-(153099672, 1444, 30369246, 'inancgumus/learngo', 28, '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', 6, 11870, ['inancgumus','firasuke']),
-(21405028, 1445, 30369246, 'ardanlabs/gotraining', 29, 'Go Training Class Material : ', 2, 10071, ['ardan-bkennedy','jcbwlkr']),
 (184879908, 1460, 34903088, 'iwgx/downtown', 14, ':hourglass: Well-crafted countdown timer', 4, 10, ['iwgx']),
 (398656870, 1461, 34903088, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', 15, ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', 0, 12, ['gungunfebrianza']),
 (128604122, 1462, 34903088, 'praditautama/wwwid-pwa-challenge', 16, null, 0, 5, ['praditautama']),

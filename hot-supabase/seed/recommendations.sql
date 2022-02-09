@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T12:49:47.391Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T14:43:19.513Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1559,6 +1559,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (129936360, 'PennyLaneAI/pennylane', 1114, 140, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', ['josh146','co9olguy'], 1, 3, 0),
 (130268121, 'tailwindlabs/tailwindcss-intellisense', 1544, 56, 'Intelligent Tailwind CSS tooling for Visual Studio Code', ['bradlc','ledenis'], 1, 21, 0),
 (130464961, 'sharkdp/bat', 30920, 115, 'A cat(1) clone with wings.', ['sharkdp','Enselic'], 1, 7, 0),
+(130597640, 'GantMan/ReactStateMuseum', 1477, 22, 'A whirlwind tour of React state management systems by example', ['GantMan','marcelkalveram'], 1, 0, 0),
+(130879558, 'gitpod-io/gitpod', 6308, 696, 'Gitpod automates the provisioning of ready-to-code development environments. ', ['aledbf','csweichel'], 1, 21, 0),
 (130884470, 'solidjs/solid', 13199, 22, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ['ryansolid','davedbase'], 2, 16, 0),
 (131081109, 'hiroppy/fusuma', 5031, 61, '✍️Fusuma makes slides with Markdown easily.', ['hiroppy','renovate-bot'], 1, 21, 0),
 (131208436, 'mariannnne/BodyMapItem_Online', 1, 0, 'JS scripts for displaying body map items', ['mariannnne'], 1, 1, 0),
@@ -1572,9 +1574,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (132255727, 'ahmadawais/Emoji-Log', 737, 4, 'Emoji-Log — An Emoji Git commit log messages spec standard. [  📦👌🐛📖🚀🤖 ‼️]', ['ahmadawais','tallguyjenks'], 1, 11, 0),
 (132489983, 'arduosoft/RawCMS', 153, 37, 'RawCMS is the headless CMS written in asp.net core build for developers that embraces API first technology. Please give us a feedback!', ['zeppaman','marcuson'], 1, 5, 0),
 (132554890, 'michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide', 591, 0, 'An in-depth Guide for getting started with the Windows Subsystem for Linux!', ['michaeltreat','hh-shiung'], 1, 1, 0),
-(130597640, 'GantMan/ReactStateMuseum', 1477, 22, 'A whirlwind tour of React state management systems by example', ['GantMan','marcelkalveram'], 1, 0, 0),
 (132720941, 'AndrewKishino/sotez', 55, 5, 'A JS Library for Tezos', ['AndrewKishino','CherryDT'], 1, 8, 0),
-(130879558, 'gitpod-io/gitpod', 6308, 696, 'Gitpod automates the provisioning of ready-to-code development environments. ', ['aledbf','csweichel'], 1, 21, 0),
 (132750724, 'danistefanovic/build-your-own-x', 126006, 207, '🤓 Build your own (insert technology here)', ['danistefanovic','bauripalash'], 1, 29, 0),
 (132757250, 'charlax/entrepreneurship-resources', 62, 0, 'A list of articles, books, videos related to entrepreneurship', ['charlax'], 1, 10, 0),
 (133092972, 'nodejs/undici', 2846, 63, 'An HTTP/1.1 client, written from scratch for Node.js', ['ronag','mcollina'], 1, 16, 0),
@@ -2428,10 +2428,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (252367817, 'duty-machine/duty-machine', 485, 1980, '一个备份网络文章的服务。声援陈玫、蔡伟及其女友小唐，请关注端点星事件。', [], 1, 9, 0),
 (252927078, 'recogito/recogito-js', 116, 6, 'A JavaScript library for text annotation', ['rsimon','Apeli'], 1, 25, 0),
 (253226107, 'telety/telety', 1, 1, null, ['mvandervliet'], 1, 0, 0),
+(253458494, 'bakkeby/patches', 131, 5, 'Collection of patches for dwm, st and dmenu', ['bakkeby'], 1, 28, 0),
 (253816668, 'iamcco/coc-leetcode', 25, 12, 'leetcode 扩展', ['iamcco'], 1, 12, 0),
 (254060596, 'zellwk/crud-demo', 77, 4, 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', ['zellwk'], 1, 26, 0),
 (254141208, 'piscinajs/piscina', 2131, 31, 'A fast, efficient Node.js Worker Thread Pool implementation', ['jasnell','addaleax'], 1, 18, 0),
-(253458494, 'bakkeby/patches', 131, 5, 'Collection of patches for dwm, st and dmenu', ['bakkeby'], 1, 28, 0),
 (254180747, 'jpedroschmitz/gatsby-starter-ts', 242, 3, 'TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start. Ready for Gatsby v4 🔥 ', ['renovate-bot','jpedroschmitz'], 1, 4, 0),
 (254399512, 'rodridev77/bank-loan', 2, 1, null, ['rodridev77'], 1, 9, 0),
 (254660586, 'openmainframeproject/cobol-programming-course', 1963, 9, 'Training materials and labs for a ''Getting Started'' level course on COBOL', ['MikeBauerCA','tanto259'], 1, 29, 0),
