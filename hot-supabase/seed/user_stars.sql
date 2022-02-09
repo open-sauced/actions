@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T16:51:15.188Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T18:45:30.387Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2944,8 +2944,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (15884926, 2947, 3941126, 'hishamhm/htop', 22, 'htop is an interactive text-mode process viewer for Unix systems. It aims to be a better ''top''.', 319, 5630, ['hishamhm','Explorer09']),
 (1239151, 2948, 3941126, 'cmatsuoka/figlet', 23, 'Claudio''s FIGlet tree', 11, 862, ['cmatsuoka','jmccrohan']),
 (1672647, 2949, 3941126, 'clojure/core.logic', 24, null, 1, 1333, ['swannodette','namin']),
-(7159640, 2951, 3941126, 'oclint/oclint', 26, 'A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C', 15, 3401, ['lqi','ryuichis']),
 (63187400, 2950, 3941126, 'wesbos/es6.io', 25, '🔥 Starter Files to Learn with ES6 for Everyone', 16, 2032, ['wesbos','palashmon']),
+(7159640, 2951, 3941126, 'oclint/oclint', 26, 'A static source code analysis tool to improve quality and reduce defects for C, C++ and Objective-C', 15, 3401, ['lqi','ryuichis']),
 (143131, 2952, 3941126, 'danmar/cppcheck', 27, 'static analysis of C/C++ code', 33, 3856, ['danmar','orbitcowboy']),
 (340637, 2953, 3941126, 'uncrustify/uncrustify', 28, 'Code beautifier', 259, 2448, ['gmaurel','guy-maurel']),
 (9393759, 2954, 3941126, 'photonstorm/phaser', 29, 'Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.', 138, 30955, ['photonstorm','pavle-goloskokovic']),

@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T16:51:14.963Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T18:45:30.211Z
 -- COPY users(id, login, private, open_issues, stars_data) FROM 'users.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -113,9 +113,9 @@ INSERT INTO users(id, login, private, open_issues, stars_data) VALUES
 (24217493, null, false, 2, true),
 (3450257, null, false, 1, true),
 (13490604, null, false, 3, true),
-(667716, null, false, 10, true),
 (46828701, null, false, 0, true),
 (4838867, null, false, 0, true),
+(667716, null, false, 10, true),
 (6842883, null, false, 1, true),
 (4381106, null, false, 1, true),
 (51794934, null, false, 1, true),
