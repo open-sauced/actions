@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T18:45:30.387Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T20:43:18.617Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2928,8 +2928,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (26500787, 2931, 3941126, 'tonsky/FiraCode', 6, 'Free monospaced font with programming ligatures', 285, 61064, ['tonsky','thundernixon']),
 (72066935, 2932, 3941126, 'cs01/gdbgui', 7, 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', 118, 8342, ['cs01','ampresent']),
 (7122594, 2933, 3941126, 'directus/directus', 8, 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', 200, 13248, ['rijkvanzanten','benhaynes']),
-(43441403, 2934, 3941126, 'strapi/strapi', 9, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 548, 41932, ['soupette','alexandrebodin']),
 (11730342, 2935, 3941126, 'vuejs/vue', 10, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 546, 191645, ['yyx990803','vue-bot']),
+(43441403, 2934, 3941126, 'strapi/strapi', 9, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 548, 41932, ['soupette','alexandrebodin']),
 (76679496, 2936, 3941126, 'kuchin/awesome-cto', 11, 'A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups', 0, 10845, ['kuchin','maximveksler']),
 (100781035, 2937, 3941126, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 280, 9249, ['zserge','rajivshah3']),
 (270054, 2938, 3941126, 'ffi/ffi', 13, 'Ruby FFI', 111, 1900, ['larskanis','tduehr']),
