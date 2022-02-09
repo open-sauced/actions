@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T01:02:09.329Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T02:48:28.345Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3569,8 +3569,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (406390419, 'NickLiffen/GCSMTTR', 5, 0, 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', ['NickLiffen'], 1, 2, 0),
 (406390867, 'muhammaddzaky/polisi.html', 1, 0, 'polisi.html', [], 1, 1, 0),
 (406448834, 'willcl-ark/tinybitcoinpeer', 1, 0, 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ['amiller','willcl-ark'], 1, 23, 0),
-(406493930, 'blackgirlbytes/git-emojis', 10, 6, 'An emoji search application leveraging Next.js, Tailwind CSS, Fuse.js (for fuzzy search), GitHub''s Emoji API, GitHub Actions, and Pulumi', ['blackgirlbytes'], 1, 21, 0),
 (406594497, 'bdougie/invite-automation', 3, 0, 'This is a repo to automate invites to teams. ', ['bdougie'], 1, 13, 0),
+(406493930, 'blackgirlbytes/git-emojis', 10, 6, 'An emoji search application leveraging Next.js, Tailwind CSS, Fuse.js (for fuzzy search), GitHub''s Emoji API, GitHub Actions, and Pulumi', ['blackgirlbytes'], 1, 21, 0),
 (407233777, 'slipHQ/run-wasm', 355, 17, 'Run WASM based code executions in the browser easily', ['kennethcassel','cameronmoreau'], 1, 6, 0),
 (407283196, 'buildspace/buildspace-projects', 1163, 84, 'The home of our open-source projects.', ['adilanchian','farzaa'], 1, 16, 0),
 (407327246, 'angeloashmore/gatsby-4-prismic-demo', 2, 1, null, ['angeloashmore'], 1, 5, 0),
