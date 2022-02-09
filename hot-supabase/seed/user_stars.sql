@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T08:44:33.385Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T10:43:34.043Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -951,8 +951,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (124308494, 944, 2609511, 'apigee/istio-mixer-adapter', 27, 'Apigee''s Istio Mixer Adapter', 2, 52, ['theganyo','robbrit']),
 (75322405, 945, 2609511, 'istio/proxy', 28, 'The Istio proxy components.', 12, 601, ['istio-testing','qiwzhang']),
 (88905488, 946, 2609511, 'ShangtongZhang/DeepRL', 29, 'Modularized Implementation of Deep RL Algorithms in PyTorch', 5, 2640, ['ShangtongZhang','wassname']),
-(347604812, 948, 9968219, 'ramazansakin/ghclogger', 0, 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', 0, 7, ['ramazansakin']),
 (374901515, 947, 91016903, 'Amit366/FunwithPhysics', 0, null, 7, 58, ['Amit366','pragyamittal0']),
+(347604812, 948, 9968219, 'ramazansakin/ghclogger', 0, 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', 0, 7, ['ramazansakin']),
 (264558151, 949, 9968219, 'borakasmer/MicroservicesWithRabbitMQAndSocketIO', 1, 'In this application, we will try to informed customers who buy the stock papers when the price changed. We will use NodeJs for the backend application. For improving the performance, we will use RabbitMQ, and we will write microservice as a consumer. We will send updated stock data by using SocketIO to the clients. For front-end application, we will use Angular 9', 14, 28, ['borakasmer']),
 (204996263, 950, 9968219, 'umutphp/backend-best-practices', 2, 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', 1, 74, ['umutphp','ilkka']),
 (22119721, 989, 46695719, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38201, ['RichardLitt','simaki']),
@@ -2620,8 +2620,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (351298555, 2600, 13490604, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3339, ['tnylea','bobbyiliev']),
 (37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
 (141514439, 2602, 13490604, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 13, 544, ['chshersh','sdiehl']),
-(36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
 (175219507, 2604, 13490604, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 1, 122, ['chimay']),
+(36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
 (121921584, 2760, 2808728, 'swapagarwal/swag-for-dev', 9, '😎 swag opportunities for developers', 86, 3910, ['aslafy-z','swapagarwal']),
 (21791844, 2605, 13490604, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 13, 2619, ['krispo','alessandroleite']),
 (175681313, 2606, 13490604, 'joernio/joern', 13, 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', 31, 744, ['fabsx00','mpollmeier']),
