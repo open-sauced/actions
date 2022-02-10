@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T14:43:28.576Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T16:49:41.504Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3331,11 +3331,11 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (374950494, 'lkrryba/weekly-web-dev-challenge-poll', 42, 6, 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', ['lkrryba','DoubleNemesis'], 1, 3, 0),
 (375015992, 'hacktivist123/content-plan-example', 137, 0, 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', ['hacktivist123','Youngestdev'], 3, 10.666666666666666, 0),
 (375406891, 'YashThakare/DSA_Uplift_Project', 79, 0, null, ['YashThakare','SwarnimaShishodia'], 2, 5.5, 0),
+(375445655, 'facebookresearch/AugLy', 4142, 12, 'A data augmentations library for audio, image, text, and video.', ['jbitton','zpapakipos'], 1, 16, 0),
 (375581675, 'ezralazuardy/cats', 3, 0, '😷 Contactless Automatic Thermal Scanner', ['ezralazuardy'], 1, 25, 0),
 (375818901, 'henrik-ch/financials', 1, 0, null, ['henrik-ch','george-hawkins'], 1, 15, 0),
 (376296039, 'vibalijoshi/List-of-Opportunities', 294, 2, 'Keep track of opportunities and never miss a deadline again!', ['vibalijoshi','sadn1ck'], 1, 29, 0),
 (376475936, 'adil-Pathan/ionic-tk-social-network', 1, 0, 'Ionic 5 - social network starter project', ['thenaim'], 1, 23, 0),
-(375445655, 'facebookresearch/AugLy', 4142, 12, 'A data augmentations library for audio, image, text, and video.', ['jbitton','zpapakipos'], 1, 16, 0),
 (376492865, 'six-ddc/plow', 2792, 3, 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', ['six-ddc','chenrui333'], 1, 9, 0),
 (376732923, 'kibybyte/kibybyte', 1, 0, 'Kibybyte''s Website', ['kibybyte'], 1, 15, 0),
 (376953303, 'cloudflare/zkp-ecdsa', 91, 3, 'Proves knowledge of a ECDSA-P256 signature under one of many public keys that are stored in a list.', ['wbl'], 1, 13, 0),

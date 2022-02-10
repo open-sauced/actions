@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T14:43:28.276Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T16:49:41.811Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3032,9 +3032,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (126577260, 3034, 17671332, 'trekhleb/javascript-algorithms', 2, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 269, 129835, ['trekhleb','m-maksyutin']),
 (369905667, 3035, 17671332, 'Mintbean/DevCollective.io', 3, 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', 12, 34, ['monarchwadia','CoderDill']),
 (310766137, 3036, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 19, ['coroo']),
+(372449229, 3037, 6935431, 'GeekMasher/advanced-security-compliance', 1, 'GitHub Advance Security Compliance Action', 17, 75, ['GeekMasher','pholleran']),
 (417656389, 3038, 6935431, 'github/automatic-contrib-prs', 2, 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', 1, 2, ['zkoppert']),
 (413929478, 3039, 6935431, 'zkoppert/advanced-security-enforcer', 3, 'A GitHub action for organizations that enables advanced security code scanning on all new repos', 1, 21, ['zkoppert','lindluni']),
-(372449229, 3037, 6935431, 'GeekMasher/advanced-security-compliance', 1, 'GitHub Advance Security Compliance Action', 17, 75, ['GeekMasher','pholleran']),
 (3544490, 3040, 6935431, 'PyGithub/PyGithub', 4, 'Typed interactions with the GitHub API v3', 161, 4834, ['jacquev6','s-t-e-v-e-n-k']),
 (3710711, 3041, 6935431, 'sigmavirus24/github3.py', 5, ' Hi, I''m a library for interacting with GItHub''s REST API in a convenient and ergonomic way. I work on Python 3.6+.', 49, 1069, ['sigmavirus24','itsmemattchung']),
 (225862895, 3042, 6935431, 'srggrs/assign-one-project-github-action', 6, 'Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.', 14, 116, ['srggrs','adamdmharvey']),
