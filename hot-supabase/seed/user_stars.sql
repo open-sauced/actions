@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T20:43:23.955Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T22:43:19.458Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2619,8 +2619,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71359796, 2599, 13490604, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (351298555, 2600, 13490604, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3339, ['tnylea','bobbyiliev']),
 (37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
-(141514439, 2602, 13490604, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 13, 544, ['chshersh','sdiehl']),
 (36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
+(141514439, 2602, 13490604, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 13, 544, ['chshersh','sdiehl']),
 (175219507, 2604, 13490604, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 1, 122, ['chimay']),
 (121921584, 2760, 2808728, 'swapagarwal/swag-for-dev', 9, '😎 swag opportunities for developers', 86, 3910, ['aslafy-z','swapagarwal']),
 (21791844, 2605, 13490604, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 13, 2619, ['krispo','alessandroleite']),
@@ -3229,8 +3229,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (146790989, 3231, 3754311, 'jgettings/food-planner', 24, 'Simple single-page app for planning meals and shopping lists', 28, 2, ['jgettings']),
 (207645083, 3232, 3754311, 'tannerlinsley/react-query', 25, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 33, 24542, ['tannerlinsley','boschni']),
 (123426934, 3233, 3754311, 'videolan/vlc-android', 26, '  VLC for Android, Android TV and ChromeOS', 3, 1346, ['GeoffreyMetais','jbkempf']),
-(19319131, 3234, 3754311, 'mrmaffen/vlc-android-sdk', 27, 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', 77, 792, ['mrmaffen','xhochy']),
 (133681780, 3235, 3754311, 'shalvah/DownloadThisVideo', 28, 'Twitter bot for easily downloading videos/GIFs off tweets', 3, 585, ['shalvah','notpushkin']),
+(19319131, 3234, 3754311, 'mrmaffen/vlc-android-sdk', 27, 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', 77, 792, ['mrmaffen','xhochy']),
 (132750724, 3236, 3754311, 'danistefanovic/build-your-own-x', 29, '🤓 Build your own (insert technology here)', 207, 126006, ['danistefanovic','bauripalash']),
 (71359796, 3237, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (133134007, 3238, 69519470, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2933, 10698, ['wing328','fehguy']),
@@ -3425,8 +3425,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (958314, 3427, 3846874, 'remy/nodemon', 11, 'Monitor for any changes in your node.js application and automatically restart the server - perfect for development', 33, 23401, ['remy','ChrisWren']),
 (156914027, 3428, 3846874, 'isaachinman/next-i18next', 12, 'The easiest way to translate your NextJs apps.', 17, 2834, ['isaachinman','capellini']),
 (70107786, 3429, 3846874, 'vercel/next.js', 13, 'The React Framework', 1236, 78667, ['timneutkens','ijjk']),
-(11855195, 3431, 3846874, 'chalk/chalk', 15, '🖍 Terminal string styling done right', 0, 17599, ['sindresorhus','Qix-']),
 (27840307, 3430, 3846874, 'watson-developer-cloud/node-sdk', 14, ':comet: Node.js library to access IBM Watson services.', 10, 1471, ['nfriedly','germanattanasio']),
+(11855195, 3431, 3846874, 'chalk/chalk', 15, '🖍 Terminal string styling done right', 0, 17599, ['sindresorhus','Qix-']),
 (257485422, 3432, 3846874, 'vitejs/vite', 16, 'Next generation frontend tooling. It''s fast!', 771, 35335, ['yyx990803','patak-dev']),
 (9967702, 3433, 3846874, 'w3c/wcag', 17, 'Web Content Accessibility Guidelines', 653, 620, ['michael-n-cooper','awkawk']),
 (17884290, 3434, 3846874, 'tschaub/gh-pages', 18, 'General purpose task for publishing files to a gh-pages branch on GitHub', 101, 2689, ['tschaub','greenkeeperio-bot']),
