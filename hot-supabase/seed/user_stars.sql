@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T16:49:41.811Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T18:45:08.041Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -741,14 +741,14 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (152327151, 733, 16165980, 'SamProf/MatBlazor', 7, 'Material Design components for Blazor and Razor Components', 380, 2598, ['SamProf','enkodellc']),
 (78847475, 734, 16165980, 'rossmann-engineering/EasyModbusTCP.NET', 8, 'Modbus TCP, Modbus UDP and Modbus RTU client/server library for .NET implementations', 36, 473, ['rossmann-engineering','da66en']),
 (428727515, 804, 71297412, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14']),
-(17620347, 735, 16165980, 'dotnet/aspnetcore', 9, 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', 2203, 26844, ['pranavkm','aspnetci']),
-(2682189, 736, 16165980, 'tmsmith/Dapper-Extensions', 10, 'Dapper Extensions is a small library that complements Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your POCOs. For more advanced querying scenarios, Dapper Extensions provides a predicate system. The goal of this library is to keep your POCOs pure by not requiring any attributes or base class inheritance.', 85, 1547, ['tmsmith','pagebrooks']),
 (116160755, 737, 16165980, 'dotnet/blazor', 11, 'Blazor moved to https://github.com/dotnet/aspnetcore', 0, 9336, ['SteveSandersonMS','rynowak']),
 (105649273, 738, 16165980, 'ElectronNET/Electron.NET', 12, ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', 129, 6089, ['GregorBiswanger','robertmuehsig']),
 (4933039, 739, 16165980, 'Fody/Fody', 13, 'Extensible tool for weaving .net assemblies', 1, 3504, ['SimonCropp','tom-englert']),
 (22887094, 740, 16165980, 'tesseract-ocr/tesseract', 14, 'Tesseract Open Source OCR Engine (main repository)', 346, 43250, ['stweil','zdenop']),
 (133442384, 741, 16165980, 'denoland/deno', 15, 'A modern runtime for JavaScript and TypeScript.', 721, 79403, ['ry','bartlomieju']),
 (80472665, 742, 16165980, 'salomonelli/best-resume-ever', 16, ':necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.', 54, 15135, ['salomonelli','pubkey']),
+(17620347, 735, 16165980, 'dotnet/aspnetcore', 9, 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', 2203, 26844, ['pranavkm','aspnetci']),
+(2682189, 736, 16165980, 'tmsmith/Dapper-Extensions', 10, 'Dapper Extensions is a small library that complements Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your POCOs. For more advanced querying scenarios, Dapper Extensions provides a predicate system. The goal of this library is to keep your POCOs pure by not requiring any attributes or base class inheritance.', 85, 1547, ['tmsmith','pagebrooks']),
 (6639959, 743, 16165980, 'berwinter/uvr1611', 17, 'UVR1611 Data Logger Pro', 23, 27, ['berwinter','bobosch']),
 (35969061, 744, 1917293, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 288, 29430, ['IsaacG','eglaysher']),
 (124617017, 745, 1917293, 'DevOpsandSRE/tech-resources', 1, 'Useful Technical Resources', 1, 20, ['zigsphere','ym1234']),
