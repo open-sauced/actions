@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T01:02:03.836Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T02:46:39.406Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2749,6 +2749,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (21737465, 2763, 2808728, 'sindresorhus/awesome', 12, '😎 Awesome lists about all kinds of interesting topics', 36, 181071, ['sindresorhus','davisonio']),
 (54748620, 2764, 2808728, 'kamranahmedse/githunt', 13, 'Hunt the most starred projects on any date on GitHub', 13, 2193, ['kamranahmedse','tarungarg546']),
 (9820094, 2765, 2808728, 'ProLoser/Github-Omnibox', 14, 'Github Commands from Google Chrome Omnibox (address bar)', 25, 291, ['rodyhaddad','ProLoser']),
+(118065892, 2766, 2808728, 'davchoo/RocketDogs-6718-Robot-Code', 15, 'Code for the robot built by 6718', 0, 1, ['davchoo']),
+(62971169, 2767, 2808728, 'heroku/heroku-accounts', 16, 'Helps use multiple accounts on Heroku.', 19, 521, ['ddollar','jdxcode']),
 (1039520, 2768, 2808728, 'ytdl-org/youtube-dl', 17, 'Command-line program to download videos from YouTube.com and other video sites', 4973, 103987, ['dstftw','phihag']),
 (95114338, 2769, 2808728, 'github/accessibilityjs', 18, 'Client side accessibility error scanner.', 5, 2190, ['muan','mislav']),
 (2561582, 2770, 2808728, 'animate-css/animate.css', 19, '🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.', 28, 73132, ['daneden','eltonmesquita']),
@@ -3679,8 +3681,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (79162682, 3683, 55907631, 'laurent22/joplin', 1, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 390, 27240, ['laurent22','tessus']),
 (183454144, 3684, 55907631, 'pransh15/moz-starter-pack', 2, 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', 3, 17, ['pransh15','pranitb10']),
 (215390876, 3685, 55907631, 'malgamves/CommunityWriterPrograms', 3, 'A list of Developer Community Writer Programs', 15, 1515, ['malgamves','karllhughes']),
-(118065892, 2766, 2808728, 'davchoo/RocketDogs-6718-Robot-Code', 15, 'Code for the robot built by 6718', 0, 1, ['davchoo']),
-(62971169, 2767, 2808728, 'heroku/heroku-accounts', 16, 'Helps use multiple accounts on Heroku.', 19, 521, ['ddollar','jdxcode']),
 (441646385, 3686, 55907631, 'cod-ed/simulate', 4, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', 0, 0, ['yashlamba','akshansh2000']),
 (512295, 3885, 622115, 'grails/grails-core', 20, 'The Grails Web Application Framework', 224, 2636, ['graemerocher','jeffbrown']),
 (143329936, 3687, 55907631, 'aikho/awesome-feature-engineering', 5, 'A curated list of resources dedicated to Feature Engineering Techniques for Machine Learning', 0, 495, ['aikho','turtlemonvh']),

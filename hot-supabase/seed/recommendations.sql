@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T01:02:04.221Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T02:46:39.628Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3478,7 +3478,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (391775174, 'mercyharbo/myShoppingList', 1, 0, 'This is a shopping cart that performs a simple tasks like adding, removing a shopping list.', ['mercyharbo'], 1, 21, 0),
 (391916620, 'vicktoh/dataphyte_index', 1, 0, null, ['vicktoh'], 2, 0, 0),
 (392046190, 'Dhaiwat10/furniture-exchange', 8, 0, '2021 Supabase launchweek hackathon entry', ['Dhaiwat10','Nazeeh21'], 1, 16, 0),
-(392073567, 'open-sauced/docs.opensauced.pizza', 7, 4, 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', ['0-vortex','samuelsycamore'], 1, 7, 0),
 (392172833, 'SidHacksCommunity/support', 16, 146, 'Reach out for any support you need', ['siddharthdayalwal','verma-kunal'], 1, 17, 0),
 (392242345, 'hilmanski/discussbase', 37, 0, 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', [], 1, 24, 0),
 (392375604, 'kiruba-r11/file-categorizer', 2, 0, 'It categorizes your files 📁 based on its extension type.', ['kiruba-r11'], 1, 14, 0),
@@ -3514,7 +3513,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (395315972, 'Rosh3639/tsf', 1, 0, 'Payment-Gateway-Integration', ['Rosh3639'], 1, 4, 0),
 (395376449, 'flan6/ml-cv-bot', 1, 0, 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', ['flan6'], 2, 0, 0),
 (395413091, 'Mintbean/junior-developer-job-boards', 1, 0, null, ['Jc-008','monarchwadia'], 1, 0, 0),
-(395433628, 'exegeteio/dapr-mini-api', 4, 0, null, ['exegeteio'], 1, 9, 0),
+(392073567, 'open-sauced/docs.opensauced.pizza', 7, 4, 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', ['0-vortex','samuelsycamore'], 1, 7, 0),
 (395536461, 'mTvare6/hello-world.rs', 1456, 62, '🚀Memory safe, blazing fast, configurable, minimal hello world written in rust(🚀) in a few lines of code with few(1092🚀) dependencies🚀', ['mTvare6','monosans'], 1, 26, 0),
 (395575559, 'teknologi-umum/blog', 10, 3, 'Blog for Teknologi Umum', ['aldy505','elianiva'], 1, 21, 0),
 (395667322, 'stack-on-fire/fire-flags', 35, 1, 'Dead simple and blazing fast feature-flags platform. Get started in minutes. Be confident when releasing new features for your application!', ['d-ivashchuk','edoardoc'], 1, 13, 0),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (438686004, 'xsky13/online-compiler', 1, 0, 'An online code compiler', ['xsky13'], 2, 14, 0),
 (439057606, 'DavidBuchanan314/ambiguous-png-packer', 867, 3, 'Craft PNG files that appear completely different in Apple software', ['DavidBuchanan314','mnixry'], 1, 19, 0),
 (439330952, 'CoinAlpha/hummingbot', 8, 7, 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ['Nullably','dennisocana'], 1, 14, 0),
+(395433628, 'exegeteio/dapr-mini-api', 4, 0, null, ['exegeteio'], 1, 9, 0),
 (441646385, 'cod-ed/simulate', 0, 0, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ['yashlamba','akshansh2000'], 1, 4, 0);
