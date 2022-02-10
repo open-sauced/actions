@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T10:43:29.775Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T12:49:16.796Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1476,8 +1476,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (60493101, 1488, 34394719, 'jwasham/coding-interview-university', 4, 'A complete computer science study plan to become a software engineer.', 41, 201788, ['jwasham','avizmarlon']),
 (54346799, 1489, 34394719, 'public-apis/public-apis', 5, 'A collective list of free APIs', 7, 172340, ['davemachado','matheusfelipeog']),
 (280203463, 1490, 34394719, 'sadanandpai/single-page-resume-builder', 6, 'Build a standard and professional single page resume', 10, 243, ['sadanandpai','gopal1996']),
-(21393871, 1491, 34394719, 'sorrycc/awesome-javascript', 7, '🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.', 36, 26296, ['sorrycc','gokaygurcan']),
 (132720941, 1492, 34394719, 'AndrewKishino/sotez', 8, 'A JS Library for Tezos', 5, 55, ['AndrewKishino','CherryDT']),
+(21393871, 1491, 34394719, 'sorrycc/awesome-javascript', 7, '🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.', 36, 26296, ['sorrycc','gokaygurcan']),
 (141910081, 1493, 34394719, 'faressoft/terminalizer', 9, '🦄 Record your terminal and generate animated gif images or share a web player', 102, 12184, ['faressoft','noplanman']),
 (247607046, 1494, 34394719, 'jeffreybiles/vue-3-demo', 10, null, 14, 4, []),
 (70092432, 1495, 34394719, 'epool/firebase-cloning-tool', 11, 'Tool for cloning firebase remote config projects.', 1, 35, ['epool']),
@@ -2666,9 +2666,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (243429404, 2645, 667716, 'eobrain/bajel', 22, 'A build system modeled on make.', 11, 13, ['eobrain']),
 (70848287, 2646, 667716, 'yairEO/tagify', 23, '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', 41, 2338, ['yairEO','LironHazan']),
 (341704034, 2647, 667716, 'microsoft/Power-Fx', 24, 'Power Fx low-code programming language', 27, 2579, ['gregli-msft','bryancroteau-MSFT']),
-(277057483, 2648, 667716, 'apparition47/MailTrackerBlocker', 25, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', 10, 995, ['apparition47','danieldickison']),
 (5543112, 2649, 667716, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 151, 3115, ['jcs','pushcx']),
 (177423398, 2650, 667716, 'getify/eslint-plugin-proper-ternary', 27, 'ESLint rules to ensure proper usage of ternary/conditional expressions', 5, 88, ['getify','kaykayehnn']),
+(277057483, 2648, 667716, 'apparition47/MailTrackerBlocker', 25, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', 10, 995, ['apparition47','danieldickison']),
 (341346826, 2651, 667716, 'jvns/dns-lookup', 28, null, 1, 212, ['jvns']),
 (137308605, 2652, 667716, 'tamino-martinius/node-ts-dedent', 29, 'TypeScript package which smartly trims and strips indentation from multi-line strings', 4, 98, ['tamino-martinius','AviVahl']),
 (269174002, 2653, 46828701, 'counterpoint-studio/artgift', 0, 'An open source web application for booking and managing Art Gifts', 0, 5, ['teropa','samueldiggins']),
