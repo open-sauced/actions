@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-09T22:43:20.217Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T01:02:03.836Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1222,9 +1222,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (47018239, 1214, 27487712, 'DopplerHQ/awesome-interview-questions', 5, ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', 2, 44454, ['MaksimAbramchuk','ryan-blunden']),
 (217796246, 1215, 27487712, 'mudaliaraditya/EpollServer', 6, 'simple epoll server library', 0, 1, ['mudaliaraditya']),
 (36307949, 1216, 27487712, 'sagielevy/C2Py', 7, 'Convert C Structs to Python with ease!', 3, 8, ['sagielevy','sagielightricks']),
+(81021705, 1217, 27487712, 'x0st/snake', 8, 'A console snake written in C++', 0, 21, ['x0st']),
 (23123294, 1218, 27487712, 'angrave/SystemProgramming', 9, 'Angrave''s Crowd-Sourced System Programming Book used at UIUC', 0, 5162, ['angrave']),
 (83875228, 1219, 27487712, 'AndsonYe/MultipartEncoder', 10, 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', 2, 44, ['AndsonYe']),
-(81021705, 1217, 27487712, 'x0st/snake', 8, 'A console snake written in C++', 0, 21, ['x0st']),
 (23202799, 1220, 27487712, 'microsoft/cpprestsdk', 11, 'The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.', 766, 6641, ['stgates','ras0219-msft']),
 (33157169, 1221, 27487712, 'libcpr/cpr', 12, 'C++ Requests: Curl for People, a spiritual port of Python Requests.', 50, 4217, ['whoshuu','COM8']),
 (997856, 1222, 27487712, 'mrtazz/restclient-cpp', 13, 'C++ client for making HTTP/REST requests', 21, 1332, ['mrtazz','lawmaestro']),
@@ -2749,8 +2749,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (21737465, 2763, 2808728, 'sindresorhus/awesome', 12, '😎 Awesome lists about all kinds of interesting topics', 36, 181071, ['sindresorhus','davisonio']),
 (54748620, 2764, 2808728, 'kamranahmedse/githunt', 13, 'Hunt the most starred projects on any date on GitHub', 13, 2193, ['kamranahmedse','tarungarg546']),
 (9820094, 2765, 2808728, 'ProLoser/Github-Omnibox', 14, 'Github Commands from Google Chrome Omnibox (address bar)', 25, 291, ['rodyhaddad','ProLoser']),
-(118065892, 2766, 2808728, 'davchoo/RocketDogs-6718-Robot-Code', 15, 'Code for the robot built by 6718', 0, 1, ['davchoo']),
-(62971169, 2767, 2808728, 'heroku/heroku-accounts', 16, 'Helps use multiple accounts on Heroku.', 19, 521, ['ddollar','jdxcode']),
 (1039520, 2768, 2808728, 'ytdl-org/youtube-dl', 17, 'Command-line program to download videos from YouTube.com and other video sites', 4973, 103987, ['dstftw','phihag']),
 (95114338, 2769, 2808728, 'github/accessibilityjs', 18, 'Client side accessibility error scanner.', 5, 2190, ['muan','mislav']),
 (2561582, 2770, 2808728, 'animate-css/animate.css', 19, '🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.', 28, 73132, ['daneden','eltonmesquita']),
@@ -3681,6 +3679,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (79162682, 3683, 55907631, 'laurent22/joplin', 1, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 390, 27240, ['laurent22','tessus']),
 (183454144, 3684, 55907631, 'pransh15/moz-starter-pack', 2, 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', 3, 17, ['pransh15','pranitb10']),
 (215390876, 3685, 55907631, 'malgamves/CommunityWriterPrograms', 3, 'A list of Developer Community Writer Programs', 15, 1515, ['malgamves','karllhughes']),
+(118065892, 2766, 2808728, 'davchoo/RocketDogs-6718-Robot-Code', 15, 'Code for the robot built by 6718', 0, 1, ['davchoo']),
+(62971169, 2767, 2808728, 'heroku/heroku-accounts', 16, 'Helps use multiple accounts on Heroku.', 19, 521, ['ddollar','jdxcode']),
 (441646385, 3686, 55907631, 'cod-ed/simulate', 4, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', 0, 0, ['yashlamba','akshansh2000']),
 (512295, 3885, 622115, 'grails/grails-core', 20, 'The Grails Web Application Framework', 224, 2636, ['graemerocher','jeffbrown']),
 (143329936, 3687, 55907631, 'aikho/awesome-feature-engineering', 5, 'A curated list of resources dedicated to Feature Engineering Techniques for Machine Learning', 0, 495, ['aikho','turtlemonvh']),
