@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T20:43:26.247Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T22:43:22.742Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -555,8 +555,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (22781617, 'cclauss/Ten-lines-or-less', 451, 0, 'Python scripts that are short but useful or interesting', ['cclauss'], 1, 0, 0),
 (22790488, 'iluwatar/java-design-patterns', 72008, 264, 'Design patterns implemented in Java', ['iluwatar','npathai'], 1, 2, 0),
 (22858482, 'fonttools/region-flags', 159, 16, 'Collection of flags for BCP 47 region codes in SVG / PNG', ['behdad','behnam'], 1, 16, 0),
-(22887094, 'tesseract-ocr/tesseract', 43251, 346, 'Tesseract Open Source OCR Engine (main repository)', ['stweil','zdenop'], 1, 11, 0),
 (22895156, 'StartBootstrap/startbootstrap-agency', 1811, 1, 'A one page HTML theme for agencies created by Start Bootstrap', ['davidtmiller','initplatform'], 1, 2, 0),
+(22887094, 'tesseract-ocr/tesseract', 43251, 346, 'Tesseract Open Source OCR Engine (main repository)', ['stweil','zdenop'], 1, 11, 0),
 (23024191, 'neu-rah/ArduinoMenu', 625, 71, 'Arduino generic menu/interactivity system', ['neu-rah','TamojitSaha'], 1, 7, 0),
 (23083156, 'mui-org/material-ui', 73874, 909, 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ['oliviertassinari','dmtrKovalenko'], 1, 26, 0),
 (23096959, 'golang/go', 93649, 7473, 'The Go programming language', ['rsc','griesemer'], 4, 14, 2),
@@ -2673,8 +2673,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (278335273, 'anuraghazra/github-readme-stats', 35234, 234, ':zap: Dynamically generated stats for your github readmes', ['anuraghazra','qwerty541'], 3, 13.666666666666666, 0),
 (278342702, 'jmkitavi/interview-questions', 35, 0, 'Collections of Interview Questions from different Companies', ['jmkitavi'], 1, 7, 0),
 (278388013, 'shadowruge/mega_sena', 1, 0, 'Gerador de números da Mega-Sena aleatório(não é previsão)', ['shadowruge'], 1, 16, 0),
-(278451816, 'mgroves/couchbasefakeit', 1, 0, 'Docker scripts for a base Couchbase Server image for testing/development, with support for fakeit for data generation', ['brantburnett','clupo'], 1, 21, 0),
-(278454783, 'Virtual-Coffee/open-source', 18, 4, 'A safe, welcoming space for developers to learn good practice for collaboration and try their hand at making contributions to OSS. Maintained by the Virtual Coffee Slack group.', ['tkshill','BekahHW'], 1, 25, 0),
 (278455556, 'bkegley/dotfiles', 13, 2, null, ['bkegley'], 1, 5, 0),
 (278641419, 'madd86/awesome-system-design', 5016, 2, 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', ['madd86','KashMoneyMillionaire'], 1, 20, 0),
 (279002648, 'elangosundar/awesome-README-templates', 607, 22, 'A collection of awesome readme templates to display on your github profile.', ['elangosundar','AVS1508'], 1, 7, 0),
@@ -2750,6 +2748,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (289256448, 'themesberg/volt-bootstrap-5-dashboard', 2261, 18, 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ['zoltanszogyenyi','robert1508'], 1, 22, 0),
 (289278036, 'leooverlord/ConsoleAppSamples', 1, 0, 'Repositório com exemplos.', ['leooverlord'], 1, 2, 0),
+(278451816, 'mgroves/couchbasefakeit', 1, 0, 'Docker scripts for a base Couchbase Server image for testing/development, with support for fakeit for data generation', ['brantburnett','clupo'], 1, 21, 0),
+(278454783, 'Virtual-Coffee/open-source', 18, 4, 'A safe, welcoming space for developers to learn good practice for collaboration and try their hand at making contributions to OSS. Maintained by the Virtual Coffee Slack group.', ['tkshill','BekahHW'], 1, 25, 0),
 (289516607, 'khang-nd/khang-nd.github.io', 27, 0, '📝 My window-styled portfolio', ['khang-nd'], 1, 7, 0),
 (289523918, 'ryo-ma/github-profile-trophy', 1940, 17, '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', ['ryo-ma','spenserblack'], 2, 25, 0),
 (289810394, 'elewin/pi-weather-station', 140, 7, null, ['elewin'], 1, 14, 0),

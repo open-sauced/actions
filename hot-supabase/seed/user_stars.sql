@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T20:43:26.137Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T22:43:22.495Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2119,7 +2119,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (119757731, 2099, 5842360, '7Geese/eslint-config-7geese', 4, 'An eslint config to enforce JavaScript coding style at 7Geese.', 3, 2, ['himynameisdave','laytong']),
 (320142424, 2100, 5842360, 'rern/rAudio-1', 5, 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', 1, 92, ['rern']),
 (1056938, 2101, 5842360, 'mrdavidlaing/javascript-koans', 6, 'Koans to learn Javascript', 68, 2246, ['mrdavidlaing','choskim']),
-(15062869, 2102, 5842360, 'facebook/jest', 7, 'Delightful JavaScript Testing.', 1686, 37454, ['SimenB','cpojer']),
 (256725670, 2103, 5842360, 'bansal-io/pattern.css', 8, 'CSS only library to fill empty background with beautiful patterns.', 18, 3482, ['bansal-io']),
 (80179717, 2104, 5842360, 'alexlafroscia/alfred-switch-audio-source', 9, 'Alfred workflow to switch audio device', 1, 61, ['alexlafroscia','nodeselector']),
 (88760614, 2105, 5842360, 'automerge/automerge', 10, 'A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.', 69, 11838, ['ept','orionz']),
@@ -2140,6 +2139,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (41589399, 2120, 72279316, 'gilbox/react-track', 13, 'Track the position of DOM elements. Create cool animations.', 3, 337, ['gilbox','andreypopp']),
 (50063599, 2121, 72279316, 'mcdallas/wallstreet', 14, 'Real time stock and option data.', 15, 732, ['mcdallas','sorying']),
 (13030144, 2122, 72279316, 'janpaepke/ScrollMagic', 15, 'The javascript library for magical scroll interactions.', 504, 13528, ['janpaepke','johnpolacek']),
+(15062869, 2102, 5842360, 'facebook/jest', 7, 'Delightful JavaScript Testing.', 1686, 37454, ['SimenB','cpojer']),
 (240795158, 2123, 72279316, 'KSJaay/Alita', 16, 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', 0, 80, ['KSJaay','PegosStelios']),
 (384873391, 2124, 72279316, 'developer-student-club-thapar/GSoC-Proposals-Archive', 17, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', 1, 42, ['specter25','Saurav-Shrivastav']),
 (230963289, 2125, 72279316, 'Paol-imi/muuri-react', 18, 'The layout engine for React', 25, 227, ['Paol-imi','In-dev-paolo']),
@@ -2609,6 +2609,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (399619886, 2589, 38725511, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic']),
 (368311388, 2590, 38725511, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal']),
 (345219371, 2591, 38725511, 'lukexyz/lightweight', 3, 'algorithmic booty maximiser 💪🎯💪 ', 0, 19, ['lukexyz']),
+(172562475, 2592, 38725511, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
 (357272600, 2593, 13490604, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5211, ['ts-thomas','kodie']),
 (44882201, 2594, 13490604, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 51, 37303, ['MunGell','JefMari']),
 (230595891, 2595, 13490604, 'launchbadge/sqlx', 2, '🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, SQLite, and MSSQL.', 332, 5069, ['mehcode','abonander']),
@@ -2778,7 +2779,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (88243408, 2793, 25194960, 'powerman/wcwidth-icons', 12, 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', 0, 33, ['powerman']),
 (400669165, 2794, 28281924, 'Laribene/MachineLearning', 0, 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', 0, 1, ['Laribene']),
 (93928882, 2795, 28281924, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 106, 5203, ['easonlin404','ubogdan']),
-(172562475, 2592, 38725511, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
 (175425051, 2796, 28281924, 'kumahq/kuma', 2, '🐻 The Universal Service Mesh. CNCF Sandbox Project.', 359, 2523, ['yskopets','jakubdyszkiewicz']),
 (372718382, 2797, 28281924, 'ebosas/microservices', 3, 'A microservices example in Go', 0, 256, ['ebosas']),
 (263445417, 2798, 28281924, 'rmanguinho/clean-react', 4, 'Sistema em ReactJs usando Hooks, Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles', 1, 700, ['rmanguinho']),
@@ -4282,9 +4282,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (310766137, 354119247, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo']),
 (148236762, 382194702, 7860023, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas']),
 (82836080, 436289040, 61815862, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 450, ['matthewtoast','stristr']),
-(71823870, 435647165, 23166349, 'prometheus-operator/kube-prometheus', 0, 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', 151, 3750, ['brancz','paulfantom']),
 (14370955, 435800079, 16268467, 'sahat/hackathon-starter', 0, 'A boilerplate for Node.js web applications', 48, 32521, ['sahat','YasharF']),
 (17620347, 434506268, 45293863, 'dotnet/aspnetcore', 0, 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', 2234, 27158, ['pranavkm','aspnetci']),
+(71823870, 435647165, 23166349, 'prometheus-operator/kube-prometheus', 0, 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', 151, 3750, ['brancz','paulfantom']),
 (383194995, 422332797, 4066445, 'kclejeune/TMobile-ISP-Client', 0, 'mobile friendly, self hosted status dashboard for T-Mobile ISP routers', 7, 23, ['kclejeune','bryanbartow']),
 (225602090, 426377012, 43814157, 'farbenmeer/react-spring-slider', 0, 'A slider component for react', 13, 161, ['mstruebing','Tobi-mmt']),
 (412480152, 425311105, 57008950, 'pyGuru123/HackFest21', 12, 'Only valid pull requests will be allowed. Use python only and readme changes will not be accepted.', 22, 56, ['pyGuru123','alphasingh']),
