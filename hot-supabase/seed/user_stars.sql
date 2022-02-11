@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T18:45:06.096Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T20:43:26.137Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2609,7 +2609,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (399619886, 2589, 38725511, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic']),
 (368311388, 2590, 38725511, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal']),
 (345219371, 2591, 38725511, 'lukexyz/lightweight', 3, 'algorithmic booty maximiser 💪🎯💪 ', 0, 19, ['lukexyz']),
-(172562475, 2592, 38725511, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
 (357272600, 2593, 13490604, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5211, ['ts-thomas','kodie']),
 (44882201, 2594, 13490604, 'MunGell/awesome-for-beginners', 1, 'A list of awesome beginners-friendly projects.', 51, 37303, ['MunGell','JefMari']),
 (230595891, 2595, 13490604, 'launchbadge/sqlx', 2, '🧰 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, SQLite, and MSSQL.', 332, 5069, ['mehcode','abonander']),
@@ -2779,6 +2778,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (88243408, 2793, 25194960, 'powerman/wcwidth-icons', 12, 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', 0, 33, ['powerman']),
 (400669165, 2794, 28281924, 'Laribene/MachineLearning', 0, 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', 0, 1, ['Laribene']),
 (93928882, 2795, 28281924, 'swaggo/swag', 1, 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', 106, 5203, ['easonlin404','ubogdan']),
+(172562475, 2592, 38725511, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
 (175425051, 2796, 28281924, 'kumahq/kuma', 2, '🐻 The Universal Service Mesh. CNCF Sandbox Project.', 359, 2523, ['yskopets','jakubdyszkiewicz']),
 (372718382, 2797, 28281924, 'ebosas/microservices', 3, 'A microservices example in Go', 0, 256, ['ebosas']),
 (263445417, 2798, 28281924, 'rmanguinho/clean-react', 4, 'Sistema em ReactJs usando Hooks, Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles', 1, 700, ['rmanguinho']),
