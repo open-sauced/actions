@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T04:46:29.209Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T06:46:16.066Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -859,6 +859,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (49767244, 'primefaces/primeng', 7187, 1083, 'The Most Complete Angular UI Component Library', ['cagataycivici','yigitfindikli'], 1, 16, 0),
 (49970642, 'yarnpkg/yarn', 40330, 1967, 'The 1.x line is frozen - features and bugfixes now happen on https://github.com/yarnpkg/berry', ['kittens','bestander'], 1, 17, 0),
 (50063599, 'mcdallas/wallstreet', 732, 15, 'Real time stock and option data.', ['mcdallas','sorying'], 1, 14, 0),
+(50182994, 'googlecodelabs/tools', 2888, 145, 'Codelabs management & hosting tools', ['cassierecher','nicolasgarnier'], 1, 12, 0),
+(50190034, 'futurice/chilipie-kiosk', 1077, 46, 'Easy-to-use Raspberry Pi image for booting directly into full-screen Chrome, with built-in convenience features for unattended operation. Perfect for dashboards and build monitors.', ['jareware','cedricwalter'], 1, 2, 0),
+(50213667, 'text-mask/text-mask', 8106, 301, 'Input mask for React, Angular, Ember, Vue, & plain JavaScript', ['msafi','lozjackson'], 1, 14, 0),
 (50264296, 'jgthms/bulma', 44817, 361, 'Modern CSS framework based on Flexbox', ['jgthms','Wikiki'], 1, 10, 0),
 (50274171, 'vuejs/rollup-plugin-vue', 824, 68, 'Roll .vue files', ['yyx990803','znck'], 1, 6, 0),
 (50365232, 'werf/werf', 2838, 230, 'The CLI tool gluing Git, Docker, Helm, and Kubernetes with any CI system to implement CI/CD and Giterminism', ['distorhead','alexey-igrychev'], 1, 6, 0),
@@ -904,10 +907,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (53432291, 'Orbiter/timesheet', 747, 0, 'Android application for tracking time for different charge numbers', ['ambrice','seawolf'], 1, 24, 0),
 (53498769, 'big-data-europe/docker-hadoop', 1513, 62, 'Apache Hadoop docker image', ['earthquakesan','gmouchakis'], 1, 3, 0),
 (53597382, 'learnbyexample/scripting_course', 983, 0, ':notebook: Books, reference guides and resources on Regular Expressions, CLI one-liners, Scripting Languages and Vim.', ['learnbyexample','gitter-badger'], 1, 28, 0),
-(50182994, 'googlecodelabs/tools', 2888, 145, 'Codelabs management & hosting tools', ['cassierecher','nicolasgarnier'], 1, 12, 0),
-(50190034, 'futurice/chilipie-kiosk', 1077, 46, 'Easy-to-use Raspberry Pi image for booting directly into full-screen Chrome, with built-in convenience features for unattended operation. Perfect for dashboards and build monitors.', ['jareware','cedricwalter'], 1, 2, 0),
 (53631945, 'BurntSushi/ripgrep', 28652, 129, 'ripgrep recursively searches directories for a regex pattern while respecting your gitignore', ['BurntSushi','okdana'], 1, 19, 0),
-(50213667, 'text-mask/text-mask', 8106, 301, 'Input mask for React, Angular, Ember, Vue, & plain JavaScript', ['msafi','lozjackson'], 1, 14, 0),
 (53639099, 'jamiebuilds/the-super-tiny-compiler', 21435, 17, ':snowman: Possibly the smallest compiler ever', ['jamiebuilds','donaldpipowitch'], 1, 2, 0),
 (53698167, 'jonasbn/til', 29, 4, 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', ['jonasbn','Amorymeltzer'], 1, 15, 0),
 (54068301, 'velocityzen/meta-extractor', 36, 3, 'Super simple and fast html page meta data extractor with low memory footprint', ['velocityzen','bevacqua'], 1, 15, 0),
@@ -2952,8 +2952,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (320588096, 'DarkSecDevelopers/LitePhish', 183, 4, 'lite weight phishing tool with graphical panel and 19+ pages', ['graysuit','ImgBotApp'], 1, 0, 0),
 (320609581, 'HeavyBR/adventofcode', 1, 0, 'My solutions for Advent Of Code 2020, all of made with Go Language', ['HeavyBR'], 1, 20, 0),
 (320826343, 'RainerChiang/simpleness', 21, 1, 'hugo theme simpleness', ['RainerChiang','yzwdroid'], 1, 16, 0),
-(321110055, 'TriPSs/nx-extend', 24, 3, 'Nx Workspaces builders and tools', ['TriPSs','chrene'], 1, 14, 0),
 (320945731, 'kyleoneill/CipherPunk', 9, 0, null, ['kyleoneill'], 1, 25, 0),
+(321110055, 'TriPSs/nx-extend', 24, 3, 'Nx Workspaces builders and tools', ['TriPSs','chrene'], 1, 14, 0),
 (321294152, 'singerdmx/flutter-quill', 895, 7, 'Rich text editor for Flutter', ['singerdmx','li3317'], 1, 18, 0),
 (321331966, 'aashrafh/Mozart', 344, 3, 'An optical music recognition (OMR) system. Converts sheet music to a machine-readable version.', ['aashrafh','AhmedMGZ7'], 1, 28, 0),
 (321545207, 'motiondeveloper/create-expression-lib', 15, 1, '🐱‍👤 CLI to create an After Effects expression library in TypeScript', ['timhaywood'], 1, 0, 0),
