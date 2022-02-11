@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-02-11T09:30:57.153Z",
+  "lastExecuted": "2022-02-11T11:42:59.705Z",
   "checked": {
     "bmilagre": {
       "owner": "bmilagre",
@@ -1429,7 +1429,7 @@
     "CyberFlameGO": {
       "owner": "CyberFlameGO",
       "notFound": false,
-      "lastExecuted": "2022-02-10T23:35:29.262Z"
+      "lastExecuted": "2022-02-11T11:42:59.705Z"
     },
     "meta93": {
       "owner": "meta93",
@@ -1469,7 +1469,7 @@
     "ashwth": {
       "owner": "ashwth",
       "notFound": false,
-      "lastExecuted": "2022-02-10T23:35:29.262Z"
+      "lastExecuted": "2022-02-11T11:42:59.705Z"
     },
     "Pandademic": {
       "owner": "Pandademic",
@@ -1479,7 +1479,7 @@
     "jochemste": {
       "owner": "jochemste",
       "notFound": true,
-      "lastExecuted": "2022-02-10T23:35:29.262Z"
+      "lastExecuted": "2022-02-11T11:42:59.705Z"
     }
   }
 }
