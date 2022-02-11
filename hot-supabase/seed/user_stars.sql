@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T10:43:21.666Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T12:48:59.027Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2618,9 +2618,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (35017238, 2598, 13490604, 'hackmdio/codimd', 5, 'CodiMD - Realtime collaborative markdown notes on all platforms.', 295, 7598, ['jackycute','SISheogorath']),
 (71359796, 2599, 13490604, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (351298555, 2600, 13490604, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3339, ['tnylea','bobbyiliev']),
-(37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
 (141514439, 2602, 13490604, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 13, 544, ['chshersh','sdiehl']),
 (36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
+(37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
 (175219507, 2604, 13490604, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 1, 122, ['chimay']),
 (121921584, 2760, 2808728, 'swapagarwal/swag-for-dev', 9, '😎 swag opportunities for developers', 86, 3910, ['aslafy-z','swapagarwal']),
 (21791844, 2605, 13490604, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 13, 2619, ['krispo','alessandroleite']),
