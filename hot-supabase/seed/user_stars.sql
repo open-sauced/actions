@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T12:48:59.027Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T14:43:39.479Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -182,8 +182,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (157245200, 175, 50591491, 'twpayne/chezmoi', 8, 'Manage your dotfiles across multiple diverse machines, securely.', 21, 5678, ['twpayne','zb140']),
 (131770422, 176, 50591491, 'neoclide/coc.nvim', 9, 'Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.', 37, 18326, ['chemzqm','fannheyward']),
 (12732573, 177, 50591491, 'junegunn/vim-plug', 10, ':hibiscus: Minimalist Vim Plugin Manager', 88, 25803, ['junegunn','starcraftman']),
-(221512407, 178, 50591491, 'neovim/nvim-lspconfig', 11, 'Quickstart configurations for the Nvim LSP client', 20, 3471, ['mjlbach','h-michael']),
 (237805954, 179, 50591491, 'Shpota/goxygen', 12, 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', 8, 2319, ['Shpota','shpotainna']),
+(221512407, 178, 50591491, 'neovim/nvim-lspconfig', 11, 'Quickstart configurations for the Nvim LSP client', 20, 3471, ['mjlbach','h-michael']),
 (405641780, 180, 50591491, 'd3r1n/dotman', 13, 'better manager for your dotfiles.', 0, 73, ['d3r1n']),
 (426671225, 181, 50591491, 'bmorrisondev/go-notion', 14, null, 0, 1, ['bmorrisondev']),
 (422821402, 182, 50591491, 'MangoDB-io/MangoDB', 15, 'A truly Open Source MongoDB alternative', 61, 3808, ['AlekSi','OpenSauce']),
@@ -2618,9 +2618,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (35017238, 2598, 13490604, 'hackmdio/codimd', 5, 'CodiMD - Realtime collaborative markdown notes on all platforms.', 295, 7598, ['jackycute','SISheogorath']),
 (71359796, 2599, 13490604, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (351298555, 2600, 13490604, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3339, ['tnylea','bobbyiliev']),
+(37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
 (141514439, 2602, 13490604, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 13, 544, ['chshersh','sdiehl']),
 (36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
-(37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
 (175219507, 2604, 13490604, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 1, 122, ['chimay']),
 (121921584, 2760, 2808728, 'swapagarwal/swag-for-dev', 9, '😎 swag opportunities for developers', 86, 3910, ['aslafy-z','swapagarwal']),
 (21791844, 2605, 13490604, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 13, 2619, ['krispo','alessandroleite']),
