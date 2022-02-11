@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T14:43:39.479Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T16:47:29.391Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -182,8 +182,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (157245200, 175, 50591491, 'twpayne/chezmoi', 8, 'Manage your dotfiles across multiple diverse machines, securely.', 21, 5678, ['twpayne','zb140']),
 (131770422, 176, 50591491, 'neoclide/coc.nvim', 9, 'Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.', 37, 18326, ['chemzqm','fannheyward']),
 (12732573, 177, 50591491, 'junegunn/vim-plug', 10, ':hibiscus: Minimalist Vim Plugin Manager', 88, 25803, ['junegunn','starcraftman']),
-(237805954, 179, 50591491, 'Shpota/goxygen', 12, 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', 8, 2319, ['Shpota','shpotainna']),
 (221512407, 178, 50591491, 'neovim/nvim-lspconfig', 11, 'Quickstart configurations for the Nvim LSP client', 20, 3471, ['mjlbach','h-michael']),
+(237805954, 179, 50591491, 'Shpota/goxygen', 12, 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', 8, 2319, ['Shpota','shpotainna']),
 (405641780, 180, 50591491, 'd3r1n/dotman', 13, 'better manager for your dotfiles.', 0, 73, ['d3r1n']),
 (426671225, 181, 50591491, 'bmorrisondev/go-notion', 14, null, 0, 1, ['bmorrisondev']),
 (422821402, 182, 50591491, 'MangoDB-io/MangoDB', 15, 'A truly Open Source MongoDB alternative', 61, 3808, ['AlekSi','OpenSauce']),
