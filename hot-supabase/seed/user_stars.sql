@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T01:02:06.030Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T02:47:53.192Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -583,6 +583,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (205593063, 577, 4910518, 'tmc/dlp', 0, 'DLP (data loss prevention) tools.', 6, 2, ['tmc','snyk-bot']),
 (413929478, 578, 4910518, 'zkoppert/advanced-security-enforcer', 1, 'A GitHub action for organizations that enables advanced security code scanning on all new repos', 1, 21, ['zkoppert','lindluni']),
 (406390419, 579, 4910518, 'NickLiffen/GCSMTTR', 2, 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', 0, 5, ['NickLiffen']),
+(394663818, 580, 4910518, 'NickLiffen/ghas-enablement', 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', 3, 20, ['NickLiffen','LamarrD']),
+(153500249, 581, 4910518, 'sdras/awesome-actions', 4, 'A curated list of awesome actions to use on GitHub', 85, 16972, ['gep13','sdras']),
+(114484885, 582, 4910518, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald']),
 (325571244, 583, 26007940, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 30, ['fanaticscripter','actions-user']),
 (421781906, 584, 26007940, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah']),
 (135786093, 585, 26007940, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 5, 30556, ['sw-yx','eps1lon']),
@@ -853,10 +856,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (83821669, 849, 44642314, 'Qiskit/qiskit-terra', 2, 'Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and algorithms.', 706, 3179, ['mtreinish','jaygambetta']),
 (129936360, 850, 44642314, 'PennyLaneAI/pennylane', 3, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', 140, 1114, ['josh146','co9olguy']),
 (201403923, 851, 44642314, 'activeloopai/Hub', 4, 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', 69, 4084, ['AbhinavTuli','nollied']),
-(394663818, 580, 4910518, 'NickLiffen/ghas-enablement', 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', 3, 20, ['NickLiffen','LamarrD']),
-(153500249, 581, 4910518, 'sdras/awesome-actions', 4, 'A curated list of awesome actions to use on GitHub', 85, 16972, ['gep13','sdras']),
 (360655524, 852, 44642314, 'education/GitHubGraduation-2021', 5, 'Join the GitHub Graduation Yearbook and ''walk the stage'' on June 5.', 1345, 1404, ['juanpflores','elisemoe']),
-(114484885, 582, 4910518, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald']),
 (122299416, 853, 44642314, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 162, 5706, ['toshihikoyanase','hvy']),
 (77369463, 854, 44642314, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8016, ['jlelong','tamuratak']),
 (579842, 855, 44642314, 'matlab2tikz/matlab2tikz', 8, 'This program converts MATLAB®/Octave figures to TikZ/pgfplots figures for smooth integration into LaTeX.', 234, 1167, ['egeerardyn','nschloe']),
