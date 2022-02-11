@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T22:43:19.458Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T01:02:06.030Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -583,9 +583,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (205593063, 577, 4910518, 'tmc/dlp', 0, 'DLP (data loss prevention) tools.', 6, 2, ['tmc','snyk-bot']),
 (413929478, 578, 4910518, 'zkoppert/advanced-security-enforcer', 1, 'A GitHub action for organizations that enables advanced security code scanning on all new repos', 1, 21, ['zkoppert','lindluni']),
 (406390419, 579, 4910518, 'NickLiffen/GCSMTTR', 2, 'GitHub Code Scanning Mean Time to Remediate (GCSMTTR)', 0, 5, ['NickLiffen']),
-(394663818, 580, 4910518, 'NickLiffen/ghas-enablement', 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', 3, 20, ['NickLiffen','LamarrD']),
-(153500249, 581, 4910518, 'sdras/awesome-actions', 4, 'A curated list of awesome actions to use on GitHub', 85, 16972, ['gep13','sdras']),
-(114484885, 582, 4910518, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald']),
 (325571244, 583, 26007940, 'fanaticscripter/EggContractor', 0, 'Egg, Inc. contract monitoring web app & CLI client', 1, 30, ['fanaticscripter','actions-user']),
 (421781906, 584, 26007940, 'alanmynah/node-scrimba-stream', 1, 'Code to go along with Scrimba''s Node stream', 0, 3, ['alanmynah']),
 (135786093, 585, 26007940, 'typescript-cheatsheets/react', 2, 'Cheatsheets for experienced React developers getting started with TypeScript', 5, 30556, ['sw-yx','eps1lon']),
@@ -856,7 +853,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (83821669, 849, 44642314, 'Qiskit/qiskit-terra', 2, 'Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and algorithms.', 706, 3179, ['mtreinish','jaygambetta']),
 (129936360, 850, 44642314, 'PennyLaneAI/pennylane', 3, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', 140, 1114, ['josh146','co9olguy']),
 (201403923, 851, 44642314, 'activeloopai/Hub', 4, 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', 69, 4084, ['AbhinavTuli','nollied']),
+(394663818, 580, 4910518, 'NickLiffen/ghas-enablement', 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', 3, 20, ['NickLiffen','LamarrD']),
+(153500249, 581, 4910518, 'sdras/awesome-actions', 4, 'A curated list of awesome actions to use on GitHub', 85, 16972, ['gep13','sdras']),
 (360655524, 852, 44642314, 'education/GitHubGraduation-2021', 5, 'Join the GitHub Graduation Yearbook and ''walk the stage'' on June 5.', 1345, 1404, ['juanpflores','elisemoe']),
+(114484885, 582, 4910518, 'trectenwald/omnigraffle-aws', 5, 'Omnigraffle stencils using AWS Simple Icons.', 0, 59, ['trectenwald']),
 (122299416, 853, 44642314, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 162, 5706, ['toshihikoyanase','hvy']),
 (77369463, 854, 44642314, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8016, ['jlelong','tamuratak']),
 (579842, 855, 44642314, 'matlab2tikz/matlab2tikz', 8, 'This program converts MATLAB®/Octave figures to TikZ/pgfplots figures for smooth integration into LaTeX.', 234, 1167, ['egeerardyn','nschloe']),
@@ -2619,8 +2619,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71359796, 2599, 13490604, 'open-sauced/open-sauced', 6, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (351298555, 2600, 13490604, 'thedevdojo/wave', 7, 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', 5, 3339, ['tnylea','bobbyiliev']),
 (37726036, 2601, 13490604, 'rudymatela/fitspec', 8, 'refine properties for testing Haskell programs', 0, 69, ['rudymatela','JonasDuregard']),
-(36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
 (141514439, 2602, 13490604, 'kowainik/relude', 9, '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', 13, 544, ['chshersh','sdiehl']),
+(36021747, 2603, 13490604, 'harc/ohm', 10, 'A library and language for building parsers, interpreters, compilers, etc.', 32, 3943, ['pdubroy','alexwarth']),
 (175219507, 2604, 13490604, 'chimay/wheel', 11, 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', 1, 122, ['chimay']),
 (121921584, 2760, 2808728, 'swapagarwal/swag-for-dev', 9, '😎 swag opportunities for developers', 86, 3910, ['aslafy-z','swapagarwal']),
 (21791844, 2605, 13490604, 'krispo/awesome-haskell', 12, 'A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.', 13, 2619, ['krispo','alessandroleite']),
@@ -3229,8 +3229,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (146790989, 3231, 3754311, 'jgettings/food-planner', 24, 'Simple single-page app for planning meals and shopping lists', 28, 2, ['jgettings']),
 (207645083, 3232, 3754311, 'tannerlinsley/react-query', 25, '⚛️ Hooks for fetching, caching and updating asynchronous data in React', 33, 24542, ['tannerlinsley','boschni']),
 (123426934, 3233, 3754311, 'videolan/vlc-android', 26, '  VLC for Android, Android TV and ChromeOS', 3, 1346, ['GeoffreyMetais','jbkempf']),
-(133681780, 3235, 3754311, 'shalvah/DownloadThisVideo', 28, 'Twitter bot for easily downloading videos/GIFs off tweets', 3, 585, ['shalvah','notpushkin']),
 (19319131, 3234, 3754311, 'mrmaffen/vlc-android-sdk', 27, 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', 77, 792, ['mrmaffen','xhochy']),
+(133681780, 3235, 3754311, 'shalvah/DownloadThisVideo', 28, 'Twitter bot for easily downloading videos/GIFs off tweets', 3, 585, ['shalvah','notpushkin']),
 (132750724, 3236, 3754311, 'danistefanovic/build-your-own-x', 29, '🤓 Build your own (insert technology here)', 207, 126006, ['danistefanovic','bauripalash']),
 (71359796, 3237, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (133134007, 3238, 69519470, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2933, 10698, ['wing328','fehguy']),

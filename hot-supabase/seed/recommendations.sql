@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-10T22:43:19.580Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T01:02:05.856Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -684,7 +684,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (35371954, 'yorkie/rust.js', 143, 4, 'Run your JavaScript apps backed by Rust', ['yorkie'], 1, 26, 0),
 (35451268, 'Khan/tota11y', 4869, 58, 'an accessibility (a11y) visualization toolkit', ['jdan','somewhatabstract'], 1, 0, 0),
 (35483002, 'playsms/book-playsms', 21, 1, 'playSMS Book Project', ['antonraharja'], 1, 19, 0),
+(35561605, 'wongmjane/snake-pong', 7, 0, 'i had too much time on plane so i made this', ['wongmjane','apptivators'], 1, 18, 0),
 (35640229, 'rollup/rollup', 21018, 367, 'Next-generation ES module bundler', ['lukastaegert','Rich-Harris'], 1, 4, 0),
+(35786656, 'fansible/ansible-provisioning-tywin', 68, 1, 'Generate your Ansible provisioning for Symfony2, Laravel and Node.js projects', ['MaximeThoonsen','kosssi'], 1, 20, 0),
 (35866694, 'RocketChat/Rocket.Chat', 31289, 3014, 'The communications platform that puts data protection first.', ['rodrigok','engelgabriel'], 1, 23, 0),
 (35955666, 'jlevy/the-art-of-command-line', 100694, 201, 'Master the command line, in one page', ['jlevy','petk'], 1, 8, 0),
 (35969061, 'google/styleguide', 29805, 291, 'Style guides for Google-originated open-source projects', ['IsaacG','tonyruscoe'], 1, 0, 0),
@@ -693,8 +695,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (36040894, 'gatsbyjs/gatsby', 51964, 376, 'Build blazing fast, modern apps and websites with React', ['KyleAMathews','pieh'], 1, 23, 0),
 (36077404, 'jolibrain/deepdetect', 2306, 91, 'Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE', ['beniz','fantes'], 1, 10, 0),
 (36256540, 'css-modules/css-modules', 15611, 114, 'Documentation about css-modules', ['geelen','markdalgleish'], 2, 10, 0),
-(35786656, 'fansible/ansible-provisioning-tywin', 68, 1, 'Generate your Ansible provisioning for Symfony2, Laravel and Node.js projects', ['MaximeThoonsen','kosssi'], 1, 20, 0),
-(35561605, 'wongmjane/snake-pong', 7, 0, 'i had too much time on plane so i made this', ['wongmjane','apptivators'], 1, 18, 0),
 (36307949, 'sagielevy/C2Py', 8, 3, 'Convert C Structs to Python with ease!', ['sagielevy','sagielightricks'], 1, 7, 0),
 (36323226, 'XAMPPRocky/tokei', 5953, 90, 'Count your code, quickly.', ['XAMPPRocky','NickHackman'], 1, 24, 0),
 (36470617, 'smpallen99/ex_admin', 1189, 135, 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ['smpallen99','romul'], 1, 14, 0),
