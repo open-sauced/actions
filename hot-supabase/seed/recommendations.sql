@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T02:49:34.274Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T04:46:36.572Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1826,8 +1826,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (163827812, 'freeletics/array_enum', 26, 4, 'String to integer mapping for PostgreSQL array columns', ['morgoth','wesleyeewong'], 1, 8, 0),
 (163883279, 'nektos/act', 20036, 72, 'Run your GitHub Actions locally 🚀', ['cplee','catthehacker'], 2, 10.5, 0),
 (164225648, 'David-VTUK/CKA-StudyGuide', 672, 0, 'Study guide for the CKA exam', ['David-VTUK','chipzoller'], 1, 29, 0),
-(164419238, 'bregman-arie/devops-resources', 3787, 6, 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', ['bregman-arie','RishiKumarRay'], 1, 22, 0),
 (164332663, 'DrWaleedAYousef/Teaching', 624, 0, 'Teaching Materials for Dr. Waleed A. Yousef', ['DrWaleedAYousef'], 1, 11, 0),
+(164419238, 'bregman-arie/devops-resources', 3787, 6, 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', ['bregman-arie','RishiKumarRay'], 1, 22, 0),
 (165093478, 'stephane-r/HoloPlay', 91, 9, 'React-Native app using Invidious API for listening Youtube audio source.', ['stephane-r','splyy'], 1, 2, 0),
 (165292266, 'puneetsl/lotion', 1737, 20, 'Unofficial Notion.so app for Linux', ['puneetsl','joshpetit'], 1, 16, 0),
 (165434192, 'dvx/lofi', 673, 41, '🎵🔉 A mini Spotify player with WebGL visualizations.', ['dvx','stamoun'], 1, 7, 0),
@@ -2810,8 +2810,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (299462456, 'davidmfoley/isolate-hooks', 8, 2, 'Isolate and test react hooks', ['davidmfoley'], 1, 15, 0),
 (299482335, 'withfig/autocomplete', 8494, 96, 'Fig adds autocomplete to your terminal.', ['cstrnt','brendanfalk'], 2, 7, 0),
 (299628763, 'Asabeneh/30-Days-Of-React', 8716, 59, '30 Days of  React challenge is a step by step guide to learn React in 30 days. It requires HTML, CSS, and JavaScript knowledge. You should be comfortable with JavaScript before you start to React.  If you are not comfortable with JavaScript check out 30DaysOfJavaScript. This is a continuation of 30 Days Of JS.  This challenge may take more than 100 days, follow your own pace. ', ['Asabeneh','momin-riyadh'], 1, 19, 0),
-(299642657, 'zero-to-mastery/ascii-art', 19, 4, 'A ZTM Challenge for Hacktoberfest 2020', ['ndeoligence','sophiabrandt'], 1, 22, 0),
 (299712981, 'raycast/script-commands', 2903, 9, 'Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.', ['raycastbot','unnamedd'], 1, 6, 0),
+(299642657, 'zero-to-mastery/ascii-art', 19, 4, 'A ZTM Challenge for Hacktoberfest 2020', ['ndeoligence','sophiabrandt'], 1, 22, 0),
 (300077232, 'loopDelicious/sparkles', 5, 0, null, ['loopDelicious'], 1, 23, 0),
 (300506654, 'subeshb1/developer-community-stats', 120, 0, '🚀 A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats', ['subeshb1','msriaz'], 1, 23, 0),
 (300538230, 'praveenscience/Hacktoberfest-Project-Ideas', 308, 102, 'Instead of just adding your name and email, why not create a list of project ideas?', ['praveenscience','PranavViswanathan'], 1, 0, 0),

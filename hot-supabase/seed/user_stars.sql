@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T02:49:34.167Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T04:46:36.766Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3048,8 +3048,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (263721979, 3050, 6935431, 'Build5Nines/azure-kung-fu-dockervm', 14, 'Azure Kung Fu Docker VM', 0, 5, ['deltadan']),
 (212613049, 3051, 6935431, 'cli/cli', 15, 'GitHub’s official command line tool', 410, 26706, ['mislav','vilmibm']),
 (71359796, 3052, 6935431, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
-(342451583, 3054, 6935431, 'pholleran/ghas-pr-notifications', 18, 'A demonstration Probot app that adds visibility to code scanning alerts', 0, 7, ['pholleran','zkoppert']),
 (293923529, 3053, 6935431, 'peter-murray/github-security-report-action', 17, null, 5, 48, ['peter-murray','nateous']),
+(342451583, 3054, 6935431, 'pholleran/ghas-pr-notifications', 18, 'A demonstration Probot app that adds visibility to code scanning alerts', 0, 7, ['pholleran','zkoppert']),
 (52855516, 3055, 6935431, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 148, 10492, ['BrewTestBot','chenrui333']),
 (263468232, 3056, 6935431, 'samber/github-actions-runner', 20, '✅ Docker images for starting self-hosted Github Actions runner(s).', 2, 47, ['samber','kthompson']),
 (290020584, 3057, 6935431, 'dmnemec/copy_file_to_another_repo_action', 21, 'This GitHub Action copies a file from the current repository to a location in another repository', 12, 61, ['dmnemec','sta-szek']),
@@ -3093,7 +3093,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3748229, 3095, 19475228, 'rails-api/rails-api', 25, 'Rails for API only applications', 13, 5206, ['spastorino','steveklabnik']),
 (1927511, 3096, 19475228, 'Sutto/api_smith', 26, 'API Smith makes building structured API clients even simpler.', 5, 216, ['Sutto','pranas']),
 (5575055, 3097, 19475228, 'restforce/restforce', 27, 'A Ruby client for the Salesforce REST API.', 126, 710, ['ejholmes','timrogers']),
-(300538230, 3098, 31478648, 'praveenscience/Hacktoberfest-Project-Ideas', 0, 'Instead of just adding your name and email, why not create a list of project ideas?', 102, 288, ['praveenscience','PranavViswanathan']),
 (396178107, 3099, 31478648, 'abdamah/SpringBoot2SecurityJwt', 1, null, 0, 1, ['abdamah']),
 (384389481, 3100, 31478648, 'jbagaresgaray/ionic-react-coffee-vending-app', 2, 'Ionic React 5, SwiperJS with Capacitor 3.0', 0, 3, ['jbagaresgaray','philipsimpleclick']),
 (388180308, 3101, 31478648, 'naturalnat/symptoms-client', 3, null, 1, 5, ['naturalnat']),
@@ -3250,6 +3249,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (20190634, 3252, 35429278, 'equalsraf/neovim-qt', 13, 'Neovim client library and GUI, in Qt5.', 106, 1286, ['equalsraf','jgehrig']),
 (371872698, 3253, 35429278, 'huibizhang/vitawind', 14, 'Install and Setting Tailwindcss automatically for Vite', 1, 36, ['huibizhang','alesvaupotic']),
 (360475375, 3254, 35429278, 'nextauthjs/react-query', 15, 'React Query wrapper for NextAuth.js session management', 2, 86, ['balazsorban44','ndom91']),
+(300538230, 3098, 31478648, 'praveenscience/Hacktoberfest-Project-Ideas', 0, 'Instead of just adding your name and email, why not create a list of project ideas?', 102, 288, ['praveenscience','PranavViswanathan']),
 (393673673, 3255, 35429278, 'theodorusclarence/ts-nextjs-tailwind-starter', 16, '🔋 Next.js + Tailwind CSS + TypeScript starter packed with useful development features', 1, 171, ['theodorusclarence','raaynaldo']),
 (363558647, 3256, 35429278, 'theodorusclarence/vite-react-tailwind-starter', 17, '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', 0, 22, ['theodorusclarence']),
 (393089347, 3257, 35429278, 'antoniolofiego/Batteries-Included-Next.js', 18, 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', 0, 32, ['antoniolofiego','kriswuollett']),
