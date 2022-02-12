@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T01:02:02.553Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T02:49:34.274Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1826,8 +1826,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (163827812, 'freeletics/array_enum', 26, 4, 'String to integer mapping for PostgreSQL array columns', ['morgoth','wesleyeewong'], 1, 8, 0),
 (163883279, 'nektos/act', 20036, 72, 'Run your GitHub Actions locally 🚀', ['cplee','catthehacker'], 2, 10.5, 0),
 (164225648, 'David-VTUK/CKA-StudyGuide', 672, 0, 'Study guide for the CKA exam', ['David-VTUK','chipzoller'], 1, 29, 0),
-(164332663, 'DrWaleedAYousef/Teaching', 624, 0, 'Teaching Materials for Dr. Waleed A. Yousef', ['DrWaleedAYousef'], 1, 11, 0),
 (164419238, 'bregman-arie/devops-resources', 3787, 6, 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', ['bregman-arie','RishiKumarRay'], 1, 22, 0),
+(164332663, 'DrWaleedAYousef/Teaching', 624, 0, 'Teaching Materials for Dr. Waleed A. Yousef', ['DrWaleedAYousef'], 1, 11, 0),
 (165093478, 'stephane-r/HoloPlay', 91, 9, 'React-Native app using Invidious API for listening Youtube audio source.', ['stephane-r','splyy'], 1, 2, 0),
 (165292266, 'puneetsl/lotion', 1737, 20, 'Unofficial Notion.so app for Linux', ['puneetsl','joshpetit'], 1, 16, 0),
 (165434192, 'dvx/lofi', 673, 41, '🎵🔉 A mini Spotify player with WebGL visualizations.', ['dvx','stamoun'], 1, 7, 0),
@@ -2430,6 +2430,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (248862268, 'GregorBiswanger/rxjs-fruits', 159, 13, 'A game for learning RxJS 🍎🍌', ['GregorBiswanger','hwanders'], 1, 6, 0),
 (249064639, 'znck/vue-developer-experience', 1206, 76, 'A collection of tools for vue ecosystem.', ['znck','cawa-93'], 1, 14, 0),
 (249234386, 'steveseguin/vdo.ninja', 1376, 334, 'VDO.Ninja is a powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.', ['steveseguin','jcalado'], 1, 27, 0),
+(249321051, 'kinbiko/mokku', 39, 10, 'A clipboard-based mocking framework for Go that gets out of your way.', ['kinbiko','cloverrose'], 1, 9, 0),
 (249388299, 'TheJoin95/covid19-market-waiting-times', 95, 15, 'A project to help people stand in line at the market as little as possible', ['TheJoin95','evanBurg'], 1, 28, 0),
 (249535582, 'farhapartex/mickey', 9, 0, 'Mickey is a Django package to create a blog site quickly and easily. Mickey provide severals public REST APIs which can be integrated with frontend which are for such as Category List, Tag List, Post List etc. Mickey also provide a little bit customized Django admin from where user can easily create groups, site information, category, sub category, blog posts and media images.', ['farhapartex'], 1, 28, 0),
 (249563107, 'wouterst79/FluidSharp', 16, 0, 'FluidSharp is a high performance mobile first multi-platform UI layout framework based on Skia.', ['wouterst79','wouterattoptal'], 1, 20, 0),
@@ -2570,7 +2571,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (266856296, 'alexlee-dev/create-cli-application', 5, 6, 'A bootstrapper for creating a cli application with Node.', ['alexlee-dev','MartinRosenberg'], 1, 20, 0),
 (266974036, 'DistributedClocks/shiviz', 41, 64, 'A tool to visualize distributed system logs', ['albertxing','pqperry'], 1, 2, 0),
 (267311267, 'yomaokobiah/email_analysis', 1, 0, 'Email data analysis', ['yomaokobiah'], 1, 14, 0),
-(249321051, 'kinbiko/mokku', 39, 10, 'A clipboard-based mocking framework for Go that gets out of your way.', ['kinbiko','cloverrose'], 1, 9, 0),
 (267374872, 'jpochyla/psst', 6145, 61, 'Fast and multi-platform Spotify client with native GUI', ['jpochyla','martingoe'], 1, 28, 0),
 (267429516, 'concrete-utopia/utopia', 3297, 185, 'Design ❤️ Code', ['Rheeseyb','balazsbajorics'], 2, 13.5, 0),
 (267563398, 'bennycode/trading-signals', 269, 1, 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ['bennycode','nullobject'], 1, 14, 0),

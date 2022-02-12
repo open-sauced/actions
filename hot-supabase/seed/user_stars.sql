@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T01:02:02.332Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T02:49:34.167Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3048,8 +3048,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (263721979, 3050, 6935431, 'Build5Nines/azure-kung-fu-dockervm', 14, 'Azure Kung Fu Docker VM', 0, 5, ['deltadan']),
 (212613049, 3051, 6935431, 'cli/cli', 15, 'GitHub’s official command line tool', 410, 26706, ['mislav','vilmibm']),
 (71359796, 3052, 6935431, 'open-sauced/open-sauced', 16, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
-(293923529, 3053, 6935431, 'peter-murray/github-security-report-action', 17, null, 5, 48, ['peter-murray','nateous']),
 (342451583, 3054, 6935431, 'pholleran/ghas-pr-notifications', 18, 'A demonstration Probot app that adds visibility to code scanning alerts', 0, 7, ['pholleran','zkoppert']),
+(293923529, 3053, 6935431, 'peter-murray/github-security-report-action', 17, null, 5, 48, ['peter-murray','nateous']),
 (52855516, 3055, 6935431, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 148, 10492, ['BrewTestBot','chenrui333']),
 (263468232, 3056, 6935431, 'samber/github-actions-runner', 20, '✅ Docker images for starting self-hosted Github Actions runner(s).', 2, 47, ['samber','kthompson']),
 (290020584, 3057, 6935431, 'dmnemec/copy_file_to_another_repo_action', 21, 'This GitHub Action copies a file from the current repository to a location in another repository', 12, 61, ['dmnemec','sta-szek']),
