@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-11T22:43:22.742Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T01:02:02.553Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -555,8 +555,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (22781617, 'cclauss/Ten-lines-or-less', 451, 0, 'Python scripts that are short but useful or interesting', ['cclauss'], 1, 0, 0),
 (22790488, 'iluwatar/java-design-patterns', 72008, 264, 'Design patterns implemented in Java', ['iluwatar','npathai'], 1, 2, 0),
 (22858482, 'fonttools/region-flags', 159, 16, 'Collection of flags for BCP 47 region codes in SVG / PNG', ['behdad','behnam'], 1, 16, 0),
-(22895156, 'StartBootstrap/startbootstrap-agency', 1811, 1, 'A one page HTML theme for agencies created by Start Bootstrap', ['davidtmiller','initplatform'], 1, 2, 0),
 (22887094, 'tesseract-ocr/tesseract', 43251, 346, 'Tesseract Open Source OCR Engine (main repository)', ['stweil','zdenop'], 1, 11, 0),
+(22895156, 'StartBootstrap/startbootstrap-agency', 1811, 1, 'A one page HTML theme for agencies created by Start Bootstrap', ['davidtmiller','initplatform'], 1, 2, 0),
 (23024191, 'neu-rah/ArduinoMenu', 625, 71, 'Arduino generic menu/interactivity system', ['neu-rah','TamojitSaha'], 1, 7, 0),
 (23083156, 'mui-org/material-ui', 73874, 909, 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ['oliviertassinari','dmtrKovalenko'], 1, 26, 0),
 (23096959, 'golang/go', 93649, 7473, 'The Go programming language', ['rsc','griesemer'], 4, 14, 2),
@@ -852,6 +852,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (49016322, 'angular/components', 22382, 2088, 'Component infrastructure and Material Design components for Angular', ['crisbeto','devversion'], 1, 28, 0),
 (49020217, 'petehunt/react-howto', 11504, 41, 'Your guide to the (sometimes overwhelming!) React ecosystem.', ['petehunt','jurgob'], 1, 28, 0),
 (49372256, 'nuket/google-sheets-geocoding-macro', 265, 1, 'Geocode from addresses to latitude / longitude, and vice versa using Google Sheets', ['nuket','MrCsabaToth'], 1, 21, 0),
+(191529732, 'lydiahallie/javascript-questions', 39905, 69, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ['lydiahallie','Tarabass'], 8, 16.25, 1),
 (49516849, 'xwmx/nb', 3856, 65, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', ['xwmx','heywoodlh'], 1, 15, 0),
 (49668250, 'dear-github/dear-github', 5078, 256, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', ['jamiebuilds','gaearon'], 1, 6, 0),
 (49704723, 'okonet/lint-staged', 9521, 116, '🚫💩 — Run linters on git staged files', ['okonet','iiroj'], 3, 18, 0),
@@ -2019,7 +2020,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (191302278, 'mjackson/rollup-plugin-url-resolve', 125, 5, 'Use URLs in your Rollup imports', ['mreinstein','mjackson'], 1, 10, 0),
 (191414235, 'orbit-love/orbit-model', 758, 4, 'A framework for building high gravity communities 🪐', ['dzello','patrickjwoods'], 4, 15, 0),
 (191445024, 'sastava007/Tech-Interview-Preparation', 462, 14, 'A one stop solution to ace your next coding interview 👨‍💻', ['sastava007','skrishan07'], 2, 15.5, 0),
-(191529732, 'lydiahallie/javascript-questions', 39905, 69, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ['lydiahallie','Tarabass'], 8, 16.25, 0),
 (191531341, 'site-prism/site_prism', 208, 6, null, ['luke-hill','natritmeyer'], 1, 23, 0),
 (191613522, 'BaseMax/CheckReverseString', 8, 0, 'Tiny Program to check the reverse of the string using C/C++.', ['BaseMax'], 1, 6, 0),
 (191759944, 'srevinsaju/guiscrcpy', 1402, 9, 'A full fledged GUI integration for the most award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v', ['srevinsaju','restyled-commits'], 1, 23, 0),
@@ -2430,7 +2430,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (248862268, 'GregorBiswanger/rxjs-fruits', 159, 13, 'A game for learning RxJS 🍎🍌', ['GregorBiswanger','hwanders'], 1, 6, 0),
 (249064639, 'znck/vue-developer-experience', 1206, 76, 'A collection of tools for vue ecosystem.', ['znck','cawa-93'], 1, 14, 0),
 (249234386, 'steveseguin/vdo.ninja', 1376, 334, 'VDO.Ninja is a powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.', ['steveseguin','jcalado'], 1, 27, 0),
-(249321051, 'kinbiko/mokku', 39, 10, 'A clipboard-based mocking framework for Go that gets out of your way.', ['kinbiko','cloverrose'], 1, 9, 0),
 (249388299, 'TheJoin95/covid19-market-waiting-times', 95, 15, 'A project to help people stand in line at the market as little as possible', ['TheJoin95','evanBurg'], 1, 28, 0),
 (249535582, 'farhapartex/mickey', 9, 0, 'Mickey is a Django package to create a blog site quickly and easily. Mickey provide severals public REST APIs which can be integrated with frontend which are for such as Category List, Tag List, Post List etc. Mickey also provide a little bit customized Django admin from where user can easily create groups, site information, category, sub category, blog posts and media images.', ['farhapartex'], 1, 28, 0),
 (249563107, 'wouterst79/FluidSharp', 16, 0, 'FluidSharp is a high performance mobile first multi-platform UI layout framework based on Skia.', ['wouterst79','wouterattoptal'], 1, 20, 0),
@@ -2571,6 +2570,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (266856296, 'alexlee-dev/create-cli-application', 5, 6, 'A bootstrapper for creating a cli application with Node.', ['alexlee-dev','MartinRosenberg'], 1, 20, 0),
 (266974036, 'DistributedClocks/shiviz', 41, 64, 'A tool to visualize distributed system logs', ['albertxing','pqperry'], 1, 2, 0),
 (267311267, 'yomaokobiah/email_analysis', 1, 0, 'Email data analysis', ['yomaokobiah'], 1, 14, 0),
+(249321051, 'kinbiko/mokku', 39, 10, 'A clipboard-based mocking framework for Go that gets out of your way.', ['kinbiko','cloverrose'], 1, 9, 0),
 (267374872, 'jpochyla/psst', 6145, 61, 'Fast and multi-platform Spotify client with native GUI', ['jpochyla','martingoe'], 1, 28, 0),
 (267429516, 'concrete-utopia/utopia', 3297, 185, 'Design ❤️ Code', ['Rheeseyb','balazsbajorics'], 2, 13.5, 0),
 (267563398, 'bennycode/trading-signals', 269, 1, 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ['bennycode','nullobject'], 1, 14, 0),
@@ -2673,6 +2673,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (278335273, 'anuraghazra/github-readme-stats', 35234, 234, ':zap: Dynamically generated stats for your github readmes', ['anuraghazra','qwerty541'], 3, 13.666666666666666, 0),
 (278342702, 'jmkitavi/interview-questions', 35, 0, 'Collections of Interview Questions from different Companies', ['jmkitavi'], 1, 7, 0),
 (278388013, 'shadowruge/mega_sena', 1, 0, 'Gerador de números da Mega-Sena aleatório(não é previsão)', ['shadowruge'], 1, 16, 0),
+(278451816, 'mgroves/couchbasefakeit', 1, 0, 'Docker scripts for a base Couchbase Server image for testing/development, with support for fakeit for data generation', ['brantburnett','clupo'], 1, 21, 0),
+(278454783, 'Virtual-Coffee/open-source', 18, 4, 'A safe, welcoming space for developers to learn good practice for collaboration and try their hand at making contributions to OSS. Maintained by the Virtual Coffee Slack group.', ['tkshill','BekahHW'], 1, 25, 0),
 (278455556, 'bkegley/dotfiles', 13, 2, null, ['bkegley'], 1, 5, 0),
 (278641419, 'madd86/awesome-system-design', 5016, 2, 'A curated list of awesome System Design (A.K.A. Distributed Systems) resources. ', ['madd86','KashMoneyMillionaire'], 1, 20, 0),
 (279002648, 'elangosundar/awesome-README-templates', 607, 22, 'A collection of awesome readme templates to display on your github profile.', ['elangosundar','AVS1508'], 1, 7, 0),
@@ -2748,8 +2750,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (289256448, 'themesberg/volt-bootstrap-5-dashboard', 2261, 18, 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ['zoltanszogyenyi','robert1508'], 1, 22, 0),
 (289278036, 'leooverlord/ConsoleAppSamples', 1, 0, 'Repositório com exemplos.', ['leooverlord'], 1, 2, 0),
-(278451816, 'mgroves/couchbasefakeit', 1, 0, 'Docker scripts for a base Couchbase Server image for testing/development, with support for fakeit for data generation', ['brantburnett','clupo'], 1, 21, 0),
-(278454783, 'Virtual-Coffee/open-source', 18, 4, 'A safe, welcoming space for developers to learn good practice for collaboration and try their hand at making contributions to OSS. Maintained by the Virtual Coffee Slack group.', ['tkshill','BekahHW'], 1, 25, 0),
 (289516607, 'khang-nd/khang-nd.github.io', 27, 0, '📝 My window-styled portfolio', ['khang-nd'], 1, 7, 0),
 (289523918, 'ryo-ma/github-profile-trophy', 1940, 17, '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', ['ryo-ma','spenserblack'], 2, 25, 0),
 (289810394, 'elewin/pi-weather-station', 140, 7, null, ['elewin'], 1, 14, 0),

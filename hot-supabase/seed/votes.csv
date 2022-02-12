@@ -16,6 +16,7 @@ voteid,created_at,github_user_id,repo_name,vote_code
 19,2022-01-13T07:10:03.331997+00:00,5713670,sveltejs/kit,5713670-sveltejs/kit
 20,2022-01-13T07:10:27.974549+00:00,5713670,vitejs/vite,5713670-vitejs/vite
 111,2022-02-09T22:23:32.517646+00:00,5713670,go-gorm/gorm,5713670-go-gorm/gorm
+112,2022-02-11T23:57:26.159044+00:00,5713670,lydiahallie/javascript-questions,5713670-lydiahallie/javascript-questions
 29,2022-01-13T07:16:03.364504+00:00,5713670,DopplerHQ/awesome-interview-questions,5713670-DopplerHQ/awesome-interview-questions
 32,2022-01-13T07:24:12.987961+00:00,5713670,typescript-cheatsheets/react,5713670-typescript-cheatsheets/react
 35,2022-01-13T07:25:07.695147+00:00,5713670,vuejs/vue,5713670-vuejs/vue
