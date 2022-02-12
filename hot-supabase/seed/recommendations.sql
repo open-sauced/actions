@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T12:48:40.768Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T14:43:47.561Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -959,6 +959,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (59148646, 'dracula/visual-studio-code', 560, 28, '🧛🏻‍♂️ Dark theme for Visual Studio Code', ['dsifford','zenorocha'], 1, 4, 0),
 (59152795, 'dracula/atom', 61, 3, '🧛🏻‍♂️ Dark theme for Atom', ['rr-jimmy-multani','zenorocha'], 1, 29, 0),
 (59239347, 'portainer/portainer', 20485, 834, 'Making Docker and Kubernetes management easy.', ['deviantony','chiptus'], 1, 15, 0),
+(120538304, 'kelseyhightower/nocode', 50812, 4088, 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ['kelseyhightower'], 2, 14, 1),
 (59522149, 'gruntwork-io/terragrunt', 5465, 353, 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ['brikis98','yorinasub17'], 1, 10, 0),
 (59573221, 'sobolevn/awesome-cryptography', 3485, 16, 'A curated list of cryptography resources and links.', ['sobolevn','lk-geimfari'], 1, 23, 0),
 (59669326, 'xoofx/markdig', 2737, 70, 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ['xoofx','MihaZupan'], 1, 28, 0),
@@ -1496,7 +1497,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (119887944, 'wardbradt/peregrine', 849, 8, 'Detects arbitrage opportunities across 131 cryptocurrency exchanges in 50 countries', ['wardbradt','ksun0'], 1, 8, 0),
 (120012609, 'xi/babelacc', 3, 0, 'compare different implementations of the text alternative computation', ['xi'], 1, 23, 0),
 (120149974, 'fonoster/fonoster', 3887, 20, '🚀 The open-source alternative to Twilio', ['psanders','wardner'], 1, 0, 0),
-(120538304, 'kelseyhightower/nocode', 50812, 4088, 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ['kelseyhightower'], 2, 14, 0),
 (120595947, 'hello-rust/show', 292, 38, '🍿 Show notes, code, and future topic ideas for ''Hello Rust!'', a YouTube channel about the Rust programming language.', ['mre','killercup'], 1, 15, 0),
 (120953088, 'pioneerworks/lib-bash', 26, 0, 'BASH utilities shared by several projects.', ['kigster','skyeagle'], 1, 9, 0),
 (120965715, 'octref/polacode', 6509, 67, '📸 Polaroid for your code', ['octref','kufii'], 1, 4, 0),
