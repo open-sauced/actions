@@ -4358,6 +4358,7 @@ star_id,id,user_id,repo_name,recency_score,description,issues,stars,contributors
 428727515,417311106,71297412,HMTEUNIS/react-beats,0,,0,1,"[""WBian618"",""dandesantis14""]"
 51595028,418295712,71458737,OPCFoundation/UA-.NETStandard,0,OPC Unified Architecture .NET Standard,68,1289,"[""mregen"",""barnstee""]"
 414403319,417381369,79887,polarene/micro-template,0,A very tiny and simple text templating library for Kotlin.,0,14,"[""polarene""]"
+29059629,457526756,74566464,KabbAmine/yowish.vim,0,A dark & yellowish vim colorscheme,0,131,"[""KabbAmine"",""Ajnasz""]"
 35969061,418175317,1917293,google/styleguide,0,Style guides for Google-originated open-source projects,291,29805,"[""IsaacG"",""tonyruscoe""]"
 345529420,363282160,4381106,sophiezhng/pomopy,0,"🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.",1,1,"[""sophiezhng""]"
 260751863,360376415,25194960,cyrildiagne/ar-cutpaste,0,Cut and paste your surroundings using AR,44,14214,"[""cyrildiagne"",""xraymemory""]"
