@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T10:43:21.341Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T12:48:40.768Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -751,6 +751,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (40518025, 'graphql/graphiql', 13009, 184, 'GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.', ['wincent','acao'], 2, 9.5, 0),
 (40545736, 'DATA-DOG/DataDogAuditBundle', 120, 23, 'Stores all database changes for doctrine ORM', ['l3pp4rd','chancegarcia'], 1, 25, 0),
 (40687563, 'oppia/oppia', 4364, 1234, 'A free, online learning platform to make quality education accessible for all.', ['seanlip','BenHenning'], 1, 4, 0),
+(40819979, 'frend/frend.co', 638, 16, 'Frend — A collection of accessible, modern front-end components.', ['thomasdigby','adamduncan'], 1, 3, 0),
 (40892817, 'ethereum/solidity', 13816, 939, 'Solidity, the Smart Contract Programming Language', ['chriseth','axic'], 1, 4, 0),
 (40984778, 'discordrb/discordrb', 686, 60, 'Discord API for Ruby', ['meew0','z64'], 1, 23, 0),
 (41029539, 'alpha-miner/Finance-Python', 303, 7, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', ['wegamekinglc'], 1, 20, 0),
@@ -758,7 +759,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (41440228, 'sanathp/statusok', 1521, 41, 'Monitor your Website and APIs from your Computer. Get Notified through Slack, E-mail when your server is down or response time is more than expected. ', ['sanathp','damarte'], 1, 7, 0),
 (41571541, 'inspec/inspec', 2454, 448, 'InSpec: Auditing and Testing Framework', ['chris-rock','clintoncwolfe'], 1, 15, 0),
 (41589399, 'gilbox/react-track', 337, 3, 'Track the position of DOM elements. Create cool animations.', ['gilbox','andreypopp'], 1, 13, 0),
-(40819979, 'frend/frend.co', 638, 16, 'Frend — A collection of accessible, modern front-end components.', ['thomasdigby','adamduncan'], 1, 3, 0),
 (41592744, 'AllThingsSmitty/css-protips', 20305, 10, 'A collection of tips to help take your CSS skills pro', ['AllThingsSmitty','manolasn'], 1, 19, 0),
 (41638869, 'httpcats/http.cat', 1401, 19, ':cat: HTTP Cats API', ['rogeriopvl','girliemac'], 1, 17, 0),
 (41718185, 'PatrickJS/awesome-angular', 8167, 5, ':page_facing_up: A curated list of awesome Angular resources', ['PatrickJS','rolandjitsu'], 1, 17, 0),

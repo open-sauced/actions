@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T10:43:21.338Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T12:48:40.578Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -369,11 +369,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (16678519, 362, 2339101, 'subuser-security/subuser', 10, 'Run programs on linux with selectively restricted permissions.', 41, 856, ['timthelion','ypid']),
 (7855340, 363, 2339101, 'chjj/blessed', 11, 'A high-level terminal interface library for node.js.', 243, 10287, ['chjj','dbkaplun']),
 (65678789, 364, 2339101, 'FormidableLabs/webpack-dashboard', 12, 'A CLI dashboard for webpack dev server', 32, 13847, ['kenwheeler','ryan-roemer']),
+(27548713, 368, 2339101, 'jenssegers/imagehash', 16, '🌄 Perceptual image hashing for PHP', 29, 1745, ['jenssegers','artyuum']),
 (4137249, 365, 2339101, 'test-kitchen/test-kitchen', 13, 'Test Kitchen is an integration tool for developing and testing infrastructure code and software on isolated target platforms.', 131, 1795, ['fnichol','tas50']),
 (14705691, 366, 2339101, 'ziadoz/awesome-php', 14, 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', 104, 26056, ['ziadoz','josegonzalez']),
-(10655361, 367, 2339101, 'simshaun/recurr', 15, 'PHP library for working with recurrence rules (RRULE); meant to help with recurring calendar events.', 41, 1071, ['simshaun','fentie']),
-(27548713, 368, 2339101, 'jenssegers/imagehash', 16, '🌄 Perceptual image hashing for PHP', 29, 1745, ['jenssegers','artyuum']),
 (39835821, 369, 2339101, 'janephp/openapi', 17, 'DEPRECATED See https://github.com/janephp/janephp', 0, 194, ['joelwurtz','pyrech']),
+(10655361, 367, 2339101, 'simshaun/recurr', 15, 'PHP library for working with recurrence rules (RRULE); meant to help with recurring calendar events.', 41, 1071, ['simshaun','fentie']),
 (56379555, 370, 2339101, 'docteurklein/compose-ci', 18, 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', 2, 22, ['docteurklein']),
 (39654623, 371, 2339101, 'inkatze/wildfly', 19, 'Ansible role for wildfly', 21, 23, ['kostyrev','akostyrev']),
 (35786656, 372, 2339101, 'fansible/ansible-provisioning-tywin', 20, 'Generate your Ansible provisioning for Symfony2, Laravel and Node.js projects', 1, 68, ['MaximeThoonsen','kosssi']),
@@ -2934,8 +2934,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (100781035, 2937, 3941126, 'webview/webview', 12, 'Tiny cross-platform webview library for C/C++/Golang. Uses WebKit (Gtk/Cocoa) and Edge (Windows)', 280, 9249, ['zserge','rajivshah3']),
 (270054, 2938, 3941126, 'ffi/ffi', 13, 'Ruby FFI', 111, 1900, ['larskanis','tduehr']),
 (140947800, 2939, 3941126, 'piotrmurach/tty-box', 14, 'Draw various frames and boxes in your terminal window', 1, 170, ['piotrmurach','DanielVartanov']),
-(312818155, 2940, 3941126, 'abdalrahman-ali/vim-remembers', 15, 'A vim plugin that emulates Notepad++ ''remembering'' the contents of unnamed files.', 1, 21, ['abdalrahman-ali']),
 (132750724, 2941, 3941126, 'danistefanovic/build-your-own-x', 16, '🤓 Build your own (insert technology here)', 207, 126003, ['danistefanovic','bauripalash']),
+(312818155, 2940, 3941126, 'abdalrahman-ali/vim-remembers', 15, 'A vim plugin that emulates Notepad++ ''remembering'' the contents of unnamed files.', 1, 21, ['abdalrahman-ali']),
 (14747598, 2942, 3941126, 'typicode/json-server', 17, 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', 608, 58651, ['typicode','bahmutov']),
 (140805170, 2943, 3941126, 'aravindnc/A-to-Z-List-of-Useful-Node.js-Modules', 18, 'Collection of most awesome node modules that will extend the capability of your node.js application.', 0, 336, ['aravindnc','iasjem']),
 (2206953, 2944, 3941126, 'tj/commander.js', 19, 'node.js command-line interfaces made easy', 12, 21807, ['shadowspawn','tj']),
