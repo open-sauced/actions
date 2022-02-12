@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T20:43:17.107Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T22:43:26.824Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -938,6 +938,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (167304464, 931, 2609511, 'cortexlabs/cortex', 14, 'Production infrastructure for machine learning at scale', 106, 7630, ['deliahu','vishalbollu']),
 (237519983, 932, 2609511, 'nicklanng/plusminus', 15, 'A query builder for https://dgraph.io/', 0, 10, ['nicklanng']),
 (66050533, 933, 2609511, 'fission/fission', 16, 'Fast and Simple Serverless Functions for Kubernetes', 196, 6651, ['soamvasani','life1347']),
+(77512018, 934, 2609511, 'nikhita/tech-conferences-india', 17, 'A comprehensive list of tech conferences in India :india:', 10, 699, ['nikhita','championshuttler']),
+(220651147, 935, 2609511, 'pathivu/pathivu', 18, 'An efficient log ingestion and log aggregation system https://pathivu.io/', 4, 143, ['poonai','L04DB4L4NC3R']),
 (212965919, 936, 2609511, 'eko/gocache', 19, '☔️ A complete Go cache library that brings you multiple ways of managing your caches', 12, 1025, ['eko','corinapurcarea']),
 (196110912, 937, 2609511, 'dgraph-io/workshop', 20, 'Dgraph workshop: Build a Twitter graph with Dgraph!', 1, 2, ['hackintoshrao','danielmai']),
 (139633235, 938, 2609511, 'MoonHighway/learning-graphql', 21, 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', 9, 571, ['eveporcello','MoonTahoe']),
@@ -945,8 +947,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (180895260, 940, 2609511, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran']),
 (174635301, 941, 2609511, 'dgraph-io/flock', 24, 'Twitter on Dgraph', 16, 28, ['mangalaman93','prashant-shahi']),
 (86115145, 942, 2609511, 'astorfi/TensorFlow-World', 25, ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', 3, 4529, ['astorfi','hadikazemi']),
-(77512018, 934, 2609511, 'nikhita/tech-conferences-india', 17, 'A comprehensive list of tech conferences in India :india:', 10, 699, ['nikhita','championshuttler']),
-(220651147, 935, 2609511, 'pathivu/pathivu', 18, 'An efficient log ingestion and log aggregation system https://pathivu.io/', 4, 143, ['poonai','L04DB4L4NC3R']),
 (107446339, 943, 2609511, 'yugabyte/yb-iot-fleet-management', 26, 'Sample IoT application simulating a monitoring dashboard for a fleet management/shipping company.', 0, 59, ['rkarthik007','baghelamit']),
 (124308494, 944, 2609511, 'apigee/istio-mixer-adapter', 27, 'Apigee''s Istio Mixer Adapter', 2, 52, ['theganyo','robbrit']),
 (75322405, 945, 2609511, 'istio/proxy', 28, 'The Istio proxy components.', 12, 601, ['istio-testing','qiwzhang']),
@@ -3031,6 +3031,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (62607227, 3033, 17671332, 'yangshun/tech-interview-handbook', 1, '💯 Curated interview preparation materials for busy engineers', 8, 62742, ['yangshun','louietyj']),
 (126577260, 3034, 17671332, 'trekhleb/javascript-algorithms', 2, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 269, 129835, ['trekhleb','m-maksyutin']),
 (369905667, 3035, 17671332, 'Mintbean/DevCollective.io', 3, 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', 12, 34, ['monarchwadia','CoderDill']),
+(310766137, 3036, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 19, ['coroo']),
 (372449229, 3037, 6935431, 'GeekMasher/advanced-security-compliance', 1, 'GitHub Advance Security Compliance Action', 17, 75, ['GeekMasher','pholleran']),
 (417656389, 3038, 6935431, 'github/automatic-contrib-prs', 2, 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', 1, 2, ['zkoppert']),
 (413929478, 3039, 6935431, 'zkoppert/advanced-security-enforcer', 3, 'A GitHub action for organizations that enables advanced security code scanning on all new repos', 1, 21, ['zkoppert','lindluni']),
@@ -3140,8 +3141,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (199079226, 3143, 22620727, 'rbreaves/kinto', 15, 'Mac-style shortcut keys for Linux & Windows.', 144, 2322, ['rbreaves','RedBearAK']),
 (147350463, 3144, 22620727, 'leonardomso/33-js-concepts', 16, '📜 33 JavaScript concepts every developer should know.', 9, 45617, ['leonardomso','ilker0']),
 (2019791, 3145, 22620727, 'liquibase/liquibase', 17, 'Main Liquibase Source', 560, 2918, ['nvoxland','wwillard7800']),
-(71297170, 3147, 22620727, 'Netflix/chaosmonkey', 19, 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', 14, 11701, ['lorin','prytoegrian']),
 (34987697, 3146, 22620727, 'mfornos/awesome-microservices', 18, 'A curated list of Microservice Architecture related principles and technologies.', 3, 10654, ['mfornos','aalhour']),
+(71297170, 3147, 22620727, 'Netflix/chaosmonkey', 19, 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', 14, 11701, ['lorin','prytoegrian']),
 (98446777, 3148, 22620727, 'dastergon/awesome-chaos-engineering', 20, 'A curated list of Chaos Engineering resources.', 5, 4749, ['dastergon','seeker89']),
 (131081109, 3149, 22620727, 'hiroppy/fusuma', 21, '✍️Fusuma makes slides with Markdown easily.', 61, 5031, ['hiroppy','renovate-bot']),
 (192632000, 3150, 22620727, 'dapr/dapr', 22, 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', 246, 16394, ['yaron2','youngbupark']),
@@ -3269,7 +3270,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (87873787, 3272, 15004099, 'theNewDynamic/gohugo-theme-ananke', 3, 'Ananke: A theme for Hugo Sites', 51, 665, ['budparr','regisphilibert']),
 (286546354, 3273, 16259450, 'netlify/explorers', 0, null, 64, 229, ['jlengstorf','bencodezen']),
 (349213562, 3274, 16259450, 'cassidoo/next-context-example', 1, 'Here''s an example of using React Context and useReducer with Next.js for state management.', 0, 22, ['cassidoo']),
-(310766137, 3036, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 19, ['coroo']),
 (3319040, 3275, 16259450, 'id-Software/DOOM', 2, 'DOOM Open Source Release', 5, 7738, ['id-travis-bradshaw']),
 (128416969, 3276, 16259450, 'archlinux/archinstall', 3, 'Arch Linux installer - guided, templates etc.', 93, 2674, ['Torxed','dylanmtaylor']),
 (91599439, 3277, 16259450, 'KatDevsGames/z3randomizer', 4, 'Zelda 3 Randomizer Template ASM', 7, 42, ['KatDevsGames','KevinCathcart']),
