@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T14:43:47.561Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T16:48:54.388Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1480,8 +1480,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (118105591, 'gojek/heimdall', 2132, 39, 'An enhanced HTTP client for Go', ['sohamkamani','rShetty'], 1, 3, 0),
 (118654121, 'GoogleContainerTools/skaffold', 12263, 493, 'Easy and Repeatable Kubernetes Development', ['dgageot','balopat'], 1, 4, 0),
 (118656654, 'Automattic/themes', 416, 1263, 'Free WordPress themes made by Automattic for WordPress.org and WordPress.com.', ['allancole','scruffian'], 1, 14, 0),
-(118695306, 'FormidableLabs/urql', 6623, 24, 'The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.', ['kitten','JoviDeCroock'], 1, 18, 0),
 (118858739, 'dwmkerr/hacker-laws', 18579, 112, '💻📖 Laws, Theories, Principles and Patterns that developers will find useful. #hackerlaws', ['dwmkerr','umutphp'], 1, 11, 0),
+(118695306, 'FormidableLabs/urql', 6623, 24, 'The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.', ['kitten','JoviDeCroock'], 1, 18, 0),
 (118870669, 'psi-zimb/psi-module', 1, 1, 'For dev changes', ['Mahitha1467','gopikrishna-yaramothu'], 1, 5, 0),
 (118893601, 'tc39/proposal-explicit-resource-management', 253, 25, 'ECMAScript Explicit Resource Management', ['rbuckton','littledan'], 1, 9, 0),
 (118970914, 'debauchee/barrier', 15030, 695, 'Open-source KVM software', ['p12tic','shymega'], 1, 27, 0),

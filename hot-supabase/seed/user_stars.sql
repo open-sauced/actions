@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T14:43:47.384Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T16:48:54.599Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3052,6 +3052,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (342451583, 3054, 6935431, 'pholleran/ghas-pr-notifications', 18, 'A demonstration Probot app that adds visibility to code scanning alerts', 0, 7, ['pholleran','zkoppert']),
 (52855516, 3055, 6935431, 'Homebrew/homebrew-core', 19, '🍻 Default formulae for the missing package manager for macOS (or Linux)', 148, 10492, ['BrewTestBot','chenrui333']),
 (263468232, 3056, 6935431, 'samber/github-actions-runner', 20, '✅ Docker images for starting self-hosted Github Actions runner(s).', 2, 47, ['samber','kthompson']),
+(290020584, 3057, 6935431, 'dmnemec/copy_file_to_another_repo_action', 21, 'This GitHub Action copies a file from the current repository to a location in another repository', 12, 61, ['dmnemec','sta-szek']),
 (327443948, 3058, 6935431, 'zkoppert/innersource-crawler', 22, 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', 3, 13, ['zkoppert','sicot-f']),
 (251325388, 3059, 6935431, 'ryan-rozario/pipreqs-action', 23, 'Automatically creates the requirement.txt file for your python project using Github Actions and pipreqs', 0, 7, ['ryan-rozario','afonsoVale']),
 (95830088, 3060, 6935431, 'joeyism/py-edgar', 24, 'A small library to access files from SEC''s edgar', 6, 179, ['joeyism','kbennatti']),
@@ -3110,7 +3111,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (387277996, 3113, 31478648, 'ibywaks/cookbook', 15, 'A simple Express Node.js recipe API using Sequelize ORM ', 2, 19, ['ibywaks']),
 (389656306, 3114, 31478648, 'pazel-io/ionic-photo-flow', 16, 'A fun flow of photo bubbles floating indefinitely and moving across the screen', 0, 3, ['pazel-io']),
 (388891464, 3115, 31478648, 'Salaah01/linux-ios-debugger', 17, 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', 0, 10, ['Salaah01']),
-(290020584, 3057, 6935431, 'dmnemec/copy_file_to_another_repo_action', 21, 'This GitHub Action copies a file from the current repository to a location in another repository', 12, 61, ['dmnemec','sta-szek']),
 (377196642, 3116, 31478648, 'alanmontgomery/ionic-react-hook-form-example', 18, 'Example with React Hook Form', 0, 3, ['alanmontgomery']),
 (350240448, 3117, 31478648, 'mhmzdev/DevFolio', 19, 'Live portfolio designed using Flutter 2.0 available for android and web.', 3, 286, ['mhmzdev']),
 (238514517, 3118, 31478648, 'matteobruni/tsparticles', 20, 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', 24, 2706, ['matteobruni','VincentGarreau']),
