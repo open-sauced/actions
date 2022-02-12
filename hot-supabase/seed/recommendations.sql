@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T04:46:36.572Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T06:45:31.064Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2810,8 +2810,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (299462456, 'davidmfoley/isolate-hooks', 8, 2, 'Isolate and test react hooks', ['davidmfoley'], 1, 15, 0),
 (299482335, 'withfig/autocomplete', 8494, 96, 'Fig adds autocomplete to your terminal.', ['cstrnt','brendanfalk'], 2, 7, 0),
 (299628763, 'Asabeneh/30-Days-Of-React', 8716, 59, '30 Days of  React challenge is a step by step guide to learn React in 30 days. It requires HTML, CSS, and JavaScript knowledge. You should be comfortable with JavaScript before you start to React.  If you are not comfortable with JavaScript check out 30DaysOfJavaScript. This is a continuation of 30 Days Of JS.  This challenge may take more than 100 days, follow your own pace. ', ['Asabeneh','momin-riyadh'], 1, 19, 0),
-(299712981, 'raycast/script-commands', 2903, 9, 'Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.', ['raycastbot','unnamedd'], 1, 6, 0),
 (299642657, 'zero-to-mastery/ascii-art', 19, 4, 'A ZTM Challenge for Hacktoberfest 2020', ['ndeoligence','sophiabrandt'], 1, 22, 0),
+(299712981, 'raycast/script-commands', 2903, 9, 'Script Commands let you tailor Raycast to your needs. Think of them as little productivity boosts throughout your day.', ['raycastbot','unnamedd'], 1, 6, 0),
 (300077232, 'loopDelicious/sparkles', 5, 0, null, ['loopDelicious'], 1, 23, 0),
 (300506654, 'subeshb1/developer-community-stats', 120, 0, '🚀 A repository to encourage beginners to contribute to open source and for all contributors to view their Github stats', ['subeshb1','msriaz'], 1, 23, 0),
 (300538230, 'praveenscience/Hacktoberfest-Project-Ideas', 308, 102, 'Instead of just adding your name and email, why not create a list of project ideas?', ['praveenscience','PranavViswanathan'], 1, 0, 0),

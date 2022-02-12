@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T04:46:36.766Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T06:45:30.928Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2554,8 +2554,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (10893519, 2534, 3450257, 'glebm/i18n-tasks', 16, 'Manage translation and localization with static analysis, for Ruby i18n', 45, 1747, ['glebm','otoyo']),
 (14096802, 2535, 3450257, 'danmayer/coverband', 17, 'Ruby production code coverage collection and reporting (line of code usage)', 4, 1942, ['danmayer','kbaum']),
 (238972, 2536, 3450257, 'rspec/rspec-core', 18, 'RSpec runner and formatters', 63, 1094, ['myronmarston','dchelimsky']),
-(4000038, 2537, 3450257, 'ruby-docx/docx', 19, 'a ruby library/gem for interacting with .docx files', 26, 320, ['satoryu','chrahunt']),
 (238983, 2538, 3450257, 'rspec/rspec-mocks', 20, 'RSpec''s ''test double'' framework, with support for stubbing and mocking', 61, 1048, ['myronmarston','JonRowe']),
+(4000038, 2537, 3450257, 'ruby-docx/docx', 19, 'a ruby library/gem for interacting with .docx files', 26, 320, ['satoryu','chrahunt']),
 (93502827, 2539, 3450257, 'palkan/n_plus_one_control', 21, 'RSpec and Minitest matchers to prevent N+1 queries problem', 2, 399, ['palkan','caalberts']),
 (86764843, 2540, 3450257, 'ruby/date', 22, 'A subclass of Object includes Comparable module for handling dates.', 3, 39, ['nobu','hsbt']),
 (40984778, 2541, 3450257, 'discordrb/discordrb', 23, 'Discord API for Ruby', 60, 686, ['meew0','z64']),
@@ -3093,6 +3093,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3748229, 3095, 19475228, 'rails-api/rails-api', 25, 'Rails for API only applications', 13, 5206, ['spastorino','steveklabnik']),
 (1927511, 3096, 19475228, 'Sutto/api_smith', 26, 'API Smith makes building structured API clients even simpler.', 5, 216, ['Sutto','pranas']),
 (5575055, 3097, 19475228, 'restforce/restforce', 27, 'A Ruby client for the Salesforce REST API.', 126, 710, ['ejholmes','timrogers']),
+(300538230, 3098, 31478648, 'praveenscience/Hacktoberfest-Project-Ideas', 0, 'Instead of just adding your name and email, why not create a list of project ideas?', 102, 288, ['praveenscience','PranavViswanathan']),
 (396178107, 3099, 31478648, 'abdamah/SpringBoot2SecurityJwt', 1, null, 0, 1, ['abdamah']),
 (384389481, 3100, 31478648, 'jbagaresgaray/ionic-react-coffee-vending-app', 2, 'Ionic React 5, SwiperJS with Capacitor 3.0', 0, 3, ['jbagaresgaray','philipsimpleclick']),
 (388180308, 3101, 31478648, 'naturalnat/symptoms-client', 3, null, 1, 5, ['naturalnat']),
@@ -3249,7 +3250,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (20190634, 3252, 35429278, 'equalsraf/neovim-qt', 13, 'Neovim client library and GUI, in Qt5.', 106, 1286, ['equalsraf','jgehrig']),
 (371872698, 3253, 35429278, 'huibizhang/vitawind', 14, 'Install and Setting Tailwindcss automatically for Vite', 1, 36, ['huibizhang','alesvaupotic']),
 (360475375, 3254, 35429278, 'nextauthjs/react-query', 15, 'React Query wrapper for NextAuth.js session management', 2, 86, ['balazsorban44','ndom91']),
-(300538230, 3098, 31478648, 'praveenscience/Hacktoberfest-Project-Ideas', 0, 'Instead of just adding your name and email, why not create a list of project ideas?', 102, 288, ['praveenscience','PranavViswanathan']),
 (393673673, 3255, 35429278, 'theodorusclarence/ts-nextjs-tailwind-starter', 16, '🔋 Next.js + Tailwind CSS + TypeScript starter packed with useful development features', 1, 171, ['theodorusclarence','raaynaldo']),
 (363558647, 3256, 35429278, 'theodorusclarence/vite-react-tailwind-starter', 17, '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', 0, 22, ['theodorusclarence']),
 (393089347, 3257, 35429278, 'antoniolofiego/Batteries-Included-Next.js', 18, 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', 0, 32, ['antoniolofiego','kriswuollett']),
