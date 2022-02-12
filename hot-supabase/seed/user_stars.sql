@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T16:48:54.599Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-12T18:44:37.661Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2849,9 +2849,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (144926753, 2852, 5736522, 'bchiang7/v4', 26, 'Fourth iteration of my personal website built with Gatsby', 9, 4156, ['bchiang7','ImgBotApp']),
 (131636871, 2853, 5736522, 'graphqlworkshop/student-resources', 27, 'Samples, examples, and helpful links for GraphQL Workshop', 0, 36, ['eveporcello','zieka']),
 (139633235, 2854, 5736522, 'MoonHighway/learning-graphql', 28, 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', 9, 571, ['eveporcello','MoonTahoe']),
-(61668321, 2855, 5736522, 'MoonHighway/learning-react', 29, 'The code samples for Learning React by Alex Banks and Eve Porcello, published by O''Reilly Media', 39, 2711, ['MoonTahoe','eveporcello']),
-(321545207, 2856, 36890230, 'motiondeveloper/create-expression-lib', 0, '🐱‍👤 CLI to create an After Effects expression library in TypeScript', 1, 13, ['timhaywood']),
 (202834928, 2857, 36890230, 'davidtorosyan/ti-js', 1, 'TI-Basic interpreter written in JavaScript.', 2, 4, ['davidtorosyan','JEbertPrime']),
+(61668321, 2855, 5736522, 'MoonHighway/learning-react', 29, 'The code samples for Learning React by Alex Banks and Eve Porcello, published by O''Reilly Media', 39, 2711, ['MoonTahoe','eveporcello']),
 (112953694, 2858, 36890230, 'digitallyinduced/ihp', 2, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2766, ['mpscholten','Laobiz']),
 (357272600, 2859, 36890230, 'nextapps-de/winbox', 3, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5211, ['ts-thomas','kodie']),
 (338590340, 2860, 36890230, 'lucydsl/liblucy', 4, 'Core Lucy compiler', 9, 318, ['matthewp']),
@@ -3211,6 +3210,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (355395936, 3213, 3754311, 'xizon/poemkit', 6, 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', 2, 56, ['xizon']),
 (420110494, 3214, 3754311, 'louelladev/Helpful-Tech-Resources', 7, 'A collection of helpful and educational resources I found on social media', 0, 89, ['louelladev']),
 (197915964, 3215, 3754311, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 41, ['albertopoljak','HuyaneMatsu']),
+(321545207, 2856, 36890230, 'motiondeveloper/create-expression-lib', 0, '🐱‍👤 CLI to create an After Effects expression library in TypeScript', 1, 13, ['timhaywood']),
 (405353162, 3216, 3754311, 'james-a-rob/mega-feed', 9, 'Aggregates events across digital tools.', 0, 4, ['james-a-rob']),
 (19415064, 3217, 3754311, 'ossu/computer-science', 10, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 103957, ['ericdouglas','joshmhanson']),
 (2151073, 3218, 3754311, 'SalesforceLabs/survey-force', 11, null, 10, 65, ['jrattanpal','dschach']),
