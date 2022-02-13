@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T04:46:25.499Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T06:45:33.774Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -997,9 +997,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (49704723, 988, 46695719, 'okonet/lint-staged', 10, '🚫💩 — Run linters on git staged files', 116, 9521, ['okonet','iiroj']),
 (14370955, 990, 46695719, 'sahat/hackathon-starter', 12, 'A boilerplate for Node.js web applications', 45, 32496, ['sahat','YasharF']),
 (19872456, 991, 46695719, 'remix-run/react-router', 13, 'Declarative routing for React', 63, 45467, ['mjackson','ryanflorence']),
+(90786246, 992, 46695719, 'microsoft/TypeScript-React-Starter', 14, 'A starter template for TypeScript and React with a detailed README describing how to use the two together.', 203, 10850, ['DanielRosenwasser','orta']),
 (6093316, 993, 46695719, 'DefinitelyTyped/DefinitelyTyped', 15, 'The repository for high quality TypeScript type definitions.', 722, 37131, ['vvakame','sandersn']),
 (311361403, 994, 46695719, 'KaterinaLupacheva/my-projects-dashboard', 16, 'Next.js, Material UI, MongoDB Personal Dashboard with dev.to, GitHub, Twitter, and npm API integration.', 0, 50, ['KaterinaLupacheva']),
-(90786246, 992, 46695719, 'microsoft/TypeScript-React-Starter', 14, 'A starter template for TypeScript and React with a detailed README describing how to use the two together.', 203, 10850, ['DanielRosenwasser','orta']),
 (215390876, 995, 46695719, 'malgamves/CommunityWriterPrograms', 17, 'A list of Developer Community Writer Programs', 15, 1515, ['malgamves','karllhughes']),
 (36633370, 996, 46695719, 'awesome-selfhosted/awesome-selfhosted', 18, 'A list of Free Software network services and web applications which can be hosted on your own servers', 123, 71705, ['nodiscc','n8225']),
 (20929025, 997, 46695719, 'microsoft/TypeScript', 19, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', 5382, 76845, ['ahejlsberg','sheetalkamat']),
