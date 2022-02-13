@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T20:43:20.241Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T22:43:22.955Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2644,8 +2644,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (101814136, 2623, 667716, 'theKashey/react-focus-lock', 0, 'It is a trap! A lock for a Focus. 🔓', 56, 886, ['theKashey','ai']),
 (222103697, 2624, 667716, 'simbathesailor/use-what-changed', 1, 'A React hook and an easy to use babel-pugin to debug various React official hooks', 22, 337, ['simbathesailor','LiuL0703']),
 (178148244, 2625, 667716, 'sbmpost/AutoRaise', 2, 'AutoRaise (and focus) a window when hovering over it with the mouse', 9, 254, ['sbmpost','Dimentium']),
-(213346952, 2627, 667716, 'cesanta/elk', 4, 'A low footprint JavaScript engine for embedded systems', 0, 1227, ['cpq']),
 (370814753, 2626, 667716, 'ossf/oss-vulnerability-guide', 3, 'A guide on coordinated vulnerability disclosure for open source projects. Includes templates for security policies (security.md) and disclosure notifications.', 5, 37, ['david-a-wheeler','annabellegoth2boss']),
+(213346952, 2627, 667716, 'cesanta/elk', 4, 'A low footprint JavaScript engine for embedded systems', 0, 1227, ['cpq']),
 (285998667, 2628, 667716, 'keiya01/react-performance-testing', 5, 'A library to test runtime performance in React', 6, 245, ['keiya01','JulienBlacas']),
 (21978103, 2629, 667716, 'scottaohara/accessible_components', 6, 'Listing of accessible components & patterns', 0, 447, ['scottaohara','kethinov']),
 (139191418, 2630, 667716, 'accessibilitysupported/a11ysupport.io', 7, 'Accessibility Support data for various HTML, ARIA, CSS, and SVG features', 33, 192, ['mfairchild365','RavenAlly']),
