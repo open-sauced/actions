@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T08:43:46.563Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T10:43:19.961Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -308,10 +308,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (186702057, 299, 7293310, 'solid/specification', 7, 'Solid Technical Reports', 159, 280, ['csarven','RubenVerborgh']),
 (348060227, 300, 7293310, 'withastro/astro', 8, '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', 118, 8725, ['FredKSchott','matthewp']),
 (43830564, 301, 7293310, 'auchenberg/volkswagen', 9, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
+(163883279, 302, 7293310, 'nektos/act', 10, 'Run your GitHub Actions locally 🚀', 72, 20036, ['cplee','catthehacker']),
 (378449409, 303, 7293310, 'mame82/LucaAppIssues', 11, 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', 0, 34, ['mame82']),
 (332757634, 304, 7293310, 'jonasstrehle/supercookie', 12, '⚠️ Browser fingerprinting via favicon!', 8, 3633, ['jonasstrehle','szepeviktor']),
 (41766002, 305, 7293310, 'ampproject/amphtml', 13, 'The AMP web component framework.', 1717, 14778, ['dvoytenko','renovate-bot']),
-(163883279, 302, 7293310, 'nektos/act', 10, 'Run your GitHub Actions locally 🚀', 72, 20036, ['cplee','catthehacker']),
 (360512124, 306, 7293310, 'sebinside/WissenschaftlichesSchreiben-Schnelleinstieg', 14, 'Wissenschaftliches Schreiben folgt vielen Regeln, die gerade für Unerfahrene verwirrend wirken können. Dieses Dokument dient hierfür als Schnelleinstieg sowie als Zusammenfassung üblicher Werkzeuge für die Erstellung von LaTeX-Dokumenten.', 1, 110, ['sebinside','dfuchss']),
 (11423758, 307, 7293310, 'mame/quine-relay', 15, 'An uroboros program with 100+ programming languages', 14, 11631, ['mame','pczarn']),
 (303830736, 308, 7293310, 'tidbyt/pixlet', 16, 'Build apps for pixel-based displays.', 9, 154, ['matslina','rohansingh']),
@@ -2628,8 +2628,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (98999731, 2607, 13490604, 'enkimute/ganja.js', 14, ':triangular_ruler: Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - ', 49, 1288, ['enkimute','utensil']),
 (112953694, 2608, 13490604, 'digitallyinduced/ihp', 15, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2766, ['mpscholten','Laobiz']),
 (232444831, 2609, 13490604, 'artipie/artipie', 16, 'Binary Artifact Management Tool', 68, 250, ['g4s8','olegmoz']),
-(11297301, 2610, 13490604, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 345, ['Drugoy','Stevoisiak']),
 (308573793, 2611, 13490604, 'testsmt/yinyang', 18, 'A fuzzing framework for SMT solvers', 11, 123, ['wintered','muchang']),
+(11297301, 2610, 13490604, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 345, ['Drugoy','Stevoisiak']),
 (22399826, 2612, 13490604, 'lifting-bits/mcsema', 19, 'Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode', 109, 2204, ['artemdinaburg','pgoodman']),
 (234091935, 2613, 13490604, 'i5ik/sirdb', 20, ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', 3, 525, ['i5ik','rom10']),
 (77358263, 2614, 13490604, 'SpaceVim/SpaceVim', 21, 'A community-driven modular vim/neovim distribution - The ultimate vimrc', 120, 17586, ['wsdjeg','sei40kr']),
