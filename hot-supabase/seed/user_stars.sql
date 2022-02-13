@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T06:45:33.774Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T08:43:46.563Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -308,10 +308,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (186702057, 299, 7293310, 'solid/specification', 7, 'Solid Technical Reports', 159, 280, ['csarven','RubenVerborgh']),
 (348060227, 300, 7293310, 'withastro/astro', 8, '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', 118, 8725, ['FredKSchott','matthewp']),
 (43830564, 301, 7293310, 'auchenberg/volkswagen', 9, ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', 59, 12194, ['watson','auchenberg']),
-(163883279, 302, 7293310, 'nektos/act', 10, 'Run your GitHub Actions locally 🚀', 72, 20036, ['cplee','catthehacker']),
 (378449409, 303, 7293310, 'mame82/LucaAppIssues', 11, 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', 0, 34, ['mame82']),
 (332757634, 304, 7293310, 'jonasstrehle/supercookie', 12, '⚠️ Browser fingerprinting via favicon!', 8, 3633, ['jonasstrehle','szepeviktor']),
 (41766002, 305, 7293310, 'ampproject/amphtml', 13, 'The AMP web component framework.', 1717, 14778, ['dvoytenko','renovate-bot']),
+(163883279, 302, 7293310, 'nektos/act', 10, 'Run your GitHub Actions locally 🚀', 72, 20036, ['cplee','catthehacker']),
 (360512124, 306, 7293310, 'sebinside/WissenschaftlichesSchreiben-Schnelleinstieg', 14, 'Wissenschaftliches Schreiben folgt vielen Regeln, die gerade für Unerfahrene verwirrend wirken können. Dieses Dokument dient hierfür als Schnelleinstieg sowie als Zusammenfassung üblicher Werkzeuge für die Erstellung von LaTeX-Dokumenten.', 1, 110, ['sebinside','dfuchss']),
 (11423758, 307, 7293310, 'mame/quine-relay', 15, 'An uroboros program with 100+ programming languages', 14, 11631, ['mame','pczarn']),
 (303830736, 308, 7293310, 'tidbyt/pixlet', 16, 'Build apps for pixel-based displays.', 9, 154, ['matslina','rohansingh']),
