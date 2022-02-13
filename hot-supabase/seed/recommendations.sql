@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T18:44:30.882Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T20:43:20.608Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2654,8 +2654,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (276444578, 'aristocratos/bpytop', 8106, 58, 'Linux/OSX/FreeBSD resource monitor', ['aristocratos','cjolowicz'], 1, 1, 0),
 (276889385, 'ANSSI-FR/MLA', 241, 10, 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', ['commial','sashaconway'], 1, 15, 0),
 (276914940, 'judicaelandria/check', 5, 8, 'manage all your task, and do your todos', ['judicaelandria','ColomboJuan'], 1, 14, 0),
-(276976140, 'mergestat/mergestat', 2710, 11, 'Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊', ['patrickdevivo','Vialeon'], 1, 7, 0),
 (276970401, '5t3ph/stylestage', 1339, 2, 'A modern CSS showcase styled by community contributions. Add your stylesheet!', ['5t3ph','cbirdsong'], 1, 11, 0),
+(276976140, 'mergestat/mergestat', 2710, 11, 'Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊', ['patrickdevivo','Vialeon'], 1, 7, 0),
 (277028976, 'elraffa/calendario-siembra', 2, 0, 'Simple app to know what to plant each month', ['elraffa'], 1, 6, 0),
 (277057483, 'apparition47/MailTrackerBlocker', 995, 10, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', ['apparition47','danieldickison'], 1, 25, 0),
 (277194853, 'atc1441/CH_HID_Arduino', 14, 1, null, ['atc1441'], 1, 2, 0),
@@ -3078,8 +3078,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (339001070, 'udberg/members-only', 2, 0, null, ['udberg','dibdas'], 1, 18, 0),
 (339786950, 'encoredev/encore', 2461, 15, 'The Backend Development Engine built for Go', ['eandre','marcuskohlberg'], 1, 8, 0),
 (339838063, 'ryan3738/bellingham3d-frontend', 2, 3, 'Front End for the Bellingham 3D Webstore', ['ryan3738','wesbos'], 1, 12, 0),
-(340027291, 'udberg/confs.tech', 2, 0, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ['nimzco','confs-tech-bot'], 1, 19, 0),
 (339839520, 'ryan3738/bellingham3d-backend', 2, 2, 'https://github.com/ryan3738/Advanced-React.git', ['ryan3738','wesbos'], 1, 11, 0),
+(340027291, 'udberg/confs.tech', 2, 0, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ['nimzco','confs-tech-bot'], 1, 19, 0),
 (340182829, 'MattMarquise/Design-Suite-Landing-Page-Theme', 1, 0, 'A random project inspired by Dwell.com', ['MattMarquise'], 1, 9, 0),
 (340187605, 'dmitryvinn/awesome-dev-advocacy', 131, 0, '🥑  List of Awesome Developer Advocacy Resources', ['dmitryvinn','dmitryvinn-fb'], 2, 19.5, 0),
 (340306054, 'Jussii/JunctionAppTesting', 1, 0, 'All-in-one hackathon platform for organisers', ['juiceo','Earlo'], 1, 2, 0),
