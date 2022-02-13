@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T10:43:19.961Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T12:48:43.925Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2628,8 +2628,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (98999731, 2607, 13490604, 'enkimute/ganja.js', 14, ':triangular_ruler: Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - ', 49, 1288, ['enkimute','utensil']),
 (112953694, 2608, 13490604, 'digitallyinduced/ihp', 15, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2766, ['mpscholten','Laobiz']),
 (232444831, 2609, 13490604, 'artipie/artipie', 16, 'Binary Artifact Management Tool', 68, 250, ['g4s8','olegmoz']),
-(308573793, 2611, 13490604, 'testsmt/yinyang', 18, 'A fuzzing framework for SMT solvers', 11, 123, ['wintered','muchang']),
 (11297301, 2610, 13490604, 'Drugoy/Autohotkey-scripts-.ahk', 17, 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', 4, 345, ['Drugoy','Stevoisiak']),
+(308573793, 2611, 13490604, 'testsmt/yinyang', 18, 'A fuzzing framework for SMT solvers', 11, 123, ['wintered','muchang']),
 (22399826, 2612, 13490604, 'lifting-bits/mcsema', 19, 'Framework for lifting x86, amd64, aarch64, sparc32, and sparc64 program binaries to LLVM bitcode', 109, 2204, ['artemdinaburg','pgoodman']),
 (234091935, 2613, 13490604, 'i5ik/sirdb', 20, ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', 3, 525, ['i5ik','rom10']),
 (77358263, 2614, 13490604, 'SpaceVim/SpaceVim', 21, 'A community-driven modular vim/neovim distribution - The ultimate vimrc', 120, 17586, ['wsdjeg','sei40kr']),
