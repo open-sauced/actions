@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T01:02:07.295Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-13T02:47:27.618Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1500,10 +1500,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (240315046, 1512, 66239105, 'jina-ai/jina', 4, 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', 85, 12896, ['hanxiao','jina-bot']),
 (297714663, 1513, 66239105, 'shahednasser/awesome-resources', 5, ':sunglasses: List of helpful resources added by the community for the community!', 8, 161, ['shahednasser','Korak-997']),
 (398016775, 1514, 66239105, 'fireship-io/wavy-curvey-blobby-website', 6, 'A website design with lots of waves, curves, a blobs', 1, 116, ['codediodeio']),
+(161686793, 1515, 66239105, 'openmainframeproject-internship/resources', 7, 'Open Mainframe Project Mentorship Program resources', 2, 82, ['bobdahlberg','jmertic']),
 (378603752, 1516, 66239105, 'hkaur008/microsoft-engage-project', 8, 'This is a project under Microsoft Engage mentorship program ''21 by Hargun kaur', 0, 22, ['hkaur008']),
 (382851697, 1517, 66239105, 'devkodeio/javascript-interview-questions', 9, 'A collection of JavaScript modern interview questions for beginners to experts', 6, 134, ['sadanandpai','sunnypuri']),
 (282194280, 1518, 66239105, 'SanchitaMishra170676/To-Do-Blockchain', 10, 'Learning Block Chain to implement in project Aashray. The repo contains the project of the block chain todo-list tutorial on youtube - freeCodeCamp.org Please refer to the dapp university for more details.', 5, 1, ['SanchitaMishra170676']),
-(161686793, 1515, 66239105, 'openmainframeproject-internship/resources', 7, 'Open Mainframe Project Mentorship Program resources', 2, 82, ['bobdahlberg','jmertic']),
 (6498492, 1519, 66239105, 'airbnb/javascript', 11, 'JavaScript Style Guide', 131, 117640, ['ljharb','hshoff']),
 (108510101, 1520, 66239105, 'FaisalUmair/udemy-downloader-gui', 12, 'A desktop application for downloading Udemy Courses', 421, 5509, ['FaisalUmair','turkialawlqy']),
 (394632350, 1521, 66239105, 'SanchitaMishra170676/INNOGEEKS-2.0', 13, null, 0, 0, ['chinmoy12c','Harsh-Gupta9897']),
@@ -2925,8 +2925,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (294972, 2928, 3941126, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 13, 3501, ['PikachuEXE','fnando']),
 (70342215, 2929, 3941126, 'bootstrap-vue/bootstrap-vue', 4, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', 167, 13612, ['tmorehouse','pi0']),
 (203587744, 2930, 3941126, 'hoppscotch/hoppscotch', 5, '👽 Open source API development ecosystem https://hoppscotch.io', 46, 34707, ['liyasthomas','AndrewBastin']),
-(72066935, 2932, 3941126, 'cs01/gdbgui', 7, 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', 118, 8342, ['cs01','ampresent']),
 (26500787, 2931, 3941126, 'tonsky/FiraCode', 6, 'Free monospaced font with programming ligatures', 285, 61064, ['tonsky','thundernixon']),
+(72066935, 2932, 3941126, 'cs01/gdbgui', 7, 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', 118, 8342, ['cs01','ampresent']),
 (7122594, 2933, 3941126, 'directus/directus', 8, 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', 200, 13248, ['rijkvanzanten','benhaynes']),
 (43441403, 2934, 3941126, 'strapi/strapi', 9, '🚀 Open source Node.js Headless CMS to easily build customisable APIs', 548, 41932, ['soupette','alexandrebodin']),
 (11730342, 2935, 3941126, 'vuejs/vue', 10, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', 546, 191645, ['yyx990803','vue-bot']),
@@ -3918,16 +3918,16 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (43160685, 3918, 19350071, 'zulip/zulip', 5, 'Zulip server and web app—powerful open source team chat', 2339, 14898, ['timabbott','showell']),
 (88760614, 3919, 19350071, 'automerge/automerge', 6, 'A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.', 69, 11839, ['ept','orionz']),
 (48246447, 3920, 19350071, 'analysis-tools-dev/static-analysis', 7, '⚙️ A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.', 1, 9328, ['mre','AristoChen']),
-(66156850, 3922, 19350071, 'TheAlgorithms/Go', 9, 'Algorithms Implemented in GoLang', 6, 7432, ['brayo-pip','cclauss']),
 (30717673, 3921, 19350071, 'dwyl/learn-api-design', 8, ':innocent: Essential learning for people building APIs', 30, 648, ['nelsonic','besarthoxhaj']),
+(66156850, 3922, 19350071, 'TheAlgorithms/Go', 9, 'Algorithms Implemented in GoLang', 6, 7432, ['brayo-pip','cclauss']),
 (35017238, 3923, 19350071, 'hackmdio/codimd', 10, 'CodiMD - Realtime collaborative markdown notes on all platforms.', 295, 7598, ['jackycute','SISheogorath']),
 (29514104, 3924, 19350071, 'netlify/netlify-cms', 11, 'A Git-based CMS for Static Site Generators', 632, 14793, ['erquhart','erezrokah']),
 (60243197, 3925, 19350071, 'nextcloud/server', 12, '☁️ Nextcloud server, a safe home for all your data', 1907, 17779, ['rullzer','MorrisJobke']),
 (35093606, 3926, 19350071, 'dariubs/GoBooks', 13, 'List of Golang books', 2, 10603, ['nathany','dariubs']),
 (67759339, 3927, 19350071, 'postlight/awesome-cms', 14, '📚 A collection of open and closed source Content Management Systems (CMS) for your perusal.', 10, 2499, ['mutewinter','philwareham']),
 (21827146, 3928, 19350071, 'chrislusf/seaweedfs', 15, 'SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.', 54, 13491, ['chrislusf','kmlebedev']),
-(352417531, 3930, 19350071, 'randallkanna/awesome-job-list', 17, 'A list of the best places to job hunt. I''ve been curating this for the past 7 years.', 4, 977, ['randallkanna','mehdichaouch']),
 (198273680, 3929, 19350071, 'okhosting/awesome-storage', 16, 'A curated list of storage open source tools. Backups, redundancy, sharing, distribution, encryption, etc.', 2, 198, ['okhosting','SuperQ']),
+(352417531, 3930, 19350071, 'randallkanna/awesome-job-list', 17, 'A list of the best places to job hunt. I''ve been curating this for the past 7 years.', 4, 977, ['randallkanna','mehdichaouch']),
 (177727387, 3931, 19350071, 'cizixs/awesome-raft', 18, 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', 0, 28, ['cizixs','wenweihu86']),
 (123978045, 3932, 19350071, 'dgryski/awesome-consensus', 19, 'Awesome list for Paxos and friends', 1, 1624, ['dgryski','ifesdjeen']),
 (138745753, 3933, 19350071, 'statisticsnorway/distributed-saga', 20, 'Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization', 0, 21, ['kimcs','oranheim']),
