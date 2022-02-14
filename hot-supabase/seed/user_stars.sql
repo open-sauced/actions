@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T10:43:28.675Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T12:49:31.280Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -4308,9 +4308,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (56087776, 381822676, 33669114, 'ramboxapp/community-edition', 0, 'Free and Open Source messaging and emailing app that combines common web applications into one.', 250, 6234, ['saenzramiro','fvulich']),
 (13840241, 381571653, 569510, 'freeCodeCamp/devdocs', 0, 'API Documentation Browser', 120, 27608, ['Thibaut','simon04']),
 (87380483, 354123413, 15052690, 'socketry/async', 0, 'An awesome asynchronous event-driven reactor for Ruby.', 22, 1529, ['ioquatix','jeremyjung']),
-(266346243, 359953680, 3777549, 'open-sauced/goals-template', 0, 'This is the template repo for managing your contributions through opensauced.pizza', 1, 17, ['bdougie','gr2m']),
 (31504491, 358576983, 527550, 'labstack/echo', 0, 'High performance, minimalist Go web framework', 68, 21562, ['vishr','lammel']),
 (398914163, 398348178, 39362365, 'dabit3/chicken-tikka-masala-recipe', 0, 'Nader''s chicken tikka masala recipe', 7, 188, ['dabit3','maksimovic']),
+(266346243, 359953680, 3777549, 'open-sauced/goals-template', 0, 'This is the template repo for managing your contributions through opensauced.pizza', 1, 17, ['bdougie','gr2m']),
 (734957, 398934860, 34903088, 'kelektiv/node-cron', 0, 'Cron for NodeJS.', 105, 7279, ['ncb000gt','jodevsa']),
 (191051391, 398440389, 66239105, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 277, 10798, ['peterp','thedavidprice']),
 (364474335, 352793229, 22655167, 'google/zx', 0, 'A tool for writing better scripts', 17, 27354, ['antonmedv','antongolub']),
