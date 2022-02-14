@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T04:46:35.959Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T06:46:03.484Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2685,8 +2685,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (279353671, 'fbdevelopercircles/open-source-edu-bot', 51, 10, 'Open Source Education bot, built by the Developer Circles community.', ['hoduchieu01','elinguiuriel'], 1, 19, 0),
 (279397536, 'ziulev/spotter', 562, 6, '🔭 macOS productivity tool to launch everything', ['ziulev'], 1, 13, 0),
 (279678603, 'felixrieseberg/macintosh.js', 7627, 80, '🖥 A virtual Apple Macintosh with System 8, running in Electron. I''m sorry.', ['felixrieseberg','jonathanpotts'], 2, 12.5, 0),
-(279705398, 'omidnikrah/profile-activity-generator', 31, 3, 'Generate custom profile activity for your profile README', ['omidnikrah'], 1, 5, 0),
 (279712319, 'jordansinger/health-macos-swiftui-example', 231, 0, 'Health app macOS Big Sur built in SwiftUI', ['jordansinger'], 1, 27, 0),
+(279705398, 'omidnikrah/profile-activity-generator', 31, 3, 'Generate custom profile activity for your profile README', ['omidnikrah'], 1, 5, 0),
 (279848748, 'rahuldkjain/github-profile-readme-generator', 8246, 150, '🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.', ['rahuldkjain','Maddoxx88'], 1, 0, 0),
 (280068470, 'Brooooooklyn/swc-node', 739, 19, 'Faster ts-node without typecheck', ['Brooooooklyn','h-a-n-a'], 1, 19, 0),
 (280203463, 'sadanandpai/single-page-resume-builder', 243, 10, 'Build a standard and professional single page resume', ['sadanandpai','gopal1996'], 1, 6, 0),

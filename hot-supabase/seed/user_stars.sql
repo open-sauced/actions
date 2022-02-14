@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T04:46:36.191Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T06:46:03.827Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3983,6 +3983,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (205427090, 3984, 5467696, '0xb4lamx/nestjs-boilerplate-microservice', 9, 'Nestjs Microservice boilerplate: apply DDD, CQRS, and Event Sourcing within an event driven architecture', 4, 178, ['0xb4lamx','itninja-hue']),
 (54749959, 3985, 5467696, 'commanded/commanded', 10, 'Use Commanded to build Elixir CQRS/ES applications', 57, 1441, ['slashdotdash','davydog187']),
 (71948498, 3986, 5467696, 'localstack/localstack', 11, '💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!', 317, 37854, ['whummer','thrau']),
+(262658866, 3987, 5467696, 'jmcdo29/nestjs-oauth', 12, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', 8, 13, ['jmcdo29']),
 (7737247, 3988, 5467696, 'lelylan/simple-oauth2', 13, 'A simple Node.js client library for Oauth2', 3, 1359, ['jonathansamines','andreareginato']),
 (321110055, 3989, 5467696, 'TriPSs/nx-extend', 14, 'Nx Workspaces builders and tools', 3, 24, ['TriPSs','chrene']),
 (413577291, 3990, 5467696, 'swaitw/domain-driven-hexagon', 15, 'Guide on Domain-Driven Design, Hexagonal architecture, best practices etc.', 0, 1, ['Sairyss','timonback']),
@@ -4254,7 +4255,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (191051391, 379761757, 4247126, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10799, ['peterp','thedavidprice']),
 (138393139, 381465486, 5842360, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 52, 58957, ['trimstray','lbonanomi']),
 (337850512, 406428542, 3202514, 'Call-for-Code-for-Racial-Justice/Call-for-Code-for-Racial-Justice', 0, 'The main repository for information on Call for Code® for Racial Justice projects, hosted by The Linux Foundation.', 4, 10, ['krook','demilolu']),
-(262658866, 3987, 5467696, 'jmcdo29/nestjs-oauth', 12, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', 8, 13, ['jmcdo29']),
 (261871717, 403681762, 203683, 'ThreeDotsLabs/wild-workouts-go-ddd-example', 0, 'Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.', 21, 2111, ['roblaszczak','m110']),
 (38832942, 404487277, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 24, 8825, ['Aharris88','jneidel']),
 (69609, 405868985, 55982424, 'internetarchive/openlibrary', 0, 'One webpage for every book ever published!', 758, 3374, ['mekarpeles','anandology']),
