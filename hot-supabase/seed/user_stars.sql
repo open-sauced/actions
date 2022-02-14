@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T01:01:42.050Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T02:45:50.526Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3354,8 +3354,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (391400895, 3356, 351693, 'TBens/lovelace-ui-minimalist', 23, '🌻 Lovelace UI • Minimalist', 6, 136, ['TBens']),
 (398345592, 3357, 351693, '3mer3wadh/CustomUI', 24, 'Trying to create nice UI with xamarin forms ', 0, 1, ['3mer3wadh']),
 (263019373, 3358, 351693, 'staticwebdev/angular-basic', 25, null, 7, 9, ['alexweininger','anthonychu']),
-(381989425, 3359, 351693, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 26, 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', 0, 1, ['Djohnnie']),
 (206950992, 3360, 351693, 'SaurabhLpRocks/vscode-workflow', 27, 'Fullstack app to demonstrate end to end workflow of Angular and ASP Net Core app inside VS Code.', 2, 7, ['SaurabhLpRocks','Saurabh-Palatkar-Spok']),
+(381989425, 3359, 351693, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 26, 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', 0, 1, ['Djohnnie']),
 (198002113, 3361, 351693, 'bbachi/angular-idle-timeout', 28, 'An Example of implementing idle timeout in angular', 15, 11, ['bbachi']),
 (94090278, 3362, 351693, 'timbru31/docker-ruby-node', 29, '🐳 Ruby 2.6, 2.7 or 3.0 with Node.js 12 LTS (Erbium), 14 LTS (Fermium) or 16 LTS (Gallium) Docker image', 1, 34, ['renovate-bot','timbru31']),
 (397041032, 3363, 1645628, 'WordPress/Documentation-Issue-Tracker', 0, 'Issue Tracker for the WordPress Documentation team.', 57, 14, ['Kenshino','mkaz']),
@@ -4189,8 +4189,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (244749570, 4190, 3941856, 'spinnaker-hackathon/gardening', 10, 'Spinnaker Gardening Virtual #CommunityHack - Read all about the fun, projects, and prizes!', 0, 12, ['dnilasor','ptr-dang']),
 (211666, 4191, 469997, 'nodejs/node-v0.x-archive', 9, 'Moved to https://github.com/nodejs/node', 571, 34790, ['orangemocha','refack']),
 (187066133, 4192, 3941856, 'spinnaker/governance', 11, 'Community documentation for Spinnaker', 1, 42, ['robzienert','ajordens']),
-(11115005, 4193, 469997, 'raveeshbhalla/startupmap', 10, 'Indian Startup Map', 0, 3, ['raveeshbhalla']),
 (196100645, 4194, 3941856, 'cdfoundation/foundation', 12, 'Interactions with the CDF Staff and Board', 21, 19, ['danlopez00','tracymiranda']),
+(11115005, 4193, 469997, 'raveeshbhalla/startupmap', 10, 'Indian Startup Map', 0, 3, ['raveeshbhalla']),
 (3168392, 4195, 469997, 'david0178418/Backbone-RequireJS-Todo-Example', 11, 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', 0, 6, ['david0178418']),
 (189282896, 4196, 3941856, 'wesbos/beginner-javascript', 13, 'Slam Dunk JavaScript', 32, 5142, ['Asjas','wesbos']),
 (2015790, 4197, 469997, 'timwis/PhillySNAP-v1', 12, 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', 0, 3, ['timwis']),
