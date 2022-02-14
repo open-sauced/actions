@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T12:49:31.660Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T14:43:21.277Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -943,9 +943,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (56471910, 'nathanchapman/mayonnaise.js', 65, 0, '🎺  Fake data generator for JS, courtesy of Patrick Star', ['nathanchapman','YoshGuenther'], 1, 8, 0),
 (56549856, 'fennifith/Pasta-for-Spotify', 101, 13, 'A material design Spotify client for Android', ['fennifith','TheAndroidMaster'], 2, 6, 0),
 (56717493, 'joshbuchea/HEAD', 28904, 18, 'A simple guide to HTML <head> elements', ['joshbuchea','scottaohara'], 1, 13, 0),
-(56791509, 'andrzejchm/RESTMock', 745, 3, 'HTTP Server for Android Instrumentation tests', ['andrzejchm','jwir3'], 1, 26, 0),
-(56894212, 'jvm-profiling-tools/async-profiler', 4635, 33, 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', ['apangin','incubos'], 1, 4, 0),
-(57182064, 'vercel/serve', 7457, 101, 'Static file serving and directory listing', ['leo','rauchg'], 1, 1, 0),
 (57224308, 'ActivityWatch/activitywatch', 5953, 92, 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ['ErikBjare','johan-bjareholt'], 1, 26, 0),
 (57239556, 'ngx-rocket/generator-ngx-rocket', 1432, 36, ':rocket: Extensible Angular 13+ enterprise-grade project generator', ['sinedied','captaincaius'], 1, 10, 0),
 (57252451, 'gradle/kotlin-dsl-samples', 3485, 38, 'Samples builds using the Gradle Kotlin DSL', ['bamboo','eskatos'], 1, 2, 0),
@@ -953,7 +950,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (57914774, 'anandanand84/technicalindicators', 1665, 69, 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ['anandanand84','marcus-n3rd'], 1, 18, 0),
 (58138623, 'joshp23/ttrss-to-wallabag-v2', 72, 2, 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ['joshp23','tomershvueli'], 1, 9, 0),
 (58152535, 'standardese/standardese', 772, 34, 'A (work-in-progress) nextgen Doxygen for C++', ['foonathan','saraedum'], 1, 14, 0),
+(56894212, 'jvm-profiling-tools/async-profiler', 4635, 33, 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', ['apangin','incubos'], 1, 4, 0),
 (58298428, 'zulip/zulip-mobile', 977, 704, 'The Zulip app for Android and iOS.', ['gnprice','chrisbobbe'], 1, 7, 0),
+(56791509, 'andrzejchm/RESTMock', 745, 3, 'HTTP Server for Android Instrumentation tests', ['andrzejchm','jwir3'], 1, 26, 0),
+(57182064, 'vercel/serve', 7457, 101, 'Static file serving and directory listing', ['leo','rauchg'], 1, 1, 0),
 (58842707, 'trailofbits/algo', 24303, 110, 'Set up a personal VPN in the cloud', ['jackivanov','dguido'], 1, 8, 0),
 (59096058, 'TryGhost/Admin', 586, 43, 'Ghost''s admin client', ['kevinansfield','ErisDS'], 1, 7, 0),
 (59148646, 'dracula/visual-studio-code', 560, 28, '🧛🏻‍♂️ Dark theme for Visual Studio Code', ['dsifford','zenorocha'], 1, 4, 0),
