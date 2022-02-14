@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T02:45:50.526Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T04:46:36.191Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3354,8 +3354,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (391400895, 3356, 351693, 'TBens/lovelace-ui-minimalist', 23, '🌻 Lovelace UI • Minimalist', 6, 136, ['TBens']),
 (398345592, 3357, 351693, '3mer3wadh/CustomUI', 24, 'Trying to create nice UI with xamarin forms ', 0, 1, ['3mer3wadh']),
 (263019373, 3358, 351693, 'staticwebdev/angular-basic', 25, null, 7, 9, ['alexweininger','anthonychu']),
-(206950992, 3360, 351693, 'SaurabhLpRocks/vscode-workflow', 27, 'Fullstack app to demonstrate end to end workflow of Angular and ASP Net Core app inside VS Code.', 2, 7, ['SaurabhLpRocks','Saurabh-Palatkar-Spok']),
 (381989425, 3359, 351693, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 26, 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', 0, 1, ['Djohnnie']),
+(206950992, 3360, 351693, 'SaurabhLpRocks/vscode-workflow', 27, 'Fullstack app to demonstrate end to end workflow of Angular and ASP Net Core app inside VS Code.', 2, 7, ['SaurabhLpRocks','Saurabh-Palatkar-Spok']),
 (198002113, 3361, 351693, 'bbachi/angular-idle-timeout', 28, 'An Example of implementing idle timeout in angular', 15, 11, ['bbachi']),
 (94090278, 3362, 351693, 'timbru31/docker-ruby-node', 29, '🐳 Ruby 2.6, 2.7 or 3.0 with Node.js 12 LTS (Erbium), 14 LTS (Fermium) or 16 LTS (Gallium) Docker image', 1, 34, ['renovate-bot','timbru31']),
 (397041032, 3363, 1645628, 'WordPress/Documentation-Issue-Tracker', 0, 'Issue Tracker for the WordPress Documentation team.', 57, 14, ['Kenshino','mkaz']),
@@ -3983,7 +3983,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (205427090, 3984, 5467696, '0xb4lamx/nestjs-boilerplate-microservice', 9, 'Nestjs Microservice boilerplate: apply DDD, CQRS, and Event Sourcing within an event driven architecture', 4, 178, ['0xb4lamx','itninja-hue']),
 (54749959, 3985, 5467696, 'commanded/commanded', 10, 'Use Commanded to build Elixir CQRS/ES applications', 57, 1441, ['slashdotdash','davydog187']),
 (71948498, 3986, 5467696, 'localstack/localstack', 11, '💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!', 317, 37854, ['whummer','thrau']),
-(262658866, 3987, 5467696, 'jmcdo29/nestjs-oauth', 12, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', 8, 13, ['jmcdo29']),
 (7737247, 3988, 5467696, 'lelylan/simple-oauth2', 13, 'A simple Node.js client library for Oauth2', 3, 1359, ['jonathansamines','andreareginato']),
 (321110055, 3989, 5467696, 'TriPSs/nx-extend', 14, 'Nx Workspaces builders and tools', 3, 24, ['TriPSs','chrene']),
 (413577291, 3990, 5467696, 'swaitw/domain-driven-hexagon', 15, 'Guide on Domain-Driven Design, Hexagonal architecture, best practices etc.', 0, 1, ['Sairyss','timonback']),
@@ -4189,8 +4188,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (244749570, 4190, 3941856, 'spinnaker-hackathon/gardening', 10, 'Spinnaker Gardening Virtual #CommunityHack - Read all about the fun, projects, and prizes!', 0, 12, ['dnilasor','ptr-dang']),
 (211666, 4191, 469997, 'nodejs/node-v0.x-archive', 9, 'Moved to https://github.com/nodejs/node', 571, 34790, ['orangemocha','refack']),
 (187066133, 4192, 3941856, 'spinnaker/governance', 11, 'Community documentation for Spinnaker', 1, 42, ['robzienert','ajordens']),
-(196100645, 4194, 3941856, 'cdfoundation/foundation', 12, 'Interactions with the CDF Staff and Board', 21, 19, ['danlopez00','tracymiranda']),
 (11115005, 4193, 469997, 'raveeshbhalla/startupmap', 10, 'Indian Startup Map', 0, 3, ['raveeshbhalla']),
+(196100645, 4194, 3941856, 'cdfoundation/foundation', 12, 'Interactions with the CDF Staff and Board', 21, 19, ['danlopez00','tracymiranda']),
 (3168392, 4195, 469997, 'david0178418/Backbone-RequireJS-Todo-Example', 11, 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', 0, 6, ['david0178418']),
 (189282896, 4196, 3941856, 'wesbos/beginner-javascript', 13, 'Slam Dunk JavaScript', 32, 5142, ['Asjas','wesbos']),
 (2015790, 4197, 469997, 'timwis/PhillySNAP-v1', 12, 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', 0, 3, ['timwis']),
@@ -4255,6 +4254,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (191051391, 379761757, 4247126, 'redwoodjs/redwood', 0, 'The App Framework for Startups', 278, 10799, ['peterp','thedavidprice']),
 (138393139, 381465486, 5842360, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 52, 58957, ['trimstray','lbonanomi']),
 (337850512, 406428542, 3202514, 'Call-for-Code-for-Racial-Justice/Call-for-Code-for-Racial-Justice', 0, 'The main repository for information on Call for Code® for Racial Justice projects, hosted by The Linux Foundation.', 4, 10, ['krook','demilolu']),
+(262658866, 3987, 5467696, 'jmcdo29/nestjs-oauth', 12, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', 8, 13, ['jmcdo29']),
 (261871717, 403681762, 203683, 'ThreeDotsLabs/wild-workouts-go-ddd-example', 0, 'Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.', 21, 2111, ['roblaszczak','m110']),
 (38832942, 404487277, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 24, 8825, ['Aharris88','jneidel']),
 (69609, 405868985, 55982424, 'internetarchive/openlibrary', 0, 'One webpage for every book ever published!', 758, 3374, ['mekarpeles','anandology']),
