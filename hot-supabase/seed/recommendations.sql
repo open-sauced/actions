@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T20:43:21.257Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T22:43:16.705Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -911,10 +911,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (53631945, 'BurntSushi/ripgrep', 28652, 129, 'ripgrep recursively searches directories for a regex pattern while respecting your gitignore', ['BurntSushi','okdana'], 1, 19, 0),
 (53639099, 'jamiebuilds/the-super-tiny-compiler', 21435, 17, ':snowman: Possibly the smallest compiler ever', ['jamiebuilds','donaldpipowitch'], 1, 2, 0),
 (53698167, 'jonasbn/til', 29, 4, 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', ['jonasbn','Amorymeltzer'], 1, 15, 0),
-(54068301, 'velocityzen/meta-extractor', 36, 3, 'Super simple and fast html page meta data extractor with low memory footprint', ['velocityzen','bevacqua'], 1, 15, 0),
 (54168759, 'SergioBenitez/Rocket', 15836, 120, 'A web framework for Rust.', ['SergioBenitez','jebrosen'], 1, 21, 0),
 (54173593, 'storybookjs/storybook', 67642, 1641, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ['shilman','ndelangen'], 1, 6, 0),
 (54226191, 'JanDeDobbeleer/oh-my-posh2', 5049, 0, 'A prompt theming engine for Powershell', ['JanDeDobbeleer','rashil2000'], 1, 13, 0),
+(54068301, 'velocityzen/meta-extractor', 36, 3, 'Super simple and fast html page meta data extractor with low memory footprint', ['velocityzen','bevacqua'], 1, 15, 0),
 (54244030, 'FarmBot-Labs/mqtt-gateway', 41, 0, 'DEPRECATED. Realtime messaging server for Farmbot (MQTT broker).', ['RickCarlino','roryaronson'], 1, 11, 0),
 (54254815, 'geo242/angular-tawk-to', 8, 2, 'Angular service and directive to angularify the tawk.to javascript API', ['tamvm','geo242'], 1, 4, 0),
 (54346799, 'public-apis/public-apis', 172342, 7, 'A collective list of free APIs', ['davemachado','matheusfelipeog'], 3, 18.333333333333332, 0),

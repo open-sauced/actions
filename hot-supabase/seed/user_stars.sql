@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T20:43:20.832Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T22:43:16.599Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -757,8 +757,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (299001731, 748, 1917293, 'Marcel-Jan/docker-hadoop-spark', 4, 'Multi-container environment with Hadoop, Spark and Hive', 0, 38, ['earthquakesan','Marcel-Jan']),
 (118870669, 749, 1917293, 'psi-zimb/psi-module', 5, 'For dev changes', 1, 1, ['Mahitha1467','gopikrishna-yaramothu']),
 (117790649, 750, 1917293, 'psi-zimb/psi-config', 6, 'Repository for PSI Zimbabwe Bahmni implementation', 0, 1, ['yashdave','matirp235']),
-(15708275, 751, 1917293, 'akvo/akvo-product-design', 7, 'Products Design Documents', 61, 10, ['adriancollier','mtwestra']),
 (138085677, 752, 1917293, 'CodePartnersMD/MD201-01', 8, null, 24, 1, ['zdiehlio']),
+(15708275, 751, 1917293, 'akvo/akvo-product-design', 7, 'Products Design Documents', 61, 10, ['adriancollier','mtwestra']),
 (42172184, 753, 1917293, 'servinglynk/hslynk-open-source', 9, 'An open source health and human services app platform and data warehouse.  Chat with us at: https://gitter.im/hslynk/Lobby .  Documentation, wiki, and issue tracker is at: https://github.com/servinglynk/hslynk-open-source-docs .  Coordinated Services code is at: https://github.com/hserv/ .  All APIs are at https://github.com/hmis-api and hosted at https://docs.hslynk.com.  Email listserv is at: https://groups.google.com/a/hslynk.com/forum/#!forum/community', 25, 5, ['logicsandeep','suryayadavalli']),
 (33763522, 754, 1917293, 'alt-code/Research', 10, null, 0, 15, ['chrisparnin','denaefordrobin']),
 (75078016, 755, 1917293, 'coopcycle/coopcycle-app', 11, 'CoopCycle native app', 144, 122, ['alexsegura','Atala']),
@@ -2920,8 +2920,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (45502812, 2923, 527550, 'unrelentingtech/freepass', 28, '[DEPRECATED] password manager thing', 2, 310, ['unrelentingtech','quininer']),
 (4449421, 2924, 527550, 'karmi/elasticsearch-paramedic', 29, 'A simple tool to inspect the state and statistics about ElasticSearch clusters', 4, 673, ['karmi','walokra']),
 (95560, 2925, 3941126, 'thuss/standalone-migrations', 0, 'A gem to use Rails Database Migrations in non Rails projects', 14, 948, ['thuss','mistersourcerer']),
-(5954, 2926, 3941126, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4541, ['jeremyevans','ciconia']),
 (184366, 2927, 3941126, 'opal/opal', 2, 'Ruby ♥︎ JavaScript', 108, 4560, ['elia','adambeynon']),
+(5954, 2926, 3941126, 'jeremyevans/sequel', 1, 'Sequel: The Database Toolkit for Ruby', 0, 4541, ['jeremyevans','ciconia']),
 (294972, 2928, 3941126, 'fnando/i18n-js', 3, 'It''s a small library to provide the I18n translations on the Javascript. It comes with Rails support.', 13, 3501, ['PikachuEXE','fnando']),
 (70342215, 2929, 3941126, 'bootstrap-vue/bootstrap-vue', 4, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', 167, 13612, ['tmorehouse','pi0']),
 (203587744, 2930, 3941126, 'hoppscotch/hoppscotch', 5, '👽 Open source API development ecosystem https://hoppscotch.io', 46, 34707, ['liyasthomas','AndrewBastin']),
