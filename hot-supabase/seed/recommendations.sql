@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T08:44:08.022Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-14T10:43:28.382Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3007,8 +3007,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (328831244, 'ibraheemdev/modern-unix', 18508, 57, 'A collection of modern/faster/saner alternatives to common unix commands.', ['ibraheemdev','hderms'], 1, 3, 0),
 (328887233, 'EugeCos/stylish-sidebar', 8, 0, 'An open source, production-ready React sidebar component that can be quickly implemented into any desktop dashboard.', ['EugeCos'], 1, 8, 0),
 (328981878, 'udberg/NearbyRestaurants', 1, 0, 'This project showcases a Telegram bot that helps you check for the restaurants closest to you.', ['udberg'], 1, 8, 0),
-(329140702, 'enochndika/kimia-UI', 237, 1, 'A collection of UI Components  for React built with Tailwind CSS 3', ['enochndika'], 1, 5, 0),
 (329025126, 'keithtelliott/FlipAgain', 4, 6, 'Flashcard app', ['keithtelliott','jtoar'], 1, 3, 0),
+(329140702, 'enochndika/kimia-UI', 237, 1, 'A collection of UI Components  for React built with Tailwind CSS 3', ['enochndika'], 1, 5, 0),
 (329252220, 'udberg/Dr-Robot', 4, 0, 'A Twitter bot that tracks tweets about Coronavirus, suggests the nearby hospitals, the most common symptoms of it, and the number of cases in five countries including Nigeria, South Africa, Cameroun, Rwanda, and Kenya.', ['udberg','abeidahmed'], 1, 9, 0),
 (330032932, 'MattMarquise/Wondrous-Theme', 2, 0, 'Theme template inspired by Superhuman site', ['MattMarquise'], 1, 22, 0),
 (330168809, 'domitriusclark/mdnext-blog', 5, 0, null, [], 1, 1, 0),
@@ -3536,8 +3536,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (398039380, 'vasspilka/bank', 14, 2, 'Sample Bank application used for my 2021 ElixirConf presentation', ['vasspilka'], 1, 20, 0),
 (398337342, 'Steffen911/license-checker-action', 1, 0, 'Run license-checker via GitHub Actions', ['Steffen911'], 1, 2, 0),
 (398345592, '3mer3wadh/CustomUI', 1, 0, 'Trying to create nice UI with xamarin forms ', ['3mer3wadh'], 1, 24, 0),
-(398627486, 'jquense/sass-tailwind-functions', 8, 0, 'Sass plugin implementing TailwindCSS functions', ['jquense'], 1, 3, 0),
 (398550050, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 158, 1, 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ['imsiddhant07','dakshp07'], 1, 0, 0),
+(398627486, 'jquense/sass-tailwind-functions', 8, 0, 'Sass plugin implementing TailwindCSS functions', ['jquense'], 1, 3, 0),
 (398656870, 'gungunfebrianza/Belajar-Dengan-Jenius-AWS-Node.js-Vol-2', 12, 0, ':books: Belajar Dengan Jenius AWS & Node.js bareng Gun Gun Febrianza', ['gungunfebrianza'], 1, 15, 0),
 (398666208, 'nachtfunke/basic-pattern-repository', 194, 0, 'Simple patterns for <use>. Just SVG - for your delight!', ['nachtfunke'], 1, 13, 0),
 (398684826, 'MichaelJolley/discord-guy-bot', 6, 2, 'A friendly Discord bot that helps server members use more inclusive language.', ['MichaelJolley'], 1, 6, 0),
