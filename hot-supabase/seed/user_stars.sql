@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T06:46:10.631Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T08:44:22.915Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2794,9 +2794,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (2902935, 424103216, 2228196, 'moovweb/gvm', 0, 'Go Version Manager', 147, 6984, ['jbussdieker','voxxit']),
 (8768406, 276703311, 29888641, 'postcss/autoprefixer', 0, ' Parse CSS and add vendor prefixes to rules by Can I Use', 32, 20111, ['ai','bogdan0083']),
 (361044034, 2800, 28281924, 'slidevjs/slidev', 6, 'Presentation Slides for Developers (Beta)', 48, 16821, ['antfu','nico-bachner']),
-(93808874, 2801, 28281924, 'bxcodec/go-clean-arch', 7, 'Go (Golang) Clean Architecture based on Reading Uncle Bob''s Clean Architecture', 18, 5148, ['bxcodec','h4yfans']),
 (339786950, 2802, 28281924, 'encoredev/encore', 8, 'The Backend Development Engine built for Go', 15, 2461, ['eandre','marcuskohlberg']),
 (74175805, 2803, 28281924, 'istio/istio', 9, 'Connect, secure, control, and observe services.', 645, 29015, ['howardjohn','istio-testing']),
+(93808874, 2801, 28281924, 'bxcodec/go-clean-arch', 7, 'Go (Golang) Clean Architecture based on Reading Uncle Bob''s Clean Architecture', 18, 5148, ['bxcodec','h4yfans']),
 (93098251, 2804, 28281924, 'gradvohl/tese-ft', 10, 'Template para trabalhos de conclusão de curso, dissertações e teses da Faculdade de Tecnologia da UNICAMP', 0, 11, ['gradvohl']),
 (126734232, 2805, 28281924, 'codediodeio/firestore-migrator', 11, ':bullettrain_side: A CLI utility for moving data to and from Cloud Firestore', 32, 293, ['stildalf','codediodeio']),
 (102969245, 2806, 28281924, 'golang-standards/project-layout', 12, 'Standard Go Project Layout', 71, 28431, ['kcq','xis']),
@@ -3012,9 +3012,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (26522697, 3014, 455338, 'neomake/neomake', 12, 'Asynchronous linting and make framework for Neovim/Vim', 210, 2513, ['blueyed','benekastah']),
 (71703548, 3015, 455338, 'liuchengxu/space-vim', 13, ':four_leaf_clover: Lean & mean spacemacs-ish Vim distribution', 14, 2786, ['liuchengxu','yesmeck']),
 (15505662, 3016, 455338, 'cknadler/vim-anywhere', 14, 'Use Vim everywhere you''ve always wanted to', 42, 3300, ['mmai','jtheoof']),
-(49516849, 3017, 455338, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 65, 3856, ['xwmx','heywoodlh']),
 (6887156, 3018, 455338, 'Yggdroot/indentLine', 16, 'A vim plugin to display the indention levels with thin vertical lines', 68, 3690, ['Yggdroot','stardiviner']),
 (41906632, 3019, 455338, 'brookhong/Surfingkeys', 17, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', 353, 3792, ['brookhong','jgkamat']),
+(49516849, 3017, 455338, 'xwmx/nb', 15, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', 65, 3856, ['xwmx','heywoodlh']),
 (9625333, 3020, 455338, 'mhinz/vim-startify', 18, ':link: The fancy start screen for Vim.', 52, 4488, ['mhinz','blueyed']),
 (74367471, 3021, 455338, 'mjswensen/themer', 19, '🎨 themer takes a set of colors and generates themes for your apps (editors, terminals, wallpapers, and more).', 19, 4492, ['mjswensen','spenserblack']),
 (3287, 3022, 455338, 'preservim/nerdcommenter', 20, 'Vim plugin for intensely nerdy commenting powers', 94, 4457, ['alerque','scrooloose']),
@@ -3065,8 +3065,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (367829938, 3067, 53687927, 'dwaipayan05/CovCNN-WebApp', 0, null, 1, 2, ['dwaipayan05']),
 (274593180, 3068, 53687927, 'Surya1231/ContestMania', 1, 'A platform for tracking your competitive progress on various competitive coding websites.', 1, 33, ['Surya1231','sanketcn']),
 (334167971, 3069, 53687927, 'ashishsahu1/ML-ProjectYard', 2, 'This repo consists of multiple machine learning based projects with frontend ', 16, 86, ['ashishsahu1','Amit366']),
-(131208436, 3071, 19475228, 'mariannnne/BodyMapItem_Online', 1, 'JS scripts for displaying body map items', 0, 1, ['mariannnne']),
 (308770, 3070, 19475228, 'heartcombo/devise', 0, 'Flexible authentication solution for Rails with Warden.', 167, 22094, ['josevalim','carlosantoniodasilva']),
+(131208436, 3071, 19475228, 'mariannnne/BodyMapItem_Online', 1, 'JS scripts for displaying body map items', 0, 1, ['mariannnne']),
 (22895156, 3072, 19475228, 'StartBootstrap/startbootstrap-agency', 2, 'A one page HTML theme for agencies created by Start Bootstrap', 1, 1811, ['davidtmiller','initplatform']),
 (25714588, 3073, 19475228, 'StartBootstrap/startbootstrap-sb-admin-2', 3, 'A free, open source, Bootstrap admin theme created by Start Bootstrap', 64, 9047, ['davidtmiller','challgren']),
 (97186109, 3074, 19475228, 'jfloff/docker-heroku-rails', 4, 'Docker container for Rails based on the new Heroku-16 base image.', 1, 15, ['jfloff','rnters-bot']),
