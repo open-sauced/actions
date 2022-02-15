@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T02:48:14.978Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T04:46:40.214Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2523,7 +2523,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (29514104, 2503, 3861088, 'netlify/netlify-cms', 18, 'A Git-based CMS for Static Site Generators', 632, 14793, ['erquhart','erezrokah']),
 (47018239, 2504, 3861088, 'DopplerHQ/awesome-interview-questions', 19, ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', 2, 44454, ['MaksimAbramchuk','ryan-blunden']),
 (76692542, 2505, 3861088, 'octobox/octobox', 20, '📮Untangle your GitHub Notifications', 37, 4140, ['andrew','tarebyte']),
-(46345142, 2506, 3861088, 'maestrano/maestrano-connector-rails', 21, 'Maestrano connector framework for Rails applications', 6, 2, ['MarcoBgn','BrunoChauvet']),
 (6804324, 2507, 3861088, 'yeoman/generator-angular', 22, 'Yeoman generator for AngularJS', 90, 5819, ['eddiemonge','passy']),
 (71732460, 2508, 3861088, 'engineerapart/TheRemoteFreelancer', 23, 'Listing of community-curated resources to find topical remote freelance & contract work for software developers, web designers, and more!', 0, 6438, ['andychase','codinronan']),
 (48701042, 2509, 3861088, 'thechangelog/changelog.com', 24, 'Changelog is news and podcast for developers. This is our open source platform.', 34, 2355, ['jerodsanto','gerhard']),
@@ -2817,6 +2816,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (139914932, 2821, 28281924, 'quarkusio/quarkus', 27, 'Quarkus: Supersonic Subatomic Java. ', 1897, 9041, ['gsmet','geoand']),
 (283910851, 2822, 28281924, 'Jucian0/recoil-example', 28, 'A small example about recoil', 11, 2, ['Jucian0']),
 (361310, 2823, 28281924, 'teamcapybara/capybara', 29, 'Acceptance test framework for web applications', 29, 9491, ['twalpole','jnicklas']),
+(46345142, 2506, 3861088, 'maestrano/maestrano-connector-rails', 21, 'Maestrano connector framework for Rails applications', 6, 2, ['MarcoBgn','BrunoChauvet']),
 (266346243, 2824, 3777549, 'open-sauced/goals-template', 0, 'This is the template repo for managing your contributions through opensauced.pizza', 3, 16, ['bdougie','gr2m']),
 (9394642, 2825, 3777549, 'kristopolous/BOOTSTRA.386', 1, 'A vintage 1980s DOS inspired Twitter Bootstrap theme', 51, 6047, ['kristopolous','tomer']),
 (172562475, 2826, 5736522, 'florinpop17/app-ideas', 0, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
