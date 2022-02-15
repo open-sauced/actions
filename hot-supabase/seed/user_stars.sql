@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T12:49:30.627Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T14:43:20.940Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1461,8 +1461,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (349288944, 1473, 34903088, 'vercel-solutions/nextjs-portfolio-starter', 27, 'Easily create a portfolio with Next.js and Markdown.', 3, 186, ['leerob','tolzhabayev']),
 (92283780, 1474, 34903088, 'fastify/fastify-nextjs', 28, 'React server side rendering support for Fastify with Next', 6, 364, ['mcollina','delvedor']),
 (396613541, 1475, 34903088, 'antfu/vite-plugin-inspect', 29, 'Inspect the intermediate state of Vite plugins', 3, 305, ['antfu','userquin']),
-(6554957, 1476, 49831545, 'edankwan/penis.js', 0, null, 9, 1086, ['jesseditson','edankwan']),
 (71551629, 1477, 49831545, 'carloscuesta/gitmoji', 1, 'An emoji guide for your commit messages. 😜 ', 8, 10979, ['carloscuesta','johannchopin']),
+(6554957, 1476, 49831545, 'edankwan/penis.js', 0, null, 9, 1086, ['jesseditson','edankwan']),
 (399061560, 1478, 49831545, 'creeperkafasi/linux-ip', 2, 'Deno.js package for the Linux ip command', 0, 1, ['creeperkafasi']),
 (161628058, 1479, 49831545, 'zhmushan/abc', 3, 'A better Deno framework to create web application.', 7, 575, ['zhmushan','LarsVomMars']),
 (265215050, 1480, 49831545, 'asos-craigmorten/opine', 4, 'Fast, minimalist web framework for Deno ported from ExpressJS.', 7, 705, ['asos-craigmorten','cmorten']),
@@ -3469,7 +3469,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3507455, 3471, 40713709, 'ornicar/lila', 25, '♞ lichess.org: the forever free, adless and open source chess server ♞', 553, 10549, ['ornicar','niklasf']),
 (191051391, 3472, 40713709, 'redwoodjs/redwood', 26, 'The App Framework for Startups', 264, 10379, ['peterp','thedavidprice']),
 (289072201, 3473, 40713709, 'sounishnath003/Educatify', 27, 'The Classroom made in India - Digital India Project - (BGI)', 0, 5, ['sounishnath003','sayancoding']),
-(321331966, 3474, 40713709, 'aashrafh/Mozart', 28, 'An optical music recognition (OMR) system. Converts sheet music to a machine-readable version.', 3, 344, ['aashrafh','AhmedMGZ7']),
 (8424040, 3475, 40713709, 'processing/p5.js', 29, 'p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —', 209, 16589, ['lmccart','outofambit']),
 (252029824, 3476, 9696352, 'BabylonJS/BabylonReactNative', 0, 'Build React Native applications with the power of Babylon Native', 32, 183, ['ryantrem','chrisfromwork']),
 (151890069, 3477, 9696352, 'jacobaustin123/Coral', 1, 'The Coral Programming Language: a blazingly-fast, gradually-typed Python compiler with optional static typing for optimization and safety.', 2, 135, ['jacobaustin123','mlb2251']),
@@ -3488,8 +3487,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (192597257, 3490, 9696352, 'minio/minio-rs', 14, 'MinIO Rust SDK for Amazon S3 Compatible Cloud Storage', 1, 53, ['donatello','dvaldivia']),
 (276889385, 3491, 9696352, 'ANSSI-FR/MLA', 15, 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', 10, 241, ['commial','sashaconway']),
 (112287150, 3492, 9696352, 'zboxfs/zbox', 16, 'Zero-details, privacy-focused in-app file system.', 12, 1262, ['burmecia','amiraeva']),
-(204591335, 3493, 9696352, 'WICG/urlpattern', 17, 'The URLPattern API provides a web platform primitive for matching URLs.', 24, 92, ['wanderview','lucacasonato']),
 (124409296, 3494, 9696352, 'styfle/breaking-changes-web', 18, '💢 A list of breaking changes to the web platform', 1, 334, ['styfle','bennypowers']),
+(204591335, 3493, 9696352, 'WICG/urlpattern', 17, 'The URLPattern API provides a web platform primitive for matching URLs.', 24, 92, ['wanderview','lucacasonato']),
 (391133915, 3495, 9696352, 'jsthomas/tidy-email', 19, 'An OCaml wrapper library that makes it easy to send email with different services.', 0, 23, ['jsthomas','aantron']),
 (145838509, 3496, 9696352, 'mapbox/potpack', 20, 'A tiny rectangle packing JavaScript library (for sprite layouts)', 0, 159, ['mourner','mbullington']),
 (86491149, 3497, 9696352, 'ChromeDevTools/devtools-protocol', 21, 'Chrome DevTools Protocol', 13, 707, ['devtools-bot','paulirish']),
@@ -3726,6 +3725,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (205473061, 3727, 907680, 'infinyon/fluvio', 15, 'Programmable platform for data in motion', 70, 811, ['sehz','nicholastmosher']),
 (17209875, 3728, 907680, 'romeovs/creep', 16, 'a pretty sweet 4px wide pixel font.', 10, 1644, ['romeovs','chase']),
 (349522340, 3729, 907680, 'google/lyra', 17, 'A Very Low-Bitrate Codec for Speech Compression', 40, 2948, ['jsoref','aluebs']),
+(321331966, 3474, 40713709, 'aashrafh/Mozart', 28, 'An optical music recognition (OMR) system. Converts sheet music to a machine-readable version.', 3, 344, ['aashrafh','AhmedMGZ7']),
 (340865067, 3730, 907680, 'tobetz/LegoMicroscope', 18, 'To learn about optics and microscopy, we generated a simple to build lego microscope that does not need precision optics and 3D printed parts. ', 0, 957, ['tobetz','bart-vos']),
 (347502287, 3731, 907680, 'kingoflolz/mesh-transformer-jax', 19, 'Model parallel transformers in JAX and Haiku', 6, 3656, ['kingoflolz','nostalgebraist']),
 (208509888, 3732, 907680, 'dosbox-staging/dosbox-staging', 20, 'DOS/x86 emulator focusing on ease of use', 117, 579, ['kcgen','dreamer']),
