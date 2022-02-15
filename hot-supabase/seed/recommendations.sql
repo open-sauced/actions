@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T16:48:03.391Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T18:44:50.089Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -426,6 +426,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (14705691, 'ziadoz/awesome-php', 26056, 104, 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ['ziadoz','josegonzalez'], 1, 14, 0),
 (14712850, 'syncthing/syncthing', 41996, 305, 'Open Source Continuous File Synchronization', ['calmh','AudriusButkevicius'], 1, 10, 0),
 (14747598, 'typicode/json-server', 58651, 608, 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', ['typicode','bahmutov'], 2, 21.5, 0),
+(14759456, 'sec-edgar/sec-edgar', 632, 21, ' Download all companies  periodic reports, filings and forms from EDGAR database.', ['jackmoody11','npsolve'], 1, 8, 0),
 (14807173, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 19671, 84, 'How to Make a Computer Operating System in C++', ['SamyPesse','mandliya'], 1, 7, 0),
 (14862081, 'adiel/coypu', 1, 0, 'Intuitive, robust browser automation for .Net', ['adiel','citizenmatt'], 1, 7, 0),
 (14887195, 'gzc/CLRS', 8193, 80, ':notebook:Solutions to Introduction to Algorithms', ['gzc','Jingru'], 1, 6, 0),
@@ -436,7 +437,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (15111821, 'grafana/grafana', 46120, 2195, 'The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ', ['torkelo','bergquist'], 1, 23, 0),
 (15117334, 'thlorenz/update-section', 3, 1, 'Updates a section inside a file with newer content while removing the old content.', ['thlorenz'], 1, 5, 0),
 (15185110, 'timoxley/columnify', 392, 25, 'Create text-based columns suitable for console output. Supports cell wrapping.', ['timoxley','danyshaanan'], 1, 17, 0),
-(14759456, 'sec-edgar/sec-edgar', 632, 21, ' Download all companies  periodic reports, filings and forms from EDGAR database.', ['jackmoody11','npsolve'], 1, 8, 0),
 (15204860, 'papers-we-love/papers-we-love', 52941, 26, 'Papers from the computer science community to read and discuss.', ['zeeshanlakhani','DarrenN'], 2, 0, 1),
 (15340074, 'leemunroe/responsive-html-email-template', 10862, 5, 'A free simple responsive HTML email template', ['leemunroe','webketje'], 1, 6, 0),
 (15367540, 'jruizgit/rules', 968, 190, 'Durable Rules Engine', ['jruizgit','hea-lab'], 1, 27, 0),
