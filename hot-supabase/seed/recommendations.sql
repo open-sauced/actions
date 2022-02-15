@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T18:44:50.089Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T20:43:22.991Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2496,7 +2496,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (258254038, 'hhhrrrttt222111/Ethical-Hacking-Tools', 542, 11, 'Complete Listing and Usage of Tools used for Ethical Hacking', ['hhhrrrttt222111','bettercalln1ck'], 1, 6, 0),
 (258352165, 'whoisryosuke/next-mdx-deck', 120, 5, 'Presentation decks using MDX, React, and Next.JS', ['whoisryosuke'], 1, 4, 0),
 (258465213, 'philips-labs/terraform-aws-github-runner', 688, 66, 'Terraform module for scalable GitHub action runners on AWS', ['npalm','gertjanmaas'], 1, 14, 0),
-(258513101, 'omariosouto/spotcast', 26, 9, ':sound: A Spotify + Pocket Casts merge, feito com React Native', ['omariosouto'], 1, 3, 0),
 (258616743, 'ryanbonial/car-gallery', 1, 0, null, ['ryanbonial'], 1, 16, 0),
 (258812961, 'cyrildiagne/ar-facedoodle', 507, 11, 'Doodle AR masks right from the browser with tensorflow.js', ['cyrildiagne'], 1, 29, 0),
 (258862770, 'kuasha/jvm', 8, 0, 'Home made java virtual machine', ['kuasha'], 1, 1, 0),
@@ -2745,14 +2744,15 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (288511462, 'teezzan/commitSpy-Core', 2, 0, 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', ['teezzan'], 1, 14, 0),
 (288627285, 'wobsoriano/v-dashboard', 655, 0, 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ['wobsoriano','sebassu'], 1, 25, 0),
 (289072201, 'sounishnath003/Educatify', 5, 0, 'The Classroom made in India - Digital India Project - (BGI)', ['sounishnath003','sayancoding'], 1, 27, 0),
-(289141880, 'sjproctor/cat-tinder-buildout', 1, 0, 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ['sjproctor'], 1, 9, 0),
 (289188530, 'reptilex/tesla-style-solar-power-card', 96, 17, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ['reptilex','dgomes'], 1, 18, 0),
+(289141880, 'sjproctor/cat-tinder-buildout', 1, 0, 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ['sjproctor'], 1, 9, 0),
 (289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (289256448, 'themesberg/volt-bootstrap-5-dashboard', 2261, 18, 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ['zoltanszogyenyi','robert1508'], 1, 22, 0),
 (289278036, 'leooverlord/ConsoleAppSamples', 1, 0, 'Repositório com exemplos.', ['leooverlord'], 1, 2, 0),
 (289516607, 'khang-nd/khang-nd.github.io', 27, 0, '📝 My window-styled portfolio', ['khang-nd'], 1, 7, 0),
 (289523918, 'ryo-ma/github-profile-trophy', 1940, 17, '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', ['ryo-ma','spenserblack'], 2, 25, 0),
 (289810394, 'elewin/pi-weather-station', 140, 7, null, ['elewin'], 1, 14, 0),
+(258513101, 'omariosouto/spotcast', 26, 9, ':sound: A Spotify + Pocket Casts merge, feito com React Native', ['omariosouto'], 1, 3, 0),
 (290020584, 'dmnemec/copy_file_to_another_repo_action', 61, 12, 'This GitHub Action copies a file from the current repository to a location in another repository', ['dmnemec','sta-szek'], 1, 21, 0),
 (290171658, 'pankod/canvas2video', 160, 9, 'canvas2video is a backend solution for creating and rendering dynamic videos.', ['aliemir','omeraplak'], 1, 1, 0),
 (290234921, 'JoseDeFreitas/awesome-youtubers', 2828, 1, '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', ['JoseDeFreitas','akaashsinha'], 1, 4, 0),
