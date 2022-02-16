@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T12:49:18.904Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T14:43:25.850Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2298,13 +2298,13 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (12427, 5301, 11, 'othneildrew/Best-README-Template', 161215159),
 (4, 20, 4, 'Virtual-Coffee/open-source', 278454783),
 (0, 3, 1, 'slidenerd/nuxt-auth', 222450899),
+(2, 48, 0, 'ivodolenc/nuxt-animejs', 317286633),
+(2182, 29248, 1302, 'iina/iina', 76838017),
 (0, 2, 0, 'ernestomancebo/angular-native-dialog', 146033470),
 (1, 5, 0, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', 332744719),
 (2, 7, 0, 'CrossGeeks/ScrollRevealXFSample', 399197552),
 (0, 2, 1, 'speijnik/myhome', 327400204),
-(2, 48, 0, 'ivodolenc/nuxt-animejs', 317286633),
 (231, 2392, 35, 'rsnapshot/rsnapshot', 4130226),
-(2182, 29248, 1302, 'iina/iina', 76838017),
 (40, 127, 7, 'poliva/ggposrv', 24964908),
 (970, 9882, 432, 'koreader/koreader', 8986217),
 (2047, 5790, 1079, 'snipe/snipe-it', 14346979),
