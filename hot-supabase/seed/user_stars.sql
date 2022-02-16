@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T04:46:54.802Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T06:46:15.051Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1329,9 +1329,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (131770422, 1341, 29004466, 'neoclide/coc.nvim', 13, 'Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.', 37, 18326, ['chemzqm','fannheyward']),
 (214551763, 1342, 29004466, 'augmentable-dev/tickgit', 14, 'Manage your repository''s TODOs, tickets and checklists as config in your codebase.', 9, 269, ['patrickdevivo','jsoref']),
 (279678603, 1343, 29004466, 'felixrieseberg/macintosh.js', 15, '🖥 A virtual Apple Macintosh with System 8, running in Electron. I''m sorry.', 80, 7627, ['felixrieseberg','jonathanpotts']),
+(9350746, 1344, 29004466, 'gitbucket/gitbucket', 16, 'A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility', 336, 8550, ['takezoe','kounoike']),
 (72495579, 1345, 29004466, 'go-gitea/gitea', 17, 'Git with a cup of tea, painless self-hosted git service', 1868, 27481, ['unknwon','GiteaBot']),
 (112953694, 1346, 29004466, 'digitallyinduced/ihp', 18, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2766, ['mpscholten','Laobiz']),
-(9350746, 1344, 29004466, 'gitbucket/gitbucket', 16, 'A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility', 336, 8550, ['takezoe','kounoike']),
 (137724480, 1347, 29004466, 'hasura/graphql-engine', 19, 'Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.', 1702, 24895, ['rikinsk','rakeshkky']),
 (173286031, 1348, 29004466, 'input-output-hk/cardano-wallet', 20, 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', 76, 587, ['KtorZ','jonathanknowles']),
 (188299874, 1349, 29004466, 'input-output-hk/cardano-node', 21, 'The core component that is used to participate in a Cardano decentralised blockchain.', 420, 2401, ['dcoutts','Jimbo4350']),
@@ -2606,8 +2606,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (183712153, 2586, 29547465, 'dasDaniel/svelte-table', 28, 'A svelte-3 table implementation that allows sorting and filtering', 8, 256, ['dasDaniel','thilo-behnke']),
 (285135417, 2587, 29547465, 'erkrnt/sample-web-frameworks', 29, 'This repo includes a variety of current frameworks and bundlers.', 0, 3, ['erkrnt']),
 (172490214, 2588, 38725511, 'rohanbaraskar/UiPath-11', 0, 'UiPath Projects', 0, 9, ['ishmeet1995']),
-(399619886, 2589, 38725511, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic']),
 (368311388, 2590, 38725511, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal']),
+(399619886, 2589, 38725511, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic']),
 (345219371, 2591, 38725511, 'lukexyz/lightweight', 3, 'algorithmic booty maximiser 💪🎯💪 ', 0, 19, ['lukexyz']),
 (172562475, 2592, 38725511, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
 (357272600, 2593, 13490604, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5211, ['ts-thomas','kodie']),
@@ -3409,8 +3409,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (383845459, 3411, 38838958, 'lorenaaze/codewars.desafios', 2, 'Solução de desafios encontrados na plataforma codewars ', 0, 4, ['lorenaaze']),
 (34134519, 3412, 38838958, 'awvalenti/materialdidatico', 3, 'Material didático para assuntos gerais de desenvolvimento de software', 0, 4, ['awvalenti']),
 (149731937, 3413, 38838958, 'remotemobprogramming/mob', 4, 'Tool for smooth git handover.', 6, 729, ['simonharrer','gregorriegler']),
-(184456251, 3414, 38838958, 'microsoft/PowerToys', 5, 'Windows system utilities to maximize productivity', 2097, 65379, ['bao-qian','crutkas']),
 (1542281, 3415, 38838958, 'ChrisMarinos/FSharpKoans', 6, 'A simple, fun, and interactive way to learn the F# language through testing.', 13, 1140, ['ChrisMarinos','dsyme']),
+(184456251, 3414, 38838958, 'microsoft/PowerToys', 5, 'Windows system utilities to maximize productivity', 2097, 65379, ['bao-qian','crutkas']),
 (52630616, 3416, 3846874, 'apollographql/apollo-client', 0, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 556, 17087, ['benjamn','renovate-bot']),
 (14210523, 3417, 3846874, 'yargs/yargs', 1, ' yargs the modern, pirate-themed successor to optimist.', 299, 9392, ['bcoe','substack']),
 (1341324, 3418, 3846874, 'isaacs/rimraf', 2, 'A `rm -rf` util for nodejs', 63, 4532, ['isaacs','PeterDaveHello']),

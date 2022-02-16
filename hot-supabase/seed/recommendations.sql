@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T04:46:54.989Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T06:46:15.341Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -766,9 +766,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (41881900, 'microsoft/vscode', 125676, 5350, 'Visual Studio Code', ['bpasero','jrieken'], 1, 3, 2),
 (41889031, 'TeamNewPipe/NewPipe', 15880, 1037, 'A libre lightweight streaming front-end for Android.', ['theScrabi','TobiGr'], 1, 26, 0),
 (41900099, 'trailblazer/trailblazer-rails', 139, 3, 'Trailblazer in Rails.', ['apotonick','emaglio'], 1, 23, 0),
-(41906632, 'brookhong/Surfingkeys', 3792, 353, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', ['brookhong','jgkamat'], 1, 17, 0),
 (41964498, 'prometheus/blackbox_exporter', 2645, 87, 'Blackbox prober exporter', ['brian-brazil','SuperQ'], 1, 26, 0),
 (42029482, 'AlDanial/cloc', 13121, 18, 'cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.', ['AlDanial','stsnel'], 1, 9, 0),
+(41906632, 'brookhong/Surfingkeys', 3792, 353, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', ['brookhong','jgkamat'], 1, 17, 0),
 (42033086, 'styleguidist/react-styleguidist', 10192, 115, 'Isolated React component development environment with a living style guide', ['sapegin','n1313'], 1, 23, 0),
 (42172184, 'servinglynk/hslynk-open-source', 5, 25, 'An open source health and human services app platform and data warehouse.  Chat with us at: https://gitter.im/hslynk/Lobby .  Documentation, wiki, and issue tracker is at: https://github.com/servinglynk/hslynk-open-source-docs .  Coordinated Services code is at: https://github.com/hserv/ .  All APIs are at https://github.com/hmis-api and hosted at https://docs.hslynk.com.  Email listserv is at: https://groups.google.com/a/hslynk.com/forum/#!forum/community', ['logicsandeep','suryayadavalli'], 1, 9, 0),
 (42191943, 'cyrus-and/gdb-dashboard', 7972, 11, 'Modular visual interface for GDB in Python', ['cyrus-and','alfunx'], 1, 0, 0),
@@ -1457,14 +1457,14 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (116392590, 'stefanprodan/podinfo', 1771, 11, 'Go microservice template for Kubernetes', ['stefanprodan','dmccaffery'], 1, 8, 0),
 (116586047, 'ewilken/hap-rs', 111, 9, 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', ['ewilken','Gaelan'], 1, 7, 0),
 (116612925, 'vaidehijoshi/basecs-series', 821, 1, 'A compiled list of resources from the basecs series', ['vaidehijoshi'], 1, 29, 0),
-(116800189, 'dockersamples/k8s-wordsmith-demo', 164, 4, 'Sample project with Docker containers running under Kubernetes', ['BretFisher','otherguy'], 1, 23, 0),
-(116825580, 'kubernetes-sigs/kubefed', 1967, 27, 'Kubernetes Cluster Federation', ['k8s-ci-robot','marun'], 1, 18, 0),
 (116848168, 'Marcisbee/radi', 952, 0, '🌀Tiny (in size) front-end framework with no extra browser re-flows', ['Marcisbee','rafaelklaessen'], 1, 7, 0),
+(116825580, 'kubernetes-sigs/kubefed', 1967, 27, 'Kubernetes Cluster Federation', ['k8s-ci-robot','marun'], 1, 18, 0),
 (117156031, 'prysmaticlabs/prysm', 2326, 151, 'Go implementation of Ethereum proof of stake', ['terencechain','prestonvanloon'], 1, 11, 0),
 (117296026, 'wowthemesnet/mediumish-theme-jekyll', 934, 55, 'Jekyll Template - Mediumish', ['wowthemesnet','GiacomoLaw'], 1, 25, 0),
 (117300524, 'gitcoinco/community', 25, 2, 'index of all the community stuff associated with gitcoin', ['owocki','vs77bb'], 1, 20, 0),
 (117372806, 'yangshun/front-end-interview-handbook', 32314, 14, '⚡️ Front End interview preparation materials for busy engineers', ['yangshun','ysm0622'], 2, 10.5, 0),
 (117398892, 'lenadroid/awesome-oss-mentors', 490, 3, 'List of OSS contributors willing to help others with their first pull requests!', ['lenadroid','seanknox'], 1, 24, 0),
+(116800189, 'dockersamples/k8s-wordsmith-demo', 164, 4, 'Sample project with Docker containers running under Kubernetes', ['BretFisher','otherguy'], 1, 23, 0),
 (117464254, 'bojidaryovchev/nest-angular', 312, 24, 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ['bojidaryovchev','heralight'], 1, 3, 0),
 (117581345, 'grnet/archiving', 1, 6, 'A Ruby-On-Rails Frontend for Bacula', ['parstra','ctrochalakis'], 1, 25, 0),
 (117610654, 'maticzav/nookies', 1576, 12, '🍪 A set of cookie helpers for Next.js', ['renovate-bot','maticzav'], 1, 8, 0),
@@ -2324,8 +2324,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (234917971, 'Olanetsoft/Ticking-Clock-With-React', 4, 0, null, ['Olanetsoft'], 1, 16, 0),
 (235000987, 'renatogroffe/DotNetCore3.1_Refit-JWT-RefreshTokens-Polly', 5, 0, 'Exemplo de consumo em .NET Core 3.1 de uma API REST protegida por tokens (JWT) e que emprega Refresh Tokens, utilizando para isto a biblioteca Refit e com tratamento de falhas através da biblioteca Polly', ['renatogroffe'], 1, 5, 0),
 (235237823, 'dvarrazzo/replisome', 6, 0, 'handsomely replicate something', ['dvarrazzo','eulerto'], 1, 14, 0),
-(235434204, 'benbusby/whoogle-search', 4700, 35, 'A self-hosted, ad-free, privacy-respecting metasearch engine', ['benbusby','vacom13'], 1, 2, 0),
 (235283287, 'fpereiro/backendlore', 4936, 0, 'How I write backends', ['fpereiro','sshine'], 1, 26, 0),
+(235434204, 'benbusby/whoogle-search', 4700, 35, 'A self-hosted, ad-free, privacy-respecting metasearch engine', ['benbusby','vacom13'], 1, 2, 0),
 (235469871, 'dotnet/interactive', 1548, 304, '.NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn''t before.', ['colombod','jonsequitur'], 1, 3, 0),
 (235943258, 'jason0x43/hacs-hubitat', 86, 26, 'A Hubitat integration for Home Assistant', ['jason0x43','amosyuen'], 1, 8, 0),
 (235970716, 'yomaokobiah/nairaland-visualisation', 1, 0, 'A visualisation of members on nairaland.com ages.', ['yomaokobiah'], 1, 17, 0),
