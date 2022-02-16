@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T06:46:15.051Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T08:44:03.183Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1851,8 +1851,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (371298202, 1863, 58482194, 'wheatjs/vueuse-playground', 24, 'An online playground for VueUse', 2, 116, ['wheatjs','cawa-93']),
 (388456202, 1864, 58482194, 'Borrus-sudo/TypedJS', 25, 'A library for run time JS types', 0, 2, ['Borrus-sudo']),
 (385850163, 1865, 58482194, 'Borrus-sudo/vue-generator-graph', 26, '🌌 An extension which will create a graph of a vuejs app by statically analyzing imports and auto imported components', 0, 53, ['Borrus-sudo']),
-(20929025, 1866, 58482194, 'microsoft/TypeScript', 27, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', 5382, 76844, ['ahejlsberg','sheetalkamat']),
 (379496251, 1867, 58482194, 'Borrus-sudo/jsgandalf', 28, '🌈 My new website ', 1, 5, ['Borrus-sudo']),
+(20929025, 1866, 58482194, 'microsoft/TypeScript', 27, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', 5382, 76844, ['ahejlsberg','sheetalkamat']),
 (71995937, 1868, 58482194, 'nuxt/nuxt.js', 29, 'The Intuitive Vue(2) Framework', 472, 39029, ['pi0','Atinux']),
 (322542582, 1869, 75340837, 'EthWorks/useDApp', 0, 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', 66, 722, ['nezouse','marekkirejczyk']),
 (157421028, 1870, 75340837, 'NoahZinsmeister/web3-react', 1, '🧰 A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps', 144, 2389, ['NoahZinsmeister','chaitanyapotti']),
@@ -2606,8 +2606,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (183712153, 2586, 29547465, 'dasDaniel/svelte-table', 28, 'A svelte-3 table implementation that allows sorting and filtering', 8, 256, ['dasDaniel','thilo-behnke']),
 (285135417, 2587, 29547465, 'erkrnt/sample-web-frameworks', 29, 'This repo includes a variety of current frameworks and bundlers.', 0, 3, ['erkrnt']),
 (172490214, 2588, 38725511, 'rohanbaraskar/UiPath-11', 0, 'UiPath Projects', 0, 9, ['ishmeet1995']),
-(368311388, 2590, 38725511, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal']),
 (399619886, 2589, 38725511, 'ousecTic/Ethereum-Voting-App', 1, 'ReactJS, Ether.js, Hardhat', 0, 2, ['ousecTic']),
+(368311388, 2590, 38725511, 'pranshudobhal/quiz-master', 2, 'A quiz app on your favorite topics', 1, 2, ['pranshudobhal']),
 (345219371, 2591, 38725511, 'lukexyz/lightweight', 3, 'algorithmic booty maximiser 💪🎯💪 ', 0, 19, ['lukexyz']),
 (172562475, 2592, 38725511, 'florinpop17/app-ideas', 4, 'A Collection of application ideas which can be used to improve your coding skills.', 282, 46668, ['florinpop17','jdmedlock']),
 (357272600, 2593, 13490604, 'nextapps-de/winbox', 0, 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', 34, 5211, ['ts-thomas','kodie']),
@@ -3409,8 +3409,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (383845459, 3411, 38838958, 'lorenaaze/codewars.desafios', 2, 'Solução de desafios encontrados na plataforma codewars ', 0, 4, ['lorenaaze']),
 (34134519, 3412, 38838958, 'awvalenti/materialdidatico', 3, 'Material didático para assuntos gerais de desenvolvimento de software', 0, 4, ['awvalenti']),
 (149731937, 3413, 38838958, 'remotemobprogramming/mob', 4, 'Tool for smooth git handover.', 6, 729, ['simonharrer','gregorriegler']),
-(1542281, 3415, 38838958, 'ChrisMarinos/FSharpKoans', 6, 'A simple, fun, and interactive way to learn the F# language through testing.', 13, 1140, ['ChrisMarinos','dsyme']),
 (184456251, 3414, 38838958, 'microsoft/PowerToys', 5, 'Windows system utilities to maximize productivity', 2097, 65379, ['bao-qian','crutkas']),
+(1542281, 3415, 38838958, 'ChrisMarinos/FSharpKoans', 6, 'A simple, fun, and interactive way to learn the F# language through testing.', 13, 1140, ['ChrisMarinos','dsyme']),
 (52630616, 3416, 3846874, 'apollographql/apollo-client', 0, ':rocket:  A fully-featured, production ready caching GraphQL client for every UI framework and GraphQL server.', 556, 17087, ['benjamn','renovate-bot']),
 (14210523, 3417, 3846874, 'yargs/yargs', 1, ' yargs the modern, pirate-themed successor to optimist.', 299, 9392, ['bcoe','substack']),
 (1341324, 3418, 3846874, 'isaacs/rimraf', 2, 'A `rm -rf` util for nodejs', 63, 4532, ['isaacs','PeterDaveHello']),

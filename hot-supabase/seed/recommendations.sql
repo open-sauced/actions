@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T06:46:15.341Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T08:44:03.079Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -766,9 +766,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (41881900, 'microsoft/vscode', 125676, 5350, 'Visual Studio Code', ['bpasero','jrieken'], 1, 3, 2),
 (41889031, 'TeamNewPipe/NewPipe', 15880, 1037, 'A libre lightweight streaming front-end for Android.', ['theScrabi','TobiGr'], 1, 26, 0),
 (41900099, 'trailblazer/trailblazer-rails', 139, 3, 'Trailblazer in Rails.', ['apotonick','emaglio'], 1, 23, 0),
+(41906632, 'brookhong/Surfingkeys', 3792, 353, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', ['brookhong','jgkamat'], 1, 17, 0),
 (41964498, 'prometheus/blackbox_exporter', 2645, 87, 'Blackbox prober exporter', ['brian-brazil','SuperQ'], 1, 26, 0),
 (42029482, 'AlDanial/cloc', 13121, 18, 'cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.', ['AlDanial','stsnel'], 1, 9, 0),
-(41906632, 'brookhong/Surfingkeys', 3792, 353, 'Map your keys for web surfing, expand your browser with javascript and keyboard.', ['brookhong','jgkamat'], 1, 17, 0),
 (42033086, 'styleguidist/react-styleguidist', 10192, 115, 'Isolated React component development environment with a living style guide', ['sapegin','n1313'], 1, 23, 0),
 (42172184, 'servinglynk/hslynk-open-source', 5, 25, 'An open source health and human services app platform and data warehouse.  Chat with us at: https://gitter.im/hslynk/Lobby .  Documentation, wiki, and issue tracker is at: https://github.com/servinglynk/hslynk-open-source-docs .  Coordinated Services code is at: https://github.com/hserv/ .  All APIs are at https://github.com/hmis-api and hosted at https://docs.hslynk.com.  Email listserv is at: https://groups.google.com/a/hslynk.com/forum/#!forum/community', ['logicsandeep','suryayadavalli'], 1, 9, 0),
 (42191943, 'cyrus-and/gdb-dashboard', 7972, 11, 'Modular visual interface for GDB in Python', ['cyrus-and','alfunx'], 1, 0, 0),
@@ -1288,7 +1288,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (95011980, 'go-ego/riot', 6029, 50, 'Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.', ['vcaesar','szyhf'], 1, 5, 0),
 (95114338, 'github/accessibilityjs', 2190, 5, 'Client side accessibility error scanner.', ['muan','mislav'], 1, 18, 0),
 (95331263, 'samccone/bundle-buddy', 2868, 20, 'A tool to understand your bundle size and why files are in your bundle', ['samccone','susielu'], 1, 12, 0),
-(95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 315, 6, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', ['callicoder'], 1, 4, 0),
 (95650568, 'git-srinivas/ds-js', 2, 0, null, ['git-srinivas','superman32432432'], 1, 25, 0),
 (95755693, 'yangshun/lago', 1974, 6, '📕 Data Structures and Algorithms library in TypeScript', ['yangshun','mauris'], 1, 14, 0),
 (95830088, 'joeyism/py-edgar', 179, 6, 'A small library to access files from SEC''s edgar', ['joeyism','kbennatti'], 1, 24, 0),
@@ -1457,14 +1456,14 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (116392590, 'stefanprodan/podinfo', 1771, 11, 'Go microservice template for Kubernetes', ['stefanprodan','dmccaffery'], 1, 8, 0),
 (116586047, 'ewilken/hap-rs', 111, 9, 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', ['ewilken','Gaelan'], 1, 7, 0),
 (116612925, 'vaidehijoshi/basecs-series', 821, 1, 'A compiled list of resources from the basecs series', ['vaidehijoshi'], 1, 29, 0),
-(116848168, 'Marcisbee/radi', 952, 0, '🌀Tiny (in size) front-end framework with no extra browser re-flows', ['Marcisbee','rafaelklaessen'], 1, 7, 0),
+(116800189, 'dockersamples/k8s-wordsmith-demo', 164, 4, 'Sample project with Docker containers running under Kubernetes', ['BretFisher','otherguy'], 1, 23, 0),
 (116825580, 'kubernetes-sigs/kubefed', 1967, 27, 'Kubernetes Cluster Federation', ['k8s-ci-robot','marun'], 1, 18, 0),
+(116848168, 'Marcisbee/radi', 952, 0, '🌀Tiny (in size) front-end framework with no extra browser re-flows', ['Marcisbee','rafaelklaessen'], 1, 7, 0),
 (117156031, 'prysmaticlabs/prysm', 2326, 151, 'Go implementation of Ethereum proof of stake', ['terencechain','prestonvanloon'], 1, 11, 0),
 (117296026, 'wowthemesnet/mediumish-theme-jekyll', 934, 55, 'Jekyll Template - Mediumish', ['wowthemesnet','GiacomoLaw'], 1, 25, 0),
 (117300524, 'gitcoinco/community', 25, 2, 'index of all the community stuff associated with gitcoin', ['owocki','vs77bb'], 1, 20, 0),
 (117372806, 'yangshun/front-end-interview-handbook', 32314, 14, '⚡️ Front End interview preparation materials for busy engineers', ['yangshun','ysm0622'], 2, 10.5, 0),
 (117398892, 'lenadroid/awesome-oss-mentors', 490, 3, 'List of OSS contributors willing to help others with their first pull requests!', ['lenadroid','seanknox'], 1, 24, 0),
-(116800189, 'dockersamples/k8s-wordsmith-demo', 164, 4, 'Sample project with Docker containers running under Kubernetes', ['BretFisher','otherguy'], 1, 23, 0),
 (117464254, 'bojidaryovchev/nest-angular', 312, 24, 'NestJS, Angular 6, Server Side Rendering (Angular Universal), GraphQL, JWT (JSON Web Tokens) and Facebook/Twitter/Google Authentication, Mongoose, MongoDB, Webpack, TypeScript', ['bojidaryovchev','heralight'], 1, 3, 0),
 (117581345, 'grnet/archiving', 1, 6, 'A Ruby-On-Rails Frontend for Bacula', ['parstra','ctrochalakis'], 1, 25, 0),
 (117610654, 'maticzav/nookies', 1576, 12, '🍪 A set of cookie helpers for Next.js', ['renovate-bot','maticzav'], 1, 8, 0),
@@ -1538,6 +1537,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (125241315, 'lordpoint/xorshift-sandbox-and-visualizer', 29, 3, 'An implementation of the xorshift+ pseudo-random number generation (PRNG) algorithm in javascript that provides visualization of the algorithm''s outcome in order to help understand its apparent randomness', ['lordpoint'], 1, 21, 0),
 (126231747, 'RedHatOfficial/RedHatOfficial.github.io', 339, 12, 'The official Red Hat project page.', ['bproffitt','castastrophe'], 1, 14, 0),
 (126577260, 'trekhleb/javascript-algorithms', 133907, 221, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', ['trekhleb','m-maksyutin'], 1, 0, 0),
+(95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 315, 6, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', ['callicoder'], 1, 4, 0),
 (126734232, 'codediodeio/firestore-migrator', 293, 32, ':bullettrain_side: A CLI utility for moving data to and from Cloud Firestore', ['stildalf','codediodeio'], 1, 11, 0),
 (126738831, 'etiennedi/keycloak-nginx-https-self', 54, 0, 'create a CA, self-sign a certificate and add https through an nginx in front of keycloak.', ['etiennedi'], 1, 9, 0),
 (126813008, 'mobz/lag-radar', 830, 0, 'Trace frame rate lag with a sexy performance radar', ['mobz','andywer'], 1, 29, 0),
