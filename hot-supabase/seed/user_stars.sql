@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T18:45:06.003Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T20:43:18.833Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -554,8 +554,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (154143869, 548, 74208843, 'OdeToCode/OdeToFood', 2, 'A repo for the ASP.NET Core Pluralsight Project', 13, 381, ['OdeToCode','ameyer117']),
 (206982984, 549, 74208843, 'kamranahmedse/roadmap.sh', 3, 'Community driven roadmaps, articles and resources for developers', 107, 1728, ['kamranahmedse','lex111']),
 (9852918, 550, 74208843, 'TryGhost/Ghost', 4, 'Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.', 57, 39282, ['ErisDS','renovate-bot']),
-(362869006, 552, 74208843, 'demo-days/innersource-faq-template', 6, 'InnerSource FAQ Starter template GitHub Pages', 0, 4, ['ppremk']),
 (145744368, 551, 74208843, 'jscomplete/ngs', 5, 'Node.js: Getting Started', 7, 382, ['samerbuna']),
+(362869006, 552, 74208843, 'demo-days/innersource-faq-template', 6, 'InnerSource FAQ Starter template GitHub Pages', 0, 4, ['ppremk']),
 (59096058, 553, 74208843, 'TryGhost/Admin', 7, 'Ghost''s admin client', 43, 586, ['kevinansfield','ErisDS']),
 (16072585, 554, 289882, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 34, 17498, ['chrismccord','josevalim']),
 (66096179, 555, 289882, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox']),
@@ -2498,10 +2498,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (134035452, 2478, 1228996, 'justadudewhohacks/face-api.js', 16, 'JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js', 379, 13286, ['justadudewhohacks','jderrough']),
 (262451884, 2479, 1228996, 'jlengstorf/lwj-scenes', 17, null, 10, 11, ['jlengstorf']),
 (166471416, 2480, 1228996, 'instafluff/ComfyJS', 18, 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', 12, 204, ['instafluff','AlcaDesign']),
-(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (156217558, 2482, 1228996, 'microsoft/vscode-dev-containers', 20, 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', 129, 2736, ['Chuxel','chrmarti']),
 (187325459, 2483, 1228996, 'mheap/markdown-to-jira', 21, 'Create Jira tickets from a plain text format', 5, 7, ['mheap']),
 (241080452, 2484, 1228996, 'brettmillerb/sqlpackage-docker', 22, 'Github repo to build and release container image for sqlpackage', 0, 1, ['brettmillerb']),
+(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (214587193, 2485, 3861088, 'supabase/supabase', 0, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25466, ['kiwicopple','MildTomato']),
 (248661350, 2486, 3861088, 'drewclem/protege', 1, 'Remote jobs for junior developers', 24, 62, ['drewclem','pickleat']),
 (355664397, 2487, 3861088, 'ronakganatra/awesome-developer-marketing', 2, 'A living document of hand-picked resources for marketers working on dev-centric products', 0, 96, ['ronakganatra','amorimjuliana']),
@@ -3180,7 +3180,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (386740498, 3182, 22655167, 'lukesmurray/scrawl', 19, 'A chrome extension which lets you draw on any web page with excalidraw', 5, 46, ['lukesmurray']),
 (262501222, 3183, 22655167, 'privatenumber/esbuild-loader', 20, '⚡️ Speed up your Webpack build with esbuild', 7, 2557, ['privatenumber','egoist']),
 (380298833, 3184, 22655167, 'prisma-labs/bema', 21, '🐎 Delightful benchmarking for Node.js ', 9, 59, ['jasonkuhrt','iheyunfei']),
-(368917877, 3185, 22655167, 'BuilderIO/qwik', 22, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', 17, 1271, ['mhevery','adamdbradley']),
 (130884470, 3186, 22655167, 'solidjs/solid', 23, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', 22, 13199, ['ryansolid','davedbase']),
 (7122594, 3187, 22655167, 'directus/directus', 24, 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', 200, 13248, ['rijkvanzanten','benhaynes']),
 (332757634, 3188, 22655167, 'jonasstrehle/supercookie', 25, '⚠️ Browser fingerprinting via favicon!', 8, 3633, ['jonasstrehle','szepeviktor']),
@@ -3235,9 +3234,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71359796, 3237, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (133134007, 3238, 69519470, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2933, 10698, ['wing328','fehguy']),
 (68414068, 3239, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 30, 7378, ['bkeepers','gr2m']),
+(15204860, 3240, 35429278, 'papers-we-love/papers-we-love', 1, 'Papers from the computer science community to read and discuss.', 19, 50916, ['zeeshanlakhani','DarrenN']),
 (91653269, 3241, 35429278, 'akiraux/Akira', 2, 'Native Linux App for UI and UX Design built in Vala and GTK', 38, 4605, ['Alecaddd','giacomoalbe']),
 (181462414, 3242, 35429278, 'Alikhll/golang-developer-roadmap', 3, 'Roadmap to becoming a Go developer in 2020', 14, 13269, ['Alikhll','roblaszczak']),
-(15204860, 3240, 35429278, 'papers-we-love/papers-we-love', 1, 'Papers from the computer science community to read and discuss.', 19, 50916, ['zeeshanlakhani','DarrenN']),
 (16202183, 3243, 35429278, 'ivanlanin/kateglo', 4, 'Indonesian dictionary, thesaurus, and glossary application', 2, 105, ['ivanlanin']),
 (155288604, 3244, 35429278, 'shikijs/shiki', 5, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
 (85701992, 3245, 35429278, 'dicebear/dicebear', 6, 'DiceBear is an avatar library for designers and developers.', 3, 3450, ['FlorianKoerner','flogado']),
@@ -3292,6 +3291,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (46041284, 3294, 16259450, 'VSCodeVim/Vim', 21, ':star: Vim for Visual Studio Code', 1152, 9811, ['jpoon','johnfn']),
 (53321815, 3295, 16259450, 'picturepan2/spectre', 22, 'Spectre.css - A Lightweight, Responsive and Modern CSS Framework', 189, 10944, ['picturepan2','renegat59']),
 (88367107, 3296, 16259450, 'nusu/spectre.scss', 23, 'port of spectre.css to sass', 1, 16, ['nusu','mtancoigne']),
+(368917877, 3185, 22655167, 'BuilderIO/qwik', 22, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', 17, 1271, ['mhevery','adamdbradley']),
 (63508378, 3297, 16259450, 'sindresorhus/hyper-snazzy', 24, 'Elegant Hyper theme with bright colors', 5, 1314, ['sindresorhus','connorholyday']),
 (98029592, 3298, 16259450, 'ziishaned/learn-regex', 25, 'Learn regex the easy way', 56, 40108, ['ziishaned','bueltge']),
 (14106970, 3299, 16259450, 'tachyons-css/tachyons', 26, 'Functional css for humans', 87, 11069, ['mrmrs','johno']),
