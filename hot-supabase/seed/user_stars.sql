@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T16:49:29.757Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T18:45:06.003Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -554,8 +554,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (154143869, 548, 74208843, 'OdeToCode/OdeToFood', 2, 'A repo for the ASP.NET Core Pluralsight Project', 13, 381, ['OdeToCode','ameyer117']),
 (206982984, 549, 74208843, 'kamranahmedse/roadmap.sh', 3, 'Community driven roadmaps, articles and resources for developers', 107, 1728, ['kamranahmedse','lex111']),
 (9852918, 550, 74208843, 'TryGhost/Ghost', 4, 'Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.', 57, 39282, ['ErisDS','renovate-bot']),
-(145744368, 551, 74208843, 'jscomplete/ngs', 5, 'Node.js: Getting Started', 7, 382, ['samerbuna']),
 (362869006, 552, 74208843, 'demo-days/innersource-faq-template', 6, 'InnerSource FAQ Starter template GitHub Pages', 0, 4, ['ppremk']),
+(145744368, 551, 74208843, 'jscomplete/ngs', 5, 'Node.js: Getting Started', 7, 382, ['samerbuna']),
 (59096058, 553, 74208843, 'TryGhost/Admin', 7, 'Ghost''s admin client', 43, 586, ['kevinansfield','ErisDS']),
 (16072585, 554, 289882, 'phoenixframework/phoenix', 0, 'Peace of mind from prototype to production', 34, 17498, ['chrismccord','josevalim']),
 (66096179, 555, 289882, 'armandofox/alexa-marantz-py', 1, 'Alexa skill to control my Marantz SR6005 AVR', 0, 3, ['armandofox']),
@@ -3235,9 +3235,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71359796, 3237, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (133134007, 3238, 69519470, 'OpenAPITools/openapi-generator', 1, 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', 2933, 10698, ['wing328','fehguy']),
 (68414068, 3239, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 30, 7378, ['bkeepers','gr2m']),
-(15204860, 3240, 35429278, 'papers-we-love/papers-we-love', 1, 'Papers from the computer science community to read and discuss.', 19, 50916, ['zeeshanlakhani','DarrenN']),
 (91653269, 3241, 35429278, 'akiraux/Akira', 2, 'Native Linux App for UI and UX Design built in Vala and GTK', 38, 4605, ['Alecaddd','giacomoalbe']),
 (181462414, 3242, 35429278, 'Alikhll/golang-developer-roadmap', 3, 'Roadmap to becoming a Go developer in 2020', 14, 13269, ['Alikhll','roblaszczak']),
+(15204860, 3240, 35429278, 'papers-we-love/papers-we-love', 1, 'Papers from the computer science community to read and discuss.', 19, 50916, ['zeeshanlakhani','DarrenN']),
 (16202183, 3243, 35429278, 'ivanlanin/kateglo', 4, 'Indonesian dictionary, thesaurus, and glossary application', 2, 105, ['ivanlanin']),
 (155288604, 3244, 35429278, 'shikijs/shiki', 5, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
 (85701992, 3245, 35429278, 'dicebear/dicebear', 6, 'DiceBear is an avatar library for designers and developers.', 3, 3450, ['FlorianKoerner','flogado']),
