@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T08:44:03.183Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T10:43:49.582Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1851,8 +1851,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (371298202, 1863, 58482194, 'wheatjs/vueuse-playground', 24, 'An online playground for VueUse', 2, 116, ['wheatjs','cawa-93']),
 (388456202, 1864, 58482194, 'Borrus-sudo/TypedJS', 25, 'A library for run time JS types', 0, 2, ['Borrus-sudo']),
 (385850163, 1865, 58482194, 'Borrus-sudo/vue-generator-graph', 26, '🌌 An extension which will create a graph of a vuejs app by statically analyzing imports and auto imported components', 0, 53, ['Borrus-sudo']),
-(379496251, 1867, 58482194, 'Borrus-sudo/jsgandalf', 28, '🌈 My new website ', 1, 5, ['Borrus-sudo']),
 (20929025, 1866, 58482194, 'microsoft/TypeScript', 27, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', 5382, 76844, ['ahejlsberg','sheetalkamat']),
+(379496251, 1867, 58482194, 'Borrus-sudo/jsgandalf', 28, '🌈 My new website ', 1, 5, ['Borrus-sudo']),
 (71995937, 1868, 58482194, 'nuxt/nuxt.js', 29, 'The Intuitive Vue(2) Framework', 472, 39029, ['pi0','Atinux']),
 (322542582, 1869, 75340837, 'EthWorks/useDApp', 0, 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', 66, 722, ['nezouse','marekkirejczyk']),
 (157421028, 1870, 75340837, 'NoahZinsmeister/web3-react', 1, '🧰 A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps', 144, 2389, ['NoahZinsmeister','chaitanyapotti']),

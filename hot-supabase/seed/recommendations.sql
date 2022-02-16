@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T08:44:03.079Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T10:43:49.905Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1288,6 +1288,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (95011980, 'go-ego/riot', 6029, 50, 'Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.', ['vcaesar','szyhf'], 1, 5, 0),
 (95114338, 'github/accessibilityjs', 2190, 5, 'Client side accessibility error scanner.', ['muan','mislav'], 1, 18, 0),
 (95331263, 'samccone/bundle-buddy', 2868, 20, 'A tool to understand your bundle size and why files are in your bundle', ['samccone','susielu'], 1, 12, 0),
+(95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 315, 6, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', ['callicoder'], 1, 4, 0),
 (95650568, 'git-srinivas/ds-js', 2, 0, null, ['git-srinivas','superman32432432'], 1, 25, 0),
 (95755693, 'yangshun/lago', 1974, 6, '📕 Data Structures and Algorithms library in TypeScript', ['yangshun','mauris'], 1, 14, 0),
 (95830088, 'joeyism/py-edgar', 179, 6, 'A small library to access files from SEC''s edgar', ['joeyism','kbennatti'], 1, 24, 0),
@@ -1537,7 +1538,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (125241315, 'lordpoint/xorshift-sandbox-and-visualizer', 29, 3, 'An implementation of the xorshift+ pseudo-random number generation (PRNG) algorithm in javascript that provides visualization of the algorithm''s outcome in order to help understand its apparent randomness', ['lordpoint'], 1, 21, 0),
 (126231747, 'RedHatOfficial/RedHatOfficial.github.io', 339, 12, 'The official Red Hat project page.', ['bproffitt','castastrophe'], 1, 14, 0),
 (126577260, 'trekhleb/javascript-algorithms', 133907, 221, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', ['trekhleb','m-maksyutin'], 1, 0, 0),
-(95561550, 'callicoder/spring-boot-mysql-rest-api-tutorial', 315, 6, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', ['callicoder'], 1, 4, 0),
 (126734232, 'codediodeio/firestore-migrator', 293, 32, ':bullettrain_side: A CLI utility for moving data to and from Cloud Firestore', ['stildalf','codediodeio'], 1, 11, 0),
 (126738831, 'etiennedi/keycloak-nginx-https-self', 54, 0, 'create a CA, self-sign a certificate and add https through an nginx in front of keycloak.', ['etiennedi'], 1, 9, 0),
 (126813008, 'mobz/lag-radar', 830, 0, 'Trace frame rate lag with a sexy performance radar', ['mobz','andywer'], 1, 29, 0),
