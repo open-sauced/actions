@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T02:48:10.410Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T04:46:54.989Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2324,8 +2324,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (234917971, 'Olanetsoft/Ticking-Clock-With-React', 4, 0, null, ['Olanetsoft'], 1, 16, 0),
 (235000987, 'renatogroffe/DotNetCore3.1_Refit-JWT-RefreshTokens-Polly', 5, 0, 'Exemplo de consumo em .NET Core 3.1 de uma API REST protegida por tokens (JWT) e que emprega Refresh Tokens, utilizando para isto a biblioteca Refit e com tratamento de falhas através da biblioteca Polly', ['renatogroffe'], 1, 5, 0),
 (235237823, 'dvarrazzo/replisome', 6, 0, 'handsomely replicate something', ['dvarrazzo','eulerto'], 1, 14, 0),
-(235283287, 'fpereiro/backendlore', 4936, 0, 'How I write backends', ['fpereiro','sshine'], 1, 26, 0),
 (235434204, 'benbusby/whoogle-search', 4700, 35, 'A self-hosted, ad-free, privacy-respecting metasearch engine', ['benbusby','vacom13'], 1, 2, 0),
+(235283287, 'fpereiro/backendlore', 4936, 0, 'How I write backends', ['fpereiro','sshine'], 1, 26, 0),
 (235469871, 'dotnet/interactive', 1548, 304, '.NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn''t before.', ['colombod','jonsequitur'], 1, 3, 0),
 (235943258, 'jason0x43/hacs-hubitat', 86, 26, 'A Hubitat integration for Home Assistant', ['jason0x43','amosyuen'], 1, 8, 0),
 (235970716, 'yomaokobiah/nairaland-visualisation', 1, 0, 'A visualisation of members on nairaland.com ages.', ['yomaokobiah'], 1, 17, 0),

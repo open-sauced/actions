@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T02:48:10.556Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T04:46:54.802Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1329,9 +1329,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (131770422, 1341, 29004466, 'neoclide/coc.nvim', 13, 'Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.', 37, 18326, ['chemzqm','fannheyward']),
 (214551763, 1342, 29004466, 'augmentable-dev/tickgit', 14, 'Manage your repository''s TODOs, tickets and checklists as config in your codebase.', 9, 269, ['patrickdevivo','jsoref']),
 (279678603, 1343, 29004466, 'felixrieseberg/macintosh.js', 15, '🖥 A virtual Apple Macintosh with System 8, running in Electron. I''m sorry.', 80, 7627, ['felixrieseberg','jonathanpotts']),
-(9350746, 1344, 29004466, 'gitbucket/gitbucket', 16, 'A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility', 336, 8550, ['takezoe','kounoike']),
 (72495579, 1345, 29004466, 'go-gitea/gitea', 17, 'Git with a cup of tea, painless self-hosted git service', 1868, 27481, ['unknwon','GiteaBot']),
 (112953694, 1346, 29004466, 'digitallyinduced/ihp', 18, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', 170, 2766, ['mpscholten','Laobiz']),
+(9350746, 1344, 29004466, 'gitbucket/gitbucket', 16, 'A Git platform powered by Scala with easy installation, high extensibility & GitHub API compatibility', 336, 8550, ['takezoe','kounoike']),
 (137724480, 1347, 29004466, 'hasura/graphql-engine', 19, 'Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.', 1702, 24895, ['rikinsk','rakeshkky']),
 (173286031, 1348, 29004466, 'input-output-hk/cardano-wallet', 20, 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', 76, 587, ['KtorZ','jonathanknowles']),
 (188299874, 1349, 29004466, 'input-output-hk/cardano-node', 21, 'The core component that is used to participate in a Cardano decentralised blockchain.', 420, 2401, ['dcoutts','Jimbo4350']),
