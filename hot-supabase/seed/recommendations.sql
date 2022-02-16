@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T20:43:18.944Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T22:43:21.459Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1032,8 +1032,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (67410923, 'LiquidPlayer/LiquidCore', 859, 54, 'Node.js virtual machine for Android and iOS', ['ericwlange','j0j00'], 1, 22, 0),
 (67709808, 'react-native-elements/react-native-elements', 21789, 111, 'Cross-Platform React Native UI Toolkit', ['iRoachie','Monte9'], 1, 15, 0),
 (67747748, 'dense-analysis/ale', 11394, 467, 'Check syntax in Vim asynchronously and fix files, with Language Server Protocol (LSP) support', ['w0rp','hsanson'], 1, 25, 0),
-(67773065, 'amiller/tinybitcoinpeer', 16, 0, 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ['amiller'], 1, 22, 0),
 (67759339, 'postlight/awesome-cms', 2499, 10, '📚 A collection of open and closed source Content Management Systems (CMS) for your perusal.', ['mutewinter','philwareham'], 1, 14, 0),
+(67773065, 'amiller/tinybitcoinpeer', 16, 0, 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ['amiller'], 1, 22, 0),
 (67831372, 'PKief/vscode-material-icon-theme', 1011, 319, 'Available on the VSCode Marketplace', ['PKief','AdrieanKhisbe'], 1, 22, 0),
 (67834502, 'lk-geimfari/mimesis', 3439, 5, 'Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages.', ['lk-geimfari','sobolevn'], 1, 28, 0),
 (67985685, 'PanoptikumIO/pan', 29, 14, 'The podcast showcase & community / Phoenix based web application', ['haslinger','optikfluffel'], 1, 5, 0),
@@ -1058,8 +1058,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (70137417, 'corda/corda', 3779, 233, 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', ['Clintonio','exFalso'], 2, 3.5, 0),
 (70198875, 'airbnb/lottie-android', 32219, 46, 'Render After Effects animations natively on Android and iOS, Web, and React Native', ['gpeal','felipecsl'], 1, 24, 0),
 (70318490, 'asika32764/vue2-animate', 1334, 7, 'A port of Animate.css for use with transitions in Vue.js 2.0 / 3.0 and Alpine.js.', ['asika32764','haydenbbickerton'], 1, 16, 0),
-(70418925, 'sithis993/Crypter', 378, 18, 'Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller', ['sithis993'], 1, 26, 0),
 (70342215, 'bootstrap-vue/bootstrap-vue', 13612, 167, 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', ['tmorehouse','pi0'], 1, 4, 0),
+(70418925, 'sithis993/Crypter', 378, 18, 'Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller', ['sithis993'], 1, 26, 0),
 (70487339, 'ang3lkar/pretty-diffs', 31, 0, 'Enable fancy colored diffs in your minitest assertions', ['ang3lkar'], 1, 6, 0),
 (70745419, 'Naereen/badges', 2989, 0, ':pencil: Markdown code for lots of small badges :ribbon: :pushpin: (shields.io, forthebadge.com etc) :sunglasses:. Contributions are welcome! Please add yours!', ['Naereen','yuri-norwood'], 1, 11, 0),
 (70777180, 'Foundry376/Mailspring', 11976, 9, ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', ['bengotow','emorikawa'], 2, 7.5, 0),

@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T20:43:18.833Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T22:43:21.332Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1084,8 +1084,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (70860064, 1076, 59651629, 'Yonet/Angular-Interview-Questions', 19, 'A list of helpful Angular interview questions you can use to interview potential candidates, test yourself or completely ignore.', 1, 1025, ['Yonet','bhanu7755']),
 (196760810, 1077, 59651629, 'Ebazhanov/linkedin-skill-assessments-quizzes', 20, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 13, 7094, ['Ebazhanov','monkrus']),
 (290703027, 1078, 59651629, 'kothariji/competitive-programming', 21, 'Hello Programmers :computer: , A one-stop Destination✏️✏️ for all your Competitive Programming Resources.📗📕    Refer CONTRIBUTING.md for contributions', 17, 339, ['kothariji','AK-I-RA']),
-(191445024, 1079, 59651629, 'sastava007/Tech-Interview-Preparation', 22, 'A one stop solution to ace your next coding interview 👨‍💻', 14, 462, ['sastava007','skrishan07']),
-(236263651, 1080, 59651629, 'siddiqus/useful-scripts', 23, null, 0, 7, ['siddiqus']),
 (403029798, 1081, 59651629, 's-yadav/ask-me-anything', 24, 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', 0, 2, ['s-yadav']),
 (396327436, 1082, 59651629, 'devkodeio/the-dom-challenge', 25, 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', 0, 181, ['sunnypuri']),
 (374018112, 1083, 59651629, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1006, ['sadanandpai','dth99']),
@@ -1095,8 +1093,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (712530, 1087, 45036724, 'fabricjs/fabric.js', 0, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 266, 20744, ['kangax','asturur']),
 (68678413, 1088, 45036724, 'ai/nanoevents', 1, 'Simple and tiny (72 bytes) event emitter library for JavaScript', 0, 1033, ['ai','subzey']),
 (310226997, 1089, 45036724, 'antfu/ni', 2, '💡 Use the right package manager', 8, 857, ['antfu','privatenumber']),
+(191445024, 1079, 59651629, 'sastava007/Tech-Interview-Preparation', 22, 'A one stop solution to ace your next coding interview 👨‍💻', 14, 462, ['sastava007','skrishan07']),
 (393117769, 1090, 45036724, 'antfu/drauu', 3, 'Headless SVG-based drawboard in browser.', 3, 429, ['antfu','btea']),
 (35640229, 1091, 45036724, 'rollup/rollup', 4, 'Next-generation ES module bundler', 367, 21018, ['lukastaegert','Rich-Harris']),
+(236263651, 1080, 59651629, 'siddiqus/useful-scripts', 23, null, 0, 7, ['siddiqus']),
 (144926753, 1092, 45036724, 'bchiang7/v4', 5, 'Fourth iteration of my personal website built with Gatsby', 9, 4155, ['bchiang7','ImgBotApp']),
 (50274171, 1093, 45036724, 'vuejs/rollup-plugin-vue', 6, 'Roll .vue files', 68, 824, ['yyx990803','znck']),
 (260554261, 1094, 45036724, 'johnsoncodehk/volar', 7, '⚡ Explore high-performance tooling for Vue', 30, 2137, ['johnsoncodehk','IWANABETHATGUY']),
@@ -2498,10 +2498,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (134035452, 2478, 1228996, 'justadudewhohacks/face-api.js', 16, 'JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js', 379, 13286, ['justadudewhohacks','jderrough']),
 (262451884, 2479, 1228996, 'jlengstorf/lwj-scenes', 17, null, 10, 11, ['jlengstorf']),
 (166471416, 2480, 1228996, 'instafluff/ComfyJS', 18, 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', 12, 204, ['instafluff','AlcaDesign']),
+(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (156217558, 2482, 1228996, 'microsoft/vscode-dev-containers', 20, 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', 129, 2736, ['Chuxel','chrmarti']),
 (187325459, 2483, 1228996, 'mheap/markdown-to-jira', 21, 'Create Jira tickets from a plain text format', 5, 7, ['mheap']),
 (241080452, 2484, 1228996, 'brettmillerb/sqlpackage-docker', 22, 'Github repo to build and release container image for sqlpackage', 0, 1, ['brettmillerb']),
-(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (214587193, 2485, 3861088, 'supabase/supabase', 0, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25466, ['kiwicopple','MildTomato']),
 (248661350, 2486, 3861088, 'drewclem/protege', 1, 'Remote jobs for junior developers', 24, 62, ['drewclem','pickleat']),
 (355664397, 2487, 3861088, 'ronakganatra/awesome-developer-marketing', 2, 'A living document of hand-picked resources for marketers working on dev-centric products', 0, 96, ['ronakganatra','amorimjuliana']),
@@ -3180,6 +3180,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (386740498, 3182, 22655167, 'lukesmurray/scrawl', 19, 'A chrome extension which lets you draw on any web page with excalidraw', 5, 46, ['lukesmurray']),
 (262501222, 3183, 22655167, 'privatenumber/esbuild-loader', 20, '⚡️ Speed up your Webpack build with esbuild', 7, 2557, ['privatenumber','egoist']),
 (380298833, 3184, 22655167, 'prisma-labs/bema', 21, '🐎 Delightful benchmarking for Node.js ', 9, 59, ['jasonkuhrt','iheyunfei']),
+(368917877, 3185, 22655167, 'BuilderIO/qwik', 22, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', 17, 1271, ['mhevery','adamdbradley']),
 (130884470, 3186, 22655167, 'solidjs/solid', 23, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', 22, 13199, ['ryansolid','davedbase']),
 (7122594, 3187, 22655167, 'directus/directus', 24, 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', 200, 13248, ['rijkvanzanten','benhaynes']),
 (332757634, 3188, 22655167, 'jonasstrehle/supercookie', 25, '⚠️ Browser fingerprinting via favicon!', 8, 3633, ['jonasstrehle','szepeviktor']),
@@ -3291,7 +3292,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (46041284, 3294, 16259450, 'VSCodeVim/Vim', 21, ':star: Vim for Visual Studio Code', 1152, 9811, ['jpoon','johnfn']),
 (53321815, 3295, 16259450, 'picturepan2/spectre', 22, 'Spectre.css - A Lightweight, Responsive and Modern CSS Framework', 189, 10944, ['picturepan2','renegat59']),
 (88367107, 3296, 16259450, 'nusu/spectre.scss', 23, 'port of spectre.css to sass', 1, 16, ['nusu','mtancoigne']),
-(368917877, 3185, 22655167, 'BuilderIO/qwik', 22, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', 17, 1271, ['mhevery','adamdbradley']),
 (63508378, 3297, 16259450, 'sindresorhus/hyper-snazzy', 24, 'Elegant Hyper theme with bright colors', 5, 1314, ['sindresorhus','connorholyday']),
 (98029592, 3298, 16259450, 'ziishaned/learn-regex', 25, 'Learn regex the easy way', 56, 40108, ['ziishaned','bueltge']),
 (14106970, 3299, 16259450, 'tachyons-css/tachyons', 26, 'Functional css for humans', 87, 11069, ['mrmrs','johno']),
