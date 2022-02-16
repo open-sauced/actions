@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T22:43:17.849Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T01:02:08.030Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1529,6 +1529,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (62104779, 1541, 39362365, 'SortableJS/Vue.Draggable', 3, 'Vue drag-and-drop component based on Sortable.js', 170, 16567, ['David-Desmaisons','cgarnier']),
 (73918606, 1542, 39362365, 'tapestry-cloud/website', 4, 'Source Tapestry Project for tapestry.cloud', 18, 8, ['carbontwelve','leonstafford']),
 (143078055, 1543, 39362365, 'gridsome/gridsome', 5, '⚡️ The Jamstack framework for Vue.js', 548, 8026, ['hjvedvik','tomtev']),
+(250213286, 1544, 39362365, 'huggingface/datasets', 6, '🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools', 469, 11674, ['lhoestq','albertvillanova']),
 (78217547, 1545, 39362365, 'palashmon/JavaScript30', 7, 'Participating in 30 Day Vanilla JS Challenges by @wesbos', 1, 98, ['palashmon']),
 (27817031, 1546, 39362365, 'understrap/understrap', 8, 'Underscores + Bootstrap = Understrap, the renowned open-source WordPress starter theme.', 18, 2823, ['holger1411','IanDelMar']),
 (199486441, 1547, 39362365, 'esmero/archipelago-deployment', 9, 'Archipelago Commons Docker Deployment Repository', 60, 24, ['DiegoPino','alliomeria']),
@@ -1548,7 +1549,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (348060227, 1561, 42211, 'withastro/astro', 5, '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', 118, 8725, ['FredKSchott','matthewp']),
 (54173593, 1562, 42211, 'storybookjs/storybook', 6, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1641, 67642, ['shilman','ndelangen']),
 (141166490, 1563, 42211, 'operatortc/tonic', 7, 'A Low Profile Component Framework – Stable, minimal, easy to audit, zero-dependencies and build-tool-free.', 9, 581, ['Raynos','heapwolf']),
-(250213286, 1544, 39362365, 'huggingface/datasets', 6, '🤗 The largest hub of ready-to-use datasets for ML models with fast, easy-to-use and efficient data manipulation tools', 469, 11674, ['lhoestq','albertvillanova']),
 (214587193, 1564, 42211, 'supabase/supabase', 8, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25465, ['kiwicopple','MildTomato']),
 (71995937, 1565, 42211, 'nuxt/nuxt.js', 9, 'The Intuitive Vue(2) Framework', 472, 39029, ['pi0','Atinux']),
 (112150776, 1566, 42211, '11ty/eleventy', 10, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 441, 10908, ['zachleat','MadeByMike']),
@@ -3859,6 +3859,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (96266792, 3858, 67872399, 'davidhu2000/react-spinners', 11, 'A collection of loading spinner components for react', 25, 2054, ['davidhu2000','MincedCutlet']),
 (196284711, 3859, 67872399, 'microsoft/cascadia-code', 12, 'This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.', 64, 18742, ['aaronbell','cinnamon-msft']),
 (221078443, 3860, 67872399, 'google/android-emulator-hypervisor-driver-for-amd-processors', 13, null, 39, 403, ['Taogle2018']),
+(392375604, 3861, 67872399, 'kiruba-r11/file-categorizer', 14, 'It categorizes your files 📁 based on its extension type.', 0, 2, ['kiruba-r11']),
 (17884290, 3862, 67872399, 'tschaub/gh-pages', 15, 'General purpose task for publishing files to a gh-pages branch on GitHub', 101, 2689, ['tschaub','greenkeeperio-bot']),
 (287542207, 3863, 67872399, '0xPolygon/polygon-sdk', 16, 'A Framework for Building Ethereum-compatible Blockchain Networks', 20, 397, ['ferranbt','Kourin1996']),
 (344546342, 3864, 67872399, 'hunterbecton/react-firebase-passwordless', 17, null, 1, 14, ['hunterbecton']),
@@ -4424,5 +4425,4 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (230951254, 330475048, 61131314, 'Singh-Shivani/Merlin-Fashion', 0, 'A custom website for online fashion.', 2, 13, ['Singh-Shivani','imsouravstyles']),
 (252029824, 336575400, 9696352, 'BabylonJS/BabylonReactNative', 0, 'Build React Native applications with the power of Babylon Native', 32, 194, ['ryantrem','chrisfromwork']),
 (268086996, 336566384, 1368727, 'dotellie/nestjs-graphql-pagination', 0, 'Decorators to allow easily building up relay compatible pagination types', 30, 11, ['renovate-bot','dotellie']),
-(392375604, 3861, 67872399, 'kiruba-r11/file-categorizer', 14, 'It categorizes your files 📁 based on its extension type.', 0, 2, ['kiruba-r11']),
 (87715061, 456471693, 83277146, 'damienbod/AspNetCoreOpeniddict', 0, 'OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ', 1, 63, ['damienbod']);

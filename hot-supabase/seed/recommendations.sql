@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-15T22:43:18.037Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T01:02:08.036Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1421,16 +1421,16 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (112475135, 'AndreiShenets/code-styles', 5, 0, 'Styles I recommend at the moment', ['AndreiShenets','andrei-shenets-itechart'], 1, 1, 0),
 (112507086, '30-seconds/30-seconds-of-code', 91672, 6, 'Short JavaScript code snippets for all your development needs', ['Chalarangelo','30secondsofcode'], 1, 0, 0),
 (112750686, 'grnet/webdns4', 2, 11, 'A Ruby-on-Rails Webdns Frontend for Powerdns', ['ctrochalakis','vitsalis'], 1, 24, 0),
-(112953694, 'digitallyinduced/ihp', 2766, 170, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', ['mpscholten','Laobiz'], 3, 11.666666666666666, 0),
 (113106184, 'linkerd/linkerd2', 7904, 226, 'Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.', ['alpeb','olix0r'], 1, 22, 0),
+(112953694, 'digitallyinduced/ihp', 2766, 170, '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', ['mpscholten','Laobiz'], 3, 11.666666666666666, 0),
 (113125572, 'hnasr/javascript-by-example', 7, 2, 'Javascript by Example Series', ['hnasr'], 1, 7, 0),
 (113412457, 'gnif/LookingGlass', 3387, 8, 'An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.', ['gnif','quantum5'], 1, 13, 0),
 (113593022, 'gitcoinco/skunkworks', 47, 210, 'experimental laboratory', ['stojce','owocki'], 1, 21, 0),
 (113807330, 'migueldeicaza/gui.cs', 5896, 84, 'Console-based user interface toolkit for .NET applications.', ['tig','BDisp'], 1, 23, 0),
-(113813718, 'xvik/gradle-use-python-plugin', 51, 3, 'Use python modules in gradle build', ['xvik','yellowsquid'], 1, 23, 0),
 (113865039, 'sveltejs/sapper', 7178, 270, 'The next small thing in web development, powered by Svelte', ['Rich-Harris','benmccann'], 2, 15.5, 0),
-(113866683, 'imyelo/docsify-pagination', 78, 9, '↔️ Pagination for docsify', ['imyelo','jhildenbiddle'], 1, 11, 0),
+(113813718, 'xvik/gradle-use-python-plugin', 51, 3, 'Use python modules in gradle build', ['xvik','yellowsquid'], 1, 23, 0),
 (113896294, 'vapid/vapid', 1553, 17, 'Vapid is an intentionally simple content management system built on the idea that you can create a custom dashboard without ever leaving the HTML.', ['srobbin','JohJakob'], 1, 20, 0),
+(113866683, 'imyelo/docsify-pagination', 78, 9, '↔️ Pagination for docsify', ['imyelo','jhildenbiddle'], 1, 11, 0),
 (113912360, 'developit/microbundle', 6706, 78, '📦 Zero-configuration bundler for tiny modules.', ['developit','ForsakenHarmony'], 1, 0, 0),
 (114018974, 'harvard-dce/zoom-recording-ingester', 17, 6, 'A set of AWS services for downloading and ingesting Zoom meeting videos into Opencast', ['nataliemona','lbjay'], 1, 12, 0),
 (114416028, 'datadesk/audiogram', 4, 0, 'Turn audio into a shareable video.', ['veltman','palewire'], 1, 8, 0),
@@ -1557,8 +1557,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (128193054, 'keystonejs/keystone', 5446, 114, 'The most powerful headless CMS for Node.js — built with GraphQL and React', ['timleslie','jesstelford'], 2, 8.5, 0),
 (128237146, 'vuejs/vuepress', 19760, 511, '📝 Minimalistic Vue-powered static site generator', ['ulivz','yyx990803'], 1, 12, 0),
 (128265535, 'GoogleCloudPlatform/click-to-deploy', 581, 64, 'Source for Google Click to Deploy solutions listed on Google Cloud Marketplace.', ['wgrzelak','armandomiani'], 1, 1, 0),
-(128275689, 'cchen156/Learning-to-See-in-the-Dark', 5143, 62, 'Learning to See in the Dark. CVPR 2018', ['cchen156','Jason-Cooke'], 1, 26, 0),
 (128396076, 'testing-library/dom-testing-library', 2757, 63, '🐙 Simple and complete DOM testing utilities that encourage good testing practices.', ['kentcdodds','eps1lon'], 1, 5, 0),
+(128275689, 'cchen156/Learning-to-See-in-the-Dark', 5143, 62, 'Learning to See in the Dark. CVPR 2018', ['cchen156','Jason-Cooke'], 1, 26, 0),
 (128416969, 'archlinux/archinstall', 2674, 93, 'Arch Linux installer - guided, templates etc.', ['Torxed','dylanmtaylor'], 1, 3, 0),
 (128468095, 'llSourcell/Learn_Computer_Science_in_5_Months', 1800, 9, 'This is the Curriculum for ''Learn Computer Science in 5 Months'' By Siraj Raval on Youtube', ['llSourcell','SaumoPal97'], 1, 8, 0),
 (128564293, '30-seconds/30-seconds-of-interviews', 9422, 14, 'A curated collection of common interview questions to help you prepare for your next interview.', ['30secondsofcode','fejes713'], 1, 19, 0),
@@ -3339,10 +3339,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (376492865, 'six-ddc/plow', 2792, 3, 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', ['six-ddc','chenrui333'], 1, 9, 0),
 (376732923, 'kibybyte/kibybyte', 1, 0, 'Kibybyte''s Website', ['kibybyte'], 1, 15, 0),
 (376953303, 'cloudflare/zkp-ecdsa', 91, 3, 'Proves knowledge of a ECDSA-P256 signature under one of many public keys that are stored in a list.', ['wbl'], 1, 13, 0),
-(377365832, 'cheatsheet1999/FrontEndCollection', 1628, 42, 'Notes for Front-end Software Engineers. Covers common data structure and algorithms, basic web concepts, HTML & CSS & Javascript.', ['cheatsheet1999','siyuan25'], 1, 3, 0),
 (377196642, 'alanmontgomery/ionic-react-hook-form-example', 3, 0, 'Example with React Hook Form', ['alanmontgomery'], 1, 18, 0),
 (377267871, 'gaearon/react-lag-radar', 254, 0, null, ['gaearon'], 1, 3, 0),
 (377305568, 'learntocloud/learn-to-cloud', 2240, 0, 'Learn the fundamentals of cloud computing', ['madebygps','rishabkumar7'], 1, 15, 0),
+(377365832, 'cheatsheet1999/FrontEndCollection', 1628, 42, 'Notes for Front-end Software Engineers. Covers common data structure and algorithms, basic web concepts, HTML & CSS & Javascript.', ['cheatsheet1999','siyuan25'], 1, 3, 0),
 (377452626, 'atapas/webapis-playground', 174, 22, 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', ['atapas','mverissimo'], 2, 12.5, 0),
 (377602613, 'hasura/hasura-ecommerce', 159, 1, null, ['GavinRay97'], 1, 9, 0),
 (377680492, 'cnrad/lanyard-profile-readme', 159, 0, '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', ['cnrad','Looskie'], 1, 1, 0),
