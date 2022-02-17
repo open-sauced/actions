@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T04:46:57.981Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T06:46:17.807Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1962,8 +1962,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (181508172, 'BaseMax/ExtractWord', 2, 0, 'Extract word(s) from the lines of the file.', ['BaseMax'], 1, 13, 0),
 (181575785, 'kentcdodds/react-hooks', 2009, 5, 'Learn React Hooks! 🎣 ⚛', ['kentcdodds','Aprillion'], 2, 18, 0),
 (182067506, 'quantumblacklabs/kedro', 4780, 48, 'A Python framework for creating reproducible, maintainable and modular data science code.', ['lorenabalan','921kiyo'], 1, 20, 0),
-(182128976, 'devatquarxss/reusable-data-table-component-vue', 15, 0, 'A reusable / responsive data-table component written in vue.js inspired by vuetify''s v-data-table component capable of search, sort, filter, update the items of the table on different metrics. ', ['devatquarxss'], 1, 25, 0),
 (182075630, 'jamesctucker/Fantastic-Front-End-Toolbox', 714, 3, 'A collection of tools, tutorials, and other resources for those learning web development.', ['jamesctucker','thewmh'], 1, 12, 0),
+(182128976, 'devatquarxss/reusable-data-table-component-vue', 15, 0, 'A reusable / responsive data-table component written in vue.js inspired by vuetify''s v-data-table component capable of search, sort, filter, update the items of the table on different metrics. ', ['devatquarxss'], 1, 25, 0),
 (182764313, 'wiedehopf/tar1090', 510, 15, 'Provides an improved webinterface for use with ADS-B decoders readsb / dump1090-fa', ['wiedehopf','vkirienko'], 1, 20, 0),
 (182764801, 'whatsplay/whatsapp-play', 340, 20, 'Command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, whatsapp chat.. ', ['rpotter12','xandao6'], 1, 20, 0),
 (182849188, 'delta-io/delta', 3910, 149, 'An open-source storage layer that brings scalable, ACID transactions to Apache Spark™ and big data workloads.', ['zsxwing','brkyvz'], 1, 1, 0),
@@ -3078,8 +3078,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (339001070, 'udberg/members-only', 2, 0, null, ['udberg','dibdas'], 1, 18, 0),
 (339786950, 'encoredev/encore', 2461, 15, 'The Backend Development Engine built for Go', ['eandre','marcuskohlberg'], 1, 8, 0),
 (339838063, 'ryan3738/bellingham3d-frontend', 2, 3, 'Front End for the Bellingham 3D Webstore', ['ryan3738','wesbos'], 1, 12, 0),
-(340027291, 'udberg/confs.tech', 2, 0, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ['nimzco','confs-tech-bot'], 1, 19, 0),
 (339839520, 'ryan3738/bellingham3d-backend', 2, 2, 'https://github.com/ryan3738/Advanced-React.git', ['ryan3738','wesbos'], 1, 11, 0),
+(340027291, 'udberg/confs.tech', 2, 0, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ['nimzco','confs-tech-bot'], 1, 19, 0),
 (340182829, 'MattMarquise/Design-Suite-Landing-Page-Theme', 1, 0, 'A random project inspired by Dwell.com', ['MattMarquise'], 1, 9, 0),
 (340187605, 'dmitryvinn/awesome-dev-advocacy', 131, 0, '🥑  List of Awesome Developer Advocacy Resources', ['dmitryvinn','dmitryvinn-fb'], 2, 19.5, 0),
 (340306054, 'Jussii/JunctionAppTesting', 1, 0, 'All-in-one hackathon platform for organisers', ['juiceo','Earlo'], 1, 2, 0),

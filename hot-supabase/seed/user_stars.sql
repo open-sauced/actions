@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T04:46:57.984Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T06:46:17.615Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2664,8 +2664,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (5210288, 2643, 667716, 'montagejs/collections', 20, 'This package contains JavaScript implementations of common data structures with idiomatic interfaces.', 72, 1982, ['kriskowal','marchant']),
 (140954496, 2644, 667716, 'tc39/proposal-built-in-modules', 21, null, 41, 827, ['msaboff','mattijs']),
 (243429404, 2645, 667716, 'eobrain/bajel', 22, 'A build system modeled on make.', 11, 13, ['eobrain']),
-(70848287, 2646, 667716, 'yairEO/tagify', 23, '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', 41, 2338, ['yairEO','LironHazan']),
 (341704034, 2647, 667716, 'microsoft/Power-Fx', 24, 'Power Fx low-code programming language', 27, 2579, ['gregli-msft','bryancroteau-MSFT']),
+(70848287, 2646, 667716, 'yairEO/tagify', 23, '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', 41, 2338, ['yairEO','LironHazan']),
 (277057483, 2648, 667716, 'apparition47/MailTrackerBlocker', 25, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', 10, 995, ['apparition47','danieldickison']),
 (5543112, 2649, 667716, 'lobsters/lobsters', 26, 'Computing-focused community centered around link aggregation and discussion', 151, 3115, ['jcs','pushcx']),
 (177423398, 2650, 667716, 'getify/eslint-plugin-proper-ternary', 27, 'ESLint rules to ensure proper usage of ternary/conditional expressions', 5, 88, ['getify','kaykayehnn']),
