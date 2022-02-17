@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T16:49:56.546Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T18:45:32.879Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -604,7 +604,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (44150497, 595, 26007940, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 25, 17879, ['dougaitken','jessicard']),
 (362290213, 596, 26007940, 'OlliesWorld/softball_roster', 13, null, 0, 1, ['OlliesWorld']),
 (98698673, 597, 26007940, 'bluebill1049/react-simple-animate', 14, '🎯 React UI animation made easy', 3, 1626, ['bluebill1049','3stacks']),
+(236383896, 598, 26007940, 'kubowania/Nokia3310-Snake', 15, 'A vanilla JavaScript game with tutorial', 6, 119, ['kubowania']),
 (245750702, 599, 26007940, 'wwcodecolorado/career-returnship-website', 16, 'A website for career returnship program where returners can showcase their work.  ', 3, 6, ['piqueen1','Rafna']),
+(277882910, 600, 26007940, 'kevin-powell/reponsive-web-design-bootcamp', 17, 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', 0, 194, ['kevin-powell']),
 (312555705, 601, 26007940, 'kubowania/burger-api', 18, 'My Burger Api', 16, 101, ['kubowania','brandonleboeuf']),
 (230327376, 602, 26007940, 'ErikCH/DevYouTubeList', 19, 'List of Development YouTube Channels', 27, 4365, ['ErikCH','KulkarniSuraj']),
 (232429429, 603, 26007940, 'PizzaPokerGuy/ultimate-coding-resources', 20, 'A collection of the best resources for programming, web development, computer science and more.', 1, 3055, ['PizzaPokerGuy','samedwards1989']),
@@ -626,9 +628,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3515902, 619, 12410942, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl']),
 (163827812, 620, 12410942, 'freeletics/array_enum', 8, 'String to integer mapping for PostgreSQL array columns', 4, 26, ['morgoth','wesleyeewong']),
 (392785, 621, 12410942, 'heartcombo/responders', 9, 'A set of Rails responders to dry up your application', 7, 1925, ['josevalim','carlosantoniodasilva']),
-(277882910, 600, 26007940, 'kevin-powell/reponsive-web-design-bootcamp', 17, 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', 0, 194, ['kevin-powell']),
-(236383896, 598, 26007940, 'kubowania/Nokia3310-Snake', 15, 'A vanilla JavaScript game with tutorial', 6, 119, ['kubowania']),
 (240574799, 622, 12410942, 'devato/inertia_phoenix', 10, 'Inertiajs Adapter for Elixir Phoenix', 12, 58, ['tmartin8080','bigx333']),
+(52710065, 623, 12410942, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 82, 5907, ['jakebolam','kentcdodds']),
 (253226107, 2005, 1058663, 'telety/telety', 0, null, 1, 1, ['mvandervliet']),
 (71359796, 626, 12410942, 'open-sauced/open-sauced', 14, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (27291507, 627, 12410942, 'asdf-vm/asdf', 15, 'Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more', 117, 12654, ['Stratus3D','HashNuke']),
@@ -639,7 +640,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (360794368, 632, 12410942, 'hschne/rails-mini-profiler', 20, 'Performance profiling for Rails, made simple 🦔', 12, 346, ['hschne','olleolleolle']),
 (93502827, 633, 12410942, 'palkan/n_plus_one_control', 21, 'RSpec and Minitest matchers to prevent N+1 queries problem', 2, 399, ['palkan','caalberts']),
 (80016159, 634, 12410942, 'graphql/graphql-playground', 22, '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', 372, 7697, ['timsuchanek','huv1k']),
-(52710065, 623, 12410942, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 82, 5907, ['jakebolam','kentcdodds']),
 (98687111, 635, 12410942, 'hopsoft/pipe_envy', 23, 'Elixir style pipe operator for Ruby', 0, 46, ['hopsoft']),
 (247253582, 636, 12410942, 'sunny/actor', 24, 'Composable Ruby service objects', 4, 191, ['sunny','ylecuyer']),
 (202770236, 637, 12410942, 'unboundedsystems/adapt', 25, 'ReactJS for your infrastructure. Create and deploy full-stack apps to any infrastructure using the power of React.', 9, 328, ['mterrel','mvachhar']),
@@ -1132,7 +1132,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (157736989, 1124, 1305623, 'rafaelfgx/DotNetCore', 7, '.NET 6 Nuget Packages.', 0, 251, ['rafaelfgx']),
 (75505125, 1125, 1305623, 'abpframework/abp', 8, 'Open Source Web Application Framework for ASP.NET Core', 534, 7277, ['hikalkan','maliming']),
 (274055064, 1126, 1305623, 'hassanhabib/OtripleS', 9, 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', 71, 180, ['viralpandya','eriadhami']),
-(184456251, 1127, 1305623, 'microsoft/PowerToys', 10, 'Windows system utilities to maximize productivity', 2097, 65378, ['bao-qian','crutkas']),
 (239233346, 1128, 1305623, 'ardalis/ApiEndpoints', 11, 'A project for supporting API Endpoints in ASP.NET Core web applications.', 11, 1467, ['ardalis','maxkoshevoi']),
 (215868040, 1129, 1305623, 'AnkitSharma-007/BookCart', 12, 'An e-commerce application for an online book store.', 3, 99, ['AnkitSharma-007']),
 (172550478, 1130, 1305623, 'SlalomBuild/blackslope.net', 13, '.Net Core reference architecture', 8, 40, ['andykongchi','pmotameni']),
@@ -1140,6 +1139,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (161603821, 1132, 1305623, 'Axeflower/localsToJson', 15, null, 0, 4, ['Axeflower']),
 (54377519, 1133, 1305623, 'PiranhaCMS/piranha.core', 16, 'Piranha CMS is the friendly editor-focused CMS for .NET6 that can be used both as an integrated CMS or as a headless API.', 109, 1466, ['tidyui','filipjansson']),
 (69673033, 1134, 1305623, 'ardalis/CleanArchitecture', 17, 'Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core', 26, 8995, ['ardalis','sdepouw']),
+(184456251, 1127, 1305623, 'microsoft/PowerToys', 10, 'Windows system utilities to maximize productivity', 2097, 65378, ['bao-qian','crutkas']),
 (66287660, 1135, 1305623, 'json-api-dotnet/JsonApiDotNetCore', 18, 'A framework for building JSON:API compliant REST APIs using ASP.NET and Entity Framework Core.', 38, 535, ['jaredcnance','bart-degreed']),
 (208397359, 1136, 1305623, 'proudmonkey/AutoWrapper', 19, 'A simple, yet customizable global exception handler and Http response wrapper for ASP.NET Core APIs.', 22, 497, ['proudmonkey','hueifeng']),
 (106144134, 1137, 1305623, 'rafaelfgx/Architecture', 20, '.NET 6, ASP.NET Core 6, Entity Framework Core 6, C# 10, Angular 13, Clean Code, SOLID, DDD.', 0, 2292, ['rafaelfgx']),

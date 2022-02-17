@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T16:49:56.688Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T18:45:32.729Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2510,12 +2510,12 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (260360088, 'live2o3/live2o3-archived', 1, 0, 'Yet another simple rtmp server.', ['gengteng'], 1, 9, 0),
 (260432296, 'H-M-H/Weylus', 1756, 14, 'Use your tablet as graphic tablet/touch screen on your computer.', ['H-M-H','rschroll'], 1, 28, 0),
 (260554261, 'johnsoncodehk/volar', 2137, 30, '⚡ Explore high-performance tooling for Vue', ['johnsoncodehk','IWANABETHATGUY'], 1, 7, 0),
+(260669334, 'SchoolOfFreelancing/Docker-Child-Protection', 1, 22, 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ['UbuntuEvangelist','goldshtofsara'], 1, 27, 0),
 (260719813, 'NyaomiDEV/Glasstron', 196, 7, 'The go-to solution to Electron composition effects, such as blurry windows.', ['NyaomiDEV','KorbsStudio'], 1, 15, 0),
 (260751863, 'cyrildiagne/ar-cutpaste', 14214, 44, 'Cut and paste your surroundings using AR', ['cyrildiagne','xraymemory'], 1, 0, 0),
 (260800773, 'huangsam/ultimate-python', 3316, 0, 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ['huangsam','Add1solver'], 1, 21, 0),
 (260839280, 'ColomboJuan/Covid19-Arg', 1, 9, null, ['ColomboJuan'], 1, 20, 0),
 (260839409, 'awtkns/vue-glow', 21, 1, 'A performant wrapper component to give dynamic glow effects in Vue ', ['awtkns'], 1, 2, 0),
-(260669334, 'SchoolOfFreelancing/Docker-Child-Protection', 1, 22, 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ['UbuntuEvangelist','goldshtofsara'], 1, 27, 0),
 (260898844, 'open-sauced/code-of-conduct', 5, 1, 'This community is dedicated to providing a harassment-free experience for everyone.', ['bdougie'], 2, 1, 0),
 (260928305, 'mjhea0/awesome-fastapi', 3066, 3, 'A curated list of awesome things related to FastAPI', ['mjhea0','fkromer'], 1, 4, 0),
 (261039653, 'ingram-projects/animxyz', 1694, 24, 'The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.', ['milesingrams','mattaningram'], 1, 13, 0),
