@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T12:49:34.345Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T14:43:30.134Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -965,20 +965,20 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (59669326, 'xoofx/markdig', 2737, 70, 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ['xoofx','MihaZupan'], 1, 28, 0),
 (59826401, 'mikeckennedy/write-pythonic-code-demos', 663, 0, 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', ['mikeckennedy','hclivess'], 1, 2, 0),
 (59904484, 'tc39/proposal-set-methods', 243, 8, 'Strawman for new Set methods', ['Ginden','gsathya'], 1, 10, 0),
-(59909973, 'ngrx/example-app', 1365, 24, 'Example app showcasing the ngrx platform', ['MikeRyanDev','krjordan'], 1, 16, 0),
 (60125647, 'jimmywarting/StreamSaver.js', 2791, 48, 'StreamSaver writes stream to the filesystem directly asynchronous', ['jimmywarting','TexKiller'], 1, 12, 0),
-(60201474, 'RubyHabits/ruby-habits-library', 2, 2, 'An app to run our Ruby Habits library :D', ['evatrostlos','alicetragedy'], 1, 6, 0),
 (60243197, 'nextcloud/server', 17779, 1907, '☁️ Nextcloud server, a safe home for all your data', ['rullzer','MorrisJobke'], 1, 12, 0),
 (60246359, 'ClickHouse/ClickHouse', 21223, 1850, 'ClickHouse® is a free analytics DBMS for big data', ['alexey-milovidov','alesapin'], 1, 19, 0),
 (60374819, 'jupyterlab/jupyterlab', 11676, 2039, 'JupyterLab computational environment.', ['blink1073','afshin'], 2, 6, 0),
 (60493101, 'jwasham/coding-interview-university', 201791, 41, 'A complete computer science study plan to become a software engineer.', ['jwasham','avizmarlon'], 1, 27, 1),
 (60537144, 'microsoft/fluentui', 12613, 1027, 'Fluent UI web represents a collection of utilities, React components, and web components for building web applications.', ['dzearing','ecraig12345'], 1, 10, 0),
 (60656871, 'zulip/zulip-desktop', 622, 137, 'Zulip Desktop Client', ['akashnimare','andersk'], 1, 6, 0),
+(60201474, 'RubyHabits/ruby-habits-library', 2, 2, 'An app to run our Ruby Habits library :D', ['evatrostlos','alicetragedy'], 1, 6, 0),
+(59909973, 'ngrx/example-app', 1365, 24, 'Example app showcasing the ngrx platform', ['MikeRyanDev','krjordan'], 1, 16, 0),
 (61059364, 'metaverse/truss', 641, 38, 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ['adamryman','lelandbatey'], 1, 29, 0),
 (61204818, 'github/opensource.guide', 9480, 3, '📚 Community guides for open source creators', ['bkeepers','mlinksva'], 1, 4, 0),
 (61276677, 'Eschults/useful_stuff', 247, 0, 'Memo for my beloved students', ['Eschults','cveneziani'], 1, 6, 0),
-(61319303, 'adrcotfas/Goodtime', 588, 42, ':hourglass_flowing_sand: productivity app for Android', ['adrcotfas','fdw'], 1, 2, 0),
 (61412088, 'Camsbury/coderbyte', 2, 0, null, ['Camsbury'], 1, 17, 0),
+(61319303, 'adrcotfas/Goodtime', 588, 42, ':hourglass_flowing_sand: productivity app for Android', ['adrcotfas','fdw'], 1, 2, 0),
 (61426855, 'jainaman224/Algo_Ds_Notes', 1903, 218, 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', ['jainaman224','somya-kapoor'], 2, 12.5, 0),
 (61583938, 'linkedin/pygradle', 544, 91, 'Using Gradle to build Python projects', ['zvezdan','ethankhall'], 1, 24, 0),
 (61593222, 'samuxyz/bookstore', 97, 1, 'The bookstore repositore for my tutorial ''Test a Node RESTful API with Mocha and Chai'' hosted on Scotch.io', [], 1, 14, 0),
@@ -1973,8 +1973,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (183454144, 'pransh15/moz-starter-pack', 17, 3, 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', ['pransh15','pranitb10'], 1, 2, 0),
 (183712153, 'dasDaniel/svelte-table', 256, 8, 'A svelte-3 table implementation that allows sorting and filtering', ['dasDaniel','thilo-behnke'], 1, 28, 0),
 (183985757, 'diegocbarboza/red-dead-dialog', 6, 0, 'Red Dead Redemption 2 dialog system in Unity', ['diegocbarboza'], 1, 29, 0),
-(184130597, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 142, 0, 'Angular 11.0 Firebase App - Online School , Student Management App', ['AmitXShukla'], 1, 0, 0),
 (184339195, 'graphiti-api/graphiti-rails', 37, 13, null, ['wagenet','richmolj'], 1, 27, 0),
+(184130597, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 142, 0, 'Angular 11.0 Firebase App - Online School , Student Management App', ['AmitXShukla'], 1, 0, 0),
 (184413359, 'dividat/ocaml-semver', 17, 0, ' Semantic version handling for OCaml', ['etaque','knuton'], 1, 6, 0),
 (184456251, 'microsoft/PowerToys', 65380, 2097, 'Windows system utilities to maximize productivity', ['bao-qian','crutkas'], 1, 11, 0),
 (184520105, 'sw-yx/spark-joy', 5708, 11, '✨😂easy ways to add design flair, user delight, and whimsy to your product.', ['sw-yx','EriecTanijaya'], 1, 14, 0),
@@ -3379,8 +3379,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (381881172, 'sdras/js-explorer', 233, 4, 'Find the method you need without digging through the docs, directly on the command line!', ['sdras','anandshenoy14'], 1, 7, 0),
 (381907715, 'vuejs/petite-vue', 5463, 5, '6kb subset of Vue optimized for progressive enhancement', ['yyx990803','Fry98'], 1, 12, 0),
 (381913988, 'fosskers/validated', 13, 0, 'The cumulative sibling of `Result` and `Either`.', ['fosskers'], 1, 11, 0),
-(381989425, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 1, 0, 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', ['Djohnnie'], 1, 26, 0),
 (382172039, 'Helewud/Travel-Log-App', 4, 1, null, ['Helewud'], 1, 18, 0),
+(381989425, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 1, 0, 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', ['Djohnnie'], 1, 26, 0),
 (382263397, 'commercelayer/commercelayer-sdk', 5, 2, null, ['pviti','acasazza'], 1, 9, 0),
 (382308978, 'tediko/planets-fact', 49, 0, 'Planets fact site with animated solar system built with ReactJS. ', ['tediko'], 1, 29, 0),
 (382567662, 'avishmehta68710/linkedinBot', 21, 0, 'Automate the process of sending referral request and cold mailing on LinkedIn', ['avishmehta68710','Saviour1001'], 1, 26, 0),

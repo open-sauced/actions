@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T12:49:33.529Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T14:43:29.910Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2065,8 +2065,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (218, 6296, 60, 'aristocratos/btop', 365005377),
 (3210, 12235, 177, 'openjdk/jdk', 149121954),
 (3944, 21367, 344, 'inconshreveable/ngrok', 8900723),
-(82, 350, 64, 'dekorateio/dekorate', 157569792),
 (45, 836, 3, 'marchof/java-almanac', 145761460),
+(82, 350, 64, 'dekorateio/dekorate', 157569792),
 (580, 2429, 795, 'dependabot/dependabot-core', 93163073),
 (927, 4257, 587, 'github/codeql', 143040428),
 (1766, 16569, 182, 'NickeManarin/ScreenToGif', 64713769),
@@ -2196,8 +2196,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (2, 4, 20, 'matt-oakes/semantic-release-circleci-orb', 177642315),
 (34, 107, 2, 'ivanlanin/kateglo', 16202183),
 (17, 63, 0, 'microsoft/Full-Stack-Web-For-Beginners', 344191704),
-(1421, 7920, 5, 'id-Software/DOOM', 3319040),
 (1084, 12133, 5, 'lewagon/setup', 18486300),
+(1421, 7920, 5, 'id-Software/DOOM', 3319040),
 (13, 17, 6, 'm1pl/semantic-release-helm', 317893562),
 (0, 2, 0, 'kkentzo/mockit', 115532550),
 (1537, 9923, 3, 'jedisct1/libsodium', 7710647),
