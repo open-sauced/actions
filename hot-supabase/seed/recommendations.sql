@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T06:46:17.807Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T08:43:57.218Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1198,8 +1198,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (83889950, 'ssddanbrown/sslcheck', 63, 0, 'Simple PHP script to check SSL expiry', ['ssddanbrown'], 1, 2, 0),
 (83999700, 'sdmg15/Best-websites-a-programmer-should-visit', 45685, 626, ':link: Some useful websites for programmers.', ['sdmg15','ityler'], 1, 0, 0),
 (84084628, 'danieldiekmeier/vue-slide-up-down', 191, 7, 'Like jQuery''s slideUp/slideDown, but for Vue!', ['danieldiekmeier','martyf'], 1, 20, 0),
-(84123508, 'beautifulinteractions/node-quadstore', 123, 7, 'A LevelDB-backed graph database for Node.js and the browser supporting SPARQL queries and the RDF/JS interface.', ['jacoscaz','teomurgi'], 1, 6, 0),
 (84238782, 'sapegin/jest-cheat-sheet', 4315, 0, 'Jest cheat sheet', ['sapegin','bjoluc'], 1, 19, 0),
+(84123508, 'beautifulinteractions/node-quadstore', 123, 7, 'A LevelDB-backed graph database for Node.js and the browser supporting SPARQL queries and the RDF/JS interface.', ['jacoscaz','teomurgi'], 1, 6, 0),
 (84312659, 't4t5/messengyr', 50, 0, 'A clone of Facebook Messenger. Built with Elixir + Phoenix.', ['t4t5'], 1, 2, 0),
 (84347372, 'WebThingsIO/gateway', 2499, 227, 'WebThings Gateway', ['mrstegeman','hobinjk'], 1, 28, 0),
 (84692493, 'tc39/proposal-temporal', 2080, 147, 'Provides standard objects and functions for working with dates and times.', ['ptomato','Ms2ger'], 1, 26, 0),
@@ -2531,9 +2531,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (262286900, 'know-prashant/vanilla-js-components', 17, 0, 'A list of 50 Components created in vanilla JS', ['know-prashant'], 1, 27, 0),
 (262296122, 'PaddlePaddle/PaddleOCR', 18296, 994, 'Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)', ['LDOUBLEV','WenmuZhou'], 1, 5, 0),
 (262403451, 'vagnersabadi/8-ways-looping-arrays-javascript', 1, 0, null, ['gabrielfroes','vinibispo'], 1, 13, 0),
-(262451884, 'jlengstorf/lwj-scenes', 11, 10, null, ['jlengstorf'], 1, 17, 0),
 (262453387, 'rubymorillo/pocket-tech-writing-list', 592, 0, 'A small but formidable list of technical writing resources for developers', ['rubymorillo','Markel'], 1, 4, 0),
 (262501222, 'privatenumber/esbuild-loader', 2557, 7, '⚡️ Speed up your Webpack build with esbuild', ['privatenumber','egoist'], 1, 20, 0),
+(262451884, 'jlengstorf/lwj-scenes', 11, 10, null, ['jlengstorf'], 1, 17, 0),
 (262658866, 'jmcdo29/nestjs-oauth', 13, 8, 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', ['jmcdo29'], 1, 12, 0),
 (262782341, 'Justin27482/plextheme-progress', 4, 0, 'Ubooquity Plex Based Theme with Progress Bars and Filters', ['Justin27482'], 1, 14, 0),
 (262862475, 'amplication/amplication', 3637, 277, 'Amplication is an open‑source development tool. It helps you develop quality Node.js applications without spending time on repetitive coding tasks.', ['iddan','yuval-hazaz'], 1, 24, 0),
@@ -3255,9 +3255,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (365257282, 'sk1122/Bayze-Kanban', 1, 0, 'Bayze - Manage your tasks like a Pro. Create Boards, Sort Tasks, Invite Team Members ', [], 1, 10, 0),
 (365306037, 'sdras/recipe-box', 91, 0, null, ['sdras'], 1, 16, 0),
 (365339453, 'edoardottt/lit-bb-hack-tools', 72, 0, 'Little Bug Bounty & Hacking Tools⚔️', ['edoardottt'], 1, 12, 0),
-(365437792, 'avinassh/fast-sqlite3-inserts', 259, 17, 'Some bunch of test scripts to generate a SQLite DB with 1B rows in fastest possible way', ['avinassh','captn3m0'], 1, 12, 0),
 (365466475, 'DenisMirand4/Bot_Albion_Labour', 3, 0, null, ['DenisMirand4'], 1, 1, 0),
 (365479906, 'Ajaykumarrachuri/starter', 2, 0, null, ['Ajaykumarrachuri'], 1, 8, 0),
+(365437792, 'avinassh/fast-sqlite3-inserts', 259, 17, 'Some bunch of test scripts to generate a SQLite DB with 1B rows in fastest possible way', ['avinassh','captn3m0'], 1, 12, 0),
 (365565979, 'CyberPunkMetalHead/Binance-volatility-trading-bot', 3006, 27, 'This is a fully functioning Binance trading bot that measures the volatility of every coin on Binance and places trades with the highest gaining coins If you like this project consider donating though the Brave browser to allow me to continuously improve the script.', ['CyberPunkMetalHead','getsec'], 1, 22, 0),
 (365739812, 'tldraw/tldraw', 4768, 88, 'A tiny little drawing app.', ['steveruizok','seflless'], 1, 9, 0),
 (365829520, 'mbkore/lockup', 288, 0, 'A proof-of-concept Android application to detect and defeat some of the Cellebrite UFED forensic toolkit extraction techniques. ', ['mbkore','williamtheaker'], 1, 8, 0),
