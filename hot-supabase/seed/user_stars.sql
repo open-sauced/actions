@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T14:43:30.363Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T16:49:56.546Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -15,8 +15,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (6260037, 1234, 27487712, 'Orbiter/yacy-search', 25, 'A simple web search application based on YaCy, a peer-to-peer web search engine.', 0, 744, []),
 (111914725, 1235, 27487712, 'MBMIT/mbmit.github.io', 26, 'Website at http://mbmit.com', 0, 956, ['mariobehling','vanhonit']),
 (105300337, 1236, 27487712, 'Orbiter/yacy_grid_ui', 27, 'YaCy Grid Front Page', 0, 739, ['Orbiter','luccioman']),
-(91309349, 1238, 27487712, 'Orbiter/Test_voice_input', 29, null, 0, 744, ['chiragw15']),
 (22654023, 1237, 27487712, 'MBMIT/interges.github.io', 28, 'Interges Website', 0, 901, ['mariobehling']),
+(91309349, 1238, 27487712, 'Orbiter/Test_voice_input', 29, null, 0, 744, ['chiragw15']),
 (69609, 1239, 55982424, 'internetarchive/openlibrary', 0, 'One webpage for every book ever published!', 737, 3321, ['mekarpeles','anandology']),
 (401173533, 1240, 55982424, 'ginoleeswan/hero', 1, 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', 0, 51, ['ginoleeswan']),
 (55313340, 1241, 55982424, 'shlomif/fortune-mod', 2, 'Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems.', 1, 211, ['shlomif','telometto']),
@@ -604,9 +604,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (44150497, 595, 26007940, 'remoteintech/remote-jobs', 12, 'A list of semi to fully remote-friendly companies (jobs) in tech.', 25, 17879, ['dougaitken','jessicard']),
 (362290213, 596, 26007940, 'OlliesWorld/softball_roster', 13, null, 0, 1, ['OlliesWorld']),
 (98698673, 597, 26007940, 'bluebill1049/react-simple-animate', 14, '🎯 React UI animation made easy', 3, 1626, ['bluebill1049','3stacks']),
-(236383896, 598, 26007940, 'kubowania/Nokia3310-Snake', 15, 'A vanilla JavaScript game with tutorial', 6, 119, ['kubowania']),
 (245750702, 599, 26007940, 'wwcodecolorado/career-returnship-website', 16, 'A website for career returnship program where returners can showcase their work.  ', 3, 6, ['piqueen1','Rafna']),
-(277882910, 600, 26007940, 'kevin-powell/reponsive-web-design-bootcamp', 17, 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', 0, 194, ['kevin-powell']),
 (312555705, 601, 26007940, 'kubowania/burger-api', 18, 'My Burger Api', 16, 101, ['kubowania','brandonleboeuf']),
 (230327376, 602, 26007940, 'ErikCH/DevYouTubeList', 19, 'List of Development YouTube Channels', 27, 4365, ['ErikCH','KulkarniSuraj']),
 (232429429, 603, 26007940, 'PizzaPokerGuy/ultimate-coding-resources', 20, 'A collection of the best resources for programming, web development, computer science and more.', 1, 3055, ['PizzaPokerGuy','samedwards1989']),
@@ -628,8 +626,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3515902, 619, 12410942, 'beyondthestory/rails_admin_map_field', 7, 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', 17, 39, ['jasonl']),
 (163827812, 620, 12410942, 'freeletics/array_enum', 8, 'String to integer mapping for PostgreSQL array columns', 4, 26, ['morgoth','wesleyeewong']),
 (392785, 621, 12410942, 'heartcombo/responders', 9, 'A set of Rails responders to dry up your application', 7, 1925, ['josevalim','carlosantoniodasilva']),
+(277882910, 600, 26007940, 'kevin-powell/reponsive-web-design-bootcamp', 17, 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', 0, 194, ['kevin-powell']),
+(236383896, 598, 26007940, 'kubowania/Nokia3310-Snake', 15, 'A vanilla JavaScript game with tutorial', 6, 119, ['kubowania']),
 (240574799, 622, 12410942, 'devato/inertia_phoenix', 10, 'Inertiajs Adapter for Elixir Phoenix', 12, 58, ['tmartin8080','bigx333']),
-(52710065, 623, 12410942, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 82, 5907, ['jakebolam','kentcdodds']),
 (253226107, 2005, 1058663, 'telety/telety', 0, null, 1, 1, ['mvandervliet']),
 (71359796, 626, 12410942, 'open-sauced/open-sauced', 14, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (27291507, 627, 12410942, 'asdf-vm/asdf', 15, 'Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more', 117, 12654, ['Stratus3D','HashNuke']),
@@ -640,6 +639,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (360794368, 632, 12410942, 'hschne/rails-mini-profiler', 20, 'Performance profiling for Rails, made simple 🦔', 12, 346, ['hschne','olleolleolle']),
 (93502827, 633, 12410942, 'palkan/n_plus_one_control', 21, 'RSpec and Minitest matchers to prevent N+1 queries problem', 2, 399, ['palkan','caalberts']),
 (80016159, 634, 12410942, 'graphql/graphql-playground', 22, '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', 372, 7697, ['timsuchanek','huv1k']),
+(52710065, 623, 12410942, 'all-contributors/all-contributors', 11, '✨ Recognize all contributors, not just the ones who push code ✨', 82, 5907, ['jakebolam','kentcdodds']),
 (98687111, 635, 12410942, 'hopsoft/pipe_envy', 23, 'Elixir style pipe operator for Ruby', 0, 46, ['hopsoft']),
 (247253582, 636, 12410942, 'sunny/actor', 24, 'Composable Ruby service objects', 4, 191, ['sunny','ylecuyer']),
 (202770236, 637, 12410942, 'unboundedsystems/adapt', 25, 'ReactJS for your infrastructure. Create and deploy full-stack apps to any infrastructure using the power of React.', 9, 328, ['mterrel','mvachhar']),
@@ -2156,8 +2156,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (412662918, 2136, 57826091, 'Developer-DAO/DAO-job-board', 0, 'A job board connecting DAOs with talent.', 28, 52, ['angeljgomezc','carlomigueldy']),
 (431203802, 2137, 57826091, 'Dhaiwat10/svelte-link-preview', 1, 'Svelte port of @dhaiwat10/react-link-preview', 0, 12, ['Dhaiwat10']),
 (430789888, 2138, 57826091, 'Developer-DAO/web3-ui', 2, 'The UI library for web3', 22, 111, ['etr2460','Dhaiwat10']),
-(410474951, 2140, 57826091, 'moonshotcollective/moonswap', 4, null, 8, 5, ['farque65','QEDK']),
 (430024025, 2139, 57826091, 'stevene/DAOists', 3, 'DAOists Web-Tech-Dev Team Repo', 0, 1, ['stevene']),
+(410474951, 2140, 57826091, 'moonshotcollective/moonswap', 4, null, 8, 5, ['farque65','QEDK']),
 (413183643, 2141, 57826091, 'Vrushank264/VQVAE-PyTorch', 5, 'PyTorch Implementation of Vector Quantized Variational AutoEncoders.', 0, 2, ['Vrushank264']),
 (407233777, 2142, 57826091, 'slipHQ/run-wasm', 6, 'Run WASM based code executions in the browser easily', 17, 355, ['kennethcassel','cameronmoreau']),
 (402841129, 2143, 57826091, 'Developer-DAO/developer-dao-nft-contract', 7, null, 1, 128, ['dabit3']),

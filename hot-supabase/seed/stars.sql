@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T14:43:29.910Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T16:49:56.303Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2705,8 +2705,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 33, 0, 'mame82/LucaAppIssues', 378449409),
 (0, 3, 0, 'monicatvera/preview-credit-card', 417937257),
 (300, 5458, 48, 'reakit/reakit', 104133653),
-(9, 22, 1, 'RainerChiang/simpleness', 320826343),
 (0, 5, 0, 'zylkowski/SSSF', 371973401),
+(9, 22, 1, 'RainerChiang/simpleness', 320826343),
 (20, 992, 11, 'unjs/unplugin', 385261169),
 (129, 1021, 9, 'HackerPoet/PySpace', 134042266),
 (0, 4, 0, 'open-sauced/party-line', 429658975),
@@ -2775,8 +2775,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1, 17, 0, 'wouterst79/FluidSharp', 249563107),
 (736, 2803, 79, 'ng-select/ng-select', 96036483),
 (11, 6, 4, 'Shobu95/SewisticApp', 371116795),
-(142, 1756, 196, 'devtron-labs/devtron', 302922505),
 (2259, 15954, 1899, 'matomo-org/matomo', 1548202),
+(142, 1756, 196, 'devtron-labs/devtron', 302922505),
 (83, 1152, 29, 'adi1090x/dynamic-wallpaper', 258508281),
 (40, 142, 47, 'Tyler799/Morrowind-2020', 158972835),
 (0, 33, 3, 'DeathWrench/MM3DHD', 204745175),
