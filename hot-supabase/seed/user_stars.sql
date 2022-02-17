@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T08:43:57.404Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T10:43:40.740Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3085,8 +3085,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3374332, 3087, 19475228, 'thomaspark/bootswatch', 17, 'Themes for Bootstrap', 19, 13323, ['thomaspark','XhmikosR']),
 (594087, 3088, 19475228, 'dimitri/pgloader', 18, 'Migrate to PostgreSQL in a single command!', 220, 3760, ['dimitri','df7cb']),
 (275604, 3089, 19475228, 'resque/resque', 19, 'Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.', 58, 9036, ['defunkt','steveklabnik']),
-(4133393, 3091, 19475228, 'ejholmes/active_admin_editor', 21, 'Rich text editor for Active Admin using wysihtml5.', 30, 191, ['ejholmes','masondesu']),
 (129791, 3090, 19475228, 'javan/whenever', 20, 'Cron jobs in Ruby', 88, 8543, ['javan','benlangfeld']),
+(4133393, 3091, 19475228, 'ejholmes/active_admin_editor', 21, 'Rich text editor for Active Admin using wysihtml5.', 30, 191, ['ejholmes','masondesu']),
 (6991139, 3092, 19475228, 'ajoeofalltrades/hasoffers', 22, 'Ruby gem implementation of the HasOffers API for affiliate advertising.', 0, 1, ['lukeludwig','jphenow']),
 (286061, 3093, 19475228, 'sitaramc/gitolite', 23, 'Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.', 6, 8024, ['sitaramc','robbat2']),
 (611921, 3094, 19475228, 'activeadmin/activeadmin', 24, 'The administration framework for Ruby on Rails applications.', 392, 9097, ['deivid-rodriguez','seanlinsley']),
