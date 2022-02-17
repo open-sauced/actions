@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T10:43:40.551Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T12:49:34.345Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3311,8 +3311,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (372240402, 'alan2207/bulletproof-react', 7954, 7, '🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications. ', ['alan2207','ryota-murakami'], 1, 16, 0),
 (372263341, 'ChaelCodes/ConfBuddies', 18, 19, 'An app to help you find and meet up with your buddies at conferences.', ['ChaelCodes','yagosansz'], 1, 17, 0),
 (372409209, 'fachryansyah/microservice-example-envoy', 2, 0, 'This is an example microservice implementation with envoy', ['fachryansyah'], 1, 28, 0),
-(372718382, 'ebosas/microservices', 256, 0, 'A microservices example in Go', ['ebosas'], 1, 3, 0),
 (372449229, 'GeekMasher/advanced-security-compliance', 75, 17, 'GitHub Advance Security Compliance Action', ['GeekMasher','pholleran'], 1, 1, 0),
+(372718382, 'ebosas/microservices', 256, 0, 'A microservices example in Go', ['ebosas'], 1, 3, 0),
 (373301717, 'oscakampala/made-in-uganda', 10, 0, 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ['oscakampala','KakoozaJerry'], 1, 1, 0),
 (373327367, 'rx-mind/ngrx-plugins', 30, 0, 'Reactive Angular Plugins', ['markostanimirovic'], 1, 12, 0),
 (373396052, 'ri7nz/rescript-chakra', 44, 2, '⚡️⚛️ ReScript bindings for @chakra-ui/react', ['ri7nz','semantic-release-bot'], 1, 29, 0),
