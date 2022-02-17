@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T22:43:21.459Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T01:01:30.505Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3285,7 +3285,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (368658267, 'Rich-Harris/svelte-cubed', 829, 35, 'Svelte ❤️ Three', ['Rich-Harris','gonfva'], 1, 0, 0),
 (368859622, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 2, 0, 'Exploring RDP Instrument Pricing Analytics API for Zero Coupon Curves', ['umernalla'], 1, 25, 0),
 (368917877, 'BuilderIO/qwik', 1271, 17, 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', ['mhevery','adamdbradley'], 1, 22, 0),
-(369362064, 'reactwg/react-18', 3777, 0, 'Workgroup for React 18 release.', ['caabernathy','gaearon'], 2, 3.5, 0),
 (369652397, 'whitep4nth3r/unbreak.tech', 6, 1, 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', ['whitep4nth3r'], 1, 12, 0),
 (369719645, 'Dhaiwat10/react-link-preview', 72, 2, 'A React library that generates beautiful previews for your links.', ['Dhaiwat10','semantic-release-bot'], 1, 26, 0),
 (369896619, 'OrderAndCh4oS/hicetnunc-radio', 20, 17, 'Radio player for audio tracks in a tezos wallet.', ['OrderAndCh4oS','jclayton'], 1, 1, 0),
@@ -3498,6 +3497,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (393843307, '5t3ph/odb-generative-svg', 21, 0, 'A demonstration of returning a generative art SVG via Netlify On-Demand Builders', ['5t3ph'], 1, 22, 0),
 (394368306, 'saitho/discord-bot-reloaded', 1, 1, 'Re-iteration of my Discord bot to use Slash Commands API', ['saitho'], 1, 6, 0),
 (394433513, 'Accudio/cead-consent', 51, 2, 'Simple, lightweight and easy-to-implement Cookie/Tracking consent manager for the web', ['Accudio'], 1, 20, 0),
+(369362064, 'reactwg/react-18', 3777, 0, 'Workgroup for React 18 release.', ['caabernathy','gaearon'], 2, 3.5, 0),
 (394559625, 'muhammaddzaky/mhdraihandzaky.net', 1, 0, 'membuatwebsite', ['muhammaddzaky'], 1, 7, 0),
 (394632350, 'SanchitaMishra170676/INNOGEEKS-2.0', 0, 0, null, ['chinmoy12c','Harsh-Gupta9897'], 1, 13, 0),
 (394663818, 'NickLiffen/ghas-enablement', 20, 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', ['NickLiffen','LamarrD'], 1, 3, 0),

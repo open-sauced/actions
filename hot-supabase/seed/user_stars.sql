@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-16T22:43:21.332Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T01:01:31.074Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -409,9 +409,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (99017185, 402, 5901851, 'TakuSemba/MultiSnapRecyclerView', 20, 'Android library for multiple snapping of RecyclerView', 3, 2358, ['TakuSemba','AdityaAnand1']),
 (155288604, 403, 5901851, 'shikijs/shiki', 21, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
 (67410923, 404, 5901851, 'LiquidPlayer/LiquidCore', 22, 'Node.js virtual machine for Android and iOS', 54, 859, ['ericwlange','j0j00']),
-(17763202, 405, 5901851, 'evgenyneu/js-evaluator-for-android', 23, 'A library for running JavaScript in Android apps.', 19, 442, ['evgenyneu','codebymikey']),
-(153335440, 406, 5901851, 'ernestoyaquello/DragDropSwipeRecyclerview', 24, 'Kotlin Android library that extends RecyclerView to support gestures like drag & drop and swipe, among others. It works with vertical, horizontal and grid lists.', 4, 644, ['ernestoyaquello','JonathanImperato']),
-(315741849, 407, 5901851, 'maxkeppeler/sheets', 25, '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', 9, 685, ['maxkeppeler','Nthily']),
 (174766902, 408, 5901851, 'afollestad/recyclical', 26, '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', 12, 695, ['afollestad','Johnett']),
 (224247781, 409, 5901851, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1480, ['nikhilpanju']),
 (199327580, 410, 5901851, 'MindorksOpenSource/android-developer-roadmap', 28, 'Android Developer Roadmap - A complete roadmap to learn Android App Development', 11, 2171, ['amitshekhariitbhu','isfaaghyth']),
@@ -453,7 +450,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (122079092, 447, 43640229, 'rockita/criticalML', 3, 'Toward ethical, transparent and fair AI/ML: a critical reading list for engineers, designers, and policy makers', 1, 350, ['rockita']),
 (378379347, 448, 43640229, 'rahul-kothari/hack-money-ape', 4, 'For ETHGlobal''s HackMoney hackathon', 11, 8, ['mattiaslightstone','rahul-kothari']),
 (74293321, 449, 43640229, 'sveltejs/svelte', 5, 'Cybernetically enhanced web apps', 609, 54143, ['Rich-Harris','Conduitry']),
+(17763202, 405, 5901851, 'evgenyneu/js-evaluator-for-android', 23, 'A library for running JavaScript in Android apps.', 19, 442, ['evgenyneu','codebymikey']),
 (304344049, 450, 43640229, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 398, 6089, ['Rich-Harris','benmccann']),
+(153335440, 406, 5901851, 'ernestoyaquello/DragDropSwipeRecyclerview', 24, 'Kotlin Android library that extends RecyclerView to support gestures like drag & drop and swipe, among others. It works with vertical, horizontal and grid lists.', 4, 644, ['ernestoyaquello','JonathanImperato']),
+(315741849, 407, 5901851, 'maxkeppeler/sheets', 25, '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', 9, 685, ['maxkeppeler','Nthily']),
 (147973047, 451, 43640229, 'brianlovin/briOS', 7, 'My personal website.', 3, 1025, ['brianlovin','timneutkens']),
 (85701992, 452, 43640229, 'dicebear/dicebear', 8, 'DiceBear is an avatar library for designers and developers.', 3, 3450, ['FlorianKoerner','flogado']),
 (71359796, 453, 43640229, 'open-sauced/open-sauced', 9, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
@@ -1084,6 +1084,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (70860064, 1076, 59651629, 'Yonet/Angular-Interview-Questions', 19, 'A list of helpful Angular interview questions you can use to interview potential candidates, test yourself or completely ignore.', 1, 1025, ['Yonet','bhanu7755']),
 (196760810, 1077, 59651629, 'Ebazhanov/linkedin-skill-assessments-quizzes', 20, 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', 13, 7094, ['Ebazhanov','monkrus']),
 (290703027, 1078, 59651629, 'kothariji/competitive-programming', 21, 'Hello Programmers :computer: , A one-stop Destination✏️✏️ for all your Competitive Programming Resources.📗📕    Refer CONTRIBUTING.md for contributions', 17, 339, ['kothariji','AK-I-RA']),
+(191445024, 1079, 59651629, 'sastava007/Tech-Interview-Preparation', 22, 'A one stop solution to ace your next coding interview 👨‍💻', 14, 462, ['sastava007','skrishan07']),
+(236263651, 1080, 59651629, 'siddiqus/useful-scripts', 23, null, 0, 7, ['siddiqus']),
 (403029798, 1081, 59651629, 's-yadav/ask-me-anything', 24, 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', 0, 2, ['s-yadav']),
 (396327436, 1082, 59651629, 'devkodeio/the-dom-challenge', 25, 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', 0, 181, ['sunnypuri']),
 (374018112, 1083, 59651629, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1006, ['sadanandpai','dth99']),
@@ -1093,10 +1095,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (712530, 1087, 45036724, 'fabricjs/fabric.js', 0, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 266, 20744, ['kangax','asturur']),
 (68678413, 1088, 45036724, 'ai/nanoevents', 1, 'Simple and tiny (72 bytes) event emitter library for JavaScript', 0, 1033, ['ai','subzey']),
 (310226997, 1089, 45036724, 'antfu/ni', 2, '💡 Use the right package manager', 8, 857, ['antfu','privatenumber']),
-(191445024, 1079, 59651629, 'sastava007/Tech-Interview-Preparation', 22, 'A one stop solution to ace your next coding interview 👨‍💻', 14, 462, ['sastava007','skrishan07']),
 (393117769, 1090, 45036724, 'antfu/drauu', 3, 'Headless SVG-based drawboard in browser.', 3, 429, ['antfu','btea']),
 (35640229, 1091, 45036724, 'rollup/rollup', 4, 'Next-generation ES module bundler', 367, 21018, ['lukastaegert','Rich-Harris']),
-(236263651, 1080, 59651629, 'siddiqus/useful-scripts', 23, null, 0, 7, ['siddiqus']),
 (144926753, 1092, 45036724, 'bchiang7/v4', 5, 'Fourth iteration of my personal website built with Gatsby', 9, 4155, ['bchiang7','ImgBotApp']),
 (50274171, 1093, 45036724, 'vuejs/rollup-plugin-vue', 6, 'Roll .vue files', 68, 824, ['yyx990803','znck']),
 (260554261, 1094, 45036724, 'johnsoncodehk/volar', 7, '⚡ Explore high-performance tooling for Vue', 30, 2137, ['johnsoncodehk','IWANABETHATGUY']),
