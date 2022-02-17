@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T01:01:31.074Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T02:45:53.473Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -409,6 +409,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (99017185, 402, 5901851, 'TakuSemba/MultiSnapRecyclerView', 20, 'Android library for multiple snapping of RecyclerView', 3, 2358, ['TakuSemba','AdityaAnand1']),
 (155288604, 403, 5901851, 'shikijs/shiki', 21, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
 (67410923, 404, 5901851, 'LiquidPlayer/LiquidCore', 22, 'Node.js virtual machine for Android and iOS', 54, 859, ['ericwlange','j0j00']),
+(17763202, 405, 5901851, 'evgenyneu/js-evaluator-for-android', 23, 'A library for running JavaScript in Android apps.', 19, 442, ['evgenyneu','codebymikey']),
+(153335440, 406, 5901851, 'ernestoyaquello/DragDropSwipeRecyclerview', 24, 'Kotlin Android library that extends RecyclerView to support gestures like drag & drop and swipe, among others. It works with vertical, horizontal and grid lists.', 4, 644, ['ernestoyaquello','JonathanImperato']),
+(315741849, 407, 5901851, 'maxkeppeler/sheets', 25, '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', 9, 685, ['maxkeppeler','Nthily']),
 (174766902, 408, 5901851, 'afollestad/recyclical', 26, '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', 12, 695, ['afollestad','Johnett']),
 (224247781, 409, 5901851, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1480, ['nikhilpanju']),
 (199327580, 410, 5901851, 'MindorksOpenSource/android-developer-roadmap', 28, 'Android Developer Roadmap - A complete roadmap to learn Android App Development', 11, 2171, ['amitshekhariitbhu','isfaaghyth']),
@@ -450,10 +453,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (122079092, 447, 43640229, 'rockita/criticalML', 3, 'Toward ethical, transparent and fair AI/ML: a critical reading list for engineers, designers, and policy makers', 1, 350, ['rockita']),
 (378379347, 448, 43640229, 'rahul-kothari/hack-money-ape', 4, 'For ETHGlobal''s HackMoney hackathon', 11, 8, ['mattiaslightstone','rahul-kothari']),
 (74293321, 449, 43640229, 'sveltejs/svelte', 5, 'Cybernetically enhanced web apps', 609, 54143, ['Rich-Harris','Conduitry']),
-(17763202, 405, 5901851, 'evgenyneu/js-evaluator-for-android', 23, 'A library for running JavaScript in Android apps.', 19, 442, ['evgenyneu','codebymikey']),
 (304344049, 450, 43640229, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 398, 6089, ['Rich-Harris','benmccann']),
-(153335440, 406, 5901851, 'ernestoyaquello/DragDropSwipeRecyclerview', 24, 'Kotlin Android library that extends RecyclerView to support gestures like drag & drop and swipe, among others. It works with vertical, horizontal and grid lists.', 4, 644, ['ernestoyaquello','JonathanImperato']),
-(315741849, 407, 5901851, 'maxkeppeler/sheets', 25, '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', 9, 685, ['maxkeppeler','Nthily']),
 (147973047, 451, 43640229, 'brianlovin/briOS', 7, 'My personal website.', 3, 1025, ['brianlovin','timneutkens']),
 (85701992, 452, 43640229, 'dicebear/dicebear', 8, 'DiceBear is an avatar library for designers and developers.', 3, 3450, ['FlorianKoerner','flogado']),
 (71359796, 453, 43640229, 'open-sauced/open-sauced', 9, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
@@ -4243,7 +4243,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (38547977, 451044473, 11589902, 'nifemim/MosaicPlus', 0, 'Just a repo to set up the website.', 1, 1, ['charlesinjoroge','sarasolano']),
 (216936227, 452754045, 76665107, 'CodeForPhilly/paws-data-pipeline', 0, 'PAWS Data Pipeline Project', 50, 12, ['c-simpson','urirot']),
 (24470090, 450574015, 3662109, 'OpenDroneMap/ODM', 0, 'A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷', 53, 3398, ['pierotofy','dakotabenjamin']),
-(412662918, 379993090, 57826091, 'Developer-DAO/DAO-job-board', 0, 'A job board connecting DAOs with talent.', 24, 57, ['angeljgomezc','PBillingsby']),
 (388673420, 355430347, 455338, 'linuxdotexe/nordic-wallpapers', 0, 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', 0, 575, ['linuxdotexe','Hooregi']),
 (192129633, 356891260, 1884246, 'sinwindie/OSINT', 0, 'Collections of tools and methods created to aid in OSINT collection', 1, 1167, ['sinwindie','OsintDojo']),
 (95560, 357195439, 3941126, 'thuss/standalone-migrations', 0, 'A gem to use Rails Database Migrations in non Rails projects', 13, 951, ['thuss','mistersourcerer']),
@@ -4425,4 +4424,5 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (230951254, 330475048, 61131314, 'Singh-Shivani/Merlin-Fashion', 0, 'A custom website for online fashion.', 2, 13, ['Singh-Shivani','imsouravstyles']),
 (252029824, 336575400, 9696352, 'BabylonJS/BabylonReactNative', 0, 'Build React Native applications with the power of Babylon Native', 32, 194, ['ryantrem','chrisfromwork']),
 (268086996, 336566384, 1368727, 'dotellie/nestjs-graphql-pagination', 0, 'Decorators to allow easily building up relay compatible pagination types', 30, 11, ['renovate-bot','dotellie']),
+(412662918, 379993090, 57826091, 'Developer-DAO/DAO-job-board', 0, 'A job board connecting DAOs with talent.', 24, 57, ['angeljgomezc','PBillingsby']),
 (87715061, 456471693, 83277146, 'damienbod/AspNetCoreOpeniddict', 0, 'OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ', 1, 63, ['damienbod']);

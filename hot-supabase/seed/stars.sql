@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T01:01:30.844Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T02:45:53.337Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2588,7 +2588,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (4, 7, 0, 'arbazkiraak/SmartContractLearning', 364130745),
 (307, 2965, 0, 'OffcierCia/DeFi-Developer-Road-Map', 378536025),
 (1, 5, 0, 'shijithpk/music-discovery', 374712857),
-(5, 8, 2, 'PostmanSpat/node-binance-trader', 367572934),
 (105, 253, 26, 'bmoscon/cryptostore', 167632962),
 (9518, 42792, 777, 'scrapy/scrapy', 529502),
 (3, 76, 0, 'timdeschryver/ngrx-immer', 322861487),
@@ -3279,6 +3278,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (6, 33, 0, 'alex2844/js-events', 211698592),
 (720, 5795, 146, 'keystonejs/keystone', 128193054),
 (21, 35, 9, 'npm/documentation', 297780823),
+(5, 8, 2, 'PostmanSpat/node-binance-trader', 367572934),
 (6, 64, 1, 'DigitalOptimizationGroup/cloudflare-edge-proxy', 161835266),
 (34263, 129377, 236, 'TheAlgorithms/Python', 63476337),
 (225, 708, 29, 'HospitalRun/hospitalrun', 200928051),
@@ -3450,6 +3450,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (2508, 13583, 330, 'CocoaPods/CocoaPods', 2203645),
 (5, 62, 0, 'savepopulation/beaver', 180403017),
 (70, 2032, 11, 'MayaPosch/NymphCast', 169604606),
+(165, 1297, 77, 'hay-kot/mealie', 319167362),
 (35, 172, 10, 'chimbori/crux', 127672595),
 (67, 80, 4, 'zellwk/crud-demo', 254060596),
 (356, 1874, 4, 'ru-de/faq', 45045257),
@@ -3534,7 +3535,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (245, 796, 77, 'mrmaffen/vlc-android-sdk', 19319131),
 (9703, 44109, 177, 'jekyll/jekyll', 65252),
 (8218, 46522, 284, 'iptv-org/iptv', 157616880),
-(165, 1297, 77, 'hay-kot/mealie', 319167362),
 (81, 600, 3, 'shalvah/DownloadThisVideo', 133681780),
 (0, 1, 0, 'juliobonon/learn-rust', 333280676),
 (0, 1, 0, 'hpfxd/BossBarLib', 447881481),
