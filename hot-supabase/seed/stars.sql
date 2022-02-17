@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T18:45:32.564Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T20:43:23.981Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3188,9 +3188,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (13, 219, 8, 'writewithocto/octo', 281778548),
 (38, 364, 44, 'hankchizljaw/beedle', 143339508),
 (31, 51, 3, 'textileio/js-examples', 257404606),
-(61, 132, 28, 'aspittel/learn-code-from-us', 149024333),
 (8642, 37431, 271, 'anuraghazra/github-readme-stats', 278335273),
 (483, 8097, 552, 'gridsome/gridsome', 143078055),
+(61, 132, 28, 'aspittel/learn-code-from-us', 149024333),
 (5240, 43127, 550, 'strapi/strapi', 43441403),
 (820, 17183, 2, 'typicode/lowdb', 18351848),
 (53, 315, 2, 'edoardottt/scilla', 298791469),

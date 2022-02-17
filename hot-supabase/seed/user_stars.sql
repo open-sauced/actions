@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T18:45:32.879Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T20:43:24.211Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1132,6 +1132,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (157736989, 1124, 1305623, 'rafaelfgx/DotNetCore', 7, '.NET 6 Nuget Packages.', 0, 251, ['rafaelfgx']),
 (75505125, 1125, 1305623, 'abpframework/abp', 8, 'Open Source Web Application Framework for ASP.NET Core', 534, 7277, ['hikalkan','maliming']),
 (274055064, 1126, 1305623, 'hassanhabib/OtripleS', 9, 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', 71, 180, ['viralpandya','eriadhami']),
+(184456251, 1127, 1305623, 'microsoft/PowerToys', 10, 'Windows system utilities to maximize productivity', 2097, 65378, ['bao-qian','crutkas']),
 (239233346, 1128, 1305623, 'ardalis/ApiEndpoints', 11, 'A project for supporting API Endpoints in ASP.NET Core web applications.', 11, 1467, ['ardalis','maxkoshevoi']),
 (215868040, 1129, 1305623, 'AnkitSharma-007/BookCart', 12, 'An e-commerce application for an online book store.', 3, 99, ['AnkitSharma-007']),
 (172550478, 1130, 1305623, 'SlalomBuild/blackslope.net', 13, '.Net Core reference architecture', 8, 40, ['andykongchi','pmotameni']),
@@ -1139,7 +1140,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (161603821, 1132, 1305623, 'Axeflower/localsToJson', 15, null, 0, 4, ['Axeflower']),
 (54377519, 1133, 1305623, 'PiranhaCMS/piranha.core', 16, 'Piranha CMS is the friendly editor-focused CMS for .NET6 that can be used both as an integrated CMS or as a headless API.', 109, 1466, ['tidyui','filipjansson']),
 (69673033, 1134, 1305623, 'ardalis/CleanArchitecture', 17, 'Clean Architecture Solution Template: A starting point for Clean Architecture with ASP.NET Core', 26, 8995, ['ardalis','sdepouw']),
-(184456251, 1127, 1305623, 'microsoft/PowerToys', 10, 'Windows system utilities to maximize productivity', 2097, 65378, ['bao-qian','crutkas']),
 (66287660, 1135, 1305623, 'json-api-dotnet/JsonApiDotNetCore', 18, 'A framework for building JSON:API compliant REST APIs using ASP.NET and Entity Framework Core.', 38, 535, ['jaredcnance','bart-degreed']),
 (208397359, 1136, 1305623, 'proudmonkey/AutoWrapper', 19, 'A simple, yet customizable global exception handler and Http response wrapper for ASP.NET Core APIs.', 22, 497, ['proudmonkey','hueifeng']),
 (106144134, 1137, 1305623, 'rafaelfgx/Architecture', 20, '.NET 6, ASP.NET Core 6, Entity Framework Core 6, C# 10, Angular 13, Clean Code, SOLID, DDD.', 0, 2292, ['rafaelfgx']),
