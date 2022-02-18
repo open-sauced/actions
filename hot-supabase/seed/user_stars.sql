@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T12:49:42.887Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T14:43:51.055Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -419,6 +419,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (335819337, 412, 88631894, 'MonkeDev/API-bot', 0, 'The bot we use to manage our API.', 0, 1, ['Mafia-7777','BurnedBed']),
 (2902935, 413, 2228196, 'moovweb/gvm', 0, 'Go Version Manager', 143, 6874, ['jbussdieker','voxxit']),
 (396169668, 414, 2228196, 'lesmo/pinentry-wsl-ps1', 1, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 0, 1, ['diablodale']),
+(121394755, 415, 2228196, 'diablodale/pinentry-wsl-ps1', 2, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 4, 58, ['diablodale']),
+(292232897, 416, 2228196, 'frederikme/TinderBotz', 3, 'Automated Tinder bot and scraper using selenium in python.', 6, 158, ['frederikme','acarter881']),
+(127577160, 417, 2228196, 'jeffmli/TinderAutomation', 4, null, 9, 516, ['jeffmli']),
 (270069811, 418, 2228196, 'lesmo/kms-cloud', 5, '''Nube'' de la extinta startup KMS', 0, 1, ['lesmo']),
 (370005059, 419, 2228196, 'lesmo/LesmoMovies', 6, null, 0, 1, ['lesmo']),
 (74627617, 420, 2228196, 'commaai/openpilot', 7, 'openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for over 150 supported car makes and models.', 165, 31784, ['adeebshihadeh','pd0wm']),
@@ -463,10 +466,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (383299223, 460, 43640229, 'Chronofit/chrono-website', 16, null, 0, 2, ['sahilsharma356','SVD6']),
 (223971726, 461, 43640229, 'ryanheise/just_audio', 17, 'Audio Player', 115, 547, ['ryanheise','bdlukaa']),
 (159527907, 462, 43640229, 'ryanheise/audio_service', 18, 'Flutter plugin to play audio in the background while the screen is off.', 101, 624, ['ryanheise','nt4f04uNd']),
-(121394755, 415, 2228196, 'diablodale/pinentry-wsl-ps1', 2, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 4, 58, ['diablodale']),
-(292232897, 416, 2228196, 'frederikme/TinderBotz', 3, 'Automated Tinder bot and scraper using selenium in python.', 6, 158, ['frederikme','acarter881']),
 (162028712, 463, 43640229, 'leerob/leerob.io', 19, '✨  My portfolio built with Next.js, Tailwind, Prisma, and Vercel.', 10, 2853, ['leerob','omaralsoudanii']),
-(127577160, 417, 2228196, 'jeffmli/TinderAutomation', 4, null, 9, 516, ['jeffmli']),
 (112027892, 464, 43640229, 'brianegan/flutter_architecture_samples', 20, 'TodoMVC for Flutter', 44, 7556, ['brianegan','mmcc007']),
 (343757632, 465, 43640229, 'olmps/memo', 21, 'Memo is an open-source, programming-oriented spaced repetition software (SRS) written in Flutter.', 28, 1633, ['matuella','ggirotto']),
 (265411978, 466, 43640229, 'aidancrowther/ASCIIPlay', 22, 'A simple video player that renders to ASCII written in C', 9, 26, ['aidancrowther','Skote2']),
@@ -3381,7 +3381,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (214587193, 3383, 60850993, 'supabase/supabase', 4, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25467, ['kiwicopple','MildTomato']),
 (201535836, 3384, 60850993, 'onderceylan/pwa-asset-generator', 5, 'Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.', 26, 1796, ['onderceylan','semantic-release-bot']),
 (143763564, 3385, 60850993, 'cosmicjs/vue-music-website', 6, 'Music website built with Vue.js and Cosmic JS', 1, 87, ['zezic','tonyspiro']),
-(222450899, 3386, 60850993, 'slidenerd/nuxt-auth', 7, 'A dummy example to test nuxtjs with passport authentication', 1, 3, []),
 (44571718, 3387, 60850993, 'vuejs/awesome-vue', 8, '🎉 A curated list of awesome things related to Vue.js', 30, 63460, ['Scrum','yyx990803']),
 (317286633, 3388, 60850993, 'ivodolenc/nuxt-animejs', 9, 'Anime.js module for Nuxt.js', 0, 43, ['ivodolenc']),
 (76838017, 3389, 60850993, 'iina/iina', 10, 'The modern video player for macOS.', 1271, 28752, ['lhc70000','alejx']),
@@ -3404,7 +3403,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (290264556, 3406, 60850993, 'Gloryness/Multiprocessing-in-PyQt5', 27, 'Use this program to test how many threads can run at once while doing the same tasks.', 0, 4, ['Gloryness']),
 (13491895, 3407, 60850993, 'EbookFoundation/free-programming-books', 28, ':books: Freely available programming books', 40, 217091, ['vhf','MHM5000']),
 (8936633, 3408, 60850993, 'maxogden/art-of-node', 29, ':snowflake: a short introduction to node.js', 17, 9324, ['maxogden','zeke']),
-(343033262, 3409, 38838958, 'larissabenedet/lol-champions', 0, 'o LOL Champions é um site que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. ', 0, 7, ['larissabenedet']),
+(222450899, 3386, 60850993, 'slidenerd/nuxt-auth', 7, 'A dummy example to test nuxtjs with passport authentication', 1, 3, []),
 (156914027, 3410, 38838958, 'isaachinman/next-i18next', 1, 'The easiest way to translate your NextJs apps.', 17, 2834, ['isaachinman','capellini']),
 (383845459, 3411, 38838958, 'lorenaaze/codewars.desafios', 2, 'Solução de desafios encontrados na plataforma codewars ', 0, 4, ['lorenaaze']),
 (34134519, 3412, 38838958, 'awvalenti/materialdidatico', 3, 'Material didático para assuntos gerais de desenvolvimento de software', 0, 4, ['awvalenti']),
@@ -3498,6 +3497,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (385261169, 3500, 9696352, 'unjs/unplugin', 24, 'Unified plugin system for Vite, Rollup, Webpack, and more', 10, 902, ['antfu','tropicalraisel']),
 (399574627, 3501, 9696352, 'orta/typescript-api-shim', 25, null, 1, 6, ['orta','johnnyreilly']),
 (3526998, 3502, 9696352, 'mirage/ocaml-github', 26, 'GitHub APIv3 OCaml bindings', 22, 96, ['avsm','dsheets']),
+(343033262, 3409, 38838958, 'larissabenedet/lol-champions', 0, 'o LOL Champions é um site que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. ', 0, 7, ['larissabenedet']),
 (310852173, 3503, 9696352, 'cometkim/asdf-grain', 27, 'Grain language plugin for asdf version manager.', 0, 3, ['cometkim']),
 (245273564, 3504, 9696352, 'asdf-vm/asdf-plugin-template', 28, '📦 asdf-vm plugin template with GitHub Actions and more!', 4, 32, ['jthegedus','vic']),
 (341707514, 3505, 9696352, 'bytecodealliance/witx-bindgen', 29, 'A language binding generator for WebAssembly interface types', 20, 110, ['alexcrichton','peterhuene']),
