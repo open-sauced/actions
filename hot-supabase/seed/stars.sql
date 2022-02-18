@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T22:43:25.313Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T01:02:10.931Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2276,8 +2276,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1, 17, 1, 'NdR91/NdR-PhoneUI', 395280574),
 (270, 1811, 5, 'madhuakula/kubernetes-goat', 269419110),
 (7, 49, 1, 'dabit3/nuxt-supabase-full-multi-user-blog', 386951260),
-(2113, 2974, 67, 'apache/maven', 206483),
 (0, 1, 0, 'philips-forks/innersource-crawler', 358525505),
+(2113, 2974, 67, 'apache/maven', 206483),
 (3062, 4868, 173, 'hibernate/hibernate-orm', 961036),
 (4, 37, 0, 'JonnyBurger/remotion-wrapped', 336778197),
 (408, 3162, 120, 'nuxt/create-nuxt-app', 99351826),
@@ -2496,17 +2496,17 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 6, 0, 'me-rakib/javascript-projects-learning', 378961149),
 (726, 212, 764, 'BaReinhard/Hacktoberfest-Data-Structure-and-Algorithms', 105079548),
 (215, 756, 70, 'philips-labs/terraform-aws-github-runner', 258465213),
-(10227, 52248, 10, 'h5bp/Front-end-Developer-Interview-Questions', 3402537),
 (2, 2, 0, 'mit-dci/dlc-oracle-nodejs-samples', 135149082),
 (0, 2, 29, 'jgettings/food-planner', 146790989),
 (129, 2438, 147, 'rbreaves/kinto', 199079226),
+(10227, 52248, 10, 'h5bp/Front-end-Developer-Interview-Questions', 3402537),
 (1447, 2997, 607, 'liquibase/liquibase', 2019791),
 (3156, 28139, 317, 'laurent22/joplin', 79162682),
 (390, 380, 4, 'mazipan/hello-open-source', 151799924),
-(68, 490, 9, 'Azure/counterfit', 362276202),
 (3391, 13230, 192, 'jupyter/jupyter', 36895421),
 (1, 35, 6, 'mik3y/airdash', 324649354),
 (127, 2949, 29, 'rsalmei/alive-progress', 200590949),
+(68, 490, 9, 'Azure/counterfit', 362276202),
 (339, 7129, 49, 'hediet/vscode-debug-visualizer', 192892917),
 (41, 464, 0, 'chadgeary/cloudblock', 241555935),
 (57, 856, 8, 'vmstan/gravity-sync', 265916655),

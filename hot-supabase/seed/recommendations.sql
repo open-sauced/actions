@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-17T22:43:25.541Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T01:02:11.227Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3558,11 +3558,11 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (400468445, 'g-plane/typacro', 28, 0, 'TypeCake is a language that compiles to TypeScript types. (WIP)', ['g-plane'], 1, 7, 0),
 (400528139, 'tinkoff-ai/etna', 267, 39, 'ETNA – Time-Series Library', ['Mr-Geekman','alex-hse-repository'], 1, 2, 0),
 (400632376, 'open-sauced/check-engines', 3, 6, 'Never break your dependency tree with npm-install-checks running on npx', ['0-vortex'], 1, 26, 0),
+(400647518, 'open-jumpco/kfsm-mpp-compose-traffic', 3, 0, 'KFSM MPP Compose Traffic Intersection', [], 1, 20, 0),
 (400669165, 'Laribene/MachineLearning', 1, 0, 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ['Laribene'], 2, 0, 0),
 (400865703, 'bilalbentoumi/win11-vue', 98, 0, 'Windows 11 Simulator built with Vue.js', ['bilalbentoumi'], 1, 13, 0),
 (400887675, 'vinitshahdeo/Hacktoberfest2021', 888, 85, 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ['vinitshahdeo','thisisamank'], 1, 1, 0),
 (400898185, 'NsdHSO/storybook', 1, 0, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ['shilman','ndelangen'], 2, 0, 0),
-(400647518, 'open-jumpco/kfsm-mpp-compose-traffic', 3, 0, 'KFSM MPP Compose Traffic Intersection', [], 1, 20, 0),
 (401025196, 'avinash201199/To-Do-List', 11, 5, 'To-Do-List  javascript project', ['avinash201199','manthanabc'], 1, 3, 0),
 (401173533, 'ginoleeswan/hero', 51, 0, 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ['ginoleeswan'], 1, 1, 0),
 (401300251, 'Gen-R/organisation', 2, 0, 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ['mrchristian'], 1, 29, 0),
