@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T02:48:22.560Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T04:46:54.885Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2576,8 +2576,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (197, 1315, 3, 'hosseinmoein/DataFrame', 108669343),
 (99, 940, 6, 'Defi-Cartel/salmonella', 349376361),
 (37, 268, 0, 'bennycode/trading-signals', 267563398),
-(64, 387, 14, 'TulipCharts/tulipnode', 76993879),
 (25, 96, 4, 'thanhnguyennguyen/trading-indicator', 237114405),
+(64, 387, 14, 'TulipCharts/tulipnode', 76993879),
 (39, 109, 3, 'szferguson/Binance-Trailing-Stop-Loss', 127493242),
 (431, 1662, 69, 'anandanand84/technicalindicators', 57914774),
 (1686, 20297, 10, 'AllThingsSmitty/css-protips', 41592744),
@@ -2679,6 +2679,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (6, 9, 2, 'OpenKudos/python_client', 152447206),
 (1, 4, 0, 'rmzi/cyoa', 4867238),
 (481, 5188, 7, 'lowlighter/metrics', 293860197),
+(0, 1, 0, 'jwalter/lets_play_tdd', 3779263),
 (287, 1795, 47, 'freeCodeCamp/chapter', 215145057),
 (0, 86, 0, 'hazelgrove/tylr', 286363484),
 (54, 66, 12, 'SalesforceLabs/survey-force', 2151073),
@@ -2695,7 +2696,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (97, 23, 0, 'BattlesnakeOfficial/starter-snake-javascript', 232669620),
 (332, 1796, 25, 'resemble-ai/Resemblyzer', 202577283),
 (41, 267, 15, 'googlecreativelab/creatability-components', 153687898),
-(0, 1, 0, 'jwalter/lets_play_tdd', 3779263),
 (72, 2002, 28, 'krzkaczor/ts-essentials', 148948562),
 (104, 1238, 61, 'dom96/jester', 4178258),
 (31, 289, 160, 'solid/specification', 186702057),
@@ -2729,10 +2729,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (66, 75, 341, 'zowe/zowe-cli', 151615191),
 (170, 1528, 19, 'testing-library/user-event', 149638165),
 (21, 15, 0, 'cornflourblue/angular-10-custom-modal', 298239008),
+(8, 6, 0, 'fischertechnik/plc_training_factory_24v', 275741530),
 (0, 2, 0, 'mloberg/openapi-stitcher', 243554283),
 (0, 1, 0, 'fabtjar/advent-of-code', 160939449),
 (1103, 1218, 616, 'WordPress/wordpress-develop', 75645659),
-(8, 6, 0, 'fischertechnik/plc_training_factory_24v', 275741530),
 (0, 9, 0, 'kyleoneill/CipherPunk', 320945731),
 (1202, 16240, 19, 'zloirock/core-js', 11481338),
 (380, 1661, 293, 'overtake/telegram', 23120157),
