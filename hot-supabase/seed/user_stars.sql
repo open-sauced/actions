@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T06:46:21.561Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T08:43:54.065Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2297,10 +2297,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (28320207, 2277, 14868216, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8899, ['majodev','maiadeutsch']),
 (45947467, 2278, 14868216, 'insin/nwb', 20, 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', 164, 5428, ['insin','ntwcklng']),
 (99044824, 2279, 14868216, 'romabash/sudoku-solver', 21, 'Sudoku Solver with NumPy', 0, 1, ['romabash']),
+(8514, 2280, 14868216, 'rails/rails', 22, 'Ruby on Rails', 598, 49762, ['rafaelfranca','tenderlove']),
 (49760504, 2281, 14868216, 'samshadwell/TrumpScript', 23, 'Make Python great again', 5, 7401, ['samshadwell','CryoBrown']),
 (2096358, 2282, 14868216, 'rajkissu/brainfuck', 24, 'A Brainfuck interpreter running on node.js', 4, 14, ['rajkissu']),
 (85427974, 2283, 14868216, 'colinstein/Brainfuck', 25, 'A Brianfuck interpreter written in ruby', 0, 1, ['colinstein']),
-(8514, 2280, 14868216, 'rails/rails', 22, 'Ruby on Rails', 598, 49762, ['rafaelfranca','tenderlove']),
 (206084, 2284, 14868216, 'Homebrew/legacy-homebrew', 26, '💀 The former home of Homebrew/homebrew (deprecated)', 0, 27409, ['jacknagel','adamv']),
 (66777429, 2285, 14868216, 'jhu-ep-coursera/fullstack-course5', 27, 'All of the source code for the Single Page Web Applications with AngularJS course.', 3, 694, ['ychaikin','mpatelpa']),
 (5972219, 2286, 14868216, 'snapappointments/bootstrap-select', 28, ':rocket: The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more.', 238, 9447, ['caseyjhol','t0xicCode']),
