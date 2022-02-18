@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T08:43:53.881Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T10:43:48.677Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3059,9 +3059,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (6, 29, 6, 'tschaub/es-main', 241743677),
 (1, 15, 8, 'open-sauced/slaybot', 280770211),
 (0, 2, 0, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 368859622),
+(51, 448, 129, 'DavHau/mach-nix', 257854679),
 (400, 3135, 197, 'wp-graphql/wp-graphql', 72453516),
 (180, 701, 10, 'nikhita/tech-conferences-india', 77512018),
-(51, 448, 129, 'DavHau/mach-nix', 257854679),
 (414, 8145, 15, 'James-Yu/LaTeX-Workshop', 77369463),
 (31, 299, 1, 'anderseknert/awesome-opa', 292940644),
 (7, 145, 4, 'pathivu/pathivu', 220651147),

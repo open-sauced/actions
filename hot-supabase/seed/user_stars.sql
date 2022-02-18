@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T08:43:54.065Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T10:43:48.912Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2144,12 +2144,12 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (384873391, 2124, 72279316, 'developer-student-club-thapar/GSoC-Proposals-Archive', 17, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', 1, 42, ['specter25','Saurav-Shrivastav']),
 (230963289, 2125, 72279316, 'Paol-imi/muuri-react', 18, 'The layout engine for React', 25, 227, ['Paol-imi','In-dev-paolo']),
 (324575078, 2126, 72279316, 'Kushal997-das/Project-Guidance', 19, ':octocat:🌟 The Ultimate resources for beginner to advance level projects all at  one place 💻 🎯🚀 ', 3, 129, ['Kushal997-das','SamarpanCoder2002']),
-(41029539, 2127, 72279316, 'alpha-miner/Finance-Python', 20, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 7, 303, ['wegamekinglc']),
 (140322995, 2128, 72279316, 'Finance-Hub/FinanceHub', 21, 'Resources for Quantitative Finance', 5, 271, ['gusamarante','VFermat']),
 (7833168, 2129, 72279316, 'elastic/kibana', 22, 'Your window into the Elastic Stack', 9331, 16839, ['spalger','rashidkpc']),
 (15111821, 2130, 72279316, 'grafana/grafana', 23, 'The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ', 2195, 46120, ['torkelo','bergquist']),
 (48356217, 2131, 72279316, 'haltu/muuri', 24, 'Infinite responsive, sortable, filterable and draggable layouts', 83, 9798, ['niklasramo','aslakhellesoy']),
 (297419763, 2132, 72279316, 'github/india', 25, 'GitHub resources and information for the developer community in India', 3, 1368, ['mvkaran','GitHubIndiaBot']),
+(41029539, 2127, 72279316, 'alpha-miner/Finance-Python', 20, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 7, 303, ['wegamekinglc']),
 (377305568, 2133, 72279316, 'madebygps/self-taught-guide-to-cloud-computing', 26, 'Learn the fundamentals of cloud computing', 0, 2240, ['madebygps','rishabkumar7']),
 (103633984, 2134, 72279316, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (December 2021)', 38, 72884, ['goldbergyoni','anediaz']),
 (109887187, 2135, 72279316, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 122, 826, ['danthareja']),
