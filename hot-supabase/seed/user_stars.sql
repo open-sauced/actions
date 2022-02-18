@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T01:02:11.118Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T02:48:22.835Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3133,6 +3133,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (36836475, 3135, 22620727, 'tmux/tmux', 7, 'tmux source code', 19, 23404, ['nicm','ThomasAdam']),
 (20976138, 3136, 22620727, 'official-stockfish/Stockfish', 8, 'UCI chess engine', 53, 5655, ['mcostalba','zamar']),
 (195897446, 3137, 22620727, 'CollabCodeTech/backend-challenges', 9, 'A public list of open-source challenges from jobs around the world', 3, 2894, ['joviane','vinigmoraes']),
+(14712850, 3138, 22620727, 'syncthing/syncthing', 10, 'Open Source Continuous File Synchronization', 305, 41996, ['calmh','AudriusButkevicius']),
 (72891330, 3139, 22620727, 'kubernetes/ingress-nginx', 11, 'NGINX Ingress Controller for Kubernetes', 300, 11783, ['aledbf','k8s-ci-robot']),
 (62367558, 3140, 22620727, 'vercel/hyper', 12, 'A terminal built on web technologies', 744, 37545, ['rauchg','LabhanshAgrawal']),
 (135516270, 3141, 22620727, 'k3s-io/k3s', 13, 'Lightweight Kubernetes', 456, 18693, ['erikwilson','ibuildthecloud']),
@@ -3722,7 +3723,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (365437792, 3724, 907680, 'avinassh/fast-sqlite3-inserts', 12, 'Some bunch of test scripts to generate a SQLite DB with 1B rows in fastest possible way', 17, 259, ['avinassh','captn3m0']),
 (113412457, 3725, 907680, 'gnif/LookingGlass', 13, 'An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.', 8, 3387, ['gnif','quantum5']),
 (311916226, 3726, 907680, 'TeamPiped/Piped', 14, 'An alternative privacy-friendly YouTube frontend which is efficient by design.', 81, 1553, ['FireMasterK','weblate']),
-(14712850, 3138, 22620727, 'syncthing/syncthing', 10, 'Open Source Continuous File Synchronization', 305, 41996, ['calmh','AudriusButkevicius']),
 (205473061, 3727, 907680, 'infinyon/fluvio', 15, 'Programmable platform for data in motion', 70, 811, ['sehz','nicholastmosher']),
 (17209875, 3728, 907680, 'romeovs/creep', 16, 'a pretty sweet 4px wide pixel font.', 10, 1644, ['romeovs','chase']),
 (349522340, 3729, 907680, 'google/lyra', 17, 'A Very Low-Bitrate Codec for Speech Compression', 40, 2948, ['jsoref','aluebs']),
