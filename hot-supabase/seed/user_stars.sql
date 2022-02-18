@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T10:43:48.912Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T12:49:42.887Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -419,9 +419,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (335819337, 412, 88631894, 'MonkeDev/API-bot', 0, 'The bot we use to manage our API.', 0, 1, ['Mafia-7777','BurnedBed']),
 (2902935, 413, 2228196, 'moovweb/gvm', 0, 'Go Version Manager', 143, 6874, ['jbussdieker','voxxit']),
 (396169668, 414, 2228196, 'lesmo/pinentry-wsl-ps1', 1, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 0, 1, ['diablodale']),
-(121394755, 415, 2228196, 'diablodale/pinentry-wsl-ps1', 2, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 4, 58, ['diablodale']),
-(292232897, 416, 2228196, 'frederikme/TinderBotz', 3, 'Automated Tinder bot and scraper using selenium in python.', 6, 158, ['frederikme','acarter881']),
-(127577160, 417, 2228196, 'jeffmli/TinderAutomation', 4, null, 9, 516, ['jeffmli']),
 (270069811, 418, 2228196, 'lesmo/kms-cloud', 5, '''Nube'' de la extinta startup KMS', 0, 1, ['lesmo']),
 (370005059, 419, 2228196, 'lesmo/LesmoMovies', 6, null, 0, 1, ['lesmo']),
 (74627617, 420, 2228196, 'commaai/openpilot', 7, 'openpilot is an open source driver assistance system. openpilot performs the functions of Automated Lane Centering and Adaptive Cruise Control for over 150 supported car makes and models.', 165, 31784, ['adeebshihadeh','pd0wm']),
@@ -466,7 +463,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (383299223, 460, 43640229, 'Chronofit/chrono-website', 16, null, 0, 2, ['sahilsharma356','SVD6']),
 (223971726, 461, 43640229, 'ryanheise/just_audio', 17, 'Audio Player', 115, 547, ['ryanheise','bdlukaa']),
 (159527907, 462, 43640229, 'ryanheise/audio_service', 18, 'Flutter plugin to play audio in the background while the screen is off.', 101, 624, ['ryanheise','nt4f04uNd']),
+(121394755, 415, 2228196, 'diablodale/pinentry-wsl-ps1', 2, 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', 4, 58, ['diablodale']),
+(292232897, 416, 2228196, 'frederikme/TinderBotz', 3, 'Automated Tinder bot and scraper using selenium in python.', 6, 158, ['frederikme','acarter881']),
 (162028712, 463, 43640229, 'leerob/leerob.io', 19, '✨  My portfolio built with Next.js, Tailwind, Prisma, and Vercel.', 10, 2853, ['leerob','omaralsoudanii']),
+(127577160, 417, 2228196, 'jeffmli/TinderAutomation', 4, null, 9, 516, ['jeffmli']),
 (112027892, 464, 43640229, 'brianegan/flutter_architecture_samples', 20, 'TodoMVC for Flutter', 44, 7556, ['brianegan','mmcc007']),
 (343757632, 465, 43640229, 'olmps/memo', 21, 'Memo is an open-source, programming-oriented spaced repetition software (SRS) written in Flutter.', 28, 1633, ['matuella','ggirotto']),
 (265411978, 466, 43640229, 'aidancrowther/ASCIIPlay', 22, 'A simple video player that renders to ASCII written in C', 9, 26, ['aidancrowther','Skote2']),
@@ -2144,12 +2144,12 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (384873391, 2124, 72279316, 'developer-student-club-thapar/GSoC-Proposals-Archive', 17, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', 1, 42, ['specter25','Saurav-Shrivastav']),
 (230963289, 2125, 72279316, 'Paol-imi/muuri-react', 18, 'The layout engine for React', 25, 227, ['Paol-imi','In-dev-paolo']),
 (324575078, 2126, 72279316, 'Kushal997-das/Project-Guidance', 19, ':octocat:🌟 The Ultimate resources for beginner to advance level projects all at  one place 💻 🎯🚀 ', 3, 129, ['Kushal997-das','SamarpanCoder2002']),
+(41029539, 2127, 72279316, 'alpha-miner/Finance-Python', 20, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 7, 303, ['wegamekinglc']),
 (140322995, 2128, 72279316, 'Finance-Hub/FinanceHub', 21, 'Resources for Quantitative Finance', 5, 271, ['gusamarante','VFermat']),
 (7833168, 2129, 72279316, 'elastic/kibana', 22, 'Your window into the Elastic Stack', 9331, 16839, ['spalger','rashidkpc']),
 (15111821, 2130, 72279316, 'grafana/grafana', 23, 'The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. ', 2195, 46120, ['torkelo','bergquist']),
 (48356217, 2131, 72279316, 'haltu/muuri', 24, 'Infinite responsive, sortable, filterable and draggable layouts', 83, 9798, ['niklasramo','aslakhellesoy']),
 (297419763, 2132, 72279316, 'github/india', 25, 'GitHub resources and information for the developer community in India', 3, 1368, ['mvkaran','GitHubIndiaBot']),
-(41029539, 2127, 72279316, 'alpha-miner/Finance-Python', 20, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 7, 303, ['wegamekinglc']),
 (377305568, 2133, 72279316, 'madebygps/self-taught-guide-to-cloud-computing', 26, 'Learn the fundamentals of cloud computing', 0, 2240, ['madebygps','rishabkumar7']),
 (103633984, 2134, 72279316, 'goldbergyoni/nodebestpractices', 27, ':white_check_mark:  The Node.js best practices list (December 2021)', 38, 72884, ['goldbergyoni','anediaz']),
 (109887187, 2135, 72279316, 'danthareja/contribute-to-open-source', 28, 'Learn the GitHub workflow by contributing code in a fun simulation project ', 122, 826, ['danthareja']),

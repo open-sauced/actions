@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T10:43:48.833Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T12:49:42.696Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2642,7 +2642,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (274593180, 'Surya1231/ContestMania', 33, 1, 'A platform for tracking your competitive progress on various competitive coding websites.', ['Surya1231','sanketcn'], 1, 1, 0),
 (274724694, 'dendronhq/dendron', 2621, 429, 'The personal knowledge management (PKM) tool that grows as you do!', ['kevinslin','SeriousBug'], 1, 11, 0),
 (274751150, 'jamesonsaunders/Convert-Website-to-App', 29, 5, 'Convert your mobile-friendly website into an app', ['jamesonsaunders'], 1, 8, 0),
-(275585532, 'SergeyMyssak/nextjs-sitemap', 84, 2, 'Generate dynamic sitemap.xml for Next.js projects following the example of Google!', ['SergeyMyssak','andreymyssak'], 1, 25, 0),
 (275741530, 'fischertechnik/plc_training_factory_24v', 6, 0, 'Training Factory Industry 4.0 (24V)', ['AlexanderSteiger'], 1, 0, 0),
 (275874438, 'sbrudz/accelerate-metrics', 4, 0, 'Tool to calculate Accelerate DevOps metrics', ['sbrudz'], 1, 20, 0),
 (275920269, 'obbap1/blockstream-js-client', 7, 8, 'The Client that consumes the Blockstream Satellite API', ['obbap1'], 1, 25, 0),
@@ -2658,6 +2657,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (276976140, 'mergestat/mergestat', 2710, 11, 'Query git repositories with SQL. Generate reports, perform status checks, analyze codebases. 🔍 📊', ['patrickdevivo','Vialeon'], 1, 7, 0),
 (277028976, 'elraffa/calendario-siembra', 2, 0, 'Simple app to know what to plant each month', ['elraffa'], 1, 6, 0),
 (277057483, 'apparition47/MailTrackerBlocker', 995, 10, 'Email tracker, read receipt and spy pixel blocker plugin for macOS Apple Mail', ['apparition47','danieldickison'], 1, 25, 0),
+(275585532, 'SergeyMyssak/nextjs-sitemap', 84, 2, 'Generate dynamic sitemap.xml for Next.js projects following the example of Google!', ['SergeyMyssak','andreymyssak'], 1, 25, 0),
 (277194853, 'atc1441/CH_HID_Arduino', 14, 1, null, ['atc1441'], 1, 2, 0),
 (277357823, 'timdeschryver/rx-query', 167, 2, null, ['timdeschryver','berthertogen'], 1, 13, 0),
 (277568940, 'nix-dot-dev/getting-started-nix-template', 297, 6, 'Based on nix.dev tutorials, repository template to get you started with Nix.', ['domenkozar','avdv'], 1, 18, 0),
@@ -2701,7 +2701,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (281443363, 'sindresorhus/css-in-readme-like-wat', 4754, 1, 'Style your readme using CSS with this simple trick', ['sindresorhus','ImprovedTube'], 1, 7, 0),
 (281520747, 'kentcdodds/managing-state-management-slides', 69, 2, null, ['kentcdodds'], 1, 2, 0),
 (281778548, 'writewithocto/octo', 212, 9, 'A lightweight word processor for technical writers', ['voraciousdev','austenmadden'], 1, 2, 0),
-(281975310, 'type-challenges/type-challenges', 11063, 4751, 'Collection of TypeScript type challenges with online judge', ['antfu','jiangshanmeta'], 1, 6, 0),
 (282194280, 'SanchitaMishra170676/To-Do-Blockchain', 1, 5, 'Learning Block Chain to implement in project Aashray. The repo contains the project of the block chain todo-list tutorial on youtube - freeCodeCamp.org Please refer to the dapp university for more details.', ['SanchitaMishra170676'], 1, 10, 0),
 (283003335, 'fireship-io/3.1-firebase-basics', 70, 4, 'Firebase - The Basics', ['codediodeio'], 1, 23, 0),
 (283210438, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 1, 0, 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ['cassiomolin','ramazansakin'], 1, 29, 0),
@@ -2712,10 +2711,11 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (283446239, 'enisdenjo/graphql-ws', 884, 0, 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', ['enisdenjo','semantic-release-bot'], 1, 1, 0),
 (283489816, 'netlify/framework-info', 104, 12, 'Framework detection utility', ['renovate-bot','ehmicky'], 1, 11, 0),
 (283728680, 'dailydotdev/apps', 203, 3, 'daily.dev application suite', ['idoshamun','rebelchris'], 1, 22, 0),
+(281975310, 'type-challenges/type-challenges', 11063, 4751, 'Collection of TypeScript type challenges with online judge', ['antfu','jiangshanmeta'], 1, 6, 0),
 (283854962, 'operator-framework/kubectl-operator', 53, 12, 'Manage Kubernetes Operators from the command line', ['joelanford','kensipe'], 1, 8, 0),
 (283910851, 'Jucian0/recoil-example', 2, 11, 'A small example about recoil', ['Jucian0'], 1, 28, 0),
-(283972908, 'oscafrica/chapter-leads-hub', 20, 9, 'OSCA Chapter Leads Hub 🎖', ['BolajiAyodeji','saintmalik'], 1, 4, 0),
 (284462639, 'Sunchit/Coding-Decoded', 54, 0, 'LeetCode solutions ', ['Sunchit','shyam2520'], 1, 22, 0),
+(283972908, 'oscafrica/chapter-leads-hub', 20, 9, 'OSCA Chapter Leads Hub 🎖', ['BolajiAyodeji','saintmalik'], 1, 4, 0),
 (284546323, 'Abhirup-99/DesktopWallpaper', 1, 0, null, ['Abhirup-99','Abhirup-2019'], 1, 10, 0),
 (284707810, 'posva/vue-ts-lib', 139, 5, 'Vue 3 library starter in TS with lint, auto release, changelog and tests', ['posva','renovate-bot'], 1, 8, 0),
 (284951208, 'Threagile/threagile', 277, 19, 'Agile Threat Modeling Toolkit', ['cschneider4711','scottbrown'], 1, 14, 0),
@@ -3422,10 +3422,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (386632210, 'muhammaddzaky/Mengambil-Data-Sekolah', 1, 0, 'Mengambil Datang Sekolah ', ['muhammaddzaky'], 1, 16, 0),
 (386633454, 'muhammaddzaky/Data-Pokok-Pendidikan', 1, 0, 'Data Pokok Pendidikan', ['muhammaddzaky'], 1, 17, 0),
 (386673780, 'P0ssuidao/terraguard', 198, 1, '🛡️ 🔒 This project''s goal is to be simple to create and destroy your own VPN service using WireGuard.', ['P0ssuidao','0xdutra'], 1, 9, 0),
-(386693970, 'avinash201199/Competitions-and-Programs-List', 35, 0, 'List of competitions with details for college students to participate and  to enhance their skills.', ['avinash201199','priya-singh07'], 1, 2, 0),
 (386740498, 'lukesmurray/scrawl', 46, 5, 'A chrome extension which lets you draw on any web page with excalidraw', ['lukesmurray'], 1, 19, 0),
 (386777766, 'a-trost/component-carousel', 1, 0, 'The website for the Component Carousel show', ['a-trost'], 1, 25, 0),
 (386951260, 'dabit3/nuxt-supabase-full-multi-user-blog', 45, 1, 'Build a mult-user blogging app with Supabase and Nuxt.js', ['dabit3'], 1, 2, 0),
+(386693970, 'avinash201199/Competitions-and-Programs-List', 35, 0, 'List of competitions with details for college students to participate and  to enhance their skills.', ['avinash201199','priya-singh07'], 1, 2, 0),
 (387100307, 'muhammaddzaky/cli-cli', 1, 0, 'cli/cli', ['muhammaddzaky'], 1, 20, 0),
 (387113590, 'muhammaddzaky/ipinfo-python', 1, 0, 'IPinfo IPinfo Python Client Library', ['muhammaddzaky'], 1, 23, 0),
 (387114155, 'muhammaddzaky/script', 1, 0, 'script', ['muhammaddzaky'], 1, 25, 0),
@@ -3501,8 +3501,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (394559625, 'muhammaddzaky/mhdraihandzaky.net', 1, 0, 'membuatwebsite', ['muhammaddzaky'], 1, 7, 0),
 (394632350, 'SanchitaMishra170676/INNOGEEKS-2.0', 0, 0, null, ['chinmoy12c','Harsh-Gupta9897'], 1, 13, 0),
 (394663818, 'NickLiffen/ghas-enablement', 20, 3, 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', ['NickLiffen','LamarrD'], 1, 3, 0),
-(394789638, 'cloudflare/workers-rs', 631, 23, 'Write Cloudflare Workers in 100% Rust via WebAssembly', ['nilslice','caass'], 1, 26, 0),
 (394896456, 'muhammaddzaky/rsocket-cpp', 1, 0, null, [], 1, 12, 0),
+(394789638, 'cloudflare/workers-rs', 631, 23, 'Write Cloudflare Workers in 100% Rust via WebAssembly', ['nilslice','caass'], 1, 26, 0),
 (394897014, 'Yryty-go-id/rsocket-cpp', 1, 0, null, [], 1, 11, 0),
 (394904437, 'Dzakyxd/MhdraihandzakySaragih', 1, 0, null, ['muhammaddzaky'], 1, 9, 0),
 (394954667, 'muhammaddzaky/BucinWibuX', 1, 0, 'BucinWibuX', [], 1, 8, 0),
