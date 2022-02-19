@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T06:45:47.160Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T08:43:47.562Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2165,8 +2165,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1331, 13237, 119, 'actix/actix-web', 105379569),
 (5649, 59902, 63, 'trimstray/the-book-of-secret-knowledge', 138393139),
 (106, 480, 14, 'sastava007/Tech-Interview-Preparation', 191445024),
-(11, 168, 4, 'ideditor/country-coder', 216906912),
 (2, 17, 0, 'alexadam/reactive-doc', 431137274),
+(11, 168, 4, 'ideditor/country-coder', 216906912),
 (92, 720, 3, 'jamesctucker/Fantastic-Front-End-Toolbox', 182075630),
 (2, 3, 0, 'fireworks-world/SplashScreen_Animation', 193761872),
 (22, 182, 3, 'freeman-lab/pixel-grid', 65626639),
@@ -2872,8 +2872,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (74, 205, 16, 'LGoodDatePicker/LGoodDatePicker', 52056522),
 (1, 1, 0, 'kotlin-graphics/build-logic', 341544828),
 (21511, 18025, 27, 'wesbos/JavaScript30', 75867720),
-(177, 430, 0, 'Asabeneh/JavaScript-for-Everyone', 171563505),
 (592, 390, 22, 'bradtraversy/storybooks', 273497516),
+(177, 430, 0, 'Asabeneh/JavaScript-for-Everyone', 171563505),
 (124, 82, 23, 'purnima143/Kurakoo', 330833462),
 (212, 5745, 13, 'Saul-Mirone/milkdown', 345922282),
 (0, 1, 0, 'jwalter/zombiedicejava', 2003232),
@@ -3047,8 +3047,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (351, 1159, 151, 'PennyLaneAI/pennylane', 129936360),
 (351, 4279, 63, 'activeloopai/Hub', 201403923),
 (43, 15, 1, '100devs/todo-mvc-auth-local', 361335799),
-(58, 61, 0, 'shantnu/Titanic-Machine-Learning', 46212429),
 (7832, 1409, 1339, 'education/GitHubGraduation-2021', 360655524),
+(58, 61, 0, 'shantnu/Titanic-Machine-Learning', 46212429),
 (1223, 7100, 7, 'mgechev/javascript-algorithms', 6750158),
 (222, 337, 20, 'whatsplay/whatsapp-play', 182764801),
 (686, 6776, 196, 'fission/fission', 66050533),

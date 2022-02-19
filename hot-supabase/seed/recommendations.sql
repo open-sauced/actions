@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T06:45:47.312Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T08:43:47.880Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1725,6 +1725,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (148829497, 'o2sh/onefetch', 3690, 6, 'Git repository summary on your terminal', ['o2sh','spenserblack'], 1, 22, 0),
 (148948562, 'krzkaczor/ts-essentials', 1898, 28, 'All basic TypeScript types in one place 🤙', ['krzkaczor','Beraliv'], 1, 2, 0),
 (149024333, 'aspittel/learn-code-from-us', 132, 28, 'People from underrepresented groups in tech who create awesome programming resources', ['aspittel','twhite96'], 1, 12, 0),
+(149157946, 'lucianomlima/react-ui-kits', 247, 0, 'A list of UI Kits available for React and React Native.', ['lucianomlima','ednofedulo'], 1, 10, 0),
+(149339935, 'esmero/strawberryfield', 9, 50, 'A Field of strawberries', ['DiegoPino','giancarlobi'], 1, 10, 0),
 (149638165, 'testing-library/user-event', 1485, 20, '🐕 Simulate user events', ['Gpx','kentcdodds'], 1, 23, 0),
 (149731937, 'remotemobprogramming/mob', 729, 6, 'Tool for smooth git handover.', ['simonharrer','gregorriegler'], 2, 6.5, 0),
 (149792249, 'olist/work-at-olist-data', 39, 0, 'Apply for a job at Olist''s Data Team: http://bit.ly/olist-bsa', ['andresionek91','nosbielcs'], 1, 27, 0),
@@ -1737,8 +1739,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (151837779, 'akosbalasko/yarle', 393, 33, 'Yarle - The ultimate converter of Evernote notes to Markdown', ['akosbalasko','rodbv'], 1, 27, 0),
 (151881041, 'peduarte/ped.ro', 94, 2, 'My personal website', ['Kikobeats','schickling'], 1, 12, 0),
 (151890069, 'jacobaustin123/Coral', 135, 2, 'The Coral Programming Language: a blazingly-fast, gradually-typed Python compiler with optional static typing for optimization and safety.', ['jacobaustin123','mlb2251'], 1, 1, 0),
-(149157946, 'lucianomlima/react-ui-kits', 247, 0, 'A list of UI Kits available for React and React Native.', ['lucianomlima','ednofedulo'], 1, 10, 0),
-(149339935, 'esmero/strawberryfield', 9, 50, 'A Field of strawberries', ['DiegoPino','giancarlobi'], 1, 10, 0),
 (152145851, 'rlnx/cpp-course-ffs', 2, 0, 'Materials on practical C++ course for foreign students', ['rlnx'], 1, 1, 0),
 (152327151, 'SamProf/MatBlazor', 2598, 380, 'Material Design components for Blazor and Razor Components', ['SamProf','enkodellc'], 1, 7, 0),
 (152370823, 'davidfowl/AspNetCoreDiagnosticScenarios', 4702, 19, 'This repository has examples of broken patterns in ASP.NET Core applications', ['davidfowl','AArnott'], 1, 1, 0),
@@ -3126,6 +3126,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (345529420, 'sophiezhng/pomopy', 1, 1, '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', ['sophiezhng'], 2, 0, 0),
 (345606467, 'themesberg/glass-ui', 159, 0, 'CSS UI library based on the glassmorphism design specifications', ['zoltanszogyenyi'], 1, 5, 0),
 (345707949, 'kotest/kotest-assertions-arrow', 13, 5, 'Kotest extentsions for Arrow', ['sksamuel','i-walker'], 1, 21, 0),
+(345722773, 'Dev-Simulator/8-bit-env', 21, 0, null, ['mikedane'], 1, 20, 0),
 (345728485, 'khang-nd/DEV-stats', 9, 0, 'Display DEV.to stat card anywhere', ['khang-nd'], 1, 6, 0),
 (345796271, 'george-hawkins/financials', 1, 0, null, ['george-hawkins'], 1, 20, 0),
 (345922282, 'Saul-Mirone/milkdown', 5108, 8, '🍼 Plugin driven WYSIWYG  markdown editor framework.', ['Saul-Mirone','xiadd'], 1, 3, 0),
@@ -3542,7 +3543,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (398684826, 'MichaelJolley/discord-guy-bot', 6, 2, 'A friendly Discord bot that helps server members use more inclusive language.', ['MichaelJolley'], 1, 6, 0),
 (398914163, 'dabit3/chicken-tikka-masala-recipe', 188, 7, 'Nader''s chicken tikka masala recipe', ['dabit3','maksimovic'], 2, 0, 0),
 (399061560, 'creeperkafasi/linux-ip', 1, 0, 'Deno.js package for the Linux ip command', ['creeperkafasi'], 1, 2, 0),
-(345722773, 'Dev-Simulator/8-bit-env', 21, 0, null, ['mikedane'], 1, 20, 0),
 (399071719, 'Rohithgilla12/redwood-url-shortner', 2, 0, null, ['Rohithgilla12'], 1, 1, 0),
 (399087415, 'ged-odoo/blockdom', 173, 7, 'A fast virtual dom library', ['ged-odoo','HamedFathi'], 1, 11, 0),
 (399197552, 'CrossGeeks/ScrollRevealXFSample', 6, 0, null, ['Char0394'], 1, 7, 0),
