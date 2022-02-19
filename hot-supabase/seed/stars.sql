@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T16:49:01.003Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T18:44:49.516Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2344,8 +2344,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (58, 1113, 6, 'antfu/vitesse-webext', 388693827),
 (37, 195, 31, 'BabylonJS/BabylonReactNative', 252029824),
 (76, 1457, 20, 'httpcats/http.cat', 41638869),
-(168, 3278, 39, 'juanfont/headscale', 273871859),
 (1, 1, 0, 'zkoppert/go-exercises', 311865268),
+(168, 3278, 39, 'juanfont/headscale', 273871859),
 (1, 11, 30, 'dotellie/nestjs-graphql-pagination', 268086996),
 (162, 3761, 11, 'o2sh/onefetch', 148829497),
 (33, 106, 1, 'KalleHallden/workflow_automation', 308578276),
@@ -2907,10 +2907,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (425, 8048, 189, 'questdb/questdb', 19257422),
 (18, 67, 0, 'charlax/entrepreneurship-resources', 132757250),
 (124, 105, 3, 'Praful932/Kitabe', 291985571),
-(0, 12, 0, 'tush-tr/car-rental-system', 341877399),
 (7804, 43976, 361, 'tesseract-ocr/tesseract', 22887094),
-(15, 126, 3, 'shellbear/shellbear.me', 216279084),
 (24, 167, 1, 'hasura/hasura-ecommerce', 377602613),
+(15, 126, 3, 'shellbear/shellbear.me', 216279084),
 (684, 9333, 0, 'dotnet/blazor', 116160755),
 (160, 1716, 10, 'minamarkham/formation', 141380542),
 (76, 312, 0, 'lanten/electron-antd', 93390294),
@@ -3254,6 +3253,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (541, 5227, 280, 'agentejo/cockpit', 13601190),
 (6, 22, 0, 'Dev-Simulator/8-bit-env', 345722773),
 (240, 1099, 118, 'uswitch/kiam', 92945094),
+(0, 12, 0, 'tush-tr/car-rental-system', 341877399),
 (96, 593, 0, 'michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide', 132554890),
 (906, 12821, 5852, 'type-challenges/type-challenges', 281975310),
 (1195, 10375, 276, 'withspectrum/spectrum', 62260083),
