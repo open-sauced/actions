@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:43:16.901Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T22:43:17.363Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2484,8 +2484,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (391151326, 2464, 1228996, 'jwalter/deepgram-java-sdk', 2, null, 0, 1, ['jwalter']),
 (71995937, 2465, 1228996, 'nuxt/nuxt.js', 3, 'The Intuitive Vue(2) Framework', 472, 39029, ['pi0','Atinux']),
 (114687480, 2466, 1228996, 'devrelcollective/awesome-devrel', 4, 'Awesome Developer Relations resources curated by the DevRel Collective', 6, 422, ['jerdog','mbbroberg']),
-(101448498, 2467, 1228996, 'SohoHouse/nuxt-oauth', 5, 'Simple OAuth2 integration for your Nuxt app', 29, 110, ['samtgarson','hamishhossack']),
 (102371998, 2468, 1228996, 'nuxt-community/auth-module', 6, null, 320, 1623, ['JoaoPedroAS51','pi0']),
+(101448498, 2467, 1228996, 'SohoHouse/nuxt-oauth', 5, 'Simple OAuth2 integration for your Nuxt app', 29, 110, ['samtgarson','hamishhossack']),
 (80724464, 2469, 1228996, 'nuxt-community/awesome-nuxt', 7, 'A curated list of awesome things related to Nuxt.js', 11, 4295, ['limichange','manniL']),
 (261393739, 2470, 1228996, 'Layla-P/YodaTranslator', 8, 'A quick Yoda translator app using Azure Functions and Twilio', 0, 2, ['Layla-P']),
 (351728562, 2471, 1228996, 'lukeocodes/nuxt-contentful-starter', 9, 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', 0, 2, ['lukeocodes']),

@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:43:16.192Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T22:43:17.153Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1220,6 +1220,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (61, 391, 12, 'graphql-go/relay', 42975057),
 (1633, 9046, 60, 'resque/resque', 275604),
 (713, 8566, 88, 'javan/whenever', 129791),
+(133, 184, 30, 'ejholmes/active_admin_editor', 4133393),
 (0, 1, 0, 'ajoeofalltrades/hasoffers', 6991139),
 (999, 8040, 6, 'sitaramc/gitolite', 286061),
 (3264, 9126, 388, 'activeadmin/activeadmin', 611921),
@@ -1228,7 +1229,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (315, 712, 127, 'restforce/restforce', 5575055),
 (1, 26, 12, 'the-pudding/website', 402852173),
 (10233, 78065, 5425, 'microsoft/TypeScript', 20929025),
-(133, 184, 30, 'ejholmes/active_admin_editor', 4133393),
 (389, 4328, 368, 'duckdb/duckdb', 138754790),
 (395, 944, 29, 'HarshCasper/Rotten-Scripts', 240786294),
 (1962, 11054, 0, 'tayllan/awesome-algorithms', 21911597),

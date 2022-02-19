@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:43:16.348Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T22:43:17.623Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2387,8 +2387,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (242870159, 'Machine-Learning-Tokyo/AI_Curriculum', 2233, 2, 'Open Deep Learning and Reinforcement Learning lectures from top Universities like Stanford, MIT, UC Berkeley.', ['suzana-ilic','tejasmorkar'], 1, 13, 0),
 (243274141, 'ramazansakin/spring-microservices', 1, 0, 'Example of a microservice architecture using Spring Cloud', ['ramazansakin'], 1, 28, 0),
 (243288155, 'abertschi/graalphp', 260, 25, 'An efficient PHP implementation built on GraalVM ', ['abertschi','COil'], 2, 0, 0),
-(243429404, 'eobrain/bajel', 13, 11, 'A build system modeled on make.', ['eobrain'], 1, 22, 0),
 (243545135, 'Kyonru/just-a-review-app', 11, 8, 'A review app', ['Kyonru'], 1, 12, 0),
+(243429404, 'eobrain/bajel', 13, 11, 'A build system modeled on make.', ['eobrain'], 1, 22, 0),
 (243554283, 'mloberg/openapi-stitcher', 2, 0, 'Stitch together multiple files into an OpenAPI specification', ['mloberg'], 1, 2, 0),
 (243834124, 'cncf/tag-contributor-strategy', 60, 33, 'CNCF Technical Advisory Group on Contributor Strategy -- maintainer relations, building up contributors, governance, graduation, and more.', ['carolynvs','jberkus'], 1, 16, 0),
 (244405866, 'cvara/rxdb-hooks', 52, 0, 'React hooks for integrating with RxDB', ['cvara','plmercereau'], 1, 8, 0),

@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:43:16.112Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T22:43:17.046Z
 -- COPY users(id, login, private, open_issues, stars_data) FROM 'users.csv' DELIMITER ',' CSV HEADER;
 --
 
