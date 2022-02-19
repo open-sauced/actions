@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-18T22:43:22.413Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T01:02:02.392Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -4281,8 +4281,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (395413091, 354384496, 17671332, 'Mintbean/junior-developer-job-boards', 0, null, 0, 0, ['Jc-008','monarchwadia']),
 (310766137, 354119247, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo']),
 (148236762, 382194702, 7860023, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas']),
-(82836080, 436289040, 61815862, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 450, ['matthewtoast','stristr']),
-(71823870, 435647165, 23166349, 'prometheus-operator/kube-prometheus', 0, 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', 151, 3750, ['brancz','paulfantom']),
 (14370955, 435800079, 16268467, 'sahat/hackathon-starter', 0, 'A boilerplate for Node.js web applications', 48, 32521, ['sahat','YasharF']),
 (17620347, 434506268, 45293863, 'dotnet/aspnetcore', 0, 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', 2234, 27158, ['pranavkm','aspnetci']),
 (383194995, 422332797, 4066445, 'kclejeune/TMobile-ISP-Client', 0, 'mobile friendly, self hosted status dashboard for T-Mobile ISP routers', 7, 23, ['kclejeune','bryanbartow']),
@@ -4342,8 +4340,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (279163614, 320434477, 2658040, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 3, 20, ['0-vortex']),
 (285782908, 307155109, 12400445, 'jmc265/dotfiles', 0, null, 0, 3, ['bw-jamescross','jmc265']),
 (156648725, 328070675, 59939260, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 0, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 227, 8853, ['LinuxMercedes','iliana']),
+(82836080, 436289040, 61815862, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 450, ['matthewtoast','stristr']),
+(71823870, 435647165, 23166349, 'prometheus-operator/kube-prometheus', 0, 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', 151, 3750, ['brancz','paulfantom']),
 (287573157, 419094803, 12849040, 'Leniolabs/layoutit-grid', 0, 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', 12, 1123, ['patak-dev','agustin-capeletto-lenio']),
-(11056820, 419128913, 1255918, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6337, ['erikflowers','fox91']),
 (225979578, 419462546, 29417643, 'talkpython/python-for-absolute-beginners-course', 0, 'Code samples and other handouts for our course.', 0, 1711, ['mikeckennedy','amcinnes87']),
 (319742187, 215550527, 1930729, 'mdn/translated-content', 0, 'All translated MDN content in raw form', 296, 523, ['mfuji09','SphinxKnight']),
 (83999700, 418672791, 20727421, 'sdmg15/Best-websites-a-programmer-should-visit', 0, ':link: Some useful websites for programmers.', 626, 45685, ['sdmg15','ityler']),
@@ -4425,4 +4424,5 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (230951254, 330475048, 61131314, 'Singh-Shivani/Merlin-Fashion', 0, 'A custom website for online fashion.', 2, 13, ['Singh-Shivani','imsouravstyles']),
 (252029824, 336575400, 9696352, 'BabylonJS/BabylonReactNative', 0, 'Build React Native applications with the power of Babylon Native', 32, 194, ['ryantrem','chrisfromwork']),
 (268086996, 336566384, 1368727, 'dotellie/nestjs-graphql-pagination', 0, 'Decorators to allow easily building up relay compatible pagination types', 30, 11, ['renovate-bot','dotellie']),
+(11056820, 419128913, 1255918, 'erikflowers/weather-icons', 0, '215 Weather Themed Icons and CSS', 98, 6337, ['erikflowers','fox91']),
 (87715061, 456471693, 83277146, 'damienbod/AspNetCoreOpeniddict', 0, 'OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ', 1, 63, ['damienbod']);
