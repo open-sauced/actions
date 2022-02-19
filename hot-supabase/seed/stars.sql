@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T10:43:21.825Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T12:48:56.699Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2836,9 +2836,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (459, 1277, 417, 'vlachoudis/bCNC', 25359717),
 (2332, 12227, 101, 'ether/etherpad-lite', 1529160),
 (0, 1, 2, 'anton164/boatmobile-nodeboats-jsconf2019', 202672524),
-(680, 1468, 36, 'watson-developer-cloud/node-sdk', 27840307),
 (5, 29, 0, 'PanoptikumIO/pan', 67985685),
 (676, 1377, 175, 'winder/Universal-G-Code-Sender', 4801382),
+(680, 1468, 36, 'watson-developer-cloud/node-sdk', 27840307),
 (34, 204, 3, 'fhkingma/bitswap', 184609434),
 (157, 636, 684, 'w3c/wcag', 9967702),
 (2774, 7552, 4568, 'WordPress/gutenberg', 80862584),

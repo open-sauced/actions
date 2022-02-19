@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T10:43:21.611Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T12:48:56.927Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1616,9 +1616,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (136062240, 'DovAmir/awesome-design-patterns', 15605, 6, 'A curated list of software and architecture related design patterns.', ['DovAmir','LeoColomb'], 1, 8, 0),
 (136638948, 'ConsenSys/ethereum-developer-tools-list', 3160, 9, 'A guide to available tools and platforms for developing on Ethereum.', ['pakaplace','sangphilkim'], 1, 24, 0),
 (136923813, 'benawad/fullstack-graphql-airbnb-clone', 1425, 23, 'A Fullstack GraphQL Airbnb Clone with React and React Native', ['benawad'], 1, 6, 0),
-(136938012, 'vendure-ecommerce/vendure', 3140, 146, 'A headless GraphQL ecommerce framework for the modern web', ['michaelbromley','Draykee'], 1, 0, 0),
 (137078487, 'vuejs/vue-next', 26465, 467, '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', ['yyx990803','HcySunYang'], 1, 23, 0),
 (137104789, 'jamesmh/coravel', 1995, 43, 'Near-zero config .NET Core micro-framework that makes advanced application features like Task Scheduling, Caching, Queuing, Event Broadcasting, and more a breeze!', ['jamesmh','Blinke'], 1, 6, 0),
+(136938012, 'vendure-ecommerce/vendure', 3140, 146, 'A headless GraphQL ecommerce framework for the modern web', ['michaelbromley','Draykee'], 1, 0, 0),
 (137308605, 'tamino-martinius/node-ts-dedent', 98, 4, 'TypeScript package which smartly trims and strips indentation from multi-line strings', ['tamino-martinius','AviVahl'], 1, 29, 0),
 (137391317, 'ActiveCampaign/camp-css', 6, 3, 'CSS behind the distinctive style of ActiveCampaign', ['NickCiliak','aclangor'], 1, 5, 0),
 (137668545, 'galio-org/galio', 2774, 55, 'Galio is a beautifully designed, Free and Open Source React Native Framework', ['palingheorghe','hetmann'], 1, 16, 0),
