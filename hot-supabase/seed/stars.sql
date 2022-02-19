@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T14:43:27.514Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T16:49:01.003Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2344,8 +2344,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (58, 1113, 6, 'antfu/vitesse-webext', 388693827),
 (37, 195, 31, 'BabylonJS/BabylonReactNative', 252029824),
 (76, 1457, 20, 'httpcats/http.cat', 41638869),
-(1, 1, 0, 'zkoppert/go-exercises', 311865268),
 (168, 3278, 39, 'juanfont/headscale', 273871859),
+(1, 1, 0, 'zkoppert/go-exercises', 311865268),
 (1, 11, 30, 'dotellie/nestjs-graphql-pagination', 268086996),
 (162, 3761, 11, 'o2sh/onefetch', 148829497),
 (33, 106, 1, 'KalleHallden/workflow_automation', 308578276),
@@ -2691,9 +2691,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (154, 421, 54, 'WordPress/theme-experiments', 229270550),
 (3043, 37281, 189, 'tldr-pages/tldr', 15019962),
 (42, 119, 4, 'hallee/eslint-action', 174250271),
+(678, 1170, 14, 'chandrikadeb7/Face-Mask-Detection', 257567981),
 (0, 1, 1, 'saitho/discord-bot-reloaded', 394368306),
 (97, 23, 0, 'BattlesnakeOfficial/starter-snake-javascript', 232669620),
-(678, 1170, 14, 'chandrikadeb7/Face-Mask-Detection', 257567981),
 (332, 1796, 25, 'resemble-ai/Resemblyzer', 202577283),
 (41, 267, 15, 'googlecreativelab/creatability-components', 153687898),
 (72, 2002, 28, 'krzkaczor/ts-essentials', 148948562),
