@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T12:48:56.923Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T14:43:27.661Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2541,9 +2541,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (378701776, 2521, 3450257, 'chrisseaton/rhizome', 3, 'A JIT for Ruby, implemented in pure Ruby', 0, 767, ['chrisseaton','erjanmx']),
 (73648678, 2522, 3450257, 'forem/forem', 4, 'For empowering community 🌱', 411, 18420, ['benhalpern','rhymes']),
 (217547293, 2523, 3450257, 'ruby-next/ruby-next', 5, 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', 4, 556, ['palkan','sl4vr']),
-(49668250, 2524, 3450257, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5078, ['jamiebuilds','gaearon']),
 (353082105, 2525, 3450257, 'github/maintainerweek', 7, 'A week for maintainers to gather & share', 3, 140, ['karasowles','martinwoodward']),
 (110053683, 2526, 3450257, 'taylorbryant/jekyll-starter-tailwind', 8, 'Jekyll starter styled with Tailwind CSS', 9, 221, ['taylorbryant','renovate-bot']),
+(49668250, 2524, 3450257, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5078, ['jamiebuilds','gaearon']),
 (146435241, 2527, 3450257, 'Matoking/protontricks', 9, 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', 5, 838, ['Matoking','Sirmentio']),
 (200731758, 2528, 3450257, 'serradura/u-case', 10, 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', 12, 353, ['serradura','tomascco']),
 (77765356, 2529, 3450257, 'riebschlager/make-the-internet-suck-less', 11, null, 0, 38, ['riebschlager','bgkittrell']),
@@ -3606,8 +3606,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (200877850, 3608, 61131314, 'digitalocean/hacktoberfest', 13, 'Hacktoberfest - App to manage the annual open-source challenge, used for the 2019 & 2020 seasons.', 27, 510, ['mkcode','fridaland']),
 (314878604, 3609, 61131314, 'Mogakamo/dynamic-web-starter', 14, null, 1, 1, ['Mogakamo','sharon-siekay']),
 (67709808, 3610, 61131314, 'react-native-elements/react-native-elements', 15, 'Cross-Platform React Native UI Toolkit', 111, 21789, ['iRoachie','Monte9']),
-(137668545, 3611, 61131314, 'galio-org/galio', 16, 'Galio is a beautifully designed, Free and Open Source React Native Framework', 55, 2774, ['palingheorghe','hetmann']),
 (309068302, 3612, 61131314, 'KalleHallden/NameGenRoulette', 17, null, 4, 26, []),
+(137668545, 3611, 61131314, 'galio-org/galio', 16, 'Galio is a beautifully designed, Free and Open Source React Native Framework', 55, 2774, ['palingheorghe','hetmann']),
 (308578276, 3613, 61131314, 'KalleHallden/workflow_automation', 18, null, 1, 108, ['scaldings','KalleHallden']),
 (80587182, 3614, 61131314, 'scotch-io/javascript-starter-course', 19, 'Code for the Scotch School course by @sevilayha', 1, 119, []),
 (166694030, 3615, 61131314, 'instamobile/react-native-starter-kit', 20, 'React Native Starter Kit with Firebase Auth and Facebook Login', 14, 342, ['Chukwudi4','mrcflorian']),
