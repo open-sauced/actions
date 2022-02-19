@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T02:47:54.182Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T04:46:40.089Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3184,8 +3184,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (353859812, 'btahir/next-shopify-starter', 176, 0, 'Nextjs + Tailwind CSS + Shopify Starter', ['btahir'], 1, 19, 0),
 (354689732, 'Tow-Boot/Tow-Boot', 67, 38, 'An opinionated distribution of U-Boot. — https://matrix.to/#/!JWXGMHFqMxxehcSBEN:matrix.org?via=matrix.org', ['samueldr','IreneKnapp'], 1, 28, 0),
 (355109043, 'ml-tooling/opyrator', 2512, 1, '🪄 Turns your machine learning code into microservices with web API, interactive GUI, and more.', ['LukasMasuch','raethlein'], 2, 12.5, 0),
-(355298453, 'myriadrf/lc-website', 20, 0, 'LibreCellular website', ['9600'], 1, 26, 0),
 (355258557, 'technorabilia/portainer-templates', 57, 0, 'Various Portainer App Templates', ['technorabilia'], 1, 22, 0),
+(355298453, 'myriadrf/lc-website', 20, 0, 'LibreCellular website', ['9600'], 1, 26, 0),
 (355321589, 'nuxtclub/feathericons', 6, 0, 'An easy way to integrate Feather Icons with NuxtJS', ['imlautaro'], 1, 5, 0),
 (355395936, 'xizon/poemkit', 56, 2, 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', ['xizon'], 1, 6, 0),
 (355664397, 'ronakganatra/awesome-developer-marketing', 96, 0, 'A living document of hand-picked resources for marketers working on dev-centric products', ['ronakganatra','amorimjuliana'], 1, 2, 0),
@@ -3524,8 +3524,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (396327436, 'devkodeio/the-dom-challenge', 181, 0, 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', ['sunnypuri'], 1, 25, 0),
 (396419975, 'shubhank-saxena/GSoC-Final-Report', 2, 0, null, ['shubhank-saxena'], 1, 5, 0),
 (396613541, 'antfu/vite-plugin-inspect', 305, 3, 'Inspect the intermediate state of Vite plugins', ['antfu','userquin'], 1, 29, 0),
-(396905552, 'chuvakpavel/MKDemoApp', 5, 0, null, ['chuvakpavel'], 1, 5, 0),
 (396850383, 'pixiebrix/webext-messenger', 5, 21, 'Browser Extension component messaging framework', ['fregante','twschiller'], 1, 2, 0),
+(396905552, 'chuvakpavel/MKDemoApp', 5, 0, null, ['chuvakpavel'], 1, 5, 0),
 (397041032, 'WordPress/Documentation-Issue-Tracker', 15, 82, 'Issue Tracker for the WordPress Documentation team.', ['Kenshino','zzap'], 1, 0, 0),
 (397149117, 'BolajiAyodeji/iris_visualization', 2, 0, 'Some data visualization techniques practice on the Iris dataset with R.', ['BolajiAyodeji'], 1, 13, 0),
 (397200443, 'sidB67/CoVaccine', 4, 0, null, ['sidB67'], 1, 3, 0),

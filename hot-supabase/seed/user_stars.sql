@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T02:47:54.389Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T04:46:39.888Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -447,10 +447,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (220872906, 441, 2228196, 'lesmo/wubbalubbadubdub', 28, 'Este proyecto es un explorador de la Rick and Morty API, que tiene datos de todos los episodios, personajes y locaciones en los que se viven las increíbles aventuras de Rick and Morty.', 2, 1, ['lesmo']),
 (286132785, 442, 2228196, 'lesmo/gitfolio', 29, ':octocat: personal website + blog for every github user', 0, 1, ['imfunniee','bcliden']),
 (334465533, 443, 20374545, 'Leonardo-Borba/auction-assistant', 0, 'A bot to monitor MGT auctions and do automatic bids', 0, 1, ['Leonardo-Borba']),
-(431928942, 444, 43640229, 'SVD6/Personal-Site', 0, 'My personal website.', 0, 1, ['SVD6']),
 (358749842, 445, 43640229, 'CarletonComputerScienceSociety/merged', 1, 'Web application for viewing all upcoming events in the Carleton CS community', 3, 2, ['MathyouMB','DamiAdesola']),
 (127008307, 446, 43640229, 'daviddao/awful-ai', 2, '😈Awful AI is a curated list to track current scary usages of AI - hoping to raise awareness', 21, 5884, ['daviddao','0x2b00b1e5']),
 (122079092, 447, 43640229, 'rockita/criticalML', 3, 'Toward ethical, transparent and fair AI/ML: a critical reading list for engineers, designers, and policy makers', 1, 350, ['rockita']),
+(431928942, 444, 43640229, 'SVD6/Personal-Site', 0, 'My personal website.', 0, 1, ['SVD6']),
 (378379347, 448, 43640229, 'rahul-kothari/hack-money-ape', 4, 'For ETHGlobal''s HackMoney hackathon', 11, 8, ['mattiaslightstone','rahul-kothari']),
 (74293321, 449, 43640229, 'sveltejs/svelte', 5, 'Cybernetically enhanced web apps', 609, 54143, ['Rich-Harris','Conduitry']),
 (304344049, 450, 43640229, 'sveltejs/kit', 6, 'The fastest way to build Svelte apps', 398, 6089, ['Rich-Harris','benmccann']),
@@ -2291,11 +2291,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (3889834, 2271, 14868216, 'fukamachi/ningle', 13, 'Super micro framework for Common Lisp', 11, 219, ['fukamachi','Rudolph-Miller']),
 (1244792, 2272, 14868216, 'fukamachi/clack', 14, 'Web server abstraction layer for Common Lisp', 28, 908, ['fukamachi','doomchild']),
 (77363394, 2273, 14868216, 'vlime/vlime', 15, 'A Common Lisp dev environment for Vim (and Neovim)', 27, 315, ['l04m33','phmarek']),
-(28320207, 2277, 14868216, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8899, ['majodev','maiadeutsch']),
-(79804720, 2276, 14868216, 'tuchk4/awesome-create-react-app', 18, 'Awesome list of Create React App articles / tutorials / videos and FAQ', 4, 1341, ['tuchk4','andreiduca']),
-(45947467, 2278, 14868216, 'insin/nwb', 20, 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', 164, 5428, ['insin','ntwcklng']),
 (66016792, 2274, 14868216, 'chantastic/reactpatterns', 16, 'Patterns for React Developers', 5, 1682, ['chantastic','Semigradsky']),
 (100073211, 2275, 14868216, 'romabash/angular-d3', 17, ' D3.js Visualization projects with AngularJS 1.5.8 using components', 0, 1, ['romabash']),
+(79804720, 2276, 14868216, 'tuchk4/awesome-create-react-app', 18, 'Awesome list of Create React App articles / tutorials / videos and FAQ', 4, 1341, ['tuchk4','andreiduca']),
+(28320207, 2277, 14868216, 'majodev/google-webfonts-helper', 19, 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', 78, 8899, ['majodev','maiadeutsch']),
+(45947467, 2278, 14868216, 'insin/nwb', 20, 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', 164, 5428, ['insin','ntwcklng']),
 (99044824, 2279, 14868216, 'romabash/sudoku-solver', 21, 'Sudoku Solver with NumPy', 0, 1, ['romabash']),
 (8514, 2280, 14868216, 'rails/rails', 22, 'Ruby on Rails', 598, 49762, ['rafaelfranca','tenderlove']),
 (49760504, 2281, 14868216, 'samshadwell/TrumpScript', 23, 'Make Python great again', 5, 7401, ['samshadwell','CryoBrown']),
