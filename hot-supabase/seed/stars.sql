@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T18:44:49.516Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:43:16.192Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1220,7 +1220,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (61, 391, 12, 'graphql-go/relay', 42975057),
 (1633, 9046, 60, 'resque/resque', 275604),
 (713, 8566, 88, 'javan/whenever', 129791),
-(133, 184, 30, 'ejholmes/active_admin_editor', 4133393),
 (0, 1, 0, 'ajoeofalltrades/hasoffers', 6991139),
 (999, 8040, 6, 'sitaramc/gitolite', 286061),
 (3264, 9126, 388, 'activeadmin/activeadmin', 611921),
@@ -1229,6 +1228,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (315, 712, 127, 'restforce/restforce', 5575055),
 (1, 26, 12, 'the-pudding/website', 402852173),
 (10233, 78065, 5425, 'microsoft/TypeScript', 20929025),
+(133, 184, 30, 'ejholmes/active_admin_editor', 4133393),
 (389, 4328, 368, 'duckdb/duckdb', 138754790),
 (395, 944, 29, 'HarshCasper/Rotten-Scripts', 240786294),
 (1962, 11054, 0, 'tayllan/awesome-algorithms', 21911597),
@@ -2907,9 +2907,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (425, 8048, 189, 'questdb/questdb', 19257422),
 (18, 67, 0, 'charlax/entrepreneurship-resources', 132757250),
 (124, 105, 3, 'Praful932/Kitabe', 291985571),
+(0, 12, 0, 'tush-tr/car-rental-system', 341877399),
 (7804, 43976, 361, 'tesseract-ocr/tesseract', 22887094),
-(24, 167, 1, 'hasura/hasura-ecommerce', 377602613),
 (15, 126, 3, 'shellbear/shellbear.me', 216279084),
+(24, 167, 1, 'hasura/hasura-ecommerce', 377602613),
 (684, 9333, 0, 'dotnet/blazor', 116160755),
 (160, 1716, 10, 'minamarkham/formation', 141380542),
 (76, 312, 0, 'lanten/electron-antd', 93390294),
@@ -3253,7 +3254,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (541, 5227, 280, 'agentejo/cockpit', 13601190),
 (6, 22, 0, 'Dev-Simulator/8-bit-env', 345722773),
 (240, 1099, 118, 'uswitch/kiam', 92945094),
-(0, 12, 0, 'tush-tr/car-rental-system', 341877399),
 (96, 593, 0, 'michaeltreat/Windows-Subsystem-For-Linux-Setup-Guide', 132554890),
 (906, 12821, 5852, 'type-challenges/type-challenges', 281975310),
 (1195, 10375, 276, 'withspectrum/spectrum', 62260083),

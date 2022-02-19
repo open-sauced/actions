@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T18:44:49.861Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-19T20:43:16.348Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1610,8 +1610,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (135363400, 'ros-planning/navigation2', 768, 69, 'ROS2 Navigation Framework and System', ['SteveMacenski','bpwilcox'], 1, 12, 0),
 (135516270, 'k3s-io/k3s', 18693, 456, 'Lightweight Kubernetes', ['erikwilson','ibuildthecloud'], 2, 21, 0),
 (135786093, 'typescript-cheatsheets/react', 31329, 0, 'Cheatsheets for experienced React developers getting started with TypeScript', ['sw-yx','eps1lon'], 1, 0, 2),
-(135990829, 'fomantic/Fomantic-UI-Docs', 23, 17, 'Official Documentation for Fomantic-UI', ['jlukic','quirkyjack'], 1, 23, 0),
 (135989792, 'fomantic/Fomantic-UI', 2759, 238, 'Fomantic-UI is a community fork of Semantic-UI', ['jlukic','lubber-de'], 1, 24, 0),
+(135990829, 'fomantic/Fomantic-UI-Docs', 23, 17, 'Official Documentation for Fomantic-UI', ['jlukic','quirkyjack'], 1, 23, 0),
 (136026789, 'iperov/DeepFaceLab', 31040, 382, 'DeepFaceLab is the leading software for creating deepfakes.', ['iperov','Auroir'], 1, 0, 0),
 (136062240, 'DovAmir/awesome-design-patterns', 15605, 6, 'A curated list of software and architecture related design patterns.', ['DovAmir','LeoColomb'], 1, 8, 0),
 (136638948, 'ConsenSys/ethereum-developer-tools-list', 3160, 9, 'A guide to available tools and platforms for developing on Ethereum.', ['pakaplace','sangphilkim'], 1, 24, 0),
