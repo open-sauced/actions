@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T04:46:42.913Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T06:45:42.746Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -512,10 +512,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (20300177, 'google/guava', 43226, 725, 'Google core libraries for Java', ['cpovirk','kluever'], 1, 20, 0),
 (20387062, 'horsicq/Detect-It-Easy', 3008, 24, 'Program for determining types of files for Windows, Linux and MacOS.', ['horsicq','hypn0chka'], 1, 2, 0),
 (20455294, 'guaycuru/gde', 67, 25, 'GDE', ['guaycuru','lcnzg'], 1, 1, 0),
+(20653934, 'google/cadvisor', 12878, 511, 'Analyzes resource usage and performance characteristics of running containers.', ['vmarmol','dashpole'], 1, 3, 0),
 (20723540, 'microsoft/microsoft.github.io', 2073, 0, 'Microsoft on GitHub', ['vinhub','martinwoodward'], 1, 12, 0),
 (20785986, 'jupyterhub/jupyterhub', 6496, 190, 'Multi-user server for Jupyter notebooks', ['minrk','willingc'], 1, 7, 0),
 (20893207, 'primer/octicons', 7047, 9, 'A scalable set of icons handcrafted with <3 by GitHub', ['jonrohan','colebemis'], 1, 17, 0),
-(20653934, 'google/cadvisor', 12878, 511, 'Analyzes resource usage and performance characteristics of running containers.', ['vmarmol','dashpole'], 1, 3, 0),
 (20904437, 'gin-gonic/gin', 54157, 461, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ['manucorporat','javierprovecho'], 1, 2, 0),
 (20929025, 'microsoft/TypeScript', 76845, 5382, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', ['ahejlsberg','sheetalkamat'], 1, 19, 1),
 (20976138, 'official-stockfish/Stockfish', 5655, 53, 'UCI chess engine', ['mcostalba','zamar'], 1, 8, 0),
@@ -3038,8 +3038,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (333228035, 'SufiaAshraf/Role_Based_Authentication', 1, 0, 'In computer systems security, role-based access control or role-based security is an approach to restricting system access to authorized users. I have build a role-based authentication app to restrict access for manager , admin and superadmin', ['SufiaAshraf'], 1, 12, 0),
 (333280676, 'juliobonon/learn-rust', 1, 0, 'Just a small project to learn rust lang.', ['juliobonon'], 1, 18, 0),
 (333421996, 'therealsreehari/Learn-Data-Science-For-Free', 4756, 5, 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', ['therealsreehari','tuxiqae'], 1, 9, 0),
-(333980205, 'cassidoo/cass.run', 129, 0, 'My own lil URL shortener', ['cassidoo','Jadhielv'], 1, 29, 0),
 (333719667, 'EliseeCode/exolingo', 1, 2, 'Opensource flashCard system optimised for languages.', ['EliseeCode','nobalpha'], 1, 22, 0),
+(333980205, 'cassidoo/cass.run', 129, 0, 'My own lil URL shortener', ['cassidoo','Jadhielv'], 1, 29, 0),
 (334167971, 'ashishsahu1/ML-ProjectYard', 86, 16, 'This repo consists of multiple machine learning based projects with frontend ', ['ashishsahu1','Amit366'], 1, 2, 0),
 (334195792, 'teezzan/flw_validator', 1, 0, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', ['teezzan'], 1, 11, 0),
 (334229943, 'nodegui/svelte-nodegui', 2596, 22, 'Build performant, native and cross-platform desktop applications with native Svelte + powerful CSS-like styling.🚀', ['halfnelson','shirakaba'], 1, 18, 0),
