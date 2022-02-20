@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T20:43:21.741Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T22:43:21.153Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -4007,9 +4007,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (41881900, 4008, 9935383, 'microsoft/vscode', 3, 'Visual Studio Code', 5350, 125676, ['bpasero','jrieken']),
 (59148646, 4009, 9935383, 'dracula/visual-studio-code', 4, '🧛🏻‍♂️ Dark theme for Visual Studio Code', 28, 560, ['dsifford','zenorocha']),
 (28704549, 4010, 9935383, 'philipwalton/flexbugs', 5, 'A community-curated list of flexbox issues and cross-browser workarounds for them.', 89, 13215, ['philipwalton','akaustav']),
-(29514104, 4011, 9935383, 'netlify/netlify-cms', 6, 'A Git-based CMS for Static Site Generators', 632, 14793, ['erquhart','erezrokah']),
 (75867720, 4012, 9935383, 'wesbos/JavaScript30', 7, '30 Day Vanilla JS Challenge', 27, 17461, ['wesbos','palashmon']),
 (46041284, 4013, 9935383, 'VSCodeVim/Vim', 8, ':star: Vim for Visual Studio Code', 1152, 9811, ['jpoon','johnfn']),
+(29514104, 4011, 9935383, 'netlify/netlify-cms', 6, 'A Git-based CMS for Static Site Generators', 632, 14793, ['erquhart','erezrokah']),
 (39785222, 4014, 9935383, 'Droogans/unmaintainable-code', 9, 'A more maintainable, easier to share version of the infamous http://mindprod.com/jgloss/unmain.html', 0, 8906, ['Droogans','dfvalero']),
 (66167428, 4015, 9935383, 'millwrightjs/millwright', 10, 'The easiest build tool you''ll ever use.', 0, 26, ['erquhart']),
 (5243041, 4016, 9935383, 'revolunet/JSbooks', 11, 'Directory of free JavaScript ebooks', 8, 2474, ['revolunet','philippebarbosa']),
@@ -4278,8 +4278,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (48009214, 378546253, 18013532, 'microsoft/react-native-windows', 0, 'A framework for building native Windows apps with React.', 689, 14402, ['rnbot','rozele']),
 (308770, 353859750, 19475228, 'heartcombo/devise', 0, 'Flexible authentication solution for Rails with Warden.', 183, 22166, ['josevalim','carlosantoniodasilva']),
 (367829938, 353955008, 53687927, 'dwaipayan05/CovCNN-WebApp', 0, null, 1, 2, ['dwaipayan05']),
-(395413091, 354384496, 17671332, 'Mintbean/junior-developer-job-boards', 0, null, 0, 0, ['Jc-008','monarchwadia']),
 (310766137, 354119247, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo']),
+(395413091, 354384496, 17671332, 'Mintbean/junior-developer-job-boards', 0, null, 0, 0, ['Jc-008','monarchwadia']),
 (148236762, 382194702, 7860023, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas']),
 (82836080, 436289040, 61815862, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 450, ['matthewtoast','stristr']),
 (71823870, 435647165, 23166349, 'prometheus-operator/kube-prometheus', 0, 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', 151, 3750, ['brancz','paulfantom']),

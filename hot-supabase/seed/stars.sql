@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T20:43:21.545Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T22:43:20.961Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2212,8 +2212,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1610, 33763, 110, 'FiloSottile/mkcert', 138547797),
 (0, 1, 0, 'imclerran/imclerran.github.io', 170797529),
 (208, 2952, 91, 'archlinux/archinstall', 128416969),
-(50, 382, 3, 'edoardottt/cariddi', 362234372),
 (0, 1, 0, 'smcgivern/urm-evaluator', 2712004),
+(50, 382, 3, 'edoardottt/cariddi', 362234372),
 (184, 3213, 76, 'nodejs/undici', 133092972),
 (765, 693, 56, 'theNewDynamic/gohugo-theme-ananke', 87873787),
 (3, 14, 0, 'abhisheknaiidu/abhisheknaidu-cli', 337208358),

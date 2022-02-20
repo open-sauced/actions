@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T20:43:21.849Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T22:43:21.399Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2513,7 +2513,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (260669334, 'SchoolOfFreelancing/Docker-Child-Protection', 1, 22, 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ['UbuntuEvangelist','goldshtofsara'], 1, 27, 0),
 (260719813, 'NyaomiDEV/Glasstron', 196, 7, 'The go-to solution to Electron composition effects, such as blurry windows.', ['NyaomiDEV','KorbsStudio'], 1, 15, 0),
 (260751863, 'cyrildiagne/ar-cutpaste', 14214, 44, 'Cut and paste your surroundings using AR', ['cyrildiagne','xraymemory'], 1, 0, 0),
-(260800773, 'huangsam/ultimate-python', 3316, 0, 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ['huangsam','Add1solver'], 1, 21, 0),
 (260839280, 'ColomboJuan/Covid19-Arg', 1, 9, null, ['ColomboJuan'], 1, 20, 0),
 (260839409, 'awtkns/vue-glow', 21, 1, 'A performant wrapper component to give dynamic glow effects in Vue ', ['awtkns'], 1, 2, 0),
 (260898844, 'open-sauced/code-of-conduct', 5, 1, 'This community is dedicated to providing a harassment-free experience for everyone.', ['bdougie'], 2, 1, 0),
@@ -2708,6 +2707,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (283323929, 'haimgel/display-switch', 2007, 19, 'Turn a $30 USB switch into a full-featured multi-monitor KVM switch', ['haimgel','jrr'], 1, 12, 0),
 (283329479, 'LarsRosenkilde/Instagram-Posted-Sources', 65, 1, 'Different small scripts, i''ve posted on Instagram', ['LarsRosenkilde'], 1, 10, 0),
 (283370985, 'toastdotdev/toast', 150, 27, 'The best place to stack your JAM. Toast is a Jamstack framework', ['ChristopherBiscardi','jbolda'], 1, 4, 0),
+(260800773, 'huangsam/ultimate-python', 3316, 0, 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ['huangsam','Add1solver'], 1, 21, 0),
 (283416444, 'nrwl/zack-live-stream', 6, 0, 'The code base being worked on by Zack''s livestream', ['ZackDeRose'], 1, 28, 0),
 (283446239, 'enisdenjo/graphql-ws', 884, 0, 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', ['enisdenjo','semantic-release-bot'], 1, 1, 0),
 (283489816, 'netlify/framework-info', 104, 12, 'Framework detection utility', ['renovate-bot','ehmicky'], 1, 11, 0),
@@ -2753,11 +2753,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (289516607, 'khang-nd/khang-nd.github.io', 27, 0, '📝 My window-styled portfolio', ['khang-nd'], 1, 7, 0),
 (289523918, 'ryo-ma/github-profile-trophy', 1940, 17, '🏆 Add dynamically generated GitHub Stat Trophies  on your readme', ['ryo-ma','spenserblack'], 2, 25, 0),
 (289810394, 'elewin/pi-weather-station', 140, 7, null, ['elewin'], 1, 14, 0),
-(290020584, 'dmnemec/copy_file_to_another_repo_action', 61, 12, 'This GitHub Action copies a file from the current repository to a location in another repository', ['dmnemec','sta-szek'], 1, 21, 0),
 (290171658, 'pankod/canvas2video', 160, 9, 'canvas2video is a backend solution for creating and rendering dynamic videos.', ['aliemir','omeraplak'], 1, 1, 0),
 (290234921, 'JoseDeFreitas/awesome-youtubers', 2828, 1, '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', ['JoseDeFreitas','akaashsinha'], 1, 4, 0),
-(290247146, 'mitmath/18S191', 2101, 16, 'Course 18.S191 at MIT, Spring 2021 - Introduction to computational thinking with Julia: ', ['fonsp','shashi'], 1, 7, 0),
 (290264556, 'Gloryness/Multiprocessing-in-PyQt5', 4, 0, 'Use this program to test how many threads can run at once while doing the same tasks.', ['Gloryness'], 1, 27, 0),
+(290247146, 'mitmath/18S191', 2101, 16, 'Course 18.S191 at MIT, Spring 2021 - Introduction to computational thinking with Julia: ', ['fonsp','shashi'], 1, 7, 0),
 (290625948, 'joincomet/comet', 241, 60, 'All-in-one chat and forums for communities.', ['danb10','insuusvenerati'], 1, 15, 0),
 (290703027, 'kothariji/competitive-programming', 339, 17, 'Hello Programmers :computer: , A one-stop Destination✏️✏️ for all your Competitive Programming Resources.📗📕    Refer CONTRIBUTING.md for contributions', ['kothariji','AK-I-RA'], 1, 21, 0),
 (291055052, 'OpenSourceTogether/Hacktoberfest-2020', 622, 191, ':octocat: Welcome to Open-source! Simply add your details to contributors | Repo for Hacktoberfest 2020 ✅', ['chandan-reddy-k','CodesbyUnnati'], 1, 3, 0),
@@ -2997,6 +2996,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (327036990, 'MattMarquise/Lifestyle-Blog', 1, 0, null, ['MattMarquise'], 1, 13, 0),
 (327105716, 'odrotbohm/spring-playground', 82, 4, 'A collection of tiny helpers for building Spring applications', ['odrotbohm'], 1, 6, 0),
 (327400204, 'speijnik/myhome', 2, 0, 'Python library for interacting with MyHomeSERVER1', ['speijnik'], 1, 8, 0),
+(290020584, 'dmnemec/copy_file_to_another_repo_action', 61, 12, 'This GitHub Action copies a file from the current repository to a location in another repository', ['dmnemec','sta-szek'], 1, 21, 0),
 (327406312, 'tailwindlabs/tailwindcss-line-clamp', 562, 1, null, ['adamwathan','RobinMalfait'], 1, 16, 0),
 (327443948, 'zkoppert/innersource-crawler', 13, 3, 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ['zkoppert','sicot-f'], 1, 22, 0),
 (327584479, 'funbeedev/BibleBeforeBread', 6, 12, 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ['funbeedev','sabderemane'], 1, 6, 0),
@@ -3110,8 +3110,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (343553753, 'PatrickAlphaC/nft-mix', 524, 4, null, ['PatrickAlphaC','albertoxamin'], 1, 28, 0),
 (343757632, 'olmps/memo', 1633, 28, 'Memo is an open-source, programming-oriented spaced repetition software (SRS) written in Flutter.', ['matuella','ggirotto'], 1, 21, 0),
 (343877885, 'daily-demos/party-line', 42, 2, 'multiplatform audio only demos', ['regexident','jessmitch42'], 1, 4, 0),
-(343891771, 'builders-club/onlythemes', 10, 22, 'VS Code themes that match your personality profile.', ['MichaelJolley','parithon'], 1, 12, 0),
 (343910759, 'gskinnerTeam/flutter-folio', 2787, 25, 'A platform adaptive Flutter app for desktop, mobile and web.', ['esDotDev','cenomla'], 1, 19, 0),
+(343891771, 'builders-club/onlythemes', 10, 22, 'VS Code themes that match your personality profile.', ['MichaelJolley','parithon'], 1, 12, 0),
 (343964517, 'module-federation/microlib-examples', 22, 1, 'This template project provides the scaffolding to build a federated application on ÆGIS. It also contains an example of an Order, Customer and Inventory service streaming to / running in the same ÆGIS host server process; and demonstrates integration with, and orchestration of, an Address, Payment, Inventory, Shipping, Event (Kafka, WebSockets), and Persistence service (MongoDB) via Aegis federated ports. ', ['tysonrm','ScriptedAlchemy'], 1, 5, 0),
 (343965132, 'microsoft/ML-For-Beginners', 28909, 6, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', ['jlooper','softchris'], 1, 0, 0),
 (344191198, 'microsoft/Data-Science-For-Beginners', 7798, 27, '10 Weeks, 20 Lessons, Data Science for All!', ['paladique','jlooper'], 1, 2, 0),
