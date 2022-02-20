@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T01:02:46.921Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T02:47:40.526Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2337,6 +2337,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (236569958, 'dvarrazzo/pg_seldump', 6, 6, 'PostgreSQL selective data dump', ['dvarrazzo'], 1, 15, 0),
 (236750354, 'bradtraversy/vanillawebprojects', 11702, 26, 'Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries', ['bradtraversy','ni3gup'], 2, 17.5, 0),
 (237114405, 'thanhnguyennguyen/trading-indicator', 96, 4, 'provide trading technical indicator values based on data of almost crypto currency exchanges', ['thanhnguyennguyen','tan-kitty'], 1, 15, 0),
+(237367139, 'kassambara/wordpress-docker-compose', 181, 5, 'Deploy Wordpress on Localhost using Docker Compose', ['kassambara'], 1, 16, 0),
 (237448876, 'qiangxue/go-rest-api', 735, 10, 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', ['qiangxue','chartinmarrel'], 1, 22, 0),
 (237519983, 'nicklanng/plusminus', 10, 0, 'A query builder for https://dgraph.io/', ['nicklanng'], 1, 15, 0),
 (237523442, 'tailscale/tailscale', 6196, 645, 'The easiest, most secure way to use WireGuard and 2FA.', ['bradfitz','danderson'], 3, 18.666666666666668, 0),
@@ -2347,7 +2348,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (237805954, 'Shpota/goxygen', 2319, 8, 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', ['Shpota','shpotainna'], 1, 12, 0),
 (238039731, 'redwoodjs/redwoodjs.com', 105, 103, 'Public website for RedwoodJS', ['thedavidprice','cannikin'], 1, 8, 0),
 (238197045, 'bradtraversy/react_native_shopping_list', 196, 10, 'React Native app from crash course', ['bradtraversy','leosuncin'], 1, 22, 0),
-(237367139, 'kassambara/wordpress-docker-compose', 181, 5, 'Deploy Wordpress on Localhost using Docker Compose', ['kassambara'], 1, 16, 0),
 (238514517, 'matteobruni/tsparticles', 2706, 24, 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', ['matteobruni','VincentGarreau'], 2, 13, 0),
 (238537897, 'michal-wrzosek/cntl', 31, 7, 'Small library that helps you write your class names in a more clear, readable and composable way. Especially useful with tailwind css.', ['michal-wrzosek','brightpixels'], 1, 9, 0),
 (238851101, 'naver/fe-news', 2263, 0, 'FE 기술 소식 큐레이션 뉴스레터', ['netil','sculove'], 1, 12, 0),

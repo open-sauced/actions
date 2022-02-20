@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T01:02:46.811Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T02:47:40.748Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3253,8 +3253,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (393673673, 3255, 35429278, 'theodorusclarence/ts-nextjs-tailwind-starter', 16, '🔋 Next.js + Tailwind CSS + TypeScript starter packed with useful development features', 1, 171, ['theodorusclarence','raaynaldo']),
 (363558647, 3256, 35429278, 'theodorusclarence/vite-react-tailwind-starter', 17, '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', 0, 22, ['theodorusclarence']),
 (393089347, 3257, 35429278, 'antoniolofiego/Batteries-Included-Next.js', 18, 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', 0, 32, ['antoniolofiego','kriswuollett']),
-(38174748, 3259, 35429278, 'mrekucci/epi', 20, 'Solutions for Elements of Programming Interviews problems written in Golang (work-in-progress)', 0, 408, ['mrekucci']),
 (123572362, 3258, 35429278, 'quii/learn-go-with-tests', 19, 'Learn Go with test-driven development', 28, 16112, ['quii','pityonline']),
+(38174748, 3259, 35429278, 'mrekucci/epi', 20, 'Solutions for Elements of Programming Interviews problems written in Golang (work-in-progress)', 0, 408, ['mrekucci']),
 (393711986, 3260, 35429278, 'frencojobs/minimalistic', 21, 'Opinionated but sensible and minimal prettier config with plugins.', 0, 4, ['frencojobs']),
 (385037052, 3261, 35429278, 'ahrm/sioyek', 22, 'Sioyek is a PDF viewer designed for reading research papers and technical books.', 27, 1133, ['ahrm','Endle']),
 (191759944, 3262, 35429278, 'srevinsaju/guiscrcpy', 23, 'A full fledged GUI integration for the most award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v', 9, 1402, ['srevinsaju','restyled-commits']),
@@ -3958,9 +3958,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (208155014, 3959, 35005125, 'qdm12/godevcontainer', 14, 'Golang development container for Visual Studio Code Remote Containers Development', 0, 109, ['qdm12']),
 (88674404, 3960, 35005125, 'GoogleContainerTools/distroless', 15, '🥑  Language focused docker images, minus the operating system.  ', 91, 11526, ['loosebazooka','chanseokoh']),
 (60493101, 3961, 35005125, 'jwasham/coding-interview-university', 16, 'A complete computer science study plan to become a software engineer.', 41, 201790, ['jwasham','avizmarlon']),
-(320029758, 3962, 35005125, 'lokeshn011101/nextjs-tailwind-starter', 17, 'A Next.js-Tailwind starter', 0, 1, ['lokeshn011101']),
 (30215630, 3963, 35005125, 'go-kit/kit', 18, 'A standard library for microservices.', 46, 21973, ['peterbourgon','ChrisHines']),
 (19331272, 3964, 35005125, 'gocarina/gocsv', 19, 'The GoCSV package aims to provide easy CSV serialization and deserialization to the golang programming language', 53, 1162, ['pikanezi','JonathanPicques']),
+(320029758, 3962, 35005125, 'lokeshn011101/nextjs-tailwind-starter', 17, 'A Next.js-Tailwind starter', 0, 1, ['lokeshn011101']),
 (72811914, 3965, 35005125, 'clintjedwards/basecoat', 20, 'Formula tracker for custom paint mixes. Tracks colorant, base, and other misc data.', 8, 3, ['clintjedwards']),
 (190142142, 3966, 35005125, 'liyasthomas/banner', 21, '🚩 A simple and clean banner generator - Banners on the go. https://liyasthomas.github.io/banner', 3, 132, ['liyasthomas','izzqz']),
 (300874884, 3967, 35005125, 'kothariji/SyntaxMeets', 22, 'Syntaxmeets. Create rooms 🏠 Call your friends 👬🏼 Sip Chai, ☕ Chat, Create, and Code👨‍💻. A coding platform to code simultaneously 🚀 with your friends and design your algorithms on SyntaxPad.💫✨', 23, 145, ['kothariji','akash-salvi']),
