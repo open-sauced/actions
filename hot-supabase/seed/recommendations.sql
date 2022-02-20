@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T10:43:19.296Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T12:49:01.960Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2495,6 +2495,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (258049460, 'hashicorp/next-mdx-remote', 1081, 16, 'Load mdx content from anywhere through getStaticProps in next.js', ['jescalan','BRKalow'], 1, 27, 0),
 (258254038, 'hhhrrrttt222111/Ethical-Hacking-Tools', 542, 11, 'Complete Listing and Usage of Tools used for Ethical Hacking', ['hhhrrrttt222111','bettercalln1ck'], 1, 6, 0),
 (258352165, 'whoisryosuke/next-mdx-deck', 120, 5, 'Presentation decks using MDX, React, and Next.JS', ['whoisryosuke'], 1, 4, 0),
+(258465213, 'philips-labs/terraform-aws-github-runner', 688, 66, 'Terraform module for scalable GitHub action runners on AWS', ['npalm','gertjanmaas'], 1, 14, 0),
 (258513101, 'omariosouto/spotcast', 26, 9, ':sound: A Spotify + Pocket Casts merge, feito com React Native', ['omariosouto'], 1, 3, 0),
 (258616743, 'ryanbonial/car-gallery', 1, 0, null, ['ryanbonial'], 1, 16, 0),
 (258812961, 'cyrildiagne/ar-facedoodle', 507, 11, 'Doodle AR masks right from the browser with tensorflow.js', ['cyrildiagne'], 1, 29, 0),
@@ -2593,7 +2594,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (269174002, 'counterpoint-studio/artgift', 5, 0, 'An open source web application for booking and managing Art Gifts', ['teropa','samueldiggins'], 1, 0, 0),
 (269211843, 'seek-oss/capsize', 727, 8, 'Flipping how we define typography in CSS.', ['michaeltaranto','mattcompiles'], 1, 9, 0),
 (269230051, 'BaseMax/WebMoleGame', 3, 0, 'Mole game with HTML, CSS, JavaScript. (Web-based)', ['BaseMax'], 1, 3, 0),
-(258465213, 'philips-labs/terraform-aws-github-runner', 688, 66, 'Terraform module for scalable GitHub action runners on AWS', ['npalm','gertjanmaas'], 1, 14, 0),
 (269419110, 'madhuakula/kubernetes-goat', 1733, 5, 'Kubernetes Goat 🐐  is a ''Vulnerable by Design'' Kubernetes Cluster. Designed to be an intentionally vulnerable cluster environment to learn and practice Kubernetes security 🔐', ['madhuakula','mkcn'], 1, 16, 0),
 (269778869, 'mmb4rn0/LinearCardView', 7, 0, 'Provides all CardView styling and properties with vertical/horizontal view organising features.', ['barno-cefalo','mmb4rn0'], 1, 26, 0),
 (269822028, 'ngduc/rails-react-typescript-jest', 7, 17, 'Rails + React + Typescript + Jest UI app', ['ngduc'], 1, 11, 0),
