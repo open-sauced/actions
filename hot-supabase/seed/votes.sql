@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T14:43:21.215Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T16:48:49.878Z
 -- COPY votes(voteid, created_at, github_user_id, repo_name, vote_code) FROM 'votes.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -25,8 +25,8 @@ INSERT INTO votes(voteid, created_at, github_user_id, repo_name, vote_code) VALU
 (113, '2022-02-12T13:38:47.018442+00:00', 14043845, 'kelseyhightower/nocode', '14043845-kelseyhightower/nocode'),
 (29, '2022-01-13T07:16:03.364504+00:00', 5713670, 'DopplerHQ/awesome-interview-questions', '5713670-DopplerHQ/awesome-interview-questions'),
 (32, '2022-01-13T07:24:12.987961+00:00', 5713670, 'typescript-cheatsheets/react', '5713670-typescript-cheatsheets/react'),
-(37, '2022-01-13T07:25:25.204445+00:00', 5713670, 'leonardomso/33-js-concepts', '5713670-leonardomso/33-js-concepts'),
 (35, '2022-01-13T07:25:07.695147+00:00', 5713670, 'vuejs/vue', '5713670-vuejs/vue'),
+(37, '2022-01-13T07:25:25.204445+00:00', 5713670, 'leonardomso/33-js-concepts', '5713670-leonardomso/33-js-concepts'),
 (38, '2022-01-13T07:25:26.92723+00:00', 5713670, 'yangshun/tech-interview-handbook', '5713670-yangshun/tech-interview-handbook'),
 (44, '2022-01-16T09:25:07.344664+00:00', 5713670, 'MunGell/awesome-for-beginners', '5713670-MunGell/awesome-for-beginners'),
 (52, '2022-01-16T10:02:51.693585+00:00', 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced'),

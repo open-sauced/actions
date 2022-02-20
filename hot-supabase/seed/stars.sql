@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T14:43:21.262Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T16:48:49.933Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2524,9 +2524,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (4, 73, 0, 'mikenye/docker-readsb', 241303926),
 (26, 195, 3, 'wiedehopf/graphs1090', 167717410),
 (30, 131, 0, 'nguyenphuminh/JeChain', 421838343),
-(2835, 19808, 22, 'elixir-lang/elixir', 1234714),
 (1629, 10800, 4, 'mfornos/awesome-microservices', 34987697),
 (875, 11885, 14, 'Netflix/chaosmonkey', 71297170),
+(2835, 19808, 22, 'elixir-lang/elixir', 1234714),
 (416, 1408, 3, 'videolan/vlc-android', 123426934),
 (0, 1, 0, 'MattMarquise/Design-Suite-Landing-Page-Theme', 340182829),
 (0, 2, 0, 'MattMarquise/Modern-Game-Console-UI', 332841560),
@@ -2641,8 +2641,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 1, 0, 'lokeshn011101/nextjs-tailwind-starter', 320029758),
 (2225, 21968, 46, 'go-kit/kit', 30215630),
 (181, 1161, 53, 'gocarina/gocsv', 19331272),
-(42, 132, 3, 'liyasthomas/banner', 190142142),
 (2, 3, 8, 'clintjedwards/basecoat', 72811914),
+(42, 132, 3, 'liyasthomas/banner', 190142142),
 (52, 145, 23, 'kothariji/SyntaxMeets', 300874884),
 (160, 1169, 0, 'kkdai/project52', 39433529),
 (90, 9, 0, 'skycoin/arena', 169529444),
