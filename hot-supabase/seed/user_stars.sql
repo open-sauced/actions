@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T12:49:01.695Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T14:43:21.422Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2141,7 +2141,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (50063599, 2121, 72279316, 'mcdallas/wallstreet', 14, 'Real time stock and option data.', 15, 732, ['mcdallas','sorying']),
 (13030144, 2122, 72279316, 'janpaepke/ScrollMagic', 15, 'The javascript library for magical scroll interactions.', 504, 13528, ['janpaepke','johnpolacek']),
 (240795158, 2123, 72279316, 'KSJaay/Alita', 16, 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', 0, 80, ['KSJaay','PegosStelios']),
-(384873391, 2124, 72279316, 'developer-student-club-thapar/GSoC-Proposals-Archive', 17, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', 1, 42, ['specter25','Saurav-Shrivastav']),
 (230963289, 2125, 72279316, 'Paol-imi/muuri-react', 18, 'The layout engine for React', 25, 227, ['Paol-imi','In-dev-paolo']),
 (324575078, 2126, 72279316, 'Kushal997-das/Project-Guidance', 19, ':octocat:🌟 The Ultimate resources for beginner to advance level projects all at  one place 💻 🎯🚀 ', 3, 129, ['Kushal997-das','SamarpanCoder2002']),
 (41029539, 2127, 72279316, 'alpha-miner/Finance-Python', 20, 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', 7, 303, ['wegamekinglc']),
@@ -2218,6 +2217,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (363994683, 2198, 22154417, 'GSA/usagov-benefits-eligibility', 22, 'This is the for the benefits eligibility website for usa.gov.', 10, 7, ['r-bartlett-gsa','sknep']),
 (154548852, 2199, 22154417, 'amazon-archives/aws-media-services-workflow-composer', 23, 'Create flexible, intelligent file-based video workflows on AWS using dynamic rules.', 2, 11, ['aburkleaux-amazon','jamesiri']),
 (350874478, 2200, 13711044, 'notrab/headless-dropshipping-starter', 0, 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', 3, 330, ['renovate-bot','notrab']),
+(384873391, 2124, 72279316, 'developer-student-club-thapar/GSoC-Proposals-Archive', 17, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', 1, 42, ['specter25','Saurav-Shrivastav']),
 (94473513, 2201, 13711044, 'ritz078/transform', 1, 'A polyglot web converter.', 22, 2864, ['ritz078','gyandeeps']),
 (22887094, 2202, 13711044, 'tesseract-ocr/tesseract', 2, 'Tesseract Open Source OCR Engine (main repository)', 346, 43250, ['stweil','zdenop']),
 (380874662, 2203, 13711044, 'sdras/fortnite-vscode-theme', 3, null, 6, 162, ['sdras','MichaelCurrin']),

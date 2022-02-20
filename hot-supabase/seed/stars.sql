@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T12:49:01.961Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T14:43:21.262Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2641,8 +2641,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 1, 0, 'lokeshn011101/nextjs-tailwind-starter', 320029758),
 (2225, 21968, 46, 'go-kit/kit', 30215630),
 (181, 1161, 53, 'gocarina/gocsv', 19331272),
-(2, 3, 8, 'clintjedwards/basecoat', 72811914),
 (42, 132, 3, 'liyasthomas/banner', 190142142),
+(2, 3, 8, 'clintjedwards/basecoat', 72811914),
 (52, 145, 23, 'kothariji/SyntaxMeets', 300874884),
 (160, 1169, 0, 'kkdai/project52', 39433529),
 (90, 9, 0, 'skycoin/arena', 169529444),
