@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T18:44:52.909Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T20:43:21.741Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -944,6 +944,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (196110912, 937, 2609511, 'dgraph-io/workshop', 20, 'Dgraph workshop: Build a Twitter graph with Dgraph!', 1, 2, ['hackintoshrao','danielmai']),
 (139633235, 938, 2609511, 'MoonHighway/learning-graphql', 21, 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', 9, 571, ['eveporcello','MoonTahoe']),
 (31384503, 939, 2609511, 'theanalyst/awesome-distributed-systems', 22, 'A curated list to learn about distributed systems', 10, 7290, ['theanalyst','manishkk']),
+(180895260, 940, 2609511, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran']),
+(174635301, 941, 2609511, 'dgraph-io/flock', 24, 'Twitter on Dgraph', 16, 28, ['mangalaman93','prashant-shahi']),
+(86115145, 942, 2609511, 'astorfi/TensorFlow-World', 25, ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', 3, 4529, ['astorfi','hadikazemi']),
 (107446339, 943, 2609511, 'yugabyte/yb-iot-fleet-management', 26, 'Sample IoT application simulating a monitoring dashboard for a fleet management/shipping company.', 0, 59, ['rkarthik007','baghelamit']),
 (124308494, 944, 2609511, 'apigee/istio-mixer-adapter', 27, 'Apigee''s Istio Mixer Adapter', 2, 52, ['theganyo','robbrit']),
 (75322405, 945, 2609511, 'istio/proxy', 28, 'The Istio proxy components.', 12, 601, ['istio-testing','qiwzhang']),
@@ -954,10 +957,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (204996263, 950, 9968219, 'umutphp/backend-best-practices', 2, 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', 1, 74, ['umutphp','ilkka']),
 (22119721, 989, 46695719, 'k88hudson/git-flight-rules', 11, 'Flight rules for git', 14, 38201, ['RichardLitt','simaki']),
 (2003232, 1888, 349523, 'jwalter/zombiedicejava', 11, null, 0, 1, ['jwalter']),
-(180895260, 940, 2609511, 'akiran/graphql-asia-2019-workshop', 23, null, 12, 5, ['akiran']),
-(174635301, 941, 2609511, 'dgraph-io/flock', 24, 'Twitter on Dgraph', 16, 28, ['mangalaman93','prashant-shahi']),
 (80814970, 951, 9968219, 'piomin/sample-spring-microservices', 3, 'Many samples in different branches that shows how to create microservices with Spring Boot, Spring Cloud, Zipkin, Zuul, Eureka, Hystrix, Kubernetes, Elastic Stack and many more tools', 10, 419, ['piomin','ramazansakin']),
-(86115145, 942, 2609511, 'astorfi/TensorFlow-World', 25, ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', 3, 4529, ['astorfi','hadikazemi']),
 (95561550, 952, 9968219, 'callicoder/spring-boot-mysql-rest-api-tutorial', 4, 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', 6, 315, ['callicoder']),
 (115131148, 953, 9968219, 'velopert/velog', 5, null, 40, 575, ['velopert','sq787']),
 (33546872, 954, 9968219, 'cimgui/cimgui', 6, 'c-api for imgui (https://github.com/ocornut/imgui)    Look at: https://github.com/cimgui for other widgets', 11, 834, ['sonoro1234','extrawurst']),
@@ -3849,8 +3849,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (45325973, 3847, 67872399, 'zutrinken/bleak', 0, 'Ghost Theme', 12, 517, ['zutrinken','ManuelRauber']),
 (176777353, 3849, 67872399, 'rainbow-me/rainbow', 2, '🌈‒ the Ethereum wallet that lives in your pocket ', 28, 1996, ['jinchung','mikedemarais']),
 (202890778, 3850, 67872399, 'chakra-ui/chakra-ui', 3, '⚡️ Simple, Modular & Accessible UI Components for your React Applications', 119, 22868, ['segunadebayo','with-heart']),
-(212606516, 3852, 67872399, 'boorje/react-news-app', 5, 'A simple React app which uses the News API.', 13, 2, ['boorje']),
 (247809638, 3851, 67872399, 'Aarif123456/KeystrokeDynamicsSpoofer', 4, 'A keystroke biometric spoofer created to test the strength of the strength of various keystoke dynamic based authentication systems', 0, 8, ['Aarif123456']),
+(212606516, 3852, 67872399, 'boorje/react-news-app', 5, 'A simple React app which uses the News API.', 13, 2, ['boorje']),
 (136923813, 3853, 67872399, 'benawad/fullstack-graphql-airbnb-clone', 6, 'A Fullstack GraphQL Airbnb Clone with React and React Native', 23, 1425, ['benawad']),
 (39150065, 3854, 67872399, 'negomi/react-burger-menu', 7, ':hamburger: An off-canvas sidebar component with a collection of effects and styles using CSS transitions and SVG path animations', 3, 4550, ['negomi','badtant']),
 (328887233, 3855, 67872399, 'EugeCos/stylish-sidebar', 8, 'An open source, production-ready React sidebar component that can be quickly implemented into any desktop dashboard.', 0, 8, ['EugeCos']),
