@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T18:45:20.629Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T20:43:23.174Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3509,9 +3509,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (18, 1, 0, 'Gingertonic/london-spas-cli', 186470218),
 (1523, 5567, 485, 'docker/docker-py', 10247874),
 (39, 62, 34, 'cncf/tag-contributor-strategy', 243834124),
-(95, 1321, 1, 'romenrg/evergreen-skills-developers', 162977720),
 (0, 12, 0, 'BaseMax/TrigonometricFunctions', 172362850),
 (1, 4, 0, 'BaseMax/ColorConvertPy', 178404439),
+(95, 1321, 1, 'romenrg/evergreen-skills-developers', 162977720),
 (53, 90, 13, 'BrandonArmand/Binari', 228118187),
 (62, 21, 0, 'LambdaSchool/build-week-scaffolding-node', 342191787),
 (51, 197, 2, 'cba85/electron-webview', 100949236),
@@ -3546,8 +3546,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (153, 807, 10, 'i3-gnome/i3-gnome', 22811562),
 (1112, 3428, 26, 'LukeSmithxyz/voidrice', 93192704),
 (4, 60, 0, 'kerryb/goos-ruby', 10581067),
-(0, 1, 0, 'HeavyBR/adventofcode', 320609581),
 (366, 7909, 124, 'veler/DevToys', 411493648),
+(0, 1, 0, 'HeavyBR/adventofcode', 320609581),
 (161, 785, 12, 'qiangxue/go-rest-api', 237448876),
 (317, 3302, 355, 'datafuselabs/databend', 302827809),
 (105, 238, 1, 'devefy/Flutter-Streaming-Service-App-UI', 170973676),

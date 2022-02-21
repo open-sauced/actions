@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T18:45:20.409Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T20:43:23.358Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3255,8 +3255,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (393089347, 3257, 35429278, 'antoniolofiego/Batteries-Included-Next.js', 18, 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', 0, 32, ['antoniolofiego','kriswuollett']),
 (123572362, 3258, 35429278, 'quii/learn-go-with-tests', 19, 'Learn Go with test-driven development', 28, 16112, ['quii','pityonline']),
 (38174748, 3259, 35429278, 'mrekucci/epi', 20, 'Solutions for Elements of Programming Interviews problems written in Golang (work-in-progress)', 0, 408, ['mrekucci']),
-(393711986, 3260, 35429278, 'frencojobs/minimalistic', 21, 'Opinionated but sensible and minimal prettier config with plugins.', 0, 4, ['frencojobs']),
 (385037052, 3261, 35429278, 'ahrm/sioyek', 22, 'Sioyek is a PDF viewer designed for reading research papers and technical books.', 27, 1133, ['ahrm','Endle']),
+(393711986, 3260, 35429278, 'frencojobs/minimalistic', 21, 'Opinionated but sensible and minimal prettier config with plugins.', 0, 4, ['frencojobs']),
 (191759944, 3262, 35429278, 'srevinsaju/guiscrcpy', 23, 'A full fledged GUI integration for the most award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v', 9, 1402, ['srevinsaju','restyled-commits']),
 (392242345, 3263, 35429278, 'hilmanski/discussbase', 24, 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', 0, 37, []),
 (241529345, 3264, 35429278, 'wellyshen/react-cool-portal', 25, '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', 14, 691, ['wellyshen','hinok']),
