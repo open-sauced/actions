@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T08:44:19.642Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T10:43:48.949Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2544,7 +2544,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (49668250, 2524, 3450257, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5078, ['jamiebuilds','gaearon']),
 (353082105, 2525, 3450257, 'github/maintainerweek', 7, 'A week for maintainers to gather & share', 3, 140, ['karasowles','martinwoodward']),
 (110053683, 2526, 3450257, 'taylorbryant/jekyll-starter-tailwind', 8, 'Jekyll starter styled with Tailwind CSS', 9, 221, ['taylorbryant','renovate-bot']),
-(146435241, 2527, 3450257, 'Matoking/protontricks', 9, 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', 5, 838, ['Matoking','Sirmentio']),
 (200731758, 2528, 3450257, 'serradura/u-case', 10, 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', 12, 353, ['serradura','tomascco']),
 (77765356, 2529, 3450257, 'riebschlager/make-the-internet-suck-less', 11, null, 0, 38, ['riebschlager','bgkittrell']),
 (4979192, 2530, 3450257, 'enriclluelles/route_translator', 12, 'Translate your rails app route to various languages without the hassle', 15, 708, ['tagliala','enriclluelles']),
@@ -2743,6 +2742,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (100949236, 2721, 4381106, 'cba85/electron-webview', 5, '💻 A simple electron webview with cool features.', 1, 187, ['cba85']),
 (121454193, 2722, 4381106, 'google/flutter-desktop-embedding', 6, 'Experimental plugins for Flutter for Desktop', 4, 6958, ['stuartmorgan','franciscojma86']),
 (121945586, 2723, 4381106, 'qeesung/HighlightBracketPair', 7, ':high_brightness: Highlight bracket pair plugin for intellij', 18, 485, ['qeesung']),
+(146435241, 2527, 3450257, 'Matoking/protontricks', 9, 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', 5, 838, ['Matoking','Sirmentio']),
 (54173593, 2724, 4381106, 'storybookjs/storybook', 8, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1641, 67641, ['shilman','ndelangen']),
 (8514, 2725, 4381106, 'rails/rails', 9, 'Ruby on Rails', 598, 49762, ['rafaelfranca','tenderlove']),
 (15479087, 2762, 2808728, 'OctoLinker/OctoLinker', 11, 'OctoLinker — Links together, what belongs together', 58, 4857, ['stefanbuck','josephfrazier']),

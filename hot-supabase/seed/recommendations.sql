@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T08:44:19.476Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T10:43:49.167Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -527,9 +527,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (21317360, 'koding/koding', 1947, 252, 'The Simplest Way to Manage Your Entire Dev Infrastructure!', ['gokmen','sinan'], 1, 23, 0),
 (21333814, 'lynndylanhurley/devise_token_auth', 3268, 175, 'Token based authentication for Rails JSON APIs. Designed to work with jToker and ng-token-auth.', ['lynndylanhurley','booleanbetrayal'], 1, 17, 0),
 (21393871, 'sorrycc/awesome-javascript', 26296, 36, '🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.', ['sorrycc','gokaygurcan'], 1, 7, 0),
+(21405028, 'ardanlabs/gotraining', 10071, 2, 'Go Training Class Material : ', ['ardan-bkennedy','jcbwlkr'], 1, 29, 0),
 (21436816, 'spinnaker/spinnaker', 8272, 202, 'Spinnaker is an open source, multi-cloud continuous delivery platform for releasing software changes with high velocity and confidence.', ['duftler','lwander'], 1, 9, 0),
 (21540759, 'avelino/awesome-go', 72753, 24, 'A curated list of awesome Go frameworks, libraries and software', ['mholt','avelino'], 1, 22, 0),
-(21405028, 'ardanlabs/gotraining', 10071, 2, 'Go Training Class Material : ', ['ardan-bkennedy','jcbwlkr'], 1, 29, 0),
 (21552971, 'alebcay/awesome-shell', 22664, 74, 'A curated list of awesome command-line frameworks, toolkits, guides and gizmos. Inspired by awesome-php.', ['alebcay','xuxiaodong'], 1, 5, 0),
 (21648001, 'akullpp/awesome-java', 30846, 8, 'A curated list of awesome frameworks, libraries and software for the Java programming language.', ['heldev','krisskross'], 1, 27, 0),
 (21661018, 'npm/npm-remote-ls', 82, 18, 'Examine a package''s dependency graph before you install it', ['bcoe','nexdrew'], 1, 0, 0),
@@ -2581,6 +2581,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (268066088, 'lewster32/corporallancot', 1, 23, 'A Discord bot primarily for recording, searching and retrieving notes and quotes', ['Bidthedog','lewster32'], 1, 22, 0),
 (268086996, 'dotellie/nestjs-graphql-pagination', 11, 30, 'Decorators to allow easily building up relay compatible pagination types', ['renovate-bot','dotellie'], 1, 0, 0),
 (268098312, 'ZedThree/clang-tidy-review', 17, 6, 'Create a pull request review based on clang-tidy warnings', ['ZedThree','kgfoundrydig'], 1, 0, 0),
+(268264498, 'chakra-ui/chakra-ui-vue-next', 128, 7, '⚡️ The next most epic version of Chakra UI Vue based on Vue 3 🚀(WIP)', ['codebender828','koca'], 1, 6, 0),
 (268292479, 'ivan-bilan/The-NLP-Pandect', 1633, 0, 'A comprehensive reference for all topics related to Natural Language Processing', ['ivan-bilan','anoopkunchukuttan'], 1, 10, 0),
 (268296877, 'PiyushSuthar/covid19-twitter-bot', 1, 0, 'A Bot that tweets Covid Updates daily!', ['PiyushSuthar'], 1, 12, 0),
 (268350681, 'Rem0o/FanControl.Releases', 1792, 86, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', ['Rem0o'], 1, 26, 0),
@@ -2643,8 +2644,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (274751150, 'jamesonsaunders/Convert-Website-to-App', 29, 5, 'Convert your mobile-friendly website into an app', ['jamesonsaunders'], 1, 8, 0),
 (275585532, 'SergeyMyssak/nextjs-sitemap', 84, 2, 'Generate dynamic sitemap.xml for Next.js projects following the example of Google!', ['SergeyMyssak','andreymyssak'], 1, 25, 0),
 (275741530, 'fischertechnik/plc_training_factory_24v', 6, 0, 'Training Factory Industry 4.0 (24V)', ['AlexanderSteiger'], 1, 0, 0),
-(275920269, 'obbap1/blockstream-js-client', 7, 8, 'The Client that consumes the Blockstream Satellite API', ['obbap1'], 1, 25, 0),
 (275874438, 'sbrudz/accelerate-metrics', 4, 0, 'Tool to calculate Accelerate DevOps metrics', ['sbrudz'], 1, 20, 0),
+(275920269, 'obbap1/blockstream-js-client', 7, 8, 'The Client that consumes the Blockstream Satellite API', ['obbap1'], 1, 25, 0),
 (275993885, 'appsmithorg/appsmith', 10704, 1539, 'Low code project to build admin panels, internal tools, and dashboards. Connect to 15+ database integrations.', ['Nikhil-Nandagopal','mohanarpit'], 1, 4, 0),
 (276143292, 'negue/meme-box', 60, 51, 'Manage and trigger media in OBS as a browser source', ['negue','owehmer'], 1, 1, 0),
 (276193266, 'First-Steps-in-DDD-Community/first-steps-in-ddd-solutions', 22, 0, 'Solutions to the First Steps in DDD training course', ['andrewharmellaw'], 1, 21, 0),
@@ -2727,7 +2728,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (285695824, 'beamkenya/ex_pesa', 19, 0, 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ['manuelgeek','lenileiro'], 1, 6, 0),
 (285782908, 'jmc265/dotfiles', 3, 0, null, ['bw-jamescross','jmc265'], 1, 0, 0),
 (285998667, 'keiya01/react-performance-testing', 245, 6, 'A library to test runtime performance in React', ['keiya01','JulienBlacas'], 1, 5, 0),
-(268264498, 'chakra-ui/chakra-ui-vue-next', 128, 7, '⚡️ The next most epic version of Chakra UI Vue based on Vue 3 🚀(WIP)', ['codebender828','koca'], 1, 6, 0),
 (286080143, 'upptime/upptime', 8945, 47, '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ['upptime-bot','pabio-escobar'], 1, 29, 0),
 (286132785, 'lesmo/gitfolio', 1, 0, ':octocat: personal website + blog for every github user', ['imfunniee','bcliden'], 1, 29, 0),
 (286339134, 'csharpfritz/csharp_with_csharpfritz', 375, 8, 'Show notes, slides, and samples from the CSharp with CSharpFritz show', ['csharpfritz','NikiforovAll'], 1, 1, 0),

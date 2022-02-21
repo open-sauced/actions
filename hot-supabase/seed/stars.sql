@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T08:44:19.294Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T10:43:48.706Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3486,8 +3486,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 2, 0, 'BaseMax/CustomWindowsFormElectron', 188246303),
 (371, 1304, 0, 'berdav/CVE-2021-4034', 452081015),
 (27, 123, 144, 'coopcycle/coopcycle-app', 75078016),
-(79, 1732, 19, 'puneetsl/lotion', 165292266),
 (0, 1, 0, 'conradsp/DHISImport', 110442874),
+(79, 1732, 19, 'puneetsl/lotion', 165292266),
 (3, 4, 0, 'BaseMax/ChessDesktopElectron', 188243294),
 (1003, 1576, 31, 'hannahcode/word-guessing-game', 445897115),
 (2, 5, 0, 'FiretableProject/firetable', 409910141),
