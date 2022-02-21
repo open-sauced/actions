@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T10:43:48.949Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T12:50:13.325Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1818,8 +1818,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (23511343, 1830, 25867172, 'ultraembedded/riscv', 13, 'RISC-V CPU Core (RV32IM)', 5, 427, ['ultraembedded']),
 (288511462, 1831, 25867172, 'teezzan/commitSpy-Core', 14, 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', 0, 2, ['teezzan']),
 (316471703, 1832, 25867172, 'teezzan/katacoda-scenarios', 15, 'Katacoda Scenarios', 0, 1, ['teezzan']),
-(90408889, 1833, 25867172, 'moleculerjs/moleculer-web', 16, ':earth_africa: Official API Gateway service for Moleculer framework', 21, 240, ['icebob','AndreMaz']),
 (256039268, 1834, 25867172, 'progresak/lucrat-project', 17, 'Lucrative automatic trading strategy system', 25, 3, ['progresak']),
+(90408889, 1833, 25867172, 'moleculerjs/moleculer-web', 16, ':earth_africa: Official API Gateway service for Moleculer framework', 21, 240, ['icebob','AndreMaz']),
 (82289483, 1835, 25867172, 'moleculerjs/moleculer', 18, ':rocket: Progressive microservices framework for Node.js', 88, 4857, ['icebob','AndreMaz']),
 (229152542, 1836, 25867172, 'pergola-fpga/pergola', 19, 'Low-cost ECP5 FPGA development board', 1, 63, ['kbeckmann']),
 (38951273, 1837, 25867172, 'cnlohr/pylotron', 20, 'Embedded VNC-based FPS.', 0, 57, ['cnlohr','mishailovic']),
@@ -1856,8 +1856,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71995937, 1868, 58482194, 'nuxt/nuxt.js', 29, 'The Intuitive Vue(2) Framework', 472, 39029, ['pi0','Atinux']),
 (322542582, 1869, 75340837, 'EthWorks/useDApp', 0, 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', 66, 722, ['nezouse','marekkirejczyk']),
 (157421028, 1870, 75340837, 'NoahZinsmeister/web3-react', 1, '🧰 A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps', 144, 2389, ['NoahZinsmeister','chaitanyapotti']),
-(127246132, 1871, 75340837, 'Web3Modal/web3modal', 2, 'A single Web3 / Ethereum provider solution for all Wallets', 149, 1610, ['pedrouid','crisgarner']),
 (311525798, 1872, 75340837, 'microsoft/Web-Dev-For-Beginners', 3, '24 Lessons, 12 Weeks, Get Started as a Web Developer', 11, 39547, ['jlooper','San1ay']),
+(127246132, 1871, 75340837, 'Web3Modal/web3modal', 2, 'A single Web3 / Ethereum provider solution for all Wallets', 149, 1610, ['pedrouid','crisgarner']),
 (85077558, 1873, 75340837, 'kamranahmedse/developer-roadmap', 4, 'Roadmap to becoming a developer in 2021', 89, 181473, ['kamranahmedse','eihabkhan']),
 (44882201, 1874, 75340837, 'MunGell/awesome-for-beginners', 5, 'A list of awesome beginners-friendly projects.', 51, 37303, ['MunGell','JefMari']),
 (88011908, 1875, 75340837, 'practical-tutorials/project-based-learning', 6, 'Curated list of project-based tutorials', 28, 60354, ['tuvtran','sayands']),
@@ -2544,6 +2544,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (49668250, 2524, 3450257, 'dear-github/dear-github', 6, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', 256, 5078, ['jamiebuilds','gaearon']),
 (353082105, 2525, 3450257, 'github/maintainerweek', 7, 'A week for maintainers to gather & share', 3, 140, ['karasowles','martinwoodward']),
 (110053683, 2526, 3450257, 'taylorbryant/jekyll-starter-tailwind', 8, 'Jekyll starter styled with Tailwind CSS', 9, 221, ['taylorbryant','renovate-bot']),
+(146435241, 2527, 3450257, 'Matoking/protontricks', 9, 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', 5, 838, ['Matoking','Sirmentio']),
 (200731758, 2528, 3450257, 'serradura/u-case', 10, 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', 12, 353, ['serradura','tomascco']),
 (77765356, 2529, 3450257, 'riebschlager/make-the-internet-suck-less', 11, null, 0, 38, ['riebschlager','bgkittrell']),
 (4979192, 2530, 3450257, 'enriclluelles/route_translator', 12, 'Translate your rails app route to various languages without the hassle', 15, 708, ['tagliala','enriclluelles']),
@@ -2742,7 +2743,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (100949236, 2721, 4381106, 'cba85/electron-webview', 5, '💻 A simple electron webview with cool features.', 1, 187, ['cba85']),
 (121454193, 2722, 4381106, 'google/flutter-desktop-embedding', 6, 'Experimental plugins for Flutter for Desktop', 4, 6958, ['stuartmorgan','franciscojma86']),
 (121945586, 2723, 4381106, 'qeesung/HighlightBracketPair', 7, ':high_brightness: Highlight bracket pair plugin for intellij', 18, 485, ['qeesung']),
-(146435241, 2527, 3450257, 'Matoking/protontricks', 9, 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', 5, 838, ['Matoking','Sirmentio']),
 (54173593, 2724, 4381106, 'storybookjs/storybook', 8, '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', 1641, 67641, ['shilman','ndelangen']),
 (8514, 2725, 4381106, 'rails/rails', 9, 'Ruby on Rails', 598, 49762, ['rafaelfranca','tenderlove']),
 (15479087, 2762, 2808728, 'OctoLinker/OctoLinker', 11, 'OctoLinker — Links together, what belongs together', 58, 4857, ['stefanbuck','josephfrazier']),
