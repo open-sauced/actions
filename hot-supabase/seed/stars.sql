@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:46:31.476Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T04:47:09.636Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1219,8 +1219,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (31, 978, 1, 'juntossomosmais/frontend-guideline', 402189545),
 (61, 391, 12, 'graphql-go/relay', 42975057),
 (1633, 9046, 60, 'resque/resque', 275604),
-(713, 8566, 88, 'javan/whenever', 129791),
-(133, 184, 30, 'ejholmes/active_admin_editor', 4133393),
 (0, 1, 0, 'ajoeofalltrades/hasoffers', 6991139),
 (999, 8040, 6, 'sitaramc/gitolite', 286061),
 (3264, 9126, 388, 'activeadmin/activeadmin', 611921),
@@ -1567,6 +1565,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 1, 0, 'romabash/angular-d3', 100073211),
 (102, 1341, 4, 'tuchk4/awesome-create-react-app', 79804720),
 (306, 8899, 78, 'majodev/google-webfonts-helper', 28320207),
+(713, 8566, 88, 'javan/whenever', 129791),
+(133, 184, 30, 'ejholmes/active_admin_editor', 4133393),
 (363, 5428, 164, 'insin/nwb', 45947467),
 (0, 1, 0, 'romabash/sudoku-solver', 99044824),
 (6, 14, 4, 'rajkissu/brainfuck', 2096358),
@@ -2532,8 +2532,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 2, 0, 'MattMarquise/Modern-Game-Console-UI', 332841560),
 (0, 1, 0, 'MattMarquise/Lifestyle-Blog', 327036990),
 (4, 6, 0, 'dannydeezy/bitcoin-book', 280585832),
-(554, 4833, 4, 'dastergon/awesome-chaos-engineering', 98446777),
 (0, 1, 0, 'Blazing-Mike/Monogram-Frontend-starter-files', 422215956),
+(554, 4833, 4, 'dastergon/awesome-chaos-engineering', 98446777),
 (205, 5094, 65, 'hiroppy/fusuma', 131081109),
 (1250, 16936, 259, 'dapr/dapr', 192632000),
 (55, 1254, 0, 'ebhy/budgetml', 324778385),
@@ -3458,8 +3458,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 3, 0, 'BaseMax/WebMoleGame', 269230051),
 (2, 7, 0, 'BaseMax/CalculatorWeb', 267884438),
 (0, 6, 0, 'BaseMax/JavaMyString', 225295587),
-(27, 398, 9, 'cstoquer/pixelbox', 49579165),
 (191, 652, 26, 'chiru-labs/ERC721A', 446951373),
+(27, 398, 9, 'cstoquer/pixelbox', 49579165),
 (8, 10, 61, 'akvo/akvo-product-design', 15708275),
 (356, 1874, 4, 'ru-de/faq', 45045257),
 (2, 8, 0, 'BaseMax/CheckReverseString', 191613522),

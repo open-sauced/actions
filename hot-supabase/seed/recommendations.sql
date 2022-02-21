@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:46:31.655Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T04:47:09.101Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2521,8 +2521,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (261039653, 'ingram-projects/animxyz', 1694, 24, 'The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.', ['milesingrams','mattaningram'], 1, 13, 0),
 (261049563, 'LottieFiles/svelte-lottie-player', 74, 5, 'Lottie Player component for Svelte', ['jawish','karamalie'], 1, 1, 0),
 (261283923, 'osohq/oso', 1909, 69, 'Oso is a batteries-included framework for building authorization in your application.', ['gj','saolsen'], 1, 9, 0),
-(261372860, 'DLR-RM/stable-baselines3', 2629, 40, 'PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ', ['araffin','Artemis-Skade'], 1, 23, 0),
 (261298767, 'revolist/revogrid', 1876, 72, 'Powerful virtual data grid smartsheet with advanced customization. Best features from excel plus incredible  performance 🔋', ['revolist','m2a2x'], 1, 24, 0),
+(261372860, 'DLR-RM/stable-baselines3', 2629, 40, 'PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ', ['araffin','Artemis-Skade'], 1, 23, 0),
 (261393739, 'Layla-P/YodaTranslator', 2, 0, 'A quick Yoda translator app using Azure Functions and Twilio', ['Layla-P'], 1, 8, 0),
 (261538171, 'panorama-ed/memo_wise', 391, 11, 'The wise choice for Ruby memoization', ['ms-ati','JacobEvelyn'], 1, 2, 0),
 (261787758, 'bradtraversy/design-resources-for-developers', 34354, 1, 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', ['Alaev','StefanSelfTaught'], 1, 9, 0),
@@ -3238,8 +3238,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (362935638, 'commanded/generator', 19, 1, 'Commanded application generator', ['slashdotdash'], 1, 28, 0),
 (363500480, 'Helewud/Vidly', 1, 0, null, ['Helewud'], 1, 20, 0),
 (363558647, 'theodorusclarence/vite-react-tailwind-starter', 22, 0, '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', ['theodorusclarence'], 2, 14, 0),
-(363743878, 'LoreLosi72/InTuneMusicBot', 1, 0, 'Bot di Telegram sulla musica', ['LoreLosi72'], 1, 14, 0),
 (363821528, 'sonjiku/pywal', 18, 0, '🎨 Generate and change color-schemes on the fly.', ['dylanaraps','LoLei'], 1, 1, 0),
+(363743878, 'LoreLosi72/InTuneMusicBot', 1, 0, 'Bot di Telegram sulla musica', ['LoreLosi72'], 1, 14, 0),
 (363943607, 'udberg/Todo-List', 2, 0, null, ['keneogu','udberg'], 1, 28, 0),
 (363988779, 'muchobien/tailscale-ui', 41, 1, 'Tailscale UI for Ubuntu', ['Lokeon','KROSF'], 2, 11, 0),
 (363994683, 'GSA/usagov-benefits-eligibility', 7, 10, 'This is the for the benefits eligibility website for usa.gov.', ['r-bartlett-gsa','sknep'], 1, 22, 0),
@@ -3277,7 +3277,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (367602396, 'prince776/discode', 62, 2, 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ['prince776','HarshKapadia2'], 1, 2, 0),
 (367697425, 'iamtheozzy/react-fundamentals', 1, 0, 'Material for my React Fundamentals Workshop', ['kentcdodds','Aprillion'], 2, 0, 0),
 (367829938, 'dwaipayan05/CovCNN-WebApp', 2, 1, null, ['dwaipayan05'], 2, 0, 0),
-(368112125, 'jansche/oss-advisors', 13, 0, 'A corporate DevRel program for honoring open source contributions', ['jansche'], 1, 14, 0),
 (368185844, 'Nazeeh21/Devdit-Blockchain', 2, 2, 'This is a decentralized website for developers where one can post and share new technologies with other developers. This website is developed entirely on the blockchain, using smart contracts built in solidity.  Developers can also encourage other developers by upvoting their posts and commenting on their posts.', ['Nazeeh21'], 1, 25, 0),
 (368311388, 'pranshudobhal/quiz-master', 2, 1, 'A quiz app on your favorite topics', ['pranshudobhal'], 1, 2, 0),
 (368365410, 'xsky13/RedFeed', 1, 0, 'RedFeed: a Reddit Feed', ['xsky13'], 2, 13, 0),
@@ -3402,8 +3401,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (384302754, 'jlongster/absurd-sql', 2977, 24, 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ['jlongster','quolpr'], 1, 11, 0),
 (384320581, 'muhammaddzak/muhamamddzak.github.io', 2, 0, 'website for muhammaddzaky', ['muhammaddzaky'], 1, 3, 0),
 (384389481, 'jbagaresgaray/ionic-react-coffee-vending-app', 3, 0, 'Ionic React 5, SwiperJS with Capacitor 3.0', ['jbagaresgaray','philipsimpleclick'], 1, 2, 0),
-(384524698, 'salvia-kit/salvia-kit', 320, 0, 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ['enochndika'], 1, 28, 0),
 (384444449, 'zuramai/chessplay', 11, 0, 'Chess Web Game with Vue JS 3 and Tailwind CSS', ['zuramai','fncolon'], 1, 13, 0),
+(384524698, 'salvia-kit/salvia-kit', 320, 0, 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ['enochndika'], 1, 28, 0),
 (384699238, 'jazznerd206/Standard_10', 2, 0, 'NPM module which delivers a typing effect for text', ['jazznerd206'], 1, 6, 0),
 (384873391, 'developer-student-club-thapar/GSoC-Proposals-Archive', 42, 1, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', ['specter25','Saurav-Shrivastav'], 1, 17, 0),
 (384915975, 'DarthBenro008/rchore', 29, 8, 'An feature packed Google Tasks CLI written purely in Rust', ['DarthBenro008','caioeverest'], 1, 25, 0),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (438686004, 'xsky13/online-compiler', 1, 0, 'An online code compiler', ['xsky13'], 2, 14, 0),
 (439057606, 'DavidBuchanan314/ambiguous-png-packer', 867, 3, 'Craft PNG files that appear completely different in Apple software', ['DavidBuchanan314','mnixry'], 1, 19, 0),
 (439330952, 'CoinAlpha/hummingbot', 8, 7, 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ['Nullably','dennisocana'], 1, 14, 0),
+(368112125, 'jansche/oss-advisors', 13, 0, 'A corporate DevRel program for honoring open source contributions', ['jansche'], 1, 14, 0),
 (441646385, 'cod-ed/simulate', 0, 0, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ['yashlamba','akshansh2000'], 1, 4, 0);
