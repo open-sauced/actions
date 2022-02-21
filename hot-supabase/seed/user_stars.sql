@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-20T22:43:21.153Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T01:01:51.172Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2718,8 +2718,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (229802493, 2696, 6842883, 'GianCastle/dotfiles', 10, 'Personal dotfiles 🗂', 0, 1, ['GianCastle']),
 (7730086, 2697, 6842883, 'webpack/tapable', 11, 'Just a little module for plugins.', 21, 2891, ['sokra','ooflorent']),
 (243545135, 2698, 6842883, 'Kyonru/just-a-review-app', 12, 'A review app', 8, 11, ['Kyonru']),
-(279397536, 2699, 6842883, 'ziulev/spotter', 13, '🔭 macOS productivity tool to launch everything', 6, 562, ['ziulev']),
 (48863418, 2700, 6842883, 'coryhouse/react-slingshot', 14, 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', 60, 9769, ['coryhouse','kwelch']),
+(279397536, 2699, 6842883, 'ziulev/spotter', 13, '🔭 macOS productivity tool to launch everything', 6, 562, ['ziulev']),
 (16408992, 2701, 6842883, 'neovim/neovim', 15, 'Vim-fork focused on extensibility and usability', 1524, 49562, ['justinmk','janlazo']),
 (22858482, 2702, 6842883, 'fonttools/region-flags', 16, 'Collection of flags for BCP 47 region codes in SVG / PNG', 16, 159, ['behdad','behnam']),
 (26115910, 2703, 6842883, 'ruimarinho/google-libphonenumber', 17, 'The up-to-date and reliable Google''s libphonenumber package for node.js.', 11, 1111, ['ruimarinho','mathieumg']),
@@ -3066,12 +3066,12 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (274593180, 3068, 53687927, 'Surya1231/ContestMania', 1, 'A platform for tracking your competitive progress on various competitive coding websites.', 1, 33, ['Surya1231','sanketcn']),
 (334167971, 3069, 53687927, 'ashishsahu1/ML-ProjectYard', 2, 'This repo consists of multiple machine learning based projects with frontend ', 16, 86, ['ashishsahu1','Amit366']),
 (308770, 3070, 19475228, 'heartcombo/devise', 0, 'Flexible authentication solution for Rails with Warden.', 167, 22094, ['josevalim','carlosantoniodasilva']),
-(131208436, 3071, 19475228, 'mariannnne/BodyMapItem_Online', 1, 'JS scripts for displaying body map items', 0, 1, ['mariannnne']),
 (22895156, 3072, 19475228, 'StartBootstrap/startbootstrap-agency', 2, 'A one page HTML theme for agencies created by Start Bootstrap', 1, 1811, ['davidtmiller','initplatform']),
 (25714588, 3073, 19475228, 'StartBootstrap/startbootstrap-sb-admin-2', 3, 'A free, open source, Bootstrap admin theme created by Start Bootstrap', 64, 9047, ['davidtmiller','challgren']),
 (97186109, 3074, 19475228, 'jfloff/docker-heroku-rails', 4, 'Docker container for Rails based on the new Heroku-16 base image.', 1, 15, ['jfloff','rnters-bot']),
 (82304613, 3075, 19475228, 'peterclark/redcap', 5, 'A Ruby gem for interacting with the REDCap API', 1, 9, ['peterclark','ericcf']),
 (38119334, 3076, 19475228, 'aarenson/PHPCap', 6, 'PHP Classes for using the REDCap API', 1, 16, ['mullen2','aarenson']),
+(131208436, 3071, 19475228, 'mariannnne/BodyMapItem_Online', 1, 'JS scripts for displaying body map items', 0, 1, ['mariannnne']),
 (64889181, 3077, 19475228, 'jmtyszka/bidskit', 7, 'Utility functions for working with DICOM and BIDS neuroimaging data', 13, 49, ['jmtyszka','nair-r']),
 (970625, 3078, 19475228, 'uwmadison-chm/bioread', 8, 'Utilities to work with files from BIOPAC''s AcqKnowlege software', 1, 48, ['njvack','smoia']),
 (2371106, 3079, 19475228, 'rubocop/ruby-style-guide', 9, 'A community-driven Ruby coding style guide', 59, 15846, ['bbatsov','koic']),
@@ -4007,9 +4007,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (41881900, 4008, 9935383, 'microsoft/vscode', 3, 'Visual Studio Code', 5350, 125676, ['bpasero','jrieken']),
 (59148646, 4009, 9935383, 'dracula/visual-studio-code', 4, '🧛🏻‍♂️ Dark theme for Visual Studio Code', 28, 560, ['dsifford','zenorocha']),
 (28704549, 4010, 9935383, 'philipwalton/flexbugs', 5, 'A community-curated list of flexbox issues and cross-browser workarounds for them.', 89, 13215, ['philipwalton','akaustav']),
+(29514104, 4011, 9935383, 'netlify/netlify-cms', 6, 'A Git-based CMS for Static Site Generators', 632, 14793, ['erquhart','erezrokah']),
 (75867720, 4012, 9935383, 'wesbos/JavaScript30', 7, '30 Day Vanilla JS Challenge', 27, 17461, ['wesbos','palashmon']),
 (46041284, 4013, 9935383, 'VSCodeVim/Vim', 8, ':star: Vim for Visual Studio Code', 1152, 9811, ['jpoon','johnfn']),
-(29514104, 4011, 9935383, 'netlify/netlify-cms', 6, 'A Git-based CMS for Static Site Generators', 632, 14793, ['erquhart','erezrokah']),
 (39785222, 4014, 9935383, 'Droogans/unmaintainable-code', 9, 'A more maintainable, easier to share version of the infamous http://mindprod.com/jgloss/unmain.html', 0, 8906, ['Droogans','dfvalero']),
 (66167428, 4015, 9935383, 'millwrightjs/millwright', 10, 'The easiest build tool you''ll ever use.', 0, 26, ['erquhart']),
 (5243041, 4016, 9935383, 'revolunet/JSbooks', 11, 'Directory of free JavaScript ebooks', 8, 2474, ['revolunet','philippebarbosa']),
@@ -4278,8 +4278,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (48009214, 378546253, 18013532, 'microsoft/react-native-windows', 0, 'A framework for building native Windows apps with React.', 689, 14402, ['rnbot','rozele']),
 (308770, 353859750, 19475228, 'heartcombo/devise', 0, 'Flexible authentication solution for Rails with Warden.', 183, 22166, ['josevalim','carlosantoniodasilva']),
 (367829938, 353955008, 53687927, 'dwaipayan05/CovCNN-WebApp', 0, null, 1, 2, ['dwaipayan05']),
-(310766137, 354119247, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo']),
 (395413091, 354384496, 17671332, 'Mintbean/junior-developer-job-boards', 0, null, 0, 0, ['Jc-008','monarchwadia']),
+(310766137, 354119247, 6935431, 'coroo/pytest-coverage-commentator', 0, 'A Github action to comments a Pytest Coverage on PR', 20, 20, ['coroo']),
 (148236762, 382194702, 7860023, 'BrunoMNDantas/TPL4J', 0, 'Task Parallel Library for Java', 2, 8, ['BrunoMNDantas']),
 (82836080, 436289040, 61815862, 'HaikuTeam/animator', 0, 'Design tool for creating Lottie animations and interactive web components', 19, 450, ['matthewtoast','stristr']),
 (71823870, 435647165, 23166349, 'prometheus-operator/kube-prometheus', 0, 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', 151, 3750, ['brancz','paulfantom']),
