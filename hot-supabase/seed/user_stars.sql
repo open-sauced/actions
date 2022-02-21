@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T06:46:19.767Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T08:44:19.642Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2533,8 +2533,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (1910390, 2513, 3861088, 'rails-oceania/roro', 28, 'The Ruby on Rails Oceania (RORO) Sydney meetup', 22, 171, ['paulfioravanti','mathewdbutton']),
 (11829145, 2514, 3861088, 'basecamp/trix', 29, 'A rich text editor for everyday writing', 62, 16555, ['javan','sstephenson']),
 (350360184, 2515, 24217493, 'calendso/calendso', 0, 'Scheduling infrastructure for absolutely everyone.', 121, 9101, ['baileypumfleet','PeerRich']),
-(340306054, 2517, 24217493, 'Jussii/JunctionAppTesting', 2, 'All-in-one hackathon platform for organisers', 0, 1, ['juiceo','Earlo']),
 (207085951, 2516, 24217493, 'hackjunction/JunctionApp', 1, 'All-in-one hackathon platform for organisers', 167, 41, ['juiceo','Earlo']),
+(340306054, 2517, 24217493, 'Jussii/JunctionAppTesting', 2, 'All-in-one hackathon platform for organisers', 0, 1, ['juiceo','Earlo']),
 (360794368, 2518, 3450257, 'hschne/rails-mini-profiler', 0, 'Performance profiling for Rails, made simple 🦔', 12, 346, ['hschne','olleolleolle']),
 (383845445, 2519, 3450257, 'wildmaples/minimal-ruby-project', 1, 'A minimal Ruby project template', 2, 39, ['wildmaples']),
 (261538171, 2520, 3450257, 'panorama-ed/memo_wise', 2, 'The wise choice for Ruby memoization', 11, 391, ['ms-ati','JacobEvelyn']),
