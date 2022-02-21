@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T16:49:31.973Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T18:45:20.751Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2857,8 +2857,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (307575939, 'kelseyhightower/opa-on-cloud-run', 24, 0, 'Tutorial: Open Policy Agent on Cloud Run', ['kelseyhightower'], 1, 5, 0),
 (307788549, 'pretzelhands/notebag', 117, 3, 'A note taking app that does not break your workflow', ['pretzelhands','lukyanov'], 1, 2, 0),
 (307916666, 'heyheyhello/esbuild-macros', 1, 0, 'Porting the ideas of babel-plugin-macro over to esbuild', ['heyheyhello'], 1, 22, 0),
-(308312105, 'fedecalendino/spotibot', 1, 0, 'Collection of bots for Spotify', ['fedecalendino'], 1, 16, 0),
 (307964224, 'Mogakamo/services-react-native', 1, 11, null, ['Mogakamo'], 1, 21, 0),
+(308312105, 'fedecalendino/spotibot', 1, 0, 'Collection of bots for Spotify', ['fedecalendino'], 1, 16, 0),
 (308573793, 'testsmt/yinyang', 123, 11, 'A fuzzing framework for SMT solvers', ['wintered','muchang'], 1, 18, 0),
 (308578276, 'KalleHallden/workflow_automation', 108, 1, null, ['scaldings','KalleHallden'], 1, 18, 0),
 (308972885, 'write-the-docs-quorum/quorum-meetups', 6, 12, 'The Quorum program brings together various Write the Docs meetup chapters that are in a common time zone to provide quarterly ''super'' meetups over Zoom throughout the year. These are quarterly regional remote meetups, hence the name: QRRM.', ['barbaricyawps','shrielenee'], 1, 15, 0),
@@ -2960,8 +2960,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (321707007, 'udberg/udberg', 3, 0, 'Read this to know more about me.... but I guess you already figured that out :smiley:', ['udberg'], 1, 27, 0),
 (321747929, 'Olamidun/pricetrackerapi', 1, 0, 'Api that tracks the price of items on jumia', ['Olamidun'], 1, 24, 0),
 (321770581, 'jgehrcke/github-repo-stats', 83, 2, ' A GitHub Action for advanced repository traffic analysis and reporting.', ['jgehrcke','gautamkrishnar'], 1, 25, 0),
-(321998079, 'MakeContributions/DSA', 182, 24, 'Data Structure and Algorithm (DSA) contributions', ['ming-tsai','cclauss'], 1, 21, 0),
 (321779464, 'redwoodjs/learn.redwoodjs.com', 43, 12, 'Multilingual docs site for learning RedwoodJS', ['clairefro','thedavidprice'], 1, 22, 0),
+(321998079, 'MakeContributions/DSA', 182, 24, 'Data Structure and Algorithm (DSA) contributions', ['ming-tsai','cclauss'], 1, 21, 0),
 (322057964, 'kllund/sample-pipeline-files', 6, 2, 'This repository contains pipeline files for various CI/CD systems, illustrating how to integrate the CodeQL CLI Bundle for Automated Code Scanning', ['kllund','bthomas2622'], 1, 13, 0),
 (322346823, 'dimitrisraptis96/chakra-ui-navbar', 54, 1, 'Fully-responsive NavBar component for landing pages built with Chakra-UI. Check the full tutorial on my blog 👇', ['dimitrisraptis96'], 1, 13, 0),
 (322542582, 'EthWorks/useDApp', 843, 84, 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ['nezouse','marekkirejczyk'], 1, 0, 0),

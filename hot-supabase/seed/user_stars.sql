@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T16:49:31.977Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T18:45:20.409Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -412,8 +412,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (17763202, 405, 5901851, 'evgenyneu/js-evaluator-for-android', 23, 'A library for running JavaScript in Android apps.', 19, 442, ['evgenyneu','codebymikey']),
 (153335440, 406, 5901851, 'ernestoyaquello/DragDropSwipeRecyclerview', 24, 'Kotlin Android library that extends RecyclerView to support gestures like drag & drop and swipe, among others. It works with vertical, horizontal and grid lists.', 4, 644, ['ernestoyaquello','JonathanImperato']),
 (315741849, 407, 5901851, 'maxkeppeler/sheets', 25, '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', 9, 685, ['maxkeppeler','Nthily']),
-(224247781, 409, 5901851, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1480, ['nikhilpanju']),
 (174766902, 408, 5901851, 'afollestad/recyclical', 26, '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', 12, 695, ['afollestad','Johnett']),
+(224247781, 409, 5901851, 'nikhilpanju/FabFilter', 27, 'Android app to showcase complex UI/Animations with and without MotionLayout', 5, 1480, ['nikhilpanju']),
 (199327580, 410, 5901851, 'MindorksOpenSource/android-developer-roadmap', 28, 'Android Developer Roadmap - A complete roadmap to learn Android App Development', 11, 2171, ['amitshekhariitbhu','isfaaghyth']),
 (217545172, 411, 5901851, 'ibrahimsn98/SmoothBottomBar', 29, 'A lightweight Android material bottom navigation bar library', 34, 1507, ['ibrahimsn98','mayokunadeniyi']),
 (335819337, 412, 88631894, 'MonkeDev/API-bot', 0, 'The bot we use to manage our API.', 0, 1, ['Mafia-7777','BurnedBed']),
