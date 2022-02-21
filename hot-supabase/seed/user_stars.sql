@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T01:01:51.172Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:46:31.812Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2718,8 +2718,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (229802493, 2696, 6842883, 'GianCastle/dotfiles', 10, 'Personal dotfiles 🗂', 0, 1, ['GianCastle']),
 (7730086, 2697, 6842883, 'webpack/tapable', 11, 'Just a little module for plugins.', 21, 2891, ['sokra','ooflorent']),
 (243545135, 2698, 6842883, 'Kyonru/just-a-review-app', 12, 'A review app', 8, 11, ['Kyonru']),
-(48863418, 2700, 6842883, 'coryhouse/react-slingshot', 14, 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', 60, 9769, ['coryhouse','kwelch']),
 (279397536, 2699, 6842883, 'ziulev/spotter', 13, '🔭 macOS productivity tool to launch everything', 6, 562, ['ziulev']),
+(48863418, 2700, 6842883, 'coryhouse/react-slingshot', 14, 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', 60, 9769, ['coryhouse','kwelch']),
 (16408992, 2701, 6842883, 'neovim/neovim', 15, 'Vim-fork focused on extensibility and usability', 1524, 49562, ['justinmk','janlazo']),
 (22858482, 2702, 6842883, 'fonttools/region-flags', 16, 'Collection of flags for BCP 47 region codes in SVG / PNG', 16, 159, ['behdad','behnam']),
 (26115910, 2703, 6842883, 'ruimarinho/google-libphonenumber', 17, 'The up-to-date and reliable Google''s libphonenumber package for node.js.', 11, 1111, ['ruimarinho','mathieumg']),
@@ -3066,12 +3066,12 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (274593180, 3068, 53687927, 'Surya1231/ContestMania', 1, 'A platform for tracking your competitive progress on various competitive coding websites.', 1, 33, ['Surya1231','sanketcn']),
 (334167971, 3069, 53687927, 'ashishsahu1/ML-ProjectYard', 2, 'This repo consists of multiple machine learning based projects with frontend ', 16, 86, ['ashishsahu1','Amit366']),
 (308770, 3070, 19475228, 'heartcombo/devise', 0, 'Flexible authentication solution for Rails with Warden.', 167, 22094, ['josevalim','carlosantoniodasilva']),
+(131208436, 3071, 19475228, 'mariannnne/BodyMapItem_Online', 1, 'JS scripts for displaying body map items', 0, 1, ['mariannnne']),
 (22895156, 3072, 19475228, 'StartBootstrap/startbootstrap-agency', 2, 'A one page HTML theme for agencies created by Start Bootstrap', 1, 1811, ['davidtmiller','initplatform']),
 (25714588, 3073, 19475228, 'StartBootstrap/startbootstrap-sb-admin-2', 3, 'A free, open source, Bootstrap admin theme created by Start Bootstrap', 64, 9047, ['davidtmiller','challgren']),
 (97186109, 3074, 19475228, 'jfloff/docker-heroku-rails', 4, 'Docker container for Rails based on the new Heroku-16 base image.', 1, 15, ['jfloff','rnters-bot']),
 (82304613, 3075, 19475228, 'peterclark/redcap', 5, 'A Ruby gem for interacting with the REDCap API', 1, 9, ['peterclark','ericcf']),
 (38119334, 3076, 19475228, 'aarenson/PHPCap', 6, 'PHP Classes for using the REDCap API', 1, 16, ['mullen2','aarenson']),
-(131208436, 3071, 19475228, 'mariannnne/BodyMapItem_Online', 1, 'JS scripts for displaying body map items', 0, 1, ['mariannnne']),
 (64889181, 3077, 19475228, 'jmtyszka/bidskit', 7, 'Utility functions for working with DICOM and BIDS neuroimaging data', 13, 49, ['jmtyszka','nair-r']),
 (970625, 3078, 19475228, 'uwmadison-chm/bioread', 8, 'Utilities to work with files from BIOPAC''s AcqKnowlege software', 1, 48, ['njvack','smoia']),
 (2371106, 3079, 19475228, 'rubocop/ruby-style-guide', 9, 'A community-driven Ruby coding style guide', 59, 15846, ['bbatsov','koic']),

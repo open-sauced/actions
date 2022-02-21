@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T01:01:50.888Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:46:31.476Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2532,8 +2532,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 2, 0, 'MattMarquise/Modern-Game-Console-UI', 332841560),
 (0, 1, 0, 'MattMarquise/Lifestyle-Blog', 327036990),
 (4, 6, 0, 'dannydeezy/bitcoin-book', 280585832),
-(0, 1, 0, 'Blazing-Mike/Monogram-Frontend-starter-files', 422215956),
 (554, 4833, 4, 'dastergon/awesome-chaos-engineering', 98446777),
+(0, 1, 0, 'Blazing-Mike/Monogram-Frontend-starter-files', 422215956),
 (205, 5094, 65, 'hiroppy/fusuma', 131081109),
 (1250, 16936, 259, 'dapr/dapr', 192632000),
 (55, 1254, 0, 'ebhy/budgetml', 324778385),
@@ -3458,8 +3458,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 3, 0, 'BaseMax/WebMoleGame', 269230051),
 (2, 7, 0, 'BaseMax/CalculatorWeb', 267884438),
 (0, 6, 0, 'BaseMax/JavaMyString', 225295587),
-(191, 652, 26, 'chiru-labs/ERC721A', 446951373),
 (27, 398, 9, 'cstoquer/pixelbox', 49579165),
+(191, 652, 26, 'chiru-labs/ERC721A', 446951373),
 (8, 10, 61, 'akvo/akvo-product-design', 15708275),
 (356, 1874, 4, 'ru-de/faq', 45045257),
 (2, 8, 0, 'BaseMax/CheckReverseString', 191613522),

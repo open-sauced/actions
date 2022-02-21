@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T01:01:51.177Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T02:46:31.655Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -515,13 +515,13 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (20653934, 'google/cadvisor', 12878, 511, 'Analyzes resource usage and performance characteristics of running containers.', ['vmarmol','dashpole'], 1, 3, 0),
 (20723540, 'microsoft/microsoft.github.io', 2073, 0, 'Microsoft on GitHub', ['vinhub','martinwoodward'], 1, 12, 0),
 (20785986, 'jupyterhub/jupyterhub', 6496, 190, 'Multi-user server for Jupyter notebooks', ['minrk','willingc'], 1, 7, 0),
+(20893207, 'primer/octicons', 7047, 9, 'A scalable set of icons handcrafted with <3 by GitHub', ['jonrohan','colebemis'], 1, 17, 0),
 (20904437, 'gin-gonic/gin', 54157, 461, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ['manucorporat','javierprovecho'], 1, 2, 0),
 (20929025, 'microsoft/TypeScript', 76845, 5382, 'TypeScript is a superset of JavaScript that compiles to clean JavaScript output.', ['ahejlsberg','sheetalkamat'], 1, 19, 1),
 (20976138, 'official-stockfish/Stockfish', 5655, 53, 'UCI chess engine', ['mcostalba','zamar'], 1, 8, 0),
 (21017766, 'jaehyunp/stanfordacm', 1435, 0, 'Stanford ACM-ICPC related materials', ['jaehyunp','simonlindholm'], 1, 3, 0),
-(20893207, 'primer/octicons', 7047, 9, 'A scalable set of icons handcrafted with <3 by GitHub', ['jonrohan','colebemis'], 1, 17, 0),
-(21125024, 'typicode/husky', 25093, 37, 'Git hooks made easy 🐶 woof!', ['typicode','branneman'], 2, 14, 0),
 (21067650, 'groovy/groovy-website', 78, 8, 'The Groovy language website', ['glaforge','paulk-asert'], 1, 19, 0),
+(21125024, 'typicode/husky', 25093, 37, 'Git hooks made easy 🐶 woof!', ['typicode','branneman'], 2, 14, 0),
 (21179164, 'qTox/qTox', 3848, 629, 'qTox is a chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol.', ['tux3','sudden6'], 1, 4, 0),
 (21289110, 'vinta/awesome-python', 110896, 214, 'A curated list of awesome Python frameworks, libraries, software and resources', ['vinta','dhamaniasad'], 1, 10, 0),
 (21317360, 'koding/koding', 1947, 252, 'The Simplest Way to Manage Your Entire Dev Infrastructure!', ['gokmen','sinan'], 1, 23, 0),
@@ -2521,8 +2521,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (261039653, 'ingram-projects/animxyz', 1694, 24, 'The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.', ['milesingrams','mattaningram'], 1, 13, 0),
 (261049563, 'LottieFiles/svelte-lottie-player', 74, 5, 'Lottie Player component for Svelte', ['jawish','karamalie'], 1, 1, 0),
 (261283923, 'osohq/oso', 1909, 69, 'Oso is a batteries-included framework for building authorization in your application.', ['gj','saolsen'], 1, 9, 0),
-(261298767, 'revolist/revogrid', 1876, 72, 'Powerful virtual data grid smartsheet with advanced customization. Best features from excel plus incredible  performance 🔋', ['revolist','m2a2x'], 1, 24, 0),
 (261372860, 'DLR-RM/stable-baselines3', 2629, 40, 'PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ', ['araffin','Artemis-Skade'], 1, 23, 0),
+(261298767, 'revolist/revogrid', 1876, 72, 'Powerful virtual data grid smartsheet with advanced customization. Best features from excel plus incredible  performance 🔋', ['revolist','m2a2x'], 1, 24, 0),
 (261393739, 'Layla-P/YodaTranslator', 2, 0, 'A quick Yoda translator app using Azure Functions and Twilio', ['Layla-P'], 1, 8, 0),
 (261538171, 'panorama-ed/memo_wise', 391, 11, 'The wise choice for Ruby memoization', ['ms-ati','JacobEvelyn'], 1, 2, 0),
 (261787758, 'bradtraversy/design-resources-for-developers', 34354, 1, 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', ['Alaev','StefanSelfTaught'], 1, 9, 0),
@@ -3402,8 +3402,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (384302754, 'jlongster/absurd-sql', 2977, 24, 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ['jlongster','quolpr'], 1, 11, 0),
 (384320581, 'muhammaddzak/muhamamddzak.github.io', 2, 0, 'website for muhammaddzaky', ['muhammaddzaky'], 1, 3, 0),
 (384389481, 'jbagaresgaray/ionic-react-coffee-vending-app', 3, 0, 'Ionic React 5, SwiperJS with Capacitor 3.0', ['jbagaresgaray','philipsimpleclick'], 1, 2, 0),
-(384444449, 'zuramai/chessplay', 11, 0, 'Chess Web Game with Vue JS 3 and Tailwind CSS', ['zuramai','fncolon'], 1, 13, 0),
 (384524698, 'salvia-kit/salvia-kit', 320, 0, 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ['enochndika'], 1, 28, 0),
+(384444449, 'zuramai/chessplay', 11, 0, 'Chess Web Game with Vue JS 3 and Tailwind CSS', ['zuramai','fncolon'], 1, 13, 0),
 (384699238, 'jazznerd206/Standard_10', 2, 0, 'NPM module which delivers a typing effect for text', ['jazznerd206'], 1, 6, 0),
 (384873391, 'developer-student-club-thapar/GSoC-Proposals-Archive', 42, 1, 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', ['specter25','Saurav-Shrivastav'], 1, 17, 0),
 (384915975, 'DarthBenro008/rchore', 29, 8, 'An feature packed Google Tasks CLI written purely in Rust', ['DarthBenro008','caioeverest'], 1, 25, 0),
