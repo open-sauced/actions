@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T20:43:23.358Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:43:18.122Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3144,8 +3144,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (34987697, 3146, 22620727, 'mfornos/awesome-microservices', 18, 'A curated list of Microservice Architecture related principles and technologies.', 3, 10654, ['mfornos','aalhour']),
 (71297170, 3147, 22620727, 'Netflix/chaosmonkey', 19, 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', 14, 11701, ['lorin','prytoegrian']),
 (98446777, 3148, 22620727, 'dastergon/awesome-chaos-engineering', 20, 'A curated list of Chaos Engineering resources.', 5, 4749, ['dastergon','seeker89']),
-(131081109, 3149, 22620727, 'hiroppy/fusuma', 21, '✍️Fusuma makes slides with Markdown easily.', 61, 5031, ['hiroppy','renovate-bot']),
 (192632000, 3150, 22620727, 'dapr/dapr', 22, 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', 246, 16394, ['yaron2','youngbupark']),
+(131081109, 3149, 22620727, 'hiroppy/fusuma', 21, '✍️Fusuma makes slides with Markdown easily.', 61, 5031, ['hiroppy','renovate-bot']),
 (324778385, 3151, 22620727, 'ebhy/budgetml', 23, 'Deploy a ML inference service on a budget in less than 10 lines of code.', 1, 1248, ['htahir1','strickvl']),
 (262862475, 3152, 22620727, 'amplication/amplication', 24, 'Amplication is an open‑source development tool. It helps you develop quality Node.js applications without spending time on repetitive coding tasks.', 277, 3637, ['iddan','yuval-hazaz']),
 (62091339, 3153, 22620727, 'kubernetes/kops', 25, 'Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management', 211, 13622, ['k8s-ci-robot','justinsb']),
@@ -3255,8 +3255,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (393089347, 3257, 35429278, 'antoniolofiego/Batteries-Included-Next.js', 18, 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', 0, 32, ['antoniolofiego','kriswuollett']),
 (123572362, 3258, 35429278, 'quii/learn-go-with-tests', 19, 'Learn Go with test-driven development', 28, 16112, ['quii','pityonline']),
 (38174748, 3259, 35429278, 'mrekucci/epi', 20, 'Solutions for Elements of Programming Interviews problems written in Golang (work-in-progress)', 0, 408, ['mrekucci']),
-(385037052, 3261, 35429278, 'ahrm/sioyek', 22, 'Sioyek is a PDF viewer designed for reading research papers and technical books.', 27, 1133, ['ahrm','Endle']),
 (393711986, 3260, 35429278, 'frencojobs/minimalistic', 21, 'Opinionated but sensible and minimal prettier config with plugins.', 0, 4, ['frencojobs']),
+(385037052, 3261, 35429278, 'ahrm/sioyek', 22, 'Sioyek is a PDF viewer designed for reading research papers and technical books.', 27, 1133, ['ahrm','Endle']),
 (191759944, 3262, 35429278, 'srevinsaju/guiscrcpy', 23, 'A full fledged GUI integration for the most award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v', 9, 1402, ['srevinsaju','restyled-commits']),
 (392242345, 3263, 35429278, 'hilmanski/discussbase', 24, 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', 0, 37, []),
 (241529345, 3264, 35429278, 'wellyshen/react-cool-portal', 25, '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', 14, 691, ['wellyshen','hinok']),

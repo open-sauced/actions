@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T20:43:23.174Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:43:17.957Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2745,7 +2745,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (10, 7, 0, 'avinash201199/Portfolio-Collection', 411705813),
 (5, 6, 12, 'funbeedev/BibleBeforeBread', 327584479),
 (211, 6537, 67, 'octref/polacode', 120965715),
-(57, 157, 6, 'rungwiroon/BlazorGoogleMaps', 163753499),
 (10695, 24708, 223, 'geekcomputers/Python', 2881789),
 (3642, 21886, 365, 'vuejs/devtools', 24579238),
 (2, 53, 0, 'Borrus-sudo/vue-generator-graph', 385850163),
@@ -3181,6 +3180,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (579, 1788, 0, 'kunal-kushwaha/Competitive-Programming-Resources', 286448779),
 (1, 516, 0, 'MBMIT/neurolab-android', 157518025),
 (3564, 28333, 1952, 'go-gitea/gitea', 72495579),
+(57, 157, 6, 'rungwiroon/BlazorGoogleMaps', 163753499),
 (383, 3029, 6, 'mvillaloboz/open-source-cs-degree', 38276507),
 (35, 212, 4, 'mscoutermarsh/mscoutermarsh', 272047365),
 (3450, 17154, 58, 'Asabeneh/30-Days-Of-JavaScript', 229764465),
@@ -3509,9 +3509,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (18, 1, 0, 'Gingertonic/london-spas-cli', 186470218),
 (1523, 5567, 485, 'docker/docker-py', 10247874),
 (39, 62, 34, 'cncf/tag-contributor-strategy', 243834124),
+(95, 1321, 1, 'romenrg/evergreen-skills-developers', 162977720),
 (0, 12, 0, 'BaseMax/TrigonometricFunctions', 172362850),
 (1, 4, 0, 'BaseMax/ColorConvertPy', 178404439),
-(95, 1321, 1, 'romenrg/evergreen-skills-developers', 162977720),
 (53, 90, 13, 'BrandonArmand/Binari', 228118187),
 (62, 21, 0, 'LambdaSchool/build-week-scaffolding-node', 342191787),
 (51, 197, 2, 'cba85/electron-webview', 100949236),
@@ -3546,8 +3546,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (153, 807, 10, 'i3-gnome/i3-gnome', 22811562),
 (1112, 3428, 26, 'LukeSmithxyz/voidrice', 93192704),
 (4, 60, 0, 'kerryb/goos-ruby', 10581067),
-(366, 7909, 124, 'veler/DevToys', 411493648),
 (0, 1, 0, 'HeavyBR/adventofcode', 320609581),
+(366, 7909, 124, 'veler/DevToys', 411493648),
 (161, 785, 12, 'qiangxue/go-rest-api', 237448876),
 (317, 3302, 355, 'datafuselabs/databend', 302827809),
 (105, 238, 1, 'devefy/Flutter-Streaming-Service-App-UI', 170973676),
