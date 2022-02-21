@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T14:43:25.054Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T16:49:31.730Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2744,7 +2744,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (31, 14, 0, 'avinash201199/Hacktoberfest-Guide', 411618332),
 (10, 7, 0, 'avinash201199/Portfolio-Collection', 411705813),
 (5, 6, 12, 'funbeedev/BibleBeforeBread', 327584479),
-(211, 6537, 67, 'octref/polacode', 120965715),
 (57, 157, 6, 'rungwiroon/BlazorGoogleMaps', 163753499),
 (10695, 24708, 223, 'geekcomputers/Python', 2881789),
 (3642, 21886, 365, 'vuejs/devtools', 24579238),
@@ -3071,6 +3070,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (2, 26, 0, 'kelseyhightower/opa-on-cloud-run', 307575939),
 (19, 100, 45, 'Tow-Boot/Tow-Boot', 354689732),
 (8, 30, 1, 'cassidoo/shopify-next-netlify', 387501063),
+(211, 6537, 67, 'octref/polacode', 120965715),
 (322, 3260, 0, 'huangsam/ultimate-python', 260800773),
 (255, 4612, 74, 'tmate-io/tmate', 10651420),
 (569, 4081, 33, 'jazzband/tablib', 1535009),
@@ -3110,8 +3110,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (11773, 29901, 291, 'google/styleguide', 35969061),
 (170, 491, 0, 'aikho/awesome-feature-engineering', 143329936),
 (243, 1580, 54, 'primer/react', 121814210),
-(279, 1189, 135, 'smpallen99/ex_admin', 36470617),
 (550, 2725, 219, 'andialbrecht/sqlparse', 4067434),
+(279, 1189, 135, 'smpallen99/ex_admin', 36470617),
 (149, 1933, 7, 'heartcombo/responders', 392785),
 (0, 0, 0, 'thlorenz/v8-snapshot', 423179172),
 (6, 29, 2, 'NickLiffen/ghas-enablement', 394663818),
@@ -3156,8 +3156,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 12, 0, 'BaseMax/WebSinatra', 172915698),
 (326, 1238, 5, 'kozmer/log4j-shell-poc', 437139341),
 (4, 16, 0, 'cachecleanerjeet/readme-stats-github', 310490480),
-(12, 111, 9, 'ubenmackin/ACVM', 319185224),
 (17, 137, 14, 'leafac/caxa', 338335614),
+(12, 111, 9, 'ubenmackin/ACVM', 319185224),
 (1, 13, 0, 'BaseMax/MongoCSample', 174172286),
 (114, 2154, 172, 'tc39/proposal-temporal', 84692493),
 (24, 30, 12, 'wazo-platform/wazo-react-native-demo', 154178913),
