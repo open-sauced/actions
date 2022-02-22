@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T16:50:03.624Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T18:45:45.456Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -978,8 +978,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 7, 0, 'koladev32/node-express-jwt-tutorial', 420688085),
 (78, 565, 19, 'spring-projects-experimental/spring-boot-thin-launcher', 71230327),
 (0, 1, 0, 'NsdHSO/storybook', 400898185),
-(1, 1, 0, 'ViktorStiskala/tyre-energy-label', 370470353),
 (2, 5, 0, 'praditautama/wwwid-pwa-challenge', 128604122),
+(1, 1, 0, 'ViktorStiskala/tyre-energy-label', 370470353),
 (1298, 14661, 435, 'appwrite/appwrite', 180190854),
 (28, 59, 2, 'tedyoung/kid-bank', 165791269),
 (2, 21, 20, 'jitterted/mobreg', 358985215),

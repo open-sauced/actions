@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T16:50:03.928Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T18:45:45.680Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -852,7 +852,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (49016322, 'angular/components', 22382, 2088, 'Component infrastructure and Material Design components for Angular', ['crisbeto','devversion'], 1, 28, 0),
 (49020217, 'petehunt/react-howto', 11504, 41, 'Your guide to the (sometimes overwhelming!) React ecosystem.', ['petehunt','jurgob'], 1, 28, 0),
 (49372256, 'nuket/google-sheets-geocoding-macro', 265, 1, 'Geocode from addresses to latitude / longitude, and vice versa using Google Sheets', ['nuket','MrCsabaToth'], 1, 21, 0),
-(191529732, 'lydiahallie/javascript-questions', 39905, 69, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ['lydiahallie','Tarabass'], 8, 16.25, 1),
 (49516849, 'xwmx/nb', 3856, 65, 'CLI and local web plain text note‑taking, bookmarking, and archiving with linking, tagging, filtering, search, Git versioning & syncing, Pandoc conversion, + more, in a single portable script.', ['xwmx','heywoodlh'], 1, 15, 0),
 (49668250, 'dear-github/dear-github', 5078, 256, ' :incoming_envelope: An open letter to GitHub from the maintainers of open source projects', ['jamiebuilds','gaearon'], 1, 6, 0),
 (49704723, 'okonet/lint-staged', 9521, 116, '🚫💩 — Run linters on git staged files', ['okonet','iiroj'], 3, 18, 0),
@@ -2466,6 +2465,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (255535907, 'modulz/stitches', 4436, 56, 'CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.', ['jonathantneal','christianalfoni'], 2, 7, 0),
 (255770685, 'rdbeach/wb', 20, 11, 'Online collaborative Whiteboard that is simple, free, easy to use and  to deploy', ['lovasoa','rdbeach'], 1, 14, 0),
 (255803302, 'abelljs/abell', 286, 16, 'a Static-Site-Generator for JavaScript Developers. Build fast, vanilla websites in the syntax you almost already know. [In alpha] 🌀', ['saurabhdaware','harshilparmar'], 1, 13, 0),
+(191529732, 'lydiahallie/javascript-questions', 39905, 69, 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ['lydiahallie','Tarabass'], 8, 16.25, 1),
 (255919240, 'smv1999/CompetitiveProgrammingQuestionBank', 758, 2, 'This repository contains all the popular Competitive Programming and DSA questions with solutions for your Coding Interview Preparation. ', ['smv1999','Saviour1001'], 1, 7, 0),
 (255940939, 'mifi/editly', 3169, 63, 'Slick, declarative command line video editing & API', ['mifi','patcon'], 1, 2, 0),
 (256037426, 'onflow/flow', 253, 69, 'Flow is a fast, secure, and developer-friendly blockchain built to support the next generation of games, apps, and the digital assets that power them 🌊', ['10thfloor','psiemens'], 1, 4, 0),
@@ -2746,8 +2746,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (288627285, 'wobsoriano/v-dashboard', 655, 0, 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ['wobsoriano','sebassu'], 1, 25, 0),
 (289072201, 'sounishnath003/Educatify', 5, 0, 'The Classroom made in India - Digital India Project - (BGI)', ['sounishnath003','sayancoding'], 1, 27, 0),
 (289141880, 'sjproctor/cat-tinder-buildout', 1, 0, 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ['sjproctor'], 1, 9, 0),
-(289188530, 'reptilex/tesla-style-solar-power-card', 96, 17, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ['reptilex','dgomes'], 1, 18, 0),
-(289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (289256448, 'themesberg/volt-bootstrap-5-dashboard', 2261, 18, 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ['zoltanszogyenyi','robert1508'], 1, 22, 0),
 (289278036, 'leooverlord/ConsoleAppSamples', 1, 0, 'Repositório com exemplos.', ['leooverlord'], 1, 2, 0),
 (289516607, 'khang-nd/khang-nd.github.io', 27, 0, '📝 My window-styled portfolio', ['khang-nd'], 1, 7, 0),
@@ -3355,6 +3353,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (378536025, 'OffcierCia/DeFi-Developer-Road-Map', 2970, 0, 'DeFi Developer roadmap is a curated Ethereum Developer handbook which includes a list of the best tools for DApps, development resources and lifehacks. ', ['OffcierCia','Dilrong'], 1, 26, 0),
 (378603752, 'hkaur008/microsoft-engage-project', 22, 0, 'This is a project under Microsoft Engage mentorship program ''21 by Hargun kaur', ['hkaur008'], 1, 8, 0),
 (378701776, 'chrisseaton/rhizome', 767, 0, 'A JIT for Ruby, implemented in pure Ruby', ['chrisseaton','erjanmx'], 1, 3, 0),
+(289188530, 'reptilex/tesla-style-solar-power-card', 96, 17, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ['reptilex','dgomes'], 1, 18, 0),
 (378961149, 'me-rakib/javascript-projects-learning', 6, 0, null, ['me-rakib'], 1, 11, 0),
 (379496251, 'Borrus-sudo/jsgandalf', 5, 1, '🌈 My new website ', ['Borrus-sudo'], 1, 28, 0),
 (379608568, 'Codesee-io/remote-companies', 36, 0, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', ['jessicarose','ramonh'], 1, 1, 0),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (438686004, 'xsky13/online-compiler', 1, 0, 'An online code compiler', ['xsky13'], 2, 14, 0),
 (439057606, 'DavidBuchanan314/ambiguous-png-packer', 867, 3, 'Craft PNG files that appear completely different in Apple software', ['DavidBuchanan314','mnixry'], 1, 19, 0),
 (439330952, 'CoinAlpha/hummingbot', 8, 7, 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ['Nullably','dennisocana'], 1, 14, 0),
+(289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (441646385, 'cod-ed/simulate', 0, 0, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ['yashlamba','akshansh2000'], 1, 4, 0);
