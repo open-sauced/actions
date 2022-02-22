@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T10:43:48.771Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T12:50:57.815Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -518,11 +518,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (4780572, 512, 17373317, 'hoodiehq/hoodie', 8, ':dog: The Offline First JavaScript Backend', 55, 4240, ['janl','gr2m']),
 (65772720, 513, 17373317, 'docker/docker.github.io', 9, 'Source repo for Docker''s Documentation', 1516, 3392, ['vieux','thaJeztah']),
 (9843651, 514, 17373317, 'mozilla/mozilla.github.io', 10, 'The Mozilla Project uses GitHub!', 9, 94, ['potch','fwenzel']),
-(8459994, 515, 17373317, 'google/google.github.io', 11, null, 0, 209, ['willnorris','dazuma']),
 (20723540, 516, 17373317, 'microsoft/microsoft.github.io', 12, 'Microsoft on GitHub', 0, 2073, ['vinhub','martinwoodward']),
 (3310609, 517, 17373317, 'Netflix/netflix.github.com', 13, null, 36, 1133, ['Randgalt','PoorImpulseCtrl']),
 (126231747, 518, 17373317, 'RedHatOfficial/RedHatOfficial.github.io', 14, 'The official Red Hat project page.', 12, 339, ['bproffitt','castastrophe']),
 (3675253, 519, 17373317, 'adobe/adobe.github.com', 15, 'Adobe central hub for open source', 10, 1013, ['kimchouard','stevengill']),
+(8459994, 515, 17373317, 'google/google.github.io', 11, null, 0, 209, ['willnorris','dazuma']),
 (715082, 520, 17373317, 'reactiveui/ReactiveUI', 16, 'An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.', 65, 6719, ['anaisbetts','jlaanstra']),
 (206483, 521, 17373317, 'apache/maven', 17, 'Apache Maven core', 66, 2881, ['jvanzyl','brettporter']),
 (961036, 522, 17373317, 'hibernate/hibernate-orm', 18, 'Hibernate''s core Object/Relational Mapping functionality', 171, 4811, ['sebersole','dreab8']),
@@ -4356,13 +4356,13 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (272753737, 360558767, 2808728, 'WomenWhoCode/wwcsf-algos', 0, 'Algorithms and whiteboarding interview prep for the WWCSF community', 25, 177, ['elaguerta','beginner789']),
 (71359796, 304890007, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 573, ['bdougie','0-vortex']),
 (178137889, 342917803, 68660520, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury']),
+(429658975, 208603857, 5713670, 'open-sauced/party-line', 0, null, 0, 4, ['regexident','jessmitch42']),
 (169100692, 455114859, 24910512, 'NVlabs/stylegan', 0, 'StyleGAN - Official TensorFlow Implementation', 10, 12163, ['tkarras','nurpax']),
 (68414068, 351353449, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 31, 7457, ['bkeepers','gr2m']),
 (343965132, 418247835, 16165980, 'microsoft/ML-For-Beginners', 0, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 6, 28909, ['jlooper','softchris']),
 (428727515, 417311106, 71297412, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14']),
 (51595028, 418295712, 71458737, 'OPCFoundation/UA-.NETStandard', 0, 'OPC Unified Architecture .NET Standard', 68, 1289, ['mregen','barnstee']),
 (414403319, 417381369, 79887, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene']),
-(429658975, 208603857, 5713670, 'open-sauced/party-line', 0, null, 0, 4, ['regexident','jessmitch42']),
 (29059629, 457526756, 74566464, 'KabbAmine/yowish.vim', 0, 'A dark & yellowish vim colorscheme', 0, 131, ['KabbAmine','Ajnasz']),
 (35969061, 418175317, 1917293, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 291, 29805, ['IsaacG','tonyruscoe']),
 (345529420, 363282160, 4381106, 'sophiezhng/pomopy', 0, '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', 1, 1, ['sophiezhng']),

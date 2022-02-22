@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T10:43:48.577Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T12:50:57.286Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1608,6 +1608,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (146, 3319, 42, 'cknadler/vim-anywhere', 15505662),
 (3236, 11956, 75, 'williamfiset/Algorithms', 85371262),
 (359, 3164, 4, 'ueberauth/guardian', 37552628),
+(1, 9, 0, 'ShallotJS/shallot', 306969638),
+(86, 57, 16, 'grassedge/generate-plantuml-action', 226627344),
 (464, 8358, 248, 'rtyley/bfg-repo-cleaner', 7266492),
 (0, 9, 0, 'Timmy/plantuml-action', 233961226),
 (22802, 119447, 137, 'airbnb/javascript', 6498492),
@@ -1619,8 +1621,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (430, 4502, 91, 'preservim/nerdcommenter', 3287),
 (1863, 5848, 47, 'austintgriffith/scaffold-eth', 259354262),
 (31597, 61921, 1041, 'bitcoin/bitcoin', 1181927),
-(1, 9, 0, 'ShallotJS/shallot', 306969638),
-(86, 57, 16, 'grassedge/generate-plantuml-action', 226627344),
 (463, 1388, 1, 'benyaminahmed/nft-image-generator', 389585704),
 (465, 704, 250, 'openSUSE/osem', 5911225),
 (4925, 32801, 15, 'yangshun/front-end-interview-handbook', 117372806),
@@ -3296,10 +3296,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (128, 916, 55, 'michelson/dante2', 69834307),
 (109, 78, 238, 'gitcoinco/kudosbadges', 151325516),
 (2061, 16417, 81, 'handlebars-lang/handlebars.js', 809601),
+(0, 3, 0, 'xi/babelacc', 120012609),
 (5, 12, 41, 'codesponsor/codesponsor', 118009853),
 (24, 86, 298, 'w3c/aria-at', 124112805),
 (222, 56, 6, 'MohmedIkram/Hacktoberfest2021', 413169379),
-(0, 3, 0, 'xi/babelacc', 120012609),
 (9454, 34301, 17, 'swisskyrepo/PayloadsAllTheThings', 71220757),
 (28, 385, 1, 'dai-shi/will-this-react-global-state-work-in-concurrent-rendering', 196030065),
 (17, 55, 0, 'tediko/planets-fact', 382308978),
