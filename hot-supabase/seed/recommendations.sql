@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T02:47:00.651Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T04:46:46.569Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -141,12 +141,12 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (2206953, 'tj/commander.js', 21807, 12, 'node.js command-line interfaces made easy', ['shadowspawn','tj'], 2, 16.5, 0),
 (2238035, 'tpope/vim-commentary', 4347, 33, 'commentary.vim: comment stuff out', ['tpope','chaoren'], 1, 9, 0),
 (2247604, 'joaomatossilva/DateTimeExtensions', 400, 11, 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', ['joaomatossilva','schulz3000'], 1, 25, 0),
-(2271913, 'gwincr11/cognition-caps', 1, 0, 'Web app which will power the Cognition Caps website', ['lhanson','gwincr11'], 1, 20, 0),
 (2371106, 'rubocop/ruby-style-guide', 15846, 59, 'A community-driven Ruby coding style guide', ['bbatsov','koic'], 2, 19, 0),
 (2454047, 'rubocop/rails-style-guide', 6179, 13, 'A community-driven Ruby on Rails style guide', ['bbatsov','koic'], 1, 8, 0),
 (2476162, 'fail2ban/fail2ban', 6696, 184, 'Daemon to ban hosts that cause multiple authentication errors', ['sebres','yarikoptic'], 1, 22, 0),
 (2500088, 'gitlabhq/gitlabhq', 22802, 35, 'GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com', ['dzaporozhets','iamphill'], 1, 21, 0),
 (2558910, 'gwincr11/Better-than-Cheddar', 1, 0, null, ['gwincr11'], 1, 19, 0),
+(2271913, 'gwincr11/cognition-caps', 1, 0, 'Web app which will power the Cognition Caps website', ['lhanson','gwincr11'], 1, 20, 0),
 (2561582, 'animate-css/animate.css', 73132, 28, '🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.', ['daneden','eltonmesquita'], 2, 15.5, 0),
 (2630230, 'mixmark-io/turndown', 6001, 86, '🛏 An HTML to Markdown converter written in JavaScript', ['domchristie','martincizek'], 1, 7, 0),
 (2682189, 'tmsmith/Dapper-Extensions', 1547, 85, 'Dapper Extensions is a small library that complements Dapper by adding basic CRUD operations (Get, Insert, Update, Delete) for your POCOs. For more advanced querying scenarios, Dapper Extensions provides a predicate system. The goal of this library is to keep your POCOs pure by not requiring any attributes or base class inheritance.', ['tmsmith','pagebrooks'], 1, 10, 0),
@@ -2933,9 +2933,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (318264472, 'tomhicks/react-audible-debug', 31, 0, 'Audio debugging for React applications', ['tomhicks'], 1, 20, 0),
 (318616207, 'colinhemphill/nextjs-resume', 40, 25, null, ['colinhemphill'], 1, 10, 0),
 (319118126, 'teaminformaticainclusiva/Vida_de_TI', 1, 1, 'Repositorio baseado em Python para facilitar a vido do Brother Ti!', ['shadowruge'], 1, 2, 0),
-(319167362, 'hay-kot/mealie', 1139, 56, 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', ['hay-kot','sephrat'], 1, 23, 0),
 (319185224, 'ubenmackin/ACVM', 103, 9, 'GUI frontend for qemu for Apple Silicon based Macs', ['ubenmackin','KhaosT'], 1, 18, 0),
 (319302752, 'whittlem/pycryptobot', 1311, 64, 'Python Crypto Bot', ['whittlem','markhollingworth-worthit'], 1, 3, 0),
+(319167362, 'hay-kot/mealie', 1139, 56, 'Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the url and mealie will automatically import the relevant data or add a family recipe with the UI editor', ['hay-kot','sephrat'], 1, 23, 0),
 (319475939, 'SFI-Lero/TREES-InnerSource_Project_Fitness', 6, 2, 'A tool for measuring InnerSource project fitness. Shows Fitness score, Strengths & Weaknesses on 6 dimensions according to the Technology-Process-People model. Includes options for downloading the scores and the plots.', ['tapjdey','WillemJiang'], 1, 26, 0),
 (319742187, 'mdn/translated-content', 523, 296, 'All translated MDN content in raw form', ['mfuji09','SphinxKnight'], 1, 0, 0),
 (319935795, 'zawad2221/Twitter-Django-Bot', 8, 0, 'Twitter Bot who like and retweet #django #python. ', ['zawad2221'], 1, 12, 0),

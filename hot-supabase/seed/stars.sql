@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T02:47:00.825Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T04:46:46.396Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1704,6 +1704,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 3, 0, 'Liberontissauri/electron-vue-calculator', 355323964),
 (914, 3901, 650, 'qTox/qTox', 21179164),
 (201, 317, 36, 'codebushi/gatsby-starter-dimension', 112027234),
+(86, 4105, 2, 'tc39/proposal-pattern-matching', 96151448),
+(718, 10555, 199, 'RustPython/RustPython', 135201145),
+(2, 40, 2, 'wildmaples/minimal-ruby-project', 383845445),
 (483, 5035, 171, 'petervanderdoes/gitflow-avh', 3028781),
 (115, 1187, 7, 'mauriciosantos/Buckets-JS', 3068532),
 (2, 5, 0, 'chait04/reactjs-interview-questions', 320489195),
@@ -2261,8 +2264,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (3417, 15046, 6, 'Olshansk/interview', 16334982),
 (2086, 4546, 3, 'RichardLitt/standard-readme', 44409210),
 (150, 4337, 41, 'airbnb/ts-migrate', 226207937),
-(627, 4168, 58, 'postlight/headless-wp-starter', 98932536),
 (1, 5, 0, 'chuvakpavel/MKDemoApp', 396905552),
+(627, 4168, 58, 'postlight/headless-wp-starter', 98932536),
 (77, 1832, 27, 'liuchengxu/vim-clap', 211467758),
 (0, 2, 0, 'udberg/Book-List', 315605990),
 (1600, 13867, 278, 'directus/directus', 7122594),
@@ -2277,17 +2280,14 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 1, 0, 'philips-forks/innersource-crawler', 358525505),
 (3062, 4868, 173, 'hibernate/hibernate-orm', 961036),
 (4, 37, 0, 'JonnyBurger/remotion-wrapped', 336778197),
-(408, 3162, 120, 'nuxt/create-nuxt-app', 99351826),
 (264, 3789, 0, 'twhite96/js-dev-reads', 147130632),
+(408, 3162, 120, 'nuxt/create-nuxt-app', 99351826),
 (1100, 4070, 735, 'swimlane/ngx-charts', 63965783),
 (95, 1859, 29, 'onderceylan/pwa-asset-generator', 201535836),
 (29, 147, 0, 'philnash/react-web-audio', 147777488),
 (33, 286, 11, 'skovy/typed-scss-modules', 170041458),
 (4, 20, 1, 'jordanliu/made-in-jamaica', 323776844),
-(86, 4105, 2, 'tc39/proposal-pattern-matching', 96151448),
 (9726, 43651, 736, 'google/guava', 20300177),
-(718, 10555, 199, 'RustPython/RustPython', 135201145),
-(2, 40, 2, 'wildmaples/minimal-ruby-project', 383845445),
 (31, 746, 29, 'tc39/proposal-iterator-helpers', 165733866),
 (2638, 31644, 1, 'typescript-cheatsheets/react', 135786093),
 (182, 587, 29, 'open-sauced/open-sauced', 71359796),
