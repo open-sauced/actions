@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T18:45:45.680Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T20:43:29.915Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2746,6 +2746,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (288627285, 'wobsoriano/v-dashboard', 655, 0, 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ['wobsoriano','sebassu'], 1, 25, 0),
 (289072201, 'sounishnath003/Educatify', 5, 0, 'The Classroom made in India - Digital India Project - (BGI)', ['sounishnath003','sayancoding'], 1, 27, 0),
 (289141880, 'sjproctor/cat-tinder-buildout', 1, 0, 'LEARN Academy: Day by day build out of a React/Rails decoupled application', ['sjproctor'], 1, 9, 0),
+(289188530, 'reptilex/tesla-style-solar-power-card', 96, 17, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ['reptilex','dgomes'], 1, 18, 0),
+(289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (289256448, 'themesberg/volt-bootstrap-5-dashboard', 2261, 18, 'Free and open source Bootstrap 5 Admin Dashboard Template with vanilla Javascript', ['zoltanszogyenyi','robert1508'], 1, 22, 0),
 (289278036, 'leooverlord/ConsoleAppSamples', 1, 0, 'Repositório com exemplos.', ['leooverlord'], 1, 2, 0),
 (289516607, 'khang-nd/khang-nd.github.io', 27, 0, '📝 My window-styled portfolio', ['khang-nd'], 1, 7, 0),
@@ -3019,10 +3021,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (330878745, 'pankajkumarbij/easy-job-intern', 28, 6, 'The main motive behind the design of this project to provide the best job and internship opportunities.', ['pankajkumarbij','EkjotKaur'], 1, 25, 0),
 (331438435, 'MattMarquise/CANOO-ev-app-redesign', 3, 0, 'CANOO ev app redesign', ['MattMarquise'], 1, 16, 0),
 (331521421, 'udberg/RailsCarApp', 2, 0, null, ['udberg'], 1, 11, 0),
-(331591342, 'udberg/RailsToyApp', 2, 0, null, ['udberg'], 1, 13, 0),
 (331700882, 'kyleshevlin/eslint-plugin', 77, 0, 'A collection of my own ESLint rules.', ['kyleshevlin'], 1, 8, 0),
 (331734784, 'GiTiramisuPush/bar-crawlz', 2, 0, null, ['LionSnarl','summer-cook'], 1, 1, 0),
 (331869302, 'sanderdebr/react-usereducer-context-tutorial', 7, 0, null, ['sanderdebr'], 1, 14, 0),
+(331591342, 'udberg/RailsToyApp', 2, 0, null, ['udberg'], 1, 13, 0),
 (331884475, 'philips-software/spdx-action', 11, 1, 'GitHub Action to get a license overview in SPDX format', ['JeroenKnoops','npalm'], 1, 3, 0),
 (332449101, 'Mogakamo/reddit-lite', 1, 14, 'unofficial reddit lite app ', ['Mogakamo'], 1, 3, 0),
 (332479921, 'nix-community/lorri', 207, 26, 'Your project’s nix-env [maintainer=@Profpatsch]', ['Profpatsch','grahamc'], 1, 14, 0),
@@ -3080,10 +3082,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (340027291, 'udberg/confs.tech', 2, 0, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ['nimzco','confs-tech-bot'], 1, 19, 0),
 (340182829, 'MattMarquise/Design-Suite-Landing-Page-Theme', 1, 0, 'A random project inspired by Dwell.com', ['MattMarquise'], 1, 9, 0),
 (340187605, 'dmitryvinn/awesome-dev-advocacy', 131, 0, '🥑  List of Awesome Developer Advocacy Resources', ['dmitryvinn','dmitryvinn-fb'], 2, 19.5, 0),
-(340306054, 'Jussii/JunctionAppTesting', 1, 0, 'All-in-one hackathon platform for organisers', ['juiceo','Earlo'], 1, 2, 0),
-(340402576, 'mrousavy/react-native-vision-camera', 1860, 123, '📸 The Camera library that sees the vision.', ['mrousavy','Simek'], 1, 28, 0),
 (340509655, 'steveruizok/perfect-freehand', 2249, 0, 'Draw perfect pressure-sensitive freehand lines.', ['steveruizok','miles-crighton'], 1, 7, 0),
 (340865067, 'tobetz/LegoMicroscope', 957, 0, 'To learn about optics and microscopy, we generated a simple to build lego microscope that does not need precision optics and 3D printed parts. ', ['tobetz','bart-vos'], 1, 18, 0),
+(340306054, 'Jussii/JunctionAppTesting', 1, 0, 'All-in-one hackathon platform for organisers', ['juiceo','Earlo'], 1, 2, 0),
 (341346826, 'jvns/dns-lookup', 212, 1, null, ['jvns'], 1, 28, 0),
 (341483252, 'IncredibleDevHQ/incredible-dev-videos', 2, 0, 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', ['hemalathank-27','Pythonista7'], 1, 8, 0),
 (341544828, 'kotlin-graphics/build-logic', 1, 0, null, ['elect86'], 1, 6, 0),
@@ -3139,6 +3140,7 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (347280413, 'victorfarias98/arrayswithjavascript', 7, 1, null, ['victorfarias98','adrcav'], 1, 22, 0),
 (347502287, 'kingoflolz/mesh-transformer-jax', 3656, 6, 'Model parallel transformers in JAX and Haiku', ['kingoflolz','nostalgebraist'], 1, 19, 0),
 (347604812, 'ramazansakin/ghclogger', 7, 0, 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', ['ramazansakin'], 2, 0, 0),
+(340402576, 'mrousavy/react-native-vision-camera', 1860, 123, '📸 The Camera library that sees the vision.', ['mrousavy','Simek'], 1, 28, 0),
 (347707512, 'Sharan-Babu/GPT3-LinkedIn-Helper', 8, 0, 'Generate headlines and descriptions for your LinkedIn profile with the help of GPT-3! ', ['Sharan-Babu'], 1, 18, 0),
 (347749543, 'yakkomajuri/medium-to-blog', 11, 0, 'Turn your Medium posts into a Gatsby blog in 5 minutes with one command.', ['yakkomajuri','ImgBotApp'], 1, 6, 0),
 (347981822, 'zostera/django-bootstrap5', 88, 23, 'Bootstrap 5 for Django', ['dyve','jieter'], 1, 7, 0),
@@ -3353,7 +3355,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (378536025, 'OffcierCia/DeFi-Developer-Road-Map', 2970, 0, 'DeFi Developer roadmap is a curated Ethereum Developer handbook which includes a list of the best tools for DApps, development resources and lifehacks. ', ['OffcierCia','Dilrong'], 1, 26, 0),
 (378603752, 'hkaur008/microsoft-engage-project', 22, 0, 'This is a project under Microsoft Engage mentorship program ''21 by Hargun kaur', ['hkaur008'], 1, 8, 0),
 (378701776, 'chrisseaton/rhizome', 767, 0, 'A JIT for Ruby, implemented in pure Ruby', ['chrisseaton','erjanmx'], 1, 3, 0),
-(289188530, 'reptilex/tesla-style-solar-power-card', 96, 17, 'Home assistant power card mimicking the one tesla provides for the powerwall app.', ['reptilex','dgomes'], 1, 18, 0),
 (378961149, 'me-rakib/javascript-projects-learning', 6, 0, null, ['me-rakib'], 1, 11, 0),
 (379496251, 'Borrus-sudo/jsgandalf', 5, 1, '🌈 My new website ', ['Borrus-sudo'], 1, 28, 0),
 (379608568, 'Codesee-io/remote-companies', 36, 0, 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', ['jessicarose','ramonh'], 1, 1, 0),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (438686004, 'xsky13/online-compiler', 1, 0, 'An online code compiler', ['xsky13'], 2, 14, 0),
 (439057606, 'DavidBuchanan314/ambiguous-png-packer', 867, 3, 'Craft PNG files that appear completely different in Apple software', ['DavidBuchanan314','mnixry'], 1, 19, 0),
 (439330952, 'CoinAlpha/hummingbot', 8, 7, 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ['Nullably','dennisocana'], 1, 14, 0),
-(289205582, 'kr1sp1n/awesome-gemini', 530, 5, 'A collection of awesome things regarding the gemini protocol ecosystem.', ['kr1sp1n','pitr'], 1, 4, 0),
 (441646385, 'cod-ed/simulate', 0, 0, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ['yashlamba','akshansh2000'], 1, 4, 0);

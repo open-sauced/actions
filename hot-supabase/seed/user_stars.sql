@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T18:45:45.684Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T20:43:30.226Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1383,9 +1383,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (14095175, 1396, 63254295, 'SFTtech/openage', 21, 'Free (as in freedom) open source clone of the Age of Empires II engine :rocket:', 253, 10714, ['TheJJ','heinezen']),
 (140805586, 1397, 63254295, 'user234683/youtube-local', 22, 'browser-based client for watching Youtube anonymously and with greater page performance', 23, 201, ['user234683','zrose584']),
 (338764631, 1398, 63254295, 'QuiltMC/quilt-installer', 23, 'The Quilt installer for the official Minecraft launcher and servers', 6, 30, ['i509VCB','EnnuiL']),
-(358740509, 1399, 63254295, 'QuiltMC/quilt-loader', 24, 'The loader for Quilt mods.', 14, 111, ['asiekierka','modmuss50']),
 (343079204, 1400, 63254295, 'tostercx/GTAO_Booster_PoC', 25, null, 16, 2762, ['tostercx','Achilles1515']),
 (268350681, 1401, 63254295, 'Rem0o/FanControl.Releases', 26, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', 86, 1792, ['Rem0o']),
+(358740509, 1399, 63254295, 'QuiltMC/quilt-loader', 24, 'The loader for Quilt mods.', 14, 111, ['asiekierka','modmuss50']),
 (322703104, 1402, 63254295, 'Minenash/Seamless-Loading-Screen', 27, 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', 22, 34, ['Minenash','Samekichi']),
 (260432296, 1403, 63254295, 'H-M-H/Weylus', 28, 'Use your tablet as graphic tablet/touch screen on your computer.', 14, 1756, ['H-M-H','rschroll']),
 (183985757, 1404, 63254295, 'diegocbarboza/red-dead-dialog', 29, 'Red Dead Redemption 2 dialog system in Unity', 0, 6, ['diegocbarboza']),
