@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T12:50:58.039Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T14:43:17.327Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -484,11 +484,11 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (17959555, 'anishathalye/dotbot', 4923, 22, 'A tool that bootstraps your dotfiles ⚡️', ['anishathalye','robobenklein'], 1, 14, 0),
 (17985532, 'RangeNetworks/dev', 502, 52, 'Start Here! Development Environment Tools and System Releases', ['iedemam','oleyka'], 1, 21, 0),
 (18154829, 'jasonlong/isometric-contributions', 3107, 0, 'Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.', ['jasonlong','bahlo'], 1, 6, 0),
+(18193978, 'sindresorhus/got', 10675, 40, '🌐 Human-friendly and powerful HTTP request library for Node.js', ['szmarczak','sindresorhus'], 1, 5, 0),
 (18351848, 'typicode/lowdb', 16925, 4, 'Simple to use local JSON database (supports Node, Electron and the browser)', ['typicode','etiktin'], 1, 15, 0),
 (18369373, 'spf13/viper', 17743, 414, 'Go configuration with fangs', ['sagikazarmark','spf13'], 1, 1, 0),
 (18442377, 'lewagon/dotfiles', 12598, 1, 'Default configuration for Le Wagon''s students', ['ssaunier','dmilon'], 2, 9, 0),
 (18486300, 'lewagon/setup', 11520, 10, 'Setup instructions for Le Wagon''s students on their first day of Web Development Bootcamp', ['ssaunier','barangerbenjamin'], 2, 9, 0),
-(18193978, 'sindresorhus/got', 10675, 40, '🌐 Human-friendly and powerful HTTP request library for Node.js', ['szmarczak','sindresorhus'], 1, 5, 0),
 (18573791, 'davidmerfield/randomColor', 5750, 19, 'A tiny script for generating attractive colors', ['davidmerfield','bilalq'], 1, 28, 0),
 (18627196, 'sirian/suggest-bundle', 24, 4, null, ['sirian','bulychev'], 1, 28, 0),
 (18765044, 'golang/oauth2', 3948, 151, 'Go OAuth2', ['rakyll','adg'], 1, 19, 0),
@@ -1516,10 +1516,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (122681898, 'microsoft/MCW-Modern-cloud-apps', 106, 1, 'MCW Modern cloud apps', ['DawnmarieDesJardins','crpietschmann'], 1, 23, 0),
 (122837111, 'subhra74/xdm', 3245, 524, 'Powerfull download accelerator and video downloader', ['subhra74','denzveloper'], 1, 5, 0),
 (122838124, '30-seconds/30-seconds-of-css', 14961, 2, 'Short CSS code snippets for all your development needs', ['Chalarangelo','atomiks'], 1, 2, 0),
-(123365228, 'rcoh/angle-grinder', 2230, 23, 'Slice and dice logs on the command line', ['rcoh','tstack'], 1, 10, 0),
-(123426934, 'videolan/vlc-android', 1346, 3, '  VLC for Android, Android TV and ChromeOS', ['GeoffreyMetais','jbkempf'], 1, 26, 0),
 (122842179, 'andrew--r/frontend-case-studies', 6316, 27, '💼 A curated list of technical talks and articles about real world enterprise frontend development', ['andrew--r','globchastyy'], 1, 13, 0),
 (123220152, 'FreeTubeApp/FreeTube', 4654, 448, 'An Open Source YouTube app for privacy', ['PrestonN','GilgusMaximus'], 1, 2, 0),
+(123365228, 'rcoh/angle-grinder', 2230, 23, 'Slice and dice logs on the command line', ['rcoh','tstack'], 1, 10, 0),
+(123426934, 'videolan/vlc-android', 1346, 3, '  VLC for Android, Android TV and ChromeOS', ['GeoffreyMetais','jbkempf'], 1, 26, 0),
 (123572362, 'quii/learn-go-with-tests', 16112, 28, 'Learn Go with test-driven development', ['quii','pityonline'], 1, 19, 0),
 (123625732, 'microsoft/fast', 6552, 305, 'The adaptive interface system for modern web experiences.', ['janechu','chrisdholt'], 2, 12.5, 0),
 (123631418, 'Lissy93/personal-security-checklist', 2400, 16, '🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2021', ['Lissy93','matkoniecz'], 1, 25, 0),

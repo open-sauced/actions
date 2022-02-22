@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T12:50:57.815Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T14:43:17.476Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -518,11 +518,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (4780572, 512, 17373317, 'hoodiehq/hoodie', 8, ':dog: The Offline First JavaScript Backend', 55, 4240, ['janl','gr2m']),
 (65772720, 513, 17373317, 'docker/docker.github.io', 9, 'Source repo for Docker''s Documentation', 1516, 3392, ['vieux','thaJeztah']),
 (9843651, 514, 17373317, 'mozilla/mozilla.github.io', 10, 'The Mozilla Project uses GitHub!', 9, 94, ['potch','fwenzel']),
+(8459994, 515, 17373317, 'google/google.github.io', 11, null, 0, 209, ['willnorris','dazuma']),
 (20723540, 516, 17373317, 'microsoft/microsoft.github.io', 12, 'Microsoft on GitHub', 0, 2073, ['vinhub','martinwoodward']),
 (3310609, 517, 17373317, 'Netflix/netflix.github.com', 13, null, 36, 1133, ['Randgalt','PoorImpulseCtrl']),
 (126231747, 518, 17373317, 'RedHatOfficial/RedHatOfficial.github.io', 14, 'The official Red Hat project page.', 12, 339, ['bproffitt','castastrophe']),
 (3675253, 519, 17373317, 'adobe/adobe.github.com', 15, 'Adobe central hub for open source', 10, 1013, ['kimchouard','stevengill']),
-(8459994, 515, 17373317, 'google/google.github.io', 11, null, 0, 209, ['willnorris','dazuma']),
 (715082, 520, 17373317, 'reactiveui/ReactiveUI', 16, 'An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.', 65, 6719, ['anaisbetts','jlaanstra']),
 (206483, 521, 17373317, 'apache/maven', 17, 'Apache Maven core', 66, 2881, ['jvanzyl','brettporter']),
 (961036, 522, 17373317, 'hibernate/hibernate-orm', 18, 'Hibernate''s core Object/Relational Mapping functionality', 171, 4811, ['sebersole','dreab8']),
@@ -1374,15 +1374,15 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (93291681, 1387, 63254295, 'JaeYeopHan/Interview_Question_for_Beginner', 12, ':boy: :girl: Technical-Interview guidelines written for those who started studying programming. I wish you all the best. :space_invader:', 19, 10606, ['JaeYeopHan','wooooooak']),
 (281151556, 1388, 63254295, 'Schrodinger-Hat/ImageGoNord', 13, 'A tool that can convert your rgb images to nordtheme palette', 9, 466, ['TheJoin95','Wabri']),
 (374729902, 1389, 63254295, 'sagars007/Proton-UI-connected-rounded-tabs', 14, 'Firefox Proton UI minimal changes with nav-bar-connected rounded tabs, reduced compact mode, nightly color gradient accents etc..', 0, 19, ['sagars007']),
-(94554082, 1390, 63254295, 'dylanaraps/pywal', 15, '🎨 Generate and change color-schemes on the fly.', 121, 5910, ['dylanaraps','LoLei']),
-(373495126, 1391, 63254295, 'thevinter/styli.sh', 16, 'A CLI tool for easy wallpaper management and image fetching', 1, 335, ['thevinter','ma3yta']),
-(268424739, 1392, 63254295, 'helix-editor/helix', 17, 'A post-modern modal text editor.', 237, 5010, ['archseer','cessen']),
 (119160553, 1393, 63254295, 'photoprism/photoprism', 18, 'Photos App powered by Go and Google TensorFlow 🌈 🎄', 277, 18056, ['lastzero','graciousgrey']),
 (128564293, 1394, 63254295, '30-seconds/30-seconds-of-interviews', 19, 'A curated collection of common interview questions to help you prepare for your next interview.', 14, 9422, ['30secondsofcode','fejes713']),
 (362711256, 1395, 63254295, 'Renovamen/playground-macos', 20, 'My portfolio website simulating macOS''s GUI, developed with React and Tailwind CSS.', 1, 2466, ['Renovamen','jhonleeee']),
 (14095175, 1396, 63254295, 'SFTtech/openage', 21, 'Free (as in freedom) open source clone of the Age of Empires II engine :rocket:', 253, 10714, ['TheJJ','heinezen']),
 (140805586, 1397, 63254295, 'user234683/youtube-local', 22, 'browser-based client for watching Youtube anonymously and with greater page performance', 23, 201, ['user234683','zrose584']),
+(94554082, 1390, 63254295, 'dylanaraps/pywal', 15, '🎨 Generate and change color-schemes on the fly.', 121, 5910, ['dylanaraps','LoLei']),
+(373495126, 1391, 63254295, 'thevinter/styli.sh', 16, 'A CLI tool for easy wallpaper management and image fetching', 1, 335, ['thevinter','ma3yta']),
 (338764631, 1398, 63254295, 'QuiltMC/quilt-installer', 23, 'The Quilt installer for the official Minecraft launcher and servers', 6, 30, ['i509VCB','EnnuiL']),
+(268424739, 1392, 63254295, 'helix-editor/helix', 17, 'A post-modern modal text editor.', 237, 5010, ['archseer','cessen']),
 (358740509, 1399, 63254295, 'QuiltMC/quilt-loader', 24, 'The loader for Quilt mods.', 14, 111, ['asiekierka','modmuss50']),
 (343079204, 1400, 63254295, 'tostercx/GTAO_Booster_PoC', 25, null, 16, 2762, ['tostercx','Achilles1515']),
 (268350681, 1401, 63254295, 'Rem0o/FanControl.Releases', 26, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', 86, 1792, ['Rem0o']),
