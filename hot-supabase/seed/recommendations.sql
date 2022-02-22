@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:43:18.218Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T01:01:57.461Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2649,8 +2649,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (275993885, 'appsmithorg/appsmith', 10704, 1539, 'Low code project to build admin panels, internal tools, and dashboards. Connect to 15+ database integrations.', ['Nikhil-Nandagopal','mohanarpit'], 1, 4, 0),
 (276143292, 'negue/meme-box', 60, 51, 'Manage and trigger media in OBS as a browser source', ['negue','owehmer'], 1, 1, 0),
 (276193266, 'First-Steps-in-DDD-Community/first-steps-in-ddd-solutions', 22, 0, 'Solutions to the First Steps in DDD training course', ['andrewharmellaw'], 1, 21, 0),
-(276295300, 'NerdyPepper/dijo', 2419, 23, 'scriptable, curses-based, digital habit tracker', ['nerdypepper','charles-l'], 1, 26, 0),
 (276414382, 'microsoft/playwright-python', 5613, 27, 'Python version of the Playwright testing and automation library.', ['mxschmitt','pavelfeldman'], 1, 5, 0),
+(276295300, 'NerdyPepper/dijo', 2419, 23, 'scriptable, curses-based, digital habit tracker', ['nerdypepper','charles-l'], 1, 26, 0),
 (276444578, 'aristocratos/bpytop', 8106, 58, 'Linux/OSX/FreeBSD resource monitor', ['aristocratos','cjolowicz'], 1, 1, 0),
 (276889385, 'ANSSI-FR/MLA', 241, 10, 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', ['commial','sashaconway'], 1, 15, 0),
 (276914940, 'judicaelandria/check', 5, 8, 'manage all your task, and do your todos', ['judicaelandria','ColomboJuan'], 1, 14, 0),

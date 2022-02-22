@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:43:17.957Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T01:01:57.769Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2151,8 +2151,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (263, 3167, 0, 'CollabCodeTech/backend-challenges', 195897446),
 (40, 209, 0, 'bregman-arie/system-design-notebook', 287950119),
 (7, 6, 2, 'mackenly/quickbiolinks', 252028773),
-(4, 15, 2, 'Benja-media/Ulink', 344537086),
 (98, 468, 27, 'database-rider/database-rider', 68379040),
+(4, 15, 2, 'Benja-media/Ulink', 344537086),
 (486, 9723, 23, 'kettanaito/naming-cheatsheet', 95863194),
 (717, 4397, 21, 'JanDeDobbeleer/oh-my-posh', 175405157),
 (0, 332, 9, 'lucydsl/liblucy', 338590340),
@@ -2215,9 +2215,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (50, 382, 3, 'edoardottt/cariddi', 362234372),
 (0, 1, 0, 'smcgivern/urm-evaluator', 2712004),
 (184, 3213, 76, 'nodejs/undici', 133092972),
-(765, 693, 56, 'theNewDynamic/gohugo-theme-ananke', 87873787),
 (3, 14, 0, 'abhisheknaiidu/abhisheknaidu-cli', 337208358),
 (852, 1126, 56, 'exercism/python', 17274389),
+(765, 693, 56, 'theNewDynamic/gohugo-theme-ananke', 87873787),
 (176, 2747, 104, 'tschaub/gh-pages', 17884290),
 (119, 554, 50, 'InnerSourceCommons/InnerSourcePatterns', 74069383),
 (0, 3, 0, 'ChristBM/platzi_conf_merch', 427228421),
@@ -2269,9 +2269,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (77, 1832, 27, 'liuchengxu/vim-clap', 211467758),
 (0, 2, 0, 'udberg/Book-List', 315605990),
 (1600, 13867, 278, 'directus/directus', 7122594),
-(366, 6940, 169, 'penpot/penpot', 48769241),
 (7, 42, 0, 'Deveshb15/real-twitter-banner', 379900883),
 (6, 65, 0, 'devpato/tech-podcasts-list', 357342987),
+(366, 6940, 169, 'penpot/penpot', 48769241),
 (15, 21, 11, 'github/ghas-jira-integration', 348300013),
 (1, 17, 1, 'NdR91/NdR-PhoneUI', 395280574),
 (270, 1811, 5, 'madhuakula/kubernetes-goat', 269419110),
@@ -2745,6 +2745,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (10, 7, 0, 'avinash201199/Portfolio-Collection', 411705813),
 (5, 6, 12, 'funbeedev/BibleBeforeBread', 327584479),
 (211, 6537, 67, 'octref/polacode', 120965715),
+(57, 157, 6, 'rungwiroon/BlazorGoogleMaps', 163753499),
 (10695, 24708, 223, 'geekcomputers/Python', 2881789),
 (3642, 21886, 365, 'vuejs/devtools', 24579238),
 (2, 53, 0, 'Borrus-sudo/vue-generator-graph', 385850163),
@@ -3180,7 +3181,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (579, 1788, 0, 'kunal-kushwaha/Competitive-Programming-Resources', 286448779),
 (1, 516, 0, 'MBMIT/neurolab-android', 157518025),
 (3564, 28333, 1952, 'go-gitea/gitea', 72495579),
-(57, 157, 6, 'rungwiroon/BlazorGoogleMaps', 163753499),
 (383, 3029, 6, 'mvillaloboz/open-source-cs-degree', 38276507),
 (35, 212, 4, 'mscoutermarsh/mscoutermarsh', 272047365),
 (3450, 17154, 58, 'Asabeneh/30-Days-Of-JavaScript', 229764465),

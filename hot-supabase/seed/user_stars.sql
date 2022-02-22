@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-21T22:43:18.122Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T01:01:57.884Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3144,8 +3144,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (34987697, 3146, 22620727, 'mfornos/awesome-microservices', 18, 'A curated list of Microservice Architecture related principles and technologies.', 3, 10654, ['mfornos','aalhour']),
 (71297170, 3147, 22620727, 'Netflix/chaosmonkey', 19, 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', 14, 11701, ['lorin','prytoegrian']),
 (98446777, 3148, 22620727, 'dastergon/awesome-chaos-engineering', 20, 'A curated list of Chaos Engineering resources.', 5, 4749, ['dastergon','seeker89']),
-(192632000, 3150, 22620727, 'dapr/dapr', 22, 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', 246, 16394, ['yaron2','youngbupark']),
 (131081109, 3149, 22620727, 'hiroppy/fusuma', 21, '✍️Fusuma makes slides with Markdown easily.', 61, 5031, ['hiroppy','renovate-bot']),
+(192632000, 3150, 22620727, 'dapr/dapr', 22, 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', 246, 16394, ['yaron2','youngbupark']),
 (324778385, 3151, 22620727, 'ebhy/budgetml', 23, 'Deploy a ML inference service on a budget in less than 10 lines of code.', 1, 1248, ['htahir1','strickvl']),
 (262862475, 3152, 22620727, 'amplication/amplication', 24, 'Amplication is an open‑source development tool. It helps you develop quality Node.js applications without spending time on repetitive coding tasks.', 277, 3637, ['iddan','yuval-hazaz']),
 (62091339, 3153, 22620727, 'kubernetes/kops', 25, 'Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management', 211, 13622, ['k8s-ci-robot','justinsb']),
