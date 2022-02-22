@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T01:01:57.769Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T02:47:00.825Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1704,9 +1704,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 3, 0, 'Liberontissauri/electron-vue-calculator', 355323964),
 (914, 3901, 650, 'qTox/qTox', 21179164),
 (201, 317, 36, 'codebushi/gatsby-starter-dimension', 112027234),
-(86, 4105, 2, 'tc39/proposal-pattern-matching', 96151448),
-(718, 10555, 199, 'RustPython/RustPython', 135201145),
-(2, 40, 2, 'wildmaples/minimal-ruby-project', 383845445),
 (483, 5035, 171, 'petervanderdoes/gitflow-avh', 3028781),
 (115, 1187, 7, 'mauriciosantos/Buckets-JS', 3068532),
 (2, 5, 0, 'chait04/reactjs-interview-questions', 320489195),
@@ -2151,8 +2148,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (263, 3167, 0, 'CollabCodeTech/backend-challenges', 195897446),
 (40, 209, 0, 'bregman-arie/system-design-notebook', 287950119),
 (7, 6, 2, 'mackenly/quickbiolinks', 252028773),
-(98, 468, 27, 'database-rider/database-rider', 68379040),
 (4, 15, 2, 'Benja-media/Ulink', 344537086),
+(98, 468, 27, 'database-rider/database-rider', 68379040),
 (486, 9723, 23, 'kettanaito/naming-cheatsheet', 95863194),
 (717, 4397, 21, 'JanDeDobbeleer/oh-my-posh', 175405157),
 (0, 332, 9, 'lucydsl/liblucy', 338590340),
@@ -2215,9 +2212,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (50, 382, 3, 'edoardottt/cariddi', 362234372),
 (0, 1, 0, 'smcgivern/urm-evaluator', 2712004),
 (184, 3213, 76, 'nodejs/undici', 133092972),
+(765, 693, 56, 'theNewDynamic/gohugo-theme-ananke', 87873787),
 (3, 14, 0, 'abhisheknaiidu/abhisheknaidu-cli', 337208358),
 (852, 1126, 56, 'exercism/python', 17274389),
-(765, 693, 56, 'theNewDynamic/gohugo-theme-ananke', 87873787),
 (176, 2747, 104, 'tschaub/gh-pages', 17884290),
 (119, 554, 50, 'InnerSourceCommons/InnerSourcePatterns', 74069383),
 (0, 3, 0, 'ChristBM/platzi_conf_merch', 427228421),
@@ -2269,9 +2266,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (77, 1832, 27, 'liuchengxu/vim-clap', 211467758),
 (0, 2, 0, 'udberg/Book-List', 315605990),
 (1600, 13867, 278, 'directus/directus', 7122594),
+(366, 6940, 169, 'penpot/penpot', 48769241),
 (7, 42, 0, 'Deveshb15/real-twitter-banner', 379900883),
 (6, 65, 0, 'devpato/tech-podcasts-list', 357342987),
-(366, 6940, 169, 'penpot/penpot', 48769241),
 (15, 21, 11, 'github/ghas-jira-integration', 348300013),
 (1, 17, 1, 'NdR91/NdR-PhoneUI', 395280574),
 (270, 1811, 5, 'madhuakula/kubernetes-goat', 269419110),
@@ -2287,7 +2284,10 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (29, 147, 0, 'philnash/react-web-audio', 147777488),
 (33, 286, 11, 'skovy/typed-scss-modules', 170041458),
 (4, 20, 1, 'jordanliu/made-in-jamaica', 323776844),
+(86, 4105, 2, 'tc39/proposal-pattern-matching', 96151448),
 (9726, 43651, 736, 'google/guava', 20300177),
+(718, 10555, 199, 'RustPython/RustPython', 135201145),
+(2, 40, 2, 'wildmaples/minimal-ruby-project', 383845445),
 (31, 746, 29, 'tc39/proposal-iterator-helpers', 165733866),
 (2638, 31644, 1, 'typescript-cheatsheets/react', 135786093),
 (182, 587, 29, 'open-sauced/open-sauced', 71359796),
