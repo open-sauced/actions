@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T08:44:12.791Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T10:43:48.771Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3652,9 +3652,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (345728485, 3654, 59939260, 'khang-nd/DEV-stats', 6, 'Display DEV.to stat card anywhere', 0, 9, ['khang-nd']),
 (289516607, 3655, 59939260, 'khang-nd/khang-nd.github.io', 7, '📝 My window-styled portfolio', 0, 27, ['khang-nd']),
 (274751150, 3656, 59939260, 'jamesonsaunders/Convert-Website-to-App', 8, 'Convert your mobile-friendly website into an app', 5, 29, ['jamesonsaunders']),
+(340182829, 3657, 59939260, 'MattMarquise/Design-Suite-Landing-Page-Theme', 9, 'A random project inspired by Dwell.com', 0, 1, ['MattMarquise']),
 (332841560, 3658, 59939260, 'MattMarquise/Modern-Game-Console-UI', 10, 'Modern Game Console UI Project', 0, 2, ['MattMarquise']),
 (68720867, 3659, 59939260, 'firstcontributions/first-contributions', 11, '🚀✨ Help beginners to contribute to open source projects', 1303, 21873, ['firstcontributions-bot','Roshanjossey']),
-(340182829, 3657, 59939260, 'MattMarquise/Design-Suite-Landing-Page-Theme', 9, 'A random project inspired by Dwell.com', 0, 1, ['MattMarquise']),
 (29028775, 3660, 59939260, 'facebook/react-native', 12, 'A framework for building native applications using React', 2176, 100073, ['shergin','mdvacca']),
 (327036990, 3661, 59939260, 'MattMarquise/Lifestyle-Blog', 13, null, 0, 1, ['MattMarquise']),
 (330307199, 3662, 59939260, 'MattMarquise/Lifestyle-Blog-Shop-Page', 14, 'Lifestyle Blog - Shop Page', 0, 1, ['MattMarquise']),
@@ -4356,13 +4356,13 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (272753737, 360558767, 2808728, 'WomenWhoCode/wwcsf-algos', 0, 'Algorithms and whiteboarding interview prep for the WWCSF community', 25, 177, ['elaguerta','beginner789']),
 (71359796, 304890007, 69519470, 'open-sauced/open-sauced', 0, '🍕  This is a project to identify your next open source contribution. ', 29, 573, ['bdougie','0-vortex']),
 (178137889, 342917803, 68660520, 'mpsalisbury/raytracer', 0, 'Ray Tracer from Ray Tracer Challenge', 0, 3, ['mpsalisbury']),
-(429658975, 208603857, 5713670, 'open-sauced/party-line', 0, null, 0, 4, ['regexident','jessmitch42']),
 (169100692, 455114859, 24910512, 'NVlabs/stylegan', 0, 'StyleGAN - Official TensorFlow Implementation', 10, 12163, ['tkarras','nurpax']),
 (68414068, 351353449, 35429278, 'probot/probot', 0, '🤖 A framework for building GitHub Apps to automate and improve your workflow', 31, 7457, ['bkeepers','gr2m']),
 (343965132, 418247835, 16165980, 'microsoft/ML-For-Beginners', 0, '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', 6, 28909, ['jlooper','softchris']),
 (428727515, 417311106, 71297412, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14']),
 (51595028, 418295712, 71458737, 'OPCFoundation/UA-.NETStandard', 0, 'OPC Unified Architecture .NET Standard', 68, 1289, ['mregen','barnstee']),
 (414403319, 417381369, 79887, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene']),
+(429658975, 208603857, 5713670, 'open-sauced/party-line', 0, null, 0, 4, ['regexident','jessmitch42']),
 (29059629, 457526756, 74566464, 'KabbAmine/yowish.vim', 0, 'A dark & yellowish vim colorscheme', 0, 131, ['KabbAmine','Ajnasz']),
 (35969061, 418175317, 1917293, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 291, 29805, ['IsaacG','tonyruscoe']),
 (345529420, 363282160, 4381106, 'sophiezhng/pomopy', 0, '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', 1, 1, ['sophiezhng']),
