@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T20:43:30.226Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T22:43:21.544Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1383,9 +1383,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (14095175, 1396, 63254295, 'SFTtech/openage', 21, 'Free (as in freedom) open source clone of the Age of Empires II engine :rocket:', 253, 10714, ['TheJJ','heinezen']),
 (140805586, 1397, 63254295, 'user234683/youtube-local', 22, 'browser-based client for watching Youtube anonymously and with greater page performance', 23, 201, ['user234683','zrose584']),
 (338764631, 1398, 63254295, 'QuiltMC/quilt-installer', 23, 'The Quilt installer for the official Minecraft launcher and servers', 6, 30, ['i509VCB','EnnuiL']),
+(358740509, 1399, 63254295, 'QuiltMC/quilt-loader', 24, 'The loader for Quilt mods.', 14, 111, ['asiekierka','modmuss50']),
 (343079204, 1400, 63254295, 'tostercx/GTAO_Booster_PoC', 25, null, 16, 2762, ['tostercx','Achilles1515']),
 (268350681, 1401, 63254295, 'Rem0o/FanControl.Releases', 26, 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', 86, 1792, ['Rem0o']),
-(358740509, 1399, 63254295, 'QuiltMC/quilt-loader', 24, 'The loader for Quilt mods.', 14, 111, ['asiekierka','modmuss50']),
 (322703104, 1402, 63254295, 'Minenash/Seamless-Loading-Screen', 27, 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', 22, 34, ['Minenash','Samekichi']),
 (260432296, 1403, 63254295, 'H-M-H/Weylus', 28, 'Use your tablet as graphic tablet/touch screen on your computer.', 14, 1756, ['H-M-H','rschroll']),
 (183985757, 1404, 63254295, 'diegocbarboza/red-dead-dialog', 29, 'Red Dead Redemption 2 dialog system in Unity', 0, 6, ['diegocbarboza']),
@@ -2498,7 +2498,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (134035452, 2478, 1228996, 'justadudewhohacks/face-api.js', 16, 'JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js', 379, 13286, ['justadudewhohacks','jderrough']),
 (262451884, 2479, 1228996, 'jlengstorf/lwj-scenes', 17, null, 10, 11, ['jlengstorf']),
 (166471416, 2480, 1228996, 'instafluff/ComfyJS', 18, 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', 12, 204, ['instafluff','AlcaDesign']),
-(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (156217558, 2482, 1228996, 'microsoft/vscode-dev-containers', 20, 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', 129, 2736, ['Chuxel','chrmarti']),
 (187325459, 2483, 1228996, 'mheap/markdown-to-jira', 21, 'Create Jira tickets from a plain text format', 5, 7, ['mheap']),
 (241080452, 2484, 1228996, 'brettmillerb/sqlpackage-docker', 22, 'Github repo to build and release container image for sqlpackage', 0, 1, ['brettmillerb']),
@@ -2896,6 +2895,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (110759796, 2900, 527550, 'librespot-org/librespot', 5, 'Open Source Spotify client library', 24, 2701, ['plietar','sashahilton00']),
 (192505762, 2901, 527550, 'withplum/CardNavigationController', 6, null, 0, 7, ['reddavis']),
 (45723377, 2902, 527550, 'charlax/professional-programming', 7, 'A collection of full-stack resources for programmers.', 2, 15953, ['charlax','laithshadeed']),
+(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (93192704, 2903, 527550, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 35, 3383, ['LukeSmithxyz','narukeh']),
 (28735637, 2904, 527550, 'volatiletech/authboss', 9, 'The boss of http auth.', 30, 2959, ['aarondl','kris-runzer']),
 (162723104, 2905, 527550, 'OWASP/CheatSheetSeries', 10, 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', 36, 19367, ['righettod','jmanico']),
@@ -3312,8 +3312,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (294816887, 3314, 6241164, 'bdougie/git-twitch', 11, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners']),
 (72754695, 3315, 6241164, 'styled-components/polished', 12, 'A lightweight toolset for writing styles in JavaScript ✨', 14, 7084, ['bhough','mxstbr']),
 (147350463, 3316, 6241164, 'leonardomso/33-js-concepts', 13, '📜 33 JavaScript concepts every developer should know.', 9, 45617, ['leonardomso','ilker0']),
-(149827668, 3317, 6241164, 'james-wallis/wallis.dev', 14, 'My personal website', 10, 52, ['james-wallis']),
 (76569802, 3318, 6241164, 'ftlabs/transcription-service', 15, 'A Node.js server that accepts audio/video files and transcribes the content', 3, 51, ['seanmtracey','wheresrhys']),
+(149827668, 3317, 6241164, 'james-wallis/wallis.dev', 14, 'My personal website', 10, 52, ['james-wallis']),
 (35190860, 3319, 6241164, 'seven1m/open-bibles', 16, 'Repository of public domain and freely licensed bibles in XML and other standard formats', 0, 118, ['seven1m','richiebful']),
 (310490480, 3320, 6241164, 'cachecleanerjeet/readme-stats-github', 17, 'Generate your GitHub''s Stats in SVG', 0, 16, ['avipatilpro']),
 (319185224, 3321, 6241164, 'ubenmackin/ACVM', 18, 'GUI frontend for qemu for Apple Silicon based Macs', 9, 103, ['ubenmackin','KhaosT']),

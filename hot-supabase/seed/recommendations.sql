@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T20:43:29.915Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T22:43:21.802Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3021,10 +3021,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (330878745, 'pankajkumarbij/easy-job-intern', 28, 6, 'The main motive behind the design of this project to provide the best job and internship opportunities.', ['pankajkumarbij','EkjotKaur'], 1, 25, 0),
 (331438435, 'MattMarquise/CANOO-ev-app-redesign', 3, 0, 'CANOO ev app redesign', ['MattMarquise'], 1, 16, 0),
 (331521421, 'udberg/RailsCarApp', 2, 0, null, ['udberg'], 1, 11, 0),
+(331591342, 'udberg/RailsToyApp', 2, 0, null, ['udberg'], 1, 13, 0),
 (331700882, 'kyleshevlin/eslint-plugin', 77, 0, 'A collection of my own ESLint rules.', ['kyleshevlin'], 1, 8, 0),
 (331734784, 'GiTiramisuPush/bar-crawlz', 2, 0, null, ['LionSnarl','summer-cook'], 1, 1, 0),
 (331869302, 'sanderdebr/react-usereducer-context-tutorial', 7, 0, null, ['sanderdebr'], 1, 14, 0),
-(331591342, 'udberg/RailsToyApp', 2, 0, null, ['udberg'], 1, 13, 0),
 (331884475, 'philips-software/spdx-action', 11, 1, 'GitHub Action to get a license overview in SPDX format', ['JeroenKnoops','npalm'], 1, 3, 0),
 (332449101, 'Mogakamo/reddit-lite', 1, 14, 'unofficial reddit lite app ', ['Mogakamo'], 1, 3, 0),
 (332479921, 'nix-community/lorri', 207, 26, 'Your project’s nix-env [maintainer=@Profpatsch]', ['Profpatsch','grahamc'], 1, 14, 0),
@@ -3082,9 +3082,10 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (340027291, 'udberg/confs.tech', 2, 0, 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ['nimzco','confs-tech-bot'], 1, 19, 0),
 (340182829, 'MattMarquise/Design-Suite-Landing-Page-Theme', 1, 0, 'A random project inspired by Dwell.com', ['MattMarquise'], 1, 9, 0),
 (340187605, 'dmitryvinn/awesome-dev-advocacy', 131, 0, '🥑  List of Awesome Developer Advocacy Resources', ['dmitryvinn','dmitryvinn-fb'], 2, 19.5, 0),
+(340306054, 'Jussii/JunctionAppTesting', 1, 0, 'All-in-one hackathon platform for organisers', ['juiceo','Earlo'], 1, 2, 0),
+(340402576, 'mrousavy/react-native-vision-camera', 1860, 123, '📸 The Camera library that sees the vision.', ['mrousavy','Simek'], 1, 28, 0),
 (340509655, 'steveruizok/perfect-freehand', 2249, 0, 'Draw perfect pressure-sensitive freehand lines.', ['steveruizok','miles-crighton'], 1, 7, 0),
 (340865067, 'tobetz/LegoMicroscope', 957, 0, 'To learn about optics and microscopy, we generated a simple to build lego microscope that does not need precision optics and 3D printed parts. ', ['tobetz','bart-vos'], 1, 18, 0),
-(340306054, 'Jussii/JunctionAppTesting', 1, 0, 'All-in-one hackathon platform for organisers', ['juiceo','Earlo'], 1, 2, 0),
 (341346826, 'jvns/dns-lookup', 212, 1, null, ['jvns'], 1, 28, 0),
 (341483252, 'IncredibleDevHQ/incredible-dev-videos', 2, 0, 'Incredible dev videos is the repository to collaborate on dev videos posted on Incredible Devs official youtube channel https://www.youtube.com/channel/UCyyaPS9hiS3PvTn2Jz_g9SA . ', ['hemalathank-27','Pythonista7'], 1, 8, 0),
 (341544828, 'kotlin-graphics/build-logic', 1, 0, null, ['elect86'], 1, 6, 0),
@@ -3140,7 +3141,6 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (347280413, 'victorfarias98/arrayswithjavascript', 7, 1, null, ['victorfarias98','adrcav'], 1, 22, 0),
 (347502287, 'kingoflolz/mesh-transformer-jax', 3656, 6, 'Model parallel transformers in JAX and Haiku', ['kingoflolz','nostalgebraist'], 1, 19, 0),
 (347604812, 'ramazansakin/ghclogger', 7, 0, 'ghclogger is a spring boot app that beautifies, standardizes, manages and stores logs.', ['ramazansakin'], 2, 0, 0),
-(340402576, 'mrousavy/react-native-vision-camera', 1860, 123, '📸 The Camera library that sees the vision.', ['mrousavy','Simek'], 1, 28, 0),
 (347707512, 'Sharan-Babu/GPT3-LinkedIn-Helper', 8, 0, 'Generate headlines and descriptions for your LinkedIn profile with the help of GPT-3! ', ['Sharan-Babu'], 1, 18, 0),
 (347749543, 'yakkomajuri/medium-to-blog', 11, 0, 'Turn your Medium posts into a Gatsby blog in 5 minutes with one command.', ['yakkomajuri','ImgBotApp'], 1, 6, 0),
 (347981822, 'zostera/django-bootstrap5', 88, 23, 'Bootstrap 5 for Django', ['dyve','jieter'], 1, 7, 0),
