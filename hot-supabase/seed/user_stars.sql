@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T04:46:46.868Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T06:46:06.615Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2823,11 +2823,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (49010787, 2827, 5736522, 'mhinz/vim-galore', 1, ':mortar_board: All things Vim!', 2, 12634, ['mhinz','codeurge']),
 (147560775, 2828, 5736522, 'kadencewp/kadence-blocks', 2, 'Advanced Page Building Blocks for Gutenberg. Create custom column layouts, backgrounds, dual buttons, icons etc.', 41, 146, ['kadencewp','asaquzzaman']),
 (97086543, 2829, 5736522, 'TheAlgorithms/Javascript', 3, 'A repository for All algorithms implemented in Javascript (for educational purposes only)', 22, 16153, ['raklaptudirm','pomkarnath98']),
-(278455556, 2831, 5736522, 'bkegley/dotfiles', 5, null, 2, 13, ['bkegley']),
 (170326929, 2830, 5736522, 'goabstract/Awesome-Design-Tools', 4, 'The best design tools and plugins for everything 👉', 49, 23768, ['berezovskycom','valianka']),
 (171061051, 2832, 5736522, 'lostpebble/pullstate', 6, 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', 36, 898, ['lostpebble','schummar']),
 (8162715, 2833, 5736522, 'mirumee/saleor', 7, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 274, 14770, ['maarcingebala','dominik-zeglen']),
 (128193054, 2834, 5736522, 'keystonejs/keystone', 8, 'The most powerful headless CMS for Node.js — built with GraphQL and React', 114, 5446, ['timleslie','jesstelford']),
+(278455556, 2831, 5736522, 'bkegley/dotfiles', 5, null, 2, 13, ['bkegley']),
 (255535907, 2835, 5736522, 'modulz/stitches', 9, 'CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.', 56, 4436, ['jonathantneal','christianalfoni']),
 (191051391, 2836, 5736522, 'redwoodjs/redwood', 10, 'The App Framework for Startups', 264, 10379, ['peterp','thedavidprice']),
 (3402537, 2837, 5736522, 'h5bp/Front-end-Developer-Interview-Questions', 11, 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', 9, 51678, ['darcyclarke','appleboy']),
@@ -4040,8 +4040,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (90608506, 4041, 26205172, 'sqlkata/querybuilder', 21, 'SQL query builder, written in c#, helps you build complex queries easily, supports SqlServer, MySql, PostgreSql, Oracle, Sqlite and Firebird', 118, 2112, ['ahmad-moussawi','ceastwood']),
 (21540759, 4042, 26205172, 'avelino/awesome-go', 22, 'A curated list of awesome Go frameworks, libraries and software', 24, 72753, ['mholt','avelino']),
 (20904437, 4043, 26205172, 'gin-gonic/gin', 23, 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', 461, 54156, ['manucorporat','javierprovecho']),
-(2833537, 4045, 26205172, 'jquery/esprima', 25, 'ECMAScript parsing infrastructure for multipurpose analysis', 134, 6394, ['ariya','Constellation']),
 (120538304, 4044, 26205172, 'kelseyhightower/nocode', 24, 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', 4088, 50812, ['kelseyhightower']),
+(2833537, 4045, 26205172, 'jquery/esprima', 25, 'ECMAScript parsing infrastructure for multipurpose analysis', 134, 6394, ['ariya','Constellation']),
 (12244426, 4046, 26205172, 'rstacruz/nprogress', 26, 'For slim progress bars like on YouTube, Medium, etc', 128, 23755, ['rstacruz','lipis']),
 (103749180, 4047, 26205172, 'OpenGenus/cosmos', 27, 'Hacktoberfest 2021 | World''s largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |', 2460, 12942, ['AdiChat','arnavb']),
 (1685764, 4048, 26205172, 'dhg/Skeleton', 28, 'Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development', 144, 18468, ['dhg','rauchg']),
