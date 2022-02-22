@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T06:46:06.739Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T08:44:17.300Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3438,8 +3438,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (387466937, 'muhammaddzaky/docker-radarr', 1, 0, null, ['sparklyballs','thelamer'], 1, 21, 0),
 (387492408, 'kentcdodds/testing-react-render-time-errors', 19, 0, null, ['kentcdodds'], 1, 1, 0),
 (387501063, 'cassidoo/shopify-next-netlify', 31, 1, 'A Shopify Next.js demo', ['cassidoo','verythorough'], 1, 6, 0),
-(387624468, 'gremlin/bootcamp-infrastructure', 3, 3, null, ['jyee'], 1, 7, 0),
 (387630224, 'carmenkolohe/CodeSchoolQA', 11, 4, 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', ['carmenkolohe','jendevelops'], 1, 18, 0),
+(387624468, 'gremlin/bootcamp-infrastructure', 3, 3, null, ['jyee'], 1, 7, 0),
 (388004440, 'oscafrica/open-source-challenge-2021', 47, 1, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ['BolajiAyodeji','Petec0x0'], 1, 0, 0),
 (388022569, 'muhammaddzaky/zuramai', 1, 0, null, ['zuramai'], 1, 24, 0),
 (388026773, 'elizabethsiegle/twilio-video-mask-ml5', 4, 0, 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ['elizabethsiegle'], 1, 2, 0),
@@ -3570,8 +3570,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (401688124, 'mohitjaisal/GithubCardss', 2, 2, 'A Github profile representation through cards with a Github API with some basic javascript.', ['mohitjaisal','AndrasBard'], 1, 4, 0),
 (402030436, 'mikerobards/100-days-of-code', 1, 0, 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ['kallaway','AurelieBayre'], 1, 7, 0),
 (402189545, 'juntossomosmais/frontend-guideline', 976, 1, '📝 Front-end Guideline by Juntos Somos Mais', ['felipefialho','hick97'], 1, 0, 0),
-(402577011, 'hackclubiter/hacktheoctober', 7, 3, 'The Official Website for Hack the October Fest 2021.', ['Abhijeet-Anand-01','saswatsamal'], 1, 20, 0),
 (402841129, 'Developer-DAO/developer-dao-nft-contract', 128, 1, null, ['dabit3'], 1, 7, 0),
+(402577011, 'hackclubiter/hacktheoctober', 7, 3, 'The Official Website for Hack the October Fest 2021.', ['Abhijeet-Anand-01','saswatsamal'], 1, 20, 0),
 (402852173, 'the-pudding/website', 26, 13, 'The Pudding''s website', ['russellgoldenberg','jadiehm'], 1, 6, 0),
 (403029798, 's-yadav/ask-me-anything', 2, 0, 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', ['s-yadav'], 1, 24, 0),
 (403159506, 'Developer-DAO/developerdao.com', 314, 11, 'A community of builders who believe in collective ownership of the internet', ['with-heart','fmoliveira'], 1, 8, 0),
@@ -3591,11 +3591,11 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (406448834, 'willcl-ark/tinybitcoinpeer', 1, 0, 'A toy bitcoin peer. Connects to testnet, shakes hands, reacts to pings, asks for pongs.', ['amiller','willcl-ark'], 1, 23, 0),
 (406493930, 'blackgirlbytes/git-emojis', 10, 6, 'An emoji search application leveraging Next.js, Tailwind CSS, Fuse.js (for fuzzy search), GitHub''s Emoji API, GitHub Actions, and Pulumi', ['blackgirlbytes'], 1, 21, 0),
 (406594497, 'bdougie/invite-automation', 3, 0, 'This is a repo to automate invites to teams. ', ['bdougie'], 1, 13, 0),
+(407507122, 'dimassuam/project-kalian', 1, 0, 'Menyimpan daftar Project Kalian yang sudah disubmit di Discord', ['sandhikagalih'], 2, 0, 0),
 (407233777, 'slipHQ/run-wasm', 355, 17, 'Run WASM based code executions in the browser easily', ['kennethcassel','cameronmoreau'], 1, 6, 0),
+(407666234, 'zero-to-mastery/coding_challenge-42', 36, 0, 'Hacktoberfest 2021', ['MattCSmith'], 1, 5, 0),
 (407283196, 'buildspace/buildspace-projects', 1163, 84, 'The home of our open-source projects.', ['adilanchian','farzaa'], 1, 16, 0),
 (407327246, 'angeloashmore/gatsby-4-prismic-demo', 2, 1, null, ['angeloashmore'], 1, 5, 0),
-(407507122, 'dimassuam/project-kalian', 1, 0, 'Menyimpan daftar Project Kalian yang sudah disubmit di Discord', ['sandhikagalih'], 2, 0, 0),
-(407666234, 'zero-to-mastery/coding_challenge-42', 36, 0, 'Hacktoberfest 2021', ['MattCSmith'], 1, 5, 0),
 (408664831, 'ai/nanocolors', 917, 0, 'Use picocolors instead. It is 3 times smaller and 50% faster.', ['jorgebucaran','ai'], 1, 26, 0),
 (409285729, 'Buckcli/Buck-python', 5, 1, 'Run multiple commands all in one . getbuck.tech', ['Pleasant-tech'], 1, 5, 0),
 (409591032, 'CornerBit/HikSink', 35, 2, 'Converts Hikvision camera events to MQTT', ['CornerBit'], 1, 23, 0),

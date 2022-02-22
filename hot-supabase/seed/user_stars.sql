@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T06:46:06.615Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T08:44:12.791Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2824,10 +2824,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (147560775, 2828, 5736522, 'kadencewp/kadence-blocks', 2, 'Advanced Page Building Blocks for Gutenberg. Create custom column layouts, backgrounds, dual buttons, icons etc.', 41, 146, ['kadencewp','asaquzzaman']),
 (97086543, 2829, 5736522, 'TheAlgorithms/Javascript', 3, 'A repository for All algorithms implemented in Javascript (for educational purposes only)', 22, 16153, ['raklaptudirm','pomkarnath98']),
 (170326929, 2830, 5736522, 'goabstract/Awesome-Design-Tools', 4, 'The best design tools and plugins for everything 👉', 49, 23768, ['berezovskycom','valianka']),
+(278455556, 2831, 5736522, 'bkegley/dotfiles', 5, null, 2, 13, ['bkegley']),
 (171061051, 2832, 5736522, 'lostpebble/pullstate', 6, 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', 36, 898, ['lostpebble','schummar']),
 (8162715, 2833, 5736522, 'mirumee/saleor', 7, 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', 274, 14770, ['maarcingebala','dominik-zeglen']),
 (128193054, 2834, 5736522, 'keystonejs/keystone', 8, 'The most powerful headless CMS for Node.js — built with GraphQL and React', 114, 5446, ['timleslie','jesstelford']),
-(278455556, 2831, 5736522, 'bkegley/dotfiles', 5, null, 2, 13, ['bkegley']),
 (255535907, 2835, 5736522, 'modulz/stitches', 9, 'CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.', 56, 4436, ['jonathantneal','christianalfoni']),
 (191051391, 2836, 5736522, 'redwoodjs/redwood', 10, 'The App Framework for Startups', 264, 10379, ['peterp','thedavidprice']),
 (3402537, 2837, 5736522, 'h5bp/Front-end-Developer-Interview-Questions', 11, 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', 9, 51678, ['darcyclarke','appleboy']),
@@ -3652,9 +3652,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (345728485, 3654, 59939260, 'khang-nd/DEV-stats', 6, 'Display DEV.to stat card anywhere', 0, 9, ['khang-nd']),
 (289516607, 3655, 59939260, 'khang-nd/khang-nd.github.io', 7, '📝 My window-styled portfolio', 0, 27, ['khang-nd']),
 (274751150, 3656, 59939260, 'jamesonsaunders/Convert-Website-to-App', 8, 'Convert your mobile-friendly website into an app', 5, 29, ['jamesonsaunders']),
-(340182829, 3657, 59939260, 'MattMarquise/Design-Suite-Landing-Page-Theme', 9, 'A random project inspired by Dwell.com', 0, 1, ['MattMarquise']),
 (332841560, 3658, 59939260, 'MattMarquise/Modern-Game-Console-UI', 10, 'Modern Game Console UI Project', 0, 2, ['MattMarquise']),
 (68720867, 3659, 59939260, 'firstcontributions/first-contributions', 11, '🚀✨ Help beginners to contribute to open source projects', 1303, 21873, ['firstcontributions-bot','Roshanjossey']),
+(340182829, 3657, 59939260, 'MattMarquise/Design-Suite-Landing-Page-Theme', 9, 'A random project inspired by Dwell.com', 0, 1, ['MattMarquise']),
 (29028775, 3660, 59939260, 'facebook/react-native', 12, 'A framework for building native applications using React', 2176, 100073, ['shergin','mdvacca']),
 (327036990, 3661, 59939260, 'MattMarquise/Lifestyle-Blog', 13, null, 0, 1, ['MattMarquise']),
 (330307199, 3662, 59939260, 'MattMarquise/Lifestyle-Blog-Shop-Page', 14, 'Lifestyle Blog - Shop Page', 0, 1, ['MattMarquise']),
