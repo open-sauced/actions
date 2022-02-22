@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T14:43:17.327Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T16:50:03.928Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
