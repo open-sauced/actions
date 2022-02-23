@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T16:50:58.137Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T18:45:23.145Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2479,9 +2479,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (256725670, 'bansal-io/pattern.css', 3482, 18, 'CSS only library to fill empty background with beautiful patterns.', ['bansal-io'], 1, 8, 0),
 (256742063, 'NyashaNziramasanga/facebook-navbar-ui-clone', 1, 2, '🌃  A clone of Facebooks dark theme nav bar 🌆', ['NyashaNziramasanga'], 1, 9, 0),
 (256823068, 'damianra/COVID19-ARG-API', 2, 13, null, ['damianra','ColomboJuan'], 1, 21, 0),
-(256847634, 'Camberi/firecms', 400, 24, 'Awesome Firestore based CMS', ['fgatti675','zhigang1992'], 1, 6, 0),
 (256850364, 'macabeus/fluent-typescript', 11, 12, '📦 Automatically generate TypeScript declarations for Fluent files', ['macabeus','LokiMidgard'], 1, 29, 0),
 (257022147, 'simonw/til', 408, 7, 'Today I Learned', ['simonw','davidbgk'], 1, 2, 0),
+(256847634, 'Camberi/firecms', 400, 24, 'Awesome Firestore based CMS', ['fgatti675','zhigang1992'], 1, 6, 0),
 (257171786, 'mjebrahimi/Awesome-Microservices-NetCore', 1503, 0, '💎 A collection of awesome training series, articles, videos, books, courses, sample projects, and tools for Microservices in .NET Core', ['mjebrahimi','logcorner'], 1, 2, 0),
 (257314632, 'onflow/fcl-js', 227, 35, 'FCL (Flow Client Library) - The best tool for building JavaScript (browser & NodeJS) applications on Flow 🌊', ['JeffreyDoyle','orodio'], 1, 28, 0),
 (257404606, 'textileio/js-examples', 50, 3, 'Examples and demos using Textile''s Javascript/Typescript libraries and clients.', ['andrewxhill','carsonfarmer'], 1, 29, 0),

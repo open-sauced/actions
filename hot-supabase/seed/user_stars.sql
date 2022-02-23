@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T16:50:58.130Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T18:45:22.909Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3441,8 +3441,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (32727687, 3443, 3846874, 'mysticatea/npm-run-all', 27, 'A CLI tool to run multiple npm-scripts in parallel or sequential.', 77, 4507, ['mysticatea','k88hudson']),
 (357681, 3444, 3846874, 'isaacs/node-glob', 28, 'glob functionality for node.js', 125, 7290, ['isaacs','tanyabrassie']),
 (809601, 3445, 3846874, 'handlebars-lang/handlebars.js', 29, 'Minimal templating on steroids.', 86, 16346, ['kpdecker','nknapp']),
-(73184139, 3447, 40713709, 'fkhadra/react-toastify', 1, 'React notification made easy 🚀 !', 44, 8145, ['fkhadra','rhdeck']),
 (170444343, 3446, 40713709, 'DevonCrawford/Video-Editing-Automation', 0, 'Toolkit of algorithms to automate the video editing process', 8, 1063, ['DevonCrawford']),
+(73184139, 3447, 40713709, 'fkhadra/react-toastify', 1, 'React notification made easy 🚀 !', 44, 8145, ['fkhadra','rhdeck']),
 (367602396, 3448, 40713709, 'prince776/discode', 2, 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', 2, 62, ['prince776','HarshKapadia2']),
 (118105591, 3449, 40713709, 'gojek/heimdall', 3, 'An enhanced HTTP client for Go', 39, 2132, ['sohamkamani','rShetty']),
 (45879586, 3450, 40713709, 'lexborisov/myhtml', 4, 'Fast C/C++ HTML 5 Parser. Using threads.', 17, 1512, ['lexborisov','Azq2']),
@@ -3994,7 +3994,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (398039380, 3995, 5467696, 'vasspilka/bank', 20, 'Sample Bank application used for my 2021 ElixirConf presentation', 2, 14, ['vasspilka']),
 (184951641, 3996, 5467696, 'zdenal/commanded_events_map', 21, 'Tool for analysing commanded projects and representing in flow diagram.', 4, 21, ['zdenal','jfornoff']),
 (198782780, 3997, 5467696, 'trbngr/commanded_messaging', 22, 'Common macros for messaging in a Commanded application', 3, 27, ['trbngr']),
-(365123252, 3998, 5467696, 'KeyValueSoftwareSystems/authentication-service', 23, 'A service to handle authentication and authorisation', 0, 26, ['nikhiljk-kv','johnspaulka']),
 (45750507, 3999, 5467696, 'davidtheclark/cosmiconfig', 24, 'Find and load configuration from a package.json property, rc file, or CommonJS module', 21, 2935, ['davidtheclark','chrisblossom']),
 (367045564, 4000, 5467696, 'trekhleb/self-parking-car-evolution', 25, '🧬 Training the car to do self-parking using a genetic algorithm', 9, 549, ['trekhleb','martincostello']),
 (11855195, 4001, 5467696, 'chalk/chalk', 26, '🖍 Terminal string styling done right', 0, 17599, ['sindresorhus','Qix-']),
@@ -4029,6 +4028,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (119693982, 4030, 26205172, 'jamiebuilds/unstated', 10, 'State so simple, it goes without saying', 20, 7786, ['jamiebuilds','willmendesneto']),
 (10270250, 4031, 26205172, 'facebook/react', 11, 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', 922, 179681, ['zpao','bvaughn']),
 (122614397, 4032, 26205172, 'GeekyAnts/vue-native-core', 12, 'Vue Native is a framework to build cross platform native mobile apps using JavaScript', 30, 8367, ['RishabhKarnad','gauravprwl14']),
+(365123252, 3998, 5467696, 'KeyValueSoftwareSystems/authentication-service', 23, 'A service to handle authentication and authorisation', 0, 26, ['nikhiljk-kv','johnspaulka']),
 (133442384, 4033, 26205172, 'denoland/deno', 13, 'A modern runtime for JavaScript and TypeScript.', 721, 79402, ['ry','bartlomieju']),
 (46853356, 4034, 26205172, 'razorpay/razorpay-dot-net', 14, 'Razorpay .NET SDK', 20, 7, ['sunnyagg','jitendra-1217']),
 (82486590, 4035, 26205172, 'JsonCSharpClassGenerator/JsonCSharpClassGenerator', 15, 'JsonCSharpClassGenerator from http://jsonclassgenerator.codeplex.com/', 1, 79, ['suntong','sabarnett']),
