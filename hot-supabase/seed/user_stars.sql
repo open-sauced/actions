@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T22:43:21.544Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:02:31.355Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2197,9 +2197,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (28944251, 2177, 22154417, 'arwes/arwes', 1, 'Futuristic Sci-Fi UI Web Framework', 41, 5033, ['romelperez','jdpnielsen']),
 (48869446, 2178, 22154417, 'kogosoftwarellc/open-api', 2, 'A Monorepo of various packages to power OpenAPI in node', 74, 620, ['jsdevel','MugeSo']),
 (390399632, 2179, 22154417, 'codrops/SuperfluidLayout', 3, 'Experimental reveal animations on typographic elements', 0, 59, ['crnacura','parodia']),
-(102488287, 2180, 22154417, 'aleha84/simple.canvas.core2', 4, 'SCG v2', 0, 105, ['aleha84']),
-(328121260, 2181, 22154417, 'timlrx/tailwind-nextjs-starter-blog', 5, 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', 2, 1665, ['timlrx','Music47ell']),
-(256847634, 2182, 22154417, 'Camberi/firecms', 6, 'Awesome Firestore based CMS', 24, 400, ['fgatti675','zhigang1992']),
 (381979, 2183, 22154417, 'fullcalendar/fullcalendar', 7, 'Full-sized drag & drop event calendar', 685, 14552, ['arshaw','acerix']),
 (366099717, 2184, 22154417, 'jfrogtraining/aws-ecs-docker-compose-workshop', 8, null, 0, 2, ['jefferyfry']),
 (387168810, 2185, 22154417, 'matt765/react-chat-app', 9, null, 0, 112, ['matt765']),
@@ -2211,7 +2208,10 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (41571541, 2191, 22154417, 'inspec/inspec', 15, 'InSpec: Auditing and Testing Framework', 448, 2454, ['chris-rock','clintoncwolfe']),
 (90080868, 2192, 22154417, 'saadq/resumake.io', 16, '📝 A website for automatically generating elegant LaTeX resumes.', 65, 2289, ['saadq','mmngreco']),
 (126577260, 2193, 22154417, 'trekhleb/javascript-algorithms', 17, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 269, 129835, ['trekhleb','m-maksyutin']),
+(102488287, 2180, 22154417, 'aleha84/simple.canvas.core2', 4, 'SCG v2', 0, 105, ['aleha84']),
+(328121260, 2181, 22154417, 'timlrx/tailwind-nextjs-starter-blog', 5, 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', 2, 1665, ['timlrx','Music47ell']),
 (219881030, 2194, 22154417, 'jseg787/random-playlist-generator', 18, null, 0, 1, ['jseg787','ddesir']),
+(256847634, 2182, 22154417, 'Camberi/firecms', 6, 'Awesome Firestore based CMS', 24, 400, ['fgatti675','zhigang1992']),
 (60246359, 2195, 22154417, 'ClickHouse/ClickHouse', 19, 'ClickHouse® is a free analytics DBMS for big data', 1850, 21223, ['alexey-milovidov','alesapin']),
 (51109642, 2196, 22154417, 'cezaraugusto/github-template-guidelines', 20, 'Guidelines for building GitHub templates.', 0, 179, ['cezaraugusto']),
 (10395188, 2197, 22154417, 'exercism/exercism', 21, 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', 287, 6481, ['iHiD','exercism-bot']),
@@ -2498,6 +2498,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (134035452, 2478, 1228996, 'justadudewhohacks/face-api.js', 16, 'JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js', 379, 13286, ['justadudewhohacks','jderrough']),
 (262451884, 2479, 1228996, 'jlengstorf/lwj-scenes', 17, null, 10, 11, ['jlengstorf']),
 (166471416, 2480, 1228996, 'instafluff/ComfyJS', 18, 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', 12, 204, ['instafluff','AlcaDesign']),
+(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (156217558, 2482, 1228996, 'microsoft/vscode-dev-containers', 20, 'A repository of development container definitions for the VS Code Remote - Containers extension and GitHub Codespaces', 129, 2736, ['Chuxel','chrmarti']),
 (187325459, 2483, 1228996, 'mheap/markdown-to-jira', 21, 'Create Jira tickets from a plain text format', 5, 7, ['mheap']),
 (241080452, 2484, 1228996, 'brettmillerb/sqlpackage-docker', 22, 'Github repo to build and release container image for sqlpackage', 0, 1, ['brettmillerb']),
@@ -2895,7 +2896,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (110759796, 2900, 527550, 'librespot-org/librespot', 5, 'Open Source Spotify client library', 24, 2701, ['plietar','sashahilton00']),
 (192505762, 2901, 527550, 'withplum/CardNavigationController', 6, null, 0, 7, ['reddavis']),
 (45723377, 2902, 527550, 'charlax/professional-programming', 7, 'A collection of full-stack resources for programmers.', 2, 15953, ['charlax','laithshadeed']),
-(142916775, 2481, 1228996, 'filmgirl/podcasting-resources', 19, 'Resources and links related to podcasting. Created for W/S/C 2018 but can be forked/added to as time goes on.', 1, 36, ['filmgirl']),
 (93192704, 2903, 527550, 'LukeSmithxyz/voidrice', 8, 'My dotfiles (deployed by LARBS)', 35, 3383, ['LukeSmithxyz','narukeh']),
 (28735637, 2904, 527550, 'volatiletech/authboss', 9, 'The boss of http auth.', 30, 2959, ['aarondl','kris-runzer']),
 (162723104, 2905, 527550, 'OWASP/CheatSheetSeries', 10, 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', 36, 19367, ['righettod','jmanico']),
@@ -3312,8 +3312,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (294816887, 3314, 6241164, 'bdougie/git-twitch', 11, 'This is a service for GitHub and twitch interaction', 2, 56, ['bdougie','mishmanners']),
 (72754695, 3315, 6241164, 'styled-components/polished', 12, 'A lightweight toolset for writing styles in JavaScript ✨', 14, 7084, ['bhough','mxstbr']),
 (147350463, 3316, 6241164, 'leonardomso/33-js-concepts', 13, '📜 33 JavaScript concepts every developer should know.', 9, 45617, ['leonardomso','ilker0']),
-(76569802, 3318, 6241164, 'ftlabs/transcription-service', 15, 'A Node.js server that accepts audio/video files and transcribes the content', 3, 51, ['seanmtracey','wheresrhys']),
 (149827668, 3317, 6241164, 'james-wallis/wallis.dev', 14, 'My personal website', 10, 52, ['james-wallis']),
+(76569802, 3318, 6241164, 'ftlabs/transcription-service', 15, 'A Node.js server that accepts audio/video files and transcribes the content', 3, 51, ['seanmtracey','wheresrhys']),
 (35190860, 3319, 6241164, 'seven1m/open-bibles', 16, 'Repository of public domain and freely licensed bibles in XML and other standard formats', 0, 118, ['seven1m','richiebful']),
 (310490480, 3320, 6241164, 'cachecleanerjeet/readme-stats-github', 17, 'Generate your GitHub''s Stats in SVG', 0, 16, ['avipatilpro']),
 (319185224, 3321, 6241164, 'ubenmackin/ACVM', 18, 'GUI frontend for qemu for Apple Silicon based Macs', 9, 103, ['ubenmackin','KhaosT']),
@@ -3489,9 +3489,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (276889385, 3491, 9696352, 'ANSSI-FR/MLA', 15, 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', 10, 241, ['commial','sashaconway']),
 (112287150, 3492, 9696352, 'zboxfs/zbox', 16, 'Zero-details, privacy-focused in-app file system.', 12, 1262, ['burmecia','amiraeva']),
 (204591335, 3493, 9696352, 'WICG/urlpattern', 17, 'The URLPattern API provides a web platform primitive for matching URLs.', 24, 92, ['wanderview','lucacasonato']),
-(124409296, 3494, 9696352, 'styfle/breaking-changes-web', 18, '💢 A list of breaking changes to the web platform', 1, 334, ['styfle','bennypowers']),
 (391133915, 3495, 9696352, 'jsthomas/tidy-email', 19, 'An OCaml wrapper library that makes it easy to send email with different services.', 0, 23, ['jsthomas','aantron']),
 (145838509, 3496, 9696352, 'mapbox/potpack', 20, 'A tiny rectangle packing JavaScript library (for sprite layouts)', 0, 159, ['mourner','mbullington']),
+(124409296, 3494, 9696352, 'styfle/breaking-changes-web', 18, '💢 A list of breaking changes to the web platform', 1, 334, ['styfle','bennypowers']),
 (86491149, 3497, 9696352, 'ChromeDevTools/devtools-protocol', 21, 'Chrome DevTools Protocol', 13, 707, ['devtools-bot','paulirish']),
 (104307778, 3498, 9696352, 'halturin/ergo', 22, 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', 6, 1235, ['halturin','Zert']),
 (111935215, 3499, 9696352, 'oaijs/ajv-oai', 23, 'OpenAPI''s JsonSchema validator.', 3, 12, ['amazing-gao','javi11']),

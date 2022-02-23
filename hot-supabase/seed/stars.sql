@@ -1,12 +1,12 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-22T22:43:21.334Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:02:31.148Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, id) VALUES
 (40, 354, 17, 'HaikuTeam/animator', 82836080),
-(4, 85, 8, 'stephane-r/HoloPlay', 165093478),
 (41, 416, 140, 'airsonic-advanced/airsonic-advanced', 221316636),
+(4, 85, 8, 'stephane-r/HoloPlay', 165093478),
 (73, 386, 7, 'calebnance/expo-spotify', 185131263),
 (68, 303, 0, 'osamaqarem/spotify-lite', 211595183),
 (13, 101, 13, 'fennifith/Pasta-for-Spotify', 56549856),
