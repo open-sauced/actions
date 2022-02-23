@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:02:31.355Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T02:48:11.206Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -805,7 +805,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (374341212, 796, 79887, 'rickclephas/KMP-NativeCoroutines', 22, 'Library to use Kotlin Coroutines from Swift code in KMP apps', 4, 196, ['rickclephas']),
 (113813718, 797, 79887, 'xvik/gradle-use-python-plugin', 23, 'Use python modules in gradle build', 3, 51, ['xvik','yellowsquid']),
 (61583938, 798, 79887, 'linkedin/pygradle', 24, 'Using Gradle to build Python projects', 91, 544, ['zvezdan','ethankhall']),
-(413454220, 799, 79887, 'xmartlabs/TypedNavigation', 25, 'A lightweight library to help you navigate in compose with well typed functions.', 0, 16, ['f7deleon','mirland']),
 (415035403, 800, 79887, 'ch4rl3x/HtmlText', 26, 'Jetpack Compose HtmlText', 0, 10, ['ch4rl3x']),
 (406327361, 801, 79887, 'terrakok/kmm-awesome', 27, 'An awesome list that curates the best KMM libraries, tools and more. ', 0, 456, ['terrakok','PStrelchenko']),
 (4127088, 802, 79887, 'Azure/azure-sdk-for-python', 28, 'This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. ', 807, 2330, ['lmazuel','azure-sdk']),
@@ -1091,6 +1090,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (374018112, 1083, 59651629, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1006, ['sadanandpai','dth99']),
 (262286900, 1084, 59651629, 'know-prashant/vanilla-js-components', 27, 'A list of 50 Components created in vanilla JS', 0, 17, ['know-prashant']),
 (62932724, 1085, 59651629, 'nem035/js-function-fun', 28, 'Fun with JavaScript functions', 0, 5, ['nem035']),
+(413454220, 799, 79887, 'xmartlabs/TypedNavigation', 25, 'A lightweight library to help you navigate in compose with well typed functions.', 0, 16, ['f7deleon','mirland']),
 (206410838, 1086, 59651629, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17782, ['code-health-devguide-copybara','adambender']),
 (712530, 1087, 45036724, 'fabricjs/fabric.js', 0, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 266, 20744, ['kangax','asturur']),
 (68678413, 1088, 45036724, 'ai/nanoevents', 1, 'Simple and tiny (72 bytes) event emitter library for JavaScript', 0, 1033, ['ai','subzey']),
@@ -2197,6 +2197,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (28944251, 2177, 22154417, 'arwes/arwes', 1, 'Futuristic Sci-Fi UI Web Framework', 41, 5033, ['romelperez','jdpnielsen']),
 (48869446, 2178, 22154417, 'kogosoftwarellc/open-api', 2, 'A Monorepo of various packages to power OpenAPI in node', 74, 620, ['jsdevel','MugeSo']),
 (390399632, 2179, 22154417, 'codrops/SuperfluidLayout', 3, 'Experimental reveal animations on typographic elements', 0, 59, ['crnacura','parodia']),
+(102488287, 2180, 22154417, 'aleha84/simple.canvas.core2', 4, 'SCG v2', 0, 105, ['aleha84']),
+(328121260, 2181, 22154417, 'timlrx/tailwind-nextjs-starter-blog', 5, 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', 2, 1665, ['timlrx','Music47ell']),
+(256847634, 2182, 22154417, 'Camberi/firecms', 6, 'Awesome Firestore based CMS', 24, 400, ['fgatti675','zhigang1992']),
 (381979, 2183, 22154417, 'fullcalendar/fullcalendar', 7, 'Full-sized drag & drop event calendar', 685, 14552, ['arshaw','acerix']),
 (366099717, 2184, 22154417, 'jfrogtraining/aws-ecs-docker-compose-workshop', 8, null, 0, 2, ['jefferyfry']),
 (387168810, 2185, 22154417, 'matt765/react-chat-app', 9, null, 0, 112, ['matt765']),
@@ -2208,10 +2211,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (41571541, 2191, 22154417, 'inspec/inspec', 15, 'InSpec: Auditing and Testing Framework', 448, 2454, ['chris-rock','clintoncwolfe']),
 (90080868, 2192, 22154417, 'saadq/resumake.io', 16, '📝 A website for automatically generating elegant LaTeX resumes.', 65, 2289, ['saadq','mmngreco']),
 (126577260, 2193, 22154417, 'trekhleb/javascript-algorithms', 17, '📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings', 269, 129835, ['trekhleb','m-maksyutin']),
-(102488287, 2180, 22154417, 'aleha84/simple.canvas.core2', 4, 'SCG v2', 0, 105, ['aleha84']),
-(328121260, 2181, 22154417, 'timlrx/tailwind-nextjs-starter-blog', 5, 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', 2, 1665, ['timlrx','Music47ell']),
 (219881030, 2194, 22154417, 'jseg787/random-playlist-generator', 18, null, 0, 1, ['jseg787','ddesir']),
-(256847634, 2182, 22154417, 'Camberi/firecms', 6, 'Awesome Firestore based CMS', 24, 400, ['fgatti675','zhigang1992']),
 (60246359, 2195, 22154417, 'ClickHouse/ClickHouse', 19, 'ClickHouse® is a free analytics DBMS for big data', 1850, 21223, ['alexey-milovidov','alesapin']),
 (51109642, 2196, 22154417, 'cezaraugusto/github-template-guidelines', 20, 'Guidelines for building GitHub templates.', 0, 179, ['cezaraugusto']),
 (10395188, 2197, 22154417, 'exercism/exercism', 21, 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', 287, 6481, ['iHiD','exercism-bot']),
@@ -3489,9 +3489,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (276889385, 3491, 9696352, 'ANSSI-FR/MLA', 15, 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', 10, 241, ['commial','sashaconway']),
 (112287150, 3492, 9696352, 'zboxfs/zbox', 16, 'Zero-details, privacy-focused in-app file system.', 12, 1262, ['burmecia','amiraeva']),
 (204591335, 3493, 9696352, 'WICG/urlpattern', 17, 'The URLPattern API provides a web platform primitive for matching URLs.', 24, 92, ['wanderview','lucacasonato']),
+(124409296, 3494, 9696352, 'styfle/breaking-changes-web', 18, '💢 A list of breaking changes to the web platform', 1, 334, ['styfle','bennypowers']),
 (391133915, 3495, 9696352, 'jsthomas/tidy-email', 19, 'An OCaml wrapper library that makes it easy to send email with different services.', 0, 23, ['jsthomas','aantron']),
 (145838509, 3496, 9696352, 'mapbox/potpack', 20, 'A tiny rectangle packing JavaScript library (for sprite layouts)', 0, 159, ['mourner','mbullington']),
-(124409296, 3494, 9696352, 'styfle/breaking-changes-web', 18, '💢 A list of breaking changes to the web platform', 1, 334, ['styfle','bennypowers']),
 (86491149, 3497, 9696352, 'ChromeDevTools/devtools-protocol', 21, 'Chrome DevTools Protocol', 13, 707, ['devtools-bot','paulirish']),
 (104307778, 3498, 9696352, 'halturin/ergo', 22, 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', 6, 1235, ['halturin','Zert']),
 (111935215, 3499, 9696352, 'oaijs/ajv-oai', 23, 'OpenAPI''s JsonSchema validator.', 3, 12, ['amazing-gao','javi11']),

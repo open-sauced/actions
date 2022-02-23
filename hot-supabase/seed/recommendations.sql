@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:02:31.633Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T02:48:10.992Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3439,9 +3439,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (387492408, 'kentcdodds/testing-react-render-time-errors', 19, 0, null, ['kentcdodds'], 1, 1, 0),
 (387501063, 'cassidoo/shopify-next-netlify', 31, 1, 'A Shopify Next.js demo', ['cassidoo','verythorough'], 1, 6, 0),
 (387624468, 'gremlin/bootcamp-infrastructure', 3, 3, null, ['jyee'], 1, 7, 0),
-(387630224, 'carmenkolohe/CodeSchoolQA', 11, 4, 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', ['carmenkolohe','jendevelops'], 1, 18, 0),
 (388004440, 'oscafrica/open-source-challenge-2021', 47, 1, 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ['BolajiAyodeji','Petec0x0'], 1, 0, 0),
 (388022569, 'muhammaddzaky/zuramai', 1, 0, null, ['zuramai'], 1, 24, 0),
+(387630224, 'carmenkolohe/CodeSchoolQA', 11, 4, 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', ['carmenkolohe','jendevelops'], 1, 18, 0),
 (388026773, 'elizabethsiegle/twilio-video-mask-ml5', 4, 0, 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ['elizabethsiegle'], 1, 2, 0),
 (388180308, 'naturalnat/symptoms-client', 5, 1, null, ['naturalnat'], 1, 3, 0),
 (388210681, 'Amoghtech/YTDownloader', 9, 0, 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ['Amoghtech'], 1, 2, 0),

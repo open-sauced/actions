@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T01:02:31.148Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T02:48:11.203Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
