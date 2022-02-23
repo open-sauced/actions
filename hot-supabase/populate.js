@@ -5,7 +5,7 @@ import { supabase } from './lib/supabase.js'
 import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
 import consoleHeader from './lib/consoleHeader.js'
-import cron from './cron.json'
+import cron from './cron.json' assert { type: 'json' }
 
 const limitDays = parseInt(process.env.LIMIT_DAYS) || 1
 let limitUsers = parseInt(process.env.LIMIT_USERS) || 5

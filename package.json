@@ -1,9 +1,25 @@
 {
   "name": "actions",
-  "version": "1.0.0",
   "description": "The open-sauced actions",
+  "keywords": [],
+  "version": "1.0.0",
+  "author": "Brian 'bdougie' Douglas <ilikerobot@gmail.com>",
+  "private": true,
+  "license": "MIT",
   "main": "index.js",
   "type": "module",
+  "homepage": "https://github.com/open-sauced/actions#readme",
+  "bugs": {
+    "url": "https://github.com/open-sauced/actions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-sauced/actions.git"
+  },
+  "engines": {
+    "node": ">= 16.7.0",
+    "npm": ">= 8.0.0"
+  },
   "scripts": {
     "push": "npx @open-sauced/conventional-commit",
     "populate": "node --experimental-json-modules ./hot-supabase/populate.js",
@@ -11,20 +27,9 @@
     "seed": "node --experimental-json-modules ./hot-supabase/seed.js",
     "seed:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/seed.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/open-sauced/actions.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/open-sauced/actions/issues"
-  },
-  "homepage": "https://github.com/open-sauced/actions#readme",
   "dependencies": {
     "@antfu/utils": "^0.5.0",
-    "@supabase/supabase-js": "^1.29.4",
+    "@supabase/supabase-js": "^1.30.6",
     "cfonts": "^2.10.0",
     "csv-stringify": "^6.0.5",
     "node-fetch": "^3.2.0",
@@ -33,6 +38,6 @@
   "devDependencies": {
     "@open-sauced/check-engines": "^1.2.0",
     "@open-sauced/conventional-commit": "^1.0.1",
-    "dotenv": "^14.3.2"
+    "dotenv": "^16.0.0"
   }
 }
