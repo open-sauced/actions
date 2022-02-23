@@ -197,7 +197,9 @@ async function run() {
 
             await supabase
               .from('user_stars')
-              .insert(userStars)
+              .upsert(userStars, {
+                onConflict: "id"
+              })
           }
 
           // send parsedData to stars table
@@ -210,10 +212,11 @@ async function run() {
           console.log(`ADDED STARS FROM: ${installation.account.login}`)
 
           // send parsedData to supabase
-          supabase
+          await supabase
             .from('users')
             .upsert({
               id: installation.account.id,
+              login: installation.account.login,
               stars_data: starsData,
               open_issues: repository.open_issues_count,
               private: repository.private,
