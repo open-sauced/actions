@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T20:43:28.392Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T22:43:18.050Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1308,8 +1308,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (97054975, 'Kristories/awesome-guidelines', 6388, 0, 'A curated list of high quality coding style conventions and standards.', ['Kristories','shlomif'], 1, 27, 0),
 (97086543, 'TheAlgorithms/Javascript', 16153, 22, 'A repository for All algorithms implemented in Javascript (for educational purposes only)', ['raklaptudirm','pomkarnath98'], 2, 15, 0),
 (97186109, 'jfloff/docker-heroku-rails', 15, 1, 'Docker container for Rails based on the new Heroku-16 base image.', ['jfloff','rnters-bot'], 1, 4, 0),
-(97841590, 'burkeholland/express-react-starter', 175, 8, 'A starter template for running React and Express from the same project', ['burkeholland'], 1, 8, 0),
 (97559842, 'bvaughn/react-error-boundary', 3353, 5, 'Simple reusable React error boundary component', ['bvaughn','kentcdodds'], 2, 7, 0),
+(97841590, 'burkeholland/express-react-starter', 175, 8, 'A starter template for running React and Express from the same project', ['burkeholland'], 1, 8, 0),
 (97947902, 'aai210/Best-on-CodePen', 13, 0, 'Here collected a collection of favorite CodePen', ['aai210'], 1, 16, 0),
 (97989275, 'theseus-os/Theseus', 1641, 25, 'Theseus is a modern OS written from scratch in Rust that explores 𝐢𝐧𝐭𝐫𝐚𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧, novel OS structure, and state management. It strives to close the semantic gap between compiler and hardware in order to maximally leverage the power of language safety, and thus shift OS responsibilities (resource management) into the compiler.', ['kevinaboos','arysef'], 1, 25, 0),
 (98029592, 'ziishaned/learn-regex', 40108, 56, 'Learn regex the easy way', ['ziishaned','bueltge'], 1, 25, 0),
@@ -3038,8 +3038,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (333228035, 'SufiaAshraf/Role_Based_Authentication', 1, 0, 'In computer systems security, role-based access control or role-based security is an approach to restricting system access to authorized users. I have build a role-based authentication app to restrict access for manager , admin and superadmin', ['SufiaAshraf'], 1, 12, 0),
 (333280676, 'juliobonon/learn-rust', 1, 0, 'Just a small project to learn rust lang.', ['juliobonon'], 1, 18, 0),
 (333421996, 'therealsreehari/Learn-Data-Science-For-Free', 4756, 5, 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', ['therealsreehari','tuxiqae'], 1, 9, 0),
-(333719667, 'EliseeCode/exolingo', 1, 2, 'Opensource flashCard system optimised for languages.', ['EliseeCode','nobalpha'], 1, 22, 0),
 (333980205, 'cassidoo/cass.run', 129, 0, 'My own lil URL shortener', ['cassidoo','Jadhielv'], 1, 29, 0),
+(333719667, 'EliseeCode/exolingo', 1, 2, 'Opensource flashCard system optimised for languages.', ['EliseeCode','nobalpha'], 1, 22, 0),
 (334167971, 'ashishsahu1/ML-ProjectYard', 86, 16, 'This repo consists of multiple machine learning based projects with frontend ', ['ashishsahu1','Amit366'], 1, 2, 0),
 (334195792, 'teezzan/flw_validator', 1, 0, 'A simple server-side validator. A submission for flutterwave''s coding assessment ', ['teezzan'], 1, 11, 0),
 (334229943, 'nodegui/svelte-nodegui', 2596, 22, 'Build performant, native and cross-platform desktop applications with native Svelte + powerful CSS-like styling.🚀', ['halfnelson','shirakaba'], 1, 18, 0),

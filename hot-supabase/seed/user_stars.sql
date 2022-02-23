@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T20:43:28.515Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T22:43:17.872Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -854,11 +854,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (268098312, 847, 44642314, 'ZedThree/clang-tidy-review', 0, 'Create a pull request review based on clang-tidy warnings', 9, 17, ['ZedThree','vadi2']),
 (406196482, 848, 44642314, 'careBT/carebt_core', 1, 'A Python library offering a Behavior Tree implementation which focuses on contingency handling - the key to master complex applications which operate in dynamic worlds.', 0, 2, ['AndiSteck']),
 (83821669, 849, 44642314, 'Qiskit/qiskit-terra', 2, 'Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and algorithms.', 706, 3179, ['mtreinish','jaygambetta']),
-(129936360, 850, 44642314, 'PennyLaneAI/pennylane', 3, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', 140, 1114, ['josh146','co9olguy']),
 (201403923, 851, 44642314, 'activeloopai/Hub', 4, 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', 69, 4084, ['AbhinavTuli','nollied']),
 (360655524, 852, 44642314, 'education/GitHubGraduation-2021', 5, 'Join the GitHub Graduation Yearbook and ''walk the stage'' on June 5.', 1345, 1404, ['juanpflores','elisemoe']),
 (122299416, 853, 44642314, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 162, 5706, ['toshihikoyanase','hvy']),
 (77369463, 854, 44642314, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8016, ['jlelong','tamuratak']),
+(129936360, 850, 44642314, 'PennyLaneAI/pennylane', 3, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', 140, 1114, ['josh146','co9olguy']),
 (579842, 855, 44642314, 'matlab2tikz/matlab2tikz', 8, 'This program converts MATLAB®/Octave figures to TikZ/pgfplots figures for smooth integration into LaTeX.', 234, 1167, ['egeerardyn','nschloe']),
 (53238813, 856, 44642314, 'Homebrew/brew', 9, '🍺 The missing package manager for macOS (or Linux)', 46, 30371, ['MikeMcQuaid','jacknagel']),
 (268972184, 857, 44642314, 'shilohc/map2gazebo', 10, null, 7, 87, []),
@@ -1017,6 +1017,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (208143342, 1009, 20134767, 'github-craftwork/start-here', 1, 'You should open this repo first', 5, 82, ['bdougie','JayantGoel001']),
 (40518025, 1010, 20134767, 'graphql/graphiql', 2, 'GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.', 184, 13009, ['wincent','acao']),
 (239656008, 1011, 20134767, 'jamstack-cms/jamstack-ecommerce', 3, 'A starter project for building performant ECommerce applications with Next.js and React', 14, 1580, ['dabit3','thorsten-stripe']),
+(112150776, 1012, 20134767, '11ty/eleventy', 4, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 441, 10908, ['zachleat','MadeByMike']),
+(71359796, 1013, 20134767, 'open-sauced/open-sauced', 5, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
+(280770211, 1014, 20134767, 'open-sauced/slaybot', 6, 'Kind of like beybot, but this one slays 😎', 8, 16, ['bdougie','filiptronicek']),
 (281443363, 1015, 20134767, 'sindresorhus/css-in-readme-like-wat', 7, 'Style your readme using CSS with this simple trick', 1, 4754, ['sindresorhus','ImprovedTube']),
 (97559842, 1016, 20134767, 'bvaughn/react-error-boundary', 8, 'Simple reusable React error boundary component', 5, 3353, ['bvaughn','kentcdodds']),
 (144624857, 1017, 20134767, 'checkly/headless-recorder', 9, 'Chrome extension that records your browser interactions and generates a Playwright or Puppeteer script. ', 24, 13800, ['tnolet','ianaya89']),
@@ -1046,10 +1049,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (41881900, 1040, 58392246, 'microsoft/vscode', 13, 'Visual Studio Code', 5351, 125674, ['bpasero','jrieken']),
 (1644196, 1041, 58392246, 'JuliaLang/julia', 14, 'The Julia Programming Language', 4370, 37569, ['JeffBezanson','StefanKarpinski']),
 (246542492, 1042, 58392246, 'HACK3RY2J/Anon-SMS', 15, 'A Tool To Send Messages Anonymously..', 15, 541, ['HACK3RY2J','attitude-icon']),
-(112150776, 1012, 20134767, '11ty/eleventy', 4, 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', 441, 10908, ['zachleat','MadeByMike']),
 (386632210, 1043, 58392246, 'muhammaddzaky/Mengambil-Data-Sekolah', 16, 'Mengambil Datang Sekolah ', 0, 1, ['muhammaddzaky']),
-(71359796, 1013, 20134767, 'open-sauced/open-sauced', 5, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
-(280770211, 1014, 20134767, 'open-sauced/slaybot', 6, 'Kind of like beybot, but this one slays 😎', 8, 16, ['bdougie','filiptronicek']),
 (386633454, 1044, 58392246, 'muhammaddzaky/Data-Pokok-Pendidikan', 17, 'Data Pokok Pendidikan', 0, 1, ['muhammaddzaky']),
 (386572538, 1045, 58392246, 'muhammaddzaky/https-codeigniter.com-', 18, 'https://codeigniter.com/', 0, 1, ['muhammaddzaky']),
 (387461341, 1046, 58392246, 'muhammaddzaky/alfathir.github.io', 19, null, 0, 1, ['alfathir','giadev25']),
@@ -3365,6 +3365,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (289205582, 3367, 1645628, 'kr1sp1n/awesome-gemini', 4, 'A collection of awesome things regarding the gemini protocol ecosystem.', 5, 530, ['kr1sp1n','pitr']),
 (343964517, 3368, 1645628, 'module-federation/microlib-examples', 5, 'This template project provides the scaffolding to build a federated application on ÆGIS. It also contains an example of an Order, Customer and Inventory service streaming to / running in the same ÆGIS host server process; and demonstrates integration with, and orchestration of, an Address, Payment, Inventory, Shipping, Event (Kafka, WebSockets), and Persistence service (MongoDB) via Aegis federated ports. ', 1, 22, ['tysonrm','ScriptedAlchemy']),
 (246069937, 3369, 1645628, 'ryersondmp/sa11y', 6, 'Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.', 5, 106, ['adamchaboryk','ryersondmp']),
+(381881172, 3370, 1645628, 'sdras/js-explorer', 7, 'Find the method you need without digging through the docs, directly on the command line!', 4, 233, ['sdras','anandshenoy14']),
+(146619556, 3371, 1645628, 'trekhleb/learn-python', 8, '📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.', 9, 11500, ['trekhleb','vilmacio']),
 (229270550, 3372, 1645628, 'WordPress/theme-experiments', 9, 'Experimenting with themes made out of blocks.', 53, 382, ['kjellr','carolinan']),
 (2881789, 3373, 1645628, 'geekcomputers/Python', 10, 'My Python Examples', 213, 24388, ['geekcomputers','cclauss']),
 (75645659, 3374, 1645628, 'WordPress/wordpress-develop', 11, 'WordPress Develop, Git-ified. Synced from git://develop.git.wordpress.org/, including branches and tags! This repository is just a mirror of the WordPress subversion repository. Please include a link to a pre-existing ticket on https://core.trac.wordpress.org/ with every pull request.', 543, 1052, ['ryanboren','SergeyBiryukov']),
@@ -4128,8 +4130,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (311865672, 4130, 14043845, 'vercel/nextjs-subscription-payments', 16, 'Clone, deploy, and fully customize a SaaS subscription application with Next.js.', 12, 1405, ['thorwebdev','leerob']),
 (295892018, 4131, 14043845, 'ThatGuySam/doesitarm', 17, '🦾 A list of reported app support for Apple Silicon and the new Apple M1 Macs', 67, 3203, ['ThatGuySam','tonyunreal']),
 (294564715, 4132, 14043845, 'VickiLanger/LGBTQ-of-the-day-bot', 18, 'Twitter bot tweeting fun goofy lgbtq things and queer history of the day', 19, 60, ['VickiLanger','JasirZaeem']),
-(381881172, 3370, 1645628, 'sdras/js-explorer', 7, 'Find the method you need without digging through the docs, directly on the command line!', 4, 233, ['sdras','anandshenoy14']),
-(146619556, 3371, 1645628, 'trekhleb/learn-python', 8, '📚 Playground and cheatsheet for learning Python. Collection of Python scripts that are split by topics and contain code examples with explanations.', 9, 11500, ['trekhleb','vilmacio']),
 (246322368, 4133, 14043845, 'dayhaysoos/use-shopping-cart', 19, 'Shopping cart state and logic for Stripe', 33, 677, ['dayhaysoos','andria-dev']),
 (167697129, 4134, 14043845, 'rajatjindal/goodfirstissue', 20, 'openfaas function to handle webhooks for goodfirstissue github app', 7, 16, ['rajatjindal','alexellis']),
 (31670637, 4135, 14043845, 'samswag/Football', 21, null, 0, 10, ['samswag','walterbender']),
@@ -4338,8 +4338,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (37552628, 375812408, 908380, 'ueberauth/guardian', 0, 'Elixir Authentication', 4, 3160, ['doomspork','Hanspagh']),
 (399821046, 321809845, 907680, 'varbhat/exatorrent', 0, 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', 6, 1375, ['varbhat']),
 (26500787, 455678420, 6499373, 'tonsky/FiraCode', 0, 'Free monospaced font with programming ligatures', 295, 61794, ['tonsky','thundernixon']),
-(279163614, 320434477, 2658040, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 3, 20, ['0-vortex']),
 (399772846, 323523231, 55907631, 'commclassroom/mobileapp', 0, 'This is an official mobile app for community classroom', 5, 57, ['thisisamank','VarunSAthreya']),
+(279163614, 320434477, 2658040, '0-vortex/0-vortex', 0, 'Config files for my GitHub profile.', 3, 20, ['0-vortex']),
 (285782908, 307155109, 12400445, 'jmc265/dotfiles', 0, null, 0, 3, ['bw-jamescross','jmc265']),
 (156648725, 328070675, 59939260, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 0, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 227, 8853, ['LinuxMercedes','iliana']),
 (287573157, 419094803, 12849040, 'Leniolabs/layoutit-grid', 0, 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', 12, 1123, ['patak-dev','agustin-capeletto-lenio']),
