@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T02:48:11.206Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T04:46:43.936Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -805,6 +805,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (374341212, 796, 79887, 'rickclephas/KMP-NativeCoroutines', 22, 'Library to use Kotlin Coroutines from Swift code in KMP apps', 4, 196, ['rickclephas']),
 (113813718, 797, 79887, 'xvik/gradle-use-python-plugin', 23, 'Use python modules in gradle build', 3, 51, ['xvik','yellowsquid']),
 (61583938, 798, 79887, 'linkedin/pygradle', 24, 'Using Gradle to build Python projects', 91, 544, ['zvezdan','ethankhall']),
+(413454220, 799, 79887, 'xmartlabs/TypedNavigation', 25, 'A lightweight library to help you navigate in compose with well typed functions.', 0, 16, ['f7deleon','mirland']),
 (415035403, 800, 79887, 'ch4rl3x/HtmlText', 26, 'Jetpack Compose HtmlText', 0, 10, ['ch4rl3x']),
 (406327361, 801, 79887, 'terrakok/kmm-awesome', 27, 'An awesome list that curates the best KMM libraries, tools and more. ', 0, 456, ['terrakok','PStrelchenko']),
 (4127088, 802, 79887, 'Azure/azure-sdk-for-python', 28, 'This repository is for active development of the Azure SDK for Python. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/python/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-python. ', 807, 2330, ['lmazuel','azure-sdk']),
@@ -1090,7 +1091,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (374018112, 1083, 59651629, 'sadanandpai/frontend-learning-kit', 26, 'Frontend tech guide and collection of highly recommended materials', 0, 1006, ['sadanandpai','dth99']),
 (262286900, 1084, 59651629, 'know-prashant/vanilla-js-components', 27, 'A list of 50 Components created in vanilla JS', 0, 17, ['know-prashant']),
 (62932724, 1085, 59651629, 'nem035/js-function-fun', 28, 'Fun with JavaScript functions', 0, 5, ['nem035']),
-(413454220, 799, 79887, 'xmartlabs/TypedNavigation', 25, 'A lightweight library to help you navigate in compose with well typed functions.', 0, 16, ['f7deleon','mirland']),
 (206410838, 1086, 59651629, 'google/eng-practices', 29, 'Google''s Engineering Practices documentation', 6, 17782, ['code-health-devguide-copybara','adambender']),
 (712530, 1087, 45036724, 'fabricjs/fabric.js', 0, 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', 266, 20744, ['kangax','asturur']),
 (68678413, 1088, 45036724, 'ai/nanoevents', 1, 'Simple and tiny (72 bytes) event emitter library for JavaScript', 0, 1033, ['ai','subzey']),
@@ -3210,7 +3210,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (417268538, 3212, 3754311, 'tkwant/react-steps', 5, null, 0, 6, ['tkwant']),
 (355395936, 3213, 3754311, 'xizon/poemkit', 6, 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', 2, 56, ['xizon']),
 (420110494, 3214, 3754311, 'louelladev/Helpful-Tech-Resources', 7, 'A collection of helpful and educational resources I found on social media', 0, 89, ['louelladev']),
-(197915964, 3215, 3754311, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 41, ['albertopoljak','HuyaneMatsu']),
 (405353162, 3216, 3754311, 'james-a-rob/mega-feed', 9, 'Aggregates events across digital tools.', 0, 4, ['james-a-rob']),
 (19415064, 3217, 3754311, 'ossu/computer-science', 10, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 103957, ['ericdouglas','joshmhanson']),
 (2151073, 3218, 3754311, 'SalesforceLabs/survey-force', 11, null, 10, 65, ['jrattanpal','dschach']),
@@ -3680,6 +3679,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (399772846, 3682, 55907631, 'commclassroom/mobileapp', 0, 'This is an official mobile app for community classroom', 5, 58, ['thisisamank','VarunSAthreya']),
 (79162682, 3683, 55907631, 'laurent22/joplin', 1, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 390, 27240, ['laurent22','tessus']),
 (183454144, 3684, 55907631, 'pransh15/moz-starter-pack', 2, 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', 3, 17, ['pransh15','pranitb10']),
+(197915964, 3215, 3754311, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 41, ['albertopoljak','HuyaneMatsu']),
 (215390876, 3685, 55907631, 'malgamves/CommunityWriterPrograms', 3, 'A list of Developer Community Writer Programs', 15, 1515, ['malgamves','karllhughes']),
 (441646385, 3686, 55907631, 'cod-ed/simulate', 4, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', 0, 0, ['yashlamba','akshansh2000']),
 (512295, 3885, 622115, 'grails/grails-core', 20, 'The Grails Web Application Framework', 224, 2636, ['graemerocher','jeffbrown']),

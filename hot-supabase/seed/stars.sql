@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T02:48:11.203Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T04:46:43.767Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -531,8 +531,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (5640, 37982, 1702, 'facebook/jest', 15062869),
 (2, 1, 0, 'mercyharbo/myShoppingList', 391775174),
 (472, 4959, 23, 'davidfowl/AspNetCoreDiagnosticScenarios', 152370823),
-(11506, 40332, 24, 'deepfakes/faceswap', 114747226),
 (2103, 16683, 142, 'basarat/typescript-book', 32623292),
+(11506, 40332, 24, 'deepfakes/faceswap', 114747226),
 (172, 1589, 57, 'dotnet/pinvoke', 44758360),
 (873, 1717, 0, 'talkpython/python-for-absolute-beginners-course', 225979578),
 (0, 1, 0, 'Mogakamo/LoveMeNowBook', 314859745),
