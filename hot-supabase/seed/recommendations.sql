@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T18:45:23.145Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T20:43:28.392Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1308,8 +1308,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (97054975, 'Kristories/awesome-guidelines', 6388, 0, 'A curated list of high quality coding style conventions and standards.', ['Kristories','shlomif'], 1, 27, 0),
 (97086543, 'TheAlgorithms/Javascript', 16153, 22, 'A repository for All algorithms implemented in Javascript (for educational purposes only)', ['raklaptudirm','pomkarnath98'], 2, 15, 0),
 (97186109, 'jfloff/docker-heroku-rails', 15, 1, 'Docker container for Rails based on the new Heroku-16 base image.', ['jfloff','rnters-bot'], 1, 4, 0),
-(97559842, 'bvaughn/react-error-boundary', 3353, 5, 'Simple reusable React error boundary component', ['bvaughn','kentcdodds'], 2, 7, 0),
 (97841590, 'burkeholland/express-react-starter', 175, 8, 'A starter template for running React and Express from the same project', ['burkeholland'], 1, 8, 0),
+(97559842, 'bvaughn/react-error-boundary', 3353, 5, 'Simple reusable React error boundary component', ['bvaughn','kentcdodds'], 2, 7, 0),
 (97947902, 'aai210/Best-on-CodePen', 13, 0, 'Here collected a collection of favorite CodePen', ['aai210'], 1, 16, 0),
 (97989275, 'theseus-os/Theseus', 1641, 25, 'Theseus is a modern OS written from scratch in Rust that explores 𝐢𝐧𝐭𝐫𝐚𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧, novel OS structure, and state management. It strives to close the semantic gap between compiler and hardware in order to maximally leverage the power of language safety, and thus shift OS responsibilities (resource management) into the compiler.', ['kevinaboos','arysef'], 1, 25, 0),
 (98029592, 'ziishaned/learn-regex', 40108, 56, 'Learn regex the easy way', ['ziishaned','bueltge'], 1, 25, 0),
@@ -2479,9 +2479,9 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (256725670, 'bansal-io/pattern.css', 3482, 18, 'CSS only library to fill empty background with beautiful patterns.', ['bansal-io'], 1, 8, 0),
 (256742063, 'NyashaNziramasanga/facebook-navbar-ui-clone', 1, 2, '🌃  A clone of Facebooks dark theme nav bar 🌆', ['NyashaNziramasanga'], 1, 9, 0),
 (256823068, 'damianra/COVID19-ARG-API', 2, 13, null, ['damianra','ColomboJuan'], 1, 21, 0),
+(256847634, 'Camberi/firecms', 400, 24, 'Awesome Firestore based CMS', ['fgatti675','zhigang1992'], 1, 6, 0),
 (256850364, 'macabeus/fluent-typescript', 11, 12, '📦 Automatically generate TypeScript declarations for Fluent files', ['macabeus','LokiMidgard'], 1, 29, 0),
 (257022147, 'simonw/til', 408, 7, 'Today I Learned', ['simonw','davidbgk'], 1, 2, 0),
-(256847634, 'Camberi/firecms', 400, 24, 'Awesome Firestore based CMS', ['fgatti675','zhigang1992'], 1, 6, 0),
 (257171786, 'mjebrahimi/Awesome-Microservices-NetCore', 1503, 0, '💎 A collection of awesome training series, articles, videos, books, courses, sample projects, and tools for Microservices in .NET Core', ['mjebrahimi','logcorner'], 1, 2, 0),
 (257314632, 'onflow/fcl-js', 227, 35, 'FCL (Flow Client Library) - The best tool for building JavaScript (browser & NodeJS) applications on Flow 🌊', ['JeffreyDoyle','orodio'], 1, 28, 0),
 (257404606, 'textileio/js-examples', 50, 3, 'Examples and demos using Textile''s Javascript/Typescript libraries and clients.', ['andrewxhill','carsonfarmer'], 1, 29, 0),
