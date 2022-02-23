@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T08:44:02.472Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T10:43:43.359Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1313,7 +1313,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 2, 0, 'fmendoza/laravel-mx-db', 31232075),
 (0, 2, 0, '0-vortex/open-sauced-catsup-app-test', 457069101),
 (314, 1055, 66, 'rspec/rspec-mocks', 238983),
-(418, 6709, 313, 'microsoft/fast', 123625732),
 (1842, 16446, 437, 'Redocly/redoc', 45250726),
 (7558, 35004, 49, 'discourse/discourse', 7569578),
 (1511, 6725, 778, 'microsoft/cpprestsdk', 23202799),
@@ -1326,6 +1325,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 31, 7, 'michal-wrzosek/cntl', 238537897),
 (2, 7, 17, 'ngduc/rails-react-typescript-jest', 269822028),
 (40, 146, 5, 'ohbarye/rails-react-typescript-docker-example', 140059059),
+(418, 6709, 313, 'microsoft/fast', 123625732),
 (283, 5047, 0, 'JanDeDobbeleer/oh-my-posh2', 54226191),
 (53, 187, 6, 'cassidoo/next-netlify-blog-starter', 259556924),
 (0, 1, 0, 'ryanbonial/car-gallery', 258616743),
@@ -1377,8 +1377,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (2, 10, 0, 'vadimdemedes/patch-console', 272491255),
 (205, 873, 92, 'EthWorks/useDApp', 322542582),
 (498, 839, 29, 'hasura/learn-graphql', 210332258),
-(9, 39, 14, 'sandrinodimattia/nextjs-auth0-example', 207877287),
 (2, 30, 0, 'rx-mind/ngrx-plugins', 373327367),
+(9, 39, 14, 'sandrinodimattia/nextjs-auth0-example', 207877287),
 (0, 31, 0, 'ang3lkar/pretty-diffs', 70487339),
 (675, 8128, 111, 'vueuse/vueuse', 227978903),
 (8, 328, 0, 'iridakos/table_flipper', 52661288),
@@ -2767,8 +2767,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 1, 0, 'yomaokobiah/nairaland-visualisation', 235970716),
 (2, 14, 0, 'CorvetteCole/transparent-window-moving', 261266244),
 (0, 3, 0, 'rep2recall/r2r-cli', 371708649),
-(0, 1, 0, 'Helewud/MapLog', 389664802),
 (0, 4, 1, 'Helewud/Travel-Log-App', 382172039),
+(0, 1, 0, 'Helewud/MapLog', 389664802),
 (0, 1, 0, 'Helewud/Vidly', 363500480),
 (1, 4, 0, 'BolajiAyodeji/headless-swag-store', 389086554),
 (118, 514, 8, 'Mimetis/Dotmim.Sync', 76020516),
@@ -2944,11 +2944,11 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1, 11, 12, 'macabeus/fluent-typescript', 256850364),
 (3, 53, 13, 'phenomnomnominal/screen-reader-reader', 218163448),
 (22843, 189497, 41, 'sindresorhus/awesome', 21737465),
+(267, 1587, 14, 'malgamves/CommunityWriterPrograms', 215390876),
+(0, 6, 0, 'CTNicholas/tauque', 318024453),
 (43, 727, 1, 'asos-craigmorten/opine', 265215050),
 (210, 514, 16, 'inloop/sqlite-viewer', 42409958),
-(267, 1587, 14, 'malgamves/CommunityWriterPrograms', 215390876),
 (617, 7996, 11, 'cyrus-and/gdb-dashboard', 42191943),
-(0, 6, 0, 'CTNicholas/tauque', 318024453),
 (17, 53, 1, 'minio/minio-rs', 192597257),
 (219, 7481, 66, 'nodegui/nodegui', 186662363),
 (6290, 55564, 483, 'gin-gonic/gin', 20904437),
