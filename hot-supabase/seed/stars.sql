@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T14:43:26.877Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T16:50:57.892Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2145,8 +2145,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 3, 0, 'alanmontgomery/ionic-react-hook-form-example', 377196642),
 (120, 303, 3, 'mhmzdev/DevFolio', 350240448),
 (1659, 23791, 26, 'tmux/tmux', 36836475),
-(1331, 5824, 60, 'official-stockfish/Stockfish', 20976138),
 (11, 67, 24, 'dai-shi/remote-faces', 144869712),
+(1331, 5824, 60, 'official-stockfish/Stockfish', 20976138),
 (32, 830, 0, 'mobz/lag-radar', 126813008),
 (263, 3167, 0, 'CollabCodeTech/backend-challenges', 195897446),
 (40, 209, 0, 'bregman-arie/system-design-notebook', 287950119),
@@ -2237,8 +2237,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (31, 774, 24, 'meriyah/meriyah', 185327227),
 (6, 18, 0, 'GoogleCloudPlatform/air-draw-demo', 185054404),
 (6, 8, 21, 'M0nica/ambition-fund-website', 273810635),
-(2422, 8124, 4, 'sudheerj/javascript-interview-questions', 108708339),
 (1172, 3981, 276, 'juce-framework/JUCE', 3884981),
+(2422, 8124, 4, 'sudheerj/javascript-interview-questions', 108708339),
 (6668, 31255, 152, 'photonstorm/phaser', 9393759),
 (75, 158, 0, 'samanthabretous/black-speakers-in-tech', 160402426),
 (219, 648, 17, 'sec-edgar/sec-edgar', 14759456),
@@ -3323,8 +3323,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (11, 150, 0, 'antfu/utils', 356744623),
 (0, 3, 0, '0-vortex/rss-feed-parser', 451964411),
 (18, 152, 12, 'swinton/screenshot-website', 245505091),
-(20, 170, 6, 'jslicense/licensee.js', 35319136),
 (6, 14, 0, 'RapidAPI/DevRel-Examples-External', 411237210),
+(20, 170, 6, 'jslicense/licensee.js', 35319136),
 (477, 17712, 69, 'vadimdemedes/ink', 94061307),
 (51, 1862, 8, 'ngneat/falso', 445896247),
 (33, 604, 40, 'redkubes/otomi-core', 200118806),
