@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T06:46:19.658Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T08:44:02.883Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1283,8 +1283,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (265308478, 1295, 10291643, 'aslotte/MLOps.NET', 26, 'A machine learning model operations and management tool for ML.NET', 31, 65, ['aslotte','Brett-Parker']),
 (3660761, 1296, 10291643, 'andreassolberg/jso', 27, 'Easy to use OAuth 2.0 javascript library for use in your javascript application.', 48, 849, ['andreassolberg','fkooman']),
 (240960453, 1297, 10291643, 'cmgriffing/idiosyncrasy', 28, null, 6, 7, ['CodeItQuick','cmgriffing']),
-(38832942, 1299, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 28, 8633, ['Aharris88','jneidel']),
 (139069331, 1298, 10291643, 'forestryio/ubuild-hugo', 29, null, 3, 11, ['dwalkr']),
+(38832942, 1299, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 28, 8633, ['Aharris88','jneidel']),
 (1219740, 1300, 67718832, 'StylishThemes/GitHub-Dark', 1, ':octocat: Dark GitHub style', 49, 9477, ['silverwind','Mottie']),
 (53133861, 1301, 67718832, 'nikitavoloboev/my-mac-os', 2, 'List of applications and tools that make my macOS experience even more amazing', 3, 18345, ['nikitavoloboev','herbygillot']),
 (51270739, 1302, 67718832, 'viatsko/awesome-vscode', 3, '🎨 A curated list of delightful VS Code packages and resources.', 49, 19677, ['viatsko','lannonbr']),
@@ -2021,8 +2021,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (142616550, 2756, 2808728, 'bernaferrari/EmojiSlider', 5, '🤯 A slider widget rich in emoji and highly customisable.', 4, 569, ['bernaferrari','ImgBotApp']),
 (24516196, 2757, 2808728, 'nhat-nguyen/bittersweet', 6, 'a color scheme for Sublime Text', 0, 7, ['nhat-nguyen']),
 (78819190, 2758, 2808728, 'prettier/prettier-eslint', 7, 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', 37, 3441, ['zimme','kentcdodds']),
-(128468095, 2759, 2808728, 'llSourcell/Learn_Computer_Science_in_5_Months', 8, 'This is the Curriculum for ''Learn Computer Science in 5 Months'' By Siraj Raval on Youtube', 9, 1800, ['llSourcell','SaumoPal97']),
-(368642007, 2799, 28281924, 'ulissesdias/si700-2021-1st-backend-', 5, null, 0, 1, ['ulissesdias']),
 (258862770, 2006, 1058663, 'kuasha/jvm', 1, 'Home made java virtual machine', 0, 8, ['kuasha']),
 (134734981, 2007, 1058663, 'berliCRM/berlicrm', 2, 'From Berlin to Germany and Europe - an open source CRM Solution mainly for small and medium-sized businesses:  Visit https://www.berlicrm.de/', 26, 32, ['bbommer','AlexKay85']),
 (359630124, 2008, 1058663, 'Digital-Bangladesh/sms-gateway-software', 3, 'SMS Gateway Software Installation Service From Scratch', 0, 1, ['UbuntuEvangelist']),
@@ -2206,6 +2204,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (149157946, 2186, 22154417, 'lucianomlima/react-ui-kits', 10, 'A list of UI Kits available for React and React Native.', 0, 247, ['lucianomlima','ednofedulo']),
 (231972503, 2187, 22154417, 'public-api-lists/public-api-lists', 11, 'A collective list of free APIs for use in software and web development 🚀 (Clone of https://github.com/public-apis/public-apis)', 6, 4032, ['alstn2468','AlbertSuarez']),
 (380302418, 2188, 22154417, 'ayushiee/fb-clone', 12, 'A simple and responsive facebook clone built using Typescript and React.', 0, 73, ['ayushiee','karanpratapsingh']),
+(128468095, 2759, 2808728, 'llSourcell/Learn_Computer_Science_in_5_Months', 8, 'This is the Curriculum for ''Learn Computer Science in 5 Months'' By Siraj Raval on Youtube', 9, 1800, ['llSourcell','SaumoPal97']),
 (46511887, 2189, 22154417, 'searchkit/searchkit', 13, 'GraphQL API & React UI components for Elasticsearch. The easiest way to build a great search experience', 39, 4343, ['joemcelroy','ssetem']),
 (117618207, 2190, 22154417, 'ChakriCherukuri/mlviz', 14, 'Visualizations of machine learning models and algorithms', 2, 96, ['ChakriCherukuri']),
 (41571541, 2191, 22154417, 'inspec/inspec', 15, 'InSpec: Auditing and Testing Framework', 448, 2454, ['chris-rock','clintoncwolfe']),
@@ -3416,6 +3415,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (1341324, 3418, 3846874, 'isaacs/rimraf', 2, 'A `rm -rf` util for nodejs', 63, 4532, ['isaacs','PeterDaveHello']),
 (12658090, 3419, 3846874, 'raineorshine/npm-check-updates', 3, 'Find newer versions of package dependencies than what your package.json allows', 36, 6634, ['raineorshine','XhmikosR']),
 (12973222, 3420, 3846874, 'depcheck/depcheck', 4, 'Check your npm module for unused dependencies', 38, 3052, ['lijunle','rumpl']),
+(368642007, 2799, 28281924, 'ulissesdias/si700-2021-1st-backend-', 5, null, 0, 1, ['ulissesdias']),
 (15117334, 3421, 3846874, 'thlorenz/update-section', 5, 'Updates a section inside a file with newer content while removing the old content.', 1, 3, ['thlorenz']),
 (42283287, 3422, 3846874, 'preactjs/preact', 6, '⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.', 220, 30563, ['marvinhagemeister','developit']),
 (32531480, 3423, 3846874, 'js-cookie/js-cookie', 7, 'A simple, lightweight JavaScript API for handling browser cookies', 4, 18873, ['carhartl','FagnerMartinsBrack']),
@@ -3437,8 +3437,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (667561, 3439, 3846874, 'Marak/faker.js', 23, 'generate massive amounts of realistic fake data in Node.js and the browser', 303, 34373, ['Marak','FotoVerite']),
 (2791348, 3440, 3846874, 'jprichardson/node-fs-extra', 24, 'Node.js: extra methods for the fs object like copy(), remove(), mkdirs()', 21, 8153, ['jprichardson','RyanZim']),
 (3604157, 3441, 3846874, 'shelljs/shelljs', 25, ':shell: Portable Unix shell commands for Node.js', 97, 12907, ['nfischer','arturadib']),
-(38106307, 3442, 3846874, 'survivejs/webpack-merge', 26, 'Merge designed for webpack', 7, 2489, ['bebraw','GreenGremlin']),
 (32727687, 3443, 3846874, 'mysticatea/npm-run-all', 27, 'A CLI tool to run multiple npm-scripts in parallel or sequential.', 77, 4507, ['mysticatea','k88hudson']),
+(38106307, 3442, 3846874, 'survivejs/webpack-merge', 26, 'Merge designed for webpack', 7, 2489, ['bebraw','GreenGremlin']),
 (357681, 3444, 3846874, 'isaacs/node-glob', 28, 'glob functionality for node.js', 125, 7290, ['isaacs','tanyabrassie']),
 (809601, 3445, 3846874, 'handlebars-lang/handlebars.js', 29, 'Minimal templating on steroids.', 86, 16346, ['kpdecker','nknapp']),
 (170444343, 3446, 40713709, 'DevonCrawford/Video-Editing-Automation', 0, 'Toolkit of algorithms to automate the video editing process', 8, 1063, ['DevonCrawford']),
@@ -4070,8 +4070,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (311485110, 4071, 13173676, 'epinio/epinio', 1, 'Opinionated platform that runs on Kubernetes, that takes you from App to URL in one step.', 73, 173, ['andreas-kupries','jimmykarily']),
 (307788549, 4072, 13173676, 'pretzelhands/notebag', 2, 'A note taking app that does not break your workflow', 3, 117, ['pretzelhands','lukyanov']),
 (357436262, 4073, 13173676, 'kdash-rs/kdash', 3, 'A simple and fast dashboard for Kubernetes', 25, 533, ['deepu105','somayaj']),
-(142700177, 4074, 13173676, 'JulianSchmid/someip-parse-rs', 4, 'A Rust library for parsing the SOME/IP network protocol (without payload interpretation).', 1, 12, ['JulianSchmid','marcelbuesing']),
 (366844495, 4075, 13173676, 'stackblitz/webcontainer-core', 5, null, 196, 1883, ['EricSimons','sulco']),
+(142700177, 4074, 13173676, 'JulianSchmid/someip-parse-rs', 4, 'A Rust library for parsing the SOME/IP network protocol (without payload interpretation).', 1, 12, ['JulianSchmid','marcelbuesing']),
 (71002855, 4076, 13173676, 'muryoimpl/slippr', 6, 'markdown presentation app by Electron', 0, 12, ['muryoimpl','takkanm']),
 (288234242, 4077, 13173676, 'nolar/kopf', 7, 'A Python framework to write Kubernetes operators in just a few lines of code', 125, 803, ['nolar','dlmiddlecote']),
 (283854962, 4078, 13173676, 'operator-framework/kubectl-operator', 8, 'Manage Kubernetes Operators from the command line', 12, 53, ['joelanford','kensipe']),
@@ -4266,8 +4266,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (351914021, 313760653, 3037127, 'adleong/tapshark', 0, null, 0, 17, ['adleong']),
 (326404870, 278088103, 5467696, 'SigNoz/signoz', 0, 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', 227, 5686, ['ankitnayan','palash-signoz']),
 (161633214, 312341626, 9935383, 'trailheadapps/lwc-recipes', 0, 'A collection of easy-to-digest code examples for Lightning Web Components on Salesforce Platform', 1, 1568, ['pozil','muenzpraeger']),
-(529502, 314317770, 4573607, 'scrapy/scrapy', 0, 'Scrapy, a fast high-level web crawling & scraping framework for Python.', 781, 42679, ['pablohoffman','dangra']),
 (3655872, 382153724, 49351279, 'vercel/ms', 0, 'Tiny millisecond conversion utility', 19, 3826, ['leo','rauchg']),
+(529502, 314317770, 4573607, 'scrapy/scrapy', 0, 'Scrapy, a fast high-level web crawling & scraping framework for Python.', 781, 42679, ['pablohoffman','dangra']),
 (438410446, 425791199, 7293310, 'saitho/streamdeck-calculator', 0, 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', 7, 1, ['saitho']),
 (370470353, 402886161, 29004466, 'ViktorStiskala/tyre-energy-label', 0, 'EU tyre label generator', 0, 1, ['ViktorStiskala']),
 (184130597, 403571490, 46643864, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 0, 'Angular 11.0 Firebase App - Online School , Student Management App', 0, 142, ['AmitXShukla']),
