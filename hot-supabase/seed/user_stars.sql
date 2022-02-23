@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T04:46:43.936Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T06:46:19.658Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1283,8 +1283,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (265308478, 1295, 10291643, 'aslotte/MLOps.NET', 26, 'A machine learning model operations and management tool for ML.NET', 31, 65, ['aslotte','Brett-Parker']),
 (3660761, 1296, 10291643, 'andreassolberg/jso', 27, 'Easy to use OAuth 2.0 javascript library for use in your javascript application.', 48, 849, ['andreassolberg','fkooman']),
 (240960453, 1297, 10291643, 'cmgriffing/idiosyncrasy', 28, null, 6, 7, ['CodeItQuick','cmgriffing']),
-(139069331, 1298, 10291643, 'forestryio/ubuild-hugo', 29, null, 3, 11, ['dwalkr']),
 (38832942, 1299, 67718832, 'agarrharr/awesome-cli-apps', 0, '🖥 📊 🕹 🛠 A curated list of command line apps', 28, 8633, ['Aharris88','jneidel']),
+(139069331, 1298, 10291643, 'forestryio/ubuild-hugo', 29, null, 3, 11, ['dwalkr']),
 (1219740, 1300, 67718832, 'StylishThemes/GitHub-Dark', 1, ':octocat: Dark GitHub style', 49, 9477, ['silverwind','Mottie']),
 (53133861, 1301, 67718832, 'nikitavoloboev/my-mac-os', 2, 'List of applications and tools that make my macOS experience even more amazing', 3, 18345, ['nikitavoloboev','herbygillot']),
 (51270739, 1302, 67718832, 'viatsko/awesome-vscode', 3, '🎨 A curated list of delightful VS Code packages and resources.', 49, 19677, ['viatsko','lannonbr']),
@@ -3210,6 +3210,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (417268538, 3212, 3754311, 'tkwant/react-steps', 5, null, 0, 6, ['tkwant']),
 (355395936, 3213, 3754311, 'xizon/poemkit', 6, 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', 2, 56, ['xizon']),
 (420110494, 3214, 3754311, 'louelladev/Helpful-Tech-Resources', 7, 'A collection of helpful and educational resources I found on social media', 0, 89, ['louelladev']),
+(197915964, 3215, 3754311, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 41, ['albertopoljak','HuyaneMatsu']),
 (405353162, 3216, 3754311, 'james-a-rob/mega-feed', 9, 'Aggregates events across digital tools.', 0, 4, ['james-a-rob']),
 (19415064, 3217, 3754311, 'ossu/computer-science', 10, ':mortar_board: Path to a free self-taught education in Computer Science!', 10, 103957, ['ericdouglas','joshmhanson']),
 (2151073, 3218, 3754311, 'SalesforceLabs/survey-force', 11, null, 10, 65, ['jrattanpal','dschach']),
@@ -3679,7 +3680,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (399772846, 3682, 55907631, 'commclassroom/mobileapp', 0, 'This is an official mobile app for community classroom', 5, 58, ['thisisamank','VarunSAthreya']),
 (79162682, 3683, 55907631, 'laurent22/joplin', 1, 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', 390, 27240, ['laurent22','tessus']),
 (183454144, 3684, 55907631, 'pransh15/moz-starter-pack', 2, 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', 3, 17, ['pransh15','pranitb10']),
-(197915964, 3215, 3754311, 'albertopoljak/Licensy', 8, 'Discord bot that manages expiration of roles with subscriptions!', 6, 41, ['albertopoljak','HuyaneMatsu']),
 (215390876, 3685, 55907631, 'malgamves/CommunityWriterPrograms', 3, 'A list of Developer Community Writer Programs', 15, 1515, ['malgamves','karllhughes']),
 (441646385, 3686, 55907631, 'cod-ed/simulate', 4, 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', 0, 0, ['yashlamba','akshansh2000']),
 (512295, 3885, 622115, 'grails/grails-core', 20, 'The Grails Web Application Framework', 224, 2636, ['graemerocher','jeffbrown']),
