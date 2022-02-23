@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T10:43:43.359Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T12:50:35.382Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1313,6 +1313,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 2, 0, 'fmendoza/laravel-mx-db', 31232075),
 (0, 2, 0, '0-vortex/open-sauced-catsup-app-test', 457069101),
 (314, 1055, 66, 'rspec/rspec-mocks', 238983),
+(418, 6709, 313, 'microsoft/fast', 123625732),
 (1842, 16446, 437, 'Redocly/redoc', 45250726),
 (7558, 35004, 49, 'discourse/discourse', 7569578),
 (1511, 6725, 778, 'microsoft/cpprestsdk', 23202799),
@@ -1325,7 +1326,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 31, 7, 'michal-wrzosek/cntl', 238537897),
 (2, 7, 17, 'ngduc/rails-react-typescript-jest', 269822028),
 (40, 146, 5, 'ohbarye/rails-react-typescript-docker-example', 140059059),
-(418, 6709, 313, 'microsoft/fast', 123625732),
 (283, 5047, 0, 'JanDeDobbeleer/oh-my-posh2', 54226191),
 (53, 187, 6, 'cassidoo/next-netlify-blog-starter', 259556924),
 (0, 1, 0, 'ryanbonial/car-gallery', 258616743),
@@ -1377,8 +1377,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (2, 10, 0, 'vadimdemedes/patch-console', 272491255),
 (205, 873, 92, 'EthWorks/useDApp', 322542582),
 (498, 839, 29, 'hasura/learn-graphql', 210332258),
-(2, 30, 0, 'rx-mind/ngrx-plugins', 373327367),
 (9, 39, 14, 'sandrinodimattia/nextjs-auth0-example', 207877287),
+(2, 30, 0, 'rx-mind/ngrx-plugins', 373327367),
 (0, 31, 0, 'ang3lkar/pretty-diffs', 70487339),
 (675, 8128, 111, 'vueuse/vueuse', 227978903),
 (8, 328, 0, 'iridakos/table_flipper', 52661288),
@@ -3237,8 +3237,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (20, 203, 1, 'chinasaokolo/csGraduateFellowships', 183260314),
 (137, 78, 8, 'groovy/groovy-website', 21067650),
 (160, 618, 87, 'input-output-hk/cardano-wallet', 173286031),
-(955, 2652, 231, 'grails/grails-core', 512295),
 (12, 26, 62, 'esmero/archipelago-deployment', 199486441),
+(955, 2652, 231, 'grails/grails-core', 512295),
 (518, 2547, 441, 'input-output-hk/cardano-node', 188299874),
 (34, 1070, 266, 'ngs-lang/ngs', 13143215),
 (5144, 15164, 2424, 'zulip/zulip', 43160685),
@@ -3441,8 +3441,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (78, 347, 9, 'huntresslabs/log4shell-tester', 437354791),
 (148, 2172, 129, 'yggdrasil-network/yggdrasil-go', 115685026),
 (35, 172, 10, 'chimbori/crux', 127672595),
-(143, 2191, 0, 'github/renaming', 271896287),
 (861, 3391, 621, 'honestbleeps/Reddit-Enhancement-Suite', 2688907),
+(143, 2191, 0, 'github/renaming', 271896287),
 (364, 2075, 16, 'mitmath/18S191', 290247146),
 (886, 4511, 428, 'Shopify/polaris-react', 88897663),
 (2508, 13583, 330, 'CocoaPods/CocoaPods', 2203645),

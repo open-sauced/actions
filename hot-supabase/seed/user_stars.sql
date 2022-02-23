@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T10:43:42.767Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T12:50:35.631Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1199,14 +1199,14 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (71948498, 1191, 4386534, 'localstack/localstack', 14, '💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!', 317, 37853, ['whummer','thrau']),
 (6093316, 1192, 4386534, 'DefinitelyTyped/DefinitelyTyped', 15, 'The repository for high quality TypeScript type definitions.', 722, 37131, ['vvakame','sandersn']),
 (407283196, 1193, 4386534, 'buildspace/buildspace-projects', 16, 'The home of our open-source projects.', 84, 1163, ['adilanchian','farzaa']),
+(239281641, 1194, 4386534, 'TryGhost/Dawn', 17, 'A minimal newsletter theme for Ghost', 1, 197, ['minimaluminium','renovate-bot']),
+(338699314, 1195, 4386534, 'kentcdodds/mdx-bundler', 18, '🦤 Give me MDX/TSX strings and I''ll give you back a component you can render. Supports imports!', 26, 894, ['kentcdodds','Arcath']),
+(155288604, 1196, 4386534, 'shikijs/shiki', 19, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
 (162028712, 1197, 4386534, 'leerob/leerob.io', 20, '✨  My portfolio built with Next.js, Tailwind, Prisma, and Vercel.', 10, 2853, ['leerob','omaralsoudanii']),
 (396086379, 1198, 4386534, 'kb24x7/rustyvibes', 21, 'A Rust CLI that makes mechanical keyboard sound effects on every key press', 6, 54, ['kb24x7','binarybana']),
 (71359796, 1199, 4386534, 'open-sauced/open-sauced', 22, '🍕  This is a project to identify your next open source contribution. ', 29, 555, ['bdougie','0-vortex']),
 (212077752, 1200, 4386534, 'MichaelBarney/LinkFree', 23, 'A free and open source alternative to LinkTree', 10, 371, ['MichaelBarney','farellfaiz']),
-(239281641, 1194, 4386534, 'TryGhost/Dawn', 17, 'A minimal newsletter theme for Ghost', 1, 197, ['minimaluminium','renovate-bot']),
-(338699314, 1195, 4386534, 'kentcdodds/mdx-bundler', 18, '🦤 Give me MDX/TSX strings and I''ll give you back a component you can render. Supports imports!', 26, 894, ['kentcdodds','Arcath']),
 (117398892, 1201, 4386534, 'lenadroid/awesome-oss-mentors', 24, 'List of OSS contributors willing to help others with their first pull requests!', 3, 490, ['lenadroid','seanknox']),
-(155288604, 1196, 4386534, 'shikijs/shiki', 19, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
 (145147121, 1202, 4386534, 'FormidableLabs/prism-react-renderer', 25, '🖌️ Renders highlighted Prism output to React (+ theming & vendored Prism)', 22, 1179, ['kitten','karlhorky']),
 (408664831, 1203, 4386534, 'ai/nanocolors', 26, 'Use picocolors instead. It is 3 times smaller and 50% faster.', 0, 917, ['jorgebucaran','ai']),
 (119162419, 1204, 4386534, 'nextauthjs/next-auth', 27, 'Authentication for Next.js', 75, 8411, ['iaincollins','balazsorban44']),
