@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T12:50:35.382Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T14:43:26.877Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2145,8 +2145,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (0, 3, 0, 'alanmontgomery/ionic-react-hook-form-example', 377196642),
 (120, 303, 3, 'mhmzdev/DevFolio', 350240448),
 (1659, 23791, 26, 'tmux/tmux', 36836475),
-(11, 67, 24, 'dai-shi/remote-faces', 144869712),
 (1331, 5824, 60, 'official-stockfish/Stockfish', 20976138),
+(11, 67, 24, 'dai-shi/remote-faces', 144869712),
 (32, 830, 0, 'mobz/lag-radar', 126813008),
 (263, 3167, 0, 'CollabCodeTech/backend-challenges', 195897446),
 (40, 209, 0, 'bregman-arie/system-design-notebook', 287950119),
@@ -2237,8 +2237,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (31, 774, 24, 'meriyah/meriyah', 185327227),
 (6, 18, 0, 'GoogleCloudPlatform/air-draw-demo', 185054404),
 (6, 8, 21, 'M0nica/ambition-fund-website', 273810635),
-(1172, 3981, 276, 'juce-framework/JUCE', 3884981),
 (2422, 8124, 4, 'sudheerj/javascript-interview-questions', 108708339),
+(1172, 3981, 276, 'juce-framework/JUCE', 3884981),
 (6668, 31255, 152, 'photonstorm/phaser', 9393759),
 (75, 158, 0, 'samanthabretous/black-speakers-in-tech', 160402426),
 (219, 648, 17, 'sec-edgar/sec-edgar', 14759456),
@@ -3237,8 +3237,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (20, 203, 1, 'chinasaokolo/csGraduateFellowships', 183260314),
 (137, 78, 8, 'groovy/groovy-website', 21067650),
 (160, 618, 87, 'input-output-hk/cardano-wallet', 173286031),
-(12, 26, 62, 'esmero/archipelago-deployment', 199486441),
 (955, 2652, 231, 'grails/grails-core', 512295),
+(12, 26, 62, 'esmero/archipelago-deployment', 199486441),
 (518, 2547, 441, 'input-output-hk/cardano-node', 188299874),
 (34, 1070, 266, 'ngs-lang/ngs', 13143215),
 (5144, 15164, 2424, 'zulip/zulip', 43160685),
@@ -3323,8 +3323,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (11, 150, 0, 'antfu/utils', 356744623),
 (0, 3, 0, '0-vortex/rss-feed-parser', 451964411),
 (18, 152, 12, 'swinton/screenshot-website', 245505091),
-(6, 14, 0, 'RapidAPI/DevRel-Examples-External', 411237210),
 (20, 170, 6, 'jslicense/licensee.js', 35319136),
+(6, 14, 0, 'RapidAPI/DevRel-Examples-External', 411237210),
 (477, 17712, 69, 'vadimdemedes/ink', 94061307),
 (51, 1862, 8, 'ngneat/falso', 445896247),
 (33, 604, 40, 'redkubes/otomi-core', 200118806),
@@ -3441,8 +3441,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (78, 347, 9, 'huntresslabs/log4shell-tester', 437354791),
 (148, 2172, 129, 'yggdrasil-network/yggdrasil-go', 115685026),
 (35, 172, 10, 'chimbori/crux', 127672595),
-(861, 3391, 621, 'honestbleeps/Reddit-Enhancement-Suite', 2688907),
 (143, 2191, 0, 'github/renaming', 271896287),
+(861, 3391, 621, 'honestbleeps/Reddit-Enhancement-Suite', 2688907),
 (364, 2075, 16, 'mitmath/18S191', 290247146),
 (886, 4511, 428, 'Shopify/polaris-react', 88897663),
 (2508, 13583, 330, 'CocoaPods/CocoaPods', 2203645),
