@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-05T20:43:24.096Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T16:50:58.130Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3441,8 +3441,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (32727687, 3443, 3846874, 'mysticatea/npm-run-all', 27, 'A CLI tool to run multiple npm-scripts in parallel or sequential.', 77, 4507, ['mysticatea','k88hudson']),
 (357681, 3444, 3846874, 'isaacs/node-glob', 28, 'glob functionality for node.js', 125, 7290, ['isaacs','tanyabrassie']),
 (809601, 3445, 3846874, 'handlebars-lang/handlebars.js', 29, 'Minimal templating on steroids.', 86, 16346, ['kpdecker','nknapp']),
-(170444343, 3446, 40713709, 'DevonCrawford/Video-Editing-Automation', 0, 'Toolkit of algorithms to automate the video editing process', 8, 1063, ['DevonCrawford']),
 (73184139, 3447, 40713709, 'fkhadra/react-toastify', 1, 'React notification made easy 🚀 !', 44, 8145, ['fkhadra','rhdeck']),
+(170444343, 3446, 40713709, 'DevonCrawford/Video-Editing-Automation', 0, 'Toolkit of algorithms to automate the video editing process', 8, 1063, ['DevonCrawford']),
 (367602396, 3448, 40713709, 'prince776/discode', 2, 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', 2, 62, ['prince776','HarshKapadia2']),
 (118105591, 3449, 40713709, 'gojek/heimdall', 3, 'An enhanced HTTP client for Go', 39, 2132, ['sohamkamani','rShetty']),
 (45879586, 3450, 40713709, 'lexborisov/myhtml', 4, 'Fast C/C++ HTML 5 Parser. Using threads.', 17, 1512, ['lexborisov','Azq2']),
@@ -4363,6 +4363,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (428727515, 417311106, 71297412, 'HMTEUNIS/react-beats', 0, null, 0, 1, ['WBian618','dandesantis14']),
 (51595028, 418295712, 71458737, 'OPCFoundation/UA-.NETStandard', 0, 'OPC Unified Architecture .NET Standard', 68, 1289, ['mregen','barnstee']),
 (414403319, 417381369, 79887, 'polarene/micro-template', 0, 'A very tiny and simple text templating library for Kotlin.', 0, 14, ['polarene']),
+(29059629, 457526756, 74566464, 'KabbAmine/yowish.vim', 0, 'A dark & yellowish vim colorscheme', 0, 131, ['KabbAmine','Ajnasz']),
 (35969061, 418175317, 1917293, 'google/styleguide', 0, 'Style guides for Google-originated open-source projects', 291, 29805, ['IsaacG','tonyruscoe']),
 (345529420, 363282160, 4381106, 'sophiezhng/pomopy', 0, '🍅 Pomopy is a fun ASCII-art-filled, customizable time-management solution using the Pomodoro Technique.', 1, 1, ['sophiezhng']),
 (260751863, 360376415, 25194960, 'cyrildiagne/ar-cutpaste', 0, 'Cut and paste your surroundings using AR', 44, 14214, ['cyrildiagne','xraymemory']),
@@ -4381,6 +4382,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (379900883, 348860575, 6241164, 'Deveshb15/real-twitter-banner', 0, null, 0, 42, ['Deveshb15','jainaayush01']),
 (286546354, 349215600, 16259450, 'netlify/explorers', 0, null, 64, 234, ['jlengstorf','bencodezen']),
 (138393139, 350456159, 15004099, 'trimstray/the-book-of-secret-knowledge', 0, 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', 52, 58967, ['trimstray','lbonanomi']),
+(501689, 456168834, 5381468, 'antlr/stringtemplate4', 0, 'StringTemplate 4', 41, 768, ['parrt','sharwell']),
 (268098312, 415612821, 44642314, 'ZedThree/clang-tidy-review', 0, 'Create a pull request review based on clang-tidy warnings', 6, 17, ['ZedThree','kgfoundrydig']),
 (124227308, 417287027, 52336027, 'entityframeworktutorial/EF6-Code-First-Demo', 0, 'Entity Framework 6 Code-First Demo Project', 0, 127, ['entityframeworktutorial']),
 (349217272, 414641681, 11858762, 'this-is-learning/rxjs-fundamentals-course', 0, 'RxJS Fundamentals, an Open Learning course by This is Learning.', 2, 92, ['Armenvardanyan95','LayZeeDK']),
@@ -4422,4 +4424,5 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (62500776, 272558455, 42392347, 'cerebroapp/cerebro', 0, 'Open-source productivity booster with a brain', 130, 7221, ['KELiON','Stanzilla']),
 (230951254, 330475048, 61131314, 'Singh-Shivani/Merlin-Fashion', 0, 'A custom website for online fashion.', 2, 13, ['Singh-Shivani','imsouravstyles']),
 (252029824, 336575400, 9696352, 'BabylonJS/BabylonReactNative', 0, 'Build React Native applications with the power of Babylon Native', 32, 194, ['ryantrem','chrisfromwork']),
-(268086996, 336566384, 1368727, 'dotellie/nestjs-graphql-pagination', 0, 'Decorators to allow easily building up relay compatible pagination types', 30, 11, ['renovate-bot','dotellie']);
+(268086996, 336566384, 1368727, 'dotellie/nestjs-graphql-pagination', 0, 'Decorators to allow easily building up relay compatible pagination types', 30, 11, ['renovate-bot','dotellie']),
+(87715061, 456471693, 83277146, 'damienbod/AspNetCoreOpeniddict', 0, 'OpenIddict with Angular and Blazor WASM BFF OpenID Connect Code Flow with PKCE clients and ASP.NET Core APIs ', 1, 63, ['damienbod']);
