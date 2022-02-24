@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T06:46:20.187Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T08:44:26.571Z
 -- COPY recommendations(star_id, repo_name, stars, issues, description, contributors, total_stars, avg_recency_score, votes) FROM 'recommendations.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2637,8 +2637,8 @@ INSERT INTO recommendations(star_id, repo_name, stars, issues, description, cont
 (274396505, 'kevin51jiang/react-spotify-auth', 25, 3, 'Easy Spotify Authentication, written in React', ['kevin51jiang','rpeyron'], 1, 11, 0),
 (274481422, 'bmarvinb/software-engineer-interview-questions', 266, 0, 'A lot of questions and links to prepare yourself for your next dream job interview', ['bmarvinb','veerbhadrasolanki'], 1, 22, 0),
 (274495425, 'remotion-dev/remotion', 8844, 52, '🎥      Create videos programmatically in React', ['JonnyBurger','Iamshankhadeep'], 1, 14, 0),
-(274521122, 'open-sauced/tweeps', 3, 3, null, ['bdougie'], 1, 10, 0),
 (274497109, 'unsplash/datasets', 1826, 8, '🎁  3,000,000+ Unsplash images made available for research and machine learning', ['TimmyCarbone','lukechesser'], 1, 0, 0),
+(274521122, 'open-sauced/tweeps', 3, 3, null, ['bdougie'], 1, 10, 0),
 (274593180, 'Surya1231/ContestMania', 33, 1, 'A platform for tracking your competitive progress on various competitive coding websites.', ['Surya1231','sanketcn'], 1, 1, 0),
 (274724694, 'dendronhq/dendron', 2621, 429, 'The personal knowledge management (PKM) tool that grows as you do!', ['kevinslin','SeriousBug'], 1, 11, 0),
 (274751150, 'jamesonsaunders/Convert-Website-to-App', 29, 5, 'Convert your mobile-friendly website into an app', ['jamesonsaunders'], 1, 8, 0),
