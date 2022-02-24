@@ -9,6 +9,15 @@ const supabaseUrl = process.env.SUPABASE_URL
 
 const supabase = createClient(supabaseUrl, anon_key)
 
+const encodeValue = (value) =>
+  Array.isArray(value) ?
+    `ARRAY['${value.join("', '")}']` :
+    JSON.stringify(value)
+      .replaceAll('\\"', "'")
+      .replaceAll("\\'", "'")
+      .replaceAll("'", "''")
+      .replaceAll('"', "'")
+
 const supaCount = async (table, field = '*') => supabase
     .from(table)
     .select(field, {
@@ -26,29 +35,26 @@ const supaDump = async (basePath, table, columns = [], rows = []) => {
 
   await file.write(`--
 -- Data for Name: ${table}; Type: TABLE DATA; Schema: public; Timestamp: ${timestamp}
--- COPY ${table}(${columns.join(', ')}) FROM '${table}.csv' DELIMITER ',' CSV HEADER;
+-- COPY ${table}(${columns.join(', ')}) FROM '${table}.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO ${table}(${columns.join(', ')}) VALUES
 `)
 
   await p(rows)
-    .map(async row => file.write(`(${columns.map(col => JSON.stringify(row[col]))
-      .join(', ')
-      .replaceAll('\\"', "'")
-      .replaceAll("\\'", "'")
-      .replaceAll("'", "''")
-      .replaceAll('"', "'")}),\n`))
-    .then(() => file.write(`(${columns.map(col => JSON.stringify(finalRow[col]))
-      .join(', ')
-      .replaceAll('\\"', "'")
-      .replaceAll("\\'", "'")
-      .replaceAll("'", "''")
-      .replaceAll('"', "'")});\n`))
+    .map(async row =>
+      file.write(`(${columns.map(col => encodeValue(row[col])).join(', ')}),\n`))
+    .then(() =>
+      file.write(`(${columns.map(col => encodeValue(finalRow[col])).join(', ')});\n`))
 
   await file.close()
 
-  await stringify(rows, { header: true }, (err, data) =>
+  await stringify(rows, {
+    header: true,
+    cast: {
+      object: value => Array.isArray(value) ? `'{"${value.join('", "')}"}'` : JSON.stringify(value)
+    }
+  }, (err, data) =>
     writeFile(new URL(`../${csvPath}`, import.meta.url), data))
 
   return {

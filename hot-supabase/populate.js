@@ -5,7 +5,7 @@ import { supabase } from './lib/supabase.js'
 import api from './lib/persistedGraphQL.js'
 import fetchContributorNames from './lib/contributorNameHelper.js'
 import consoleHeader from './lib/consoleHeader.js'
-import cron from './cron.json'
+import cron from './cron.json' assert { type: 'json' }
 
 const limitDays = parseInt(process.env.LIMIT_DAYS) || 1
 let limitUsers = parseInt(process.env.LIMIT_USERS) || 5
@@ -197,7 +197,9 @@ async function run() {
 
             await supabase
               .from('user_stars')
-              .insert(userStars)
+              .upsert(userStars, {
+                onConflict: "id"
+              })
           }
 
           // send parsedData to stars table
@@ -210,10 +212,11 @@ async function run() {
           console.log(`ADDED STARS FROM: ${installation.account.login}`)
 
           // send parsedData to supabase
-          supabase
+          await supabase
             .from('users')
             .upsert({
               id: installation.account.id,
+              login: installation.account.login,
               stars_data: starsData,
               open_issues: repository.open_issues_count,
               private: repository.private,

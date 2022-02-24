@@ -1,15 +1,14 @@
-/* eslint-disable */
+import fetch from "node-fetch"
+
 // This file is temporary and meant to be a workaround for GitHub App limitations
 // https://github.com/open-sauced/open-sauced/blob/main/src/lib/persistedGraphQL.js
-import fetch from 'node-fetch';
-
 const url = 'https://serve.onegraph.com/graphql?app_id=06238984-0a96-4774-95ad-d7b654c980c5';
 
 // variables are generically labelled for easy updating.
 const docId1 = 'a0722788-adb0-4731-96fb-9e50c72a2528'; // RepoQuery
 
 // TODO: Move this entire file to an npm package
-function makeFetch(docId, requiredVariables = [], operationName = false) {
+const makeFetch = (docId, requiredVariables = [], operationName = false) => {
   return async function (variables = {}) {
     const body = { doc_id: docId };
     if (operationName) body.operationName = operationName;
@@ -26,6 +25,7 @@ function makeFetch(docId, requiredVariables = [], operationName = false) {
     const options = {
       method: 'POST',
       body: JSON.stringify(body),
+
     };
     const response = await fetch(url, options)
       .then((res) => res.json())
