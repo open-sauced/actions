@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T01:02:30.119Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T02:48:54.900Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3135,9 +3135,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (195897446, 3137, 22620727, 'CollabCodeTech/backend-challenges', 9, 'A public list of open-source challenges from jobs around the world', 3, 2894, ['joviane','vinigmoraes']),
 (14712850, 3138, 22620727, 'syncthing/syncthing', 10, 'Open Source Continuous File Synchronization', 305, 41996, ['calmh','AudriusButkevicius']),
 (72891330, 3139, 22620727, 'kubernetes/ingress-nginx', 11, 'NGINX Ingress Controller for Kubernetes', 300, 11783, ['aledbf','k8s-ci-robot']),
+(62367558, 3140, 22620727, 'vercel/hyper', 12, 'A terminal built on web technologies', 744, 37545, ['rauchg','LabhanshAgrawal']),
 (135516270, 3141, 22620727, 'k3s-io/k3s', 13, 'Lightweight Kubernetes', 456, 18693, ['erikwilson','ibuildthecloud']),
 (258465213, 3142, 22620727, 'philips-labs/terraform-aws-github-runner', 14, 'Terraform module for scalable GitHub action runners on AWS', 66, 688, ['npalm','gertjanmaas']),
-(62367558, 3140, 22620727, 'vercel/hyper', 12, 'A terminal built on web technologies', 744, 37545, ['rauchg','LabhanshAgrawal']),
 (199079226, 3143, 22620727, 'rbreaves/kinto', 15, 'Mac-style shortcut keys for Linux & Windows.', 144, 2322, ['rbreaves','RedBearAK']),
 (147350463, 3144, 22620727, 'leonardomso/33-js-concepts', 16, '📜 33 JavaScript concepts every developer should know.', 9, 45617, ['leonardomso','ilker0']),
 (2019791, 3145, 22620727, 'liquibase/liquibase', 17, 'Main Liquibase Source', 560, 2918, ['nvoxland','wwillard7800']),

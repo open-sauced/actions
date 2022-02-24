@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T01:02:30.365Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T02:48:54.801Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -1072,9 +1072,9 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (9, 466, 9, 'Schrodinger-Hat/ImageGoNord', 281151556),
 (2, 19, 0, 'sagars007/Proton-UI-connected-rounded-tabs', 374729902),
 (247, 5907, 121, 'dylanaraps/pywal', 94554082),
-(22, 336, 1, 'thevinter/styli.sh', 373495126),
 (252, 5006, 235, 'helix-editor/helix', 268424739),
 (975, 18042, 277, 'photoprism/photoprism', 119160553),
+(22, 336, 1, 'thevinter/styli.sh', 373495126),
 (849, 9420, 14, '30-seconds/30-seconds-of-interviews', 128564293),
 (196, 2467, 1, 'Renovamen/playground-macos', 362711256),
 (1049, 10713, 240, 'SFTtech/openage', 14095175),
