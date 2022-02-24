@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T10:43:56.631Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T12:50:52.337Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3240,7 +3240,6 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (181462414, 3242, 35429278, 'Alikhll/golang-developer-roadmap', 3, 'Roadmap to becoming a Go developer in 2020', 14, 13269, ['Alikhll','roblaszczak']),
 (16202183, 3243, 35429278, 'ivanlanin/kateglo', 4, 'Indonesian dictionary, thesaurus, and glossary application', 2, 105, ['ivanlanin']),
 (155288604, 3244, 35429278, 'shikijs/shiki', 5, 'A beautiful Syntax Highlighter.', 35, 2880, ['octref','orta']),
-(85701992, 3245, 35429278, 'dicebear/dicebear', 6, 'DiceBear is an avatar library for designers and developers.', 3, 3450, ['FlorianKoerner','flogado']),
 (351958053, 3246, 35429278, 'laymonage/giscus', 7, 'A comments system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:', 31, 1115, ['laymonage','nschonni']),
 (58842707, 3247, 35429278, 'trailofbits/algo', 8, 'Set up a personal VPN in the cloud', 110, 24303, ['jackivanov','dguido']),
 (273871859, 3248, 35429278, 'juanfont/headscale', 9, 'An open source, self-hosted implementation of the Tailscale control server', 27, 2580, ['juanfont','kradalby']),
@@ -3550,8 +3549,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (327406312, 3552, 1033332, 'tailwindlabs/tailwindcss-line-clamp', 16, null, 1, 562, ['adamwathan','RobinMalfait']),
 (310686619, 3553, 1033332, 'tailwindlabs/tailwindcss-aspect-ratio', 17, null, 2, 572, ['adamwathan','RobinMalfait']),
 (320544192, 3554, 1033332, 'supabase/ui', 18, 'Supabase UI Library', 40, 914, ['MildTomato','jonthomp']),
-(277602254, 3556, 1033332, 'Devalo/Next.js-blog-app-', 20, 'Source code from the medium blog post ', 6, 28, ['Devalo']),
 (214587193, 3555, 1033332, 'supabase/supabase', 19, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25467, ['kiwicopple','MildTomato']),
+(277602254, 3556, 1033332, 'Devalo/Next.js-blog-app-', 20, 'Source code from the medium blog post ', 6, 28, ['Devalo']),
 (667561, 3557, 1033332, 'Marak/faker.js', 21, 'generate massive amounts of realistic fake data in Node.js and the browser', 303, 34373, ['Marak','FotoVerite']),
 (302734740, 3558, 1033332, 'maxkostinevich/Chakra-UI-Admin-Dashboard-Template', 22, 'Collection of custom made components using Chakra UI.', 0, 47, ['maxkostinevich','abshekh']),
 (283003335, 3559, 1033332, 'fireship-io/3.1-firebase-basics', 23, 'Firebase - The Basics', 4, 70, ['codediodeio']),
@@ -3646,6 +3645,7 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (156648725, 3648, 59939260, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 0, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 227, 8795, ['LinuxMercedes','iliana']),
 (239791048, 3649, 59939260, 'kihosk/kiosk-raspberry', 1, null, 8, 20, ['justinask7','MihaiNueleanu']),
 (50190034, 3650, 59939260, 'futurice/chilipie-kiosk', 2, 'Easy-to-use Raspberry Pi image for booting directly into full-screen Chrome, with built-in convenience features for unattended operation. Perfect for dashboards and build monitors.', 46, 1077, ['jareware','cedricwalter']),
+(85701992, 3245, 35429278, 'dicebear/dicebear', 6, 'DiceBear is an avatar library for designers and developers.', 3, 3450, ['FlorianKoerner','flogado']),
 (66228200, 3651, 59939260, 'HackerShackOfficial/Smart-Mirror', 3, 'Raspberry powered mirror which can display news, weather, calendar events', 66, 885, ['atainter','ewized']),
 (353348419, 3652, 59939260, 'whitep4nth3r/randomcodegenerator.lol', 4, 'Need some code for your project? We''ve got you covered. Choose your language. Choose how much code. BÄM! You got code.', 1, 32, ['whitep4nth3r','isabellabrookes']),
 (3402537, 3653, 59939260, 'h5bp/Front-end-Developer-Interview-Questions', 5, 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', 9, 51678, ['darcyclarke','appleboy']),

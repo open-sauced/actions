@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T10:43:56.258Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T12:50:52.151Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2902,8 +2902,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (14239, 95428, 7592, 'golang/go', 23096959),
 (9, 51, 11, 'rubensworks/jsonld-streaming-parser.js', 141430876),
 (544, 1554, 87, 'tmsmith/Dapper-Extensions', 2682189),
-(0, 1, 0, 'jwalter/SMSParkera', 1780761),
 (65, 110, 10, 'kehers/paystack', 50658096),
+(0, 1, 0, 'jwalter/SMSParkera', 1780761),
 (425, 8048, 189, 'questdb/questdb', 19257422),
 (18, 67, 0, 'charlax/entrepreneurship-resources', 132757250),
 (124, 105, 3, 'Praful932/Kitabe', 291985571),
