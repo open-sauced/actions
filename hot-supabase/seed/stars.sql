@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T08:44:26.194Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T10:43:56.258Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -2294,8 +2294,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (18, 88, 1, 'cosmicjs/vue-music-website', 143763564),
 (0, 3, 1, 'slidenerd/nuxt-auth', 222450899),
 (2, 48, 0, 'ivodolenc/nuxt-animejs', 317286633),
-(886, 5984, 1470, 'languagetool-org/languagetool', 11981144),
 (2182, 29248, 1302, 'iina/iina', 76838017),
+(886, 5984, 1470, 'languagetool-org/languagetool', 11981144),
 (606, 2683, 59, 'mattmakai/fullstackpython.com', 7297351),
 (244, 290, 0, 'PurpleBooth/a-good-readme-template', 215954800),
 (12427, 5301, 11, 'othneildrew/Best-README-Template', 161215159),
@@ -2385,8 +2385,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (17, 31, 36, 'wepublish/wepublish', 195281293),
 (17, 770, 13, 'seek-oss/capsize', 269211843),
 (743, 2740, 94, 'prometheus/blackbox_exporter', 41964498),
-(4432, 21268, 17, 'bregman-arie/devops-exercises', 212639071),
 (55, 701, 3, 'TheZoraiz/ascii-image-converter', 366397300),
+(4432, 21268, 17, 'bregman-arie/devops-exercises', 212639071),
 (23, 46, 7, 'albertopoljak/Licensy', 197915964),
 (1571, 28042, 240, 'supabase/supabase', 214587193),
 (0, 3, 1, 'SufiaAshraf/UserAuth', 259447311),
@@ -2530,8 +2530,8 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (416, 1408, 3, 'videolan/vlc-android', 123426934),
 (0, 1, 0, 'MattMarquise/Design-Suite-Landing-Page-Theme', 340182829),
 (0, 2, 0, 'MattMarquise/Modern-Game-Console-UI', 332841560),
-(4, 6, 0, 'dannydeezy/bitcoin-book', 280585832),
 (0, 1, 0, 'MattMarquise/Lifestyle-Blog', 327036990),
+(4, 6, 0, 'dannydeezy/bitcoin-book', 280585832),
 (0, 1, 0, 'Blazing-Mike/Monogram-Frontend-starter-files', 422215956),
 (554, 4833, 4, 'dastergon/awesome-chaos-engineering', 98446777),
 (205, 5094, 65, 'hiroppy/fusuma', 131081109),

@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T08:44:26.354Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T10:43:56.631Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3550,8 +3550,8 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (327406312, 3552, 1033332, 'tailwindlabs/tailwindcss-line-clamp', 16, null, 1, 562, ['adamwathan','RobinMalfait']),
 (310686619, 3553, 1033332, 'tailwindlabs/tailwindcss-aspect-ratio', 17, null, 2, 572, ['adamwathan','RobinMalfait']),
 (320544192, 3554, 1033332, 'supabase/ui', 18, 'Supabase UI Library', 40, 914, ['MildTomato','jonthomp']),
-(214587193, 3555, 1033332, 'supabase/supabase', 19, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25467, ['kiwicopple','MildTomato']),
 (277602254, 3556, 1033332, 'Devalo/Next.js-blog-app-', 20, 'Source code from the medium blog post ', 6, 28, ['Devalo']),
+(214587193, 3555, 1033332, 'supabase/supabase', 19, 'The open source Firebase alternative. Follow to stay updated about our public Beta.', 244, 25467, ['kiwicopple','MildTomato']),
 (667561, 3557, 1033332, 'Marak/faker.js', 21, 'generate massive amounts of realistic fake data in Node.js and the browser', 303, 34373, ['Marak','FotoVerite']),
 (302734740, 3558, 1033332, 'maxkostinevich/Chakra-UI-Admin-Dashboard-Template', 22, 'Collection of custom made components using Chakra UI.', 0, 47, ['maxkostinevich','abshekh']),
 (283003335, 3559, 1033332, 'fireship-io/3.1-firebase-basics', 23, 'Firebase - The Basics', 4, 70, ['codediodeio']),
