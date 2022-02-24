@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T22:43:17.872Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T01:02:30.119Z
 -- COPY user_stars(star_id, id, user_id, repo_name, recency_score, description, issues, stars, contributors) FROM 'user_stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -854,11 +854,11 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (268098312, 847, 44642314, 'ZedThree/clang-tidy-review', 0, 'Create a pull request review based on clang-tidy warnings', 9, 17, ['ZedThree','vadi2']),
 (406196482, 848, 44642314, 'careBT/carebt_core', 1, 'A Python library offering a Behavior Tree implementation which focuses on contingency handling - the key to master complex applications which operate in dynamic worlds.', 0, 2, ['AndiSteck']),
 (83821669, 849, 44642314, 'Qiskit/qiskit-terra', 2, 'Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and algorithms.', 706, 3179, ['mtreinish','jaygambetta']),
+(129936360, 850, 44642314, 'PennyLaneAI/pennylane', 3, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', 140, 1114, ['josh146','co9olguy']),
 (201403923, 851, 44642314, 'activeloopai/Hub', 4, 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', 69, 4084, ['AbhinavTuli','nollied']),
 (360655524, 852, 44642314, 'education/GitHubGraduation-2021', 5, 'Join the GitHub Graduation Yearbook and ''walk the stage'' on June 5.', 1345, 1404, ['juanpflores','elisemoe']),
 (122299416, 853, 44642314, 'optuna/optuna', 6, 'A hyperparameter optimization framework', 162, 5706, ['toshihikoyanase','hvy']),
 (77369463, 854, 44642314, 'James-Yu/LaTeX-Workshop', 7, 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', 13, 8016, ['jlelong','tamuratak']),
-(129936360, 850, 44642314, 'PennyLaneAI/pennylane', 3, 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', 140, 1114, ['josh146','co9olguy']),
 (579842, 855, 44642314, 'matlab2tikz/matlab2tikz', 8, 'This program converts MATLAB®/Octave figures to TikZ/pgfplots figures for smooth integration into LaTeX.', 234, 1167, ['egeerardyn','nschloe']),
 (53238813, 856, 44642314, 'Homebrew/brew', 9, '🍺 The missing package manager for macOS (or Linux)', 46, 30371, ['MikeMcQuaid','jacknagel']),
 (268972184, 857, 44642314, 'shilohc/map2gazebo', 10, null, 7, 87, []),
@@ -3135,9 +3135,9 @@ INSERT INTO user_stars(star_id, id, user_id, repo_name, recency_score, descripti
 (195897446, 3137, 22620727, 'CollabCodeTech/backend-challenges', 9, 'A public list of open-source challenges from jobs around the world', 3, 2894, ['joviane','vinigmoraes']),
 (14712850, 3138, 22620727, 'syncthing/syncthing', 10, 'Open Source Continuous File Synchronization', 305, 41996, ['calmh','AudriusButkevicius']),
 (72891330, 3139, 22620727, 'kubernetes/ingress-nginx', 11, 'NGINX Ingress Controller for Kubernetes', 300, 11783, ['aledbf','k8s-ci-robot']),
-(62367558, 3140, 22620727, 'vercel/hyper', 12, 'A terminal built on web technologies', 744, 37545, ['rauchg','LabhanshAgrawal']),
 (135516270, 3141, 22620727, 'k3s-io/k3s', 13, 'Lightweight Kubernetes', 456, 18693, ['erikwilson','ibuildthecloud']),
 (258465213, 3142, 22620727, 'philips-labs/terraform-aws-github-runner', 14, 'Terraform module for scalable GitHub action runners on AWS', 66, 688, ['npalm','gertjanmaas']),
+(62367558, 3140, 22620727, 'vercel/hyper', 12, 'A terminal built on web technologies', 744, 37545, ['rauchg','LabhanshAgrawal']),
 (199079226, 3143, 22620727, 'rbreaves/kinto', 15, 'Mac-style shortcut keys for Linux & Windows.', 144, 2322, ['rbreaves','RedBearAK']),
 (147350463, 3144, 22620727, 'leonardomso/33-js-concepts', 16, '📜 33 JavaScript concepts every developer should know.', 9, 45617, ['leonardomso','ilker0']),
 (2019791, 3145, 22620727, 'liquibase/liquibase', 17, 'Main Liquibase Source', 560, 2918, ['nvoxland','wwillard7800']),

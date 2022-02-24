@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-23T22:43:17.266Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T01:02:30.365Z
 -- COPY stars(forks_count, stargazers_count, open_issues_count, full_name, id) FROM 'stars.csv' DELIMITER ',' CSV HEADER;
 --
 
@@ -3225,6 +3225,7 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (3, 6, 12, 'write-the-docs-quorum/quorum-meetups', 308972885),
 (1554, 9723, 25, 'geektutu/7days-golang', 201658460),
 (2008, 17714, 64, 'asim/go-micro', 29217054),
+(171, 1170, 316, 'keptn/keptn', 166831098),
 (5120, 52322, 36, 'mtdvio/every-programmer-should-know', 101296881),
 (1, 1, 1, 'guru-ricoh/guru', 110571193),
 (946, 2844, 31, 'understrap/understrap', 27817031),
@@ -3482,7 +3483,6 @@ INSERT INTO stars(forks_count, stargazers_count, open_issues_count, full_name, i
 (1, 5, 8, 'open-sauced/semantic-release-conventional-config', 391473827),
 (201, 2211, 28, 'igrigorik/gharchive.org', 3683692),
 (4, 7, 0, 'One-Language/Book', 190276130),
-(171, 1170, 316, 'keptn/keptn', 166831098),
 (0, 2, 0, 'BaseMax/CustomWindowsFormElectron', 188246303),
 (371, 1304, 0, 'berdav/CVE-2021-4034', 452081015),
 (27, 123, 144, 'coopcycle/coopcycle-app', 75078016),
