@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T22:43:18.325Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T01:02:12.259Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -135,8 +135,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (128, 10951893, 22258112, 21, 34, 1558, 'quantifiedcode/python-anti-patterns', 'An open collection of Python anti-patterns and worst practices.', ARRAY['kaycebasques', 'adewes'], '2022-02-24T21:07:34.596111'),
 (129, 10951893, 11276147, 22, 23, 23158, 'cmderdev/cmder', 'Lovely console emulator package for Windows', ARRAY['daxgames', 'Stanzilla'], '2022-02-24T21:07:34.596111'),
 (130, 10951893, 4578002, 23, 14, 29905, 'faif/python-patterns', 'A collection of design patterns/idioms in Python', ARRAY['faif', 'gyermolenko'], '2022-02-24T21:07:34.596111'),
-(131, 10951893, 264806346, 24, 0, 24, 'justmedude/pylotoncycle', 'Python Library for getting your Peloton workout data', ARRAY['justmedude', 'fabaff'], '2022-02-24T21:07:34.596111'),
 (132, 10951893, 323048702, 25, 27, 8791, 'GamestonkTerminal/GamestonkTerminal', 'Investment Research for Everyone.', ARRAY['DidierRLopes', 'aia'], '2022-02-24T21:07:34.596111'),
+(131, 10951893, 264806346, 24, 0, 24, 'justmedude/pylotoncycle', 'Python Library for getting your Peloton workout data', ARRAY['justmedude', 'fabaff'], '2022-02-24T21:07:34.596111'),
 (133, 10951893, 267958226, 26, 7, 2711, 'dwisiswant0/apkleaks', 'Scanning APK file for URIs, endpoints & secrets.', ARRAY['dwisiswant0', 'U039b'], '2022-02-24T21:07:34.596111'),
 (134, 10951893, 6750871, 27, 66, 7688, 'arrow-py/arrow', '🏹 Better dates & times for Python', ARRAY['jadchaar', 'crsmithdev'], '2022-02-24T21:07:34.596111'),
 (135, 10951893, 336531380, 28, 17, 1478, 'iam-abbas/Reddit-Stock-Trends', 'Fetch currently trending stocks on Reddit', ARRAY['iam-abbas', 'vmuriart'], '2022-02-24T21:07:34.596111'),

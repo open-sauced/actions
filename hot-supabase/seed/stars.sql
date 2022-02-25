@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-24T22:43:18.152Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T01:02:12.557Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3523,8 +3523,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (33739333, 5304, 122, 992, 'thoughtbot/administrate', '2022-02-24T21:07:06.457173+00:00'),
 (100273476, 404, 43, 301, 'CiviWiki/OpenCiviWiki', '2022-02-24T21:07:06.457173+00:00'),
 (221654678, 4210, 182, 682, 'deepset-ai/haystack', '2022-02-24T21:07:06.457173+00:00'),
-(173377124, 1, 2, 3, 'Gingertonic/movie-js-site-scraper-demo', '2022-02-24T21:07:06.457173+00:00'),
-(115559503, 4821, 168, 501, 'ChrisKnott/Eel', '2022-02-24T21:07:06.457173+00:00'),
 (65772720, 3429, 1571, 5490, 'docker/docker.github.io', '2022-02-24T21:07:06.457173+00:00'),
 (192605862, 2, 2, 17, 'Gingertonic/eden_events', '2022-02-24T21:07:06.457173+00:00'),
 (181462414, 13698, 17, 1726, 'Alikhll/golang-developer-roadmap', '2022-02-24T21:07:06.457173+00:00'),
@@ -3534,9 +3532,9 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (102952, 258, 200, 134, 'foodcoops/foodsoft', '2022-02-24T21:07:06.457173+00:00'),
 (259198201, 1, 0, 0, 'hpfxd/AlwaysGlide', '2022-02-24T21:07:06.457173+00:00'),
 (249064639, 1214, 76, 29, 'znck/vue-developer-experience', '2022-02-24T21:07:06.457173+00:00'),
-(172362850, 12, 0, 0, 'BaseMax/TrigonometricFunctions', '2022-02-24T21:07:06.457173+00:00'),
 (178404439, 4, 0, 1, 'BaseMax/ColorConvertPy', '2022-02-24T21:07:06.457173+00:00'),
 (162977720, 1325, 1, 95, 'romenrg/evergreen-skills-developers', '2022-02-24T21:07:06.457173+00:00'),
+(172362850, 12, 0, 0, 'BaseMax/TrigonometricFunctions', '2022-02-24T21:07:06.457173+00:00'),
 (100949236, 199, 2, 53, 'cba85/electron-webview', '2022-02-24T21:07:06.457173+00:00'),
 (118065892, 1, 0, 0, 'davchoo/RocketDogs-6718-Robot-Code', '2022-02-24T21:07:06.457173+00:00'),
 (218115303, 21254, 67, 809, 'vercel/swr', '2022-02-24T21:07:06.457173+00:00'),
@@ -3589,4 +3587,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (441676048, 98, 0, 12, 'fingerprintjs/blog-indexeddb-safari-leaks-demo', '2022-02-24T21:07:06.457173+00:00'),
 (46641250, 3633, 312, 653, 'codeceptjs/CodeceptJS', '2022-02-24T21:07:06.457173+00:00'),
 (372263341, 18, 20, 14, 'ChaelCodes/ConfBuddies', '2022-02-24T21:07:06.457173+00:00'),
+(173377124, 1, 2, 3, 'Gingertonic/movie-js-site-scraper-demo', '2022-02-24T21:07:06.457173+00:00'),
+(115559503, 4821, 168, 501, 'ChrisKnott/Eel', '2022-02-24T21:07:06.457173+00:00'),
 (61051155, 1860, 24, 95, 'ulid/javascript', '2022-02-24T21:07:06.457173+00:00');
