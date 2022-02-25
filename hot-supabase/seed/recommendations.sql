@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T12:49:57.246Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T14:43:20.099Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -261,8 +261,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (5579613, 1717, 9, 1, 0, 8, 'mixu/singlepageappbook', 'Content and site generator for Single page apps in depth (my book on single page applications)', ARRAY['mixu', 'eeror'], '2022-02-24T21:06:05.080468+00:00'),
 (5878403, 154, 1, 1, 0, 14, 'jcoleman/JCAutocompletingSearch', 'iOS widget for querying asynchronous backends allowing user selection from results.', ARRAY['jcoleman'], '2022-02-24T21:06:05.080468+00:00'),
 (5890857, 10906, 34, 1, 0, 19, 'sindresorhus/pure', 'Pretty, minimal and fast ZSH prompt', ARRAY['mafredri', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
-(5909706, 6195, 5, 1, 0, 13, 'yhirose/cpp-httplib', 'A C++ header-only HTTP/HTTPS server and client library', ARRAY['yhirose', 'sum01'], '2022-02-24T21:06:05.080468+00:00'),
 (5903845, 238, 8, 1, 0, 2, 'staticjinja/staticjinja', 'Minimalist Python library for building static websites with Jinja', ARRAY['NickCrews', 'Ceasar'], '2022-02-24T21:06:05.080468+00:00'),
+(5909706, 6195, 5, 1, 0, 13, 'yhirose/cpp-httplib', 'A C++ header-only HTTP/HTTPS server and client library', ARRAY['yhirose', 'sum01'], '2022-02-24T21:06:05.080468+00:00'),
 (5911225, 696, 247, 1, 0, 21, 'openSUSE/osem', 'Open Source Event Manager. An event management tool tailored to Free and Open Source Software conferences.', ARRAY['hennevogel', 'differentreality'], '2022-02-24T21:06:05.080468+00:00'),
 (5972219, 9447, 238, 1, 0, 28, 'snapappointments/bootstrap-select', ':rocket: The jQuery plugin that brings select elements into the 21st century with intuitive multiselection, searching, and much more.', ARRAY['caseyjhol', 't0xicCode'], '2022-02-24T21:06:05.080468+00:00'),
 (6018162, 1769, 210, 1, 0, 1, 'coursera-dl/edx-dl', 'A simple tool to download video lectures from edx.org (and other openedx sites)', ARRAY['iemejia', 'shk3'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3347,9 +3347,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (377990171, 37, 0, 1, 0, 6, 'misodope/AdultSwimTok', null, ARRAY['misodope'], '2022-02-24T21:06:05.080468+00:00'),
 (377680492, 159, 0, 1, 0, 1, 'cnrad/lanyard-profile-readme', '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', ARRAY['cnrad', 'Looskie'], '2022-02-24T21:06:05.080468+00:00'),
 (378070841, 514, 1, 1, 0, 3, 'ngneat/elf', '🧙‍♀️ A Reactive Store with Magical Powers', ARRAY['NetanelBasal', 'theblushingcrow'], '2022-02-24T21:06:05.080468+00:00'),
+(378086009, 26, 0, 1, 0, 27, 'Manitej66/twlog', 'This is a web app that converts Twitter threads into blogs in a single click 🔥', ARRAY['Manitej66', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (378379347, 8, 11, 1, 0, 4, 'rahul-kothari/hack-money-ape', 'For ETHGlobal''s HackMoney hackathon', ARRAY['mattiaslightstone', 'rahul-kothari'], '2022-02-24T21:06:05.080468+00:00'),
 (378449409, 34, 0, 1, 0, 11, 'mame82/LucaAppIssues', 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', ARRAY['mame82'], '2022-02-24T21:06:05.080468+00:00'),
-(378086009, 26, 0, 1, 0, 27, 'Manitej66/twlog', 'This is a web app that converts Twitter threads into blogs in a single click 🔥', ARRAY['Manitej66', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (378489581, 3, 0, 1, 0, 3, 'teezzan/ohtp', 'A secured and extensible authentication service with support for multiple media and integration forms.', ARRAY['teezzan'], '2022-02-24T21:06:05.080468+00:00'),
 (378536025, 2970, 0, 1, 0, 26, 'OffcierCia/DeFi-Developer-Road-Map', 'DeFi Developer roadmap is a curated Ethereum Developer handbook which includes a list of the best tools for DApps, development resources and lifehacks. ', ARRAY['OffcierCia', 'Dilrong'], '2022-02-24T21:06:05.080468+00:00'),
 (378603752, 22, 0, 1, 0, 8, 'hkaur008/microsoft-engage-project', 'This is a project under Microsoft Engage mentorship program ''21 by Hargun kaur', ARRAY['hkaur008'], '2022-02-24T21:06:05.080468+00:00'),
