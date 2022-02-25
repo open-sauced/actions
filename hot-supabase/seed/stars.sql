@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T08:44:14.612Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T10:43:53.828Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1157,10 +1157,10 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (166694030, 351, 15, 62, 'instamobile/react-native-starter-kit', '2022-02-24T21:07:06.457173+00:00'),
 (74505259, 15442, 1342, 2330, 'slundberg/shap', '2022-02-24T21:07:06.457173+00:00'),
 (180190854, 14661, 435, 1298, 'appwrite/appwrite', '2022-02-24T21:07:06.457173+00:00'),
-(165791269, 59, 2, 28, 'tedyoung/kid-bank', '2022-02-24T21:07:06.457173+00:00'),
 (358985215, 21, 20, 2, 'jitterted/mobreg', '2022-02-24T21:07:06.457173+00:00'),
 (40484063, 1038, 0, 37, 'testdouble/contributing-tests', '2022-02-24T21:07:06.457173+00:00'),
 (387286310, 1, 0, 0, 'eventhorizongames/EventHorizon.Game.Server.Zone', '2022-02-24T21:07:06.457173+00:00'),
+(165791269, 59, 2, 28, 'tedyoung/kid-bank', '2022-02-24T21:07:06.457173+00:00'),
 (357732194, 1, 0, 1, 'gilesvessey/ms3-hl-driver', '2022-02-24T21:07:06.457173+00:00'),
 (324976584, 543, 0, 29, 'ddd-crew/welcome-to-ddd', '2022-02-24T21:07:06.457173+00:00'),
 (149731937, 729, 6, 80, 'remotemobprogramming/mob', '2022-02-24T21:07:06.457173+00:00'),
@@ -2303,8 +2303,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (327400204, 2, 1, 0, 'speijnik/myhome', '2022-02-24T21:07:06.457173+00:00'),
 (4130226, 2392, 35, 231, 'rsnapshot/rsnapshot', '2022-02-24T21:07:06.457173+00:00'),
 (8986217, 9882, 432, 970, 'koreader/koreader', '2022-02-24T21:07:06.457173+00:00'),
-(143975804, 1386, 149, 167, 'LycheeOrg/Lychee', '2022-02-24T21:07:06.457173+00:00'),
 (14346979, 5790, 1079, 2047, 'snipe/snipe-it', '2022-02-24T21:07:06.457173+00:00'),
+(143975804, 1386, 149, 167, 'LycheeOrg/Lychee', '2022-02-24T21:07:06.457173+00:00'),
 (263496339, 8, 3, 4, 'starcrouz/plextheme-reading', '2022-02-24T21:07:06.457173+00:00'),
 (280068470, 832, 20, 22, 'Brooooooklyn/swc-node', '2022-02-24T21:07:06.457173+00:00'),
 (115039706, 8464, 988, 863, 'rust-analyzer/rust-analyzer', '2022-02-24T21:07:06.457173+00:00'),

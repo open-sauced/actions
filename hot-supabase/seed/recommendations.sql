@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T08:44:14.821Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T10:43:54.056Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1326,9 +1326,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (98999731, 1288, 49, 1, 0, 14, 'enkimute/ganja.js', ':triangular_ruler: Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - ', ARRAY['enkimute', 'utensil'], '2022-02-24T21:06:05.080468+00:00'),
 (99017185, 2358, 3, 1, 0, 20, 'TakuSemba/MultiSnapRecyclerView', 'Android library for multiple snapping of RecyclerView', ARRAY['TakuSemba', 'AdityaAnand1'], '2022-02-24T21:06:05.080468+00:00'),
 (99044824, 1, 0, 1, 0, 21, 'romabash/sudoku-solver', 'Sudoku Solver with NumPy', ARRAY['romabash'], '2022-02-24T21:06:05.080468+00:00'),
-(99263247, 44, 3, 1, 0, 27, 'joncardasis/ultimate-api', ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', ARRAY['joncardasis'], '2022-02-24T21:06:05.080468+00:00'),
 (99351826, 3131, 119, 1, 0, 3, 'nuxt/create-nuxt-app', 'Create Nuxt.js App in seconds.', ARRAY['clarkdo', 'Atinux'], '2022-02-24T21:06:05.080468+00:00'),
 (99567922, 18, 0, 1, 0, 26, 'carcin/google-script-ticketing-system', 'G Suite ticketing system - Google Forms, Spreadsheet and Script', ARRAY['carcin'], '2022-02-24T21:06:05.080468+00:00'),
+(99263247, 44, 3, 1, 0, 27, 'joncardasis/ultimate-api', ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', ARRAY['joncardasis'], '2022-02-24T21:06:05.080468+00:00'),
 (99916389, 248, 5, 1, 0, 19, 'feliixx/mgodatagen', 'Generate random data for MongoDB', ARRAY['feliixx', 'phongnt'], '2022-02-24T21:06:05.080468+00:00'),
 (100061716, 9863, 515, 1, 0, 8, 'nrwl/nx', 'Smart, Fast and Extensible Build System', ARRAY['vsavkin', 'FrozenPandaz'], '2022-02-24T21:06:05.080468+00:00'),
 (100073211, 1, 0, 1, 0, 17, 'romabash/angular-d3', ' D3.js Visualization projects with AngularJS 1.5.8 using components', ARRAY['romabash'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3667,6 +3667,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-24T21:06:05.080468+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-24T21:06:05.080468+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
-(44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
+(44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00');
