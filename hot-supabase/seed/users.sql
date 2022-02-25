@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T16:49:37.949Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T18:45:45.937Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -68,17 +68,17 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (42211, 6, false, true, 'brandonroberts', '2022-02-24T21:07:48.046487+00:00'),
 (66696421, 1, false, true, 'cozyCodr', '2022-02-24T21:07:48.046487+00:00'),
 (60254117, 0, false, true, 'jebitok-dev', '2022-02-24T21:07:48.046487+00:00'),
-(16942870, 7, false, true, 'ThomasErhel', '2022-02-24T21:07:48.046487+00:00'),
 (30334776, 0, false, true, 'BolajiAyodeji', '2022-02-24T21:07:48.046487+00:00'),
 (47711025, 4, false, true, 'nobalpha', '2022-02-24T21:07:48.046487+00:00'),
+(16942870, 7, false, true, 'ThomasErhel', '2022-02-24T21:07:48.046487+00:00'),
 (75340837, 0, false, true, 'TriStanNtn', '2022-02-24T21:07:48.046487+00:00'),
 (29648040, 1, false, true, 'iamtheozzy', '2022-02-24T21:07:48.046487+00:00'),
 (349523, 1, false, true, 'jwalter', '2022-02-24T21:07:48.046487+00:00'),
-(49351279, 2, false, true, 'gogocharli', '2022-02-24T21:07:48.046487+00:00'),
 (33669114, 1, false, true, 'peteroneilljr', '2022-02-24T21:07:48.046487+00:00'),
-(1431853, 0, false, true, 'mbchoa', '2022-02-24T21:07:48.046487+00:00'),
 (57017587, 1, false, true, 'Liberontissauri', '2022-02-24T21:07:48.046487+00:00'),
+(49351279, 2, false, true, 'gogocharli', '2022-02-24T21:07:48.046487+00:00'),
 (57826091, 1, false, true, 'miralsuthar', '2022-02-24T21:07:48.046487+00:00'),
+(1431853, 0, false, true, 'mbchoa', '2022-02-24T21:07:48.046487+00:00'),
 (569510, 4, false, true, 'henrik-ch', '2022-02-24T21:07:48.046487+00:00'),
 (48449428, 4, false, true, 'iamjr15', '2022-02-24T21:07:48.046487+00:00'),
 (67359053, 1, false, true, 'DevenPerkins', '2022-02-24T21:07:48.046487+00:00'),
@@ -151,7 +151,6 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (34394719, 0, false, true, 'MiKr13', '2022-02-24T21:07:48.046487+00:00'),
 (52573181, 0, false, true, 'RabsonJ', '2022-02-24T21:07:48.046487+00:00'),
 (39362365, 0, false, true, 'huntertrammell', '2022-02-24T21:07:48.046487+00:00'),
-(85258143, 0, false, true, 'oscakampala', '2022-02-24T21:07:48.046487+00:00'),
 (42749147, 0, false, true, 'akobepeter', '2022-02-24T21:07:48.046487+00:00'),
 (25217168, 0, false, true, 'KakoozaJerry', '2022-02-24T21:07:48.046487+00:00'),
 (25867172, 1, false, true, 'teezzan', '2022-02-24T21:07:48.046487+00:00'),
@@ -160,17 +159,15 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (57305940, 0, false, true, 'mgcarbonell', '2022-02-24T21:07:48.046487+00:00'),
 (8037469, 1, false, true, 'waxidiotic', '2022-02-24T21:07:48.046487+00:00'),
 (4247126, 1, false, true, 'mdb1710', '2022-02-24T21:07:48.046487+00:00'),
-(72279316, 5, false, true, 'Samikmalhotra', '2022-02-24T21:07:48.046487+00:00'),
 (5842360, 1, false, true, 'haffmaestro', '2022-02-24T21:07:48.046487+00:00'),
 (64662324, 0, false, true, 'techn0gichida2', '2022-02-24T21:07:48.046487+00:00'),
-(18013532, 1, false, true, 'simoncrypta', '2022-02-24T21:07:48.046487+00:00'),
-(22154417, 1, false, true, 'SamuelWitke', '2022-02-24T21:07:48.046487+00:00'),
+(72279316, 5, false, true, 'Samikmalhotra', '2022-02-24T21:07:48.046487+00:00'),
 (13711044, 2, false, true, 'unixisking', '2022-02-24T21:07:48.046487+00:00'),
+(18013532, 1, false, true, 'simoncrypta', '2022-02-24T21:07:48.046487+00:00'),
 (118037, 8, false, true, 'djsnipa1', '2022-02-24T21:07:48.046487+00:00'),
 (14868216, 1, false, true, 'minachuong', '2022-02-24T21:07:48.046487+00:00'),
 (1228996, 3, false, true, 'MichaelJolley', '2022-02-24T21:07:48.046487+00:00'),
 (3861088, 3, false, true, 'jonathanyeong', '2022-02-24T21:07:48.046487+00:00'),
-(29547465, 6, false, true, 'camopy', '2022-02-24T21:07:48.046487+00:00'),
 (3792749, 9, false, true, 'mtfoley', '2022-02-24T21:07:48.046487+00:00'),
 (54776315, 2, false, true, 'HipyCas', '2022-02-24T21:07:48.046487+00:00'),
 (38725511, 1, false, true, 'divakar54', '2022-02-24T21:07:48.046487+00:00'),
@@ -220,4 +217,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (469997, 3, false, true, 'sobingt', '2022-02-24T21:07:48.046487+00:00'),
 (3662109, 1, false, true, 'djdefi', '2022-02-24T21:07:48.046487+00:00'),
 (26007940, 0, false, true, 'mikerobards', '2022-02-24T21:07:48.046487+00:00'),
-(27487712, 8, false, true, 'mudaliaraditya', '2022-02-24T21:07:48.046487+00:00');
+(27487712, 8, false, true, 'mudaliaraditya', '2022-02-24T21:07:48.046487+00:00'),
+(85258143, 0, false, true, 'oscakampala', '2022-02-24T21:07:48.046487+00:00'),
+(22154417, 1, false, true, 'SamuelWitke', '2022-02-24T21:07:48.046487+00:00'),
+(29547465, 6, false, true, 'camopy', '2022-02-24T21:07:48.046487+00:00');
