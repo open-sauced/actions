@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T14:43:20.099Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T16:49:38.465Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1121,8 +1121,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (76020516, 506, 9, 1, 0, 19, 'Mimetis/Dotmim.Sync', 'A brand new database synchronization framework, multi platform, multi databases, developed on top of .Net Standard 2.0. https://dotmimsync.readthedocs.io/', ARRAY['Mimetis', 'vunder'], '2022-02-24T21:06:05.080468+00:00'),
 (76292522, 1160, 53, 1, 0, 27, 'sapegin/mrm', 'Codemods for your project config files', ARRAY['sapegin', 'lucasconstantino'], '2022-02-24T21:06:05.080468+00:00'),
 (76569802, 51, 3, 1, 0, 15, 'ftlabs/transcription-service', 'A Node.js server that accepts audio/video files and transcribes the content', ARRAY['seanmtracey', 'wheresrhys'], '2022-02-24T21:06:05.080468+00:00'),
-(76578028, 162, 1, 1, 0, 11, 'willemlarsen/mobprogrammingrpg', 'A game for exploring the development practice of mob programming', ARRAY['willemlarsen', 'JayBazuzi'], '2022-02-24T21:06:05.080468+00:00'),
 (76669415, 58, 28, 1, 0, 19, 'testingisdocumenting/znai', 'Build functional, maintainable, beautiful User Guides with Znai. Instant pages navigation. Local search. Multiple integrations to work with Python, Java, C++, OpenAPI, etc. Transform ''getting started'' sections into slideshow for your workshops. Manage multiple documentations with self-deployed znai hub.', ARRAY['MykolaGolubyev', 'byc1234'], '2022-02-24T21:06:05.080468+00:00'),
+(76578028, 162, 1, 1, 0, 11, 'willemlarsen/mobprogrammingrpg', 'A game for exploring the development practice of mob programming', ARRAY['willemlarsen', 'JayBazuzi'], '2022-02-24T21:06:05.080468+00:00'),
 (76679496, 10845, 0, 1, 0, 11, 'kuchin/awesome-cto', 'A curated and opinionated list of resources for Chief Technology Officers, with the emphasis on startups', ARRAY['kuchin', 'maximveksler'], '2022-02-24T21:06:05.080468+00:00'),
 (76692542, 4140, 37, 1, 0, 20, 'octobox/octobox', '📮Untangle your GitHub Notifications', ARRAY['andrew', 'tarebyte'], '2022-02-24T21:06:05.080468+00:00'),
 (76694515, 11059, 19, 1, 0, 6, 'hotwired/stimulus', 'A modest JavaScript framework for the HTML you already have', ARRAY['sstephenson', 'javan'], '2022-02-24T21:06:05.080468+00:00'),
