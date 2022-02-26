@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T20:43:18.587Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T01:01:55.921Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1552,10 +1552,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (127672595, 158, 10, 1, 0, 13, 'chimbori/crux', 'Crux parses Web pages to identify the crux of an article — the very essential points — minus all the fluff.', ARRAY['chimbori', 'karussell'], '2022-02-24T21:06:05.080468+00:00'),
 (127769231, 18180, 625, 1, 0, 14, 'DIYgod/RSSHub', '🍰 Everything is RSSible', ARRAY['DIYgod', 'nczitzk'], '2022-02-24T21:06:05.080468+00:00'),
 (127910371, 4141, 0, 1, 0, 3, 'thedaviddias/Front-End-Design-Checklist', '💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers', ARRAY['thedaviddias', 'admpk'], '2022-02-24T21:06:05.080468+00:00'),
+(127968704, 10424, 82, 1, 0, 2, 'tensorflow/tfjs-models', 'Pretrained models for TensorFlow.js', ARRAY['lina128', 'oveddan'], '2022-02-24T21:06:05.080468+00:00'),
 (128151112, 62, 17, 1, 0, 10, 'purplship/purplship', 'The Open Source Multi-carrier Shipping API', ARRAY['danh91', 'jacobshilitz'], '2022-02-24T21:06:05.080468+00:00'),
 (128193054, 5446, 114, 2, 0, 8.5, 'keystonejs/keystone', 'The most powerful headless CMS for Node.js — built with GraphQL and React', ARRAY['timleslie', 'jesstelford'], '2022-02-24T21:06:05.080468+00:00'),
 (128237146, 19760, 511, 1, 0, 12, 'vuejs/vuepress', '📝 Minimalistic Vue-powered static site generator', ARRAY['ulivz', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
-(127968704, 10424, 82, 1, 0, 2, 'tensorflow/tfjs-models', 'Pretrained models for TensorFlow.js', ARRAY['lina128', 'oveddan'], '2022-02-24T21:06:05.080468+00:00'),
 (128265535, 581, 64, 1, 0, 1, 'GoogleCloudPlatform/click-to-deploy', 'Source for Google Click to Deploy solutions listed on Google Cloud Marketplace.', ARRAY['wgrzelak', 'armandomiani'], '2022-02-24T21:06:05.080468+00:00'),
 (128275689, 5143, 62, 1, 0, 26, 'cchen156/Learning-to-See-in-the-Dark', 'Learning to See in the Dark. CVPR 2018', ARRAY['cchen156', 'Jason-Cooke'], '2022-02-24T21:06:05.080468+00:00'),
 (128396076, 2757, 63, 1, 0, 5, 'testing-library/dom-testing-library', '🐙 Simple and complete DOM testing utilities that encourage good testing practices.', ARRAY['kentcdodds', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),

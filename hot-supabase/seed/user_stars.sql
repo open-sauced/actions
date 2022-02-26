@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-25T20:43:18.348Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T01:01:55.917Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2676,9 +2676,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2653, 46828701, 269174002, 0, 0, 5, 'counterpoint-studio/artgift', 'An open source web application for booking and managing Art Gifts', ARRAY['teropa', 'samueldiggins'], '2022-02-24T21:07:34.596111'),
 (2654, 46828701, 35174991, 1, 345, 616, 'openfoodfacts/openfoodfacts-androidapp', 'Native version of Open Food Facts on Android - Coders & Decoders welcome 🤳🥫 ', ARRAY['teolemon', 'VaiTon'], '2022-02-24T21:07:34.596111'),
 (2655, 46828701, 57252451, 2, 38, 3485, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:07:34.596111'),
+(2656, 46828701, 152873434, 3, 0, 3, 'NaturalCycles/dev-lib', 'Configuration files and scripts shared between all js modules', ARRAY['kirillgroshkov', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (2657, 46828701, 70137417, 4, 233, 3779, 'corda/corda', 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', ARRAY['Clintonio', 'exFalso'], '2022-02-24T21:07:34.596111'),
 (2658, 46828701, 5187976, 5, 58, 1067, 'openmrs/openmrs-core', 'OpenMRS API and web application code', ARRAY['dkayiwa', 'wluyima'], '2022-02-24T21:07:34.596111'),
-(2656, 46828701, 152873434, 3, 0, 3, 'NaturalCycles/dev-lib', 'Configuration files and scripts shared between all js modules', ARRAY['kirillgroshkov', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (2659, 46828701, 168709940, 6, 7, 259, 'kudulab/dojo', 'Containerize your development and operations environment', ARRAY['xmik', 'tomzo'], '2022-02-24T21:07:34.596111'),
 (2660, 46828701, 7548246, 7, 49, 3438, 'a11yproject/a11yproject.com', 'The A11Y Project is a community-driven effort to make digital accessibility easier.', ARRAY['ericwbailey', 'davatron5000'], '2022-02-24T21:07:34.596111'),
 (2661, 46828701, 315005960, 8, 1, 19, 'KittyGiraudel/react-a11y-footnotes', 'A reusable React implementation of accessible footnotes.', ARRAY['KittyGiraudel'], '2022-02-24T21:07:34.596111'),
@@ -4315,13 +4315,13 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (328070675, 59939260, 71359796, 29, 29, 593, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:07:34.596111'),
 (323523231, 55907631, 209391513, 29, 30, 1067, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
 (320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
-(306906348, 4199845, 190091795, 29, 19, 4362, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (321809845, 907680, 70908474, 29, 62, 933, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (259232283, 10012151, 18442377, 8, 0, 13441, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
+(308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
 (311230796, 26205172, 116160755, 29, 0, 9327, 'dotnet/blazor', 'Blazor moved to https://github.com/dotnet/aspnetcore', ARRAY['SteveSandersonMS', 'rynowak'], '2022-02-24T21:07:34.596111'),
 (451044473, 11589902, 38547977, 0, 1, 1, 'nifemim/MosaicPlus', 'Just a repo to set up the website.', ARRAY['charlesinjoroge', 'sarasolano'], '2022-02-24T21:07:34.596111'),
-(308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 38131381, 29, 2, 618, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest'], '2022-02-24T21:07:34.596111'),
+(306906348, 4199845, 190091795, 29, 19, 4362, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 3, 618, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest'], '2022-02-24T21:07:34.596111'),
 (418247835, 16165980, 343965132, 0, 6, 28909, 'microsoft/ML-For-Beginners', '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', ARRAY['jlooper', 'softchris'], '2022-02-24T21:07:34.596111'),
 (423914895, 19617280, 333980205, 29, 0, 142, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:07:34.596111'),
 (431463238, 24553355, 362276202, 29, 6, 493, 'Azure/counterfit', 'a CLI that provides a generic automation layer for assessing the security of ML models', ARRAY['moohax', 'rdheekonda'], '2022-02-24T21:07:34.596111'),
@@ -4352,7 +4352,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (351353449, 35429278, 373396052, 29, 1, 46, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (422332797, 4066445, 3214406, 4, 110, 42819, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-24T21:07:34.596111'),
 (304890007, 69519470, 133134007, 1, 3080, 11356, 'OpenAPITools/openapi-generator', 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', ARRAY['wing328', 'fehguy'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 157397583, 29, 53, 8478, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 54, 8484, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (348840995, 351693, 197008093, 0, 11, 49, 'fmartinou/whats-up-docker', 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', ARRAY['fmartinou', 'ajgon'], '2022-02-24T21:07:34.596111'),
 (415612821, 44642314, 268098312, 0, 6, 17, 'ZedThree/clang-tidy-review', 'Create a pull request review based on clang-tidy warnings', ARRAY['ZedThree', 'kgfoundrydig'], '2022-02-24T21:07:34.596111'),
 (408066383, 58392246, 407507122, 0, 0, 1, 'dimassuam/project-kalian', 'Menyimpan daftar Project Kalian yang sudah disubmit di Discord', ARRAY['sandhikagalih'], '2022-02-24T21:07:34.596111'),
