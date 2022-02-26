@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T20:43:17.083Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T22:43:21.520Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -206,19 +206,19 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (4573607, 1, false, true, 'lorenanicole', '2022-02-24T21:07:48.046487+00:00'),
 (12400445, 1, false, true, 'AvantSekai', '2022-02-25T08:00:20.569659+00:00'),
 (32903278, 1, false, true, 'onurbayraktar', '2022-02-24T21:07:48.046487+00:00'),
+(9935383, 3, false, true, 'jsehull', '2022-02-24T21:07:48.046487+00:00'),
 (67872399, 3, false, true, 'An-prog-hub', '2022-02-25T08:10:31.388079+00:00'),
 (29888641, 16, false, true, 'filiptronicek', '2022-02-25T08:23:30.582095+00:00'),
-(9935383, 3, false, true, 'jsehull', '2022-02-24T21:07:48.046487+00:00'),
-(10012151, 1, true, true, 'joaoapel', '2022-02-24T21:07:48.046487+00:00'),
-(29295102, 1, false, true, 'silvasobrinho', '2022-02-24T21:07:48.046487+00:00'),
-(3037127, 6, false, true, 'cpretzer', '2022-02-25T08:34:30.116922+00:00'),
 (5467696, 2, false, true, 'fwoelffel', '2022-02-24T21:07:48.046487+00:00'),
+(29295102, 1, false, true, 'silvasobrinho', '2022-02-24T21:07:48.046487+00:00'),
+(5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (26205172, 2, false, true, 'Alucard17', '2022-02-24T21:07:48.046487+00:00'),
+(3037127, 6, false, true, 'cpretzer', '2022-02-25T08:34:30.116922+00:00'),
 (19350071, 1, false, true, 'atosh502', '2022-02-25T08:23:36.902391+00:00'),
-(4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
+(10012151, 1, true, true, 'joaoapel', '2022-02-24T21:07:48.046487+00:00'),
 (14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
 (62261622, 0, false, true, 'sosplush', '2022-02-24T21:07:48.046487+00:00'),
-(5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
+(4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
 (8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
 (33148009, 9, false, true, 'papadavis47', '2022-02-25T08:10:28.35607+00:00'),
 (1228996, 3, false, true, 'MichaelJolley', '2022-02-24T21:07:48.046487+00:00');
