@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T12:49:12.468Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T14:43:26.042Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4315,13 +4315,13 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (328070675, 59939260, 71359796, 29, 28, 593, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:07:34.596111'),
 (321809845, 907680, 70908474, 29, 62, 933, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (275257239, 14043845, 38131381, 29, 3, 619, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest'], '2022-02-24T21:07:34.596111'),
-(451044473, 11589902, 38547977, 0, 1, 1, 'nifemim/MosaicPlus', 'Just a repo to set up the website.', ARRAY['charlesinjoroge', 'sarasolano'], '2022-02-24T21:07:34.596111'),
 (320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
 (306906348, 4199845, 190091795, 29, 19, 4362, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (259232283, 10012151, 18442377, 8, 0, 13461, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
 (311230796, 26205172, 116160755, 29, 0, 9326, 'dotnet/blazor', 'Blazor moved to https://github.com/dotnet/aspnetcore', ARRAY['SteveSandersonMS', 'rynowak'], '2022-02-24T21:07:34.596111'),
 (442470627, 24606613, 6106472, 8, 14, 1278, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-24T21:07:34.596111'),
 (308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
+(451044473, 11589902, 38547977, 0, 1, 1, 'nifemim/MosaicPlus', 'Just a repo to set up the website.', ARRAY['charlesinjoroge', 'sarasolano'], '2022-02-24T21:07:34.596111'),
 (418247835, 16165980, 343965132, 0, 6, 28909, 'microsoft/ML-For-Beginners', '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', ARRAY['jlooper', 'softchris'], '2022-02-24T21:07:34.596111'),
 (419094803, 12849040, 287573157, 0, 12, 1137, 'Leniolabs/layoutit-grid', 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', ARRAY['patak-dev', 'agustin-capeletto-lenio'], '2022-02-24T21:07:34.596111'),
 (431463238, 24553355, 362276202, 29, 6, 493, 'Azure/counterfit', 'a CLI that provides a generic automation layer for assessing the security of ML models', ARRAY['moohax', 'rdheekonda'], '2022-02-24T21:07:34.596111'),
@@ -4387,12 +4387,11 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (336566384, 1368727, 268086996, 0, 30, 11, 'dotellie/nestjs-graphql-pagination', 'Decorators to allow easily building up relay compatible pagination types', ARRAY['renovate-bot', 'dotellie'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 219, 2734, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
-(455678420, 6499373, 36040894, 24, 325, 52416, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
-(452075032, 22186029, 337208358, 29, 0, 14, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
+(455678420, 6499373, 36040894, 24, 325, 52417, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (435800079, 16268467, 23083156, 11, 974, 75847, 'mui-org/material-ui', 'MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
+(452075032, 22186029, 337208358, 29, 0, 14, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 37, 39539, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (455114859, 24910512, 61051155, 29, 24, 1864, 'ulid/javascript', 'Universally Unique Lexicographically Sortable Identifier', ARRAY['alizain', 'jansenignacio'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 524, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
-(452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (444433367, 656318, 38612708, 10, 2, 1, 'TeamTessie/tessietodo-static', 'Our static Tessie To-do App', ARRAY['tamacodechi', 'ShellyCoen'], '2022-02-24T21:07:34.596111'),
 (408008691, 45036724, 61059364, 29, 38, 665, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-24T21:07:34.596111'),
 (450574015, 3662109, 334169919, 29, 20, 1265, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
@@ -4417,11 +4416,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (333601244, 12292047, 37205440, 29, 173, 4404, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
 (330475048, 61131314, 31792824, 29, 10444, 136884, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-24T21:07:34.596111'),
 (460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 37, 39528, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 524, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
+(452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (408003690, 1305623, 51270739, 29, 58, 19888, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-24T21:07:34.596111'),
 (422278376, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-24T21:07:34.596111'),
 (396048872, 60254117, 365976998, 29, 0, 2, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-24T21:07:34.596111'),
-(456168834, 5381468, 95863194, 29, 22, 9793, 'kettanaito/naming-cheatsheet', 'Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.', ARRAY['kettanaito', 'mhizterkeyz'], '2022-02-24T21:07:34.596111'),
+(456168834, 5381468, 95863194, 29, 22, 9794, 'kettanaito/naming-cheatsheet', 'Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.', ARRAY['kettanaito', 'mhizterkeyz'], '2022-02-24T21:07:34.596111'),
 (399559931, 30369246, 21405028, 29, 2, 10254, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-24T21:07:34.596111'),
 (391706360, 25867172, 18696257, 29, 15, 9848, 'qrohlf/trianglify', 'Algorithmically generated triangle art', ARRAY['qrohlf', 'enzuguri'], '2022-02-24T21:07:34.596111'),
 (409822566, 9968219, 283210438, 29, 0, 1, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-24T21:07:34.596111'),
