@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T01:02:17.188Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T02:48:18.444Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -171,8 +171,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (3100121, 38634, 884, 1, 0, 2, 'nwjs/nw.js', 'Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.', ARRAY['rogerwang', 'zcbenz'], '2022-02-24T21:06:05.080468+00:00'),
 (3100494, 3610, 147, 1, 0, 23, 'fzaninotto/uptime', 'A remote monitoring application using Node.js, MongoDB, and Twitter Bootstrap.', ARRAY['fzaninotto', 'PopDaph'], '2022-02-24T21:06:05.080468+00:00'),
 (3105906, 7276, 29, 1, 0, 26, 'PharkMillups/beautiful-docs', 'Pointers to useful, well-written, and otherwise beautiful documentation.', ARRAY['PharkMillups', 'logankoester'], '2022-02-24T21:06:05.080468+00:00'),
-(3116751, 11167, 50, 1, 0, 29, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:06:05.080468+00:00'),
 (3168392, 6, 0, 1, 0, 11, 'david0178418/Backbone-RequireJS-Todo-Example', 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', ARRAY['david0178418'], '2022-02-24T21:06:05.080468+00:00'),
+(3116751, 11167, 50, 1, 0, 29, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:06:05.080468+00:00'),
 (3214406, 42747, 123, 1, 0, 4, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-24T21:06:05.080468+00:00'),
 (3310609, 1133, 36, 1, 0, 13, 'Netflix/netflix.github.com', null, ARRAY['Randgalt', 'PoorImpulseCtrl'], '2022-02-24T21:06:05.080468+00:00'),
 (3319040, 7738, 5, 1, 0, 2, 'id-Software/DOOM', 'DOOM Open Source Release', ARRAY['id-travis-bradshaw'], '2022-02-24T21:06:05.080468+00:00'),
@@ -650,8 +650,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (31985475, 5, 1, 1, 0, 2, 'erceth/jsflags-ai', 'ai node process that connects to jsflags', ARRAY['erceth'], '2022-02-24T21:06:05.080468+00:00'),
 (32222044, 5343, 45, 1, 0, 25, 'erincatto/box2d', 'Box2D is a 2D physics engine for games', ARRAY['erincatto', 'wub'], '2022-02-24T21:06:05.080468+00:00'),
 (32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-24T21:06:05.080468+00:00'),
-(32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-24T21:06:05.080468+00:00'),
 (32531480, 18873, 4, 2, 0, 11, 'js-cookie/js-cookie', 'A simple, lightweight JavaScript API for handling browser cookies', ARRAY['carhartl', 'FagnerMartinsBrack'], '2022-02-24T21:06:05.080468+00:00'),
+(32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-24T21:06:05.080468+00:00'),
 (32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-24T21:06:05.080468+00:00'),
 (32623292, 16514, 141, 1, 0, 0, 'basarat/typescript-book', ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', ARRAY['basarat', 'Marketionist'], '2022-02-24T21:06:05.080468+00:00'),
 (32688481, 560, 2, 1, 0, 26, 'frontendfront/front-end-conferences', 'This is a list of upcoming front-end related conferences.', ARRAY['frontendfront', 'AllThingsSmitty'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1000,14 +1000,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (63476337, 125891, 211, 1, 0, 29, 'TheAlgorithms/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-24T21:06:05.080468+00:00'),
 (63508378, 1314, 5, 1, 0, 24, 'sindresorhus/hyper-snazzy', 'Elegant Hyper theme with bright colors', ARRAY['sindresorhus', 'connorholyday'], '2022-02-24T21:06:05.080468+00:00'),
 (63537249, 92462, 1423, 1, 0, 2, 'facebook/create-react-app', 'Set up a modern web app by running one command.', ARRAY['gaearon', 'Timer'], '2022-02-24T21:06:05.080468+00:00'),
-(63902889, 851, 46, 1, 0, 3, 'nypublicradio/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'marineb'], '2022-02-24T21:06:05.080468+00:00'),
-(63965783, 4056, 723, 1, 0, 3, 'swimlane/ngx-charts', ':bar_chart: Declarative Charting Framework for Angular', ARRAY['marjan-georgiev', 'amcdnl'], '2022-02-24T21:06:05.080468+00:00'),
-(64361364, 1, 0, 1, 0, 4, 'kawaiidesune/kawaiidesune.github.io', 'My github pages site.', ARRAY['kawaiidesune'], '2022-02-24T21:06:05.080468+00:00'),
 (64504667, 946, 0, 1, 0, 19, 'MBMIT/MBM-Artwork', 'MBM Artwork', ARRAY['mariobehling'], '2022-02-24T21:06:05.080468+00:00'),
 (64558143, 30259, 132, 1, 0, 21, 'Blankj/AndroidUtilCode', ':fire: Android developers should collect the following utils(updating).', ARRAY['Blankj', 'CaiMengjie'], '2022-02-24T21:06:05.080468+00:00'),
 (64700934, 14464, 97, 1, 0, 24, 'OpenZeppelin/openzeppelin-contracts', 'OpenZeppelin Contracts is a library for secure smart contract development.', ARRAY['frangio', 'nventuro'], '2022-02-24T21:06:05.080468+00:00'),
 (64782550, 39, 1, 1, 0, 27, 'indiegogo/apple-pay-js-stubs', 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', ARRAY['glentregoning', 'julianguyen'], '2022-02-24T21:06:05.080468+00:00'),
+(63902889, 851, 46, 1, 0, 3, 'nypublicradio/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'marineb'], '2022-02-24T21:06:05.080468+00:00'),
 (64877453, 1024, 36, 1, 0, 25, 'paypal/paypal-checkout-components', 'Javascript Integration for PayPal Button and PayPal Checkout', ARRAY['bluepnume', 'gregjopa'], '2022-02-24T21:06:05.080468+00:00'),
+(63965783, 4056, 723, 1, 0, 3, 'swimlane/ngx-charts', ':bar_chart: Declarative Charting Framework for Angular', ARRAY['marjan-georgiev', 'amcdnl'], '2022-02-24T21:06:05.080468+00:00'),
+(64361364, 1, 0, 1, 0, 4, 'kawaiidesune/kawaiidesune.github.io', 'My github pages site.', ARRAY['kawaiidesune'], '2022-02-24T21:06:05.080468+00:00'),
 (64889181, 49, 13, 1, 0, 7, 'jmtyszka/bidskit', 'Utility functions for working with DICOM and BIDS neuroimaging data', ARRAY['jmtyszka', 'nair-r'], '2022-02-24T21:06:05.080468+00:00'),
 (65089884, 60, 2, 1, 0, 3, 'jonschlinkert/dry', 'Dry is a new template engine and language, and is a superset of Shopify''s Liquid, with first-class support for advanced inheritance features, and more. From the creators of Enquirer, Assemble, Remarkable, and Micromatch.', ARRAY['jonschlinkert'], '2022-02-24T21:06:05.080468+00:00'),
 (65144724, 2465, 42, 1, 0, 11, 'metakirby5/codi.vim', ':notebook_with_decorative_cover: The interactive scratchpad for hackers.', ARRAY['metakirby5', 'still-dreaming-1'], '2022-02-24T21:06:05.080468+00:00'),
