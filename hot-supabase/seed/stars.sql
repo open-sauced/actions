@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T10:43:30.769Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T12:49:18.700Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -811,8 +811,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (179623816, 240, 16, 50, 'GraphQLGuide/apollo-datasource-mongodb', '2022-02-24T21:07:06.457173+00:00'),
 (51762221, 4932, 48, 990, 'yinxin630/fiora', '2022-02-24T21:07:06.457173+00:00'),
 (32689863, 39839, 325, 4542, '3b1b/manim', '2022-02-24T21:07:06.457173+00:00'),
-(111008174, 56, 8, 54, 'Azure-Samples/cognitive-services-android-customvision-sample', '2022-02-24T21:07:06.457173+00:00'),
 (14211062, 99, 19, 55, 'sam-cox/pytides', '2022-02-24T21:07:06.457173+00:00'),
+(111008174, 56, 8, 54, 'Azure-Samples/cognitive-services-android-customvision-sample', '2022-02-24T21:07:06.457173+00:00'),
 (129253372, 6, 3, 2, 'Parithi/Integrating-Vuforia-7-and-JPCT-AE-in-Android', '2022-02-24T21:07:06.457173+00:00'),
 (50685592, 1059, 52, 919, 'GoogleCloudPlatform/cloud-vision', '2022-02-24T21:07:06.457173+00:00'),
 (4084908, 11232, 380, 1778, 'realm/realm-java', '2022-02-24T21:07:06.457173+00:00'),
@@ -835,8 +835,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (51980455, 37694, 312, 2137, 'alacritty/alacritty', '2022-02-24T21:07:06.457173+00:00'),
 (83603533, 8045, 0, 900, 'felipefialho/frontend-challenges', '2022-02-24T21:07:06.457173+00:00'),
 (60537144, 12933, 780, 2136, 'microsoft/fluentui', '2022-02-24T21:07:06.457173+00:00'),
-(264806346, 27, 0, 10, 'justmedude/pylotoncycle', '2022-02-24T21:07:06.457173+00:00'),
 (314878604, 1, 1, 0, 'Mogakamo/dynamic-web-starter', '2022-02-24T21:07:06.457173+00:00'),
+(264806346, 27, 0, 10, 'justmedude/pylotoncycle', '2022-02-24T21:07:06.457173+00:00'),
 (169371413, 9828, 1, 1530, 'MoienTajik/AspNetCore-Developer-Roadmap', '2022-02-24T21:07:06.457173+00:00'),
 (174038031, 26351, 16, 1287, 'react-hook-form/react-hook-form', '2022-02-24T21:07:06.457173+00:00'),
 (74791366, 64320, 54, 8482, 'ryanmcdermott/clean-code-javascript', '2022-02-24T21:07:06.457173+00:00'),
