@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-26T22:43:21.737Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T01:02:17.369Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4037,8 +4037,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4041, 26205172, 90608506, 21, 118, 2112, 'sqlkata/querybuilder', 'SQL query builder, written in c#, helps you build complex queries easily, supports SqlServer, MySql, PostgreSql, Oracle, Sqlite and Firebird', ARRAY['ahmad-moussawi', 'ceastwood'], '2022-02-24T21:07:34.596111'),
 (4042, 26205172, 21540759, 22, 24, 72753, 'avelino/awesome-go', 'A curated list of awesome Go frameworks, libraries and software', ARRAY['mholt', 'avelino'], '2022-02-24T21:07:34.596111'),
 (4043, 26205172, 20904437, 23, 461, 54156, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-24T21:07:34.596111'),
-(4044, 26205172, 120538304, 24, 4088, 50812, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:07:34.596111'),
-(4045, 26205172, 2833537, 25, 134, 6394, 'jquery/esprima', 'ECMAScript parsing infrastructure for multipurpose analysis', ARRAY['ariya', 'Constellation'], '2022-02-24T21:07:34.596111'),
 (4046, 26205172, 12244426, 26, 128, 23755, 'rstacruz/nprogress', 'For slim progress bars like on YouTube, Medium, etc', ARRAY['rstacruz', 'lipis'], '2022-02-24T21:07:34.596111'),
 (4047, 26205172, 103749180, 27, 2460, 12942, 'OpenGenus/cosmos', 'Hacktoberfest 2021 | World''s largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |', ARRAY['AdiChat', 'arnavb'], '2022-02-24T21:07:34.596111'),
 (4048, 26205172, 1685764, 28, 144, 18468, 'dhg/Skeleton', 'Skeleton: A Dead Simple, Responsive Boilerplate for Mobile-Friendly Development', ARRAY['dhg', 'rauchg'], '2022-02-24T21:07:34.596111'),
@@ -4143,6 +4141,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4147, 5713670, 43347873, 9, 149, 4698, 'danger/danger', '🚫 Stop saying ''you forgot to …'' in code review (in Ruby)', ARRAY['orta', 'KrauseFx'], '2022-02-24T21:07:34.596111'),
 (4148, 5713670, 414680083, 10, 3, 70, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-24T21:07:34.596111'),
 (4149, 5713670, 219415760, 11, 0, 33, 'mattdsteele/dominos-action', 'Domino''s 🍕 as a GitHub Action', ARRAY['mattdsteele'], '2022-02-24T21:07:34.596111'),
+(4044, 26205172, 120538304, 24, 4088, 50812, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:07:34.596111'),
+(4045, 26205172, 2833537, 25, 134, 6394, 'jquery/esprima', 'ECMAScript parsing infrastructure for multipurpose analysis', ARRAY['ariya', 'Constellation'], '2022-02-24T21:07:34.596111'),
 (4150, 5713670, 369652397, 12, 1, 6, 'whitep4nth3r/unbreak.tech', 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', ARRAY['whitep4nth3r'], '2022-02-24T21:07:34.596111'),
 (4151, 5713670, 406594497, 13, 0, 3, 'bdougie/invite-automation', 'This is a repo to automate invites to teams. ', ARRAY['bdougie'], '2022-02-24T21:07:34.596111'),
 (4152, 5713670, 411003249, 14, 2, 14, 'mtfoley/pr-compliance-action', 'Check PR for compliance on title, linked issues, and files changed', ARRAY['mtfoley', 'MichaelDeBoey'], '2022-02-24T21:07:34.596111'),
@@ -4329,9 +4329,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (419462546, 29417643, 26573009, 4, 11, 176, 'semmypurewal/BeginningJavaScript', 'This repo contains the examples, notes and problems for my O''Reilly video ''Beginning Programming with JavaScript''', ARRAY['semmypurewal'], '2022-02-24T21:07:34.596111'),
 (419128913, 1255918, 6326227, 21, 195, 118, 'metamaps/metamaps', 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', ARRAY['devvmh', 'Connoropolous'], '2022-02-24T21:07:34.596111'),
 (419094803, 12849040, 287573157, 0, 12, 1137, 'Leniolabs/layoutit-grid', 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', ARRAY['patak-dev', 'agustin-capeletto-lenio'], '2022-02-24T21:07:34.596111'),
+(417381369, 79887, 2928944, 29, 1607, 3332, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:07:34.596111'),
 (396049655, 85258143, 388004440, 0, 1, 47, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-24T21:07:34.596111'),
 (363282160, 4381106, 70777180, 13, 12, 12278, 'Foundry376/Mailspring', ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', ARRAY['bengotow', 'emorikawa'], '2022-02-24T21:07:34.596111'),
-(417381369, 79887, 2928944, 29, 1607, 3332, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:07:34.596111'),
 (396805583, 26586086, 147350463, 29, 12, 47289, 'leonardomso/33-js-concepts', '📜 33 JavaScript concepts every developer should know.', ARRAY['leonardomso', 'ilker0'], '2022-02-24T21:07:34.596111'),
 (417311106, 71297412, 55631449, 29, 97, 2165, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:07:34.596111'),
 (397167684, 52573181, 60493101, 1, 44, 210571, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:07:34.596111'),
