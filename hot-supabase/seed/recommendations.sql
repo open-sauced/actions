@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T08:43:45.118Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T10:43:30.993Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3193,9 +3193,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (356166032, 521, 0, 1, 0, 3, 'dabit3/full-stack-ethereum', 'Building full stack apps with Solidity, Ethers.js, Hardhat, and The Graph', ARRAY['dabit3', 'sJJdGG'], '2022-02-24T21:06:05.080468+00:00'),
 (356593669, 357, 2, 1, 0, 9, 'penk/ruha.camera', '3D Printable Retro-style Raspberry Pi HQ Camera', ARRAY['penk', 'meafs'], '2022-02-24T21:06:05.080468+00:00'),
 (356597963, 75, 0, 1, 0, 3, 'charliegerard/dark-mode-clap-extension', 'Chrome extension to toggle dark mode on Netlify by clapping hands 👏', ARRAY['charliegerard'], '2022-02-24T21:06:05.080468+00:00'),
-(357019331, 28, 3, 1, 0, 1, 'arctic-hen7/bonnie', 'Simple, cross-platform, and fast command aliases with superpowers.', ARRAY['arctic-hen7', 'ostev'], '2022-02-24T21:06:05.080468+00:00'),
 (367390690, 289, 0, 1, 0, 1, 'MarcoWorms/learn.js', '📒 A fast introduction to programming with JavaScript modern features', ARRAY['MarcoWorms', 'otaviopace'], '2022-02-24T21:06:05.080468+00:00'),
 (357272600, 5246, 36, 1, 0, 0, 'nextapps-de/winbox', 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', ARRAY['ts-thomas', 'kodie'], '2022-02-24T21:06:05.080468+00:00'),
+(357019331, 28, 3, 1, 0, 1, 'arctic-hen7/bonnie', 'Simple, cross-platform, and fast command aliases with superpowers.', ARRAY['arctic-hen7', 'ostev'], '2022-02-24T21:06:05.080468+00:00'),
 (357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-24T21:06:05.080468+00:00'),
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-24T21:06:05.080468+00:00'),
 (357342987, 64, 0, 1, 0, 17, 'devpato/tech-podcasts-list', 'List of Tech Podcasts.', ARRAY['devpato', 'kenshinji'], '2022-02-24T21:06:05.080468+00:00'),
