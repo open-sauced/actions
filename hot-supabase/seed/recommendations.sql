@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-27T22:43:15.861Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T01:02:19.110Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2713,9 +2713,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (283489816, 104, 12, 1, 0, 11, 'netlify/framework-info', 'Framework detection utility', ARRAY['renovate-bot', 'ehmicky'], '2022-02-24T21:06:05.080468+00:00'),
 (283728680, 203, 3, 1, 0, 22, 'dailydotdev/apps', 'daily.dev application suite', ARRAY['idoshamun', 'rebelchris'], '2022-02-24T21:06:05.080468+00:00'),
 (283854962, 53, 12, 1, 0, 8, 'operator-framework/kubectl-operator', 'Manage Kubernetes Operators from the command line', ARRAY['joelanford', 'kensipe'], '2022-02-24T21:06:05.080468+00:00'),
-(283910851, 2, 11, 1, 0, 28, 'Jucian0/recoil-example', 'A small example about recoil', ARRAY['Jucian0'], '2022-02-24T21:06:05.080468+00:00'),
-(283972908, 20, 9, 1, 0, 4, 'oscafrica/chapter-leads-hub', 'OSCA Chapter Leads Hub 🎖', ARRAY['BolajiAyodeji', 'saintmalik'], '2022-02-24T21:06:05.080468+00:00'),
-(284462639, 54, 0, 1, 0, 22, 'Sunchit/Coding-Decoded', 'LeetCode solutions ', ARRAY['Sunchit', 'shyam2520'], '2022-02-24T21:06:05.080468+00:00'),
 (284546323, 1, 0, 1, 0, 10, 'Abhirup-99/DesktopWallpaper', null, ARRAY['Abhirup-99', 'Abhirup-2019'], '2022-02-24T21:06:05.080468+00:00'),
 (284707810, 139, 5, 1, 0, 8, 'posva/vue-ts-lib', 'Vue 3 library starter in TS with lint, auto release, changelog and tests', ARRAY['posva', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (284951208, 277, 19, 1, 0, 14, 'Threagile/threagile', 'Agile Threat Modeling Toolkit', ARRAY['cschneider4711', 'scottbrown'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3171,7 +3168,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (351914021, 17, 0, 1, 0, 0, 'adleong/tapshark', null, ARRAY['adleong'], '2022-02-24T21:06:05.080468+00:00'),
 (351958053, 1116, 31, 1, 0, 17, 'giscus/giscus', 'A comments system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:', ARRAY['laymonage', 'nschonni'], '2022-02-24T21:06:05.080468+00:00'),
 (352170777, 20, 0, 1, 0, 23, 'spieglt/Cloaker.js', 'Simple password-based file encryption entirely in your browser, interoperable with Cloaker.', ARRAY['spieglt'], '2022-02-24T21:06:05.080468+00:00'),
+(283910851, 2, 11, 1, 0, 28, 'Jucian0/recoil-example', 'A small example about recoil', ARRAY['Jucian0'], '2022-02-24T21:06:05.080468+00:00'),
+(283972908, 20, 9, 1, 0, 4, 'oscafrica/chapter-leads-hub', 'OSCA Chapter Leads Hub 🎖', ARRAY['BolajiAyodeji', 'saintmalik'], '2022-02-24T21:06:05.080468+00:00'),
 (352188463, 42, 1, 1, 0, 1, 'writewithocto/ink', 'The configurable, embeddable, extensible JavaScript Markdown editor that powers https://octo.app.', ARRAY['voraciousdev'], '2022-02-24T21:06:05.080468+00:00'),
+(284462639, 54, 0, 1, 0, 22, 'Sunchit/Coding-Decoded', 'LeetCode solutions ', ARRAY['Sunchit', 'shyam2520'], '2022-02-24T21:06:05.080468+00:00'),
 (352264712, 2, 0, 1, 0, 16, 'sk1122/HoliGame', null, ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
 (352417531, 977, 4, 1, 0, 17, 'randallkanna/awesome-job-list', 'A list of the best places to job hunt. I''ve been curating this for the past 7 years.', ARRAY['randallkanna', 'mehdichaouch'], '2022-02-24T21:06:05.080468+00:00'),
 (352933140, 4341, 109, 1, 0, 5, 'ToolJet/ToolJet', 'Open-source low-code framework for building React-based web applications and internal tools 🚀', ARRAY['Navaneeth-pk', 'arpitnath'], '2022-02-24T21:06:05.080468+00:00'),
