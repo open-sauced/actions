@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T10:43:59.032Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T12:50:34.263Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -654,8 +654,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (22781617, 450, 0, 75, 'cclauss/Ten-lines-or-less', '2022-02-24T21:07:06.457173+00:00'),
 (20455294, 67, 25, 17, 'guaycuru/gde', '2022-02-24T21:07:06.457173+00:00'),
 (31985475, 5, 1, 11, 'erceth/jsflags-ai', '2022-02-24T21:07:06.457173+00:00'),
-(246056423, 16, 0, 10, 'iagoac/mc202', '2022-02-24T21:07:06.457173+00:00'),
 (208319207, 69, 32, 24, 'awslabs/smithy-typescript', '2022-02-24T21:07:06.457173+00:00'),
+(246056423, 16, 0, 10, 'iagoac/mc202', '2022-02-24T21:07:06.457173+00:00'),
 (7548246, 3464, 47, 525, 'a11yproject/a11yproject.com', '2022-02-24T21:07:06.457173+00:00'),
 (372098732, 47, 0, 2, 'nartc/ngrx-slice', '2022-02-24T21:07:06.457173+00:00'),
 (152370823, 4959, 23, 472, 'davidfowl/AspNetCoreDiagnosticScenarios', '2022-02-24T21:07:06.457173+00:00'),

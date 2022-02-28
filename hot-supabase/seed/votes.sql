@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T10:43:59.548Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T12:50:33.573Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -58,4 +58,6 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (1, 237133, 'MunGell/awesome-for-beginners', '237133-MunGell/awesome-for-beginners', '2022-02-24T21:23:47.480082+00:00'),
 (3, 237133, 'lydiahallie/javascript-questions', '237133-lydiahallie/javascript-questions', '2022-02-24T21:36:17.925977+00:00'),
 (102, 237133, 'open-sauced/hot', '237133-open-sauced/hot', '2022-02-04T00:57:41.260295+00:00'),
-(5, 5713670, 'practical-tutorials/project-based-learning', '5713670-practical-tutorials/project-based-learning', '2022-02-28T06:08:57.761533+00:00');
+(5, 5713670, 'practical-tutorials/project-based-learning', '5713670-practical-tutorials/project-based-learning', '2022-02-28T06:08:57.761533+00:00'),
+(7, 11247099, 'slidevjs/slidev', '11247099-slidevjs/slidev', '2022-02-28T12:29:27.410126+00:00'),
+(8, 11247099, 'vitejs/vite', '11247099-vitejs/vite', '2022-02-28T12:29:32.023283+00:00');

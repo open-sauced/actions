@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T10:43:59.734Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T12:50:33.826Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2485,7 +2485,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (257171786, 1503, 0, 1, 0, 2, 'mjebrahimi/Awesome-Microservices-NetCore', '💎 A collection of awesome training series, articles, videos, books, courses, sample projects, and tools for Microservices in .NET Core', ARRAY['mjebrahimi', 'logcorner'], '2022-02-24T21:06:05.080468+00:00'),
 (257314632, 227, 35, 1, 0, 28, 'onflow/fcl-js', 'FCL (Flow Client Library) - The best tool for building JavaScript (browser & NodeJS) applications on Flow 🌊', ARRAY['JeffreyDoyle', 'orodio'], '2022-02-24T21:06:05.080468+00:00'),
 (257404606, 50, 3, 1, 0, 29, 'textileio/js-examples', 'Examples and demos using Textile''s Javascript/Typescript libraries and clients.', ARRAY['andrewxhill', 'carsonfarmer'], '2022-02-24T21:06:05.080468+00:00'),
-(257485422, 35335, 771, 4, 2, 9.75, 'vitejs/vite', 'Next generation frontend tooling. It''s fast!', ARRAY['yyx990803', 'patak-dev'], '2022-02-24T21:06:05.080468+00:00'),
 (257567981, 1132, 14, 1, 0, 28, 'chandrikadeb7/Face-Mask-Detection', 'Face Mask Detection system based on computer vision and deep learning using OpenCV and Tensorflow/Keras', ARRAY['chandrikadeb7', 'vaishnavi-1'], '2022-02-24T21:06:05.080468+00:00'),
 (257631498, 30, 1, 1, 0, 12, 'onelittlenightmusic/graphql-mesh-docker', 'Dockerfile / docker-compose / Kubernetes manifest / Helm chart for GraphQL Mesh', ARRAY['onelittlenightmusic', 'raveinid'], '2022-02-24T21:06:05.080468+00:00'),
 (257665403, 432, 26, 1, 0, 29, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2493,6 +2492,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (258012772, 1569, 46, 1, 0, 7, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-24T21:06:05.080468+00:00'),
 (258031644, 24, 0, 1, 0, 2, 'jhutchings1/thank-you-builder', null, ARRAY['jhutchings1', 'hmarr'], '2022-02-24T21:06:05.080468+00:00'),
 (258049460, 1081, 16, 1, 0, 27, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-24T21:06:05.080468+00:00'),
+(257485422, 35335, 771, 4, 3, 9.75, 'vitejs/vite', 'Next generation frontend tooling. It''s fast!', ARRAY['yyx990803', 'patak-dev'], '2022-02-24T21:06:05.080468+00:00'),
 (258254038, 542, 11, 1, 0, 6, 'hhhrrrttt222111/Ethical-Hacking-Tools', 'Complete Listing and Usage of Tools used for Ethical Hacking', ARRAY['hhhrrrttt222111', 'bettercalln1ck'], '2022-02-24T21:06:05.080468+00:00'),
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-24T21:06:05.080468+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3220,7 +3220,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (360565698, 336, 6, 1, 0, 0, 'solana-labs/solana-season', null, ARRAY['mattytay', 'chaseeb'], '2022-02-24T21:06:05.080468+00:00'),
 (360655524, 1404, 1345, 1, 0, 5, 'education/GitHubGraduation-2021', 'Join the GitHub Graduation Yearbook and ''walk the stage'' on June 5.', ARRAY['juanpflores', 'elisemoe'], '2022-02-24T21:06:05.080468+00:00'),
 (360794368, 360, 10, 1, 0, 0, 'hschne/rails-mini-profiler', 'Performance profiling for Rails, made simple 🦔', ARRAY['hschne', 'olleolleolle'], '2022-02-24T21:06:05.080468+00:00'),
-(361044034, 16821, 48, 4, 1, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (361178225, 912, 7, 1, 0, 16, 'rodrigo-brito/ninjabot', 'A fast cryptocurrency trading bot implemented in Go', ARRAY['rodrigo-brito', 'panapol-p'], '2022-02-24T21:06:05.080468+00:00'),
 (361335799, 14, 1, 1, 0, 4, '100devs/todo-mvc-auth-local', null, ARRAY['leonnoel', 'JeremySeckinger'], '2022-02-24T21:06:05.080468+00:00'),
 (361722943, 1, 0, 1, 0, 28, 'Dhaiwat10/simple-nft', null, ARRAY['rhlsthrm', 'krzkaczor'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
-(88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00');
+(88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
+(361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00');
