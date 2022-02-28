@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T14:43:32.129Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T16:50:44.961Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -961,8 +961,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:06:05.080468+00:00'),
 (120538304, 50812, 4088, 2, 1, 14, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:06:05.080468+00:00'),
 (59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-24T21:06:05.080468+00:00'),
-(59669326, 2737, 70, 1, 0, 28, 'xoofx/markdig', 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ARRAY['xoofx', 'MihaZupan'], '2022-02-24T21:06:05.080468+00:00'),
 (59573221, 3485, 16, 1, 0, 23, 'sobolevn/awesome-cryptography', 'A curated list of cryptography resources and links.', ARRAY['sobolevn', 'lk-geimfari'], '2022-02-24T21:06:05.080468+00:00'),
+(59669326, 2737, 70, 1, 0, 28, 'xoofx/markdig', 'A fast, powerful, CommonMark compliant, extensible Markdown processor for .NET', ARRAY['xoofx', 'MihaZupan'], '2022-02-24T21:06:05.080468+00:00'),
 (59826401, 663, 0, 1, 0, 2, 'mikeckennedy/write-pythonic-code-demos', 'Write Pythonic Code Like a Seasoned Developer video course demo materials.', ARRAY['mikeckennedy', 'hclivess'], '2022-02-24T21:06:05.080468+00:00'),
 (59904484, 243, 8, 1, 0, 10, 'tc39/proposal-set-methods', 'Strawman for new Set methods', ARRAY['Ginden', 'gsathya'], '2022-02-24T21:06:05.080468+00:00'),
 (59909973, 1365, 24, 1, 0, 16, 'ngrx/example-app', 'Example app showcasing the ngrx platform', ARRAY['MikeRyanDev', 'krjordan'], '2022-02-24T21:06:05.080468+00:00'),
