@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T18:45:53.091Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T22:43:23.072Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -223,8 +223,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (4421756, 734, 17, 1, 0, 25, 'prose/gatekeeper', 'Enables client-side applications to dance OAuth with GitHub.', ARRAY['dereklieu', 'michael'], '2022-02-24T21:06:05.080468+00:00'),
 (320945731, 9, 0, 1, 0, 25, 'kyleoneill/CipherPunk', null, ARRAY['kyleoneill'], '2022-02-24T21:06:05.080468+00:00'),
 (4449421, 673, 4, 1, 0, 29, 'karmi/elasticsearch-paramedic', 'A simple tool to inspect the state and statistics about ElasticSearch clusters', ARRAY['karmi', 'walokra'], '2022-02-24T21:06:05.080468+00:00'),
-(4467228, 13433, 11, 1, 0, 18, 'krisk/Fuse', 'Lightweight fuzzy-search, in JavaScript', ARRAY['krisk', 'matthewwithanm'], '2022-02-24T21:06:05.080468+00:00'),
 (4484451, 26187, 29, 1, 0, 1, 'amix/vimrc', 'The ultimate Vim configuration (vimrc)', ARRAY['amix', 'daniilguit'], '2022-02-24T21:06:05.080468+00:00'),
+(4467228, 13433, 11, 1, 0, 18, 'krisk/Fuse', 'Lightweight fuzzy-search, in JavaScript', ARRAY['krisk', 'matthewwithanm'], '2022-02-24T21:06:05.080468+00:00'),
 (4568238, 4231, 66, 1, 0, 5, 'expressjs/expressjs.com', null, ARRAY['hacksparrow', 'crandmck'], '2022-02-24T21:06:05.080468+00:00'),
 (4578002, 29905, 14, 2, 0, 21.5, 'faif/python-patterns', 'A collection of design patterns/idioms in Python', ARRAY['faif', 'gyermolenko'], '2022-02-24T21:06:05.080468+00:00'),
 (4578898, 8715, 216, 1, 0, 9, 'HabitRPG/habitica', 'A habit tracker app which treats your goals like a Role Playing Game.', ARRAY['lefnire', 'SabreCat'], '2022-02-24T21:06:05.080468+00:00'),
