@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T08:44:35.417Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T10:43:59.734Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -256,9 +256,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (5405654, 23019, 15, 1, 0, 1, 'pcottle/learnGitBranching', 'An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!', ARRAY['pcottle', 'hong4rc'], '2022-02-24T21:06:05.080468+00:00'),
 (5508088, 17080, 202, 1, 0, 23, 'svg/svgo', '⚙️ Node.js tool for optimizing SVG files', ARRAY['GreLI', 'TrySound'], '2022-02-24T21:06:05.080468+00:00'),
 (5543112, 3115, 151, 1, 0, 26, 'lobsters/lobsters', 'Computing-focused community centered around link aggregation and discussion', ARRAY['jcs', 'pushcx'], '2022-02-24T21:06:05.080468+00:00'),
+(5550552, 7604, 372, 1, 0, 4, 'owncloud/core', ':cloud: ownCloud web server core (Files, DAV, etc.)', ARRAY['DeepDiver1975', 'phil-davis'], '2022-02-24T21:06:05.080468+00:00'),
 (5575055, 710, 126, 1, 0, 27, 'restforce/restforce', 'A Ruby client for the Salesforce REST API.', ARRAY['ejholmes', 'timrogers'], '2022-02-24T21:06:05.080468+00:00'),
 (5579613, 1717, 9, 1, 0, 8, 'mixu/singlepageappbook', 'Content and site generator for Single page apps in depth (my book on single page applications)', ARRAY['mixu', 'eeror'], '2022-02-24T21:06:05.080468+00:00'),
-(5550552, 7604, 372, 1, 0, 4, 'owncloud/core', ':cloud: ownCloud web server core (Files, DAV, etc.)', ARRAY['DeepDiver1975', 'phil-davis'], '2022-02-24T21:06:05.080468+00:00'),
 (5878403, 154, 1, 1, 0, 14, 'jcoleman/JCAutocompletingSearch', 'iOS widget for querying asynchronous backends allowing user selection from results.', ARRAY['jcoleman'], '2022-02-24T21:06:05.080468+00:00'),
 (5890857, 10906, 34, 1, 0, 19, 'sindresorhus/pure', 'Pretty, minimal and fast ZSH prompt', ARRAY['mafredri', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
 (5903845, 238, 8, 1, 0, 2, 'staticjinja/staticjinja', 'Minimalist Python library for building static websites with Jinja', ARRAY['NickCrews', 'Ceasar'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1151,8 +1151,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (78880128, 4107, 35, 1, 0, 3, 'ohld/igbot', '🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!', ARRAY['ohld', 'sudoguy'], '2022-02-24T21:06:05.080468+00:00'),
 (79052338, 270, 2, 1, 0, 5, 'wikiti/pandoc-book-template', 'A simple Pandoc template to build documents and ebooks.', ARRAY['wikiti', 'ilikerobots'], '2022-02-24T21:06:05.080468+00:00'),
 (79065400, 170, 11, 1, 0, 28, 'A11yance/aria-query', 'Programmatic access to the ARIA specification', ARRAY['jessebeach', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
-(79287859, 3618, 120, 2, 0, 15, 'AnomalyInnovations/serverless-stack-com', 'An open source guide for building and deploying full-stack apps using Serverless and React on AWS.', ARRAY['jayair', 'fwang'], '2022-02-24T21:06:05.080468+00:00'),
 (79162682, 27240, 390, 1, 0, 1, 'laurent22/joplin', 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', ARRAY['laurent22', 'tessus'], '2022-02-24T21:06:05.080468+00:00'),
+(79287859, 3618, 120, 2, 0, 15, 'AnomalyInnovations/serverless-stack-com', 'An open source guide for building and deploying full-stack apps using Serverless and React on AWS.', ARRAY['jayair', 'fwang'], '2022-02-24T21:06:05.080468+00:00'),
 (79317191, 8680, 149, 1, 0, 7, 'typesense/typesense', 'Fast, typo tolerant, fuzzy search engine for building delightful search experiences ⚡ 🔍 ✨ An Open Source alternative to Algolia and an Easier-to-Use alternative to ElasticSearch.', ARRAY['kishorenc', 'jasonbosco'], '2022-02-24T21:06:05.080468+00:00'),
 (79449949, 235, 1, 1, 0, 13, 'VadimDez/ngx-order-pipe', '▼ Angular 5+ orderBy pipe', ARRAY['VadimDez', 'DeepSnowNeeL'], '2022-02-24T21:06:05.080468+00:00'),
 (79676261, 371, 0, 1, 0, 8, 'iamcryptoki/snowden-archive', '💥 A collection of all documents leaked by former NSA contractor and whistleblower Edward Snowden.', ARRAY['iamcryptoki', 'lionrouge'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2450,6 +2450,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (253226107, 1, 1, 1, 0, 0, 'telety/telety', null, ARRAY['mvandervliet'], '2022-02-24T21:06:05.080468+00:00'),
 (253458494, 131, 5, 1, 0, 28, 'bakkeby/patches', 'Collection of patches for dwm, st and dmenu', ARRAY['bakkeby'], '2022-02-24T21:06:05.080468+00:00'),
 (253816668, 25, 12, 1, 0, 12, 'iamcco/coc-leetcode', 'leetcode 扩展', ARRAY['iamcco'], '2022-02-24T21:06:05.080468+00:00'),
+(254060596, 77, 4, 1, 0, 26, 'zellwk/crud-demo', 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', ARRAY['zellwk'], '2022-02-24T21:06:05.080468+00:00'),
 (254141208, 2131, 31, 1, 0, 18, 'piscinajs/piscina', 'A fast, efficient Node.js Worker Thread Pool implementation', ARRAY['jasnell', 'addaleax'], '2022-02-24T21:06:05.080468+00:00'),
 (254180747, 242, 3, 1, 0, 4, 'jpedroschmitz/gatsby-starter-ts', 'TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start. Ready for Gatsby v4 🔥 ', ARRAY['renovate-bot', 'jpedroschmitz'], '2022-02-24T21:06:05.080468+00:00'),
 (254399512, 2, 1, 1, 0, 9, 'rodridev77/bank-loan', null, ARRAY['rodridev77'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2464,7 +2465,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (255501302, 68, 8, 1, 0, 2, 'evilarceus/sp-playcount-librespot', 'Modification of librespot-java to provide play count info from Spotify', ARRAY['devgianlu', 'evilarceus'], '2022-02-24T21:06:05.080468+00:00'),
 (255535907, 4436, 56, 2, 0, 7, 'modulz/stitches', 'CSS-in-JS with near-zero runtime, SSR, multi-variant support, and a best-in-class developer experience.', ARRAY['jonathantneal', 'christianalfoni'], '2022-02-24T21:06:05.080468+00:00'),
 (255770685, 20, 11, 1, 0, 14, 'rdbeach/wb', 'Online collaborative Whiteboard that is simple, free, easy to use and  to deploy', ARRAY['lovasoa', 'rdbeach'], '2022-02-24T21:06:05.080468+00:00'),
-(254060596, 77, 4, 1, 0, 26, 'zellwk/crud-demo', 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', ARRAY['zellwk'], '2022-02-24T21:06:05.080468+00:00'),
 (255803302, 286, 16, 1, 0, 13, 'abelljs/abell', 'a Static-Site-Generator for JavaScript Developers. Build fast, vanilla websites in the syntax you almost already know. [In alpha] 🌀', ARRAY['saurabhdaware', 'harshilparmar'], '2022-02-24T21:06:05.080468+00:00'),
 (255919240, 758, 2, 1, 0, 7, 'smv1999/CompetitiveProgrammingQuestionBank', 'This repository contains all the popular Competitive Programming and DSA questions with solutions for your Coding Interview Preparation. ', ARRAY['smv1999', 'Saviour1001'], '2022-02-24T21:06:05.080468+00:00'),
 (255940939, 3169, 63, 1, 0, 2, 'mifi/editly', 'Slick, declarative command line video editing & API', ARRAY['mifi', 'patcon'], '2022-02-24T21:06:05.080468+00:00'),
