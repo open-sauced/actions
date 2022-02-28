@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T12:50:34.375Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T14:43:31.773Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3764,9 +3764,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3765, 2237343, 264748339, 23, 18, 232, 'amiantos/pibar', 'PiBar for Pi-hole - Manage your Pi-hole(s) from your macOS menu bar!', ARRAY['amiantos'], '2022-02-24T21:07:34.596111'),
 (3766, 2237343, 265610202, 24, 0, 4, 'Millefeuille42/covidTerm', 'A Covid Terminal Application', ARRAY['Millefeuille42', 'deepsourcebot'], '2022-02-24T21:07:34.596111'),
 (3767, 2237343, 123631418, 25, 16, 2400, 'Lissy93/personal-security-checklist', '🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2021', ARRAY['Lissy93', 'matkoniecz'], '2022-02-24T21:07:34.596111'),
-(3768, 2237343, 6662075, 26, 169, 13417, 'joke2k/faker', 'Faker is a Python package that generates fake data for you.', ARRAY['fcurella', 'joke2k'], '2022-02-24T21:07:34.596111'),
 (3769, 2237343, 118970914, 27, 695, 15030, 'debauchee/barrier', 'Open-source KVM software', ARRAY['p12tic', 'shymega'], '2022-02-24T21:07:34.596111'),
 (3770, 2237343, 67834502, 28, 5, 3439, 'lk-geimfari/mimesis', 'Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages.', ARRAY['lk-geimfari', 'sobolevn'], '2022-02-24T21:07:34.596111'),
+(3768, 2237343, 6662075, 26, 169, 13417, 'joke2k/faker', 'Faker is a Python package that generates fake data for you.', ARRAY['fcurella', 'joke2k'], '2022-02-24T21:07:34.596111'),
 (3771, 2237343, 205915356, 29, 1, 907, 'BullsEye0/google_dork_list', 'Google Dorks | Google helps you to find Vulnerable Websites that Indexed in Google Search Results. Here is the latest collection of Google Dorks. A collection of 13.760 Dorks. Author: Jolanda de Koff', ARRAY['BullsEye0'], '2022-02-24T21:07:34.596111'),
 (3812, 33148009, 174404049, 10, 1, 1844, 'emilkowalski/ui-snippets', 'A collection of UI Snippets.', ARRAY['emilkowalski', 'Bartek532'], '2022-02-24T21:07:34.596111'),
 (3773, 2658040, 315899862, 1, 12, 29, 'POSSF/POSSF', 'Persian Open Source Software Festival - اولین جشنواره نرم افزار اوپن سورس فارسی (جشنواره متن باز و منبع باز فارسی)', ARRAY['BaseMax', 'alirezababae'], '2022-02-24T21:07:34.596111'),
@@ -3830,10 +3830,10 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3831, 54862022, 267563398, 14, 1, 269, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:07:34.596111'),
 (3832, 54862022, 237114405, 15, 4, 96, 'thanhnguyennguyen/trading-indicator', 'provide trading technical indicator values based on data of almost crypto currency exchanges', ARRAY['thanhnguyennguyen', 'tan-kitty'], '2022-02-24T21:07:34.596111'),
 (3833, 54862022, 76993879, 16, 14, 388, 'TulipCharts/tulipnode', 'Tulip Node is the official node.js wrapper for Tulip Indicators. It provides over 100 technical analysis overlay and indicator functions.', ARRAY['codeplea', 'cschanaj'], '2022-02-24T21:07:34.596111'),
-(3834, 54862022, 127493242, 17, 3, 109, 'szferguson/Binance-Trailing-Stop-Loss', 'Provides a dynamic stop-loss that automatically adjusts as the price increases or decreases (depending on mode specified)', ARRAY['szferguson'], '2022-02-24T21:07:34.596111'),
 (3835, 54862022, 57914774, 18, 69, 1665, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-24T21:07:34.596111'),
 (3836, 54862022, 41592744, 19, 10, 20305, 'AllThingsSmitty/css-protips', 'A collection of tips to help take your CSS skills pro', ARRAY['AllThingsSmitty', 'manolasn'], '2022-02-24T21:07:34.596111'),
 (3837, 54862022, 380191749, 20, 1, 3168, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-24T21:07:34.596111'),
+(3834, 54862022, 127493242, 17, 3, 109, 'szferguson/Binance-Trailing-Stop-Loss', 'Provides a dynamic stop-loss that automatically adjusts as the price increases or decreases (depending on mode specified)', ARRAY['szferguson'], '2022-02-24T21:07:34.596111'),
 (3838, 54862022, 129456680, 21, 48, 509, 'altangent/ccxws', 'WebSocket client for 38 cryptocurrency exchanges', ARRAY['bmancini55', 'ejfrancis'], '2022-02-24T21:07:34.596111'),
 (3839, 54862022, 104366016, 22, 3, 1242, 'protofire/blockchain-learning-path', 'A suggested learning path for blockchain development', ARRAY['mariano-aguero', 'fvictorio'], '2022-02-24T21:07:34.596111'),
 (3840, 54862022, 59573221, 23, 16, 3485, 'sobolevn/awesome-cryptography', 'A curated list of cryptography resources and links.', ARRAY['sobolevn', 'lk-geimfari'], '2022-02-24T21:07:34.596111'),
@@ -4409,12 +4409,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (330475048, 61131314, 31792824, 29, 10468, 136930, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-24T21:07:34.596111'),
 (336575400, 9696352, 341707514, 29, 38, 147, 'bytecodealliance/witx-bindgen', 'A language binding generator for WebAssembly interface types', ARRAY['alexcrichton', 'peterhuene'], '2022-02-24T21:07:34.596111'),
 (359971541, 28281924, 361310, 29, 26, 9531, 'teamcapybara/capybara', 'Acceptance test framework for web applications', ARRAY['twalpole', 'jnicklas'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 530, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 173, 4406, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 527, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 37, 39552, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (455678420, 6499373, 36040894, 24, 329, 52425, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 37, 39549, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (408008691, 45036724, 61059364, 29, 38, 666, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (417311106, 71297412, 55631449, 29, 98, 2166, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:07:34.596111'),
@@ -4422,7 +4422,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (382468183, 8037469, 172741073, 29, 375, 19728, 'snowpackjs/snowpack', 'ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️', ARRAY['FredKSchott', 'drwpow'], '2022-02-24T21:07:34.596111'),
 (396048872, 60254117, 365976998, 29, 0, 2, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-24T21:07:34.596111'),
 (422278376, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-24T21:07:34.596111'),
-(456168834, 5381468, 95863194, 29, 22, 9803, 'kettanaito/naming-cheatsheet', 'Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.', ARRAY['kettanaito', 'mhizterkeyz'], '2022-02-24T21:07:34.596111'),
+(456168834, 5381468, 95863194, 29, 22, 9808, 'kettanaito/naming-cheatsheet', 'Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.', ARRAY['kettanaito', 'mhizterkeyz'], '2022-02-24T21:07:34.596111'),
 (409822566, 9968219, 283210438, 29, 0, 1, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-24T21:07:34.596111'),
 (399559931, 30369246, 21405028, 29, 2, 10259, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-24T21:07:34.596111'),
 (391706360, 25867172, 18696257, 29, 15, 9852, 'qrohlf/trianglify', 'Algorithmically generated triangle art', ARRAY['qrohlf', 'enzuguri'], '2022-02-24T21:07:34.596111'),

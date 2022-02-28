@@ -4404,12 +4404,12 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 330475048,61131314,31792824,29,10468,136930,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"'{""engine-flutter-autoroll"", ""abarth""}'",2022-02-24T21:07:34.596111
 336575400,9696352,341707514,29,38,147,bytecodealliance/witx-bindgen,A language binding generator for WebAssembly interface types,"'{""alexcrichton"", ""peterhuene""}'",2022-02-24T21:07:34.596111
 359971541,28281924,361310,29,26,9531,teamcapybara/capybara,Acceptance test framework for web applications,"'{""twalpole"", ""jnicklas""}'",2022-02-24T21:07:34.596111
+457526756,74566464,400851369,29,1,530,lewis6991/impatient.nvim,Improve startup time for Neovim,"'{""lewis6991"", ""clason""}'",2022-02-24T21:07:34.596111
 333601244,12292047,37205440,29,173,4406,dequelabs/axe-core,Accessibility engine for automated Web UI testing,"'{""WilcoFiers"", ""straker""}'",2022-02-24T21:07:34.596111
-457526756,74566464,400851369,29,1,527,lewis6991/impatient.nvim,Improve startup time for Neovim,"'{""lewis6991"", ""clason""}'",2022-02-24T21:07:34.596111
+456471693,83277146,90528830,4,37,39552,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","'{""Solido"", ""jogboms""}'",2022-02-24T21:07:34.596111
 320478294,33148009,113267532,29,2,56,mjackson/dotfiles,My dotfiles,"'{""mjackson""}'",2022-02-24T21:07:34.596111
 445282270,31227151,134042266,2,9,1030,HackerPoet/PySpace,GLSL Fractal Ray Marcher in Python,"'{""HackerPoet"", ""brainfubar""}'",2022-02-24T21:07:34.596111
 455678420,6499373,36040894,24,329,52425,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","'{""KyleAMathews"", ""pieh""}'",2022-02-24T21:07:34.596111
-456471693,83277146,90528830,4,37,39549,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","'{""Solido"", ""jogboms""}'",2022-02-24T21:07:34.596111
 408008691,45036724,61059364,29,38,666,metaverse/truss,Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.,"'{""adamryman"", ""lelandbatey""}'",2022-02-24T21:07:34.596111
 452754045,76665107,216936227,0,53,11,CodeForPhilly/paws-data-pipeline,PAWS Data Pipeline Project,"'{""c-simpson"", ""urirot""}'",2022-02-24T21:07:34.596111
 417311106,71297412,55631449,29,98,2166,jamstack/jamstack.org,The official Jamstack site,"'{""philhawksworth"", ""zachleat""}'",2022-02-24T21:07:34.596111
@@ -4417,7 +4417,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 382468183,8037469,172741073,29,375,19728,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","'{""FredKSchott"", ""drwpow""}'",2022-02-24T21:07:34.596111
 396048872,60254117,365976998,29,0,2,udberg/Weather-App,This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.,"'{""udberg""}'",2022-02-24T21:07:34.596111
 422278376,26007940,32883944,28,1,171,mcleonard/blog_posts,Blog posts for matatat.org,"'{""mcleonard""}'",2022-02-24T21:07:34.596111
-456168834,5381468,95863194,29,22,9803,kettanaito/naming-cheatsheet,Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.,"'{""kettanaito"", ""mhizterkeyz""}'",2022-02-24T21:07:34.596111
+456168834,5381468,95863194,29,22,9808,kettanaito/naming-cheatsheet,Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.,"'{""kettanaito"", ""mhizterkeyz""}'",2022-02-24T21:07:34.596111
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","'{""cassiomolin"", ""ramazansakin""}'",2022-02-24T21:07:34.596111
 399559931,30369246,21405028,29,2,10259,ardanlabs/gotraining,Go Training Class Material : ,"'{""ardan-bkennedy"", ""jcbwlkr""}'",2022-02-24T21:07:34.596111
 391706360,25867172,18696257,29,15,9852,qrohlf/trianglify,Algorithmically generated triangle art,"'{""qrohlf"", ""enzuguri""}'",2022-02-24T21:07:34.596111
