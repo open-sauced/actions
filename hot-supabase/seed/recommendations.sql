@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T04:47:08.770Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T06:46:28.194Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1043,6 +1043,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (68720867, 22172, 1527, 1, 0, 0, 'firstcontributions/first-contributions', '🚀✨ Help beginners to contribute to open source projects', ARRAY['firstcontributions-bot', 'Roshanjossey'], '2022-02-24T21:06:05.080468+00:00'),
 (68753325, 16, 0, 1, 0, 20, 'koding/koding-kubernetes', 'Run Koding with Kubernetes', ARRAY['sibblegp'], '2022-02-24T21:06:05.080468+00:00'),
 (68851623, 171, 2, 1, 0, 12, 'samyk/awesome-raspberrypi', 'A curated list of awesome Raspberry Pi tools, projects, images and resources', ARRAY['thibmaek', 'Oliver2213'], '2022-02-24T21:06:05.080468+00:00'),
+(68956484, 4509, 79, 1, 0, 9, 'gothinkster/angular-realworld-example-app', 'Exemplary real world application built with Angular', ARRAY['EricSimons', 'Toxicable'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 0, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
 (69291380, 5013, 10, 1, 0, 20, 'dbacinski/Design-Patterns-In-Kotlin', 'Design Patterns implemented in Kotlin', ARRAY['dbacinski', 'Net-Geek'], '2022-02-24T21:06:05.080468+00:00'),
 (69343521, 1124, 44, 1, 0, 12, 'radovskyb/watcher', 'watcher is a Go package for watching for files or directory changes without using filesystem events.', ARRAY['radovskyb', 'ericmdantas'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1230,7 +1231,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (87860806, 1313, 2, 1, 0, 19, 'udhos/update-golang', 'update-golang is a script to easily fetch and install new Golang releases with minimum system intrusion', ARRAY['udhos', 'adntgv'], '2022-02-24T21:06:05.080468+00:00'),
 (87873787, 665, 51, 1, 0, 3, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-24T21:06:05.080468+00:00'),
 (87973266, 2216, 191, 1, 0, 9, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-24T21:06:05.080468+00:00'),
-(88011908, 60354, 28, 4, 0, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
 (88077974, 15, 4, 1, 0, 12, 'tanhauhau/react-web-config', 'react-native-config for Web', ARRAY['tanhauhau'], '2022-02-24T21:06:05.080468+00:00'),
 (88243408, 33, 0, 1, 0, 12, 'powerman/wcwidth-icons', 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', ARRAY['powerman'], '2022-02-24T21:06:05.080468+00:00'),
 (88367107, 16, 1, 1, 0, 23, 'nusu/spectre.scss', 'port of spectre.css to sass', ARRAY['nusu', 'mtancoigne'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1545,7 +1545,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (127035128, 1153, 98, 1, 0, 0, 'Shopify/quilt', 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', ARRAY['lemonmade', 'michenly'], '2022-02-24T21:06:05.080468+00:00'),
 (127246132, 1610, 149, 1, 0, 2, 'Web3Modal/web3modal', 'A single Web3 / Ethereum provider solution for all Wallets', ARRAY['pedrouid', 'crisgarner'], '2022-02-24T21:06:05.080468+00:00'),
 (127364556, 1556, 1, 1, 0, 1, 'yjjnls/awesome-blockchain', '⚡️Curated list of resources for the development and applications of blockchain.', ARRAY['yjjnls', 'chainvisions'], '2022-02-24T21:06:05.080468+00:00'),
-(68956484, 4509, 79, 1, 0, 9, 'gothinkster/angular-realworld-example-app', 'Exemplary real world application built with Angular', ARRAY['EricSimons', 'Toxicable'], '2022-02-24T21:06:05.080468+00:00'),
 (127493242, 109, 3, 1, 0, 17, 'szferguson/Binance-Trailing-Stop-Loss', 'Provides a dynamic stop-loss that automatically adjusts as the price increases or decreases (depending on mode specified)', ARRAY['szferguson'], '2022-02-24T21:06:05.080468+00:00'),
 (127553476, 7360, 0, 2, 0, 25, 'rust-embedded/rust-raspberrypi-OS-tutorials', ':books: Learn to write an embedded OS in Rust :crab:', ARRAY['andre-richter', 'rahealy'], '2022-02-24T21:06:05.080468+00:00'),
 (127577160, 516, 9, 1, 0, 4, 'jeffmli/TinderAutomation', null, ARRAY['jeffmli'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3231,9 +3230,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (362423752, 954, 64, 1, 0, 3, 'folke/which-key.nvim', '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', ARRAY['folke', 'zeertzjq'], '2022-02-24T21:06:05.080468+00:00'),
 (362443125, 10, 0, 1, 0, 0, 'NayamAmarshe/Cyberpunk-GRUB-Theme', 'Cyberpunk 2077 Grub Theme', ARRAY['anoopmsivadas', 'NayamAmarshe'], '2022-02-24T21:06:05.080468+00:00'),
 (362580720, 18, 2, 1, 0, 2, 'wesbos/cobalt2-obsidian', 'Cobalt2 Obsidian Theme', ARRAY['wesbos'], '2022-02-24T21:06:05.080468+00:00'),
+(382172039, 4, 1, 1, 0, 18, 'Helewud/Travel-Log-App', null, ARRAY['Helewud'], '2022-02-24T21:06:05.080468+00:00'),
 (362605682, 17, 1, 1, 0, 11, 's-kngstn/wu-loremipsum', 'This is a small web application I made using Vanilla Javascript. It''s a text generator that cooks up classic lyrics (lorem ispum style) from the rap collective Wu Tang Clan. This was a blast to make and I hope others can get some use out of it, or at least a good laugh.', ARRAY['s-kngstn'], '2022-02-24T21:06:05.080468+00:00'),
 (362711256, 2466, 1, 1, 0, 20, 'Renovamen/playground-macos', 'My portfolio website simulating macOS''s GUI, developed with React and Tailwind CSS.', ARRAY['Renovamen', 'jhonleeee'], '2022-02-24T21:06:05.080468+00:00'),
-(382172039, 4, 1, 1, 0, 18, 'Helewud/Travel-Log-App', null, ARRAY['Helewud'], '2022-02-24T21:06:05.080468+00:00'),
 (362869006, 4, 0, 1, 0, 6, 'demo-days/innersource-faq-template', 'InnerSource FAQ Starter template GitHub Pages', ARRAY['ppremk'], '2022-02-24T21:06:05.080468+00:00'),
 (362935638, 19, 1, 1, 0, 28, 'commanded/generator', 'Commanded application generator', ARRAY['slashdotdash'], '2022-02-24T21:06:05.080468+00:00'),
 (363500480, 1, 0, 1, 0, 20, 'Helewud/Vidly', null, ARRAY['Helewud'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
-(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00');
+(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
+(88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00');

@@ -1226,7 +1226,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 87860806,1313,2,1,0,19,udhos/update-golang,update-golang is a script to easily fetch and install new Golang releases with minimum system intrusion,"'{""udhos"", ""adntgv""}'",2022-02-24T21:06:05.080468+00:00
 87873787,665,51,1,0,3,theNewDynamic/gohugo-theme-ananke,Ananke: A theme for Hugo Sites,"'{""budparr"", ""regisphilibert""}'",2022-02-24T21:06:05.080468+00:00
 87973266,2216,191,1,0,9,grain-lang/grain,The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾,"'{""ospencer"", ""phated""}'",2022-02-24T21:06:05.080468+00:00
-88011908,60354,28,4,0,11.25,practical-tutorials/project-based-learning,Curated list of project-based tutorials,"'{""tuvtran"", ""sayands""}'",2022-02-24T21:06:05.080468+00:00
 88077974,15,4,1,0,12,tanhauhau/react-web-config,react-native-config for Web,"'{""tanhauhau""}'",2022-02-24T21:06:05.080468+00:00
 88243408,33,0,1,0,12,powerman/wcwidth-icons,Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…,"'{""powerman""}'",2022-02-24T21:06:05.080468+00:00
 88367107,16,1,1,0,23,nusu/spectre.scss,port of spectre.css to sass,"'{""nusu"", ""mtancoigne""}'",2022-02-24T21:06:05.080468+00:00
@@ -3664,3 +3663,4 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 441646385,0,0,1,0,4,cod-ed/simulate,A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical),"'{""yashlamba"", ""akshansh2000""}'",2022-02-24T21:06:05.080468+00:00
 44882201,37303,51,8,3,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"'{""MunGell"", ""JefMari""}'",2022-02-24T21:06:05.080468+00:00
 191529732,39905,69,8,2,16.25,lydiahallie/javascript-questions,"A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ","'{""lydiahallie"", ""Tarabass""}'",2022-02-24T21:06:05.080468+00:00
+426820139,42,11,1,8,0,open-sauced/hot,🍕The site that recommends the hottest projects on GitHub.,"'{""bdougie"", ""0-vortex""}'",2022-02-24T21:06:05.080468+00:00
