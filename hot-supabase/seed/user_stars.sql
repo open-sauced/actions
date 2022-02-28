@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T01:02:19.491Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T02:48:22.595Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4391,7 +4391,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (455678420, 6499373, 36040894, 24, 327, 52421, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (436289040, 61815862, 7715820, 29, 67, 8731, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
 (444571130, 469997, 516307, 23, 0, 3, 'g-ben-wiz/ARMinis', 'Augmented Reality Wargames Miniatures', ARRAY['g-ben-wiz'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 527, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
+(460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
 (455114859, 24910512, 61051155, 29, 24, 1865, 'ulid/javascript', 'Universally Unique Lexicographically Sortable Identifier', ARRAY['alizain', 'jansenignacio'], '2022-02-24T21:07:34.596111'),
 (450574015, 3662109, 334169919, 29, 20, 1268, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
 (408029805, 59651629, 206410838, 29, 6, 17962, 'google/eng-practices', 'Google''s Engineering Practices documentation', ARRAY['code-health-devguide-copybara', 'adambender'], '2022-02-24T21:07:34.596111'),
@@ -4412,16 +4412,16 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (359971541, 28281924, 361310, 29, 26, 9531, 'teamcapybara/capybara', 'Acceptance test framework for web applications', ARRAY['twalpole', 'jnicklas'], '2022-02-24T21:07:34.596111'),
 (336575400, 9696352, 341707514, 29, 38, 147, 'bytecodealliance/witx-bindgen', 'A language binding generator for WebAssembly interface types', ARRAY['alexcrichton', 'peterhuene'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 173, 4405, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 37, 39544, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 527, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
 (452075032, 22186029, 337208358, 29, 0, 14, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
-(460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 37, 39549, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (435800079, 16268467, 23083156, 11, 990, 75999, 'mui-org/material-ui', 'MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
 (408003690, 1305623, 51270739, 29, 58, 19894, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-24T21:07:34.596111'),
 (396048872, 60254117, 365976998, 29, 0, 2, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-24T21:07:34.596111'),
 (422278376, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-24T21:07:34.596111'),
-(456168834, 5381468, 95863194, 29, 22, 9798, 'kettanaito/naming-cheatsheet', 'Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.', ARRAY['kettanaito', 'mhizterkeyz'], '2022-02-24T21:07:34.596111'),
+(456168834, 5381468, 95863194, 29, 22, 9803, 'kettanaito/naming-cheatsheet', 'Comprehensive language-agnostic guidelines on variables naming. Home of the A/HC/LC pattern.', ARRAY['kettanaito', 'mhizterkeyz'], '2022-02-24T21:07:34.596111'),
 (391706360, 25867172, 18696257, 29, 15, 9852, 'qrohlf/trianglify', 'Algorithmically generated triangle art', ARRAY['qrohlf', 'enzuguri'], '2022-02-24T21:07:34.596111'),
 (399559931, 30369246, 21405028, 29, 2, 10259, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-24T21:07:34.596111'),
 (409822566, 9968219, 283210438, 29, 0, 1, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-24T21:07:34.596111'),
