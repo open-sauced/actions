@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T12:51:03.147Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T14:43:24.315Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2769,10 +2769,10 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2783, 25194960, 336889949, 2, 2, 195, 'NYRI4/Comfy', 'Stay comfy while talking to your friends', ARRAY['NYRI4'], '2022-02-24T21:07:34.596111'),
 (2784, 25194960, 207645083, 3, 33, 24542, 'tannerlinsley/react-query', '⚛️ Hooks for fetching, caching and updating asynchronous data in React', ARRAY['tannerlinsley', 'boschni'], '2022-02-24T21:07:34.596111'),
 (2785, 25194960, 192856899, 4, 10, 453, 'chetanverma16/react-portfolio-template', 'Modern React Portfolio Template (FREE)', ARRAY['chetanverma16', 'ajmeese7'], '2022-02-24T21:07:34.596111'),
+(2786, 25194960, 187894153, 5, 0, 218, 'iuridepaula/portfolio', 'My personal portfolio', ARRAY['iuridepaula'], '2022-02-24T21:07:34.596111'),
 (2787, 25194960, 68084693, 6, 0, 13, 'dotcypress/hyper-material', 'Material Theme for Hyper', ARRAY['dotcypress', 'MiracleBlue'], '2022-02-24T21:07:34.596111'),
 (2788, 25194960, 62367558, 7, 744, 37545, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:07:34.596111'),
 (2789, 25194960, 93192704, 8, 35, 3383, 'LukeSmithxyz/voidrice', 'My dotfiles (deployed by LARBS)', ARRAY['LukeSmithxyz', 'narukeh'], '2022-02-24T21:07:34.596111'),
-(2786, 25194960, 187894153, 5, 0, 218, 'iuridepaula/portfolio', 'My personal portfolio', ARRAY['iuridepaula'], '2022-02-24T21:07:34.596111'),
 (2790, 25194960, 3282, 9, 20, 16409, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:07:34.596111'),
 (2791, 25194960, 9158101, 10, 43, 2341, 'tpope/vim-dispatch', 'dispatch.vim: Asynchronous build and test dispatcher', ARRAY['tpope', 'teoljungberg'], '2022-02-24T21:07:34.596111'),
 (2792, 25194960, 274396505, 11, 3, 25, 'kevin51jiang/react-spotify-auth', 'Easy Spotify Authentication, written in React', ARRAY['kevin51jiang', 'rpeyron'], '2022-02-24T21:07:34.596111'),
