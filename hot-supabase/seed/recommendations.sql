@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T10:43:58.667Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T12:51:03.542Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3254,6 +3254,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (365306037, 91, 0, 1, 0, 16, 'sdras/recipe-box', null, ARRAY['sdras'], '2022-02-24T21:06:05.080468+00:00'),
 (365339453, 72, 0, 1, 0, 12, 'edoardottt/lit-bb-hack-tools', 'Little Bug Bounty & Hacking Tools⚔️', ARRAY['edoardottt'], '2022-02-24T21:06:05.080468+00:00'),
 (365437792, 259, 17, 1, 0, 12, 'avinassh/fast-sqlite3-inserts', 'Some bunch of test scripts to generate a SQLite DB with 1B rows in fastest possible way', ARRAY['avinassh', 'captn3m0'], '2022-02-24T21:06:05.080468+00:00'),
+(365466475, 3, 0, 1, 0, 1, 'DenisMirand4/Bot_Albion_Labour', null, ARRAY['DenisMirand4'], '2022-02-24T21:06:05.080468+00:00'),
 (365479906, 2, 0, 1, 0, 8, 'Ajaykumarrachuri/starter', null, ARRAY['Ajaykumarrachuri'], '2022-02-24T21:06:05.080468+00:00'),
 (365565979, 3006, 27, 1, 0, 22, 'CyberPunkMetalHead/Binance-volatility-trading-bot', 'This is a fully functioning Binance trading bot that measures the volatility of every coin on Binance and places trades with the highest gaining coins If you like this project consider donating though the Brave browser to allow me to continuously improve the script.', ARRAY['CyberPunkMetalHead', 'getsec'], '2022-02-24T21:06:05.080468+00:00'),
 (365739812, 4768, 88, 1, 0, 9, 'tldraw/tldraw', 'A tiny little drawing app.', ARRAY['steveruizok', 'seflless'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3268,7 +3269,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-24T21:06:05.080468+00:00'),
 (367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-24T21:06:05.080468+00:00'),
 (367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-24T21:06:05.080468+00:00'),
-(365466475, 3, 0, 1, 0, 1, 'DenisMirand4/Bot_Albion_Labour', null, ARRAY['DenisMirand4'], '2022-02-24T21:06:05.080468+00:00'),
 (367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
 (367572934, 8, 2, 1, 0, 28, 'PostmanSpat/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖 Follow open NBT trading signals at', ARRAY['dargmuesli', 'PostmanSpat'], '2022-02-24T21:06:05.080468+00:00'),
 (367602396, 62, 2, 1, 0, 2, 'prince776/discode', 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ARRAY['prince776', 'HarshKapadia2'], '2022-02-24T21:06:05.080468+00:00'),
