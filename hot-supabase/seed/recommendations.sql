@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T06:46:28.455Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T08:44:49.078Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2060,8 +2060,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (196946519, 36, 2, 1, 0, 10, 'JRasmusBm/vim-peculiar', null, ARRAY['JRasmusBm'], '2022-02-24T21:06:05.080468+00:00'),
 (196987768, 255, 12, 1, 0, 6, 'TryGhost/eleventy-starter-ghost', 'A starter template to build websites with Ghost & Eleventy', ARRAY['renovate-bot', 'daviddarnes'], '2022-02-24T21:06:05.080468+00:00'),
 (196993956, 683, 29, 1, 0, 4, 'sourcery-ai/sourcery', 'Refactor Python using AI. ⭐  this repo and Sourcery Starbot will send you a PR', ARRAY['brendanator', 'Hellebore'], '2022-02-24T21:06:05.080468+00:00'),
-(197008093, 49, 11, 1, 0, 0, 'fmartinou/whats-up-docker', 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', ARRAY['fmartinou', 'ajgon'], '2022-02-24T21:06:05.080468+00:00'),
 (197018189, 8386, 85, 1, 0, 16, 'wbkd/react-flow', 'Highly customizable library for building interactive node-based UIs, editors, flow charts and diagrams ', ARRAY['moklick', 'chrtze'], '2022-02-24T21:06:05.080468+00:00'),
+(197008093, 49, 11, 1, 0, 0, 'fmartinou/whats-up-docker', 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', ARRAY['fmartinou', 'ajgon'], '2022-02-24T21:06:05.080468+00:00'),
 (197211881, 1954, 68, 1, 0, 22, 'alvr-org/ALVR', 'Stream VR games from your PC to your headset via Wi-Fi', ARRAY['zarik5', 'polygraphene'], '2022-02-24T21:06:05.080468+00:00'),
 (197298888, 38, 57, 1, 0, 11, 'rubyforgood/voices-of-consent', 'Open source tracking and inventory management application for nonprofit, Voices of Consent (Ruby for Good 2019)', ARRAY['maebeale', 'abachman'], '2022-02-24T21:06:05.080468+00:00'),
 (197451951, 23, 2, 1, 0, 25, 'instafluff/WebWebWeb', 'The zero-dependency alternative to ExpressJS. Create web servers with APIs SUPER EASILY in just a few lines of code.', ARRAY['instafluff'], '2022-02-24T21:06:05.080468+00:00'),
