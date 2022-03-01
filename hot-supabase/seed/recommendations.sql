@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T20:43:19.856Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T22:43:22.678Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -579,8 +579,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
-(25359717, 1247, 409, 1, 0, 24, 'vlachoudis/bCNC', 'GRBL CNC command sender, autoleveler and g-code editor', ARRAY['vlachoudis', 'Harvie'], '2022-02-24T21:06:05.080468+00:00'),
 (25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:06:05.080468+00:00'),
+(25359717, 1247, 409, 1, 0, 24, 'vlachoudis/bCNC', 'GRBL CNC command sender, autoleveler and g-code editor', ARRAY['vlachoudis', 'Harvie'], '2022-02-24T21:06:05.080468+00:00'),
 (25714588, 9047, 64, 1, 0, 3, 'StartBootstrap/startbootstrap-sb-admin-2', 'A free, open source, Bootstrap admin theme created by Start Bootstrap', ARRAY['davidtmiller', 'challgren'], '2022-02-24T21:06:05.080468+00:00'),
 (26066727, 39139, 523, 1, 0, 24, 'mermaid-js/mermaid', 'Generation of diagram and flowchart from text in a similar manner as markdown', ARRAY['knsv', 'NeilCuzon'], '2022-02-24T21:06:05.080468+00:00'),
 (26102180, 19127, 109, 1, 0, 9, 'afollestad/material-dialogs', '😍 A beautiful, fluid, and extensible dialogs API for Kotlin & Android.', ARRAY['afollestad', 'ZacSweers'], '2022-02-24T21:06:05.080468+00:00'),
