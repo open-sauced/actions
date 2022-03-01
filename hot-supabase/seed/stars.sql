@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T22:43:22.844Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T01:02:36.526Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -953,10 +953,10 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (10489882, 2437, 1, 204, 'nginx-boilerplate/nginx-boilerplate', '2022-02-24T21:07:06.457173+00:00'),
 (58138623, 71, 3, 11, 'joshp23/ttrss-to-wallabag-v2', '2022-02-24T21:07:06.457173+00:00'),
 (39654623, 23, 21, 30, 'inkatze/wildfly', '2022-02-24T21:07:06.457173+00:00'),
+(321294152, 1076, 6, 264, 'singerdmx/flutter-quill', '2022-02-24T21:07:06.457173+00:00'),
 (387114155, 1, 0, 0, 'muhammaddzaky/script', '2022-02-24T21:07:06.457173+00:00'),
 (68678413, 1033, 0, 44, 'ai/nanoevents', '2022-02-24T21:07:06.457173+00:00'),
 (310226997, 855, 8, 27, 'antfu/ni', '2022-02-24T21:07:06.457173+00:00'),
-(321294152, 1076, 6, 264, 'singerdmx/flutter-quill', '2022-02-24T21:07:06.457173+00:00'),
 (393117769, 429, 3, 13, 'antfu/drauu', '2022-02-24T21:07:06.457173+00:00'),
 (35640229, 21014, 365, 1089, 'rollup/rollup', '2022-02-24T21:07:06.457173+00:00'),
 (50274171, 823, 68, 150, 'vuejs/rollup-plugin-vue', '2022-02-24T21:07:06.457173+00:00'),
@@ -971,8 +971,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (313360710, 36, 1, 11, 'satyawikananda/cardivo', '2022-02-24T21:07:06.457173+00:00'),
 (385568535, 5, 0, 1, 'zuramai/binary-search-tree', '2022-02-24T21:07:06.457173+00:00'),
 (26689598, 38758, 53, 7481, 'prakhar1989/awesome-courses', '2022-02-24T21:07:06.457173+00:00'),
-(382848888, 24, 1, 15, 'fachryansyah/react-mazer-ui', '2022-02-24T21:07:06.457173+00:00'),
 (381428539, 11, 0, 6, 'satyawikananda/elucidator-blog-starter', '2022-02-24T21:07:06.457173+00:00'),
+(382848888, 24, 1, 15, 'fachryansyah/react-mazer-ui', '2022-02-24T21:07:06.457173+00:00'),
 (381629965, 8, 0, 1, 'zuramai/go-microservice-starter', '2022-02-24T21:07:06.457173+00:00'),
 (380721582, 7, 0, 0, 'devoverid/conf2021', '2022-02-24T21:07:06.457173+00:00'),
 (256710922, 283, 1, 99, 'web3coach/the-blockchain-bar', '2022-02-24T21:07:06.457173+00:00'),
@@ -1078,8 +1078,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (144590939, 15161, 95, 627, 'VSCodium/vscodium', '2022-02-24T21:07:06.457173+00:00'),
 (26115910, 1127, 15, 130, 'ruimarinho/google-libphonenumber', '2022-02-24T21:07:06.457173+00:00'),
 (401173533, 52, 0, 7, 'ginoleeswan/hero', '2022-02-24T21:07:06.457173+00:00'),
-(127769231, 18736, 401, 3700, 'DIYgod/RSSHub', '2022-02-24T21:07:06.457173+00:00'),
 (59239347, 20955, 839, 1891, 'portainer/portainer', '2022-02-24T21:07:06.457173+00:00'),
+(127769231, 18736, 401, 3700, 'DIYgod/RSSHub', '2022-02-24T21:07:06.457173+00:00'),
 (144329209, 702, 20, 92, 'CrowCpp/Crow', '2022-02-24T21:07:06.457173+00:00'),
 (72754695, 7138, 13, 238, 'styled-components/polished', '2022-02-24T21:07:06.457173+00:00'),
 (367390690, 291, 0, 18, 'MarcoWorms/learn.js', '2022-02-24T21:07:06.457173+00:00'),
@@ -3367,7 +3367,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (101704343, 3184, 28, 358, 'unidoc/unioffice', '2022-02-24T21:07:06.457173+00:00'),
 (251469970, 5727, 281, 330, 'athensresearch/athens', '2022-02-24T21:07:06.457173+00:00'),
 (249064639, 1215, 76, 29, 'znck/vue-developer-experience', '2022-02-24T21:07:06.457173+00:00'),
-(281297416, 2862, 40, 928, 'adityatelange/hugo-PaperMod', '2022-02-24T21:07:06.457173+00:00'),
 (133681780, 604, 3, 82, 'shalvah/DownloadThisVideo', '2022-02-24T21:07:06.457173+00:00'),
 (172362850, 12, 0, 0, 'BaseMax/TrigonometricFunctions', '2022-02-24T21:07:06.457173+00:00'),
 (100273476, 406, 44, 301, 'CiviWiki/OpenCiviWiki', '2022-02-24T21:07:06.457173+00:00'),
@@ -3405,8 +3404,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (1272424, 14517, 23, 1260, 'nodemailer/nodemailer', '2022-02-24T21:07:06.457173+00:00'),
 (2206953, 22208, 5, 1592, 'tj/commander.js', '2022-02-24T21:07:06.457173+00:00'),
 (1661758, 10376, 101, 1008, 'restify/node-restify', '2022-02-24T21:07:06.457173+00:00'),
-(340027291, 2, 0, 0, 'udberg/confs.tech', '2022-02-24T21:07:06.457173+00:00'),
 (256629525, 316, 1, 101, 'davidgrzyb/tailwind-admin-template', '2022-02-24T21:07:06.457173+00:00'),
+(340027291, 2, 0, 0, 'udberg/confs.tech', '2022-02-24T21:07:06.457173+00:00'),
 (389664802, 1, 0, 0, 'Helewud/MapLog', '2022-02-24T21:07:06.457173+00:00'),
 (363500480, 1, 0, 0, 'Helewud/Vidly', '2022-02-24T21:07:06.457173+00:00'),
 (389086554, 4, 0, 1, 'BolajiAyodeji/headless-swag-store', '2022-02-24T21:07:06.457173+00:00'),
@@ -3580,8 +3579,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (441676048, 98, 0, 12, 'fingerprintjs/blog-indexeddb-safari-leaks-demo', '2022-02-24T21:07:06.457173+00:00'),
 (220251820, 2158, 12, 64, 'gerardog/gsudo', '2022-02-24T21:07:06.457173+00:00'),
 (265604829, 3, 0, 0, 'PieterHeijman/terminal-color-themes', '2022-02-24T21:07:06.457173+00:00'),
-(83990951, 238, 7, 32, 'TkinterEP/ttkthemes', '2022-02-24T21:07:06.457173+00:00'),
 (164469375, 433, 25, 5, 'TaDaa/vimade', '2022-02-24T21:07:06.457173+00:00'),
+(83990951, 238, 7, 32, 'TkinterEP/ttkthemes', '2022-02-24T21:07:06.457173+00:00'),
 (199327580, 2208, 12, 436, 'MindorksOpenSource/android-developer-roadmap', '2022-02-24T21:07:06.457173+00:00'),
 (359930608, 167, 1, 8, 'tiagovla/tokyodark.nvim', '2022-02-24T21:07:06.457173+00:00'),
 (154956785, 252, 0, 1, 'notomo/gesture.nvim', '2022-02-24T21:07:06.457173+00:00'),
@@ -3594,4 +3593,5 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (172741073, 19730, 373, 991, 'snowpackjs/snowpack', '2022-02-24T21:07:06.457173+00:00'),
 (235283287, 4982, 0, 242, 'fpereiro/backendlore', '2022-02-24T21:07:06.457173+00:00'),
 (343964517, 22, 1, 5, 'module-federation/microlib-examples', '2022-02-24T21:07:06.457173+00:00'),
+(281297416, 2862, 40, 928, 'adityatelange/hugo-PaperMod', '2022-02-24T21:07:06.457173+00:00'),
 (332744719, 5, 0, 1, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', '2022-02-24T21:07:06.457173+00:00');

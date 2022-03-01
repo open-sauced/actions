@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-02-28T22:43:23.072Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T01:02:36.950Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -223,8 +223,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (4421756, 734, 17, 1, 0, 25, 'prose/gatekeeper', 'Enables client-side applications to dance OAuth with GitHub.', ARRAY['dereklieu', 'michael'], '2022-02-24T21:06:05.080468+00:00'),
 (320945731, 9, 0, 1, 0, 25, 'kyleoneill/CipherPunk', null, ARRAY['kyleoneill'], '2022-02-24T21:06:05.080468+00:00'),
 (4449421, 673, 4, 1, 0, 29, 'karmi/elasticsearch-paramedic', 'A simple tool to inspect the state and statistics about ElasticSearch clusters', ARRAY['karmi', 'walokra'], '2022-02-24T21:06:05.080468+00:00'),
-(4484451, 26187, 29, 1, 0, 1, 'amix/vimrc', 'The ultimate Vim configuration (vimrc)', ARRAY['amix', 'daniilguit'], '2022-02-24T21:06:05.080468+00:00'),
 (4467228, 13433, 11, 1, 0, 18, 'krisk/Fuse', 'Lightweight fuzzy-search, in JavaScript', ARRAY['krisk', 'matthewwithanm'], '2022-02-24T21:06:05.080468+00:00'),
+(4484451, 26187, 29, 1, 0, 1, 'amix/vimrc', 'The ultimate Vim configuration (vimrc)', ARRAY['amix', 'daniilguit'], '2022-02-24T21:06:05.080468+00:00'),
 (4568238, 4231, 66, 1, 0, 5, 'expressjs/expressjs.com', null, ARRAY['hacksparrow', 'crandmck'], '2022-02-24T21:06:05.080468+00:00'),
 (4578002, 29905, 14, 2, 0, 21.5, 'faif/python-patterns', 'A collection of design patterns/idioms in Python', ARRAY['faif', 'gyermolenko'], '2022-02-24T21:06:05.080468+00:00'),
 (4578898, 8715, 216, 1, 0, 9, 'HabitRPG/habitica', 'A habit tracker app which treats your goals like a Role Playing Game.', ARRAY['lefnire', 'SabreCat'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1166,9 +1166,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (80276391, 34800, 6, 1, 0, 22, 'GitSquared/edex-ui', 'A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.', ARRAY['GitSquared', 'greenkeeperio-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (80294918, 5101, 116, 1, 0, 23, 'gcanti/io-ts', 'Runtime type system for IO decoding/encoding', ARRAY['gcanti', 'osdiab'], '2022-02-24T21:06:05.080468+00:00'),
 (80472665, 15135, 54, 1, 0, 16, 'salomonelli/best-resume-ever', ':necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.', ARRAY['salomonelli', 'pubkey'], '2022-02-24T21:06:05.080468+00:00'),
-(80587182, 119, 1, 1, 0, 19, 'scotch-io/javascript-starter-course', 'Code for the Scotch School course by @sevilayha', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (80669528, 1144, 122, 1, 0, 2, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-24T21:06:05.080468+00:00'),
 (80724464, 4295, 11, 1, 0, 7, 'nuxt-community/awesome-nuxt', 'A curated list of awesome things related to Nuxt.js', ARRAY['limichange', 'manniL'], '2022-02-24T21:06:05.080468+00:00'),
+(80587182, 119, 1, 1, 0, 19, 'scotch-io/javascript-starter-course', 'Code for the Scotch School course by @sevilayha', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (102969245, 28432, 71, 1, 0, 14, 'golang-standards/project-layout', 'Standard Go Project Layout', ARRAY['kcq', 'xis'], '2022-02-24T21:06:05.080468+00:00'),
 (80814970, 419, 10, 1, 0, 3, 'piomin/sample-spring-microservices', 'Many samples in different branches that shows how to create microservices with Spring Boot, Spring Cloud, Zipkin, Zuul, Eureka, Hystrix, Kubernetes, Elastic Stack and many more tools', ARRAY['piomin', 'ramazansakin'], '2022-02-24T21:06:05.080468+00:00'),
 (81021705, 21, 0, 1, 0, 8, 'x0st/snake', 'A console snake written in C++', ARRAY['x0st'], '2022-02-24T21:06:05.080468+00:00'),
