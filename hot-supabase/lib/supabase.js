@@ -52,7 +52,7 @@ INSERT INTO ${table}(${columns.join(', ')}) VALUES
   await stringify(rows, {
     header: true,
     cast: {
-      object: value => Array.isArray(value) ? `'{"${value.join('", "')}"}'` : JSON.stringify(value)
+      object: value => Array.isArray(value) ? `{'${value.join("', '")}'}` : JSON.stringify(value)
     }
   }, (err, data) =>
     writeFile(new URL(`../${csvPath}`, import.meta.url), data))
