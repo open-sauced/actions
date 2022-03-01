@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T18:45:42.771Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T20:43:19.856Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -579,8 +579,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
-(25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:06:05.080468+00:00'),
 (25359717, 1247, 409, 1, 0, 24, 'vlachoudis/bCNC', 'GRBL CNC command sender, autoleveler and g-code editor', ARRAY['vlachoudis', 'Harvie'], '2022-02-24T21:06:05.080468+00:00'),
+(25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:06:05.080468+00:00'),
 (25714588, 9047, 64, 1, 0, 3, 'StartBootstrap/startbootstrap-sb-admin-2', 'A free, open source, Bootstrap admin theme created by Start Bootstrap', ARRAY['davidtmiller', 'challgren'], '2022-02-24T21:06:05.080468+00:00'),
 (26066727, 39139, 523, 1, 0, 24, 'mermaid-js/mermaid', 'Generation of diagram and flowchart from text in a similar manner as markdown', ARRAY['knsv', 'NeilCuzon'], '2022-02-24T21:06:05.080468+00:00'),
 (26102180, 19127, 109, 1, 0, 9, 'afollestad/material-dialogs', '😍 A beautiful, fluid, and extensible dialogs API for Kotlin & Android.', ARRAY['afollestad', 'ZacSweers'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1414,7 +1414,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (111935215, 12, 3, 1, 0, 23, 'oaijs/ajv-oai', 'OpenAPI''s JsonSchema validator.', ARRAY['amazing-gao', 'javi11'], '2022-02-24T21:06:05.080468+00:00'),
 (112027892, 7556, 44, 1, 0, 20, 'brianegan/flutter_architecture_samples', 'TodoMVC for Flutter', ARRAY['brianegan', 'mmcc007'], '2022-02-24T21:06:05.080468+00:00'),
 (112103032, 1863, 212, 1, 0, 27, 'loic-sharma/BaGet', 'A lightweight NuGet and symbol server', ARRAY['loic-sharma', 'WernerMairl'], '2022-02-24T21:06:05.080468+00:00'),
-(112150776, 10908, 441, 5, 1, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (112287150, 1262, 12, 1, 0, 16, 'zboxfs/zbox', 'Zero-details, privacy-focused in-app file system.', ARRAY['burmecia', 'amiraeva'], '2022-02-24T21:06:05.080468+00:00'),
 (112369276, 266, 20, 1, 0, 29, 'Unity-Technologies/com.unity.cinemachine', 'Smart camera tools for passionate creators', ARRAY['glabute', 'gaborkb'], '2022-02-24T21:06:05.080468+00:00'),
 (112475135, 5, 0, 1, 0, 1, 'AndreiShenets/code-styles', 'Styles I recommend at the moment', ARRAY['AndreiShenets', 'andrei-shenets-itechart'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2492,7 +2491,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (258012772, 1569, 46, 1, 0, 7, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-24T21:06:05.080468+00:00'),
 (258031644, 24, 0, 1, 0, 2, 'jhutchings1/thank-you-builder', null, ARRAY['jhutchings1', 'hmarr'], '2022-02-24T21:06:05.080468+00:00'),
 (258049460, 1081, 16, 1, 0, 27, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-24T21:06:05.080468+00:00'),
-(257485422, 35335, 771, 4, 3, 9.75, 'vitejs/vite', 'Next generation frontend tooling. It''s fast!', ARRAY['yyx990803', 'patak-dev'], '2022-02-24T21:06:05.080468+00:00'),
+(257485422, 35335, 771, 4, 4, 9.75, 'vitejs/vite', 'Next generation frontend tooling. It''s fast!', ARRAY['yyx990803', 'patak-dev'], '2022-02-24T21:06:05.080468+00:00'),
 (258254038, 542, 11, 1, 0, 6, 'hhhrrrttt222111/Ethical-Hacking-Tools', 'Complete Listing and Usage of Tools used for Ethical Hacking', ARRAY['hhhrrrttt222111', 'bettercalln1ck'], '2022-02-24T21:06:05.080468+00:00'),
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-24T21:06:05.080468+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3667,6 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
-(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
-(361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00');
+(361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
+(112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
+(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00');

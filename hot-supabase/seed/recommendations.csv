@@ -1409,7 +1409,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 111935215,12,3,1,0,23,oaijs/ajv-oai,OpenAPI's JsonSchema validator.,"'{""amazing-gao"", ""javi11""}'",2022-02-24T21:06:05.080468+00:00
 112027892,7556,44,1,0,20,brianegan/flutter_architecture_samples,TodoMVC for Flutter,"'{""brianegan"", ""mmcc007""}'",2022-02-24T21:06:05.080468+00:00
 112103032,1863,212,1,0,27,loic-sharma/BaGet,A lightweight NuGet and symbol server,"'{""loic-sharma"", ""WernerMairl""}'",2022-02-24T21:06:05.080468+00:00
-112150776,10908,441,5,1,12.4,11ty/eleventy,A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.,"'{""zachleat"", ""MadeByMike""}'",2022-02-24T21:06:05.080468+00:00
 112287150,1262,12,1,0,16,zboxfs/zbox,"Zero-details, privacy-focused in-app file system.","'{""burmecia"", ""amiraeva""}'",2022-02-24T21:06:05.080468+00:00
 112369276,266,20,1,0,29,Unity-Technologies/com.unity.cinemachine,Smart camera tools for passionate creators,"'{""glabute"", ""gaborkb""}'",2022-02-24T21:06:05.080468+00:00
 112475135,5,0,1,0,1,AndreiShenets/code-styles,Styles I recommend at the moment,"'{""AndreiShenets"", ""andrei-shenets-itechart""}'",2022-02-24T21:06:05.080468+00:00
@@ -2487,7 +2486,7 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 258012772,1569,46,1,0,7,index-machines/index,The Index is an open source pick and place machine.,"'{""G-Pereira"", ""sphawes""}'",2022-02-24T21:06:05.080468+00:00
 258031644,24,0,1,0,2,jhutchings1/thank-you-builder,,"'{""jhutchings1"", ""hmarr""}'",2022-02-24T21:06:05.080468+00:00
 258049460,1081,16,1,0,27,hashicorp/next-mdx-remote,Load mdx content from anywhere through getStaticProps in next.js,"'{""jescalan"", ""BRKalow""}'",2022-02-24T21:06:05.080468+00:00
-257485422,35335,771,4,3,9.75,vitejs/vite,Next generation frontend tooling. It's fast!,"'{""yyx990803"", ""patak-dev""}'",2022-02-24T21:06:05.080468+00:00
+257485422,35335,771,4,4,9.75,vitejs/vite,Next generation frontend tooling. It's fast!,"'{""yyx990803"", ""patak-dev""}'",2022-02-24T21:06:05.080468+00:00
 258254038,542,11,1,0,6,hhhrrrttt222111/Ethical-Hacking-Tools,Complete Listing and Usage of Tools used for Ethical Hacking,"'{""hhhrrrttt222111"", ""bettercalln1ck""}'",2022-02-24T21:06:05.080468+00:00
 258352165,120,5,1,0,4,whoisryosuke/next-mdx-deck,"Presentation decks using MDX, React, and Next.JS","'{""whoisryosuke""}'",2022-02-24T21:06:05.080468+00:00
 258465213,688,66,1,0,14,philips-labs/terraform-aws-github-runner,Terraform module for scalable GitHub action runners on AWS,"'{""npalm"", ""gertjanmaas""}'",2022-02-24T21:06:05.080468+00:00
@@ -3662,5 +3661,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 441646385,0,0,1,0,4,cod-ed/simulate,A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical),"'{""yashlamba"", ""akshansh2000""}'",2022-02-24T21:06:05.080468+00:00
 44882201,37303,51,8,3,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"'{""MunGell"", ""JefMari""}'",2022-02-24T21:06:05.080468+00:00
 191529732,39905,69,8,2,16.25,lydiahallie/javascript-questions,"A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ","'{""lydiahallie"", ""Tarabass""}'",2022-02-24T21:06:05.080468+00:00
-426820139,42,11,1,8,0,open-sauced/hot,🍕The site that recommends the hottest projects on GitHub.,"'{""bdougie"", ""0-vortex""}'",2022-02-24T21:06:05.080468+00:00
 88011908,60354,28,4,1,11.25,practical-tutorials/project-based-learning,Curated list of project-based tutorials,"'{""tuvtran"", ""sayands""}'",2022-02-24T21:06:05.080468+00:00
+361044034,16821,48,4,2,9.5,slidevjs/slidev,Presentation Slides for Developers (Beta),"'{""antfu"", ""nico-bachner""}'",2022-02-24T21:06:05.080468+00:00
+112150776,10908,441,5,2,12.4,11ty/eleventy,A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.,"'{""zachleat"", ""MadeByMike""}'",2022-02-24T21:06:05.080468+00:00
