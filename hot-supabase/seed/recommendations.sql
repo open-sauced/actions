@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T01:02:36.950Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T02:54:01.395Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -454,11 +454,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (15884926, 5630, 319, 1, 0, 22, 'hishamhm/htop', 'htop is an interactive text-mode process viewer for Unix systems. It aims to be a better ''top''.', ARRAY['hishamhm', 'Explorer09'], '2022-02-24T21:06:05.080468+00:00'),
 (15910832, 179, 31, 1, 0, 13, 'MadKudu/node-hubspot', 'Node wrapper for the HubSpot API', ARRAY['pcothenet', 'vkhomiv-hubspot'], '2022-02-24T21:06:05.080468+00:00'),
 (15936793, 801, 13, 1, 0, 5, 'tsironis/lockr', 'A minimal API wrapper for localStorage', ARRAY['tsironis', 'avgerin0s'], '2022-02-24T21:06:05.080468+00:00'),
-(16072585, 17590, 32, 1, 0, 0, 'phoenixframework/phoenix', 'Peace of mind from prototype to production', ARRAY['chrismccord', 'josevalim'], '2022-02-24T21:06:05.080468+00:00'),
-(16120959, 1407, 128, 1, 0, 12, 'evennia/evennia', 'Python MUD/MUX/MUSH/MU* development system', ARRAY['Griatch', 'gtaylor'], '2022-02-24T21:06:05.080468+00:00'),
 (16194327, 5546, 10, 1, 0, 6, 'adamschwartz/magic-of-css', 'A CSS course to turn you into a magician.', ARRAY['adamschwartz', 'cvrebert'], '2022-02-24T21:06:05.080468+00:00'),
 (16202183, 105, 2, 1, 0, 4, 'ivanlanin/kateglo', 'Indonesian dictionary, thesaurus, and glossary application', ARRAY['ivanlanin'], '2022-02-24T21:06:05.080468+00:00'),
 (16334982, 14808, 6, 1, 0, 13, 'Olshansk/interview', 'Everything you need to prepare for your technical interview', ARRAY['andreis', 'Olshansk'], '2022-02-24T21:06:05.080468+00:00'),
+(16072585, 17590, 32, 1, 0, 0, 'phoenixframework/phoenix', 'Peace of mind from prototype to production', ARRAY['chrismccord', 'josevalim'], '2022-02-24T21:06:05.080468+00:00'),
+(16120959, 1407, 128, 1, 0, 12, 'evennia/evennia', 'Python MUD/MUX/MUSH/MU* development system', ARRAY['Griatch', 'gtaylor'], '2022-02-24T21:06:05.080468+00:00'),
 (16408992, 49562, 1524, 1, 0, 15, 'neovim/neovim', 'Vim-fork focused on extensibility and usability', ARRAY['justinmk', 'janlazo'], '2022-02-24T21:06:05.080468+00:00'),
 (16549503, 6304, 11, 1, 0, 6, 'github/scientist', ':microscope: A Ruby library for carefully refactoring critical paths.', ARRAY['zerowidth', 'jbarnette'], '2022-02-24T21:06:05.080468+00:00'),
 (16554739, 10536, 1557, 1, 0, 3, 'elastic/beats', ':tropical_fish: Beats - Lightweight shippers for Elasticsearch & Logstash ', ARRAY['ruflin', 'andrewkroh'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1166,9 +1166,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (80276391, 34800, 6, 1, 0, 22, 'GitSquared/edex-ui', 'A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.', ARRAY['GitSquared', 'greenkeeperio-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (80294918, 5101, 116, 1, 0, 23, 'gcanti/io-ts', 'Runtime type system for IO decoding/encoding', ARRAY['gcanti', 'osdiab'], '2022-02-24T21:06:05.080468+00:00'),
 (80472665, 15135, 54, 1, 0, 16, 'salomonelli/best-resume-ever', ':necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.', ARRAY['salomonelli', 'pubkey'], '2022-02-24T21:06:05.080468+00:00'),
+(80587182, 119, 1, 1, 0, 19, 'scotch-io/javascript-starter-course', 'Code for the Scotch School course by @sevilayha', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (80669528, 1144, 122, 1, 0, 2, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-24T21:06:05.080468+00:00'),
 (80724464, 4295, 11, 1, 0, 7, 'nuxt-community/awesome-nuxt', 'A curated list of awesome things related to Nuxt.js', ARRAY['limichange', 'manniL'], '2022-02-24T21:06:05.080468+00:00'),
-(80587182, 119, 1, 1, 0, 19, 'scotch-io/javascript-starter-course', 'Code for the Scotch School course by @sevilayha', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (102969245, 28432, 71, 1, 0, 14, 'golang-standards/project-layout', 'Standard Go Project Layout', ARRAY['kcq', 'xis'], '2022-02-24T21:06:05.080468+00:00'),
 (80814970, 419, 10, 1, 0, 3, 'piomin/sample-spring-microservices', 'Many samples in different branches that shows how to create microservices with Spring Boot, Spring Cloud, Zipkin, Zuul, Eureka, Hystrix, Kubernetes, Elastic Stack and many more tools', ARRAY['piomin', 'ramazansakin'], '2022-02-24T21:06:05.080468+00:00'),
 (81021705, 21, 0, 1, 0, 8, 'x0st/snake', 'A console snake written in C++', ARRAY['x0st'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2343,8 +2343,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (237592115, 1, 0, 1, 0, 16, '55-Degrees/worksheets', 'Worksheets and other tools', ARRAY['julia-55d'], '2022-02-24T21:06:05.080468+00:00'),
 (237604596, 9, 0, 1, 0, 13, 'dvarrazzo/bromine', 'Pythonic web testing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (237604676, 1, 0, 1, 0, 11, 'dvarrazzo/weeder', 'Remove unneeded historical files', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
-(237604775, 10, 0, 1, 0, 12, 'dvarrazzo/pgaudit', 'Simple PostgreSQL extension for tables auditing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (237805954, 2319, 8, 1, 0, 12, 'Shpota/goxygen', 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', ARRAY['Shpota', 'shpotainna'], '2022-02-24T21:06:05.080468+00:00'),
+(237604775, 10, 0, 1, 0, 12, 'dvarrazzo/pgaudit', 'Simple PostgreSQL extension for tables auditing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (238039731, 105, 103, 1, 0, 8, 'redwoodjs/redwoodjs.com', 'Public website for RedwoodJS', ARRAY['thedavidprice', 'cannikin'], '2022-02-24T21:06:05.080468+00:00'),
 (238197045, 196, 10, 1, 0, 22, 'bradtraversy/react_native_shopping_list', 'React Native app from crash course', ARRAY['bradtraversy', 'leosuncin'], '2022-02-24T21:06:05.080468+00:00'),
 (238514517, 2706, 24, 2, 0, 13, 'matteobruni/tsparticles', 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', ARRAY['matteobruni', 'VincentGarreau'], '2022-02-24T21:06:05.080468+00:00'),

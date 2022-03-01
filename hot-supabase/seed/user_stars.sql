@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T01:02:36.730Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T02:54:01.398Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4390,7 +4390,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (450574015, 3662109, 334169919, 29, 22, 1273, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
 (436289040, 61815862, 7715820, 29, 67, 8735, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
-(460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 531, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (455678420, 6499373, 36040894, 24, 325, 52429, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 219, 2734, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
 (364328935, 667716, 137308605, 29, 4, 101, 'tamino-martinius/node-ts-dedent', 'TypeScript package which smartly trims and strips indentation from multi-line strings', ARRAY['tamino-martinius', 'AviVahl'], '2022-02-24T21:07:34.596111'),
@@ -4409,8 +4409,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (333601244, 12292047, 37205440, 29, 172, 4408, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
 (272558455, 42392347, 254889040, 22, 0, 1, 'ColomboJuan/AppCodvid19', 'Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/', ARRAY['ColomboJuan'], '2022-02-24T21:07:34.596111'),
 (359971541, 28281924, 361310, 29, 26, 9530, 'teamcapybara/capybara', 'Acceptance test framework for web applications', ARRAY['twalpole', 'jnicklas'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 530, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 37, 39552, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 37, 39561, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
 (435800079, 16268467, 23083156, 11, 975, 76020, 'mui-org/material-ui', 'MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
 (455114859, 24910512, 61051155, 29, 24, 1866, 'ulid/javascript', 'Universally Unique Lexicographically Sortable Identifier', ARRAY['alizain', 'jansenignacio'], '2022-02-24T21:07:34.596111'),
