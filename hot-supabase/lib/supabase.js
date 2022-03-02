@@ -52,7 +52,7 @@ INSERT INTO ${table}(${columns.join(', ')}) VALUES
   await stringify(rows, {
     header: true,
     cast: {
-      object: value => Array.isArray(value) ? `{'${value.join("', '")}'}` : JSON.stringify(value),
+      object: value => Array.isArray(value) ? `{${value.join(",")}}` : JSON.stringify(value),
       boolean: value => value ? 'true' : 'false'
     }
   }, (err, data) =>
