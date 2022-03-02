@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T22:43:22.301Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T01:02:33.418Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3307,14 +3307,14 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (127672595, 174, 10, 35, 'chimbori/crux', '2022-02-24T21:07:06.457173+00:00'),
 (158731101, 83, 4, 12, 'cdimascio/essence', '2022-02-24T21:07:06.457173+00:00'),
 (54068301, 38, 3, 5, 'velocityzen/meta-extractor', '2022-02-24T21:07:06.457173+00:00'),
+(32568955, 23, 0, 6, 'dennybritz/url-metadata-extractor', '2022-02-24T21:07:06.457173+00:00'),
+(143305698, 24, 98, 11, 'takeshape/takeshape-samples', '2022-02-24T21:07:06.457173+00:00'),
 (290247146, 2075, 16, 364, 'mitmath/18S191', '2022-02-24T21:07:06.457173+00:00'),
 (224663696, 19964, 15, 879, 'alpinejs/alpine', '2022-02-24T21:07:06.457173+00:00'),
 (71858896, 68, 0, 95, 'alecortega/portfolio-template', '2022-02-24T21:07:06.457173+00:00'),
 (115685026, 2188, 132, 149, 'yggdrasil-network/yggdrasil-go', '2022-02-24T21:07:06.457173+00:00'),
 (376472635, 21, 2, 22, 'ourjapanlife/findadoc-frontend', '2022-02-24T21:07:06.457173+00:00'),
-(32568955, 23, 0, 6, 'dennybritz/url-metadata-extractor', '2022-02-24T21:07:06.457173+00:00'),
 (311205362, 47, 0, 1, '5t3ph/11ty-email-generator', '2022-02-24T21:07:06.457173+00:00'),
-(143305698, 24, 98, 11, 'takeshape/takeshape-samples', '2022-02-24T21:07:06.457173+00:00'),
 (406493930, 10, 6, 0, 'blackgirlbytes/git-emojis', '2022-02-24T21:07:06.457173+00:00'),
 (88897663, 4523, 413, 886, 'Shopify/polaris-react', '2022-02-24T21:07:06.457173+00:00'),
 (254060596, 81, 4, 69, 'zellwk/crud-demo', '2022-02-24T21:07:06.457173+00:00'),

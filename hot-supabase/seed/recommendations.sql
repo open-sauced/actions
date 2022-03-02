@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-01T22:43:22.678Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T01:02:33.599Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3095,9 +3095,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (342028554, 161, 2, 1, 0, 13, 'wheatjs/vite-plugin-vue-gql', '⚡ GraphQL Tags for your Vue SFC ⚡', ARRAY['wheatjs', 'jojoxd'], '2022-02-24T21:06:05.080468+00:00'),
 (342191787, 18, 0, 1, 0, 1, 'LambdaSchool/build-week-scaffolding-node', null, ARRAY['Ladrillo'], '2022-02-24T21:06:05.080468+00:00'),
 (342326297, 5, 0, 1, 0, 19, 'sameehaafr/Spleeter', 'Extract the stems (piano, bass, drums, vocals, etc.) of any audio/songs from YouTube.', ARRAY['sameehaafr'], '2022-02-24T21:06:05.080468+00:00'),
-(342342885, 33, 0, 1, 0, 28, 'moov-io/terms-dictionary', 'Simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov.', ARRAY['nlakritz', 'josephineroh'], '2022-02-24T21:06:05.080468+00:00'),
 (342451583, 7, 0, 1, 0, 18, 'pholleran/ghas-pr-notifications', 'A demonstration Probot app that adds visibility to code scanning alerts', ARRAY['pholleran', 'zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
 (342483041, 344, 0, 1, 0, 15, 'gyf304/ethminer-m1', 'ethminer fork for M1 Macs', ARRAY['gavofyork', 'chfast'], '2022-02-24T21:06:05.080468+00:00'),
+(342342885, 33, 0, 1, 0, 28, 'moov-io/terms-dictionary', 'Simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov.', ARRAY['nlakritz', 'josephineroh'], '2022-02-24T21:06:05.080468+00:00'),
 (343033262, 7, 0, 2, 0, 0, 'larissabenedet/lol-champions', 'o LOL Champions é um site que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. ', ARRAY['larissabenedet'], '2022-02-24T21:06:05.080468+00:00'),
 (343048668, 5, 0, 1, 0, 4, 'raghavTinker/Smart-Home-Doorbell', 'Smart Home project built for a secure home', ARRAY['raghavTinker', 'rdotjain'], '2022-02-24T21:06:05.080468+00:00'),
 (343079204, 2762, 16, 2, 0, 20, 'tostercx/GTAO_Booster_PoC', null, ARRAY['tostercx', 'Achilles1515'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3388,7 +3388,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383297241, 2, 0, 1, 0, 14, 'Chronofit/chrono-android', null, ARRAY['SVD6', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
 (383299223, 2, 0, 1, 0, 16, 'Chronofit/chrono-website', null, ARRAY['sahilsharma356', 'SVD6'], '2022-02-24T21:06:05.080468+00:00'),
 (383495767, 1, 1, 2, 0, 0, 'osoc21/wepod-sandbox', null, ARRAY['barbarebelge'], '2022-02-24T21:06:05.080468+00:00'),
-(383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:06:05.080468+00:00'),
 (383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
 (383784099, 37, 6, 1, 0, 6, 'microsoft/powerbi-client-angular', 'Power BI Angular component. This library lets you embed Power BI report, dashboard, dashboard tile, report visual, or Q&A in your Angular application.', ARRAY['parth-007', 'may-hartov'], '2022-02-24T21:06:05.080468+00:00'),
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3480,6 +3479,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (392242345, 37, 0, 1, 0, 24, 'hilmanski/discussbase', 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-24T21:06:05.080468+00:00'),
 (392615759, 15, 6, 1, 0, 20, 'Borrus-sudo/awesome-stack', '⚡ Github README stats  for your favourite web dev stack', ARRAY['Borrus-sudo', 'w3cj'], '2022-02-24T21:06:05.080468+00:00'),
+(383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:06:05.080468+00:00'),
 (392662562, 1, 4, 1, 0, 2, 'onaio/ansible-collection-rapidpro', 'RapidPro Ansible Collection', ARRAY['morrismukiri', 'jasonrogena'], '2022-02-24T21:06:05.080468+00:00'),
 (392935241, 1, 0, 1, 0, 9, 'piyalidas10/Angular-Error-Handling', 'Error Handling in Angular uing HttpInterceptor, HttpClient, Component', ARRAY['piyalidas10'], '2022-02-24T21:06:05.080468+00:00'),
 (393030139, 78, 0, 1, 0, 3, 'atapas/promise-interview-ready', 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', ARRAY['atapas', 'saideepd'], '2022-02-24T21:06:05.080468+00:00'),
