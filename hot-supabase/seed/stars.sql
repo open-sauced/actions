@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T10:43:56.229Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T12:51:08.423Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1109,8 +1109,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (72754695, 7142, 13, 238, 'styled-components/polished', '2022-02-24T21:07:06.457173+00:00'),
 (118105591, 2199, 44, 190, 'gojek/heimdall', '2022-02-24T21:07:06.457173+00:00'),
 (45879586, 1527, 17, 146, 'lexborisov/myhtml', '2022-02-24T21:07:06.457173+00:00'),
-(161603821, 4, 0, 2, 'Axeflower/localsToJson', '2022-02-24T21:07:06.457173+00:00'),
 (188897728, 22, 37, 8, 'csinn/CSInn', '2022-02-24T21:07:06.457173+00:00'),
+(161603821, 4, 0, 2, 'Axeflower/localsToJson', '2022-02-24T21:07:06.457173+00:00'),
 (59239347, 20975, 839, 1894, 'portainer/portainer', '2022-02-24T21:07:06.457173+00:00'),
 (115229134, 12629, 11, 1072, 'mdx-js/mdx', '2022-02-24T21:07:06.457173+00:00'),
 (395006251, 41, 5, 11, 'Lalit2005/paperclip', '2022-02-24T21:07:06.457173+00:00'),
@@ -3226,8 +3226,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (345722773, 22, 0, 7, 'Dev-Simulator/8-bit-env', '2022-02-24T21:07:06.457173+00:00'),
 (196030065, 393, 3, 30, 'dai-shi/will-this-react-global-state-work-in-concurrent-rendering', '2022-02-24T21:07:06.457173+00:00'),
 (512295, 2655, 235, 955, 'grails/grails-core', '2022-02-24T21:07:06.457173+00:00'),
-(336073755, 52, 0, 0, 'rishiosaur/idyllic', '2022-02-24T21:07:06.457173+00:00'),
 (321770581, 95, 1, 17, 'jgehrcke/github-repo-stats', '2022-02-24T21:07:06.457173+00:00'),
+(336073755, 52, 0, 0, 'rishiosaur/idyllic', '2022-02-24T21:07:06.457173+00:00'),
 (2870911, 3620, 276, 1299, 'MvvmCross/MvvmCross', '2022-02-24T21:07:06.457173+00:00'),
 (92945094, 1102, 117, 240, 'uswitch/kiam', '2022-02-24T21:07:06.457173+00:00'),
 (293301937, 466, 1, 68, 'roottusk/vapi', '2022-02-24T21:07:06.457173+00:00'),
@@ -3455,10 +3455,10 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (2206953, 22229, 5, 1591, 'tj/commander.js', '2022-02-24T21:07:06.457173+00:00'),
 (237448876, 800, 12, 166, 'qiangxue/go-rest-api', '2022-02-24T21:07:06.457173+00:00'),
 (191531341, 219, 6, 30, 'site-prism/site_prism', '2022-02-24T21:07:06.457173+00:00'),
-(1661758, 10376, 101, 1007, 'restify/node-restify', '2022-02-24T21:07:06.457173+00:00'),
 (153251691, 529, 400, 1418, 'Ishaan28malik/Hacktoberfest-2021', '2022-02-24T21:07:06.457173+00:00'),
 (94198471, 1092, 23, 166, 'benbrignell/principles.design', '2022-02-25T05:32:27.336985+00:00'),
 (317859910, 1683, 13, 77, 'pankod/superplate', '2022-02-24T21:07:06.457173+00:00'),
+(1661758, 10376, 101, 1007, 'restify/node-restify', '2022-02-24T21:07:06.457173+00:00'),
 (296301916, 431, 20, 42, 'lukasoppermann/design-tokens', '2022-02-24T21:07:06.457173+00:00'),
 (1874305, 611, 8, 92, 'Qix-/color-convert', '2022-02-24T21:07:06.457173+00:00'),
 (180418592, 3893, 17, 97, 'molefrog/wouter', '2022-02-24T21:07:06.457173+00:00'),
