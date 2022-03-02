@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T12:51:08.627Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T14:43:26.339Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -620,6 +620,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (610, 26007940, 249842476, 27, 81, 6659, 'nytimes/covid-19-data', 'An ongoing repository of data on coronavirus cases and deaths in the U.S.', ARRAY['nyt-covid-19-bot', 'albertsun'], '2022-02-24T21:07:34.596111'),
 (611, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-24T21:07:34.596111'),
 (612, 12410942, 127035128, 0, 94, 1110, 'Shopify/quilt', 'A loosely related set of packages for JavaScript/TypeScript projects at Shopify', ARRAY['lemonmade', 'michenly'], '2022-02-24T21:07:34.596111'),
+(613, 12410942, 283446239, 1, 0, 884, 'enisdenjo/graphql-ws', 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', ARRAY['enisdenjo', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
+(614, 12410942, 214587193, 2, 244, 25465, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
+(615, 12410942, 5219382, 3, 16, 5017, 'rack/rack-attack', 'Rack middleware for blocking & throttling', ARRAY['grzuy', 'ktheory'], '2022-02-24T21:07:34.596111'),
 (616, 12410942, 33212527, 4, 75, 1074, 'RailsEventStore/rails_event_store', 'A Ruby implementation of an Event Store based on Active Record', ARRAY['pawelpacana', 'mpraglowski'], '2022-02-24T21:07:34.596111'),
 (617, 12410942, 326420723, 5, 2, 854, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-24T21:07:34.596111'),
 (618, 12410942, 16549503, 6, 11, 6304, 'github/scientist', ':microscope: A Ruby library for carefully refactoring critical paths.', ARRAY['zerowidth', 'jbarnette'], '2022-02-24T21:07:34.596111'),
@@ -694,9 +697,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (687, 1255918, 182957374, 6, 0, 6, 'imajkumar/laravel-binary-tree', null, ARRAY['imajkumar'], '2022-02-24T21:07:34.596111'),
 (688, 1255918, 216243012, 7, 31, 5459, 'muhammed/vue-interactive-paycard', 'Credit card form with smooth and sweet micro-interactions', ARRAY['muhammed', 'saraiva1989'], '2022-02-24T21:07:34.596111'),
 (689, 1255918, 7466540, 8, 4, 1544, 'JazzCore/python-pdfkit', 'Wkhtmltopdf python wrapper to convert html to pdf', ARRAY['JazzCore', 'alanhamlett'], '2022-02-24T21:07:34.596111'),
-(613, 12410942, 283446239, 1, 0, 884, 'enisdenjo/graphql-ws', 'Coherent, zero-dependency, lazy, simple, GraphQL over WebSocket Protocol compliant server and client.', ARRAY['enisdenjo', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
-(614, 12410942, 214587193, 2, 244, 25465, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
-(615, 12410942, 5219382, 3, 16, 5017, 'rack/rack-attack', 'Rack middleware for blocking & throttling', ARRAY['grzuy', 'ktheory'], '2022-02-24T21:07:34.596111'),
 (690, 1255918, 68956484, 9, 79, 4509, 'gothinkster/angular-realworld-example-app', 'Exemplary real world application built with Angular', ARRAY['EricSimons', 'Toxicable'], '2022-02-24T21:07:34.596111'),
 (691, 1255918, 52631841, 10, 52, 62690, 'gothinkster/realworld', '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', ARRAY['EricSimons', 'anishkny'], '2022-02-24T21:07:34.596111'),
 (692, 1255918, 118029985, 11, 0, 3, 'drewnolan/vs-libimobile', 'Update for iOS11', ARRAY['infinitedrew', 'drewnolan'], '2022-02-24T21:07:34.596111'),

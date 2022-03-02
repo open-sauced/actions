@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T12:51:08.423Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T14:43:26.222Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1536,9 +1536,7 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (245036744, 1, 1, 7, 'hapi-robo/connect-mqtt', '2022-02-24T21:07:06.457173+00:00'),
 (64700934, 14443, 96, 7298, 'OpenZeppelin/openzeppelin-contracts', '2022-02-24T21:07:06.457173+00:00'),
 (272942303, 50, 4, 6, 'theanam/webaudio-oscilloscope', '2022-02-24T21:07:06.457173+00:00'),
-(269778869, 7, 0, 0, 'mmb4rn0/LinearCardView', '2022-02-24T21:07:06.457173+00:00'),
 (260669334, 1, 22, 8, 'SchoolOfFreelancing/Docker-Child-Protection', '2022-02-24T21:07:06.457173+00:00'),
-(249535582, 9, 0, 3, 'farhapartex/mickey', '2022-02-24T21:07:06.457173+00:00'),
 (189761262, 196, 3, 23, 'borisowsky/next-advanced-apollo-starter', '2022-02-24T21:07:06.457173+00:00'),
 (139186454, 49, 31, 33, 'FordLabs/retroquest', '2022-02-24T21:07:06.457173+00:00'),
 (430789888, 434, 33, 78, 'Developer-DAO/web3-ui', '2022-02-24T21:07:06.457173+00:00'),
@@ -1550,6 +1548,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (353859812, 214, 0, 49, 'btahir/next-shopify-starter', '2022-02-24T21:07:06.457173+00:00'),
 (82222501, 1, 0, 0, 'rob-moore/dotfiles', '2022-02-24T21:07:06.457173+00:00'),
 (304177900, 265, 1, 174, 'RyanFitzgerald/devfolio', '2022-02-24T21:07:06.457173+00:00'),
+(249535582, 9, 0, 3, 'farhapartex/mickey', '2022-02-24T21:07:06.457173+00:00'),
+(269778869, 7, 0, 0, 'mmb4rn0/LinearCardView', '2022-02-24T21:07:06.457173+00:00'),
 (141352703, 2258, 84, 163, 'smallstep/cli', '2022-02-24T21:07:06.457173+00:00'),
 (66287660, 542, 39, 147, 'json-api-dotnet/JsonApiDotNetCore', '2022-02-24T21:07:06.457173+00:00'),
 (1232043, 264, 16, 135, 'lucaminudel/TDDwithMockObjectsAndDesignPrinciples', '2022-02-24T21:07:06.457173+00:00'),
@@ -3455,10 +3455,10 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (2206953, 22229, 5, 1591, 'tj/commander.js', '2022-02-24T21:07:06.457173+00:00'),
 (237448876, 800, 12, 166, 'qiangxue/go-rest-api', '2022-02-24T21:07:06.457173+00:00'),
 (191531341, 219, 6, 30, 'site-prism/site_prism', '2022-02-24T21:07:06.457173+00:00'),
+(1661758, 10376, 101, 1007, 'restify/node-restify', '2022-02-24T21:07:06.457173+00:00'),
 (153251691, 529, 400, 1418, 'Ishaan28malik/Hacktoberfest-2021', '2022-02-24T21:07:06.457173+00:00'),
 (94198471, 1092, 23, 166, 'benbrignell/principles.design', '2022-02-25T05:32:27.336985+00:00'),
 (317859910, 1683, 13, 77, 'pankod/superplate', '2022-02-24T21:07:06.457173+00:00'),
-(1661758, 10376, 101, 1007, 'restify/node-restify', '2022-02-24T21:07:06.457173+00:00'),
 (296301916, 431, 20, 42, 'lukasoppermann/design-tokens', '2022-02-24T21:07:06.457173+00:00'),
 (1874305, 611, 8, 92, 'Qix-/color-convert', '2022-02-24T21:07:06.457173+00:00'),
 (180418592, 3893, 17, 97, 'molefrog/wouter', '2022-02-24T21:07:06.457173+00:00'),

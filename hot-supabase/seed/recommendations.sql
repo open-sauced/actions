@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T12:51:08.754Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T14:43:25.985Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2254,13 +2254,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (222535759, 3, 1, 1, 0, 24, 'jlengstorf/ast-transformations', null, ARRAY['jlengstorf'], '2022-02-24T21:06:05.080468+00:00'),
 (222791010, 35, 2, 1, 0, 2, 'twilio/rtc-diagnostics', null, ARRAY['mhuynh5757', 'charliesantos'], '2022-02-24T21:06:05.080468+00:00'),
 (223368735, 235, 8, 1, 0, 12, 'jagaapple/next-secure-headers', 'Sets secure response headers for Next.js.', ARRAY['jagaapple', 'naotone'], '2022-02-24T21:06:05.080468+00:00'),
+(223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-24T21:06:05.080468+00:00'),
 (224247781, 1480, 5, 1, 0, 27, 'nikhilpanju/FabFilter', 'Android app to showcase complex UI/Animations with and without MotionLayout', ARRAY['nikhilpanju'], '2022-02-24T21:06:05.080468+00:00'),
 (224663696, 19387, 9, 1, 0, 15, 'alpinejs/alpine', 'A rugged, minimal framework for composing JavaScript behavior in your markup. ', ARRAY['calebporzio', 'SimoTod'], '2022-02-24T21:06:05.080468+00:00'),
 (224928799, 260, 25, 1, 0, 26, 'rwmt/Multiplayer', 'Zetrith''s Multiplayer mod for RimWorld', ARRAY['Zetrith', 'notfood'], '2022-02-24T21:06:05.080468+00:00'),
 (225260962, 1152, 59, 1, 0, 17, 'udecode/plate', 'A plugin framework for building rich text editors with slate.', ARRAY['zbeyens', 'dylans'], '2022-02-24T21:06:05.080468+00:00'),
 (225295587, 6, 0, 1, 0, 5, 'BaseMax/JavaMyString', 'A tiny implementation of String class in java as final project.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (225442835, 15, 0, 1, 0, 2, 'caderek/aoc-starter-ts', null, ARRAY['caderek', 'NewCeptionDev'], '2022-02-24T21:06:05.080468+00:00'),
-(223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-24T21:06:05.080468+00:00'),
 (225602090, 161, 13, 1, 0, 0, 'farbenmeer/react-spring-slider', 'A slider component for react', ARRAY['mstruebing', 'Tobi-mmt'], '2022-02-24T21:06:05.080468+00:00'),
 (225862895, 116, 14, 1, 0, 6, 'srggrs/assign-one-project-github-action', 'Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.', ARRAY['srggrs', 'adamdmharvey'], '2022-02-24T21:06:05.080468+00:00'),
 (225979578, 1711, 0, 1, 0, 0, 'talkpython/python-for-absolute-beginners-course', 'Code samples and other handouts for our course.', ARRAY['mikeckennedy', 'amcinnes87'], '2022-02-24T21:06:05.080468+00:00'),
