@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T18:44:08.729Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T20:43:26.117Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2963,7 +2963,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (322542582, 843, 84, 1, 0, 0, 'EthWorks/useDApp', 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ARRAY['nezouse', 'marekkirejczyk'], '2022-02-24T21:06:05.080468+00:00'),
 (322703104, 34, 22, 1, 0, 27, 'Minenash/Seamless-Loading-Screen', 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', ARRAY['Minenash', 'Samekichi'], '2022-02-24T21:06:05.080468+00:00'),
 (322785065, 2, 0, 1, 0, 28, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-24T21:06:05.080468+00:00'),
-(322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
 (322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-24T21:06:05.080468+00:00'),
 (322936836, 568, 31, 1, 0, 3, 'awtkns/fastapi-crudrouter', 'A dynamic FastAPI router that automatically creates CRUD routes for your models', ARRAY['awtkns', 'collerek'], '2022-02-24T21:06:05.080468+00:00'),
 (323048702, 8791, 27, 1, 0, 25, 'GamestonkTerminal/GamestonkTerminal', 'Investment Research for Everyone.', ARRAY['DidierRLopes', 'aia'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2981,6 +2980,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (324976584, 543, 0, 1, 0, 8, 'ddd-crew/welcome-to-ddd', 'Definitions of DDD and fundamental concepts to reduce the learning curve and confusion', ARRAY['NTCoding', 'Max-Git'], '2022-02-24T21:06:05.080468+00:00'),
 (325221053, 2, 1, 1, 0, 7, 'udberg/ruby-enumerables', 'This project  re-creates the ruby enumerables algorithm codes including Each, Each_with_index, Select, all?, none, any?, count, map and inject', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (325571244, 32, 1, 1, 0, 0, 'fanaticscripter/EggContractor', 'Egg, Inc. contract monitoring web app & CLI client', ARRAY['fanaticscripter', 'actions-user'], '2022-02-24T21:06:05.080468+00:00'),
+(322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
 (326163394, 38, 0, 1, 0, 4, 'ceoshikhar/better-github', 'Enhance your code reading experience on GitHub.', ARRAY['ceoshikhar', 'aahnik'], '2022-02-24T21:06:05.080468+00:00'),
 (326244055, 1, 0, 1, 0, 7, 'akshay9677/reactor-gen', 'React plugin installations and boiler plate code for plugins like redux, react router dom, eslint etc', ARRAY['akshay9677'], '2022-02-24T21:06:05.080468+00:00'),
 (326404870, 5686, 227, 1, 0, 0, 'SigNoz/signoz', 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', ARRAY['ankitnayan', 'palash-signoz'], '2022-02-24T21:06:05.080468+00:00'),
