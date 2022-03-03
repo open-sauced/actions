@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T20:43:26.117Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T22:43:25.626Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -697,8 +697,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (36021747, 3943, 32, 1, 0, 10, 'harc/ohm', 'A library and language for building parsers, interpreters, compilers, etc.', ARRAY['pdubroy', 'alexwarth'], '2022-02-24T21:06:05.080468+00:00'),
 (36040894, 51964, 376, 1, 0, 23, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:06:05.080468+00:00'),
 (36077404, 2306, 91, 1, 0, 10, 'jolibrain/deepdetect', 'Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE', ARRAY['beniz', 'fantes'], '2022-02-24T21:06:05.080468+00:00'),
-(36256540, 15611, 114, 2, 0, 10, 'css-modules/css-modules', 'Documentation about css-modules', ARRAY['geelen', 'markdalgleish'], '2022-02-24T21:06:05.080468+00:00'),
 (36307949, 8, 3, 1, 0, 7, 'sagielevy/C2Py', 'Convert C Structs to Python with ease!', ARRAY['sagielevy', 'sagielightricks'], '2022-02-24T21:06:05.080468+00:00'),
+(36256540, 15611, 114, 2, 0, 10, 'css-modules/css-modules', 'Documentation about css-modules', ARRAY['geelen', 'markdalgleish'], '2022-02-24T21:06:05.080468+00:00'),
 (36323226, 5953, 90, 1, 0, 24, 'XAMPPRocky/tokei', 'Count your code, quickly.', ARRAY['XAMPPRocky', 'NickHackman'], '2022-02-24T21:06:05.080468+00:00'),
 (36470617, 1189, 135, 1, 0, 14, 'smpallen99/ex_admin', 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ARRAY['smpallen99', 'romul'], '2022-02-24T21:06:05.080468+00:00'),
 (36616176, 3175, 16, 2, 0, 6, 'elixirschool/elixirschool', 'The content behind Elixir School', ARRAY['doomspork', 'nscyclone'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2963,6 +2963,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (322542582, 843, 84, 1, 0, 0, 'EthWorks/useDApp', 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ARRAY['nezouse', 'marekkirejczyk'], '2022-02-24T21:06:05.080468+00:00'),
 (322703104, 34, 22, 1, 0, 27, 'Minenash/Seamless-Loading-Screen', 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', ARRAY['Minenash', 'Samekichi'], '2022-02-24T21:06:05.080468+00:00'),
 (322785065, 2, 0, 1, 0, 28, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-24T21:06:05.080468+00:00'),
+(322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
 (322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-24T21:06:05.080468+00:00'),
 (322936836, 568, 31, 1, 0, 3, 'awtkns/fastapi-crudrouter', 'A dynamic FastAPI router that automatically creates CRUD routes for your models', ARRAY['awtkns', 'collerek'], '2022-02-24T21:06:05.080468+00:00'),
 (323048702, 8791, 27, 1, 0, 25, 'GamestonkTerminal/GamestonkTerminal', 'Investment Research for Everyone.', ARRAY['DidierRLopes', 'aia'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2980,7 +2981,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (324976584, 543, 0, 1, 0, 8, 'ddd-crew/welcome-to-ddd', 'Definitions of DDD and fundamental concepts to reduce the learning curve and confusion', ARRAY['NTCoding', 'Max-Git'], '2022-02-24T21:06:05.080468+00:00'),
 (325221053, 2, 1, 1, 0, 7, 'udberg/ruby-enumerables', 'This project  re-creates the ruby enumerables algorithm codes including Each, Each_with_index, Select, all?, none, any?, count, map and inject', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (325571244, 32, 1, 1, 0, 0, 'fanaticscripter/EggContractor', 'Egg, Inc. contract monitoring web app & CLI client', ARRAY['fanaticscripter', 'actions-user'], '2022-02-24T21:06:05.080468+00:00'),
-(322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
 (326163394, 38, 0, 1, 0, 4, 'ceoshikhar/better-github', 'Enhance your code reading experience on GitHub.', ARRAY['ceoshikhar', 'aahnik'], '2022-02-24T21:06:05.080468+00:00'),
 (326244055, 1, 0, 1, 0, 7, 'akshay9677/reactor-gen', 'React plugin installations and boiler plate code for plugins like redux, react router dom, eslint etc', ARRAY['akshay9677'], '2022-02-24T21:06:05.080468+00:00'),
 (326404870, 5686, 227, 1, 0, 0, 'SigNoz/signoz', 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', ARRAY['ankitnayan', 'palash-signoz'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3525,8 +3525,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (397149117, 2, 0, 1, 0, 13, 'BolajiAyodeji/iris_visualization', 'Some data visualization techniques practice on the Iris dataset with R.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
 (397200443, 4, 0, 1, 0, 3, 'sidB67/CoVaccine', null, ARRAY['sidB67'], '2022-02-24T21:06:05.080468+00:00'),
 (397204262, 1127, 0, 1, 0, 7, 'jonaslejon/malicious-pdf', 'Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh', ARRAY['jonaslejon', 'tonyarris'], '2022-02-24T21:06:05.080468+00:00'),
-(397494904, 2, 0, 1, 0, 7, 'Borrus-sudo/rapide-structs', 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (397812789, 284, 0, 1, 0, 9, 'zuramai/starback.js', 'Create a beautiful star falling background with starback.js', ARRAY['zuramai', 'dicka88'], '2022-02-24T21:06:05.080468+00:00'),
+(397494904, 2, 0, 1, 0, 7, 'Borrus-sudo/rapide-structs', 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (398016775, 116, 1, 1, 0, 6, 'fireship-io/wavy-curvey-blobby-website', 'A website design with lots of waves, curves, a blobs', ARRAY['codediodeio'], '2022-02-24T21:06:05.080468+00:00'),
 (398039380, 14, 2, 1, 0, 20, 'vasspilka/bank', 'Sample Bank application used for my 2021 ElixirConf presentation', ARRAY['vasspilka'], '2022-02-24T21:06:05.080468+00:00'),
 (398337342, 1, 0, 1, 0, 2, 'Steffen911/license-checker-action', 'Run license-checker via GitHub Actions', ARRAY['Steffen911'], '2022-02-24T21:06:05.080468+00:00'),
