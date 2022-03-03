@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T01:02:52.800Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T02:53:16.447Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -389,8 +389,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (12516369, 330, 1, 1, 0, 3, 'jshemas/openGraphScraper', 'Node.js scraper service for Open Graph Info and More!', ARRAY['jshemas', 'gazay'], '2022-02-24T21:06:05.080468+00:00'),
 (12574344, 25044, 357, 1, 0, 0, 'spf13/cobra', 'A Commander for modern Go CLI interactions', ARRAY['eparis', 'bogem'], '2022-02-24T21:06:05.080468+00:00'),
 (12658090, 6634, 36, 1, 0, 3, 'raineorshine/npm-check-updates', 'Find newer versions of package dependencies than what your package.json allows', ARRAY['raineorshine', 'XhmikosR'], '2022-02-24T21:06:05.080468+00:00'),
-(12663196, 2215, 6, 1, 0, 3, 'nosir/obelisk.js', 'Build pixel isometric graphics with HTML5 canvas', ARRAY['rison', 'nosir'], '2022-02-24T21:06:05.080468+00:00'),
 (12732573, 25803, 88, 2, 0, 6.5, 'junegunn/vim-plug', ':hibiscus: Minimalist Vim Plugin Manager', ARRAY['junegunn', 'starcraftman'], '2022-02-24T21:06:05.080468+00:00'),
+(12663196, 2215, 6, 1, 0, 3, 'nosir/obelisk.js', 'Build pixel isometric graphics with HTML5 canvas', ARRAY['rison', 'nosir'], '2022-02-24T21:06:05.080468+00:00'),
 (12785573, 4698, 42, 1, 0, 21, 'sheerun/vim-polyglot', 'A solid language pack for Vim.', ARRAY['sheerun', 'CH-DanReif'], '2022-02-24T21:06:05.080468+00:00'),
 (12888993, 48911, 1522, 1, 0, 9, 'home-assistant/core', ':house_with_garden: Open source home automation that puts local control and privacy first.', ARRAY['balloob', 'fabaff'], '2022-02-24T21:06:05.080468+00:00'),
 (12973222, 3052, 38, 1, 0, 4, 'depcheck/depcheck', 'Check your npm module for unused dependencies', ARRAY['lijunle', 'rumpl'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1551,8 +1551,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (127910371, 4141, 0, 1, 0, 3, 'thedaviddias/Front-End-Design-Checklist', '💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers', ARRAY['thedaviddias', 'admpk'], '2022-02-24T21:06:05.080468+00:00'),
 (127968704, 10424, 82, 1, 0, 2, 'tensorflow/tfjs-models', 'Pretrained models for TensorFlow.js', ARRAY['lina128', 'oveddan'], '2022-02-24T21:06:05.080468+00:00'),
 (128151112, 62, 17, 1, 0, 10, 'purplship/purplship', 'The Open Source Multi-carrier Shipping API', ARRAY['danh91', 'jacobshilitz'], '2022-02-24T21:06:05.080468+00:00'),
-(128237146, 19760, 511, 1, 0, 12, 'vuejs/vuepress', '📝 Minimalistic Vue-powered static site generator', ARRAY['ulivz', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (128193054, 5446, 114, 2, 0, 8.5, 'keystonejs/keystone', 'The most powerful headless CMS for Node.js — built with GraphQL and React', ARRAY['timleslie', 'jesstelford'], '2022-02-24T21:06:05.080468+00:00'),
+(128237146, 19760, 511, 1, 0, 12, 'vuejs/vuepress', '📝 Minimalistic Vue-powered static site generator', ARRAY['ulivz', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (128265535, 581, 64, 1, 0, 1, 'GoogleCloudPlatform/click-to-deploy', 'Source for Google Click to Deploy solutions listed on Google Cloud Marketplace.', ARRAY['wgrzelak', 'armandomiani'], '2022-02-24T21:06:05.080468+00:00'),
 (128275689, 5143, 62, 1, 0, 26, 'cchen156/Learning-to-See-in-the-Dark', 'Learning to See in the Dark. CVPR 2018', ARRAY['cchen156', 'Jason-Cooke'], '2022-02-24T21:06:05.080468+00:00'),
 (128396076, 2757, 63, 1, 0, 5, 'testing-library/dom-testing-library', '🐙 Simple and complete DOM testing utilities that encourage good testing practices.', ARRAY['kentcdodds', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
