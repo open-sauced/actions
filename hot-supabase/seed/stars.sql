@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T12:50:56.194Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T14:43:20.419Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3585,9 +3585,9 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (184413359, 17, 0, 3, 'dividat/ocaml-semver', '2022-02-24T21:07:06.457173+00:00'),
 (188660663, 33715, 34, 6183, 'CorentinJ/Real-Time-Voice-Cloning', '2022-02-24T21:07:06.457173+00:00'),
 (400468445, 29, 0, 0, 'g-plane/typacro', '2022-02-24T21:07:06.457173+00:00'),
+(195281293, 32, 41, 17, 'wepublish/wepublish', '2022-02-24T21:07:06.457173+00:00'),
 (57939112, 9402, 184, 4278, 'kubernetes/community', '2022-02-24T21:07:06.457173+00:00'),
 (213368792, 1, 0, 0, 'gabolera/3D-Helper', '2022-02-24T21:07:06.457173+00:00'),
-(195281293, 32, 41, 17, 'wepublish/wepublish', '2022-02-24T21:07:06.457173+00:00'),
 (183428858, 35, 4, 21, 'prismicio/gatsby-blog', '2022-02-24T21:07:06.457173+00:00'),
 (199173392, 79, 0, 2, 'jessicarose/open-advice-1-1s', '2022-02-24T21:07:06.457173+00:00'),
 (14747598, 59829, 609, 5827, 'typicode/json-server', '2022-02-24T21:07:06.457173+00:00'),
