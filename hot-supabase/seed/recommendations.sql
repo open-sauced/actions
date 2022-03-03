@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T06:46:33.344Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T08:45:31.648Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1794,8 +1794,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (159876616, 6315, 207, 1, 0, 14, 'gaearon/overreacted.io', 'Personal blog by Dan Abramov.', ARRAY['gaearon', 'carburo'], '2022-02-24T21:06:05.080468+00:00'),
 (160253491, 2506, 40, 1, 0, 24, 'fullstorydev/grpcui', 'An interactive web UI for gRPC, along the lines of postman', ARRAY['jhump', 'gtg471h'], '2022-02-24T21:06:05.080468+00:00'),
 (160596188, 987, 80, 1, 0, 18, 'MicrosoftEdge/MSEdgeExplainers', 'Home for explainer documents originated by the Microsoft Edge team', ARRAY['travisleithead', 'aarongustafson'], '2022-02-24T21:06:05.080468+00:00'),
-(160651810, 210, 4, 1, 0, 3, 'markjprice/cs8dotnetcore3', 'Repository for the Packt Publishing book titled ''C# 8.0 and .NET Core 3.0'' by Mark J. Price', ARRAY['markjprice', 'Semro'], '2022-02-24T21:06:05.080468+00:00'),
 (160834617, 572, 144, 1, 0, 27, 'react-native-webrtc/react-native-callkeep', 'iOS CallKit framework and Android ConnectionService for React Native', ARRAY['manuquentin', 'ianlin'], '2022-02-24T21:06:05.080468+00:00'),
+(160651810, 210, 4, 1, 0, 3, 'markjprice/cs8dotnetcore3', 'Repository for the Packt Publishing book titled ''C# 8.0 and .NET Core 3.0'' by Mark J. Price', ARRAY['markjprice', 'Semro'], '2022-02-24T21:06:05.080468+00:00'),
 (160919119, 39896, 1277, 1, 0, 6, 'tiangolo/fastapi', 'FastAPI framework, high performance, easy to learn, fast to code, ready for production', ARRAY['tiangolo', 'waynerv'], '2022-02-24T21:06:05.080468+00:00'),
 (160939449, 1, 0, 1, 0, 3, 'fabtjar/advent-of-code', 'A few attempts of Advent of Code', ARRAY['fabtjar'], '2022-02-24T21:06:05.080468+00:00'),
 (161012019, 12730, 594, 1, 0, 15, 'jellyfin/jellyfin', 'The Free Software Media System', ARRAY['LukePulverenti', 'Bond-009'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3151,9 +3151,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (349376361, 940, 6, 1, 0, 13, 'Defi-Cartel/salmonella', 'Wrecking sandwich traders for fun and profit', ARRAY['CodeForcer'], '2022-02-24T21:06:05.080468+00:00'),
 (349522340, 2948, 40, 1, 0, 17, 'google/lyra', 'A Very Low-Bitrate Codec for Speech Compression', ARRAY['jsoref', 'aluebs'], '2022-02-24T21:06:05.080468+00:00'),
 (350240448, 286, 3, 1, 0, 19, 'mhmzdev/DevFolio', 'Live portfolio designed using Flutter 2.0 available for android and web.', ARRAY['mhmzdev'], '2022-02-24T21:06:05.080468+00:00'),
-(350360184, 9101, 121, 1, 0, 0, 'calendso/calendso', 'Scheduling infrastructure for absolutely everyone.', ARRAY['baileypumfleet', 'PeerRich'], '2022-02-24T21:06:05.080468+00:00'),
-(350383594, 249, 18, 1, 0, 21, 'oasis-sh/oasis', 'The chat and forums platform for communities', ARRAY['heybereket', 'HenryLeC'], '2022-02-24T21:06:05.080468+00:00'),
-(350770929, 2153, 49, 1, 0, 9, 'academind/react-complete-guide-code', 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', ARRAY['maxschwarzmueller'], '2022-02-24T21:06:05.080468+00:00'),
 (350802931, 9, 0, 1, 0, 2, 'trainerroad/react-race-planner', 'A coding challenge for prospective engineering hires', ARRAY['colinrobertbrooks', 'tah9m9'], '2022-02-24T21:06:05.080468+00:00'),
 (350831642, 1172, 1, 1, 0, 4, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-24T21:06:05.080468+00:00'),
 (350874478, 350, 2, 1, 0, 0, 'notrab/headless-dropshipping-starter', 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ARRAY['renovate-bot', 'notrab'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3362,7 +3359,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (380721582, 7, 0, 1, 0, 21, 'devoverid/conf2021', 'Devover Conference 2021', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (380767610, 71, 4, 1, 0, 23, 'sameersrivastava13/Vaccine-Tracker-App', 'Check Your Nearest Vaccination Center And Slots Availability using pincode and district name.', ARRAY['sameersrivastava13', 'kumarishalini6'], '2022-02-24T21:06:05.080468+00:00'),
 (380874662, 162, 6, 2, 0, 2, 'sdras/fortnite-vscode-theme', null, ARRAY['sdras', 'MichaelCurrin'], '2022-02-24T21:06:05.080468+00:00'),
+(350360184, 9101, 121, 1, 0, 0, 'calendso/calendso', 'Scheduling infrastructure for absolutely everyone.', ARRAY['baileypumfleet', 'PeerRich'], '2022-02-24T21:06:05.080468+00:00'),
 (380948393, 1, 0, 1, 0, 26, 'ABHCH/Expense-Track', 'I am develop Expense tracker using Javascript HTml css', ARRAY['ABHCH'], '2022-02-24T21:06:05.080468+00:00'),
+(350383594, 249, 18, 1, 0, 21, 'oasis-sh/oasis', 'The chat and forums platform for communities', ARRAY['heybereket', 'HenryLeC'], '2022-02-24T21:06:05.080468+00:00'),
+(350770929, 2153, 49, 1, 0, 9, 'academind/react-complete-guide-code', 'Code snapshots and materials for our ''React - The Complete Guide'' course (https://acad.link/reactjs)', ARRAY['maxschwarzmueller'], '2022-02-24T21:06:05.080468+00:00'),
 (381092723, 36, 0, 1, 0, 5, 'yousefvand/secret-service', 'Service to keep secrets of applications', ARRAY['yousefvand', 'juergenhoetzel'], '2022-02-24T21:06:05.080468+00:00'),
 (381240280, 5, 2, 1, 0, 21, 'Dhaiwat10/react-agora', 'Plug-and-play React wrapper for AgoraRTC.', ARRAY['Dhaiwat10', 'Nazeeh21'], '2022-02-24T21:06:05.080468+00:00'),
 (381428539, 11, 0, 1, 0, 18, 'satyawikananda/elucidator-blog-starter', 'Opinionated Vue 3 + Vite + Typescript blog starter ⚔', ARRAY['satyawikananda', 'ifirmawan'], '2022-02-24T21:06:05.080468+00:00'),
