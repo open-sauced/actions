@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T02:53:16.447Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T04:46:57.904Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -389,8 +389,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (12516369, 330, 1, 1, 0, 3, 'jshemas/openGraphScraper', 'Node.js scraper service for Open Graph Info and More!', ARRAY['jshemas', 'gazay'], '2022-02-24T21:06:05.080468+00:00'),
 (12574344, 25044, 357, 1, 0, 0, 'spf13/cobra', 'A Commander for modern Go CLI interactions', ARRAY['eparis', 'bogem'], '2022-02-24T21:06:05.080468+00:00'),
 (12658090, 6634, 36, 1, 0, 3, 'raineorshine/npm-check-updates', 'Find newer versions of package dependencies than what your package.json allows', ARRAY['raineorshine', 'XhmikosR'], '2022-02-24T21:06:05.080468+00:00'),
-(12732573, 25803, 88, 2, 0, 6.5, 'junegunn/vim-plug', ':hibiscus: Minimalist Vim Plugin Manager', ARRAY['junegunn', 'starcraftman'], '2022-02-24T21:06:05.080468+00:00'),
 (12663196, 2215, 6, 1, 0, 3, 'nosir/obelisk.js', 'Build pixel isometric graphics with HTML5 canvas', ARRAY['rison', 'nosir'], '2022-02-24T21:06:05.080468+00:00'),
+(12732573, 25803, 88, 2, 0, 6.5, 'junegunn/vim-plug', ':hibiscus: Minimalist Vim Plugin Manager', ARRAY['junegunn', 'starcraftman'], '2022-02-24T21:06:05.080468+00:00'),
 (12785573, 4698, 42, 1, 0, 21, 'sheerun/vim-polyglot', 'A solid language pack for Vim.', ARRAY['sheerun', 'CH-DanReif'], '2022-02-24T21:06:05.080468+00:00'),
 (12888993, 48911, 1522, 1, 0, 9, 'home-assistant/core', ':house_with_garden: Open source home automation that puts local control and privacy first.', ARRAY['balloob', 'fabaff'], '2022-02-24T21:06:05.080468+00:00'),
 (12973222, 3052, 38, 1, 0, 4, 'depcheck/depcheck', 'Check your npm module for unused dependencies', ARRAY['lijunle', 'rumpl'], '2022-02-24T21:06:05.080468+00:00'),
