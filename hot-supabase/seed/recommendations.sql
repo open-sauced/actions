@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T22:43:20.523Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T01:02:52.800Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1074,7 +1074,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (71293321, 10170, 222, 1, 0, 18, 'diegomura/react-pdf', '📄  Create PDF files using React', ARRAY['diegomura', 'jeetiss'], '2022-02-24T21:06:05.080468+00:00'),
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-24T21:06:05.080468+00:00'),
 (71335054, 2003, 7, 1, 0, 6, 'jimmysuncpt/Algorithms', 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', ARRAY['jimmysuncpt', 'itlonewolf'], '2022-02-24T21:06:05.080468+00:00'),
-(71359796, 573, 29, 4, 1, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (71485542, 1482, 196, 1, 0, 18, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-24T21:06:05.080468+00:00'),
 (71551629, 10979, 8, 2, 0, 10, 'carloscuesta/gitmoji', 'An emoji guide for your commit messages. 😜 ', ARRAY['carloscuesta', 'johannchopin'], '2022-02-24T21:06:05.080468+00:00'),
 (71583602, 25417, 2, 1, 0, 8, 'Developer-Y/cs-video-courses', 'List of Computer Science courses with video lectures.', ARRAY['Developer-Y', 'DateBro'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1552,8 +1551,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (127910371, 4141, 0, 1, 0, 3, 'thedaviddias/Front-End-Design-Checklist', '💎 The Design Checklist for Creative Web Designers and Patient Front-End Developers', ARRAY['thedaviddias', 'admpk'], '2022-02-24T21:06:05.080468+00:00'),
 (127968704, 10424, 82, 1, 0, 2, 'tensorflow/tfjs-models', 'Pretrained models for TensorFlow.js', ARRAY['lina128', 'oveddan'], '2022-02-24T21:06:05.080468+00:00'),
 (128151112, 62, 17, 1, 0, 10, 'purplship/purplship', 'The Open Source Multi-carrier Shipping API', ARRAY['danh91', 'jacobshilitz'], '2022-02-24T21:06:05.080468+00:00'),
-(128193054, 5446, 114, 2, 0, 8.5, 'keystonejs/keystone', 'The most powerful headless CMS for Node.js — built with GraphQL and React', ARRAY['timleslie', 'jesstelford'], '2022-02-24T21:06:05.080468+00:00'),
 (128237146, 19760, 511, 1, 0, 12, 'vuejs/vuepress', '📝 Minimalistic Vue-powered static site generator', ARRAY['ulivz', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
+(128193054, 5446, 114, 2, 0, 8.5, 'keystonejs/keystone', 'The most powerful headless CMS for Node.js — built with GraphQL and React', ARRAY['timleslie', 'jesstelford'], '2022-02-24T21:06:05.080468+00:00'),
 (128265535, 581, 64, 1, 0, 1, 'GoogleCloudPlatform/click-to-deploy', 'Source for Google Click to Deploy solutions listed on Google Cloud Marketplace.', ARRAY['wgrzelak', 'armandomiani'], '2022-02-24T21:06:05.080468+00:00'),
 (128275689, 5143, 62, 1, 0, 26, 'cchen156/Learning-to-See-in-the-Dark', 'Learning to See in the Dark. CVPR 2018', ARRAY['cchen156', 'Jason-Cooke'], '2022-02-24T21:06:05.080468+00:00'),
 (128396076, 2757, 63, 1, 0, 5, 'testing-library/dom-testing-library', '🐙 Simple and complete DOM testing utilities that encourage good testing practices.', ARRAY['kentcdodds', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3666,6 +3665,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
+(71359796, 573, 29, 4, 2, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),

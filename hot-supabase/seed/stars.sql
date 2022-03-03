@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T22:43:20.337Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T01:02:52.359Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3329,8 +3329,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (117683849, 191, 24, 47, 'ponnamkarthik/RichLinkPreview', '2022-02-24T21:07:06.457173+00:00'),
 (180403017, 62, 0, 5, 'savepopulation/beaver', '2022-02-24T21:07:06.457173+00:00'),
 (127672595, 184, 10, 35, 'chimbori/crux', '2022-02-24T21:07:06.457173+00:00'),
-(158731101, 83, 4, 12, 'cdimascio/essence', '2022-02-24T21:07:06.457173+00:00'),
 (355298453, 21, 0, 0, 'myriadrf/lc-website', '2022-02-24T21:07:06.457173+00:00'),
+(158731101, 83, 4, 12, 'cdimascio/essence', '2022-02-24T21:07:06.457173+00:00'),
 (319167362, 1324, 86, 167, 'hay-kot/mealie', '2022-02-24T21:07:06.457173+00:00'),
 (310456670, 4197, 32, 156, 'BuilderIO/mitosis', '2022-02-24T21:07:06.457173+00:00'),
 (36554250, 8545, 57, 946, 'hackerkid/Mind-Expanding-Books', '2022-02-24T21:07:06.457173+00:00'),
@@ -3355,8 +3355,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (311205362, 47, 0, 1, '5t3ph/11ty-email-generator', '2022-02-24T21:07:06.457173+00:00'),
 (169100692, 12237, 10, 2873, 'NVlabs/stylegan', '2022-02-24T21:07:06.457173+00:00'),
 (90375873, 1, 0, 0, 'Happyr/SyliusFlowBundle', '2022-02-24T21:07:06.457173+00:00'),
-(254060596, 81, 4, 69, 'zellwk/crud-demo', '2022-02-24T21:07:06.457173+00:00'),
 (272492043, 3087, 125, 401, 'shuding/nextra', '2022-02-24T21:07:06.457173+00:00'),
+(254060596, 81, 4, 69, 'zellwk/crud-demo', '2022-02-24T21:07:06.457173+00:00'),
 (15393566, 5480, 32, 139, 'AriaMinaei/theatre', '2022-02-24T21:07:06.457173+00:00'),
 (60492769, 6547, 126, 722, 'rsuite/rsuite', '2022-02-24T21:07:06.457173+00:00'),
 (40008106, 8440, 265, 830, 'MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-', '2022-02-24T21:07:06.457173+00:00'),

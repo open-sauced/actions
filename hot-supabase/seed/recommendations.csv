@@ -1069,7 +1069,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 71293321,10170,222,1,0,18,diegomura/react-pdf,📄  Create PDF files using React,"{diegomura,jeetiss}",2022-02-24T21:06:05.080468+00:00
 71297170,11701,14,1,0,19,Netflix/chaosmonkey,Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.,"{lorin,prytoegrian}",2022-02-24T21:06:05.080468+00:00
 71335054,2003,7,1,0,6,jimmysuncpt/Algorithms,The codes and my solutions to exercises from the book 'Algorithms' (4th edition) by Robert Sedgewick and Kevin Wayne.,"{jimmysuncpt,itlonewolf}",2022-02-24T21:06:05.080468+00:00
-71359796,573,29,4,1,0,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:06:05.080468+00:00
 71485542,1482,196,1,0,18,kevinpapst/kimai2,"Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud","{kevinpapst,weblate}",2022-02-24T21:06:05.080468+00:00
 71551629,10979,8,2,0,10,carloscuesta/gitmoji,An emoji guide for your commit messages. 😜 ,"{carloscuesta,johannchopin}",2022-02-24T21:06:05.080468+00:00
 71583602,25417,2,1,0,8,Developer-Y/cs-video-courses,List of Computer Science courses with video lectures.,"{Developer-Y,DateBro}",2022-02-24T21:06:05.080468+00:00
@@ -3661,6 +3660,7 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 441646385,0,0,1,0,4,cod-ed/simulate,A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical),"{yashlamba,akshansh2000}",2022-02-24T21:06:05.080468+00:00
 44882201,37303,51,8,3,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"{MunGell,JefMari}",2022-02-24T21:06:05.080468+00:00
 191529732,39905,69,8,2,16.25,lydiahallie/javascript-questions,"A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ","{lydiahallie,Tarabass}",2022-02-24T21:06:05.080468+00:00
+71359796,573,29,4,2,0,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:06:05.080468+00:00
 88011908,60354,28,4,1,11.25,practical-tutorials/project-based-learning,Curated list of project-based tutorials,"{tuvtran,sayands}",2022-02-24T21:06:05.080468+00:00
 361044034,16821,48,4,2,9.5,slidevjs/slidev,Presentation Slides for Developers (Beta),"{antfu,nico-bachner}",2022-02-24T21:06:05.080468+00:00
 112150776,10908,441,5,2,12.4,11ty/eleventy,A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.,"{zachleat,MadeByMike}",2022-02-24T21:06:05.080468+00:00

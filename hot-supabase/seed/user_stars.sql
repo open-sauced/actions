@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-02T22:43:20.696Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T01:02:52.569Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3959,6 +3959,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3963, 35005125, 30215630, 18, 46, 21973, 'go-kit/kit', 'A standard library for microservices.', ARRAY['peterbourgon', 'ChrisHines'], '2022-02-24T21:07:34.596111'),
 (3964, 35005125, 19331272, 19, 53, 1162, 'gocarina/gocsv', 'The GoCSV package aims to provide easy CSV serialization and deserialization to the golang programming language', ARRAY['pikanezi', 'JonathanPicques'], '2022-02-24T21:07:34.596111'),
 (3965, 35005125, 72811914, 20, 8, 3, 'clintjedwards/basecoat', 'Formula tracker for custom paint mixes. Tracks colorant, base, and other misc data.', ARRAY['clintjedwards'], '2022-02-24T21:07:34.596111'),
+(3966, 35005125, 190142142, 21, 3, 132, 'liyasthomas/banner', '🚩 A simple and clean banner generator - Banners on the go. https://liyasthomas.github.io/banner', ARRAY['liyasthomas', 'izzqz'], '2022-02-24T21:07:34.596111'),
+(3967, 35005125, 300874884, 22, 23, 145, 'kothariji/SyntaxMeets', 'Syntaxmeets. Create rooms 🏠 Call your friends 👬🏼 Sip Chai, ☕ Chat, Create, and Code👨‍💻. A coding platform to code simultaneously 🚀 with your friends and design your algorithms on SyntaxPad.💫✨', ARRAY['kothariji', 'akash-salvi'], '2022-02-24T21:07:34.596111'),
 (3968, 35005125, 39433529, 23, 0, 1169, 'kkdai/project52', '52 weeks, 52 Go projects', ARRAY['kkdai', 'zacps'], '2022-02-24T21:07:34.596111'),
 (3969, 35005125, 169529444, 24, 0, 9, 'skycoin/arena', null, ARRAY['gz-c', 'jdknives'], '2022-02-24T21:07:34.596111'),
 (3970, 35005125, 1334369, 25, 48, 50406, 'resume/resume.github.com', 'Resumes generated using the GitHub informations', ARRAY['u2', 'NumEricR'], '2022-02-24T21:07:34.596111'),
@@ -3985,8 +3987,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3991, 5467696, 157997028, 16, 15, 518, 'lardbit/nefarious', 'Web application for automatically downloading TV & Movies', ARRAY['lardbit', 'voidrot'], '2022-02-24T21:07:34.596111'),
 (3992, 5467696, 351958053, 17, 31, 1116, 'giscus/giscus', 'A comments system powered by GitHub Discussions. :octocat: :speech_balloon: :gem:', ARRAY['laymonage', 'nschonni'], '2022-02-24T21:07:34.596111'),
 (3993, 5467696, 254141208, 18, 31, 2131, 'piscinajs/piscina', 'A fast, efficient Node.js Worker Thread Pool implementation', ARRAY['jasnell', 'addaleax'], '2022-02-24T21:07:34.596111'),
-(3966, 35005125, 190142142, 21, 3, 132, 'liyasthomas/banner', '🚩 A simple and clean banner generator - Banners on the go. https://liyasthomas.github.io/banner', ARRAY['liyasthomas', 'izzqz'], '2022-02-24T21:07:34.596111'),
-(3967, 35005125, 300874884, 22, 23, 145, 'kothariji/SyntaxMeets', 'Syntaxmeets. Create rooms 🏠 Call your friends 👬🏼 Sip Chai, ☕ Chat, Create, and Code👨‍💻. A coding platform to code simultaneously 🚀 with your friends and design your algorithms on SyntaxPad.💫✨', ARRAY['kothariji', 'akash-salvi'], '2022-02-24T21:07:34.596111'),
 (3994, 5467696, 73648678, 19, 411, 18420, 'forem/forem', 'For empowering community 🌱', ARRAY['benhalpern', 'rhymes'], '2022-02-24T21:07:34.596111'),
 (3995, 5467696, 398039380, 20, 2, 14, 'vasspilka/bank', 'Sample Bank application used for my 2021 ElixirConf presentation', ARRAY['vasspilka'], '2022-02-24T21:07:34.596111'),
 (3996, 5467696, 184951641, 21, 4, 21, 'zdenal/commanded_events_map', 'Tool for analysing commanded projects and representing in flow diagram.', ARRAY['zdenal', 'jfornoff'], '2022-02-24T21:07:34.596111'),
