@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T18:45:53.246Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T20:43:21.559Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2400,12 +2400,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (245685361, 3788, 41, 1, 0, 20, 'microsoft/codetour', 'VS Code extension that allows you to record and play back guided tours of codebases, directly within the editor.', ARRAY['lostintangent', 'joaomoreno'], '2022-02-24T21:06:05.080468+00:00'),
 (245734017, 53, 10, 1, 0, 17, 'ryancharris/react-livestream', 'Embed your Twitch, Mixer or YouTube stream in your website automatically when you''re live', ARRAY['ryancharris'], '2022-02-24T21:06:05.080468+00:00'),
 (245750702, 6, 3, 1, 0, 16, 'wwcodecolorado/career-returnship-website', 'A website for career returnship program where returners can showcase their work.  ', ARRAY['piqueen1', 'Rafna'], '2022-02-24T21:06:05.080468+00:00'),
+(246056423, 16, 0, 1, 0, 3, 'iagoac/mc202', 'Disciplina MC202 - Estruturas de Dados', ARRAY['iagoac', 'enoque'], '2022-02-24T21:06:05.080468+00:00'),
 (246069937, 106, 5, 1, 0, 6, 'ryersondmp/sa11y', 'Sa11y is an accessibility quality assurance tool that visually highlights common accessibility and usability issues. Geared towards content authors, Sa11y straightforwardly identifies errors or warnings at the source with a simple tooltip on how to fix them.', ARRAY['adamchaboryk', 'ryersondmp'], '2022-02-24T21:06:05.080468+00:00'),
 (246079929, 4724, 5, 1, 0, 2, 'owid/covid-19-data', 'Data on COVID-19 (coronavirus) cases, deaths, hospitalizations, tests • All countries • Updated daily by Our World in Data', ARRAY['owidbot', 'edomt'], '2022-02-24T21:06:05.080468+00:00'),
 (246170605, 366, 10, 1, 0, 14, 'allenai/allennlp-models', 'Officially supported AllenNLP models', ARRAY['epwalsh', 'dirkgr'], '2022-02-24T21:06:05.080468+00:00'),
 (246273539, 414, 430, 1, 0, 3, 'prisma/docs', '📚 Prisma Documentation', ARRAY['nilubava', 'nikolasburk'], '2022-02-24T21:06:05.080468+00:00'),
 (246322368, 677, 33, 3, 0, 17, 'dayhaysoos/use-shopping-cart', 'Shopping cart state and logic for Stripe', ARRAY['dayhaysoos', 'andria-dev'], '2022-02-24T21:06:05.080468+00:00'),
-(246056423, 16, 0, 1, 0, 3, 'iagoac/mc202', 'Disciplina MC202 - Estruturas de Dados', ARRAY['iagoac', 'enoque'], '2022-02-24T21:06:05.080468+00:00'),
 (246542492, 541, 15, 2, 0, 9, 'HACK3RY2J/Anon-SMS', 'A Tool To Send Messages Anonymously..', ARRAY['HACK3RY2J', 'attitude-icon'], '2022-02-24T21:06:05.080468+00:00'),
 (246901923, 3, 53, 1, 0, 19, 'SimonGeering/AdminAssistant', null, ARRAY['SimonGeering'], '2022-02-24T21:06:05.080468+00:00'),
 (246956544, 3635, 14, 1, 0, 7, 'alexandresanlim/Badges4-README.md-Profile', '👩‍💻👨‍💻 Improve your README.md profile with these amazing badges.', ARRAY['alexandresanlim', 'mrhrifat'], '2022-02-24T21:06:05.080468+00:00'),
