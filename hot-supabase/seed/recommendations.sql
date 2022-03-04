@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T04:47:01.691Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T06:46:45.606Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1295,9 +1295,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (95876775, 25993, 11, 1, 0, 10, 'elsewhencode/project-guidelines', 'A set of best practices for JavaScript projects', ARRAY['Mohamed3on', 'ufoqhmdt'], '2022-02-24T21:06:05.080468+00:00'),
 (95915087, 70, 2, 1, 0, 4, 'tjdevries/train.nvim', 'Train yourself with vim motions and make your own train tracks :)', ARRAY['tjdevries'], '2022-02-24T21:06:05.080468+00:00'),
 (96025262, 1, 0, 1, 0, 7, 'Kazhnuz/roleplay-bootstrap-theme', 'The theme I created for my personal website', ARRAY['Kazhnuz'], '2022-02-24T21:06:05.080468+00:00'),
-(96151448, 4026, 10, 1, 0, 5, 'tc39/proposal-pattern-matching', 'Pattern matching syntax for ECMAScript', ARRAY['zkat', 'tabatkins'], '2022-02-24T21:06:05.080468+00:00'),
 (96036483, 2781, 85, 1, 0, 21, 'ng-select/ng-select', ':star: Native angular select component', ARRAY['varnastadeus', 'anjmao'], '2022-02-24T21:06:05.080468+00:00'),
 (96111593, 2456, 61, 1, 0, 11, 'huggingface/neuralcoref', '✨Fast Coreference Resolution in spaCy with Neural Networks', ARRAY['thomwolf', 'svlandeg'], '2022-02-24T21:06:05.080468+00:00'),
+(96151448, 4026, 10, 1, 0, 5, 'tc39/proposal-pattern-matching', 'Pattern matching syntax for ECMAScript', ARRAY['zkat', 'tabatkins'], '2022-02-24T21:06:05.080468+00:00'),
 (96234685, 390, 16, 1, 0, 25, 'tiagoad/suicide-linux', '@qntm''s Suicide Linux, now available on Docker!', ARRAY['ssebs'], '2022-02-24T21:06:05.080468+00:00'),
 (96266792, 2054, 25, 1, 0, 11, 'davidhu2000/react-spinners', 'A collection of loading spinner components for react', ARRAY['davidhu2000', 'MincedCutlet'], '2022-02-24T21:06:05.080468+00:00'),
 (96451164, 2671, 108, 1, 0, 10, 'sdras/intro-to-vue', 'Workshop Materials for my Introduction to Vue.js Workshop', ARRAY['sdras', '1Marc'], '2022-02-24T21:06:05.080468+00:00'),
