@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-03T22:43:25.359Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T01:02:45.602Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1170,8 +1170,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (216099642, 26, 24, 0, 'EvanBacon/react-native-ink', '2022-02-24T21:07:06.457173+00:00'),
 (267958226, 2839, 7, 307, 'dwisiswant0/apkleaks', '2022-02-24T21:07:06.457173+00:00'),
 (118893601, 273, 26, 16, 'tc39/proposal-explicit-resource-management', '2022-02-24T21:07:06.457173+00:00'),
-(224247781, 1505, 6, 217, 'nikhilpanju/FabFilter', '2022-02-24T21:07:06.457173+00:00'),
 (55896045, 1, 20, 0, 'DrBenton/rougemine.com-online-resume', '2022-02-24T21:07:06.457173+00:00'),
+(224247781, 1505, 6, 217, 'nikhilpanju/FabFilter', '2022-02-24T21:07:06.457173+00:00'),
 (294816887, 56, 2, 19, 'bdougie/git-twitch', '2022-02-24T21:07:06.457173+00:00'),
 (71230327, 566, 19, 78, 'spring-projects-experimental/spring-boot-thin-launcher', '2022-02-24T21:07:06.457173+00:00'),
 (184130597, 143, 0, 72, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', '2022-02-24T21:07:06.457173+00:00'),
@@ -2362,8 +2362,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (48935181, 2459, 0, 125, 'cjcenizal/flexbox-patterns', '2022-02-24T21:07:06.457173+00:00'),
 (261039653, 1693, 24, 36, 'ingram-projects/animxyz', '2022-02-24T21:07:06.457173+00:00'),
 (331869302, 7, 0, 3, 'sanderdebr/react-usereducer-context-tutorial', '2022-02-24T21:07:06.457173+00:00'),
-(273871859, 3486, 48, 181, 'juanfont/headscale', '2022-02-24T21:07:06.457173+00:00'),
 (259447311, 3, 1, 0, 'SufiaAshraf/UserAuth', '2022-02-24T21:07:06.457173+00:00'),
+(273871859, 3486, 48, 181, 'juanfont/headscale', '2022-02-24T21:07:06.457173+00:00'),
 (14210523, 9551, 311, 958, 'yargs/yargs', '2022-02-24T21:07:06.457173+00:00'),
 (72891330, 12191, 321, 6187, 'kubernetes/ingress-nginx', '2022-02-24T21:07:06.457173+00:00'),
 (398016775, 123, 1, 56, 'fireship-io/wavy-curvey-blobby-website', '2022-02-24T21:07:06.457173+00:00'),
@@ -2398,9 +2398,9 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (400050094, 27, 0, 0, 'wlitwin/graphv', '2022-02-24T21:07:06.457173+00:00'),
 (4229888, 673, 113, 67, 'nim-lang/nimforum', '2022-02-24T21:07:06.457173+00:00'),
 (37205440, 4408, 171, 606, 'dequelabs/axe-core', '2022-02-24T21:07:06.457173+00:00'),
+(20190634, 1317, 103, 150, 'equalsraf/neovim-qt', '2022-02-24T21:07:06.457173+00:00'),
 (222007330, 431, 45, 20, 'microsoft/rnx-kit', '2022-02-24T21:07:06.457173+00:00'),
 (108473348, 442, 39, 71, 'stream-labs/obs-studio-node', '2022-02-24T21:07:06.457173+00:00'),
-(20190634, 1317, 103, 150, 'equalsraf/neovim-qt', '2022-02-24T21:07:06.457173+00:00'),
 (327406312, 562, 1, 11, 'tailwindlabs/tailwindcss-line-clamp', '2022-02-24T21:07:06.457173+00:00'),
 (310686619, 572, 2, 12, 'tailwindlabs/tailwindcss-aspect-ratio', '2022-02-24T21:07:06.457173+00:00'),
 (320544192, 914, 40, 88, 'supabase/ui', '2022-02-24T21:07:06.457173+00:00'),
@@ -2623,8 +2623,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (63508378, 1322, 5, 85, 'sindresorhus/hyper-snazzy', '2022-02-24T21:07:06.457173+00:00'),
 (303861532, 69, 44, 19, 'WordPress/pattern-directory', '2022-02-24T21:07:06.457173+00:00'),
 (46345142, 2, 6, 15, 'maestrano/maestrano-connector-rails', '2022-02-24T21:07:06.457173+00:00'),
-(289205582, 583, 7, 69, 'kr1sp1n/awesome-gemini', '2022-02-24T21:07:06.457173+00:00'),
 (357681, 7381, 116, 462, 'isaacs/node-glob', '2022-02-24T21:07:06.457173+00:00'),
+(289205582, 583, 7, 69, 'kr1sp1n/awesome-gemini', '2022-02-24T21:07:06.457173+00:00'),
 (98029592, 40703, 59, 5826, 'ziishaned/learn-regex', '2022-02-24T21:07:06.457173+00:00'),
 (14106970, 11102, 86, 670, 'tachyons-css/tachyons', '2022-02-24T21:07:06.457173+00:00'),
 (6804324, 5807, 90, 1512, 'yeoman/generator-angular', '2022-02-24T21:07:06.457173+00:00'),
@@ -3357,8 +3357,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (101770883, 1650, 0, 398, 'tortuvshin/open-source-flutter-apps', '2022-02-24T21:07:06.457173+00:00'),
 (115685026, 2207, 132, 149, 'yggdrasil-network/yggdrasil-go', '2022-02-24T21:07:06.457173+00:00'),
 (184456251, 63719, 2141, 3536, 'microsoft/PowerToys', '2022-02-24T21:07:06.457173+00:00'),
-(267884438, 8, 0, 2, 'BaseMax/CalculatorWeb', '2022-02-24T21:07:06.457173+00:00'),
 (118870669, 1, 1, 1, 'psi-zimb/psi-module', '2022-02-24T21:07:06.457173+00:00'),
+(267884438, 8, 0, 2, 'BaseMax/CalculatorWeb', '2022-02-24T21:07:06.457173+00:00'),
 (272492043, 3087, 125, 401, 'shuding/nextra', '2022-02-24T21:07:06.457173+00:00'),
 (33614304, 64830, 232, 3001, 'nvbn/thefuck', '2022-02-24T21:07:06.457173+00:00'),
 (158731101, 83, 4, 12, 'cdimascio/essence', '2022-02-24T21:07:06.457173+00:00'),
