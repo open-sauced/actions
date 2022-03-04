@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T02:53:46.830Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T04:47:01.691Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1295,9 +1295,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (95876775, 25993, 11, 1, 0, 10, 'elsewhencode/project-guidelines', 'A set of best practices for JavaScript projects', ARRAY['Mohamed3on', 'ufoqhmdt'], '2022-02-24T21:06:05.080468+00:00'),
 (95915087, 70, 2, 1, 0, 4, 'tjdevries/train.nvim', 'Train yourself with vim motions and make your own train tracks :)', ARRAY['tjdevries'], '2022-02-24T21:06:05.080468+00:00'),
 (96025262, 1, 0, 1, 0, 7, 'Kazhnuz/roleplay-bootstrap-theme', 'The theme I created for my personal website', ARRAY['Kazhnuz'], '2022-02-24T21:06:05.080468+00:00'),
+(96151448, 4026, 10, 1, 0, 5, 'tc39/proposal-pattern-matching', 'Pattern matching syntax for ECMAScript', ARRAY['zkat', 'tabatkins'], '2022-02-24T21:06:05.080468+00:00'),
 (96036483, 2781, 85, 1, 0, 21, 'ng-select/ng-select', ':star: Native angular select component', ARRAY['varnastadeus', 'anjmao'], '2022-02-24T21:06:05.080468+00:00'),
 (96111593, 2456, 61, 1, 0, 11, 'huggingface/neuralcoref', '✨Fast Coreference Resolution in spaCy with Neural Networks', ARRAY['thomwolf', 'svlandeg'], '2022-02-24T21:06:05.080468+00:00'),
-(96151448, 4026, 10, 1, 0, 5, 'tc39/proposal-pattern-matching', 'Pattern matching syntax for ECMAScript', ARRAY['zkat', 'tabatkins'], '2022-02-24T21:06:05.080468+00:00'),
 (96234685, 390, 16, 1, 0, 25, 'tiagoad/suicide-linux', '@qntm''s Suicide Linux, now available on Docker!', ARRAY['ssebs'], '2022-02-24T21:06:05.080468+00:00'),
 (96266792, 2054, 25, 1, 0, 11, 'davidhu2000/react-spinners', 'A collection of loading spinner components for react', ARRAY['davidhu2000', 'MincedCutlet'], '2022-02-24T21:06:05.080468+00:00'),
 (96451164, 2671, 108, 1, 0, 10, 'sdras/intro-to-vue', 'Workshop Materials for my Introduction to Vue.js Workshop', ARRAY['sdras', '1Marc'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1313,6 +1313,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (97841590, 175, 8, 1, 0, 8, 'burkeholland/express-react-starter', 'A starter template for running React and Express from the same project', ARRAY['burkeholland'], '2022-02-24T21:06:05.080468+00:00'),
 (97989275, 1641, 25, 1, 0, 25, 'theseus-os/Theseus', 'Theseus is a modern OS written from scratch in Rust that explores 𝐢𝐧𝐭𝐫𝐚𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧, novel OS structure, and state management. It strives to close the semantic gap between compiler and hardware in order to maximally leverage the power of language safety, and thus shift OS responsibilities (resource management) into the compiler.', ARRAY['kevinaboos', 'arysef'], '2022-02-24T21:06:05.080468+00:00'),
 (98029592, 40108, 56, 1, 0, 25, 'ziishaned/learn-regex', 'Learn regex the easy way', ARRAY['ziishaned', 'bueltge'], '2022-02-24T21:06:05.080468+00:00'),
+(98315735, 10195, 86, 1, 0, 26, 'downshift-js/downshift', '🏎 A set of primitives to build simple, flexible, WAI-ARIA compliant React autocomplete, combobox or select dropdown components.', ARRAY['kentcdodds', 'silviuaavram'], '2022-02-24T21:06:05.080468+00:00'),
 (98339432, 5932, 46, 1, 0, 5, 'shoelace-style/shoelace', 'A collection of professionally designed, every day UI components built on a framework-agnostic technology. 🥾', ARRAY['claviska', 'lamplightdev'], '2022-02-24T21:06:05.080468+00:00'),
 (98446777, 4749, 5, 1, 0, 20, 'dastergon/awesome-chaos-engineering', 'A curated list of Chaos Engineering resources.', ARRAY['dastergon', 'seeker89'], '2022-02-24T21:06:05.080468+00:00'),
 (98687111, 46, 0, 1, 0, 23, 'hopsoft/pipe_envy', 'Elixir style pipe operator for Ruby', ARRAY['hopsoft'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1388,7 +1389,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (108473348, 428, 40, 1, 0, 5, 'stream-labs/obs-studio-node', 'libOBS (OBS Studio) for Node.Js, Electron and similar tools', ARRAY['EddyGharbi', 'computerquip-streamlabs'], '2022-02-24T21:06:05.080468+00:00'),
 (108510101, 5509, 421, 2, 0, 10.5, 'FaisalUmair/udemy-downloader-gui', 'A desktop application for downloading Udemy Courses', ARRAY['FaisalUmair', 'turkialawlqy'], '2022-02-24T21:06:05.080468+00:00'),
 (108669343, 1316, 3, 1, 0, 12, 'hosseinmoein/DataFrame', 'C++ DataFrame for statistical, Financial, and ML analysis -- in modern C++ using native types, continuous memory storage, and no pointers are involved', ARRAY['hosseinmoein', 'justinjk007'], '2022-02-24T21:06:05.080468+00:00'),
-(98315735, 10195, 86, 1, 0, 26, 'downshift-js/downshift', '🏎 A set of primitives to build simple, flexible, WAI-ARIA compliant React autocomplete, combobox or select dropdown components.', ARRAY['kentcdodds', 'silviuaavram'], '2022-02-24T21:06:05.080468+00:00'),
 (108708339, 7136, 4, 1, 0, 12, 'sudheerj/javascript-interview-questions', 'List of 1000 JavaScript Interview Questions', ARRAY['sudheerj', 'zonayedpca'], '2022-02-24T21:06:05.080468+00:00'),
 (108743517, 271, 2, 1, 0, 16, 'mechero/full-reactive-stack', 'Full Reactive Stack with Spring Boot (WebFlux), MongoDB and Angular', ARRAY['mechero'], '2022-02-24T21:06:05.080468+00:00'),
 (108758903, 619, 1, 1, 0, 24, 'mohnkhan/Free-OReilly-Books', 'Free O Reilly Books', ARRAY['mohnkhan'], '2022-02-24T21:06:05.080468+00:00'),
