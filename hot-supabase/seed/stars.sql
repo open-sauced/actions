@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T01:02:45.602Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T02:53:46.374Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2362,8 +2362,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (48935181, 2459, 0, 125, 'cjcenizal/flexbox-patterns', '2022-02-24T21:07:06.457173+00:00'),
 (261039653, 1693, 24, 36, 'ingram-projects/animxyz', '2022-02-24T21:07:06.457173+00:00'),
 (331869302, 7, 0, 3, 'sanderdebr/react-usereducer-context-tutorial', '2022-02-24T21:07:06.457173+00:00'),
-(259447311, 3, 1, 0, 'SufiaAshraf/UserAuth', '2022-02-24T21:07:06.457173+00:00'),
 (273871859, 3486, 48, 181, 'juanfont/headscale', '2022-02-24T21:07:06.457173+00:00'),
+(259447311, 3, 1, 0, 'SufiaAshraf/UserAuth', '2022-02-24T21:07:06.457173+00:00'),
 (14210523, 9551, 311, 958, 'yargs/yargs', '2022-02-24T21:07:06.457173+00:00'),
 (72891330, 12191, 321, 6187, 'kubernetes/ingress-nginx', '2022-02-24T21:07:06.457173+00:00'),
 (398016775, 123, 1, 56, 'fireship-io/wavy-curvey-blobby-website', '2022-02-24T21:07:06.457173+00:00'),
@@ -2623,8 +2623,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (63508378, 1322, 5, 85, 'sindresorhus/hyper-snazzy', '2022-02-24T21:07:06.457173+00:00'),
 (303861532, 69, 44, 19, 'WordPress/pattern-directory', '2022-02-24T21:07:06.457173+00:00'),
 (46345142, 2, 6, 15, 'maestrano/maestrano-connector-rails', '2022-02-24T21:07:06.457173+00:00'),
-(357681, 7381, 116, 462, 'isaacs/node-glob', '2022-02-24T21:07:06.457173+00:00'),
 (289205582, 583, 7, 69, 'kr1sp1n/awesome-gemini', '2022-02-24T21:07:06.457173+00:00'),
+(357681, 7381, 116, 462, 'isaacs/node-glob', '2022-02-24T21:07:06.457173+00:00'),
 (98029592, 40703, 59, 5826, 'ziishaned/learn-regex', '2022-02-24T21:07:06.457173+00:00'),
 (14106970, 11102, 86, 670, 'tachyons-css/tachyons', '2022-02-24T21:07:06.457173+00:00'),
 (6804324, 5807, 90, 1512, 'yeoman/generator-angular', '2022-02-24T21:07:06.457173+00:00'),

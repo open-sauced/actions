@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T01:02:45.941Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T02:53:46.590Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4361,8 +4361,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (414641681, 11858762, 6750158, 29, 7, 7118, 'mgechev/javascript-algorithms', '💻 JavaScript implementations of computer science algorithms', ARRAY['mgechev', 'AndriiHeonia'], '2022-02-24T21:07:34.596111'),
 (281077014, 30334776, 340187605, 29, 0, 143, 'dmitryvinn/awesome-dev-advocacy', '🥑  List of Awesome Developer Advocacy Resources', ARRAY['dmitryvinn', 'dmitryvinn-fb'], '2022-02-24T21:07:34.596111'),
 (368937172, 54776315, 289123163, 29, 2, 43, 'adamdehaven/vue-custom-tooltip', 'A reusable tooltip component for Vue (and VuePress) projects.', ARRAY['adamdehaven'], '2022-02-24T21:07:34.596111'),
-(398440389, 66239105, 376296039, 29, 0, 320, 'vibalijoshi/List-of-Opportunities', 'Keep track of opportunities and never miss a deadline again!', ARRAY['vibalijoshi', 'sadn1ck'], '2022-02-24T21:07:34.596111'),
 (398824985, 49831545, 263983855, 29, 37, 5636, 'Miodec/monkeytype', 'The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.', ARRAY['Miodec', 'UnrealApex'], '2022-02-24T21:07:34.596111'),
+(398440389, 66239105, 376296039, 29, 0, 320, 'vibalijoshi/List-of-Opportunities', 'Keep track of opportunities and never miss a deadline again!', ARRAY['vibalijoshi', 'sadn1ck'], '2022-02-24T21:07:34.596111'),
 (410367620, 2609511, 88905488, 29, 5, 2679, 'ShangtongZhang/DeepRL', 'Modularized Implementation of Deep RL Algorithms in PyTorch', ARRAY['ShangtongZhang', 'wassname'], '2022-02-24T21:07:34.596111'),
 (391419133, 58482194, 71995937, 29, 508, 39527, 'nuxt/nuxt.js', 'The Intuitive Vue(2) Framework', ARRAY['pi0', 'Atinux'], '2022-02-24T21:07:34.596111'),
 (370530334, 3792749, 1451352, 28, 266, 21172, 'mochajs/mocha', '☕️ simple, flexible, fun javascript test framework for node.js & the browser', ARRAY['tj', 'boneskull'], '2022-02-24T21:07:34.596111'),
