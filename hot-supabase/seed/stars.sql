@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T10:43:52.892Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T12:50:55.263Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -811,8 +811,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (172227885, 8236, 192, 1446, 'tiangolo/full-stack-fastapi-postgresql', '2022-02-24T21:07:06.457173+00:00'),
 (328981878, 1, 0, 0, 'udberg/NearbyRestaurants', '2022-02-24T21:07:06.457173+00:00'),
 (142779680, 833, 175, 225, 'typeddjango/django-stubs', '2022-02-24T21:07:06.457173+00:00'),
-(157997028, 563, 22, 55, 'lardbit/nefarious', '2022-02-24T21:07:06.457173+00:00'),
 (1446467, 7792, 975, 2545, 'pypa/pip', '2022-02-24T21:07:06.457173+00:00'),
+(157997028, 563, 22, 55, 'lardbit/nefarious', '2022-02-24T21:07:06.457173+00:00'),
 (107446339, 59, 0, 32, 'yugabyte/yb-iot-fleet-management', '2022-02-24T21:07:06.457173+00:00'),
 (68753325, 16, 0, 8, 'koding/koding-kubernetes', '2022-02-24T21:07:06.457173+00:00'),
 (107235160, 23, 0, 15, 'ZennerIoT/element-parsers', '2022-02-24T21:07:06.457173+00:00'),
@@ -2854,8 +2854,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (4801382, 1387, 179, 679, 'winder/Universal-G-Code-Sender', '2022-02-24T21:07:06.457173+00:00'),
 (368368078, 15, 0, 2, 'cassidoo/pokemon-feature-flags', '2022-02-24T21:07:06.457173+00:00'),
 (146555609, 513, 46, 102, 'GoogleChromeLabs/picture-in-picture-chrome-extension', '2022-03-02T08:11:05.345511+00:00'),
-(80862584, 7608, 4601, 2794, 'WordPress/gutenberg', '2022-02-24T21:07:06.457173+00:00'),
 (242296997, 158, 8, 83, 'takayukister/contact-form-7', '2022-02-24T21:07:06.457173+00:00'),
+(80862584, 7608, 4601, 2794, 'WordPress/gutenberg', '2022-02-24T21:07:06.457173+00:00'),
 (51696896, 215, 3, 16, 'jsdelivr/FontFamous', '2022-03-02T08:11:05.345511+00:00'),
 (338348248, 9188, 232, 1558, 'benawad/dogehouse', '2022-02-24T21:07:06.457173+00:00'),
 (330833462, 82, 23, 124, 'purnima143/Kurakoo', '2022-02-24T21:07:06.457173+00:00'),
