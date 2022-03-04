@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T12:50:55.263Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T14:43:18.980Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -811,8 +811,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (172227885, 8236, 192, 1446, 'tiangolo/full-stack-fastapi-postgresql', '2022-02-24T21:07:06.457173+00:00'),
 (328981878, 1, 0, 0, 'udberg/NearbyRestaurants', '2022-02-24T21:07:06.457173+00:00'),
 (142779680, 833, 175, 225, 'typeddjango/django-stubs', '2022-02-24T21:07:06.457173+00:00'),
-(1446467, 7792, 975, 2545, 'pypa/pip', '2022-02-24T21:07:06.457173+00:00'),
 (157997028, 563, 22, 55, 'lardbit/nefarious', '2022-02-24T21:07:06.457173+00:00'),
+(1446467, 7792, 975, 2545, 'pypa/pip', '2022-02-24T21:07:06.457173+00:00'),
 (107446339, 59, 0, 32, 'yugabyte/yb-iot-fleet-management', '2022-02-24T21:07:06.457173+00:00'),
 (68753325, 16, 0, 8, 'koding/koding-kubernetes', '2022-02-24T21:07:06.457173+00:00'),
 (107235160, 23, 0, 15, 'ZennerIoT/element-parsers', '2022-02-24T21:07:06.457173+00:00'),
@@ -3514,8 +3514,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (315776414, 6, 0, 0, 'callowcreation/banwannabefamousbots', '2022-02-24T21:07:06.457173+00:00'),
 (343204738, 87, 1, 9, 'geerlingguy/obs-task-list-overlay', '2022-02-24T21:07:06.457173+00:00'),
 (389086554, 4, 0, 1, 'BolajiAyodeji/headless-swag-store', '2022-02-24T21:07:06.457173+00:00'),
-(161215159, 5425, 9, 12699, 'othneildrew/Best-README-Template', '2022-02-24T21:07:06.457173+00:00'),
 (278454783, 20, 4, 4, 'Virtual-Coffee/open-source', '2022-02-24T21:07:06.457173+00:00'),
+(161215159, 5425, 9, 12699, 'othneildrew/Best-README-Template', '2022-02-24T21:07:06.457173+00:00'),
 (389071137, 1, 0, 0, 'BolajiAyodeji/linear-regression', '2022-02-24T21:07:06.457173+00:00'),
 (94198471, 1092, 23, 166, 'benbrignell/principles.design', '2022-02-25T05:32:27.336985+00:00'),
 (226175035, 233, 3, 7, 'kachkaev/njt', '2022-02-25T05:32:27.336985+00:00'),
