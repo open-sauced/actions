@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T12:49:27.598Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T14:43:30.541Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -129,8 +129,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (122, 10951893, 187915200, 15, 38, 2584, 'peaceiris/actions-gh-pages', 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', ARRAY['peaceiris', 'corollari'], '2022-02-24T21:07:34.596111'),
 (123, 10951893, 1195619, 16, 24, 703, 'Frozen-Flask/Frozen-Flask', 'Freezes a Flask application into a set of static files.', ARRAY['SimonSapin', 'tswast'], '2022-02-24T21:07:34.596111'),
 (124, 10951893, 389731072, 17, 0, 44, 'mikeckennedy/jinja_partials', 'Simple reuse of partial HTML page templates in the Jinja template language for Python web frameworks.', ARRAY['mikeckennedy', 'vrslev'], '2022-02-24T21:07:34.596111'),
-(126, 10951893, 220809393, 19, 40, 31785, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:07:34.596111'),
 (125, 10951893, 404249420, 18, 0, 25, 'WardPearce/thanker', 'Don''t be a wanker, be a thanker! Automatically give thanks to Pypi packages you use in your project.', ARRAY['WardPearce'], '2022-02-24T21:07:34.596111'),
+(126, 10951893, 220809393, 19, 40, 31785, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:07:34.596111'),
 (127, 10951893, 1446467, 20, 954, 7628, 'pypa/pip', 'The Python package installer', ARRAY['pradyunsg', 'dstufft'], '2022-02-24T21:07:34.596111'),
 (128, 10951893, 22258112, 21, 34, 1558, 'quantifiedcode/python-anti-patterns', 'An open collection of Python anti-patterns and worst practices.', ARRAY['kaycebasques', 'adewes'], '2022-02-24T21:07:34.596111'),
 (129, 10951893, 11276147, 22, 23, 23158, 'cmderdev/cmder', 'Lovely console emulator package for Windows', ARRAY['daxgames', 'Stanzilla'], '2022-02-24T21:07:34.596111'),
@@ -4077,8 +4077,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4082, 13173676, 4414698, 12, 463, 9878, 'compiler-explorer/compiler-explorer', 'Run compilers interactively from your web browser and interact with the assembly', ARRAY['mattgodbolt', 'RubenRBS'], '2022-02-24T21:07:34.596111'),
 (4083, 13173676, 210179484, 13, 24, 615, 'saschagrunert/kubernix', 'Single dependency Kubernetes clusters for local testing, experimenting and development', ARRAY['saschagrunert', 'aij'], '2022-02-24T21:07:34.596111'),
 (4084, 4199845, 275741530, 0, 0, 5, 'fischertechnik/plc_training_factory_24v', 'Training Factory Industry 4.0 (24V)', ARRAY['AlexanderSteiger'], '2022-02-24T21:07:34.596111'),
-(4086, 4199845, 243554283, 2, 0, 2, 'mloberg/openapi-stitcher', 'Stitch together multiple files into an OpenAPI specification', ARRAY['mloberg'], '2022-02-24T21:07:34.596111'),
 (4085, 4199845, 371973401, 1, 0, 5, 'zylkowski/SSSF', 'SSSF stands for Super Simple Simulation Framework.', ARRAY['zylkowski'], '2022-02-24T21:07:34.596111'),
+(4086, 4199845, 243554283, 2, 0, 2, 'mloberg/openapi-stitcher', 'Stitch together multiple files into an OpenAPI specification', ARRAY['mloberg'], '2022-02-24T21:07:34.596111'),
 (4087, 4199845, 193697184, 3, 4, 26, 'fischertechnik/txt_training_factory', 'Training Factory Industry 4.0 (9V)', ARRAY['AlexanderSteiger', 'MoBoo'], '2022-02-24T21:07:34.596111'),
 (4088, 4199845, 260008253, 4, 5, 28, 'helium/console-decoders', 'Payload decoder functions for console.', ARRAY['jas-williams', 'illperipherals'], '2022-02-24T21:07:34.596111'),
 (4089, 4199845, 247589748, 5, 0, 13, 'Ursalink-CN/ursalink-decoder', 'Example decoder functions to Ursalink end-devices', ARRAY['Ursalink-CN'], '2022-02-24T21:07:34.596111'),

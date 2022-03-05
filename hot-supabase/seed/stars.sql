@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T12:49:27.362Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T14:43:30.774Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1714,8 +1714,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (74421371, 7536, 2, 454, 'ryanburgess/engineer-manager', '2022-02-24T21:07:06.457173+00:00'),
 (111664047, 462, 37, 188, 'maticnetwork/contracts', '2022-02-24T21:07:06.457173+00:00'),
 (74924589, 249, 6, 28, 'danielireson/formplug', '2022-02-24T21:07:06.457173+00:00'),
-(7266492, 8404, 248, 465, 'rtyley/bfg-repo-cleaner', '2022-02-24T21:07:06.457173+00:00'),
-(6498492, 120382, 137, 22970, 'airbnb/javascript', '2022-02-24T21:07:06.457173+00:00'),
 (13491895, 223765, 31, 47506, 'EbookFoundation/free-programming-books', '2022-02-24T21:07:06.457173+00:00'),
 (380874662, 161, 6, 5, 'sdras/fortnite-vscode-theme', '2022-02-24T21:07:06.457173+00:00'),
 (37552628, 3168, 5, 360, 'ueberauth/guardian', '2022-02-24T21:07:06.457173+00:00'),
@@ -1724,6 +1722,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (5911225, 705, 248, 466, 'openSUSE/osem', '2022-02-24T21:07:06.457173+00:00'),
 (141334515, 375, 3, 52, 'kormyen/memex', '2022-02-24T21:07:06.457173+00:00'),
 (325215114, 4651, 151, 121, 'windicss/windicss', '2022-03-02T08:11:05.345511+00:00'),
+(7266492, 8404, 248, 465, 'rtyley/bfg-repo-cleaner', '2022-02-24T21:07:06.457173+00:00'),
+(6498492, 120382, 137, 22970, 'airbnb/javascript', '2022-02-24T21:07:06.457173+00:00'),
 (61583938, 548, 92, 155, 'linkedin/pygradle', '2022-02-24T21:07:06.457173+00:00'),
 (306969638, 9, 0, 1, 'ShallotJS/shallot', '2022-02-24T21:07:06.457173+00:00'),
 (335381358, 370, 1, 106, 'Kamona-WD/kwd-dashboard', '2022-03-02T08:11:05.345511+00:00'),
