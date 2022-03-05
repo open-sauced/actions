@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T10:43:50.797Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T12:49:27.598Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -129,8 +129,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (122, 10951893, 187915200, 15, 38, 2584, 'peaceiris/actions-gh-pages', 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', ARRAY['peaceiris', 'corollari'], '2022-02-24T21:07:34.596111'),
 (123, 10951893, 1195619, 16, 24, 703, 'Frozen-Flask/Frozen-Flask', 'Freezes a Flask application into a set of static files.', ARRAY['SimonSapin', 'tswast'], '2022-02-24T21:07:34.596111'),
 (124, 10951893, 389731072, 17, 0, 44, 'mikeckennedy/jinja_partials', 'Simple reuse of partial HTML page templates in the Jinja template language for Python web frameworks.', ARRAY['mikeckennedy', 'vrslev'], '2022-02-24T21:07:34.596111'),
-(125, 10951893, 404249420, 18, 0, 25, 'WardPearce/thanker', 'Don''t be a wanker, be a thanker! Automatically give thanks to Pypi packages you use in your project.', ARRAY['WardPearce'], '2022-02-24T21:07:34.596111'),
 (126, 10951893, 220809393, 19, 40, 31785, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:07:34.596111'),
+(125, 10951893, 404249420, 18, 0, 25, 'WardPearce/thanker', 'Don''t be a wanker, be a thanker! Automatically give thanks to Pypi packages you use in your project.', ARRAY['WardPearce'], '2022-02-24T21:07:34.596111'),
 (127, 10951893, 1446467, 20, 954, 7628, 'pypa/pip', 'The Python package installer', ARRAY['pradyunsg', 'dstufft'], '2022-02-24T21:07:34.596111'),
 (128, 10951893, 22258112, 21, 34, 1558, 'quantifiedcode/python-anti-patterns', 'An open collection of Python anti-patterns and worst practices.', ARRAY['kaycebasques', 'adewes'], '2022-02-24T21:07:34.596111'),
 (129, 10951893, 11276147, 22, 23, 23158, 'cmderdev/cmder', 'Lovely console emulator package for Windows', ARRAY['daxgames', 'Stanzilla'], '2022-02-24T21:07:34.596111'),
@@ -4077,8 +4077,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4082, 13173676, 4414698, 12, 463, 9878, 'compiler-explorer/compiler-explorer', 'Run compilers interactively from your web browser and interact with the assembly', ARRAY['mattgodbolt', 'RubenRBS'], '2022-02-24T21:07:34.596111'),
 (4083, 13173676, 210179484, 13, 24, 615, 'saschagrunert/kubernix', 'Single dependency Kubernetes clusters for local testing, experimenting and development', ARRAY['saschagrunert', 'aij'], '2022-02-24T21:07:34.596111'),
 (4084, 4199845, 275741530, 0, 0, 5, 'fischertechnik/plc_training_factory_24v', 'Training Factory Industry 4.0 (24V)', ARRAY['AlexanderSteiger'], '2022-02-24T21:07:34.596111'),
-(4085, 4199845, 371973401, 1, 0, 5, 'zylkowski/SSSF', 'SSSF stands for Super Simple Simulation Framework.', ARRAY['zylkowski'], '2022-02-24T21:07:34.596111'),
 (4086, 4199845, 243554283, 2, 0, 2, 'mloberg/openapi-stitcher', 'Stitch together multiple files into an OpenAPI specification', ARRAY['mloberg'], '2022-02-24T21:07:34.596111'),
+(4085, 4199845, 371973401, 1, 0, 5, 'zylkowski/SSSF', 'SSSF stands for Super Simple Simulation Framework.', ARRAY['zylkowski'], '2022-02-24T21:07:34.596111'),
 (4087, 4199845, 193697184, 3, 4, 26, 'fischertechnik/txt_training_factory', 'Training Factory Industry 4.0 (9V)', ARRAY['AlexanderSteiger', 'MoBoo'], '2022-02-24T21:07:34.596111'),
 (4088, 4199845, 260008253, 4, 5, 28, 'helium/console-decoders', 'Payload decoder functions for console.', ARRAY['jas-williams', 'illperipherals'], '2022-02-24T21:07:34.596111'),
 (4089, 4199845, 247589748, 5, 0, 13, 'Ursalink-CN/ursalink-decoder', 'Example decoder functions to Ursalink end-devices', ARRAY['Ursalink-CN'], '2022-02-24T21:07:34.596111'),
@@ -4298,17 +4298,17 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
 (321809845, 907680, 70908474, 29, 62, 936, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (361357857, 51794934, 342191787, 1, 0, 22, 'LambdaSchool/build-week-scaffolding-node', null, ARRAY['Ladrillo'], '2022-02-24T21:07:34.596111'),
-(306906348, 4199845, 145464445, 11, 115, 14431, 'ueberdosis/tiptap', 'The headless editor framework for web artisans.', ARRAY['hanspagel', 'Chrissi2812'], '2022-02-24T21:07:34.596111'),
 (375762962, 11777161, 25304276, 29, 127, 127, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:07:34.596111'),
 (442470627, 24606613, 6106472, 8, 14, 1279, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-24T21:07:34.596111'),
 (259232283, 10012151, 18442377, 8, 0, 13484, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 6, 625, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest'], '2022-02-24T21:07:34.596111'),
 (374469734, 1228996, 20619036, 29, 36, 35271, 'pi-hole/pi-hole', 'A black hole for Internet advertisements', ARRAY['DL6ER', 'PromoFaux'], '2022-02-24T21:07:34.596111'),
 (398934860, 34903088, 396613541, 29, 1, 378, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'zheeeng'], '2022-02-24T21:07:34.596111'),
 (323523231, 55907631, 209391513, 29, 30, 1068, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 343891771, 12, 25, 11, 'builders-club/onlythemes', 'VS Code themes that match your personality profile.', ARRAY['MichaelJolley', 'parithon'], '2022-02-24T21:07:34.596111'),
 (215550527, 1930729, 202787876, 29, 197, 11702, 'Rigellute/spotify-tui', 'Spotify for the terminal written in Rust 🚀', ARRAY['Rigellute', 'jfaltis'], '2022-02-24T21:07:34.596111'),
 (353295436, 22620727, 286080143, 29, 48, 9349, 'upptime/upptime', '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ARRAY['upptime-bot', 'pabio-escobar'], '2022-02-24T21:07:34.596111'),
 (352793229, 22655167, 126813008, 29, 0, 832, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
+(306906348, 4199845, 190091795, 29, 19, 4369, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (398740147, 34394719, 250355030, 29, 0, 314, 'schneefux/vscode-winddown', 'VS Code extension that encourages you to take a break.', ARRAY['schneefux'], '2022-02-24T21:07:34.596111'),
 (353169129, 72912813, 214587193, 0, 258, 29275, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
 (328070675, 59939260, 71359796, 29, 29, 595, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:07:34.596111'),
@@ -4349,7 +4349,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (396051716, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
 (396049655, 85258143, 388004440, 0, 1, 47, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-24T21:07:34.596111'),
 (419128913, 1255918, 6326227, 21, 195, 119, 'metamaps/metamaps', 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', ARRAY['devvmh', 'Connoropolous'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 219415760, 11, 0, 34, 'mattdsteele/dominos-action', 'Domino''s 🍕 as a GitHub Action', ARRAY['mattdsteele'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 60, 8529, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (305867720, 42211, 250512911, 29, 5, 137, 'apivideo/browserLiveStream', 'Use webcam, browser and Node to stream live video. From api.video (https://api.video)', ARRAY['dougsillars', 'erikkai'], '2022-02-24T21:07:34.596111'),
 (348840995, 351693, 197008093, 0, 11, 49, 'fmartinou/whats-up-docker', 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', ARRAY['fmartinou', 'ajgon'], '2022-02-24T21:07:34.596111'),
 (415612821, 44642314, 268098312, 0, 6, 17, 'ZedThree/clang-tidy-review', 'Create a pull request review based on clang-tidy warnings', ARRAY['ZedThree', 'kgfoundrydig'], '2022-02-24T21:07:34.596111'),

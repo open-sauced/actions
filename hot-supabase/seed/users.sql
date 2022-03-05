@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T10:43:50.473Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T12:49:27.250Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -199,12 +199,12 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (5467696, 2, false, true, 'fwoelffel', '2022-02-24T21:07:48.046487+00:00'),
 (19350071, 1, false, true, 'atosh502', '2022-02-25T08:23:36.902391+00:00'),
 (29295102, 1, false, true, 'silvasobrinho', '2022-02-24T21:07:48.046487+00:00'),
+(14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
 (5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (10012151, 1, true, true, 'joaoapel', '2022-02-24T21:07:48.046487+00:00'),
 (8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
 (83277146, 1, false, true, 'ashwth', '2022-02-24T21:07:48.046487+00:00'),
 (60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:48:54.628921+00:00'),
-(14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
 (4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
 (656318, 0, false, true, 'ramonh', '2022-02-24T21:07:48.046487+00:00'),
 (5381468, 5, false, true, 'tmarwen', '2022-02-24T21:07:48.046487+00:00'),
