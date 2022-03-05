@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T08:44:18.455Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T10:43:50.583Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -774,10 +774,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (42033086, 10192, 115, 1, 0, 23, 'styleguidist/react-styleguidist', 'Isolated React component development environment with a living style guide', ARRAY['sapegin', 'n1313'], '2022-02-24T21:06:05.080468+00:00'),
 (42172184, 5, 25, 1, 0, 9, 'servinglynk/hslynk-open-source', 'An open source health and human services app platform and data warehouse.  Chat with us at: https://gitter.im/hslynk/Lobby .  Documentation, wiki, and issue tracker is at: https://github.com/servinglynk/hslynk-open-source-docs .  Coordinated Services code is at: https://github.com/hserv/ .  All APIs are at https://github.com/hmis-api and hosted at https://docs.hslynk.com.  Email listserv is at: https://groups.google.com/a/hslynk.com/forum/#!forum/community', ARRAY['logicsandeep', 'suryayadavalli'], '2022-02-24T21:06:05.080468+00:00'),
 (42191943, 7972, 11, 1, 0, 0, 'cyrus-and/gdb-dashboard', 'Modular visual interface for GDB in Python', ARRAY['cyrus-and', 'alfunx'], '2022-02-24T21:06:05.080468+00:00'),
+(42237038, 11052, 37, 1, 0, 4, 'graphql/dataloader', 'DataLoader is a generic utility to be used as part of your application''s data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.', ARRAY['leebyron', 'wincent'], '2022-02-24T21:06:05.080468+00:00'),
 (42283287, 30563, 220, 1, 0, 6, 'preactjs/preact', '⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.', ARRAY['marvinhagemeister', 'developit'], '2022-02-24T21:06:05.080468+00:00'),
 (42338900, 775, 12, 1, 0, 14, 'ForbesLindesay/redux-optimist', 'Optimistically apply actions that can be later commited or reverted.', ARRAY['ForbesLindesay', 'aduth'], '2022-02-24T21:06:05.080468+00:00'),
 (42409958, 500, 16, 1, 0, 12, 'inloop/sqlite-viewer', 'View SQLite file online', ARRAY['yuraj11', 'kyle-seongwoo-jun'], '2022-02-24T21:06:05.080468+00:00'),
-(42237038, 11052, 37, 1, 0, 4, 'graphql/dataloader', 'DataLoader is a generic utility to be used as part of your application''s data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.', ARRAY['leebyron', 'wincent'], '2022-02-24T21:06:05.080468+00:00'),
 (42455934, 18351, 246, 1, 0, 17, 'statelyai/xstate', 'State machines and statecharts for the modern web.', ARRAY['davidkpiano', 'Andarist'], '2022-02-24T21:06:05.080468+00:00'),
 (42956467, 25619, 0, 1, 0, 6, 'herrbischoff/awesome-macos-command-line', 'Use your macOS terminal shell to do awesome things.', ARRAY['herrbischoff'], '2022-02-24T21:06:05.080468+00:00'),
 (42975057, 391, 12, 1, 0, 0, 'graphql-go/relay', 'A Go/Golang library to help construct a graphql-go server supporting react-relay.', ARRAY['sogko', 'chris-ramon'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2798,7 +2798,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (297780823, 32, 6, 1, 0, 14, 'npm/documentation', 'Documentation for the npm registry, website, and command-line interface.', ARRAY['ethomson', 'MylesBorins'], '2022-02-24T21:06:05.080468+00:00'),
 (297892625, 35, 0, 1, 0, 9, 'manojkarthick/expenses', 'Simple, Interactive, command line Expense logger.', ARRAY['manojkarthick', 'kingzbauer'], '2022-02-24T21:06:05.080468+00:00'),
 (298239008, 14, 0, 1, 0, 16, 'cornflourblue/angular-10-custom-modal', 'Angular 10 - Custom Modal Example', ARRAY['cornflourblue'], '2022-02-24T21:06:05.080468+00:00'),
-(298545764, 1, 4, 1, 0, 3, 'KengoTODA/spotbugs-cli', 'An experimental CLI for SpotBugs based on picocli', ARRAY['KengoTODA', 'codacy-badger'], '2022-02-24T21:06:05.080468+00:00'),
 (298703286, 10, 0, 1, 0, 21, 'beeman/panng-stack', 'This is a demo of presentation of the PANNG stack. If you want to create your own apps using this stack, check https://github.com/nxpm/stack 🚀 ', ARRAY['beeman'], '2022-02-24T21:06:05.080468+00:00'),
 (298791469, 287, 2, 1, 0, 14, 'edoardottt/scilla', 'Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration', ARRAY['edoardottt', 'teezzan'], '2022-02-24T21:06:05.080468+00:00'),
 (299001731, 38, 0, 1, 0, 4, 'Marcel-Jan/docker-hadoop-spark', 'Multi-container environment with Hadoop, Spark and Hive', ARRAY['earthquakesan', 'Marcel-Jan'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2985,8 +2984,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (326404870, 5686, 227, 1, 0, 0, 'SigNoz/signoz', 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', ARRAY['ankitnayan', 'palash-signoz'], '2022-02-24T21:06:05.080468+00:00'),
 (326420723, 854, 2, 1, 0, 5, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-24T21:06:05.080468+00:00'),
 (326460518, 1130, 7, 1, 0, 22, 'ratfactor/ziglings', 'Learn the Zig programming language by fixing tiny broken programs.', ARRAY['ratfactor', 'Palm404'], '2022-02-24T21:06:05.080468+00:00'),
-(326532559, 2, 0, 1, 0, 11, 'lesmo/pi-home', 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', ARRAY['balena-ci', 'chrisys'], '2022-02-24T21:06:05.080468+00:00'),
 (326604100, 89, 9, 1, 0, 24, 'jthegedus/svelte-adapter-firebase', 'SvelteKit adapter for Firebase Hosting rewrites to Cloud Functions for a Svelte SSR experience', ARRAY['jthegedus', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
+(326532559, 2, 0, 1, 0, 11, 'lesmo/pi-home', 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', ARRAY['balena-ci', 'chrisys'], '2022-02-24T21:06:05.080468+00:00'),
 (326619924, 110, 1, 1, 0, 5, 'samuelkraft/samuelkraft-next', 'My personal website written with Next.js, Typescript, MDX, Notion, CSS Modules', ARRAY['samuelkraft'], '2022-02-24T21:06:05.080468+00:00'),
 (326622912, 9, 1, 1, 0, 5, 'davidteren/rails61-tailwind2', 'Rails 6.1, TailwindCSS 2.0 & PostCSS 8.0 setup.', ARRAY['davidteren'], '2022-02-24T21:06:05.080468+00:00'),
 (327036990, 1, 0, 1, 0, 13, 'MattMarquise/Lifestyle-Blog', null, ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3112,6 +3111,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (344191198, 7798, 27, 1, 0, 2, 'microsoft/Data-Science-For-Beginners', '10 Weeks, 20 Lessons, Data Science for All!', ARRAY['paladique', 'jlooper'], '2022-02-24T21:06:05.080468+00:00'),
 (344493260, 2, 0, 1, 0, 10, 'abdulsamodazeez/Fake-news-detection', 'A type of yellow journalism, fake news encapsulates pieces of news that may be hoaxes and is generally spread through social media and other online media.', ARRAY['abdulsamodazeez'], '2022-02-24T21:06:05.080468+00:00'),
 (344546342, 14, 1, 2, 0, 14.5, 'hunterbecton/react-firebase-passwordless', null, ARRAY['hunterbecton'], '2022-02-24T21:06:05.080468+00:00'),
+(298545764, 1, 4, 1, 0, 3, 'KengoTODA/spotbugs-cli', 'An experimental CLI for SpotBugs based on picocli', ARRAY['KengoTODA', 'codacy-badger'], '2022-02-24T21:06:05.080468+00:00'),
 (344802603, 7496, 32, 1, 0, 5, 'marceloprates/prettymaps', 'A small set of Python functions to draw pretty maps from OpenStreetMap data. Based on osmnx, matplotlib and shapely libraries.', ARRAY['marceloprates', 'chrieke'], '2022-02-24T21:06:05.080468+00:00'),
 (345038999, 1, 1, 1, 0, 1, 'brokorus/lilship', null, ARRAY['brokorus'], '2022-02-24T21:06:05.080468+00:00'),
 (345145789, 80, 12, 1, 0, 19, 'BertrandBev/code_field', 'A customizable code text field supporting syntax highlighting', ARRAY['BertrandBev', 'leoshusar'], '2022-02-24T21:06:05.080468+00:00'),
