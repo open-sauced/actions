@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T01:02:26.042Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T02:49:12.898Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2026,8 +2026,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (192476541, 1133, 0, 1, 0, 13, 'learning-zone/nodejs-interview-questions', 'Frequently Asked Node.js Interview Questions', ARRAY['learning-zone', 'rahulpandey70'], '2022-02-24T21:06:05.080468+00:00'),
 (192505762, 7, 0, 1, 0, 6, 'withplum/CardNavigationController', null, ARRAY['reddavis'], '2022-02-24T21:06:05.080468+00:00'),
 (192597257, 53, 1, 1, 0, 14, 'minio/minio-rs', 'MinIO Rust SDK for Amazon S3 Compatible Cloud Storage', ARRAY['donatello', 'dvaldivia'], '2022-02-24T21:06:05.080468+00:00'),
-(192632000, 16394, 246, 1, 0, 22, 'dapr/dapr', 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', ARRAY['yaron2', 'youngbupark'], '2022-02-24T21:06:05.080468+00:00'),
 (192605862, 2, 2, 1, 0, 11, 'Gingertonic/eden_events', null, ARRAY['Gingertonic'], '2022-02-24T21:06:05.080468+00:00'),
+(192632000, 16394, 246, 1, 0, 22, 'dapr/dapr', 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', ARRAY['yaron2', 'youngbupark'], '2022-02-24T21:06:05.080468+00:00'),
 (192640529, 7298, 211, 1, 0, 23, 'heartexlabs/label-studio', 'Label Studio is a multi-type data labeling and annotation tool with standardized output format', ARRAY['makseq', 'niklub'], '2022-02-24T21:06:05.080468+00:00'),
 (192856899, 453, 10, 1, 0, 4, 'chetanverma16/react-portfolio-template', 'Modern React Portfolio Template (FREE)', ARRAY['chetanverma16', 'ajmeese7'], '2022-02-24T21:06:05.080468+00:00'),
 (192892917, 7129, 49, 1, 0, 3, 'hediet/vscode-debug-visualizer', 'An extension for VS Code that visualizes data during debugging.', ARRAY['hediet', 'fwcd'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2362,9 +2362,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240574799, 58, 12, 1, 0, 10, 'devato/inertia_phoenix', 'Inertiajs Adapter for Elixir Phoenix', ARRAY['tmartin8080', 'bigx333'], '2022-02-24T21:06:05.080468+00:00'),
 (240673378, 4284, 22, 1, 0, 1, 'phuoc-ng/html-dom', 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', ARRAY['phuoc-ng', 'surajhell88'], '2022-02-24T21:06:05.080468+00:00'),
 (240786294, 897, 27, 1, 0, 2, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-24T21:06:05.080468+00:00'),
-(240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-24T21:06:05.080468+00:00'),
-(240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-24T21:06:05.080468+00:00'),
-(240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-24T21:06:05.080468+00:00'),
 (241080452, 1, 0, 1, 0, 22, 'brettmillerb/sqlpackage-docker', 'Github repo to build and release container image for sqlpackage', ARRAY['brettmillerb'], '2022-02-24T21:06:05.080468+00:00'),
 (241092383, 1931, 27, 1, 0, 4, 'docker/build-push-action', 'GitHub Action to build and push Docker images with Buildx', ARRAY['crazy-max', 'zappy-shu'], '2022-02-24T21:06:05.080468+00:00'),
 (241303926, 73, 0, 1, 0, 17, 'mikenye/docker-readsb', 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', ARRAY['mikenye', 'SalazarBruno'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2380,7 +2377,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (242318453, 352, 9, 1, 0, 23, 'tokotype/PlusJakartaSans', '+Jakarta Sans is a open-source fonts. Designed for Jakarta ''City of collaboration'' program in 2020.', ARRAY['tokotype'], '2022-02-24T21:06:05.080468+00:00'),
 (242754476, 13959, 27, 1, 0, 12, 'tailwindlabs/heroicons', 'A set of free MIT-licensed high-quality SVG icons for UI development.', ARRAY['adamwathan', 'bradlc'], '2022-02-24T21:06:05.080468+00:00'),
 (242775289, 264, 66, 1, 0, 28, 'VulcanJS/vulcan-next', 'The Next starter for GraphQL developers', ARRAY['eric-burel', 'Timi-Duban'], '2022-02-24T21:06:05.080468+00:00'),
+(240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-24T21:06:05.080468+00:00'),
+(240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-24T21:06:05.080468+00:00'),
 (242870159, 2233, 2, 1, 0, 13, 'Machine-Learning-Tokyo/AI_Curriculum', 'Open Deep Learning and Reinforcement Learning lectures from top Universities like Stanford, MIT, UC Berkeley.', ARRAY['suzana-ilic', 'tejasmorkar'], '2022-02-24T21:06:05.080468+00:00'),
+(240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-24T21:06:05.080468+00:00'),
 (243274141, 1, 0, 1, 0, 28, 'ramazansakin/spring-microservices', 'Example of a microservice architecture using Spring Cloud', ARRAY['ramazansakin'], '2022-02-24T21:06:05.080468+00:00'),
 (243288155, 260, 25, 2, 0, 0, 'abertschi/graalphp', 'An efficient PHP implementation built on GraalVM ', ARRAY['abertschi', 'COil'], '2022-02-24T21:06:05.080468+00:00'),
 (243429404, 13, 11, 1, 0, 22, 'eobrain/bajel', 'A build system modeled on make.', ARRAY['eobrain'], '2022-02-24T21:06:05.080468+00:00'),

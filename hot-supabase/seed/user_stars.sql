@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T01:02:26.251Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T02:49:12.620Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2996,9 +2996,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2999, 211851, 7390235, 27, 68, 161, 'tarbell-project/tarbell', 'A Flask-based static site authoring tool.', ARRAY['eads', 'eyeseast'], '2022-02-24T21:07:34.596111'),
 (3000, 211851, 4610553, 28, 39, 547, 'aaronpk/webmention.io', 'Easily enable webmentions and pingbacks on any web page', ARRAY['aaronpk', 'snarfed'], '2022-02-24T21:07:34.596111'),
 (3001, 211851, 5373673, 29, 63, 2674, 'jlord/sheetsee.js', ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', ARRAY['jlord', 'mjhea0'], '2022-02-24T21:07:34.596111'),
-(3002, 455338, 388673420, 0, 0, 513, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:07:34.596111'),
 (3003, 455338, 309228394, 1, 0, 3, 'Himujjal/libytdl', 'A c library for downloading YT videos written in Nim', ARRAY['Himujjal'], '2022-02-24T21:07:34.596111'),
 (3004, 455338, 74505259, 2, 1308, 14961, 'slundberg/shap', 'A game theoretic approach to explain the output of any machine learning model.', ARRAY['slundberg', 'ryserrao'], '2022-02-24T21:07:34.596111'),
+(3002, 455338, 388673420, 0, 0, 513, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:07:34.596111'),
 (3005, 455338, 362423752, 3, 64, 954, 'folke/which-key.nvim', '💥   Create key bindings that stick. WhichKey is a lua plugin for Neovim 0.5 that displays a popup with possible keybindings of the command you started typing.', ARRAY['folke', 'zeertzjq'], '2022-02-24T21:07:34.596111'),
 (3006, 455338, 95915087, 4, 2, 70, 'tjdevries/train.nvim', 'Train yourself with vim motions and make your own train tracks :)', ARRAY['tjdevries'], '2022-02-24T21:07:34.596111'),
 (3007, 455338, 360319672, 5, 40, 1123, 'folke/trouble.nvim', '🚦 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing.', ARRAY['folke', 'echasnovski'], '2022-02-24T21:07:34.596111'),
@@ -3260,7 +3260,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3261, 35429278, 385037052, 22, 27, 1133, 'ahrm/sioyek', 'Sioyek is a PDF viewer designed for reading research papers and technical books.', ARRAY['ahrm', 'Endle'], '2022-02-24T21:07:34.596111'),
 (3262, 35429278, 191759944, 23, 9, 1402, 'srevinsaju/guiscrcpy', 'A full fledged GUI integration for the most award winning open-source android screen mirroring system -- scrcpy located on https://github.com/genymobile/scrcpy/ by @rom1v', ARRAY['srevinsaju', 'restyled-commits'], '2022-02-24T21:07:34.596111'),
 (3263, 35429278, 392242345, 24, 0, 37, 'hilmanski/discussbase', 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', ARRAY[''], '2022-02-24T21:07:34.596111'),
-(3264, 35429278, 241529345, 25, 14, 691, 'wellyshen/react-cool-portal', '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', ARRAY['wellyshen', 'hinok'], '2022-02-24T21:07:34.596111'),
 (3265, 35429278, 93928882, 26, 106, 5203, 'swaggo/swag', 'Automatically generate RESTful API documentation with Swagger 2.0 for Go.', ARRAY['easonlin404', 'ubogdan'], '2022-02-24T21:07:34.596111'),
 (3266, 35429278, 258049460, 27, 16, 1081, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-24T21:07:34.596111'),
 (3267, 35429278, 253458494, 28, 5, 131, 'bakkeby/patches', 'Collection of patches for dwm, st and dmenu', ARRAY['bakkeby'], '2022-02-24T21:07:34.596111'),
@@ -3268,6 +3267,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3269, 15004099, 138393139, 0, 63, 56104, 'trimstray/the-book-of-secret-knowledge', 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', ARRAY['trimstray', 'lbonanomi'], '2022-02-24T21:07:34.596111'),
 (3270, 15004099, 345038999, 1, 1, 1, 'brokorus/lilship', null, ARRAY['brokorus'], '2022-02-24T21:07:34.596111'),
 (4060, 29295102, 365466475, 1, 0, 3, 'DenisMirand4/Bot_Albion_Labour', null, ARRAY['DenisMirand4'], '2022-02-24T21:07:34.596111'),
+(3264, 35429278, 241529345, 25, 14, 691, 'wellyshen/react-cool-portal', '😎 🍒 React hook for Portals, which renders modals, dropdowns, tooltips etc. to <body> or else.', ARRAY['wellyshen', 'hinok'], '2022-02-24T21:07:34.596111'),
 (3272, 15004099, 87873787, 3, 51, 665, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-24T21:07:34.596111'),
 (3273, 16259450, 286546354, 0, 64, 229, 'netlify/explorers', null, ARRAY['jlengstorf', 'bencodezen'], '2022-02-24T21:07:34.596111'),
 (3274, 16259450, 349213562, 1, 0, 22, 'cassidoo/next-context-example', 'Here''s an example of using React Context and useReducer with Next.js for state management.', ARRAY['cassidoo'], '2022-02-24T21:07:34.596111'),

@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T01:02:25.834Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T02:49:13.040Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3283,8 +3283,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (36817565, 9266, 713, 1840, 'zaproxy/zaproxy', '2022-02-24T21:07:06.457173+00:00'),
 (251325388, 9, 0, 4, 'ryan-rozario/pipreqs-action', '2022-02-24T21:07:06.457173+00:00'),
 (373919310, 9, 0, 6, 'ionic-elements/crypto-starter-ionic', '2022-02-24T21:07:06.457173+00:00'),
-(155288604, 3089, 34, 121, 'shikijs/shiki', '2022-02-24T21:07:06.457173+00:00'),
 (407283196, 1625, 105, 539, 'buildspace/buildspace-projects', '2022-02-24T21:07:06.457173+00:00'),
+(155288604, 3089, 34, 121, 'shikijs/shiki', '2022-02-24T21:07:06.457173+00:00'),
 (99916389, 242, 5, 45, 'feliixx/mgodatagen', '2022-02-24T21:07:06.457173+00:00'),
 (106974487, 22, 14, 10, 'gitcoinco/ios', '2022-02-24T21:07:06.457173+00:00'),
 (324829379, 3055, 656, 197, 'organicmaps/organicmaps', '2022-02-24T21:07:06.457173+00:00'),
