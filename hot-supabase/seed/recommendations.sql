@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T22:43:25.551Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T01:02:26.042Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -486,8 +486,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (17959555, 4923, 22, 1, 0, 14, 'anishathalye/dotbot', 'A tool that bootstraps your dotfiles ⚡️', ARRAY['anishathalye', 'robobenklein'], '2022-02-24T21:06:05.080468+00:00'),
 (17985532, 502, 52, 1, 0, 21, 'RangeNetworks/dev', 'Start Here! Development Environment Tools and System Releases', ARRAY['iedemam', 'oleyka'], '2022-02-24T21:06:05.080468+00:00'),
 (18154829, 3107, 0, 1, 0, 6, 'jasonlong/isometric-contributions', 'Browser extension for rendering an isometric pixel art version of your GitHub contribution graph.', ARRAY['jasonlong', 'bahlo'], '2022-02-24T21:06:05.080468+00:00'),
-(18351848, 16925, 4, 1, 0, 15, 'typicode/lowdb', 'Simple to use local JSON database (supports Node, Electron and the browser)', ARRAY['typicode', 'etiktin'], '2022-02-24T21:06:05.080468+00:00'),
 (18193978, 10675, 40, 1, 0, 5, 'sindresorhus/got', '🌐 Human-friendly and powerful HTTP request library for Node.js', ARRAY['szmarczak', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
+(18351848, 16925, 4, 1, 0, 15, 'typicode/lowdb', 'Simple to use local JSON database (supports Node, Electron and the browser)', ARRAY['typicode', 'etiktin'], '2022-02-24T21:06:05.080468+00:00'),
 (18369373, 17743, 414, 1, 0, 1, 'spf13/viper', 'Go configuration with fangs', ARRAY['sagikazarmark', 'spf13'], '2022-02-24T21:06:05.080468+00:00'),
 (18442377, 12598, 1, 2, 0, 9, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:06:05.080468+00:00'),
 (18486300, 11520, 10, 2, 0, 9, 'lewagon/setup', 'Setup instructions for Le Wagon''s students on their first day of Web Development Bootcamp', ARRAY['ssaunier', 'barangerbenjamin'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1923,7 +1923,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177423398, 88, 5, 1, 0, 27, 'getify/eslint-plugin-proper-ternary', 'ESLint rules to ensure proper usage of ternary/conditional expressions', ARRAY['getify', 'kaykayehnn'], '2022-02-24T21:06:05.080468+00:00'),
 (177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (177727387, 28, 0, 1, 0, 18, 'cizixs/awesome-raft', 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', ARRAY['cizixs', 'wenweihu86'], '2022-02-24T21:06:05.080468+00:00'),
-(177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-24T21:06:05.080468+00:00'),
 (178029799, 9, 0, 1, 0, 26, 'BaseMax/TinyShell', 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (178066495, 488, 1, 1, 0, 20, 'world-class/REPL', 'The Learning Hub for UoL''s Online CS Students', ARRAY['sglavoie', 'actions-user'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2027,8 +2026,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (192476541, 1133, 0, 1, 0, 13, 'learning-zone/nodejs-interview-questions', 'Frequently Asked Node.js Interview Questions', ARRAY['learning-zone', 'rahulpandey70'], '2022-02-24T21:06:05.080468+00:00'),
 (192505762, 7, 0, 1, 0, 6, 'withplum/CardNavigationController', null, ARRAY['reddavis'], '2022-02-24T21:06:05.080468+00:00'),
 (192597257, 53, 1, 1, 0, 14, 'minio/minio-rs', 'MinIO Rust SDK for Amazon S3 Compatible Cloud Storage', ARRAY['donatello', 'dvaldivia'], '2022-02-24T21:06:05.080468+00:00'),
-(192605862, 2, 2, 1, 0, 11, 'Gingertonic/eden_events', null, ARRAY['Gingertonic'], '2022-02-24T21:06:05.080468+00:00'),
 (192632000, 16394, 246, 1, 0, 22, 'dapr/dapr', 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', ARRAY['yaron2', 'youngbupark'], '2022-02-24T21:06:05.080468+00:00'),
+(192605862, 2, 2, 1, 0, 11, 'Gingertonic/eden_events', null, ARRAY['Gingertonic'], '2022-02-24T21:06:05.080468+00:00'),
 (192640529, 7298, 211, 1, 0, 23, 'heartexlabs/label-studio', 'Label Studio is a multi-type data labeling and annotation tool with standardized output format', ARRAY['makseq', 'niklub'], '2022-02-24T21:06:05.080468+00:00'),
 (192856899, 453, 10, 1, 0, 4, 'chetanverma16/react-portfolio-template', 'Modern React Portfolio Template (FREE)', ARRAY['chetanverma16', 'ajmeese7'], '2022-02-24T21:06:05.080468+00:00'),
 (192892917, 7129, 49, 1, 0, 3, 'hediet/vscode-debug-visualizer', 'An extension for VS Code that visualizes data during debugging.', ARRAY['hediet', 'fwcd'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2571,6 +2570,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
 (267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
+(267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-24T21:06:05.080468+00:00'),
 (267884438, 7, 0, 1, 0, 4, 'BaseMax/CalculatorWeb', 'A online calculator using web technology based on Javascript.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (267956009, 52, 0, 1, 0, 2, 'jdubois/azure-native-spring-function', 'Tutorial on running Spring Boot + GraalVM native images on Azure Functions', ARRAY['jdubois', 'AzureAdvocateBit'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2586,8 +2586,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (268546030, 5, 6, 1, 0, 3, 'philnash/github-weekends', 'A silly browser extension that marks weekend contributions on GitHub''s contribution graph in red', ARRAY['philnash'], '2022-02-24T21:06:05.080468+00:00'),
 (268556270, 5, 0, 1, 0, 8, 'bradleytaunt/wyf', 'Simple CSS ''plugin'' for toggle-styled figure elements (Watch Your Figure)', ARRAY['bradleytaunt'], '2022-02-24T21:06:05.080468+00:00'),
 (268672917, 16, 1, 1, 0, 7, 'billydh/zoom-reporting', null, ARRAY['billydh'], '2022-02-24T21:06:05.080468+00:00'),
-(269152507, 29, 26, 1, 0, 11, 'smfils1/youtube-clone', 'A YouTube Clone using the MERN stack', ARRAY['smfils1'], '2022-02-24T21:06:05.080468+00:00'),
 (268972184, 87, 7, 1, 0, 10, 'shilohc/map2gazebo', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
+(269152507, 29, 26, 1, 0, 11, 'smfils1/youtube-clone', 'A YouTube Clone using the MERN stack', ARRAY['smfils1'], '2022-02-24T21:06:05.080468+00:00'),
 (269174002, 5, 0, 1, 0, 0, 'counterpoint-studio/artgift', 'An open source web application for booking and managing Art Gifts', ARRAY['teropa', 'samueldiggins'], '2022-02-24T21:06:05.080468+00:00'),
 (269211843, 727, 8, 1, 0, 9, 'seek-oss/capsize', 'Flipping how we define typography in CSS.', ARRAY['michaeltaranto', 'mattcompiles'], '2022-02-24T21:06:05.080468+00:00'),
 (269230051, 3, 0, 1, 0, 3, 'BaseMax/WebMoleGame', 'Mole game with HTML, CSS, JavaScript. (Web-based)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2869,7 +2869,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (310490480, 16, 0, 1, 0, 17, 'cachecleanerjeet/readme-stats-github', 'Generate your GitHub''s Stats in SVG', ARRAY['avipatilpro'], '2022-02-24T21:06:05.080468+00:00'),
 (310686619, 572, 2, 1, 0, 17, 'tailwindlabs/tailwindcss-aspect-ratio', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-24T21:06:05.080468+00:00'),
 (310766137, 20, 20, 1, 0, 0, 'coroo/pytest-coverage-commentator', 'A Github action to comments a Pytest Coverage on PR', ARRAY['coroo'], '2022-02-24T21:06:05.080468+00:00'),
-(267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
 (310852173, 3, 0, 1, 0, 27, 'cometkim/asdf-grain', 'Grain language plugin for asdf version manager.', ARRAY['cometkim'], '2022-02-24T21:06:05.080468+00:00'),
 (311205362, 42, 0, 1, 0, 25, '5t3ph/11ty-email-generator', 'Generate simple, responsive email templates, with inlined CSS on build using 11ty.', ARRAY['5t3ph'], '2022-02-24T21:06:05.080468+00:00'),
 (311361403, 50, 0, 1, 0, 16, 'KaterinaLupacheva/my-projects-dashboard', 'Next.js, Material UI, MongoDB Personal Dashboard with dev.to, GitHub, Twitter, and npm API integration.', ARRAY['KaterinaLupacheva'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2963,14 +2962,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (322542582, 843, 84, 1, 0, 0, 'EthWorks/useDApp', 'Framework for rapid Dapp development. Simple. Robust. Extendable. Testable', ARRAY['nezouse', 'marekkirejczyk'], '2022-02-24T21:06:05.080468+00:00'),
 (322703104, 34, 22, 1, 0, 27, 'Minenash/Seamless-Loading-Screen', 'Takes a screenshot of the game when you leave a world or server,and displays it when you rejoin it', ARRAY['Minenash', 'Samekichi'], '2022-02-24T21:06:05.080468+00:00'),
 (322785065, 2, 0, 1, 0, 28, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-24T21:06:05.080468+00:00'),
+(322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
+(322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-24T21:06:05.080468+00:00'),
 (322936836, 568, 31, 1, 0, 3, 'awtkns/fastapi-crudrouter', 'A dynamic FastAPI router that automatically creates CRUD routes for your models', ARRAY['awtkns', 'collerek'], '2022-02-24T21:06:05.080468+00:00'),
 (323048702, 8791, 27, 1, 0, 25, 'GamestonkTerminal/GamestonkTerminal', 'Investment Research for Everyone.', ARRAY['DidierRLopes', 'aia'], '2022-02-24T21:06:05.080468+00:00'),
 (323758699, 139, 1, 1, 0, 24, 'nicolas-siplis/cyberpwned', 'Automates CP 2077''s ''Breach Protocol'' hacking minigame', ARRAY['nicolas-siplis'], '2022-02-24T21:06:05.080468+00:00'),
 (323776844, 20, 0, 1, 0, 18, 'jordanliu/made-in-jamaica', 'A curation of tools and projects built by Jamaican developers 🔥 🇯🇲', ARRAY['jordanliu', 'Rift3000'], '2022-02-24T21:06:05.080468+00:00'),
 (323872491, 2, 0, 1, 0, 6, 'udberg/bubble-sort', 'Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
-(322861487, 71, 0, 1, 0, 22, 'timdeschryver/ngrx-immer', 'Immer wrappers around NgRx methods createReducer, on, and ComponentStore', ARRAY['timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
 (324322539, 11, 0, 1, 0, 9, 'Jijun/fastapi-cprofile', 'A FastAPI Middleware with cProfile to help stats your service performance', ARRAY['Jijun'], '2022-02-24T21:06:05.080468+00:00'),
-(322903573, 1, 8, 1, 0, 4, 'ArthurDanjou/Ares', '🌍 Ares is my personal website, my portfolio, and my blog.', ARRAY['ArthurDanjou'], '2022-02-24T21:06:05.080468+00:00'),
 (324428344, 1058, 0, 1, 0, 10, 'arpankg/ctci-python-solutions', 'Cracking the Coding Interview in Python 3. The solutions all have detailed explanations with visuals.', ARRAY['arpankg', 'gan3i'], '2022-02-24T21:06:05.080468+00:00'),
 (324575078, 129, 3, 1, 0, 19, 'Kushal997-das/Project-Guidance', ':octocat:🌟 The Ultimate resources for beginner to advance level projects all at  one place 💻 🎯🚀 ', ARRAY['Kushal997-das', 'SamarpanCoder2002'], '2022-02-24T21:06:05.080468+00:00'),
 (324620518, 109, 2, 1, 0, 11, 'ka-weihe/fast-levenshtein', 'Fastest levenshtein implementation in Go.', ARRAY['ka-weihe'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
-(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00');
+(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
+(177736533, 260255, 16833, 1, -1, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00');

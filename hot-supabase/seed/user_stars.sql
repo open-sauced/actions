@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-04T22:43:25.895Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T01:02:26.251Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1639,6 +1639,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1648, 66696421, 147350463, 0, 9, 45617, 'leonardomso/33-js-concepts', '📜 33 JavaScript concepts every developer should know.', ARRAY['leonardomso', 'ilker0'], '2022-02-24T21:07:34.596111'),
 (1649, 66696421, 229764465, 1, 33, 11430, 'Asabeneh/30-Days-Of-JavaScript', '30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. ', ARRAY['Asabeneh', 'npnjuguna'], '2022-02-24T21:07:34.596111'),
 (1650, 66696421, 343441919, 2, 0, 1, 'wildanalifr/belajar-javascript', 'Repository ini merupakan hasil belajar javascript dari kursus jonas di udemy', ARRAY['wildanalifr'], '2022-02-24T21:07:34.596111'),
+(1651, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
 (1652, 25217168, 383495767, 0, 1, 1, 'osoc21/wepod-sandbox', null, ARRAY['barbarebelge'], '2022-02-24T21:07:34.596111'),
 (1653, 25217168, 373301717, 1, 0, 10, 'oscakampala/made-in-uganda', 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ARRAY['oscakampala', 'KakoozaJerry'], '2022-02-24T21:07:34.596111'),
 (1654, 25217168, 272529198, 2, 2, 216, 'telekom/das-schiff', 'This is home of Das Schiff - Deutsche Telekom Technik''s engine for Kubernetes Cluster as a Service (CaaS) in on-premise environment on top of bare-metal servers and VMs. ', ARRAY['vukg', 'Cellebyte'], '2022-02-24T21:07:34.596111'),
@@ -1658,7 +1659,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1668, 60254117, 54346799, 1, 7, 172340, 'public-apis/public-apis', 'A collective list of free APIs', ARRAY['davemachado', 'matheusfelipeog'], '2022-02-24T21:07:34.596111'),
 (1669, 60254117, 346301397, 2, 0, 2, 'jebitok-dev/stay-in-touch', 'Building a social app called ''Stay-in-Touch''. The aim of this project is to implement and test advanced RoR methods & lessons.', ARRAY['jebitok-dev', 'nidalaa'], '2022-02-24T21:07:34.596111'),
 (1670, 60254117, 315604447, 3, 0, 2, 'udberg/tribute-page', null, ARRAY['udberg'], '2022-02-24T21:07:34.596111'),
-(1651, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
 (1671, 60254117, 315872513, 4, 0, 2, 'udberg/clone-new-york-times-article', 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', ARRAY['udberg', 'KCnick'], '2022-02-24T21:07:34.596111'),
 (1672, 60254117, 320016849, 5, 0, 7, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-24T21:07:34.596111'),
 (1702, 16942870, 108469351, 5, 25, 3484, 'stream-labs/streamlabs-obs', 'Free and open source streaming software built on OBS and Electron.', ARRAY['andycreeth', 'SLOBS-Release'], '2022-02-24T21:07:34.596111'),
@@ -4190,8 +4190,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4195, 469997, 3168392, 11, 0, 6, 'david0178418/Backbone-RequireJS-Todo-Example', 'A quick reimplementation of the standard todo list example using Backbone and RequireJS ', ARRAY['david0178418'], '2022-02-24T21:07:34.596111'),
 (4196, 3941856, 189282896, 13, 32, 5142, 'wesbos/beginner-javascript', 'Slam Dunk JavaScript', ARRAY['Asjas', 'wesbos'], '2022-02-24T21:07:34.596111'),
 (4197, 469997, 2015790, 12, 0, 3, 'timwis/PhillySNAP-v1', 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', ARRAY['timwis'], '2022-02-24T21:07:34.596111'),
-(4199, 469997, 2798894, 13, 2, 44, 'j-mcnally/PhoneGap-ios-PhoneDialer', 'A plugin for ios phone gap to launch the dialer programatically in ios >= 5', ARRAY['peutetre', 'mcfedr'], '2022-02-24T21:07:34.596111'),
 (4198, 3941856, 256269779, 14, 10, 36, 'philhawksworth/hello-trello', null, ARRAY['philhawksworth'], '2022-02-24T21:07:34.596111'),
+(4199, 469997, 2798894, 13, 2, 44, 'j-mcnally/PhoneGap-ios-PhoneDialer', 'A plugin for ios phone gap to launch the dialer programatically in ios >= 5', ARRAY['peutetre', 'mcfedr'], '2022-02-24T21:07:34.596111'),
 (4200, 3941856, 314866842, 15, 5, 23, 'yashvardhan-kukreja/whatsupstream', '🚀 A tool to keep you up-to-date with the issues (good first issues, for eg. ;) of your favorite open source repositories', ARRAY['yashvardhan-kukreja'], '2022-02-24T21:07:34.596111'),
 (4202, 3941856, 243834124, 16, 33, 60, 'cncf/tag-contributor-strategy', 'CNCF Technical Advisory Group on Contributor Strategy -- maintainer relations, building up contributors, governance, graduation, and more.', ARRAY['carolynvs', 'jberkus'], '2022-02-24T21:07:34.596111'),
 (4203, 656318, 136938012, 0, 134, 3071, 'vendure-ecommerce/vendure', 'A headless GraphQL ecommerce framework for the modern web', ARRAY['michaelbromley', 'Draykee'], '2022-02-24T21:07:34.596111'),
