@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T06:46:03.679Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T08:44:18.455Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -774,10 +774,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (42033086, 10192, 115, 1, 0, 23, 'styleguidist/react-styleguidist', 'Isolated React component development environment with a living style guide', ARRAY['sapegin', 'n1313'], '2022-02-24T21:06:05.080468+00:00'),
 (42172184, 5, 25, 1, 0, 9, 'servinglynk/hslynk-open-source', 'An open source health and human services app platform and data warehouse.  Chat with us at: https://gitter.im/hslynk/Lobby .  Documentation, wiki, and issue tracker is at: https://github.com/servinglynk/hslynk-open-source-docs .  Coordinated Services code is at: https://github.com/hserv/ .  All APIs are at https://github.com/hmis-api and hosted at https://docs.hslynk.com.  Email listserv is at: https://groups.google.com/a/hslynk.com/forum/#!forum/community', ARRAY['logicsandeep', 'suryayadavalli'], '2022-02-24T21:06:05.080468+00:00'),
 (42191943, 7972, 11, 1, 0, 0, 'cyrus-and/gdb-dashboard', 'Modular visual interface for GDB in Python', ARRAY['cyrus-and', 'alfunx'], '2022-02-24T21:06:05.080468+00:00'),
-(42237038, 11052, 37, 1, 0, 4, 'graphql/dataloader', 'DataLoader is a generic utility to be used as part of your application''s data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.', ARRAY['leebyron', 'wincent'], '2022-02-24T21:06:05.080468+00:00'),
 (42283287, 30563, 220, 1, 0, 6, 'preactjs/preact', '⚛️ Fast 3kB React alternative with the same modern API. Components & Virtual DOM.', ARRAY['marvinhagemeister', 'developit'], '2022-02-24T21:06:05.080468+00:00'),
 (42338900, 775, 12, 1, 0, 14, 'ForbesLindesay/redux-optimist', 'Optimistically apply actions that can be later commited or reverted.', ARRAY['ForbesLindesay', 'aduth'], '2022-02-24T21:06:05.080468+00:00'),
 (42409958, 500, 16, 1, 0, 12, 'inloop/sqlite-viewer', 'View SQLite file online', ARRAY['yuraj11', 'kyle-seongwoo-jun'], '2022-02-24T21:06:05.080468+00:00'),
+(42237038, 11052, 37, 1, 0, 4, 'graphql/dataloader', 'DataLoader is a generic utility to be used as part of your application''s data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.', ARRAY['leebyron', 'wincent'], '2022-02-24T21:06:05.080468+00:00'),
 (42455934, 18351, 246, 1, 0, 17, 'statelyai/xstate', 'State machines and statecharts for the modern web.', ARRAY['davidkpiano', 'Andarist'], '2022-02-24T21:06:05.080468+00:00'),
 (42956467, 25619, 0, 1, 0, 6, 'herrbischoff/awesome-macos-command-line', 'Use your macOS terminal shell to do awesome things.', ARRAY['herrbischoff'], '2022-02-24T21:06:05.080468+00:00'),
 (42975057, 391, 12, 1, 0, 0, 'graphql-go/relay', 'A Go/Golang library to help construct a graphql-go server supporting react-relay.', ARRAY['sogko', 'chris-ramon'], '2022-02-24T21:06:05.080468+00:00'),
