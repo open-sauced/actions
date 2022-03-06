@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T01:02:14.141Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T02:48:20.740Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2210,8 +2210,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (133092972, 3213, 76, 184, 'nodejs/undici', '2022-02-24T21:07:06.457173+00:00'),
 (112750686, 2, 11, 2, 'grnet/webdns4', '2022-02-24T21:07:06.457173+00:00'),
 (74069383, 554, 50, 119, 'InnerSourceCommons/InnerSourcePatterns', '2022-02-24T21:07:06.457173+00:00'),
-(431137274, 20, 0, 2, 'alexadam/reactive-doc', '2022-02-24T21:07:06.457173+00:00'),
 (75077977, 467, 515, 115, 'coopcycle/coopcycle-web', '2022-02-24T21:07:06.457173+00:00'),
+(431137274, 20, 0, 2, 'alexadam/reactive-doc', '2022-02-24T21:07:06.457173+00:00'),
 (338590340, 336, 9, 0, 'lucydsl/liblucy', '2022-02-24T21:07:06.457173+00:00'),
 (40508605, 16691, 358, 1674, 'facebook/relay', '2022-02-24T21:07:06.457173+00:00'),
 (42033086, 10266, 148, 1455, 'styleguidist/react-styleguidist', '2022-02-24T21:07:06.457173+00:00'),
