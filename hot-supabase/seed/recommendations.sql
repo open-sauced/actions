@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T20:43:16.749Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T22:43:29.439Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3157,8 +3157,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (350831642, 1172, 1, 1, 0, 4, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-24T21:06:05.080468+00:00'),
 (350874478, 350, 2, 1, 0, 0, 'notrab/headless-dropshipping-starter', 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ARRAY['renovate-bot', 'notrab'], '2022-02-24T21:06:05.080468+00:00'),
 (351005162, 55, 1, 1, 0, 8, 'salvatoreraccardi/OBJEX_LINK', 'OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle.', ARRAY['salvatoreraccardi', 'Vetozz'], '2022-02-24T21:06:05.080468+00:00'),
-(351087635, 8, 1, 1, 0, 1, 'samuelkraft/routes', 'Trail Routes - Curated running & hiking trails in Sweden', ARRAY['samuelkraft'], '2022-02-24T21:06:05.080468+00:00'),
 (351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-24T21:06:05.080468+00:00'),
+(351087635, 8, 1, 1, 0, 1, 'samuelkraft/routes', 'Trail Routes - Curated running & hiking trails in Sweden', ARRAY['samuelkraft'], '2022-02-24T21:06:05.080468+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-24T21:06:05.080468+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-24T21:06:05.080468+00:00'),
 (351728562, 2, 0, 1, 0, 9, 'lukeocodes/nuxt-contentful-starter', 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ARRAY['lukeocodes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3306,8 +3306,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (372263341, 18, 19, 1, 0, 17, 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', ARRAY['ChaelCodes', 'yagosansz'], '2022-02-24T21:06:05.080468+00:00'),
 (372409209, 2, 0, 1, 0, 28, 'fachryansyah/microservice-example-envoy', 'This is an example microservice implementation with envoy', ARRAY['fachryansyah'], '2022-02-24T21:06:05.080468+00:00'),
 (372449229, 75, 17, 1, 0, 1, 'GeekMasher/advanced-security-compliance', 'GitHub Advance Security Compliance Action', ARRAY['GeekMasher', 'pholleran'], '2022-02-24T21:06:05.080468+00:00'),
-(373301717, 10, 0, 1, 0, 1, 'oscakampala/made-in-uganda', 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ARRAY['oscakampala', 'KakoozaJerry'], '2022-02-24T21:06:05.080468+00:00'),
 (372718382, 256, 0, 1, 0, 3, 'ebosas/microservices', 'A microservices example in Go', ARRAY['ebosas'], '2022-02-24T21:06:05.080468+00:00'),
+(373301717, 10, 0, 1, 0, 1, 'oscakampala/made-in-uganda', 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ARRAY['oscakampala', 'KakoozaJerry'], '2022-02-24T21:06:05.080468+00:00'),
 (373327367, 30, 0, 1, 0, 12, 'rx-mind/ngrx-plugins', 'Reactive Angular Plugins', ARRAY['markostanimirovic'], '2022-02-24T21:06:05.080468+00:00'),
 (373396052, 44, 2, 1, 0, 29, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (373495126, 335, 1, 1, 0, 16, 'thevinter/styli.sh', 'A CLI tool for easy wallpaper management and image fetching', ARRAY['thevinter', 'ma3yta'], '2022-02-24T21:06:05.080468+00:00'),
