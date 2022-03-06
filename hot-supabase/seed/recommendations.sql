@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T18:45:11.806Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T20:43:16.749Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3306,8 +3306,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (372263341, 18, 19, 1, 0, 17, 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', ARRAY['ChaelCodes', 'yagosansz'], '2022-02-24T21:06:05.080468+00:00'),
 (372409209, 2, 0, 1, 0, 28, 'fachryansyah/microservice-example-envoy', 'This is an example microservice implementation with envoy', ARRAY['fachryansyah'], '2022-02-24T21:06:05.080468+00:00'),
 (372449229, 75, 17, 1, 0, 1, 'GeekMasher/advanced-security-compliance', 'GitHub Advance Security Compliance Action', ARRAY['GeekMasher', 'pholleran'], '2022-02-24T21:06:05.080468+00:00'),
-(372718382, 256, 0, 1, 0, 3, 'ebosas/microservices', 'A microservices example in Go', ARRAY['ebosas'], '2022-02-24T21:06:05.080468+00:00'),
 (373301717, 10, 0, 1, 0, 1, 'oscakampala/made-in-uganda', 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ARRAY['oscakampala', 'KakoozaJerry'], '2022-02-24T21:06:05.080468+00:00'),
+(372718382, 256, 0, 1, 0, 3, 'ebosas/microservices', 'A microservices example in Go', ARRAY['ebosas'], '2022-02-24T21:06:05.080468+00:00'),
 (373327367, 30, 0, 1, 0, 12, 'rx-mind/ngrx-plugins', 'Reactive Angular Plugins', ARRAY['markostanimirovic'], '2022-02-24T21:06:05.080468+00:00'),
 (373396052, 44, 2, 1, 0, 29, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (373495126, 335, 1, 1, 0, 16, 'thevinter/styli.sh', 'A CLI tool for easy wallpaper management and image fetching', ARRAY['thevinter', 'ma3yta'], '2022-02-24T21:06:05.080468+00:00'),
