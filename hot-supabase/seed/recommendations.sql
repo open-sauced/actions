@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T14:43:33.835Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T16:49:11.349Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2450,11 +2450,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (254060596, 77, 4, 1, 0, 26, 'zellwk/crud-demo', 'Source code for ''Building a CRUD app with Node, Express, and MongoDB tutorial''', ARRAY['zellwk'], '2022-02-24T21:06:05.080468+00:00'),
 (254141208, 2131, 31, 1, 0, 18, 'piscinajs/piscina', 'A fast, efficient Node.js Worker Thread Pool implementation', ARRAY['jasnell', 'addaleax'], '2022-02-24T21:06:05.080468+00:00'),
 (254180747, 242, 3, 1, 0, 4, 'jpedroschmitz/gatsby-starter-ts', 'TypeScript starter for Gatsby. No plugins and styling. Exactly the necessary to start. Ready for Gatsby v4 🔥 ', ARRAY['renovate-bot', 'jpedroschmitz'], '2022-02-24T21:06:05.080468+00:00'),
+(254889040, 1, 0, 1, 0, 22, 'ColomboJuan/AppCodvid19', 'Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/', ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (254399512, 2, 1, 1, 0, 9, 'rodridev77/bank-loan', null, ARRAY['rodridev77'], '2022-02-24T21:06:05.080468+00:00'),
 (254660586, 1963, 9, 1, 0, 29, 'openmainframeproject/cobol-programming-course', 'Training materials and labs for a ''Getting Started'' level course on COBOL', ARRAY['MikeBauerCA', 'tanto259'], '2022-02-24T21:06:05.080468+00:00'),
-(254761650, 185, 19, 1, 0, 19, 'goncy/pency', 'Tu tienda online', ARRAY['goncy', 'nahuelcaceres'], '2022-02-24T21:06:05.080468+00:00'),
-(254889040, 1, 0, 1, 0, 22, 'ColomboJuan/AppCodvid19', 'Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/', ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (274396505, 25, 3, 1, 0, 11, 'kevin51jiang/react-spotify-auth', 'Easy Spotify Authentication, written in React', ARRAY['kevin51jiang', 'rpeyron'], '2022-02-24T21:06:05.080468+00:00'),
+(254761650, 185, 19, 1, 0, 19, 'goncy/pency', 'Tu tienda online', ARRAY['goncy', 'nahuelcaceres'], '2022-02-24T21:06:05.080468+00:00'),
 (255074156, 634, 36, 1, 0, 2, 'ayoolaolafenwa/PixelLib', 'Visit PixelLib''s official documentation  https://pixellib.readthedocs.io/en/latest/', ARRAY['ayoolaolafenwa', 'elbruno'], '2022-02-24T21:06:05.080468+00:00'),
 (255378816, 5303, 107, 1, 0, 11, 'bigskysoftware/htmx', '</> htmx - high power tools for HTML', ARRAY['1cg', 'bencroker'], '2022-02-24T21:06:05.080468+00:00'),
 (255471368, 6, 17, 1, 0, 11, 'braydoncoyer/officeapi', 'RESTful API built with NodeJS, Express, MongoDB and Mongoose', ARRAY['braydoncoyer'], '2022-02-24T21:06:05.080468+00:00'),
