@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T06:46:03.948Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T08:44:06.226Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -96,8 +96,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (1206546, 18200, 430, 1, 0, 24, 'winstonjs/winston', 'A logger for just about everything.', ARRAY['indexzero', 'chjj'], '2022-02-24T21:06:05.080468+00:00'),
 (1219740, 9477, 49, 1, 0, 1, 'StylishThemes/GitHub-Dark', ':octocat: Dark GitHub style', ARRAY['silverwind', 'Mottie'], '2022-02-24T21:06:05.080468+00:00'),
 (1232043, 262, 16, 1, 0, 3, 'lucaminudel/TDDwithMockObjectsAndDesignPrinciples', 'TDD with Mock Objects: Design Principles and Emergent Properties (C#, JavaScript, Java, Python, Ruby)', ARRAY['lucaminudel', 'wubin28'], '2022-02-24T21:06:05.080468+00:00'),
-(1239151, 862, 11, 1, 0, 23, 'cmatsuoka/figlet', 'Claudio''s FIGlet tree', ARRAY['cmatsuoka', 'jmccrohan'], '2022-02-24T21:06:05.080468+00:00'),
 (1234714, 19613, 20, 1, 0, 10, 'elixir-lang/elixir', 'Elixir is a dynamic, functional language designed for building scalable and maintainable applications', ARRAY['josevalim', 'eksperimental'], '2022-02-24T21:06:05.080468+00:00'),
+(1239151, 862, 11, 1, 0, 23, 'cmatsuoka/figlet', 'Claudio''s FIGlet tree', ARRAY['cmatsuoka', 'jmccrohan'], '2022-02-24T21:06:05.080468+00:00'),
 (1244792, 908, 28, 1, 0, 14, 'fukamachi/clack', 'Web server abstraction layer for Common Lisp', ARRAY['fukamachi', 'doomchild'], '2022-02-24T21:06:05.080468+00:00'),
 (1272424, 14368, 7, 1, 0, 13, 'nodemailer/nodemailer', '✉️ Send e-mails with Node.JS – easy as cake!', ARRAY['andris9', 'igorsechyn'], '2022-02-24T21:06:05.080468+00:00'),
 (1300192, 10657, 12717, 1, 0, 18, 'octocat/Spoon-Knife', 'This repo is for demonstration purposes only.', ARRAY['octocat'], '2022-02-24T21:06:05.080468+00:00'),
