@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T12:49:32.764Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T14:43:33.600Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -806,8 +806,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (391775174, 1, 0, 2, 'mercyharbo/myShoppingList', '2022-02-24T21:07:06.457173+00:00'),
 (147802356, 357, 89, 148, 'ConsenSys/teku', '2022-02-24T21:07:06.457173+00:00'),
 (413577291, 1, 0, 0, 'swaitw/domain-driven-hexagon', '2022-02-24T21:07:06.457173+00:00'),
-(1020601, 1944, 200, 289, 'modelmapper/modelmapper', '2022-02-24T21:07:06.457173+00:00'),
 (201148576, 6, 0, 2, 'mithereal/speedtest', '2022-02-24T21:07:06.457173+00:00'),
+(1020601, 1944, 200, 289, 'modelmapper/modelmapper', '2022-02-24T21:07:06.457173+00:00'),
 (100061716, 11164, 563, 1060, 'nrwl/nx', '2022-02-24T21:07:06.457173+00:00'),
 (158873969, 9289, 49, 356, 'GoogleChromeLabs/quicklink', '2022-02-24T21:07:06.457173+00:00'),
 (286339134, 437, 11, 124, 'csharpfritz/csharp_with_csharpfritz', '2022-02-24T21:07:06.457173+00:00'),

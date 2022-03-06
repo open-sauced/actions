@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T12:49:32.928Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T14:43:34.016Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3033,9 +3033,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3035, 17671332, 369905667, 3, 12, 34, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-24T21:07:34.596111'),
 (3036, 6935431, 310766137, 0, 20, 19, 'coroo/pytest-coverage-commentator', 'A Github action to comments a Pytest Coverage on PR', ARRAY['coroo'], '2022-02-24T21:07:34.596111'),
 (3037, 6935431, 372449229, 1, 17, 75, 'GeekMasher/advanced-security-compliance', 'GitHub Advance Security Compliance Action', ARRAY['GeekMasher', 'pholleran'], '2022-02-24T21:07:34.596111'),
+(3038, 6935431, 417656389, 2, 1, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:07:34.596111'),
 (3039, 6935431, 413929478, 3, 1, 21, 'zkoppert/advanced-security-enforcer', 'A GitHub action for organizations that enables advanced security code scanning on all new repos', ARRAY['zkoppert', 'lindluni'], '2022-02-24T21:07:34.596111'),
 (3040, 6935431, 3544490, 4, 161, 4834, 'PyGithub/PyGithub', 'Typed interactions with the GitHub API v3', ARRAY['jacquev6', 's-t-e-v-e-n-k'], '2022-02-24T21:07:34.596111'),
-(3038, 6935431, 417656389, 2, 1, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:07:34.596111'),
 (3041, 6935431, 3710711, 5, 49, 1069, 'sigmavirus24/github3.py', ' Hi, I''m a library for interacting with GItHub''s REST API in a convenient and ergonomic way. I work on Python 3.6+.', ARRAY['sigmavirus24', 'itsmemattchung'], '2022-02-24T21:07:34.596111'),
 (3042, 6935431, 225862895, 6, 14, 116, 'srggrs/assign-one-project-github-action', 'Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.', ARRAY['srggrs', 'adamdmharvey'], '2022-02-24T21:07:34.596111'),
 (3043, 6935431, 399220892, 7, 0, 5, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-24T21:07:34.596111'),
@@ -4146,8 +4146,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4150, 5713670, 369652397, 12, 1, 6, 'whitep4nth3r/unbreak.tech', 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', ARRAY['whitep4nth3r'], '2022-02-24T21:07:34.596111'),
 (4151, 5713670, 406594497, 13, 0, 3, 'bdougie/invite-automation', 'This is a repo to automate invites to teams. ', ARRAY['bdougie'], '2022-02-24T21:07:34.596111'),
 (4152, 5713670, 411003249, 14, 2, 14, 'mtfoley/pr-compliance-action', 'Check PR for compliance on title, linked issues, and files changed', ARRAY['mtfoley', 'MichaelDeBoey'], '2022-02-24T21:07:34.596111'),
-(4153, 5713670, 11753762, 15, 34, 8562, 'cheat/cheat', 'cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.', ARRAY['chrisallenlane', '1mm0rt41PC'], '2022-02-24T21:07:34.596111'),
 (4154, 5713670, 409743854, 16, 0, 5, 'mtfoley/gh-user-search', 'GitHub User Search', ARRAY['mtfoley'], '2022-02-24T21:07:34.596111'),
+(4153, 5713670, 11753762, 15, 34, 8562, 'cheat/cheat', 'cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.', ARRAY['chrisallenlane', '1mm0rt41PC'], '2022-02-24T21:07:34.596111'),
 (4155, 5713670, 205594764, 17, 11, 204, 'alex-page/github-project-automation-plus', '🤖 Automate GitHub Project cards with any webhook event', ARRAY['hugovk', 'jurijzahn8019'], '2022-02-24T21:07:34.596111'),
 (4156, 5713670, 4467228, 18, 11, 13433, 'krisk/Fuse', 'Lightweight fuzzy-search, in JavaScript', ARRAY['krisk', 'matthewwithanm'], '2022-02-24T21:07:34.596111'),
 (4157, 5713670, 71551629, 19, 8, 10979, 'carloscuesta/gitmoji', 'An emoji guide for your commit messages. 😜 ', ARRAY['carloscuesta', 'johannchopin'], '2022-02-24T21:07:34.596111'),
