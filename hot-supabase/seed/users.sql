@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T22:43:26.777Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T01:02:13.814Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -199,13 +199,12 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (26205172, 2, false, true, 'Alucard17', '2022-02-24T21:07:48.046487+00:00'),
 (10012151, 1, true, true, 'joaoapel', '2022-02-24T21:07:48.046487+00:00'),
 (9935383, 3, false, true, 'jsehull', '2022-02-24T21:07:48.046487+00:00'),
+(4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
 (14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
-(5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (29295102, 1, false, true, 'silvasobrinho', '2022-02-24T21:07:48.046487+00:00'),
 (83277146, 1, false, true, 'ashwth', '2022-02-24T21:07:48.046487+00:00'),
 (74566464, 0, true, true, 'Pandademic', '2022-02-24T21:07:48.046487+00:00'),
 (5381468, 5, false, true, 'tmarwen', '2022-02-24T21:07:48.046487+00:00'),
-(4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
 (8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
 (469997, 3, false, true, 'sobingt', '2022-02-24T21:07:48.046487+00:00'),
 (11589902, 0, false, true, 'pac96', '2022-02-24T21:07:48.046487+00:00'),
@@ -218,6 +217,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (3662109, 1, false, true, 'djdefi', '2022-02-24T21:07:48.046487+00:00'),
 (656318, 0, false, true, 'ramonh', '2022-02-24T21:07:48.046487+00:00'),
 (10951893, 2, false, true, 'jramirez857', '2022-02-24T21:07:48.046487+00:00'),
+(5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (19359944, 0, false, true, 'Karobwe', '2022-03-01T20:01:52.705152+00:00'),
 (29888641, 16, false, true, 'filiptronicek', '2022-02-25T08:23:30.582095+00:00'),
 (22655167, 1, false, true, 'loiclegoff', '2022-02-24T21:07:48.046487+00:00'),

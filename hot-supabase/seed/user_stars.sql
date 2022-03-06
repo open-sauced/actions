@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-05T22:43:27.110Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T01:02:14.273Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1040,8 +1040,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1028, 58392246, 406390867, 1, 0, 1, 'muhammaddzaky/polisi.html', 'polisi.html', ARRAY[''], '2022-02-24T21:07:34.596111'),
 (1029, 58392246, 403285296, 2, 0, 1, 'muhammaddzaky/muhamamddzak.github.io', 'It’s common practice to prefix your version names with the letter v. Some good tag names might be v1.0 or v2.3.4.', ARRAY['muhammaddzaky'], '2022-02-24T21:07:34.596111'),
 (1030, 58392246, 384320581, 3, 0, 2, 'muhammaddzak/muhamamddzak.github.io', 'website for muhammaddzaky', ARRAY['muhammaddzaky'], '2022-02-24T21:07:34.596111'),
-(1032, 58392246, 394956867, 5, 1, 2, 'muhammaddzaky/muhamamddzaky', 'hello', ARRAY[''], '2022-02-24T21:07:34.596111'),
 (1031, 58392246, 395205818, 4, 0, 2, 'muhammaddzaky/muhammaddzaky.github.id', 'membuatwebsitemuhammaddzaky.id', ARRAY[''], '2022-02-24T21:07:34.596111'),
+(1032, 58392246, 394956867, 5, 1, 2, 'muhammaddzaky/muhamamddzaky', 'hello', ARRAY[''], '2022-02-24T21:07:34.596111'),
 (1033, 58392246, 393403656, 6, 0, 1, 'muhammaddzaky/OkamiMks', 'Config files for my GitHub profile.', ARRAY['OkamiMks'], '2022-02-24T21:07:34.596111'),
 (1034, 58392246, 394559625, 7, 0, 1, 'muhammaddzaky/mhdraihandzaky.net', 'membuatwebsite', ARRAY['muhammaddzaky'], '2022-02-24T21:07:34.596111'),
 (1035, 58392246, 394954667, 8, 0, 1, 'muhammaddzaky/BucinWibuX', 'BucinWibuX', ARRAY[''], '2022-02-24T21:07:34.596111'),
@@ -4265,9 +4265,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (399569599, 78520194, 96767206, 8, 552, 1468, 'gitcoinco/web', 'Grow Open Source', ARRAY['owocki', 'thelostone-mc'], '2022-02-24T21:07:34.596111'),
 (382167794, 1431853, 135516270, 29, 409, 19334, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:07:34.596111'),
 (381822676, 33669114, 116612925, 29, 1, 840, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:07:34.596111'),
+(435647165, 23166349, 164225648, 29, 0, 756, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
 (403088539, 37635083, 400898185, 0, 0, 1, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:07:34.596111'),
 (354123413, 15052690, 346534675, 29, 2, 23, 'bitprj/Intro-To-Serverless', 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', ARRAY['emsesc', 'ganning127'], '2022-02-24T21:07:34.596111'),
-(435647165, 23166349, 164225648, 29, 0, 756, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
 (377960470, 67359053, 12299718, 4, 13, 71, 'twilio/starter-python', 'A starter app for Python developers embarking on their first Twilio quest!', ARRAY['kwhinnery', 'smendes'], '2022-02-24T21:07:34.596111'),
 (379460859, 13711044, 172473381, 29, 2, 36, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:07:34.596111'),
 (400276715, 10235902, 152145851, 1, 0, 2, 'rlnx/cpp-course-ffs', 'Materials on practical C++ course for foreign students', ARRAY['rlnx'], '2022-02-24T21:07:34.596111'),
@@ -4295,13 +4295,13 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (422280843, 289882, 661127, 22, 0, 2, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:07:34.596111'),
 (308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
 (375776088, 3340406, 219294494, 29, 11, 3156, 'xxh/xxh', '🚀 Bring your favorite shell wherever you go through the ssh.', ARRAY['anki-code', 'drmikecrowe'], '2022-02-24T21:07:34.596111'),
+(306906348, 4199845, 190091795, 29, 19, 4370, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
 (361357857, 51794934, 342191787, 1, 0, 22, 'LambdaSchool/build-week-scaffolding-node', null, ARRAY['Ladrillo'], '2022-02-24T21:07:34.596111'),
 (451044473, 11589902, 38547977, 0, 1, 1, 'nifemim/MosaicPlus', 'Just a repo to set up the website.', ARRAY['charlesinjoroge', 'sarasolano'], '2022-02-24T21:07:34.596111'),
 (375812408, 908380, 7670022, 29, 55, 956, 'salomvary/soundcleod', 'SoundCloud for macOS and Windows', ARRAY['salomvary', 'rmaes4'], '2022-02-24T21:07:34.596111'),
 (398934860, 34903088, 396613541, 29, 1, 378, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'zheeeng'], '2022-02-24T21:07:34.596111'),
 (259232283, 10012151, 18442377, 8, 0, 13484, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 38131381, 29, 6, 625, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest'], '2022-02-24T21:07:34.596111'),
 (375762962, 11777161, 25304276, 29, 127, 127, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:07:34.596111'),
 (374469734, 1228996, 20619036, 29, 33, 35281, 'pi-hole/pi-hole', 'A black hole for Internet advertisements', ARRAY['DL6ER', 'PromoFaux'], '2022-02-24T21:07:34.596111'),
 (328070675, 59939260, 71359796, 29, 29, 595, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:07:34.596111'),
@@ -4309,9 +4309,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (215550527, 1930729, 202787876, 29, 197, 11706, 'Rigellute/spotify-tui', 'Spotify for the terminal written in Rust 🚀', ARRAY['Rigellute', 'jfaltis'], '2022-02-24T21:07:34.596111'),
 (307155109, 12400445, 4311796, 16, 309, 54547, 'adam-p/markdown-here', 'Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.', ARRAY['adam-p', 'wm8120'], '2022-02-24T21:07:34.596111'),
 (353169129, 72912813, 214587193, 0, 261, 29283, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
-(306906348, 4199845, 190091795, 29, 19, 4369, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (398348178, 39362365, 15185110, 17, 20, 403, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'njhoffman'], '2022-02-24T21:07:34.596111'),
 (352793229, 22655167, 126813008, 29, 0, 832, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 6, 626, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest'], '2022-02-24T21:07:34.596111'),
 (353272785, 46935495, 193761872, 3, 0, 3, 'fireworks-world/SplashScreen_Animation', 'Android Traing Practicals', ARRAY['saha2201', 'fireworks-world'], '2022-02-24T21:07:34.596111'),
 (373584272, 24217493, 340306054, 2, 0, 1, 'Jussii/JunctionAppTesting', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-24T21:07:34.596111'),
 (422313558, 74208843, 59096058, 7, 53, 597, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-24T21:07:34.596111'),
@@ -4349,7 +4349,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (363282160, 4381106, 70777180, 13, 7, 12306, 'Foundry376/Mailspring', ':love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.', ARRAY['bengotow', 'emorikawa'], '2022-02-24T21:07:34.596111'),
 (396051716, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
 (396166713, 80793630, 192428445, 29, 10, 3, 'bitcoin-studio/LightningNespressoUI', 'Nespresso capsule vending machine - UI code', ARRAY['Janaka-Steph'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 157397583, 29, 60, 8529, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 60, 8533, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (397167684, 52573181, 60493101, 1, 45, 211599, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:07:34.596111'),
 (348840995, 351693, 197008093, 0, 11, 49, 'fmartinou/whats-up-docker', 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', ARRAY['fmartinou', 'ajgon'], '2022-02-24T21:07:34.596111'),
 (415612821, 44642314, 268098312, 0, 6, 17, 'ZedThree/clang-tidy-review', 'Create a pull request review based on clang-tidy warnings', ARRAY['ZedThree', 'kgfoundrydig'], '2022-02-24T21:07:34.596111'),
