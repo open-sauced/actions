@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T12:51:08.038Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T14:43:21.552Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2809,8 +2809,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (423938279, 20374545, 334465533, 0, 0, 1, 'Leonardo-Borba/auction-assistant', 'A bot to monitor MGT auctions and do automatic bids', ARRAY['Leonardo-Borba'], '2022-02-24T21:07:34.596111'),
 (2816, 28281924, 237448876, 22, 10, 735, 'qiangxue/go-rest-api', 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', ARRAY['qiangxue', 'chartinmarrel'], '2022-02-24T21:07:34.596111'),
 (2817, 28281924, 191531341, 23, 6, 208, 'site-prism/site_prism', null, ARRAY['luke-hill', 'natritmeyer'], '2022-02-24T21:07:34.596111'),
-(2819, 28281924, 146218451, 25, 12, 792, 'seanpmaxwell/overnight', 'TypeScript decorators for the ExpressJS Server.', ARRAY['joeykilpatrick', 'seanpmaxwell'], '2022-02-24T21:07:34.596111'),
 (2818, 28281924, 46641250, 24, 297, 3596, 'codeceptjs/CodeceptJS', 'Supercharged End 2 End Testing Framework for NodeJS', ARRAY['DavertMik', 'PeterNgTr'], '2022-02-24T21:07:34.596111'),
+(2819, 28281924, 146218451, 25, 12, 792, 'seanpmaxwell/overnight', 'TypeScript decorators for the ExpressJS Server.', ARRAY['joeykilpatrick', 'seanpmaxwell'], '2022-02-24T21:07:34.596111'),
 (2820, 28281924, 52631841, 26, 52, 62690, 'gothinkster/realworld', '''The mother of all demo apps'' — Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more 🏅', ARRAY['EricSimons', 'anishkny'], '2022-02-24T21:07:34.596111'),
 (2821, 28281924, 139914932, 27, 1897, 9041, 'quarkusio/quarkus', 'Quarkus: Supersonic Subatomic Java. ', ARRAY['gsmet', 'geoand'], '2022-02-24T21:07:34.596111'),
 (2822, 28281924, 283910851, 28, 11, 2, 'Jucian0/recoil-example', 'A small example about recoil', ARRAY['Jucian0'], '2022-02-24T21:07:34.596111'),
@@ -4237,7 +4237,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (382469096, 29648040, 120953088, 9, 0, 28, 'pioneerworks/lib-bash', 'BASH utilities shared by several projects.', ARRAY['kigster', 'skyeagle'], '2022-02-24T21:07:34.596111'),
 (313760653, 3037127, 2349728, 25, 127, 9454, 'pockethub/PocketHub', 'PocketHub Android App', ARRAY['kevinsawicki', 'Meisolsson'], '2022-02-24T21:07:34.596111'),
 (314317770, 4573607, 49760504, 5, 5, 7422, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-24T21:07:34.596111'),
-(406428542, 3202514, 302085558, 1, 17, 23, 'Call-for-Code-for-Racial-Justice/TakeTwo', 'TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content', ARRAY['johnwalicki', 'eliallen89'], '2022-02-24T21:07:34.596111'),
 (403681762, 203683, 118986156, 29, 1, 12, 'myoung34/docker-jenkins', null, ARRAY['myoung34'], '2022-02-24T21:07:34.596111'),
 (302938010, 211851, 5373673, 29, 67, 2715, 'jlord/sheetsee.js', ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', ARRAY['jlord', 'mjhea0'], '2022-02-24T21:07:34.596111'),
 (379761757, 4247126, 196662111, 9, 0, 2, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-24T21:07:34.596111'),
@@ -4408,6 +4407,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (375196206, 57305940, 54496479, 29, 119, 213, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
 (408008691, 45036724, 61059364, 29, 38, 667, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 219, 2743, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
+(406428542, 3202514, 302085558, 1, 17, 23, 'Call-for-Code-for-Racial-Justice/TakeTwo', 'TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content', ARRAY['johnwalicki', 'eliallen89'], '2022-02-24T21:07:34.596111'),
 (336575400, 9696352, 341707514, 29, 38, 149, 'bytecodealliance/witx-bindgen', 'A language binding generator for WebAssembly interface types', ARRAY['alexcrichton', 'peterhuene'], '2022-02-24T21:07:34.596111'),
 (364328935, 667716, 137308605, 29, 4, 101, 'tamino-martinius/node-ts-dedent', 'TypeScript package which smartly trims and strips indentation from multi-line strings', ARRAY['tamino-martinius', 'AviVahl'], '2022-02-24T21:07:34.596111'),
 (359508510, 36890230, 114416028, 8, 0, 4, 'datadesk/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'palewire'], '2022-02-24T21:07:34.596111'),
