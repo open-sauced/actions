@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T08:45:00.523Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T10:44:03.073Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2310,9 +2310,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (233675781, 3, 0, 1, 0, 9, 'learn-co-curriculum/cli-project-planning', null, ARRAY['maxwellbenton', 'cernanb'], '2022-02-24T21:06:05.080468+00:00'),
 (234091935, 525, 3, 1, 0, 20, 'i5ik/sirdb', ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', ARRAY['i5ik', 'rom10'], '2022-02-24T21:06:05.080468+00:00'),
 (234231371, 17421, 50, 2, 0, 22.5, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-24T21:06:05.080468+00:00'),
+(234290189, 1, 0, 2, 0, 0, 'sarthakvarshney8081/kube-cluster', 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', ARRAY['path2himanshu'], '2022-02-24T21:06:05.080468+00:00'),
 (234399448, 7, 7, 1, 0, 20, 'outsrc/my-app', 'Secure NextJS App users with Auth0 and TypeScript', ARRAY['ernestofreyreg'], '2022-02-24T21:06:05.080468+00:00'),
 (234611087, 1, 1, 1, 0, 1, 'tenpy/hdf5_io', 'Import and Export from Python and TeNPy to HDF5 Files', ARRAY['jhauschild'], '2022-02-24T21:06:05.080468+00:00'),
-(234290189, 1, 0, 2, 0, 0, 'sarthakvarshney8081/kube-cluster', 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', ARRAY['path2himanshu'], '2022-02-24T21:06:05.080468+00:00'),
 (234739976, 5580, 124, 1, 0, 0, 'medusajs/medusa', 'The open-source Shopify alternative ⚡️', ARRAY['srindom', 'olivermrbl'], '2022-02-24T21:06:05.080468+00:00'),
 (234755443, 1, 0, 1, 0, 1, 'sarthakvarshney8081/dockerlabs', 'Docker  - Beginners | Intermediate | Advanced', ARRAY['collabnix', 'sangam14'], '2022-02-24T21:06:05.080468+00:00'),
 (234798675, 12364, 800, 2, 0, 20.5, 'bevyengine/bevy', 'A refreshingly simple data-driven game engine built in Rust', ARRAY['cart', 'mockersf'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3525,8 +3525,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (397200443, 4, 0, 1, 0, 3, 'sidB67/CoVaccine', null, ARRAY['sidB67'], '2022-02-24T21:06:05.080468+00:00'),
 (397204262, 1127, 0, 1, 0, 7, 'jonaslejon/malicious-pdf', 'Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh', ARRAY['jonaslejon', 'tonyarris'], '2022-02-24T21:06:05.080468+00:00'),
 (397494904, 2, 0, 1, 0, 7, 'Borrus-sudo/rapide-structs', 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
-(398016775, 116, 1, 1, 0, 6, 'fireship-io/wavy-curvey-blobby-website', 'A website design with lots of waves, curves, a blobs', ARRAY['codediodeio'], '2022-02-24T21:06:05.080468+00:00'),
 (397812789, 284, 0, 1, 0, 9, 'zuramai/starback.js', 'Create a beautiful star falling background with starback.js', ARRAY['zuramai', 'dicka88'], '2022-02-24T21:06:05.080468+00:00'),
+(398016775, 116, 1, 1, 0, 6, 'fireship-io/wavy-curvey-blobby-website', 'A website design with lots of waves, curves, a blobs', ARRAY['codediodeio'], '2022-02-24T21:06:05.080468+00:00'),
 (398039380, 14, 2, 1, 0, 20, 'vasspilka/bank', 'Sample Bank application used for my 2021 ElixirConf presentation', ARRAY['vasspilka'], '2022-02-24T21:06:05.080468+00:00'),
 (398337342, 1, 0, 1, 0, 2, 'Steffen911/license-checker-action', 'Run license-checker via GitHub Actions', ARRAY['Steffen911'], '2022-02-24T21:06:05.080468+00:00'),
 (398345592, 1, 0, 1, 0, 24, '3mer3wadh/CustomUI', 'Trying to create nice UI with xamarin forms ', ARRAY['3mer3wadh'], '2022-02-24T21:06:05.080468+00:00'),
