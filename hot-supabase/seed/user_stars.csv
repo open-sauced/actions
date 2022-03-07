@@ -4236,6 +4236,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 354119247,6935431,13855476,29,46,27068,go-gorm/gorm,"The fantastic ORM library for Golang, aims to be developer friendly","{jinzhu,emirb}",2022-02-24T21:07:34.596111
 379993090,57826091,135786093,29,2,32045,typescript-cheatsheets/react,Cheatsheets for experienced React developers getting started with TypeScript,"{sw-yx,eps1lon}",2022-02-24T21:07:34.596111
 403681762,203683,118986156,29,1,12,myoung34/docker-jenkins,,{myoung34},2022-02-24T21:07:34.596111
+447732936,3941856,263146261,29,16,1941,MaggieAppleton/digital-gardeners,"Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs","{MaggieAppleton,theianjones}",2022-02-24T21:07:34.596111
 381361156,72279316,109887187,28,128,866,danthareja/contribute-to-open-source,Learn the GitHub workflow by contributing code in a fun simulation project ,{danthareja},2022-02-24T21:07:34.596111
 356891260,1884246,133969505,29,14,111,wessberg/Polyfiller,Never worry about polyfills again.,"{wessberg,tommedema}",2022-02-24T21:07:34.596111
 313760653,3037127,2349728,25,127,9454,pockethub/PocketHub,PocketHub Android App,"{kevinsawicki,Meisolsson}",2022-02-24T21:07:34.596111
@@ -4248,7 +4249,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 353955008,53687927,345420003,29,0,1,dwaipayan05/android-gif-drawable,Views and Drawable for displaying animated GIFs on Android,"{koral--,os97673}",2022-02-24T21:07:34.596111
 381465486,5842360,47419579,29,32,265,andreasgrill/auto-selfcontrol,Small utility to schedule start and stop times of SelfControl,"{andreasgrill,sbibauw}",2022-02-24T21:07:34.596111
 353859750,19475228,5575055,27,130,714,restforce/restforce,A Ruby client for the Salesforce REST API.,"{ejholmes,timrogers}",2022-02-24T21:07:34.596111
-447732936,3941856,263146261,29,16,1940,MaggieAppleton/digital-gardeners,"Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs","{MaggieAppleton,theianjones}",2022-02-24T21:07:34.596111
 312341626,9935383,13900913,14,51,18047,dracula/dracula-theme,🧛🏻‍♂️ One theme. All platforms.,"{zenorocha,heinst}",2022-02-24T21:07:34.596111
 379761757,4247126,196662111,9,0,2,mdb1710/mnmlurl,🔗 Modern URL shortener with support for custom alias,"{liyasthomas,mdb1710}",2022-02-24T21:07:34.596111
 278088103,5467696,257665403,29,26,445,google/triage-party,🎉 Triage Party: massively multi-player GitHub triage 🎉,"{tstromberg,vavilen84}",2022-02-24T21:07:34.596111
@@ -4262,6 +4262,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 377924746,14868216,802006,29,170,7795,mediaelement/mediaelement,"HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.","{johndyer,rafa8626}",2022-02-24T21:07:34.596111
 434506268,45293863,300313988,29,1,40,cyberpartizans/face_recognition,,"{allyouneediscv,feanor-on-fire}",2022-02-24T21:07:34.596111
 400276715,10235902,152145851,1,0,2,rlnx/cpp-course-ffs,Materials on practical C++ course for foreign students,{rlnx},2022-02-24T21:07:34.596111
+435647165,23166349,164225648,29,0,757,David-VTUK/CKA-StudyGuide,Study guide for the CKA exam,"{David-VTUK,chipzoller}",2022-02-24T21:07:34.596111
 422464827,505751,24594933,29,57,5136,Unleash/unleash,Unleash is the open source feature toggle service.,"{ivarconr,thomasheartman}",2022-02-24T21:07:34.596111
 359953680,3777549,3984904,29,0,17,jgillman/dotfiles,jgillman's special collection of configs,{jgillman},2022-02-24T21:07:34.596111
 378546253,18013532,191051391,29,293,11104,redwoodjs/redwood,The App Framework for Startups,"{peterp,thedavidprice}",2022-02-24T21:07:34.596111
@@ -4279,7 +4280,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 400776511,24352546,202291859,2,552,12089,chatwoot/chatwoot,"Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬","{pranavrajs,sojan-official}",2022-02-24T21:07:34.596111
 402886161,29004466,37860317,29,448,1392,TASVideos/BizHawk,"BizHawk is a multi-system emulator written in C#.  BizHawk provides nice features for casual gamers such as full screen, and joypad support in addition to full rerecording and debugging tools for all system cores.  ","{adelikat,zeromus}",2022-02-24T21:07:34.596111
 358576983,527550,4449421,29,4,670,karmi/elasticsearch-paramedic,A simple tool to inspect the state and statistics about ElasticSearch clusters,"{karmi,walokra}",2022-02-24T21:07:34.596111
-435647165,23166349,164225648,29,0,756,David-VTUK/CKA-StudyGuide,Study guide for the CKA exam,"{David-VTUK,chipzoller}",2022-02-24T21:07:34.596111
 401824794,65249694,3678731,12,287,60590,webpack/webpack,"A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ""loaders"", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.","{sokra,timse}",2022-02-24T21:07:34.596111
 403088539,37635083,400898185,0,0,1,NsdHSO/storybook,"📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!","{shilman,ndelangen}",2022-02-24T21:07:34.596111
 403571490,46643864,202445312,1,45,2103,open-wa/wa-automate-nodejs, 💬 🤖  The most reliable WhatsApp tool for chatbots with advanced features. Be sure to 🌟 this repository for updates! ,"{smashah,danielcardeenas}",2022-02-24T21:07:34.596111
@@ -4290,11 +4290,12 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 422280843,289882,661127,22,0,2,lhanson/tomcookery,A social recipe website.,"{lhanson,gwincr11}",2022-02-24T21:07:34.596111
 259232283,10012151,18442377,8,0,13482,lewagon/dotfiles,Default configuration for Le Wagon's students,"{ssaunier,dmilon}",2022-02-24T21:07:34.596111
 353169129,72912813,214587193,0,263,29301,supabase/supabase,The open source Firebase alternative. Follow to stay updated about our public Beta.,"{kiwicopple,MildTomato}",2022-02-24T21:07:34.596111
+451044473,11589902,38547977,0,1,1,nifemim/MosaicPlus,Just a repo to set up the website.,"{charlesinjoroge,sarasolano}",2022-02-24T21:07:34.596111
 306906348,4199845,190091795,29,19,4369,kylelobo/The-Documentation-Compendium,📢 Various README templates & tips on writing high-quality documentation that people want to read.,"{kylelobo,albertomosconi}",2022-02-24T21:07:34.596111
 353295436,22620727,286080143,29,49,9353,upptime/upptime,"⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages","{upptime-bot,pabio-escobar}",2022-02-24T21:07:34.596111
-442470627,24606613,6106472,8,14,1279,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{survivingwithandroid},2022-02-24T21:07:34.596111
 361357857,51794934,342191787,1,0,23,LambdaSchool/build-week-scaffolding-node,,{Ladrillo},2022-02-24T21:07:34.596111
 398740147,34394719,250355030,29,0,314,schneefux/vscode-winddown,VS Code extension that encourages you to take a break.,{schneefux},2022-02-24T21:07:34.596111
+442470627,24606613,6106472,8,14,1279,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{survivingwithandroid},2022-02-24T21:07:34.596111
 398348178,39362365,15185110,17,20,403,timoxley/columnify,Create text-based columns suitable for console output. Supports cell wrapping.,"{timoxley,njhoffman}",2022-02-24T21:07:34.596111
 375776088,3340406,219294494,29,11,3157,xxh/xxh,🚀 Bring your favorite shell wherever you go through the ssh.,"{anki-code,drmikecrowe}",2022-02-24T21:07:34.596111
 374469734,1228996,20619036,29,33,35292,pi-hole/pi-hole,A black hole for Internet advertisements,"{DL6ER,PromoFaux}",2022-02-24T21:07:34.596111
@@ -4308,7 +4309,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 353272785,46935495,193761872,3,0,3,fireworks-world/SplashScreen_Animation,Android Traing Practicals,"{saha2201,fireworks-world}",2022-02-24T21:07:34.596111
 382194702,7860023,32280638,8,4,1878,bonigarcia/webdrivermanager,Automated driver management and Docker builder for Selenium WebDriver,"{bonigarcia,altus34}",2022-02-24T21:07:34.596111
 352793229,22655167,126813008,29,0,832,mobz/lag-radar,Trace frame rate lag with a sexy performance radar,"{mobz,andywer}",2022-02-24T21:07:34.596111
-451044473,11589902,38547977,0,1,1,nifemim/MosaicPlus,Just a repo to set up the website.,"{charlesinjoroge,sarasolano}",2022-02-24T21:07:34.596111
 375762962,11777161,25304276,29,127,127,poliva/pyqtggpo,"Cross platform (Linux, MacOSX, Windows) GUI client for FightCade","{poliva,doctorguile}",2022-02-24T21:07:34.596111
 215550527,1930729,202787876,29,197,11714,Rigellute/spotify-tui,Spotify for the terminal written in Rust 🚀,"{Rigellute,jfaltis}",2022-02-24T21:07:34.596111
 275257239,14043845,38131381,29,6,626,SupremeTechnopriest/react-idle-timer,User activity timer component,{SupremeTechnopriest},2022-02-24T21:07:34.596111
@@ -4382,25 +4382,25 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 364454628,13490604,216099642,29,24,26,EvanBacon/react-native-ink,React Native for CLIs,{EvanBacon},2022-02-24T21:07:34.596111
 359508510,36890230,114416028,8,0,4,datadesk/audiogram,Turn audio into a shareable video.,"{veltman,palewire}",2022-02-24T21:07:34.596111
 445282270,31227151,134042266,2,9,1030,HackerPoet/PySpace,GLSL Fractal Ray Marcher in Python,"{HackerPoet,brainfubar}",2022-02-24T21:07:34.596111
-444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{g-ben-wiz},2022-02-24T21:07:34.596111
+435800079,16268467,23083156,11,1024,76145,mui-org/material-ui,"MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{oliviertassinari,dmtrKovalenko}",2022-02-24T21:07:34.596111
 396048780,42749147,323663755,8,0,1,akobepeter/materializeProject,,{akobepeter},2022-02-24T21:07:34.596111
 386705185,349523,902266,17,0,73,jamesshore/lets_play_tdd,Let's Play: Test-Driven Development,"{jamesshore,luontola}",2022-02-24T21:07:34.596111
 333601244,12292047,37205440,29,176,4417,dequelabs/axe-core,Accessibility engine for automated Web UI testing,"{WilcoFiers,straker}",2022-02-24T21:07:34.596111
+456471693,83277146,90528830,4,33,39638,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","{Solido,jogboms}",2022-02-24T21:07:34.596111
 375196206,57305940,54496479,29,119,213,ppb/pursuedpybear,A python game engine.,"{pathunstrom,AstraLuma}",2022-02-24T21:07:34.596111
 432242215,10951893,254660586,29,11,2022,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-24T21:07:34.596111
-457526756,74566464,400851369,29,1,539,lewis6991/impatient.nvim,Improve startup time for Neovim,"{lewis6991,clason}",2022-02-24T21:07:34.596111
+452754045,76665107,216936227,0,53,11,CodeForPhilly/paws-data-pipeline,PAWS Data Pipeline Project,"{c-simpson,urirot}",2022-02-24T21:07:34.596111
 407102326,4386534,15393566,29,34,5496,AriaMinaei/theatre,Motion design editor for the web,"{AriaMinaei,AndrewPrifer}",2022-02-24T21:07:34.596111
 452075032,22186029,337208358,29,0,14,abhisheknaiidu/abhisheknaidu-cli,The Abhishek Naidu CLI,{abhisheknaiidu},2022-02-24T21:07:34.596111
-450574015,3662109,334169919,29,21,1285,projectdiscovery/interactsh,An OOB interaction gathering server and client library,"{ehsandeep,Mzack9999}",2022-02-24T21:07:34.596111
+444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{g-ben-wiz},2022-02-24T21:07:34.596111
 444433367,656318,38612708,10,2,1,TeamTessie/tessietodo-static,Our static Tessie To-do App,"{tamacodechi,ShellyCoen}",2022-02-24T21:07:34.596111
-452754045,76665107,216936227,0,53,11,CodeForPhilly/paws-data-pipeline,PAWS Data Pipeline Project,"{c-simpson,urirot}",2022-02-24T21:07:34.596111
-455678420,6499373,36040894,24,343,52483,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-24T21:07:34.596111
+455678420,6499373,36040894,24,346,52487,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-24T21:07:34.596111
+455114859,24910512,61051155,29,24,1880,ulid/javascript,Universally Unique Lexicographically Sortable Identifier,"{alizain,jansenignacio}",2022-02-24T21:07:34.596111
 465040302,13867651,1834988,20,0,297,ropensci/rplos,R client for the PLoS Journals API,"{sckott,cboettig}",2022-03-02T08:24:04.205351
 320478294,33148009,113267532,29,2,56,mjackson/dotfiles,My dotfiles,{mjackson},2022-02-24T21:07:34.596111
-435800079,16268467,23083156,11,1022,76135,mui-org/material-ui,"MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{oliviertassinari,dmtrKovalenko}",2022-02-24T21:07:34.596111
-456471693,83277146,90528830,4,38,39632,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","{Solido,jogboms}",2022-02-24T21:07:34.596111
+457526756,74566464,400851369,29,1,540,lewis6991/impatient.nvim,Improve startup time for Neovim,"{lewis6991,clason}",2022-02-24T21:07:34.596111
 407663252,35779241,4067434,29,219,2742,andialbrecht/sqlparse,A non-validating SQL parser module for Python,"{andialbrecht,vmuriart}",2022-02-24T21:07:34.596111
-436289040,61815862,7715820,29,67,8754,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
+436289040,61815862,7715820,29,67,8755,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
 349125611,237133,5405654,29,12,23621,pcottle/learnGitBranching,An interactive git visualization and tutorial. Aspiring students of git can use this app to educate and challenge themselves towards mastery of git!,"{pcottle,hong4rc}",2022-02-24T21:07:34.596111
 408029805,59651629,206410838,29,6,17982,google/eng-practices,Google's Engineering Practices documentation,"{code-health-devguide-copybara,adambender}",2022-02-24T21:07:34.596111
 408008691,45036724,61059364,29,38,667,metaverse/truss,Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.,"{adamryman,lelandbatey}",2022-02-24T21:07:34.596111
@@ -4409,19 +4409,19 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 359971541,28281924,361310,29,27,9528,teamcapybara/capybara,Acceptance test framework for web applications,"{twalpole,jnicklas}",2022-02-24T21:07:34.596111
 460725612,8200073,439686345,2,0,1,salindae25/frontend-challenges,frontend mentor challenges,{salindae25},2022-02-24T21:07:34.596111
 463772639,56942462,287081652,13,0,1,ugwustanley/search-countries,,{ugwustanley},2022-03-02T07:08:15.064056
-455114859,24910512,61051155,29,24,1880,ulid/javascript,Universally Unique Lexicographically Sortable Identifier,"{alizain,jansenignacio}",2022-02-24T21:07:34.596111
+450574015,3662109,334169919,29,24,1286,projectdiscovery/interactsh,An OOB interaction gathering server and client library,"{ehsandeep,Mzack9999}",2022-02-24T21:07:34.596111
 408003690,1305623,51270739,29,58,19916,viatsko/awesome-vscode,🎨 A curated list of delightful VS Code packages and resources.,"{viatsko,lannonbr}",2022-02-24T21:07:34.596111
 422278376,26007940,32883944,28,1,171,mcleonard/blog_posts,Blog posts for matatat.org,{mcleonard},2022-02-24T21:07:34.596111
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-24T21:07:34.596111
 391706360,25867172,18696257,29,15,9857,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-24T21:07:34.596111
 465036506,19359944,2515323,29,34,1532,liip/LiipImagineBundle,Symfony Bundle to assist in imagine manipulation using the imagine library,"{lsmith77,makasim}",2022-03-02T08:10:40.488726
-429224238,1645545,81075897,29,47,254,SciML/Catalyst.jl,"Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software","{isaacsas,TorkelE}",2022-02-24T21:07:34.596111
 396048872,60254117,365976998,29,0,2,udberg/Weather-App,This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.,{udberg},2022-02-24T21:07:34.596111
+429224238,1645545,81075897,29,47,254,SciML/Catalyst.jl,"Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software","{isaacsas,TorkelE}",2022-02-24T21:07:34.596111
 417311106,71297412,55631449,29,98,2168,jamstack/jamstack.org,The official Jamstack site,"{philhawksworth,zachleat}",2022-02-24T21:07:34.596111
 418672791,20727421,218282453,29,11,3026,saadpasta/developerFolio,🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.,"{saadpasta,kartikcho}",2022-02-24T21:07:34.596111
-456168834,5381468,167560012,29,52,289,hibernate/hibernate-reactive,"A reactive API for Hibernate ORM, supporting non-blocking database drivers and a reactive style of interaction with the database.","{gavinking,DavideD}",2022-02-24T21:07:34.596111
 382468183,8037469,172741073,29,376,19735,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-24T21:07:34.596111
 399559931,30369246,21405028,29,2,10287,ardanlabs/gotraining,Go Training Class Material : ,"{ardan-bkennedy,jcbwlkr}",2022-02-24T21:07:34.596111
+456168834,5381468,167560012,29,52,289,hibernate/hibernate-reactive,"A reactive API for Hibernate ORM, supporting non-blocking database drivers and a reactive style of interaction with the database.","{gavinking,DavideD}",2022-02-24T21:07:34.596111
 348380714,1645628,18609427,29,364,13023,tc39/ecma262,"Status, process, and documents for ECMA-262","{jmdyck,anba}",2022-02-24T21:07:34.596111
 330475048,61131314,31792824,29,10495,137171,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"{engine-flutter-autoroll,abarth}",2022-02-24T21:07:34.596111
 465760174,60147716,110375203,29,0,9,arindam-modak/YRASS-Media-Player,"YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.","{arindam-modak,yash-1998}",2022-03-05T03:05:44.386164
