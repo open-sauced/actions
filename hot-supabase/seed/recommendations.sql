@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-06T22:43:29.439Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T01:02:25.570Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3157,8 +3157,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (350831642, 1172, 1, 1, 0, 4, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-24T21:06:05.080468+00:00'),
 (350874478, 350, 2, 1, 0, 0, 'notrab/headless-dropshipping-starter', 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ARRAY['renovate-bot', 'notrab'], '2022-02-24T21:06:05.080468+00:00'),
 (351005162, 55, 1, 1, 0, 8, 'salvatoreraccardi/OBJEX_LINK', 'OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle.', ARRAY['salvatoreraccardi', 'Vetozz'], '2022-02-24T21:06:05.080468+00:00'),
-(351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-24T21:06:05.080468+00:00'),
 (351087635, 8, 1, 1, 0, 1, 'samuelkraft/routes', 'Trail Routes - Curated running & hiking trails in Sweden', ARRAY['samuelkraft'], '2022-02-24T21:06:05.080468+00:00'),
+(351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-24T21:06:05.080468+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-24T21:06:05.080468+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-24T21:06:05.080468+00:00'),
 (351728562, 2, 0, 1, 0, 9, 'lukeocodes/nuxt-contentful-starter', 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ARRAY['lukeocodes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3524,8 +3524,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (397149117, 2, 0, 1, 0, 13, 'BolajiAyodeji/iris_visualization', 'Some data visualization techniques practice on the Iris dataset with R.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
 (397200443, 4, 0, 1, 0, 3, 'sidB67/CoVaccine', null, ARRAY['sidB67'], '2022-02-24T21:06:05.080468+00:00'),
 (397204262, 1127, 0, 1, 0, 7, 'jonaslejon/malicious-pdf', 'Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh', ARRAY['jonaslejon', 'tonyarris'], '2022-02-24T21:06:05.080468+00:00'),
-(397494904, 2, 0, 1, 0, 7, 'Borrus-sudo/rapide-structs', 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (397812789, 284, 0, 1, 0, 9, 'zuramai/starback.js', 'Create a beautiful star falling background with starback.js', ARRAY['zuramai', 'dicka88'], '2022-02-24T21:06:05.080468+00:00'),
+(397494904, 2, 0, 1, 0, 7, 'Borrus-sudo/rapide-structs', 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (398016775, 116, 1, 1, 0, 6, 'fireship-io/wavy-curvey-blobby-website', 'A website design with lots of waves, curves, a blobs', ARRAY['codediodeio'], '2022-02-24T21:06:05.080468+00:00'),
 (398039380, 14, 2, 1, 0, 20, 'vasspilka/bank', 'Sample Bank application used for my 2021 ElixirConf presentation', ARRAY['vasspilka'], '2022-02-24T21:06:05.080468+00:00'),
 (398337342, 1, 0, 1, 0, 2, 'Steffen911/license-checker-action', 'Run license-checker via GitHub Actions', ARRAY['Steffen911'], '2022-02-24T21:06:05.080468+00:00'),
