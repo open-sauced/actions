@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T01:02:25.570Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T02:50:44.509Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3524,8 +3524,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (397149117, 2, 0, 1, 0, 13, 'BolajiAyodeji/iris_visualization', 'Some data visualization techniques practice on the Iris dataset with R.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
 (397200443, 4, 0, 1, 0, 3, 'sidB67/CoVaccine', null, ARRAY['sidB67'], '2022-02-24T21:06:05.080468+00:00'),
 (397204262, 1127, 0, 1, 0, 7, 'jonaslejon/malicious-pdf', 'Generate a bunch of malicious pdf files with phone-home functionality. Can be used with Burp Collaborator or Interact.sh', ARRAY['jonaslejon', 'tonyarris'], '2022-02-24T21:06:05.080468+00:00'),
-(397812789, 284, 0, 1, 0, 9, 'zuramai/starback.js', 'Create a beautiful star falling background with starback.js', ARRAY['zuramai', 'dicka88'], '2022-02-24T21:06:05.080468+00:00'),
 (397494904, 2, 0, 1, 0, 7, 'Borrus-sudo/rapide-structs', 'A tiny minimalistic express boiler plate generator which aims at generating express boiler plate very fast by introducing easy to use syntax', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
+(397812789, 284, 0, 1, 0, 9, 'zuramai/starback.js', 'Create a beautiful star falling background with starback.js', ARRAY['zuramai', 'dicka88'], '2022-02-24T21:06:05.080468+00:00'),
 (398016775, 116, 1, 1, 0, 6, 'fireship-io/wavy-curvey-blobby-website', 'A website design with lots of waves, curves, a blobs', ARRAY['codediodeio'], '2022-02-24T21:06:05.080468+00:00'),
 (398039380, 14, 2, 1, 0, 20, 'vasspilka/bank', 'Sample Bank application used for my 2021 ElixirConf presentation', ARRAY['vasspilka'], '2022-02-24T21:06:05.080468+00:00'),
 (398337342, 1, 0, 1, 0, 2, 'Steffen911/license-checker-action', 'Run license-checker via GitHub Actions', ARRAY['Steffen911'], '2022-02-24T21:06:05.080468+00:00'),

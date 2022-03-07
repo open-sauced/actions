@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T01:02:25.978Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-07T02:50:44.270Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3527,9 +3527,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3528, 1368727, 307916666, 22, 0, 1, 'heyheyhello/esbuild-macros', 'Porting the ideas of babel-plugin-macro over to esbuild', ARRAY['heyheyhello'], '2022-02-24T21:07:34.596111'),
 (3529, 1368727, 383584024, 23, 0, 88, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:07:34.596111'),
 (3530, 1368727, 423179172, 24, 0, 0, 'thlorenz/v8-snapshot', 'Tool to create a snapshot for Electron applications.', ARRAY['thlorenz'], '2022-02-24T21:07:34.596111'),
+(3531, 1368727, 338335614, 25, 15, 121, 'leafac/caxa', '📦 Package Node.js applications into executable binaries 📦', ARRAY['leafac', 'maxb2'], '2022-02-24T21:07:34.596111'),
 (3532, 1368727, 154178913, 26, 11, 29, 'wazo-platform/wazo-react-native-demo', 'A simple demonstration of Wazo''s SDK with React Native', ARRAY['manuquentin'], '2022-02-24T21:07:34.596111'),
 (3533, 1368727, 160834617, 27, 144, 572, 'react-native-webrtc/react-native-callkeep', 'iOS CallKit framework and Android ConnectionService for React Native', ARRAY['manuquentin', 'ianlin'], '2022-02-24T21:07:34.596111'),
-(3531, 1368727, 338335614, 25, 15, 121, 'leafac/caxa', '📦 Package Node.js applications into executable binaries 📦', ARRAY['leafac', 'maxb2'], '2022-02-24T21:07:34.596111'),
 (3534, 1368727, 340402576, 28, 123, 1860, 'mrousavy/react-native-vision-camera', '📸 The Camera library that sees the vision.', ARRAY['mrousavy', 'Simek'], '2022-02-24T21:07:34.596111'),
 (3535, 1368727, 11220178, 29, 25, 4518, 'redecentralize/alternative-internet', 'A collection of interesting new networks and tech aiming at decentralisation (in some form).', ARRAY['rossjones', 'traviscibot'], '2022-02-24T21:07:34.596111'),
 (3536, 1033332, 22119721, 0, 14, 38201, 'k88hudson/git-flight-rules', 'Flight rules for git', ARRAY['RichardLitt', 'simaki'], '2022-02-24T21:07:34.596111'),
