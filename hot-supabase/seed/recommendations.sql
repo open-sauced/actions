@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T08:44:48.371Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T10:44:03.209Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -28,11 +28,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (189840, 13178, 429, 1, 0, 19, 'fabric/fabric', 'Simple, Pythonic remote execution and deployment.', ARRAY['bitprophet', 'davidjmemmett'], '2022-02-24T21:06:05.080468+00:00'),
 (206084, 27409, 0, 1, 0, 26, 'Homebrew/legacy-homebrew', '💀 The former home of Homebrew/homebrew (deprecated)', ARRAY['jacknagel', 'adamv'], '2022-02-24T21:06:05.080468+00:00'),
 (206483, 2881, 66, 1, 0, 17, 'apache/maven', 'Apache Maven core', ARRAY['jvanzyl', 'brettporter'], '2022-02-24T21:06:05.080468+00:00'),
+(238972, 1094, 63, 1, 0, 18, 'rspec/rspec-core', 'RSpec runner and formatters', ARRAY['myronmarston', 'dchelimsky'], '2022-02-24T21:06:05.080468+00:00'),
 (211666, 34790, 571, 1, 0, 9, 'nodejs/node-v0.x-archive', 'Moved to https://github.com/nodejs/node', ARRAY['orangemocha', 'refack'], '2022-02-24T21:06:05.080468+00:00'),
+(238983, 1048, 61, 1, 0, 20, 'rspec/rspec-mocks', 'RSpec''s ''test double'' framework, with support for stubbing and mocking', ARRAY['myronmarston', 'JonRowe'], '2022-02-24T21:06:05.080468+00:00'),
 (236571, 13753, 95, 1, 0, 15, 'rupa/z', 'z - jump around', ARRAY['rupa', 'ericbn'], '2022-02-24T21:06:05.080468+00:00'),
 (237159, 55408, 156, 1, 0, 4, 'expressjs/express', 'Fast, unopinionated, minimalist web framework for node.', ARRAY['tj', 'dougwilson'], '2022-02-24T21:06:05.080468+00:00'),
-(238972, 1094, 63, 1, 0, 18, 'rspec/rspec-core', 'RSpec runner and formatters', ARRAY['myronmarston', 'dchelimsky'], '2022-02-24T21:06:05.080468+00:00'),
-(238983, 1048, 61, 1, 0, 20, 'rspec/rspec-mocks', 'RSpec''s ''test double'' framework, with support for stubbing and mocking', ARRAY['myronmarston', 'JonRowe'], '2022-02-24T21:06:05.080468+00:00'),
 (242316, 56, 0, 1, 0, 16, 'morgoth/alexa', 'Alexa Web Information Service', ARRAY['morgoth', 'jasongill'], '2022-02-24T21:06:05.080468+00:00'),
 (270054, 1900, 111, 1, 0, 13, 'ffi/ffi', 'Ruby FFI', ARRAY['larskanis', 'tduehr'], '2022-02-24T21:06:05.080468+00:00'),
 (275604, 9036, 58, 1, 0, 19, 'resque/resque', 'Resque is a Redis-backed Ruby library for creating background jobs, placing them on multiple queues, and processing them later.', ARRAY['defunkt', 'steveklabnik'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2994,9 +2994,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (327400204, 2, 0, 1, 0, 8, 'speijnik/myhome', 'Python library for interacting with MyHomeSERVER1', ARRAY['speijnik'], '2022-02-24T21:06:05.080468+00:00'),
 (327406312, 562, 1, 1, 0, 16, 'tailwindlabs/tailwindcss-line-clamp', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-24T21:06:05.080468+00:00'),
 (327443948, 13, 3, 1, 0, 22, 'zkoppert/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'sicot-f'], '2022-02-24T21:06:05.080468+00:00'),
-(327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-24T21:06:05.080468+00:00'),
 (327682962, 123, 25, 1, 0, 7, 'google/season-of-docs', 'Supporting materials for Google''s Season of Docs 2021', ARRAY['emckean', 'Srabasti'], '2022-02-24T21:06:05.080468+00:00'),
 (328070675, 1, 1, 1, 0, 28, 'MattMarquise/open-sauced-goals', null, ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
+(327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-24T21:06:05.080468+00:00'),
 (328121260, 1665, 2, 1, 0, 5, 'timlrx/tailwind-nextjs-starter-blog', 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', ARRAY['timlrx', 'Music47ell'], '2022-02-24T21:06:05.080468+00:00'),
 (328584124, 73, 0, 1, 0, 19, 'mdbootstrap/mdb4-vue-ui-kit', 'Vue Bootstrap with Material Design - Powerful and free UI KIT', ARRAY['marlucz', 'bwsky-a'], '2022-02-24T21:06:05.080468+00:00'),
 (328831244, 18508, 57, 1, 0, 3, 'ibraheemdev/modern-unix', 'A collection of modern/faster/saner alternatives to common unix commands.', ARRAY['ibraheemdev', 'hderms'], '2022-02-24T21:06:05.080468+00:00'),
