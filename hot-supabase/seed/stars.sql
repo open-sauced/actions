@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T01:02:16.397Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T02:48:37.235Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -563,9 +563,9 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (431928942, 1, 0, 0, 'SVD6/Personal-Site', '2022-02-24T21:07:06.457173+00:00'),
 (102664411, 1312, 4, 119, 'alinebastos/dev-practice', '2022-02-24T21:07:06.457173+00:00'),
 (311525798, 41632, 9, 6146, 'microsoft/Web-Dev-For-Beginners', '2022-02-24T21:07:06.457173+00:00'),
-(145464445, 14431, 115, 1315, 'ueberdosis/tiptap', '2022-02-24T21:07:06.457173+00:00'),
 (70137417, 3817, 160, 1060, 'corda/corda', '2022-02-24T21:07:06.457173+00:00'),
 (389731072, 51, 0, 2, 'mikeckennedy/jinja_partials', '2022-02-24T21:07:06.457173+00:00'),
+(145464445, 14431, 115, 1315, 'ueberdosis/tiptap', '2022-02-24T21:07:06.457173+00:00'),
 (202890778, 24409, 140, 2109, 'chakra-ui/chakra-ui', '2022-02-24T21:07:06.457173+00:00'),
 (151391977, 55, 6, 5, 'Badmuts/aula', '2022-02-24T21:07:06.457173+00:00'),
 (83716883, 7095, 28, 1765, 'ngrx/platform', '2022-02-24T21:07:06.457173+00:00'),
