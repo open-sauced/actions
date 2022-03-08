@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T06:46:25.591Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T08:44:48.371Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1912,9 +1912,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175425051, 2523, 359, 1, 0, 2, 'kumahq/kuma', '🐻 The Universal Service Mesh. CNCF Sandbox Project.', ARRAY['yskopets', 'jakubdyszkiewicz'], '2022-02-24T21:06:05.080468+00:00'),
 (175565742, 3, 0, 1, 0, 20, 'BaseMax/NumbersToWordsPHP', 'Tiny library to convert numbers to words. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (175666043, 477, 93, 1, 0, 2, 'microsoft/vscode-edge-devtools', 'A VSCode extension that allows you to use browser devtools from within the editor. The devtools will connect to an instance of Microsoft Edge giving you the ability to alter CSS styling, perform diagnostics, and debugging. Get it now at http://aka.ms/devtools-for-code', ARRAY['mliao95', 'vidorteg'], '2022-02-24T21:06:05.080468+00:00'),
+(175681313, 744, 31, 1, 0, 13, 'joernio/joern', 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', ARRAY['fabsx00', 'mpollmeier'], '2022-02-24T21:06:05.080468+00:00'),
 (175685939, 47, 2, 1, 0, 11, 'JoonasN/Flutter-Speed-coding---Greenery-App', null, ARRAY['ivangn03'], '2022-02-24T21:06:05.080468+00:00'),
-(176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (176456339, 5, 3, 1, 0, 14, 'upgrad-edu/Solidity-Exercise-Solutions', null, ARRAY['upgrad-edu'], '2022-02-24T21:06:05.080468+00:00'),
+(176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-24T21:06:05.080468+00:00'),
+(176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (176946161, 198, 7, 1, 0, 6, 'sealedtx/java-youtube-downloader', 'Simple, almost zero-dependency java parser for retrieving youtube video metadata', ARRAY['sealedtx', 'poornerd'], '2022-02-24T21:06:05.080468+00:00'),
 (177033748, 2318, 172, 1, 0, 2, 'atlassian/changesets', '🦋       A way to manage your versioning and changelogs with a focus on monorepos', ARRAY['Noviny', 'mitchellhamilton'], '2022-02-24T21:06:05.080468+00:00'),
 (177420214, 1679, 37, 1, 0, 8, 'dosco/graphjin', 'GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.', ARRAY['dosco', 'frederikhors'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1922,8 +1924,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (177727387, 28, 0, 1, 0, 18, 'cizixs/awesome-raft', 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', ARRAY['cizixs', 'wenweihu86'], '2022-02-24T21:06:05.080468+00:00'),
 (178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-24T21:06:05.080468+00:00'),
-(176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-24T21:06:05.080468+00:00'),
-(175681313, 744, 31, 1, 0, 13, 'joernio/joern', 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', ARRAY['fabsx00', 'mpollmeier'], '2022-02-24T21:06:05.080468+00:00'),
 (178029799, 9, 0, 1, 0, 26, 'BaseMax/TinyShell', 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (178066495, 488, 1, 1, 0, 20, 'world-class/REPL', 'The Learning Hub for UoL''s Online CS Students', ARRAY['sglavoie', 'actions-user'], '2022-02-24T21:06:05.080468+00:00'),
 (178137889, 3, 0, 2, 0, 0, 'mpsalisbury/raytracer', 'Ray Tracer from Ray Tracer Challenge', ARRAY['mpsalisbury'], '2022-02-24T21:06:05.080468+00:00'),
