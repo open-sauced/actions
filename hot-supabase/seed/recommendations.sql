@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T18:45:58.231Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T20:43:20.874Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -943,9 +943,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (56471910, 65, 0, 1, 0, 8, 'nathanchapman/mayonnaise.js', '🎺  Fake data generator for JS, courtesy of Patrick Star', ARRAY['nathanchapman', 'YoshGuenther'], '2022-02-24T21:06:05.080468+00:00'),
 (56549856, 101, 13, 2, 0, 6, 'fennifith/Pasta-for-Spotify', 'A material design Spotify client for Android', ARRAY['fennifith', 'TheAndroidMaster'], '2022-02-24T21:06:05.080468+00:00'),
 (56717493, 28904, 18, 1, 0, 13, 'joshbuchea/HEAD', 'A simple guide to HTML <head> elements', ARRAY['joshbuchea', 'scottaohara'], '2022-02-24T21:06:05.080468+00:00'),
-(56791509, 745, 3, 1, 0, 26, 'andrzejchm/RESTMock', 'HTTP Server for Android Instrumentation tests', ARRAY['andrzejchm', 'jwir3'], '2022-02-24T21:06:05.080468+00:00'),
 (56894212, 4635, 33, 1, 0, 4, 'jvm-profiling-tools/async-profiler', 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', ARRAY['apangin', 'incubos'], '2022-02-24T21:06:05.080468+00:00'),
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-24T21:06:05.080468+00:00'),
+(56791509, 745, 3, 1, 0, 26, 'andrzejchm/RESTMock', 'HTTP Server for Android Instrumentation tests', ARRAY['andrzejchm', 'jwir3'], '2022-02-24T21:06:05.080468+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-24T21:06:05.080468+00:00'),
 (57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
 (57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
