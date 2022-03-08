@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T14:43:19.088Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T16:50:40.597Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2000,8 +2000,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (188450833, 130, 7, 1, 0, 3, 'jkettmann/graphql-passport', 'Strategy and utilities to use passport.js with GraphQL server', ARRAY['jkettmann', 'gforge'], '2022-02-24T21:06:05.080468+00:00'),
 (188660663, 32215, 57, 1, 0, 13, 'CorentinJ/Real-Time-Voice-Cloning', 'Clone a voice in 5 seconds to generate arbitrary speech in real-time', ARRAY['CorentinJ', 'alexpeattie'], '2022-02-24T21:06:05.080468+00:00'),
 (188710490, 1646, 73, 1, 0, 20, 'davidteather/TikTok-Api', 'The Unofficial TikTok API Wrapper In Python', ARRAY['davidteather', 'hoylemd'], '2022-02-24T21:06:05.080468+00:00'),
-(188897728, 22, 37, 1, 0, 14, 'csinn/CSInn', 'C# Inn community website.', ARRAY['Almantask', 'HelloWorld183L'], '2022-02-24T21:06:05.080468+00:00'),
 (189098079, 105, 2, 1, 0, 4, 'lmammino/streams-workshop', 'A workshop on Node.js Streams', ARRAY['lmammino', 'brian-childress'], '2022-02-24T21:06:05.080468+00:00'),
+(188897728, 22, 37, 1, 0, 14, 'csinn/CSInn', 'C# Inn community website.', ARRAY['Almantask', 'HelloWorld183L'], '2022-02-24T21:06:05.080468+00:00'),
 (189215607, 74, 0, 1, 0, 12, 'bzg/opensource-challenges', 'A list of resources to think about free software and open source challenges', ARRAY['bzg', 'sebastianbergmann'], '2022-02-24T21:06:05.080468+00:00'),
 (189282896, 5142, 32, 1, 0, 13, 'wesbos/beginner-javascript', 'Slam Dunk JavaScript', ARRAY['Asjas', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
 (189470052, 137, 146, 1, 0, 13, 'thundernest/import-export-tools-ng', 'Import Export Tools that supports Thunderbird 68/78.', ARRAY['cleidigh', 'jobisoft'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
-(426820139, 42, 11, 1, 8, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
-(177736533, 260255, 16833, 1, -1, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00');
+(177736533, 260255, 16833, 1, -1, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
+(426820139, 42, 11, 1, 10, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00');

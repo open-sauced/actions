@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T14:43:19.017Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-08T16:50:40.789Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -63,4 +63,5 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (9, 163561, '11ty/eleventy', '163561-11ty/eleventy', '2022-03-01T19:10:34.559073+00:00'),
 (11, 163561, 'open-sauced/hot', '163561-open-sauced/hot', '2022-03-01T19:42:12.000989+00:00'),
 (12, 163561, 'vitejs/vite', '163561-vitejs/vite', '2022-03-01T19:42:19.233352+00:00'),
-(52, 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced', '2022-01-16T10:02:51.693585+00:00');
+(52, 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced', '2022-01-16T10:02:51.693585+00:00'),
+(21, 7222344, 'open-sauced/hot', '7222344-open-sauced/hot', '2022-03-08T16:08:52.097372+00:00');
