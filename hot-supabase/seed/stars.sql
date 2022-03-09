@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T01:02:45.394Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T02:51:22.423Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1445,9 +1445,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (326163394, 38, 0, 3, 'ceoshikhar/better-github', '2022-02-24T21:07:06.457173+00:00'),
 (79052338, 270, 2, 59, 'wikiti/pandoc-book-template', '2022-02-24T21:07:06.457173+00:00'),
 (66722341, 577, 8, 671, 'daviddarnes/alembic', '2022-02-24T21:07:06.457173+00:00'),
-(334417379, 441, 2, 31, 'charliegerard/gaze-detection', '2022-02-24T21:07:06.457173+00:00'),
-(238537897, 31, 7, 0, 'michal-wrzosek/cntl', '2022-02-24T21:07:06.457173+00:00'),
-(269822028, 7, 17, 2, 'ngduc/rails-react-typescript-jest', '2022-02-24T21:07:06.457173+00:00'),
 (140059059, 146, 5, 40, 'ohbarye/rails-react-typescript-docker-example', '2022-02-24T21:07:06.457173+00:00'),
 (54226191, 5047, 0, 283, 'JanDeDobbeleer/oh-my-posh2', '2022-02-24T21:07:06.457173+00:00'),
 (259556924, 187, 6, 53, 'cassidoo/next-netlify-blog-starter', '2022-02-24T21:07:06.457173+00:00'),
@@ -1511,7 +1508,10 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (225442835, 14, 0, 14, 'caderek/aoc-starter-ts', '2022-02-24T21:07:06.457173+00:00'),
 (291055052, 614, 193, 788, 'OpenSourceTogether/Hacktoberfest-2020', '2022-02-24T21:07:06.457173+00:00'),
 (311916226, 1817, 103, 112, 'TeamPiped/Piped', '2022-02-24T21:07:06.457173+00:00'),
+(334417379, 441, 2, 31, 'charliegerard/gaze-detection', '2022-02-24T21:07:06.457173+00:00'),
+(238537897, 31, 7, 0, 'michal-wrzosek/cntl', '2022-02-24T21:07:06.457173+00:00'),
 (121424992, 847, 9, 63, 'twopluszero/next-images', '2022-02-24T21:07:06.457173+00:00'),
+(269822028, 7, 17, 2, 'ngduc/rails-react-typescript-jest', '2022-02-24T21:07:06.457173+00:00'),
 (23202799, 6760, 779, 1512, 'microsoft/cpprestsdk', '2022-02-24T21:07:06.457173+00:00'),
 (57239556, 1439, 37, 216, 'ngx-rocket/generator-ngx-rocket', '2022-02-24T21:07:06.457173+00:00'),
 (612230, 55824, 344, 5860, 'nvm-sh/nvm', '2022-02-24T21:07:06.457173+00:00'),
