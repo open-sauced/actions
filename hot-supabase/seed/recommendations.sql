@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T20:43:19.292Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T22:43:18.125Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2488,8 +2488,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (257854679, 414, 132, 1, 0, 26, 'DavHau/mach-nix', 'Create highly reproducible python environments', ARRAY['DavHau', 'tomprince'], '2022-02-24T21:06:05.080468+00:00'),
 (258012772, 1569, 46, 1, 0, 7, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-24T21:06:05.080468+00:00'),
 (258031644, 24, 0, 1, 0, 2, 'jhutchings1/thank-you-builder', null, ARRAY['jhutchings1', 'hmarr'], '2022-02-24T21:06:05.080468+00:00'),
-(258049460, 1081, 16, 1, 0, 27, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-24T21:06:05.080468+00:00'),
-(257485422, 35335, 771, 4, 4, 9.75, 'vitejs/vite', 'Next generation frontend tooling. It''s fast!', ARRAY['yyx990803', 'patak-dev'], '2022-02-24T21:06:05.080468+00:00'),
 (258254038, 542, 11, 1, 0, 6, 'hhhrrrttt222111/Ethical-Hacking-Tools', 'Complete Listing and Usage of Tools used for Ethical Hacking', ARRAY['hhhrrrttt222111', 'bettercalln1ck'], '2022-02-24T21:06:05.080468+00:00'),
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-24T21:06:05.080468+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2717,6 +2715,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (284951208, 277, 19, 1, 0, 14, 'Threagile/threagile', 'Agile Threat Modeling Toolkit', ARRAY['cschneider4711', 'scottbrown'], '2022-02-24T21:06:05.080468+00:00'),
 (285092252, 3927, 260, 1, 0, 9, 'serverless-stack/serverless-stack', '💥 SST makes it easy to build serverless apps. Set breakpoints and test your functions locally. https://serverless-stack.com', ARRAY['fwang', 'jayair'], '2022-02-24T21:06:05.080468+00:00'),
 (285135417, 3, 0, 1, 0, 29, 'erkrnt/sample-web-frameworks', 'This repo includes a variety of current frameworks and bundlers.', ARRAY['erkrnt'], '2022-02-24T21:06:05.080468+00:00'),
+(258049460, 1081, 16, 1, 0, 27, 'hashicorp/next-mdx-remote', 'Load mdx content from anywhere through getStaticProps in next.js', ARRAY['jescalan', 'BRKalow'], '2022-02-24T21:06:05.080468+00:00'),
+(257485422, 35335, 771, 4, 4, 9.75, 'vitejs/vite', 'Next generation frontend tooling. It''s fast!', ARRAY['yyx990803', 'patak-dev'], '2022-02-24T21:06:05.080468+00:00'),
 (285261414, 312, 2, 1, 0, 14, 'codrops/MagneticButtons', 'A set of buttons with a magnetic interaction and a hover effect.', ARRAY['botelho', 'crnacura'], '2022-02-24T21:06:05.080468+00:00'),
 (285504186, 356, 1, 1, 0, 6, 'didicodes/javascript-dev-bookmarks', 'A collection of articles that will help you get better at JavaScript.', ARRAY['didicodes', 'emmanuellar'], '2022-02-24T21:06:05.080468+00:00'),
 (285625792, 14, 1, 1, 0, 1, 'stripe-samples/connect-onboarding-for-express', 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ARRAY['kho-stripe', 'cjavilla-stripe'], '2022-02-24T21:06:05.080468+00:00'),
