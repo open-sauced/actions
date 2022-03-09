@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T12:51:07.333Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-09T14:43:24.410Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -998,8 +998,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (985, 46695719, 13840241, 7, 122, 27264, 'freeCodeCamp/devdocs', 'API Documentation Browser', ARRAY['Thibaut', 'simon04'], '2022-02-24T21:07:34.596111'),
 (986, 46695719, 76996763, 8, 35, 11633, 'piotrwitek/react-redux-typescript-guide', 'The complete guide to static typing in ''React & Redux'' apps using TypeScript', ARRAY['piotrwitek', 'sosukesuzuki'], '2022-02-24T21:07:34.596111'),
 (987, 46695719, 41881900, 9, 5351, 125674, 'microsoft/vscode', 'Visual Studio Code', ARRAY['bpasero', 'jrieken'], '2022-02-24T21:07:34.596111'),
-(988, 46695719, 49704723, 10, 116, 9521, 'okonet/lint-staged', '🚫💩 — Run linters on git staged files', ARRAY['okonet', 'iiroj'], '2022-02-24T21:07:34.596111'),
 (990, 46695719, 14370955, 12, 45, 32496, 'sahat/hackathon-starter', 'A boilerplate for Node.js web applications', ARRAY['sahat', 'YasharF'], '2022-02-24T21:07:34.596111'),
+(988, 46695719, 49704723, 10, 116, 9521, 'okonet/lint-staged', '🚫💩 — Run linters on git staged files', ARRAY['okonet', 'iiroj'], '2022-02-24T21:07:34.596111'),
 (991, 46695719, 19872456, 13, 63, 45467, 'remix-run/react-router', 'Declarative routing for React', ARRAY['mjackson', 'ryanflorence'], '2022-02-24T21:07:34.596111'),
 (992, 46695719, 90786246, 14, 203, 10850, 'microsoft/TypeScript-React-Starter', 'A starter template for TypeScript and React with a detailed README describing how to use the two together.', ARRAY['DanielRosenwasser', 'orta'], '2022-02-24T21:07:34.596111'),
 (993, 46695719, 6093316, 15, 722, 37131, 'DefinitelyTyped/DefinitelyTyped', 'The repository for high quality TypeScript type definitions.', ARRAY['vvakame', 'sandersn'], '2022-02-24T21:07:34.596111'),
@@ -3266,8 +3266,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3267, 35429278, 253458494, 28, 5, 131, 'bakkeby/patches', 'Collection of patches for dwm, st and dmenu', ARRAY['bakkeby'], '2022-02-24T21:07:34.596111'),
 (3268, 35429278, 373396052, 29, 2, 44, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (3269, 15004099, 138393139, 0, 63, 56104, 'trimstray/the-book-of-secret-knowledge', 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', ARRAY['trimstray', 'lbonanomi'], '2022-02-24T21:07:34.596111'),
-(3270, 15004099, 345038999, 1, 1, 1, 'brokorus/lilship', null, ARRAY['brokorus'], '2022-02-24T21:07:34.596111'),
 (4060, 29295102, 365466475, 1, 0, 3, 'DenisMirand4/Bot_Albion_Labour', null, ARRAY['DenisMirand4'], '2022-02-24T21:07:34.596111'),
+(3270, 15004099, 345038999, 1, 1, 1, 'brokorus/lilship', null, ARRAY['brokorus'], '2022-02-24T21:07:34.596111'),
 (3272, 15004099, 87873787, 3, 51, 665, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-24T21:07:34.596111'),
 (3273, 16259450, 286546354, 0, 64, 229, 'netlify/explorers', null, ARRAY['jlengstorf', 'bencodezen'], '2022-02-24T21:07:34.596111'),
 (3274, 16259450, 349213562, 1, 0, 22, 'cassidoo/next-context-example', 'Here''s an example of using React Context and useReducer with Next.js for state management.', ARRAY['cassidoo'], '2022-02-24T21:07:34.596111'),
