@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T01:03:34.685Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T02:55:01.706Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3538,8 +3538,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3539, 1033332, 28548699, 3, 2, 6193, 'cassidoo/getting-a-gig', 'Guide for getting a gig as a tech student.', ARRAY['cassidoo', 'dsouzarc'], '2022-02-24T21:07:34.596111'),
 (3540, 1033332, 279153765, 4, 2, 225, 'thmsgbrt/thmsgbrt', 'My awesome README.md', ARRAY['thmsgbrt', 'Devesh225'], '2022-02-24T21:07:34.596111'),
 (3541, 1033332, 44571718, 5, 30, 63460, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-24T21:07:34.596111'),
-(3543, 1033332, 348038429, 7, 2, 334, 'PrathamKumar14/CSS-Layout-Notes', 'HTML, CSS and JavaScript handwritten cheat sheets you💖', ARRAY['PrathamKumar14'], '2022-02-24T21:07:34.596111'),
 (3542, 1033332, 131340928, 6, 0, 86, 'jmkoni/interview-questions', 'My favorite questions to ask when I am being interviewed', ARRAY['jmkoni'], '2022-02-24T21:07:34.596111'),
+(3543, 1033332, 348038429, 7, 2, 334, 'PrathamKumar14/CSS-Layout-Notes', 'HTML, CSS and JavaScript handwritten cheat sheets you💖', ARRAY['PrathamKumar14'], '2022-02-24T21:07:34.596111'),
 (3544, 1033332, 311734871, 8, 32, 55, '10up/wp-scaffold', '10up WordPress project scaffold.', ARRAY['tlovett1', 'fabiankaegy'], '2022-02-24T21:07:34.596111'),
 (3545, 1033332, 285092252, 9, 260, 3927, 'serverless-stack/serverless-stack', '💥 SST makes it easy to build serverless apps. Set breakpoints and test your functions locally. https://serverless-stack.com', ARRAY['fwang', 'jayair'], '2022-02-24T21:07:34.596111'),
 (3546, 1033332, 248661350, 10, 24, 62, 'drewclem/protege', 'Remote jobs for junior developers', ARRAY['drewclem', 'pickleat'], '2022-02-24T21:07:34.596111'),
@@ -3719,6 +3719,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3720, 907680, 22091630, 8, 37, 255, 'RangeNetworks/OpenBTS-UMTS', '3G UMTS Data Radio Access Network Node', ARRAY['ttsou', 'iedemam'], '2022-02-24T21:07:34.596111'),
 (3721, 907680, 334274271, 9, 321, 4265, 'opensearch-project/OpenSearch', '🔎 Open source distributed and RESTful search engine.', ARRAY['kimchy', 's1monw'], '2022-02-24T21:07:34.596111'),
 (3722, 907680, 9405122, 10, 937, 8862, 'frida/frida', 'Clone this repo to build Frida', ARRAY['oleavr', 's1341'], '2022-02-24T21:07:34.596111'),
+(3723, 907680, 22887094, 11, 346, 43251, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-24T21:07:34.596111'),
 (3724, 907680, 365437792, 12, 17, 259, 'avinassh/fast-sqlite3-inserts', 'Some bunch of test scripts to generate a SQLite DB with 1B rows in fastest possible way', ARRAY['avinassh', 'captn3m0'], '2022-02-24T21:07:34.596111'),
 (3725, 907680, 113412457, 13, 8, 3387, 'gnif/LookingGlass', 'An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.', ARRAY['gnif', 'quantum5'], '2022-02-24T21:07:34.596111'),
 (3726, 907680, 311916226, 14, 81, 1553, 'TeamPiped/Piped', 'An alternative privacy-friendly YouTube frontend which is efficient by design.', ARRAY['FireMasterK', 'weblate'], '2022-02-24T21:07:34.596111'),
@@ -3743,7 +3744,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3746, 2237343, 241555935, 4, 0, 465, 'chadgeary/cloudblock', 'Cloudblock deploys secure ad-blocking and VPN for all devices. Text and video guides included! 6 supported cloud providers, plus Ubuntu and Raspberry Pi. Cloudblock deploys Wireguard VPN, Pi-Hole DNS Ad-blocking, and DNS over HTTPS in a cloud provider - or locally - using Terraform and Ansible.', ARRAY['chadgeary', 'fn5'], '2022-02-24T21:07:34.596111'),
 (3747, 2237343, 265916655, 5, 8, 856, 'vmstan/gravity-sync', 'An easy way to synchronize the blocklist and local DNS configurations of multiple Pi-hole 5.x instances.', ARRAY['vmstan', 'callum-oakley'], '2022-02-24T21:07:34.596111'),
 (3748, 2237343, 240215314, 6, 35, 14033, 'docker/awesome-compose', 'Awesome Docker Compose samples', ARRAY['aiordache', 'glours'], '2022-02-24T21:07:34.596111'),
-(3723, 907680, 22887094, 11, 346, 43251, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-24T21:07:34.596111'),
 (3749, 2237343, 41440228, 7, 41, 1521, 'sanathp/statusok', 'Monitor your Website and APIs from your Computer. Get Notified through Slack, E-mail when your server is down or response time is more than expected. ', ARRAY['sanathp', 'damarte'], '2022-02-24T21:07:34.596111'),
 (3750, 2237343, 24956772, 8, 411, 8563, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:07:34.596111'),
 (3751, 2237343, 48623558, 9, 171, 16375, 'chubin/wttr.in', ':partly_sunny: The right way to check the weather', ARRAY['chubin', 'gregdan3'], '2022-02-24T21:07:34.596111'),
