@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T06:46:44.866Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T08:44:43.021Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1796,7 +1796,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (160596188, 987, 80, 1, 0, 18, 'MicrosoftEdge/MSEdgeExplainers', 'Home for explainer documents originated by the Microsoft Edge team', ARRAY['travisleithead', 'aarongustafson'], '2022-02-24T21:06:05.080468+00:00'),
 (160651810, 210, 4, 1, 0, 3, 'markjprice/cs8dotnetcore3', 'Repository for the Packt Publishing book titled ''C# 8.0 and .NET Core 3.0'' by Mark J. Price', ARRAY['markjprice', 'Semro'], '2022-02-24T21:06:05.080468+00:00'),
 (160834617, 572, 144, 1, 0, 27, 'react-native-webrtc/react-native-callkeep', 'iOS CallKit framework and Android ConnectionService for React Native', ARRAY['manuquentin', 'ianlin'], '2022-02-24T21:06:05.080468+00:00'),
-(160919119, 39896, 1277, 1, 0, 6, 'tiangolo/fastapi', 'FastAPI framework, high performance, easy to learn, fast to code, ready for production', ARRAY['tiangolo', 'waynerv'], '2022-02-24T21:06:05.080468+00:00'),
 (160939449, 1, 0, 1, 0, 3, 'fabtjar/advent-of-code', 'A few attempts of Advent of Code', ARRAY['fabtjar'], '2022-02-24T21:06:05.080468+00:00'),
 (161012019, 12730, 594, 1, 0, 15, 'jellyfin/jellyfin', 'The Free Software Media System', ARRAY['LukePulverenti', 'Bond-009'], '2022-02-24T21:06:05.080468+00:00'),
 (161034589, 222, 1, 1, 0, 22, 'joshwcomeau/tinkersynth', 'An experimental art project. Create unique art through serendipitous discovery.', ARRAY['joshwcomeau', 'Harmon758'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1808,6 +1807,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (161686793, 82, 2, 1, 0, 7, 'openmainframeproject-internship/resources', 'Open Mainframe Project Mentorship Program resources', ARRAY['bobdahlberg', 'jmertic'], '2022-02-24T21:06:05.080468+00:00'),
 (161691324, 1396, 35, 2, 0, 15, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:06:05.080468+00:00'),
 (161914302, 166, 2, 1, 0, 28, 'alexpermiakov/node-rest-api', null, ARRAY['alexpermiakov'], '2022-02-24T21:06:05.080468+00:00'),
+(160919119, 39896, 1277, 1, 0, 6, 'tiangolo/fastapi', 'FastAPI framework, high performance, easy to learn, fast to code, ready for production', ARRAY['tiangolo', 'waynerv'], '2022-02-24T21:06:05.080468+00:00'),
 (162028712, 2854, 10, 1, 0, 19, 'leerob/leerob.io', '✨  My portfolio built with Next.js, Tailwind, Prisma, and Vercel.', ARRAY['leerob', 'omaralsoudanii'], '2022-02-24T21:06:05.080468+00:00'),
 (162258399, 23, 2, 1, 0, 2, 'chrishoste/eye-tracking', 'Eye Tracking on iPhone (iOS)', ARRAY['chrishoste'], '2022-02-24T21:06:05.080468+00:00'),
 (162405963, 4508, 38, 1, 0, 11, 'gradio-app/gradio', 'Create UIs for your machine learning model in Python in 3 minutes', ARRAY['abidlabs', 'aliabd'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3528,7 +3528,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (397812789, 284, 0, 1, 0, 9, 'zuramai/starback.js', 'Create a beautiful star falling background with starback.js', ARRAY['zuramai', 'dicka88'], '2022-02-24T21:06:05.080468+00:00'),
 (398016775, 116, 1, 1, 0, 6, 'fireship-io/wavy-curvey-blobby-website', 'A website design with lots of waves, curves, a blobs', ARRAY['codediodeio'], '2022-02-24T21:06:05.080468+00:00'),
 (398039380, 14, 2, 1, 0, 20, 'vasspilka/bank', 'Sample Bank application used for my 2021 ElixirConf presentation', ARRAY['vasspilka'], '2022-02-24T21:06:05.080468+00:00'),
-(398337342, 1, 0, 1, 0, 2, 'Steffen911/license-checker-action', 'Run license-checker via GitHub Actions', ARRAY['Steffen911'], '2022-02-24T21:06:05.080468+00:00'),
 (398345592, 1, 0, 1, 0, 24, '3mer3wadh/CustomUI', 'Trying to create nice UI with xamarin forms ', ARRAY['3mer3wadh'], '2022-02-24T21:06:05.080468+00:00'),
 (398550050, 158, 1, 1, 0, 0, 'Google-Summer-of-Code-Archive/gsoc-proposals-archive', 'This repository contains Accepted proposals for various Google Summer of Code organizations throughout various years!', ARRAY['imsiddhant07', 'dakshp07'], '2022-02-24T21:06:05.080468+00:00'),
 (398627486, 8, 0, 1, 0, 3, 'jquense/sass-tailwind-functions', 'Sass plugin implementing TailwindCSS functions', ARRAY['jquense'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3550,6 +3549,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-24T21:06:05.080468+00:00'),
 (400215964, 2902, 27, 1, 0, 8, 'notifirehq/notifire', '🚀 Open-source notification infrastructure for products', ARRAY['scopsy', 'ComBarnea'], '2022-02-24T21:06:05.080468+00:00'),
 (400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-24T21:06:05.080468+00:00'),
+(398337342, 1, 0, 1, 0, 2, 'Steffen911/license-checker-action', 'Run license-checker via GitHub Actions', ARRAY['Steffen911'], '2022-02-24T21:06:05.080468+00:00'),
 (400528139, 267, 39, 1, 0, 2, 'tinkoff-ai/etna', 'ETNA – Time-Series Library', ARRAY['Mr-Geekman', 'alex-hse-repository'], '2022-02-24T21:06:05.080468+00:00'),
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
