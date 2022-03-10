@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T16:50:19.453Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T18:45:55.943Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2939,8 +2939,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (320016849, 7, 0, 1, 0, 5, 'udberg/MGF-Conference-Page', 'To cap off the HTML/CSS part of Microverse Technical Curriculum, I was given this design of Cindy Shin''s to follow, mirroring its structure, typography, and colors as I built my own conference website. I opted to build a website for the just concluded Misk Global Forum 2020 which took place between the 12th and 14th of November 2020 in Riyadh, Saudi Arabia, where I was a lucky and proud attendant. The website is built mirroring the afore-mentioned features in its exact entirety.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (320029758, 1, 0, 1, 0, 17, 'lokeshn011101/nextjs-tailwind-starter', 'A Next.js-Tailwind starter', ARRAY['lokeshn011101'], '2022-02-24T21:06:05.080468+00:00'),
 (320073577, 987, 2, 1, 0, 19, 'discord/focus-rings', 'A centralized system for displaying and stylizing focus indicators anywhere on a webpage.', ARRAY['faultyserver', 'aweary'], '2022-02-24T21:06:05.080468+00:00'),
-(320142424, 92, 1, 1, 0, 5, 'rern/rAudio-1', 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', ARRAY['rern'], '2022-02-24T21:06:05.080468+00:00'),
 (320198472, 1, 0, 1, 0, 2, 'brokorus/terraform-azure-keyvault-tfvar-generator', null, ARRAY['brokorus'], '2022-02-24T21:06:05.080468+00:00'),
+(320142424, 92, 1, 1, 0, 5, 'rern/rAudio-1', 'Raspberry Pi audio player: AirPlay, Audio CD, Bluetooth, Multi-room, Spotify Connect, UPnP', ARRAY['rern'], '2022-02-24T21:06:05.080468+00:00'),
 (320237098, 2, 0, 1, 0, 0, 'brysonpdavis/grainstems', 'frontend for grainstems: a toy granular synthesizer web app', ARRAY['brysonpdavis'], '2022-02-24T21:06:05.080468+00:00'),
 (320365682, 2, 0, 1, 0, 20, 'thembari/API', null, ARRAY['vinosamari'], '2022-02-24T21:06:05.080468+00:00'),
 (320393623, 923, 23, 1, 0, 27, 'kentcdodds/remix-kentcdodds', 'My personal website', ARRAY['kentcdodds', 'smeijer'], '2022-02-24T21:06:05.080468+00:00'),
