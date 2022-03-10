@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T12:52:02.488Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-10T14:43:27.976Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -873,7 +873,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (393673673, 554, 0, 74, 'theodorusclarence/ts-nextjs-tailwind-starter', '2022-02-24T21:07:06.457173+00:00'),
 (14440270, 150463, 134, 29895, 'getify/You-Dont-Know-JS', '2022-02-24T21:07:06.457173+00:00'),
 (219294494, 3165, 12, 67, 'xxh/xxh', '2022-02-24T21:07:06.457173+00:00'),
-(17035868, 3118, 33, 305, 'koding/kite', '2022-02-24T21:07:06.457173+00:00'),
 (36616176, 3195, 22, 904, 'elixirschool/elixirschool', '2022-02-24T21:07:06.457173+00:00'),
 (278342702, 36, 0, 9, 'jmkitavi/interview-questions', '2022-02-24T21:07:06.457173+00:00'),
 (21978103, 455, 0, 11, 'scottaohara/accessible_components', '2022-02-24T21:07:06.457173+00:00'),
@@ -887,6 +886,7 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (78302226, 649, 24, 2404, 'hussien89aa/DataStructureAndAlgorithms', '2022-02-24T21:07:06.457173+00:00'),
 (323048702, 9133, 24, 1021, 'GamestonkTerminal/GamestonkTerminal', '2022-02-24T21:07:06.457173+00:00'),
 (393030139, 104, 0, 16, 'atapas/promise-interview-ready', '2022-02-24T21:07:06.457173+00:00'),
+(17035868, 3118, 33, 305, 'koding/kite', '2022-02-24T21:07:06.457173+00:00'),
 (79676261, 393, 0, 89, 'iamcryptoki/snowden-archive', '2022-02-24T21:07:06.457173+00:00'),
 (425292451, 1, 0, 1, 'Tanmay000009/glocal', '2022-02-24T21:07:06.457173+00:00'),
 (139596105, 14056, 11, 1022, 'thedaviddias/Front-End-Performance-Checklist', '2022-02-24T21:07:06.457173+00:00'),
