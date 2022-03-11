@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T01:02:53.565Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T02:52:23.386Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3183,8 +3183,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3185, 22655167, 368917877, 22, 17, 1271, 'BuilderIO/qwik', 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', ARRAY['mhevery', 'adamdbradley'], '2022-02-24T21:07:34.596111'),
 (3186, 22655167, 130884470, 23, 22, 13199, 'solidjs/solid', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['ryansolid', 'davedbase'], '2022-02-24T21:07:34.596111'),
 (3187, 22655167, 7122594, 24, 200, 13248, 'directus/directus', 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', ARRAY['rijkvanzanten', 'benhaynes'], '2022-02-24T21:07:34.596111'),
-(3189, 22655167, 115110181, 26, 241, 18860, 'swc-project/swc', 'swc is a super-fast compiler written in rust; producing widely-supported javascript from modern standards and typescript.', ARRAY['kdy1', 'dsherret'], '2022-02-24T21:07:34.596111'),
 (3188, 22655167, 332757634, 25, 8, 3633, 'jonasstrehle/supercookie', '⚠️ Browser fingerprinting via favicon!', ARRAY['jonasstrehle', 'szepeviktor'], '2022-02-24T21:07:34.596111'),
+(3189, 22655167, 115110181, 26, 241, 18860, 'swc-project/swc', 'swc is a super-fast compiler written in rust; producing widely-supported javascript from modern standards and typescript.', ARRAY['kdy1', 'dsherret'], '2022-02-24T21:07:34.596111'),
 (3190, 22655167, 320393623, 27, 23, 923, 'kentcdodds/remix-kentcdodds', 'My personal website', ARRAY['kentcdodds', 'smeijer'], '2022-02-24T21:07:34.596111'),
 (3191, 22655167, 144869712, 28, 22, 61, 'dai-shi/remote-faces', 'A tool for Working From Home: Share your webcam images with your colleagues', ARRAY['dai-shi', 'kobatastu'], '2022-02-24T21:07:34.596111'),
 (3192, 22655167, 126813008, 29, 0, 830, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
@@ -3764,8 +3764,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3765, 2237343, 264748339, 23, 18, 232, 'amiantos/pibar', 'PiBar for Pi-hole - Manage your Pi-hole(s) from your macOS menu bar!', ARRAY['amiantos'], '2022-02-24T21:07:34.596111'),
 (3766, 2237343, 265610202, 24, 0, 4, 'Millefeuille42/covidTerm', 'A Covid Terminal Application', ARRAY['Millefeuille42', 'deepsourcebot'], '2022-02-24T21:07:34.596111'),
 (3767, 2237343, 123631418, 25, 16, 2400, 'Lissy93/personal-security-checklist', '🔒 A curated checklist of 300+ tips for protecting digital security and privacy in 2021', ARRAY['Lissy93', 'matkoniecz'], '2022-02-24T21:07:34.596111'),
-(3769, 2237343, 118970914, 27, 695, 15030, 'debauchee/barrier', 'Open-source KVM software', ARRAY['p12tic', 'shymega'], '2022-02-24T21:07:34.596111'),
 (3768, 2237343, 6662075, 26, 169, 13417, 'joke2k/faker', 'Faker is a Python package that generates fake data for you.', ARRAY['fcurella', 'joke2k'], '2022-02-24T21:07:34.596111'),
+(3769, 2237343, 118970914, 27, 695, 15030, 'debauchee/barrier', 'Open-source KVM software', ARRAY['p12tic', 'shymega'], '2022-02-24T21:07:34.596111'),
 (3770, 2237343, 67834502, 28, 5, 3439, 'lk-geimfari/mimesis', 'Mimesis is a high-performance fake data generator for Python, which provides data for a variety of purposes in a variety of languages.', ARRAY['lk-geimfari', 'sobolevn'], '2022-02-24T21:07:34.596111'),
 (3771, 2237343, 205915356, 29, 1, 907, 'BullsEye0/google_dork_list', 'Google Dorks | Google helps you to find Vulnerable Websites that Indexed in Google Search Results. Here is the latest collection of Google Dorks. A collection of 13.760 Dorks. Author: Jolanda de Koff', ARRAY['BullsEye0'], '2022-02-24T21:07:34.596111'),
 (3812, 33148009, 174404049, 10, 1, 1844, 'emilkowalski/ui-snippets', 'A collection of UI Snippets.', ARRAY['emilkowalski', 'Bartek532'], '2022-02-24T21:07:34.596111'),
