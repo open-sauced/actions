@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T12:51:02.788Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-11T14:43:28.386Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2469,6 +2469,7 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (119162419, 9367, 76, 997, 'nextauthjs/next-auth', '2022-02-24T21:07:06.457173+00:00'),
 (62367558, 37996, 762, 3165, 'vercel/hyper', '2022-02-24T21:07:06.457173+00:00'),
 (417268538, 7, 0, 2, 'tkwant/react-steps', '2022-02-24T21:07:06.457173+00:00'),
+(254761650, 196, 22, 57, 'goncy/pency', '2022-02-24T21:07:06.457173+00:00'),
 (167647146, 418, 10, 458, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', '2022-02-24T21:07:06.457173+00:00'),
 (92865843, 1323, 23, 156, 'vmbrasseur/Public_Speaking', '2022-02-24T21:07:06.457173+00:00'),
 (182849188, 4133, 191, 980, 'delta-io/delta', '2022-02-24T21:07:06.457173+00:00'),
@@ -2584,7 +2585,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (332841560, 2, 0, 0, 'MattMarquise/Modern-Game-Console-UI', '2022-02-24T21:07:06.457173+00:00'),
 (76993879, 387, 14, 64, 'TulipCharts/tulipnode', '2022-02-24T21:07:06.457173+00:00'),
 (127493242, 109, 3, 39, 'szferguson/Binance-Trailing-Stop-Loss', '2022-02-24T21:07:06.457173+00:00'),
-(254761650, 196, 22, 57, 'goncy/pency', '2022-02-24T21:07:06.457173+00:00'),
 (57914774, 1662, 69, 431, 'anandanand84/technicalindicators', '2022-02-24T21:07:06.457173+00:00'),
 (41592744, 20297, 10, 1686, 'AllThingsSmitty/css-protips', '2022-02-24T21:07:06.457173+00:00'),
 (380191749, 3079, 1, 328, 'dair-ai/ML-YouTube-Courses', '2022-02-24T21:07:06.457173+00:00'),
