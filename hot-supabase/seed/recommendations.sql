@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T12:49:40.549Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T14:43:18.560Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2029,12 +2029,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (192605862, 2, 2, 1, 0, 11, 'Gingertonic/eden_events', null, ARRAY['Gingertonic'], '2022-02-24T21:06:05.080468+00:00'),
 (192632000, 16394, 246, 1, 0, 22, 'dapr/dapr', 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', ARRAY['yaron2', 'youngbupark'], '2022-02-24T21:06:05.080468+00:00'),
 (192640529, 7298, 211, 1, 0, 23, 'heartexlabs/label-studio', 'Label Studio is a multi-type data labeling and annotation tool with standardized output format', ARRAY['makseq', 'niklub'], '2022-02-24T21:06:05.080468+00:00'),
+(192856899, 453, 10, 1, 0, 4, 'chetanverma16/react-portfolio-template', 'Modern React Portfolio Template (FREE)', ARRAY['chetanverma16', 'ajmeese7'], '2022-02-24T21:06:05.080468+00:00'),
 (192892917, 7129, 49, 1, 0, 3, 'hediet/vscode-debug-visualizer', 'An extension for VS Code that visualizes data during debugging.', ARRAY['hediet', 'fwcd'], '2022-02-24T21:06:05.080468+00:00'),
+(192925833, 18953, 1681, 2, 0, 16, 'prisma/prisma', 'Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite & MongoDB (Preview)', ARRAY['timsuchanek', 'Jolg42'], '2022-02-24T21:06:05.080468+00:00'),
 (193344063, 1127, 3, 1, 0, 6, 'JideGuru/FlutterFoodybite', 'Flutter representation of a Restaurant app UI.', ARRAY['JideGuru', 'Shamsudeen12'], '2022-02-24T21:06:05.080468+00:00'),
 (193393505, 5922, 40, 1, 0, 27, 'nodegui/react-nodegui', 'Build performant, native and cross-platform desktop applications with native React + powerful CSS like styling.🚀', ARRAY['a7ul', 'shubhamzanwar'], '2022-02-24T21:06:05.080468+00:00'),
 (193697184, 26, 4, 1, 0, 3, 'fischertechnik/txt_training_factory', 'Training Factory Industry 4.0 (9V)', ARRAY['AlexanderSteiger', 'MoBoo'], '2022-02-24T21:06:05.080468+00:00'),
-(192925833, 18953, 1681, 2, 0, 16, 'prisma/prisma', 'Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite & MongoDB (Preview)', ARRAY['timsuchanek', 'Jolg42'], '2022-02-24T21:06:05.080468+00:00'),
-(192856899, 453, 10, 1, 0, 4, 'chetanverma16/react-portfolio-template', 'Modern React Portfolio Template (FREE)', ARRAY['chetanverma16', 'ajmeese7'], '2022-02-24T21:06:05.080468+00:00'),
 (193761872, 4, 0, 1, 0, 3, 'fireworks-world/SplashScreen_Animation', 'Android Traing Practicals', ARRAY['saha2201', 'fireworks-world'], '2022-02-24T21:06:05.080468+00:00'),
 (193833307, 7311, 54, 1, 0, 2, 'knadh/listmonk', 'High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.', ARRAY['knadh', 'mr-karan'], '2022-02-24T21:06:05.080468+00:00'),
 (194018943, 8, 18, 1, 0, 21, 'adam-mccormick/moleculer-axios', 'Axios based HTTP client for Moleculer services', ARRAY['adam-mccormick', 'iwd-mccormicka'], '2022-02-24T21:06:05.080468+00:00'),
