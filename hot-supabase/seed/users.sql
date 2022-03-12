@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T02:48:36.671Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T04:47:22.585Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -189,15 +189,16 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (26205172, 2, false, true, 'Alucard17', '2022-02-24T21:07:48.046487+00:00'),
 (3037127, 6, false, true, 'cpretzer', '2022-02-25T08:34:30.116922+00:00'),
 (29295102, 1, false, true, 'silvasobrinho', '2022-02-24T21:07:48.046487+00:00'),
+(8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
 (32903278, 1, false, true, 'onurbayraktar', '2022-02-24T21:07:48.046487+00:00'),
 (5467696, 2, false, true, 'fwoelffel', '2022-02-24T21:07:48.046487+00:00'),
 (10012151, 1, true, true, 'joaoapel', '2022-02-24T21:07:48.046487+00:00'),
 (9935383, 3, false, true, 'jsehull', '2022-02-24T21:07:48.046487+00:00'),
-(8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
+(83277146, 1, false, true, 'ashwth', '2022-02-24T21:07:48.046487+00:00'),
 (12292047, 4, false, true, 'eps1lon', '2022-02-24T21:07:48.046487+00:00'),
 (656318, 0, false, true, 'ramonh', '2022-02-24T21:07:48.046487+00:00'),
 (14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
-(60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:48:54.628921+00:00'),
+(74566464, 0, true, true, 'Pandademic', '2022-02-24T21:07:48.046487+00:00'),
 (25867172, 1, false, true, 'teezzan', '2022-02-24T21:07:48.046487+00:00'),
 (58482194, 4, false, true, 'Borrus-sudo', '2022-02-24T21:07:48.046487+00:00'),
 (4247126, 1, false, true, 'mdb1710', '2022-02-24T21:07:48.046487+00:00'),
@@ -206,9 +207,8 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (36890230, 1, false, true, 'JEbertPrime', '2022-02-24T21:07:48.046487+00:00'),
 (211851, 1, false, true, 'justjeff', '2022-02-24T21:07:48.046487+00:00'),
 (12400445, 1, false, true, 'AvantSekai', '2022-02-25T08:00:20.569659+00:00'),
-(74566464, 0, true, true, 'Pandademic', '2022-02-24T21:07:48.046487+00:00'),
-(6499373, 0, false, true, 'yasir2000', '2022-02-24T21:07:48.046487+00:00'),
 (5381468, 5, false, true, 'tmarwen', '2022-02-24T21:07:48.046487+00:00'),
+(6499373, 0, false, true, 'yasir2000', '2022-02-24T21:07:48.046487+00:00'),
 (24910512, 1, false, true, 'CyberFlameGO', '2022-02-24T21:07:48.046487+00:00'),
 (11589902, 0, false, true, 'pac96', '2022-02-24T21:07:48.046487+00:00'),
 (76665107, 1, false, true, 'carrollsa', '2022-02-24T21:07:48.046487+00:00'),
@@ -222,10 +222,9 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (88631894, 0, false, true, 'Aarondevp', '2022-02-24T21:07:48.046487+00:00'),
 (10951893, 2, false, true, 'jramirez857', '2022-02-24T21:07:48.046487+00:00'),
 (4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
-(83277146, 1, false, true, 'ashwth', '2022-02-24T21:07:48.046487+00:00'),
+(60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:48:54.628921+00:00'),
 (22186029, 0, true, true, 'BenjaminMichaelis', '2022-02-24T21:07:48.046487+00:00'),
 (24606613, 0, false, true, 'udhaykumarbala', '2022-02-24T21:07:48.046487+00:00'),
-(62261622, 0, false, true, 'sosplush', '2022-02-24T21:07:48.046487+00:00'),
 (9283692, 0, true, true, 'mpmccauley', '2022-03-08T04:14:15.634372+00:00'),
 (1862184, 0, false, true, 'jwNorwood', '2022-03-07T16:58:20.628864+00:00'),
 (3012159, 0, false, true, 'sieis', '2022-03-07T17:21:19.307707+00:00'),
@@ -233,4 +232,5 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (66284362, 0, false, true, 'kohasummons', '2022-03-05T05:34:21.034091+00:00'),
 (5842360, 1, false, true, 'haffmaestro', '2022-02-24T21:07:48.046487+00:00'),
 (7222344, 0, false, true, 'MattPostlethwaite', '2022-03-08T22:38:44.391293+00:00'),
-(13059091, 0, false, true, 'ifoi', '2022-03-07T23:20:37.011893+00:00');
+(13059091, 0, false, true, 'ifoi', '2022-03-07T23:20:37.011893+00:00'),
+(62261622, 0, false, true, 'sosplush', '2022-02-24T21:07:48.046487+00:00');
