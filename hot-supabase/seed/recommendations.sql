@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T14:43:18.560Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T16:49:09.876Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3198,8 +3198,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-24T21:06:05.080468+00:00'),
 (357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-24T21:06:05.080468+00:00'),
 (357732194, 1, 0, 1, 0, 6, 'gilesvessey/ms3-hl-driver', 'Arduino driven addressable LED strip driver for my Mazdaspeed3''s custom headlights.', ARRAY['gilesvessey'], '2022-02-24T21:06:05.080468+00:00'),
-(357782342, 1, 0, 1, 0, 13, 'sk1122/Kanban-Board', 'Kanban Board - You can create Boards, Manage you Day', ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
 (358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-24T21:06:05.080468+00:00'),
+(357782342, 1, 0, 1, 0, 13, 'sk1122/Kanban-Board', 'Kanban Board - You can create Boards, Manage you Day', ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
 (358596380, 119, 2, 1, 0, 17, 'developedbyed/explore', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (358604857, 1, 0, 1, 0, 3, 'ppdcNG/storytime-disi', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (358740509, 111, 14, 1, 0, 24, 'QuiltMC/quilt-loader', 'The loader for Quilt mods.', ARRAY['asiekierka', 'modmuss50'], '2022-02-24T21:06:05.080468+00:00'),
