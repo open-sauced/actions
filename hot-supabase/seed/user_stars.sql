@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T01:02:13.363Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T02:48:36.726Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1066,8 +1066,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1054, 58392246, 379769983, 27, 0, 1, 'Dzaky-official/MhdraihandzakySaragih', null, ARRAY['muhammaddzaky'], '2022-02-24T21:07:34.596111'),
 (1055, 58392246, 322785065, 28, 0, 2, 'advanced-rest-client/arc-settings', '⛔️ DEPRECATED This component is deprecated. Use `@advanced-rest-client/app` instead.', ARRAY['jarrodek', 'arcauto'], '2022-02-24T21:07:34.596111'),
 (1056, 58392246, 373681744, 29, 0, 1, 'muhammaddzaky/project-kalian', 'Hello', ARRAY['muhammaddzaky'], '2022-02-24T21:07:34.596111'),
-(1058, 59651629, 258994492, 1, 0, 9, 'HarshCasper/Data-Structures', 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', ARRAY['HarshCasper'], '2022-02-24T21:07:34.596111'),
 (1057, 59651629, 402189545, 0, 1, 954, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-24T21:07:34.596111'),
+(1058, 59651629, 258994492, 1, 0, 9, 'HarshCasper/Data-Structures', 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', ARRAY['HarshCasper'], '2022-02-24T21:07:34.596111'),
 (1059, 59651629, 240786294, 2, 27, 897, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-24T21:07:34.596111'),
 (1060, 59651629, 345922282, 3, 8, 5108, 'Saul-Mirone/milkdown', '🍼 Plugin driven WYSIWYG  markdown editor framework.', ARRAY['Saul-Mirone', 'xiadd'], '2022-02-24T21:07:34.596111'),
 (1061, 59651629, 21911597, 4, 1, 10609, 'tayllan/awesome-algorithms', 'A curated list of awesome places to learn and/or practice algorithms.', ARRAY['tayllan', 'mostafatouny'], '2022-02-24T21:07:34.596111'),
@@ -1128,6 +1128,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1117, 1305623, 13825712, 0, 57, 936, 'VirtoCommerce/vc-platform', 'VirtoCommerce Platform repository', ARRAY['vc-ci', 'tatarincev'], '2022-02-24T21:07:34.596111'),
 (1118, 1305623, 330218376, 1, 0, 169, 'pereiren/dotnet-template-onion', 'Onion Architecture with .NET 5/.NET Core and CQRS/Event Sourcing following a DDD approach', ARRAY['pereiren', 'javierlinked'], '2022-02-24T21:07:34.596111'),
 (1119, 1305623, 257171786, 2, 0, 1503, 'mjebrahimi/Awesome-Microservices-NetCore', '💎 A collection of awesome training series, articles, videos, books, courses, sample projects, and tools for Microservices in .NET Core', ARRAY['mjebrahimi', 'logcorner'], '2022-02-24T21:07:34.596111'),
+(1120, 1305623, 115478820, 3, 8, 36756, 'binhnguyennus/awesome-scalability', 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', ARRAY['binhnguyennus', 'avidLearnerInProgress'], '2022-02-24T21:07:34.596111'),
 (1121, 1305623, 290234921, 4, 1, 2828, 'JoseDeFreitas/awesome-youtubers', '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', ARRAY['JoseDeFreitas', 'akaashsinha'], '2022-02-24T21:07:34.596111'),
 (1122, 1305623, 132489983, 5, 37, 153, 'arduosoft/RawCMS', 'RawCMS is the headless CMS written in asp.net core build for developers that embraces API first technology. Please give us a feedback!', ARRAY['zeppaman', 'marcuson'], '2022-02-24T21:07:34.596111'),
 (1123, 1305623, 137104789, 6, 43, 1995, 'jamesmh/coravel', 'Near-zero config .NET Core micro-framework that makes advanced application features like Task Scheduling, Caching, Queuing, Event Broadcasting, and more a breeze!', ARRAY['jamesmh', 'Blinke'], '2022-02-24T21:07:34.596111'),
@@ -1169,7 +1170,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1159, 35779241, 306759773, 12, 1, 27, 'Daggy1234/polaroid', 'Hyper Fast and safe image manipulation library for python . Powered by rust.', ARRAY['Daggy1234', 'ImgBotApp'], '2022-02-24T21:07:34.596111'),
 (1160, 35779241, 135201145, 13, 204, 10288, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-24T21:07:34.596111'),
 (1161, 35779241, 91151442, 14, 142, 5140, 'PyO3/pyo3', 'Rust bindings for the Python interpreter', ARRAY['davidhewitt', 'kngwyu'], '2022-02-24T21:07:34.596111'),
-(1120, 1305623, 115478820, 3, 8, 36756, 'binhnguyennus/awesome-scalability', 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', ARRAY['binhnguyennus', 'avidLearnerInProgress'], '2022-02-24T21:07:34.596111'),
 (2067, 569510, 257022147, 2, 7, 408, 'simonw/til', 'Today I Learned', ARRAY['simonw', 'davidbgk'], '2022-02-24T21:07:34.596111'),
 (1162, 35779241, 120595947, 15, 38, 292, 'hello-rust/show', '🍿 Show notes, code, and future topic ideas for ''Hello Rust!'', a YouTube channel about the Rust programming language.', ARRAY['mre', 'killercup'], '2022-02-24T21:07:34.596111'),
 (1163, 35779241, 213043312, 16, 3, 4877, 'pemistahl/grex', 'A command-line tool and library for generating regular expressions from user-provided test cases', ARRAY['pemistahl', 'ildar-shaimordanov'], '2022-02-24T21:07:34.596111'),
@@ -2062,6 +2062,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2039, 33669114, 248725819, 4, 3, 143, 'swade1987/deprek8ion', 'Rego policies to monitor Kubernetes APIs deprecations.', ARRAY['swade1987', 'ckotzbauer'], '2022-02-24T21:07:34.596111'),
 (2040, 33669114, 307575939, 5, 0, 24, 'kelseyhightower/opa-on-cloud-run', 'Tutorial: Open Policy Agent on Cloud Run', ARRAY['kelseyhightower'], '2022-02-24T21:07:34.596111'),
 (2041, 33669114, 387501063, 6, 1, 31, 'cassidoo/shopify-next-netlify', 'A Shopify Next.js demo', ARRAY['cassidoo', 'verythorough'], '2022-02-24T21:07:34.596111'),
+(2042, 33669114, 387624468, 7, 3, 3, 'gremlin/bootcamp-infrastructure', null, ARRAY['jyee'], '2022-02-24T21:07:34.596111'),
+(2043, 33669114, 315699740, 8, 71, 17, 'meilisearch/devrel', 'Anything Developer Relations at Meili', ARRAY['CaroFG', 'fharper'], '2022-02-24T21:07:34.596111'),
+(2044, 33669114, 261283923, 9, 69, 1909, 'osohq/oso', 'Oso is a batteries-included framework for building authorization in your application.', ARRAY['gj', 'saolsen'], '2022-02-24T21:07:34.596111'),
 (2045, 33669114, 301482830, 10, 6, 97, 'policy-hub/policy-hub-cli', 'CLI for searching Rego policies', ARRAY['Blokje5', 'xchapter7x'], '2022-02-24T21:07:34.596111'),
 (2046, 33669114, 292266913, 11, 0, 216, 'Homebrew/discussions', '🗣 Public open-ended discussions. Replacement for our Discourse.', ARRAY['MikeMcQuaid', 'SMillerDev'], '2022-02-24T21:07:34.596111'),
 (2047, 33669114, 154894457, 12, 244, 2202, 'open-policy-agent/gatekeeper', 'Gatekeeper - Policy Controller for Kubernetes', ARRAY['maxsmythe', 'sozercan'], '2022-02-24T21:07:34.596111'),
@@ -2079,10 +2082,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2059, 33669114, 131619646, 24, 853, 4121, 'dagster-io/dagster', 'An orchestration platform for the development, production, and observation of data assets.', ARRAY['schrockn', 'alangenfeld'], '2022-02-24T21:07:34.596111'),
 (2060, 33669114, 36817565, 25, 713, 9092, 'zaproxy/zaproxy', 'The OWASP ZAP core project', ARRAY['psiinon', 'thc202'], '2022-02-24T21:07:34.596111'),
 (2061, 33669114, 143896900, 26, 387, 4969, 'tilt-dev/tilt', 'Define your dev environment as code. For microservice apps on Kubernetes.', ARRAY['nicks', 'landism'], '2022-02-24T21:07:34.596111'),
-(2042, 33669114, 387624468, 7, 3, 3, 'gremlin/bootcamp-infrastructure', null, ARRAY['jyee'], '2022-02-24T21:07:34.596111'),
-(2043, 33669114, 315699740, 8, 71, 17, 'meilisearch/devrel', 'Anything Developer Relations at Meili', ARRAY['CaroFG', 'fharper'], '2022-02-24T21:07:34.596111'),
 (2062, 33669114, 239002506, 27, 17, 953, 'sbstp/kubie', 'A more powerful alternative to kubectx and kubens', ARRAY['sbstp', 'TyBrown'], '2022-02-24T21:07:34.596111'),
-(2044, 33669114, 261283923, 9, 69, 1909, 'osohq/oso', 'Oso is a batteries-included framework for building authorization in your application.', ARRAY['gj', 'saolsen'], '2022-02-24T21:07:34.596111'),
 (2063, 33669114, 143460965, 28, 27, 11393, 'GoogleCloudPlatform/microservices-demo', 'Sample cloud-native application with 10 microservices showcasing Kubernetes, Istio, gRPC and OpenCensus.', ARRAY['ahmetb', 'askmeegs'], '2022-02-24T21:07:34.596111'),
 (2064, 33669114, 116612925, 29, 1, 821, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:07:34.596111'),
 (2065, 569510, 13840241, 0, 122, 27264, 'freeCodeCamp/devdocs', 'API Documentation Browser', ARRAY['Thibaut', 'simon04'], '2022-02-24T21:07:34.596111'),
@@ -4022,7 +4022,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4026, 26205172, 76694515, 6, 19, 11059, 'hotwired/stimulus', 'A modest JavaScript framework for the HTML you already have', ARRAY['sstephenson', 'javan'], '2022-02-24T21:07:34.596111'),
 (4027, 26205172, 3721224, 7, 152, 29581, 'nolimits4web/swiper', 'Most modern mobile touch slider with hardware accelerated transitions', ARRAY['nolimits4web', 'vltansky'], '2022-02-24T21:07:34.596111'),
 (4028, 26205172, 2126244, 8, 463, 154584, 'twbs/bootstrap', 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', ARRAY['mdo', 'cvrebert'], '2022-02-24T21:07:34.596111'),
-(4029, 26205172, 87973266, 9, 191, 2216, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-24T21:07:34.596111'),
 (4030, 26205172, 119693982, 10, 20, 7786, 'jamiebuilds/unstated', 'State so simple, it goes without saying', ARRAY['jamiebuilds', 'willmendesneto'], '2022-02-24T21:07:34.596111'),
 (4031, 26205172, 10270250, 11, 922, 179681, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-24T21:07:34.596111'),
 (4032, 26205172, 122614397, 12, 30, 8367, 'GeekyAnts/vue-native-core', 'Vue Native is a framework to build cross platform native mobile apps using JavaScript', ARRAY['RishabhKarnad', 'gauravprwl14'], '2022-02-24T21:07:34.596111'),
@@ -4437,4 +4436,5 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
 (302938010, 211851, 5373673, 29, 67, 2717, 'jlord/sheetsee.js', ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', ARRAY['jlord', 'mjhea0'], '2022-02-24T21:07:34.596111'),
 (396051716, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
+(4029, 26205172, 87973266, 9, 191, 2216, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-24T21:07:34.596111'),
 (467288570, 13059091, 14682677, 18, 0, 2, 'spaetow/ShibbolethECPAuthClient', 'A Shibboleth ECP authentication client that also exposes access to the SAML response received from the IdP', ARRAY['spaetow'], '2022-03-09T11:40:32.128947');
