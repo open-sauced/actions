@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T06:46:15.756Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T08:44:23.831Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1002,6 +1002,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (63537249, 92462, 1423, 1, 0, 2, 'facebook/create-react-app', 'Set up a modern web app by running one command.', ARRAY['gaearon', 'Timer'], '2022-02-24T21:06:05.080468+00:00'),
 (63902889, 851, 46, 1, 0, 3, 'nypublicradio/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'marineb'], '2022-02-24T21:06:05.080468+00:00'),
 (63965783, 4056, 723, 1, 0, 3, 'swimlane/ngx-charts', ':bar_chart: Declarative Charting Framework for Angular', ARRAY['marjan-georgiev', 'amcdnl'], '2022-02-24T21:06:05.080468+00:00'),
+(64361364, 1, 0, 1, 0, 4, 'kawaiidesune/kawaiidesune.github.io', 'My github pages site.', ARRAY['kawaiidesune'], '2022-02-24T21:06:05.080468+00:00'),
 (64504667, 946, 0, 1, 0, 19, 'MBMIT/MBM-Artwork', 'MBM Artwork', ARRAY['mariobehling'], '2022-02-24T21:06:05.080468+00:00'),
 (64558143, 30259, 132, 1, 0, 21, 'Blankj/AndroidUtilCode', ':fire: Android developers should collect the following utils(updating).', ARRAY['Blankj', 'CaiMengjie'], '2022-02-24T21:06:05.080468+00:00'),
 (64700934, 14464, 97, 1, 0, 24, 'OpenZeppelin/openzeppelin-contracts', 'OpenZeppelin Contracts is a library for secure smart contract development.', ARRAY['frangio', 'nventuro'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1285,7 +1286,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (94554082, 5910, 121, 1, 0, 15, 'dylanaraps/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-24T21:06:05.080468+00:00'),
 (94808954, 599, 30, 1, 0, 21, 'tabrindle/envinfo', 'Generate a report about your development environment for debugging and issue reporting', ARRAY['tabrindle', 'gengjiawen'], '2022-02-24T21:06:05.080468+00:00'),
 (95011980, 6029, 50, 1, 0, 5, 'go-ego/riot', 'Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.', ARRAY['vcaesar', 'szyhf'], '2022-02-24T21:06:05.080468+00:00'),
-(64361364, 1, 0, 1, 0, 4, 'kawaiidesune/kawaiidesune.github.io', 'My github pages site.', ARRAY['kawaiidesune'], '2022-02-24T21:06:05.080468+00:00'),
 (95114338, 2190, 5, 1, 0, 18, 'github/accessibilityjs', 'Client side accessibility error scanner.', ARRAY['muan', 'mislav'], '2022-02-24T21:06:05.080468+00:00'),
 (95331263, 2868, 20, 1, 0, 12, 'samccone/bundle-buddy', 'A tool to understand your bundle size and why files are in your bundle', ARRAY['samccone', 'susielu'], '2022-02-24T21:06:05.080468+00:00'),
 (95561550, 315, 6, 1, 0, 4, 'callicoder/spring-boot-mysql-rest-api-tutorial', 'Building a Restful CRUD API using Spring Boot, Mysql, JPA and Hibernate', ARRAY['callicoder'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1601,10 +1601,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (134733282, 1570, 46, 1, 0, 25, 'spring-projects-experimental/spring-fu', 'KoFu and JaFu configuration DSLs for Spring Boot', ARRAY['sdeleuze', 'fteychene'], '2022-02-24T21:06:05.080468+00:00'),
 (134734981, 32, 26, 1, 0, 2, 'berliCRM/berlicrm', 'From Berlin to Germany and Europe - an open source CRM Solution mainly for small and medium-sized businesses:  Visit https://www.berlicrm.de/', ARRAY['bbommer', 'AlexKay85'], '2022-02-24T21:06:05.080468+00:00'),
 (134777298, 1773, 278, 1, 0, 6, 'microsoft/vscode-pull-request-github', 'GitHub Pull Requests for Visual Studio Code', ARRAY['alexr00', 'rebornix'], '2022-02-24T21:06:05.080468+00:00'),
-(135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-24T21:06:05.080468+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-24T21:06:05.080468+00:00'),
 (135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-24T21:06:05.080468+00:00'),
 (135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-24T21:06:05.080468+00:00'),
+(135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-24T21:06:05.080468+00:00'),
 (135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:06:05.080468+00:00'),
 (135786093, 31329, 0, 1, 2, 0, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (135989792, 2759, 238, 1, 0, 24, 'fomantic/Fomantic-UI', 'Fomantic-UI is a community fork of Semantic-UI', ARRAY['jlukic', 'lubber-de'], '2022-02-24T21:06:05.080468+00:00'),
