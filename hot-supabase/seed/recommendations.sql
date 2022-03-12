@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T20:43:21.110Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T22:43:21.211Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3351,8 +3351,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (378701776, 767, 0, 1, 0, 3, 'chrisseaton/rhizome', 'A JIT for Ruby, implemented in pure Ruby', ARRAY['chrisseaton', 'erjanmx'], '2022-02-24T21:06:05.080468+00:00'),
 (378961149, 6, 0, 1, 0, 11, 'me-rakib/javascript-projects-learning', null, ARRAY['me-rakib'], '2022-02-24T21:06:05.080468+00:00'),
 (379496251, 5, 1, 1, 0, 28, 'Borrus-sudo/jsgandalf', '🌈 My new website ', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
-(379608568, 36, 0, 1, 0, 1, 'Codesee-io/remote-companies', 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', ARRAY['jessicarose', 'ramonh'], '2022-02-24T21:06:05.080468+00:00'),
 (379649965, 2, 0, 1, 0, 10, 'defadels/defadels', null, ARRAY['defadels'], '2022-02-24T21:06:05.080468+00:00'),
+(379608568, 36, 0, 1, 0, 1, 'Codesee-io/remote-companies', 'A list of tech companies that hire globally remotely, that jobseekers can fork and edit to suit their own job hunt or use as-is.', ARRAY['jessicarose', 'ramonh'], '2022-02-24T21:06:05.080468+00:00'),
 (379769983, 1, 0, 1, 0, 27, 'Dzaky-official/MhdraihandzakySaragih', null, ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (379900883, 42, 0, 1, 0, 0, 'Deveshb15/real-twitter-banner', null, ARRAY['Deveshb15', 'jainaayush01'], '2022-02-24T21:06:05.080468+00:00'),
 (380191749, 3168, 1, 1, 0, 20, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-24T21:06:05.080468+00:00'),
