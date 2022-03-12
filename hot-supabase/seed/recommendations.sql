@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T16:49:09.876Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T18:45:16.989Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1916,8 +1916,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175685939, 47, 2, 1, 0, 11, 'JoonasN/Flutter-Speed-coding---Greenery-App', null, ARRAY['ivangn03'], '2022-02-24T21:06:05.080468+00:00'),
 (176456339, 5, 3, 1, 0, 14, 'upgrad-edu/Solidity-Exercise-Solutions', null, ARRAY['upgrad-edu'], '2022-02-24T21:06:05.080468+00:00'),
 (176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-24T21:06:05.080468+00:00'),
-(176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (176946161, 198, 7, 1, 0, 6, 'sealedtx/java-youtube-downloader', 'Simple, almost zero-dependency java parser for retrieving youtube video metadata', ARRAY['sealedtx', 'poornerd'], '2022-02-24T21:06:05.080468+00:00'),
+(176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (177033748, 2318, 172, 1, 0, 2, 'atlassian/changesets', '🦋       A way to manage your versioning and changelogs with a focus on monorepos', ARRAY['Noviny', 'mitchellhamilton'], '2022-02-24T21:06:05.080468+00:00'),
 (177420214, 1679, 37, 1, 0, 8, 'dosco/graphjin', 'GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.', ARRAY['dosco', 'frederikhors'], '2022-02-24T21:06:05.080468+00:00'),
 (177423398, 88, 5, 1, 0, 27, 'getify/eslint-plugin-proper-ternary', 'ESLint rules to ensure proper usage of ternary/conditional expressions', ARRAY['getify', 'kaykayehnn'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3198,8 +3198,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-24T21:06:05.080468+00:00'),
 (357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-24T21:06:05.080468+00:00'),
 (357732194, 1, 0, 1, 0, 6, 'gilesvessey/ms3-hl-driver', 'Arduino driven addressable LED strip driver for my Mazdaspeed3''s custom headlights.', ARRAY['gilesvessey'], '2022-02-24T21:06:05.080468+00:00'),
-(358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-24T21:06:05.080468+00:00'),
 (357782342, 1, 0, 1, 0, 13, 'sk1122/Kanban-Board', 'Kanban Board - You can create Boards, Manage you Day', ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
+(358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-24T21:06:05.080468+00:00'),
 (358596380, 119, 2, 1, 0, 17, 'developedbyed/explore', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (358604857, 1, 0, 1, 0, 3, 'ppdcNG/storytime-disi', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (358740509, 111, 14, 1, 0, 24, 'QuiltMC/quilt-loader', 'The loader for Quilt mods.', ARRAY['asiekierka', 'modmuss50'], '2022-02-24T21:06:05.080468+00:00'),
