@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T18:45:16.910Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-12T20:43:20.615Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -50,7 +50,6 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (90, 11777161, 'open-sauced/hot', '11777161-open-sauced/hot', '2022-01-20T00:16:15.906342+00:00'),
 (91, 11777161, 'microsoft/TypeScript', '11777161-microsoft/TypeScript', '2022-01-20T00:16:28.051701+00:00'),
 (92, 11777161, 'microsoft/vscode', '11777161-microsoft/vscode', '2022-01-20T00:16:30.283986+00:00'),
-(93, 14043845, 'open-sauced/hot', '14043845-open-sauced/hot', '2022-01-23T23:07:38.899855+00:00'),
 (94, 14043845, 'supabase/supabase', '14043845-supabase/supabase', '2022-01-23T23:07:41.135137+00:00'),
 (95, 5713670, 'microsoft/vscode', '5713670-microsoft/vscode', '2022-01-24T04:23:33.106499+00:00'),
 (97, 5713670, 'supabase/supabase', '5713670-supabase/supabase', '2022-01-25T14:22:30.051256+00:00'),
@@ -61,7 +60,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (7, 11247099, 'slidevjs/slidev', '11247099-slidevjs/slidev', '2022-02-28T12:29:27.410126+00:00'),
 (8, 11247099, 'vitejs/vite', '11247099-vitejs/vite', '2022-02-28T12:29:32.023283+00:00'),
 (9, 163561, '11ty/eleventy', '163561-11ty/eleventy', '2022-03-01T19:10:34.559073+00:00'),
+(11, 163561, 'open-sauced/hot', '163561-open-sauced/hot', '2022-03-01T19:42:12.000989+00:00'),
 (12, 163561, 'vitejs/vite', '163561-vitejs/vite', '2022-03-01T19:42:19.233352+00:00'),
 (52, 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced', '2022-01-16T10:02:51.693585+00:00'),
-(11, 163561, 'open-sauced/hot', '163561-open-sauced/hot', '2022-03-01T19:42:12.000989+00:00'),
-(21, 7222344, 'open-sauced/hot', '7222344-open-sauced/hot', '2022-03-08T16:08:52.097372+00:00');
+(21, 7222344, 'open-sauced/hot', '7222344-open-sauced/hot', '2022-03-08T16:08:52.097372+00:00'),
+(93, 14043845, 'open-sauced/hot', '14043845-open-sauced/hot', '2022-01-23T23:07:38.899855+00:00');
