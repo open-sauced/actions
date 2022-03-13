@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T16:49:31.132Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T18:45:21.749Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -354,10 +354,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (10851820, 21494, 296, 2, 0, 16, 'ramda/ramda', ':ram: Practical functional Javascript', ARRAY['buzzdecafe', 'davidchambers'], '2022-02-24T21:06:05.080468+00:00'),
 (10865436, 32955, 115, 1, 0, 20, 'dypsilon/frontend-dev-bookmarks', 'Manually curated collection of resources for frontend web developers.', ARRAY['dypsilon', 'arthurvr'], '2022-02-24T21:06:05.080468+00:00'),
 (10893519, 1747, 45, 1, 0, 16, 'glebm/i18n-tasks', 'Manage translation and localization with static analysis, for Ruby i18n', ARRAY['glebm', 'otoyo'], '2022-02-24T21:06:05.080468+00:00'),
-(11041513, 1653, 11, 1, 0, 13, 'adriancooney/console.image', 'The one thing Chrome Dev Tools didn''t need.', ARRAY['adriancooney', 'oliversalzburg'], '2022-02-24T21:06:05.080468+00:00'),
 (11056820, 6337, 98, 1, 0, 0, 'erikflowers/weather-icons', '215 Weather Themed Icons and CSS', ARRAY['erikflowers', 'fox91'], '2022-02-24T21:06:05.080468+00:00'),
 (11075275, 7996, 101, 1, 0, 12, 'sloria/TextBlob', 'Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.', ARRAY['sloria', 'RomanYankovsky'], '2022-02-24T21:06:05.080468+00:00'),
 (11115005, 3, 0, 1, 0, 10, 'raveeshbhalla/startupmap', 'Indian Startup Map', ARRAY['raveeshbhalla'], '2022-02-24T21:06:05.080468+00:00'),
+(11041513, 1653, 11, 1, 0, 13, 'adriancooney/console.image', 'The one thing Chrome Dev Tools didn''t need.', ARRAY['adriancooney', 'oliversalzburg'], '2022-02-24T21:06:05.080468+00:00'),
 (11180687, 56014, 717, 3, 0, 18, 'gohugoio/hugo', 'The world’s fastest framework for building websites.', ARRAY['bep', 'spf13'], '2022-02-24T21:06:05.080468+00:00'),
 (11220178, 4518, 25, 1, 0, 29, 'redecentralize/alternative-internet', 'A collection of interesting new networks and tech aiming at decentralisation (in some form).', ARRAY['rossjones', 'traviscibot'], '2022-02-24T21:06:05.080468+00:00'),
 (11267509, 32061, 320, 1, 0, 19, 'bumptech/glide', 'An image loading and caching library for Android focused on smooth scrolling', ARRAY['sjudd', 'TWiStErRob'], '2022-02-24T21:06:05.080468+00:00'),
@@ -370,8 +370,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (11495787, 9372, 51, 1, 0, 18, 'JakeWharton/timber', 'A logger with a small, extensible API which provides utility on top of Android''s normal Log class.', ARRAY['JakeWharton', 'jrodbx'], '2022-02-24T21:06:05.080468+00:00'),
 (11512043, 1882, 451, 1, 0, 12, 'tasks/tasks', 'Bringing Astrid Tasks back from the dead', ARRAY['abaker', 'FlorianLeChat'], '2022-02-24T21:06:05.080468+00:00'),
 (11684125, 102, 2, 1, 0, 6, 'avoidwork/tiny-lru', 'Tiny LRU cache for Client or Server', ARRAY['avoidwork', 'osdevisnot'], '2022-02-24T21:06:05.080468+00:00'),
-(345796271, 1, 0, 1, 0, 20, 'george-hawkins/financials', null, ARRAY['george-hawkins'], '2022-02-24T21:06:05.080468+00:00'),
 (11697660, 164, 0, 1, 0, 28, 'AccessLint/accesslint.rb', '[use www.accesslint.com instead - this library is no longer maintained]', ARRAY['ckundo', 'jaimeiniesta'], '2022-02-24T21:06:05.080468+00:00'),
+(345796271, 1, 0, 1, 0, 20, 'george-hawkins/financials', null, ARRAY['george-hawkins'], '2022-02-24T21:06:05.080468+00:00'),
 (11730342, 191646, 546, 1, 1, 11, 'vuejs/vue', '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', ARRAY['yyx990803', 'vue-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (11753762, 8562, 34, 1, 0, 15, 'cheat/cheat', 'cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.', ARRAY['chrisallenlane', '1mm0rt41PC'], '2022-02-24T21:06:05.080468+00:00'),
 (11762897, 778, 27, 1, 0, 22, 'golismero/golismero', 'GoLismero - The Web Knife', ARRAY['MarioVilas', 'cr0hn'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2754,8 +2754,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (290234921, 2828, 1, 1, 0, 4, 'JoseDeFreitas/awesome-youtubers', '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', ARRAY['JoseDeFreitas', 'akaashsinha'], '2022-02-24T21:06:05.080468+00:00'),
 (290247146, 2101, 16, 1, 0, 7, 'mitmath/18S191', 'Course 18.S191 at MIT, Spring 2021 - Introduction to computational thinking with Julia: ', ARRAY['fonsp', 'shashi'], '2022-02-24T21:06:05.080468+00:00'),
 (290264556, 4, 0, 1, 0, 27, 'Gloryness/Multiprocessing-in-PyQt5', 'Use this program to test how many threads can run at once while doing the same tasks.', ARRAY['Gloryness'], '2022-02-24T21:06:05.080468+00:00'),
-(290703027, 339, 17, 1, 0, 21, 'kothariji/competitive-programming', 'Hello Programmers :computer: , A one-stop Destination✏️✏️ for all your Competitive Programming Resources.📗📕    Refer CONTRIBUTING.md for contributions', ARRAY['kothariji', 'AK-I-RA'], '2022-02-24T21:06:05.080468+00:00'),
 (290625948, 241, 60, 1, 0, 15, 'joincomet/comet', 'All-in-one chat and forums for communities.', ARRAY['danb10', 'insuusvenerati'], '2022-02-24T21:06:05.080468+00:00'),
+(290703027, 339, 17, 1, 0, 21, 'kothariji/competitive-programming', 'Hello Programmers :computer: , A one-stop Destination✏️✏️ for all your Competitive Programming Resources.📗📕    Refer CONTRIBUTING.md for contributions', ARRAY['kothariji', 'AK-I-RA'], '2022-02-24T21:06:05.080468+00:00'),
 (291055052, 622, 191, 1, 0, 3, 'OpenSourceTogether/Hacktoberfest-2020', ':octocat: Welcome to Open-source! Simply add your details to contributors | Repo for Hacktoberfest 2020 ✅', ARRAY['chandan-reddy-k', 'CodesbyUnnati'], '2022-02-24T21:06:05.080468+00:00'),
 (291097507, 9, 1, 1, 0, 12, 'kainite/CoinbaseConsoleApp', 'Console App Bot to buy and sell any cryptocurrency on Coinbase Pro', ARRAY['kainite'], '2022-02-24T21:06:05.080468+00:00'),
 (291293670, 955, 4, 2, 0, 14.5, 'durgeshsamariya/awesome-github-profile-readme-templates', 'This repository contains best profile readme''s for your reference. ', ARRAY['durgeshsamariya', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00'),
