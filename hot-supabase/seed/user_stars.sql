@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T02:48:09.092Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T04:47:58.367Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -648,8 +648,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (638, 12410942, 56171308, 26, 4, 1198, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:07:34.596111'),
 (639, 12410942, 83222441, 27, 278, 155233, 'donnemartin/system-design-primer', 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', ARRAY['donnemartin', 'satob'], '2022-02-24T21:07:34.596111'),
 (640, 12410942, 198864465, 28, 11, 351, 'dragonman225/notablog', 'Tell stories of your work with Notion', ARRAY['dragonman225'], '2022-02-24T21:07:34.596111'),
-(642, 38800183, 22781617, 0, 0, 451, 'cclauss/Ten-lines-or-less', 'Python scripts that are short but useful or interesting', ARRAY['cclauss'], '2022-02-24T21:07:34.596111'),
 (641, 12410942, 2371106, 29, 59, 15846, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:07:34.596111'),
+(642, 38800183, 22781617, 0, 0, 451, 'cclauss/Ten-lines-or-less', 'Python scripts that are short but useful or interesting', ARRAY['cclauss'], '2022-02-24T21:07:34.596111'),
 (643, 38800183, 20455294, 1, 25, 67, 'guaycuru/gde', 'GDE', ARRAY['guaycuru', 'lcnzg'], '2022-02-24T21:07:34.596111'),
 (644, 38800183, 31985475, 2, 1, 5, 'erceth/jsflags-ai', 'ai node process that connects to jsflags', ARRAY['erceth'], '2022-02-24T21:07:34.596111'),
 (645, 38800183, 246056423, 3, 0, 16, 'iagoac/mc202', 'Disciplina MC202 - Estruturas de Dados', ARRAY['iagoac', 'enoque'], '2022-02-24T21:07:34.596111'),
@@ -4384,7 +4384,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (386705185, 349523, 902266, 17, 0, 73, 'jamesshore/lets_play_tdd', 'Let''s Play: Test-Driven Development', ARRAY['jamesshore', 'luontola'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 303802588, 29, 13, 2736, 'MHProDev/MHDDoS', 'Best DDoS Attack Script  Python3, Cyber Attack With 50 Methods', ARRAY['MHProDev', 'SudoLite'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 32, 39744, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 32, 39748, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 561, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 176, 4417, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
 (444571130, 469997, 516307, 23, 0, 3, 'g-ben-wiz/ARMinis', 'Augmented Reality Wargames Miniatures', ARRAY['g-ben-wiz'], '2022-02-24T21:07:34.596111'),
 (359971541, 28281924, 361310, 29, 28, 9539, 'teamcapybara/capybara', 'Acceptance test framework for web applications', ARRAY['twalpole', 'jnicklas'], '2022-02-24T21:07:34.596111'),
@@ -4392,7 +4393,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:24:04.205351'),
 (375196206, 57305940, 54496479, 29, 119, 213, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
 (450574015, 3662109, 334169919, 29, 23, 1299, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 560, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (396048780, 42749147, 323663755, 8, 0, 1, 'akobepeter/materializeProject', null, ARRAY['akobepeter'], '2022-02-24T21:07:34.596111'),
 (363497692, 4838867, 1062897, 2, 226, 130562, 'github/gitignore', 'A collection of useful .gitignore templates', ARRAY['shiftkey', 'arcresu'], '2022-02-24T21:07:34.596111'),
 (436289040, 61815862, 7715820, 29, 63, 8779, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
