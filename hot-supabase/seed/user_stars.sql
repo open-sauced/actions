@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T14:43:16.646Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T16:49:31.136Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -61,10 +61,10 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (54, 16268467, 177736533, 2, 16833, 260255, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:07:34.596111'),
 (55, 16268467, 27193779, 3, 1627, 83892, 'nodejs/node', 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', ARRAY['ry', 'Trott'], '2022-02-24T21:07:34.596111'),
 (56, 16268467, 189098079, 4, 2, 105, 'lmammino/streams-workshop', 'A workshop on Node.js Streams', ARRAY['lmammino', 'brian-childress'], '2022-02-24T21:07:34.596111'),
-(57, 16268467, 16604381, 5, 5, 1672, 'sergtitov/NodeJS-Learning', 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', ARRAY['sergtitov', 'Saurabh-hooda'], '2022-02-24T21:07:34.596111'),
-(58, 16268467, 16194327, 6, 10, 5546, 'adamschwartz/magic-of-css', 'A CSS course to turn you into a magician.', ARRAY['adamschwartz', 'cvrebert'], '2022-02-24T21:07:34.596111'),
 (59, 16268467, 172471552, 7, 5, 3694, 'aliyr/Nodejs-Developer-Roadmap', 'A Developer Roadmap to becoming a Node.js developer in 2019', ARRAY['aliyr', 'AGrant24'], '2022-02-24T21:07:34.596111'),
 (60, 16268467, 71583602, 8, 2, 25417, 'Developer-Y/cs-video-courses', 'List of Computer Science courses with video lectures.', ARRAY['Developer-Y', 'DateBro'], '2022-02-24T21:07:34.596111'),
+(58, 16268467, 16194327, 6, 10, 5546, 'adamschwartz/magic-of-css', 'A CSS course to turn you into a magician.', ARRAY['adamschwartz', 'cvrebert'], '2022-02-24T21:07:34.596111'),
+(57, 16268467, 16604381, 5, 5, 1672, 'sergtitov/NodeJS-Learning', 'This page contains collection of curated links to blog posts, articles, videos, tutorials, books, frameworks, modules, IDEs, testing tools, hosting providers, etc. to help you learn Node.js and keep up to date.', ARRAY['sergtitov', 'Saurabh-hooda'], '2022-02-24T21:07:34.596111'),
 (61, 16268467, 333421996, 9, 5, 4756, 'therealsreehari/Learn-Data-Science-For-Free', 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', ARRAY['therealsreehari', 'tuxiqae'], '2022-02-24T21:07:34.596111'),
 (62, 16268467, 132757250, 10, 0, 62, 'charlax/entrepreneurship-resources', 'A list of articles, books, videos related to entrepreneurship', ARRAY['charlax'], '2022-02-24T21:07:34.596111'),
 (63, 16268467, 23083156, 11, 909, 73873, 'mui-org/material-ui', 'MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
@@ -4384,8 +4384,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (375196206, 57305940, 54496479, 29, 119, 213, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 303802588, 29, 12, 2758, 'MHProDev/MHDDoS', 'Best DDoS Attack Script  Python3, Cyber Attack With 50 Methods', ARRAY['MHProDev', 'SudoLite'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 32, 39748, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 561, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 32, 39752, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 564, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 176, 4417, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
 (444571130, 469997, 516307, 23, 0, 3, 'g-ben-wiz/ARMinis', 'Augmented Reality Wargames Miniatures', ARRAY['g-ben-wiz'], '2022-02-24T21:07:34.596111'),
 (432242215, 10951893, 254660586, 29, 11, 2027, 'openmainframeproject/cobol-programming-course', 'Training materials and labs for a ''Getting Started'' level course on COBOL', ARRAY['MikeBauerCA', 'tanto259'], '2022-02-24T21:07:34.596111'),
