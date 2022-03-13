@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T12:49:52.444Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T14:43:16.474Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2459,8 +2459,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (182849188, 4140, 185, 985, 'delta-io/delta', '2022-02-24T21:07:06.457173+00:00'),
 (92865843, 1323, 23, 156, 'vmbrasseur/Public_Speaking', '2022-02-24T21:07:06.457173+00:00'),
 (110375203, 9, 0, 4, 'arindam-modak/YRASS-Media-Player', '2022-03-05T03:06:15.613413+00:00'),
-(213591248, 143, 1, 15, 'axentix/axentix', '2022-03-04T07:12:44.942805+00:00'),
 (50190034, 1112, 46, 133, 'futurice/chilipie-kiosk', '2022-02-24T21:07:06.457173+00:00'),
+(213591248, 143, 1, 15, 'axentix/axentix', '2022-03-04T07:12:44.942805+00:00'),
 (280531604, 1145, 8, 135, 'eggheadio/egghead-next', '2022-03-09T04:34:33.593733+00:00'),
 (254761650, 196, 22, 58, 'goncy/pency', '2022-02-24T21:07:06.457173+00:00'),
 (108473348, 442, 40, 71, 'stream-labs/obs-studio-node', '2022-02-24T21:07:06.457173+00:00'),
@@ -3421,8 +3421,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (40008106, 8436, 265, 827, 'MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-', '2022-02-24T21:07:06.457173+00:00'),
 (138085677, 1, 24, 11, 'CodePartnersMD/MD201-01', '2022-02-24T21:07:06.457173+00:00'),
 (15393566, 5512, 36, 142, 'AriaMinaei/theatre', '2022-02-24T21:07:06.457173+00:00'),
-(64478737, 1129, 166, 135, 'AllToMP3/alltomp3-app', '2022-02-24T21:07:06.457173+00:00'),
 (184456251, 63719, 2141, 3536, 'microsoft/PowerToys', '2022-02-24T21:07:06.457173+00:00'),
+(64478737, 1129, 166, 135, 'AllToMP3/alltomp3-app', '2022-02-24T21:07:06.457173+00:00'),
 (33614304, 64830, 232, 3001, 'nvbn/thefuck', '2022-02-24T21:07:06.457173+00:00'),
 (225295587, 6, 0, 0, 'BaseMax/JavaMyString', '2022-02-24T21:07:06.457173+00:00'),
 (2688907, 3415, 622, 866, 'honestbleeps/Reddit-Enhancement-Suite', '2022-02-24T21:07:06.457173+00:00'),

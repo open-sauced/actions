@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T12:49:52.664Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T14:43:16.652Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1627,8 +1627,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (138393139, 58967, 52, 1, 0, 0, 'trimstray/the-book-of-secret-knowledge', 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', ARRAY['trimstray', 'lbonanomi'], '2022-02-24T21:06:05.080468+00:00'),
 (138463948, 325, 0, 1, 0, 5, 'mochow13/competitive-programming-library', 'Templates, algorithms and data structures implemented and collected for programming contests. Check README.md for an overview.', ARRAY['mochow13'], '2022-02-24T21:06:05.080468+00:00'),
 (138547797, 33107, 104, 1, 0, 25, 'FiloSottile/mkcert', 'A simple zero-config tool to make locally trusted development certificates with any names you''d like.', ARRAY['FiloSottile', 'adamdecaf'], '2022-02-24T21:06:05.080468+00:00'),
-(138745753, 21, 0, 1, 0, 20, 'statisticsnorway/distributed-saga', 'Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization', ARRAY['kimcs', 'oranheim'], '2022-02-24T21:06:05.080468+00:00'),
 (138716355, 886, 41, 1, 0, 13, 'banzaicloud/logging-operator', 'Logging operator for Kubernetes based on Fluentd and Fluentbit', ARRAY['ahma', 'tarokkk'], '2022-02-24T21:06:05.080468+00:00'),
+(138745753, 21, 0, 1, 0, 20, 'statisticsnorway/distributed-saga', 'Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization', ARRAY['kimcs', 'oranheim'], '2022-02-24T21:06:05.080468+00:00'),
 (138754790, 4074, 312, 1, 0, 1, 'duckdb/duckdb', 'DuckDB is an in-process SQL OLAP Database Management System', ARRAY['Mytherin', 'hannesmuehleisen'], '2022-02-24T21:06:05.080468+00:00'),
 (138872921, 3494, 182, 1, 0, 10, 'jonaswinkler/paperless-ng', 'A supercharged version of paperless: scan, index and archive all your physical documents', ARRAY['jonaswinkler', 'danielquinn'], '2022-02-24T21:06:05.080468+00:00'),
 (138929098, 1403, 41, 1, 0, 17, 'google/gin-config', 'Gin provides a lightweight configuration framework for Python', ARRAY['dhr', 'sguada'], '2022-02-24T21:06:05.080468+00:00'),
