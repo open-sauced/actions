@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T01:02:13.241Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T02:48:09.092Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -648,8 +648,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (638, 12410942, 56171308, 26, 4, 1198, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:07:34.596111'),
 (639, 12410942, 83222441, 27, 278, 155233, 'donnemartin/system-design-primer', 'Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.', ARRAY['donnemartin', 'satob'], '2022-02-24T21:07:34.596111'),
 (640, 12410942, 198864465, 28, 11, 351, 'dragonman225/notablog', 'Tell stories of your work with Notion', ARRAY['dragonman225'], '2022-02-24T21:07:34.596111'),
-(641, 12410942, 2371106, 29, 59, 15846, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:07:34.596111'),
 (642, 38800183, 22781617, 0, 0, 451, 'cclauss/Ten-lines-or-less', 'Python scripts that are short but useful or interesting', ARRAY['cclauss'], '2022-02-24T21:07:34.596111'),
+(641, 12410942, 2371106, 29, 59, 15846, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:07:34.596111'),
 (643, 38800183, 20455294, 1, 25, 67, 'guaycuru/gde', 'GDE', ARRAY['guaycuru', 'lcnzg'], '2022-02-24T21:07:34.596111'),
 (644, 38800183, 31985475, 2, 1, 5, 'erceth/jsflags-ai', 'ai node process that connects to jsflags', ARRAY['erceth'], '2022-02-24T21:07:34.596111'),
 (645, 38800183, 246056423, 3, 0, 16, 'iagoac/mc202', 'Disciplina MC202 - Estruturas de Dados', ARRAY['iagoac', 'enoque'], '2022-02-24T21:07:34.596111'),
