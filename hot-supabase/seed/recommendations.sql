@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T18:45:21.749Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T20:43:17.493Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -354,10 +354,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (10851820, 21494, 296, 2, 0, 16, 'ramda/ramda', ':ram: Practical functional Javascript', ARRAY['buzzdecafe', 'davidchambers'], '2022-02-24T21:06:05.080468+00:00'),
 (10865436, 32955, 115, 1, 0, 20, 'dypsilon/frontend-dev-bookmarks', 'Manually curated collection of resources for frontend web developers.', ARRAY['dypsilon', 'arthurvr'], '2022-02-24T21:06:05.080468+00:00'),
 (10893519, 1747, 45, 1, 0, 16, 'glebm/i18n-tasks', 'Manage translation and localization with static analysis, for Ruby i18n', ARRAY['glebm', 'otoyo'], '2022-02-24T21:06:05.080468+00:00'),
+(11041513, 1653, 11, 1, 0, 13, 'adriancooney/console.image', 'The one thing Chrome Dev Tools didn''t need.', ARRAY['adriancooney', 'oliversalzburg'], '2022-02-24T21:06:05.080468+00:00'),
 (11056820, 6337, 98, 1, 0, 0, 'erikflowers/weather-icons', '215 Weather Themed Icons and CSS', ARRAY['erikflowers', 'fox91'], '2022-02-24T21:06:05.080468+00:00'),
 (11075275, 7996, 101, 1, 0, 12, 'sloria/TextBlob', 'Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.', ARRAY['sloria', 'RomanYankovsky'], '2022-02-24T21:06:05.080468+00:00'),
 (11115005, 3, 0, 1, 0, 10, 'raveeshbhalla/startupmap', 'Indian Startup Map', ARRAY['raveeshbhalla'], '2022-02-24T21:06:05.080468+00:00'),
-(11041513, 1653, 11, 1, 0, 13, 'adriancooney/console.image', 'The one thing Chrome Dev Tools didn''t need.', ARRAY['adriancooney', 'oliversalzburg'], '2022-02-24T21:06:05.080468+00:00'),
 (11180687, 56014, 717, 3, 0, 18, 'gohugoio/hugo', 'The world’s fastest framework for building websites.', ARRAY['bep', 'spf13'], '2022-02-24T21:06:05.080468+00:00'),
 (11220178, 4518, 25, 1, 0, 29, 'redecentralize/alternative-internet', 'A collection of interesting new networks and tech aiming at decentralisation (in some form).', ARRAY['rossjones', 'traviscibot'], '2022-02-24T21:06:05.080468+00:00'),
 (11267509, 32061, 320, 1, 0, 19, 'bumptech/glide', 'An image loading and caching library for Android focused on smooth scrolling', ARRAY['sjudd', 'TWiStErRob'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3662,11 +3662,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-24T21:06:05.080468+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-24T21:06:05.080468+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
-(44882201, 37303, 51, 8, 3, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 2, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
-(177736533, 260255, 16833, 1, -1, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00');
+(177736533, 260255, 16833, 1, -1, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
+(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00');
