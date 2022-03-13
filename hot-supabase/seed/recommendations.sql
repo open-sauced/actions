@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T10:43:30.300Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T12:49:52.664Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1627,8 +1627,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (138393139, 58967, 52, 1, 0, 0, 'trimstray/the-book-of-secret-knowledge', 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', ARRAY['trimstray', 'lbonanomi'], '2022-02-24T21:06:05.080468+00:00'),
 (138463948, 325, 0, 1, 0, 5, 'mochow13/competitive-programming-library', 'Templates, algorithms and data structures implemented and collected for programming contests. Check README.md for an overview.', ARRAY['mochow13'], '2022-02-24T21:06:05.080468+00:00'),
 (138547797, 33107, 104, 1, 0, 25, 'FiloSottile/mkcert', 'A simple zero-config tool to make locally trusted development certificates with any names you''d like.', ARRAY['FiloSottile', 'adamdecaf'], '2022-02-24T21:06:05.080468+00:00'),
-(138716355, 886, 41, 1, 0, 13, 'banzaicloud/logging-operator', 'Logging operator for Kubernetes based on Fluentd and Fluentbit', ARRAY['ahma', 'tarokkk'], '2022-02-24T21:06:05.080468+00:00'),
 (138745753, 21, 0, 1, 0, 20, 'statisticsnorway/distributed-saga', 'Implementation of the distributed-saga pattern consisting of separate java libraries for api, execution, and serialization', ARRAY['kimcs', 'oranheim'], '2022-02-24T21:06:05.080468+00:00'),
+(138716355, 886, 41, 1, 0, 13, 'banzaicloud/logging-operator', 'Logging operator for Kubernetes based on Fluentd and Fluentbit', ARRAY['ahma', 'tarokkk'], '2022-02-24T21:06:05.080468+00:00'),
 (138754790, 4074, 312, 1, 0, 1, 'duckdb/duckdb', 'DuckDB is an in-process SQL OLAP Database Management System', ARRAY['Mytherin', 'hannesmuehleisen'], '2022-02-24T21:06:05.080468+00:00'),
 (138872921, 3494, 182, 1, 0, 10, 'jonaswinkler/paperless-ng', 'A supercharged version of paperless: scan, index and archive all your physical documents', ARRAY['jonaswinkler', 'danielquinn'], '2022-02-24T21:06:05.080468+00:00'),
 (138929098, 1403, 41, 1, 0, 17, 'google/gin-config', 'Gin provides a lightweight configuration framework for Python', ARRAY['dhr', 'sguada'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2418,6 +2418,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (247589748, 13, 0, 1, 0, 5, 'Ursalink-CN/ursalink-decoder', 'Example decoder functions to Ursalink end-devices', ARRAY['Ursalink-CN'], '2022-02-24T21:06:05.080468+00:00'),
 (247607046, 4, 14, 1, 0, 10, 'jeffreybiles/vue-3-demo', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (247734036, 3, 0, 1, 0, 6, 'rodridev77/ecommerce-project', null, ARRAY['patricchubaca', 'markusbue'], '2022-02-24T21:06:05.080468+00:00'),
+(247809638, 8, 0, 1, 0, 4, 'Aarif123456/KeystrokeDynamicsSpoofer', 'A keystroke biometric spoofer created to test the strength of the strength of various keystoke dynamic based authentication systems', ARRAY['Aarif123456'], '2022-02-24T21:06:05.080468+00:00'),
 (248011509, 207, 34, 1, 0, 2, 'CodeForPhilly/chime', 'COVID-19 Hospital Impact Model for Epidemics', ARRAY['jlubken', 'quinn-dougherty'], '2022-02-24T21:06:05.080468+00:00'),
 (248032165, 3029, 61, 1, 0, 26, 'spring-projects/spring-authorization-server', 'The Spring Authorization Server project is focused on delivering OAuth 2.1 Authorization Server support to the Spring community.', ARRAY['jgrandja', 'sjohnr'], '2022-02-24T21:06:05.080468+00:00'),
 (248661350, 62, 24, 2, 0, 5.5, 'drewclem/protege', 'Remote jobs for junior developers', ARRAY['drewclem', 'pickleat'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2474,6 +2475,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (256710922, 282, 1, 1, 0, 22, 'web3coach/the-blockchain-bar', 'The source-code for: ''Build a Blockchain from Scratch in Go'' eBook.', ARRAY['web3coach', 'cmaahs'], '2022-02-24T21:06:05.080468+00:00'),
 (256725670, 3482, 18, 1, 0, 8, 'bansal-io/pattern.css', 'CSS only library to fill empty background with beautiful patterns.', ARRAY['bansal-io'], '2022-02-24T21:06:05.080468+00:00'),
 (256742063, 1, 2, 1, 0, 9, 'NyashaNziramasanga/facebook-navbar-ui-clone', '🌃  A clone of Facebooks dark theme nav bar 🌆', ARRAY['NyashaNziramasanga'], '2022-02-24T21:06:05.080468+00:00'),
+(256823068, 2, 13, 1, 0, 21, 'damianra/COVID19-ARG-API', null, ARRAY['damianra', 'ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
+(256847634, 400, 24, 1, 0, 6, 'Camberi/firecms', 'Awesome Firestore based CMS', ARRAY['fgatti675', 'zhigang1992'], '2022-02-24T21:06:05.080468+00:00'),
 (256850364, 11, 12, 1, 0, 29, 'macabeus/fluent-typescript', '📦 Automatically generate TypeScript declarations for Fluent files', ARRAY['macabeus', 'LokiMidgard'], '2022-02-24T21:06:05.080468+00:00'),
 (257022147, 408, 7, 1, 0, 2, 'simonw/til', 'Today I Learned', ARRAY['simonw', 'davidbgk'], '2022-02-24T21:06:05.080468+00:00'),
 (257171786, 1503, 0, 1, 0, 2, 'mjebrahimi/Awesome-Microservices-NetCore', '💎 A collection of awesome training series, articles, videos, books, courses, sample projects, and tools for Microservices in .NET Core', ARRAY['mjebrahimi', 'logcorner'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2506,10 +2509,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (260554261, 2137, 30, 1, 0, 7, 'johnsoncodehk/volar', '⚡ Explore high-performance tooling for Vue', ARRAY['johnsoncodehk', 'IWANABETHATGUY'], '2022-02-24T21:06:05.080468+00:00'),
 (260669334, 1, 22, 1, 0, 27, 'SchoolOfFreelancing/Docker-Child-Protection', 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ARRAY['UbuntuEvangelist', 'goldshtofsara'], '2022-02-24T21:06:05.080468+00:00'),
 (260719813, 196, 7, 1, 0, 15, 'NyaomiDEV/Glasstron', 'The go-to solution to Electron composition effects, such as blurry windows.', ARRAY['NyaomiDEV', 'KorbsStudio'], '2022-02-24T21:06:05.080468+00:00'),
-(256823068, 2, 13, 1, 0, 21, 'damianra/COVID19-ARG-API', null, ARRAY['damianra', 'ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
-(256847634, 400, 24, 1, 0, 6, 'Camberi/firecms', 'Awesome Firestore based CMS', ARRAY['fgatti675', 'zhigang1992'], '2022-02-24T21:06:05.080468+00:00'),
 (260751863, 14214, 44, 1, 0, 0, 'cyrildiagne/ar-cutpaste', 'Cut and paste your surroundings using AR', ARRAY['cyrildiagne', 'xraymemory'], '2022-02-24T21:06:05.080468+00:00'),
-(247809638, 8, 0, 1, 0, 4, 'Aarif123456/KeystrokeDynamicsSpoofer', 'A keystroke biometric spoofer created to test the strength of the strength of various keystoke dynamic based authentication systems', ARRAY['Aarif123456'], '2022-02-24T21:06:05.080468+00:00'),
 (260800773, 3316, 0, 1, 0, 21, 'huangsam/ultimate-python', 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ARRAY['huangsam', 'Add1solver'], '2022-02-24T21:06:05.080468+00:00'),
 (260839280, 1, 9, 1, 0, 20, 'ColomboJuan/Covid19-Arg', null, ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (260839409, 21, 1, 1, 0, 2, 'awtkns/vue-glow', 'A performant wrapper component to give dynamic glow effects in Vue ', ARRAY['awtkns'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2662,10 +2662,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (277795317, 2, 0, 1, 0, 2, 'flaki/simplayground', 'Playground for fiddling with HTML email and extracting the useful bits', ARRAY['flaki', 'ramonh'], '2022-02-24T21:06:05.080468+00:00'),
 (277882910, 194, 0, 1, 0, 17, 'kevin-powell/reponsive-web-design-bootcamp', 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', ARRAY['kevin-powell'], '2022-02-24T21:06:05.080468+00:00'),
 (277911948, 171, 1, 2, 0, 3.5, 'bdougie/awesome-black-developers', 'Amplifying the voices of Black developers in open source because #BlackLivesMatter ✊🏾', ARRAY['bdougie', 'damaneice'], '2022-02-24T21:06:05.080468+00:00'),
-(278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-24T21:06:05.080468+00:00'),
-(278296523, 8663, 50, 1, 0, 11, 'kautukkundan/Awesome-Profile-README-templates', 'A collection of awesome readme templates to display on your profile', ARRAY['kautukkundan', 'LuizCarlosAbbott'], '2022-02-24T21:06:05.080468+00:00'),
 (278091381, 286, 5, 1, 0, 9, 'jobream/List-of-Learning-Resources', 'This collection provides a list of educational resources for Software Engineers. Feel free to add your favorite resources as well and help others in their journey of learning.', ARRAY['TheSlimCoder', 'CodingSpecies'], '2022-02-24T21:06:05.080468+00:00'),
 (278139674, 5, 1, 1, 0, 1, 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', ARRAY['e4c6'], '2022-02-24T21:06:05.080468+00:00'),
+(278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-24T21:06:05.080468+00:00'),
+(278296523, 8663, 50, 1, 0, 11, 'kautukkundan/Awesome-Profile-README-templates', 'A collection of awesome readme templates to display on your profile', ARRAY['kautukkundan', 'LuizCarlosAbbott'], '2022-02-24T21:06:05.080468+00:00'),
 (278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-24T21:06:05.080468+00:00'),
 (278342702, 35, 0, 1, 0, 7, 'jmkitavi/interview-questions', 'Collections of Interview Questions from different Companies', ARRAY['jmkitavi'], '2022-02-24T21:06:05.080468+00:00'),
 (278388013, 1, 0, 1, 0, 16, 'shadowruge/mega_sena', 'Gerador de números da Mega-Sena aleatório(não é previsão)', ARRAY['shadowruge'], '2022-02-24T21:06:05.080468+00:00'),
