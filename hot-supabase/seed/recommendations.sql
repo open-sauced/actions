@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T04:53:32.576Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T06:46:45.276Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1453,6 +1453,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (116257621, 988, 8, 1, 0, 24, 'tenancy/tenancy', 'Run multiple websites using the same Laravel installation while keeping tenant specific data separated for fully independent multi-domain setups.', ARRAY['ArlonAntonius', 'luceos'], '2022-02-24T21:06:05.080468+00:00'),
 (116392590, 1771, 11, 1, 0, 8, 'stefanprodan/podinfo', 'Go microservice template for Kubernetes', ARRAY['stefanprodan', 'dmccaffery'], '2022-02-24T21:06:05.080468+00:00'),
 (116586047, 111, 9, 1, 0, 7, 'ewilken/hap-rs', 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', ARRAY['ewilken', 'Gaelan'], '2022-02-24T21:06:05.080468+00:00'),
+(116612925, 821, 1, 1, 0, 29, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:06:05.080468+00:00'),
 (116800189, 164, 4, 1, 0, 23, 'dockersamples/k8s-wordsmith-demo', 'Sample project with Docker containers running under Kubernetes', ARRAY['BretFisher', 'otherguy'], '2022-02-24T21:06:05.080468+00:00'),
 (116825580, 1967, 27, 1, 0, 18, 'kubernetes-sigs/kubefed', 'Kubernetes Cluster Federation', ARRAY['k8s-ci-robot', 'marun'], '2022-02-24T21:06:05.080468+00:00'),
 (116848168, 952, 0, 1, 0, 7, 'Marcisbee/radi', '🌀Tiny (in size) front-end framework with no extra browser re-flows', ARRAY['Marcisbee', 'rafaelklaessen'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1597,13 +1598,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (134188447, 319, 14, 2, 0, 15, 'zero-to-mastery/JS_Fun_Practice', 'A list of small & fun functional programming exercises in JavaScript', ARRAY['SamirJouni', 'MattCSmith'], '2022-02-24T21:06:05.080468+00:00'),
 (134440972, 1226, 7, 1, 0, 13, 'prettier/plugin-ruby', 'Prettier Ruby Plugin', ARRAY['kddnewton', 'AlanFoster'], '2022-02-24T21:06:05.080468+00:00'),
 (134571997, 13, 0, 1, 0, 28, 'codingmamalabs/raspi-ansible', 'Ansible stuff for setting up Raspeberry Pis', ARRAY['erikaheidi'], '2022-02-24T21:06:05.080468+00:00'),
-(134733282, 1570, 46, 1, 0, 25, 'spring-projects-experimental/spring-fu', 'KoFu and JaFu configuration DSLs for Spring Boot', ARRAY['sdeleuze', 'fteychene'], '2022-02-24T21:06:05.080468+00:00'),
 (134734981, 32, 26, 1, 0, 2, 'berliCRM/berlicrm', 'From Berlin to Germany and Europe - an open source CRM Solution mainly for small and medium-sized businesses:  Visit https://www.berlicrm.de/', ARRAY['bbommer', 'AlexKay85'], '2022-02-24T21:06:05.080468+00:00'),
 (134777298, 1773, 278, 1, 0, 6, 'microsoft/vscode-pull-request-github', 'GitHub Pull Requests for Visual Studio Code', ARRAY['alexr00', 'rebornix'], '2022-02-24T21:06:05.080468+00:00'),
 (135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-24T21:06:05.080468+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-24T21:06:05.080468+00:00'),
 (135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-24T21:06:05.080468+00:00'),
 (135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-24T21:06:05.080468+00:00'),
+(134733282, 1570, 46, 1, 0, 25, 'spring-projects-experimental/spring-fu', 'KoFu and JaFu configuration DSLs for Spring Boot', ARRAY['sdeleuze', 'fteychene'], '2022-02-24T21:06:05.080468+00:00'),
 (135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:06:05.080468+00:00'),
 (135786093, 31329, 0, 1, 2, 0, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (135989792, 2759, 238, 1, 0, 24, 'fomantic/Fomantic-UI', 'Fomantic-UI is a community fork of Semantic-UI', ARRAY['jlukic', 'lubber-de'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1702,7 +1703,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (145838509, 159, 0, 1, 0, 20, 'mapbox/potpack', 'A tiny rectangle packing JavaScript library (for sprite layouts)', ARRAY['mourner', 'mbullington'], '2022-02-24T21:06:05.080468+00:00'),
 (145908919, 124, 12, 1, 0, 6, 'kubernetes-sigs/contributor-playground', null, ARRAY['k8s-ci-robot', 'atoato88'], '2022-02-24T21:06:05.080468+00:00'),
 (146033470, 2, 0, 1, 0, 6, 'ernestomancebo/angular-native-dialog', 'Implementation example of how to use a native dialog in an Angular project.', ARRAY['ernestomancebo', 'angular-cli'], '2022-02-24T21:06:05.080468+00:00'),
-(116612925, 821, 1, 1, 0, 29, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:06:05.080468+00:00'),
 (146218451, 792, 12, 1, 0, 25, 'seanpmaxwell/overnight', 'TypeScript decorators for the ExpressJS Server.', ARRAY['joeykilpatrick', 'seanpmaxwell'], '2022-02-24T21:06:05.080468+00:00'),
 (146435241, 838, 5, 1, 0, 9, 'Matoking/protontricks', 'A simple wrapper that does winetricks things for Proton enabled games, requires Winetricks.', ARRAY['Matoking', 'Sirmentio'], '2022-02-24T21:06:05.080468+00:00'),
 (146486679, 181, 26, 1, 0, 11, 'beyonk-adventures/svelte-carousel', 'A super lightweight, super simple Carousel for Svelte 3', ARRAY['antony', 'jokin'], '2022-02-24T21:06:05.080468+00:00'),
