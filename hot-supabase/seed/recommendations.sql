@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T08:45:02.234Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T10:44:26.868Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1712,10 +1712,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (147350463, 46372, 11, 1, 1, 0, 'leonardomso/33-js-concepts', '📜 33 JavaScript concepts every developer should know.', ARRAY['leonardomso', 'ilker0'], '2022-02-24T21:06:05.080468+00:00'),
 (147560775, 146, 41, 1, 0, 2, 'kadencewp/kadence-blocks', 'Advanced Page Building Blocks for Gutenberg. Create custom column layouts, backgrounds, dual buttons, icons etc.', ARRAY['kadencewp', 'asaquzzaman'], '2022-02-24T21:06:05.080468+00:00'),
 (147713432, 108, 24, 1, 0, 9, 'LinusBorg/vue-reactive-provide', 'Plugin/Mixin wrapping Vue''s static ''provide/inject'' feature allowing to easily pass reactive data to children', ARRAY['LinusBorg', 'ChristianKienle'], '2022-02-24T21:06:05.080468+00:00'),
-(147777488, 145, 0, 1, 0, 15, 'philnash/react-web-audio', 'A small example React app that listens to the microphone and visualises the audio', ARRAY['philnash', 'dev-segal'], '2022-02-24T21:06:05.080468+00:00'),
 (147802356, 328, 104, 1, 0, 12, 'ConsenSys/teku', 'Java Implementation of the Ethereum 2.0 Beacon Chain', ARRAY['ajsutton', 'rolfyone'], '2022-02-24T21:06:05.080468+00:00'),
 (147919799, 7546, 6, 1, 0, 6, 'yandexdataschool/nlp_course', 'YSDA course in Natural Language Processing', ARRAY['justheuristic', 'drt7'], '2022-02-24T21:06:05.080468+00:00'),
 (147973047, 1025, 3, 1, 0, 7, 'brianlovin/briOS', 'My personal website.', ARRAY['brianlovin', 'timneutkens'], '2022-02-24T21:06:05.080468+00:00'),
+(147777488, 145, 0, 1, 0, 15, 'philnash/react-web-audio', 'A small example React app that listens to the microphone and visualises the audio', ARRAY['philnash', 'dev-segal'], '2022-02-24T21:06:05.080468+00:00'),
 (148236762, 8, 2, 2, 0, 0, 'BrunoMNDantas/TPL4J', 'Task Parallel Library for Java', ARRAY['BrunoMNDantas'], '2022-02-24T21:06:05.080468+00:00'),
 (148504330, 62, 12, 1, 0, 20, 'IBM/newrelic-cli', 'New Relic CLI is a command line tool which is used to operate New Relic objects(Synthetic monitors, alert policies, conditions, account users etc). You can use it easily to list/get/create/delete these objects. It can be used to backup your New Relic configuration data and restore in the future. It is easy to be used other than calling different REST API endpoints.', ARRAY['gailtang', 'mlvazqu2'], '2022-02-24T21:06:05.080468+00:00'),
 (148630726, 5212, 26, 1, 0, 3, 'wechat-miniprogram/miniprogram-demo', '微信小程序组件 / API / 云开发示例', ARRAY['TtTRz', 'ele828'], '2022-02-24T21:06:05.080468+00:00'),
