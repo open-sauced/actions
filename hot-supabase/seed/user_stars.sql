@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T01:02:16.656Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T02:51:11.440Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4291,6 +4291,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (398348178, 39362365, 15185110, 17, 20, 405, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'njhoffman'], '2022-02-24T21:07:34.596111'),
 (422280843, 289882, 661127, 22, 0, 2, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:07:34.596111'),
 (375762962, 11777161, 25304276, 29, 127, 127, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:07:34.596111'),
+(306906348, 4199845, 190091795, 29, 19, 4374, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (307155109, 12400445, 4311796, 16, 310, 54623, 'adam-p/markdown-here', 'Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.', ARRAY['adam-p', 'wm8120'], '2022-02-24T21:07:34.596111'),
 (353295436, 22620727, 286080143, 29, 49, 9370, 'upptime/upptime', '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ARRAY['upptime-bot', 'pabio-escobar'], '2022-02-24T21:07:34.596111'),
 (352793229, 22655167, 126813008, 29, 0, 832, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
@@ -4301,14 +4302,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (321809845, 907680, 70908474, 29, 62, 940, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (422313558, 74208843, 59096058, 7, 43, 601, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-24T21:07:34.596111'),
 (375776088, 3340406, 219294494, 29, 11, 3176, 'xxh/xxh', '🚀 Bring your favorite shell wherever you go through the ssh.', ARRAY['anki-code', 'drmikecrowe'], '2022-02-24T21:07:34.596111'),
-(306906348, 4199845, 190091795, 29, 19, 4374, 'kylelobo/The-Documentation-Compendium', '📢 Various README templates & tips on writing high-quality documentation that people want to read.', ARRAY['kylelobo', 'albertomosconi'], '2022-02-24T21:07:34.596111'),
 (373584272, 24217493, 340306054, 2, 0, 1, 'Jussii/JunctionAppTesting', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 38131381, 29, 5, 629, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'baspavlou'], '2022-02-24T21:07:34.596111'),
-(259232283, 10012151, 18442377, 8, 0, 13496, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
 (353612066, 31478648, 161691324, 29, 30, 1583, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:07:34.596111'),
 (353272785, 46935495, 193761872, 3, 0, 3, 'fireworks-world/SplashScreen_Animation', 'Android Traing Practicals', ARRAY['saha2201', 'fireworks-world'], '2022-02-24T21:07:34.596111'),
 (215550527, 1930729, 202787876, 29, 199, 11754, 'Rigellute/spotify-tui', 'Spotify for the terminal written in Rust 🚀', ARRAY['Rigellute', 'jfaltis'], '2022-02-24T21:07:34.596111'),
 (420634958, 12410942, 2371106, 29, 58, 15913, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:07:34.596111'),
+(259232283, 10012151, 18442377, 8, 0, 13496, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
 (353169129, 72912813, 214587193, 0, 251, 29542, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
 (398934860, 34903088, 396613541, 29, 1, 384, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'zheeeng'], '2022-02-24T21:07:34.596111'),
 (323523231, 55907631, 209391513, 29, 30, 1069, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
@@ -4318,6 +4317,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (398740147, 34394719, 250355030, 29, 0, 314, 'schneefux/vscode-winddown', 'VS Code extension that encourages you to take a break.', ARRAY['schneefux'], '2022-02-24T21:07:34.596111'),
 (375812408, 908380, 7670022, 29, 55, 956, 'salomvary/soundcleod', 'SoundCloud for macOS and Windows', ARRAY['salomvary', 'rmaes4'], '2022-02-24T21:07:34.596111'),
 (361357857, 51794934, 342191787, 1, 0, 23, 'LambdaSchool/build-week-scaffolding-node', null, ARRAY['Ladrillo'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 5, 630, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'baspavlou'], '2022-02-24T21:07:34.596111'),
 (418247835, 16165980, 343965132, 0, 6, 28909, 'microsoft/ML-For-Beginners', '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', ARRAY['jlooper', 'softchris'], '2022-02-24T21:07:34.596111'),
 (396050805, 25217168, 7691631, 16, 4251, 62407, 'moby/moby', 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', ARRAY['thaJeztah', 'cpuguy83'], '2022-02-24T21:07:34.596111'),
 (422332797, 4066445, 3214406, 4, 118, 42842, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-24T21:07:34.596111'),
@@ -4325,13 +4325,13 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (417381369, 79887, 2928944, 29, 1609, 3368, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:07:34.596111'),
 (397167684, 52573181, 60493101, 1, 47, 213454, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:07:34.596111'),
 (396166713, 80793630, 192428445, 29, 10, 3, 'bitcoin-studio/LightningNespressoUI', 'Nespresso capsule vending machine - UI code', ARRAY['Janaka-Steph'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 48, 8599, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (418295712, 71458737, 51595028, 0, 74, 1315, 'OPCFoundation/UA-.NETStandard', 'OPC Unified Architecture .NET Standard', ARRAY['mregen', 'barnstee'], '2022-02-24T21:07:34.596111'),
 (423914895, 19617280, 333980205, 29, 0, 142, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:07:34.596111'),
 (418175317, 1917293, 401300251, 29, 0, 2, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-24T21:07:34.596111'),
 (396049655, 85258143, 388004440, 0, 1, 48, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-24T21:07:34.596111'),
 (396805583, 26586086, 147350463, 29, 12, 47675, 'leonardomso/33-js-concepts', '📜 33 JavaScript concepts every developer should know.', ARRAY['leonardomso', 'ilker0'], '2022-02-24T21:07:34.596111'),
 (360558767, 2808728, 22887094, 29, 357, 44308, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 157397583, 29, 48, 8595, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (361187808, 1295334, 1300192, 18, 14446, 10924, 'octocat/Spoon-Knife', 'This repo is for demonstration purposes only.', ARRAY['octocat'], '2022-02-24T21:07:34.596111'),
 (304890007, 69519470, 133134007, 1, 3099, 11505, 'OpenAPITools/openapi-generator', 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', ARRAY['wing328', 'fehguy'], '2022-02-24T21:07:34.596111'),
 (422279691, 4910518, 114484885, 5, 0, 59, 'trectenwald/omnigraffle-aws', 'Omnigraffle stencils using AWS Simple Icons.', ARRAY['trectenwald'], '2022-02-24T21:07:34.596111'),
@@ -4428,8 +4428,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (468472328, 28269, 39769, 23, 0, 64, 'mzslater/learning-rails-sample-app', 'Sample application for the Learning Rails free online course in Ruby on Rails', ARRAY['michael-slater', 'learningrails'], '2022-03-12T07:15:58.307833'),
 (382167794, 1431853, 135516270, 29, 423, 19398, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:07:34.596111'),
 (396028887, 3012159, 276613189, 10, 5, 1, 'sieis/udemyYelpCamp', 'My code for the final YelpCamp project updated with Bootstrap 4', ARRAY['sieis'], '2022-03-09T05:40:54.538531'),
-(308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
 (467358729, 9283692, 66291203, 2, 0, 37, 'margyle/heyMugsy', 'Mugsy is a Raspberry Pi and Arduino powered coffee making robot.', ARRAY['margyle'], '2022-03-09T04:34:31.380795'),
+(308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
 (396051716, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
 (330475048, 61131314, 31792824, 29, 10544, 137396, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-24T21:07:34.596111'),
 (467581742, 7222344, 3452519, 7, 23, 531, 'humanmade/Custom-Meta-Boxes', 'Lets you easily create metaboxes with custom fields that will blow your mind.   ', ARRAY['mattheu', 'mikeselander'], '2022-03-09T10:39:40.818859'),
