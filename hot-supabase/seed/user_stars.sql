@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T14:43:27.106Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T16:50:52.458Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4381,6 +4381,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (407663252, 35779241, 4067434, 29, 219, 2750, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
 (452075032, 22186029, 337208358, 29, 0, 13, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
 (272558455, 42392347, 254889040, 22, 0, 1, 'ColomboJuan/AppCodvid19', 'Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/', ARRAY['ColomboJuan'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 32, 39770, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 303802588, 29, 20, 2818, 'MHProDev/MHDDoS', 'Best DDoS Attack Script  Python3, Cyber Attack With 50 Methods', ARRAY['MHProDev', 'SudoLite'], '2022-02-24T21:07:34.596111'),
 (460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
@@ -4389,7 +4390,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (407102326, 4386534, 15393566, 29, 36, 5536, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'AndrewPrifer'], '2022-02-24T21:07:34.596111'),
 (436289040, 61815862, 7715820, 29, 63, 8787, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
 (432242215, 10951893, 254660586, 29, 11, 2028, 'openmainframeproject/cobol-programming-course', 'Training materials and labs for a ''Getting Started'' level course on COBOL', ARRAY['MikeBauerCA', 'tanto259'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 564, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (363497692, 4838867, 1062897, 2, 226, 130625, 'github/gitignore', 'A collection of useful .gitignore templates', ARRAY['shiftkey', 'arcresu'], '2022-02-24T21:07:34.596111'),
 (450574015, 3662109, 334169919, 29, 26, 1301, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
@@ -4398,7 +4398,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (408008691, 45036724, 61059364, 29, 38, 669, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-24T21:07:34.596111'),
 (386705185, 349523, 902266, 17, 0, 73, 'jamesshore/lets_play_tdd', 'Let''s Play: Test-Driven Development', ARRAY['jamesshore', 'luontola'], '2022-02-24T21:07:34.596111'),
 (320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 32, 39755, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 565, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (364454628, 13490604, 216099642, 29, 24, 26, 'EvanBacon/react-native-ink', 'React Native for CLIs', ARRAY['EvanBacon'], '2022-02-24T21:07:34.596111'),
 (359508510, 36890230, 114416028, 8, 0, 4, 'datadesk/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'palewire'], '2022-02-24T21:07:34.596111'),
 (465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:24:04.205351'),

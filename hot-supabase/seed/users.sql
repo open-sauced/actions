@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T14:43:26.792Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T16:50:52.683Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -181,13 +181,13 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (6935431, 11, false, true, 'zkoppert', '2022-02-24T21:07:48.046487+00:00'),
 (32903278, 1, false, true, 'onurbayraktar', '2022-02-24T21:07:48.046487+00:00'),
 (33148009, 9, false, true, 'papadavis47', '2022-02-25T08:10:28.35607+00:00'),
+(8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
 (3037127, 6, false, true, 'cpretzer', '2022-02-25T08:34:30.116922+00:00'),
 (5467696, 2, false, true, 'fwoelffel', '2022-02-24T21:07:48.046487+00:00'),
 (19350071, 1, false, true, 'atosh502', '2022-02-25T08:23:36.902391+00:00'),
-(8200073, 1, false, true, 'salindae25', '2022-02-24T21:07:48.046487+00:00'),
+(83277146, 1, false, true, 'ashwth', '2022-02-24T21:07:48.046487+00:00'),
 (5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (29295102, 1, false, true, 'silvasobrinho', '2022-02-24T21:07:48.046487+00:00'),
-(60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:48:54.628921+00:00'),
 (9935383, 3, false, true, 'jsehull', '2022-02-24T21:07:48.046487+00:00'),
 (14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
 (73375663, 0, false, true, 'RSurya99', '2022-03-12T12:21:59.133758+00:00'),
@@ -195,7 +195,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (76665107, 1, false, true, 'carrollsa', '2022-02-24T21:07:48.046487+00:00'),
 (12292047, 4, false, true, 'eps1lon', '2022-02-24T21:07:48.046487+00:00'),
 (61815862, 2, false, true, 'thebiblelover7', '2022-02-24T21:07:48.046487+00:00'),
-(74566464, 0, true, true, 'Pandademic', '2022-02-24T21:07:48.046487+00:00'),
+(60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:48:54.628921+00:00'),
 (22186029, 0, true, true, 'BenjaminMichaelis', '2022-02-24T21:07:48.046487+00:00'),
 (72279316, 5, false, true, 'Samikmalhotra', '2022-02-24T21:07:48.046487+00:00'),
 (22154417, 1, false, true, 'SamuelWitke', '2022-02-24T21:07:48.046487+00:00'),
@@ -211,7 +211,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (469997, 3, false, true, 'sobingt', '2022-02-24T21:07:48.046487+00:00'),
 (24606613, 0, false, true, 'udhaykumarbala', '2022-02-24T21:07:48.046487+00:00'),
 (3941856, 0, false, true, 'prophen', '2022-02-24T21:07:48.046487+00:00'),
-(83277146, 1, false, true, 'ashwth', '2022-02-24T21:07:48.046487+00:00'),
+(74566464, 0, true, true, 'Pandademic', '2022-02-24T21:07:48.046487+00:00'),
 (57008950, 0, false, true, 'prasadbobby', '2022-02-24T21:07:48.046487+00:00'),
 (74208843, 0, false, true, 'juanramollino', '2022-02-24T21:07:48.046487+00:00'),
 (88631894, 0, false, true, 'Aarondevp', '2022-02-24T21:07:48.046487+00:00'),
@@ -225,7 +225,6 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (3662109, 1, false, true, 'djdefi', '2022-02-24T21:07:48.046487+00:00'),
 (45293863, 0, true, true, 'bagatka', '2022-02-24T21:07:48.046487+00:00'),
 (4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
-(62261622, 0, false, true, 'sosplush', '2022-02-24T21:07:48.046487+00:00'),
 (9283692, 0, true, true, 'mpmccauley', '2022-03-08T04:14:15.634372+00:00'),
 (1862184, 0, false, true, 'jwNorwood', '2022-03-07T16:58:20.628864+00:00'),
 (3012159, 0, false, true, 'sieis', '2022-03-07T17:21:19.307707+00:00'),
@@ -234,4 +233,5 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (30334776, 0, false, true, 'BolajiAyodeji', '2022-02-24T21:07:48.046487+00:00'),
 (5842360, 1, false, true, 'haffmaestro', '2022-02-24T21:07:48.046487+00:00'),
 (7222344, 0, false, true, 'MattPostlethwaite', '2022-03-08T22:38:44.391293+00:00'),
-(13059091, 0, false, true, 'ifoi', '2022-03-07T23:20:37.011893+00:00');
+(13059091, 0, false, true, 'ifoi', '2022-03-07T23:20:37.011893+00:00'),
+(62261622, 0, false, true, 'sosplush', '2022-02-24T21:07:48.046487+00:00');
