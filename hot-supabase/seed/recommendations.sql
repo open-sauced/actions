@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-13T22:43:17.561Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T01:02:16.851Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2469,6 +2469,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (256039268, 3, 25, 1, 0, 17, 'progresak/lucrat-project', 'Lucrative automatic trading strategy system', ARRAY['progresak'], '2022-02-24T21:06:05.080468+00:00'),
 (256269779, 36, 10, 1, 0, 14, 'philhawksworth/hello-trello', null, ARRAY['philhawksworth'], '2022-02-24T21:06:05.080468+00:00'),
 (256332800, 594, 10, 1, 0, 1, 'argyleink/gui-challenges', 'centralized projects from the YouTube show GUI Challenges', ARRAY['argyleink', 'chris-kruining'], '2022-02-24T21:06:05.080468+00:00'),
+(256401220, 1396, 0, 1, 0, 8, 'alexeygrigorev/mlbookcamp-code', 'The code from the Machine Learning Bookcamp book and a free course based on the book', ARRAY['alexeygrigorev', 'ziritrion'], '2022-02-24T21:06:05.080468+00:00'),
 (256611909, 2, 0, 1, 0, 15, 'fedecalendino/wrap-genius', 'Unofficial python wrapper for genius'' API.', ARRAY['fedecalendino'], '2022-02-24T21:06:05.080468+00:00'),
 (256629525, 303, 1, 1, 0, 26, 'davidgrzyb/tailwind-admin-template', 'An admin dashboard template built with Tailwind and Alpine.js', ARRAY['davidgrzyb', 'iftikharyk'], '2022-02-24T21:06:05.080468+00:00'),
 (256710922, 282, 1, 1, 0, 22, 'web3coach/the-blockchain-bar', 'The source-code for: ''Build a Blockchain from Scratch in Go'' eBook.', ARRAY['web3coach', 'cmaahs'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2751,7 +2752,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (290020584, 61, 12, 1, 0, 21, 'dmnemec/copy_file_to_another_repo_action', 'This GitHub Action copies a file from the current repository to a location in another repository', ARRAY['dmnemec', 'sta-szek'], '2022-02-24T21:06:05.080468+00:00'),
 (290171658, 160, 9, 1, 0, 1, 'pankod/canvas2video', 'canvas2video is a backend solution for creating and rendering dynamic videos.', ARRAY['aliemir', 'omeraplak'], '2022-02-24T21:06:05.080468+00:00'),
 (290234921, 2828, 1, 1, 0, 4, 'JoseDeFreitas/awesome-youtubers', '▶️ An awesome list of awesome YouTubers that teach about technology. Tutorials about web development, computer science, machine learning, game development, cybersecurity, and more.', ARRAY['JoseDeFreitas', 'akaashsinha'], '2022-02-24T21:06:05.080468+00:00'),
-(256401220, 1396, 0, 1, 0, 8, 'alexeygrigorev/mlbookcamp-code', 'The code from the Machine Learning Bookcamp book and a free course based on the book', ARRAY['alexeygrigorev', 'ziritrion'], '2022-02-24T21:06:05.080468+00:00'),
 (290247146, 2101, 16, 1, 0, 7, 'mitmath/18S191', 'Course 18.S191 at MIT, Spring 2021 - Introduction to computational thinking with Julia: ', ARRAY['fonsp', 'shashi'], '2022-02-24T21:06:05.080468+00:00'),
 (290264556, 4, 0, 1, 0, 27, 'Gloryness/Multiprocessing-in-PyQt5', 'Use this program to test how many threads can run at once while doing the same tasks.', ARRAY['Gloryness'], '2022-02-24T21:06:05.080468+00:00'),
 (290625948, 241, 60, 1, 0, 15, 'joincomet/comet', 'All-in-one chat and forums for communities.', ARRAY['danb10', 'insuusvenerati'], '2022-02-24T21:06:05.080468+00:00'),
