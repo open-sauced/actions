@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T06:46:45.276Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-14T08:45:02.234Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1598,13 +1598,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (134188447, 319, 14, 2, 0, 15, 'zero-to-mastery/JS_Fun_Practice', 'A list of small & fun functional programming exercises in JavaScript', ARRAY['SamirJouni', 'MattCSmith'], '2022-02-24T21:06:05.080468+00:00'),
 (134440972, 1226, 7, 1, 0, 13, 'prettier/plugin-ruby', 'Prettier Ruby Plugin', ARRAY['kddnewton', 'AlanFoster'], '2022-02-24T21:06:05.080468+00:00'),
 (134571997, 13, 0, 1, 0, 28, 'codingmamalabs/raspi-ansible', 'Ansible stuff for setting up Raspeberry Pis', ARRAY['erikaheidi'], '2022-02-24T21:06:05.080468+00:00'),
+(134733282, 1570, 46, 1, 0, 25, 'spring-projects-experimental/spring-fu', 'KoFu and JaFu configuration DSLs for Spring Boot', ARRAY['sdeleuze', 'fteychene'], '2022-02-24T21:06:05.080468+00:00'),
 (134734981, 32, 26, 1, 0, 2, 'berliCRM/berlicrm', 'From Berlin to Germany and Europe - an open source CRM Solution mainly for small and medium-sized businesses:  Visit https://www.berlicrm.de/', ARRAY['bbommer', 'AlexKay85'], '2022-02-24T21:06:05.080468+00:00'),
 (134777298, 1773, 278, 1, 0, 6, 'microsoft/vscode-pull-request-github', 'GitHub Pull Requests for Visual Studio Code', ARRAY['alexr00', 'rebornix'], '2022-02-24T21:06:05.080468+00:00'),
 (135149082, 2, 0, 1, 0, 3, 'mit-dci/dlc-oracle-nodejs-samples', null, ARRAY['gertjaap'], '2022-02-24T21:06:05.080468+00:00'),
 (135201145, 10288, 204, 1, 0, 13, 'RustPython/RustPython', 'A Python Interpreter written in Rust', ARRAY['coolreader18', 'youknowone'], '2022-02-24T21:06:05.080468+00:00'),
 (135259420, 353, 2, 1, 0, 13, 'tailwindadmin/admin', 'admin panel template built on tailwind css :tada:', ARRAY['riteshsingh1', 'wassimbj'], '2022-02-24T21:06:05.080468+00:00'),
 (135363400, 768, 69, 1, 0, 12, 'ros-planning/navigation2', 'ROS2 Navigation Framework and System', ARRAY['SteveMacenski', 'bpwilcox'], '2022-02-24T21:06:05.080468+00:00'),
-(134733282, 1570, 46, 1, 0, 25, 'spring-projects-experimental/spring-fu', 'KoFu and JaFu configuration DSLs for Spring Boot', ARRAY['sdeleuze', 'fteychene'], '2022-02-24T21:06:05.080468+00:00'),
 (135516270, 18693, 456, 2, 0, 21, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:06:05.080468+00:00'),
 (135786093, 31329, 0, 1, 2, 0, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (135989792, 2759, 238, 1, 0, 24, 'fomantic/Fomantic-UI', 'Fomantic-UI is a community fork of Semantic-UI', ARRAY['jlukic', 'lubber-de'], '2022-02-24T21:06:05.080468+00:00'),
