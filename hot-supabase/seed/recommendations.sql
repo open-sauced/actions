@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T20:43:41.952Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T22:43:28.402Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -381,8 +381,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (11981144, 5659, 1427, 1, 0, 20, 'languagetool-org/languagetool', 'Style and Grammar Checker for 25+ Languages', ARRAY['danielnaber', 'jaumeortola'], '2022-02-24T21:06:05.080468+00:00'),
 (12029945, 581, 3, 1, 0, 7, 'uhop/stream-json', 'The micro-library of Node.js stream components for creating custom JSON processing pipelines with a minimal memory footprint. It can parse JSON files far exceeding available memory streaming individual primitives using a SAX-inspired API.', ARRAY['uhop', 'delta62'], '2022-02-24T21:06:05.080468+00:00'),
 (12080551, 18797, 88, 1, 0, 3, 'tsenart/vegeta', 'HTTP load testing tool and library. It''s over 9000!', ARRAY['tsenart', 'jpfuentes2'], '2022-02-24T21:06:05.080468+00:00'),
-(12236329, 2377, 177, 1, 0, 3, 'goldsmith/Wikipedia', 'A Pythonic wrapper for the Wikipedia API', ARRAY['goldsmith', 'kazuar'], '2022-02-24T21:06:05.080468+00:00'),
 (12169151, 69, 6, 1, 0, 6, 'samholmes/node-open-graph', 'An Open Graph implementation for Node.js.', ARRAY['samholmes', 'mvolz'], '2022-02-24T21:06:05.080468+00:00'),
+(12236329, 2377, 177, 1, 0, 3, 'goldsmith/Wikipedia', 'A Pythonic wrapper for the Wikipedia API', ARRAY['goldsmith', 'kazuar'], '2022-02-24T21:06:05.080468+00:00'),
 (12244426, 23755, 128, 1, 0, 26, 'rstacruz/nprogress', 'For slim progress bars like on YouTube, Medium, etc', ARRAY['rstacruz', 'lipis'], '2022-02-24T21:06:05.080468+00:00'),
 (12261520, 6889, 137, 1, 0, 23, 'smartystreets/goconvey', 'Go testing in the browser. Integrates with `go test`. Write behavioral tests in Go.', ARRAY['mdwhatcott', 'mholt'], '2022-02-24T21:06:05.080468+00:00'),
 (12299718, 71, 13, 1, 0, 4, 'twilio/starter-python', 'A starter app for Python developers embarking on their first Twilio quest!', ARRAY['kwhinnery', 'smendes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -479,8 +479,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (17580043, 732, 12, 1, 0, 17, 'bitcoinjs/bip39', 'JavaScript implementation of Bitcoin BIP39: Mnemonic code for generating deterministic keys', ARRAY['dcousens', 'weilu'], '2022-02-24T21:06:05.080468+00:00'),
 (17620347, 27158, 2234, 1, 0, 0, 'dotnet/aspnetcore', 'ASP.NET Core is a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux.', ARRAY['pranavkm', 'aspnetci'], '2022-02-24T21:06:05.080468+00:00'),
 (17634071, 2390, 253, 1, 0, 10, 'JabRef/jabref', 'Graphical Java application for managing BibTeX and biblatex (.bib) databases', ARRAY['koppor', 'Siedlerchr'], '2022-02-24T21:06:05.080468+00:00'),
-(17654723, 112, 2, 1, 0, 21, 'koding/kd', 'UI Framework for web applications.', ARRAY['sinan', 'gokmen'], '2022-02-24T21:06:05.080468+00:00'),
 (17652873, 766, 59, 1, 0, 13, 'FarmBot/Farmbot-Web-App', 'Setup, customize, and control FarmBot from any device', ARRAY['RickCarlino', 'gabrielburnworth'], '2022-02-24T21:06:05.080468+00:00'),
+(17654723, 112, 2, 1, 0, 21, 'koding/kd', 'UI Framework for web applications.', ARRAY['sinan', 'gokmen'], '2022-02-24T21:06:05.080468+00:00'),
 (17689377, 7113, 23, 1, 0, 3, 'pre-commit/pre-commit', 'A framework for managing and maintaining multi-language pre-commit hooks.', ARRAY['asottile', 'struys'], '2022-02-24T21:06:05.080468+00:00'),
 (17884290, 2689, 101, 3, 0, 20.333333333333332, 'tschaub/gh-pages', 'General purpose task for publishing files to a gh-pages branch on GitHub', ARRAY['tschaub', 'greenkeeperio-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (17959555, 4923, 22, 1, 0, 14, 'anishathalye/dotbot', 'A tool that bootstraps your dotfiles ⚡️', ARRAY['anishathalye', 'robobenklein'], '2022-02-24T21:06:05.080468+00:00'),
