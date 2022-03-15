@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T02:51:55.116Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T04:47:20.240Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4380,7 +4380,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (336566384, 1368727, 268086996, 0, 30, 11, 'dotellie/nestjs-graphql-pagination', 'Decorators to allow easily building up relay compatible pagination types', ARRAY['renovate-bot', 'dotellie'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 219, 2751, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 32, 39770, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 32, 39779, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 303802588, 29, 19, 2852, 'MHProDev/MHDDoS', 'Best DDoS Attack Script  Python3, Cyber Attack With 50 Methods', ARRAY['MHProDev', 'SudoLite'], '2022-02-24T21:07:34.596111'),
 (460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
@@ -4398,7 +4398,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (408029805, 59651629, 206410838, 29, 6, 18000, 'google/eng-practices', 'Google''s Engineering Practices documentation', ARRAY['code-health-devguide-copybara', 'adambender'], '2022-02-24T21:07:34.596111'),
 (375196206, 57305940, 54496479, 29, 119, 213, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
 (320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 1, 565, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 1, 566, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (364454628, 13490604, 216099642, 29, 24, 26, 'EvanBacon/react-native-ink', 'React Native for CLIs', ARRAY['EvanBacon'], '2022-02-24T21:07:34.596111'),
 (359508510, 36890230, 114416028, 8, 0, 4, 'datadesk/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'palewire'], '2022-02-24T21:07:34.596111'),
 (359971541, 28281924, 361310, 29, 28, 9542, 'teamcapybara/capybara', 'Acceptance test framework for web applications', ARRAY['twalpole', 'jnicklas'], '2022-02-24T21:07:34.596111'),
@@ -4423,7 +4423,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (417311106, 71297412, 55631449, 29, 98, 2168, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:07:34.596111'),
 (409822566, 9968219, 283210438, 29, 0, 1, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-24T21:07:34.596111'),
 (429224238, 1645545, 81075897, 29, 47, 254, 'SciML/Catalyst.jl', 'Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software', ARRAY['isaacsas', 'TorkelE'], '2022-02-24T21:07:34.596111'),
-(465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
 (468472328, 28269, 39769, 23, 0, 64, 'mzslater/learning-rails-sample-app', 'Sample application for the Learning Rails free online course in Ruby on Rails', ARRAY['michael-slater', 'learningrails'], '2022-03-12T07:15:58.307833'),
 (396028887, 3012159, 276613189, 10, 5, 1, 'sieis/udemyYelpCamp', 'My code for the final YelpCamp project updated with Bootstrap 4', ARRAY['sieis'], '2022-03-09T05:40:54.538531'),
 (467358729, 9283692, 66291203, 2, 0, 37, 'margyle/heyMugsy', 'Mugsy is a Raspberry Pi and Arduino powered coffee making robot.', ARRAY['margyle'], '2022-03-09T04:34:31.380795'),
@@ -4438,4 +4437,5 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (466201413, 11489171, 28457823, 8, 151, 342119, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-03-05T04:56:52.874277'),
 (363981975, 46828701, 258812961, 29, 12, 515, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-24T21:07:34.596111'),
 (302938010, 211851, 5373673, 29, 67, 2717, 'jlord/sheetsee.js', ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', ARRAY['jlord', 'mjhea0'], '2022-02-24T21:07:34.596111'),
+(465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
 (382167794, 1431853, 135516270, 29, 424, 19405, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:07:34.596111');
