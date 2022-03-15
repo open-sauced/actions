@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T04:47:20.054Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T06:46:39.698Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3241,6 +3241,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
 (364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
 (364149329, 42, 3, 1, 0, 26, 'orbit-love/github-actions-templates', 'Starter GitHub Actions templates to get you up and running with community built integrations', ARRAY['bencgreenberg', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
+(364336351, 10, 0, 1, 0, 3, 'DiscordFactory/core', '🧡 The neuralgic heart of the application, this module gathers all the functionalities of the framework.', ARRAY['LeadcodeDev', 'devreluije'], '2022-02-24T21:06:05.080468+00:00'),
+(364413063, 2, 0, 1, 0, 1, 'thebearingedge/global-installs-are-bad', 'And unnecessary.', ARRAY['thebearingedge'], '2022-02-24T21:06:05.080468+00:00'),
 (364474335, 27354, 17, 1, 0, 0, 'google/zx', 'A tool for writing better scripts', ARRAY['antonmedv', 'antongolub'], '2022-02-24T21:06:05.080468+00:00'),
 (364674634, 6, 5, 2, 0, 2, 'teambit/react-tailwind-env', 'An example of a custom react env with basic support for tailwindcss', ARRAY['GiladShoham', 'guysaar223'], '2022-02-24T21:06:05.080468+00:00'),
 (364915295, 7, 0, 1, 0, 0, 'prismicio/prismic-types', 'Type definitions for Prismic related structure', ARRAY['angeloashmore', 'lihbr'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3342,9 +3344,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (378070841, 514, 1, 1, 0, 3, 'ngneat/elf', '🧙‍♀️ A Reactive Store with Magical Powers', ARRAY['NetanelBasal', 'theblushingcrow'], '2022-02-24T21:06:05.080468+00:00'),
 (378086009, 26, 0, 1, 0, 27, 'Manitej66/twlog', 'This is a web app that converts Twitter threads into blogs in a single click 🔥', ARRAY['Manitej66', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (378379347, 8, 11, 1, 0, 4, 'rahul-kothari/hack-money-ape', 'For ETHGlobal''s HackMoney hackathon', ARRAY['mattiaslightstone', 'rahul-kothari'], '2022-02-24T21:06:05.080468+00:00'),
-(364336351, 10, 0, 1, 0, 3, 'DiscordFactory/core', '🧡 The neuralgic heart of the application, this module gathers all the functionalities of the framework.', ARRAY['LeadcodeDev', 'devreluije'], '2022-02-24T21:06:05.080468+00:00'),
 (378449409, 34, 0, 1, 0, 11, 'mame82/LucaAppIssues', 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', ARRAY['mame82'], '2022-02-24T21:06:05.080468+00:00'),
-(364413063, 2, 0, 1, 0, 1, 'thebearingedge/global-installs-are-bad', 'And unnecessary.', ARRAY['thebearingedge'], '2022-02-24T21:06:05.080468+00:00'),
 (378489581, 3, 0, 1, 0, 3, 'teezzan/ohtp', 'A secured and extensible authentication service with support for multiple media and integration forms.', ARRAY['teezzan'], '2022-02-24T21:06:05.080468+00:00'),
 (378536025, 2970, 0, 1, 0, 26, 'OffcierCia/DeFi-Developer-Road-Map', 'DeFi Developer roadmap is a curated Ethereum Developer handbook which includes a list of the best tools for DApps, development resources and lifehacks. ', ARRAY['OffcierCia', 'Dilrong'], '2022-02-24T21:06:05.080468+00:00'),
 (378603752, 22, 0, 1, 0, 8, 'hkaur008/microsoft-engage-project', 'This is a project under Microsoft Engage mentorship program ''21 by Hargun kaur', ARRAY['hkaur008'], '2022-02-24T21:06:05.080468+00:00'),
