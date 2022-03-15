@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T10:44:27.193Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T12:52:10.323Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3182,9 +3182,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (355298453, 20, 0, 1, 0, 26, 'myriadrf/lc-website', 'LibreCellular website', ARRAY['9600'], '2022-02-24T21:06:05.080468+00:00'),
 (355321589, 6, 0, 1, 0, 5, 'nuxtclub/feathericons', 'An easy way to integrate Feather Icons with NuxtJS', ARRAY['imlautaro'], '2022-02-24T21:06:05.080468+00:00'),
 (355395936, 56, 2, 1, 0, 6, 'xizon/poemkit', 'React toolkit for building a full website that also is a Micro-Frontend Architecture.', ARRAY['xizon'], '2022-02-24T21:06:05.080468+00:00'),
-(355664397, 96, 0, 1, 0, 2, 'ronakganatra/awesome-developer-marketing', 'A living document of hand-picked resources for marketers working on dev-centric products', ARRAY['ronakganatra', 'amorimjuliana'], '2022-02-24T21:06:05.080468+00:00'),
 (355825750, 4, 0, 1, 0, 25, 'udberg/JSLibrary', 'This project is a library application where a user can add and remove books, mark as read or unread as well as get the title, author, and number of pages in the book. Built to display the use of Objects in JavaScript.', ARRAY['udberg', 'keneogu'], '2022-02-24T21:06:05.080468+00:00'),
 (356007050, 2270, 13, 1, 0, 7, 'octokatherine/readme.so', null, ARRAY['octokatherine', 'jose-vale'], '2022-02-24T21:06:05.080468+00:00'),
+(355664397, 96, 0, 1, 0, 2, 'ronakganatra/awesome-developer-marketing', 'A living document of hand-picked resources for marketers working on dev-centric products', ARRAY['ronakganatra', 'amorimjuliana'], '2022-02-24T21:06:05.080468+00:00'),
 (356079886, 5, 2, 1, 0, 26, 'ezralazuardy/pathfinder', 'A simple, no-nonsense pathfinding algorithm visualizer web app ✨', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (356166032, 521, 0, 1, 0, 3, 'dabit3/full-stack-ethereum', 'Building full stack apps with Solidity, Ethers.js, Hardhat, and The Graph', ARRAY['dabit3', 'sJJdGG'], '2022-02-24T21:06:05.080468+00:00'),
 (356593669, 357, 2, 1, 0, 9, 'penk/ruha.camera', '3D Printable Retro-style Raspberry Pi HQ Camera', ARRAY['penk', 'meafs'], '2022-02-24T21:06:05.080468+00:00'),
