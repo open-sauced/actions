@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T14:43:31.034Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T16:50:24.212Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4003,8 +4003,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4007, 9935383, 6498492, 2, 131, 117641, 'airbnb/javascript', 'JavaScript Style Guide', ARRAY['ljharb', 'hshoff'], '2022-02-24T21:07:34.596111'),
 (4008, 9935383, 41881900, 3, 5350, 125676, 'microsoft/vscode', 'Visual Studio Code', ARRAY['bpasero', 'jrieken'], '2022-02-24T21:07:34.596111'),
 (4009, 9935383, 59148646, 4, 28, 560, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-24T21:07:34.596111'),
-(4010, 9935383, 28704549, 5, 89, 13215, 'philipwalton/flexbugs', 'A community-curated list of flexbox issues and cross-browser workarounds for them.', ARRAY['philipwalton', 'akaustav'], '2022-02-24T21:07:34.596111'),
 (4011, 9935383, 29514104, 6, 632, 14793, 'netlify/netlify-cms', 'A Git-based CMS for Static Site Generators', ARRAY['erquhart', 'erezrokah'], '2022-02-24T21:07:34.596111'),
+(4010, 9935383, 28704549, 5, 89, 13215, 'philipwalton/flexbugs', 'A community-curated list of flexbox issues and cross-browser workarounds for them.', ARRAY['philipwalton', 'akaustav'], '2022-02-24T21:07:34.596111'),
 (4012, 9935383, 75867720, 7, 27, 17461, 'wesbos/JavaScript30', '30 Day Vanilla JS Challenge', ARRAY['wesbos', 'palashmon'], '2022-02-24T21:07:34.596111'),
 (4013, 9935383, 46041284, 8, 1152, 9811, 'VSCodeVim/Vim', ':star: Vim for Visual Studio Code', ARRAY['jpoon', 'johnfn'], '2022-02-24T21:07:34.596111'),
 (4014, 9935383, 39785222, 9, 0, 8906, 'Droogans/unmaintainable-code', 'A more maintainable, easier to share version of the infamous http://mindprod.com/jgloss/unmain.html', ARRAY['Droogans', 'dfvalero'], '2022-02-24T21:07:34.596111'),

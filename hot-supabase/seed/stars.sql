@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T14:43:30.716Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-15T16:50:23.998Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1204,12 +1204,12 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (265122478, 9176, 338, 805, 'ManimCommunity/manim', '2022-02-24T21:07:06.457173+00:00'),
 (370470353, 1, 0, 1, 'ViktorStiskala/tyre-energy-label', '2022-02-24T21:07:06.457173+00:00'),
 (128604122, 5, 0, 2, 'praditautama/wwwid-pwa-challenge', '2022-02-24T21:07:06.457173+00:00'),
-(302416879, 145, 2, 35, 'simonw/ca-fires-history', '2022-02-24T21:07:06.457173+00:00'),
 (362605682, 17, 1, 0, 's-kngstn/wu-loremipsum', '2022-02-24T21:07:06.457173+00:00'),
 (106017343, 54403, 28, 2668, 'tailwindlabs/tailwindcss', '2022-02-24T21:07:06.457173+00:00'),
 (69746176, 5945, 0, 396, 'hackergrrl/art-of-readme', '2022-02-24T21:07:06.457173+00:00'),
 (11041513, 1681, 11, 150, 'adriancooney/console.image', '2022-02-24T21:07:06.457173+00:00'),
 (144109184, 67, 3, 5, 'mrouhi13/djecrety', '2022-02-24T21:07:06.457173+00:00'),
+(302416879, 145, 2, 35, 'simonw/ca-fires-history', '2022-02-24T21:07:06.457173+00:00'),
 (14098121, 27389, 57, 5894, 'aosabook/500lines', '2022-02-24T21:07:06.457173+00:00'),
 (292790829, 3558, 9, 236, 'google/eleventy-high-performance-blog', '2022-02-24T21:07:06.457173+00:00'),
 (5389577, 6500, 30, 617, 'aemkei/jsfuck', '2022-02-24T21:07:06.457173+00:00'),
@@ -2655,8 +2655,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (155220641, 59206, 472, 14002, 'huggingface/transformers', '2022-02-24T21:07:06.457173+00:00'),
 (230011262, 979, 189, 109, 'jbangdev/jbang', '2022-02-24T21:07:06.457173+00:00'),
 (29514104, 15074, 664, 2680, 'netlify/netlify-cms', '2022-02-24T21:07:06.457173+00:00'),
-(63508378, 1324, 5, 85, 'sindresorhus/hyper-snazzy', '2022-02-24T21:07:06.457173+00:00'),
 (216647402, 554, 2, 91, 'jeffreyvr/tailpress', '2022-02-24T21:07:06.457173+00:00'),
+(63508378, 1324, 5, 85, 'sindresorhus/hyper-snazzy', '2022-02-24T21:07:06.457173+00:00'),
 (274357906, 105, 2, 22, 't-bast/lightning-docs', '2022-02-24T21:07:06.457173+00:00'),
 (46041284, 10115, 1154, 1066, 'VSCodeVim/Vim', '2022-02-24T21:07:06.457173+00:00'),
 (357681, 7381, 116, 462, 'isaacs/node-glob', '2022-02-24T21:07:06.457173+00:00'),
