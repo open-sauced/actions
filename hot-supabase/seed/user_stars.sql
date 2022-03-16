@@ -1,18 +1,18 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T02:54:26.715Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-16T04:46:53.706Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) VALUES
 (1226, 27487712, 174715721, 17, 1, 914, 'pr0g/cmake-examples', 'A collection of as simple as possible, modern CMake projects', ARRAY['pr0g', '0xflotus'], '2022-02-24T21:07:34.596111'),
 (1227, 27487712, 165822880, 18, 0, 2, 'o11c/makefile-demo', null, ARRAY['o11c'], '2022-02-24T21:07:34.596111'),
+(1228, 27487712, 64504667, 19, 0, 946, 'MBMIT/MBM-Artwork', 'MBM Artwork', ARRAY['mariobehling'], '2022-02-24T21:07:34.596111'),
 (1229, 27487712, 111915629, 20, 0, 944, 'MBMIT/MBM-Sandbox', 'Sandbox for MBM', ARRAY['mariobehling'], '2022-02-24T21:07:34.596111'),
 (1230, 27487712, 111915571, 21, 0, 943, 'MBMIT/MBM-Projects', 'Project Listings of MBM', ARRAY['mariobehling'], '2022-02-24T21:07:34.596111'),
 (1231, 27487712, 157518025, 22, 0, 518, 'MBMIT/neurolab-android', 'Neurolab Android', ARRAY['mariobehling'], '2022-02-24T21:07:34.596111'),
 (1232, 27487712, 157519737, 23, 0, 511, 'MBMIT/neurolab-hardware', 'Neurolab Hardware', ARRAY['mariobehling', 'CloudyPadmal'], '2022-02-24T21:07:34.596111'),
 (1233, 27487712, 53432291, 24, 0, 747, 'Orbiter/timesheet', 'Android application for tracking time for different charge numbers', ARRAY['ambrice', 'seawolf'], '2022-02-24T21:07:34.596111'),
 (1234, 27487712, 6260037, 25, 0, 744, 'Orbiter/yacy-search', 'A simple web search application based on YaCy, a peer-to-peer web search engine.', ARRAY[''], '2022-02-24T21:07:34.596111'),
-(1228, 27487712, 64504667, 19, 0, 946, 'MBMIT/MBM-Artwork', 'MBM Artwork', ARRAY['mariobehling'], '2022-02-24T21:07:34.596111'),
 (1235, 27487712, 111914725, 26, 0, 956, 'MBMIT/mbmit.github.io', 'Website at http://mbmit.com', ARRAY['mariobehling', 'vanhonit'], '2022-02-24T21:07:34.596111'),
 (1236, 27487712, 105300337, 27, 0, 739, 'Orbiter/yacy_grid_ui', 'YaCy Grid Front Page', ARRAY['Orbiter', 'luccioman'], '2022-02-24T21:07:34.596111'),
 (1237, 27487712, 22654023, 28, 0, 901, 'MBMIT/interges.github.io', 'Interges Website', ARRAY['mariobehling'], '2022-02-24T21:07:34.596111'),
@@ -4291,6 +4291,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (398348178, 39362365, 15185110, 17, 20, 405, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'njhoffman'], '2022-02-24T21:07:34.596111'),
 (374469734, 1228996, 20619036, 29, 34, 35400, 'pi-hole/pi-hole', 'A black hole for Internet advertisements', ARRAY['DL6ER', 'PromoFaux'], '2022-02-24T21:07:34.596111'),
 (373584272, 24217493, 340306054, 2, 0, 1, 'Jussii/JunctionAppTesting', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 6, 631, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'baspavlou'], '2022-02-24T21:07:34.596111'),
 (382194702, 7860023, 32280638, 8, 5, 1891, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'altus34'], '2022-02-24T21:07:34.596111'),
 (353169129, 72912813, 214587193, 0, 250, 29580, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
 (352048060, 71386305, 88011908, 12, 19, 64274, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:07:34.596111'),
@@ -4305,7 +4306,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (361357857, 51794934, 342191787, 1, 0, 23, 'LambdaSchool/build-week-scaffolding-node', null, ARRAY['Ladrillo'], '2022-02-24T21:07:34.596111'),
 (422280843, 289882, 661127, 22, 0, 2, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:07:34.596111'),
 (353612066, 31478648, 161691324, 29, 31, 1592, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 38131381, 29, 5, 631, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'baspavlou'], '2022-02-24T21:07:34.596111'),
 (320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
 (353272785, 46935495, 193761872, 3, 0, 3, 'fireworks-world/SplashScreen_Animation', 'Android Traing Practicals', ARRAY['saha2201', 'fireworks-world'], '2022-02-24T21:07:34.596111'),
 (215550527, 1930729, 202787876, 29, 198, 11767, 'Rigellute/spotify-tui', 'Spotify for the terminal written in Rust 🚀', ARRAY['Rigellute', 'jfaltis'], '2022-02-24T21:07:34.596111'),
@@ -4334,12 +4334,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (361187808, 1295334, 1300192, 18, 14449, 10931, 'octocat/Spoon-Knife', 'This repo is for demonstration purposes only.', ARRAY['octocat'], '2022-02-24T21:07:34.596111'),
 (418295712, 71458737, 51595028, 0, 76, 1315, 'OPCFoundation/UA-.NETStandard', 'OPC Unified Architecture .NET Standard', ARRAY['mregen', 'barnstee'], '2022-02-24T21:07:34.596111'),
 (351754863, 3754311, 132750724, 29, 212, 135489, 'danistefanovic/build-your-own-x', '🤓 Build your own (insert technology here)', ARRAY['danistefanovic', 'bauripalash'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 46, 8618, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (305867720, 42211, 250512911, 29, 5, 137, 'apivideo/browserLiveStream', 'Use webcam, browser and Node to stream live video. From api.video (https://api.video)', ARRAY['dougsillars', 'erikkai'], '2022-02-24T21:07:34.596111'),
 (396805583, 26586086, 147350463, 29, 13, 47726, 'leonardomso/33-js-concepts', '📜 33 JavaScript concepts every developer should know.', ARRAY['leonardomso', 'ilker0'], '2022-02-24T21:07:34.596111'),
 (417381369, 79887, 2928944, 29, 1612, 3372, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:07:34.596111'),
 (422279691, 4910518, 114484885, 5, 0, 59, 'trectenwald/omnigraffle-aws', 'Omnigraffle stencils using AWS Simple Icons.', ARRAY['trectenwald'], '2022-02-24T21:07:34.596111'),
 (396166713, 80793630, 192428445, 29, 10, 3, 'bitcoin-studio/LightningNespressoUI', 'Nespresso capsule vending machine - UI code', ARRAY['Janaka-Steph'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 157397583, 29, 46, 8615, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (419128913, 1255918, 6326227, 21, 195, 119, 'metamaps/metamaps', 'A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at', ARRAY['devvmh', 'Connoropolous'], '2022-02-24T21:07:34.596111'),
 (397167684, 52573181, 60493101, 1, 48, 213995, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:07:34.596111'),
 (396049655, 85258143, 388004440, 0, 1, 48, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-24T21:07:34.596111'),
