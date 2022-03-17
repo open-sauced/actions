@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T08:45:01.183Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T10:44:57.355Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3492,6 +3492,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (394368306, 1, 1, 1, 0, 6, 'saitho/discord-bot-reloaded', 'Re-iteration of my Discord bot to use Slash Commands API', ARRAY['saitho'], '2022-02-24T21:06:05.080468+00:00'),
 (394433513, 51, 2, 1, 0, 20, 'Accudio/cead-consent', 'Simple, lightweight and easy-to-implement Cookie/Tracking consent manager for the web', ARRAY['Accudio'], '2022-02-24T21:06:05.080468+00:00'),
 (394559625, 1, 0, 1, 0, 7, 'muhammaddzaky/mhdraihandzaky.net', 'membuatwebsite', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
+(394632350, 0, 0, 1, 0, 13, 'SanchitaMishra170676/INNOGEEKS-2.0', null, ARRAY['chinmoy12c', 'Harsh-Gupta9897'], '2022-02-24T21:06:05.080468+00:00'),
 (394663818, 20, 3, 1, 0, 3, 'NickLiffen/ghas-enablement', 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', ARRAY['NickLiffen', 'LamarrD'], '2022-02-24T21:06:05.080468+00:00'),
 (394789638, 631, 23, 1, 0, 26, 'cloudflare/workers-rs', 'Write Cloudflare Workers in 100% Rust via WebAssembly', ARRAY['nilslice', 'caass'], '2022-02-24T21:06:05.080468+00:00'),
 (394896456, 1, 0, 1, 0, 12, 'muhammaddzaky/rsocket-cpp', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
-(394632350, 0, 0, 1, 0, 13, 'SanchitaMishra170676/INNOGEEKS-2.0', null, ARRAY['chinmoy12c', 'Harsh-Gupta9897'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00');
