@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T04:47:15.176Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T06:46:32.284Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2720,8 +2720,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (285504186, 356, 1, 1, 0, 6, 'didicodes/javascript-dev-bookmarks', 'A collection of articles that will help you get better at JavaScript.', ARRAY['didicodes', 'emmanuellar'], '2022-02-24T21:06:05.080468+00:00'),
 (285625792, 14, 1, 1, 0, 1, 'stripe-samples/connect-onboarding-for-express', 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ARRAY['kho-stripe', 'cjavilla-stripe'], '2022-02-24T21:06:05.080468+00:00'),
 (285635423, 59, 4, 1, 0, 18, 'magiclabs/example-nextjs', null, ARRAY['hcote', 'FYJen'], '2022-02-24T21:06:05.080468+00:00'),
-(285782908, 3, 0, 1, 0, 0, 'jmc265/dotfiles', null, ARRAY['bw-jamescross', 'jmc265'], '2022-02-24T21:06:05.080468+00:00'),
 (285695824, 19, 0, 1, 0, 6, 'beamkenya/ex_pesa', 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ARRAY['manuelgeek', 'lenileiro'], '2022-02-24T21:06:05.080468+00:00'),
+(285782908, 3, 0, 1, 0, 0, 'jmc265/dotfiles', null, ARRAY['bw-jamescross', 'jmc265'], '2022-02-24T21:06:05.080468+00:00'),
 (285998667, 245, 6, 1, 0, 5, 'keiya01/react-performance-testing', 'A library to test runtime performance in React', ARRAY['keiya01', 'JulienBlacas'], '2022-02-24T21:06:05.080468+00:00'),
 (286080143, 8945, 47, 1, 0, 29, 'upptime/upptime', '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ARRAY['upptime-bot', 'pabio-escobar'], '2022-02-24T21:06:05.080468+00:00'),
 (286132785, 1, 0, 1, 0, 29, 'lesmo/gitfolio', ':octocat: personal website + blog for every github user', ARRAY['imfunniee', 'bcliden'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3231,8 +3231,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (362869006, 4, 0, 1, 0, 6, 'demo-days/innersource-faq-template', 'InnerSource FAQ Starter template GitHub Pages', ARRAY['ppremk'], '2022-02-24T21:06:05.080468+00:00'),
 (362935638, 19, 1, 1, 0, 28, 'commanded/generator', 'Commanded application generator', ARRAY['slashdotdash'], '2022-02-24T21:06:05.080468+00:00'),
 (363500480, 1, 0, 1, 0, 20, 'Helewud/Vidly', null, ARRAY['Helewud'], '2022-02-24T21:06:05.080468+00:00'),
-(363558647, 22, 0, 2, 0, 14, 'theodorusclarence/vite-react-tailwind-starter', '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', ARRAY['theodorusclarence'], '2022-02-24T21:06:05.080468+00:00'),
 (363743878, 1, 0, 1, 0, 14, 'LoreLosi72/InTuneMusicBot', 'Bot di Telegram sulla musica', ARRAY['LoreLosi72'], '2022-02-24T21:06:05.080468+00:00'),
+(363558647, 22, 0, 2, 0, 14, 'theodorusclarence/vite-react-tailwind-starter', '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', ARRAY['theodorusclarence'], '2022-02-24T21:06:05.080468+00:00'),
 (363821528, 18, 0, 1, 0, 1, 'sonjiku/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-24T21:06:05.080468+00:00'),
 (363943607, 2, 0, 1, 0, 28, 'udberg/Todo-List', null, ARRAY['keneogu', 'udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
