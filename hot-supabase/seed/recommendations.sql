@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T01:02:23.792Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T02:51:55.764Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -87,7 +87,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (976994, 6903, 285, 1, 0, 6, 'pennersr/django-allauth', 'Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.', ARRAY['pennersr', 'jleclanche'], '2022-02-24T21:06:05.080468+00:00'),
 (997856, 1332, 21, 1, 0, 13, 'mrtazz/restclient-cpp', 'C++ client for making HTTP/REST requests', ARRAY['mrtazz', 'lawmaestro'], '2022-02-24T21:06:05.080468+00:00'),
 (1020601, 1901, 202, 1, 0, 19, 'modelmapper/modelmapper', 'Intelligent object mapping', ARRAY['jhalterman', 'chhsiao90'], '2022-02-24T21:06:05.080468+00:00'),
-(1039520, 103987, 4973, 1, 0, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
 (1056938, 2246, 68, 1, 0, 6, 'mrdavidlaing/javascript-koans', 'Koans to learn Javascript', ARRAY['mrdavidlaing', 'choskim'], '2022-02-24T21:06:05.080468+00:00'),
 (1062897, 127616, 201, 1, 0, 2, 'github/gitignore', 'A collection of useful .gitignore templates', ARRAY['shiftkey', 'arcresu'], '2022-02-24T21:06:05.080468+00:00'),
 (1103607, 18244, 71, 2, 0, 18.5, 'jenkinsci/jenkins', 'Jenkins automation server', ARRAY['kohsuke', 'jglick'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2358,8 +2357,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240215314, 14033, 35, 1, 0, 6, 'docker/awesome-compose', 'Awesome Docker Compose samples', ARRAY['aiordache', 'glours'], '2022-02-24T21:06:05.080468+00:00'),
 (240312952, 3462, 44, 1, 0, 20, 'benawad/destiny', 'Prettier for File Structures', ARRAY['benawad', 'sQVe'], '2022-02-24T21:06:05.080468+00:00'),
 (240315046, 13197, 66, 1, 0, 1, 'jina-ai/jina', 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', ARRAY['hanxiao', 'jina-bot'], '2022-02-24T21:06:05.080468+00:00'),
-(240335383, 2, 0, 1, 0, 14, 'HarryDulaney/deezer-example-web-app', 'Full-Stack Web Application Client for Deezer''s music API. ', ARRAY['HarryDulaney'], '2022-02-24T21:06:05.080468+00:00'),
 (240574799, 58, 12, 1, 0, 10, 'devato/inertia_phoenix', 'Inertiajs Adapter for Elixir Phoenix', ARRAY['tmartin8080', 'bigx333'], '2022-02-24T21:06:05.080468+00:00'),
+(240335383, 2, 0, 1, 0, 14, 'HarryDulaney/deezer-example-web-app', 'Full-Stack Web Application Client for Deezer''s music API. ', ARRAY['HarryDulaney'], '2022-02-24T21:06:05.080468+00:00'),
 (240673378, 4284, 22, 1, 0, 1, 'phuoc-ng/html-dom', 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', ARRAY['phuoc-ng', 'surajhell88'], '2022-02-24T21:06:05.080468+00:00'),
 (240786294, 897, 27, 1, 0, 2, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-24T21:06:05.080468+00:00'),
 (240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3667,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
-(177736533, 260255, 16833, 1, -1, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
-(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00');
+(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
+(177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
+(1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00');

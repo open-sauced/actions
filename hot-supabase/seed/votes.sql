@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T01:02:23.756Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T02:51:55.206Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -64,4 +64,6 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (12, 163561, 'vitejs/vite', '163561-vitejs/vite', '2022-03-01T19:42:19.233352+00:00'),
 (52, 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced', '2022-01-16T10:02:51.693585+00:00'),
 (21, 7222344, 'open-sauced/hot', '7222344-open-sauced/hot', '2022-03-08T16:08:52.097372+00:00'),
-(93, 14043845, 'open-sauced/hot', '14043845-open-sauced/hot', '2022-01-23T23:07:38.899855+00:00');
+(93, 14043845, 'open-sauced/hot', '14043845-open-sauced/hot', '2022-01-23T23:07:38.899855+00:00'),
+(26, 5713670, '996icu/996.ICU', '5713670-996icu/996.ICU', '2022-03-17T02:33:24.821991+00:00'),
+(27, 5713670, 'ytdl-org/youtube-dl', '5713670-ytdl-org/youtube-dl', '2022-03-17T02:33:35.362305+00:00');
