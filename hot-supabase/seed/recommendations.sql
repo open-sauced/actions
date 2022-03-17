@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T19:25:13.147Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T21:24:36.832Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -689,8 +689,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (35561605, 7, 0, 1, 0, 18, 'wongmjane/snake-pong', 'i had too much time on plane so i made this', ARRAY['wongmjane', 'apptivators'], '2022-02-24T21:06:05.080468+00:00'),
 (35640229, 21018, 367, 1, 0, 4, 'rollup/rollup', 'Next-generation ES module bundler', ARRAY['lukastaegert', 'Rich-Harris'], '2022-02-24T21:06:05.080468+00:00'),
 (35786656, 68, 1, 1, 0, 20, 'fansible/ansible-provisioning-tywin', 'Generate your Ansible provisioning for Symfony2, Laravel and Node.js projects', ARRAY['MaximeThoonsen', 'kosssi'], '2022-02-24T21:06:05.080468+00:00'),
-(35866694, 31289, 3014, 1, 0, 23, 'RocketChat/Rocket.Chat', 'The communications platform that puts data protection first.', ARRAY['rodrigok', 'engelgabriel'], '2022-02-24T21:06:05.080468+00:00'),
-(35955666, 100694, 201, 1, 0, 8, 'jlevy/the-art-of-command-line', 'Master the command line, in one page', ARRAY['jlevy', 'petk'], '2022-02-24T21:06:05.080468+00:00'),
 (35969061, 29805, 291, 1, 0, 0, 'google/styleguide', 'Style guides for Google-originated open-source projects', ARRAY['IsaacG', 'tonyruscoe'], '2022-02-24T21:06:05.080468+00:00'),
 (35986723, 892, 7, 1, 0, 14, 'pritunl/pritunl-client-electron', 'Pritunl OpenVPN client', ARRAY['zachhuff386', 'kaskavalci'], '2022-02-24T21:06:05.080468+00:00'),
 (36021747, 3943, 32, 1, 0, 10, 'harc/ohm', 'A library and language for building parsers, interpreters, compilers, etc.', ARRAY['pdubroy', 'alexwarth'], '2022-02-24T21:06:05.080468+00:00'),
@@ -753,6 +751,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (40545736, 120, 23, 1, 0, 25, 'DATA-DOG/DataDogAuditBundle', 'Stores all database changes for doctrine ORM', ARRAY['l3pp4rd', 'chancegarcia'], '2022-02-24T21:06:05.080468+00:00'),
 (40687563, 4364, 1234, 1, 0, 4, 'oppia/oppia', 'A free, online learning platform to make quality education accessible for all.', ARRAY['seanlip', 'BenHenning'], '2022-02-24T21:06:05.080468+00:00'),
 (40819979, 638, 16, 1, 0, 3, 'frend/frend.co', 'Frend — A collection of accessible, modern front-end components.', ARRAY['thomasdigby', 'adamduncan'], '2022-02-24T21:06:05.080468+00:00'),
+(35866694, 31289, 3014, 1, 0, 23, 'RocketChat/Rocket.Chat', 'The communications platform that puts data protection first.', ARRAY['rodrigok', 'engelgabriel'], '2022-02-24T21:06:05.080468+00:00'),
+(35955666, 100694, 201, 1, 0, 8, 'jlevy/the-art-of-command-line', 'Master the command line, in one page', ARRAY['jlevy', 'petk'], '2022-02-24T21:06:05.080468+00:00'),
 (40892817, 13816, 939, 1, 0, 4, 'ethereum/solidity', 'Solidity, the Smart Contract Programming Language', ARRAY['chriseth', 'axic'], '2022-02-24T21:06:05.080468+00:00'),
 (40984778, 686, 60, 1, 0, 23, 'discordrb/discordrb', 'Discord API for Ruby', ARRAY['meew0', 'z64'], '2022-02-24T21:06:05.080468+00:00'),
 (41029539, 303, 7, 1, 0, 20, 'alpha-miner/Finance-Python', 'python tools for Finance with the functionality of indicator calculation, business day calculation and so on.', ARRAY['wegamekinglc'], '2022-02-24T21:06:05.080468+00:00'),
