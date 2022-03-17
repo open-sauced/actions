@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T02:51:55.764Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-17T04:47:15.176Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2357,8 +2357,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240215314, 14033, 35, 1, 0, 6, 'docker/awesome-compose', 'Awesome Docker Compose samples', ARRAY['aiordache', 'glours'], '2022-02-24T21:06:05.080468+00:00'),
 (240312952, 3462, 44, 1, 0, 20, 'benawad/destiny', 'Prettier for File Structures', ARRAY['benawad', 'sQVe'], '2022-02-24T21:06:05.080468+00:00'),
 (240315046, 13197, 66, 1, 0, 1, 'jina-ai/jina', 'Cloud-native neural search framework for 𝙖𝙣𝙮 kind of data', ARRAY['hanxiao', 'jina-bot'], '2022-02-24T21:06:05.080468+00:00'),
-(240574799, 58, 12, 1, 0, 10, 'devato/inertia_phoenix', 'Inertiajs Adapter for Elixir Phoenix', ARRAY['tmartin8080', 'bigx333'], '2022-02-24T21:06:05.080468+00:00'),
 (240335383, 2, 0, 1, 0, 14, 'HarryDulaney/deezer-example-web-app', 'Full-Stack Web Application Client for Deezer''s music API. ', ARRAY['HarryDulaney'], '2022-02-24T21:06:05.080468+00:00'),
+(240574799, 58, 12, 1, 0, 10, 'devato/inertia_phoenix', 'Inertiajs Adapter for Elixir Phoenix', ARRAY['tmartin8080', 'bigx333'], '2022-02-24T21:06:05.080468+00:00'),
 (240673378, 4284, 22, 1, 0, 1, 'phuoc-ng/html-dom', 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', ARRAY['phuoc-ng', 'surajhell88'], '2022-02-24T21:06:05.080468+00:00'),
 (240786294, 897, 27, 1, 0, 2, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-24T21:06:05.080468+00:00'),
 (240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2720,8 +2720,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (285504186, 356, 1, 1, 0, 6, 'didicodes/javascript-dev-bookmarks', 'A collection of articles that will help you get better at JavaScript.', ARRAY['didicodes', 'emmanuellar'], '2022-02-24T21:06:05.080468+00:00'),
 (285625792, 14, 1, 1, 0, 1, 'stripe-samples/connect-onboarding-for-express', 'Stripe Sample to show you how to use Connect Onboarding for Express for seamless user on-boarding with Stripe Connect.', ARRAY['kho-stripe', 'cjavilla-stripe'], '2022-02-24T21:06:05.080468+00:00'),
 (285635423, 59, 4, 1, 0, 18, 'magiclabs/example-nextjs', null, ARRAY['hcote', 'FYJen'], '2022-02-24T21:06:05.080468+00:00'),
-(285695824, 19, 0, 1, 0, 6, 'beamkenya/ex_pesa', 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ARRAY['manuelgeek', 'lenileiro'], '2022-02-24T21:06:05.080468+00:00'),
 (285782908, 3, 0, 1, 0, 0, 'jmc265/dotfiles', null, ARRAY['bw-jamescross', 'jmc265'], '2022-02-24T21:06:05.080468+00:00'),
+(285695824, 19, 0, 1, 0, 6, 'beamkenya/ex_pesa', 'Payment Library For Most Public Payment API''s in Kenya and hopefully Africa. Let us get this moneybag', ARRAY['manuelgeek', 'lenileiro'], '2022-02-24T21:06:05.080468+00:00'),
 (285998667, 245, 6, 1, 0, 5, 'keiya01/react-performance-testing', 'A library to test runtime performance in React', ARRAY['keiya01', 'JulienBlacas'], '2022-02-24T21:06:05.080468+00:00'),
 (286080143, 8945, 47, 1, 0, 29, 'upptime/upptime', '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ARRAY['upptime-bot', 'pabio-escobar'], '2022-02-24T21:06:05.080468+00:00'),
 (286132785, 1, 0, 1, 0, 29, 'lesmo/gitfolio', ':octocat: personal website + blog for every github user', ARRAY['imfunniee', 'bcliden'], '2022-02-24T21:06:05.080468+00:00'),
