@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T08:44:46.657Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T10:44:22.120Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1848,10 +1848,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (167717410, 195, 3, 1, 0, 18, 'wiedehopf/graphs1090', 'Graphs for dump1090 (based on dump1090-tools by mutability)', ARRAY['wiedehopf', 'SaturnusDJ'], '2022-02-24T21:06:05.080468+00:00'),
 (168101431, 2, 0, 1, 0, 13, 'KubqoA/nginx-conf', 'Nginx configuration manager', ARRAY['KubqoA'], '2022-02-24T21:06:05.080468+00:00'),
 (168251225, 8, 1, 1, 0, 10, 'LEARNAcademy/Syllabus', null, ARRAY['sjproctor', 'JzGo'], '2022-02-24T21:06:05.080468+00:00'),
+(168267539, 115, 3, 1, 0, 15, 'andrersp/controleEstoque', 'Controle de Estoque PyQt5', ARRAY['andrersp', 'rhenter'], '2022-02-24T21:06:05.080468+00:00'),
 (168709940, 259, 7, 1, 0, 6, 'kudulab/dojo', 'Containerize your development and operations environment', ARRAY['xmik', 'tomzo'], '2022-02-24T21:06:05.080468+00:00'),
 (168927777, 15, 6, 1, 0, 27, 'Mtihc/bustabit-script-simulator', 'Simulate running a script on bustabit', ARRAY['Mtihc'], '2022-02-24T21:06:05.080468+00:00'),
 (169250119, 1855, 72, 1, 0, 22, 'evilmartians/lefthook', 'Fast and powerful Git hooks manager for any type of projects.', ARRAY['Envek', 'skryukov'], '2022-02-24T21:06:05.080468+00:00'),
-(168267539, 115, 3, 1, 0, 15, 'andrersp/controleEstoque', 'Controle de Estoque PyQt5', ARRAY['andrersp', 'rhenter'], '2022-02-24T21:06:05.080468+00:00'),
+(169371413, 8282, 4, 2, 0, 5, 'MoienTajik/AspNetCore-Developer-Roadmap', 'Roadmap to becoming an ASP.NET Core developer in 2021', ARRAY['MoienTajik', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
+(169529444, 9, 0, 1, 0, 24, 'skycoin/arena', null, ARRAY['gz-c', 'jdknives'], '2022-02-24T21:06:05.080468+00:00'),
 (169556401, 1402, 32, 1, 0, 3, 'radzenhq/radzen-blazor', 'The home of the Radzen Blazor components.', ARRAY['enchev', 'akorchev'], '2022-02-24T21:06:05.080468+00:00'),
 (169604606, 2012, 12, 1, 0, 28, 'MayaPosch/NymphCast', 'Audio and video casting system with support for custom applications.', ARRAY['MayaPosch', 'PureTryOut'], '2022-02-24T21:06:05.080468+00:00'),
 (169677297, 26331, 647, 2, 0, 3, 'vlang/v', 'Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies. https://vlang.io', ARRAY['medvednikov', 'spytheman'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1866,8 +1868,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (170907813, 174, 8, 1, 0, 20, 'victor-perez/nuxt-helmet', ':construction_worker: Helmet for Nuxt', ARRAY['victor-perez', 'doron2402'], '2022-02-24T21:06:05.080468+00:00'),
 (170973676, 237, 1, 1, 0, 12, 'devefy/Flutter-Streaming-Service-App-UI', null, ARRAY['devefy'], '2022-02-24T21:06:05.080468+00:00'),
 (171061051, 898, 36, 1, 0, 6, 'lostpebble/pullstate', 'Simple state stores using immer and React hooks - re-use parts of your state by pulling it anywhere you like!', ARRAY['lostpebble', 'schummar'], '2022-02-24T21:06:05.080468+00:00'),
-(169371413, 8282, 4, 2, 0, 5, 'MoienTajik/AspNetCore-Developer-Roadmap', 'Roadmap to becoming an ASP.NET Core developer in 2021', ARRAY['MoienTajik', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
-(169529444, 9, 0, 1, 0, 24, 'skycoin/arena', null, ARRAY['gz-c', 'jdknives'], '2022-02-24T21:06:05.080468+00:00'),
 (171149815, 39, 17, 1, 0, 3, 'bikenik/alfred-anki', 'Create New Cards into any decks with any ''Note Type''.', ARRAY['bikenik'], '2022-02-24T21:06:05.080468+00:00'),
 (171412223, 575, 17, 1, 0, 7, 'gr2m/twitter-together', ':bird: A GitHub action to tweet from a repository', ARRAY['gr2m', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (171563505, 385, 0, 1, 0, 13, 'Asabeneh/JavaScript-for-Everyone', 'A step by step guide to learn JavaScript and programming', ARRAY['Asabeneh', 'engineerabdulsalam'], '2022-02-24T21:06:05.080468+00:00'),
