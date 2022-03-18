@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T12:51:18.949Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T14:43:24.640Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1831,13 +1831,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (165720614, 446, 18, 1, 0, 10, 'skrapeit/skrape.it', 'A Kotlin-based testing/scraping/parsing library providing the ability to analyze and extract data from HTML (server & client-side rendered). It places particular emphasis on ease of use and a high level of readability by providing an intuitive DSL. It aims to be a testing lib, but can also be used to scrape websites in a convenient fashion.', ARRAY['christian-draeger', 'skrapeit'], '2022-02-24T21:06:05.080468+00:00'),
 (165733866, 724, 26, 1, 0, 19, 'tc39/proposal-iterator-helpers', 'Methods for working with iterators in ECMAScript', ARRAY['devsnek', 'ExE-Boss'], '2022-02-24T21:06:05.080468+00:00'),
 (165791269, 59, 2, 1, 0, 1, 'tedyoung/kid-bank', 'Now known as Kid Money Manager. It''s not a real bank, but keeps track of your kid''s earnings, savings, and spending. Watch me Live Code its development on Twitch.', ARRAY['tedyoung', 'vydra'], '2022-02-24T21:06:05.080468+00:00'),
+(165822880, 2, 0, 1, 0, 18, 'o11c/makefile-demo', null, ARRAY['o11c'], '2022-02-24T21:06:05.080468+00:00'),
+(166296150, 887, 79, 1, 0, 19, 'nmattia/niv', 'Easy dependency management for Nix projects', ARRAY['nmattia', 'zimbatm'], '2022-02-24T21:06:05.080468+00:00'),
+(166471416, 204, 12, 1, 0, 18, 'instafluff/ComfyJS', 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', ARRAY['instafluff', 'AlcaDesign'], '2022-02-24T21:06:05.080468+00:00'),
 (166504843, 15087, 10, 1, 0, 25, 'ForrestKnight/open-source-cs', 'Video discussing this curriculum:', ARRAY['ForrestKnight', '0xflotus'], '2022-02-24T21:06:05.080468+00:00'),
 (166671359, 20, 1, 1, 0, 20, 'finallyayo/pusher-code-playground', null, ARRAY['ayoisaiah'], '2022-02-24T21:06:05.080468+00:00'),
 (166694030, 342, 14, 1, 0, 20, 'instamobile/react-native-starter-kit', 'React Native Starter Kit with Firebase Auth and Facebook Login', ARRAY['Chukwudi4', 'mrcflorian'], '2022-02-24T21:06:05.080468+00:00'),
-(165822880, 2, 0, 1, 0, 18, 'o11c/makefile-demo', null, ARRAY['o11c'], '2022-02-24T21:06:05.080468+00:00'),
-(166296150, 887, 79, 1, 0, 19, 'nmattia/niv', 'Easy dependency management for Nix projects', ARRAY['nmattia', 'zimbatm'], '2022-02-24T21:06:05.080468+00:00'),
 (166831098, 1124, 327, 1, 0, 16, 'keptn/keptn', 'Cloud-native application life-cycle orchestration. Keptn automates your SLO-driven multi-stage delivery and operations & remediation of your applications.', ARRAY['bacherfl', 'agrimmer'], '2022-02-24T21:06:05.080468+00:00'),
-(166471416, 204, 12, 1, 0, 18, 'instafluff/ComfyJS', 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', ARRAY['instafluff', 'AlcaDesign'], '2022-02-24T21:06:05.080468+00:00'),
 (167032345, 5100, 10, 1, 0, 16, 'labs42io/clean-code-typescript', 'Clean Code concepts adapted for TypeScript', ARRAY['dimadeveatii', 'asimionese'], '2022-02-24T21:06:05.080468+00:00'),
 (167304464, 7630, 106, 1, 0, 14, 'cortexlabs/cortex', 'Production infrastructure for machine learning at scale', ARRAY['deliahu', 'vishalbollu'], '2022-02-24T21:06:05.080468+00:00'),
 (167368839, 9049, 205, 1, 0, 20, 'jaredpalmer/tsdx', 'Zero-config CLI for TypeScript package development', ARRAY['jaredpalmer', 'agilgur5'], '2022-02-24T21:06:05.080468+00:00'),

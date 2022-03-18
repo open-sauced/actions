@@ -2793,13 +2793,13 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 2813,28281924,18765044,19,151,3948,golang/oauth2,Go OAuth2,"{rakyll,adg}",2022-02-24T21:07:34.596111
 2814,28281924,320609581,20,0,1,HeavyBR/adventofcode,"My solutions for Advent Of Code 2020, all of made with Go Language",{HeavyBR},2022-02-24T21:07:34.596111
 2815,28281924,234231371,21,50,17421,gofiber/fiber,⚡️ Express inspired web framework written in Go,"{Fenny,kiyonlin}",2022-02-24T21:07:34.596111
-424109428,88631894,335819337,0,0,1,MonkeDev/API-bot,The bot we use to manage our API.,"{Mafia-7777,BurnedBed}",2022-02-24T21:07:34.596111
+423938279,20374545,334465533,0,0,1,Leonardo-Borba/auction-assistant,A bot to monitor MGT auctions and do automatic bids,{Leonardo-Borba},2022-02-24T21:07:34.596111
 276703311,29888641,196701619,29,164,34927,tauri-apps/tauri,"Build smaller, faster, and more secure desktop applications with a web frontend.","{lucasfernog,jbolda}",2022-02-24T21:07:34.596111
 427924349,2480219,257404606,29,3,53,textileio/js-examples,Examples and demos using Textile's Javascript/Typescript libraries and clients.,"{andrewxhill,carsonfarmer}",2022-02-24T21:07:34.596111
-423938279,20374545,334465533,0,0,1,Leonardo-Borba/auction-assistant,A bot to monitor MGT auctions and do automatic bids,{Leonardo-Borba},2022-02-24T21:07:34.596111
 305063342,622115,3116751,29,50,11165,androidannotations/androidannotations,Fast Android Development. Easy maintainance.,"{pyricau,WonderCsabo}",2022-02-24T21:07:34.596111
 430041297,50591491,49704723,29,120,9954,okonet/lint-staged,🚫💩 — Run linters on git staged files,"{okonet,iiroj}",2022-02-24T21:07:34.596111
 424103216,2228196,286132785,29,0,1,lesmo/gitfolio,:octocat: personal website + blog for every github user,"{imfunniee,bcliden}",2022-02-24T21:07:34.596111
+424109428,88631894,335819337,0,0,1,MonkeDev/API-bot,The bot we use to manage our API.,"{Mafia-7777,BurnedBed}",2022-02-24T21:07:34.596111
 424945913,2339101,55896045,29,20,1,DrBenton/rougemine.com-online-resume,My over-engineered online resume,{DrBenton},2022-02-24T21:07:34.596111
 317831562,67872399,323120066,28,0,1,An-prog-hub/human-pose-estimation,,{An-prog-hub},2022-02-24T21:07:34.596111
 2816,28281924,237448876,22,10,735,qiangxue/go-rest-api,An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture,"{qiangxue,chartinmarrel}",2022-02-24T21:07:34.596111
@@ -4257,14 +4257,14 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 423606200,17373317,74682861,0,2,156,nagygergo/jetbrains-toolbox-install,Installer for jetbrains toolbox,"{nagygergo,ziegenberg}",2022-02-24T21:07:34.596111
 381571653,569510,1535009,29,34,4095,jazzband/tablib,"Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.","{kennethreitz,claudep}",2022-02-24T21:07:34.596111
 424360680,5901851,217545172,29,35,1555,ibrahimsn98/SmoothBottomBar,A lightweight Android material bottom navigation bar library,"{ibrahimsn98,mayokunadeniyi}",2022-02-24T21:07:34.596111
-422702314,2607477,20904437,2,499,56568,gin-gonic/gin,"Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.","{manucorporat,javierprovecho}",2022-02-24T21:07:34.596111
+422702314,2607477,20904437,2,498,56587,gin-gonic/gin,"Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.","{manucorporat,javierprovecho}",2022-02-24T21:07:34.596111
 403088539,37635083,400898185,0,0,1,NsdHSO/storybook,"📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!","{shilman,ndelangen}",2022-02-24T21:07:34.596111
-423934343,43640229,201108929,29,8,709,ChrisDryden/Canadian-Tech-Internships-Summer-2022,Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022,"{ChrisDryden,andkerr}",2022-02-24T21:07:34.596111
 434506268,45293863,300313988,29,1,40,cyberpartizans/face_recognition,,"{allyouneediscv,feanor-on-fire}",2022-02-24T21:07:34.596111
 402886161,29004466,37860317,29,453,1395,TASVideos/BizHawk,"BizHawk is a multi-system emulator written in C#.  BizHawk provides nice features for casual gamers such as full screen, and joypad support in addition to full rerecording and debugging tools for all system cores.  ","{adelikat,zeromus}",2022-02-24T21:07:34.596111
 400276715,10235902,152145851,1,0,2,rlnx/cpp-course-ffs,Materials on practical C++ course for foreign students,{rlnx},2022-02-24T21:07:34.596111
 399569599,78520194,96767206,8,467,1473,gitcoinco/web,Grow Open Source,"{owocki,thelostone-mc}",2022-02-24T21:07:34.596111
-422464827,505751,24594933,29,63,5195,Unleash/unleash,Unleash is the open source feature toggle service.,"{ivarconr,thomasheartman}",2022-02-24T21:07:34.596111
+423934343,43640229,201108929,29,8,708,ChrisDryden/Canadian-Tech-Internships-Summer-2022,Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022,"{ChrisDryden,andkerr}",2022-02-24T21:07:34.596111
+422464827,505751,24594933,29,62,5197,Unleash/unleash,Unleash is the open source feature toggle service.,"{ivarconr,thomasheartman}",2022-02-24T21:07:34.596111
 401824794,65249694,3678731,12,291,60675,webpack/webpack,"A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ""loaders"", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.","{sokra,timse}",2022-02-24T21:07:34.596111
 377960470,67359053,12299718,4,13,71,twilio/starter-python,A starter app for Python developers embarking on their first Twilio quest!,"{kwhinnery,smendes}",2022-02-24T21:07:34.596111
 377924746,14868216,802006,29,170,7799,mediaelement/mediaelement,"HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.","{johndyer,rafa8626}",2022-02-24T21:07:34.596111
@@ -4306,8 +4306,8 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 361357857,51794934,342191787,1,0,23,LambdaSchool/build-week-scaffolding-node,,{Ladrillo},2022-02-24T21:07:34.596111
 442470627,24606613,6106472,8,14,1279,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{survivingwithandroid},2022-02-24T21:07:34.596111
 311230796,26205172,116160755,29,0,9324,dotnet/blazor,Blazor moved to https://github.com/dotnet/aspnetcore,"{SteveSandersonMS,rynowak}",2022-02-24T21:07:34.596111
+422313558,74208843,59096058,7,48,602,TryGhost/Admin,Ghost's admin client,"{kevinansfield,ErisDS}",2022-02-24T21:07:34.596111
 376456966,118037,159981830,29,21,10169,khanhas/spicetify-cli,"Commandline tool to customize Spotify client. Supports Windows, MacOS and Linux.","{khanhas,afonsojramos}",2022-02-24T21:07:34.596111
-422313558,74208843,59096058,7,47,602,TryGhost/Admin,Ghost's admin client,"{kevinansfield,ErisDS}",2022-02-24T21:07:34.596111
 382194702,7860023,32280638,8,6,1894,bonigarcia/webdrivermanager,Automated driver management and Docker builder for Selenium WebDriver,"{bonigarcia,altus34}",2022-02-24T21:07:34.596111
 307155109,12400445,4311796,16,311,54660,adam-p/markdown-here,"Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.","{adam-p,wm8120}",2022-02-24T21:07:34.596111
 328070675,59939260,71359796,29,27,618,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:07:34.596111
@@ -4321,10 +4321,10 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 361187808,1295334,1300192,18,14464,10936,octocat/Spoon-Knife,This repo is for demonstration purposes only.,{octocat},2022-02-24T21:07:34.596111
 304890007,69519470,133134007,1,3104,11546,OpenAPITools/openapi-generator,"OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)","{wing328,fehguy}",2022-02-24T21:07:34.596111
 418295712,71458737,51595028,0,78,1315,OPCFoundation/UA-.NETStandard,OPC Unified Architecture .NET Standard,"{mregen,barnstee}",2022-02-24T21:07:34.596111
+423914895,19617280,333980205,29,0,142,cassidoo/cass.run,My own lil URL shortener,"{cassidoo,Jadhielv}",2022-02-24T21:07:34.596111
 417381369,79887,2928944,29,1619,3376,Azure/azure-sdk-for-net,This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ,"{azure-sdk,pakrym}",2022-02-24T21:07:34.596111
 419462546,29417643,26573009,4,11,176,semmypurewal/BeginningJavaScript,"This repo contains the examples, notes and problems for my O'Reilly video ""Beginning Programming with JavaScript""",{semmypurewal},2022-02-24T21:07:34.596111
 418175317,1917293,401300251,29,0,2,Gen-R/organisation,GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu,{mrchristian},2022-02-24T21:07:34.596111
-423914895,19617280,333980205,29,0,142,cassidoo/cass.run,My own lil URL shortener,"{cassidoo,Jadhielv}",2022-02-24T21:07:34.596111
 396049655,85258143,388004440,0,1,48,oscafrica/open-source-challenge-2021,The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.,"{BolajiAyodeji,Petec0x0}",2022-02-24T21:07:34.596111
 422279691,4910518,114484885,5,0,59,trectenwald/omnigraffle-aws,Omnigraffle stencils using AWS Simple Icons.,{trectenwald},2022-02-24T21:07:34.596111
 396166713,80793630,192428445,29,10,3,bitcoin-studio/LightningNespressoUI,Nespresso capsule vending machine - UI code,{Janaka-Steph},2022-02-24T21:07:34.596111
