@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T20:43:23.208Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T22:43:19.611Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2776,8 +2776,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (293219477, 348, 51, 1, 0, 4, 'gridaco/assistant', '✏️  Bring your design & development pipeline to the next level - with design to code, in-design-content-management, component management, tools for faster design', ARRAY['softmarshmallow', 'You-J'], '2022-02-24T21:06:05.080468+00:00'),
 (293517568, 579, 19, 2, 0, 16.5, 'ngneat/tailwind', '🔥 A schematic that adds Tailwind CSS to Angular applications', ARRAY['nartc', 'vltansky'], '2022-02-24T21:06:05.080468+00:00'),
 (293844582, 39, 7, 1, 0, 2, 'spicygreenbook/greenbook-app', null, ARRAY['pleaseshutup', 'mrvncaragay'], '2022-02-24T21:06:05.080468+00:00'),
-(293923529, 48, 5, 1, 0, 17, 'peter-murray/github-security-report-action', null, ARRAY['peter-murray', 'nateous'], '2022-02-24T21:06:05.080468+00:00'),
 (293860197, 4648, 12, 4, 0, 14.5, 'lowlighter/metrics', '📊 An infographics generator with 30+ plugins and 200+ options to display stats about your GitHub account and render them as SVG, Markdown, PDF or JSON!', ARRAY['lowlighter', 'Nixinova'], '2022-02-24T21:06:05.080468+00:00'),
+(293923529, 48, 5, 1, 0, 17, 'peter-murray/github-security-report-action', null, ARRAY['peter-murray', 'nateous'], '2022-02-24T21:06:05.080468+00:00'),
 (294564715, 60, 19, 1, 0, 18, 'VickiLanger/LGBTQ-of-the-day-bot', 'Twitter bot tweeting fun goofy lgbtq things and queer history of the day', ARRAY['VickiLanger', 'JasirZaeem'], '2022-02-24T21:06:05.080468+00:00'),
 (294816887, 56, 2, 3, 0, 10.666666666666666, 'bdougie/git-twitch', 'This is a service for GitHub and twitch interaction', ARRAY['bdougie', 'mishmanners'], '2022-02-24T21:06:05.080468+00:00'),
 (294893525, 3468, 59, 1, 0, 27, 'alephjs/aleph.js', 'The Full-stack Framework in Deno.', ARRAY['ije', 'shadowtime2000'], '2022-02-24T21:06:05.080468+00:00'),
