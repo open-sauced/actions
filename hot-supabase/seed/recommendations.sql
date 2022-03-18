@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T16:50:54.359Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-18T18:45:57.483Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3335,6 +3335,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (377196642, 3, 0, 1, 0, 18, 'alanmontgomery/ionic-react-hook-form-example', 'Example with React Hook Form', ARRAY['alanmontgomery'], '2022-02-24T21:06:05.080468+00:00'),
 (377267871, 254, 0, 1, 0, 3, 'gaearon/react-lag-radar', null, ARRAY['gaearon'], '2022-02-24T21:06:05.080468+00:00'),
 (377305568, 2240, 0, 1, 0, 15, 'learntocloud/learn-to-cloud', 'Learn the fundamentals of cloud computing', ARRAY['madebygps', 'rishabkumar7'], '2022-02-24T21:06:05.080468+00:00'),
+(377365832, 1628, 42, 1, 0, 3, 'cheatsheet1999/FrontEndCollection', 'Notes for Front-end Software Engineers. Covers common data structure and algorithms, basic web concepts, HTML & CSS & Javascript.', ARRAY['cheatsheet1999', 'siyuan25'], '2022-02-24T21:06:05.080468+00:00'),
 (377452626, 174, 22, 2, 0, 12.5, 'atapas/webapis-playground', 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', ARRAY['atapas', 'mverissimo'], '2022-02-24T21:06:05.080468+00:00'),
 (377602613, 159, 1, 1, 0, 9, 'hasura/hasura-ecommerce', null, ARRAY['GavinRay97'], '2022-02-24T21:06:05.080468+00:00'),
 (377990171, 37, 0, 1, 0, 6, 'misodope/AdultSwimTok', null, ARRAY['misodope'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3477,7 +3478,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-24T21:06:05.080468+00:00'),
 (392615759, 15, 6, 1, 0, 20, 'Borrus-sudo/awesome-stack', '⚡ Github README stats  for your favourite web dev stack', ARRAY['Borrus-sudo', 'w3cj'], '2022-02-24T21:06:05.080468+00:00'),
 (392662562, 1, 4, 1, 0, 2, 'onaio/ansible-collection-rapidpro', 'RapidPro Ansible Collection', ARRAY['morrismukiri', 'jasonrogena'], '2022-02-24T21:06:05.080468+00:00'),
-(377365832, 1628, 42, 1, 0, 3, 'cheatsheet1999/FrontEndCollection', 'Notes for Front-end Software Engineers. Covers common data structure and algorithms, basic web concepts, HTML & CSS & Javascript.', ARRAY['cheatsheet1999', 'siyuan25'], '2022-02-24T21:06:05.080468+00:00'),
 (392935241, 1, 0, 1, 0, 9, 'piyalidas10/Angular-Error-Handling', 'Error Handling in Angular uing HttpInterceptor, HttpClient, Component', ARRAY['piyalidas10'], '2022-02-24T21:06:05.080468+00:00'),
 (393030139, 78, 0, 1, 0, 3, 'atapas/promise-interview-ready', 'Learn JavaScript Promises in a new way. This repository contains all the source code and examples that make you ready with promises, especially for your interviews 😉.', ARRAY['atapas', 'saideepd'], '2022-02-24T21:06:05.080468+00:00'),
 (393089347, 32, 0, 1, 0, 18, 'antoniolofiego/Batteries-Included-Next.js', 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', ARRAY['antoniolofiego', 'kriswuollett'], '2022-02-24T21:06:05.080468+00:00'),
