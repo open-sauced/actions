@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T02:49:35.636Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T04:46:58.861Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -40,9 +40,9 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (73, 44076215, 'flutter/flutter', '44076215-flutter/flutter', '2022-01-18T20:01:27.390085+00:00'),
 (74, 44076215, 'rust-lang/rust', '44076215-rust-lang/rust', '2022-01-18T20:01:34.320373+00:00'),
 (76, 44076215, 'golang/go', '44076215-golang/go', '2022-01-18T20:01:49.431329+00:00'),
+(80, 11777161, 'poliva/pyqtggpo', '11777161-poliva/pyqtggpo', '2022-01-19T21:01:27.264885+00:00'),
 (77, 44076215, 'tensorflow/tensorflow', '44076215-tensorflow/tensorflow', '2022-01-18T20:01:59.3206+00:00'),
 (79, 11777161, 'typescript-cheatsheets/react', '11777161-typescript-cheatsheets/react', '2022-01-19T19:55:40.067419+00:00'),
-(80, 11777161, 'poliva/pyqtggpo', '11777161-poliva/pyqtggpo', '2022-01-19T21:01:27.264885+00:00'),
 (83, 5713670, '11ty/eleventy', '5713670-11ty/eleventy', '2022-01-19T22:23:08.528674+00:00'),
 (84, 12433465, 'open-sauced/hot', '12433465-open-sauced/hot', '2022-01-19T22:49:36.833559+00:00'),
 (85, 12433465, 'redwoodjs/redwood', '12433465-redwoodjs/redwood', '2022-01-19T22:49:38.707619+00:00'),

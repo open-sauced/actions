@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T02:49:36.014Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T04:46:58.944Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1954,8 +1954,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (181209141, 1, 0, 1, 0, 23, 'BaseMax/ShowAli', 'Display the ''Ali'' name as art and pattern using * character.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (181308113, 605, 18, 1, 0, 23, 'calintamas/react-native-toast-message', 'Animated toast message component for React Native', ARRAY['calintamas', 'ioanabudai'], '2022-02-24T21:06:05.080468+00:00'),
 (181462414, 13269, 14, 2, 0, 9, 'Alikhll/golang-developer-roadmap', 'Roadmap to becoming a Go developer in 2020', ARRAY['Alikhll', 'roblaszczak'], '2022-02-24T21:06:05.080468+00:00'),
-(181508172, 2, 0, 1, 0, 13, 'BaseMax/ExtractWord', 'Extract word(s) from the lines of the file.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
-(181575785, 2009, 5, 2, 0, 18, 'kentcdodds/react-hooks', 'Learn React Hooks! 🎣 ⚛', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
 (182067506, 4780, 48, 1, 0, 20, 'quantumblacklabs/kedro', 'A Python framework for creating reproducible, maintainable and modular data science code.', ARRAY['lorenabalan', '921kiyo'], '2022-02-24T21:06:05.080468+00:00'),
 (182075630, 714, 3, 1, 0, 12, 'jamesctucker/Fantastic-Front-End-Toolbox', 'A collection of tools, tutorials, and other resources for those learning web development.', ARRAY['jamesctucker', 'thewmh'], '2022-02-24T21:06:05.080468+00:00'),
 (182128976, 15, 0, 1, 0, 25, 'devatquarxss/reusable-data-table-component-vue', 'A reusable / responsive data-table component written in vue.js inspired by vuetify''s v-data-table component capable of search, sort, filter, update the items of the table on different metrics. ', ARRAY['devatquarxss'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1966,6 +1964,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (183260314, 196, 1, 1, 0, 28, 'chinasaokolo/csGraduateFellowships', 'A curated list of fellowships for graduate students in Computer Science and related fields.', ARRAY['chinasaokolo'], '2022-02-24T21:06:05.080468+00:00'),
 (183267843, 1512, 7, 1, 0, 21, 'kentcdodds/advanced-react-hooks', 'Learn Advanced React Hooks workshop', ARRAY['kentcdodds', 'btnwtn'], '2022-02-24T21:06:05.080468+00:00'),
 (183454144, 17, 3, 1, 0, 2, 'pransh15/moz-starter-pack', 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', ARRAY['pransh15', 'pranitb10'], '2022-02-24T21:06:05.080468+00:00'),
+(181575785, 2009, 5, 2, 0, 18, 'kentcdodds/react-hooks', 'Learn React Hooks! 🎣 ⚛', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
+(181508172, 2, 0, 1, 0, 13, 'BaseMax/ExtractWord', 'Extract word(s) from the lines of the file.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (183712153, 256, 8, 1, 0, 28, 'dasDaniel/svelte-table', 'A svelte-3 table implementation that allows sorting and filtering', ARRAY['dasDaniel', 'thilo-behnke'], '2022-02-24T21:06:05.080468+00:00'),
 (183985757, 6, 0, 1, 0, 29, 'diegocbarboza/red-dead-dialog', 'Red Dead Redemption 2 dialog system in Unity', ARRAY['diegocbarboza'], '2022-02-24T21:06:05.080468+00:00'),
 (184130597, 142, 0, 1, 0, 0, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 'Angular 11.0 Firebase App - Online School , Student Management App', ARRAY['AmitXShukla'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2275,8 +2275,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (227978903, 7885, 124, 1, 0, 0, 'vueuse/vueuse', 'Collection of essential Vue Composition Utilities for Vue 2 and 3', ARRAY['antfu', 'wheatjs'], '2022-02-24T21:06:05.080468+00:00'),
 (228068948, 814, 12, 2, 0, 18, 'davatron5000/awesome-standalones', 'A curated list of awesome framework-agnostic standalone web components', ARRAY['davatron5000', 'andreruffert'], '2022-02-24T21:06:05.080468+00:00'),
 (228652973, 774, 65, 1, 0, 0, '0xGG/crossnote', '📝 An interesting markdown note taking application', ARRAY['shd101wyy', 'ImKcat'], '2022-02-24T21:06:05.080468+00:00'),
-(229152542, 63, 1, 1, 0, 19, 'pergola-fpga/pergola', 'Low-cost ECP5 FPGA development board', ARRAY['kbeckmann'], '2022-02-24T21:06:05.080468+00:00'),
 (228911039, 5249, 10, 1, 0, 8, 'antonioru/beautiful-react-hooks', '🔥 A collection of beautiful and (hopefully) useful React hooks to speed-up your components and hooks development 🔥', ARRAY['antonioru', 'wenzi0github'], '2022-02-24T21:06:05.080468+00:00'),
+(229152542, 63, 1, 1, 0, 19, 'pergola-fpga/pergola', 'Low-cost ECP5 FPGA development board', ARRAY['kbeckmann'], '2022-02-24T21:06:05.080468+00:00'),
 (229270550, 382, 53, 1, 0, 9, 'WordPress/theme-experiments', 'Experimenting with themes made out of blocks.', ARRAY['kjellr', 'carolinan'], '2022-02-24T21:06:05.080468+00:00'),
 (229504810, 279, 1, 1, 0, 13, 'sethcottle/littlelink', 'A lightweight DIY alternative to services like Linktree and many.link.', ARRAY['sethcottle', 'iooner'], '2022-02-24T21:06:05.080468+00:00'),
 (229605822, 5, 15, 2, 0, 0, 'vinhyenvodoi98/Lightning_maxbet', 'betting app', ARRAY['vinhyenvodoi98'], '2022-02-24T21:06:05.080468+00:00'),
