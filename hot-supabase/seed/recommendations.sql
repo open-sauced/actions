@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T08:44:24.211Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T10:43:43.775Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1921,10 +1921,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177420214, 1679, 37, 1, 0, 8, 'dosco/graphjin', 'GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.', ARRAY['dosco', 'frederikhors'], '2022-02-24T21:06:05.080468+00:00'),
 (177423398, 88, 5, 1, 0, 27, 'getify/eslint-plugin-proper-ternary', 'ESLint rules to ensure proper usage of ternary/conditional expressions', ARRAY['getify', 'kaykayehnn'], '2022-02-24T21:06:05.080468+00:00'),
 (177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
-(177727387, 28, 0, 1, 0, 18, 'cizixs/awesome-raft', 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', ARRAY['cizixs', 'wenweihu86'], '2022-02-24T21:06:05.080468+00:00'),
-(178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-24T21:06:05.080468+00:00'),
 (178029799, 9, 0, 1, 0, 26, 'BaseMax/TinyShell', 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (178066495, 488, 1, 1, 0, 20, 'world-class/REPL', 'The Learning Hub for UoL''s Online CS Students', ARRAY['sglavoie', 'actions-user'], '2022-02-24T21:06:05.080468+00:00'),
+(177727387, 28, 0, 1, 0, 18, 'cizixs/awesome-raft', 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', ARRAY['cizixs', 'wenweihu86'], '2022-02-24T21:06:05.080468+00:00'),
+(178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-24T21:06:05.080468+00:00'),
 (178137889, 3, 0, 2, 0, 0, 'mpsalisbury/raytracer', 'Ray Tracer from Ray Tracer Challenge', ARRAY['mpsalisbury'], '2022-02-24T21:06:05.080468+00:00'),
 (178148244, 254, 9, 1, 0, 2, 'sbmpost/AutoRaise', 'AutoRaise (and focus) a window when hovering over it with the mouse', ARRAY['sbmpost', 'Dimentium'], '2022-02-24T21:06:05.080468+00:00'),
 (178381879, 77, 1, 1, 0, 13, 'kubernetes-sigs/slack-infra', 'Tooling for kubernetes.slack.com', ARRAY['Katharine', 'k8s-ci-robot'], '2022-02-24T21:06:05.080468+00:00'),
