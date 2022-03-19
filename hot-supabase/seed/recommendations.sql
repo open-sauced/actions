@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T04:46:58.944Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T06:46:22.203Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -956,8 +956,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (58842707, 24303, 110, 1, 0, 8, 'trailofbits/algo', 'Set up a personal VPN in the cloud', ARRAY['jackivanov', 'dguido'], '2022-02-24T21:06:05.080468+00:00'),
 (59096058, 586, 43, 1, 0, 7, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-24T21:06:05.080468+00:00'),
 (59148646, 560, 28, 1, 0, 4, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
-(59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
 (59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:06:05.080468+00:00'),
+(59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
 (120538304, 50812, 4088, 2, 1, 14, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:06:05.080468+00:00'),
 (59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-24T21:06:05.080468+00:00'),
 (59573221, 3485, 16, 1, 0, 23, 'sobolevn/awesome-cryptography', 'A curated list of cryptography resources and links.', ARRAY['sobolevn', 'lk-geimfari'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1954,6 +1954,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (181209141, 1, 0, 1, 0, 23, 'BaseMax/ShowAli', 'Display the ''Ali'' name as art and pattern using * character.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (181308113, 605, 18, 1, 0, 23, 'calintamas/react-native-toast-message', 'Animated toast message component for React Native', ARRAY['calintamas', 'ioanabudai'], '2022-02-24T21:06:05.080468+00:00'),
 (181462414, 13269, 14, 2, 0, 9, 'Alikhll/golang-developer-roadmap', 'Roadmap to becoming a Go developer in 2020', ARRAY['Alikhll', 'roblaszczak'], '2022-02-24T21:06:05.080468+00:00'),
+(181508172, 2, 0, 1, 0, 13, 'BaseMax/ExtractWord', 'Extract word(s) from the lines of the file.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
+(181575785, 2009, 5, 2, 0, 18, 'kentcdodds/react-hooks', 'Learn React Hooks! 🎣 ⚛', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
 (182067506, 4780, 48, 1, 0, 20, 'quantumblacklabs/kedro', 'A Python framework for creating reproducible, maintainable and modular data science code.', ARRAY['lorenabalan', '921kiyo'], '2022-02-24T21:06:05.080468+00:00'),
 (182075630, 714, 3, 1, 0, 12, 'jamesctucker/Fantastic-Front-End-Toolbox', 'A collection of tools, tutorials, and other resources for those learning web development.', ARRAY['jamesctucker', 'thewmh'], '2022-02-24T21:06:05.080468+00:00'),
 (182128976, 15, 0, 1, 0, 25, 'devatquarxss/reusable-data-table-component-vue', 'A reusable / responsive data-table component written in vue.js inspired by vuetify''s v-data-table component capable of search, sort, filter, update the items of the table on different metrics. ', ARRAY['devatquarxss'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1964,8 +1966,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (183260314, 196, 1, 1, 0, 28, 'chinasaokolo/csGraduateFellowships', 'A curated list of fellowships for graduate students in Computer Science and related fields.', ARRAY['chinasaokolo'], '2022-02-24T21:06:05.080468+00:00'),
 (183267843, 1512, 7, 1, 0, 21, 'kentcdodds/advanced-react-hooks', 'Learn Advanced React Hooks workshop', ARRAY['kentcdodds', 'btnwtn'], '2022-02-24T21:06:05.080468+00:00'),
 (183454144, 17, 3, 1, 0, 2, 'pransh15/moz-starter-pack', 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', ARRAY['pransh15', 'pranitb10'], '2022-02-24T21:06:05.080468+00:00'),
-(181575785, 2009, 5, 2, 0, 18, 'kentcdodds/react-hooks', 'Learn React Hooks! 🎣 ⚛', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
-(181508172, 2, 0, 1, 0, 13, 'BaseMax/ExtractWord', 'Extract word(s) from the lines of the file.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (183712153, 256, 8, 1, 0, 28, 'dasDaniel/svelte-table', 'A svelte-3 table implementation that allows sorting and filtering', ARRAY['dasDaniel', 'thilo-behnke'], '2022-02-24T21:06:05.080468+00:00'),
 (183985757, 6, 0, 1, 0, 29, 'diegocbarboza/red-dead-dialog', 'Red Dead Redemption 2 dialog system in Unity', ARRAY['diegocbarboza'], '2022-02-24T21:06:05.080468+00:00'),
 (184130597, 142, 0, 1, 0, 0, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 'Angular 11.0 Firebase App - Online School , Student Management App', ARRAY['AmitXShukla'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2013,7 +2013,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (190828339, 3, 0, 1, 0, 7, 'BaseMax/phpMusselBook', 'Documentation for phpMussel.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (191051391, 10799, 278, 1, 3, 0, 'redwoodjs/redwood', 'The App Framework for Startups', ARRAY['peterp', 'thedavidprice'], '2022-02-24T21:06:05.080468+00:00'),
 (191302278, 125, 5, 1, 0, 10, 'mjackson/rollup-plugin-url-resolve', 'Use URLs in your Rollup imports', ARRAY['mreinstein', 'mjackson'], '2022-02-24T21:06:05.080468+00:00'),
-(191414235, 758, 4, 4, 0, 15, 'orbit-love/orbit-model', 'A framework for building high gravity communities 🪐', ARRAY['dzello', 'patrickjwoods'], '2022-02-24T21:06:05.080468+00:00'),
 (191445024, 462, 14, 2, 0, 15.5, 'sastava007/Tech-Interview-Preparation', 'A one stop solution to ace your next coding interview 👨‍💻', ARRAY['sastava007', 'skrishan07'], '2022-02-24T21:06:05.080468+00:00'),
 (191531341, 208, 6, 1, 0, 23, 'site-prism/site_prism', null, ARRAY['luke-hill', 'natritmeyer'], '2022-02-24T21:06:05.080468+00:00'),
 (191613522, 8, 0, 1, 0, 6, 'BaseMax/CheckReverseString', 'Tiny Program to check the reverse of the string using C/C++.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3437,8 +3436,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388022569, 1, 0, 1, 0, 24, 'muhammaddzaky/zuramai', null, ARRAY['zuramai'], '2022-02-24T21:06:05.080468+00:00'),
 (388026773, 4, 0, 1, 0, 2, 'elizabethsiegle/twilio-video-mask-ml5', 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ARRAY['elizabethsiegle'], '2022-02-24T21:06:05.080468+00:00'),
 (388180308, 5, 1, 1, 0, 3, 'naturalnat/symptoms-client', null, ARRAY['naturalnat'], '2022-02-24T21:06:05.080468+00:00'),
-(388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-24T21:06:05.080468+00:00'),
 (388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
+(388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-24T21:06:05.080468+00:00'),
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-24T21:06:05.080468+00:00'),
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-24T21:06:05.080468+00:00'),
 (388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3667,6 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
+(191414235, 758, 4, 4, 1, 15, 'orbit-love/orbit-model', 'A framework for building high gravity communities 🪐', ARRAY['dzello', 'patrickjwoods'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00');
