@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T06:46:22.203Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T08:44:24.211Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -956,8 +956,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (58842707, 24303, 110, 1, 0, 8, 'trailofbits/algo', 'Set up a personal VPN in the cloud', ARRAY['jackivanov', 'dguido'], '2022-02-24T21:06:05.080468+00:00'),
 (59096058, 586, 43, 1, 0, 7, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-24T21:06:05.080468+00:00'),
 (59148646, 560, 28, 1, 0, 4, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
-(59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:06:05.080468+00:00'),
 (59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
+(59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:06:05.080468+00:00'),
 (120538304, 50812, 4088, 2, 1, 14, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:06:05.080468+00:00'),
 (59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-24T21:06:05.080468+00:00'),
 (59573221, 3485, 16, 1, 0, 23, 'sobolevn/awesome-cryptography', 'A curated list of cryptography resources and links.', ARRAY['sobolevn', 'lk-geimfari'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3436,8 +3436,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388022569, 1, 0, 1, 0, 24, 'muhammaddzaky/zuramai', null, ARRAY['zuramai'], '2022-02-24T21:06:05.080468+00:00'),
 (388026773, 4, 0, 1, 0, 2, 'elizabethsiegle/twilio-video-mask-ml5', 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ARRAY['elizabethsiegle'], '2022-02-24T21:06:05.080468+00:00'),
 (388180308, 5, 1, 1, 0, 3, 'naturalnat/symptoms-client', null, ARRAY['naturalnat'], '2022-02-24T21:06:05.080468+00:00'),
-(388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-24T21:06:05.080468+00:00'),
+(388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-24T21:06:05.080468+00:00'),
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-24T21:06:05.080468+00:00'),
 (388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:06:05.080468+00:00'),
