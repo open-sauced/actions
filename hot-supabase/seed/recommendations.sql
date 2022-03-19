@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T01:02:12.100Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-19T02:49:36.014Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2275,8 +2275,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (227978903, 7885, 124, 1, 0, 0, 'vueuse/vueuse', 'Collection of essential Vue Composition Utilities for Vue 2 and 3', ARRAY['antfu', 'wheatjs'], '2022-02-24T21:06:05.080468+00:00'),
 (228068948, 814, 12, 2, 0, 18, 'davatron5000/awesome-standalones', 'A curated list of awesome framework-agnostic standalone web components', ARRAY['davatron5000', 'andreruffert'], '2022-02-24T21:06:05.080468+00:00'),
 (228652973, 774, 65, 1, 0, 0, '0xGG/crossnote', '📝 An interesting markdown note taking application', ARRAY['shd101wyy', 'ImKcat'], '2022-02-24T21:06:05.080468+00:00'),
-(228911039, 5249, 10, 1, 0, 8, 'antonioru/beautiful-react-hooks', '🔥 A collection of beautiful and (hopefully) useful React hooks to speed-up your components and hooks development 🔥', ARRAY['antonioru', 'wenzi0github'], '2022-02-24T21:06:05.080468+00:00'),
 (229152542, 63, 1, 1, 0, 19, 'pergola-fpga/pergola', 'Low-cost ECP5 FPGA development board', ARRAY['kbeckmann'], '2022-02-24T21:06:05.080468+00:00'),
+(228911039, 5249, 10, 1, 0, 8, 'antonioru/beautiful-react-hooks', '🔥 A collection of beautiful and (hopefully) useful React hooks to speed-up your components and hooks development 🔥', ARRAY['antonioru', 'wenzi0github'], '2022-02-24T21:06:05.080468+00:00'),
 (229270550, 382, 53, 1, 0, 9, 'WordPress/theme-experiments', 'Experimenting with themes made out of blocks.', ARRAY['kjellr', 'carolinan'], '2022-02-24T21:06:05.080468+00:00'),
 (229504810, 279, 1, 1, 0, 13, 'sethcottle/littlelink', 'A lightweight DIY alternative to services like Linktree and many.link.', ARRAY['sethcottle', 'iooner'], '2022-02-24T21:06:05.080468+00:00'),
 (229605822, 5, 15, 2, 0, 0, 'vinhyenvodoi98/Lightning_maxbet', 'betting app', ARRAY['vinhyenvodoi98'], '2022-02-24T21:06:05.080468+00:00'),
