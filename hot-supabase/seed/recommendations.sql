@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T06:46:05.480Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T08:44:08.941Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1874,12 +1874,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (171564612, 163, 24, 1, 0, 21, 'khlam/debloat-samsung-android', 'ADB commands to aggressively de-bloat Samsung Android Phones without root. Make Samsung One UI closer to stock Android.', ARRAY['khlam'], '2022-02-24T21:06:05.080468+00:00'),
 (171566590, 2995, 150, 1, 0, 15, 'serverless-nextjs/serverless-next.js', '⚡ Deploy your Next.js apps on AWS Lambda@Edge via Serverless Components', ARRAY['dphang', 'danielcondemarin'], '2022-02-24T21:06:05.080468+00:00'),
 (171691256, 169, 1, 1, 0, 7, 'orbit-love/awesome-dot-dev', 'A list of awesome developer resources on the .dev TLD', ARRAY['patrickjwoods', 'dzello'], '2022-02-24T21:06:05.080468+00:00'),
-(171914326, 1, 0, 1, 0, 28, 'dimonga/OMNIA-AI-TRUCK', 'We are trying to build an escape room truck that will go all across people to alleviate their fear of AI by educating them about AI.', ARRAY['dimonga', 'tartarJR'], '2022-02-24T21:06:05.080468+00:00'),
 (172227885, 7691, 183, 1, 0, 16, 'tiangolo/full-stack-fastapi-postgresql', 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', ARRAY['tiangolo', 'ebreton'], '2022-02-24T21:06:05.080468+00:00'),
 (172362850, 12, 0, 1, 0, 28, 'BaseMax/TrigonometricFunctions', 'Analysis and thinking about trigonometry functions and how they work.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (172378503, 23891, 19, 1, 0, 9, 'romkatv/powerlevel10k', 'A Zsh theme', ARRAY['romkatv', 'dritter'], '2022-02-24T21:06:05.080468+00:00'),
 (172471552, 3694, 5, 1, 0, 7, 'aliyr/Nodejs-Developer-Roadmap', 'A Developer Roadmap to becoming a Node.js developer in 2019', ARRAY['aliyr', 'AGrant24'], '2022-02-24T21:06:05.080468+00:00'),
 (172473381, 33, 0, 1, 0, 29, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:06:05.080468+00:00'),
+(171914326, 1, 0, 1, 0, 28, 'dimonga/OMNIA-AI-TRUCK', 'We are trying to build an escape room truck that will go all across people to alleviate their fear of AI by educating them about AI.', ARRAY['dimonga', 'tartarJR'], '2022-02-24T21:06:05.080468+00:00'),
 (172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
 (172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (172521926, 16173, 17, 2, 0, 4.5, 'pmndrs/react-three-fiber', '🇨🇭 A React renderer for Three.js', ARRAY['drcmda', 'joshuaellis'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2250,7 +2250,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (222535759, 3, 1, 1, 0, 24, 'jlengstorf/ast-transformations', null, ARRAY['jlengstorf'], '2022-02-24T21:06:05.080468+00:00'),
 (222791010, 35, 2, 1, 0, 2, 'twilio/rtc-diagnostics', null, ARRAY['mhuynh5757', 'charliesantos'], '2022-02-24T21:06:05.080468+00:00'),
 (223368735, 235, 8, 1, 0, 12, 'jagaapple/next-secure-headers', 'Sets secure response headers for Next.js.', ARRAY['jagaapple', 'naotone'], '2022-02-24T21:06:05.080468+00:00'),
-(223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-24T21:06:05.080468+00:00'),
 (224247781, 1480, 5, 1, 0, 27, 'nikhilpanju/FabFilter', 'Android app to showcase complex UI/Animations with and without MotionLayout', ARRAY['nikhilpanju'], '2022-02-24T21:06:05.080468+00:00'),
 (224663696, 19387, 9, 1, 0, 15, 'alpinejs/alpine', 'A rugged, minimal framework for composing JavaScript behavior in your markup. ', ARRAY['calebporzio', 'SimoTod'], '2022-02-24T21:06:05.080468+00:00'),
 (224928799, 260, 25, 1, 0, 26, 'rwmt/Multiplayer', 'Zetrith''s Multiplayer mod for RimWorld', ARRAY['Zetrith', 'notfood'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2259,6 +2258,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (225442835, 15, 0, 1, 0, 2, 'caderek/aoc-starter-ts', null, ARRAY['caderek', 'NewCeptionDev'], '2022-02-24T21:06:05.080468+00:00'),
 (225602090, 161, 13, 1, 0, 0, 'farbenmeer/react-spring-slider', 'A slider component for react', ARRAY['mstruebing', 'Tobi-mmt'], '2022-02-24T21:06:05.080468+00:00'),
 (225862895, 116, 14, 1, 0, 6, 'srggrs/assign-one-project-github-action', 'Automatically add an issue or pull request to specific GitHub Project(s) when you create and/or label them.', ARRAY['srggrs', 'adamdmharvey'], '2022-02-24T21:06:05.080468+00:00'),
+(223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-24T21:06:05.080468+00:00'),
 (225979578, 1711, 0, 1, 0, 0, 'talkpython/python-for-absolute-beginners-course', 'Code samples and other handouts for our course.', ARRAY['mikeckennedy', 'amcinnes87'], '2022-02-24T21:06:05.080468+00:00'),
 (226112204, 1, 1, 1, 0, 8, 'rodridev77/crud-cadastro', null, ARRAY['markusbue'], '2022-02-24T21:06:05.080468+00:00'),
 (226202216, 195, 0, 1, 0, 11, 'martinwoodward/smart-xmas', 'Star this repo to add some sparkle to my tree', ARRAY['martinwoodward'], '2022-02-24T21:06:05.080468+00:00'),
