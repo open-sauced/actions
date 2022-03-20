@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T12:49:52.910Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T14:43:28.686Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2798,14 +2798,14 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2813, 28281924, 18765044, 19, 151, 3948, 'golang/oauth2', 'Go OAuth2', ARRAY['rakyll', 'adg'], '2022-02-24T21:07:34.596111'),
 (2814, 28281924, 320609581, 20, 0, 1, 'HeavyBR/adventofcode', 'My solutions for Advent Of Code 2020, all of made with Go Language', ARRAY['HeavyBR'], '2022-02-24T21:07:34.596111'),
 (2815, 28281924, 234231371, 21, 50, 17421, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-24T21:07:34.596111'),
-(423938279, 20374545, 334465533, 0, 0, 1, 'Leonardo-Borba/auction-assistant', 'A bot to monitor MGT auctions and do automatic bids', ARRAY['Leonardo-Borba'], '2022-02-24T21:07:34.596111'),
 (305063342, 622115, 3116751, 29, 50, 11166, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:07:34.596111'),
+(424109428, 88631894, 335819337, 0, 0, 1, 'MonkeDev/API-bot', 'The bot we use to manage our API.', ARRAY['Mafia-7777', 'BurnedBed'], '2022-02-24T21:07:34.596111'),
 (430041297, 50591491, 49704723, 29, 119, 9961, 'okonet/lint-staged', '🚫💩 — Run linters on git staged files', ARRAY['okonet', 'iiroj'], '2022-02-24T21:07:34.596111'),
 (317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111'),
 (424945913, 2339101, 55896045, 29, 20, 1, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:07:34.596111'),
 (424103216, 2228196, 286132785, 29, 0, 1, 'lesmo/gitfolio', ':octocat: personal website + blog for every github user', ARRAY['imfunniee', 'bcliden'], '2022-02-24T21:07:34.596111'),
 (276703311, 29888641, 196701619, 29, 165, 35065, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
-(424109428, 88631894, 335819337, 0, 0, 1, 'MonkeDev/API-bot', 'The bot we use to manage our API.', ARRAY['Mafia-7777', 'BurnedBed'], '2022-02-24T21:07:34.596111'),
+(423938279, 20374545, 334465533, 0, 0, 1, 'Leonardo-Borba/auction-assistant', 'A bot to monitor MGT auctions and do automatic bids', ARRAY['Leonardo-Borba'], '2022-02-24T21:07:34.596111'),
 (427924349, 2480219, 257404606, 29, 3, 53, 'textileio/js-examples', 'Examples and demos using Textile''s Javascript/Typescript libraries and clients.', ARRAY['andrewxhill', 'carsonfarmer'], '2022-02-24T21:07:34.596111'),
 (2816, 28281924, 237448876, 22, 10, 735, 'qiangxue/go-rest-api', 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', ARRAY['qiangxue', 'chartinmarrel'], '2022-02-24T21:07:34.596111'),
 (2817, 28281924, 191531341, 23, 6, 208, 'site-prism/site_prism', null, ARRAY['luke-hill', 'natritmeyer'], '2022-02-24T21:07:34.596111'),
@@ -4260,6 +4260,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (447732936, 3941856, 263146261, 29, 19, 1969, 'MaggieAppleton/digital-gardeners', 'Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs', ARRAY['MaggieAppleton', 'theianjones'], '2022-02-24T21:07:34.596111'),
 (426377012, 43814157, 225602090, 0, 13, 161, 'farbenmeer/react-spring-slider', 'A slider component for react', ARRAY['mstruebing', 'Tobi-mmt'], '2022-02-24T21:07:34.596111'),
 (423606200, 17373317, 74682861, 0, 2, 156, 'nagygergo/jetbrains-toolbox-install', 'Installer for jetbrains toolbox', ARRAY['nagygergo', 'ziegenberg'], '2022-02-24T21:07:34.596111'),
+(425311105, 57008950, 300932149, 15, 0, 1, 'RitikaJain8818/Programmers-Community', 'This repository contains various solution of a problem in Ruby, C, C++, Python and Java.', ARRAY['pooja-git11', 'Kuljeet-123'], '2022-02-24T21:07:34.596111'),
 (402886161, 29004466, 37860317, 29, 454, 1396, 'TASVideos/BizHawk', 'BizHawk is a multi-system emulator written in C#.  BizHawk provides nice features for casual gamers such as full screen, and joypad support in addition to full rerecording and debugging tools for all system cores.  ', ARRAY['adelikat', 'zeromus'], '2022-02-24T21:07:34.596111'),
 (422702314, 2607477, 20904437, 2, 497, 56626, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-24T21:07:34.596111'),
 (403088539, 37635083, 400898185, 0, 0, 1, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:07:34.596111'),
@@ -4276,10 +4277,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (377924746, 14868216, 802006, 29, 170, 7799, 'mediaelement/mediaelement', 'HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.', ARRAY['johndyer', 'rafa8626'], '2022-02-24T21:07:34.596111'),
 (377391645, 57373172, 106017343, 29, 33, 54656, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:07:34.596111'),
 (435647165, 23166349, 164225648, 29, 0, 765, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
-(425311105, 57008950, 300932149, 15, 0, 1, 'RitikaJain8818/Programmers-Community', 'This repository contains various solution of a problem in Ruby, C, C++, Python and Java.', ARRAY['pooja-git11', 'Kuljeet-123'], '2022-02-24T21:07:34.596111'),
+(424360680, 5901851, 217545172, 29, 35, 1555, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:07:34.596111'),
 (379460859, 13711044, 172473381, 29, 2, 37, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:07:34.596111'),
 (434506268, 45293863, 300313988, 29, 1, 40, 'cyberpartizans/face_recognition', null, ARRAY['allyouneediscv', 'feanor-on-fire'], '2022-02-24T21:07:34.596111'),
-(424360680, 5901851, 217545172, 29, 35, 1555, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:07:34.596111'),
 (425791199, 7293310, 8456235, 29, 18, 180, 'NUKnightLab/soundcite', 'Making Inline Audio Easy and Seamless', ARRAY['JoeGermuska', 'scott2b'], '2022-02-24T21:07:34.596111'),
 (354123413, 15052690, 346534675, 29, 2, 23, 'bitprj/Intro-To-Serverless', 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', ARRAY['emsesc', 'ganning127'], '2022-02-24T21:07:34.596111'),
 (401824794, 65249694, 3678731, 12, 294, 60681, 'webpack/webpack', 'A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ''loaders'', modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.', ARRAY['sokra', 'timse'], '2022-02-24T21:07:34.596111'),
@@ -4320,7 +4320,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (352793229, 22655167, 126813008, 29, 0, 833, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
 (418247835, 16165980, 343965132, 0, 6, 28909, 'microsoft/ML-For-Beginners', '12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all', ARRAY['jlooper', 'softchris'], '2022-02-24T21:07:34.596111'),
 (208603857, 5713670, 157397583, 29, 47, 8650, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
-(422332797, 4066445, 3214406, 4, 120, 42850, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-24T21:07:34.596111'),
+(422332797, 4066445, 3214406, 4, 120, 42851, 'meteor/meteor', 'Meteor, the JavaScript App Platform', ARRAY['benjamn', 'glasser'], '2022-02-24T21:07:34.596111'),
 (361187808, 1295334, 1300192, 18, 14464, 10938, 'octocat/Spoon-Knife', 'This repo is for demonstration purposes only.', ARRAY['octocat'], '2022-02-24T21:07:34.596111'),
 (351754863, 3754311, 132750724, 29, 214, 135847, 'danistefanovic/build-your-own-x', '🤓 Build your own (insert technology here)', ARRAY['danistefanovic', 'bauripalash'], '2022-02-24T21:07:34.596111'),
 (423914895, 19617280, 333980205, 29, 0, 142, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:07:34.596111'),
@@ -4423,6 +4423,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (456168834, 5381468, 38383584, 29, 0, 9, 'snicoll/spring-boot-configuration-binding', 'Showcase Spring Boot configuration support', ARRAY['snicoll'], '2022-02-24T21:07:34.596111'),
 (422278376, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-24T21:07:34.596111'),
 (409822566, 9968219, 283210438, 29, 0, 1, 'ramazansakin/log-aggregation-spring-boot-elastic-stack', 'Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.', ARRAY['cassiomolin', 'ramazansakin'], '2022-02-24T21:07:34.596111'),
+(467581742, 7222344, 3452519, 7, 23, 531, 'humanmade/Custom-Meta-Boxes', 'Lets you easily create metaboxes with custom fields that will blow your mind.   ', ARRAY['mattheu', 'mikeselander'], '2022-03-09T10:39:40.818859'),
 (382167794, 1431853, 135516270, 29, 429, 19443, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:07:34.596111'),
 (467288570, 13059091, 14682677, 18, 0, 2, 'spaetow/ShibbolethECPAuthClient', 'A Shibboleth ECP authentication client that also exposes access to the SAML response received from the IdP', ARRAY['spaetow'], '2022-03-09T11:40:32.128947'),
 (465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
@@ -4433,7 +4434,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (302938010, 211851, 5373673, 29, 67, 2721, 'jlord/sheetsee.js', ':eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet', ARRAY['jlord', 'mjhea0'], '2022-02-24T21:07:34.596111'),
 (466201413, 11489171, 28457823, 8, 152, 342621, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-03-05T04:56:52.874277'),
 (468472328, 28269, 39769, 23, 0, 64, 'mzslater/learning-rails-sample-app', 'Sample application for the Learning Rails free online course in Ruby on Rails', ARRAY['michael-slater', 'learningrails'], '2022-03-12T07:15:58.307833'),
-(467581742, 7222344, 3452519, 7, 23, 531, 'humanmade/Custom-Meta-Boxes', 'Lets you easily create metaboxes with custom fields that will blow your mind.   ', ARRAY['mattheu', 'mikeselander'], '2022-03-09T10:39:40.818859'),
 (470199505, 11030551, 279702593, 18, 6, 4336, 'francisrstokes/super-expressive', '🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language', ARRAY['francisrstokes', '0xflotus'], '2022-03-16T02:40:44.887873'),
 (330475048, 61131314, 31792824, 29, 10609, 137617, 'flutter/flutter', 'Flutter makes it easy and fast to build beautiful apps for mobile and beyond', ARRAY['engine-flutter-autoroll', 'abarth'], '2022-02-24T21:07:34.596111'),
 (396028887, 3012159, 276613189, 10, 5, 1, 'sieis/udemyYelpCamp', 'My code for the final YelpCamp project updated with Bootstrap 4', ARRAY['sieis'], '2022-03-09T05:40:54.538531'),

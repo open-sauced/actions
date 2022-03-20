@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T12:49:52.730Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T14:43:28.443Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1471,9 +1471,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (117895247, 953, 5, 1, 0, 10, 'bitcoinvsalts/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖', ARRAY['dargmuesli', 'bitcoinvsalts'], '2022-02-24T21:06:05.080468+00:00'),
 (118009853, 11, 41, 1, 0, 19, 'codesponsor/codesponsor', 'Code Sponsor v2.0', ARRAY['coderberry', 'mbeacom'], '2022-02-24T21:06:05.080468+00:00'),
 (118029985, 3, 0, 1, 0, 11, 'drewnolan/vs-libimobile', 'Update for iOS11', ARRAY['infinitedrew', 'drewnolan'], '2022-02-24T21:06:05.080468+00:00'),
+(118065892, 1, 0, 1, 0, 15, 'davchoo/RocketDogs-6718-Robot-Code', 'Code for the robot built by 6718', ARRAY['davchoo'], '2022-02-24T21:06:05.080468+00:00'),
 (118102098, 3931, 0, 1, 0, 11, 'lauragift21/awesome-learning-resources', '🔥 Awesome list of resources on Web Development.', ARRAY['lauragift21', 'wireguy'], '2022-02-24T21:06:05.080468+00:00'),
 (118105591, 2132, 39, 1, 0, 3, 'gojek/heimdall', 'An enhanced HTTP client for Go', ARRAY['sohamkamani', 'rShetty'], '2022-02-24T21:06:05.080468+00:00'),
-(118065892, 1, 0, 1, 0, 15, 'davchoo/RocketDogs-6718-Robot-Code', 'Code for the robot built by 6718', ARRAY['davchoo'], '2022-02-24T21:06:05.080468+00:00'),
 (118654121, 12263, 493, 1, 0, 4, 'GoogleContainerTools/skaffold', 'Easy and Repeatable Kubernetes Development', ARRAY['dgageot', 'balopat'], '2022-02-24T21:06:05.080468+00:00'),
 (118656654, 416, 1263, 1, 0, 14, 'Automattic/themes', 'Free WordPress themes made by Automattic for WordPress.org and WordPress.com.', ARRAY['allancole', 'scruffian'], '2022-02-24T21:06:05.080468+00:00'),
 (118695306, 6623, 24, 1, 0, 18, 'FormidableLabs/urql', 'The highly customizable and versatile GraphQL client with which you add on features like normalized caching as you grow.', ARRAY['kitten', 'JoviDeCroock'], '2022-02-24T21:06:05.080468+00:00'),
