@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T06:46:46.922Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T08:45:35.688Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2626,7 +2626,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (273950652, 87, 1, 1, 0, 7, 'ckundo/auto-vo', null, ARRAY['ckundo', 'stephenmathieson'], '2022-02-24T21:06:05.080468+00:00'),
 (274055064, 180, 71, 1, 0, 9, 'hassanhabib/OtripleS', 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', ARRAY['viralpandya', 'eriadhami'], '2022-02-24T21:06:05.080468+00:00'),
 (274165785, 474, 12, 1, 0, 7, 'bradtraversy/ui_components', 'Collection of HTML & CSS UI components ', ARRAY['bradtraversy', 'Mohammadreza99A'], '2022-02-24T21:06:05.080468+00:00'),
-(274274791, 15, 5, 1, 0, 14, 'vseventer/eleventy-plugin-helmet', 'A document head manager for Eleventy.', ARRAY['vseventer', 'peterjcaulfield'], '2022-02-24T21:06:05.080468+00:00'),
 (274299728, 3, 3, 1, 0, 14, 'shadowruge/futebol_screpping', 'webscrepping_python3', ARRAY['shadowruge'], '2022-02-24T21:06:05.080468+00:00'),
 (274357906, 100, 2, 1, 0, 19, 't-bast/lightning-docs', 'Some in-depth articles about the Lightning Network', ARRAY['t-bast', 'joostjager'], '2022-02-24T21:06:05.080468+00:00'),
 (274481422, 266, 0, 1, 0, 22, 'bmarvinb/software-engineer-interview-questions', 'A lot of questions and links to prepare yourself for your next dream job interview', ARRAY['bmarvinb', 'veerbhadrasolanki'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2645,6 +2644,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (276193266, 22, 0, 1, 0, 21, 'First-Steps-in-DDD-Community/first-steps-in-ddd-solutions', 'Solutions to the First Steps in DDD training course', ARRAY['andrewharmellaw'], '2022-02-24T21:06:05.080468+00:00'),
 (276295300, 2419, 23, 1, 0, 26, 'NerdyPepper/dijo', 'scriptable, curses-based, digital habit tracker', ARRAY['nerdypepper', 'charles-l'], '2022-02-24T21:06:05.080468+00:00'),
 (276414382, 5613, 27, 1, 0, 5, 'microsoft/playwright-python', 'Python version of the Playwright testing and automation library.', ARRAY['mxschmitt', 'pavelfeldman'], '2022-02-24T21:06:05.080468+00:00'),
+(274274791, 15, 5, 1, 0, 14, 'vseventer/eleventy-plugin-helmet', 'A document head manager for Eleventy.', ARRAY['vseventer', 'peterjcaulfield'], '2022-02-24T21:06:05.080468+00:00'),
 (276444578, 8106, 58, 1, 0, 1, 'aristocratos/bpytop', 'Linux/OSX/FreeBSD resource monitor', ARRAY['aristocratos', 'cjolowicz'], '2022-02-24T21:06:05.080468+00:00'),
 (276889385, 241, 10, 1, 0, 15, 'ANSSI-FR/MLA', 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', ARRAY['commial', 'sashaconway'], '2022-02-24T21:06:05.080468+00:00'),
 (276914940, 5, 8, 1, 0, 14, 'judicaelandria/check', 'manage all your task, and do your todos', ARRAY['judicaelandria', 'ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
