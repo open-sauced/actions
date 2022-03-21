@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T10:44:30.102Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T12:52:13.265Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3334,8 +3334,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (377196642, 3, 0, 1, 0, 18, 'alanmontgomery/ionic-react-hook-form-example', 'Example with React Hook Form', ARRAY['alanmontgomery'], '2022-02-24T21:06:05.080468+00:00'),
 (377267871, 254, 0, 1, 0, 3, 'gaearon/react-lag-radar', null, ARRAY['gaearon'], '2022-02-24T21:06:05.080468+00:00'),
 (377305568, 2240, 0, 1, 0, 15, 'learntocloud/learn-to-cloud', 'Learn the fundamentals of cloud computing', ARRAY['madebygps', 'rishabkumar7'], '2022-02-24T21:06:05.080468+00:00'),
-(377452626, 174, 22, 2, 0, 12.5, 'atapas/webapis-playground', 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', ARRAY['atapas', 'mverissimo'], '2022-02-24T21:06:05.080468+00:00'),
 (377365832, 1628, 42, 1, 0, 3, 'cheatsheet1999/FrontEndCollection', 'Notes for Front-end Software Engineers. Covers common data structure and algorithms, basic web concepts, HTML & CSS & Javascript.', ARRAY['cheatsheet1999', 'siyuan25'], '2022-02-24T21:06:05.080468+00:00'),
+(377452626, 174, 22, 2, 0, 12.5, 'atapas/webapis-playground', 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', ARRAY['atapas', 'mverissimo'], '2022-02-24T21:06:05.080468+00:00'),
 (377602613, 159, 1, 1, 0, 9, 'hasura/hasura-ecommerce', null, ARRAY['GavinRay97'], '2022-02-24T21:06:05.080468+00:00'),
 (377990171, 37, 0, 1, 0, 6, 'misodope/AdultSwimTok', null, ARRAY['misodope'], '2022-02-24T21:06:05.080468+00:00'),
 (377680492, 159, 0, 1, 0, 1, 'cnrad/lanyard-profile-readme', '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', ARRAY['cnrad', 'Looskie'], '2022-02-24T21:06:05.080468+00:00'),
