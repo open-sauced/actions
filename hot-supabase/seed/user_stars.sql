@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-20T22:43:17.804Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T01:02:29.031Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4271,14 +4271,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (377960470, 67359053, 12299718, 4, 13, 71, 'twilio/starter-python', 'A starter app for Python developers embarking on their first Twilio quest!', ARRAY['kwhinnery', 'smendes'], '2022-02-24T21:07:34.596111'),
 (400776511, 24352546, 202291859, 2, 575, 12174, 'chatwoot/chatwoot', 'Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬', ARRAY['pranavrajs', 'sojan-official'], '2022-02-24T21:07:34.596111'),
 (381571653, 569510, 1535009, 29, 34, 4098, 'jazzband/tablib', 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', ARRAY['kennethreitz', 'claudep'], '2022-02-24T21:07:34.596111'),
-(382418792, 57017587, 41796462, 29, 0, 5271, 'yanirs/established-remote', 'A list of established remote companies', ARRAY['yanirs', 'dcecile'], '2022-02-24T21:07:34.596111'),
-(422464827, 505751, 24594933, 29, 61, 5198, 'Unleash/unleash', 'Unleash is the open source feature toggle service.', ARRAY['ivarconr', 'thomasheartman'], '2022-02-24T21:07:34.596111'),
 (359953680, 3777549, 3984904, 29, 0, 17, 'jgillman/dotfiles', 'jgillman''s special collection of configs', ARRAY['jgillman'], '2022-02-24T21:07:34.596111'),
 (377391645, 57373172, 106017343, 29, 33, 54667, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:07:34.596111'),
-(435647165, 23166349, 164225648, 29, 0, 765, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
+(434506268, 45293863, 300313988, 29, 1, 40, 'cyberpartizans/face_recognition', null, ARRAY['allyouneediscv', 'feanor-on-fire'], '2022-02-24T21:07:34.596111'),
 (424360680, 5901851, 217545172, 29, 35, 1555, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:07:34.596111'),
 (379460859, 13711044, 172473381, 29, 2, 37, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:07:34.596111'),
-(434506268, 45293863, 300313988, 29, 1, 40, 'cyberpartizans/face_recognition', null, ARRAY['allyouneediscv', 'feanor-on-fire'], '2022-02-24T21:07:34.596111'),
+(435647165, 23166349, 164225648, 29, 0, 766, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
 (422702314, 2607477, 20904437, 2, 494, 56642, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-24T21:07:34.596111'),
 (425791199, 7293310, 8456235, 29, 18, 180, 'NUKnightLab/soundcite', 'Making Inline Audio Easy and Seamless', ARRAY['JoeGermuska', 'scott2b'], '2022-02-24T21:07:34.596111'),
 (358576983, 527550, 4449421, 29, 4, 670, 'karmi/elasticsearch-paramedic', 'A simple tool to inspect the state and statistics about ElasticSearch clusters', ARRAY['karmi', 'walokra'], '2022-02-24T21:07:34.596111'),
@@ -4387,11 +4385,11 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (463772639, 56942462, 287081652, 13, 0, 1, 'ugwustanley/search-countries', null, ARRAY['ugwustanley'], '2022-03-02T07:08:15.064056'),
 (359508510, 36890230, 114416028, 8, 0, 4, 'datadesk/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'palewire'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 176, 4417, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
+(465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:24:04.205351'),
 (455678420, 6499373, 36040894, 24, 329, 52584, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (432242215, 10951893, 254660586, 29, 11, 2029, 'openmainframeproject/cobol-programming-course', 'Training materials and labs for a ''Getting Started'' level course on COBOL', ARRAY['MikeBauerCA', 'tanto259'], '2022-02-24T21:07:34.596111'),
 (456471693, 83277146, 90528830, 4, 32, 39835, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (436289040, 61815862, 7715820, 29, 63, 8823, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
-(465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:24:04.205351'),
 (444433367, 656318, 38612708, 10, 2, 1, 'TeamTessie/tessietodo-static', 'Our static Tessie To-do App', ARRAY['tamacodechi', 'ShellyCoen'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (386705185, 349523, 902266, 17, 0, 73, 'jamesshore/lets_play_tdd', 'Let''s Play: Test-Driven Development', ARRAY['jamesshore', 'luontola'], '2022-02-24T21:07:34.596111'),
@@ -4401,6 +4399,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
 (396048780, 42749147, 323663755, 8, 0, 1, 'akobepeter/materializeProject', null, ARRAY['akobepeter'], '2022-02-24T21:07:34.596111'),
 (450574015, 3662109, 334169919, 29, 15, 1320, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
+(382418792, 57017587, 41796462, 29, 0, 5271, 'yanirs/established-remote', 'A list of established remote companies', ARRAY['yanirs', 'dcecile'], '2022-02-24T21:07:34.596111'),
+(422464827, 505751, 24594933, 29, 61, 5198, 'Unleash/unleash', 'Unleash is the open source feature toggle service.', ARRAY['ivarconr', 'thomasheartman'], '2022-02-24T21:07:34.596111'),
 (452075032, 22186029, 337208358, 29, 0, 13, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
 (457526756, 74566464, 400851369, 29, 1, 577, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (364328935, 667716, 137308605, 29, 4, 104, 'tamino-martinius/node-ts-dedent', 'TypeScript package which smartly trims and strips indentation from multi-line strings', ARRAY['tamino-martinius', 'AviVahl'], '2022-02-24T21:07:34.596111'),
@@ -4415,9 +4415,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (429224238, 1645545, 81075897, 29, 45, 254, 'SciML/Catalyst.jl', 'Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software', ARRAY['isaacsas', 'TorkelE'], '2022-02-24T21:07:34.596111'),
 (456168834, 5381468, 38383584, 29, 0, 9, 'snicoll/spring-boot-configuration-binding', 'Showcase Spring Boot configuration support', ARRAY['snicoll'], '2022-02-24T21:07:34.596111'),
 (418672791, 20727421, 218282453, 29, 13, 3052, 'saadpasta/developerFolio', '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', ARRAY['saadpasta', 'kartikcho'], '2022-02-24T21:07:34.596111'),
-(465036506, 19359944, 2515323, 29, 35, 1536, 'liip/LiipImagineBundle', 'Symfony Bundle to assist in imagine manipulation using the imagine library', ARRAY['lsmith77', 'makasim'], '2022-03-02T08:10:40.488726'),
 (408003690, 1305623, 51270739, 29, 56, 19993, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-24T21:07:34.596111'),
 (391706360, 25867172, 18696257, 29, 15, 9864, 'qrohlf/trianglify', 'Algorithmically generated triangle art', ARRAY['qrohlf', 'enzuguri'], '2022-02-24T21:07:34.596111'),
+(465036506, 19359944, 2515323, 29, 35, 1536, 'liip/LiipImagineBundle', 'Symfony Bundle to assist in imagine manipulation using the imagine library', ARRAY['lsmith77', 'makasim'], '2022-03-02T08:10:40.488726'),
 (417311106, 71297412, 55631449, 29, 98, 2168, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:07:34.596111'),
 (399559931, 30369246, 21405028, 29, 2, 10330, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-24T21:07:34.596111'),
 (382468183, 8037469, 172741073, 29, 384, 19742, 'snowpackjs/snowpack', 'ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️', ARRAY['FredKSchott', 'drwpow'], '2022-02-24T21:07:34.596111'),
@@ -4430,6 +4430,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (467181761, 1862184, 136690766, 4, 0, 248, 'paperbits/paperbits-core', 'This repository contains core Paperbits components', ARRAY['azaslonov', 'ygrik'], '2022-03-09T05:03:41.24538'),
 (467581742, 7222344, 3452519, 7, 23, 531, 'humanmade/Custom-Meta-Boxes', 'Lets you easily create metaboxes with custom fields that will blow your mind.   ', ARRAY['mattheu', 'mikeselander'], '2022-03-09T10:39:40.818859'),
 (348380714, 1645628, 18609427, 29, 367, 13061, 'tc39/ecma262', 'Status, process, and documents for ECMA-262', ARRAY['jmdyck', 'anba'], '2022-02-24T21:07:34.596111'),
+(464086557, 20733994, 189649243, 3, 3, 3594, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-03-02T08:53:12.273412'),
 (466201413, 11489171, 28457823, 8, 152, 342651, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-03-05T04:56:52.874277'),
 (470199505, 11030551, 279702593, 18, 6, 4336, 'francisrstokes/super-expressive', '🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language', ARRAY['francisrstokes', '0xflotus'], '2022-03-16T02:40:44.887873'),
 (308781524, 29295102, 213368792, 10, 0, 1, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:07:34.596111'),
@@ -4438,6 +4439,5 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (396028887, 3012159, 276613189, 10, 5, 1, 'sieis/udemyYelpCamp', 'My code for the final YelpCamp project updated with Bootstrap 4', ARRAY['sieis'], '2022-03-09T05:40:54.538531'),
 (363981975, 46828701, 258812961, 29, 12, 515, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-24T21:07:34.596111'),
 (468472328, 28269, 39769, 23, 0, 64, 'mzslater/learning-rails-sample-app', 'Sample application for the Learning Rails free online course in Ruby on Rails', ARRAY['michael-slater', 'learningrails'], '2022-03-12T07:15:58.307833'),
-(464086557, 20733994, 189649243, 3, 3, 3590, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-03-02T08:53:12.273412'),
 (465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
 (469853701, 101365565, 80050538, 2, 3, 635, 'maintainers/public-resources', 'Public information on the invite-only maintainer community', ARRAY['MikeMcQuaid', 'devonzuegel'], '2022-03-16T13:54:01.717626');
