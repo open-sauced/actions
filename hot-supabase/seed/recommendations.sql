@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T16:51:23.812Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-21T18:46:17.068Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3482,8 +3482,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (393089347, 32, 0, 1, 0, 18, 'antoniolofiego/Batteries-Included-Next.js', 'A starting boilerplate for a TS Next.js project with batteries included. Tailwind CSS in JIT mode for styling, Jest and React Testing Library working with path aliases and node-mock-http for API route testing.', ARRAY['antoniolofiego', 'kriswuollett'], '2022-02-24T21:06:05.080468+00:00'),
 (393105235, 129, 0, 1, 0, 7, 'abuanwar072/Flutter-Custom-Animation-Grocery-App', null, ARRAY['abuanwar072'], '2022-02-24T21:06:05.080468+00:00'),
 (393117769, 429, 3, 1, 0, 3, 'antfu/drauu', 'Headless SVG-based drawboard in browser.', ARRAY['antfu', 'btea'], '2022-02-24T21:06:05.080468+00:00'),
-(393262482, 8, 5, 1, 0, 3, 'YearOne-Prep/YearOne-prep-challenges', 'A YearOne interview prep open-source project. Provide an interview prep resource by opening a pull request!', ARRAY['KGmajor', 'rafawelsh'], '2022-02-24T21:06:05.080468+00:00'),
 (393673673, 171, 1, 1, 0, 16, 'theodorusclarence/ts-nextjs-tailwind-starter', '🔋 Next.js + Tailwind CSS + TypeScript starter packed with useful development features', ARRAY['theodorusclarence', 'raaynaldo'], '2022-02-24T21:06:05.080468+00:00'),
+(393262482, 8, 5, 1, 0, 3, 'YearOne-Prep/YearOne-prep-challenges', 'A YearOne interview prep open-source project. Provide an interview prep resource by opening a pull request!', ARRAY['KGmajor', 'rafawelsh'], '2022-02-24T21:06:05.080468+00:00'),
 (393711986, 4, 0, 1, 0, 21, 'frencojobs/minimalistic', 'Opinionated but sensible and minimal prettier config with plugins.', ARRAY['frencojobs'], '2022-02-24T21:06:05.080468+00:00'),
 (393803046, 1, 0, 1, 0, 27, 'tomp2/pynightlight', 'Gui app to change virtual monitor brightness and gamma', ARRAY['tomp2'], '2022-02-24T21:06:05.080468+00:00'),
 (393811607, 6, 0, 1, 0, 5, 'gaelgthomas/prisma-sqlite-example', null, ARRAY['gaelgthomas'], '2022-02-24T21:06:05.080468+00:00'),
