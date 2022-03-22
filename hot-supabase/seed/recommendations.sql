@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T16:53:44.753Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T18:46:11.533Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -935,8 +935,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (55631449, 2115, 83, 1, 0, 29, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:06:05.080468+00:00'),
 (55832243, 2184, 252, 1, 0, 17, 'sindresorhus/eslint-plugin-unicorn', 'Various awesome ESLint rules', ARRAY['fisker', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
 (55896045, 1, 18, 1, 0, 29, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:06:05.080468+00:00'),
-(56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (56171308, 1198, 4, 1, 0, 26, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:06:05.080468+00:00'),
+(56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (56379555, 22, 2, 1, 0, 18, 'docteurklein/compose-ci', 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', ARRAY['docteurklein'], '2022-02-24T21:06:05.080468+00:00'),
 (56459948, 5675, 186, 1, 0, 14, 'GoogleCloudPlatform/training-data-analyst', 'Labs and demos for courses for GCP Training (http://cloud.google.com/training).', ARRAY['lakshmanok', 'gstripling'], '2022-02-24T21:06:05.080468+00:00'),
 (56471910, 65, 0, 1, 0, 8, 'nathanchapman/mayonnaise.js', '🎺  Fake data generator for JS, courtesy of Patrick Star', ARRAY['nathanchapman', 'YoshGuenther'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1323,8 +1323,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (98999731, 1288, 49, 1, 0, 14, 'enkimute/ganja.js', ':triangular_ruler: Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - ', ARRAY['enkimute', 'utensil'], '2022-02-24T21:06:05.080468+00:00'),
 (99017185, 2358, 3, 1, 0, 20, 'TakuSemba/MultiSnapRecyclerView', 'Android library for multiple snapping of RecyclerView', ARRAY['TakuSemba', 'AdityaAnand1'], '2022-02-24T21:06:05.080468+00:00'),
 (99044824, 1, 0, 1, 0, 21, 'romabash/sudoku-solver', 'Sudoku Solver with NumPy', ARRAY['romabash'], '2022-02-24T21:06:05.080468+00:00'),
-(99351826, 3131, 119, 1, 0, 3, 'nuxt/create-nuxt-app', 'Create Nuxt.js App in seconds.', ARRAY['clarkdo', 'Atinux'], '2022-02-24T21:06:05.080468+00:00'),
 (99263247, 44, 3, 1, 0, 27, 'joncardasis/ultimate-api', ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', ARRAY['joncardasis'], '2022-02-24T21:06:05.080468+00:00'),
+(99351826, 3131, 119, 1, 0, 3, 'nuxt/create-nuxt-app', 'Create Nuxt.js App in seconds.', ARRAY['clarkdo', 'Atinux'], '2022-02-24T21:06:05.080468+00:00'),
 (99567922, 18, 0, 1, 0, 26, 'carcin/google-script-ticketing-system', 'G Suite ticketing system - Google Forms, Spreadsheet and Script', ARRAY['carcin'], '2022-02-24T21:06:05.080468+00:00'),
 (99916389, 248, 5, 1, 0, 19, 'feliixx/mgodatagen', 'Generate random data for MongoDB', ARRAY['feliixx', 'phongnt'], '2022-02-24T21:06:05.080468+00:00'),
 (100061716, 9863, 515, 1, 0, 8, 'nrwl/nx', 'Smart, Fast and Extensible Build System', ARRAY['vsavkin', 'FrozenPandaz'], '2022-02-24T21:06:05.080468+00:00'),
