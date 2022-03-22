@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T01:02:42.924Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T02:57:52.557Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2860,13 +2860,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (309212011, 71, 2, 1, 0, 18, 'gndelia/codemod-replace-react-fc-typescript', 'jscodeshift''s codemod to replace React.FC when using React with Typescript', ARRAY['gndelia', 'liby'], '2022-02-24T21:06:05.080468+00:00'),
 (309228394, 3, 0, 1, 0, 1, 'Himujjal/libytdl', 'A c library for downloading YT videos written in Nim', ARRAY['Himujjal'], '2022-02-24T21:06:05.080468+00:00'),
 (309305892, 25, 7, 1, 0, 23, 'WarenGonzaga/fork-corner', 'A modern and global open source fork corner label for your project''s landing page.', ARRAY['WarenGonzaga', 'junsantilla'], '2022-02-24T21:06:05.080468+00:00'),
+(310047727, 19, 0, 1, 0, 13, 'codeSTACKr/mega-menu', null, ARRAY['codeSTACKr'], '2022-02-24T21:06:05.080468+00:00'),
 (310064429, 2, 0, 1, 0, 17, 'fedecalendino/spotify-data-reader', null, ARRAY['fedecalendino'], '2022-02-24T21:06:05.080468+00:00'),
 (310226997, 857, 8, 1, 0, 2, 'antfu/ni', '💡 Use the right package manager', ARRAY['antfu', 'privatenumber'], '2022-02-24T21:06:05.080468+00:00'),
 (310456670, 3780, 22, 1, 0, 9, 'BuilderIO/mitosis', 'Write components once, run everywhere. Compiles to Vue, React, Solid, Angular, Svelte, and more. ', ARRAY['steve8708', 'Dkendal'], '2022-02-24T21:06:05.080468+00:00'),
 (310490480, 16, 0, 1, 0, 17, 'cachecleanerjeet/readme-stats-github', 'Generate your GitHub''s Stats in SVG', ARRAY['avipatilpro'], '2022-02-24T21:06:05.080468+00:00'),
 (310686619, 572, 2, 1, 0, 17, 'tailwindlabs/tailwindcss-aspect-ratio', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-24T21:06:05.080468+00:00'),
 (310766137, 20, 20, 1, 0, 0, 'coroo/pytest-coverage-commentator', 'A Github action to comments a Pytest Coverage on PR', ARRAY['coroo'], '2022-02-24T21:06:05.080468+00:00'),
-(310047727, 19, 0, 1, 0, 13, 'codeSTACKr/mega-menu', null, ARRAY['codeSTACKr'], '2022-02-24T21:06:05.080468+00:00'),
 (310852173, 3, 0, 1, 0, 27, 'cometkim/asdf-grain', 'Grain language plugin for asdf version manager.', ARRAY['cometkim'], '2022-02-24T21:06:05.080468+00:00'),
 (311205362, 42, 0, 1, 0, 25, '5t3ph/11ty-email-generator', 'Generate simple, responsive email templates, with inlined CSS on build using 11ty.', ARRAY['5t3ph'], '2022-02-24T21:06:05.080468+00:00'),
 (311361403, 50, 0, 1, 0, 16, 'KaterinaLupacheva/my-projects-dashboard', 'Next.js, Material UI, MongoDB Personal Dashboard with dev.to, GitHub, Twitter, and npm API integration.', ARRAY['KaterinaLupacheva'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2900,6 +2900,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (315776414, 6, 0, 1, 0, 18, 'callowcreation/banwannabefamousbots', 'ban wanna be famous bots', ARRAY['callowcreation'], '2022-02-24T21:06:05.080468+00:00'),
 (315780024, 1, 0, 1, 0, 1, 'ColomboJuan/CountDownMyBirthDay', ' https://colombojuan.github.io/CountDownMyBirthDay/', ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (315782535, 69, 7, 1, 0, 27, 'SaraVieira/blender-resources', 'A list of resources and tools that have helped me learn blender', ARRAY['SaraVieira', 'mikeesto'], '2022-02-24T21:06:05.080468+00:00'),
+(315872513, 2, 0, 1, 0, 4, 'udberg/clone-new-york-times-article', 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', ARRAY['udberg', 'KCnick'], '2022-02-24T21:06:05.080468+00:00'),
 (315899862, 29, 12, 1, 0, 1, 'POSSF/POSSF', 'Persian Open Source Software Festival - اولین جشنواره نرم افزار اوپن سورس فارسی (جشنواره متن باز و منبع باز فارسی)', ARRAY['BaseMax', 'alirezababae'], '2022-02-24T21:06:05.080468+00:00'),
 (316078264, 1, 0, 1, 0, 2, 'ColomboJuan/PokemonApi', 'Simple app with PokemonApi.', ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (316188570, 1, 0, 1, 0, 0, 'Tom-Wyszkowski/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2992,7 +2993,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (327406312, 562, 1, 1, 0, 16, 'tailwindlabs/tailwindcss-line-clamp', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-24T21:06:05.080468+00:00'),
 (327443948, 13, 3, 1, 0, 22, 'zkoppert/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'sicot-f'], '2022-02-24T21:06:05.080468+00:00'),
 (327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-24T21:06:05.080468+00:00'),
-(315872513, 2, 0, 1, 0, 4, 'udberg/clone-new-york-times-article', 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', ARRAY['udberg', 'KCnick'], '2022-02-24T21:06:05.080468+00:00'),
 (327682962, 123, 25, 1, 0, 7, 'google/season-of-docs', 'Supporting materials for Google''s Season of Docs 2021', ARRAY['emckean', 'Srabasti'], '2022-02-24T21:06:05.080468+00:00'),
 (328070675, 1, 1, 1, 0, 28, 'MattMarquise/open-sauced-goals', null, ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
 (328121260, 1665, 2, 1, 0, 5, 'timlrx/tailwind-nextjs-starter-blog', 'This is a Next.js, Tailwind CSS blogging starter template. Comes out of the box configured with the latest technologies to make technical writing a breeze. Easily configurable and customizable. Perfect as a replacement to existing Jekyll and Hugo individual blogs.', ARRAY['timlrx', 'Music47ell'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3168,6 +3168,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (352188463, 42, 1, 1, 0, 1, 'writewithocto/ink', 'The configurable, embeddable, extensible JavaScript Markdown editor that powers https://octo.app.', ARRAY['voraciousdev'], '2022-02-24T21:06:05.080468+00:00'),
 (352264712, 2, 0, 1, 0, 16, 'sk1122/HoliGame', null, ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
 (352417531, 977, 4, 1, 0, 17, 'randallkanna/awesome-job-list', 'A list of the best places to job hunt. I''ve been curating this for the past 7 years.', ARRAY['randallkanna', 'mehdichaouch'], '2022-02-24T21:06:05.080468+00:00'),
+(352933140, 4341, 109, 1, 0, 5, 'ToolJet/ToolJet', 'Open-source low-code framework for building React-based web applications and internal tools 🚀', ARRAY['Navaneeth-pk', 'arpitnath'], '2022-02-24T21:06:05.080468+00:00'),
 (353082105, 140, 3, 1, 0, 7, 'github/maintainerweek', 'A week for maintainers to gather & share', ARRAY['karasowles', 'martinwoodward'], '2022-02-24T21:06:05.080468+00:00'),
 (353118626, 1, 1, 1, 0, 15, 'eps1lon/vax-notify', 'Impfterminvergabe Informationsportal aber mit mehr opt-out anstatt opt-in', ARRAY['eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (353348419, 32, 1, 1, 0, 4, 'whitep4nth3r/randomcodegenerator.lol', 'Need some code for your project? We''ve got you covered. Choose your language. Choose how much code. BÄM! You got code.', ARRAY['whitep4nth3r', 'isabellabrookes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3273,7 +3274,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (368311388, 2, 1, 1, 0, 2, 'pranshudobhal/quiz-master', 'A quiz app on your favorite topics', ARRAY['pranshudobhal'], '2022-02-24T21:06:05.080468+00:00'),
 (368365410, 1, 0, 2, 0, 13, 'xsky13/RedFeed', 'RedFeed: a Reddit Feed', ARRAY['xsky13'], '2022-02-24T21:06:05.080468+00:00'),
 (368642007, 1, 0, 1, 0, 5, 'ulissesdias/si700-2021-1st-backend-', null, ARRAY['ulissesdias'], '2022-02-24T21:06:05.080468+00:00'),
-(352933140, 4341, 109, 1, 0, 5, 'ToolJet/ToolJet', 'Open-source low-code framework for building React-based web applications and internal tools 🚀', ARRAY['Navaneeth-pk', 'arpitnath'], '2022-02-24T21:06:05.080468+00:00'),
 (368658267, 829, 35, 1, 0, 0, 'Rich-Harris/svelte-cubed', 'Svelte ❤️ Three', ARRAY['Rich-Harris', 'gonfva'], '2022-02-24T21:06:05.080468+00:00'),
 (368859622, 2, 0, 1, 0, 25, 'Refinitiv-API-Samples/Article.RDPLibrary.Python.ZeroCouponCurves', 'Exploring RDP Instrument Pricing Analytics API for Zero Coupon Curves', ARRAY['umernalla'], '2022-02-24T21:06:05.080468+00:00'),
 (368917877, 1271, 17, 1, 0, 22, 'BuilderIO/qwik', 'An Open-Source framework designed for best possible time to interactive, by focusing on resumability of server-side-rendering of HTML, and fine-grained lazy-loading of code.', ARRAY['mhevery', 'adamdbradley'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3562,12 +3562,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (401688124, 2, 2, 1, 0, 4, 'mohitjaisal/GithubCardss', 'A Github profile representation through cards with a Github API with some basic javascript.', ARRAY['mohitjaisal', 'AndrasBard'], '2022-02-24T21:06:05.080468+00:00'),
 (402030436, 1, 0, 1, 0, 7, 'mikerobards/100-days-of-code', 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ARRAY['kallaway', 'AurelieBayre'], '2022-02-24T21:06:05.080468+00:00'),
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-24T21:06:05.080468+00:00'),
+(402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-24T21:06:05.080468+00:00'),
 (402841129, 128, 1, 1, 0, 7, 'Developer-DAO/developer-dao-nft-contract', null, ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
 (402852173, 26, 13, 1, 0, 6, 'the-pudding/website', 'The Pudding''s website', ARRAY['russellgoldenberg', 'jadiehm'], '2022-02-24T21:06:05.080468+00:00'),
 (403029798, 2, 0, 1, 0, 24, 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', ARRAY['s-yadav'], '2022-02-24T21:06:05.080468+00:00'),
 (403159506, 314, 11, 1, 0, 8, 'Developer-DAO/developerdao.com', 'A community of builders who believe in collective ownership of the internet', ARRAY['with-heart', 'fmoliveira'], '2022-02-24T21:06:05.080468+00:00'),
 (403285296, 1, 0, 1, 0, 2, 'muhammaddzaky/muhamamddzak.github.io', 'It’s common practice to prefix your version names with the letter v. Some good tag names might be v1.0 or v2.3.4.', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
-(402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-24T21:06:05.080468+00:00'),
 (403468848, 2, 0, 1, 0, 7, 'BolajiAyodeji/movie_reviews_sentiment_analysis', 'A basic machine learning model that will predict whether a movie review is positive or negative.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
 (403714743, 53, 7, 1, 0, 16, 'MilkyDeveloper/cb-linux', 'Linux for Chromebooks', ARRAY['MilkyDeveloper'], '2022-02-24T21:06:05.080468+00:00'),
 (404249420, 25, 0, 1, 0, 18, 'WardPearce/thanker', 'Don''t be a wanker, be a thanker! Automatically give thanks to Pypi packages you use in your project.', ARRAY['WardPearce'], '2022-02-24T21:06:05.080468+00:00'),
