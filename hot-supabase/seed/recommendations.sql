@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T14:43:31.170Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T16:53:44.753Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1323,8 +1323,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (98999731, 1288, 49, 1, 0, 14, 'enkimute/ganja.js', ':triangular_ruler: Javascript Geometric Algebra Generator for Javascript, c++, c#, rust, python. (with operator overloading and algebraic literals) - ', ARRAY['enkimute', 'utensil'], '2022-02-24T21:06:05.080468+00:00'),
 (99017185, 2358, 3, 1, 0, 20, 'TakuSemba/MultiSnapRecyclerView', 'Android library for multiple snapping of RecyclerView', ARRAY['TakuSemba', 'AdityaAnand1'], '2022-02-24T21:06:05.080468+00:00'),
 (99044824, 1, 0, 1, 0, 21, 'romabash/sudoku-solver', 'Sudoku Solver with NumPy', ARRAY['romabash'], '2022-02-24T21:06:05.080468+00:00'),
-(99263247, 44, 3, 1, 0, 27, 'joncardasis/ultimate-api', ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', ARRAY['joncardasis'], '2022-02-24T21:06:05.080468+00:00'),
 (99351826, 3131, 119, 1, 0, 3, 'nuxt/create-nuxt-app', 'Create Nuxt.js App in seconds.', ARRAY['clarkdo', 'Atinux'], '2022-02-24T21:06:05.080468+00:00'),
+(99263247, 44, 3, 1, 0, 27, 'joncardasis/ultimate-api', ':guitar: Python API which scrapes ultimate-guitar.com for guitar chords', ARRAY['joncardasis'], '2022-02-24T21:06:05.080468+00:00'),
 (99567922, 18, 0, 1, 0, 26, 'carcin/google-script-ticketing-system', 'G Suite ticketing system - Google Forms, Spreadsheet and Script', ARRAY['carcin'], '2022-02-24T21:06:05.080468+00:00'),
 (99916389, 248, 5, 1, 0, 19, 'feliixx/mgodatagen', 'Generate random data for MongoDB', ARRAY['feliixx', 'phongnt'], '2022-02-24T21:06:05.080468+00:00'),
 (100061716, 9863, 515, 1, 0, 8, 'nrwl/nx', 'Smart, Fast and Extensible Build System', ARRAY['vsavkin', 'FrozenPandaz'], '2022-02-24T21:06:05.080468+00:00'),
