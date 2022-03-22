@@ -4286,11 +4286,12 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 353295436,22620727,286080143,29,49,9407,upptime/upptime,"⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages","{upptime-bot,pabio-escobar}",2022-02-24T21:07:34.596111
 321809845,907680,70908474,29,62,940,whitecatboard/Lua-RTOS-ESP32,Lua RTOS for ESP32,"{jolivepetrus,chowette}",2022-02-24T21:07:34.596111
 307155109,12400445,4311796,16,311,54690,adam-p/markdown-here,"Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.","{adam-p,wm8120}",2022-02-24T21:07:34.596111
+382194702,7860023,32280638,8,8,1900,bonigarcia/webdrivermanager,Automated driver management and Docker builder for Selenium WebDriver,"{bonigarcia,altus34}",2022-02-24T21:07:34.596111
 275257239,14043845,38131381,29,6,634,SupremeTechnopriest/react-idle-timer,User activity timer component,"{SupremeTechnopriest,baspavlou}",2022-02-24T21:07:34.596111
 353272785,46935495,193761872,3,0,3,fireworks-world/SplashScreen_Animation,Android Traing Practicals,"{saha2201,fireworks-world}",2022-02-24T21:07:34.596111
-382194702,7860023,32280638,8,9,1898,bonigarcia/webdrivermanager,Automated driver management and Docker builder for Selenium WebDriver,"{bonigarcia,altus34}",2022-02-24T21:07:34.596111
 375776088,3340406,219294494,29,11,3193,xxh/xxh,🚀 Bring your favorite shell wherever you go through the ssh.,"{anki-code,drmikecrowe}",2022-02-24T21:07:34.596111
 320434477,2658040,178404439,29,0,4,BaseMax/ColorConvertPy,"Tiny library to convert various colored units. (rgb, hex)",{BaseMax},2022-02-24T21:07:34.596111
+442470627,24606613,6106472,8,14,1279,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{survivingwithandroid},2022-02-24T21:07:34.596111
 375812408,908380,7670022,29,55,957,salomvary/soundcleod,SoundCloud for macOS and Windows,"{salomvary,rmaes4}",2022-02-24T21:07:34.596111
 306906348,4199845,190091795,29,19,4388,kylelobo/The-Documentation-Compendium,📢 Various README templates & tips on writing high-quality documentation that people want to read.,"{kylelobo,albertomosconi}",2022-02-24T21:07:34.596111
 373584272,24217493,340306054,2,0,1,Jussii/JunctionAppTesting,All-in-one hackathon platform for organisers,"{juiceo,Earlo}",2022-02-24T21:07:34.596111
@@ -4300,7 +4301,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 328070675,59939260,71359796,29,27,620,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:07:34.596111
 375762962,11777161,25304276,29,127,127,poliva/pyqtggpo,"Cross platform (Linux, MacOSX, Windows) GUI client for FightCade","{poliva,doctorguile}",2022-02-24T21:07:34.596111
 259232283,10012151,18442377,8,0,13484,lewagon/dotfiles,Default configuration for Le Wagon's students,"{ssaunier,dmilon}",2022-02-24T21:07:34.596111
-442470627,24606613,6106472,8,14,1279,survivingwithandroid/Surviving-with-android,Source code related to the posts in the blog,{survivingwithandroid},2022-02-24T21:07:34.596111
 215550527,1930729,202787876,29,198,11810,Rigellute/spotify-tui,Spotify for the terminal written in Rust 🚀,"{Rigellute,jfaltis}",2022-02-24T21:07:34.596111
 352793229,22655167,126813008,29,0,833,mobz/lag-radar,Trace frame rate lag with a sexy performance radar,"{mobz,andywer}",2022-02-24T21:07:34.596111
 352048060,71386305,88011908,12,19,64673,practical-tutorials/project-based-learning,Curated list of project-based tutorials,"{tuvtran,sayands}",2022-02-24T21:07:34.596111
@@ -4386,9 +4386,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 364454628,13490604,216099642,29,24,26,EvanBacon/react-native-ink,React Native for CLIs,{EvanBacon},2022-02-24T21:07:34.596111
 432242215,10951893,254660586,29,11,2029,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-24T21:07:34.596111
 386705185,349523,902266,17,0,73,jamesshore/lets_play_tdd,Let's Play: Test-Driven Development,"{jamesshore,luontola}",2022-02-24T21:07:34.596111
-444433367,656318,38612708,10,2,1,TeamTessie/tessietodo-static,Our static Tessie To-do App,"{tamacodechi,ShellyCoen}",2022-02-24T21:07:34.596111
+436289040,61815862,7715820,29,63,8827,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
 407102326,4386534,15393566,29,42,5559,AriaMinaei/theatre,Motion design editor for the web,"{AriaMinaei,AndrewPrifer}",2022-02-24T21:07:34.596111
-435800079,16268467,23083156,11,1083,76777,mui-org/material-ui,"MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{oliviertassinari,dmtrKovalenko}",2022-02-24T21:07:34.596111
+435800079,16268467,23083156,11,1080,76796,mui-org/material-ui,"MUI Core (formerly Material UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{oliviertassinari,dmtrKovalenko}",2022-02-24T21:07:34.596111
 452075032,22186029,337208358,29,0,13,abhisheknaiidu/abhisheknaidu-cli,The Abhishek Naidu CLI,{abhisheknaiidu},2022-02-24T21:07:34.596111
 452754045,76665107,216936227,0,53,11,CodeForPhilly/paws-data-pipeline,PAWS Data Pipeline Project,"{c-simpson,urirot}",2022-02-24T21:07:34.596111
 444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{g-ben-wiz},2022-02-24T21:07:34.596111
@@ -4396,13 +4396,13 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 465040302,13867651,1834988,20,0,297,ropensci/rplos,R client for the PLoS Journals API,"{sckott,cboettig}",2022-03-02T08:24:04.205351
 460725612,8200073,439686345,2,0,1,salindae25/frontend-challenges,frontend mentor challenges,{salindae25},2022-02-24T21:07:34.596111
 359508510,36890230,114416028,8,0,4,datadesk/audiogram,Turn audio into a shareable video.,"{veltman,palewire}",2022-02-24T21:07:34.596111
+444433367,656318,38612708,10,2,1,TeamTessie/tessietodo-static,Our static Tessie To-do App,"{tamacodechi,ShellyCoen}",2022-02-24T21:07:34.596111
 363497692,4838867,1062897,2,231,130882,github/gitignore,A collection of useful .gitignore templates,"{shiftkey,arcresu}",2022-02-24T21:07:34.596111
 457526756,74566464,400851369,29,1,580,lewis6991/impatient.nvim,Improve startup time for Neovim,"{lewis6991,clason}",2022-02-24T21:07:34.596111
 450574015,3662109,334169919,29,15,1321,projectdiscovery/interactsh,An OOB interaction gathering server and client library,"{ehsandeep,Mzack9999}",2022-02-24T21:07:34.596111
 396048780,42749147,323663755,8,0,1,akobepeter/materializeProject,,{akobepeter},2022-02-24T21:07:34.596111
 364328935,667716,137308605,29,4,104,tamino-martinius/node-ts-dedent,TypeScript package which smartly trims and strips indentation from multi-line strings,"{tamino-martinius,AviVahl}",2022-02-24T21:07:34.596111
 375196206,57305940,54496479,29,119,214,ppb/pursuedpybear,A python game engine.,"{pathunstrom,AstraLuma}",2022-02-24T21:07:34.596111
-436289040,61815862,7715820,29,63,8824,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
 408008691,45036724,61059364,29,38,672,metaverse/truss,Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.,"{adamryman,lelandbatey}",2022-02-24T21:07:34.596111
 272558455,42392347,254889040,22,0,1,ColomboJuan/AppCodvid19,Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/,{ColomboJuan},2022-02-24T21:07:34.596111
 456168834,5381468,38383584,29,0,9,snicoll/spring-boot-configuration-binding,Showcase Spring Boot configuration support,{snicoll},2022-02-24T21:07:34.596111
