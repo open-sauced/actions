@@ -181,6 +181,15 @@ async function run() {
 
             const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
 
+            const contributions = []
+            constributorNames.map( async (contributor) => {
+              const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`
+              const {data, errors} = await api.persistedGitHubContributions({query})
+              contributions.push(data)
+              console.log(data)
+              process.exit()
+            });
+
             item.id = id
 
             const userStars = {
@@ -192,7 +201,8 @@ async function run() {
               description: description,
               issues: open_issues,
               stars: stargazers_count,
-              contributors: contributorNames.slice(0,2) // grab first two names only
+              contributors: contributorNames.slice(0,2), // grab first two names only
+              contributions: contributorNames,
             }
 
             await supabase
