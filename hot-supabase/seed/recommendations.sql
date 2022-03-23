@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-22T22:43:39.135Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T01:03:26.813Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -387,8 +387,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (12299718, 71, 13, 1, 0, 4, 'twilio/starter-python', 'A starter app for Python developers embarking on their first Twilio quest!', ARRAY['kwhinnery', 'smendes'], '2022-02-24T21:06:05.080468+00:00'),
 (12516369, 330, 1, 1, 0, 3, 'jshemas/openGraphScraper', 'Node.js scraper service for Open Graph Info and More!', ARRAY['jshemas', 'gazay'], '2022-02-24T21:06:05.080468+00:00'),
 (12574344, 25044, 357, 1, 0, 0, 'spf13/cobra', 'A Commander for modern Go CLI interactions', ARRAY['eparis', 'bogem'], '2022-02-24T21:06:05.080468+00:00'),
-(12658090, 6634, 36, 1, 0, 3, 'raineorshine/npm-check-updates', 'Find newer versions of package dependencies than what your package.json allows', ARRAY['raineorshine', 'XhmikosR'], '2022-02-24T21:06:05.080468+00:00'),
 (12663196, 2215, 6, 1, 0, 3, 'nosir/obelisk.js', 'Build pixel isometric graphics with HTML5 canvas', ARRAY['rison', 'nosir'], '2022-02-24T21:06:05.080468+00:00'),
+(12658090, 6634, 36, 1, 0, 3, 'raineorshine/npm-check-updates', 'Find newer versions of package dependencies than what your package.json allows', ARRAY['raineorshine', 'XhmikosR'], '2022-02-24T21:06:05.080468+00:00'),
 (12732573, 25803, 88, 2, 0, 6.5, 'junegunn/vim-plug', ':hibiscus: Minimalist Vim Plugin Manager', ARRAY['junegunn', 'starcraftman'], '2022-02-24T21:06:05.080468+00:00'),
 (12785573, 4698, 42, 1, 0, 21, 'sheerun/vim-polyglot', 'A solid language pack for Vim.', ARRAY['sheerun', 'CH-DanReif'], '2022-02-24T21:06:05.080468+00:00'),
 (12888993, 48911, 1522, 1, 0, 9, 'home-assistant/core', ':house_with_garden: Open source home automation that puts local control and privacy first.', ARRAY['balloob', 'fabaff'], '2022-02-24T21:06:05.080468+00:00'),
@@ -502,8 +502,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (19208128, 2371, 55, 1, 0, 19, 'firasdib/Regex101', 'This repository is currently only used for issue tracking for www.regex101.com', ARRAY['firasdib', 'Zarthus'], '2022-02-24T21:06:05.080468+00:00'),
 (19257422, 7576, 179, 1, 0, 3, 'questdb/questdb', 'An open source SQL database designed to process time series data, faster', ARRAY['bluestreak01', 'ideoma'], '2022-02-24T21:06:05.080468+00:00'),
 (19319131, 792, 77, 1, 0, 27, 'mrmaffen/vlc-android-sdk', 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', ARRAY['mrmaffen', 'xhochy'], '2022-02-24T21:06:05.080468+00:00'),
-(19331272, 1162, 53, 1, 0, 19, 'gocarina/gocsv', 'The GoCSV package aims to provide easy CSV serialization and deserialization to the golang programming language', ARRAY['pikanezi', 'JonathanPicques'], '2022-02-24T21:06:05.080468+00:00'),
-(19415064, 103959, 10, 1, 0, 1, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-24T21:06:05.080468+00:00'),
 (19717804, 1661, 32, 1, 0, 9, 'xgrommx/rx-book', null, ARRAY['xgrommx', 'mgrandrath'], '2022-02-24T21:06:05.080468+00:00'),
 (19872456, 45467, 63, 1, 0, 13, 'remix-run/react-router', 'Declarative routing for React', ARRAY['mjackson', 'ryanflorence'], '2022-02-24T21:06:05.080468+00:00'),
 (19884798, 41, 12, 1, 0, 19, 'derhansen/sf_event_mgt', 'An event management and registration extension for TYPO3 CMS based on ExtBase and Fluid.', ARRAY['derhansen', 'mmunz'], '2022-02-24T21:06:05.080468+00:00'),
@@ -524,6 +522,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (21017766, 1435, 0, 1, 0, 3, 'jaehyunp/stanfordacm', 'Stanford ACM-ICPC related materials', ARRAY['jaehyunp', 'simonlindholm'], '2022-02-24T21:06:05.080468+00:00'),
 (21067650, 78, 8, 1, 0, 19, 'groovy/groovy-website', 'The Groovy language website', ARRAY['glaforge', 'paulk-asert'], '2022-02-24T21:06:05.080468+00:00'),
 (21125024, 25093, 37, 2, 0, 14, 'typicode/husky', 'Git hooks made easy 🐶 woof!', ARRAY['typicode', 'branneman'], '2022-02-24T21:06:05.080468+00:00'),
+(19331272, 1162, 53, 1, 0, 19, 'gocarina/gocsv', 'The GoCSV package aims to provide easy CSV serialization and deserialization to the golang programming language', ARRAY['pikanezi', 'JonathanPicques'], '2022-02-24T21:06:05.080468+00:00'),
+(19415064, 103959, 10, 1, 0, 1, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-24T21:06:05.080468+00:00'),
 (21179164, 3848, 629, 1, 0, 4, 'qTox/qTox', 'qTox is a chat, voice, video, and file transfer IM client using the encrypted peer-to-peer Tox protocol.', ARRAY['tux3', 'sudden6'], '2022-02-24T21:06:05.080468+00:00'),
 (21289110, 110896, 214, 1, 0, 10, 'vinta/awesome-python', 'A curated list of awesome Python frameworks, libraries, software and resources', ARRAY['vinta', 'dhamaniasad'], '2022-02-24T21:06:05.080468+00:00'),
 (21317360, 1947, 252, 1, 0, 23, 'koding/koding', 'The Simplest Way to Manage Your Entire Dev Infrastructure!', ARRAY['gokmen', 'sinan'], '2022-02-24T21:06:05.080468+00:00'),
