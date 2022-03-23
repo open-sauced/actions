@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T14:43:27.970Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-23T16:49:58.512Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3512,8 +3512,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (395667322, 35, 1, 1, 0, 13, 'stack-on-fire/fire-flags', 'Dead simple and blazing fast feature-flags platform. Get started in minutes. Be confident when releasing new features for your application!', ARRAY['d-ivashchuk', 'edoardoc'], '2022-02-24T21:06:05.080468+00:00'),
 (396086379, 54, 6, 1, 0, 21, 'kb24x7/rustyvibes', 'A Rust CLI that makes mechanical keyboard sound effects on every key press', ARRAY['kb24x7', 'binarybana'], '2022-02-24T21:06:05.080468+00:00'),
 (396169668, 1, 0, 1, 0, 1, 'lesmo/pinentry-wsl-ps1', 'GUI for GPG within Windows WSL for passwords, pinentry, etc.', ARRAY['diablodale'], '2022-02-24T21:06:05.080468+00:00'),
-(396178107, 1, 0, 1, 0, 1, 'abdamah/SpringBoot2SecurityJwt', null, ARRAY['abdamah'], '2022-02-24T21:06:05.080468+00:00'),
 (396327436, 181, 0, 1, 0, 25, 'devkodeio/the-dom-challenge', 'DOM Challenge is a 60-90 minutes online weekly challenge related to frontend development consisting of industrial level machine round questions.', ARRAY['sunnypuri'], '2022-02-24T21:06:05.080468+00:00'),
+(396178107, 1, 0, 1, 0, 1, 'abdamah/SpringBoot2SecurityJwt', null, ARRAY['abdamah'], '2022-02-24T21:06:05.080468+00:00'),
 (396419975, 2, 0, 1, 0, 5, 'shubhank-saxena/GSoC-Final-Report', null, ARRAY['shubhank-saxena'], '2022-02-24T21:06:05.080468+00:00'),
 (396613541, 305, 3, 1, 0, 29, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'userquin'], '2022-02-24T21:06:05.080468+00:00'),
 (396850383, 5, 21, 1, 0, 2, 'pixiebrix/webext-messenger', 'Browser Extension component messaging framework', ARRAY['fregante', 'twschiller'], '2022-02-24T21:06:05.080468+00:00'),
