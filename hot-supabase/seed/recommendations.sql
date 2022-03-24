@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T04:47:24.959Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T06:46:40.064Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1132,8 +1132,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (76991633, 4913, 152, 1, 0, 20, 'JeffreyWay/laravel-mix', 'The power of webpack, distilled for the rest of us.', ARRAY['JeffreyWay', 'thecrypticace'], '2022-02-24T21:06:05.080468+00:00'),
 (76993879, 388, 14, 1, 0, 16, 'TulipCharts/tulipnode', 'Tulip Node is the official node.js wrapper for Tulip Indicators. It provides over 100 technical analysis overlay and indicator functions.', ARRAY['codeplea', 'cschanaj'], '2022-02-24T21:06:05.080468+00:00'),
 (76996763, 11633, 35, 2, 0, 5.5, 'piotrwitek/react-redux-typescript-guide', 'The complete guide to static typing in ''React & Redux'' apps using TypeScript', ARRAY['piotrwitek', 'sosukesuzuki'], '2022-02-24T21:06:05.080468+00:00'),
-(77358263, 17586, 120, 1, 0, 21, 'SpaceVim/SpaceVim', 'A community-driven modular vim/neovim distribution - The ultimate vimrc', ARRAY['wsdjeg', 'sei40kr'], '2022-02-24T21:06:05.080468+00:00'),
-(77363394, 315, 27, 1, 0, 15, 'vlime/vlime', 'A Common Lisp dev environment for Vim (and Neovim)', ARRAY['l04m33', 'phmarek'], '2022-02-24T21:06:05.080468+00:00'),
 (77369463, 8016, 13, 2, 0, 17, 'James-Yu/LaTeX-Workshop', 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', ARRAY['jlelong', 'tamuratak'], '2022-02-24T21:06:05.080468+00:00'),
 (77512018, 699, 10, 1, 0, 17, 'nikhita/tech-conferences-india', 'A comprehensive list of tech conferences in India :india:', ARRAY['nikhita', 'championshuttler'], '2022-02-24T21:06:05.080468+00:00'),
 (77702046, 1031, 4, 1, 0, 23, 'github/opensourcefriday', '🚲 Contribute to the open source community every Friday', ARRAY['MikeMcQuaid', 'kenyonj'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1141,6 +1139,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (77870371, 741, 5, 1, 0, 3, 'rauchg/blog', null, ARRAY['rauchg', 'leerob'], '2022-02-24T21:06:05.080468+00:00'),
 (78186814, 13985, 248, 1, 0, 14, 'apache/incubator-weex', 'Apache Weex (Incubating)', ARRAY['sospartan', 'acton393'], '2022-02-24T21:06:05.080468+00:00'),
 (78217547, 98, 1, 1, 0, 7, 'palashmon/JavaScript30', 'Participating in 30 Day Vanilla JS Challenges by @wesbos', ARRAY['palashmon'], '2022-02-24T21:06:05.080468+00:00'),
+(77363394, 315, 27, 1, 0, 15, 'vlime/vlime', 'A Common Lisp dev environment for Vim (and Neovim)', ARRAY['l04m33', 'phmarek'], '2022-02-24T21:06:05.080468+00:00'),
+(77358263, 17586, 120, 1, 0, 21, 'SpaceVim/SpaceVim', 'A community-driven modular vim/neovim distribution - The ultimate vimrc', ARRAY['wsdjeg', 'sei40kr'], '2022-02-24T21:06:05.080468+00:00'),
 (78302226, 611, 24, 1, 0, 5, 'hussien89aa/DataStructureAndAlgorithms', 'Write code that run faster, use less memory and prepare for your Job Interview', ARRAY['hussien89aa'], '2022-02-24T21:06:05.080468+00:00'),
 (78369010, 5782, 62, 1, 0, 4, 'webslides/WebSlides', 'Create HTML presentations in seconds —', ARRAY['Antonio-Laguna', 'jlantunez'], '2022-02-24T21:06:05.080468+00:00'),
 (78685286, 1, 0, 1, 0, 24, 'akbarpasha/team6718', 'FRC Team 6718', ARRAY['raychatter', 'Clementef'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2661,8 +2661,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (277882910, 194, 0, 1, 0, 17, 'kevin-powell/reponsive-web-design-bootcamp', 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', ARRAY['kevin-powell'], '2022-02-24T21:06:05.080468+00:00'),
 (277911948, 171, 1, 2, 0, 3.5, 'bdougie/awesome-black-developers', 'Amplifying the voices of Black developers in open source because #BlackLivesMatter ✊🏾', ARRAY['bdougie', 'damaneice'], '2022-02-24T21:06:05.080468+00:00'),
 (278091381, 286, 5, 1, 0, 9, 'jobream/List-of-Learning-Resources', 'This collection provides a list of educational resources for Software Engineers. Feel free to add your favorite resources as well and help others in their journey of learning.', ARRAY['TheSlimCoder', 'CodingSpecies'], '2022-02-24T21:06:05.080468+00:00'),
-(278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-24T21:06:05.080468+00:00'),
 (278139674, 5, 1, 1, 0, 1, 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', ARRAY['e4c6'], '2022-02-24T21:06:05.080468+00:00'),
+(278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-24T21:06:05.080468+00:00'),
 (278296523, 8663, 50, 1, 0, 11, 'kautukkundan/Awesome-Profile-README-templates', 'A collection of awesome readme templates to display on your profile', ARRAY['kautukkundan', 'LuizCarlosAbbott'], '2022-02-24T21:06:05.080468+00:00'),
 (278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-24T21:06:05.080468+00:00'),
 (278342702, 35, 0, 1, 0, 7, 'jmkitavi/interview-questions', 'Collections of Interview Questions from different Companies', ARRAY['jmkitavi'], '2022-02-24T21:06:05.080468+00:00'),
