@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T01:03:24.081Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T02:56:30.668Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -933,8 +933,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (55176340, 1947, 12, 1, 0, 10, 'BretFisher/node-docker-good-defaults', 'sample node app for Docker examples', ARRAY['BretFisher', 'aidengaripoli'], '2022-02-24T21:06:05.080468+00:00'),
 (55313340, 211, 1, 1, 0, 2, 'shlomif/fortune-mod', 'Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems.', ARRAY['shlomif', 'telometto'], '2022-02-24T21:06:05.080468+00:00'),
 (55631449, 2115, 83, 1, 0, 29, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:06:05.080468+00:00'),
-(55832243, 2184, 252, 1, 0, 17, 'sindresorhus/eslint-plugin-unicorn', 'Various awesome ESLint rules', ARRAY['fisker', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
 (55896045, 1, 18, 1, 0, 29, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:06:05.080468+00:00'),
+(55832243, 2184, 252, 1, 0, 17, 'sindresorhus/eslint-plugin-unicorn', 'Various awesome ESLint rules', ARRAY['fisker', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
 (56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (56171308, 1198, 4, 1, 0, 26, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:06:05.080468+00:00'),
 (56379555, 22, 2, 1, 0, 18, 'docteurklein/compose-ci', 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', ARRAY['docteurklein'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2566,8 +2566,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-24T21:06:05.080468+00:00'),
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
-(267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
+(267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-24T21:06:05.080468+00:00'),
 (267884438, 7, 0, 1, 0, 4, 'BaseMax/CalculatorWeb', 'A online calculator using web technology based on Javascript.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
