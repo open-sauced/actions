@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T02:56:30.668Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T04:47:24.959Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -933,8 +933,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (55176340, 1947, 12, 1, 0, 10, 'BretFisher/node-docker-good-defaults', 'sample node app for Docker examples', ARRAY['BretFisher', 'aidengaripoli'], '2022-02-24T21:06:05.080468+00:00'),
 (55313340, 211, 1, 1, 0, 2, 'shlomif/fortune-mod', 'Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems.', ARRAY['shlomif', 'telometto'], '2022-02-24T21:06:05.080468+00:00'),
 (55631449, 2115, 83, 1, 0, 29, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:06:05.080468+00:00'),
-(55896045, 1, 18, 1, 0, 29, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:06:05.080468+00:00'),
 (55832243, 2184, 252, 1, 0, 17, 'sindresorhus/eslint-plugin-unicorn', 'Various awesome ESLint rules', ARRAY['fisker', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
+(55896045, 1, 18, 1, 0, 29, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:06:05.080468+00:00'),
 (56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (56171308, 1198, 4, 1, 0, 26, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:06:05.080468+00:00'),
 (56379555, 22, 2, 1, 0, 18, 'docteurklein/compose-ci', 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', ARRAY['docteurklein'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2566,8 +2566,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-24T21:06:05.080468+00:00'),
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
-(267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
 (267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
+(267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
 (267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-24T21:06:05.080468+00:00'),
 (267884438, 7, 0, 1, 0, 4, 'BaseMax/CalculatorWeb', 'A online calculator using web technology based on Javascript.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2661,8 +2661,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (277882910, 194, 0, 1, 0, 17, 'kevin-powell/reponsive-web-design-bootcamp', 'Course files for the Responsive Web Design Bootcamp: [https://scrimba.com/course/gresponsive/]', ARRAY['kevin-powell'], '2022-02-24T21:06:05.080468+00:00'),
 (277911948, 171, 1, 2, 0, 3.5, 'bdougie/awesome-black-developers', 'Amplifying the voices of Black developers in open source because #BlackLivesMatter ✊🏾', ARRAY['bdougie', 'damaneice'], '2022-02-24T21:06:05.080468+00:00'),
 (278091381, 286, 5, 1, 0, 9, 'jobream/List-of-Learning-Resources', 'This collection provides a list of educational resources for Software Engineers. Feel free to add your favorite resources as well and help others in their journey of learning.', ARRAY['TheSlimCoder', 'CodingSpecies'], '2022-02-24T21:06:05.080468+00:00'),
-(278139674, 5, 1, 1, 0, 1, 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', ARRAY['e4c6'], '2022-02-24T21:06:05.080468+00:00'),
 (278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-24T21:06:05.080468+00:00'),
+(278139674, 5, 1, 1, 0, 1, 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', ARRAY['e4c6'], '2022-02-24T21:06:05.080468+00:00'),
 (278296523, 8663, 50, 1, 0, 11, 'kautukkundan/Awesome-Profile-README-templates', 'A collection of awesome readme templates to display on your profile', ARRAY['kautukkundan', 'LuizCarlosAbbott'], '2022-02-24T21:06:05.080468+00:00'),
 (278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-24T21:06:05.080468+00:00'),
 (278342702, 35, 0, 1, 0, 7, 'jmkitavi/interview-questions', 'Collections of Interview Questions from different Companies', ARRAY['jmkitavi'], '2022-02-24T21:06:05.080468+00:00'),
