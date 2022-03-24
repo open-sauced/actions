@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T16:50:29.343Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T18:46:10.975Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2534,8 +2534,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (262862475, 3637, 277, 1, 0, 24, 'amplication/amplication', 'Amplication is an open‑source development tool. It helps you develop quality Node.js applications without spending time on repetitive coding tasks.', ARRAY['iddan', 'yuval-hazaz'], '2022-02-24T21:06:05.080468+00:00'),
 (263019373, 9, 7, 1, 0, 25, 'staticwebdev/angular-basic', null, ARRAY['alexweininger', 'anthonychu'], '2022-02-24T21:06:05.080468+00:00'),
 (263146261, 1785, 15, 1, 0, 26, 'MaggieAppleton/digital-gardeners', 'Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs', ARRAY['MaggieAppleton', 'theianjones'], '2022-02-24T21:06:05.080468+00:00'),
-(263468232, 47, 2, 1, 0, 20, 'samber/github-actions-runner', '✅ Docker images for starting self-hosted Github Actions runner(s).', ARRAY['samber', 'kthompson'], '2022-02-24T21:06:05.080468+00:00'),
 (263445417, 700, 1, 1, 0, 4, 'rmanguinho/clean-react', 'Sistema em ReactJs usando Hooks, Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles', ARRAY['rmanguinho'], '2022-02-24T21:06:05.080468+00:00'),
+(263468232, 47, 2, 1, 0, 20, 'samber/github-actions-runner', '✅ Docker images for starting self-hosted Github Actions runner(s).', ARRAY['samber', 'kthompson'], '2022-02-24T21:06:05.080468+00:00'),
 (263496339, 8, 3, 1, 0, 13, 'starcrouz/plextheme-reading', 'Ubooquity enhanced Plex based theme with all currently reading comics list and more', ARRAY['starcrouz', 'ameel'], '2022-02-24T21:06:05.080468+00:00'),
 (263721979, 5, 0, 1, 0, 14, 'Build5Nines/azure-kung-fu-dockervm', 'Azure Kung Fu Docker VM', ARRAY['deltadan'], '2022-02-24T21:06:05.080468+00:00'),
 (264192686, 689, 44, 1, 0, 27, 'supabase/supabase-js', 'An isomorphic Javascript client for Supabase.', ARRAY['kiwicopple', 'phamhieu'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2595,8 +2595,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (269906903, 1, 0, 1, 0, 8, 'piyalidas10/piyalidas10.github.io', 'Personal Website of Piyali Das ', ARRAY['piyalidas10'], '2022-02-24T21:06:05.080468+00:00'),
 (270069811, 1, 0, 1, 0, 5, 'lesmo/kms-cloud', '''Nube'' de la extinta startup KMS', ARRAY['lesmo'], '2022-02-24T21:06:05.080468+00:00'),
 (270657720, 898, 22, 1, 0, 1, 'vuesomedev/awesome-vue-3', 'A curated list of awesome things related to Vue 3', ARRAY['vuesomedev', 'HJ29'], '2022-02-24T21:06:05.080468+00:00'),
-(271148211, 7, 0, 1, 0, 24, 'ezralazuardy/bookstore', '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (271363286, 10, 5, 1, 0, 10, 'raulsperoni/magnesium-wordcloud-panel', 'Wordcloud / Tagcloud Panel Plugin for Grafana', ARRAY['raulsperoni', 'Almyk'], '2022-02-24T21:06:05.080468+00:00'),
+(271148211, 7, 0, 1, 0, 24, 'ezralazuardy/bookstore', '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (271377309, 2707, 43, 1, 0, 17, 'Layout-Parser/layout-parser', 'A Unified Toolkit for Deep Learning Based Document Image Analysis', ARRAY['lolipopshock', 'RosenZhang'], '2022-02-24T21:06:05.080468+00:00'),
 (271436599, 32, 9, 2, 0, 0, 'lowerbarriers/finished-starter', 'Free website ready to go in one click, with blog, events, e-commerce, search, and everything else. Blazing fast JAMstack performance, vanilla JS and utility-first CSS, and opinionated in all the right ways.', ARRAY['ao5357'], '2022-02-24T21:06:05.080468+00:00'),
 (271593527, 464, 6, 1, 0, 4, 'CRED-CLUB/synth-ios', 'Synth is CRED''s inbuilt library for using Neumorphic components in your app.', ARRAY['prashant-shrivastava91', 'DominatorVbN'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3120,8 +3120,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (345606467, 159, 0, 1, 0, 5, 'themesberg/glass-ui', 'CSS UI library based on the glassmorphism design specifications', ARRAY['zoltanszogyenyi'], '2022-02-24T21:06:05.080468+00:00'),
 (345707949, 13, 5, 1, 0, 21, 'kotest/kotest-assertions-arrow', 'Kotest extentsions for Arrow', ARRAY['sksamuel', 'i-walker'], '2022-02-24T21:06:05.080468+00:00'),
 (345722773, 21, 0, 1, 0, 20, 'Dev-Simulator/8-bit-env', null, ARRAY['mikedane'], '2022-02-24T21:06:05.080468+00:00'),
-(345728485, 9, 0, 1, 0, 6, 'khang-nd/DEV-stats', 'Display DEV.to stat card anywhere', ARRAY['khang-nd'], '2022-02-24T21:06:05.080468+00:00'),
 (345922282, 5108, 8, 1, 0, 3, 'Saul-Mirone/milkdown', '🍼 Plugin driven WYSIWYG  markdown editor framework.', ARRAY['Saul-Mirone', 'xiadd'], '2022-02-24T21:06:05.080468+00:00'),
+(345728485, 9, 0, 1, 0, 6, 'khang-nd/DEV-stats', 'Display DEV.to stat card anywhere', ARRAY['khang-nd'], '2022-02-24T21:06:05.080468+00:00'),
 (345956598, 196, 3, 1, 0, 25, 'irevenko/octotui', '🐙🐱🖥️ GitHub stats in your terminal', ARRAY['irevenko', 'spenserblack'], '2022-02-24T21:06:05.080468+00:00'),
 (346048523, 3, 0, 1, 0, 23, 'udberg/Tasklist', 'Go from idea to action in seconds with Tasklist’s simple boards, list, and cards. This is a fun, flexible, and free way to organize plans, projects, and more. It has an elegant design and makes doing things fun. In this project, you can list tasks you want to perform in order of their priorities. The tasks automatically clear after it has been marked as completed.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (346051525, 1, 0, 1, 0, 27, 'CodingMoore/soil-ent-green-python', null, ARRAY['CodingMoore'], '2022-02-24T21:06:05.080468+00:00'),
