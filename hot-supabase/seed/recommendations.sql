@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-24T22:43:34.253Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T01:02:23.756Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -361,8 +361,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (11220178, 4518, 25, 1, 0, 29, 'redecentralize/alternative-internet', 'A collection of interesting new networks and tech aiming at decentralisation (in some form).', ARRAY['rossjones', 'traviscibot'], '2022-02-24T21:06:05.080468+00:00'),
 (11267509, 32061, 320, 1, 0, 19, 'bumptech/glide', 'An image loading and caching library for Android focused on smooth scrolling', ARRAY['sjudd', 'TWiStErRob'], '2022-02-24T21:06:05.080468+00:00'),
 (11276147, 23158, 23, 1, 0, 22, 'cmderdev/cmder', 'Lovely console emulator package for Windows', ARRAY['daxgames', 'Stanzilla'], '2022-02-24T21:06:05.080468+00:00'),
-(11349513, 2, 0, 1, 0, 11, 'mikaelcarrara/mikaelcarrara.github.com', 'mikaelcarrara.github.com', ARRAY['mikaelcarrara', 'eduardofiorezi'], '2022-02-24T21:06:05.080468+00:00'),
 (11297301, 345, 4, 1, 0, 17, 'Drugoy/Autohotkey-scripts-.ahk', 'My collection of autohotkey scripts. Some scripts are written by me, some are modified by me, some are completely created by others.', ARRAY['Drugoy', 'Stevoisiak'], '2022-02-24T21:06:05.080468+00:00'),
+(11349513, 2, 0, 1, 0, 11, 'mikaelcarrara/mikaelcarrara.github.com', 'mikaelcarrara.github.com', ARRAY['mikaelcarrara', 'eduardofiorezi'], '2022-02-24T21:06:05.080468+00:00'),
 (11407242, 15907, 234, 1, 0, 17, 'cookiecutter/cookiecutter', 'A command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, VueJS projects.', ARRAY['hackebrot', 'audreyfeldroy'], '2022-02-24T21:06:05.080468+00:00'),
 (11423758, 11631, 14, 1, 0, 15, 'mame/quine-relay', 'An uroboros program with 100+ programming languages', ARRAY['mame', 'pczarn'], '2022-02-24T21:06:05.080468+00:00'),
 (11481338, 15912, 19, 2, 0, 19.5, 'zloirock/core-js', 'Standard Library', ARRAY['zloirock', 'slowcheetah'], '2022-02-24T21:06:05.080468+00:00'),
@@ -374,8 +374,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (11730342, 191646, 546, 1, 1, 11, 'vuejs/vue', '🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.', ARRAY['yyx990803', 'vue-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (11753762, 8562, 34, 1, 0, 15, 'cheat/cheat', 'cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.', ARRAY['chrisallenlane', '1mm0rt41PC'], '2022-02-24T21:06:05.080468+00:00'),
 (11762897, 778, 27, 1, 0, 22, 'golismero/golismero', 'GoLismero - The Web Knife', ARRAY['MarioVilas', 'cr0hn'], '2022-02-24T21:06:05.080468+00:00'),
-(11829145, 16555, 62, 2, 0, 24.5, 'basecamp/trix', 'A rich text editor for everyday writing', ARRAY['javan', 'sstephenson'], '2022-02-24T21:06:05.080468+00:00'),
 (11765017, 5880, 312, 1, 0, 0, 'JetBrains/Exposed', 'Kotlin SQL Framework', ARRAY['Tapac', 'shafirov'], '2022-02-24T21:06:05.080468+00:00'),
+(11829145, 16555, 62, 2, 0, 24.5, 'basecamp/trix', 'A rich text editor for everyday writing', ARRAY['javan', 'sstephenson'], '2022-02-24T21:06:05.080468+00:00'),
 (11855195, 17599, 0, 2, 0, 20.5, 'chalk/chalk', '🖍 Terminal string styling done right', ARRAY['sindresorhus', 'Qix-'], '2022-02-24T21:06:05.080468+00:00'),
 (11981144, 5659, 1427, 1, 0, 20, 'languagetool-org/languagetool', 'Style and Grammar Checker for 25+ Languages', ARRAY['danielnaber', 'jaumeortola'], '2022-02-24T21:06:05.080468+00:00'),
 (12029945, 581, 3, 1, 0, 7, 'uhop/stream-json', 'The micro-library of Node.js stream components for creating custom JSON processing pipelines with a minimal memory footprint. It can parse JSON files far exceeding available memory streaming individual primitives using a SAX-inspired API.', ARRAY['uhop', 'delta62'], '2022-02-24T21:06:05.080468+00:00'),
@@ -406,8 +406,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (13601190, 5179, 278, 1, 0, 13, 'agentejo/cockpit', 'Add content management functionality to any site - plug & play / headless / api-first CMS', ARRAY['aheinze', 'raffaelj'], '2022-02-24T21:06:05.080468+00:00'),
 (13733351, 755, 2, 1, 0, 4, 'triketora/women-in-software-eng', 'Crowdsourced repository of women in software engineering stats.', ARRAY['triketora', 'saramartinez'], '2022-02-24T21:06:05.080468+00:00'),
 (13753636, 19173, 71, 1, 0, 3, 'jhipster/generator-jhipster', 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', ARRAY['jdubois', 'deepu105'], '2022-02-24T21:06:05.080468+00:00'),
-(13825712, 948, 61, 1, 0, 0, 'VirtoCommerce/vc-platform', 'VirtoCommerce Platform repository', ARRAY['vc-ci', 'tatarincev'], '2022-02-24T21:06:05.080468+00:00'),
 (13812337, 431, 96, 1, 0, 4, 'osmlab/name-suggestion-index', 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', ARRAY['bhousel', 'kjonosm'], '2022-02-24T21:06:05.080468+00:00'),
+(13825712, 948, 61, 1, 0, 0, 'VirtoCommerce/vc-platform', 'VirtoCommerce Platform repository', ARRAY['vc-ci', 'tatarincev'], '2022-02-24T21:06:05.080468+00:00'),
 (13840241, 27608, 120, 1, 0, 0, 'freeCodeCamp/devdocs', 'API Documentation Browser', ARRAY['Thibaut', 'simon04'], '2022-02-24T21:06:05.080468+00:00'),
 (13855476, 26275, 43, 1, 1, 29, 'go-gorm/gorm', 'The fantastic ORM library for Golang, aims to be developer friendly', ARRAY['jinzhu', 'emirb'], '2022-02-24T21:06:05.080468+00:00'),
 (13900913, 17536, 49, 1, 0, 14, 'dracula/dracula-theme', '🧛🏻‍♂️ One theme. All platforms.', ARRAY['zenorocha', 'heinst'], '2022-02-24T21:06:05.080468+00:00'),
@@ -503,8 +503,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (19319131, 792, 77, 1, 0, 27, 'mrmaffen/vlc-android-sdk', 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', ARRAY['mrmaffen', 'xhochy'], '2022-02-24T21:06:05.080468+00:00'),
 (19331272, 1162, 53, 1, 0, 19, 'gocarina/gocsv', 'The GoCSV package aims to provide easy CSV serialization and deserialization to the golang programming language', ARRAY['pikanezi', 'JonathanPicques'], '2022-02-24T21:06:05.080468+00:00'),
 (19415064, 103959, 10, 1, 0, 1, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-24T21:06:05.080468+00:00'),
-(19872456, 45467, 63, 1, 0, 13, 'remix-run/react-router', 'Declarative routing for React', ARRAY['mjackson', 'ryanflorence'], '2022-02-24T21:06:05.080468+00:00'),
 (19717804, 1661, 32, 1, 0, 9, 'xgrommx/rx-book', null, ARRAY['xgrommx', 'mgrandrath'], '2022-02-24T21:06:05.080468+00:00'),
+(19872456, 45467, 63, 1, 0, 13, 'remix-run/react-router', 'Declarative routing for React', ARRAY['mjackson', 'ryanflorence'], '2022-02-24T21:06:05.080468+00:00'),
 (19884798, 41, 12, 1, 0, 19, 'derhansen/sf_event_mgt', 'An event management and registration extension for TYPO3 CMS based on ExtBase and Fluid.', ARRAY['derhansen', 'mmunz'], '2022-02-24T21:06:05.080468+00:00'),
 (20037550, 2040, 65, 1, 0, 11, 'ruby/rake', 'A make-like build utility for Ruby.', ARRAY['jimweirich', 'hsbt'], '2022-02-24T21:06:05.080468+00:00'),
 (20190634, 1286, 106, 1, 0, 13, 'equalsraf/neovim-qt', 'Neovim client library and GUI, in Qt5.', ARRAY['equalsraf', 'jgehrig'], '2022-02-24T21:06:05.080468+00:00'),
@@ -574,8 +574,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24516196, 7, 0, 1, 0, 6, 'nhat-nguyen/bittersweet', 'a color scheme for Sublime Text', ARRAY['nhat-nguyen'], '2022-02-24T21:06:05.080468+00:00'),
 (24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
-(24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
+(24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
 (25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:06:05.080468+00:00'),
 (25359717, 1247, 409, 1, 0, 24, 'vlachoudis/bCNC', 'GRBL CNC command sender, autoleveler and g-code editor', ARRAY['vlachoudis', 'Harvie'], '2022-02-24T21:06:05.080468+00:00'),
@@ -649,8 +649,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (32222044, 5343, 45, 1, 0, 25, 'erincatto/box2d', 'Box2D is a 2D physics engine for games', ARRAY['erincatto', 'wub'], '2022-02-24T21:06:05.080468+00:00'),
 (32280638, 1815, 13, 1, 0, 8, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'eliasnogueira'], '2022-02-24T21:06:05.080468+00:00'),
 (32484381, 51667, 15, 1, 0, 28, 'ripienaar/free-for-dev', 'A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev', ARRAY['ripienaar', 'TraderStf'], '2022-02-24T21:06:05.080468+00:00'),
-(32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-24T21:06:05.080468+00:00'),
 (32531480, 18873, 4, 2, 0, 11, 'js-cookie/js-cookie', 'A simple, lightweight JavaScript API for handling browser cookies', ARRAY['carhartl', 'FagnerMartinsBrack'], '2022-02-24T21:06:05.080468+00:00'),
+(32568955, 23, 0, 1, 0, 16, 'dennybritz/url-metadata-extractor', 'API that extracts metadata from a URL.', ARRAY['dennybritz'], '2022-02-24T21:06:05.080468+00:00'),
 (32623292, 16514, 141, 1, 0, 0, 'basarat/typescript-book', ':books: The definitive guide to TypeScript and possibly the best TypeScript book :book:. Free and Open Source 🌹', ARRAY['basarat', 'Marketionist'], '2022-02-24T21:06:05.080468+00:00'),
 (32688481, 560, 2, 1, 0, 26, 'frontendfront/front-end-conferences', 'This is a list of upcoming front-end related conferences.', ARRAY['frontendfront', 'AllThingsSmitty'], '2022-02-24T21:06:05.080468+00:00'),
 (32689863, 39860, 324, 1, 0, 11, '3b1b/manim', 'Animation engine for explanatory math videos', ARRAY['3b1b', 'TonyCrane'], '2022-02-24T21:06:05.080468+00:00'),
