@@ -1,6 +1,5 @@
 id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contributors,created_at
 507,4401,153,1,0,3,sferik/twitter,A Ruby interface to the Twitter API.,"{sferik,jnunemaker}",2022-02-24T21:06:05.080468+00:00
-3282,16409,20,1,0,9,preservim/nerdtree,A tree explorer plugin for vim.,"{scrooloose,PhilRunninger}",2022-02-24T21:06:05.080468+00:00
 3287,4457,94,1,0,20,preservim/nerdcommenter,Vim plugin for intensely nerdy commenting powers,"{alerque,scrooloose}",2022-02-24T21:06:05.080468+00:00
 5954,4541,0,1,0,1,jeremyevans/sequel,Sequel: The Database Toolkit for Ruby,"{jeremyevans,ciconia}",2022-02-24T21:06:05.080468+00:00
 7497,5150,18,1,0,15,formtastic/formtastic,A Rails form builder plugin with semantically rich and accessible markup.,"{justinfrench,mjonuschat}",2022-02-24T21:06:05.080468+00:00
@@ -3664,3 +3663,4 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 44882201,37303,51,8,5,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"{MunGell,JefMari}",2022-02-24T21:06:05.080468+00:00
 177736533,260255,16833,1,0,2,996icu/996.ICU,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,"{996icu,ChangedenCZD}",2022-02-24T21:06:05.080468+00:00
 1039520,103987,4973,1,1,17,ytdl-org/youtube-dl,Command-line program to download videos from YouTube.com and other video sites,"{dstftw,phihag}",2022-02-24T21:06:05.080468+00:00
+241805592,16880,48,3,1,14,rome/tools,"The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.","{sebmck,ematipico}",2022-02-24T21:06:05.080468+00:00

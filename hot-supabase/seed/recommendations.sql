@@ -1,11 +1,10 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T14:43:19.043Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T16:51:23.656Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) VALUES
 (507, 4401, 153, 1, 0, 3, 'sferik/twitter', 'A Ruby interface to the Twitter API.', ARRAY['sferik', 'jnunemaker'], '2022-02-24T21:06:05.080468+00:00'),
-(3282, 16409, 20, 1, 0, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
 (3287, 4457, 94, 1, 0, 20, 'preservim/nerdcommenter', 'Vim plugin for intensely nerdy commenting powers', ARRAY['alerque', 'scrooloose'], '2022-02-24T21:06:05.080468+00:00'),
 (5954, 4541, 0, 1, 0, 1, 'jeremyevans/sequel', 'Sequel: The Database Toolkit for Ruby', ARRAY['jeremyevans', 'ciconia'], '2022-02-24T21:06:05.080468+00:00'),
 (7497, 5150, 18, 1, 0, 15, 'formtastic/formtastic', 'A Rails form builder plugin with semantically rich and accessible markup.', ARRAY['justinfrench', 'mjonuschat'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2824,8 +2823,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (302922505, 1615, 177, 1, 0, 9, 'devtron-labs/devtron', 'Software Delivery Workflow For Kubernetes', ARRAY['vikramdevtron', 'nishant-d'], '2022-02-24T21:06:05.080468+00:00'),
 (303743342, 22, 0, 1, 0, 24, 'zebp/wasm-remapper-web', 'Remap WebAssembly binaries automatically in the browser built with ReactJS and Rust using WebAssembly', ARRAY['zebp'], '2022-02-24T21:06:05.080468+00:00'),
 (303802332, 858, 277, 1, 0, 17, 'vmware-tanzu/community-edition', 'VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.', ARRAY['dvonthenen', 'joshrosso'], '2022-02-24T21:06:05.080468+00:00'),
-(303861532, 66, 39, 1, 0, 3, 'WordPress/pattern-directory', 'The WordPress Block Pattern Directory', ARRAY['ryelle', 'StevenDufresne'], '2022-02-24T21:06:05.080468+00:00'),
 (303830736, 154, 9, 1, 0, 16, 'tidbyt/pixlet', 'Build apps for pixel-based displays.', ARRAY['matslina', 'rohansingh'], '2022-02-24T21:06:05.080468+00:00'),
+(303861532, 66, 39, 1, 0, 3, 'WordPress/pattern-directory', 'The WordPress Block Pattern Directory', ARRAY['ryelle', 'StevenDufresne'], '2022-02-24T21:06:05.080468+00:00'),
 (304026138, 11, 0, 1, 0, 27, 'masaun/NFT-auth-token', 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', ARRAY['masaun'], '2022-02-24T21:06:05.080468+00:00'),
 (304177900, 251, 1, 1, 0, 4, 'RyanFitzgerald/devfolio', 'A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS', ARRAY['RyanFitzgerald', 'zielinsm'], '2022-02-24T21:06:05.080468+00:00'),
 (304243554, 1171, 10, 1, 0, 15, 'craftzdog/dotfiles-public', 'My personal dotfiles', ARRAY['craftzdog', 'IlanCosman'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
-(241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00');
+(241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
+(3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00');
