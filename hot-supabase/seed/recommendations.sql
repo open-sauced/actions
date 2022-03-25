@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T13:01:55.930Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T14:43:19.043Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2824,8 +2824,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (302922505, 1615, 177, 1, 0, 9, 'devtron-labs/devtron', 'Software Delivery Workflow For Kubernetes', ARRAY['vikramdevtron', 'nishant-d'], '2022-02-24T21:06:05.080468+00:00'),
 (303743342, 22, 0, 1, 0, 24, 'zebp/wasm-remapper-web', 'Remap WebAssembly binaries automatically in the browser built with ReactJS and Rust using WebAssembly', ARRAY['zebp'], '2022-02-24T21:06:05.080468+00:00'),
 (303802332, 858, 277, 1, 0, 17, 'vmware-tanzu/community-edition', 'VMware Tanzu Community Edition is a full-featured, easy to manage Kubernetes platform for learners and users on your local workstation or your favorite cloud. Tanzu Community Edition enables the creation of application platforms: infrastructure, tooling, and services providing location to run applications and enable positive developer experiences.', ARRAY['dvonthenen', 'joshrosso'], '2022-02-24T21:06:05.080468+00:00'),
-(303830736, 154, 9, 1, 0, 16, 'tidbyt/pixlet', 'Build apps for pixel-based displays.', ARRAY['matslina', 'rohansingh'], '2022-02-24T21:06:05.080468+00:00'),
 (303861532, 66, 39, 1, 0, 3, 'WordPress/pattern-directory', 'The WordPress Block Pattern Directory', ARRAY['ryelle', 'StevenDufresne'], '2022-02-24T21:06:05.080468+00:00'),
+(303830736, 154, 9, 1, 0, 16, 'tidbyt/pixlet', 'Build apps for pixel-based displays.', ARRAY['matslina', 'rohansingh'], '2022-02-24T21:06:05.080468+00:00'),
 (304026138, 11, 0, 1, 0, 27, 'masaun/NFT-auth-token', 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', ARRAY['masaun'], '2022-02-24T21:06:05.080468+00:00'),
 (304177900, 251, 1, 1, 0, 4, 'RyanFitzgerald/devfolio', 'A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS', ARRAY['RyanFitzgerald', 'zielinsm'], '2022-02-24T21:06:05.080468+00:00'),
 (304243554, 1171, 10, 1, 0, 15, 'craftzdog/dotfiles-public', 'My personal dotfiles', ARRAY['craftzdog', 'IlanCosman'], '2022-02-24T21:06:05.080468+00:00'),

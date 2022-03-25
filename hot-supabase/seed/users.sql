@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T13:01:55.667Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T14:43:18.980Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -177,14 +177,14 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (3941856, 0, false, true, 'prophen', '2022-02-24T21:07:48.046487+00:00'),
 (469997, 3, false, true, 'sobingt', '2022-02-24T21:07:48.046487+00:00'),
 (5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
+(20733994, 1, false, true, 'HeVictor', '2022-02-27T20:34:44.553855+00:00'),
 (10951893, 2, false, true, 'jramirez857', '2022-02-24T21:07:48.046487+00:00'),
 (656318, 0, false, true, 'ramonh', '2022-02-24T21:07:48.046487+00:00'),
 (4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
-(45293863, 0, true, true, 'bagatka', '2022-02-24T21:07:48.046487+00:00'),
-(19359944, 0, false, true, 'Karobwe', '2022-03-01T20:01:52.705152+00:00'),
+(13867651, 2, false, true, 'cescfamadas', '2022-03-01T20:12:23.330321+00:00'),
 (51794934, 1, false, true, 'RubesWorld', '2022-02-24T21:07:48.046487+00:00'),
 (57008950, 0, false, true, 'prasadbobby', '2022-02-24T21:07:48.046487+00:00'),
-(13867651, 2, false, true, 'cescfamadas', '2022-03-01T20:12:23.330321+00:00'),
+(45293863, 0, true, true, 'bagatka', '2022-02-24T21:07:48.046487+00:00'),
 (73375663, 0, false, true, 'RSurya99', '2022-03-12T12:21:59.133758+00:00'),
 (46828701, 0, false, true, 'idanceinbetween', '2022-02-24T21:07:48.046487+00:00'),
 (6842883, 1, false, true, 'GianCastle', '2022-02-24T21:07:48.046487+00:00'),
@@ -192,7 +192,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (15052690, 3, false, true, 'creaturenex', '2022-02-24T21:07:48.046487+00:00'),
 (22154417, 1, false, true, 'SamuelWitke', '2022-02-24T21:07:48.046487+00:00'),
 (3792749, 9, false, true, 'mtfoley', '2022-02-24T21:07:48.046487+00:00'),
-(20733994, 1, false, true, 'HeVictor', '2022-02-27T20:34:44.553855+00:00'),
+(19359944, 0, false, true, 'Karobwe', '2022-03-01T20:01:52.705152+00:00'),
 (58482194, 4, false, true, 'Borrus-sudo', '2022-02-24T21:07:48.046487+00:00'),
 (505751, 4, false, true, 'KengoTODA', '2022-02-24T21:07:48.046487+00:00'),
 (12292047, 4, false, true, 'eps1lon', '2022-02-24T21:07:48.046487+00:00'),

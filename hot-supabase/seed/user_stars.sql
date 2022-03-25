@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T13:01:56.103Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-25T14:43:19.033Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4279,12 +4279,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (423934343, 43640229, 201108929, 29, 9, 706, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-24T21:07:34.596111'),
 (381571653, 569510, 1535009, 29, 34, 4098, 'jazzband/tablib', 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', ARRAY['kennethreitz', 'claudep'], '2022-02-24T21:07:34.596111'),
 (379460859, 13711044, 172473381, 29, 2, 37, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:07:34.596111'),
+(435647165, 23166349, 164225648, 29, 0, 770, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
 (401824794, 65249694, 3678731, 12, 290, 60724, 'webpack/webpack', 'A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ''loaders'', modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.', ARRAY['sokra', 'timse'], '2022-02-24T21:07:34.596111'),
 (377960470, 67359053, 12299718, 4, 13, 71, 'twilio/starter-python', 'A starter app for Python developers embarking on their first Twilio quest!', ARRAY['kwhinnery', 'smendes'], '2022-02-24T21:07:34.596111'),
 (381822676, 33669114, 116612925, 29, 1, 846, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:07:34.596111'),
 (434506268, 45293863, 300313988, 29, 1, 40, 'cyberpartizans/face_recognition', null, ARRAY['allyouneediscv', 'feanor-on-fire'], '2022-02-24T21:07:34.596111'),
 (378546253, 18013532, 191051391, 29, 315, 11176, 'redwoodjs/redwood', 'The App Framework for Startups', ARRAY['peterp', 'thedavidprice'], '2022-02-24T21:07:34.596111'),
-(435647165, 23166349, 164225648, 29, 0, 770, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
 (354123413, 15052690, 346534675, 29, 3, 23, 'bitprj/Intro-To-Serverless', 'Managing a server is pretty complicated, but building with serverless architectures simplifies this process. As a student, mastering serverless functions can help you to build projects that solve real-world problems by integrating APIs, constructing user interfaces, and analysing data. Javascript is the core language of this course - one of the most in-demand languages to learn in the industry.', ARRAY['emsesc', 'ganning127'], '2022-02-24T21:07:34.596111'),
 (422280843, 289882, 661127, 22, 0, 2, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:07:34.596111'),
 (398348178, 39362365, 15185110, 17, 20, 405, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'njhoffman'], '2022-02-24T21:07:34.596111'),
@@ -4388,6 +4388,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (375196206, 57305940, 54496479, 29, 119, 214, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 176, 4417, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 223333090, 29, 46, 948, 'jsartisan/react-native-magnus', 'A Utility-First React Native UI Framework 🚀🧩', ARRAY['jsartisan', 'erickriva'], '2022-02-24T21:07:34.596111'),
+(465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:24:04.205351'),
 (408029805, 59651629, 206410838, 29, 6, 18034, 'google/eng-practices', 'Google''s Engineering Practices documentation', ARRAY['code-health-devguide-copybara', 'adambender'], '2022-02-24T21:07:34.596111'),
 (407102326, 4386534, 71359796, 22, 27, 622, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:07:34.596111'),
 (364328935, 667716, 137308605, 29, 5, 106, 'tamino-martinius/node-ts-dedent', 'TypeScript package which smartly trims and strips indentation from multi-line strings', ARRAY['tamino-martinius', 'AviVahl'], '2022-02-24T21:07:34.596111'),
@@ -4407,7 +4408,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (452075032, 22186029, 337208358, 29, 0, 13, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
 (432242215, 10951893, 254660586, 29, 11, 2032, 'openmainframeproject/cobol-programming-course', 'Training materials and labs for a ''Getting Started'' level course on COBOL', ARRAY['MikeBauerCA', 'tanto259'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 53, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
-(465040302, 13867651, 1834988, 20, 0, 297, 'ropensci/rplos', 'R client for the PLoS Journals API', ARRAY['sckott', 'cboettig'], '2022-03-02T08:24:04.205351'),
 (386705185, 349523, 902266, 17, 0, 73, 'jamesshore/lets_play_tdd', 'Let''s Play: Test-Driven Development', ARRAY['jamesshore', 'luontola'], '2022-02-24T21:07:34.596111'),
 (272558455, 42392347, 254889040, 22, 0, 1, 'ColomboJuan/AppCodvid19', 'Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/', ARRAY['ColomboJuan'], '2022-02-24T21:07:34.596111'),
 (422278376, 26007940, 32883944, 28, 1, 171, 'mcleonard/blog_posts', 'Blog posts for matatat.org', ARRAY['mcleonard'], '2022-02-24T21:07:34.596111'),
@@ -4421,10 +4421,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (399559931, 30369246, 21405028, 29, 2, 10339, 'ardanlabs/gotraining', 'Go Training Class Material : ', ARRAY['ardan-bkennedy', 'jcbwlkr'], '2022-02-24T21:07:34.596111'),
 (418672791, 20727421, 218282453, 29, 15, 3060, 'saadpasta/developerFolio', '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', ARRAY['saadpasta', 'kartikcho'], '2022-02-24T21:07:34.596111'),
 (408003690, 1305623, 51270739, 29, 56, 20011, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-24T21:07:34.596111'),
-(465036506, 19359944, 2515323, 29, 35, 1537, 'liip/LiipImagineBundle', 'Symfony Bundle to assist in imagine manipulation using the imagine library', ARRAY['lsmith77', 'makasim'], '2022-03-02T08:10:40.488726'),
+(465036506, 19359944, 2515323, 29, 35, 1538, 'liip/LiipImagineBundle', 'Symfony Bundle to assist in imagine manipulation using the imagine library', ARRAY['lsmith77', 'makasim'], '2022-03-02T08:10:40.488726'),
 (467288570, 13059091, 14682677, 18, 0, 2, 'spaetow/ShibbolethECPAuthClient', 'A Shibboleth ECP authentication client that also exposes access to the SAML response received from the IdP', ARRAY['spaetow'], '2022-03-09T11:40:32.128947'),
 (467358729, 9283692, 66291203, 2, 0, 37, 'margyle/heyMugsy', 'Mugsy is a Raspberry Pi and Arduino powered coffee making robot.', ARRAY['margyle'], '2022-03-09T04:34:31.380795'),
-(464086557, 20733994, 189649243, 3, 3, 3635, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-03-02T08:53:12.273412'),
 (363981975, 46828701, 258812961, 29, 12, 515, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-24T21:07:34.596111'),
 (382167794, 1431853, 135516270, 29, 417, 19495, 'k3s-io/k3s', 'Lightweight Kubernetes', ARRAY['erikwilson', 'ibuildthecloud'], '2022-02-24T21:07:34.596111'),
 (396051716, 66696421, 272382323, 3, 0, 1, 'cozyCodr/coderXcoded.github.io', 'practice of what i have learnt on freecodecamp.org', ARRAY['cozyCodr'], '2022-02-24T21:07:34.596111'),
@@ -4438,6 +4437,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (396028887, 3012159, 276613189, 10, 5, 1, 'sieis/udemyYelpCamp', 'My code for the final YelpCamp project updated with Bootstrap 4', ARRAY['sieis'], '2022-03-09T05:40:54.538531'),
 (466201413, 11489171, 28457823, 8, 138, 342953, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-03-05T04:56:52.874277'),
 (348380714, 1645628, 18609427, 29, 372, 13074, 'tc39/ecma262', 'Status, process, and documents for ECMA-262', ARRAY['jmdyck', 'anba'], '2022-02-24T21:07:34.596111'),
+(464086557, 20733994, 189649243, 3, 3, 3636, 'kentcdodds/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'oscard0m'], '2022-03-02T08:53:12.273412'),
 (465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
 (455678420, 6499373, 36040894, 24, 316, 52606, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (469853701, 101365565, 80050538, 2, 3, 635, 'maintainers/public-resources', 'Public information on the invite-only maintainer community', ARRAY['MikeMcQuaid', 'devonzuegel'], '2022-03-16T13:54:01.717626');
