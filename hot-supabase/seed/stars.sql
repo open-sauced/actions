@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T12:50:12.993Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T14:43:21.703Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3058,8 +3058,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (257854679, 485, 139, 56, 'DavHau/mach-nix', '2022-02-24T21:07:06.457173+00:00'),
 (151837779, 470, 36, 40, 'akosbalasko/yarle', '2022-02-24T21:07:06.457173+00:00'),
 (44882201, 36460, 48, 5316, 'MunGell/awesome-for-beginners', '2022-02-24T21:07:06.457173+00:00'),
-(223971726, 605, 127, 280, 'ryanheise/just_audio', '2022-02-24T21:07:06.457173+00:00'),
 (387501063, 31, 1, 10, 'cassidoo/shopify-next-netlify', '2022-02-24T21:07:06.457173+00:00'),
+(223971726, 605, 127, 280, 'ryanheise/just_audio', '2022-02-24T21:07:06.457173+00:00'),
 (353118626, 1, 1, 0, 'eps1lon/vax-notify', '2022-02-24T21:07:06.457173+00:00'),
 (10651420, 4635, 76, 260, 'tmate-io/tmate', '2022-02-24T21:07:06.457173+00:00'),
 (35190860, 125, 0, 36, 'seven1m/open-bibles', '2022-02-24T21:07:06.457173+00:00'),
@@ -3352,8 +3352,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (5579613, 1720, 9, 203, 'mixu/singlepageappbook', '2022-02-24T21:07:06.457173+00:00'),
 (76694515, 11225, 26, 328, 'hotwired/stimulus', '2022-02-24T21:07:06.457173+00:00'),
 (959908, 10678, 1604, 2373, 'OpenRA/OpenRA', '2022-02-24T21:07:06.457173+00:00'),
-(196987768, 271, 14, 122, 'TryGhost/eleventy-starter-ghost', '2022-02-24T21:07:06.457173+00:00'),
 (131619646, 4483, 964, 561, 'dagster-io/dagster', '2022-02-24T21:07:06.457173+00:00'),
+(196987768, 271, 14, 122, 'TryGhost/eleventy-starter-ghost', '2022-02-24T21:07:06.457173+00:00'),
 (56471910, 66, 0, 5, 'nathanchapman/mayonnaise.js', '2022-02-24T21:07:06.457173+00:00'),
 (370494982, 19, 4, 5, 'thepeerstack/node-sdk', '2022-03-02T07:08:26.780942+00:00'),
 (82211360, 3323, 306, 419, 'webhintio/hint', '2022-02-24T21:07:06.457173+00:00'),
@@ -3688,8 +3688,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (320609581, 1, 0, 0, 'HeavyBR/adventofcode', '2022-02-24T21:07:06.457173+00:00'),
 (27817031, 2847, 40, 950, 'understrap/understrap', '2022-02-24T21:07:06.457173+00:00'),
 (343964517, 22, 1, 5, 'module-federation/microlib-examples', '2022-02-24T21:07:06.457173+00:00'),
-(103633984, 75965, 38, 7812, 'goldbergyoni/nodebestpractices', '2022-02-24T21:07:06.457173+00:00'),
 (18351848, 17368, 0, 829, 'typicode/lowdb', '2022-02-24T21:07:06.457173+00:00'),
+(103633984, 75965, 38, 7812, 'goldbergyoni/nodebestpractices', '2022-02-24T21:07:06.457173+00:00'),
 (281297416, 3051, 35, 998, 'adityatelange/hugo-PaperMod', '2022-02-24T21:07:06.457173+00:00'),
 (94808954, 609, 35, 48, 'tabrindle/envinfo', '2022-02-24T21:07:06.457173+00:00'),
 (68379040, 472, 30, 101, 'database-rider/database-rider', '2022-02-24T21:07:06.457173+00:00'),

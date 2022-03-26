@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T12:50:12.711Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T14:43:22.048Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -303,8 +303,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (294, 7293310, 80669528, 2, 122, 1144, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-24T21:07:34.596111'),
 (295, 7293310, 1430051, 3, 5, 814, 'TYPO3/typo3', 'The TYPO3 Core - Enterprise Content Management System. Synchronized mirror of https://review.typo3.org/Packages/TYPO3.CMS', ARRAY['bmack', 'lolli42'], '2022-02-24T21:07:34.596111'),
 (296, 7293310, 179344069, 4, 117, 598, 'woodpecker-ci/woodpecker', 'Woodpecker is a community fork of the Drone CI system.', ARRAY['bradrydzewski', 'laszlocph'], '2022-02-24T21:07:34.596111'),
-(297, 7293310, 236156799, 5, 2, 21, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (298, 7293310, 394368306, 6, 1, 1, 'saitho/discord-bot-reloaded', 'Re-iteration of my Discord bot to use Slash Commands API', ARRAY['saitho'], '2022-02-24T21:07:34.596111'),
+(297, 7293310, 236156799, 5, 2, 21, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (299, 7293310, 186702057, 7, 159, 280, 'solid/specification', 'Solid Technical Reports', ARRAY['csarven', 'RubenVerborgh'], '2022-02-24T21:07:34.596111'),
 (300, 7293310, 348060227, 8, 118, 8725, 'withastro/astro', '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', ARRAY['FredKSchott', 'matthewp'], '2022-02-24T21:07:34.596111'),
 (301, 7293310, 43830564, 9, 59, 12194, 'auchenberg/volkswagen', ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', ARRAY['watson', 'auchenberg'], '2022-02-24T21:07:34.596111'),
@@ -2651,9 +2651,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2628, 667716, 285998667, 5, 6, 245, 'keiya01/react-performance-testing', 'A library to test runtime performance in React', ARRAY['keiya01', 'JulienBlacas'], '2022-02-24T21:07:34.596111'),
 (2629, 667716, 21978103, 6, 0, 447, 'scottaohara/accessible_components', 'Listing of accessible components & patterns', ARRAY['scottaohara', 'kethinov'], '2022-02-24T21:07:34.596111'),
 (2630, 667716, 139191418, 7, 33, 192, 'accessibilitysupported/a11ysupport.io', 'Accessibility Support data for various HTML, ARIA, CSS, and SVG features', ARRAY['mfairchild365', 'RavenAlly'], '2022-02-24T21:07:34.596111'),
+(2631, 667716, 62367558, 8, 744, 37545, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:07:34.596111'),
 (2632, 667716, 236226196, 9, 0, 21, 'springload/react-accessible-headings', 'Makes it easier to keep heading levels semantic and accessible (WCAG)', ARRAY['holloway', 'twhitbeck'], '2022-02-24T21:07:34.596111'),
 (2633, 667716, 123365228, 10, 23, 2230, 'rcoh/angle-grinder', 'Slice and dice logs on the command line', ARRAY['rcoh', 'tstack'], '2022-02-24T21:07:34.596111'),
-(2631, 667716, 62367558, 8, 744, 37545, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:07:34.596111'),
 (2634, 667716, 104394958, 11, 6, 427, 'true-myth/true-myth', 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ARRAY['chriskrycho', 'bmakuh'], '2022-02-24T21:07:34.596111'),
 (2635, 667716, 51588320, 12, 82, 2043, 'stryker-mutator/stryker-js', 'Mutation testing for JavaScript and friends', ARRAY['nicojs', 'simondel'], '2022-02-24T21:07:34.596111'),
 (2636, 667716, 10851820, 13, 296, 21494, 'ramda/ramda', ':ram: Practical functional Javascript', ARRAY['buzzdecafe', 'davidchambers'], '2022-02-24T21:07:34.596111'),
