@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T02:55:36.213Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T04:46:58.835Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2511,7 +2511,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (260898844, 5, 1, 2, 0, 1, 'open-sauced/code-of-conduct', 'This community is dedicated to providing a harassment-free experience for everyone.', ARRAY['bdougie'], '2022-02-24T21:06:05.080468+00:00'),
 (260928305, 3066, 3, 1, 0, 4, 'mjhea0/awesome-fastapi', 'A curated list of awesome things related to FastAPI', ARRAY['mjhea0', 'fkromer'], '2022-02-24T21:06:05.080468+00:00'),
 (261039653, 1694, 24, 1, 0, 13, 'ingram-projects/animxyz', 'The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.', ARRAY['milesingrams', 'mattaningram'], '2022-02-24T21:06:05.080468+00:00'),
-(261049563, 74, 5, 1, 0, 1, 'LottieFiles/svelte-lottie-player', 'Lottie Player component for Svelte', ARRAY['jawish', 'karamalie'], '2022-02-24T21:06:05.080468+00:00'),
 (261283923, 1909, 69, 1, 0, 9, 'osohq/oso', 'Oso is a batteries-included framework for building authorization in your application.', ARRAY['gj', 'saolsen'], '2022-02-24T21:06:05.080468+00:00'),
 (261298767, 1876, 72, 1, 0, 24, 'revolist/revogrid', 'Powerful virtual data grid smartsheet with advanced customization. Best features from excel plus incredible  performance 🔋', ARRAY['revolist', 'm2a2x'], '2022-02-24T21:06:05.080468+00:00'),
 (261372860, 2629, 40, 1, 0, 23, 'DLR-RM/stable-baselines3', 'PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ', ARRAY['araffin', 'Artemis-Skade'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2562,6 +2561,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266701578, 1, 0, 1, 0, 10, 'mohamedabotir/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-24T21:06:05.080468+00:00'),
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-24T21:06:05.080468+00:00'),
+(261049563, 74, 5, 1, 0, 1, 'LottieFiles/svelte-lottie-player', 'Lottie Player component for Svelte', ARRAY['jawish', 'karamalie'], '2022-02-24T21:06:05.080468+00:00'),
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
 (267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
