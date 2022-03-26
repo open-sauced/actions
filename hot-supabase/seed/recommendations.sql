@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T18:45:33.178Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T20:43:20.822Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2220,10 +2220,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (219294494, 2617, 7, 1, 0, 29, 'xxh/xxh', '🚀 Bring your favorite shell wherever you go through the ssh.', ARRAY['anki-code', 'idkjs'], '2022-02-24T21:06:05.080468+00:00'),
 (219324014, 118, 11, 1, 0, 29, 'nestjsx/automapper', 'An Object-Object AutoMapper module for NestJS.', ARRAY['nartc', 'bashleigh'], '2022-02-24T21:06:05.080468+00:00'),
 (219415760, 33, 0, 1, 0, 11, 'mattdsteele/dominos-action', 'Domino''s 🍕 as a GitHub Action', ARRAY['mattdsteele'], '2022-02-24T21:06:05.080468+00:00'),
-(219616873, 7639, 59, 2, 0, 18, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-24T21:06:05.080468+00:00'),
 (219881030, 1, 0, 1, 0, 18, 'jseg787/random-playlist-generator', null, ARRAY['jseg787', 'ddesir'], '2022-02-24T21:06:05.080468+00:00'),
 (220251820, 1877, 13, 1, 0, 8, 'gerardog/gsudo', 'A Sudo for Windows - run elevated without spawning a new Console Host Window', ARRAY['gerardog', 'ddavness'], '2022-02-24T21:06:05.080468+00:00'),
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-24T21:06:05.080468+00:00'),
+(219616873, 7639, 59, 2, 0, 18, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-24T21:06:05.080468+00:00'),
 (220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-24T21:06:05.080468+00:00'),
 (220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-24T21:06:05.080468+00:00'),
