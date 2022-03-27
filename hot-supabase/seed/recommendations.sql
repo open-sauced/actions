@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T16:49:26.738Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T18:45:30.510Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -932,8 +932,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (55313340, 211, 1, 1, 0, 2, 'shlomif/fortune-mod', 'Implementation of the Unix fortune command for displaying a random quotation, for Linux and other systems.', ARRAY['shlomif', 'telometto'], '2022-02-24T21:06:05.080468+00:00'),
 (55631449, 2115, 83, 1, 0, 29, 'jamstack/jamstack.org', 'The official Jamstack site', ARRAY['philhawksworth', 'zachleat'], '2022-02-24T21:06:05.080468+00:00'),
 (55832243, 2184, 252, 1, 0, 17, 'sindresorhus/eslint-plugin-unicorn', 'Various awesome ESLint rules', ARRAY['fisker', 'sindresorhus'], '2022-02-24T21:06:05.080468+00:00'),
-(56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (55896045, 1, 18, 1, 0, 29, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:06:05.080468+00:00'),
+(56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (56171308, 1198, 4, 1, 0, 26, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:06:05.080468+00:00'),
 (56379555, 22, 2, 1, 0, 18, 'docteurklein/compose-ci', 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', ARRAY['docteurklein'], '2022-02-24T21:06:05.080468+00:00'),
 (56459948, 5675, 186, 1, 0, 14, 'GoogleCloudPlatform/training-data-analyst', 'Labs and demos for courses for GCP Training (http://cloud.google.com/training).', ARRAY['lakshmanok', 'gstripling'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1810,6 +1810,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (162405963, 4508, 38, 1, 0, 11, 'gradio-app/gradio', 'Create UIs for your machine learning model in Python in 3 minutes', ARRAY['abidlabs', 'aliabd'], '2022-02-24T21:06:05.080468+00:00'),
 (162442403, 1242, 15, 1, 0, 24, 'pankod/next-boilerplate', 'A well-structured production ready Next.js boilerplate with Typescript, Redux, Jest, Enzyme, Express.js, Sass, Css, EnvConfig, Fetch, Reverse Proxy, Bundle Analyzer and Built-in Project CLI. https://pankod.github.io/next-boilerplate/', ARRAY['omeraplak', 'BatuhanW'], '2022-02-24T21:06:05.080468+00:00'),
 (162723104, 19367, 36, 2, 0, 7.5, 'OWASP/CheatSheetSeries', 'The OWASP Cheat Sheet Series was created to provide a concise collection of high value information on specific application security topics.', ARRAY['righettod', 'jmanico'], '2022-02-24T21:06:05.080468+00:00'),
+(162815665, 19104, 613, 1, 0, 0, 'notable/notable', 'The Markdown-based note-taking app that doesn''t suck.', ARRAY['fabiospampinato', 'RomanKornev'], '2022-02-24T21:06:05.080468+00:00'),
 (162977720, 1293, 1, 2, 0, 23.5, 'romenrg/evergreen-skills-developers', 'List of evergreen skills, based on software development best practices & cross-framework principles, that should serve as a fair assessment of skilled software engineers / developers', ARRAY['romenrg', 'axelhzf'], '2022-02-24T21:06:05.080468+00:00'),
 (163068024, 40, 0, 1, 0, 14, 'h44z/gitlab_to_gitea', 'Gitlab to Gitea migration script.', ARRAY['h44z', 'trailfog'], '2022-02-24T21:06:05.080468+00:00'),
 (163346054, 8022, 176, 1, 0, 24, 'ludwig-ai/ludwig', 'Data-centric declarative deep learning framework', ARRAY['w4nderlust', 'jimthompson5802'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1825,7 +1826,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (165093478, 91, 9, 1, 0, 2, 'stephane-r/HoloPlay', 'React-Native app using Invidious API for listening Youtube audio source.', ARRAY['stephane-r', 'splyy'], '2022-02-24T21:06:05.080468+00:00'),
 (165292266, 1737, 20, 1, 0, 16, 'puneetsl/lotion', 'Unofficial Notion.so app for Linux', ARRAY['puneetsl', 'joshpetit'], '2022-02-24T21:06:05.080468+00:00'),
 (165434192, 673, 41, 1, 0, 7, 'dvx/lofi', '🎵🔉 A mini Spotify player with WebGL visualizations.', ARRAY['dvx', 'stamoun'], '2022-02-24T21:06:05.080468+00:00'),
-(162815665, 19104, 613, 1, 0, 0, 'notable/notable', 'The Markdown-based note-taking app that doesn''t suck.', ARRAY['fabiospampinato', 'RomanKornev'], '2022-02-24T21:06:05.080468+00:00'),
 (165720614, 446, 18, 1, 0, 10, 'skrapeit/skrape.it', 'A Kotlin-based testing/scraping/parsing library providing the ability to analyze and extract data from HTML (server & client-side rendered). It places particular emphasis on ease of use and a high level of readability by providing an intuitive DSL. It aims to be a testing lib, but can also be used to scrape websites in a convenient fashion.', ARRAY['christian-draeger', 'skrapeit'], '2022-02-24T21:06:05.080468+00:00'),
 (165733866, 724, 26, 1, 0, 19, 'tc39/proposal-iterator-helpers', 'Methods for working with iterators in ECMAScript', ARRAY['devsnek', 'ExE-Boss'], '2022-02-24T21:06:05.080468+00:00'),
 (165791269, 59, 2, 1, 0, 1, 'tedyoung/kid-bank', 'Now known as Kid Money Manager. It''s not a real bank, but keeps track of your kid''s earnings, savings, and spending. Watch me Live Code its development on Twitch.', ARRAY['tedyoung', 'vydra'], '2022-02-24T21:06:05.080468+00:00'),
