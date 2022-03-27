@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T20:43:37.953Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T22:43:20.636Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2188,8 +2188,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (214587193, 27513, 201, 1, 3, 0, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:06:05.080468+00:00'),
 (214708448, 11, 1, 1, 0, 24, 'elichai/bitsign', 'Tool for generating bitcoin addresses and signing/verifying messages using addresses', ARRAY['elichai'], '2022-02-24T21:06:05.080468+00:00'),
 (215067697, 47, 31, 1, 0, 14, 'garg3133/JagratiWebApp', 'Official WebApp of Jagrati - An Initiative of IIITians', ARRAY['garg3133', 'priyansh3133'], '2022-02-24T21:06:05.080468+00:00'),
-(215145057, 1780, 49, 1, 0, 26, 'freeCodeCamp/chapter', 'A self-hosted event management tool for nonprofits', ARRAY['renovate-bot', 'ojeytonwilliams'], '2022-02-24T21:06:05.080468+00:00'),
 (215086062, 288, 8, 1, 0, 19, 'fastruby/skunk', 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', ARRAY['etagwerker', 'bronzdoc'], '2022-02-24T21:06:05.080468+00:00'),
+(215145057, 1780, 49, 1, 0, 26, 'freeCodeCamp/chapter', 'A self-hosted event management tool for nonprofits', ARRAY['renovate-bot', 'ojeytonwilliams'], '2022-02-24T21:06:05.080468+00:00'),
 (215240608, 73, 1, 1, 0, 6, 'SteveSandersonMS/presentation-2019-10-NDCSydney', null, ARRAY['SteveSandersonMS'], '2022-02-24T21:06:05.080468+00:00'),
 (215346317, 6, 0, 1, 0, 16, 'andrejtonev/cabpp', 'C++ header-only library implementing a Cyclic Asynchronous Buffer (CAB)', ARRAY['andrejtonev'], '2022-02-24T21:06:05.080468+00:00'),
 (215390876, 1515, 15, 3, 0, 12, 'malgamves/CommunityWriterPrograms', 'A list of Developer Community Writer Programs', ARRAY['malgamves', 'karllhughes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2319,9 +2319,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (235283287, 4936, 0, 1, 0, 26, 'fpereiro/backendlore', 'How I write backends', ARRAY['fpereiro', 'sshine'], '2022-02-24T21:06:05.080468+00:00'),
 (235434204, 4700, 35, 1, 0, 2, 'benbusby/whoogle-search', 'A self-hosted, ad-free, privacy-respecting metasearch engine', ARRAY['benbusby', 'vacom13'], '2022-02-24T21:06:05.080468+00:00'),
 (235469871, 1548, 304, 1, 0, 3, 'dotnet/interactive', '.NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn''t before.', ARRAY['colombod', 'jonsequitur'], '2022-02-24T21:06:05.080468+00:00'),
+(235943258, 86, 26, 1, 0, 8, 'jason0x43/hacs-hubitat', 'A Hubitat integration for Home Assistant', ARRAY['jason0x43', 'amosyuen'], '2022-02-24T21:06:05.080468+00:00'),
 (235970716, 1, 0, 1, 0, 17, 'yomaokobiah/nairaland-visualisation', 'A visualisation of members on nairaland.com ages.', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
 (236095576, 14355, 405, 2, 0, 11, 'backstage/backstage', 'Backstage is an open platform for building developer portals', ARRAY['Rugvip', 'freben'], '2022-02-24T21:06:05.080468+00:00'),
-(235943258, 86, 26, 1, 0, 8, 'jason0x43/hacs-hubitat', 'A Hubitat integration for Home Assistant', ARRAY['jason0x43', 'amosyuen'], '2022-02-24T21:06:05.080468+00:00'),
 (236156799, 21, 2, 1, 0, 5, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (236226196, 21, 0, 1, 0, 9, 'springload/react-accessible-headings', 'Makes it easier to keep heading levels semantic and accessible (WCAG)', ARRAY['holloway', 'twhitbeck'], '2022-02-24T21:06:05.080468+00:00'),
 (236263651, 7, 0, 1, 0, 23, 'siddiqus/useful-scripts', null, ARRAY['siddiqus'], '2022-02-24T21:06:05.080468+00:00'),
