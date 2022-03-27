@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T06:46:17.532Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T08:44:25.403Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -806,13 +806,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (45250726, 15978, 436, 1, 0, 4, 'Redocly/redoc', '📘  OpenAPI/Swagger-generated API Reference Documentation', ARRAY['RomanHotsiy', 'stasiukanya'], '2022-02-24T21:06:05.080468+00:00'),
 (45325973, 517, 8, 1, 0, 0, 'zutrinken/bleak', 'Ghost Theme', ARRAY['zutrinken', 'ManuelRauber'], '2022-02-24T21:06:05.080468+00:00'),
 (45350538, 1284, 10, 1, 0, 1, 'piotrmurach/tty-prompt', 'A beautiful and powerful interactive command line prompt', ARRAY['piotrmurach', 'slowbro'], '2022-02-24T21:06:05.080468+00:00'),
+(45355064, 4834, 2, 2, 0, 4, 'jarun/buku', ':bookmark: Personal mini-web in text', ARRAY['jarun', 'rachmadaniHaryono'], '2022-02-24T21:06:05.080468+00:00'),
 (45356931, 2597, 138, 1, 0, 18, 'bwmarrin/discordgo', ' (Golang) Go bindings for Discord', ARRAY['bwmarrin', 'iopred'], '2022-02-24T21:06:05.080468+00:00'),
 (45502812, 310, 2, 1, 0, 28, 'unrelentingtech/freepass', '[DEPRECATED] password manager thing', ARRAY['unrelentingtech', 'quininer'], '2022-02-24T21:06:05.080468+00:00'),
 (45603512, 4976, 60, 1, 0, 12, 'microsoft/vscode-extension-samples', 'Sample code illustrating the VS Code extension API.', ARRAY['octref', 'mjbvz'], '2022-02-24T21:06:05.080468+00:00'),
 (45717250, 161444, 2691, 1, 1, 5, 'tensorflow/tensorflow', 'An Open Source Machine Learning Framework for Everyone', ARRAY['tensorflower-gardener', 'yongtang'], '2022-02-24T21:06:05.080468+00:00'),
 (45723377, 15953, 2, 1, 0, 7, 'charlax/professional-programming', 'A collection of full-stack resources for programmers.', ARRAY['charlax', 'laithshadeed'], '2022-02-24T21:06:05.080468+00:00'),
 (45750507, 2935, 21, 1, 0, 24, 'davidtheclark/cosmiconfig', 'Find and load configuration from a package.json property, rc file, or CommonJS module', ARRAY['davidtheclark', 'chrisblossom'], '2022-02-24T21:06:05.080468+00:00'),
-(45355064, 4834, 2, 2, 0, 4, 'jarun/buku', ':bookmark: Personal mini-web in text', ARRAY['jarun', 'rachmadaniHaryono'], '2022-02-24T21:06:05.080468+00:00'),
 (45879586, 1512, 17, 1, 0, 4, 'lexborisov/myhtml', 'Fast C/C++ HTML 5 Parser. Using threads.', ARRAY['lexborisov', 'Azq2'], '2022-02-24T21:06:05.080468+00:00'),
 (45936895, 11967, 3814, 1, 0, 0, 'Automattic/wp-calypso', 'The JavaScript and API powered WordPress.com', ARRAY['tyxla', 'aduth'], '2022-02-24T21:06:05.080468+00:00'),
 (45947467, 5428, 164, 1, 0, 20, 'insin/nwb', 'A toolkit for React, Preact, Inferno & vanilla JS apps, React libraries and other npm modules for the web, with no configuration (until you need it)', ARRAY['insin', 'ntwcklng'], '2022-02-24T21:06:05.080468+00:00'),
