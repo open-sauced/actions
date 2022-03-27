@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-26T22:43:17.896Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T01:02:43.453Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -788,19 +788,19 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (44002833, 18, 24, 1, 0, 9, 'where2help/where2help', 'Rails app for the Refugee Hack Vienna 2015', ARRAY['klappradla', 'haslinger'], '2022-02-24T21:06:05.080468+00:00'),
 (44142511, 211, 1, 1, 0, 12, 'FarmBot-Labs/farmbot-web-frontend', 'DEPRECATED: See Web API repo', ARRAY['RickCarlino', 'altruisticsoftware'], '2022-02-24T21:06:05.080468+00:00'),
 (44150497, 17879, 25, 1, 0, 12, 'remoteintech/remote-jobs', 'A list of semi to fully remote-friendly companies (jobs) in tech.', ARRAY['dougaitken', 'jessicard'], '2022-02-24T21:06:05.080468+00:00'),
+(44185629, 224, 5, 1, 0, 21, 'lysu/go-saga', 'Implements saga-pattern in Go, another way to distribute transaction.', ARRAY['lysu'], '2022-02-24T21:06:05.080468+00:00'),
 (44409210, 4430, 3, 1, 0, 10, 'RichardLitt/standard-readme', 'A standard style for README files', ARRAY['RichardLitt', 'JesseWeinstein'], '2022-02-24T21:06:05.080468+00:00'),
+(44455471, 205, 9, 1, 0, 12, 'Lusitaniae/apache_exporter', 'Prometheus exporter for Apache.', ARRAY['Lusitaniae', 'neezgee'], '2022-02-24T21:06:05.080468+00:00'),
+(44571718, 63460, 30, 2, 0, 6.5, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (44580889, 2023, 11, 1, 0, 15, 'aickin/react-dom-stream', 'A streaming server-side rendering library for React.', ARRAY['aickin'], '2022-02-24T21:06:05.080468+00:00'),
 (44604597, 839, 29, 1, 0, 2, 'delight-im/PHP-Auth', 'Authentication for PHP. Simple, lightweight and secure.', ARRAY['ocram', 'maxsenft'], '2022-02-24T21:06:05.080468+00:00'),
 (44623798, 900, 1, 1, 0, 15, 'ASoftCo/leaky-gems', 'A list of Ruby gems that have known memory leaks (and issues)', ARRAY['sergey-alekseev', 'benoittgt'], '2022-02-24T21:06:05.080468+00:00'),
-(44455471, 205, 9, 1, 0, 12, 'Lusitaniae/apache_exporter', 'Prometheus exporter for Apache.', ARRAY['Lusitaniae', 'neezgee'], '2022-02-24T21:06:05.080468+00:00'),
-(44571718, 63460, 30, 2, 0, 6.5, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (44662669, 23837, 1366, 1, 0, 3, 'dbeaver/dbeaver', 'Free universal database tool and SQL client', ARRAY['serge-rider', 'LonwoLonwo'], '2022-02-24T21:06:05.080468+00:00'),
 (44758360, 1554, 57, 1, 0, 2, 'dotnet/pinvoke', 'A library containing all P/Invoke code so you don''t have to import it every time. Maintained and updated to support the latest Windows OS.', ARRAY['AArnott', 'vbfox'], '2022-02-24T21:06:05.080468+00:00'),
 (44826587, 1761, 11, 1, 0, 13, 'zspecza/common-tags', '🔖 Useful template literal tags for dealing with strings in ES2015+', ARRAY['zspecza', 'fatfisz'], '2022-02-24T21:06:05.080468+00:00'),
 (45010048, 2686, 8, 1, 0, 21, 'webpack-contrib/copy-webpack-plugin', 'Copy files and directories with webpack', ARRAY['kevlened', 'alexander-akait'], '2022-02-24T21:06:05.080468+00:00'),
 (45045257, 1842, 6, 1, 0, 7, 'ru-de/faq', 'Полезная информация о жизни в Германии', ARRAY['ewgRa', 'okainov'], '2022-02-24T21:06:05.080468+00:00'),
 (45103523, 2, 0, 1, 0, 7, 'RubyStarters/RubyStarters.github.io', 'project website', ARRAY['haslinger', 'ramonh'], '2022-02-24T21:06:05.080468+00:00'),
-(44185629, 224, 5, 1, 0, 21, 'lysu/go-saga', 'Implements saga-pattern in Go, another way to distribute transaction.', ARRAY['lysu'], '2022-02-24T21:06:05.080468+00:00'),
 (45213667, 10123, 374, 1, 0, 10, 'Chocobozzz/PeerTube', 'ActivityPub-federated video streaming platform using P2P directly in your web browser', ARRAY['Chocobozzz', 'rigelk'], '2022-02-24T21:06:05.080468+00:00'),
 (45247496, 3663, 172, 1, 0, 10, 'snyk/snyk', 'Snyk CLI scans and monitors your projects for security vulnerabilities.', ARRAY['lili2311', 'remy'], '2022-02-24T21:06:05.080468+00:00'),
 (45250726, 15978, 436, 1, 0, 4, 'Redocly/redoc', '📘  OpenAPI/Swagger-generated API Reference Documentation', ARRAY['RomanHotsiy', 'stasiukanya'], '2022-02-24T21:06:05.080468+00:00'),
