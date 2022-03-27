@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T12:50:28.451Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T14:43:21.302Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2874,8 +2874,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2879, 15052690, 2206953, 14, 12, 21807, 'tj/commander.js', 'node.js command-line interfaces made easy', ARRAY['shadowspawn', 'tj'], '2022-02-24T21:07:34.596111'),
 (2880, 15052690, 10270250, 15, 922, 179679, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-24T21:07:34.596111'),
 (2881, 15052690, 1661758, 16, 98, 10340, 'restify/node-restify', 'The future of Node.js REST development', ARRAY['mcavage', 'yunong'], '2022-02-24T21:07:34.596111'),
-(2882, 15052690, 372263341, 17, 19, 18, 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', ARRAY['ChaelCodes', 'yagosansz'], '2022-02-24T21:07:34.596111'),
 (2883, 15052690, 387630224, 18, 4, 11, 'carmenkolohe/CodeSchoolQA', 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', ARRAY['carmenkolohe', 'jendevelops'], '2022-02-24T21:07:34.596111'),
+(2882, 15052690, 372263341, 17, 19, 18, 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', ARRAY['ChaelCodes', 'yagosansz'], '2022-02-24T21:07:34.596111'),
 (2884, 15052690, 215086062, 19, 8, 288, 'fastruby/skunk', 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', ARRAY['etagwerker', 'bronzdoc'], '2022-02-24T21:07:34.596111'),
 (2885, 15052690, 275874438, 20, 0, 4, 'sbrudz/accelerate-metrics', 'Tool to calculate Accelerate DevOps metrics', ARRAY['sbrudz'], '2022-02-24T21:07:34.596111'),
 (2886, 15052690, 2500088, 21, 35, 22802, 'gitlabhq/gitlabhq', 'GitLab CE Mirror | Please open new issues in our issue tracker on GitLab.com', ARRAY['dzaporozhets', 'iamphill'], '2022-02-24T21:07:34.596111'),
