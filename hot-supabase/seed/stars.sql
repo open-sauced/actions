@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T12:53:37.353Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T14:43:32.088Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3184,9 +3184,9 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (27222050, 3927, 23, 1114, 'vicky002/AlgoWiki', '2022-02-24T21:07:06.457173+00:00'),
 (112953694, 3147, 183, 138, 'digitallyinduced/ihp', '2022-02-24T21:07:06.457173+00:00'),
 (134440972, 1265, 21, 84, 'prettier/plugin-ruby', '2022-02-24T21:07:06.457173+00:00'),
+(72495579, 29056, 2017, 3651, 'go-gitea/gitea', '2022-02-24T21:07:06.457173+00:00'),
 (139218477, 9, 0, 0, 'EwJs/EwJs', '2022-02-24T21:07:06.457173+00:00'),
 (48714685, 6400, 279, 844, 'open-policy-agent/opa', '2022-02-24T21:07:06.457173+00:00'),
-(72495579, 29056, 2017, 3651, 'go-gitea/gitea', '2022-02-24T21:07:06.457173+00:00'),
 (201658460, 10004, 25, 1615, 'geektutu/7days-golang', '2022-02-24T21:07:06.457173+00:00'),
 (280940271, 1, 0, 0, 'Maduflavins/paystackimplementation', '2022-02-24T21:07:06.457173+00:00'),
 (2851574, 1472, 0, 199, 'merit-gem/merit', '2022-02-24T21:07:06.457173+00:00'),
@@ -3639,8 +3639,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (254889040, 1, 0, 0, 'ColomboJuan/AppCodvid19', '2022-02-24T21:07:06.457173+00:00'),
 (115559503, 4871, 173, 510, 'ChrisKnott/Eel', '2022-02-24T21:07:06.457173+00:00'),
 (60201474, 2, 2, 1, 'RubyHabits/ruby-habits-library', '2022-02-24T21:07:06.457173+00:00'),
-(420110494, 198, 0, 26, 'louelladev/Helpful-Tech-Resources', '2022-02-24T21:07:06.457173+00:00'),
 (239002506, 1090, 21, 54, 'sbstp/kubie', '2022-02-24T21:07:06.457173+00:00'),
+(420110494, 198, 0, 26, 'louelladev/Helpful-Tech-Resources', '2022-02-24T21:07:06.457173+00:00'),
 (188243294, 4, 0, 3, 'BaseMax/ChessDesktopElectron', '2022-02-24T21:07:06.457173+00:00'),
 (82539516, 9, 2, 45, 'reedsy/challenges', '2022-02-24T21:07:06.457173+00:00'),
 (191531341, 221, 6, 30, 'site-prism/site_prism', '2022-02-24T21:07:06.457173+00:00'),
