@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T08:46:29.216Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T10:44:38.056Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1587,6 +1587,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (132750724, 126006, 207, 1, 0, 29, 'danistefanovic/build-your-own-x', '🤓 Build your own (insert technology here)', ARRAY['danistefanovic', 'bauripalash'], '2022-02-24T21:06:05.080468+00:00'),
 (132757250, 62, 0, 1, 0, 10, 'charlax/entrepreneurship-resources', 'A list of articles, books, videos related to entrepreneurship', ARRAY['charlax'], '2022-02-24T21:06:05.080468+00:00'),
 (133092972, 2846, 63, 1, 0, 16, 'nodejs/undici', 'An HTTP/1.1 client, written from scratch for Node.js', ARRAY['ronag', 'mcollina'], '2022-02-24T21:06:05.080468+00:00'),
+(133134007, 10698, 2933, 1, 0, 1, 'OpenAPITools/openapi-generator', 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', ARRAY['wing328', 'fehguy'], '2022-02-24T21:06:05.080468+00:00'),
 (133442384, 79403, 721, 1, 0, 15, 'denoland/deno', 'A modern runtime for JavaScript and TypeScript.', ARRAY['ry', 'bartlomieju'], '2022-02-24T21:06:05.080468+00:00'),
 (133681780, 585, 3, 1, 0, 28, 'shalvah/DownloadThisVideo', 'Twitter bot for easily downloading videos/GIFs off tweets', ARRAY['shalvah', 'notpushkin'], '2022-02-24T21:06:05.080468+00:00'),
 (134035452, 13286, 379, 1, 0, 16, 'justadudewhohacks/face-api.js', 'JavaScript API for face detection and face recognition in the browser and nodejs with tensorflow.js', ARRAY['justadudewhohacks', 'jderrough'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1729,7 +1730,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (150498735, 173, 8, 1, 0, 5, 'mauricioszabo/atom-chlorine', 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', ARRAY['mauricioszabo', 'seancorfield'], '2022-02-24T21:06:05.080468+00:00'),
 (151325516, 74, 237, 1, 0, 18, 'gitcoinco/kudosbadges', 'Kudos badges and creative assets for Gitcoin', ARRAY['owocki', 'MladenPetronijevic'], '2022-02-24T21:06:05.080468+00:00'),
 (151391977, 55, 6, 1, 0, 11, 'Badmuts/aula', '🏫 A microservice oriented webservice exploring the CNCF landscape', ARRAY['Badmuts'], '2022-02-24T21:06:05.080468+00:00'),
-(133134007, 10698, 2933, 1, 0, 1, 'OpenAPITools/openapi-generator', 'OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)', ARRAY['wing328', 'fehguy'], '2022-02-24T21:06:05.080468+00:00'),
 (151799924, 375, 4, 1, 0, 9, 'mazipan/hello-open-source', '🖐️ A repository to learn about open source code contributions flow', ARRAY['mazipan', 'drepram'], '2022-02-24T21:06:05.080468+00:00'),
 (151837779, 393, 33, 1, 0, 27, 'akosbalasko/yarle', 'Yarle - The ultimate converter of Evernote notes to Markdown', ARRAY['akosbalasko', 'rodbv'], '2022-02-24T21:06:05.080468+00:00'),
 (151881041, 94, 2, 1, 0, 12, 'peduarte/ped.ro', 'My personal website', ARRAY['Kikobeats', 'schickling'], '2022-02-24T21:06:05.080468+00:00'),
