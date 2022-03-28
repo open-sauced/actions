@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-27T22:43:20.249Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T01:03:05.330Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -66,6 +66,7 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (21, 7222344, 'open-sauced/hot', '7222344-open-sauced/hot', '2022-03-08T16:08:52.097372+00:00'),
 (93, 14043845, 'open-sauced/hot', '14043845-open-sauced/hot', '2022-01-23T23:07:38.899855+00:00'),
 (26, 5713670, '996icu/996.ICU', '5713670-996icu/996.ICU', '2022-03-17T02:33:24.821991+00:00'),
+(36, 5384543, 'open-sauced/hot', '5384543-open-sauced/hot', '2022-03-27T23:09:28.188567+00:00'),
 (27, 5713670, 'ytdl-org/youtube-dl', '5713670-ytdl-org/youtube-dl', '2022-03-17T02:33:35.362305+00:00'),
 (28, 5713670, 'orbit-love/orbit-model', '5713670-orbit-love/orbit-model', '2022-03-19T06:29:38.128623+00:00'),
 (33, 1551031, 'preservim/nerdtree', '1551031-preservim/nerdtree', '2022-03-25T14:51:44.156683+00:00');
