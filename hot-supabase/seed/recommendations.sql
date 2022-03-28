@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T01:03:05.727Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T03:01:08.962Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1397,10 +1397,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (109887187, 826, 122, 2, 0, 16, 'danthareja/contribute-to-open-source', 'Learn the GitHub workflow by contributing code in a fun simulation project ', ARRAY['danthareja'], '2022-02-24T21:06:05.080468+00:00'),
 (110053683, 221, 9, 1, 0, 8, 'taylorbryant/jekyll-starter-tailwind', 'Jekyll starter styled with Tailwind CSS', ARRAY['taylorbryant', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (110175126, 104, 14, 1, 0, 15, 'go-faast/faast-web', 'A decentralized cryptocurrency portfolio manager and exchange', ARRAY['dylanseago', 'dwolfgram'], '2022-02-24T21:06:05.080468+00:00'),
+(110216866, 4765, 39, 1, 0, 15, 'dailydotdev/daily', 'Building the homepage every developer deserves 👩🏽‍💻 👨‍💻', ARRAY['idoshamun', 'nimrodkra'], '2022-02-24T21:06:05.080468+00:00'),
 (110442874, 1, 0, 1, 0, 12, 'conradsp/DHISImport', 'Importing FHIR/json data into a DHIS instance', ARRAY['Markionium', 'conradsp'], '2022-02-24T21:06:05.080468+00:00'),
 (110571193, 1, 1, 1, 0, 16, 'guru-ricoh/guru', 'GURU Project, It is the project', ARRAY['guru-ricoh', 'LoicB'], '2022-02-24T21:06:05.080468+00:00'),
 (110753909, 154, 15, 1, 0, 28, 'jborean93/smbprotocol', 'Python SMBv2 and v3 Client', ARRAY['jborean93', 'dHannasch'], '2022-02-24T21:06:05.080468+00:00'),
-(110216866, 4765, 39, 1, 0, 15, 'dailydotdev/daily', 'Building the homepage every developer deserves 👩🏽‍💻 👨‍💻', ARRAY['idoshamun', 'nimrodkra'], '2022-02-24T21:06:05.080468+00:00'),
 (110759796, 2701, 24, 1, 0, 5, 'librespot-org/librespot', 'Open Source Spotify client library', ARRAY['plietar', 'sashahilton00'], '2022-02-24T21:06:05.080468+00:00'),
 (111008174, 56, 9, 1, 0, 13, 'Azure-Samples/cognitive-services-android-customvision-sample', 'Sample Anroid app for image classification using a TensorFlow model exported from Microsoft Cognitive Services Custom Vision', ARRAY['shonohs', 'delfu'], '2022-02-24T21:06:05.080468+00:00'),
 (111664047, 386, 34, 1, 0, 3, 'maticnetwork/contracts', 'Smart contracts comprising the business logic of the Matic Network', ARRAY['0xAshish', 'atvanguard'], '2022-02-24T21:06:05.080468+00:00'),

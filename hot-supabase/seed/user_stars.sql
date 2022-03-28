@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T01:03:05.469Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-28T03:01:09.135Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3707,8 +3707,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3709, 55907631, 60493101, 27, 41, 201791, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:07:34.596111'),
 (3710, 55907631, 239150878, 28, 2, 84, 'wobsoriano/coderstats', '📊 Data visualizations of your top languages, starred repositories and top repos.', ARRAY['wobsoriano'], '2022-02-24T21:07:34.596111'),
 (3711, 55907631, 209391513, 29, 27, 1045, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
-(3713, 907680, 182849188, 1, 149, 3910, 'delta-io/delta', 'An open-source storage layer that brings scalable, ACID transactions to Apache Spark™ and big data workloads.', ARRAY['zsxwing', 'brkyvz'], '2022-02-24T21:07:34.596111'),
 (3712, 907680, 399821046, 0, 2, 1348, 'varbhat/exatorrent', 'Self-hostable , easy-to-use , lightweight and feature-rich torrent client written in Go . It comes with beautiful Web UI and Optional Multi-User Support . Run Locally or Host in Server . Open/Download/Stream Torrents in Browser Right Away! ', ARRAY['varbhat'], '2022-02-24T21:07:34.596111'),
+(3713, 907680, 182849188, 1, 149, 3910, 'delta-io/delta', 'An open-source storage layer that brings scalable, ACID transactions to Apache Spark™ and big data workloads.', ARRAY['zsxwing', 'brkyvz'], '2022-02-24T21:07:34.596111'),
 (3714, 907680, 39718308, 2, 145, 1200, 'uxmal/reko', 'Reko is a binary decompiler.', ARRAY['uxmal', 'ptomin'], '2022-02-24T21:07:34.596111'),
 (3715, 907680, 9377198, 3, 51, 636, 'OpenNMS/opennms', 'Enterprise-Grade Open-Source Network Management Platform', ARRAY['RangerRick', 'soleger'], '2022-02-24T21:07:34.596111'),
 (3716, 907680, 334777857, 4, 51, 1232, 'mszoek/airyx', 'A BSD-based OS project that aims to provide an experience like and some compatibility with macOS', ARRAY['mszoek', 'iddan'], '2022-02-24T21:07:34.596111'),
