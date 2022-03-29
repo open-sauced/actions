@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T01:02:46.323Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T03:01:01.620Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3489,8 +3489,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3490, 9696352, 192597257, 14, 1, 53, 'minio/minio-rs', 'MinIO Rust SDK for Amazon S3 Compatible Cloud Storage', ARRAY['donatello', 'dvaldivia'], '2022-02-24T21:07:34.596111'),
 (3491, 9696352, 276889385, 15, 10, 241, 'ANSSI-FR/MLA', 'Multi Layer Archive - A pure rust encrypted and compressed archive file format', ARRAY['commial', 'sashaconway'], '2022-02-24T21:07:34.596111'),
 (3492, 9696352, 112287150, 16, 12, 1262, 'zboxfs/zbox', 'Zero-details, privacy-focused in-app file system.', ARRAY['burmecia', 'amiraeva'], '2022-02-24T21:07:34.596111'),
-(3494, 9696352, 124409296, 18, 1, 334, 'styfle/breaking-changes-web', '💢 A list of breaking changes to the web platform', ARRAY['styfle', 'bennypowers'], '2022-02-24T21:07:34.596111'),
 (3493, 9696352, 204591335, 17, 24, 92, 'WICG/urlpattern', 'The URLPattern API provides a web platform primitive for matching URLs.', ARRAY['wanderview', 'lucacasonato'], '2022-02-24T21:07:34.596111'),
+(3494, 9696352, 124409296, 18, 1, 334, 'styfle/breaking-changes-web', '💢 A list of breaking changes to the web platform', ARRAY['styfle', 'bennypowers'], '2022-02-24T21:07:34.596111'),
 (3495, 9696352, 391133915, 19, 0, 23, 'jsthomas/tidy-email', 'An OCaml wrapper library that makes it easy to send email with different services.', ARRAY['jsthomas', 'aantron'], '2022-02-24T21:07:34.596111'),
 (3496, 9696352, 145838509, 20, 0, 159, 'mapbox/potpack', 'A tiny rectangle packing JavaScript library (for sprite layouts)', ARRAY['mourner', 'mbullington'], '2022-02-24T21:07:34.596111'),
 (3497, 9696352, 86491149, 21, 13, 707, 'ChromeDevTools/devtools-protocol', 'Chrome DevTools Protocol', ARRAY['devtools-bot', 'paulirish'], '2022-02-24T21:07:34.596111'),
