@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T12:53:41.100Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T14:43:27.430Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2912,8 +2912,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (316836816, 6860, 22, 2, 0, 13.5, 'saadeghi/daisyui', '⭐️ ⭐️ ⭐️ ⭐️ ⭐️  Tailwind Components', ARRAY['saadeghi', 'actions-user'], '2022-02-24T21:06:05.080468+00:00'),
 (316988921, 4435, 2, 1, 0, 24, 'Sairyss/domain-driven-hexagon', 'Guide on Domain-Driven Design, software architecture, design patterns, best practices etc. with code examples', ARRAY['Sairyss', 'timonback'], '2022-02-24T21:06:05.080468+00:00'),
 (317192047, 2, 0, 1, 0, 17, 'udberg/the-next-web-clone', 'This is an exact replica of the The Next Web website putting emphasis on how it behaves differently depending on the size of the screen where the website is rendered.', ARRAY['SamArsanios', 'udberg'], '2022-02-24T21:06:05.080468+00:00'),
-(317286633, 43, 0, 1, 0, 9, 'ivodolenc/nuxt-animejs', 'Anime.js module for Nuxt.js', ARRAY['ivodolenc'], '2022-02-24T21:06:05.080468+00:00'),
 (317227631, 1, 1, 1, 0, 8, 'Mogakamo/C-Programming', 'This is a project that shows my milestone while learning the C Programming language and can be a good starter for any beginner who really wants to make a try on this language', ARRAY['Mogakamo'], '2022-02-24T21:06:05.080468+00:00'),
+(317286633, 43, 0, 1, 0, 9, 'ivodolenc/nuxt-animejs', 'Anime.js module for Nuxt.js', ARRAY['ivodolenc'], '2022-02-24T21:06:05.080468+00:00'),
 (317529902, 1, 0, 1, 0, 7, 'Mogakamo/vaccine-management-system', null, ARRAY['Mogakamo'], '2022-02-24T21:06:05.080468+00:00'),
 (317539399, 82, 2, 1, 0, 27, 'SAP/project-portal-for-innersource', 'Lists all InnerSource projects of a company in an interactive and easy to use way. Can be used as a template for implementing the ''InnerSource portal'' pattern by the InnerSource Commons community.', ARRAY['Michadelic', 'spier'], '2022-02-24T21:06:05.080468+00:00'),
 (317694024, 1, 0, 1, 0, 6, 'LEARNAcademy/jumpstart', null, ARRAY['rachaelstanislaw', 'minachuong'], '2022-02-24T21:06:05.080468+00:00'),

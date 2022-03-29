@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T12:53:41.104Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T14:43:27.944Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -301,9 +301,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (292, 7293310, 438410446, 0, 8, 1, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-24T21:07:34.596111'),
 (293, 7293310, 296968123, 1, 0, 8, 'Dragicafit/Anime-Watch-Parties', 'A cross-platform extension that synchronizes videos on major anime websites.', ARRAY['Dragicafit'], '2022-02-24T21:07:34.596111'),
 (294, 7293310, 80669528, 2, 122, 1144, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-24T21:07:34.596111'),
-(297, 7293310, 236156799, 5, 2, 21, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (295, 7293310, 1430051, 3, 5, 814, 'TYPO3/typo3', 'The TYPO3 Core - Enterprise Content Management System. Synchronized mirror of https://review.typo3.org/Packages/TYPO3.CMS', ARRAY['bmack', 'lolli42'], '2022-02-24T21:07:34.596111'),
 (296, 7293310, 179344069, 4, 117, 598, 'woodpecker-ci/woodpecker', 'Woodpecker is a community fork of the Drone CI system.', ARRAY['bradrydzewski', 'laszlocph'], '2022-02-24T21:07:34.596111'),
+(297, 7293310, 236156799, 5, 2, 21, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-24T21:07:34.596111'),
 (298, 7293310, 394368306, 6, 1, 1, 'saitho/discord-bot-reloaded', 'Re-iteration of my Discord bot to use Slash Commands API', ARRAY['saitho'], '2022-02-24T21:07:34.596111'),
 (299, 7293310, 186702057, 7, 159, 280, 'solid/specification', 'Solid Technical Reports', ARRAY['csarven', 'RubenVerborgh'], '2022-02-24T21:07:34.596111'),
 (300, 7293310, 348060227, 8, 118, 8725, 'withastro/astro', '🚀🧑‍🚀 Keep your eyes to the skies, astronauts', ARRAY['FredKSchott', 'matthewp'], '2022-02-24T21:07:34.596111'),
@@ -311,9 +311,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (302, 7293310, 163883279, 10, 72, 20036, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-24T21:07:34.596111'),
 (303, 7293310, 378449409, 11, 0, 34, 'mame82/LucaAppIssues', 'Dokumentation zu Fehlern im Fachsystem Luca (und der LucaApp)', ARRAY['mame82'], '2022-02-24T21:07:34.596111'),
 (304, 7293310, 332757634, 12, 8, 3633, 'jonasstrehle/supercookie', '⚠️ Browser fingerprinting via favicon!', ARRAY['jonasstrehle', 'szepeviktor'], '2022-02-24T21:07:34.596111'),
+(305, 7293310, 41766002, 13, 1717, 14778, 'ampproject/amphtml', 'The AMP web component framework.', ARRAY['dvoytenko', 'renovate-bot'], '2022-02-24T21:07:34.596111'),
 (306, 7293310, 360512124, 14, 1, 110, 'sebinside/WissenschaftlichesSchreiben-Schnelleinstieg', 'Wissenschaftliches Schreiben folgt vielen Regeln, die gerade für Unerfahrene verwirrend wirken können. Dieses Dokument dient hierfür als Schnelleinstieg sowie als Zusammenfassung üblicher Werkzeuge für die Erstellung von LaTeX-Dokumenten.', ARRAY['sebinside', 'dfuchss'], '2022-02-24T21:07:34.596111'),
 (307, 7293310, 11423758, 15, 14, 11631, 'mame/quine-relay', 'An uroboros program with 100+ programming languages', ARRAY['mame', 'pczarn'], '2022-02-24T21:07:34.596111'),
-(305, 7293310, 41766002, 13, 1717, 14778, 'ampproject/amphtml', 'The AMP web component framework.', ARRAY['dvoytenko', 'renovate-bot'], '2022-02-24T21:07:34.596111'),
 (308, 7293310, 303830736, 16, 9, 154, 'tidbyt/pixlet', 'Build apps for pixel-based displays.', ARRAY['matslina', 'rohansingh'], '2022-02-24T21:07:34.596111'),
 (309, 7293310, 41638869, 17, 19, 1401, 'httpcats/http.cat', ':cat: HTTP Cats API', ARRAY['rogeriopvl', 'girliemac'], '2022-02-24T21:07:34.596111'),
 (310, 7293310, 71485542, 18, 196, 1482, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-24T21:07:34.596111'),
@@ -1313,15 +1313,15 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (1321, 12826225, 255074156, 2, 36, 634, 'ayoolaolafenwa/PixelLib', 'Visit PixelLib''s official documentation  https://pixellib.readthedocs.io/en/latest/', ARRAY['ayoolaolafenwa', 'elbruno'], '2022-02-24T21:07:34.596111'),
 (1322, 12826225, 319302752, 3, 64, 1311, 'whittlem/pycryptobot', 'Python Crypto Bot', ARRAY['whittlem', 'markhollingworth-worthit'], '2022-02-24T21:07:34.596111'),
 (1323, 12826225, 350831642, 4, 1, 1172, 'geerlingguy/internet-monitoring', 'Monitor your network and internet speed with Docker & Prometheus', ARRAY['vegasbrianc', 'geerlingguy'], '2022-02-24T21:07:34.596111'),
-(1324, 12826225, 48242990, 5, 156, 10256, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-24T21:07:34.596111'),
-(1325, 12826225, 76840113, 6, 0, 4, 'ivbeg/awesome-public-datasets', 'An awesome list of high-quality open datasets in public domains (on-going). By everyone, for everyone!', ARRAY['caesar0301', 'ReadmeCritic'], '2022-02-24T21:07:34.596111'),
-(1326, 12826225, 85031126, 7, 0, 1080, 'ivbeg/awesome-status-pages', 'Awesome list of status page open source software, services and public status pages of major internet companies', ARRAY['ivbeg', 'mynameismax'], '2022-02-24T21:07:34.596111'),
 (1327, 12826225, 9754983, 8, 51, 28661, 'eugenp/tutorials', 'Just Announced - ''Learn Spring Security OAuth'': ', ARRAY['lor6', 'johnA1331'], '2022-02-24T21:07:34.596111'),
 (1328, 29004466, 370470353, 0, 0, 1, 'ViktorStiskala/tyre-energy-label', 'EU tyre label generator', ARRAY['ViktorStiskala'], '2022-02-24T21:07:34.596111'),
 (1329, 29004466, 14098121, 1, 57, 27254, 'aosabook/500lines', '500 Lines or Less', ARRAY['MichaelDiBernardo', 'dessy'], '2022-02-24T21:07:34.596111'),
 (1330, 29004466, 5903845, 2, 8, 238, 'staticjinja/staticjinja', 'Minimalist Python library for building static websites with Jinja', ARRAY['NickCrews', 'Ceasar'], '2022-02-24T21:07:34.596111'),
+(1324, 12826225, 48242990, 5, 156, 10256, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-24T21:07:34.596111'),
+(1325, 12826225, 76840113, 6, 0, 4, 'ivbeg/awesome-public-datasets', 'An awesome list of high-quality open datasets in public domains (on-going). By everyone, for everyone!', ARRAY['caesar0301', 'ReadmeCritic'], '2022-02-24T21:07:34.596111'),
 (1331, 29004466, 235469871, 3, 304, 1548, 'dotnet/interactive', '.NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn''t before.', ARRAY['colombod', 'jonsequitur'], '2022-02-24T21:07:34.596111'),
 (1332, 29004466, 123625732, 4, 305, 6552, 'microsoft/fast', 'The adaptive interface system for modern web experiences.', ARRAY['janechu', 'chrisdholt'], '2022-02-24T21:07:34.596111'),
+(1326, 12826225, 85031126, 7, 0, 1080, 'ivbeg/awesome-status-pages', 'Awesome list of status page open source software, services and public status pages of major internet companies', ARRAY['ivbeg', 'mynameismax'], '2022-02-24T21:07:34.596111'),
 (1333, 29004466, 95011980, 5, 50, 6029, 'go-ego/riot', 'Go Open Source, Distributed, Simple and efficient Search Engine; Warning: This is V1 and beta version, because of big memory consume, and the V2 will be rewrite all code.', ARRAY['vcaesar', 'szyhf'], '2022-02-24T21:07:34.596111'),
 (1334, 29004466, 21827146, 6, 54, 13492, 'chrislusf/seaweedfs', 'SeaweedFS is a fast distributed storage system for blobs, objects, files, and data lake, for billions of files! Blob store has O(1) disk seek, cloud tiering. Filer supports Cloud Drive, cross-DC active-active replication, Kubernetes, POSIX FUSE mount, S3 API, S3 Gateway, Hadoop, WebDAV, encryption, Erasure Coding.', ARRAY['chrislusf', 'kmlebedev'], '2022-02-24T21:07:34.596111'),
 (1335, 29004466, 130464961, 7, 115, 30920, 'sharkdp/bat', 'A cat(1) clone with wings.', ARRAY['sharkdp', 'Enselic'], '2022-02-24T21:07:34.596111'),

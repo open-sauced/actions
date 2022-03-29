@@ -1,5 +1,5 @@
 --
--- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T12:53:40.891Z
+-- Data for Name: stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-29T14:43:27.204Z
 -- COPY stars(id, stargazers_count, open_issues_count, forks_count, full_name, created_at) FROM 'stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2251,8 +2251,8 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (277911948, 183, 1, 19, 'bdougie/awesome-black-developers', '2022-02-24T21:07:06.457173+00:00'),
 (351958053, 1658, 35, 78, 'giscus/giscus', '2022-02-24T21:07:06.457173+00:00'),
 (42033086, 10293, 152, 1458, 'styleguidist/react-styleguidist', '2022-02-24T21:07:06.457173+00:00'),
-(226207937, 4405, 42, 153, 'airbnb/ts-migrate', '2022-02-24T21:07:06.457173+00:00'),
 (185054404, 18, 0, 6, 'GoogleCloudPlatform/air-draw-demo', '2022-02-24T21:07:06.457173+00:00'),
+(226207937, 4405, 42, 153, 'airbnb/ts-migrate', '2022-02-24T21:07:06.457173+00:00'),
 (338590340, 341, 9, 0, 'lucydsl/liblucy', '2022-02-24T21:07:06.457173+00:00'),
 (216906912, 171, 4, 11, 'ideditor/country-coder', '2022-02-24T21:07:06.457173+00:00'),
 (178137889, 3, 0, 0, 'mpsalisbury/raytracer', '2022-02-24T21:07:06.457173+00:00'),
@@ -2338,6 +2338,7 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (263496339, 8, 3, 4, 'starcrouz/plextheme-reading', '2022-02-24T21:07:06.457173+00:00'),
 (304563696, 226, 3, 8, 'lemonadejs/lemonadejs', '2022-02-24T21:07:06.457173+00:00'),
 (280068470, 832, 20, 22, 'Brooooooklyn/swc-node', '2022-02-24T21:07:06.457173+00:00'),
+(11423758, 11901, 14, 536, 'mame/quine-relay', '2022-02-24T21:07:06.457173+00:00'),
 (115039706, 8464, 988, 863, 'rust-analyzer/rust-analyzer', '2022-02-24T21:07:06.457173+00:00'),
 (292781184, 342, 0, 9, 'tc39/proposal-error-cause', '2022-02-24T21:07:06.457173+00:00'),
 (91599439, 42, 9, 43, 'KatDevsGames/z3randomizer', '2022-02-24T21:07:06.457173+00:00'),
@@ -2385,7 +2386,6 @@ INSERT INTO stars(id, stargazers_count, open_issues_count, forks_count, full_nam
 (272597848, 1, 7, 2, '20BBrown14/digital-terrain-mc-js', '2022-02-24T21:07:06.457173+00:00'),
 (130879558, 7471, 806, 782, 'gitpod-io/gitpod', '2022-02-24T21:07:06.457173+00:00'),
 (41638869, 1511, 21, 81, 'httpcats/http.cat', '2022-02-24T21:07:06.457173+00:00'),
-(11423758, 11901, 14, 536, 'mame/quine-relay', '2022-02-24T21:07:06.457173+00:00'),
 (31315121, 7850, 169, 703, 'clap-rs/clap', '2022-02-24T21:07:06.457173+00:00'),
 (252029824, 202, 39, 41, 'BabylonJS/BabylonReactNative', '2022-02-24T21:07:06.457173+00:00'),
 (287741624, 1, 0, 0, 'ugwustanley/ReadMe-generator', '2022-03-02T07:08:26.780942+00:00'),
