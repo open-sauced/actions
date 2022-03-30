@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T16:49:31.885Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T18:46:24.010Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1065,8 +1065,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:06:05.080468+00:00'),
 (70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-24T21:06:05.080468+00:00'),
 (71002855, 12, 0, 1, 0, 6, 'muryoimpl/slippr', 'markdown presentation app by Electron', ARRAY['muryoimpl', 'takkanm'], '2022-02-24T21:06:05.080468+00:00'),
-(71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-24T21:06:05.080468+00:00'),
 (71133469, 4594, 77, 1, 0, 18, 'reviewdog/reviewdog', '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ARRAY['haya14busa', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
+(71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-24T21:06:05.080468+00:00'),
 (71230327, 559, 18, 1, 0, 24, 'spring-projects-experimental/spring-boot-thin-launcher', 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', ARRAY['dsyer', 'mnewquis'], '2022-02-24T21:06:05.080468+00:00'),
 (71293321, 10170, 222, 1, 0, 18, 'diegomura/react-pdf', '📄  Create PDF files using React', ARRAY['diegomura', 'jeetiss'], '2022-02-24T21:06:05.080468+00:00'),
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-24T21:06:05.080468+00:00'),
