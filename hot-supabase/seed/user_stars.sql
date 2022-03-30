@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T01:02:49.886Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T03:00:51.389Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4302,6 +4302,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (307155109, 12400445, 4311796, 16, 311, 54769, 'adam-p/markdown-here', 'Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.', ARRAY['adam-p', 'wm8120'], '2022-02-24T21:07:34.596111'),
 (376456966, 118037, 159981830, 29, 23, 10296, 'khanhas/spicetify-cli', 'Commandline tool to customize Spotify client. Supports Windows, MacOS and Linux.', ARRAY['khanhas', 'afonsojramos'], '2022-02-24T21:07:34.596111'),
 (353612066, 31478648, 161691324, 29, 30, 1640, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 4, 644, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'mwarger'], '2022-02-24T21:07:34.596111'),
 (353272785, 46935495, 193761872, 3, 0, 3, 'fireworks-world/SplashScreen_Animation', 'Android Traing Practicals', ARRAY['saha2201', 'fireworks-world'], '2022-02-24T21:07:34.596111'),
 (442470627, 24606613, 6106472, 8, 14, 1279, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-24T21:07:34.596111'),
 (373584272, 24217493, 340306054, 2, 0, 1, 'Jussii/JunctionAppTesting', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-24T21:07:34.596111'),
@@ -4310,7 +4311,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (321809845, 907680, 70908474, 29, 62, 939, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (398934860, 34903088, 396613541, 29, 2, 395, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'zheeeng'], '2022-02-24T21:07:34.596111'),
 (353169129, 72912813, 214587193, 0, 258, 30305, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 38131381, 29, 3, 644, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'mwarger'], '2022-02-24T21:07:34.596111'),
 (375762962, 11777161, 25304276, 29, 127, 127, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:07:34.596111'),
 (352793229, 22655167, 126813008, 29, 0, 833, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
 (374469734, 1228996, 20619036, 29, 32, 35564, 'pi-hole/pi-hole', 'A black hole for Internet advertisements', ARRAY['DL6ER', 'PromoFaux'], '2022-02-24T21:07:34.596111'),
@@ -4329,7 +4329,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (374153645, 3861088, 11829145, 29, 74, 16715, 'basecamp/trix', 'A rich text editor for everyday writing', ARRAY['javan', 'sstephenson'], '2022-02-24T21:07:34.596111'),
 (374676867, 6265396, 63476337, 29, 247, 133417, 'TheAlgorithms/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-24T21:07:34.596111'),
 (423914895, 19617280, 333980205, 29, 0, 142, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 157397583, 29, 50, 8739, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 51, 8747, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (417381369, 79887, 2928944, 29, 1626, 3406, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:07:34.596111'),
 (360558767, 2808728, 22887094, 29, 357, 44524, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-24T21:07:34.596111'),
 (361187808, 1295334, 1300192, 18, 14503, 10959, 'octocat/Spoon-Knife', 'This repo is for demonstration purposes only.', ARRAY['octocat'], '2022-02-24T21:07:34.596111'),
