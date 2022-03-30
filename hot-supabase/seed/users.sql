@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T12:53:39.205Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T14:43:20.697Z
 -- COPY users(id, open_issues, private, stars_data, login, created_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -167,15 +167,14 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (3037127, 6, false, true, 'cpretzer', '2022-02-25T08:34:30.116922+00:00'),
 (4199845, 6, false, true, 'Wachiwi', '2022-02-24T21:07:48.046487+00:00'),
 (1884246, 2, false, true, 'zaosoula', '2022-02-24T21:07:48.046487+00:00'),
+(14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
 (88631894, 0, false, true, 'Aarondevp', '2022-02-24T21:07:48.046487+00:00'),
 (61815862, 2, false, true, 'thebiblelover7', '2022-02-24T21:07:48.046487+00:00'),
-(14043845, 10, false, true, 'jasonericdavis', '2022-02-25T08:43:43.030066+00:00'),
 (20733994, 1, false, true, 'HeVictor', '2022-02-27T20:34:44.553855+00:00'),
 (57008950, 0, false, true, 'prasadbobby', '2022-02-24T21:07:48.046487+00:00'),
 (13867651, 2, false, true, 'cescfamadas', '2022-03-01T20:12:23.330321+00:00'),
 (45293863, 0, true, true, 'bagatka', '2022-02-24T21:07:48.046487+00:00'),
 (10951893, 2, false, true, 'jramirez857', '2022-02-24T21:07:48.046487+00:00'),
-(5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (29417643, 0, false, true, 'ASRicketts', '2022-02-24T21:07:48.046487+00:00'),
 (20134767, 0, false, true, 'notBdougie', '2022-02-24T21:07:48.046487+00:00'),
 (505751, 4, false, true, 'KengoTODA', '2022-02-24T21:07:48.046487+00:00'),
@@ -226,6 +225,7 @@ INSERT INTO users(id, open_issues, private, stars_data, login, created_at) VALUE
 (60147716, 0, false, true, 'saurabh-33', '2022-03-03T14:48:54.628921+00:00'),
 (85258143, 0, false, true, 'oscakampala', '2022-02-24T21:07:48.046487+00:00'),
 (22186029, 0, true, true, 'BenjaminMichaelis', '2022-02-24T21:07:48.046487+00:00'),
+(5713670, 14, false, true, 'bdougie', '2022-02-24T21:07:48.046487+00:00'),
 (7222344, 0, false, true, 'MattPostlethwaite', '2022-03-08T22:38:44.391293+00:00'),
 (11030551, 0, false, true, 'DavidMerenyi', '2022-03-15T14:38:35.989557+00:00'),
 (13059091, 0, false, true, 'ifoi', '2022-03-07T23:20:37.011893+00:00'),

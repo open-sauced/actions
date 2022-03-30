@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T12:53:39.643Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-30T14:43:20.961Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3964,6 +3964,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3969, 35005125, 169529444, 24, 0, 9, 'skycoin/arena', null, ARRAY['gz-c', 'jdknives'], '2022-02-24T21:07:34.596111'),
 (3970, 35005125, 1334369, 25, 48, 50406, 'resume/resume.github.com', 'Resumes generated using the GitHub informations', ARRAY['u2', 'NumEricR'], '2022-02-24T21:07:34.596111'),
 (3971, 35005125, 273019730, 26, 20, 24, 'etesync/etebase-docs', 'The Etebase documentation', ARRAY['tasn', 'Salt-Factory'], '2022-02-24T21:07:34.596111'),
+(3972, 35005125, 106017343, 27, 77, 51300, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:07:34.596111'),
 (3973, 35005125, 21737465, 28, 36, 181073, 'sindresorhus/awesome', '😎 Awesome lists about all kinds of interesting topics', ARRAY['sindresorhus', 'davisonio'], '2022-02-24T21:07:34.596111'),
 (3974, 35005125, 11180687, 29, 717, 56014, 'gohugoio/hugo', 'The world’s fastest framework for building websites.', ARRAY['bep', 'spf13'], '2022-02-24T21:07:34.596111'),
 (3975, 5467696, 326404870, 0, 189, 5444, 'SigNoz/signoz', 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', ARRAY['ankitnayan', 'pal-sig'], '2022-02-24T21:07:34.596111'),
@@ -4020,7 +4021,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (4026, 26205172, 76694515, 6, 19, 11059, 'hotwired/stimulus', 'A modest JavaScript framework for the HTML you already have', ARRAY['sstephenson', 'javan'], '2022-02-24T21:07:34.596111'),
 (4027, 26205172, 3721224, 7, 152, 29581, 'nolimits4web/swiper', 'Most modern mobile touch slider with hardware accelerated transitions', ARRAY['nolimits4web', 'vltansky'], '2022-02-24T21:07:34.596111'),
 (4028, 26205172, 2126244, 8, 463, 154584, 'twbs/bootstrap', 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', ARRAY['mdo', 'cvrebert'], '2022-02-24T21:07:34.596111'),
-(3972, 35005125, 106017343, 27, 77, 51300, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:07:34.596111'),
 (4029, 26205172, 87973266, 9, 191, 2216, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-24T21:07:34.596111'),
 (4030, 26205172, 119693982, 10, 20, 7786, 'jamiebuilds/unstated', 'State so simple, it goes without saying', ARRAY['jamiebuilds', 'willmendesneto'], '2022-02-24T21:07:34.596111'),
 (4031, 26205172, 10270250, 11, 922, 179681, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-24T21:07:34.596111'),
@@ -4293,6 +4293,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
 (259232283, 10012151, 18442377, 8, 0, 13520, 'lewagon/dotfiles', 'Default configuration for Le Wagon''s students', ARRAY['ssaunier', 'dmilon'], '2022-02-24T21:07:34.596111'),
 (374469734, 1228996, 20619036, 29, 32, 35571, 'pi-hole/pi-hole', 'A black hole for Internet advertisements', ARRAY['DL6ER', 'PromoFaux'], '2022-02-24T21:07:34.596111'),
+(275257239, 14043845, 38131381, 29, 4, 645, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'mwarger'], '2022-02-24T21:07:34.596111'),
 (442470627, 24606613, 6106472, 8, 14, 1279, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-24T21:07:34.596111'),
 (382194702, 7860023, 32280638, 8, 8, 1912, 'bonigarcia/webdrivermanager', 'Automated driver management and Docker builder for Selenium WebDriver', ARRAY['bonigarcia', 'altus34'], '2022-02-24T21:07:34.596111'),
 (420634958, 12410942, 2371106, 29, 58, 15934, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:07:34.596111'),
@@ -4301,7 +4302,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (323523231, 55907631, 209391513, 29, 30, 1078, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
 (375776088, 3340406, 219294494, 29, 11, 3212, 'xxh/xxh', '🚀 Bring your favorite shell wherever you go through the ssh.', ARRAY['anki-code', 'drmikecrowe'], '2022-02-24T21:07:34.596111'),
 (353612066, 31478648, 161691324, 29, 30, 1641, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:07:34.596111'),
-(275257239, 14043845, 38131381, 29, 4, 644, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'mwarger'], '2022-02-24T21:07:34.596111'),
 (353169129, 72912813, 214587193, 0, 262, 30343, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:07:34.596111'),
 (361357857, 51794934, 342191787, 1, 0, 24, 'LambdaSchool/build-week-scaffolding-node', null, ARRAY['Ladrillo'], '2022-02-24T21:07:34.596111'),
 (307155109, 12400445, 4311796, 16, 311, 54770, 'adam-p/markdown-here', 'Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.', ARRAY['adam-p', 'wm8120'], '2022-02-24T21:07:34.596111'),
@@ -4329,8 +4329,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (374676867, 6265396, 63476337, 29, 248, 133500, 'TheAlgorithms/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-24T21:07:34.596111'),
 (374153645, 3861088, 11829145, 29, 74, 16716, 'basecamp/trix', 'A rich text editor for everyday writing', ARRAY['javan', 'sstephenson'], '2022-02-24T21:07:34.596111'),
 (423914895, 19617280, 333980205, 29, 0, 142, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:07:34.596111'),
-(208603857, 5713670, 157397583, 29, 51, 8747, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (418295712, 71458737, 51595028, 0, 79, 1328, 'OPCFoundation/UA-.NETStandard', 'OPC Unified Architecture .NET Standard', ARRAY['mregen', 'barnstee'], '2022-02-24T21:07:34.596111'),
+(208603857, 5713670, 157397583, 29, 51, 8749, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:07:34.596111'),
 (360558767, 2808728, 22887094, 29, 356, 44530, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-24T21:07:34.596111'),
 (417381369, 79887, 2928944, 29, 1631, 3409, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:07:34.596111'),
 (351754863, 3754311, 132750724, 29, 213, 136861, 'danistefanovic/build-your-own-x', '🤓 Build your own (insert technology here)', ARRAY['danistefanovic', 'bauripalash'], '2022-02-24T21:07:34.596111'),
