@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T06:46:43.952Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T08:43:57.747Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -138,8 +138,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (2198271, 1, 0, 1, 0, 9, 'jwalter/fivexfive', null, ARRAY['jwalter'], '2022-02-24T21:06:05.080468+00:00'),
 (2206953, 21807, 12, 2, 0, 16.5, 'tj/commander.js', 'node.js command-line interfaces made easy', ARRAY['shadowspawn', 'tj'], '2022-02-24T21:06:05.080468+00:00'),
 (2238035, 4347, 33, 1, 0, 9, 'tpope/vim-commentary', 'commentary.vim: comment stuff out', ARRAY['tpope', 'chaoren'], '2022-02-24T21:06:05.080468+00:00'),
-(2271913, 1, 0, 1, 0, 20, 'gwincr11/cognition-caps', 'Web app which will power the Cognition Caps website', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:06:05.080468+00:00'),
 (2247604, 400, 11, 1, 0, 25, 'joaomatossilva/DateTimeExtensions', 'This project is a merge of several common DateTime operations on the form of  extensions to System.DateTime, including natural date difference text (precise and human rounded), holidays and working days calculations on several culture locales.', ARRAY['joaomatossilva', 'schulz3000'], '2022-02-24T21:06:05.080468+00:00'),
+(2271913, 1, 0, 1, 0, 20, 'gwincr11/cognition-caps', 'Web app which will power the Cognition Caps website', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:06:05.080468+00:00'),
 (2371106, 15846, 59, 2, 0, 19, 'rubocop/ruby-style-guide', 'A community-driven Ruby coding style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:06:05.080468+00:00'),
 (2454047, 6179, 13, 1, 0, 8, 'rubocop/rails-style-guide', 'A community-driven Ruby on Rails style guide', ARRAY['bbatsov', 'koic'], '2022-02-24T21:06:05.080468+00:00'),
 (2476162, 6696, 184, 1, 0, 22, 'fail2ban/fail2ban', 'Daemon to ban hosts that cause multiple authentication errors', ARRAY['sebres', 'yarikoptic'], '2022-02-24T21:06:05.080468+00:00'),
