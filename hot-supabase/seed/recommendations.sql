@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T14:43:22.438Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T16:51:18.807Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1904,10 +1904,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175055371, 32, 6, 1, 0, 15, 'manios/docker-nagios', 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', ARRAY['manios'], '2022-02-24T21:06:05.080468+00:00'),
 (175176201, 8354, 5, 1, 0, 0, 'alexfoxy/lax.js', 'Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.', ARRAY['alexfoxy', 'afanjul'], '2022-02-24T21:06:05.080468+00:00'),
 (175219507, 122, 1, 1, 0, 11, 'chimay/wheel', 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', ARRAY['chimay'], '2022-02-24T21:06:05.080468+00:00'),
+(175317664, 23, 0, 1, 0, 18, 'br3ndonland/dotfiles', 'Computer setup and settings. Apple Silicon ready.', ARRAY['br3ndonland'], '2022-02-24T21:06:05.080468+00:00'),
 (175405157, 3787, 29, 1, 0, 24, 'JanDeDobbeleer/oh-my-posh', 'A prompt theme engine for any shell.', ARRAY['JanDeDobbeleer', 'lnu'], '2022-02-24T21:06:05.080468+00:00'),
 (175425051, 2523, 359, 1, 0, 2, 'kumahq/kuma', '🐻 The Universal Service Mesh. CNCF Sandbox Project.', ARRAY['yskopets', 'jakubdyszkiewicz'], '2022-02-24T21:06:05.080468+00:00'),
 (175565742, 3, 0, 1, 0, 20, 'BaseMax/NumbersToWordsPHP', 'Tiny library to convert numbers to words. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
-(175317664, 23, 0, 1, 0, 18, 'br3ndonland/dotfiles', 'Computer setup and settings. Apple Silicon ready.', ARRAY['br3ndonland'], '2022-02-24T21:06:05.080468+00:00'),
 (175666043, 477, 93, 1, 0, 2, 'microsoft/vscode-edge-devtools', 'A VSCode extension that allows you to use browser devtools from within the editor. The devtools will connect to an instance of Microsoft Edge giving you the ability to alter CSS styling, perform diagnostics, and debugging. Get it now at http://aka.ms/devtools-for-code', ARRAY['mliao95', 'vidorteg'], '2022-02-24T21:06:05.080468+00:00'),
 (175681313, 744, 31, 1, 0, 13, 'joernio/joern', 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', ARRAY['fabsx00', 'mpollmeier'], '2022-02-24T21:06:05.080468+00:00'),
 (175685939, 47, 2, 1, 0, 11, 'JoonasN/Flutter-Speed-coding---Greenery-App', null, ARRAY['ivangn03'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3229,6 +3229,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (363500480, 1, 0, 1, 0, 20, 'Helewud/Vidly', null, ARRAY['Helewud'], '2022-02-24T21:06:05.080468+00:00'),
 (363558647, 22, 0, 2, 0, 14, 'theodorusclarence/vite-react-tailwind-starter', '==== No longer actively maintained ==== Vite + React + Tailwindcss starter. React Router, and React Helmet preconfigured.', ARRAY['theodorusclarence'], '2022-02-24T21:06:05.080468+00:00'),
 (363743878, 1, 0, 1, 0, 14, 'LoreLosi72/InTuneMusicBot', 'Bot di Telegram sulla musica', ARRAY['LoreLosi72'], '2022-02-24T21:06:05.080468+00:00'),
+(363821528, 18, 0, 1, 0, 1, 'sonjiku/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-24T21:06:05.080468+00:00'),
+(363943607, 2, 0, 1, 0, 28, 'udberg/Todo-List', null, ARRAY['keneogu', 'udberg'], '2022-02-24T21:06:05.080468+00:00'),
+(363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
 (363994683, 7, 10, 1, 0, 22, 'GSA/usagov-benefits-eligibility', 'This is the for the benefits eligibility website for usa.gov.', ARRAY['r-bartlett-gsa', 'sknep'], '2022-02-24T21:06:05.080468+00:00'),
 (364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
 (364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3253,10 +3256,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (366126259, 73, 0, 1, 0, 4, 'slidevjs/themes', 'Official themes for Slidev', ARRAY['antfu', 'JeremyMeissner'], '2022-02-24T21:06:05.080468+00:00'),
 (366397300, 643, 3, 1, 0, 27, 'TheZoraiz/ascii-image-converter', 'A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!', ARRAY['TheZoraiz', 'xmarcos'], '2022-02-24T21:06:05.080468+00:00'),
 (366844495, 1883, 196, 1, 0, 5, 'stackblitz/webcontainer-core', null, ARRAY['EricSimons', 'sulco'], '2022-02-24T21:06:05.080468+00:00'),
-(363821528, 18, 0, 1, 0, 1, 'sonjiku/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-24T21:06:05.080468+00:00'),
-(363943607, 2, 0, 1, 0, 28, 'udberg/Todo-List', null, ARRAY['keneogu', 'udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (366871642, 6, 6, 1, 0, 0, 'deepgram/python-sdk', 'Official Python SDK for Deepgram''s automated speech recognition APIs.', ARRAY['frumsdotxyz', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
-(363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
 (367045564, 549, 9, 1, 0, 25, 'trekhleb/self-parking-car-evolution', '🧬 Training the car to do self-parking using a genetic algorithm', ARRAY['trekhleb', 'martincostello'], '2022-02-24T21:06:05.080468+00:00'),
 (367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-24T21:06:05.080468+00:00'),
 (367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-24T21:06:05.080468+00:00'),
