@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T01:03:54.341Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-03-31T02:59:18.378Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2896,9 +2896,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (315741849, 685, 9, 1, 0, 25, 'maxkeppeler/sheets', '⭐ ‎‎‎‏‏‎ ‎Offers a range of beautiful sheets (dialogs & bottom sheets) for quick use in your project. Includes many  ways to customize sheets.', ARRAY['maxkeppeler', 'Nthily'], '2022-02-24T21:06:05.080468+00:00'),
 (315776414, 6, 0, 1, 0, 18, 'callowcreation/banwannabefamousbots', 'ban wanna be famous bots', ARRAY['callowcreation'], '2022-02-24T21:06:05.080468+00:00'),
 (315780024, 1, 0, 1, 0, 1, 'ColomboJuan/CountDownMyBirthDay', ' https://colombojuan.github.io/CountDownMyBirthDay/', ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
-(315782535, 69, 7, 1, 0, 27, 'SaraVieira/blender-resources', 'A list of resources and tools that have helped me learn blender', ARRAY['SaraVieira', 'mikeesto'], '2022-02-24T21:06:05.080468+00:00'),
 (315872513, 2, 0, 1, 0, 4, 'udberg/clone-new-york-times-article', 'This is a Clone of the New York Times Website to demonstrate the use of flex grid, float and positioning', ARRAY['udberg', 'KCnick'], '2022-02-24T21:06:05.080468+00:00'),
 (315899862, 29, 12, 1, 0, 1, 'POSSF/POSSF', 'Persian Open Source Software Festival - اولین جشنواره نرم افزار اوپن سورس فارسی (جشنواره متن باز و منبع باز فارسی)', ARRAY['BaseMax', 'alirezababae'], '2022-02-24T21:06:05.080468+00:00'),
+(315782535, 69, 7, 1, 0, 27, 'SaraVieira/blender-resources', 'A list of resources and tools that have helped me learn blender', ARRAY['SaraVieira', 'mikeesto'], '2022-02-24T21:06:05.080468+00:00'),
 (316078264, 1, 0, 1, 0, 2, 'ColomboJuan/PokemonApi', 'Simple app with PokemonApi.', ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (316188570, 1, 0, 1, 0, 0, 'Tom-Wyszkowski/Python', 'All Algorithms implemented in Python', ARRAY['harshildarji', 'cclauss'], '2022-02-24T21:06:05.080468+00:00'),
 (316281608, 675, 5, 1, 0, 21, 'artart222/CodeArt', 'Use NeoVim as general purpose IDE', ARRAY['artart222', 'Ashraf-wan'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3381,8 +3381,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383297241, 2, 0, 1, 0, 14, 'Chronofit/chrono-android', null, ARRAY['SVD6', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
 (383299223, 2, 0, 1, 0, 16, 'Chronofit/chrono-website', null, ARRAY['sahilsharma356', 'SVD6'], '2022-02-24T21:06:05.080468+00:00'),
 (383495767, 1, 1, 2, 0, 0, 'osoc21/wepod-sandbox', null, ARRAY['barbarebelge'], '2022-02-24T21:06:05.080468+00:00'),
-(383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:06:05.080468+00:00'),
 (383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
+(383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:06:05.080468+00:00'),
 (383784099, 37, 6, 1, 0, 6, 'microsoft/powerbi-client-angular', 'Power BI Angular component. This library lets you embed Power BI report, dashboard, dashboard tile, report visual, or Q&A in your Angular application.', ARRAY['parth-007', 'may-hartov'], '2022-02-24T21:06:05.080468+00:00'),
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-24T21:06:05.080468+00:00'),
 (383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-24T21:06:05.080468+00:00'),
