@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-01T16:52:09.651Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-01T18:46:40.767Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1190,8 +1190,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (83516498, 17279, 17, 1, 0, 21, 'norvig/pytudes', 'Python programs, usually short, of considerable difficulty, to perfect particular skills.', ARRAY['norvig', 'ghurley'], '2022-02-24T21:06:05.080468+00:00'),
 (83603533, 7254, 0, 1, 0, 1, 'felipefialho/frontend-challenges', ':boom: Listing some playful open-source''s challenges of companies to test your knowledge', ARRAY['felipefialho', 'kvnol'], '2022-02-24T21:06:05.080468+00:00'),
 (83716883, 7024, 32, 1, 0, 15, 'ngrx/platform', 'Reactive libraries for Angular', ARRAY['brandonroberts', 'timdeschryver'], '2022-02-24T21:06:05.080468+00:00'),
-(83720379, 643, 21, 1, 0, 26, 'AnomalyInnovations/serverless-stack-demo-client', 'Source for the demo app client in the Serverless Stack Guide', ARRAY['jayair', 'fwang'], '2022-02-24T21:06:05.080468+00:00'),
 (83821669, 3179, 706, 1, 0, 2, 'Qiskit/qiskit-terra', 'Qiskit is an open-source SDK for working with quantum computers at the level of extended quantum circuits, operators, and algorithms.', ARRAY['mtreinish', 'jaygambetta'], '2022-02-24T21:06:05.080468+00:00'),
+(83720379, 643, 21, 1, 0, 26, 'AnomalyInnovations/serverless-stack-demo-client', 'Source for the demo app client in the Serverless Stack Guide', ARRAY['jayair', 'fwang'], '2022-02-24T21:06:05.080468+00:00'),
 (83875228, 44, 2, 1, 0, 10, 'AndsonYe/MultipartEncoder', 'C++ implementation of encoding HTTP multipart/form-data into a string buffer for POST action in HTTP clients', ARRAY['AndsonYe'], '2022-02-24T21:06:05.080468+00:00'),
 (83889950, 63, 0, 1, 0, 2, 'ssddanbrown/sslcheck', 'Simple PHP script to check SSL expiry', ARRAY['ssddanbrown'], '2022-02-24T21:06:05.080468+00:00'),
 (83999700, 45685, 626, 1, 0, 0, 'sdmg15/Best-websites-a-programmer-should-visit', ':link: Some useful websites for programmers.', ARRAY['sdmg15', 'ityler'], '2022-02-24T21:06:05.080468+00:00'),
