@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-02T20:43:24.466Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-02T22:43:19.890Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -129,10 +129,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (2015790, 3, 0, 1, 0, 12, 'timwis/PhillySNAP-v1', 'PhillySNAP, an SMS-based application powered by Smsified, aims to connect low-income, technology isolated Philadelphia residents with local fresh food sources. It was developed by Deng-Shun Chang, Mark Headd, Katey Metzroth and Tim Wisniewski.', ARRAY['timwis'], '2022-02-24T21:06:05.080468+00:00'),
 (2019791, 2918, 560, 1, 0, 17, 'liquibase/liquibase', 'Main Liquibase Source', ARRAY['nvoxland', 'wwillard7800'], '2022-02-24T21:06:05.080468+00:00'),
 (2028724, 1174, 633, 1, 0, 28, 'cgeo/cgeo', 'c:geo - The powerful Android geocaching app.', ARRAY['Bananeweizen', 'samueltardieu'], '2022-02-24T21:06:05.080468+00:00'),
+(2122421, 3, 0, 1, 0, 21, 'lhanson/cognition-caps', 'Web app which formerly powered the Cognition Caps website (now defunct)', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:06:05.080468+00:00'),
 (2051226, 18155, 153, 1, 0, 13, 'eligrey/FileSaver.js', 'An HTML5 saveAs() FileSaver implementation', ARRAY['eligrey', 'jimmywarting'], '2022-02-24T21:06:05.080468+00:00'),
 (2096358, 14, 4, 1, 0, 24, 'rajkissu/brainfuck', 'A Brainfuck interpreter running on node.js', ARRAY['rajkissu'], '2022-02-24T21:06:05.080468+00:00'),
-(2122421, 3, 0, 1, 0, 21, 'lhanson/cognition-caps', 'Web app which formerly powered the Cognition Caps website (now defunct)', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:06:05.080468+00:00'),
-(2126244, 154584, 463, 1, 0, 8, 'twbs/bootstrap', 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', ARRAY['mdo', 'cvrebert'], '2022-02-24T21:06:05.080468+00:00'),
 (2151073, 65, 10, 1, 0, 11, 'SalesforceLabs/survey-force', null, ARRAY['jrattanpal', 'dschach'], '2022-02-24T21:06:05.080468+00:00'),
 (2185269, 4821, 21, 1, 0, 16, 'busyloop/lolcat', 'Rainbows and unicorns!', ARRAY['m-o-e', 'sunpoet'], '2022-02-24T21:06:05.080468+00:00'),
 (2198271, 1, 0, 1, 0, 9, 'jwalter/fivexfive', null, ARRAY['jwalter'], '2022-02-24T21:06:05.080468+00:00'),
@@ -212,6 +211,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (4132857, 2694, 176, 1, 0, 0, 'insanum/gcalcli', 'Google Calendar Command Line Interface', ARRAY['tresni', 'jcrowgey'], '2022-02-24T21:06:05.080468+00:00'),
 (4133393, 191, 30, 1, 0, 21, 'ejholmes/active_admin_editor', 'Rich text editor for Active Admin using wysihtml5.', ARRAY['ejholmes', 'masondesu'], '2022-02-24T21:06:05.080468+00:00'),
 (4137249, 1795, 131, 1, 0, 13, 'test-kitchen/test-kitchen', 'Test Kitchen is an integration tool for developing and testing infrastructure code and software on isolated target platforms.', ARRAY['fnichol', 'tas50'], '2022-02-24T21:06:05.080468+00:00'),
+(2126244, 154584, 463, 1, 0, 8, 'twbs/bootstrap', 'The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.', ARRAY['mdo', 'cvrebert'], '2022-02-24T21:06:05.080468+00:00'),
 (4157021, 22, 49, 1, 0, 8, 'geosolutions-it/geostore', 'Open Source Java enterprise application for storing, searching and retrieving data', ARRAY['mbarto', 'offtherailz'], '2022-02-24T21:06:05.080468+00:00'),
 (4164482, 61423, 163, 1, 0, 14, 'django/django', 'The Web framework for perfectionists with deadlines.', ARRAY['timgraham', 'adrianholovaty'], '2022-02-24T21:06:05.080468+00:00'),
 (4178258, 1218, 61, 1, 0, 4, 'dom96/jester', 'A sinatra-like web framework for Nim.', ARRAY['dom96', 'Araq'], '2022-02-24T21:06:05.080468+00:00'),
