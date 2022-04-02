@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-02T12:50:41.276Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-02T14:43:18.539Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1004,13 +1004,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (64558143, 30259, 132, 1, 0, 21, 'Blankj/AndroidUtilCode', ':fire: Android developers should collect the following utils(updating).', ARRAY['Blankj', 'CaiMengjie'], '2022-02-24T21:06:05.080468+00:00'),
 (64700934, 14464, 97, 1, 0, 24, 'OpenZeppelin/openzeppelin-contracts', 'OpenZeppelin Contracts is a library for secure smart contract development.', ARRAY['frangio', 'nventuro'], '2022-02-24T21:06:05.080468+00:00'),
 (64782550, 39, 1, 1, 0, 27, 'indiegogo/apple-pay-js-stubs', 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', ARRAY['glentregoning', 'julianguyen'], '2022-02-24T21:06:05.080468+00:00'),
+(64877453, 1024, 36, 1, 0, 25, 'paypal/paypal-checkout-components', 'Javascript Integration for PayPal Button and PayPal Checkout', ARRAY['bluepnume', 'gregjopa'], '2022-02-24T21:06:05.080468+00:00'),
+(64889181, 49, 13, 1, 0, 7, 'jmtyszka/bidskit', 'Utility functions for working with DICOM and BIDS neuroimaging data', ARRAY['jmtyszka', 'nair-r'], '2022-02-24T21:06:05.080468+00:00'),
 (65089884, 60, 2, 1, 0, 3, 'jonschlinkert/dry', 'Dry is a new template engine and language, and is a superset of Shopify''s Liquid, with first-class support for advanced inheritance features, and more. From the creators of Enquirer, Assemble, Remarkable, and Micromatch.', ARRAY['jonschlinkert'], '2022-02-24T21:06:05.080468+00:00'),
 (65144724, 2465, 42, 1, 0, 11, 'metakirby5/codi.vim', ':notebook_with_decorative_cover: The interactive scratchpad for hackers.', ARRAY['metakirby5', 'still-dreaming-1'], '2022-02-24T21:06:05.080468+00:00'),
 (65626639, 182, 3, 1, 0, 24, 'freeman-lab/pixel-grid', 'render a grid of small squares', ARRAY['freeman-lab', 'joehand'], '2022-02-24T21:06:05.080468+00:00'),
 (65678789, 13847, 32, 1, 0, 12, 'FormidableLabs/webpack-dashboard', 'A CLI dashboard for webpack dev server', ARRAY['kenwheeler', 'ryan-roemer'], '2022-02-24T21:06:05.080468+00:00'),
 (65750241, 15588, 1328, 2, 0, 16.5, 'expo/expo', 'An open-source platform for making universal native apps with React. Expo runs on Android, iOS, and the web.', ARRAY['brentvatne', 'terribleben'], '2022-02-24T21:06:05.080468+00:00'),
-(64877453, 1024, 36, 1, 0, 25, 'paypal/paypal-checkout-components', 'Javascript Integration for PayPal Button and PayPal Checkout', ARRAY['bluepnume', 'gregjopa'], '2022-02-24T21:06:05.080468+00:00'),
-(64889181, 49, 13, 1, 0, 7, 'jmtyszka/bidskit', 'Utility functions for working with DICOM and BIDS neuroimaging data', ARRAY['jmtyszka', 'nair-r'], '2022-02-24T21:06:05.080468+00:00'),
 (65772720, 3392, 1516, 1, 0, 9, 'docker/docker.github.io', 'Source repo for Docker''s Documentation', ARRAY['vieux', 'thaJeztah'], '2022-02-24T21:06:05.080468+00:00'),
 (65848095, 15013, 110, 1, 0, 17, 'Requarks/wiki', 'Wiki.js | A modern and powerful wiki app built on Node.js', ARRAY['NGPixel', 'regevbr'], '2022-02-24T21:06:05.080468+00:00'),
 (65915265, 313, 37, 1, 0, 19, 'cncf/foundation', '☁️♮🏛File non-technical issues related to CNCF', ARRAY['amye', 'caniszczyk'], '2022-02-24T21:06:05.080468+00:00'),

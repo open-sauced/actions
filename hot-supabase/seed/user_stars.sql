@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-02T12:50:41.519Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-02T14:43:18.876Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2799,10 +2799,10 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (2814, 28281924, 320609581, 20, 0, 1, 'HeavyBR/adventofcode', 'My solutions for Advent Of Code 2020, all of made with Go Language', ARRAY['HeavyBR'], '2022-02-24T21:07:34.596111'),
 (2815, 28281924, 234231371, 21, 50, 17421, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-24T21:07:34.596111'),
 (423938279, 20374545, 334465533, 0, 0, 1, 'Leonardo-Borba/auction-assistant', 'A bot to monitor MGT auctions and do automatic bids', ARRAY['Leonardo-Borba'], '2022-02-24T21:07:34.596111'),
+(276703311, 29888641, 196701619, 29, 153, 35731, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
 (430041297, 50591491, 49704723, 29, 125, 10026, 'okonet/lint-staged', '🚫💩 — Run linters on git staged files', ARRAY['okonet', 'iiroj'], '2022-02-24T21:07:34.596111'),
-(305063342, 622115, 3116751, 29, 50, 11169, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:07:34.596111'),
 (427924349, 2480219, 257404606, 29, 3, 55, 'textileio/js-examples', 'Examples and demos using Textile''s Javascript/Typescript libraries and clients.', ARRAY['andrewxhill', 'carsonfarmer'], '2022-02-24T21:07:34.596111'),
-(276703311, 29888641, 196701619, 29, 154, 35701, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
+(305063342, 622115, 3116751, 29, 50, 11169, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:07:34.596111'),
 (424103216, 2228196, 286132785, 29, 0, 1, 'lesmo/gitfolio', ':octocat: personal website + blog for every github user', ARRAY['imfunniee', 'bcliden'], '2022-02-24T21:07:34.596111'),
 (424109428, 88631894, 335819337, 0, 0, 1, 'MonkeDev/API-bot', 'The bot we use to manage our API.', ARRAY['Mafia-7777', 'BurnedBed'], '2022-02-24T21:07:34.596111'),
 (2816, 28281924, 237448876, 22, 10, 735, 'qiangxue/go-rest-api', 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', ARRAY['qiangxue', 'chartinmarrel'], '2022-02-24T21:07:34.596111'),
@@ -3752,8 +3752,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3756, 2237343, 289810394, 14, 7, 140, 'elewin/pi-weather-station', null, ARRAY['elewin'], '2022-02-24T21:07:34.596111'),
 (3757, 2237343, 30978978, 15, 119, 1302, 'jacobalberty/unifi-docker', 'Unifi Docker files', ARRAY['jacobalberty', 'rohanrns'], '2022-02-24T21:07:34.596111'),
 (3758, 2237343, 62712899, 16, 484, 9885, 'AdguardTeam/AdGuardHome', 'Network-wide ads & trackers blocking DNS server', ARRAY['szolin', 'ameshkov'], '2022-02-24T21:07:34.596111'),
-(3935, 3037127, 351914021, 0, 0, 16, 'adleong/tapshark', null, ARRAY['adleong'], '2022-02-24T21:07:34.596111'),
 (3759, 2237343, 241303926, 17, 0, 73, 'mikenye/docker-readsb', 'Multi-architecture readsb container with support for RTLSDR, bladeRF and plutoSDR (x86_64, arm32v7, arm64v8)', ARRAY['mikenye', 'SalazarBruno'], '2022-02-24T21:07:34.596111'),
+(3935, 3037127, 351914021, 0, 0, 16, 'adleong/tapshark', null, ARRAY['adleong'], '2022-02-24T21:07:34.596111'),
 (3760, 2237343, 167717410, 18, 3, 195, 'wiedehopf/graphs1090', 'Graphs for dump1090 (based on dump1090-tools by mutability)', ARRAY['wiedehopf', 'SaturnusDJ'], '2022-02-24T21:07:34.596111'),
 (3761, 2237343, 53631945, 19, 129, 28652, 'BurntSushi/ripgrep', 'ripgrep recursively searches directories for a regex pattern while respecting your gitignore', ARRAY['BurntSushi', 'okdana'], '2022-02-24T21:07:34.596111'),
 (3762, 2237343, 182764313, 20, 15, 510, 'wiedehopf/tar1090', 'Provides an improved webinterface for use with ADS-B decoders readsb / dump1090-fa', ARRAY['wiedehopf', 'vkirienko'], '2022-02-24T21:07:34.596111'),
@@ -4238,7 +4238,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (357041459, 16315404, 112507086, 1, 0, 93650, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-24T21:07:34.596111'),
 (357195439, 3941126, 9393759, 29, 175, 31506, 'photonstorm/phaser', 'Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.', ARRAY['photonstorm', 'pavle-goloskokovic'], '2022-02-24T21:07:34.596111'),
 (379993090, 57826091, 135786093, 29, 6, 32659, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-24T21:07:34.596111'),
-(278088103, 5467696, 257665403, 29, 27, 447, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-24T21:07:34.596111'),
+(314317770, 4573607, 49760504, 5, 5, 7430, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-24T21:07:34.596111'),
 (313760653, 3037127, 2349728, 25, 127, 9450, 'pockethub/PocketHub', 'PocketHub Android App', ARRAY['kevinsawicki', 'Meisolsson'], '2022-02-24T21:07:34.596111'),
 (379761757, 4247126, 196662111, 9, 0, 2, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-24T21:07:34.596111'),
 (379613100, 22154417, 311543987, 29, 8, 1, 'ReagentX/Logria', 'A powerful CLI tool that puts log analytics at your fingertips.', ARRAY['ReagentX'], '2022-02-24T21:07:34.596111'),
@@ -4247,7 +4247,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (354119247, 6935431, 13855476, 29, 62, 27438, 'go-gorm/gorm', 'The fantastic ORM library for Golang, aims to be developer friendly', ARRAY['jinzhu', 'emirb'], '2022-02-24T21:07:34.596111'),
 (354384496, 17671332, 369905667, 3, 13, 34, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-24T21:07:34.596111'),
 (353955008, 53687927, 345420003, 29, 0, 1, 'dwaipayan05/android-gif-drawable', 'Views and Drawable for displaying animated GIFs on Android', ARRAY['koral--', 'os97673'], '2022-02-24T21:07:34.596111'),
-(314317770, 4573607, 49760504, 5, 5, 7430, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-24T21:07:34.596111'),
+(278088103, 5467696, 257665403, 29, 27, 447, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-24T21:07:34.596111'),
 (353859750, 19475228, 5575055, 27, 127, 715, 'restforce/restforce', 'A Ruby client for the Salesforce REST API.', ARRAY['ejholmes', 'timrogers'], '2022-02-24T21:07:34.596111'),
 (406428542, 3202514, 302085558, 1, 17, 23, 'Call-for-Code-for-Racial-Justice/TakeTwo', 'TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content', ARRAY['johnwalicki', 'eliallen89'], '2022-02-24T21:07:34.596111'),
 (356891260, 1884246, 133969505, 29, 14, 111, 'wessberg/Polyfiller', 'Never worry about polyfills again.', ARRAY['wessberg', 'tommedema'], '2022-02-24T21:07:34.596111'),
@@ -4299,9 +4299,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (275257239, 14043845, 38131381, 29, 4, 646, 'SupremeTechnopriest/react-idle-timer', 'User activity timer component', ARRAY['SupremeTechnopriest', 'mwarger'], '2022-02-24T21:07:34.596111'),
 (323523231, 55907631, 209391513, 29, 30, 1079, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
 (353612066, 31478648, 161691324, 29, 31, 1645, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:07:34.596111'),
+(442470627, 24606613, 6106472, 8, 14, 1279, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-24T21:07:34.596111'),
 (352793229, 22655167, 126813008, 29, 0, 833, 'mobz/lag-radar', 'Trace frame rate lag with a sexy performance radar', ARRAY['mobz', 'andywer'], '2022-02-24T21:07:34.596111'),
 (321809845, 907680, 70908474, 29, 62, 940, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
-(442470627, 24606613, 6106472, 8, 14, 1279, 'survivingwithandroid/Surviving-with-android', 'Source code related to the posts in the blog', ARRAY['survivingwithandroid'], '2022-02-24T21:07:34.596111'),
 (398740147, 34394719, 250355030, 29, 0, 316, 'schneefux/vscode-winddown', 'VS Code extension that encourages you to take a break.', ARRAY['schneefux'], '2022-02-24T21:07:34.596111'),
 (373584272, 24217493, 340306054, 2, 0, 1, 'Jussii/JunctionAppTesting', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-24T21:07:34.596111'),
 (328070675, 59939260, 71359796, 29, 19, 633, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:07:34.596111'),
@@ -4375,12 +4375,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (400813204, 20134767, 36040894, 24, 318, 52627, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (336566384, 1368727, 268086996, 0, 30, 11, 'dotellie/nestjs-graphql-pagination', 'Decorators to allow easily building up relay compatible pagination types', ARRAY['renovate-bot', 'dotellie'], '2022-02-24T21:07:34.596111'),
 (320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
-(435800079, 16268467, 23083156, 11, 1092, 77108, 'mui-org/material-ui', 'MUI Core (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
-(436289040, 61815862, 7715820, 29, 63, 8878, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
+(444433367, 656318, 38612708, 10, 2, 1, 'TeamTessie/tessietodo-static', 'Our static Tessie To-do App', ARRAY['tamacodechi', 'ShellyCoen'], '2022-02-24T21:07:34.596111'),
+(436289040, 61815862, 7715820, 29, 63, 8880, 'davatorium/rofi', 'Rofi: A window switcher, application launcher and dmenu replacement', ARRAY['DaveDavenport', 'sardemff7'], '2022-02-24T21:07:34.596111'),
 (408008691, 45036724, 61059364, 29, 38, 673, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-24T21:07:34.596111'),
 (445282270, 31227151, 134042266, 2, 9, 1030, 'HackerPoet/PySpace', 'GLSL Fractal Ray Marcher in Python', ARRAY['HackerPoet', 'brainfubar'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 220, 2783, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
-(444433367, 656318, 38612708, 10, 2, 1, 'TeamTessie/tessietodo-static', 'Our static Tessie To-do App', ARRAY['tamacodechi', 'ShellyCoen'], '2022-02-24T21:07:34.596111'),
+(435800079, 16268467, 23083156, 11, 1095, 77124, 'mui-org/material-ui', 'MUI Core (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 176, 4417, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 463942601, 29, 0, 3, '0-vortex/open-sauced-vite-ts-template-test', 'Experimenting with vite typescript template for hot.opensauced.pizza', ARRAY['0-vortex'], '2022-02-24T21:07:34.596111'),
 (375196206, 57305940, 54496479, 29, 119, 214, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
@@ -4441,5 +4441,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (476895720, 20134767, 36040894, 25, 320, 52632, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-02T07:06:05.544754'),
 (455678420, 6499373, 36040894, 24, 320, 52633, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (476011893, 12780694, 3545227, 29, 67, 1753, 'webcamoid/webcamoid', 'Webcamoid is a full featured and multiplatform webcam suite.', ARRAY['hipersayanX', 'yarons'], '2022-04-02T07:17:17.428559'),
-(424945913, 2339101, 55896045, 29, 20, 1, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:07:34.596111'),
-(317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111');
+(317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111'),
+(477076721, 42341383, 426820139, 1, 21, 55, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-04-02T14:28:01.766381'),
+(424945913, 2339101, 55896045, 29, 20, 1, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:07:34.596111');
