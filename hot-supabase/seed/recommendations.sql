@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-03T16:49:33.132Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-03T18:45:45.754Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2312,15 +2312,15 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (234739976, 5580, 124, 1, 0, 0, 'medusajs/medusa', 'The open-source Shopify alternative ⚡️', ARRAY['srindom', 'olivermrbl'], '2022-02-24T21:06:05.080468+00:00'),
 (234755443, 1, 0, 1, 0, 1, 'sarthakvarshney8081/dockerlabs', 'Docker  - Beginners | Intermediate | Advanced', ARRAY['collabnix', 'sangam14'], '2022-02-24T21:06:05.080468+00:00'),
 (234798675, 12364, 800, 2, 0, 20.5, 'bevyengine/bevy', 'A refreshingly simple data-driven game engine built in Rust', ARRAY['cart', 'mockersf'], '2022-02-24T21:06:05.080468+00:00'),
-(234802842, 3, 11, 1, 0, 22, 'doniseferi/salahtimes', 'A tiny library to get the islamic prayer times in utc for any given day and location.', ARRAY['doniseferi'], '2022-02-24T21:06:05.080468+00:00'),
-(234917971, 4, 0, 1, 0, 16, 'Olanetsoft/Ticking-Clock-With-React', null, ARRAY['Olanetsoft'], '2022-02-24T21:06:05.080468+00:00'),
 (235000987, 5, 0, 1, 0, 5, 'renatogroffe/DotNetCore3.1_Refit-JWT-RefreshTokens-Polly', 'Exemplo de consumo em .NET Core 3.1 de uma API REST protegida por tokens (JWT) e que emprega Refresh Tokens, utilizando para isto a biblioteca Refit e com tratamento de falhas através da biblioteca Polly', ARRAY['renatogroffe'], '2022-02-24T21:06:05.080468+00:00'),
 (235237823, 6, 0, 1, 0, 14, 'dvarrazzo/replisome', 'handsomely replicate something', ARRAY['dvarrazzo', 'eulerto'], '2022-02-24T21:06:05.080468+00:00'),
 (235283287, 4936, 0, 1, 0, 26, 'fpereiro/backendlore', 'How I write backends', ARRAY['fpereiro', 'sshine'], '2022-02-24T21:06:05.080468+00:00'),
 (235434204, 4700, 35, 1, 0, 2, 'benbusby/whoogle-search', 'A self-hosted, ad-free, privacy-respecting metasearch engine', ARRAY['benbusby', 'vacom13'], '2022-02-24T21:06:05.080468+00:00'),
 (235469871, 1548, 304, 1, 0, 3, 'dotnet/interactive', '.NET Interactive takes the power of .NET and embeds it into your interactive experiences. Share code, explore data, write, and learn across your apps in ways you couldn''t before.', ARRAY['colombod', 'jonsequitur'], '2022-02-24T21:06:05.080468+00:00'),
 (235943258, 86, 26, 1, 0, 8, 'jason0x43/hacs-hubitat', 'A Hubitat integration for Home Assistant', ARRAY['jason0x43', 'amosyuen'], '2022-02-24T21:06:05.080468+00:00'),
+(234802842, 3, 11, 1, 0, 22, 'doniseferi/salahtimes', 'A tiny library to get the islamic prayer times in utc for any given day and location.', ARRAY['doniseferi'], '2022-02-24T21:06:05.080468+00:00'),
 (235970716, 1, 0, 1, 0, 17, 'yomaokobiah/nairaland-visualisation', 'A visualisation of members on nairaland.com ages.', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
+(234917971, 4, 0, 1, 0, 16, 'Olanetsoft/Ticking-Clock-With-React', null, ARRAY['Olanetsoft'], '2022-02-24T21:06:05.080468+00:00'),
 (236095576, 14355, 405, 2, 0, 11, 'backstage/backstage', 'Backstage is an open platform for building developer portals', ARRAY['Rugvip', 'freben'], '2022-02-24T21:06:05.080468+00:00'),
 (236156799, 21, 2, 1, 0, 5, 'saitho/semantic-release-backmerge', ':twisted_rightwards_arrows: semantic-release plugin to back-merge a release into a develop branch', ARRAY['saitho', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (236226196, 21, 0, 1, 0, 9, 'springload/react-accessible-headings', 'Makes it easier to keep heading levels semantic and accessible (WCAG)', ARRAY['holloway', 'twhitbeck'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2883,8 +2883,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (313452056, 2, 0, 1, 0, 8, 'cdfoundation/the-pipeline-podcast', 'The Pipeline: All things CD & DevOps playbook', ARRAY['jsalinas29'], '2022-02-24T21:06:05.080468+00:00'),
 (313722736, 54, 0, 1, 0, 15, 'ko1/ractor-tvar', null, ARRAY['ko1'], '2022-02-24T21:06:05.080468+00:00'),
 (313958197, 25, 2, 1, 0, 21, 'fthx/workspaces-bar', 'GNOME Shell extension that shows workspaces buttons in top panel', ARRAY['fthx', 'null-git'], '2022-02-24T21:06:05.080468+00:00'),
-(314001843, 50, 0, 1, 0, 15, 'danba340/react-three-fiber-example', null, ARRAY['danba340'], '2022-02-24T21:06:05.080468+00:00'),
 (314477321, 94, 5, 1, 0, 8, 'junleen/RainNet', '[CVPR 2021] Region-aware Adaptive Instance Normalization for Image Harmonization', ARRAY['junleen'], '2022-02-24T21:06:05.080468+00:00'),
+(314001843, 50, 0, 1, 0, 15, 'danba340/react-three-fiber-example', null, ARRAY['danba340'], '2022-02-24T21:06:05.080468+00:00'),
 (314553426, 281, 71, 1, 0, 24, 'maplibre/maplibre-gl-native', 'The open-source fork of Mapbox GL Native: Code & SDK for iOS, Android and other platforms', ARRAY['kkaefer', 'jfirebaugh'], '2022-02-24T21:06:05.080468+00:00'),
 (314859745, 1, 0, 1, 0, 11, 'Mogakamo/LoveMeNowBook', 'An app for a novel', ARRAY['Mogakamo', 'Ochoki'], '2022-02-24T21:06:05.080468+00:00'),
 (314866842, 23, 5, 1, 0, 15, 'yashvardhan-kukreja/whatsupstream', '🚀 A tool to keep you up-to-date with the issues (good first issues, for eg. ;) of your favorite open source repositories', ARRAY['yashvardhan-kukreja'], '2022-02-24T21:06:05.080468+00:00'),
