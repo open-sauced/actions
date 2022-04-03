@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-03T20:43:33.303Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-03T22:43:22.671Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2529,9 +2529,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (262658866, 13, 8, 1, 0, 12, 'jmcdo29/nestjs-oauth', 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', ARRAY['jmcdo29'], '2022-02-24T21:06:05.080468+00:00'),
 (262782341, 4, 0, 1, 0, 14, 'Justin27482/plextheme-progress', 'Ubooquity Plex Based Theme with Progress Bars and Filters', ARRAY['Justin27482'], '2022-02-24T21:06:05.080468+00:00'),
 (262862475, 3637, 277, 1, 0, 24, 'amplication/amplication', 'Amplication is an open‑source development tool. It helps you develop quality Node.js applications without spending time on repetitive coding tasks.', ARRAY['iddan', 'yuval-hazaz'], '2022-02-24T21:06:05.080468+00:00'),
+(263019373, 9, 7, 1, 0, 25, 'staticwebdev/angular-basic', null, ARRAY['alexweininger', 'anthonychu'], '2022-02-24T21:06:05.080468+00:00'),
 (263146261, 1785, 15, 1, 0, 26, 'MaggieAppleton/digital-gardeners', 'Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs', ARRAY['MaggieAppleton', 'theianjones'], '2022-02-24T21:06:05.080468+00:00'),
 (263445417, 700, 1, 1, 0, 4, 'rmanguinho/clean-react', 'Sistema em ReactJs usando Hooks, Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles', ARRAY['rmanguinho'], '2022-02-24T21:06:05.080468+00:00'),
-(263019373, 9, 7, 1, 0, 25, 'staticwebdev/angular-basic', null, ARRAY['alexweininger', 'anthonychu'], '2022-02-24T21:06:05.080468+00:00'),
 (263468232, 47, 2, 1, 0, 20, 'samber/github-actions-runner', '✅ Docker images for starting self-hosted Github Actions runner(s).', ARRAY['samber', 'kthompson'], '2022-02-24T21:06:05.080468+00:00'),
 (263496339, 8, 3, 1, 0, 13, 'starcrouz/plextheme-reading', 'Ubooquity enhanced Plex based theme with all currently reading comics list and more', ARRAY['starcrouz', 'ameel'], '2022-02-24T21:06:05.080468+00:00'),
 (263721979, 5, 0, 1, 0, 14, 'Build5Nines/azure-kung-fu-dockervm', 'Azure Kung Fu Docker VM', ARRAY['deltadan'], '2022-02-24T21:06:05.080468+00:00'),
