@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T08:50:55.905Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T10:44:52.535Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -866,8 +866,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (50372538, 1547, 67, 1, 0, 8, 'GoogleCloudPlatform/community', 'This repository holds the content submitted to https://cloud.google.com/community. Files added to the tutorials/ directory will appear at https://cloud.google.com/community/tutorials.', ARRAY['ToddKopriva', 'JimTravis'], '2022-02-24T21:06:05.080468+00:00'),
 (50565430, 14382, 661, 1, 0, 8, 'pnpm/pnpm', 'Fast, disk space efficient package manager -- 快速的，节省磁盘空间的包管理工具', ARRAY['zkochan', 'rstacruz'], '2022-02-24T21:06:05.080468+00:00'),
 (50658096, 108, 10, 1, 0, 16, 'kehers/paystack', 'Nodejs API wrapper for Paystack', ARRAY['Subomi', 'kehers'], '2022-02-24T21:06:05.080468+00:00'),
-(50874860, 813, 26, 1, 0, 10, 'go-ping/ping', 'ICMP Ping library for Go', ARRAY['sparrc', 'CHTJonas'], '2022-02-24T21:06:05.080468+00:00'),
 (50685592, 1059, 52, 1, 0, 15, 'GoogleCloudPlatform/cloud-vision', 'Sample code for Google Cloud Vision', ARRAY['tswast', 'amygdala'], '2022-02-24T21:06:05.080468+00:00'),
+(50874860, 813, 26, 1, 0, 10, 'go-ping/ping', 'ICMP Ping library for Go', ARRAY['sparrc', 'CHTJonas'], '2022-02-24T21:06:05.080468+00:00'),
 (50961078, 36, 0, 1, 0, 5, 'leggetter/devrelometer', 'DevRelOMeter: Are you practicing Developer Evangelism or Advocacy?', ARRAY['leggetter'], '2022-02-24T21:06:05.080468+00:00'),
 (51018409, 7580, 46, 1, 0, 25, 'appbaseio/dejavu', 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', ARRAY['lakhansamani', 'ShahAnuj2610'], '2022-02-24T21:06:05.080468+00:00'),
 (51109642, 179, 0, 1, 0, 20, 'cezaraugusto/github-template-guidelines', 'Guidelines for building GitHub templates.', ARRAY['cezaraugusto'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1966,9 +1966,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (183454144, 17, 3, 1, 0, 2, 'pransh15/moz-starter-pack', 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', ARRAY['pransh15', 'pranitb10'], '2022-02-24T21:06:05.080468+00:00'),
 (183712153, 256, 8, 1, 0, 28, 'dasDaniel/svelte-table', 'A svelte-3 table implementation that allows sorting and filtering', ARRAY['dasDaniel', 'thilo-behnke'], '2022-02-24T21:06:05.080468+00:00'),
 (183985757, 6, 0, 1, 0, 29, 'diegocbarboza/red-dead-dialog', 'Red Dead Redemption 2 dialog system in Unity', ARRAY['diegocbarboza'], '2022-02-24T21:06:05.080468+00:00'),
-(184130597, 142, 0, 1, 0, 0, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 'Angular 11.0 Firebase App - Online School , Student Management App', ARRAY['AmitXShukla'], '2022-02-24T21:06:05.080468+00:00'),
 (184339195, 37, 13, 1, 0, 27, 'graphiti-api/graphiti-rails', null, ARRAY['wagenet', 'richmolj'], '2022-02-24T21:06:05.080468+00:00'),
 (184413359, 17, 0, 1, 0, 6, 'dividat/ocaml-semver', ' Semantic version handling for OCaml', ARRAY['etaque', 'knuton'], '2022-02-24T21:06:05.080468+00:00'),
+(184130597, 142, 0, 1, 0, 0, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 'Angular 11.0 Firebase App - Online School , Student Management App', ARRAY['AmitXShukla'], '2022-02-24T21:06:05.080468+00:00'),
 (184456251, 65380, 2097, 1, 0, 11, 'microsoft/PowerToys', 'Windows system utilities to maximize productivity', ARRAY['bao-qian', 'crutkas'], '2022-02-24T21:06:05.080468+00:00'),
 (184520105, 5708, 11, 1, 0, 14, 'sw-yx/spark-joy', '✨😂easy ways to add design flair, user delight, and whimsy to your product.', ARRAY['sw-yx', 'EriecTanijaya'], '2022-02-24T21:06:05.080468+00:00'),
 (184609434, 202, 3, 1, 0, 8, 'fhkingma/bitswap', 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', ARRAY['fhkingma'], '2022-02-24T21:06:05.080468+00:00'),
