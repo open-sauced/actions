@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T16:52:20.205Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T18:46:48.861Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1883,7 +1883,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (172521926, 16173, 17, 2, 0, 4.5, 'pmndrs/react-three-fiber', '🇨🇭 A React renderer for Three.js', ARRAY['drcmda', 'joshuaellis'], '2022-02-24T21:06:05.080468+00:00'),
 (172550478, 40, 8, 1, 0, 13, 'SlalomBuild/blackslope.net', '.Net Core reference architecture', ARRAY['andykongchi', 'pmotameni'], '2022-02-24T21:06:05.080468+00:00'),
 (172562475, 46668, 282, 5, 0, 9.8, 'florinpop17/app-ideas', 'A Collection of application ideas which can be used to improve your coding skills.', ARRAY['florinpop17', 'jdmedlock'], '2022-02-24T21:06:05.080468+00:00'),
+(172773684, 2300, 1, 2, 0, 25.5, 'wesbos/eslint-config-wesbos', 'No-Sweat™ Eslint and Prettier Setup - with or without VS Code', ARRAY['wesbos', 'Asjas'], '2022-02-24T21:06:05.080468+00:00'),
 (172915698, 12, 0, 1, 0, 18, 'BaseMax/WebSinatra', 'The Sample web project using ruby sinatra.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
+(177987738, 2507, 96, 1, 0, 1, 'hedgedoc/hedgedoc', 'HedgeDoc - The best platform to write and share markdown.', ARRAY['jackycute', 'davidmehren'], '2022-02-24T21:06:05.080468+00:00'),
 (173286031, 587, 76, 1, 0, 20, 'input-output-hk/cardano-wallet', 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', ARRAY['KtorZ', 'jonathanknowles'], '2022-02-24T21:06:05.080468+00:00'),
 (173377124, 1, 2, 1, 0, 10, 'Gingertonic/movie-js-site-scraper-demo', 'Demo using Watir to scrape a JS loading website', ARRAY['Gingertonic'], '2022-02-24T21:06:05.080468+00:00'),
 (173846801, 1, 0, 1, 0, 10, 'mikerobards/simon-game', null, ARRAY['mikerobards'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1896,8 +1898,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (174635301, 28, 16, 1, 0, 24, 'dgraph-io/flock', 'Twitter on Dgraph', ARRAY['mangalaman93', 'prashant-shahi'], '2022-02-24T21:06:05.080468+00:00'),
 (174715721, 914, 1, 1, 0, 17, 'pr0g/cmake-examples', 'A collection of as simple as possible, modern CMake projects', ARRAY['pr0g', '0xflotus'], '2022-02-24T21:06:05.080468+00:00'),
 (174766902, 695, 12, 1, 0, 26, 'afollestad/recyclical', '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', ARRAY['afollestad', 'Johnett'], '2022-02-24T21:06:05.080468+00:00'),
-(172773684, 2300, 1, 2, 0, 25.5, 'wesbos/eslint-config-wesbos', 'No-Sweat™ Eslint and Prettier Setup - with or without VS Code', ARRAY['wesbos', 'Asjas'], '2022-02-24T21:06:05.080468+00:00'),
-(177987738, 2507, 96, 1, 0, 1, 'hedgedoc/hedgedoc', 'HedgeDoc - The best platform to write and share markdown.', ARRAY['jackycute', 'davidmehren'], '2022-02-24T21:06:05.080468+00:00'),
+(174936961, 312, 3, 1, 0, 26, 'aspnetrun/run-aspnetcore', 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', ARRAY['mehmetozkaya'], '2022-02-24T21:06:05.080468+00:00'),
+(174960187, 221, 3, 1, 0, 2, 'PEZ/rn-rf-shadow', 'An example project to get you started with React Native using shadow-cljs in 3 minutes', ARRAY['PEZ', 'bpringe'], '2022-02-24T21:06:05.080468+00:00'),
 (175043545, 2638, 194, 1, 0, 29, 'cloudflare/wrangler', '🤠   wrangle your Cloudflare Workers', ARRAY['EverlastingBugstopper', 'ashleymichal'], '2022-02-24T21:06:05.080468+00:00'),
 (175055371, 32, 6, 1, 0, 15, 'manios/docker-nagios', 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', ARRAY['manios'], '2022-02-24T21:06:05.080468+00:00'),
 (175176201, 8354, 5, 1, 0, 0, 'alexfoxy/lax.js', 'Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.', ARRAY['alexfoxy', 'afanjul'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1911,8 +1913,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175685939, 47, 2, 1, 0, 11, 'JoonasN/Flutter-Speed-coding---Greenery-App', null, ARRAY['ivangn03'], '2022-02-24T21:06:05.080468+00:00'),
 (176456339, 5, 3, 1, 0, 14, 'upgrad-edu/Solidity-Exercise-Solutions', null, ARRAY['upgrad-edu'], '2022-02-24T21:06:05.080468+00:00'),
 (176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-24T21:06:05.080468+00:00'),
-(174936961, 312, 3, 1, 0, 26, 'aspnetrun/run-aspnetcore', 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', ARRAY['mehmetozkaya'], '2022-02-24T21:06:05.080468+00:00'),
-(174960187, 221, 3, 1, 0, 2, 'PEZ/rn-rf-shadow', 'An example project to get you started with React Native using shadow-cljs in 3 minutes', ARRAY['PEZ', 'bpringe'], '2022-02-24T21:06:05.080468+00:00'),
 (176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (176946161, 198, 7, 1, 0, 6, 'sealedtx/java-youtube-downloader', 'Simple, almost zero-dependency java parser for retrieving youtube video metadata', ARRAY['sealedtx', 'poornerd'], '2022-02-24T21:06:05.080468+00:00'),
 (177033748, 2318, 172, 1, 0, 2, 'atlassian/changesets', '🦋       A way to manage your versioning and changelogs with a focus on monorepos', ARRAY['Noviny', 'mitchellhamilton'], '2022-02-24T21:06:05.080468+00:00'),
