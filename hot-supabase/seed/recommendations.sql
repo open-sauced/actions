@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T10:44:52.535Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-04T12:53:34.479Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1966,9 +1966,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (183454144, 17, 3, 1, 0, 2, 'pransh15/moz-starter-pack', 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', ARRAY['pransh15', 'pranitb10'], '2022-02-24T21:06:05.080468+00:00'),
 (183712153, 256, 8, 1, 0, 28, 'dasDaniel/svelte-table', 'A svelte-3 table implementation that allows sorting and filtering', ARRAY['dasDaniel', 'thilo-behnke'], '2022-02-24T21:06:05.080468+00:00'),
 (183985757, 6, 0, 1, 0, 29, 'diegocbarboza/red-dead-dialog', 'Red Dead Redemption 2 dialog system in Unity', ARRAY['diegocbarboza'], '2022-02-24T21:06:05.080468+00:00'),
+(184130597, 142, 0, 1, 0, 0, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 'Angular 11.0 Firebase App - Online School , Student Management App', ARRAY['AmitXShukla'], '2022-02-24T21:06:05.080468+00:00'),
 (184339195, 37, 13, 1, 0, 27, 'graphiti-api/graphiti-rails', null, ARRAY['wagenet', 'richmolj'], '2022-02-24T21:06:05.080468+00:00'),
 (184413359, 17, 0, 1, 0, 6, 'dividat/ocaml-semver', ' Semantic version handling for OCaml', ARRAY['etaque', 'knuton'], '2022-02-24T21:06:05.080468+00:00'),
-(184130597, 142, 0, 1, 0, 0, 'AmitXShukla/Online-School-Management-App-Angular-Firebase', 'Angular 11.0 Firebase App - Online School , Student Management App', ARRAY['AmitXShukla'], '2022-02-24T21:06:05.080468+00:00'),
 (184456251, 65380, 2097, 1, 0, 11, 'microsoft/PowerToys', 'Windows system utilities to maximize productivity', ARRAY['bao-qian', 'crutkas'], '2022-02-24T21:06:05.080468+00:00'),
 (184520105, 5708, 11, 1, 0, 14, 'sw-yx/spark-joy', '✨😂easy ways to add design flair, user delight, and whimsy to your product.', ARRAY['sw-yx', 'EriecTanijaya'], '2022-02-24T21:06:05.080468+00:00'),
 (184609434, 202, 3, 1, 0, 8, 'fhkingma/bitswap', 'Bit-Swap: Recursive Bits-Back Coding for Lossless Compression with Hierarchical Latent Variables', ARRAY['fhkingma'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2985,8 +2985,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (326619924, 110, 1, 1, 0, 5, 'samuelkraft/samuelkraft-next', 'My personal website written with Next.js, Typescript, MDX, Notion, CSS Modules', ARRAY['samuelkraft'], '2022-02-24T21:06:05.080468+00:00'),
 (326622912, 9, 1, 1, 0, 5, 'davidteren/rails61-tailwind2', 'Rails 6.1, TailwindCSS 2.0 & PostCSS 8.0 setup.', ARRAY['davidteren'], '2022-02-24T21:06:05.080468+00:00'),
 (327036990, 1, 0, 1, 0, 13, 'MattMarquise/Lifestyle-Blog', null, ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
-(327105716, 82, 4, 1, 0, 6, 'odrotbohm/spring-playground', 'A collection of tiny helpers for building Spring applications', ARRAY['odrotbohm'], '2022-02-24T21:06:05.080468+00:00'),
-(327400204, 2, 0, 1, 0, 8, 'speijnik/myhome', 'Python library for interacting with MyHomeSERVER1', ARRAY['speijnik'], '2022-02-24T21:06:05.080468+00:00'),
 (327406312, 562, 1, 1, 0, 16, 'tailwindlabs/tailwindcss-line-clamp', null, ARRAY['adamwathan', 'RobinMalfait'], '2022-02-24T21:06:05.080468+00:00'),
 (327443948, 13, 3, 1, 0, 22, 'zkoppert/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'sicot-f'], '2022-02-24T21:06:05.080468+00:00'),
 (327584479, 6, 12, 1, 0, 6, 'funbeedev/BibleBeforeBread', 'BibleBeforeBread.com is a website to encourage a daily habit of reading God''s word through featured verses and a variety of interactive features. ', ARRAY['funbeedev', 'sabderemane'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3090,7 +3088,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (342326297, 5, 0, 1, 0, 19, 'sameehaafr/Spleeter', 'Extract the stems (piano, bass, drums, vocals, etc.) of any audio/songs from YouTube.', ARRAY['sameehaafr'], '2022-02-24T21:06:05.080468+00:00'),
 (342342885, 33, 0, 1, 0, 28, 'moov-io/terms-dictionary', 'Simple definitions of terms, acronyms, abbreviations, companies, and projects related to financial services and Moov.', ARRAY['nlakritz', 'josephineroh'], '2022-02-24T21:06:05.080468+00:00'),
 (342451583, 7, 0, 1, 0, 18, 'pholleran/ghas-pr-notifications', 'A demonstration Probot app that adds visibility to code scanning alerts', ARRAY['pholleran', 'zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
+(327105716, 82, 4, 1, 0, 6, 'odrotbohm/spring-playground', 'A collection of tiny helpers for building Spring applications', ARRAY['odrotbohm'], '2022-02-24T21:06:05.080468+00:00'),
 (342483041, 344, 0, 1, 0, 15, 'gyf304/ethminer-m1', 'ethminer fork for M1 Macs', ARRAY['gavofyork', 'chfast'], '2022-02-24T21:06:05.080468+00:00'),
+(327400204, 2, 0, 1, 0, 8, 'speijnik/myhome', 'Python library for interacting with MyHomeSERVER1', ARRAY['speijnik'], '2022-02-24T21:06:05.080468+00:00'),
 (343033262, 7, 0, 2, 0, 0, 'larissabenedet/lol-champions', 'o LOL Champions é um site que lista todos os personagens do jogo League of Legends e suas respectivas informações, contendo um campo de pesquisa caso busque um campeão específico. Toda vez que um novo personagem surgir no jogo ele será automaticamente incluso na página. ', ARRAY['larissabenedet'], '2022-02-24T21:06:05.080468+00:00'),
 (343048668, 5, 0, 1, 0, 4, 'raghavTinker/Smart-Home-Doorbell', 'Smart Home project built for a secure home', ARRAY['raghavTinker', 'rdotjain'], '2022-02-24T21:06:05.080468+00:00'),
 (343079204, 2762, 16, 2, 0, 20, 'tostercx/GTAO_Booster_PoC', null, ARRAY['tostercx', 'Achilles1515'], '2022-02-24T21:06:05.080468+00:00'),
