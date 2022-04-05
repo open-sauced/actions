@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T10:43:50.320Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T12:52:56.996Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3400,8 +3400,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (385244918, 1, 0, 1, 0, 1, 'vicktoh/nocopo_scrapping', 'Script to scrape data from the NOCOPO platform in order to assess disclosure level of MDAs on the platform using python selenium', ARRAY['vicktoh'], '2022-02-24T21:06:05.080468+00:00'),
 (385261169, 902, 10, 2, 0, 13, 'unjs/unplugin', 'Unified plugin system for Vite, Rollup, Webpack, and more', ARRAY['antfu', 'tropicalraisel'], '2022-02-24T21:06:05.080468+00:00'),
 (385332374, 5305, 16, 2, 0, 13, 'blueedgetechno/win11React', 'Windows 11 in React 💻🌈⚡', ARRAY['andrewstech', 'blueedgetechno'], '2022-02-24T21:06:05.080468+00:00'),
-(385400671, 86, 1, 1, 0, 12, 'dabit3/supabase-nextjs-auth', 'Example project implementing authentication, authorization, and routing with Next.js and Supabase', ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
 (385568535, 5, 0, 1, 0, 16, 'zuramai/binary-search-tree', 'BST and AVL Balancing created with HTML, CSS and JS', ARRAY['zuramai'], '2022-02-24T21:06:05.080468+00:00'),
+(385400671, 86, 1, 1, 0, 12, 'dabit3/supabase-nextjs-auth', 'Example project implementing authentication, authorization, and routing with Next.js and Supabase', ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
 (385575717, 1, 0, 1, 0, 14, 'adil-Pathan/ionic5-starter-app-tutorial', 'Free Ionic Starter Template - Ionic 5 example app. Learn how to start using Ionic 5 to create a simple app with lists, forms and navigation and more!.', ARRAY['djabif', 'agustinhaller'], '2022-02-24T21:06:05.080468+00:00'),
 (385850163, 53, 0, 1, 0, 26, 'Borrus-sudo/vue-generator-graph', '🌌 An extension which will create a graph of a vuejs app by statically analyzing imports and auto imported components', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (393403656, 1, 0, 1, 0, 6, 'muhammaddzaky/OkamiMks', 'Config files for my GitHub profile.', ARRAY['OkamiMks'], '2022-02-24T21:06:05.080468+00:00'),
