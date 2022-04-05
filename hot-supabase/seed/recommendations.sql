@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T01:02:39.389Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T02:59:31.332Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1464,9 +1464,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (117610654, 1576, 12, 1, 0, 8, 'maticzav/nookies', '🍪 A set of cookie helpers for Next.js', ARRAY['renovate-bot', 'maticzav'], '2022-02-24T21:06:05.080468+00:00'),
 (117618207, 96, 2, 1, 0, 14, 'ChakriCherukuri/mlviz', 'Visualizations of machine learning models and algorithms', ARRAY['ChakriCherukuri'], '2022-02-24T21:06:05.080468+00:00'),
 (117683849, 191, 23, 1, 0, 11, 'ponnamkarthik/RichLinkPreview', 'A Rich Link Preview Library for Android', ARRAY['ponnamkarthik'], '2022-02-24T21:06:05.080468+00:00'),
+(117770219, 283, 0, 1, 0, 22, 'scottaohara/accessibility_interview_questions', 'A starting point for questions to ask someone that wants you to give them a job', ARRAY['scottaohara', 'ericwbailey'], '2022-02-24T21:06:05.080468+00:00'),
 (117790649, 1, 0, 1, 0, 6, 'psi-zimb/psi-config', 'Repository for PSI Zimbabwe Bahmni implementation', ARRAY['yashdave', 'matirp235'], '2022-02-24T21:06:05.080468+00:00'),
 (117895247, 953, 5, 1, 0, 10, 'bitcoinvsalts/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖', ARRAY['dargmuesli', 'bitcoinvsalts'], '2022-02-24T21:06:05.080468+00:00'),
-(117770219, 283, 0, 1, 0, 22, 'scottaohara/accessibility_interview_questions', 'A starting point for questions to ask someone that wants you to give them a job', ARRAY['scottaohara', 'ericwbailey'], '2022-02-24T21:06:05.080468+00:00'),
 (118009853, 11, 41, 1, 0, 19, 'codesponsor/codesponsor', 'Code Sponsor v2.0', ARRAY['coderberry', 'mbeacom'], '2022-02-24T21:06:05.080468+00:00'),
 (118029985, 3, 0, 1, 0, 11, 'drewnolan/vs-libimobile', 'Update for iOS11', ARRAY['infinitedrew', 'drewnolan'], '2022-02-24T21:06:05.080468+00:00'),
 (118065892, 1, 0, 1, 0, 15, 'davchoo/RocketDogs-6718-Robot-Code', 'Code for the robot built by 6718', ARRAY['davchoo'], '2022-02-24T21:06:05.080468+00:00'),
