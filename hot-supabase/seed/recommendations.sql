@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T02:59:31.332Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T04:47:06.533Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -900,8 +900,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (53256950, 11579, 49, 1, 0, 10, 'liriliri/eruda', 'Console for mobile browsers', ARRAY['surunzi', 'omarchehab98'], '2022-02-24T21:06:05.080468+00:00'),
 (53261245, 281, 8, 1, 0, 26, 'ryohey/signal', 'A friendly music sequencer built on web technology', ARRAY['ryohey', 'greenbech'], '2022-02-24T21:06:05.080468+00:00'),
 (53321815, 10944, 189, 1, 0, 22, 'picturepan2/spectre', 'Spectre.css - A Lightweight, Responsive and Modern CSS Framework', ARRAY['picturepan2', 'renegat59'], '2022-02-24T21:06:05.080468+00:00'),
-(53370988, 24072, 540, 1, 0, 0, 'GoogleChrome/lighthouse', 'Automated auditing, performance metrics, and best practices for the web.', ARRAY['paulirish', 'brendankenny'], '2022-02-24T21:06:05.080468+00:00'),
 (53410008, 448, 26, 1, 0, 17, 'wearefriday/spectre', 'A simple UI for browsing and inspecting diffs, and an API for runner scripts to submit screenshots to and receive a pass or fail in real time. (For use with Wraith, Backstop, Selenium etc)', ARRAY['nickdunn', 'fionnbharra'], '2022-02-24T21:06:05.080468+00:00'),
+(53370988, 24072, 540, 1, 0, 0, 'GoogleChrome/lighthouse', 'Automated auditing, performance metrics, and best practices for the web.', ARRAY['paulirish', 'brendankenny'], '2022-02-24T21:06:05.080468+00:00'),
 (53432291, 747, 0, 1, 0, 24, 'Orbiter/timesheet', 'Android application for tracking time for different charge numbers', ARRAY['ambrice', 'seawolf'], '2022-02-24T21:06:05.080468+00:00'),
 (53498769, 1513, 62, 1, 0, 3, 'big-data-europe/docker-hadoop', 'Apache Hadoop docker image', ARRAY['earthquakesan', 'gmouchakis'], '2022-02-24T21:06:05.080468+00:00'),
 (53597382, 983, 0, 1, 0, 28, 'learnbyexample/scripting_course', ':notebook: Books, reference guides and resources on Regular Expressions, CLI one-liners, Scripting Languages and Vim.', ARRAY['learnbyexample', 'gitter-badger'], '2022-02-24T21:06:05.080468+00:00'),
