@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T06:46:34.435Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T08:45:19.231Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -699,8 +699,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (36323226, 5953, 90, 1, 0, 24, 'XAMPPRocky/tokei', 'Count your code, quickly.', ARRAY['XAMPPRocky', 'NickHackman'], '2022-02-24T21:06:05.080468+00:00'),
 (36470617, 1189, 135, 1, 0, 14, 'smpallen99/ex_admin', 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ARRAY['smpallen99', 'romul'], '2022-02-24T21:06:05.080468+00:00'),
 (36616176, 3175, 16, 2, 0, 6, 'elixirschool/elixirschool', 'The content behind Elixir School', ARRAY['doomspork', 'nscyclone'], '2022-02-24T21:06:05.080468+00:00'),
-(36732731, 3636, 13, 1, 0, 23, 'ganqqwerty/123-Essential-JavaScript-Interview-Questions', 'JavaScript interview Questions', ARRAY['ganqqwerty', 'nishant8BITS'], '2022-02-24T21:06:05.080468+00:00'),
 (36633370, 74663, 141, 1, 0, 4, 'awesome-selfhosted/awesome-selfhosted', 'A list of Free Software network services and web applications which can be hosted on your own servers', ARRAY['nodiscc', 'n8225'], '2022-02-24T21:06:05.080468+00:00'),
+(36732731, 3636, 13, 1, 0, 23, 'ganqqwerty/123-Essential-JavaScript-Interview-Questions', 'JavaScript interview Questions', ARRAY['ganqqwerty', 'nishant8BITS'], '2022-02-24T21:06:05.080468+00:00'),
 (36817565, 9092, 713, 1, 0, 25, 'zaproxy/zaproxy', 'The OWASP ZAP core project', ARRAY['psiinon', 'thc202'], '2022-02-24T21:06:05.080468+00:00'),
 (36892328, 205, 7, 1, 0, 21, 'dgiardini/rtl-ais', 'A simple AIS tuner and generic dual-frequency FM demodulator', ARRAY['dgiardini', 'keenerd'], '2022-02-24T21:06:05.080468+00:00'),
 (36895421, 13058, 198, 1, 0, 8, 'jupyter/jupyter', 'Jupyter metapackage for installation, docs and chat', ARRAY['willingc', 'parente'], '2022-02-24T21:06:05.080468+00:00'),
