@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T04:47:31.077Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T06:46:47.143Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2809,6 +2809,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (300872181, 209, 8, 1, 0, 27, 'binkley/modern-java-practices', 'Modern Java/JVM Build Practices', ARRAY['boxleytw', 'binkley'], '2022-02-24T21:06:05.080468+00:00'),
 (300874884, 145, 23, 1, 0, 22, 'kothariji/SyntaxMeets', 'Syntaxmeets. Create rooms 🏠 Call your friends 👬🏼 Sip Chai, ☕ Chat, Create, and Code👨‍💻. A coding platform to code simultaneously 🚀 with your friends and design your algorithms on SyntaxPad.💫✨', ARRAY['kothariji', 'akash-salvi'], '2022-02-24T21:06:05.080468+00:00'),
 (301136030, 31, 0, 1, 0, 12, 'lukeocodes/dev-hearts', 'SVG collection. Turn the pretty heart into your own branded heart using SVG ', ARRAY['lukeocodes', 'adsingh14'], '2022-02-24T21:06:05.080468+00:00'),
+(301482830, 97, 6, 1, 0, 10, 'policy-hub/policy-hub-cli', 'CLI for searching Rego policies', ARRAY['Blokje5', 'xchapter7x'], '2022-02-24T21:06:05.080468+00:00'),
+(301706792, 32, 0, 1, 0, 7, 'rolling-scopes-school/nodejs-aws-tasks', null, ARRAY['SergeyKovalchuk', 'angry-coconut'], '2022-02-24T21:06:05.080468+00:00'),
 (301734306, 69, 13, 1, 0, 2, 'cycloidio/terracost', 'Cloud cost estimation for Terraform in your CLI', ARRAY['xescugc', 'xlr-8'], '2022-02-24T21:06:05.080468+00:00'),
 (301844678, 7, 0, 1, 0, 23, 'hidjou/vs-code-theme-monokai-flow', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (302085558, 21, 15, 1, 0, 1, 'Call-for-Code-for-Racial-Justice/TakeTwo', 'TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content', ARRAY['johnwalicki', 'eliallen89'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2826,8 +2828,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (304026138, 11, 0, 1, 0, 27, 'masaun/NFT-auth-token', 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', ARRAY['masaun'], '2022-02-24T21:06:05.080468+00:00'),
 (304177900, 251, 1, 1, 0, 4, 'RyanFitzgerald/devfolio', 'A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS', ARRAY['RyanFitzgerald', 'zielinsm'], '2022-02-24T21:06:05.080468+00:00'),
 (304243554, 1171, 10, 1, 0, 15, 'craftzdog/dotfiles-public', 'My personal dotfiles', ARRAY['craftzdog', 'IlanCosman'], '2022-02-24T21:06:05.080468+00:00'),
-(301482830, 97, 6, 1, 0, 10, 'policy-hub/policy-hub-cli', 'CLI for searching Rego policies', ARRAY['Blokje5', 'xchapter7x'], '2022-02-24T21:06:05.080468+00:00'),
-(301706792, 32, 0, 1, 0, 7, 'rolling-scopes-school/nodejs-aws-tasks', null, ARRAY['SergeyKovalchuk', 'angry-coconut'], '2022-02-24T21:06:05.080468+00:00'),
 (304344049, 6089, 398, 4, 1, 12.25, 'sveltejs/kit', 'The fastest way to build Svelte apps', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00'),
 (304563696, 154, 0, 1, 0, 6, 'lemonadejs/lemonadejs', 'LemonadeJS is a micro (4Kb) reactive, with a two-way data binding, no dependencies, JavaScript library that aims to be as close to JavaScript Vanilla as possible.', ARRAY['pphod', 'hodeware'], '2022-02-24T21:06:05.080468+00:00'),
 (304940629, 2861, 2, 2, 0, 4.5, 'markodenic/web-development-resources', 'Awesome Web Development Resources.', ARRAY['markodenic', 'frankiefab100'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3606,8 +3606,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (414238384, 35, 0, 1, 0, 3, 'Dzoukr/Funcaster', '⚡ Serverless .NET solution for hosting your 🔊 podcasts with (nearly) zero costs using Azure Functions and Azure Storage Account.', ARRAY['Dzoukr'], '2022-02-24T21:06:05.080468+00:00'),
 (414403319, 14, 0, 2, 0, 0, 'polarene/micro-template', 'A very tiny and simple text templating library for Kotlin.', ARRAY['polarene'], '2022-02-24T21:06:05.080468+00:00'),
 (414680083, 70, 3, 1, 0, 10, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-24T21:06:05.080468+00:00'),
-(415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-24T21:06:05.080468+00:00'),
 (414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-24T21:06:05.080468+00:00'),
+(415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-24T21:06:05.080468+00:00'),
 (415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-24T21:06:05.080468+00:00'),
 (415688405, 2, 6, 1, 0, 18, 'wtm-buea/WTM-official-website', 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', ARRAY['alicendeh', 'Julia-yossa'], '2022-02-24T21:06:05.080468+00:00'),
 (416408131, 77, 7, 1, 0, 10, 'mattn/tailscale-systray', 'Linux port of tailscale system tray menu.', ARRAY['mattn', 'codenoid'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3637,16 +3637,16 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (426988203, 15, 0, 1, 0, 2, 'vunderkind/ethereum-dappiverse', 'A hitchhiker''s guide to the Ethereum dAppiverse', ARRAY['vunderkind'], '2022-02-24T21:06:05.080468+00:00'),
 (427157632, 1, 1, 1, 0, 3, 'netlify-templates/sveltekit-netlify-starter', 'SvelteKit Starter ready for deployment on Netlify', ARRAY['renovate-bot', 'maxcell'], '2022-02-24T21:06:05.080468+00:00'),
 (427228421, 3, 0, 1, 0, 4, 'ChristBM/platzi_conf_merch', 'PWA store using React, PayPal payments and other interesting configurations.', ARRAY['ChristBM'], '2022-02-24T21:06:05.080468+00:00'),
-(429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-24T21:06:05.080468+00:00'),
 (428727515, 1, 0, 2, 0, 0, 'HMTEUNIS/react-beats', null, ARRAY['WBian618', 'dandesantis14'], '2022-02-24T21:06:05.080468+00:00'),
+(429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-24T21:06:05.080468+00:00'),
 (429654999, 93, 7, 1, 0, 9, 'WarenGonzaga/css-text-portrait-builder', 'A popular pure CSS text portrait builder for your loved ones. 🥰', ARRAY['WarenGonzaga'], '2022-02-24T21:06:05.080468+00:00'),
 (429658975, 4, 0, 2, 0, 0, 'open-sauced/party-line', null, ARRAY['regexident', 'jessmitch42'], '2022-02-24T21:06:05.080468+00:00'),
 (430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-24T21:06:05.080468+00:00'),
 (430789888, 111, 22, 1, 0, 2, 'Developer-DAO/web3-ui', 'The UI library for web3', ARRAY['etr2460', 'Dhaiwat10'], '2022-02-24T21:06:05.080468+00:00'),
 (430868786, 2, 0, 1, 0, 5, 'Milo123459/atomix', 'A simple and fast shell.', ARRAY['Milo123459'], '2022-02-24T21:06:05.080468+00:00'),
 (431137274, 16, 0, 1, 0, 0, 'alexadam/reactive-doc', 'Create Interactive Documents with Plain Text', ARRAY['alexadam'], '2022-02-24T21:06:05.080468+00:00'),
-(431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-24T21:06:05.080468+00:00'),
 (431201404, 0, 4, 1, 0, 9, 'fission-suite/ucan', 'Auth tokens for a distributed user controlled wrold', ARRAY['dholms', 'matheus23'], '2022-02-24T21:06:05.080468+00:00'),
+(431203802, 12, 0, 1, 0, 1, 'Dhaiwat10/svelte-link-preview', 'Svelte port of @dhaiwat10/react-link-preview', ARRAY['Dhaiwat10'], '2022-02-24T21:06:05.080468+00:00'),
 (431928942, 1, 0, 2, 0, 0, 'SVD6/Personal-Site', 'My personal website.', ARRAY['SVD6'], '2022-02-24T21:06:05.080468+00:00'),
 (432493110, 1, 0, 1, 0, 11, 'divyakelaskar/MagicHat', 'An AR filter of a hat 🎩', ARRAY['divyakelaskar'], '2022-02-24T21:06:05.080468+00:00'),
 (432685277, 209, 0, 1, 0, 0, 'joelthelion/life_web', 'Life simulation written in rust', ARRAY['joelthelion', 'Robbepop'], '2022-02-24T21:06:05.080468+00:00'),
