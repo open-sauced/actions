@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T01:02:56.310Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T03:00:14.963Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1651,12 +1651,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (140954496, 827, 41, 1, 0, 21, 'tc39/proposal-built-in-modules', null, ARRAY['msaboff', 'mattijs'], '2022-02-24T21:06:05.080468+00:00'),
 (141061403, 65, 5, 1, 0, 13, 'zloylos/grsync', 'Golang rsync wrapper', ARRAY['zloylos', 'chenCL667'], '2022-02-24T21:06:05.080468+00:00'),
 (141166490, 581, 9, 1, 0, 7, 'operatortc/tonic', 'A Low Profile Component Framework – Stable, minimal, easy to audit, zero-dependencies and build-tool-free.', ARRAY['Raynos', 'heapwolf'], '2022-02-24T21:06:05.080468+00:00'),
-(141334515, 359, 3, 1, 0, 6, 'kormyen/memex', 'Simple bookmarks and notes', ARRAY['kormyen', 'lcb931023'], '2022-02-24T21:06:05.080468+00:00'),
 (141352703, 2157, 81, 1, 0, 2, 'smallstep/cli', '🧰  A zero trust swiss army knife for working with X509, OAuth, JWT, OATH OTP, etc.', ARRAY['maraino', 'dopey'], '2022-02-24T21:06:05.080468+00:00'),
 (141380542, 1706, 10, 1, 0, 10, 'minamarkham/formation', '💻 macOS setup script for front-end development', ARRAY['minamarkham', 'bentsai'], '2022-02-24T21:06:05.080468+00:00'),
 (141430876, 48, 8, 1, 0, 5, 'rubensworks/jsonld-streaming-parser.js', 'A fast and lightweight streaming JSON-LD parser for JavaScript', ARRAY['rubensworks', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (141514439, 544, 13, 1, 0, 9, 'kowainik/relude', '🌀 Safe, performant, user-friendly and lightweight Haskell standard library', ARRAY['chshersh', 'sdiehl'], '2022-02-24T21:06:05.080468+00:00'),
 (141717232, 250, 170, 1, 0, 14, 'status-im/nimbus-eth2', 'Nim implementation of the Ethereum 2.0 blockchain', ARRAY['tersec', 'zah'], '2022-02-24T21:06:05.080468+00:00'),
+(141334515, 359, 3, 1, 0, 6, 'kormyen/memex', 'Simple bookmarks and notes', ARRAY['kormyen', 'lcb931023'], '2022-02-24T21:06:05.080468+00:00'),
 (141843316, 289, 8, 1, 0, 1, 'demystifyfp/FsToolkit.ErrorHandling', 'An opinionated F# Library for error handling', ARRAY['TheAngryByrd', 'tamizhvendan'], '2022-02-24T21:06:05.080468+00:00'),
 (141910081, 12184, 102, 1, 0, 9, 'faressoft/terminalizer', '🦄 Record your terminal and generate animated gif images or share a web player', ARRAY['faressoft', 'noplanman'], '2022-02-24T21:06:05.080468+00:00'),
 (142616550, 569, 4, 1, 0, 5, 'bernaferrari/EmojiSlider', '🤯 A slider widget rich in emoji and highly customisable.', ARRAY['bernaferrari', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3327,7 +3327,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (376475936, 1, 0, 1, 0, 23, 'adil-Pathan/ionic-tk-social-network', 'Ionic 5 - social network starter project', ARRAY['thenaim'], '2022-02-24T21:06:05.080468+00:00'),
 (376492865, 2792, 3, 1, 0, 9, 'six-ddc/plow', 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', ARRAY['six-ddc', 'chenrui333'], '2022-02-24T21:06:05.080468+00:00'),
 (376732923, 1, 0, 1, 0, 15, 'kibybyte/kibybyte', 'Kibybyte''s Website', ARRAY['kibybyte'], '2022-02-24T21:06:05.080468+00:00'),
-(376953303, 91, 3, 1, 0, 13, 'cloudflare/zkp-ecdsa', 'Proves knowledge of a ECDSA-P256 signature under one of many public keys that are stored in a list.', ARRAY['wbl'], '2022-02-24T21:06:05.080468+00:00'),
 (377196642, 3, 0, 1, 0, 18, 'alanmontgomery/ionic-react-hook-form-example', 'Example with React Hook Form', ARRAY['alanmontgomery'], '2022-02-24T21:06:05.080468+00:00'),
 (377267871, 254, 0, 1, 0, 3, 'gaearon/react-lag-radar', null, ARRAY['gaearon'], '2022-02-24T21:06:05.080468+00:00'),
 (377305568, 2240, 0, 1, 0, 15, 'learntocloud/learn-to-cloud', 'Learn the fundamentals of cloud computing', ARRAY['madebygps', 'rishabkumar7'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3335,6 +3334,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (377452626, 174, 22, 2, 0, 12.5, 'atapas/webapis-playground', 'The Web APIs Playground is a project to showcase the JavaScript Web APIs with examples and demonstrations. Client-side JavaScript APIs are here to help with providing wrapper functions for many low-level tasks.', ARRAY['atapas', 'mverissimo'], '2022-02-24T21:06:05.080468+00:00'),
 (377602613, 159, 1, 1, 0, 9, 'hasura/hasura-ecommerce', null, ARRAY['GavinRay97'], '2022-02-24T21:06:05.080468+00:00'),
 (377990171, 37, 0, 1, 0, 6, 'misodope/AdultSwimTok', null, ARRAY['misodope'], '2022-02-24T21:06:05.080468+00:00'),
+(376953303, 91, 3, 1, 0, 13, 'cloudflare/zkp-ecdsa', 'Proves knowledge of a ECDSA-P256 signature under one of many public keys that are stored in a list.', ARRAY['wbl'], '2022-02-24T21:06:05.080468+00:00'),
 (377680492, 159, 0, 1, 0, 1, 'cnrad/lanyard-profile-readme', '🏷️ Utilize Lanyard to display your Discord Presence in your GitHub Profile', ARRAY['cnrad', 'Looskie'], '2022-02-24T21:06:05.080468+00:00'),
 (378070841, 514, 1, 1, 0, 3, 'ngneat/elf', '🧙‍♀️ A Reactive Store with Magical Powers', ARRAY['NetanelBasal', 'theblushingcrow'], '2022-02-24T21:06:05.080468+00:00'),
 (378086009, 26, 0, 1, 0, 27, 'Manitej66/twlog', 'This is a web app that converts Twitter threads into blogs in a single click 🔥', ARRAY['Manitej66', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3466,9 +3466,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (391400895, 136, 6, 1, 0, 23, 'TBens/lovelace-ui-minimalist', '🌻 Lovelace UI • Minimalist', ARRAY['TBens'], '2022-02-24T21:06:05.080468+00:00'),
 (391473827, 5, 8, 1, 0, 28, 'open-sauced/semantic-release-conventional-config', 'semantic-release shareable config to publish to npm and/or ghcr', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (391775174, 1, 0, 1, 0, 21, 'mercyharbo/myShoppingList', 'This is a shopping cart that performs a simple tasks like adding, removing a shopping list.', ARRAY['mercyharbo'], '2022-02-24T21:06:05.080468+00:00'),
+(391916620, 1, 0, 2, 0, 0, 'vicktoh/dataphyte_index', null, ARRAY['vicktoh'], '2022-02-24T21:06:05.080468+00:00'),
 (392046190, 8, 0, 1, 0, 16, 'Dhaiwat10/furniture-exchange', '2021 Supabase launchweek hackathon entry', ARRAY['Dhaiwat10', 'Nazeeh21'], '2022-02-24T21:06:05.080468+00:00'),
 (392073567, 7, 4, 1, 0, 7, 'open-sauced/docs.opensauced.pizza', 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', ARRAY['0-vortex', 'samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
-(391916620, 1, 0, 2, 0, 0, 'vicktoh/dataphyte_index', null, ARRAY['vicktoh'], '2022-02-24T21:06:05.080468+00:00'),
 (392172833, 16, 146, 1, 0, 17, 'SidHacksCommunity/support', 'Reach out for any support you need', ARRAY['siddharthdayalwal', 'verma-kunal'], '2022-02-24T21:06:05.080468+00:00'),
 (392242345, 37, 0, 1, 0, 24, 'hilmanski/discussbase', 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3547,9 +3547,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-24T21:06:05.080468+00:00'),
 (400528139, 267, 39, 1, 0, 2, 'tinkoff-ai/etna', 'ETNA – Time-Series Library', ARRAY['Mr-Geekman', 'alex-hse-repository'], '2022-02-24T21:06:05.080468+00:00'),
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
-(400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
-(400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-24T21:06:05.080468+00:00'),
-(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-24T21:06:05.080468+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:06:05.080468+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
+(400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
+(400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-24T21:06:05.080468+00:00'),
+(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00');
