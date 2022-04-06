@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T12:54:08.348Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T14:43:21.748Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3019,9 +3019,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (332449101, 1, 14, 1, 0, 3, 'Mogakamo/reddit-lite', 'unofficial reddit lite app ', ARRAY['Mogakamo'], '2022-02-24T21:06:05.080468+00:00'),
 (332479921, 207, 26, 1, 0, 14, 'nix-community/lorri', 'Your project’s nix-env [maintainer=@Profpatsch]', ARRAY['Profpatsch', 'grahamc'], '2022-02-24T21:06:05.080468+00:00'),
 (332684562, 3, 0, 1, 0, 12, 'udberg/BlogApp', 'This project is a Twitter-styled microblog, with only users and short(micro) posts. Users have a unique identifier called id(of type integer), a publicly viewable name(of type string), and an email address(also of type string) that will double as a unique username. You can create, edit and destroy posts on the blog.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
-(332744719, 5, 0, 1, 0, 11, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', null, ARRAY['imadovitch'], '2022-02-24T21:06:05.080468+00:00'),
 (332757634, 3633, 8, 2, 0, 18.5, 'jonasstrehle/supercookie', '⚠️ Browser fingerprinting via favicon!', ARRAY['jonasstrehle', 'szepeviktor'], '2022-02-24T21:06:05.080468+00:00'),
 (332792912, 3, 0, 1, 0, 14, 'udberg/RailsFullApp', null, ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
+(332744719, 5, 0, 1, 0, 11, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', null, ARRAY['imadovitch'], '2022-02-24T21:06:05.080468+00:00'),
 (332841560, 2, 0, 1, 0, 10, 'MattMarquise/Modern-Game-Console-UI', 'Modern Game Console UI Project', ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
 (332861685, 53, 0, 1, 0, 0, 'jeanrauwers/react-native-bootcamp', 'React Native Bootcamp 2021 (completely free)', ARRAY['jeanrauwers'], '2022-02-24T21:06:05.080468+00:00'),
 (332880689, 1940, 29, 1, 0, 10, 'coollabsio/coolify', 'An open-source, hassle-free, self-hostable Heroku & Netlify alternative', ARRAY['andrasbacsai'], '2022-02-24T21:06:05.080468+00:00'),
