@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-05T22:43:55.662Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T01:02:56.310Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3466,9 +3466,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (391400895, 136, 6, 1, 0, 23, 'TBens/lovelace-ui-minimalist', '🌻 Lovelace UI • Minimalist', ARRAY['TBens'], '2022-02-24T21:06:05.080468+00:00'),
 (391473827, 5, 8, 1, 0, 28, 'open-sauced/semantic-release-conventional-config', 'semantic-release shareable config to publish to npm and/or ghcr', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (391775174, 1, 0, 1, 0, 21, 'mercyharbo/myShoppingList', 'This is a shopping cart that performs a simple tasks like adding, removing a shopping list.', ARRAY['mercyharbo'], '2022-02-24T21:06:05.080468+00:00'),
-(391916620, 1, 0, 2, 0, 0, 'vicktoh/dataphyte_index', null, ARRAY['vicktoh'], '2022-02-24T21:06:05.080468+00:00'),
 (392046190, 8, 0, 1, 0, 16, 'Dhaiwat10/furniture-exchange', '2021 Supabase launchweek hackathon entry', ARRAY['Dhaiwat10', 'Nazeeh21'], '2022-02-24T21:06:05.080468+00:00'),
 (392073567, 7, 4, 1, 0, 7, 'open-sauced/docs.opensauced.pizza', 'Docs dot Open Sauced is an static rendered documentation for open source developer onboarding', ARRAY['0-vortex', 'samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
+(391916620, 1, 0, 2, 0, 0, 'vicktoh/dataphyte_index', null, ARRAY['vicktoh'], '2022-02-24T21:06:05.080468+00:00'),
 (392172833, 16, 146, 1, 0, 17, 'SidHacksCommunity/support', 'Reach out for any support you need', ARRAY['siddharthdayalwal', 'verma-kunal'], '2022-02-24T21:06:05.080468+00:00'),
 (392242345, 37, 0, 1, 0, 24, 'hilmanski/discussbase', 'An open-source forum Create your discussion platform and deploy it completely free, Using SEVEN stack - Supabase, Vercel and Next.js', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (392375604, 2, 0, 1, 0, 14, 'kiruba-r11/file-categorizer', 'It categorizes your files 📁 based on its extension type.', ARRAY['kiruba-r11'], '2022-02-24T21:06:05.080468+00:00'),
