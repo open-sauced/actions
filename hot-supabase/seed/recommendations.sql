@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T08:45:24.562Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-06T10:45:00.737Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1155,13 +1155,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (79723839, 14465, 201, 1, 0, 27, 'teambit/bit', 'A tool for component-driven application development. ', ARRAY['davidfirst', 'GiladShoham'], '2022-02-24T21:06:05.080468+00:00'),
 (79804720, 1341, 4, 1, 0, 18, 'tuchk4/awesome-create-react-app', 'Awesome list of Create React App articles / tutorials / videos and FAQ', ARRAY['tuchk4', 'andreiduca'], '2022-02-24T21:06:05.080468+00:00'),
 (79833715, 42, 4, 1, 0, 2, 'calculist/calculist-web', 'source code for app.calculist.io', ARRAY['danallison'], '2022-02-24T21:06:05.080468+00:00'),
-(80016159, 7698, 372, 1, 0, 3, 'graphql/graphql-playground', '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', ARRAY['timsuchanek', 'huv1k'], '2022-02-24T21:06:05.080468+00:00'),
 (80149262, 20673, 484, 1, 0, 17, 'react-navigation/react-navigation', 'Routing and navigation for your React Native apps', ARRAY['satya164', 'brentvatne'], '2022-02-24T21:06:05.080468+00:00'),
 (80179717, 61, 1, 1, 0, 9, 'alexlafroscia/alfred-switch-audio-source', 'Alfred workflow to switch audio device', ARRAY['alexlafroscia', 'nodeselector'], '2022-02-24T21:06:05.080468+00:00'),
 (80216474, 696, 12, 1, 0, 13, 'ClementPinard/FlowNetPytorch', 'Pytorch implementation of FlowNet by Dosovitskiy et al.', ARRAY['ClementPinard', 'mickaelseznec'], '2022-02-24T21:06:05.080468+00:00'),
 (80276391, 34800, 6, 1, 0, 22, 'GitSquared/edex-ui', 'A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support.', ARRAY['GitSquared', 'greenkeeperio-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (80294918, 5101, 116, 1, 0, 23, 'gcanti/io-ts', 'Runtime type system for IO decoding/encoding', ARRAY['gcanti', 'osdiab'], '2022-02-24T21:06:05.080468+00:00'),
 (80472665, 15135, 54, 1, 0, 16, 'salomonelli/best-resume-ever', ':necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.', ARRAY['salomonelli', 'pubkey'], '2022-02-24T21:06:05.080468+00:00'),
+(80016159, 7698, 372, 1, 0, 3, 'graphql/graphql-playground', '🎮  GraphQL IDE for better development workflows (GraphQL Subscriptions, interactive docs & collaboration)', ARRAY['timsuchanek', 'huv1k'], '2022-02-24T21:06:05.080468+00:00'),
 (80587182, 119, 1, 1, 0, 19, 'scotch-io/javascript-starter-course', 'Code for the Scotch School course by @sevilayha', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (80669528, 1144, 122, 1, 0, 2, 'drud/ddev', 'DDEV-Local: a local PHP development environment system', ARRAY['rfay', 'tannerjfco'], '2022-02-24T21:06:05.080468+00:00'),
 (80724464, 4295, 11, 1, 0, 7, 'nuxt-community/awesome-nuxt', 'A curated list of awesome things related to Nuxt.js', ARRAY['limichange', 'manniL'], '2022-02-24T21:06:05.080468+00:00'),
