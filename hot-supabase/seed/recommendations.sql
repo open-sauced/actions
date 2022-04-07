@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T16:50:50.688Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T18:46:26.399Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1063,13 +1063,15 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70848287, 2338, 41, 1, 0, 23, 'yairEO/tagify', '🔖 lightweight, efficient Tags input component in Vanilla JS / React / Angular / Vue', ARRAY['yairEO', 'LironHazan'], '2022-02-24T21:06:05.080468+00:00'),
 (70860064, 1025, 1, 1, 0, 19, 'Yonet/Angular-Interview-Questions', 'A list of helpful Angular interview questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['Yonet', 'bhanu7755'], '2022-02-24T21:06:05.080468+00:00'),
 (70908474, 924, 62, 1, 0, 29, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:06:05.080468+00:00'),
+(70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-24T21:06:05.080468+00:00'),
 (71002855, 12, 0, 1, 0, 6, 'muryoimpl/slippr', 'markdown presentation app by Electron', ARRAY['muryoimpl', 'takkanm'], '2022-02-24T21:06:05.080468+00:00'),
 (71133469, 4594, 77, 1, 0, 18, 'reviewdog/reviewdog', '🐶 Automated code review tool integrated with any code analysis tools regardless of programming language', ARRAY['haya14busa', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (71220757, 33077, 17, 1, 0, 27, 'swisskyrepo/PayloadsAllTheThings', 'A list of useful payloads and bypass for Web Application Security and Pentest/CTF', ARRAY['swisskyrepo', 'p0dalirius'], '2022-02-24T21:06:05.080468+00:00'),
 (71230327, 559, 18, 1, 0, 24, 'spring-projects-experimental/spring-boot-thin-launcher', 'Tools for building ''thin'' executable jars, with a focus on, but not exclusively for, Spring Boot', ARRAY['dsyer', 'mnewquis'], '2022-02-24T21:06:05.080468+00:00'),
-(70942762, 712, 127, 1, 0, 18, 'danielyxie/bitburner', 'Bitburner Game', ARRAY['hydroflame', 'danielyxie'], '2022-02-24T21:06:05.080468+00:00'),
 (71293321, 10170, 222, 1, 0, 18, 'diegomura/react-pdf', '📄  Create PDF files using React', ARRAY['diegomura', 'jeetiss'], '2022-02-24T21:06:05.080468+00:00'),
 (71297170, 11701, 14, 1, 0, 19, 'Netflix/chaosmonkey', 'Chaos Monkey is a resiliency tool that helps applications tolerate random instance failures.', ARRAY['lorin', 'prytoegrian'], '2022-02-24T21:06:05.080468+00:00'),
+(71335054, 2003, 7, 1, 0, 6, 'jimmysuncpt/Algorithms', 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', ARRAY['jimmysuncpt', 'itlonewolf'], '2022-02-24T21:06:05.080468+00:00'),
+(71485542, 1482, 196, 1, 0, 18, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-24T21:06:05.080468+00:00'),
 (71551629, 10979, 8, 2, 0, 10, 'carloscuesta/gitmoji', 'An emoji guide for your commit messages. 😜 ', ARRAY['carloscuesta', 'johannchopin'], '2022-02-24T21:06:05.080468+00:00'),
 (71583602, 25417, 2, 1, 0, 8, 'Developer-Y/cs-video-courses', 'List of Computer Science courses with video lectures.', ARRAY['Developer-Y', 'DateBro'], '2022-02-24T21:06:05.080468+00:00'),
 (71667498, 3034, 2, 1, 0, 10, 'lirantal/dockly', 'Immersive terminal interface for managing docker containers and services', ARRAY['lirantal', 'snyk-bot'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1095,8 +1097,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (74293321, 54143, 609, 1, 0, 5, 'sveltejs/svelte', 'Cybernetically enhanced web apps', ARRAY['Rich-Harris', 'Conduitry'], '2022-02-24T21:06:05.080468+00:00'),
 (97947902, 13, 0, 1, 0, 16, 'aai210/Best-on-CodePen', 'Here collected a collection of favorite CodePen', ARRAY['aai210'], '2022-02-24T21:06:05.080468+00:00'),
 (73648678, 18420, 411, 3, 2, 15.666666666666666, 'forem/forem', 'For empowering community 🌱', ARRAY['benhalpern', 'rhymes'], '2022-02-24T21:06:05.080468+00:00'),
-(71335054, 2003, 7, 1, 0, 6, 'jimmysuncpt/Algorithms', 'The codes and my solutions to exercises from the book ''Algorithms'' (4th edition) by Robert Sedgewick and Kevin Wayne.', ARRAY['jimmysuncpt', 'itlonewolf'], '2022-02-24T21:06:05.080468+00:00'),
-(71485542, 1482, 196, 1, 0, 18, 'kevinpapst/kimai2', 'Kimai v2 is a web-based multiuser time-tracking application. Free for everyone: freelancers, agencies, companies, organizations - all can track their times, generate invoices and more. SaaS version available at https://www.kimai.cloud', ARRAY['kevinpapst', 'weblate'], '2022-02-24T21:06:05.080468+00:00'),
 (74367471, 4492, 19, 1, 0, 19, 'mjswensen/themer', '🎨 themer takes a set of colors and generates themes for your apps (editors, terminals, wallpapers, and more).', ARRAY['mjswensen', 'spenserblack'], '2022-02-24T21:06:05.080468+00:00'),
 (74421371, 7395, 1, 1, 0, 3, 'ryanburgess/engineer-manager', 'A list of engineering manager resource links.', ARRAY['ryanburgess', 'stve'], '2022-02-24T21:06:05.080468+00:00'),
 (74505259, 14961, 1308, 1, 0, 2, 'slundberg/shap', 'A game theoretic approach to explain the output of any machine learning model.', ARRAY['slundberg', 'ryserrao'], '2022-02-24T21:06:05.080468+00:00'),
