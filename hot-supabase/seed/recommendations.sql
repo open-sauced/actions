@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T02:59:30.143Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T04:47:34.673Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3153,7 +3153,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (350874478, 350, 2, 1, 0, 0, 'notrab/headless-dropshipping-starter', 'Create your own dropshipping store with Next.js, Snipcart & Printful 👕', ARRAY['renovate-bot', 'notrab'], '2022-02-24T21:06:05.080468+00:00'),
 (351005162, 55, 1, 1, 0, 8, 'salvatoreraccardi/OBJEX_LINK', 'OBJEX Link is a modular IoT board. It is designed to develop IoT devices, which are easy to repair and reusable at the end of the device life cycle.', ARRAY['salvatoreraccardi', 'Vetozz'], '2022-02-24T21:06:05.080468+00:00'),
 (351087635, 8, 1, 1, 0, 1, 'samuelkraft/routes', 'Trail Routes - Curated running & hiking trails in Sweden', ARRAY['samuelkraft'], '2022-02-24T21:06:05.080468+00:00'),
-(351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-24T21:06:05.080468+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-24T21:06:05.080468+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-24T21:06:05.080468+00:00'),
 (351728562, 2, 0, 1, 0, 9, 'lukeocodes/nuxt-contentful-starter', 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ARRAY['lukeocodes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3232,8 +3231,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (363821528, 18, 0, 1, 0, 1, 'sonjiku/pywal', '🎨 Generate and change color-schemes on the fly.', ARRAY['dylanaraps', 'LoLei'], '2022-02-24T21:06:05.080468+00:00'),
 (363943607, 2, 0, 1, 0, 28, 'udberg/Todo-List', null, ARRAY['keneogu', 'udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
-(363994683, 7, 10, 1, 0, 22, 'GSA/usagov-benefits-eligibility', 'This is the for the benefits eligibility website for usa.gov.', ARRAY['r-bartlett-gsa', 'sknep'], '2022-02-24T21:06:05.080468+00:00'),
 (364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
+(363994683, 7, 10, 1, 0, 22, 'GSA/usagov-benefits-eligibility', 'This is the for the benefits eligibility website for usa.gov.', ARRAY['r-bartlett-gsa', 'sknep'], '2022-02-24T21:06:05.080468+00:00'),
 (364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
 (364149329, 42, 3, 1, 0, 26, 'orbit-love/github-actions-templates', 'Starter GitHub Actions templates to get you up and running with community built integrations', ARRAY['bencgreenberg', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
 (364336351, 10, 0, 1, 0, 3, 'DiscordFactory/core', '🧡 The neuralgic heart of the application, this module gathers all the functionalities of the framework.', ARRAY['LeadcodeDev', 'devreluije'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3383,6 +3382,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383495767, 1, 1, 2, 0, 0, 'osoc21/wepod-sandbox', null, ARRAY['barbarebelge'], '2022-02-24T21:06:05.080468+00:00'),
 (383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:06:05.080468+00:00'),
 (383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
+(351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-24T21:06:05.080468+00:00'),
 (383784099, 37, 6, 1, 0, 6, 'microsoft/powerbi-client-angular', 'Power BI Angular component. This library lets you embed Power BI report, dashboard, dashboard tile, report visual, or Q&A in your Angular application.', ARRAY['parth-007', 'may-hartov'], '2022-02-24T21:06:05.080468+00:00'),
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-24T21:06:05.080468+00:00'),
 (383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-24T21:06:05.080468+00:00'),
