@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T12:58:48.431Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-07T14:43:42.722Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1743,8 +1743,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (152766602, 12, 0, 1, 0, 9, 'ssaleem/Front-End-Practice', 'Front-end playground; my solutions to Pramp, FCC, and Fullstack Academy challenges and projects', ARRAY['ssaleem'], '2022-02-24T21:06:05.080468+00:00'),
 (152873434, 3, 0, 1, 0, 3, 'NaturalCycles/dev-lib', 'Configuration files and scripts shared between all js modules', ARRAY['kirillgroshkov', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (152975883, 1930, 13, 1, 0, 24, 'stimulusreflex/stimulus_reflex', 'Build reactive applications with the Rails tooling you already know and love.', ARRAY['leastbad', 'hopsoft'], '2022-02-24T21:06:05.080468+00:00'),
-(153099672, 11870, 6, 1, 0, 28, 'inancgumus/learngo', '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', ARRAY['inancgumus', 'firasuke'], '2022-02-24T21:06:05.080468+00:00'),
 (153251691, 542, 403, 1, 0, 19, 'Ishaan28malik/Hacktoberfest-2021', 'Make this Hacktoberfest a learning period and contribute to Great Open Source Projects.', ARRAY['Ishaan28malik', 'orestotel'], '2022-02-24T21:06:05.080468+00:00'),
+(153099672, 11870, 6, 1, 0, 28, 'inancgumus/learngo', '1000+ Hand-Crafted Go Examples, Exercises, and Quizzes', ARRAY['inancgumus', 'firasuke'], '2022-02-24T21:06:05.080468+00:00'),
 (153335440, 644, 4, 1, 0, 24, 'ernestoyaquello/DragDropSwipeRecyclerview', 'Kotlin Android library that extends RecyclerView to support gestures like drag & drop and swipe, among others. It works with vertical, horizontal and grid lists.', ARRAY['ernestoyaquello', 'JonathanImperato'], '2022-02-24T21:06:05.080468+00:00'),
 (153500249, 16972, 85, 2, 0, 5.5, 'sdras/awesome-actions', 'A curated list of awesome actions to use on GitHub', ARRAY['gep13', 'sdras'], '2022-02-24T21:06:05.080468+00:00'),
 (153687898, 264, 14, 1, 0, 23, 'googlecreativelab/creatability-components', 'Web components for making creative tools more accessible.', ARRAY['hapticdata', 'alexanderchen'], '2022-02-24T21:06:05.080468+00:00'),
