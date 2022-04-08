@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-08T08:45:27.692Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-08T10:44:57.148Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -945,7 +945,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-24T21:06:05.080468+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-24T21:06:05.080468+00:00'),
 (57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
-(57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
 (57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (57914774, 1665, 69, 1, 0, 18, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-24T21:06:05.080468+00:00'),
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-24T21:06:05.080468+00:00'),
@@ -965,6 +964,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (59909973, 1365, 24, 1, 0, 16, 'ngrx/example-app', 'Example app showcasing the ngrx platform', ARRAY['MikeRyanDev', 'krjordan'], '2022-02-24T21:06:05.080468+00:00'),
 (60125647, 2791, 48, 1, 0, 12, 'jimmywarting/StreamSaver.js', 'StreamSaver writes stream to the filesystem directly asynchronous', ARRAY['jimmywarting', 'TexKiller'], '2022-02-24T21:06:05.080468+00:00'),
 (60201474, 2, 2, 1, 0, 6, 'RubyHabits/ruby-habits-library', 'An app to run our Ruby Habits library :D', ARRAY['evatrostlos', 'alicetragedy'], '2022-02-24T21:06:05.080468+00:00'),
+(57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
 (60243197, 17779, 1907, 1, 0, 12, 'nextcloud/server', '☁️ Nextcloud server, a safe home for all your data', ARRAY['rullzer', 'MorrisJobke'], '2022-02-24T21:06:05.080468+00:00'),
 (60246359, 21223, 1850, 1, 0, 19, 'ClickHouse/ClickHouse', 'ClickHouse® is a free analytics DBMS for big data', ARRAY['alexey-milovidov', 'alesapin'], '2022-02-24T21:06:05.080468+00:00'),
 (60374819, 11676, 2039, 2, 0, 6, 'jupyterlab/jupyterlab', 'JupyterLab computational environment.', ARRAY['blink1073', 'afshin'], '2022-02-24T21:06:05.080468+00:00'),
