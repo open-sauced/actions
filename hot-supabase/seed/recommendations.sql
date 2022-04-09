@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T16:49:45.982Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T18:46:01.278Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -420,7 +420,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14259390, 10435, 5, 1, 0, 21, 'Maatwebsite/Laravel-Excel', '🚀 Supercharged Excel exports and imports in Laravel', ARRAY['patrickbrouwers', 'MaatwebsiteSupport'], '2022-02-24T21:06:05.080468+00:00'),
 (14346979, 5622, 1032, 1, 0, 11, 'snipe/snipe-it', 'A free open source IT asset/license management system', ARRAY['snipe', 'dmeltzer'], '2022-02-24T21:06:05.080468+00:00'),
 (14370955, 32521, 48, 1, 0, 0, 'sahat/hackathon-starter', 'A boilerplate for Node.js web applications', ARRAY['sahat', 'YasharF'], '2022-02-24T21:06:05.080468+00:00'),
-(14440270, 147708, 130, 4, 1, 6.5, 'getify/You-Dont-Know-JS', 'A book series on JavaScript. @YDKJS on twitter.', ARRAY['getify', 'machineloop'], '2022-02-24T21:06:05.080468+00:00'),
 (14499588, 61, 75, 1, 0, 20, 'AgileVentures/LocalSupport', 'A directory of local support services and volunteer opportunities', ARRAY['tansaku', 'mtc2013'], '2022-02-24T21:06:05.080468+00:00'),
 (14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-24T21:06:05.080468+00:00'),
 (14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-24T21:06:05.080468+00:00'),
@@ -444,6 +443,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (15479087, 4857, 58, 1, 0, 11, 'OctoLinker/OctoLinker', 'OctoLinker — Links together, what belongs together', ARRAY['stefanbuck', 'josephfrazier'], '2022-02-24T21:06:05.080468+00:00'),
 (15505662, 3300, 42, 1, 0, 14, 'cknadler/vim-anywhere', 'Use Vim everywhere you''ve always wanted to', ARRAY['mmai', 'jtheoof'], '2022-02-24T21:06:05.080468+00:00'),
 (17763202, 442, 19, 1, 0, 23, 'evgenyneu/js-evaluator-for-android', 'A library for running JavaScript in Android apps.', ARRAY['evgenyneu', 'codebymikey'], '2022-02-24T21:06:05.080468+00:00'),
+(14440270, 147708, 130, 4, 1, 6.5, 'getify/You-Dont-Know-JS', 'A book series on JavaScript. @YDKJS on twitter.', ARRAY['getify', 'machineloop'], '2022-02-24T21:06:05.080468+00:00'),
 (15585444, 25707, 36, 1, 0, 9, 'IanLunn/Hover', 'A collection of CSS3 powered hover effects to be applied to links, buttons, logos, SVG, featured images and so on. Easily apply to your own elements, modify or just use for inspiration. Available in CSS, Sass, and LESS.', ARRAY['IanLunn', 'Minimalistic'], '2022-02-24T21:06:05.080468+00:00'),
 (15708275, 10, 61, 1, 0, 7, 'akvo/akvo-product-design', 'Products Design Documents', ARRAY['adriancollier', 'mtwestra'], '2022-02-24T21:06:05.080468+00:00'),
 (15776379, 789, 1, 1, 0, 9, 'nprapps/pym.js', 'Resize an iframe responsively depending on the height of its content and the width of its container.', ARRAY['onyxfish', 'jjelosua'], '2022-02-24T21:06:05.080468+00:00'),
@@ -869,8 +869,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (50685592, 1059, 52, 1, 0, 15, 'GoogleCloudPlatform/cloud-vision', 'Sample code for Google Cloud Vision', ARRAY['tswast', 'amygdala'], '2022-02-24T21:06:05.080468+00:00'),
 (50874860, 813, 26, 1, 0, 10, 'go-ping/ping', 'ICMP Ping library for Go', ARRAY['sparrc', 'CHTJonas'], '2022-02-24T21:06:05.080468+00:00'),
 (50961078, 36, 0, 1, 0, 5, 'leggetter/devrelometer', 'DevRelOMeter: Are you practicing Developer Evangelism or Advocacy?', ARRAY['leggetter'], '2022-02-24T21:06:05.080468+00:00'),
-(51109642, 179, 0, 1, 0, 20, 'cezaraugusto/github-template-guidelines', 'Guidelines for building GitHub templates.', ARRAY['cezaraugusto'], '2022-02-24T21:06:05.080468+00:00'),
 (51018409, 7580, 46, 1, 0, 25, 'appbaseio/dejavu', 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', ARRAY['lakhansamani', 'ShahAnuj2610'], '2022-02-24T21:06:05.080468+00:00'),
+(51109642, 179, 0, 1, 0, 20, 'cezaraugusto/github-template-guidelines', 'Guidelines for building GitHub templates.', ARRAY['cezaraugusto'], '2022-02-24T21:06:05.080468+00:00'),
 (51270739, 19677, 49, 3, 0, 19, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-24T21:06:05.080468+00:00'),
 (51462299, 10556, 67, 1, 0, 9, 'jaredpalmer/razzle', '✨ Create server-rendered universal JavaScript applications with no configuration', ARRAY['fivethreeo', 'jaredpalmer'], '2022-02-24T21:06:05.080468+00:00'),
 (51568094, 2490, 43, 1, 0, 1, 'careercup/CtCI-6th-Edition-JavaScript', 'Cracking the Coding Interview 6th Ed. JavaScript Solutions', ARRAY['dawsbot', 'profnandaa'], '2022-02-24T21:06:05.080468+00:00'),
@@ -984,7 +984,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62091339, 13622, 211, 1, 0, 25, 'kubernetes/kops', 'Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management', ARRAY['k8s-ci-robot', 'justinsb'], '2022-02-24T21:06:05.080468+00:00'),
 (62104779, 16567, 170, 1, 0, 3, 'SortableJS/Vue.Draggable', 'Vue drag-and-drop component based on Sortable.js', ARRAY['David-Desmaisons', 'cgarnier'], '2022-02-24T21:06:05.080468+00:00'),
 (62260083, 10317, 267, 2, 0, 16.5, 'withspectrum/spectrum', 'Simple, powerful online communities.', ARRAY['brianlovin', 'mxstbr'], '2022-02-24T21:06:05.080468+00:00'),
-(62367558, 37545, 744, 5, 1, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (62500776, 7221, 130, 1, 0, 0, 'cerebroapp/cerebro', 'Open-source productivity booster with a brain', ARRAY['KELiON', 'Stanzilla'], '2022-02-24T21:06:05.080468+00:00'),
 (62607227, 62742, 8, 4, 2, 11.75, 'yangshun/tech-interview-handbook', '💯 Curated interview preparation materials for busy engineers', ARRAY['yangshun', 'louietyj'], '2022-02-24T21:06:05.080468+00:00'),
 (62634962, 1719, 4, 1, 0, 4, 'Tencent/QMUI_Web', 'An efficient front-end framework for developers building UI on the web.', ARRAY['kayo5994', 'jostinsu'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3067,8 +3066,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (338929421, 74, 14, 2, 0, 14, 'Team-TAU/tau', 'TAU- Twitch API Unifier, a containerized relay/proxy to unify the WebHook- and WebSocket-based real-time Twitch APIs under a single (local) WebSocket connection.', ARRAY['FiniteSingularity', 'mtfoley'], '2022-02-24T21:06:05.080468+00:00'),
 (339001070, 2, 0, 1, 0, 18, 'udberg/members-only', null, ARRAY['udberg', 'dibdas'], '2022-02-24T21:06:05.080468+00:00'),
 (339786950, 2461, 15, 1, 0, 8, 'encoredev/encore', 'The Backend Development Engine built for Go', ARRAY['eandre', 'marcuskohlberg'], '2022-02-24T21:06:05.080468+00:00'),
-(339839520, 2, 2, 1, 0, 11, 'ryan3738/bellingham3d-backend', 'https://github.com/ryan3738/Advanced-React.git', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
 (339838063, 2, 3, 1, 0, 12, 'ryan3738/bellingham3d-frontend', 'Front End for the Bellingham 3D Webstore', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
+(339839520, 2, 2, 1, 0, 11, 'ryan3738/bellingham3d-backend', 'https://github.com/ryan3738/Advanced-React.git', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
 (340027291, 2, 0, 1, 0, 19, 'udberg/confs.tech', 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ARRAY['nimzco', 'confs-tech-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (340182829, 1, 0, 1, 0, 9, 'MattMarquise/Design-Suite-Landing-Page-Theme', 'A random project inspired by Dwell.com', ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
 (340187605, 131, 0, 2, 0, 19.5, 'dmitryvinn/awesome-dev-advocacy', '🥑  List of Awesome Developer Advocacy Resources', ARRAY['dmitryvinn', 'dmitryvinn-fb'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3658,7 +3657,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-24T21:06:05.080468+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
-(71359796, 573, 29, 4, 2, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
+(191414235, 758, 4, 4, 4, 15, 'orbit-love/orbit-model', 'A framework for building high gravity communities 🪐', ARRAY['dzello', 'patrickjwoods'], '2022-02-24T21:06:05.080468+00:00'),
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
 (361044034, 16821, 48, 4, 2, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3667,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
-(191414235, 758, 4, 4, 3, 15, 'orbit-love/orbit-model', 'A framework for building high gravity communities 🪐', ARRAY['dzello', 'patrickjwoods'], '2022-02-24T21:06:05.080468+00:00'),
-(3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00');
+(71359796, 573, 29, 4, 3, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
+(3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
+(62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00');

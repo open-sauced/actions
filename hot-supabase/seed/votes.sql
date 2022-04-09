@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T16:49:45.882Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T18:46:00.853Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -70,4 +70,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (27, 5713670, 'ytdl-org/youtube-dl', '5713670-ytdl-org/youtube-dl', '2022-03-17T02:33:35.362305+00:00'),
 (28, 5713670, 'orbit-love/orbit-model', '5713670-orbit-love/orbit-model', '2022-03-19T06:29:38.128623+00:00'),
 (33, 1551031, 'preservim/nerdtree', '1551031-preservim/nerdtree', '2022-03-25T14:51:44.156683+00:00'),
-(39, 17701428, 'orbit-love/orbit-model', '17701428-orbit-love/orbit-model', '2022-04-06T22:37:26.085276+00:00');
+(45, 5396211, 'open-sauced/open-sauced', '5396211-open-sauced/open-sauced', '2022-04-09T18:14:22.288894+00:00'),
+(46, 5396211, 'getify/You-Dont-Know-JS', '5396211-getify/You-Dont-Know-JS', '2022-04-09T18:14:28.223725+00:00'),
+(39, 17701428, 'orbit-love/orbit-model', '17701428-orbit-love/orbit-model', '2022-04-06T22:37:26.085276+00:00'),
+(43, 5396211, 'vercel/hyper', '5396211-vercel/hyper', '2022-04-09T18:14:11.407973+00:00'),
+(47, 5396211, 'orbit-love/orbit-model', '5396211-orbit-love/orbit-model', '2022-04-09T18:14:37.781773+00:00');
