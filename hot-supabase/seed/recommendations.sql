@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T06:46:40.359Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T08:45:05.663Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2266,6 +2266,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (226992581, 168, 18, 1, 0, 18, 'googleapis/python-pubsub', null, ARRAY['dhermes', 'plamut'], '2022-02-24T21:06:05.080468+00:00'),
 (227265548, 1255, 49, 1, 0, 0, 'gluesql/gluesql', 'GlueSQL is quite sticky, it attaches to anywhere.', ARRAY['panarch', 'ever0de'], '2022-02-24T21:06:05.080468+00:00'),
 (227427615, 11, 0, 1, 0, 16, 'hiteshchoudhary/docker-youtube', 'A repo for docker series on youtube', ARRAY['hiteshchoudhary', 'lcobootcamp'], '2022-02-24T21:06:05.080468+00:00'),
+(227475713, 676, 13, 1, 0, 9, 'antoine92190/vue-advanced-chat', 'A beautiful chat rooms component made with Vue.js - compatible with Vue 2, Vue 3, React & Angular', ARRAY['antoine92190', 'LouisMazel'], '2022-02-24T21:06:05.080468+00:00'),
 (227648949, 4, 0, 1, 0, 15, 'willwray/type_codec_challenge', 'The Modern C++ type CoDec Challenge', ARRAY['willwray'], '2022-02-24T21:06:05.080468+00:00'),
 (227695638, 148, 13, 1, 0, 20, 'codeshow/003-arquitetura-flask', 'Arquitetura definitiva para projetos Flask', ARRAY['rochacbruno', 'thiagojobson'], '2022-02-24T21:06:05.080468+00:00'),
 (227978903, 7885, 124, 1, 0, 0, 'vueuse/vueuse', 'Collection of essential Vue Composition Utilities for Vue 2 and 3', ARRAY['antfu', 'wheatjs'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2290,7 +2291,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (230951254, 13, 2, 2, 0, 0, 'Singh-Shivani/Merlin-Fashion', 'A custom website for online fashion.', ARRAY['Singh-Shivani', 'imsouravstyles'], '2022-02-24T21:06:05.080468+00:00'),
 (230963289, 227, 25, 1, 0, 18, 'Paol-imi/muuri-react', 'The layout engine for React', ARRAY['Paol-imi', 'In-dev-paolo'], '2022-02-24T21:06:05.080468+00:00'),
 (231314367, 245, 13, 1, 0, 17, 'diamondburned/arikawa', 'A Golang library and framework for the Discord API.', ARRAY['diamondburned', 'mavolin'], '2022-02-24T21:06:05.080468+00:00'),
-(227475713, 676, 13, 1, 0, 9, 'antoine92190/vue-advanced-chat', 'A beautiful chat rooms component made with Vue.js - compatible with Vue 2, Vue 3, React & Angular', ARRAY['antoine92190', 'LouisMazel'], '2022-02-24T21:06:05.080468+00:00'),
 (231329928, 50, 1, 1, 0, 2, 'kat-tax/ult', 'The Ultimate Dev Stack', ARRAY['Cavitt'], '2022-02-24T21:06:05.080468+00:00'),
 (231669432, 23, 11, 1, 0, 0, 'morellodev/react-test-attributes', 'React library to add data-* attributes to DOM elements.', ARRAY['morellodev', 'BrunoAderaldo'], '2022-02-24T21:06:05.080468+00:00'),
 (231830382, 472, 6, 1, 0, 2, 'benawad/node-graphql-benchmarks', 'Benchmarks for different Node.js GraphQL Servers', ARRAY['benawad', 'cagataycali'], '2022-02-24T21:06:05.080468+00:00'),
