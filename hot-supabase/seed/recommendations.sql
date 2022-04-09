@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T14:43:26.922Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T16:49:45.982Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -869,8 +869,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (50685592, 1059, 52, 1, 0, 15, 'GoogleCloudPlatform/cloud-vision', 'Sample code for Google Cloud Vision', ARRAY['tswast', 'amygdala'], '2022-02-24T21:06:05.080468+00:00'),
 (50874860, 813, 26, 1, 0, 10, 'go-ping/ping', 'ICMP Ping library for Go', ARRAY['sparrc', 'CHTJonas'], '2022-02-24T21:06:05.080468+00:00'),
 (50961078, 36, 0, 1, 0, 5, 'leggetter/devrelometer', 'DevRelOMeter: Are you practicing Developer Evangelism or Advocacy?', ARRAY['leggetter'], '2022-02-24T21:06:05.080468+00:00'),
-(51018409, 7580, 46, 1, 0, 25, 'appbaseio/dejavu', 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', ARRAY['lakhansamani', 'ShahAnuj2610'], '2022-02-24T21:06:05.080468+00:00'),
 (51109642, 179, 0, 1, 0, 20, 'cezaraugusto/github-template-guidelines', 'Guidelines for building GitHub templates.', ARRAY['cezaraugusto'], '2022-02-24T21:06:05.080468+00:00'),
+(51018409, 7580, 46, 1, 0, 25, 'appbaseio/dejavu', 'The Missing Web UI for Elasticsearch: Import, browse and edit data with rich filters and query views, create search UIs visually.', ARRAY['lakhansamani', 'ShahAnuj2610'], '2022-02-24T21:06:05.080468+00:00'),
 (51270739, 19677, 49, 3, 0, 19, 'viatsko/awesome-vscode', '🎨 A curated list of delightful VS Code packages and resources.', ARRAY['viatsko', 'lannonbr'], '2022-02-24T21:06:05.080468+00:00'),
 (51462299, 10556, 67, 1, 0, 9, 'jaredpalmer/razzle', '✨ Create server-rendered universal JavaScript applications with no configuration', ARRAY['fivethreeo', 'jaredpalmer'], '2022-02-24T21:06:05.080468+00:00'),
 (51568094, 2490, 43, 1, 0, 1, 'careercup/CtCI-6th-Edition-JavaScript', 'Cracking the Coding Interview 6th Ed. JavaScript Solutions', ARRAY['dawsbot', 'profnandaa'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3067,8 +3067,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (338929421, 74, 14, 2, 0, 14, 'Team-TAU/tau', 'TAU- Twitch API Unifier, a containerized relay/proxy to unify the WebHook- and WebSocket-based real-time Twitch APIs under a single (local) WebSocket connection.', ARRAY['FiniteSingularity', 'mtfoley'], '2022-02-24T21:06:05.080468+00:00'),
 (339001070, 2, 0, 1, 0, 18, 'udberg/members-only', null, ARRAY['udberg', 'dibdas'], '2022-02-24T21:06:05.080468+00:00'),
 (339786950, 2461, 15, 1, 0, 8, 'encoredev/encore', 'The Backend Development Engine built for Go', ARRAY['eandre', 'marcuskohlberg'], '2022-02-24T21:06:05.080468+00:00'),
-(339838063, 2, 3, 1, 0, 12, 'ryan3738/bellingham3d-frontend', 'Front End for the Bellingham 3D Webstore', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
 (339839520, 2, 2, 1, 0, 11, 'ryan3738/bellingham3d-backend', 'https://github.com/ryan3738/Advanced-React.git', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
+(339838063, 2, 3, 1, 0, 12, 'ryan3738/bellingham3d-frontend', 'Front End for the Bellingham 3D Webstore', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
 (340027291, 2, 0, 1, 0, 19, 'udberg/confs.tech', 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ARRAY['nimzco', 'confs-tech-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (340182829, 1, 0, 1, 0, 9, 'MattMarquise/Design-Suite-Landing-Page-Theme', 'A random project inspired by Dwell.com', ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
 (340187605, 131, 0, 2, 0, 19.5, 'dmitryvinn/awesome-dev-advocacy', '🥑  List of Awesome Developer Advocacy Resources', ARRAY['dmitryvinn', 'dmitryvinn-fb'], '2022-02-24T21:06:05.080468+00:00'),
