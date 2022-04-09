@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T01:03:10.751Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-09T02:57:21.776Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1917,8 +1917,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (176946161, 198, 7, 1, 0, 6, 'sealedtx/java-youtube-downloader', 'Simple, almost zero-dependency java parser for retrieving youtube video metadata', ARRAY['sealedtx', 'poornerd'], '2022-02-24T21:06:05.080468+00:00'),
 (177033748, 2318, 172, 1, 0, 2, 'atlassian/changesets', '🦋       A way to manage your versioning and changelogs with a focus on monorepos', ARRAY['Noviny', 'mitchellhamilton'], '2022-02-24T21:06:05.080468+00:00'),
 (177420214, 1679, 37, 1, 0, 8, 'dosco/graphjin', 'GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.', ARRAY['dosco', 'frederikhors'], '2022-02-24T21:06:05.080468+00:00'),
-(177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (177423398, 88, 5, 1, 0, 27, 'getify/eslint-plugin-proper-ternary', 'ESLint rules to ensure proper usage of ternary/conditional expressions', ARRAY['getify', 'kaykayehnn'], '2022-02-24T21:06:05.080468+00:00'),
+(177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (177727387, 28, 0, 1, 0, 18, 'cizixs/awesome-raft', 'Raft is gaining popularity in distributed systems  as a simple and powerful consensus algorithm.', ARRAY['cizixs', 'wenweihu86'], '2022-02-24T21:06:05.080468+00:00'),
 (178017625, 961, 39, 1, 0, 1, 'bitbrute/evillimiter', 'Tool that monitors, analyzes and limits the bandwidth of devices on the local network without administrative access.', ARRAY['bitbrute', 'leonardus'], '2022-02-24T21:06:05.080468+00:00'),
 (178029799, 9, 0, 1, 0, 26, 'BaseMax/TinyShell', 'Tiny shell is a command-line interface (CLI) to execute commands in the system and to manage system. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
