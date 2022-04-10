@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T14:43:19.742Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T16:49:40.821Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2547,8 +2547,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (265215050, 705, 7, 2, 0, 10, 'asos-craigmorten/opine', 'Fast, minimalist web framework for Deno ported from ExpressJS.', ARRAY['asos-craigmorten', 'cmorten'], '2022-02-24T21:06:05.080468+00:00'),
 (265283491, 39, 0, 1, 0, 11, 'open-sauced/beybot', 'This is a twitch bot built with the ComfyJS library 💅🏾', ARRAY['bdougie', 'filiptronicek'], '2022-02-24T21:06:05.080468+00:00'),
 (265308478, 65, 31, 1, 0, 26, 'aslotte/MLOps.NET', 'A machine learning model operations and management tool for ML.NET', ARRAY['aslotte', 'Brett-Parker'], '2022-02-24T21:06:05.080468+00:00'),
-(265411978, 26, 9, 1, 0, 22, 'aidancrowther/ASCIIPlay', 'A simple video player that renders to ASCII written in C', ARRAY['aidancrowther', 'Skote2'], '2022-02-24T21:06:05.080468+00:00'),
 (265610202, 4, 0, 1, 0, 24, 'Millefeuille42/covidTerm', 'A Covid Terminal Application', ARRAY['Millefeuille42', 'deepsourcebot'], '2022-02-24T21:06:05.080468+00:00'),
+(265411978, 26, 9, 1, 0, 22, 'aidancrowther/ASCIIPlay', 'A simple video player that renders to ASCII written in C', ARRAY['aidancrowther', 'Skote2'], '2022-02-24T21:06:05.080468+00:00'),
 (265855552, 17, 7, 1, 0, 27, 'bdougie/gitActionTraction', ':video_camera: Home video of GitHub Actions tips for better traction. ', ARRAY['bdougie'], '2022-02-24T21:06:05.080468+00:00'),
 (265911693, 1704, 88, 1, 0, 9, 'orchest/orchest', 'Build data pipelines, the easy way 🛠️', ARRAY['ricklamers', 'yannickperrenet'], '2022-02-24T21:06:05.080468+00:00'),
 (265916655, 856, 8, 1, 0, 5, 'vmstan/gravity-sync', 'An easy way to synchronize the blocklist and local DNS configurations of multiple Pi-hole 5.x instances.', ARRAY['vmstan', 'callum-oakley'], '2022-02-24T21:06:05.080468+00:00'),
