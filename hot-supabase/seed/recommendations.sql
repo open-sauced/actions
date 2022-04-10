@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T03:00:33.798Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T04:47:21.325Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2618,10 +2618,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (273780626, 4, 1, 1, 0, 23, 'brantburnett/run-couchbasefakeit', 'Runs CouchbaseFakeIt in a Docker container on the build agent, using definition files from your repository.', ARRAY['brantburnett'], '2022-02-24T21:06:05.080468+00:00'),
 (273810635, 8, 20, 1, 0, 16, 'M0nica/ambition-fund-website', 'Website for www.ambitionfund.org, micro-grant program to provide support for underrepresented people who need financial assistance pursuing professional development opportunities in the technology industry.', ARRAY['M0nica', 'jordan-paz'], '2022-02-24T21:06:05.080468+00:00'),
 (273839530, 8692, 41, 1, 0, 8, 'Python-World/python-mini-projects', 'A collection of simple python mini projects to enhance your python skills', ARRAY['AdityaJ7', 'chavarera'], '2022-02-24T21:06:05.080468+00:00'),
-(273871859, 2580, 27, 1, 0, 9, 'juanfont/headscale', 'An open source, self-hosted implementation of the Tailscale control server', ARRAY['juanfont', 'kradalby'], '2022-02-24T21:06:05.080468+00:00'),
 (273950652, 87, 1, 1, 0, 7, 'ckundo/auto-vo', null, ARRAY['ckundo', 'stephenmathieson'], '2022-02-24T21:06:05.080468+00:00'),
 (274055064, 180, 71, 1, 0, 9, 'hassanhabib/OtripleS', 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', ARRAY['viralpandya', 'eriadhami'], '2022-02-24T21:06:05.080468+00:00'),
 (274165785, 474, 12, 1, 0, 7, 'bradtraversy/ui_components', 'Collection of HTML & CSS UI components ', ARRAY['bradtraversy', 'Mohammadreza99A'], '2022-02-24T21:06:05.080468+00:00'),
+(273871859, 2580, 27, 1, 0, 9, 'juanfont/headscale', 'An open source, self-hosted implementation of the Tailscale control server', ARRAY['juanfont', 'kradalby'], '2022-02-24T21:06:05.080468+00:00'),
 (274274791, 15, 5, 1, 0, 14, 'vseventer/eleventy-plugin-helmet', 'A document head manager for Eleventy.', ARRAY['vseventer', 'peterjcaulfield'], '2022-02-24T21:06:05.080468+00:00'),
 (274299728, 3, 3, 1, 0, 14, 'shadowruge/futebol_screpping', 'webscrepping_python3', ARRAY['shadowruge'], '2022-02-24T21:06:05.080468+00:00'),
 (274357906, 100, 2, 1, 0, 19, 't-bast/lightning-docs', 'Some in-depth articles about the Lightning Network', ARRAY['t-bast', 'joostjager'], '2022-02-24T21:06:05.080468+00:00'),
