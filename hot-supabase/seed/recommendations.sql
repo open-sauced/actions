@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T04:47:21.325Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-10T06:46:37.985Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2175,9 +2175,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (212606516, 2, 13, 1, 0, 5, 'boorje/react-news-app', 'A simple React app which uses the News API.', ARRAY['boorje'], '2022-02-24T21:06:05.080468+00:00'),
 (212613049, 26706, 410, 1, 0, 15, 'cli/cli', 'GitHub’s official command line tool', ARRAY['mislav', 'vilmibm'], '2022-02-24T21:06:05.080468+00:00'),
 (212639071, 21082, 16, 1, 0, 0, 'bregman-arie/devops-exercises', 'Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP, DNS, Elastic, Network, Virtualization. DevOps Interview Questions', ARRAY['bregman-arie', 'surister'], '2022-02-24T21:06:05.080468+00:00'),
-(212644970, 30, 2, 1, 0, 3, 'lislis/workshop-rust-games', 'RustFest workshop', ARRAY['ramonh', 'lislis'], '2022-02-24T21:06:05.080468+00:00'),
-(212965919, 1025, 12, 1, 0, 19, 'eko/gocache', '☔️ A complete Go cache library that brings you multiple ways of managing your caches', ARRAY['eko', 'corinapurcarea'], '2022-02-24T21:06:05.080468+00:00'),
-(213043312, 4878, 3, 1, 0, 1, 'pemistahl/grex', 'A command-line tool and library for generating regular expressions from user-provided test cases', ARRAY['pemistahl', 'ildar-shaimordanov'], '2022-02-24T21:06:05.080468+00:00'),
 (213346952, 1227, 0, 1, 0, 4, 'cesanta/elk', 'A low footprint JavaScript engine for embedded systems', ARRAY['cpq'], '2022-02-24T21:06:05.080468+00:00'),
 (213368792, 1, 0, 1, 0, 10, 'gabolera/3D-Helper', null, ARRAY['gabolera'], '2022-02-24T21:06:05.080468+00:00'),
 (213575283, 536, 1, 1, 0, 11, 'itswadesh/svelte-commerce', 'Svelte ecommerce - Headless, Authentication, Cart & Checkout, TailwindCSS, Server Rendered, Proxy + API Integrated, Animations, Stores, Lazy Loading, Loading Indicators, Carousel, Instant Search, Faceted Filters, Typescript, Open Source, MIT license. 1 command deploy to your own server, 1 click deploy to netlify.', ARRAY['itswadesh', 'pratapmaharana'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2185,7 +2182,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (214189761, 118, 1, 1, 0, 8, 'iamolegga/nestjs-session', 'Idiomatic Session Module for NestJS. Built on top of `express-session` 😎', ARRAY['iamolegga', 'snyk-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (214551763, 269, 9, 1, 0, 14, 'augmentable-dev/tickgit', 'Manage your repository''s TODOs, tickets and checklists as config in your codebase.', ARRAY['patrickdevivo', 'jsoref'], '2022-02-24T21:06:05.080468+00:00'),
 (214587193, 27513, 201, 1, 3, 0, 'supabase/supabase', 'The open source Firebase alternative. Follow to stay updated about our public Beta.', ARRAY['kiwicopple', 'MildTomato'], '2022-02-24T21:06:05.080468+00:00'),
+(212644970, 30, 2, 1, 0, 3, 'lislis/workshop-rust-games', 'RustFest workshop', ARRAY['ramonh', 'lislis'], '2022-02-24T21:06:05.080468+00:00'),
+(212965919, 1025, 12, 1, 0, 19, 'eko/gocache', '☔️ A complete Go cache library that brings you multiple ways of managing your caches', ARRAY['eko', 'corinapurcarea'], '2022-02-24T21:06:05.080468+00:00'),
 (214708448, 11, 1, 1, 0, 24, 'elichai/bitsign', 'Tool for generating bitcoin addresses and signing/verifying messages using addresses', ARRAY['elichai'], '2022-02-24T21:06:05.080468+00:00'),
+(213043312, 4878, 3, 1, 0, 1, 'pemistahl/grex', 'A command-line tool and library for generating regular expressions from user-provided test cases', ARRAY['pemistahl', 'ildar-shaimordanov'], '2022-02-24T21:06:05.080468+00:00'),
 (215067697, 47, 31, 1, 0, 14, 'garg3133/JagratiWebApp', 'Official WebApp of Jagrati - An Initiative of IIITians', ARRAY['garg3133', 'priyansh3133'], '2022-02-24T21:06:05.080468+00:00'),
 (215086062, 288, 8, 1, 0, 19, 'fastruby/skunk', 'A SkunkScore Calculator for Ruby Code -- Find the most complicated code without test coverage!', ARRAY['etagwerker', 'bronzdoc'], '2022-02-24T21:06:05.080468+00:00'),
 (215145057, 1780, 49, 1, 0, 26, 'freeCodeCamp/chapter', 'A self-hosted event management tool for nonprofits', ARRAY['renovate-bot', 'ojeytonwilliams'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2618,10 +2618,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (273780626, 4, 1, 1, 0, 23, 'brantburnett/run-couchbasefakeit', 'Runs CouchbaseFakeIt in a Docker container on the build agent, using definition files from your repository.', ARRAY['brantburnett'], '2022-02-24T21:06:05.080468+00:00'),
 (273810635, 8, 20, 1, 0, 16, 'M0nica/ambition-fund-website', 'Website for www.ambitionfund.org, micro-grant program to provide support for underrepresented people who need financial assistance pursuing professional development opportunities in the technology industry.', ARRAY['M0nica', 'jordan-paz'], '2022-02-24T21:06:05.080468+00:00'),
 (273839530, 8692, 41, 1, 0, 8, 'Python-World/python-mini-projects', 'A collection of simple python mini projects to enhance your python skills', ARRAY['AdityaJ7', 'chavarera'], '2022-02-24T21:06:05.080468+00:00'),
+(273871859, 2580, 27, 1, 0, 9, 'juanfont/headscale', 'An open source, self-hosted implementation of the Tailscale control server', ARRAY['juanfont', 'kradalby'], '2022-02-24T21:06:05.080468+00:00'),
 (273950652, 87, 1, 1, 0, 7, 'ckundo/auto-vo', null, ARRAY['ckundo', 'stephenmathieson'], '2022-02-24T21:06:05.080468+00:00'),
 (274055064, 180, 71, 1, 0, 9, 'hassanhabib/OtripleS', 'This is an open source schooling system, dedicated to provide a better experience for schools needing a management and communication and tutoring system all in one place. This project is aiming toward directing all the software development funds and hours to families in need, the idea of the project is to allow schools to use the system as long as the software funds in the school are directed towards financially disadvantaged families and students.', ARRAY['viralpandya', 'eriadhami'], '2022-02-24T21:06:05.080468+00:00'),
 (274165785, 474, 12, 1, 0, 7, 'bradtraversy/ui_components', 'Collection of HTML & CSS UI components ', ARRAY['bradtraversy', 'Mohammadreza99A'], '2022-02-24T21:06:05.080468+00:00'),
-(273871859, 2580, 27, 1, 0, 9, 'juanfont/headscale', 'An open source, self-hosted implementation of the Tailscale control server', ARRAY['juanfont', 'kradalby'], '2022-02-24T21:06:05.080468+00:00'),
 (274274791, 15, 5, 1, 0, 14, 'vseventer/eleventy-plugin-helmet', 'A document head manager for Eleventy.', ARRAY['vseventer', 'peterjcaulfield'], '2022-02-24T21:06:05.080468+00:00'),
 (274299728, 3, 3, 1, 0, 14, 'shadowruge/futebol_screpping', 'webscrepping_python3', ARRAY['shadowruge'], '2022-02-24T21:06:05.080468+00:00'),
 (274357906, 100, 2, 1, 0, 19, 't-bast/lightning-docs', 'Some in-depth articles about the Lightning Network', ARRAY['t-bast', 'joostjager'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3609,8 +3609,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-24T21:06:05.080468+00:00'),
 (415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-24T21:06:05.080468+00:00'),
 (415688405, 2, 6, 1, 0, 18, 'wtm-buea/WTM-official-website', 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', ARRAY['alicendeh', 'Julia-yossa'], '2022-02-24T21:06:05.080468+00:00'),
-(416408131, 77, 7, 1, 0, 10, 'mattn/tailscale-systray', 'Linux port of tailscale system tray menu.', ARRAY['mattn', 'codenoid'], '2022-02-24T21:06:05.080468+00:00'),
 (416667263, 6, 0, 1, 0, 10, 'hwslabs/grpc-kotlin-starter', 'A gRPC Kotlin based server and client starter that builds with Gradle and runs on the JVM', ARRAY['kartickvijayakumar'], '2022-02-24T21:06:05.080468+00:00'),
+(416408131, 77, 7, 1, 0, 10, 'mattn/tailscale-systray', 'Linux port of tailscale system tray menu.', ARRAY['mattn', 'codenoid'], '2022-02-24T21:06:05.080468+00:00'),
 (417156746, 29, 0, 1, 0, 1, 'mpetuska/kon', 'Kotlin Object Notation - Lightweight DSL to build fluid JSON trees', ARRAY['mpetuska'], '2022-02-24T21:06:05.080468+00:00'),
 (417268538, 6, 0, 1, 0, 5, 'tkwant/react-steps', null, ARRAY['tkwant'], '2022-02-24T21:06:05.080468+00:00'),
 (417656389, 2, 1, 1, 0, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
