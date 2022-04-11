@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T08:45:44.853Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T10:45:24.229Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -944,8 +944,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (56894212, 4635, 33, 1, 0, 4, 'jvm-profiling-tools/async-profiler', 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', ARRAY['apangin', 'incubos'], '2022-02-24T21:06:05.080468+00:00'),
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-24T21:06:05.080468+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-24T21:06:05.080468+00:00'),
-(57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
 (57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
+(57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
 (57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (57914774, 1665, 69, 1, 0, 18, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-24T21:06:05.080468+00:00'),
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3413,8 +3413,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (386693970, 35, 0, 1, 0, 2, 'avinash201199/Competitions-and-Programs-List', 'List of competitions with details for college students to participate and  to enhance their skills.', ARRAY['avinash201199', 'priya-singh07'], '2022-02-24T21:06:05.080468+00:00'),
 (386740498, 46, 5, 1, 0, 19, 'lukesmurray/scrawl', 'A chrome extension which lets you draw on any web page with excalidraw', ARRAY['lukesmurray'], '2022-02-24T21:06:05.080468+00:00'),
 (386777766, 1, 0, 1, 0, 25, 'a-trost/component-carousel', 'The website for the Component Carousel show', ARRAY['a-trost'], '2022-02-24T21:06:05.080468+00:00'),
-(386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
 (387100307, 1, 0, 1, 0, 20, 'muhammaddzaky/cli-cli', 'cli/cli', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
+(386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
 (387113590, 1, 0, 1, 0, 23, 'muhammaddzaky/ipinfo-python', 'IPinfo IPinfo Python Client Library', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (387114155, 1, 0, 1, 0, 25, 'muhammaddzaky/script', 'script', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (387168810, 112, 0, 1, 0, 9, 'matt765/react-chat-app', null, ARRAY['matt765'], '2022-02-24T21:06:05.080468+00:00'),
