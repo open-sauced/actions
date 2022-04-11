@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T18:47:21.851Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T20:44:24.502Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3018,7 +3018,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (332449101, 1, 14, 1, 0, 3, 'Mogakamo/reddit-lite', 'unofficial reddit lite app ', ARRAY['Mogakamo'], '2022-02-24T21:06:05.080468+00:00'),
 (332479921, 207, 26, 1, 0, 14, 'nix-community/lorri', 'Your project’s nix-env [maintainer=@Profpatsch]', ARRAY['Profpatsch', 'grahamc'], '2022-02-24T21:06:05.080468+00:00'),
 (332684562, 3, 0, 1, 0, 12, 'udberg/BlogApp', 'This project is a Twitter-styled microblog, with only users and short(micro) posts. Users have a unique identifier called id(of type integer), a publicly viewable name(of type string), and an email address(also of type string) that will double as a unique username. You can create, edit and destroy posts on the blog.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
-(332744719, 5, 0, 1, 0, 11, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', null, ARRAY['imadovitch'], '2022-02-24T21:06:05.080468+00:00'),
 (332757634, 3633, 8, 2, 0, 18.5, 'jonasstrehle/supercookie', '⚠️ Browser fingerprinting via favicon!', ARRAY['jonasstrehle', 'szepeviktor'], '2022-02-24T21:06:05.080468+00:00'),
 (332792912, 3, 0, 1, 0, 14, 'udberg/RailsFullApp', null, ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (332841560, 2, 0, 1, 0, 10, 'MattMarquise/Modern-Game-Console-UI', 'Modern Game Console UI Project', ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3044,6 +3043,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (336046858, 8, 0, 1, 0, 10, 'olanrewajurasheed/rash-nlp', 'This is mini but an impressive NLP webapp built with streamlit', ARRAY['olanrewajurasheed'], '2022-02-24T21:06:05.080468+00:00'),
 (336073755, 52, 0, 1, 0, 10, 'rishiosaur/idyllic', '⚡️ An unopinionated language for building APIs ridiculously fast.', ARRAY['rishiosaur'], '2022-02-24T21:06:05.080468+00:00'),
 (336203723, 1, 0, 1, 0, 1, 'Mogakamo/Number-Guesser', 'Number Guesser', ARRAY['Mogakamo'], '2022-02-24T21:06:05.080468+00:00'),
+(332744719, 5, 0, 1, 0, 11, 'imadovitch/Horizontal-Animation-on-Vertical-Scroll-using-Vue.js-TailwindCSS', null, ARRAY['imadovitch'], '2022-02-24T21:06:05.080468+00:00'),
 (336531380, 1478, 17, 1, 0, 28, 'iam-abbas/Reddit-Stock-Trends', 'Fetch currently trending stocks on Reddit', ARRAY['iam-abbas', 'vmuriart'], '2022-02-24T21:06:05.080468+00:00'),
 (336604631, 1, 0, 1, 0, 2, 'KenSikes/data_science_bootcamp', 'Winter bootcamp 2021', ARRAY['KenSikes'], '2022-02-24T21:06:05.080468+00:00'),
 (336778197, 37, 0, 1, 0, 13, 'JonnyBurger/remotion-wrapped', '🎶 Spotify Wrapped recreated in Remotion 🎥', ARRAY['JonnyBurger', 'Iamshankhadeep'], '2022-02-24T21:06:05.080468+00:00'),
