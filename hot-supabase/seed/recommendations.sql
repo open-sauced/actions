@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T12:53:48.952Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-11T14:43:24.855Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3068,8 +3068,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (339786950, 2461, 15, 1, 0, 8, 'encoredev/encore', 'The Backend Development Engine built for Go', ARRAY['eandre', 'marcuskohlberg'], '2022-02-24T21:06:05.080468+00:00'),
 (339838063, 2, 3, 1, 0, 12, 'ryan3738/bellingham3d-frontend', 'Front End for the Bellingham 3D Webstore', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
 (339839520, 2, 2, 1, 0, 11, 'ryan3738/bellingham3d-backend', 'https://github.com/ryan3738/Advanced-React.git', ARRAY['ryan3738', 'wesbos'], '2022-02-24T21:06:05.080468+00:00'),
-(340182829, 1, 0, 1, 0, 9, 'MattMarquise/Design-Suite-Landing-Page-Theme', 'A random project inspired by Dwell.com', ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
 (340027291, 2, 0, 1, 0, 19, 'udberg/confs.tech', 'List of tech conferences: JavaScript / Design - CSS - UX / Ruby - iOS - Android - PHP - Data - Devops', ARRAY['nimzco', 'confs-tech-bot'], '2022-02-24T21:06:05.080468+00:00'),
+(340182829, 1, 0, 1, 0, 9, 'MattMarquise/Design-Suite-Landing-Page-Theme', 'A random project inspired by Dwell.com', ARRAY['MattMarquise'], '2022-02-24T21:06:05.080468+00:00'),
 (340187605, 131, 0, 2, 0, 19.5, 'dmitryvinn/awesome-dev-advocacy', '🥑  List of Awesome Developer Advocacy Resources', ARRAY['dmitryvinn', 'dmitryvinn-fb'], '2022-02-24T21:06:05.080468+00:00'),
 (340306054, 1, 0, 1, 0, 2, 'Jussii/JunctionAppTesting', 'All-in-one hackathon platform for organisers', ARRAY['juiceo', 'Earlo'], '2022-02-24T21:06:05.080468+00:00'),
 (340402576, 1860, 123, 1, 0, 28, 'mrousavy/react-native-vision-camera', '📸 The Camera library that sees the vision.', ARRAY['mrousavy', 'Simek'], '2022-02-24T21:06:05.080468+00:00'),
