@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T08:45:46.263Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T10:45:08.673Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -787,8 +787,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (43830564, 12195, 59, 1, 0, 11, 'auchenberg/volkswagen', ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', ARRAY['watson', 'auchenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (44002833, 18, 24, 1, 0, 9, 'where2help/where2help', 'Rails app for the Refugee Hack Vienna 2015', ARRAY['klappradla', 'haslinger'], '2022-02-24T21:06:05.080468+00:00'),
 (44142511, 211, 1, 1, 0, 12, 'FarmBot-Labs/farmbot-web-frontend', 'DEPRECATED: See Web API repo', ARRAY['RickCarlino', 'altruisticsoftware'], '2022-02-24T21:06:05.080468+00:00'),
-(44185629, 224, 5, 1, 0, 21, 'lysu/go-saga', 'Implements saga-pattern in Go, another way to distribute transaction.', ARRAY['lysu'], '2022-02-24T21:06:05.080468+00:00'),
 (44150497, 17879, 25, 1, 0, 12, 'remoteintech/remote-jobs', 'A list of semi to fully remote-friendly companies (jobs) in tech.', ARRAY['dougaitken', 'jessicard'], '2022-02-24T21:06:05.080468+00:00'),
+(44185629, 224, 5, 1, 0, 21, 'lysu/go-saga', 'Implements saga-pattern in Go, another way to distribute transaction.', ARRAY['lysu'], '2022-02-24T21:06:05.080468+00:00'),
 (44409210, 4430, 3, 1, 0, 10, 'RichardLitt/standard-readme', 'A standard style for README files', ARRAY['RichardLitt', 'JesseWeinstein'], '2022-02-24T21:06:05.080468+00:00'),
 (44455471, 205, 9, 1, 0, 12, 'Lusitaniae/apache_exporter', 'Prometheus exporter for Apache.', ARRAY['Lusitaniae', 'neezgee'], '2022-02-24T21:06:05.080468+00:00'),
 (44571718, 63460, 30, 2, 0, 6.5, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2301,9 +2301,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (232669620, 19, 1, 1, 0, 27, 'BattlesnakeOfficial/starter-snake-javascript', 'Getting started with Battlesnake and JavaScript', ARRAY['bvanvugt', 'brandonb927'], '2022-02-24T21:06:05.080468+00:00'),
 (232950013, 3, 2, 1, 0, 1, 'gitcomteam/gitcom', 'General discussion regarding platform future', ARRAY['mx2s'], '2022-02-24T21:06:05.080468+00:00'),
 (233020914, 78, 0, 1, 0, 1, 'Kirilllive/tuesday-js', 'simple web-based, free and open-source visual novel editor that can be used in a web browser. It is written in JavaScript without using any third party libraries and thus does not require additional software installation. The engine uses standard HTML document elements such as div and img. This allows the use of any media format supported by browsers including vector graphics svg, gif animations and css styles.', ARRAY['Kirilllive', 'Kurrrat'], '2022-02-24T21:06:05.080468+00:00'),
-(233472199, 9336, 31, 1, 0, 12, 'massgravel/Microsoft-Activation-Scripts', 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', ARRAY['WindowsAddict', 'mspaintmsi'], '2022-02-24T21:06:05.080468+00:00'),
 (233675781, 3, 0, 1, 0, 9, 'learn-co-curriculum/cli-project-planning', null, ARRAY['maxwellbenton', 'cernanb'], '2022-02-24T21:06:05.080468+00:00'),
 (234091935, 525, 3, 1, 0, 20, 'i5ik/sirdb', ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', ARRAY['i5ik', 'rom10'], '2022-02-24T21:06:05.080468+00:00'),
+(233472199, 9336, 31, 1, 0, 12, 'massgravel/Microsoft-Activation-Scripts', 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', ARRAY['WindowsAddict', 'mspaintmsi'], '2022-02-24T21:06:05.080468+00:00'),
 (234231371, 17421, 50, 2, 0, 22.5, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-24T21:06:05.080468+00:00'),
 (234290189, 1, 0, 2, 0, 0, 'sarthakvarshney8081/kube-cluster', 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', ARRAY['path2himanshu'], '2022-02-24T21:06:05.080468+00:00'),
 (234399448, 7, 7, 1, 0, 20, 'outsrc/my-app', 'Secure NextJS App users with Auth0 and TypeScript', ARRAY['ernestofreyreg'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2676,8 +2676,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (279397536, 562, 6, 1, 0, 13, 'ziulev/spotter', '🔭 macOS productivity tool to launch everything', ARRAY['ziulev'], '2022-02-24T21:06:05.080468+00:00'),
 (279678603, 7627, 80, 2, 0, 12.5, 'felixrieseberg/macintosh.js', '🖥 A virtual Apple Macintosh with System 8, running in Electron. I''m sorry.', ARRAY['felixrieseberg', 'jonathanpotts'], '2022-02-24T21:06:05.080468+00:00'),
 (279705398, 31, 3, 1, 0, 5, 'omidnikrah/profile-activity-generator', 'Generate custom profile activity for your profile README', ARRAY['omidnikrah'], '2022-02-24T21:06:05.080468+00:00'),
-(279712319, 231, 0, 1, 0, 27, 'jordansinger/health-macos-swiftui-example', 'Health app macOS Big Sur built in SwiftUI', ARRAY['jordansinger'], '2022-02-24T21:06:05.080468+00:00'),
 (279848748, 8246, 150, 1, 0, 0, 'rahuldkjain/github-profile-readme-generator', '🚀 Generate GitHub profile README easily with the latest add-ons like visitors count, GitHub stats, etc using minimal UI.', ARRAY['rahuldkjain', 'Maddoxx88'], '2022-02-24T21:06:05.080468+00:00'),
+(279712319, 231, 0, 1, 0, 27, 'jordansinger/health-macos-swiftui-example', 'Health app macOS Big Sur built in SwiftUI', ARRAY['jordansinger'], '2022-02-24T21:06:05.080468+00:00'),
 (280068470, 739, 19, 1, 0, 19, 'Brooooooklyn/swc-node', 'Faster ts-node without typecheck', ARRAY['Brooooooklyn', 'h-a-n-a'], '2022-02-24T21:06:05.080468+00:00'),
 (280203463, 243, 10, 1, 0, 6, 'sadanandpai/single-page-resume-builder', 'Build a standard and professional single page resume', ARRAY['sadanandpai', 'gopal1996'], '2022-02-24T21:06:05.080468+00:00'),
 (280585832, 6, 0, 1, 0, 13, 'dannydeezy/bitcoin-book', 'A light technical introduction to bitcoin', ARRAY['dannydeezy', 'Zero-1729'], '2022-02-24T21:06:05.080468+00:00'),
