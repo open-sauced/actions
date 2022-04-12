@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T18:46:31.446Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T20:44:04.176Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1634,8 +1634,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (139218477, 9, 0, 1, 0, 15, 'EwJs/EwJs', 'Tiny JavaScript framework for building UI on the web. (Being coding,Soon)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (139329396, 4917, 11, 1, 0, 22, 'rhysd/vim.wasm', 'Vim editor ported to WebAssembly', ARRAY['brammool', 'rhysd'], '2022-02-24T21:06:05.080468+00:00'),
 (139596105, 13847, 11, 1, 0, 4, 'thedaviddias/Front-End-Performance-Checklist', '🎮 The only Front-End Performance Checklist that runs faster than the others', ARRAY['thedaviddias', 'prayagverma'], '2022-02-24T21:06:05.080468+00:00'),
-(139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
 (139633235, 571, 9, 2, 0, 24.5, 'MoonHighway/learning-graphql', 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', ARRAY['eveporcello', 'MoonTahoe'], '2022-02-24T21:06:05.080468+00:00'),
+(139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
 (139914932, 9041, 1897, 1, 0, 27, 'quarkusio/quarkus', 'Quarkus: Supersonic Subatomic Java. ', ARRAY['gsmet', 'geoand'], '2022-02-24T21:06:05.080468+00:00'),
 (139952333, 1398, 150, 1, 0, 13, 'sigp/lighthouse', 'Rust Ethereum 2.0 Client', ARRAY['paulhauner', 'AgeManning'], '2022-02-24T21:06:05.080468+00:00'),
 (140059059, 146, 5, 1, 0, 12, 'ohbarye/rails-react-typescript-docker-example', 'An example app built on Ruby on Rails + React.js + TypeScript + Docker Compose', ARRAY['ohbarye', 'JPDepew'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3232,9 +3232,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (363943607, 2, 0, 1, 0, 28, 'udberg/Todo-List', null, ARRAY['keneogu', 'udberg'], '2022-02-24T21:06:05.080468+00:00'),
 (363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
 (363994683, 7, 10, 1, 0, 22, 'GSA/usagov-benefits-eligibility', 'This is the for the benefits eligibility website for usa.gov.', ARRAY['r-bartlett-gsa', 'sknep'], '2022-02-24T21:06:05.080468+00:00'),
+(364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
 (364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
 (364149329, 42, 3, 1, 0, 26, 'orbit-love/github-actions-templates', 'Starter GitHub Actions templates to get you up and running with community built integrations', ARRAY['bencgreenberg', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
-(364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
 (364336351, 10, 0, 1, 0, 3, 'DiscordFactory/core', '🧡 The neuralgic heart of the application, this module gathers all the functionalities of the framework.', ARRAY['LeadcodeDev', 'devreluije'], '2022-02-24T21:06:05.080468+00:00'),
 (364413063, 2, 0, 1, 0, 1, 'thebearingedge/global-installs-are-bad', 'And unnecessary.', ARRAY['thebearingedge'], '2022-02-24T21:06:05.080468+00:00'),
 (364474335, 27354, 17, 1, 0, 0, 'google/zx', 'A tool for writing better scripts', ARRAY['antonmedv', 'antongolub'], '2022-02-24T21:06:05.080468+00:00'),
