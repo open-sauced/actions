@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T06:46:44.915Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-12T08:45:46.263Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -787,8 +787,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (43830564, 12195, 59, 1, 0, 11, 'auchenberg/volkswagen', ':see_no_evil: Volkswagen detects when your tests are being run in a CI server, and makes them pass.', ARRAY['watson', 'auchenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (44002833, 18, 24, 1, 0, 9, 'where2help/where2help', 'Rails app for the Refugee Hack Vienna 2015', ARRAY['klappradla', 'haslinger'], '2022-02-24T21:06:05.080468+00:00'),
 (44142511, 211, 1, 1, 0, 12, 'FarmBot-Labs/farmbot-web-frontend', 'DEPRECATED: See Web API repo', ARRAY['RickCarlino', 'altruisticsoftware'], '2022-02-24T21:06:05.080468+00:00'),
-(44150497, 17879, 25, 1, 0, 12, 'remoteintech/remote-jobs', 'A list of semi to fully remote-friendly companies (jobs) in tech.', ARRAY['dougaitken', 'jessicard'], '2022-02-24T21:06:05.080468+00:00'),
 (44185629, 224, 5, 1, 0, 21, 'lysu/go-saga', 'Implements saga-pattern in Go, another way to distribute transaction.', ARRAY['lysu'], '2022-02-24T21:06:05.080468+00:00'),
+(44150497, 17879, 25, 1, 0, 12, 'remoteintech/remote-jobs', 'A list of semi to fully remote-friendly companies (jobs) in tech.', ARRAY['dougaitken', 'jessicard'], '2022-02-24T21:06:05.080468+00:00'),
 (44409210, 4430, 3, 1, 0, 10, 'RichardLitt/standard-readme', 'A standard style for README files', ARRAY['RichardLitt', 'JesseWeinstein'], '2022-02-24T21:06:05.080468+00:00'),
 (44455471, 205, 9, 1, 0, 12, 'Lusitaniae/apache_exporter', 'Prometheus exporter for Apache.', ARRAY['Lusitaniae', 'neezgee'], '2022-02-24T21:06:05.080468+00:00'),
 (44571718, 63460, 30, 2, 0, 6.5, 'vuejs/awesome-vue', '🎉 A curated list of awesome things related to Vue.js', ARRAY['Scrum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
