@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-13T16:51:48.019Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-13T18:46:30.301Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1911,10 +1911,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (175681313, 744, 31, 1, 0, 13, 'joernio/joern', 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', ARRAY['fabsx00', 'mpollmeier'], '2022-02-24T21:06:05.080468+00:00'),
 (175685939, 47, 2, 1, 0, 11, 'JoonasN/Flutter-Speed-coding---Greenery-App', null, ARRAY['ivangn03'], '2022-02-24T21:06:05.080468+00:00'),
 (176456339, 5, 3, 1, 0, 14, 'upgrad-edu/Solidity-Exercise-Solutions', null, ARRAY['upgrad-edu'], '2022-02-24T21:06:05.080468+00:00'),
+(176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-24T21:06:05.080468+00:00'),
 (176799800, 3, 0, 1, 0, 24, 'BaseMax/DiskAnalyst', 'Analyze, process and check the disk and files. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (176946161, 198, 7, 1, 0, 6, 'sealedtx/java-youtube-downloader', 'Simple, almost zero-dependency java parser for retrieving youtube video metadata', ARRAY['sealedtx', 'poornerd'], '2022-02-24T21:06:05.080468+00:00'),
 (177033748, 2318, 172, 1, 0, 2, 'atlassian/changesets', '🦋       A way to manage your versioning and changelogs with a focus on monorepos', ARRAY['Noviny', 'mitchellhamilton'], '2022-02-24T21:06:05.080468+00:00'),
-(176777353, 1996, 28, 1, 0, 2, 'rainbow-me/rainbow', '🌈‒ the Ethereum wallet that lives in your pocket ', ARRAY['jinchung', 'mikedemarais'], '2022-02-24T21:06:05.080468+00:00'),
 (177420214, 1679, 37, 1, 0, 8, 'dosco/graphjin', 'GraphJin - Build APIs in 5 minutes with GraphQL. An instant GraphQL to SQL compiler.', ARRAY['dosco', 'frederikhors'], '2022-02-24T21:06:05.080468+00:00'),
 (177423398, 88, 5, 1, 0, 27, 'getify/eslint-plugin-proper-ternary', 'ESLint rules to ensure proper usage of ternary/conditional expressions', ARRAY['getify', 'kaykayehnn'], '2022-02-24T21:06:05.080468+00:00'),
 (177642315, 4, 19, 1, 0, 14, 'matt-oakes/semantic-release-circleci-orb', 'semantic-release plugin to publish CircleCI Orbs', ARRAY['matt-oakes', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2346,9 +2346,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (239002506, 953, 17, 1, 0, 27, 'sbstp/kubie', 'A more powerful alternative to kubectx and kubens', ARRAY['sbstp', 'TyBrown'], '2022-02-24T21:06:05.080468+00:00'),
 (239150878, 84, 2, 1, 0, 28, 'wobsoriano/coderstats', '📊 Data visualizations of your top languages, starred repositories and top repos.', ARRAY['wobsoriano'], '2022-02-24T21:06:05.080468+00:00'),
 (239233346, 1467, 11, 1, 0, 11, 'ardalis/ApiEndpoints', 'A project for supporting API Endpoints in ASP.NET Core web applications.', ARRAY['ardalis', 'maxkoshevoi'], '2022-02-24T21:06:05.080468+00:00'),
+(239281641, 197, 1, 1, 0, 17, 'TryGhost/Dawn', 'A minimal newsletter theme for Ghost', ARRAY['minimaluminium', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (239469541, 92, 31, 1, 0, 8, 'dialogflow/selfservicekiosk-audio-streaming', 'A best practice for streaming audio from a browser microphone to Dialogflow or Google Cloud STT by using websockets.', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (239656008, 1580, 14, 1, 0, 3, 'jamstack-cms/jamstack-ecommerce', 'A starter project for building performant ECommerce applications with Next.js and React', ARRAY['dabit3', 'thorsten-stripe'], '2022-02-24T21:06:05.080468+00:00'),
-(239281641, 197, 1, 1, 0, 17, 'TryGhost/Dawn', 'A minimal newsletter theme for Ghost', ARRAY['minimaluminium', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (239791048, 20, 8, 1, 0, 1, 'kihosk/kiosk-raspberry', null, ARRAY['justinask7', 'MihaiNueleanu'], '2022-02-24T21:06:05.080468+00:00'),
 (240215314, 14033, 35, 1, 0, 6, 'docker/awesome-compose', 'Awesome Docker Compose samples', ARRAY['aiordache', 'glours'], '2022-02-24T21:06:05.080468+00:00'),
 (240312952, 3462, 44, 1, 0, 20, 'benawad/destiny', 'Prettier for File Structures', ARRAY['benawad', 'sQVe'], '2022-02-24T21:06:05.080468+00:00'),
