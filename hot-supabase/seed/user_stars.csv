@@ -4322,7 +4322,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 360376415,25194960,135224272,29,3,67,loomnetwork/solidity-social-example,"Super simple social network interaction, where users can post and comment on posts","{mattkanwisher,eduardonunesp}",2022-02-24T21:07:34.596111
 208603857,5713670,157397583,29,56,8878,mswjs/msw,Seamless REST/GraphQL API mocking library for browser and Node.js.,"{kettanaito,marcosvega91}",2022-02-24T21:07:34.596111
 423914895,19617280,333980205,29,0,142,cassidoo/cass.run,My own lil URL shortener,"{cassidoo,Jadhielv}",2022-02-24T21:07:34.596111
-363282160,4381106,70777180,13,12,12502,Foundry376/Mailspring,":love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.","{bengotow,emorikawa}",2022-02-24T21:07:34.596111
+363282160,4381106,70777180,13,12,12508,Foundry376/Mailspring,":love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.","{bengotow,emorikawa}",2022-02-24T21:07:34.596111
 422279691,4910518,114484885,5,0,59,trectenwald/omnigraffle-aws,Omnigraffle stencils using AWS Simple Icons.,{trectenwald},2022-02-24T21:07:34.596111
 351353449,35429278,373396052,29,1,46,ri7nz/rescript-chakra,⚡️⚛️ ReScript bindings for @chakra-ui/react,"{ri7nz,semantic-release-bot}",2022-02-24T21:07:34.596111
 419094803,12849040,287573157,0,12,1168,Leniolabs/layoutit-grid,"Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.","{patak-dev,agustin-capeletto-lenio}",2022-02-24T21:07:34.596111
@@ -4350,8 +4350,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 409008084,46695719,382308978,29,0,56,tediko/planets-fact,Planets fact site with animated solar system built with ReactJS. ,{tediko},2022-02-24T21:07:34.596111
 345032271,60850993,8936633,29,17,9394,maxogden/art-of-node,:snowflake: a short introduction to node.js,"{maxogden,zeke}",2022-02-24T21:07:34.596111
 370530334,3792749,1451352,28,266,21280,mochajs/mocha,"☕️ simple, flexible, fun javascript test framework for node.js & the browser","{tj,boneskull}",2022-02-24T21:07:34.596111
+364902007,38725511,63477612,22,28,18975,TheAlgorithms/C-Plus-Plus,"Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.","{kvedala,ayaankhan98}",2022-02-24T21:07:34.596111
+368306962,29547465,183712153,28,9,301,dasDaniel/svelte-table,A svelte-3 table implementation that allows sorting and filtering,"{dasDaniel,thilo-behnke}",2022-02-24T21:07:34.596111
 371931802,3450257,59152795,29,3,62,dracula/atom,🧛🏻‍♂️ Dark theme for Atom,"{rr-jimmy-multani,zenorocha}",2022-02-24T21:07:34.596111
-364902007,38725511,63477612,22,28,18967,TheAlgorithms/C-Plus-Plus,"Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.","{kvedala,ayaankhan98}",2022-02-24T21:07:34.596111
 368937172,54776315,289123163,29,0,48,adamdehaven/vue-custom-tooltip,A reusable tooltip component for Vue (and VuePress) projects.,{adamdehaven},2022-02-24T21:07:34.596111
 348860575,6241164,219324014,29,11,119,nestjsx/automapper,An Object-Object AutoMapper module for NestJS.,"{nartc,bashleigh}",2022-02-24T21:07:34.596111
 410258743,91016903,374901515,0,32,103,Amit366/FunwithPhysics,,"{Amit366,KushalGhosh9899}",2022-02-24T21:07:34.596111
@@ -4365,12 +4366,11 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 414641681,11858762,6750158,29,5,7216,mgechev/javascript-algorithms,💻 JavaScript implementations of computer science algorithms,"{mgechev,AndriiHeonia}",2022-02-24T21:07:34.596111
 381467530,83433840,206060082,0,6,68,octodemo/awesome-actions,Repository template used to showcase Actions that tie into pull request and issue events,"{jonico,pmanlukas}",2022-02-24T21:07:34.596111
 410367620,2609511,88905488,29,5,2720,ShangtongZhang/DeepRL,Modularized Implementation of Deep RL Algorithms in PyTorch,"{ShangtongZhang,wassname}",2022-02-24T21:07:34.596111
-368306962,29547465,183712153,28,9,301,dasDaniel/svelte-table,A svelte-3 table implementation that allows sorting and filtering,"{dasDaniel,thilo-behnke}",2022-02-24T21:07:34.596111
 400813204,20134767,36040894,24,318,52627,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-24T21:07:34.596111
 336566384,1368727,268086996,0,30,11,dotellie/nestjs-graphql-pagination,Decorators to allow easily building up relay compatible pagination types,"{renovate-bot,dotellie}",2022-02-24T21:07:34.596111
 320478294,33148009,113267532,29,2,56,mjackson/dotfiles,My dotfiles,{mjackson},2022-02-24T21:07:34.596111
 408008691,45036724,61059364,29,38,676,metaverse/truss,Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.,"{adamryman,lelandbatey}",2022-02-24T21:07:34.596111
-363497692,4838867,1062897,2,241,131723,github/gitignore,A collection of useful .gitignore templates,"{shiftkey,arcresu}",2022-02-24T21:07:34.596111
+363497692,4838867,1062897,2,241,131755,github/gitignore,A collection of useful .gitignore templates,"{shiftkey,arcresu}",2022-02-24T21:07:34.596111
 444433367,656318,38612708,10,2,1,TeamTessie/tessietodo-static,Our static Tessie To-do App,"{tamacodechi,ShellyCoen}",2022-02-24T21:07:34.596111
 445282270,31227151,134042266,2,9,1030,HackerPoet/PySpace,GLSL Fractal Ray Marcher in Python,"{HackerPoet,brainfubar}",2022-02-24T21:07:34.596111
 436289040,61815862,7715820,29,66,8931,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
@@ -4419,6 +4419,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 467358729,9283692,66291203,2,0,37,margyle/heyMugsy,Mugsy is a Raspberry Pi and Arduino powered coffee making robot.,{margyle},2022-03-09T04:34:31.380795
 330475048,61131314,31792824,29,10667,138852,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"{engine-flutter-autoroll,abarth}",2022-02-24T21:07:34.596111
 308781524,29295102,213368792,10,0,1,gabolera/3D-Helper,,{gabolera},2022-02-24T21:07:34.596111
+363981975,46828701,258812961,29,13,517,cyrildiagne/ar-facedoodle,Doodle AR masks right from the browser with tensorflow.js,{cyrildiagne},2022-02-24T21:07:34.596111
 466201413,11489171,28457823,8,148,343813,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-03-05T04:56:52.874277
 348380714,1645628,18609427,29,371,13144,tc39/ecma262,"Status, process, and documents for ECMA-262","{jmdyck,anba}",2022-02-24T21:07:34.596111
 382167794,1431853,135516270,29,427,19666,k3s-io/k3s,Lightweight Kubernetes,"{erikwilson,ibuildthecloud}",2022-02-24T21:07:34.596111
@@ -4426,7 +4427,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 396051716,66696421,272382323,3,0,1,cozyCodr/coderXcoded.github.io,practice of what i have learnt on freecodecamp.org,{cozyCodr},2022-02-24T21:07:34.596111
 470199505,11030551,279702593,18,3,4357,francisrstokes/super-expressive,🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language,"{francisrstokes,TimothyGillespie}",2022-03-16T02:40:44.887873
 467581742,7222344,3452519,7,23,530,humanmade/Custom-Meta-Boxes,Lets you easily create metaboxes with custom fields that will blow your mind.   ,"{mattheu,mikeselander}",2022-03-09T10:39:40.818859
-363981975,46828701,258812961,29,13,517,cyrildiagne/ar-facedoodle,Doodle AR masks right from the browser with tensorflow.js,{cyrildiagne},2022-02-24T21:07:34.596111
 467181761,1862184,136690766,4,1,248,paperbits/paperbits-core,This repository contains core Paperbits components,"{azaslonov,ygrik}",2022-03-09T05:03:41.24538
 465760174,60147716,110375203,29,0,9,arindam-modak/YRASS-Media-Player,"YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.","{arindam-modak,yash-1998}",2022-03-05T03:05:44.386164
 478689660,15233,450633735,29,0,9,stacker-media/data,Data used in Stacker articles,"{erub24,emiliaruzicka}",2022-04-06T19:00:03.160586
