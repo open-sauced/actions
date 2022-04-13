@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-13T10:44:55.030Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-13T12:53:14.838Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -964,6 +964,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (59904484, 243, 8, 1, 0, 10, 'tc39/proposal-set-methods', 'Strawman for new Set methods', ARRAY['Ginden', 'gsathya'], '2022-02-24T21:06:05.080468+00:00'),
 (59909973, 1365, 24, 1, 0, 16, 'ngrx/example-app', 'Example app showcasing the ngrx platform', ARRAY['MikeRyanDev', 'krjordan'], '2022-02-24T21:06:05.080468+00:00'),
 (60125647, 2791, 48, 1, 0, 12, 'jimmywarting/StreamSaver.js', 'StreamSaver writes stream to the filesystem directly asynchronous', ARRAY['jimmywarting', 'TexKiller'], '2022-02-24T21:06:05.080468+00:00'),
+(60201474, 2, 2, 1, 0, 6, 'RubyHabits/ruby-habits-library', 'An app to run our Ruby Habits library :D', ARRAY['evatrostlos', 'alicetragedy'], '2022-02-24T21:06:05.080468+00:00'),
 (60243197, 17779, 1907, 1, 0, 12, 'nextcloud/server', '☁️ Nextcloud server, a safe home for all your data', ARRAY['rullzer', 'MorrisJobke'], '2022-02-24T21:06:05.080468+00:00'),
 (60246359, 21223, 1850, 1, 0, 19, 'ClickHouse/ClickHouse', 'ClickHouse® is a free analytics DBMS for big data', ARRAY['alexey-milovidov', 'alesapin'], '2022-02-24T21:06:05.080468+00:00'),
 (60374819, 11676, 2039, 2, 0, 6, 'jupyterlab/jupyterlab', 'JupyterLab computational environment.', ARRAY['blink1073', 'afshin'], '2022-02-24T21:06:05.080468+00:00'),
@@ -974,7 +975,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-24T21:06:05.080468+00:00'),
 (61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-24T21:06:05.080468+00:00'),
 (61319303, 588, 42, 1, 0, 2, 'adrcotfas/Goodtime', ':hourglass_flowing_sand: productivity app for Android', ARRAY['adrcotfas', 'fdw'], '2022-02-24T21:06:05.080468+00:00'),
-(60201474, 2, 2, 1, 0, 6, 'RubyHabits/ruby-habits-library', 'An app to run our Ruby Habits library :D', ARRAY['evatrostlos', 'alicetragedy'], '2022-02-24T21:06:05.080468+00:00'),
 (61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-24T21:06:05.080468+00:00'),
 (61426855, 1903, 218, 2, 0, 12.5, 'jainaman224/Algo_Ds_Notes', 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', ARRAY['jainaman224', 'somya-kapoor'], '2022-02-24T21:06:05.080468+00:00'),
 (61583938, 544, 91, 1, 0, 24, 'linkedin/pygradle', 'Using Gradle to build Python projects', ARRAY['zvezdan', 'ethankhall'], '2022-02-24T21:06:05.080468+00:00'),
