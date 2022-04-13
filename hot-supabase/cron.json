@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-04-13T11:08:30.288Z",
+  "lastExecuted": "2022-04-13T11:20:05.067Z",
   "checked": {
     "bmilagre": {
       "owner": "bmilagre",
@@ -624,17 +624,17 @@
     "oscakampala": {
       "owner": "oscakampala",
       "notFound": false,
-      "lastExecuted": "2022-04-12T23:09:18.682Z"
+      "lastExecuted": "2022-04-13T11:20:05.067Z"
     },
     "akobepeter": {
       "owner": "akobepeter",
       "notFound": false,
-      "lastExecuted": "2022-04-12T23:09:18.682Z"
+      "lastExecuted": "2022-04-13T11:20:05.067Z"
     },
     "jebitok-dev": {
       "owner": "jebitok-dev",
       "notFound": false,
-      "lastExecuted": "2022-04-12T23:09:18.682Z"
+      "lastExecuted": "2022-04-13T11:20:05.067Z"
     },
     "KakoozaJerry": {
       "owner": "KakoozaJerry",
@@ -644,7 +644,7 @@
     "ThomasErhel": {
       "owner": "ThomasErhel",
       "notFound": false,
-      "lastExecuted": "2022-04-12T23:09:18.682Z"
+      "lastExecuted": "2022-04-13T11:20:05.067Z"
     },
     "lucywheel": {
       "owner": "lucywheel",
@@ -664,7 +664,7 @@
     "nobalpha": {
       "owner": "nobalpha",
       "notFound": false,
-      "lastExecuted": "2022-04-12T23:09:18.682Z"
+      "lastExecuted": "2022-04-13T11:20:05.067Z"
     },
     "BolajiAyodeji": {
       "owner": "BolajiAyodeji",
@@ -1720,6 +1720,11 @@
       "owner": "TaEduard",
       "notFound": false,
       "lastExecuted": "2022-04-13T10:58:46.261Z"
+    },
+    "DevanshKariya": {
+      "owner": "DevanshKariya",
+      "notFound": true,
+      "lastExecuted": "2022-04-13T11:20:05.067Z"
     }
   }
 }
