@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-14T16:52:12.297Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-14T18:45:53.940Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3449,8 +3449,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (389568562, 1562, 8, 1, 0, 0, 'lahmatiy/react-render-tracker', 'React render tracker – a tool to discover performance issues related to unintentional re-renders and unmounts', ARRAY['lahmatiy', 'user1736'], '2022-02-24T21:06:05.080468+00:00'),
 (389585704, 1191, 2, 1, 0, 1, 'benyaminahmed/nft-image-generator', null, ARRAY['benyaminahmed', 'BuddyBob'], '2022-02-24T21:06:05.080468+00:00'),
 (389656306, 3, 0, 1, 0, 16, 'pazel-io/ionic-photo-flow', 'A fun flow of photo bubbles floating indefinitely and moving across the screen', ARRAY['pazel-io'], '2022-02-24T21:06:05.080468+00:00'),
-(389731072, 44, 0, 1, 0, 17, 'mikeckennedy/jinja_partials', 'Simple reuse of partial HTML page templates in the Jinja template language for Python web frameworks.', ARRAY['mikeckennedy', 'vrslev'], '2022-02-24T21:06:05.080468+00:00'),
 (389664802, 1, 0, 1, 0, 19, 'Helewud/MapLog', null, ARRAY['Helewud'], '2022-02-24T21:06:05.080468+00:00'),
+(389731072, 44, 0, 1, 0, 17, 'mikeckennedy/jinja_partials', 'Simple reuse of partial HTML page templates in the Jinja template language for Python web frameworks.', ARRAY['mikeckennedy', 'vrslev'], '2022-02-24T21:06:05.080468+00:00'),
 (389782256, 188, 0, 1, 0, 6, 'AykutSarac/github-rater', '📊 Check your GitHub rating, view results and enhance your profile quality.', ARRAY['AykutSarac'], '2022-02-24T21:06:05.080468+00:00'),
 (389952943, 1261, 19, 1, 0, 6, 'orbitersim/orbiter', 'Open-source repository of Orbiter Space Flight Simulator', ARRAY['mschweiger', 'DarkWanderer'], '2022-02-24T21:06:05.080468+00:00'),
 (389974232, 173, 13, 2, 0, 15, 'slinkity/slinkity', 'To eleventy and beyond! The all-in-one tool for templates where you want them, component frameworks where you need them 🚀', ARRAY['Holben888', 'ArkaneMoose'], '2022-02-24T21:06:05.080468+00:00'),
