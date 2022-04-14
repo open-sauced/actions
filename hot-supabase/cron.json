@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-04-14T16:01:17.196Z",
+  "lastExecuted": "2022-04-14T16:19:48.154Z",
   "checked": {
     "bmilagre": {
       "owner": "bmilagre",
@@ -24,7 +24,7 @@
     "pac96": {
       "owner": "pac96",
       "notFound": false,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "msradam": {
       "owner": "msradam",
@@ -33,8 +33,8 @@
     },
     "djdefi": {
       "owner": "djdefi",
-      "notFound": false,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "notFound": true,
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "BenjaminMichaelis": {
       "owner": "BenjaminMichaelis",
@@ -44,12 +44,12 @@
     "siddharth2798": {
       "owner": "siddharth2798",
       "notFound": true,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "danaoshiro": {
       "owner": "danaoshiro",
       "notFound": true,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "vincentmuriuki": {
       "owner": "vincentmuriuki",
@@ -74,12 +74,12 @@
     "sobingt": {
       "owner": "sobingt",
       "notFound": false,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "prophen": {
       "owner": "prophen",
       "notFound": false,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "AlexVCS": {
       "owner": "AlexVCS",
@@ -1534,12 +1534,12 @@
     "ugwustanley": {
       "owner": "ugwustanley",
       "notFound": false,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "IrfanKhalid": {
       "owner": "IrfanKhalid",
       "notFound": true,
-      "lastExecuted": "2022-04-14T04:07:53.658Z"
+      "lastExecuted": "2022-04-14T16:19:48.154Z"
     },
     "KyleMcKell": {
       "owner": "KyleMcKell",
