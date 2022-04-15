@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-14T22:44:20.555Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T01:02:52.026Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2041,11 +2041,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (195769741, 1214, 16, 1, 0, 9, 'gnes-ai/gnes', 'GNES is Generic Neural Elastic Search, a cloud-native semantic search system based on deep neural network. ', ARRAY['Larryjianfeng', 'jemmyshin'], '2022-02-24T21:06:05.080468+00:00'),
 (195897446, 2894, 3, 1, 0, 9, 'CollabCodeTech/backend-challenges', 'A public list of open-source challenges from jobs around the world', ARRAY['joviane', 'vinigmoraes'], '2022-02-24T21:06:05.080468+00:00'),
 (196030065, 364, 0, 1, 0, 25, 'dai-shi/will-this-react-global-state-work-in-concurrent-rendering', 'Test tearing and branching in React concurrent rendering', ARRAY['dai-shi', 'joshribakoff'], '2022-02-24T21:06:05.080468+00:00'),
-(196100645, 19, 21, 1, 0, 12, 'cdfoundation/foundation', 'Interactions with the CDF Staff and Board', ARRAY['danlopez00', 'tracymiranda'], '2022-02-24T21:06:05.080468+00:00'),
-(196110912, 2, 1, 1, 0, 20, 'dgraph-io/workshop', 'Dgraph workshop: Build a Twitter graph with Dgraph!', ARRAY['hackintoshrao', 'danielmai'], '2022-02-24T21:06:05.080468+00:00'),
 (196284711, 18742, 64, 1, 0, 12, 'microsoft/cascadia-code', 'This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.', ARRAY['aaronbell', 'cinnamon-msft'], '2022-02-24T21:06:05.080468+00:00'),
 (196289604, 177, 9, 1, 0, 25, 'awslabs/aws-rails-provisioner', 'Define and deploy containerized Ruby on Rails Applications on AWS', ARRAY['mullermp', 'cjyclaire'], '2022-02-24T21:06:05.080468+00:00'),
+(196100645, 19, 21, 1, 0, 12, 'cdfoundation/foundation', 'Interactions with the CDF Staff and Board', ARRAY['danlopez00', 'tracymiranda'], '2022-02-24T21:06:05.080468+00:00'),
 (196530922, 3, 5, 1, 0, 1, 'jorgenkg/promise-priority-queue', 'Async bucket priority queue implemented in Typescript', ARRAY['renovate-bot', 'jorgengrimnes'], '2022-02-24T21:06:05.080468+00:00'),
+(196110912, 2, 1, 1, 0, 20, 'dgraph-io/workshop', 'Dgraph workshop: Build a Twitter graph with Dgraph!', ARRAY['hackintoshrao', 'danielmai'], '2022-02-24T21:06:05.080468+00:00'),
 (196654655, 6, 18, 1, 0, 23, 'mvarona/CartasContraLaHumanidad', '¡El juego Cartas Contra la Humanidad, por fin, en español, gratuito y con las cartas oficiales! Juégalo con dos amigos más, ¡O con dos pestañas más si no tienes tantos amigos! :D', ARRAY['hparcells', 'mvarona'], '2022-02-24T21:06:05.080468+00:00'),
 (196662111, 2, 0, 1, 0, 9, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-24T21:06:05.080468+00:00'),
 (196760810, 7094, 13, 4, 0, 15.25, 'Ebazhanov/linkedin-skill-assessments-quizzes', 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', ARRAY['Ebazhanov', 'monkrus'], '2022-02-24T21:06:05.080468+00:00'),
