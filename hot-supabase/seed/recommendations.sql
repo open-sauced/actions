@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T14:44:00.772Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T16:52:14.004Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1722,8 +1722,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (149157946, 247, 0, 1, 0, 10, 'lucianomlima/react-ui-kits', 'A list of UI Kits available for React and React Native.', ARRAY['lucianomlima', 'ednofedulo'], '2022-02-24T21:06:05.080468+00:00'),
 (149339935, 9, 50, 1, 0, 10, 'esmero/strawberryfield', 'A Field of strawberries', ARRAY['DiegoPino', 'giancarlobi'], '2022-02-24T21:06:05.080468+00:00'),
 (149638165, 1485, 20, 1, 0, 23, 'testing-library/user-event', '🐕 Simulate user events', ARRAY['Gpx', 'kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
-(149792249, 39, 0, 1, 0, 27, 'olist/work-at-olist-data', 'Apply for a job at Olist''s Data Team: http://bit.ly/olist-bsa', ARRAY['andresionek91', 'nosbielcs'], '2022-02-24T21:06:05.080468+00:00'),
 (149731937, 729, 6, 2, 0, 6.5, 'remotemobprogramming/mob', 'Tool for smooth git handover.', ARRAY['simonharrer', 'gregorriegler'], '2022-02-24T21:06:05.080468+00:00'),
+(149792249, 39, 0, 1, 0, 27, 'olist/work-at-olist-data', 'Apply for a job at Olist''s Data Team: http://bit.ly/olist-bsa', ARRAY['andresionek91', 'nosbielcs'], '2022-02-24T21:06:05.080468+00:00'),
 (149827668, 52, 10, 1, 0, 14, 'james-wallis/wallis.dev', 'My personal website', ARRAY['james-wallis'], '2022-02-24T21:06:05.080468+00:00'),
 (150042589, 17936, 54, 1, 0, 3, 'nostalgic-css/NES.css', 'NES-style CSS Framework | ファミコン風CSSフレームワーク', ARRAY['BcRikko', 'guastallaigor'], '2022-02-24T21:06:05.080468+00:00'),
 (150498735, 173, 8, 1, 0, 5, 'mauricioszabo/atom-chlorine', 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', ARRAY['mauricioszabo', 'seancorfield'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2210,8 +2210,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (217545172, 1507, 34, 1, 0, 29, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:06:05.080468+00:00'),
 (217547293, 556, 4, 1, 0, 5, 'ruby-next/ruby-next', 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', ARRAY['palkan', 'sl4vr'], '2022-02-24T21:06:05.080468+00:00'),
 (217654199, 2508, 80, 1, 0, 10, 'microsoft/msquic', 'Cross-platform, C implementation of the IETF QUIC protocol.', ARRAY['nibanks', 'ThadHouse'], '2022-02-24T21:06:05.080468+00:00'),
-(217796246, 1, 0, 1, 0, 6, 'mudaliaraditya/EpollServer', 'simple epoll server library', ARRAY['mudaliaraditya'], '2022-02-24T21:06:05.080468+00:00'),
 (217963207, 1, 1, 1, 0, 18, 'Umuzi-org/django-react-stack', 'This is a template repo to be used when kicking off projects that make use of Django and React together', ARRAY['sheenarbw'], '2022-02-24T21:06:05.080468+00:00'),
+(217796246, 1, 0, 1, 0, 6, 'mudaliaraditya/EpollServer', 'simple epoll server library', ARRAY['mudaliaraditya'], '2022-02-24T21:06:05.080468+00:00'),
 (218115303, 20438, 56, 1, 0, 16, 'vercel/swr', 'React Hooks for data fetching', ARRAY['shuding', 'huozhi'], '2022-02-24T21:06:05.080468+00:00'),
 (218163448, 52, 12, 1, 0, 5, 'phenomnomnominal/screen-reader-reader', 'A general purpose screen reader reader', ARRAY['phenomnomnominal', 'BBlackwo'], '2022-02-24T21:06:05.080468+00:00'),
 (218282453, 2827, 16, 1, 0, 29, 'saadpasta/developerFolio', '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', ARRAY['saadpasta', 'kartikcho'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2336,9 +2336,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (237604596, 9, 0, 1, 0, 13, 'dvarrazzo/bromine', 'Pythonic web testing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (237604676, 1, 0, 1, 0, 11, 'dvarrazzo/weeder', 'Remove unneeded historical files', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (237604775, 10, 0, 1, 0, 12, 'dvarrazzo/pgaudit', 'Simple PostgreSQL extension for tables auditing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
-(237805954, 2319, 8, 1, 0, 12, 'Shpota/goxygen', 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', ARRAY['Shpota', 'shpotainna'], '2022-02-24T21:06:05.080468+00:00'),
 (238039731, 105, 103, 1, 0, 8, 'redwoodjs/redwoodjs.com', 'Public website for RedwoodJS', ARRAY['thedavidprice', 'cannikin'], '2022-02-24T21:06:05.080468+00:00'),
 (238197045, 196, 10, 1, 0, 22, 'bradtraversy/react_native_shopping_list', 'React Native app from crash course', ARRAY['bradtraversy', 'leosuncin'], '2022-02-24T21:06:05.080468+00:00'),
+(237805954, 2319, 8, 1, 0, 12, 'Shpota/goxygen', 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', ARRAY['Shpota', 'shpotainna'], '2022-02-24T21:06:05.080468+00:00'),
 (238514517, 2706, 24, 2, 0, 13, 'matteobruni/tsparticles', 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', ARRAY['matteobruni', 'VincentGarreau'], '2022-02-24T21:06:05.080468+00:00'),
 (238537897, 31, 7, 1, 0, 9, 'michal-wrzosek/cntl', 'Small library that helps you write your class names in a more clear, readable and composable way. Especially useful with tailwind css.', ARRAY['michal-wrzosek', 'brightpixels'], '2022-02-24T21:06:05.080468+00:00'),
 (238851101, 2263, 0, 1, 0, 12, 'naver/fe-news', 'FE 기술 소식 큐레이션 뉴스레터', ARRAY['netil', 'sculove'], '2022-02-24T21:06:05.080468+00:00'),
