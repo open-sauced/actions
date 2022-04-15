@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T12:52:46.499Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T14:44:00.772Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1722,8 +1722,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (149157946, 247, 0, 1, 0, 10, 'lucianomlima/react-ui-kits', 'A list of UI Kits available for React and React Native.', ARRAY['lucianomlima', 'ednofedulo'], '2022-02-24T21:06:05.080468+00:00'),
 (149339935, 9, 50, 1, 0, 10, 'esmero/strawberryfield', 'A Field of strawberries', ARRAY['DiegoPino', 'giancarlobi'], '2022-02-24T21:06:05.080468+00:00'),
 (149638165, 1485, 20, 1, 0, 23, 'testing-library/user-event', '🐕 Simulate user events', ARRAY['Gpx', 'kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
-(149731937, 729, 6, 2, 0, 6.5, 'remotemobprogramming/mob', 'Tool for smooth git handover.', ARRAY['simonharrer', 'gregorriegler'], '2022-02-24T21:06:05.080468+00:00'),
 (149792249, 39, 0, 1, 0, 27, 'olist/work-at-olist-data', 'Apply for a job at Olist''s Data Team: http://bit.ly/olist-bsa', ARRAY['andresionek91', 'nosbielcs'], '2022-02-24T21:06:05.080468+00:00'),
+(149731937, 729, 6, 2, 0, 6.5, 'remotemobprogramming/mob', 'Tool for smooth git handover.', ARRAY['simonharrer', 'gregorriegler'], '2022-02-24T21:06:05.080468+00:00'),
 (149827668, 52, 10, 1, 0, 14, 'james-wallis/wallis.dev', 'My personal website', ARRAY['james-wallis'], '2022-02-24T21:06:05.080468+00:00'),
 (150042589, 17936, 54, 1, 0, 3, 'nostalgic-css/NES.css', 'NES-style CSS Framework | ファミコン風CSSフレームワーク', ARRAY['BcRikko', 'guastallaigor'], '2022-02-24T21:06:05.080468+00:00'),
 (150498735, 173, 8, 1, 0, 5, 'mauricioszabo/atom-chlorine', 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', ARRAY['mauricioszabo', 'seancorfield'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1769,13 +1769,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (156488590, 1, 0, 1, 0, 8, 'b-marie/StackUnderflow', 'This was a group project for a back end course, which is why the front end is HORRENDOUS.', ARRAY['b-marie', 'RiverMerrill'], '2022-02-24T21:06:05.080468+00:00'),
 (156648725, 8853, 227, 1, 0, 0, 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', 'eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee', ARRAY['LinuxMercedes', 'iliana'], '2022-02-24T21:06:05.080468+00:00'),
 (156914027, 2834, 17, 2, 0, 6.5, 'isaachinman/next-i18next', 'The easiest way to translate your NextJs apps.', ARRAY['isaachinman', 'capellini'], '2022-02-24T21:06:05.080468+00:00'),
+(157014461, 7726, 14, 1, 0, 25, 'welldone-software/why-did-you-render', 'why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)', ARRAY['vzaidman', 'Hypnosphi'], '2022-02-24T21:06:05.080468+00:00'),
 (157245200, 5678, 21, 2, 0, 5, 'twpayne/chezmoi', 'Manage your dotfiles across multiple diverse machines, securely.', ARRAY['twpayne', 'zb140'], '2022-02-24T21:06:05.080468+00:00'),
 (157281931, 38, 2, 1, 0, 13, 'nprapps/interactive-template', 'A Node-based template for starting news apps and interactive pages', ARRAY['thomaswilburn', 'alykat'], '2022-02-24T21:06:05.080468+00:00'),
 (157397583, 7870, 47, 1, 0, 29, 'mswjs/msw', 'Seamless REST/GraphQL API mocking library for browser and Node.js.', ARRAY['kettanaito', 'marcosvega91'], '2022-02-24T21:06:05.080468+00:00'),
 (157421028, 2389, 144, 1, 0, 1, 'NoahZinsmeister/web3-react', '🧰 A simple, maximally extensible, dependency minimized framework for building modern Ethereum dApps', ARRAY['NoahZinsmeister', 'chaitanyapotti'], '2022-02-24T21:06:05.080468+00:00'),
 (157518025, 518, 0, 1, 0, 22, 'MBMIT/neurolab-android', 'Neurolab Android', ARRAY['mariobehling'], '2022-02-24T21:06:05.080468+00:00'),
 (157519737, 511, 0, 1, 0, 23, 'MBMIT/neurolab-hardware', 'Neurolab Hardware', ARRAY['mariobehling', 'CloudyPadmal'], '2022-02-24T21:06:05.080468+00:00'),
-(157014461, 7726, 14, 1, 0, 25, 'welldone-software/why-did-you-render', 'why-did-you-render by Welldone Software monkey patches React to notify you about potentially avoidable re-renders. (Works with React Native as well.)', ARRAY['vzaidman', 'Hypnosphi'], '2022-02-24T21:06:05.080468+00:00'),
 (157616880, 43545, 222, 1, 0, 17, 'iptv-org/iptv', 'Collection of publicly available IPTV channels from all over the world', ARRAY['freearhey', 'LaneSh4d0w'], '2022-02-24T21:06:05.080468+00:00'),
 (157626893, 46, 37, 1, 0, 12, 'thematters/matters-server', 'Server code for Matters', ARRAY['robertu7', 'devformatters'], '2022-02-24T21:06:05.080468+00:00'),
 (157736989, 251, 0, 1, 0, 7, 'rafaelfgx/DotNetCore', '.NET 6 Nuget Packages.', ARRAY['rafaelfgx'], '2022-02-24T21:06:05.080468+00:00'),
