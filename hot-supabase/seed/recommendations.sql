@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T16:52:14.004Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T18:46:34.498Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2210,8 +2210,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (217545172, 1507, 34, 1, 0, 29, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:06:05.080468+00:00'),
 (217547293, 556, 4, 1, 0, 5, 'ruby-next/ruby-next', 'Ruby Next makes modern Ruby code run in older versions and alternative implementations', ARRAY['palkan', 'sl4vr'], '2022-02-24T21:06:05.080468+00:00'),
 (217654199, 2508, 80, 1, 0, 10, 'microsoft/msquic', 'Cross-platform, C implementation of the IETF QUIC protocol.', ARRAY['nibanks', 'ThadHouse'], '2022-02-24T21:06:05.080468+00:00'),
-(217963207, 1, 1, 1, 0, 18, 'Umuzi-org/django-react-stack', 'This is a template repo to be used when kicking off projects that make use of Django and React together', ARRAY['sheenarbw'], '2022-02-24T21:06:05.080468+00:00'),
 (217796246, 1, 0, 1, 0, 6, 'mudaliaraditya/EpollServer', 'simple epoll server library', ARRAY['mudaliaraditya'], '2022-02-24T21:06:05.080468+00:00'),
+(217963207, 1, 1, 1, 0, 18, 'Umuzi-org/django-react-stack', 'This is a template repo to be used when kicking off projects that make use of Django and React together', ARRAY['sheenarbw'], '2022-02-24T21:06:05.080468+00:00'),
 (218115303, 20438, 56, 1, 0, 16, 'vercel/swr', 'React Hooks for data fetching', ARRAY['shuding', 'huozhi'], '2022-02-24T21:06:05.080468+00:00'),
 (218163448, 52, 12, 1, 0, 5, 'phenomnomnominal/screen-reader-reader', 'A general purpose screen reader reader', ARRAY['phenomnomnominal', 'BBlackwo'], '2022-02-24T21:06:05.080468+00:00'),
 (218282453, 2827, 16, 1, 0, 29, 'saadpasta/developerFolio', '🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.', ARRAY['saadpasta', 'kartikcho'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2336,9 +2336,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (237604596, 9, 0, 1, 0, 13, 'dvarrazzo/bromine', 'Pythonic web testing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (237604676, 1, 0, 1, 0, 11, 'dvarrazzo/weeder', 'Remove unneeded historical files', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
 (237604775, 10, 0, 1, 0, 12, 'dvarrazzo/pgaudit', 'Simple PostgreSQL extension for tables auditing', ARRAY['dvarrazzo'], '2022-02-24T21:06:05.080468+00:00'),
+(237805954, 2319, 8, 1, 0, 12, 'Shpota/goxygen', 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', ARRAY['Shpota', 'shpotainna'], '2022-02-24T21:06:05.080468+00:00'),
 (238039731, 105, 103, 1, 0, 8, 'redwoodjs/redwoodjs.com', 'Public website for RedwoodJS', ARRAY['thedavidprice', 'cannikin'], '2022-02-24T21:06:05.080468+00:00'),
 (238197045, 196, 10, 1, 0, 22, 'bradtraversy/react_native_shopping_list', 'React Native app from crash course', ARRAY['bradtraversy', 'leosuncin'], '2022-02-24T21:06:05.080468+00:00'),
-(237805954, 2319, 8, 1, 0, 12, 'Shpota/goxygen', 'Generate a modern Web project with Go and Angular, React or Vue in seconds 🚀', ARRAY['Shpota', 'shpotainna'], '2022-02-24T21:06:05.080468+00:00'),
 (238514517, 2706, 24, 2, 0, 13, 'matteobruni/tsparticles', 'tsParticles - Easily create highly customizable particles animations and use them as animated backgrounds for your website. Ready to use components available for React.js, Vue.js (2.x and 3.x), Angular, Svelte, jQuery, Preact, Inferno, Solid, Riot and Web Components.', ARRAY['matteobruni', 'VincentGarreau'], '2022-02-24T21:06:05.080468+00:00'),
 (238537897, 31, 7, 1, 0, 9, 'michal-wrzosek/cntl', 'Small library that helps you write your class names in a more clear, readable and composable way. Especially useful with tailwind css.', ARRAY['michal-wrzosek', 'brightpixels'], '2022-02-24T21:06:05.080468+00:00'),
 (238851101, 2263, 0, 1, 0, 12, 'naver/fe-news', 'FE 기술 소식 큐레이션 뉴스레터', ARRAY['netil', 'sculove'], '2022-02-24T21:06:05.080468+00:00'),
