@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T02:58:39.236Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T04:47:36.397Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1550,9 +1550,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (128193054, 5446, 114, 2, 0, 8.5, 'keystonejs/keystone', 'The most powerful headless CMS for Node.js — built with GraphQL and React', ARRAY['timleslie', 'jesstelford'], '2022-02-24T21:06:05.080468+00:00'),
 (128237146, 19760, 511, 1, 0, 12, 'vuejs/vuepress', '📝 Minimalistic Vue-powered static site generator', ARRAY['ulivz', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (128265535, 581, 64, 1, 0, 1, 'GoogleCloudPlatform/click-to-deploy', 'Source for Google Click to Deploy solutions listed on Google Cloud Marketplace.', ARRAY['wgrzelak', 'armandomiani'], '2022-02-24T21:06:05.080468+00:00'),
-(128275689, 5143, 62, 1, 0, 26, 'cchen156/Learning-to-See-in-the-Dark', 'Learning to See in the Dark. CVPR 2018', ARRAY['cchen156', 'Jason-Cooke'], '2022-02-24T21:06:05.080468+00:00'),
 (128396076, 2757, 63, 1, 0, 5, 'testing-library/dom-testing-library', '🐙 Simple and complete DOM testing utilities that encourage good testing practices.', ARRAY['kentcdodds', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (128416969, 2674, 93, 1, 0, 3, 'archlinux/archinstall', 'Arch Linux installer - guided, templates etc.', ARRAY['Torxed', 'dylanmtaylor'], '2022-02-24T21:06:05.080468+00:00'),
+(128275689, 5143, 62, 1, 0, 26, 'cchen156/Learning-to-See-in-the-Dark', 'Learning to See in the Dark. CVPR 2018', ARRAY['cchen156', 'Jason-Cooke'], '2022-02-24T21:06:05.080468+00:00'),
 (128468095, 1800, 9, 1, 0, 8, 'llSourcell/Learn_Computer_Science_in_5_Months', 'This is the Curriculum for ''Learn Computer Science in 5 Months'' By Siraj Raval on Youtube', ARRAY['llSourcell', 'SaumoPal97'], '2022-02-24T21:06:05.080468+00:00'),
 (128564293, 9422, 14, 1, 0, 19, '30-seconds/30-seconds-of-interviews', 'A curated collection of common interview questions to help you prepare for your next interview.', ARRAY['30secondsofcode', 'fejes713'], '2022-02-24T21:06:05.080468+00:00'),
 (128565937, 21036, 0, 2, 0, 24.5, 'iamadamdev/bypass-paywalls-chrome', 'Bypass Paywalls web browser extension for Chrome and Firefox.', ARRAY['iamadamdev', 'iscreamcoke'], '2022-02-24T21:06:05.080468+00:00'),
