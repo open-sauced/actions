@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T16:50:23.938Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T18:46:12.039Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3387,10 +3387,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-24T21:06:05.080468+00:00'),
 (384147961, 128, 5, 1, 0, 11, 'hashicorp/nextjs-bundle-analysis', 'A github action that provides detailed bundle analysis on PRs for next.js apps', ARRAY['jescalan', 'BRKalow'], '2022-02-24T21:06:05.080468+00:00'),
 (384302754, 2977, 24, 1, 0, 11, 'jlongster/absurd-sql', 'sqlite3 in ur indexeddb (hopefully a better backend soon)', ARRAY['jlongster', 'quolpr'], '2022-02-24T21:06:05.080468+00:00'),
+(384320581, 2, 0, 1, 0, 3, 'muhammaddzak/muhamamddzak.github.io', 'website for muhammaddzaky', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (384389481, 3, 0, 1, 0, 2, 'jbagaresgaray/ionic-react-coffee-vending-app', 'Ionic React 5, SwiperJS with Capacitor 3.0', ARRAY['jbagaresgaray', 'philipsimpleclick'], '2022-02-24T21:06:05.080468+00:00'),
 (384444449, 11, 0, 1, 0, 13, 'zuramai/chessplay', 'Chess Web Game with Vue JS 3 and Tailwind CSS', ARRAY['zuramai', 'fncolon'], '2022-02-24T21:06:05.080468+00:00'),
 (384524698, 320, 0, 1, 0, 28, 'salvia-kit/salvia-kit', 'Provides 9 Free Beautiful dashboard templates built with Tailwind CSS for React, Next.js, Vue and Nuxt.js', ARRAY['enochndika'], '2022-02-24T21:06:05.080468+00:00'),
-(384320581, 2, 0, 1, 0, 3, 'muhammaddzak/muhamamddzak.github.io', 'website for muhammaddzaky', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (384699238, 2, 0, 1, 0, 6, 'jazznerd206/Standard_10', 'NPM module which delivers a typing effect for text', ARRAY['jazznerd206'], '2022-02-24T21:06:05.080468+00:00'),
 (384873391, 42, 1, 1, 0, 17, 'developer-student-club-thapar/GSoC-Proposals-Archive', 'This repository contains Accepted and Rejected proposals for various Google Summer of Code organizations.', ARRAY['specter25', 'Saurav-Shrivastav'], '2022-02-24T21:06:05.080468+00:00'),
 (384915975, 29, 8, 1, 0, 25, 'DarthBenro008/rchore', 'An feature packed Google Tasks CLI written purely in Rust', ARRAY['DarthBenro008', 'caioeverest'], '2022-02-24T21:06:05.080468+00:00'),
