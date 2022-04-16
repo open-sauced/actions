@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T08:45:23.018Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T10:44:48.143Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3623,9 +3623,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (420312993, 200, 5, 1, 0, 10, 'egoist/bget', 'Download and install binaries from GitHub Releases, interactively.', ARRAY['egoist'], '2022-02-24T21:06:05.080468+00:00'),
 (420484145, 2, 1, 1, 0, 10, 'jramirez857/email-cleaner', null, ARRAY['jramirez857'], '2022-02-24T21:06:05.080468+00:00'),
 (420688085, 7, 0, 1, 0, 11, 'koladev32/node-express-jwt-tutorial', null, ARRAY['koladev32'], '2022-02-24T21:06:05.080468+00:00'),
+(421008345, 424, 21, 1, 0, 6, 'vercel/examples', 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', ARRAY['lfades', 'steven-tey'], '2022-02-24T21:06:05.080468+00:00'),
 (421781906, 3, 0, 1, 0, 1, 'alanmynah/node-scrimba-stream', 'Code to go along with Scrimba''s Node stream', ARRAY['alanmynah'], '2022-02-24T21:06:05.080468+00:00'),
 (421838343, 114, 0, 1, 0, 12, 'nguyenphuminh/JeChain', 'An experimental, educational purpose proof-of-work blockchain network', ARRAY['nguyenphuminh'], '2022-02-24T21:06:05.080468+00:00'),
-(421008345, 424, 21, 1, 0, 6, 'vercel/examples', 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', ARRAY['lfades', 'steven-tey'], '2022-02-24T21:06:05.080468+00:00'),
 (422215956, 1, 0, 1, 0, 14, 'Blazing-Mike/Monogram-Frontend-starter-files', 'starter files for monogram shop frontend challenge from frontendpratice.com', ARRAY['Blazing-Mike'], '2022-02-24T21:06:05.080468+00:00'),
 (422821402, 3808, 61, 2, 0, 8.5, 'MangoDB-io/MangoDB', 'A truly Open Source MongoDB alternative', ARRAY['AlekSi', 'OpenSauce'], '2022-02-24T21:06:05.080468+00:00'),
 (423179172, 0, 0, 1, 0, 24, 'thlorenz/v8-snapshot', 'Tool to create a snapshot for Electron applications.', ARRAY['thlorenz'], '2022-02-24T21:06:05.080468+00:00'),
