@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-15T22:43:53.625Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-16T01:02:44.561Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2589,8 +2589,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (269778869, 7, 0, 1, 0, 26, 'mmb4rn0/LinearCardView', 'Provides all CardView styling and properties with vertical/horizontal view organising features.', ARRAY['barno-cefalo', 'mmb4rn0'], '2022-02-24T21:06:05.080468+00:00'),
 (269822028, 7, 17, 1, 0, 11, 'ngduc/rails-react-typescript-jest', 'Rails + React + Typescript + Jest UI app', ARRAY['ngduc'], '2022-02-24T21:06:05.080468+00:00'),
 (269906903, 1, 0, 1, 0, 8, 'piyalidas10/piyalidas10.github.io', 'Personal Website of Piyali Das ', ARRAY['piyalidas10'], '2022-02-24T21:06:05.080468+00:00'),
-(270657720, 898, 22, 1, 0, 1, 'vuesomedev/awesome-vue-3', 'A curated list of awesome things related to Vue 3', ARRAY['vuesomedev', 'HJ29'], '2022-02-24T21:06:05.080468+00:00'),
 (270069811, 1, 0, 1, 0, 5, 'lesmo/kms-cloud', '''Nube'' de la extinta startup KMS', ARRAY['lesmo'], '2022-02-24T21:06:05.080468+00:00'),
+(270657720, 898, 22, 1, 0, 1, 'vuesomedev/awesome-vue-3', 'A curated list of awesome things related to Vue 3', ARRAY['vuesomedev', 'HJ29'], '2022-02-24T21:06:05.080468+00:00'),
 (271148211, 7, 0, 1, 0, 24, 'ezralazuardy/bookstore', '📚 Book Store Android App intended for study purpose at Cilsy Sekolah Mobile', ARRAY['ezralazuardy', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (271363286, 10, 5, 1, 0, 10, 'raulsperoni/magnesium-wordcloud-panel', 'Wordcloud / Tagcloud Panel Plugin for Grafana', ARRAY['raulsperoni', 'Almyk'], '2022-02-24T21:06:05.080468+00:00'),
 (271377309, 2707, 43, 1, 0, 17, 'Layout-Parser/layout-parser', 'A Unified Toolkit for Deep Learning Based Document Image Analysis', ARRAY['lolipopshock', 'RosenZhang'], '2022-02-24T21:06:05.080468+00:00'),
