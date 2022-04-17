@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T12:51:33.700Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T14:43:18.775Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1416,10 +1416,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (112750686, 2, 11, 1, 0, 24, 'grnet/webdns4', 'A Ruby-on-Rails Webdns Frontend for Powerdns', ARRAY['ctrochalakis', 'vitsalis'], '2022-02-24T21:06:05.080468+00:00'),
 (112953694, 2766, 170, 3, 0, 11.666666666666666, 'digitallyinduced/ihp', '🔥 The fastest way to build type safe web apps. IHP is a new batteries-included web framework optimized for longterm productivity and programmer happiness', ARRAY['mpscholten', 'Laobiz'], '2022-02-24T21:06:05.080468+00:00'),
 (113106184, 7904, 226, 1, 0, 22, 'linkerd/linkerd2', 'Ultralight, security-first service mesh for Kubernetes. Main repo for Linkerd 2.x.', ARRAY['alpeb', 'olix0r'], '2022-02-24T21:06:05.080468+00:00'),
-(113125572, 7, 2, 1, 0, 7, 'hnasr/javascript-by-example', 'Javascript by Example Series', ARRAY['hnasr'], '2022-02-24T21:06:05.080468+00:00'),
 (113412457, 3387, 8, 1, 0, 13, 'gnif/LookingGlass', 'An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.', ARRAY['gnif', 'quantum5'], '2022-02-24T21:06:05.080468+00:00'),
 (113593022, 47, 210, 1, 0, 21, 'gitcoinco/skunkworks', 'experimental laboratory', ARRAY['stojce', 'owocki'], '2022-02-24T21:06:05.080468+00:00'),
 (113807330, 5896, 84, 1, 0, 23, 'migueldeicaza/gui.cs', 'Console-based user interface toolkit for .NET applications.', ARRAY['tig', 'BDisp'], '2022-02-24T21:06:05.080468+00:00'),
+(113125572, 7, 2, 1, 0, 7, 'hnasr/javascript-by-example', 'Javascript by Example Series', ARRAY['hnasr'], '2022-02-24T21:06:05.080468+00:00'),
 (113813718, 51, 3, 1, 0, 23, 'xvik/gradle-use-python-plugin', 'Use python modules in gradle build', ARRAY['xvik', 'yellowsquid'], '2022-02-24T21:06:05.080468+00:00'),
 (113865039, 7178, 270, 2, 0, 15.5, 'sveltejs/sapper', 'The next small thing in web development, powered by Svelte', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00'),
 (113866683, 78, 9, 1, 0, 11, 'imyelo/docsify-pagination', '↔️ Pagination for docsify', ARRAY['imyelo', 'jhildenbiddle'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1428,9 +1428,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (114018974, 17, 6, 1, 0, 12, 'harvard-dce/zoom-recording-ingester', 'A set of AWS services for downloading and ingesting Zoom meeting videos into Opencast', ARRAY['nataliemona', 'lbjay'], '2022-02-24T21:06:05.080468+00:00'),
 (114416028, 4, 0, 1, 0, 8, 'datadesk/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'palewire'], '2022-02-24T21:06:05.080468+00:00'),
 (114466145, 18327, 102, 1, 0, 24, 'yewstack/yew', 'Rust / Wasm framework for building client web apps', ARRAY['DenisKolodin', 'jstarry'], '2022-02-24T21:06:05.080468+00:00'),
+(114747226, 39976, 18, 1, 0, 5, 'deepfakes/faceswap', 'Deepfakes Software For All', ARRAY['torzdf', 'kvrooman'], '2022-02-24T21:06:05.080468+00:00'),
 (114484885, 59, 0, 1, 0, 5, 'trectenwald/omnigraffle-aws', 'Omnigraffle stencils using AWS Simple Icons.', ARRAY['trectenwald'], '2022-02-24T21:06:05.080468+00:00'),
 (114687480, 422, 6, 2, 0, 8.5, 'devrelcollective/awesome-devrel', 'Awesome Developer Relations resources curated by the DevRel Collective', ARRAY['jerdog', 'mbbroberg'], '2022-02-24T21:06:05.080468+00:00'),
-(114747226, 39976, 18, 1, 0, 5, 'deepfakes/faceswap', 'Deepfakes Software For All', ARRAY['torzdf', 'kvrooman'], '2022-02-24T21:06:05.080468+00:00'),
 (114788369, 619, 34, 1, 0, 27, 'cloudflare/worker-examples', 'Examples of Javascript you can run on Cloudflare’s worldwide network', ARRAY['pmeenan', 'zackbloom'], '2022-02-24T21:06:05.080468+00:00'),
 (115039706, 8061, 910, 1, 0, 20, 'rust-analyzer/rust-analyzer', 'A Rust compiler front-end for IDEs', ARRAY['matklad', 'Veykril'], '2022-02-24T21:06:05.080468+00:00'),
 (115110181, 18860, 241, 3, 0, 10, 'swc-project/swc', 'swc is a super-fast compiler written in rust; producing widely-supported javascript from modern standards and typescript.', ARRAY['kdy1', 'dsherret'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1438,8 +1438,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (115198687, 230, 169, 1, 0, 0, 'opencast/opencast', 'The free and open source solution for automated video capture and distribution at scale.', ARRAY['lkiesow', 'gregorydlogan'], '2022-02-24T21:06:05.080468+00:00'),
 (115229134, 11984, 17, 1, 0, 4, 'mdx-js/mdx', 'Markdown for the component era', ARRAY['johno', 'wooorm'], '2022-02-24T21:06:05.080468+00:00'),
 (115458656, 4615, 11, 1, 0, 27, 'hwayne/awesome-cold-showers', 'For when people get too hyped up about things', ARRAY['hwayne', 'ahnberg'], '2022-02-24T21:06:05.080468+00:00'),
-(115478820, 36756, 8, 2, 0, 5.5, 'binhnguyennus/awesome-scalability', 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', ARRAY['binhnguyennus', 'avidLearnerInProgress'], '2022-02-24T21:06:05.080468+00:00'),
-(115532550, 2, 0, 1, 0, 26, 'kkentzo/mockit', 'A development tool to quickly mock various aspects of an http endpoint using the command-line', ARRAY['kkentzo'], '2022-02-24T21:06:05.080468+00:00'),
 (115685026, 1824, 120, 1, 0, 27, 'yggdrasil-network/yggdrasil-go', 'An experiment in scalable routing as an encrypted IPv6 overlay network', ARRAY['neilalexander', 'Arceliar'], '2022-02-24T21:06:05.080468+00:00'),
 (115720575, 21795, 26, 1, 0, 6, 'immerjs/immer', 'Create the next immutable state by mutating the current one', ARRAY['mweststrate', 'aleclarson'], '2022-02-24T21:06:05.080468+00:00'),
 (115736320, 252, 3, 2, 0, 18, 'klutchell/balena-pihole', 'Pi-hole is a Linux network-level advertisement and Internet tracker blocking application.', ARRAY['klutchell', 'chrisys'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1447,6 +1445,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (116050135, 87, 0, 1, 0, 7, 'pascaldevink/spaceship-zsh-theme', ':star: :rocket: An “Oh My ZSH!” theme for Astronauts.', ARRAY['denysdovhan', 'salmanulfarzy'], '2022-02-24T21:06:05.080468+00:00'),
 (116160755, 9336, 0, 2, 0, 20, 'dotnet/blazor', 'Blazor moved to https://github.com/dotnet/aspnetcore', ARRAY['SteveSandersonMS', 'rynowak'], '2022-02-24T21:06:05.080468+00:00'),
 (116257621, 988, 8, 1, 0, 24, 'tenancy/tenancy', 'Run multiple websites using the same Laravel installation while keeping tenant specific data separated for fully independent multi-domain setups.', ARRAY['ArlonAntonius', 'luceos'], '2022-02-24T21:06:05.080468+00:00'),
+(115532550, 2, 0, 1, 0, 26, 'kkentzo/mockit', 'A development tool to quickly mock various aspects of an http endpoint using the command-line', ARRAY['kkentzo'], '2022-02-24T21:06:05.080468+00:00'),
+(115478820, 36756, 8, 2, 0, 5.5, 'binhnguyennus/awesome-scalability', 'The Patterns of Scalable, Reliable, and Performant Large-Scale Systems', ARRAY['binhnguyennus', 'avidLearnerInProgress'], '2022-02-24T21:06:05.080468+00:00'),
 (116392590, 1771, 11, 1, 0, 8, 'stefanprodan/podinfo', 'Go microservice template for Kubernetes', ARRAY['stefanprodan', 'dmccaffery'], '2022-02-24T21:06:05.080468+00:00'),
 (116586047, 111, 9, 1, 0, 7, 'ewilken/hap-rs', 'Rust implementation of the Apple HomeKit Accessory Protocol (HAP)', ARRAY['ewilken', 'Gaelan'], '2022-02-24T21:06:05.080468+00:00'),
 (116612925, 821, 1, 1, 0, 29, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3189,8 +3189,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-24T21:06:05.080468+00:00'),
 (357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-24T21:06:05.080468+00:00'),
 (357342987, 64, 0, 1, 0, 17, 'devpato/tech-podcasts-list', 'List of Tech Podcasts.', ARRAY['devpato', 'kenshinji'], '2022-02-24T21:06:05.080468+00:00'),
-(357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-24T21:06:05.080468+00:00'),
 (357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-24T21:06:05.080468+00:00'),
+(357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-24T21:06:05.080468+00:00'),
 (357732194, 1, 0, 1, 0, 6, 'gilesvessey/ms3-hl-driver', 'Arduino driven addressable LED strip driver for my Mazdaspeed3''s custom headlights.', ARRAY['gilesvessey'], '2022-02-24T21:06:05.080468+00:00'),
 (357782342, 1, 0, 1, 0, 13, 'sk1122/Kanban-Board', 'Kanban Board - You can create Boards, Manage you Day', ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
 (358525505, 1, 0, 1, 0, 12, 'philips-forks/innersource-crawler', 'This project creates a repos.json that can be utilized by the SAP InnerSource Portal.', ARRAY['zkoppert', 'Brend-Smits'], '2022-02-24T21:06:05.080468+00:00'),
