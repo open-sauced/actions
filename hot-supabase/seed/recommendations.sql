@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T16:49:53.037Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T18:46:09.524Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -828,10 +828,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (46958040, 2720, 37, 1, 0, 11, 'tapaswenipathak/Open-Source-Programs', 'A list of open source programs.', ARRAY['tapaswenipathak', 'emetowinner'], '2022-02-24T21:06:05.080468+00:00'),
 (47018239, 44454, 2, 4, 1, 10, 'DopplerHQ/awesome-interview-questions', ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ARRAY['MaksimAbramchuk', 'ryan-blunden'], '2022-02-24T21:06:05.080468+00:00'),
 (47099511, 8577, 52, 1, 0, 3, 'jlevy/og-equity-compensation', 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ARRAY['jlevy', 'RacheltheEditor'], '2022-02-24T21:06:05.080468+00:00'),
-(47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-24T21:06:05.080468+00:00'),
 (47403260, 60, 3, 1, 0, 10, 'instana/nodejs', 'Node.js in-process collectors for Instana', ARRAY['basti1302', 'bripkens'], '2022-02-24T21:06:05.080468+00:00'),
 (47996258, 1325, 42, 1, 0, 13, 'thoughtworks/talisman', 'By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.', ARRAY['svishwanath-tw', 'harinee'], '2022-02-24T21:06:05.080468+00:00'),
 (47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-24T21:06:05.080468+00:00'),
+(47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-24T21:06:05.080468+00:00'),
 (48003886, 17971, 60, 1, 0, 13, 'tmrts/go-patterns', 'Curated list of Go design patterns, recipes and idioms', ARRAY['tmrts', 'sha1sum'], '2022-02-24T21:06:05.080468+00:00'),
 (48009214, 14402, 689, 1, 0, 0, 'microsoft/react-native-windows', 'A framework for building native Windows apps with React.', ARRAY['rnbot', 'rozele'], '2022-02-24T21:06:05.080468+00:00'),
 (48242990, 10256, 156, 1, 0, 5, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3368,8 +3368,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (381907715, 5463, 5, 1, 0, 12, 'vuejs/petite-vue', '6kb subset of Vue optimized for progressive enhancement', ARRAY['yyx990803', 'Fry98'], '2022-02-24T21:06:05.080468+00:00'),
 (381913988, 13, 0, 1, 0, 11, 'fosskers/validated', 'The cumulative sibling of `Result` and `Either`.', ARRAY['fosskers'], '2022-02-24T21:06:05.080468+00:00'),
 (381989425, 1, 0, 1, 0, 26, 'Djohnnie/DotNet6-CodePaLOUsa-2021', 'What is new in .NET 6 and the future of .NET - Code PaLOUsa 2021', ARRAY['Djohnnie'], '2022-02-24T21:06:05.080468+00:00'),
-(382308978, 49, 0, 1, 0, 29, 'tediko/planets-fact', 'Planets fact site with animated solar system built with ReactJS. ', ARRAY['tediko'], '2022-02-24T21:06:05.080468+00:00'),
 (382263397, 5, 2, 1, 0, 9, 'commercelayer/commercelayer-sdk', null, ARRAY['pviti', 'acasazza'], '2022-02-24T21:06:05.080468+00:00'),
+(382308978, 49, 0, 1, 0, 29, 'tediko/planets-fact', 'Planets fact site with animated solar system built with ReactJS. ', ARRAY['tediko'], '2022-02-24T21:06:05.080468+00:00'),
 (382567662, 21, 0, 1, 0, 26, 'avishmehta68710/linkedinBot', 'Automate the process of sending referral request and cold mailing on LinkedIn', ARRAY['avishmehta68710', 'Saviour1001'], '2022-02-24T21:06:05.080468+00:00'),
 (382800934, 6655, 129, 1, 0, 9, 'tenacityteam/tenacity', 'Tenacity is an easy-to-use, privacy-friendly, FLOSS, cross-platform multi-track audio editor/recorder for Windows, macOS, Linux and other operating systems. Contributions welcome!', ARRAY['Paul-Licameli', 'JamesCrook'], '2022-02-24T21:06:05.080468+00:00'),
 (382848888, 24, 1, 1, 0, 19, 'fachryansyah/react-mazer-ui', 'Reusable component Reactjs for Mazer Template, Free and Open-Source', ARRAY['fachryansyah', 'Lefevre-Alexandre'], '2022-02-24T21:06:05.080468+00:00'),
