@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T18:46:09.524Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T20:43:45.046Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -828,10 +828,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (46958040, 2720, 37, 1, 0, 11, 'tapaswenipathak/Open-Source-Programs', 'A list of open source programs.', ARRAY['tapaswenipathak', 'emetowinner'], '2022-02-24T21:06:05.080468+00:00'),
 (47018239, 44454, 2, 4, 1, 10, 'DopplerHQ/awesome-interview-questions', ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ARRAY['MaksimAbramchuk', 'ryan-blunden'], '2022-02-24T21:06:05.080468+00:00'),
 (47099511, 8577, 52, 1, 0, 3, 'jlevy/og-equity-compensation', 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ARRAY['jlevy', 'RacheltheEditor'], '2022-02-24T21:06:05.080468+00:00'),
+(47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-24T21:06:05.080468+00:00'),
 (47403260, 60, 3, 1, 0, 10, 'instana/nodejs', 'Node.js in-process collectors for Instana', ARRAY['basti1302', 'bripkens'], '2022-02-24T21:06:05.080468+00:00'),
 (47996258, 1325, 42, 1, 0, 13, 'thoughtworks/talisman', 'By hooking into the pre-push hook provided by Git, Talisman validates the outgoing changeset for things that look suspicious - such as authorization tokens and private keys.', ARRAY['svishwanath-tw', 'harinee'], '2022-02-24T21:06:05.080468+00:00'),
 (47997753, 6250, 206, 1, 0, 2, 'zo0r/react-native-push-notification', 'React Native Local and Remote Notifications', ARRAY['Dallas62', 'zo0r'], '2022-02-24T21:06:05.080468+00:00'),
-(47184304, 12642, 7, 1, 0, 23, 'keon/awesome-nlp', ':book: A curated list of resources dedicated to Natural Language Processing (NLP)', ARRAY['NirantK', 'keon'], '2022-02-24T21:06:05.080468+00:00'),
 (48003886, 17971, 60, 1, 0, 13, 'tmrts/go-patterns', 'Curated list of Go design patterns, recipes and idioms', ARRAY['tmrts', 'sha1sum'], '2022-02-24T21:06:05.080468+00:00'),
 (48009214, 14402, 689, 1, 0, 0, 'microsoft/react-native-windows', 'A framework for building native Windows apps with React.', ARRAY['rnbot', 'rozele'], '2022-02-24T21:06:05.080468+00:00'),
 (48242990, 10256, 156, 1, 0, 5, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-24T21:06:05.080468+00:00'),
