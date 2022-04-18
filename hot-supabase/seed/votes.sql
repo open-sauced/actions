@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-17T22:43:39.030Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T01:03:53.278Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -9,8 +9,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (6, 5713670, 'slidevjs/slidev', '5713670-slidevjs/slidev', '2022-01-13T06:48:50.894315+00:00'),
 (100, 5713670, 'flutter/flutter', '5713670-flutter/flutter', '2022-01-25T23:48:23.190923+00:00'),
 (101, 5713670, 'AriaMinaei/theatre', '5713670-AriaMinaei/theatre', '2022-01-26T22:47:52.020398+00:00'),
-(103, 237133, 'redwoodjs/redwood', '237133-redwoodjs/redwood', '2022-02-04T00:57:53.300441+00:00'),
 (10, 5713670, 'papers-we-love/papers-we-love', '5713670-papers-we-love/papers-we-love', '2022-01-13T06:55:51.030046+00:00'),
+(103, 237133, 'redwoodjs/redwood', '237133-redwoodjs/redwood', '2022-02-04T00:57:53.300441+00:00'),
 (104, 237133, 'vitejs/vite', '237133-vitejs/vite', '2022-02-04T00:58:01.889271+00:00'),
 (105, 237133, 'getify/You-Dont-Know-JS', '237133-getify/You-Dont-Know-JS', '2022-02-04T00:58:07.751221+00:00'),
 (15, 5713670, 'jwasham/coding-interview-university', '5713670-jwasham/coding-interview-university', '2022-01-13T07:07:11.957732+00:00'),
