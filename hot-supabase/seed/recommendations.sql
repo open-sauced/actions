@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T12:53:49.447Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T14:43:21.115Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2145,8 +2145,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (208362715, 5910, 349, 2, 0, 4.5, 'adobe/react-spectrum', 'A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.', ARRAY['devongovett', 'snowystinger'], '2022-02-24T21:06:05.080468+00:00'),
 (208397359, 497, 22, 1, 0, 19, 'proudmonkey/AutoWrapper', 'A simple, yet customizable global exception handler and Http response wrapper for ASP.NET Core APIs.', ARRAY['proudmonkey', 'hueifeng'], '2022-02-24T21:06:05.080468+00:00'),
 (208498644, 21, 0, 1, 0, 13, 'jonabc/licensed-ci', 'Update and check cached licenses in a GitHub Actions workflow', ARRAY['jonabc', 'andymckay'], '2022-02-24T21:06:05.080468+00:00'),
-(209391513, 1045, 27, 1, 0, 29, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:06:05.080468+00:00'),
 (208509888, 579, 117, 1, 0, 20, 'dosbox-staging/dosbox-staging', 'DOS/x86 emulator focusing on ease of use', ARRAY['kcgen', 'dreamer'], '2022-02-24T21:06:05.080468+00:00'),
+(209391513, 1045, 27, 1, 0, 29, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:06:05.080468+00:00'),
 (209687099, 63, 52, 1, 0, 21, 'cloudinary-devs/gatsby-transformer-cloudinary', 'Use Cloudinary images with gatsby-image for high performance and total control!', ARRAY['kurttomlinson', 'Chuloo'], '2022-02-24T21:06:05.080468+00:00'),
 (210045783, 59, 0, 1, 0, 13, 'asottile/re-assert', 'show where your regex match assertion failed!', ARRAY['asottile'], '2022-02-24T21:06:05.080468+00:00'),
 (210179484, 615, 24, 1, 0, 13, 'saschagrunert/kubernix', 'Single dependency Kubernetes clusters for local testing, experimenting and development', ARRAY['saschagrunert', 'aij'], '2022-02-24T21:06:05.080468+00:00'),
