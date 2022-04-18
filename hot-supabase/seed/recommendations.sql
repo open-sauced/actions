@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T06:47:30.263Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-18T08:46:03.916Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -422,8 +422,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (14370955, 32521, 48, 1, 0, 0, 'sahat/hackathon-starter', 'A boilerplate for Node.js web applications', ARRAY['sahat', 'YasharF'], '2022-02-24T21:06:05.080468+00:00'),
 (14499588, 61, 75, 1, 0, 20, 'AgileVentures/LocalSupport', 'A directory of local support services and volunteer opportunities', ARRAY['tansaku', 'mtc2013'], '2022-02-24T21:06:05.080468+00:00'),
 (14571443, 2432, 43, 2, 0, 24, 'up-for-grabs/up-for-grabs.net', 'This is a list of projects which have curated tasks specifically for new contributors. These issues are a great way to get started with a project, or to help share the load of working on open source projects. Jump in!', ARRAY['shiftkey', 'ritwik12'], '2022-02-24T21:06:05.080468+00:00'),
-(14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-24T21:06:05.080468+00:00'),
 (14705691, 26056, 104, 1, 0, 14, 'ziadoz/awesome-php', 'A curated list of amazingly awesome PHP libraries, resources and shiny things.', ARRAY['ziadoz', 'josegonzalez'], '2022-02-24T21:06:05.080468+00:00'),
+(14712850, 41996, 305, 1, 0, 10, 'syncthing/syncthing', 'Open Source Continuous File Synchronization', ARRAY['calmh', 'AudriusButkevicius'], '2022-02-24T21:06:05.080468+00:00'),
 (14747598, 58651, 608, 2, 0, 21.5, 'typicode/json-server', 'Get a full fake REST API with zero coding in less than 30 seconds (seriously)', ARRAY['typicode', 'bahmutov'], '2022-02-24T21:06:05.080468+00:00'),
 (14759456, 632, 21, 1, 0, 8, 'sec-edgar/sec-edgar', ' Download all companies  periodic reports, filings and forms from EDGAR database.', ARRAY['jackmoody11', 'npsolve'], '2022-02-24T21:06:05.080468+00:00'),
 (14807173, 19671, 84, 1, 0, 7, 'SamyPesse/How-to-Make-a-Computer-Operating-System', 'How to Make a Computer Operating System in C++', ARRAY['SamyPesse', 'mandliya'], '2022-02-24T21:06:05.080468+00:00'),
