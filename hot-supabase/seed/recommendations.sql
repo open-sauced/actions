@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-19T01:03:30.586Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-19T03:15:04.186Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1832,16 +1832,16 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (166296150, 887, 79, 1, 0, 19, 'nmattia/niv', 'Easy dependency management for Nix projects', ARRAY['nmattia', 'zimbatm'], '2022-02-24T21:06:05.080468+00:00'),
 (166471416, 204, 12, 1, 0, 18, 'instafluff/ComfyJS', 'Comfiest Twitch Chat Library for JavaScript | NodeJS + Browser Support', ARRAY['instafluff', 'AlcaDesign'], '2022-02-24T21:06:05.080468+00:00'),
 (166504843, 15087, 10, 1, 0, 25, 'ForrestKnight/open-source-cs', 'Video discussing this curriculum:', ARRAY['ForrestKnight', '0xflotus'], '2022-02-24T21:06:05.080468+00:00'),
-(166671359, 20, 1, 1, 0, 20, 'finallyayo/pusher-code-playground', null, ARRAY['ayoisaiah'], '2022-02-24T21:06:05.080468+00:00'),
 (166694030, 342, 14, 1, 0, 20, 'instamobile/react-native-starter-kit', 'React Native Starter Kit with Firebase Auth and Facebook Login', ARRAY['Chukwudi4', 'mrcflorian'], '2022-02-24T21:06:05.080468+00:00'),
-(166831098, 1124, 327, 1, 0, 16, 'keptn/keptn', 'Cloud-native application life-cycle orchestration. Keptn automates your SLO-driven multi-stage delivery and operations & remediation of your applications.', ARRAY['bacherfl', 'agrimmer'], '2022-02-24T21:06:05.080468+00:00'),
-(167032345, 5100, 10, 1, 0, 16, 'labs42io/clean-code-typescript', 'Clean Code concepts adapted for TypeScript', ARRAY['dimadeveatii', 'asimionese'], '2022-02-24T21:06:05.080468+00:00'),
 (167304464, 7630, 106, 1, 0, 14, 'cortexlabs/cortex', 'Production infrastructure for machine learning at scale', ARRAY['deliahu', 'vishalbollu'], '2022-02-24T21:06:05.080468+00:00'),
 (167368839, 9049, 205, 1, 0, 20, 'jaredpalmer/tsdx', 'Zero-config CLI for TypeScript package development', ARRAY['jaredpalmer', 'agilgur5'], '2022-02-24T21:06:05.080468+00:00'),
 (167596974, 1230, 81, 1, 0, 6, 'pyenv-win/pyenv-win', 'pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It''s simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.', ARRAY['kirankotari', 'dedale'], '2022-02-24T21:06:05.080468+00:00'),
 (167632962, 253, 26, 1, 0, 29, 'bmoscon/cryptostore', 'A storage engine for cryptocurrency data', ARRAY['bmoscon', 'yohplala'], '2022-02-24T21:06:05.080468+00:00'),
 (167647146, 395, 8, 1, 0, 20, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', 'Build a Quiz App with HTML, CSS, and JavaScript', ARRAY['jamesqquick', 'thedamian'], '2022-02-24T21:06:05.080468+00:00'),
+(166831098, 1124, 327, 1, 0, 16, 'keptn/keptn', 'Cloud-native application life-cycle orchestration. Keptn automates your SLO-driven multi-stage delivery and operations & remediation of your applications.', ARRAY['bacherfl', 'agrimmer'], '2022-02-24T21:06:05.080468+00:00'),
 (167697129, 16, 7, 1, 0, 20, 'rajatjindal/goodfirstissue', 'openfaas function to handle webhooks for goodfirstissue github app', ARRAY['rajatjindal', 'alexellis'], '2022-02-24T21:06:05.080468+00:00'),
+(166671359, 20, 1, 1, 0, 20, 'finallyayo/pusher-code-playground', null, ARRAY['ayoisaiah'], '2022-02-24T21:06:05.080468+00:00'),
+(167032345, 5100, 10, 1, 0, 16, 'labs42io/clean-code-typescript', 'Clean Code concepts adapted for TypeScript', ARRAY['dimadeveatii', 'asimionese'], '2022-02-24T21:06:05.080468+00:00'),
 (167717410, 195, 3, 1, 0, 18, 'wiedehopf/graphs1090', 'Graphs for dump1090 (based on dump1090-tools by mutability)', ARRAY['wiedehopf', 'SaturnusDJ'], '2022-02-24T21:06:05.080468+00:00'),
 (168101431, 2, 0, 1, 0, 13, 'KubqoA/nginx-conf', 'Nginx configuration manager', ARRAY['KubqoA'], '2022-02-24T21:06:05.080468+00:00'),
 (168251225, 8, 1, 1, 0, 10, 'LEARNAcademy/Syllabus', null, ARRAY['sjproctor', 'JzGo'], '2022-02-24T21:06:05.080468+00:00'),
