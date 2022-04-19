@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-19T10:44:53.063Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-19T12:56:42.485Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3559,6 +3559,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (402030436, 1, 0, 1, 0, 7, 'mikerobards/100-days-of-code', 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ARRAY['kallaway', 'AurelieBayre'], '2022-02-24T21:06:05.080468+00:00'),
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-24T21:06:05.080468+00:00'),
 (402577011, 7, 3, 1, 0, 20, 'hackclubiter/hacktheoctober', 'The Official Website for Hack the October Fest 2021.', ARRAY['Abhijeet-Anand-01', 'saswatsamal'], '2022-02-24T21:06:05.080468+00:00'),
+(402841129, 128, 1, 1, 0, 7, 'Developer-DAO/developer-dao-nft-contract', null, ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
+(402852173, 26, 13, 1, 0, 6, 'the-pudding/website', 'The Pudding''s website', ARRAY['russellgoldenberg', 'jadiehm'], '2022-02-24T21:06:05.080468+00:00'),
+(403029798, 2, 0, 1, 0, 24, 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', ARRAY['s-yadav'], '2022-02-24T21:06:05.080468+00:00'),
 (403159506, 314, 11, 1, 0, 8, 'Developer-DAO/developerdao.com', 'A community of builders who believe in collective ownership of the internet', ARRAY['with-heart', 'fmoliveira'], '2022-02-24T21:06:05.080468+00:00'),
 (403285296, 1, 0, 1, 0, 2, 'muhammaddzaky/muhamamddzak.github.io', 'It’s common practice to prefix your version names with the letter v. Some good tag names might be v1.0 or v2.3.4.', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (403468848, 2, 0, 1, 0, 7, 'BolajiAyodeji/movie_reviews_sentiment_analysis', 'A basic machine learning model that will predict whether a movie review is positive or negative.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3630,16 +3633,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (425853395, 2, 1, 1, 0, 4, 'csellis/component-library', 'SvelteKit + Tailwind + Storybook', ARRAY['csellis'], '2022-02-24T21:06:05.080468+00:00'),
 (425941587, 2, 0, 1, 0, 1, '0-vortex/open-sauced-conventional-commit-test', 'Experimenting with commitizen configuration repository for opensauced.pizza', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (426671225, 1, 0, 1, 0, 14, 'bmorrisondev/go-notion', null, ARRAY['bmorrisondev'], '2022-02-24T21:06:05.080468+00:00'),
-(402841129, 128, 1, 1, 0, 7, 'Developer-DAO/developer-dao-nft-contract', null, ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
-(402852173, 26, 13, 1, 0, 6, 'the-pudding/website', 'The Pudding''s website', ARRAY['russellgoldenberg', 'jadiehm'], '2022-02-24T21:06:05.080468+00:00'),
-(403029798, 2, 0, 1, 0, 24, 's-yadav/ask-me-anything', 'A place where you can ask me anything about frontend, architecture, performance or general career stuff', ARRAY['s-yadav'], '2022-02-24T21:06:05.080468+00:00'),
 (426988203, 15, 0, 1, 0, 2, 'vunderkind/ethereum-dappiverse', 'A hitchhiker''s guide to the Ethereum dAppiverse', ARRAY['vunderkind'], '2022-02-24T21:06:05.080468+00:00'),
 (427157632, 1, 1, 1, 0, 3, 'netlify-templates/sveltekit-netlify-starter', 'SvelteKit Starter ready for deployment on Netlify', ARRAY['renovate-bot', 'maxcell'], '2022-02-24T21:06:05.080468+00:00'),
 (427228421, 3, 0, 1, 0, 4, 'ChristBM/platzi_conf_merch', 'PWA store using React, PayPal payments and other interesting configurations.', ARRAY['ChristBM'], '2022-02-24T21:06:05.080468+00:00'),
 (428727515, 1, 0, 2, 0, 0, 'HMTEUNIS/react-beats', null, ARRAY['WBian618', 'dandesantis14'], '2022-02-24T21:06:05.080468+00:00'),
 (429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-24T21:06:05.080468+00:00'),
-(429654999, 93, 7, 1, 0, 9, 'WarenGonzaga/css-text-portrait-builder', 'A popular pure CSS text portrait builder for your loved ones. 🥰', ARRAY['WarenGonzaga'], '2022-02-24T21:06:05.080468+00:00'),
 (429658975, 4, 0, 2, 0, 0, 'open-sauced/party-line', null, ARRAY['regexident', 'jessmitch42'], '2022-02-24T21:06:05.080468+00:00'),
+(429654999, 93, 7, 1, 0, 9, 'WarenGonzaga/css-text-portrait-builder', 'A popular pure CSS text portrait builder for your loved ones. 🥰', ARRAY['WarenGonzaga'], '2022-02-24T21:06:05.080468+00:00'),
 (430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-24T21:06:05.080468+00:00'),
 (430789888, 111, 22, 1, 0, 2, 'Developer-DAO/web3-ui', 'The UI library for web3', ARRAY['etr2460', 'Dhaiwat10'], '2022-02-24T21:06:05.080468+00:00'),
 (430868786, 2, 0, 1, 0, 5, 'Milo123459/atomix', 'A simple and fast shell.', ARRAY['Milo123459'], '2022-02-24T21:06:05.080468+00:00'),
