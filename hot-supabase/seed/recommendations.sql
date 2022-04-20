@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T08:47:05.563Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T10:45:01.989Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1877,6 +1877,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (172378503, 23891, 19, 1, 0, 9, 'romkatv/powerlevel10k', 'A Zsh theme', ARRAY['romkatv', 'dritter'], '2022-02-24T21:06:05.080468+00:00'),
 (172471552, 3694, 5, 1, 0, 7, 'aliyr/Nodejs-Developer-Roadmap', 'A Developer Roadmap to becoming a Node.js developer in 2019', ARRAY['aliyr', 'AGrant24'], '2022-02-24T21:06:05.080468+00:00'),
 (172473381, 33, 0, 1, 0, 29, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:06:05.080468+00:00'),
+(172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
+(172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (172521926, 16173, 17, 2, 0, 4.5, 'pmndrs/react-three-fiber', '🇨🇭 A React renderer for Three.js', ARRAY['drcmda', 'joshuaellis'], '2022-02-24T21:06:05.080468+00:00'),
 (172550478, 40, 8, 1, 0, 13, 'SlalomBuild/blackslope.net', '.Net Core reference architecture', ARRAY['andykongchi', 'pmotameni'], '2022-02-24T21:06:05.080468+00:00'),
 (172562475, 46668, 282, 5, 0, 9.8, 'florinpop17/app-ideas', 'A Collection of application ideas which can be used to improve your coding skills.', ARRAY['florinpop17', 'jdmedlock'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2762,8 +2764,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (292476496, 21, 0, 1, 0, 4, 'codingedward/ailing-planet', 'An interactive timelapse of the COVID-19 pandemic.', ARRAY['codingedward', 'josiahmokob0'], '2022-02-24T21:06:05.080468+00:00'),
 (292611591, 35, 0, 1, 0, 4, 'Piyushhbhutoria/awesome-hacktoberfest-2020', 'We present a curated list of awesome Hacktoberfest 2021 repositories. If you enjoyed this resource, please leave a star :star: to support this project! :sparkles:', ARRAY['Piyushhbhutoria', 'brtymn'], '2022-02-24T21:06:05.080468+00:00'),
 (292700337, 237, 7, 1, 0, 9, 'github/github-artifact-exporter', 'A set of packages to make exporting artifacts from GitHub easier', ARRAY['Chocrates', 'zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
-(172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
-(172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (292781184, 333, 0, 1, 0, 26, 'tc39/proposal-error-cause', 'TC39 proposal for accumulating errors', ARRAY['legendecas', 'hemanth'], '2022-02-24T21:06:05.080468+00:00'),
 (292835647, 559, 124, 1, 0, 0, 'nuxt/image', 'Optimized Images for Nuxt', ARRAY['pi0', 'farnabaz'], '2022-02-24T21:06:05.080468+00:00'),
 (292861557, 2614, 45, 1, 0, 25, 'gitpod-io/openvscode-server', 'Run upstream VS Code on a remote machine with access through a modern web browser from any device, anywhere.', ARRAY['bpasero', 'jrieken'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3315,8 +3315,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (374341212, 196, 4, 1, 0, 22, 'rickclephas/KMP-NativeCoroutines', 'Library to use Kotlin Coroutines from Swift code in KMP apps', ARRAY['rickclephas'], '2022-02-24T21:06:05.080468+00:00'),
 (374712857, 5, 0, 1, 0, 27, 'shijithpk/music-discovery', 'How to find new music on Spotify by aggregating the choices of tastemakers', ARRAY['shijithpk'], '2022-02-24T21:06:05.080468+00:00'),
 (374729902, 19, 0, 1, 0, 14, 'sagars007/Proton-UI-connected-rounded-tabs', 'Firefox Proton UI minimal changes with nav-bar-connected rounded tabs, reduced compact mode, nightly color gradient accents etc..', ARRAY['sagars007'], '2022-02-24T21:06:05.080468+00:00'),
-(374901515, 70, 15, 1, 0, 0, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'pragyamittal0'], '2022-02-24T21:06:05.080468+00:00'),
 (374950494, 42, 6, 1, 0, 3, 'lkrryba/weekly-web-dev-challenge-poll', 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', ARRAY['lkrryba', 'DoubleNemesis'], '2022-02-24T21:06:05.080468+00:00'),
+(374901515, 70, 15, 1, 0, 0, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'pragyamittal0'], '2022-02-24T21:06:05.080468+00:00'),
 (375015992, 137, 0, 3, 0, 10.666666666666666, 'hacktivist123/content-plan-example', 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', ARRAY['hacktivist123', 'Youngestdev'], '2022-02-24T21:06:05.080468+00:00'),
 (375406891, 79, 0, 2, 0, 5.5, 'YashThakare/DSA_Uplift_Project', null, ARRAY['YashThakare', 'SwarnimaShishodia'], '2022-02-24T21:06:05.080468+00:00'),
 (375445655, 4142, 12, 1, 0, 16, 'facebookresearch/AugLy', 'A data augmentations library for audio, image, text, and video.', ARRAY['jbitton', 'zpapakipos'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3486,7 +3486,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (393843307, 21, 0, 1, 0, 22, '5t3ph/odb-generative-svg', 'A demonstration of returning a generative art SVG via Netlify On-Demand Builders', ARRAY['5t3ph'], '2022-02-24T21:06:05.080468+00:00'),
 (394368306, 1, 1, 1, 0, 6, 'saitho/discord-bot-reloaded', 'Re-iteration of my Discord bot to use Slash Commands API', ARRAY['saitho'], '2022-02-24T21:06:05.080468+00:00'),
 (394433513, 51, 2, 1, 0, 20, 'Accudio/cead-consent', 'Simple, lightweight and easy-to-implement Cookie/Tracking consent manager for the web', ARRAY['Accudio'], '2022-02-24T21:06:05.080468+00:00'),
-(394559625, 1, 0, 1, 0, 7, 'muhammaddzaky/mhdraihandzaky.net', 'membuatwebsite', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (394632350, 0, 0, 1, 0, 13, 'SanchitaMishra170676/INNOGEEKS-2.0', null, ARRAY['chinmoy12c', 'Harsh-Gupta9897'], '2022-02-24T21:06:05.080468+00:00'),
 (394663818, 20, 3, 1, 0, 3, 'NickLiffen/ghas-enablement', 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', ARRAY['NickLiffen', 'LamarrD'], '2022-02-24T21:06:05.080468+00:00'),
 (394789638, 631, 23, 1, 0, 26, 'cloudflare/workers-rs', 'Write Cloudflare Workers in 100% Rust via WebAssembly', ARRAY['nilslice', 'caass'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3496,6 +3495,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (394954667, 1, 0, 1, 0, 8, 'muhammaddzaky/BucinWibuX', 'BucinWibuX', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (394956867, 2, 1, 1, 0, 5, 'muhammaddzaky/muhamamddzaky', 'hello', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (395006251, 32, 5, 1, 0, 6, 'Lalit2005/paperclip', 'The only note taking and productivity tool you will ever need From notes, todo lists, sticky notes to pomorodo timer and HTML-CSS playgorund, Paperclip is everything you will ever need', ARRAY['Lalit2005'], '2022-02-24T21:06:05.080468+00:00'),
+(394559625, 1, 0, 1, 0, 7, 'muhammaddzaky/mhdraihandzaky.net', 'membuatwebsite', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (395073750, 5, 1, 1, 0, 15, 'CodingGarden/stream-topic-overlay', 'A simple overlay to display the current stream topic.', ARRAY['w3cj'], '2022-02-24T21:06:05.080468+00:00'),
 (395205818, 2, 0, 1, 0, 4, 'muhammaddzaky/muhammaddzaky.github.id', 'membuatwebsitemuhammaddzaky.id', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (395280574, 12, 1, 1, 0, 2, 'NdR91/NdR-PhoneUI', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
