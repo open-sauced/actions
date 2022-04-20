@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T01:03:31.603Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T03:19:46.294Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2608,7 +2608,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (272597848, 1, 7, 1, 0, 17, '20BBrown14/digital-terrain-mc-js', 'Javascript for the Digital Terrain MC Server Website', ARRAY['20BBrown14', 'ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (272753737, 177, 25, 1, 0, 0, 'WomenWhoCode/wwcsf-algos', 'Algorithms and whiteboarding interview prep for the WWCSF community', ARRAY['elaguerta', 'beginner789'], '2022-02-24T21:06:05.080468+00:00'),
 (272942303, 50, 5, 1, 0, 25, 'theanam/webaudio-oscilloscope', 'A highly customizable oscilloscope for Web Audio 🔈 🎤', ARRAY['theanam'], '2022-02-24T21:06:05.080468+00:00'),
-(273019730, 24, 20, 1, 0, 26, 'etesync/etebase-docs', 'The Etebase documentation', ARRAY['tasn', 'Salt-Factory'], '2022-02-24T21:06:05.080468+00:00'),
 (273319786, 1, 0, 1, 0, 24, 'mgroves/IntegrationTestPractice', 'practicing integration tests with github actions', ARRAY['mgroves', 'brantburnett'], '2022-02-24T21:06:05.080468+00:00'),
 (273497516, 385, 20, 1, 0, 22, 'bradtraversy/storybooks', 'Node.js app with Google OAuth', ARRAY['bradtraversy', 'mellonis'], '2022-02-24T21:06:05.080468+00:00'),
 (273499522, 2622, 85, 2, 0, 7, 'radix-ui/primitives', 'An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.', ARRAY['jjenzz', 'benoitgrelard'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2627,6 +2626,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (274357906, 100, 2, 1, 0, 19, 't-bast/lightning-docs', 'Some in-depth articles about the Lightning Network', ARRAY['t-bast', 'joostjager'], '2022-02-24T21:06:05.080468+00:00'),
 (274481422, 266, 0, 1, 0, 22, 'bmarvinb/software-engineer-interview-questions', 'A lot of questions and links to prepare yourself for your next dream job interview', ARRAY['bmarvinb', 'veerbhadrasolanki'], '2022-02-24T21:06:05.080468+00:00'),
 (274495425, 8844, 52, 1, 0, 14, 'remotion-dev/remotion', '🎥      Create videos programmatically in React', ARRAY['JonnyBurger', 'Iamshankhadeep'], '2022-02-24T21:06:05.080468+00:00'),
+(273019730, 24, 20, 1, 0, 26, 'etesync/etebase-docs', 'The Etebase documentation', ARRAY['tasn', 'Salt-Factory'], '2022-02-24T21:06:05.080468+00:00'),
 (274497109, 1826, 8, 1, 0, 0, 'unsplash/datasets', '🎁  3,000,000+ Unsplash images made available for research and machine learning', ARRAY['TimmyCarbone', 'lukechesser'], '2022-02-24T21:06:05.080468+00:00'),
 (274521122, 3, 3, 1, 0, 10, 'open-sauced/tweeps', null, ARRAY['bdougie'], '2022-02-24T21:06:05.080468+00:00'),
 (274593180, 33, 1, 1, 0, 1, 'Surya1231/ContestMania', 'A platform for tracking your competitive progress on various competitive coding websites.', ARRAY['Surya1231', 'sanketcn'], '2022-02-24T21:06:05.080468+00:00'),
