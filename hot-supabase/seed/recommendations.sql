@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T06:48:08.894Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T08:47:05.563Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1877,8 +1877,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (172378503, 23891, 19, 1, 0, 9, 'romkatv/powerlevel10k', 'A Zsh theme', ARRAY['romkatv', 'dritter'], '2022-02-24T21:06:05.080468+00:00'),
 (172471552, 3694, 5, 1, 0, 7, 'aliyr/Nodejs-Developer-Roadmap', 'A Developer Roadmap to becoming a Node.js developer in 2019', ARRAY['aliyr', 'AGrant24'], '2022-02-24T21:06:05.080468+00:00'),
 (172473381, 33, 0, 1, 0, 29, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:06:05.080468+00:00'),
-(172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
-(172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (172521926, 16173, 17, 2, 0, 4.5, 'pmndrs/react-three-fiber', '🇨🇭 A React renderer for Three.js', ARRAY['drcmda', 'joshuaellis'], '2022-02-24T21:06:05.080468+00:00'),
 (172550478, 40, 8, 1, 0, 13, 'SlalomBuild/blackslope.net', '.Net Core reference architecture', ARRAY['andykongchi', 'pmotameni'], '2022-02-24T21:06:05.080468+00:00'),
 (172562475, 46668, 282, 5, 0, 9.8, 'florinpop17/app-ideas', 'A Collection of application ideas which can be used to improve your coding skills.', ARRAY['florinpop17', 'jdmedlock'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2764,6 +2762,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (292476496, 21, 0, 1, 0, 4, 'codingedward/ailing-planet', 'An interactive timelapse of the COVID-19 pandemic.', ARRAY['codingedward', 'josiahmokob0'], '2022-02-24T21:06:05.080468+00:00'),
 (292611591, 35, 0, 1, 0, 4, 'Piyushhbhutoria/awesome-hacktoberfest-2020', 'We present a curated list of awesome Hacktoberfest 2021 repositories. If you enjoyed this resource, please leave a star :star: to support this project! :sparkles:', ARRAY['Piyushhbhutoria', 'brtymn'], '2022-02-24T21:06:05.080468+00:00'),
 (292700337, 237, 7, 1, 0, 9, 'github/github-artifact-exporter', 'A set of packages to make exporting artifacts from GitHub easier', ARRAY['Chocrates', 'zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
+(172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
+(172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (292781184, 333, 0, 1, 0, 26, 'tc39/proposal-error-cause', 'TC39 proposal for accumulating errors', ARRAY['legendecas', 'hemanth'], '2022-02-24T21:06:05.080468+00:00'),
 (292835647, 559, 124, 1, 0, 0, 'nuxt/image', 'Optimized Images for Nuxt', ARRAY['pi0', 'farnabaz'], '2022-02-24T21:06:05.080468+00:00'),
 (292861557, 2614, 45, 1, 0, 25, 'gitpod-io/openvscode-server', 'Run upstream VS Code on a remote machine with access through a modern web browser from any device, anywhere.', ARRAY['bpasero', 'jrieken'], '2022-02-24T21:06:05.080468+00:00'),
