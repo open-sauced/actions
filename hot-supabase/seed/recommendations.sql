@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T16:54:41.749Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T18:46:00.817Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -748,6 +748,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (40484063, 1038, 0, 1, 0, 3, 'testdouble/contributing-tests', null, ARRAY['searls', 'kevbuchanan'], '2022-02-24T21:06:05.080468+00:00'),
 (40508605, 16387, 370, 1, 0, 20, 'facebook/relay', 'Relay is a JavaScript framework for building data-driven React applications.', ARRAY['kassens', 'alunyov'], '2022-02-24T21:06:05.080468+00:00'),
 (40518025, 13009, 184, 2, 0, 9.5, 'graphql/graphiql', 'GraphiQL & the GraphQL LSP Reference Ecosystem for building browser & IDE tools.', ARRAY['wincent', 'acao'], '2022-02-24T21:06:05.080468+00:00'),
+(40545736, 120, 23, 1, 0, 25, 'DATA-DOG/DataDogAuditBundle', 'Stores all database changes for doctrine ORM', ARRAY['l3pp4rd', 'chancegarcia'], '2022-02-24T21:06:05.080468+00:00'),
 (40687563, 4364, 1234, 1, 0, 4, 'oppia/oppia', 'A free, online learning platform to make quality education accessible for all.', ARRAY['seanlip', 'BenHenning'], '2022-02-24T21:06:05.080468+00:00'),
 (40819979, 638, 16, 1, 0, 3, 'frend/frend.co', 'Frend — A collection of accessible, modern front-end components.', ARRAY['thomasdigby', 'adamduncan'], '2022-02-24T21:06:05.080468+00:00'),
 (40892817, 13816, 939, 1, 0, 4, 'ethereum/solidity', 'Solidity, the Smart Contract Programming Language', ARRAY['chriseth', 'axic'], '2022-02-24T21:06:05.080468+00:00'),
@@ -907,7 +908,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (53631945, 28652, 129, 1, 0, 19, 'BurntSushi/ripgrep', 'ripgrep recursively searches directories for a regex pattern while respecting your gitignore', ARRAY['BurntSushi', 'okdana'], '2022-02-24T21:06:05.080468+00:00'),
 (53639099, 21435, 17, 1, 0, 2, 'jamiebuilds/the-super-tiny-compiler', ':snowman: Possibly the smallest compiler ever', ARRAY['jamiebuilds', 'donaldpipowitch'], '2022-02-24T21:06:05.080468+00:00'),
 (53698167, 29, 4, 1, 0, 15, 'jonasbn/til', 'Today I Learned: collection of notes, tips and tricks and stuff I learn from day to day working with computers and technology as a developer and product manager', ARRAY['jonasbn', 'Amorymeltzer'], '2022-02-24T21:06:05.080468+00:00'),
-(40545736, 120, 23, 1, 0, 25, 'DATA-DOG/DataDogAuditBundle', 'Stores all database changes for doctrine ORM', ARRAY['l3pp4rd', 'chancegarcia'], '2022-02-24T21:06:05.080468+00:00'),
 (54068301, 36, 3, 1, 0, 15, 'velocityzen/meta-extractor', 'Super simple and fast html page meta data extractor with low memory footprint', ARRAY['velocityzen', 'bevacqua'], '2022-02-24T21:06:05.080468+00:00'),
 (54168759, 15836, 120, 1, 0, 21, 'SergioBenitez/Rocket', 'A web framework for Rust.', ARRAY['SergioBenitez', 'jebrosen'], '2022-02-24T21:06:05.080468+00:00'),
 (54173593, 67642, 1641, 1, 0, 6, 'storybookjs/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2096,6 +2096,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (201570219, 14466, 107, 1, 0, 5, 'responsively-org/responsively-app', 'A modified web browser that helps in responsive web development. A web developer''s must have dev-tool.', ARRAY['manojVivek', 'jjavierdguezas'], '2022-02-24T21:06:05.080468+00:00'),
 (201658460, 9361, 23, 1, 0, 17, 'geektutu/7days-golang', '7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM, rpc framework GeeRPC etc)  7天用Go动手写/从零实现系列', ARRAY['geektutu', 'imageslr'], '2022-02-24T21:06:05.080468+00:00'),
 (202277409, 563, 134, 1, 0, 8, 'contour-terminal/contour', 'Modern C++ Terminal Emulator', ARRAY['christianparpart', 'data-man'], '2022-02-24T21:06:05.080468+00:00'),
+(202284194, 237, 0, 1, 0, 8, 'artiebits/fake-git-history', 'Generate Git commits.', ARRAY['artiebits', 'ar-maged'], '2022-02-24T21:06:05.080468+00:00'),
 (202291859, 11587, 525, 1, 0, 2, 'chatwoot/chatwoot', 'Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬', ARRAY['pranavrajs', 'sojan-official'], '2022-02-24T21:06:05.080468+00:00'),
 (202429703, 5995, 279, 1, 0, 25, 'FirebaseExtended/flutterfire', '🔥 A collection of Firebase plugins for Flutter apps.', ARRAY['Salakar', 'collinjackson'], '2022-02-24T21:06:05.080468+00:00'),
 (202445312, 1991, 27, 2, 0, 12.5, 'open-wa/wa-automate-nodejs', ' 💬 🤖  The most advanced NodeJS WhatsApp library for chatbots with advanced features. Be sure to 🌟 this repository for updates! ', ARRAY['smashah', 'danielcardeenas'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2112,7 +2113,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (203213675, 521, 9, 1, 0, 9, 'nighto/brasil-portugal', 'Este repositório contém informações e dicas do processo de visto para brasileiros trabalharem com TI em Portugal', ARRAY['nighto', 'rezende79'], '2022-02-24T21:06:05.080468+00:00'),
 (203569485, 964, 59, 1, 0, 16, 'IjzerenHein/react-navigation-shared-element', 'React Navigation bindings for react-native-shared-element 💫', ARRAY['IjzerenHein', 'phamhoaivu911'], '2022-02-24T21:06:05.080468+00:00'),
 (203587744, 34708, 46, 1, 0, 8, 'hoppscotch/hoppscotch', '👽 Open source API development ecosystem https://hoppscotch.io', ARRAY['liyasthomas', 'AndrewBastin'], '2022-02-24T21:06:05.080468+00:00'),
-(202284194, 237, 0, 1, 0, 8, 'artiebits/fake-git-history', 'Generate Git commits.', ARRAY['artiebits', 'ar-maged'], '2022-02-24T21:06:05.080468+00:00'),
 (204591335, 92, 24, 1, 0, 17, 'WICG/urlpattern', 'The URLPattern API provides a web platform primitive for matching URLs.', ARRAY['wanderview', 'lucacasonato'], '2022-02-24T21:06:05.080468+00:00'),
 (204996263, 74, 1, 1, 0, 2, 'umutphp/backend-best-practices', 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', ARRAY['umutphp', 'ilkka'], '2022-02-24T21:06:05.080468+00:00'),
 (205197166, 1, 0, 1, 0, 7, 'twhitacre/reactatl-9319', 'ReactATL Talk | Offline First Strategies | September 03, 2019', ARRAY['twhitacre'], '2022-02-24T21:06:05.080468+00:00'),
