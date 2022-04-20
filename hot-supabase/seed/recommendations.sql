@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T12:56:48.027Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-20T14:43:20.822Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3168,9 +3168,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (353082105, 140, 3, 1, 0, 7, 'github/maintainerweek', 'A week for maintainers to gather & share', ARRAY['karasowles', 'martinwoodward'], '2022-02-24T21:06:05.080468+00:00'),
 (353118626, 1, 1, 1, 0, 15, 'eps1lon/vax-notify', 'Impfterminvergabe Informationsportal aber mit mehr opt-out anstatt opt-in', ARRAY['eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (353348419, 32, 1, 1, 0, 4, 'whitep4nth3r/randomcodegenerator.lol', 'Need some code for your project? We''ve got you covered. Choose your language. Choose how much code. BÄM! You got code.', ARRAY['whitep4nth3r', 'isabellabrookes'], '2022-02-24T21:06:05.080468+00:00'),
+(353821113, 1, 0, 1, 0, 6, 'SchoolOfFreelancing/Krypto-trading-bot', 'Self-hosted crypto trading bot (automated high frequency market making) written in C++', ARRAY['ctubio', 'michaelgrosner'], '2022-02-24T21:06:05.080468+00:00'),
 (353859812, 176, 0, 1, 0, 19, 'btahir/next-shopify-starter', 'Nextjs + Tailwind CSS + Shopify Starter', ARRAY['btahir'], '2022-02-24T21:06:05.080468+00:00'),
 (354689732, 67, 38, 1, 0, 28, 'Tow-Boot/Tow-Boot', 'An opinionated distribution of U-Boot. — https://matrix.to/#/!JWXGMHFqMxxehcSBEN:matrix.org?via=matrix.org', ARRAY['samueldr', 'IreneKnapp'], '2022-02-24T21:06:05.080468+00:00'),
-(353821113, 1, 0, 1, 0, 6, 'SchoolOfFreelancing/Krypto-trading-bot', 'Self-hosted crypto trading bot (automated high frequency market making) written in C++', ARRAY['ctubio', 'michaelgrosner'], '2022-02-24T21:06:05.080468+00:00'),
 (355109043, 2512, 1, 2, 0, 12.5, 'ml-tooling/opyrator', '🪄 Turns your machine learning code into microservices with web API, interactive GUI, and more.', ARRAY['LukasMasuch', 'raethlein'], '2022-02-24T21:06:05.080468+00:00'),
 (355258557, 57, 0, 1, 0, 22, 'technorabilia/portainer-templates', 'Various Portainer App Templates', ARRAY['technorabilia'], '2022-02-24T21:06:05.080468+00:00'),
 (355298453, 20, 0, 1, 0, 26, 'myriadrf/lc-website', 'LibreCellular website', ARRAY['9600'], '2022-02-24T21:06:05.080468+00:00'),
