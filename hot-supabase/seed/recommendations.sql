@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T18:47:35.543Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T20:45:25.325Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1720,12 +1720,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (148948562, 1898, 28, 1, 0, 2, 'krzkaczor/ts-essentials', 'All basic TypeScript types in one place 🤙', ARRAY['krzkaczor', 'Beraliv'], '2022-02-24T21:06:05.080468+00:00'),
 (149024333, 132, 28, 1, 0, 12, 'aspittel/learn-code-from-us', 'People from underrepresented groups in tech who create awesome programming resources', ARRAY['aspittel', 'twhite96'], '2022-02-24T21:06:05.080468+00:00'),
 (149157946, 247, 0, 1, 0, 10, 'lucianomlima/react-ui-kits', 'A list of UI Kits available for React and React Native.', ARRAY['lucianomlima', 'ednofedulo'], '2022-02-24T21:06:05.080468+00:00'),
+(149339935, 9, 50, 1, 0, 10, 'esmero/strawberryfield', 'A Field of strawberries', ARRAY['DiegoPino', 'giancarlobi'], '2022-02-24T21:06:05.080468+00:00'),
 (149638165, 1485, 20, 1, 0, 23, 'testing-library/user-event', '🐕 Simulate user events', ARRAY['Gpx', 'kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
 (149731937, 729, 6, 2, 0, 6.5, 'remotemobprogramming/mob', 'Tool for smooth git handover.', ARRAY['simonharrer', 'gregorriegler'], '2022-02-24T21:06:05.080468+00:00'),
 (149792249, 39, 0, 1, 0, 27, 'olist/work-at-olist-data', 'Apply for a job at Olist''s Data Team: http://bit.ly/olist-bsa', ARRAY['andresionek91', 'nosbielcs'], '2022-02-24T21:06:05.080468+00:00'),
 (149827668, 52, 10, 1, 0, 14, 'james-wallis/wallis.dev', 'My personal website', ARRAY['james-wallis'], '2022-02-24T21:06:05.080468+00:00'),
 (150042589, 17936, 54, 1, 0, 3, 'nostalgic-css/NES.css', 'NES-style CSS Framework | ファミコン風CSSフレームワーク', ARRAY['BcRikko', 'guastallaigor'], '2022-02-24T21:06:05.080468+00:00'),
-(149339935, 9, 50, 1, 0, 10, 'esmero/strawberryfield', 'A Field of strawberries', ARRAY['DiegoPino', 'giancarlobi'], '2022-02-24T21:06:05.080468+00:00'),
 (150498735, 173, 8, 1, 0, 5, 'mauricioszabo/atom-chlorine', 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', ARRAY['mauricioszabo', 'seancorfield'], '2022-02-24T21:06:05.080468+00:00'),
 (151325516, 74, 237, 1, 0, 18, 'gitcoinco/kudosbadges', 'Kudos badges and creative assets for Gitcoin', ARRAY['owocki', 'MladenPetronijevic'], '2022-02-24T21:06:05.080468+00:00'),
 (151391977, 55, 6, 1, 0, 11, 'Badmuts/aula', '🏫 A microservice oriented webservice exploring the CNCF landscape', ARRAY['Badmuts'], '2022-02-24T21:06:05.080468+00:00'),
