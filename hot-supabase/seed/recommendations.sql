@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T14:43:41.552Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-21T16:53:58.645Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1982,13 +1982,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (186662363, 7340, 70, 1, 0, 20, 'nodegui/nodegui', 'A library for building cross-platform native desktop applications with Node.js and CSS  🚀.  React NodeGui : https://react.nodegui.org and Vue NodeGui: https://vue.nodegui.org', ARRAY['a7ul', 'sedwards2009'], '2022-02-24T21:06:05.080468+00:00'),
 (186702057, 280, 159, 1, 0, 7, 'solid/specification', 'Solid Technical Reports', ARRAY['csarven', 'RubenVerborgh'], '2022-02-24T21:06:05.080468+00:00'),
 (186932654, 2, 0, 1, 0, 11, 'BaseMax/FirstElectron', 'Begin point and Getting start of the electron using node js.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
-(187066133, 42, 1, 1, 0, 11, 'spinnaker/governance', 'Community documentation for Spinnaker', ARRAY['robzienert', 'ajordens'], '2022-02-24T21:06:05.080468+00:00'),
 (187325459, 7, 5, 1, 0, 21, 'mheap/markdown-to-jira', 'Create Jira tickets from a plain text format', ARRAY['mheap'], '2022-02-24T21:06:05.080468+00:00'),
 (187795542, 149, 0, 1, 0, 22, 'JoschuaSchneider/use-error-boundary', 'React hook for using error boundaries in your functional components', ARRAY['JoschuaSchneider', 'brandonpittman'], '2022-02-24T21:06:05.080468+00:00'),
 (187874263, 18, 0, 1, 0, 12, 'rjt-rockx/mee6-levels-api', 'An API wrapper for Mee6 levels', ARRAY['rjt-rockx', 'Lioness100'], '2022-02-24T21:06:05.080468+00:00'),
 (187894153, 218, 0, 1, 0, 5, 'iuridepaula/portfolio', 'My personal portfolio', ARRAY['iuridepaula'], '2022-02-24T21:06:05.080468+00:00'),
 (187915200, 2584, 38, 1, 0, 15, 'peaceiris/actions-gh-pages', 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', ARRAY['peaceiris', 'corollari'], '2022-02-24T21:06:05.080468+00:00'),
 (187916430, 633, 28, 1, 0, 21, 'muety/wakapi', '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics', ARRAY['muety', 'YC'], '2022-02-24T21:06:05.080468+00:00'),
+(187066133, 42, 1, 1, 0, 11, 'spinnaker/governance', 'Community documentation for Spinnaker', ARRAY['robzienert', 'ajordens'], '2022-02-24T21:06:05.080468+00:00'),
 (188243294, 3, 0, 1, 0, 10, 'BaseMax/ChessDesktopElectron', 'Chess game with two player based on electron. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (188246303, 2, 0, 1, 0, 9, 'BaseMax/CustomWindowsFormElectron', 'Custom Windows Frame with toolbar based on the electron.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (188299874, 2401, 420, 1, 0, 21, 'input-output-hk/cardano-node', 'The core component that is used to participate in a Cardano decentralised blockchain.', ARRAY['dcoutts', 'Jimbo4350'], '2022-02-24T21:06:05.080468+00:00'),
