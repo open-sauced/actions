@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T20:44:22.788Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T22:44:24.133Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -934,8 +934,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (55896045, 1, 18, 1, 0, 29, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:06:05.080468+00:00'),
 (56087776, 6234, 250, 1, 0, 0, 'ramboxapp/community-edition', 'Free and Open Source messaging and emailing app that combines common web applications into one.', ARRAY['saenzramiro', 'fvulich'], '2022-02-24T21:06:05.080468+00:00'),
 (56171308, 1198, 4, 1, 0, 26, 'palkan/logidze', 'Database changes log for Rails', ARRAY['palkan', 'charlie-wasp'], '2022-02-24T21:06:05.080468+00:00'),
-(56459948, 5675, 186, 1, 0, 14, 'GoogleCloudPlatform/training-data-analyst', 'Labs and demos for courses for GCP Training (http://cloud.google.com/training).', ARRAY['lakshmanok', 'gstripling'], '2022-02-24T21:06:05.080468+00:00'),
 (56379555, 22, 2, 1, 0, 18, 'docteurklein/compose-ci', 'A simple, continuous, docker(-compose) enabled, alpine-based container, listening to github webhooks', ARRAY['docteurklein'], '2022-02-24T21:06:05.080468+00:00'),
+(56459948, 5675, 186, 1, 0, 14, 'GoogleCloudPlatform/training-data-analyst', 'Labs and demos for courses for GCP Training (http://cloud.google.com/training).', ARRAY['lakshmanok', 'gstripling'], '2022-02-24T21:06:05.080468+00:00'),
 (56471910, 65, 0, 1, 0, 8, 'nathanchapman/mayonnaise.js', '🎺  Fake data generator for JS, courtesy of Patrick Star', ARRAY['nathanchapman', 'YoshGuenther'], '2022-02-24T21:06:05.080468+00:00'),
 (56549856, 101, 13, 2, 0, 6, 'fennifith/Pasta-for-Spotify', 'A material design Spotify client for Android', ARRAY['fennifith', 'TheAndroidMaster'], '2022-02-24T21:06:05.080468+00:00'),
 (56717493, 28904, 18, 1, 0, 13, 'joshbuchea/HEAD', 'A simple guide to HTML <head> elements', ARRAY['joshbuchea', 'scottaohara'], '2022-02-24T21:06:05.080468+00:00'),
@@ -970,8 +970,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (60493101, 201791, 41, 1, 1, 27, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:06:05.080468+00:00'),
 (60537144, 12613, 1027, 1, 0, 10, 'microsoft/fluentui', 'Fluent UI web represents a collection of utilities, React components, and web components for building web applications.', ARRAY['dzearing', 'ecraig12345'], '2022-02-24T21:06:05.080468+00:00'),
 (60656871, 622, 137, 1, 0, 6, 'zulip/zulip-desktop', 'Zulip Desktop Client', ARRAY['akashnimare', 'andersk'], '2022-02-24T21:06:05.080468+00:00'),
-(61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-24T21:06:05.080468+00:00'),
 (61059364, 641, 38, 1, 0, 29, 'metaverse/truss', 'Truss helps you build go-kit microservices without having to worry about writing or maintaining boilerplate code.', ARRAY['adamryman', 'lelandbatey'], '2022-02-24T21:06:05.080468+00:00'),
+(61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-24T21:06:05.080468+00:00'),
 (61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-24T21:06:05.080468+00:00'),
 (61319303, 588, 42, 1, 0, 2, 'adrcotfas/Goodtime', ':hourglass_flowing_sand: productivity app for Android', ARRAY['adrcotfas', 'fdw'], '2022-02-24T21:06:05.080468+00:00'),
 (61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1075,8 +1075,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (71703548, 2786, 14, 1, 0, 13, 'liuchengxu/space-vim', ':four_leaf_clover: Lean & mean spacemacs-ish Vim distribution', ARRAY['liuchengxu', 'yesmeck'], '2022-02-24T21:06:05.080468+00:00'),
 (71732460, 6438, 0, 1, 0, 23, 'engineerapart/TheRemoteFreelancer', 'Listing of community-curated resources to find topical remote freelance & contract work for software developers, web designers, and more!', ARRAY['andychase', 'codinronan'], '2022-02-24T21:06:05.080468+00:00'),
 (71788837, 1, 0, 1, 0, 5, 'sobingt/tesseract.js', 'Pure Javascript OCR for 62 Languages 📖🎉🖥', ARRAY['bijection', 'antimatter15'], '2022-02-24T21:06:05.080468+00:00'),
-(71858896, 63, 0, 1, 0, 23, 'alecortega/portfolio-template', 'A template to get started with your next portfolio README', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (71823870, 3750, 151, 1, 0, 0, 'prometheus-operator/kube-prometheus', 'Use Prometheus to monitor Kubernetes and applications running on Kubernetes', ARRAY['brancz', 'paulfantom'], '2022-02-24T21:06:05.080468+00:00'),
+(71858896, 63, 0, 1, 0, 23, 'alecortega/portfolio-template', 'A template to get started with your next portfolio README', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (71948498, 37854, 317, 1, 0, 11, 'localstack/localstack', '💻  A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline!', ARRAY['whummer', 'thrau'], '2022-02-24T21:06:05.080468+00:00'),
 (71995937, 39029, 472, 4, 1, 15.5, 'nuxt/nuxt.js', 'The Intuitive Vue(2) Framework', ARRAY['pi0', 'Atinux'], '2022-02-24T21:06:05.080468+00:00'),
 (72066935, 8342, 118, 1, 0, 7, 'cs01/gdbgui', 'Browser-based frontend to gdb (gnu debugger). Add breakpoints, view the stack, visualize data structures, and more in C, C++, Go, Rust, and Fortran. Run gdbgui from the terminal and a new tab will open in your browser.', ARRAY['cs01', 'ampresent'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1521,8 +1521,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (124227308, 127, 0, 1, 0, 0, 'entityframeworktutorial/EF6-Code-First-Demo', 'Entity Framework 6 Code-First Demo Project', ARRAY['entityframeworktutorial'], '2022-02-24T21:06:05.080468+00:00'),
 (124257233, 21980, 49, 2, 0, 4, 'pmndrs/react-spring', '✌️ A spring physics based React animation library', ARRAY['aleclarson', 'drcmda'], '2022-02-24T21:06:05.080468+00:00'),
 (124308494, 52, 2, 1, 0, 27, 'apigee/istio-mixer-adapter', 'Apigee''s Istio Mixer Adapter', ARRAY['theganyo', 'robbrit'], '2022-02-24T21:06:05.080468+00:00'),
-(124451758, 13, 9, 1, 0, 24, 'gitcoinco/GIPs', 'Gitcoin Improvement Proposals', ARRAY['pirapira', 'fulldecent'], '2022-02-24T21:06:05.080468+00:00'),
 (124409296, 334, 1, 1, 0, 18, 'styfle/breaking-changes-web', '💢 A list of breaking changes to the web platform', ARRAY['styfle', 'bennypowers'], '2022-02-24T21:06:05.080468+00:00'),
+(124451758, 13, 9, 1, 0, 24, 'gitcoinco/GIPs', 'Gitcoin Improvement Proposals', ARRAY['pirapira', 'fulldecent'], '2022-02-24T21:06:05.080468+00:00'),
 (124617017, 20, 1, 1, 0, 1, 'DevOpsandSRE/tech-resources', 'Useful Technical Resources', ARRAY['zigsphere', 'ym1234'], '2022-02-24T21:06:05.080468+00:00'),
 (124953235, 1087, 714, 1, 0, 11, 'hawku/TabletDriver', 'TabletDriver Download: http://hwk.fi/TabletDriver/TabletDriverV0.2.3.zip', ARRAY['hawku', 'Itsyuka'], '2022-02-24T21:06:05.080468+00:00'),
 (125071028, 297, 1, 1, 0, 5, 'wesbos/React-Context', 'Quick demo of how to use React''s new Context API', ARRAY['wesbos', 'baggasumit'], '2022-02-24T21:06:05.080468+00:00'),
