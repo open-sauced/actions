@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T10:45:44.689Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T12:56:04.294Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1053,8 +1053,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70107786, 78667, 1236, 2, 0, 14, 'vercel/next.js', 'The React Framework', ARRAY['timneutkens', 'ijjk'], '2022-02-24T21:06:05.080468+00:00'),
 (70137417, 3779, 233, 2, 0, 3.5, 'corda/corda', 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', ARRAY['Clintonio', 'exFalso'], '2022-02-24T21:06:05.080468+00:00'),
 (70198875, 32219, 46, 1, 0, 24, 'airbnb/lottie-android', 'Render After Effects animations natively on Android and iOS, Web, and React Native', ARRAY['gpeal', 'felipecsl'], '2022-02-24T21:06:05.080468+00:00'),
-(70318490, 1334, 7, 1, 0, 16, 'asika32764/vue2-animate', 'A port of Animate.css for use with transitions in Vue.js 2.0 / 3.0 and Alpine.js.', ARRAY['asika32764', 'haydenbbickerton'], '2022-02-24T21:06:05.080468+00:00'),
 (70342215, 13612, 167, 1, 0, 4, 'bootstrap-vue/bootstrap-vue', 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', ARRAY['tmorehouse', 'pi0'], '2022-02-24T21:06:05.080468+00:00'),
+(70318490, 1334, 7, 1, 0, 16, 'asika32764/vue2-animate', 'A port of Animate.css for use with transitions in Vue.js 2.0 / 3.0 and Alpine.js.', ARRAY['asika32764', 'haydenbbickerton'], '2022-02-24T21:06:05.080468+00:00'),
 (70418925, 378, 18, 1, 0, 26, 'sithis993/Crypter', 'Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller', ARRAY['sithis993'], '2022-02-24T21:06:05.080468+00:00'),
 (70487339, 31, 0, 1, 0, 6, 'ang3lkar/pretty-diffs', 'Enable fancy colored diffs in your minitest assertions', ARRAY['ang3lkar'], '2022-02-24T21:06:05.080468+00:00'),
 (70745419, 2989, 0, 1, 0, 11, 'Naereen/badges', ':pencil: Markdown code for lots of small badges :ribbon: :pushpin: (shields.io, forthebadge.com etc) :sunglasses:. Contributions are welcome! Please add yours!', ARRAY['Naereen', 'yuri-norwood'], '2022-02-24T21:06:05.080468+00:00'),
