@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T16:53:13.728Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T18:47:27.202Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1897,13 +1897,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (174766902, 695, 12, 1, 0, 26, 'afollestad/recyclical', '🚀 An easy-to-use, extensible Kotlin DSL for setting up and manipulating RecyclerViews.', ARRAY['afollestad', 'Johnett'], '2022-02-24T21:06:05.080468+00:00'),
 (174936961, 312, 3, 1, 0, 26, 'aspnetrun/run-aspnetcore', 'A starter kit for your next ASP.NET Core web application. Boilerplate for ASP.NET Core reference application, demonstrating a layered application architecture with applying Clean Architecture and DDD best practices. Download 100+ page eBook PDF from here ->', ARRAY['mehmetozkaya'], '2022-02-24T21:06:05.080468+00:00'),
 (174960187, 221, 3, 1, 0, 2, 'PEZ/rn-rf-shadow', 'An example project to get you started with React Native using shadow-cljs in 3 minutes', ARRAY['PEZ', 'bpringe'], '2022-02-24T21:06:05.080468+00:00'),
+(175043545, 2638, 194, 1, 0, 29, 'cloudflare/wrangler', '🤠   wrangle your Cloudflare Workers', ARRAY['EverlastingBugstopper', 'ashleymichal'], '2022-02-24T21:06:05.080468+00:00'),
 (175055371, 32, 6, 1, 0, 15, 'manios/docker-nagios', 'Docker image for Nagios Core in Alpine Linux with basic plugins, available for x86, x64 , ARM v6, ARM v7 and ARM64.', ARRAY['manios'], '2022-02-24T21:06:05.080468+00:00'),
 (175176201, 8354, 5, 1, 0, 0, 'alexfoxy/lax.js', 'Simple & lightweight (<4kb gzipped) vanilla JavaScript library to create smooth & beautiful animations when you scroll.', ARRAY['alexfoxy', 'afanjul'], '2022-02-24T21:06:05.080468+00:00'),
-(175043545, 2638, 194, 1, 0, 29, 'cloudflare/wrangler', '🤠   wrangle your Cloudflare Workers', ARRAY['EverlastingBugstopper', 'ashleymichal'], '2022-02-24T21:06:05.080468+00:00'),
 (175219507, 122, 1, 1, 0, 11, 'chimay/wheel', 'Quick navigation framework for Vim and Neovim : file groups, buffers, mru, locate, find, grep, outline, yank, ...', ARRAY['chimay'], '2022-02-24T21:06:05.080468+00:00'),
 (175317664, 23, 0, 1, 0, 18, 'br3ndonland/dotfiles', 'Computer setup and settings. Apple Silicon ready.', ARRAY['br3ndonland'], '2022-02-24T21:06:05.080468+00:00'),
-(175425051, 2523, 359, 1, 0, 2, 'kumahq/kuma', '🐻 The Universal Service Mesh. CNCF Sandbox Project.', ARRAY['yskopets', 'jakubdyszkiewicz'], '2022-02-24T21:06:05.080468+00:00'),
 (175405157, 3787, 29, 1, 0, 24, 'JanDeDobbeleer/oh-my-posh', 'A prompt theme engine for any shell.', ARRAY['JanDeDobbeleer', 'lnu'], '2022-02-24T21:06:05.080468+00:00'),
+(175425051, 2523, 359, 1, 0, 2, 'kumahq/kuma', '🐻 The Universal Service Mesh. CNCF Sandbox Project.', ARRAY['yskopets', 'jakubdyszkiewicz'], '2022-02-24T21:06:05.080468+00:00'),
 (175565742, 3, 0, 1, 0, 20, 'BaseMax/NumbersToWordsPHP', 'Tiny library to convert numbers to words. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (175666043, 477, 93, 1, 0, 2, 'microsoft/vscode-edge-devtools', 'A VSCode extension that allows you to use browser devtools from within the editor. The devtools will connect to an instance of Microsoft Edge giving you the ability to alter CSS styling, perform diagnostics, and debugging. Get it now at http://aka.ms/devtools-for-code', ARRAY['mliao95', 'vidorteg'], '2022-02-24T21:06:05.080468+00:00'),
 (175681313, 744, 31, 1, 0, 13, 'joernio/joern', 'Open-source code analysis platform for C/C++/Java/Binary/Javascript based on code property graphs', ARRAY['fabsx00', 'mpollmeier'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1981,9 +1981,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (186702057, 280, 159, 1, 0, 7, 'solid/specification', 'Solid Technical Reports', ARRAY['csarven', 'RubenVerborgh'], '2022-02-24T21:06:05.080468+00:00'),
 (186932654, 2, 0, 1, 0, 11, 'BaseMax/FirstElectron', 'Begin point and Getting start of the electron using node js.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (187066133, 42, 1, 1, 0, 11, 'spinnaker/governance', 'Community documentation for Spinnaker', ARRAY['robzienert', 'ajordens'], '2022-02-24T21:06:05.080468+00:00'),
+(187325459, 7, 5, 1, 0, 21, 'mheap/markdown-to-jira', 'Create Jira tickets from a plain text format', ARRAY['mheap'], '2022-02-24T21:06:05.080468+00:00'),
 (187795542, 149, 0, 1, 0, 22, 'JoschuaSchneider/use-error-boundary', 'React hook for using error boundaries in your functional components', ARRAY['JoschuaSchneider', 'brandonpittman'], '2022-02-24T21:06:05.080468+00:00'),
 (187874263, 18, 0, 1, 0, 12, 'rjt-rockx/mee6-levels-api', 'An API wrapper for Mee6 levels', ARRAY['rjt-rockx', 'Lioness100'], '2022-02-24T21:06:05.080468+00:00'),
-(187325459, 7, 5, 1, 0, 21, 'mheap/markdown-to-jira', 'Create Jira tickets from a plain text format', ARRAY['mheap'], '2022-02-24T21:06:05.080468+00:00'),
 (187894153, 218, 0, 1, 0, 5, 'iuridepaula/portfolio', 'My personal portfolio', ARRAY['iuridepaula'], '2022-02-24T21:06:05.080468+00:00'),
 (187915200, 2584, 38, 1, 0, 15, 'peaceiris/actions-gh-pages', 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', ARRAY['peaceiris', 'corollari'], '2022-02-24T21:06:05.080468+00:00'),
 (187916430, 633, 28, 1, 0, 21, 'muety/wakapi', '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics', ARRAY['muety', 'YC'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3184,9 +3184,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (367390690, 289, 0, 1, 0, 1, 'MarcoWorms/learn.js', '📒 A fast introduction to programming with JavaScript modern features', ARRAY['MarcoWorms', 'otaviopace'], '2022-02-24T21:06:05.080468+00:00'),
 (357272600, 5246, 36, 1, 0, 0, 'nextapps-de/winbox', 'WinBox is a professional HTML5 window manager for the web: lightweight, outstanding performance, no dependencies, fully customizable, open source!', ARRAY['ts-thomas', 'kodie'], '2022-02-24T21:06:05.080468+00:00'),
 (357309038, 67, 40, 1, 0, 8, 'interledger/rafiki', 'An open-source, comprehensive Interledger service for wallet providers, enabling them to provide Interledger functionality to their users.', ARRAY['wilsonianb', 'cairin'], '2022-02-24T21:06:05.080468+00:00'),
-(357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-24T21:06:05.080468+00:00'),
 (357342987, 64, 0, 1, 0, 17, 'devpato/tech-podcasts-list', 'List of Tech Podcasts.', ARRAY['devpato', 'kenshinji'], '2022-02-24T21:06:05.080468+00:00'),
 (357436262, 533, 25, 1, 0, 3, 'kdash-rs/kdash', 'A simple and fast dashboard for Kubernetes', ARRAY['deepu105', 'somayaj'], '2022-02-24T21:06:05.080468+00:00'),
+(357324320, 10, 3, 1, 0, 19, '100devs/todo-mvc-auth-microsoft', null, ARRAY['leonnoel'], '2022-02-24T21:06:05.080468+00:00'),
 (357641227, 56, 0, 1, 0, 22, 'bobangajicsm/ng-video-games-db', null, ARRAY['bobangajicsm'], '2022-02-24T21:06:05.080468+00:00'),
 (357732194, 1, 0, 1, 0, 6, 'gilesvessey/ms3-hl-driver', 'Arduino driven addressable LED strip driver for my Mazdaspeed3''s custom headlights.', ARRAY['gilesvessey'], '2022-02-24T21:06:05.080468+00:00'),
 (357782342, 1, 0, 1, 0, 13, 'sk1122/Kanban-Board', 'Kanban Board - You can create Boards, Manage you Day', ARRAY['sk1122'], '2022-02-24T21:06:05.080468+00:00'),
