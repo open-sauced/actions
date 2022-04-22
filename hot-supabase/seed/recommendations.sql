@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T04:58:58.998Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T06:47:34.686Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2129,8 +2129,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (206060082, 64, 6, 1, 0, 0, 'octodemo/awesome-actions', 'Repository template used to showcase Actions that tie into pull request and issue events', ARRAY['jonico', 'pmanlukas'], '2022-02-24T21:06:05.080468+00:00'),
 (206092740, 298, 1, 1, 0, 3, 'php/php-rfcs', 'Experimental repo for GitHub based RFC workflow. For now, please don''t submit PRs.', ARRAY['nikic'], '2022-02-24T21:06:05.080468+00:00'),
 (206314801, 2, 12, 1, 0, 6, 'jonathanyeong/personal-website', 'Personal Website', ARRAY['jonathanyeong', 'kendallstrautman'], '2022-02-24T21:06:05.080468+00:00'),
-(206410838, 17782, 6, 1, 0, 29, 'google/eng-practices', 'Google''s Engineering Practices documentation', ARRAY['code-health-devguide-copybara', 'adambender'], '2022-02-24T21:06:05.080468+00:00'),
 (206418939, 458, 11, 1, 0, 8, 'nextapps-de/mikado', 'Mikado is the webs fastest template library for building user interfaces.', ARRAY['ts-thomas', 's0kil'], '2022-02-24T21:06:05.080468+00:00'),
+(206410838, 17782, 6, 1, 0, 29, 'google/eng-practices', 'Google''s Engineering Practices documentation', ARRAY['code-health-devguide-copybara', 'adambender'], '2022-02-24T21:06:05.080468+00:00'),
 (206573022, 243, 15, 1, 0, 3, 'HA6Bots/Automatic-Youtube-Reddit-Text-To-Speech-Video-Generator-and-Uploader', 'A series of 3 programs that will automatically receive scripts from Reddit, allow the user to edit them, then be sent off to a video generator where they will be uploaded to YouTube automatically.', ARRAY['HA6Bots'], '2022-02-24T21:06:05.080468+00:00'),
 (206950992, 7, 2, 1, 0, 27, 'SaurabhLpRocks/vscode-workflow', 'Fullstack app to demonstrate end to end workflow of Angular and ASP Net Core app inside VS Code.', ARRAY['SaurabhLpRocks', 'Saurabh-Palatkar-Spok'], '2022-02-24T21:06:05.080468+00:00'),
 (206982984, 1728, 107, 1, 0, 3, 'kamranahmedse/roadmap.sh', 'Community driven roadmaps, articles and resources for developers', ARRAY['kamranahmedse', 'lex111'], '2022-02-24T21:06:05.080468+00:00'),
