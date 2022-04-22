@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T12:56:04.294Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T14:43:36.155Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -178,7 +178,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (3349840, 5331, 124, 1, 0, 2, 'hak5darren/USB-Rubber-Ducky', null, ARRAY['hak5darren', 'midnitesnake'], '2022-02-24T21:06:05.080468+00:00'),
 (3366934, 389, 12, 1, 0, 16, 'dvarrazzo/py-setproctitle', 'A Python module to customize the process title', ARRAY['dvarrazzo', 'ngie-eign'], '2022-02-24T21:06:05.080468+00:00'),
 (3374332, 13323, 19, 1, 0, 17, 'thomaspark/bootswatch', 'Themes for Bootstrap', ARRAY['thomaspark', 'XhmikosR'], '2022-02-24T21:06:05.080468+00:00'),
-(3402537, 51678, 9, 3, 0, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (3507455, 10549, 553, 1, 0, 25, 'ornicar/lila', '♞ lichess.org: the forever free, adless and open source chess server ♞', ARRAY['ornicar', 'niklasf'], '2022-02-24T21:06:05.080468+00:00'),
 (3515902, 39, 17, 1, 0, 7, 'beyondthestory/rails_admin_map_field', 'A plugin for RailsAdmin to provide a Google Maps input for lat/long fields', ARRAY['jasonl'], '2022-02-24T21:06:05.080468+00:00'),
 (3526998, 96, 22, 1, 0, 26, 'mirage/ocaml-github', 'GitHub APIv3 OCaml bindings', ARRAY['avsm', 'dsheets'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1040,7 +1039,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (68753325, 16, 0, 1, 0, 20, 'koding/koding-kubernetes', 'Run Koding with Kubernetes', ARRAY['sibblegp'], '2022-02-24T21:06:05.080468+00:00'),
 (68851623, 171, 2, 1, 0, 12, 'samyk/awesome-raspberrypi', 'A curated list of awesome Raspberry Pi tools, projects, images and resources', ARRAY['thibmaek', 'Oliver2213'], '2022-02-24T21:06:05.080468+00:00'),
 (68956484, 4509, 79, 1, 0, 9, 'gothinkster/angular-realworld-example-app', 'Exemplary real world application built with Angular', ARRAY['EricSimons', 'Toxicable'], '2022-02-24T21:06:05.080468+00:00'),
-(69193081, 5972, 74, 3, 0, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
 (69291380, 5013, 10, 1, 0, 20, 'dbacinski/Design-Patterns-In-Kotlin', 'Design Patterns implemented in Kotlin', ARRAY['dbacinski', 'Net-Geek'], '2022-02-24T21:06:05.080468+00:00'),
 (69343521, 1124, 44, 1, 0, 12, 'radovskyb/watcher', 'watcher is a Go package for watching for files or directory changes without using filesystem events.', ARRAY['radovskyb', 'ericmdantas'], '2022-02-24T21:06:05.080468+00:00'),
 (69495170, 21557, 80, 1, 0, 2, 'fastify/fastify', 'Fast and low overhead web framework, for Node.js', ARRAY['delvedor', 'mcollina'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1053,8 +1051,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (70107786, 78667, 1236, 2, 0, 14, 'vercel/next.js', 'The React Framework', ARRAY['timneutkens', 'ijjk'], '2022-02-24T21:06:05.080468+00:00'),
 (70137417, 3779, 233, 2, 0, 3.5, 'corda/corda', 'Corda is an open source blockchain project, designed for business from the start. Only Corda allows you to build interoperable blockchain networks that transact in strict privacy. Corda''s smart contract technology allows businesses to transact directly, with value.', ARRAY['Clintonio', 'exFalso'], '2022-02-24T21:06:05.080468+00:00'),
 (70198875, 32219, 46, 1, 0, 24, 'airbnb/lottie-android', 'Render After Effects animations natively on Android and iOS, Web, and React Native', ARRAY['gpeal', 'felipecsl'], '2022-02-24T21:06:05.080468+00:00'),
-(70342215, 13612, 167, 1, 0, 4, 'bootstrap-vue/bootstrap-vue', 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', ARRAY['tmorehouse', 'pi0'], '2022-02-24T21:06:05.080468+00:00'),
 (70318490, 1334, 7, 1, 0, 16, 'asika32764/vue2-animate', 'A port of Animate.css for use with transitions in Vue.js 2.0 / 3.0 and Alpine.js.', ARRAY['asika32764', 'haydenbbickerton'], '2022-02-24T21:06:05.080468+00:00'),
+(70342215, 13612, 167, 1, 0, 4, 'bootstrap-vue/bootstrap-vue', 'BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.', ARRAY['tmorehouse', 'pi0'], '2022-02-24T21:06:05.080468+00:00'),
 (70418925, 378, 18, 1, 0, 26, 'sithis993/Crypter', 'Crypter - Python3 based builder and ransomware compiled to Windows executable using PyInstaller', ARRAY['sithis993'], '2022-02-24T21:06:05.080468+00:00'),
 (70487339, 31, 0, 1, 0, 6, 'ang3lkar/pretty-diffs', 'Enable fancy colored diffs in your minitest assertions', ARRAY['ang3lkar'], '2022-02-24T21:06:05.080468+00:00'),
 (70745419, 2989, 0, 1, 0, 11, 'Naereen/badges', ':pencil: Markdown code for lots of small badges :ribbon: :pushpin: (shields.io, forthebadge.com etc) :sunglasses:. Contributions are welcome! Please add yours!', ARRAY['Naereen', 'yuri-norwood'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2139,7 +2137,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (207840450, 7, 2, 1, 0, 14, 'jonabc/setup-licensed', 'Set up your GitHub Actions workflow with a specific version of github/licensed', ARRAY['jonabc', 'mmorel-35'], '2022-02-24T21:06:05.080468+00:00'),
 (207877287, 39, 13, 1, 0, 19, 'sandrinodimattia/nextjs-auth0-example', 'A sample application showing how your users can sign in to your Next.js application using Auth0', ARRAY['sandrinodimattia'], '2022-02-24T21:06:05.080468+00:00'),
 (207892857, 215, 19, 1, 0, 21, 'pluralsight/web-dev-starter', null, ARRAY['sullysaurus'], '2022-02-24T21:06:05.080468+00:00'),
-(208143342, 82, 5, 3, 0, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00'),
 (208155014, 109, 0, 1, 0, 14, 'qdm12/godevcontainer', 'Golang development container for Visual Studio Code Remote Containers Development', ARRAY['qdm12'], '2022-02-24T21:06:05.080468+00:00'),
 (208319207, 59, 31, 1, 0, 16, 'awslabs/smithy-typescript', 'Smithy code generators for TypeScript. (in development)', ARRAY['JordonPhillips', 'trivikr'], '2022-02-24T21:06:05.080468+00:00'),
 (208362715, 5910, 349, 2, 0, 4.5, 'adobe/react-spectrum', 'A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.', ARRAY['devongovett', 'snowystinger'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 3, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
-(62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00');
+(62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
+(3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
+(69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
+(208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');

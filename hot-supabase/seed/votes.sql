@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T12:56:03.981Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-22T14:43:35.660Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -74,4 +74,7 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (46, 5396211, 'getify/You-Dont-Know-JS', '5396211-getify/You-Dont-Know-JS', '2022-04-09T18:14:28.223725+00:00'),
 (39, 17701428, 'orbit-love/orbit-model', '17701428-orbit-love/orbit-model', '2022-04-06T22:37:26.085276+00:00'),
 (43, 5396211, 'vercel/hyper', '5396211-vercel/hyper', '2022-04-09T18:14:11.407973+00:00'),
-(47, 5396211, 'orbit-love/orbit-model', '5396211-orbit-love/orbit-model', '2022-04-09T18:14:37.781773+00:00');
+(47, 5396211, 'orbit-love/orbit-model', '5396211-orbit-love/orbit-model', '2022-04-09T18:14:37.781773+00:00'),
+(48, 55883854, 'h5bp/Front-end-Developer-Interview-Questions', '55883854-h5bp/Front-end-Developer-Interview-Questions', '2022-04-22T14:07:16.953944+00:00'),
+(55, 55883854, 'freeCodeCamp/how-to-contribute-to-open-source', '55883854-freeCodeCamp/how-to-contribute-to-open-source', '2022-04-22T14:08:43.226196+00:00'),
+(56, 55883854, 'github-craftwork/start-here', '55883854-github-craftwork/start-here', '2022-04-22T14:09:10.518469+00:00');
