@@ -4264,8 +4264,8 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 400276715,10235902,152145851,1,0,2,rlnx/cpp-course-ffs,Materials on practical C++ course for foreign students,{rlnx},2022-02-24T21:07:34.596111
 434506268,45293863,300313988,29,1,40,cyberpartizans/face_recognition,,"{allyouneediscv,feanor-on-fire}",2022-02-24T21:07:34.596111
 358576983,527550,4449421,29,4,670,karmi/elasticsearch-paramedic,A simple tool to inspect the state and statistics about ElasticSearch clusters,"{karmi,walokra}",2022-02-24T21:07:34.596111
+399569599,78520194,96767206,8,515,1491,gitcoinco/web,Grow Open Source,"{owocki,thelostone-mc}",2022-02-24T21:07:34.596111
 425311105,57008950,300932149,15,0,1,RitikaJain8818/Programmers-Community,"This repository contains various solution of a problem in Ruby, C, C++, Python and Java.","{pooja-git11,Kuljeet-123}",2022-02-24T21:07:34.596111
-399569599,78520194,96767206,8,515,1492,gitcoinco/web,Grow Open Source,"{owocki,thelostone-mc}",2022-02-24T21:07:34.596111
 422464827,505751,24594933,29,47,5469,Unleash/unleash,Unleash is the open source feature toggle service.,"{ivarconr,thomasheartman}",2022-02-24T21:07:34.596111
 435647165,23166349,164225648,29,1,786,David-VTUK/CKA-StudyGuide,Study guide for the CKA exam,"{David-VTUK,chipzoller}",2022-02-24T21:07:34.596111
 381822676,33669114,116612925,29,1,848,vaidehijoshi/basecs-series,A compiled list of resources from the basecs series,{vaidehijoshi},2022-02-24T21:07:34.596111
@@ -4284,6 +4284,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 320434477,2658040,178404439,29,0,4,BaseMax/ColorConvertPy,"Tiny library to convert various colored units. (rgb, hex)",{BaseMax},2022-02-24T21:07:34.596111
 353169129,72912813,214587193,0,274,31444,supabase/supabase,The open source Firebase alternative. Follow to stay updated about our public Beta.,"{kiwicopple,MildTomato}",2022-02-24T21:07:34.596111
 352793229,22655167,126813008,29,0,834,mobz/lag-radar,Trace frame rate lag with a sexy performance radar,"{mobz,andywer}",2022-02-24T21:07:34.596111
+398740147,34394719,250355030,29,0,316,schneefux/vscode-winddown,VS Code extension that encourages you to take a break.,{schneefux},2022-02-24T21:07:34.596111
 323523231,55907631,209391513,29,30,1091,CppCon/CppCon2019, Slides and other materials from CppCon 2019,"{kernhanda,Quuxplusone}",2022-02-24T21:07:34.596111
 451044473,11589902,38547977,0,1,1,nifemim/MosaicPlus,Just a repo to set up the website.,"{charlesinjoroge,sarasolano}",2022-02-24T21:07:34.596111
 215550527,1930729,202787876,29,209,12041,Rigellute/spotify-tui,Spotify for the terminal written in Rust 🚀,"{Rigellute,jfaltis}",2022-02-24T21:07:34.596111
@@ -4305,13 +4306,13 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 374469734,1228996,20619036,29,28,35867,pi-hole/pi-hole,A black hole for Internet advertisements,"{DL6ER,PromoFaux}",2022-02-24T21:07:34.596111
 420634958,12410942,2371106,29,58,15957,rubocop/ruby-style-guide,A community-driven Ruby coding style guide,"{bbatsov,koic}",2022-02-24T21:07:34.596111
 275257239,14043845,38131381,29,0,655,SupremeTechnopriest/react-idle-timer,User activity timer component,"{SupremeTechnopriest,rowrowrowrow}",2022-02-24T21:07:34.596111
-398740147,34394719,250355030,29,0,316,schneefux/vscode-winddown,VS Code extension that encourages you to take a break.,{schneefux},2022-02-24T21:07:34.596111
+398348178,39362365,15185110,17,21,407,timoxley/columnify,Create text-based columns suitable for console output. Supports cell wrapping.,"{timoxley,njhoffman}",2022-02-24T21:07:34.596111
 307155109,12400445,4311796,16,311,55081,adam-p/markdown-here,"Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending.","{adam-p,wm8120}",2022-02-24T21:07:34.596111
 328070675,59939260,71359796,29,16,643,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:07:34.596111
-398348178,39362365,15185110,17,21,407,timoxley/columnify,Create text-based columns suitable for console output. Supports cell wrapping.,"{timoxley,njhoffman}",2022-02-24T21:07:34.596111
 418247835,16165980,343965132,0,6,28909,microsoft/ML-For-Beginners,"12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all","{jlooper,softchris}",2022-02-24T21:07:34.596111
 374153645,3861088,11829145,29,75,16770,basecamp/trix,A rich text editor for everyday writing,"{javan,sstephenson}",2022-02-24T21:07:34.596111
 418175317,1917293,401300251,29,0,2,Gen-R/organisation,GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu,{mrchristian},2022-02-24T21:07:34.596111
+305867720,42211,250512911,29,6,144,apivideo/browserLiveStream,"Use webcam, browser and Node to stream live video. From api.video (https://api.video)","{dougsillars,erikkai}",2022-02-24T21:07:34.596111
 363282160,4381106,70777180,13,7,12558,Foundry376/Mailspring,":love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.","{bengotow,emorikawa}",2022-02-24T21:07:34.596111
 394896505,16942870,175043545,29,109,2882,cloudflare/wrangler,🤠   wrangle your Cloudflare Workers,"{EverlastingBugstopper,ashleymichal}",2022-02-24T21:07:34.596111
 342917803,68660520,178137889,0,0,3,mpsalisbury/raytracer,Ray Tracer from Ray Tracer Challenge,{mpsalisbury},2022-02-24T21:07:34.596111
@@ -4320,7 +4321,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 351754863,3754311,132750724,29,224,139836,danistefanovic/build-your-own-x,🤓 Build your own (insert technology here),"{danistefanovic,bauripalash}",2022-02-24T21:07:34.596111
 361187808,1295334,1300192,18,14553,10997,octocat/Spoon-Knife,This repo is for demonstration purposes only.,{octocat},2022-02-24T21:07:34.596111
 419462546,29417643,26573009,4,11,176,semmypurewal/BeginningJavaScript,"This repo contains the examples, notes and problems for my O'Reilly video ""Beginning Programming with JavaScript""",{semmypurewal},2022-02-24T21:07:34.596111
-305867720,42211,250512911,29,6,144,apivideo/browserLiveStream,"Use webcam, browser and Node to stream live video. From api.video (https://api.video)","{dougsillars,erikkai}",2022-02-24T21:07:34.596111
 208603857,5713670,157397583,29,56,8985,mswjs/msw,Seamless REST/GraphQL API mocking library for browser and Node.js.,"{kettanaito,marcosvega91}",2022-02-24T21:07:34.596111
 360376415,25194960,135224272,29,3,67,loomnetwork/solidity-social-example,"Super simple social network interaction, where users can post and comment on posts","{mattkanwisher,eduardonunesp}",2022-02-24T21:07:34.596111
 419094803,12849040,287573157,0,12,1173,Leniolabs/layoutit-grid,"Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.","{patak-dev,agustin-capeletto-lenio}",2022-02-24T21:07:34.596111
@@ -4341,7 +4341,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 415612821,44642314,268098312,0,6,17,ZedThree/clang-tidy-review,Create a pull request review based on clang-tidy warnings,"{ZedThree,kgfoundrydig}",2022-02-24T21:07:34.596111
 408066383,58392246,407507122,0,0,1,dimassuam/project-kalian,Menyimpan daftar Project Kalian yang sudah disubmit di Discord,{sandhikagalih},2022-02-24T21:07:34.596111
 289175704,27487712,91309349,29,0,741,Orbiter/Test_voice_input,,{chiragw15},2022-02-24T21:07:34.596111
-398824985,49831545,263983855,29,29,6323,Miodec/monkeytype,"The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.","{Miodec,UnrealApex}",2022-02-24T21:07:34.596111
+398824985,49831545,263983855,29,30,6327,Miodec/monkeytype,"The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.","{Miodec,UnrealApex}",2022-02-24T21:07:34.596111
 398440389,66239105,376296039,29,0,328,vibalijoshi/List-of-Opportunities,Keep track of opportunities and never miss a deadline again!,"{vibalijoshi,sadn1ck}",2022-02-24T21:07:34.596111
 409008084,46695719,382308978,29,0,56,tediko/planets-fact,Planets fact site with animated solar system built with ReactJS. ,{tediko},2022-02-24T21:07:34.596111
 414641681,11858762,6750158,29,5,7223,mgechev/javascript-algorithms,💻 JavaScript implementations of computer science algorithms,"{mgechev,AndriiHeonia}",2022-02-24T21:07:34.596111
@@ -4400,8 +4400,8 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 436289040,61815862,7715820,29,64,8983,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
 432242215,10951893,254660586,29,12,2052,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-24T21:07:34.596111
 452075032,22186029,337208358,29,0,13,abhisheknaiidu/abhisheknaidu-cli,The Abhishek Naidu CLI,{abhisheknaiidu},2022-02-24T21:07:34.596111
-399559931,30369246,21405028,29,2,10424,ardanlabs/gotraining,Go Training Class Material : ,"{ardan-bkennedy,jcbwlkr}",2022-02-24T21:07:34.596111
 408003690,1305623,51270739,29,55,20162,viatsko/awesome-vscode,🎨 A curated list of delightful VS Code packages and resources.,"{viatsko,lannonbr}",2022-02-24T21:07:34.596111
+399559931,30369246,21405028,29,2,10427,ardanlabs/gotraining,Go Training Class Material : ,"{ardan-bkennedy,jcbwlkr}",2022-02-24T21:07:34.596111
 429224238,1645545,81075897,29,47,255,SciML/Catalyst.jl,"Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software","{isaacsas,TorkelE}",2022-02-24T21:07:34.596111
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-24T21:07:34.596111
 391706360,25867172,18696257,29,17,9875,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-24T21:07:34.596111
@@ -4444,3 +4444,4 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 481773353,20134767,36040894,25,322,52730,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-16T09:07:31.359819
 478736208,19353972,93446115,29,259,1174,hashicorp/terraform-provider-kubernetes,Terraform Kubernetes provider,"{alexsomesan,radeksimko}",2022-04-07T09:55:10.805423
 469853701,101365565,80050538,2,3,635,maintainers/public-resources,Public information on the invite-only maintainer community,"{MikeMcQuaid,devonzuegel}",2022-03-16T13:54:01.717626
+476895720,20134767,36040894,25,324,52674,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-02T07:06:05.544754
