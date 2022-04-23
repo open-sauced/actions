@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T14:43:33.035Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T16:50:25.601Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -153,10 +153,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (2791348, 8153, 21, 1, 0, 24, 'jprichardson/node-fs-extra', 'Node.js: extra methods for the fs object like copy(), remove(), mkdirs()', ARRAY['jprichardson', 'RyanZim'], '2022-02-24T21:06:05.080468+00:00'),
 (2792774, 157, 18, 1, 0, 22, 'opentok/opentok-node', 'OpenTok Server SDK for node.js', ARRAY['aoberoi', 'jeffswartz'], '2022-02-24T21:06:05.080468+00:00'),
 (2798894, 44, 2, 1, 0, 13, 'j-mcnally/PhoneGap-ios-PhoneDialer', 'A plugin for ios phone gap to launch the dialer programatically in ios >= 5', ARRAY['peutetre', 'mcfedr'], '2022-02-24T21:06:05.080468+00:00'),
+(2833537, 6394, 134, 1, 0, 25, 'jquery/esprima', 'ECMAScript parsing infrastructure for multipurpose analysis', ARRAY['ariya', 'Constellation'], '2022-02-24T21:06:05.080468+00:00'),
 (2851574, 1444, 1, 1, 0, 14, 'merit-gem/merit', 'Reputation engine for Rails apps', ARRAY['tute', 'huacnlee'], '2022-02-24T21:06:05.080468+00:00'),
 (2857233, 10577, 98, 1, 0, 13, 'nexe/nexe', '🎉 create a single executable out of your node.js apps', ARRAY['calebboyd', 'jaredallard'], '2022-02-24T21:06:05.080468+00:00'),
-(2881789, 24388, 213, 1, 0, 10, 'geekcomputers/Python', 'My Python Examples', ARRAY['geekcomputers', 'cclauss'], '2022-02-24T21:06:05.080468+00:00'),
 (2870911, 3599, 275, 1, 0, 18, 'MvvmCross/MvvmCross', 'The .NET MVVM framework for cross-platform solutions, including Xamarin.iOS, Xamarin.Android, Windows and Mac.', ARRAY['martijn00', 'hollywoof'], '2022-02-24T21:06:05.080468+00:00'),
+(2881789, 24388, 213, 1, 0, 10, 'geekcomputers/Python', 'My Python Examples', ARRAY['geekcomputers', 'cclauss'], '2022-02-24T21:06:05.080468+00:00'),
 (2889328, 15777, 2, 1, 0, 12, 'WordPress/WordPress', 'WordPress, Git-ified. This repository is just a mirror of the WordPress subversion repository. Please do not send pull requests. Submit pull requests to https://github.com/WordPress/wordpress-develop and patches to https://core.trac.wordpress.org/ instead.', ARRAY['SergeyBiryukov', 'nacin'], '2022-02-24T21:06:05.080468+00:00'),
 (2902935, 6984, 147, 1, 0, 0, 'moovweb/gvm', 'Go Version Manager', ARRAY['jbussdieker', 'voxxit'], '2022-02-24T21:06:05.080468+00:00'),
 (2928944, 3095, 1582, 1, 0, 29, 'Azure/azure-sdk-for-net', 'This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ', ARRAY['azure-sdk', 'pakrym'], '2022-02-24T21:06:05.080468+00:00'),
@@ -222,7 +223,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (4467228, 13433, 11, 1, 0, 18, 'krisk/Fuse', 'Lightweight fuzzy-search, in JavaScript', ARRAY['krisk', 'matthewwithanm'], '2022-02-24T21:06:05.080468+00:00'),
 (4484451, 26187, 29, 1, 0, 1, 'amix/vimrc', 'The ultimate Vim configuration (vimrc)', ARRAY['amix', 'daniilguit'], '2022-02-24T21:06:05.080468+00:00'),
 (4568238, 4231, 66, 1, 0, 5, 'expressjs/expressjs.com', null, ARRAY['hacksparrow', 'crandmck'], '2022-02-24T21:06:05.080468+00:00'),
-(2833537, 6394, 134, 1, 0, 25, 'jquery/esprima', 'ECMAScript parsing infrastructure for multipurpose analysis', ARRAY['ariya', 'Constellation'], '2022-02-24T21:06:05.080468+00:00'),
 (4578002, 29905, 14, 2, 0, 21.5, 'faif/python-patterns', 'A collection of design patterns/idioms in Python', ARRAY['faif', 'gyermolenko'], '2022-02-24T21:06:05.080468+00:00'),
 (4578898, 8715, 216, 1, 0, 9, 'HabitRPG/habitica', 'A habit tracker app which treats your goals like a Role Playing Game.', ARRAY['lefnire', 'SabreCat'], '2022-02-24T21:06:05.080468+00:00'),
 (4596063, 1662, 0, 1, 0, 4, 'sagemath/sage', 'Mirror of the Sage source tree -- please do not submit PRs here -- everything must be submitted via https://trac.sagemath.org/', ARRAY['williamstein', 'mkoeppe'], '2022-02-24T21:06:05.080468+00:00'),

@@ -4314,21 +4314,21 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 418175317,1917293,401300251,29,0,2,Gen-R/organisation,GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu,{mrchristian},2022-02-24T21:07:34.596111
 305867720,42211,250512911,29,6,144,apivideo/browserLiveStream,"Use webcam, browser and Node to stream live video. From api.video (https://api.video)","{dougsillars,erikkai}",2022-02-24T21:07:34.596111
 363282160,4381106,70777180,13,7,12558,Foundry376/Mailspring,":love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.","{bengotow,emorikawa}",2022-02-24T21:07:34.596111
-394896505,16942870,175043545,29,109,2882,cloudflare/wrangler,🤠   wrangle your Cloudflare Workers,"{EverlastingBugstopper,ashleymichal}",2022-02-24T21:07:34.596111
+396049655,85258143,388004440,0,1,49,oscafrica/open-source-challenge-2021,The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.,"{BolajiAyodeji,Petec0x0}",2022-02-24T21:07:34.596111
 342917803,68660520,178137889,0,0,3,mpsalisbury/raytracer,Ray Tracer from Ray Tracer Challenge,{mpsalisbury},2022-02-24T21:07:34.596111
 418295712,71458737,51595028,0,79,1350,OPCFoundation/UA-.NETStandard,OPC Unified Architecture .NET Standard,"{mregen,barnstee}",2022-02-24T21:07:34.596111
 422332797,4066445,3214406,4,128,42866,meteor/meteor,"Meteor, the JavaScript App Platform","{benjamn,glasser}",2022-02-24T21:07:34.596111
 351754863,3754311,132750724,29,224,139836,danistefanovic/build-your-own-x,🤓 Build your own (insert technology here),"{danistefanovic,bauripalash}",2022-02-24T21:07:34.596111
 361187808,1295334,1300192,18,14553,10997,octocat/Spoon-Knife,This repo is for demonstration purposes only.,{octocat},2022-02-24T21:07:34.596111
 419462546,29417643,26573009,4,11,176,semmypurewal/BeginningJavaScript,"This repo contains the examples, notes and problems for my O'Reilly video ""Beginning Programming with JavaScript""",{semmypurewal},2022-02-24T21:07:34.596111
+396166713,80793630,192428445,29,11,3,bitcoin-studio/LightningNespressoUI,Nespresso capsule vending machine - UI code,{Janaka-Steph},2022-02-24T21:07:34.596111
 208603857,5713670,157397583,29,56,8985,mswjs/msw,Seamless REST/GraphQL API mocking library for browser and Node.js.,"{kettanaito,marcosvega91}",2022-02-24T21:07:34.596111
 360376415,25194960,135224272,29,3,67,loomnetwork/solidity-social-example,"Super simple social network interaction, where users can post and comment on posts","{mattkanwisher,eduardonunesp}",2022-02-24T21:07:34.596111
+394896505,16942870,175043545,29,109,2882,cloudflare/wrangler,🤠   wrangle your Cloudflare Workers,"{EverlastingBugstopper,ashleymichal}",2022-02-24T21:07:34.596111
 419094803,12849040,287573157,0,12,1173,Leniolabs/layoutit-grid,"Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.","{patak-dev,agustin-capeletto-lenio}",2022-02-24T21:07:34.596111
-396049655,85258143,388004440,0,1,49,oscafrica/open-source-challenge-2021,The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.,"{BolajiAyodeji,Petec0x0}",2022-02-24T21:07:34.596111
-397167684,52573181,60493101,1,47,217694,jwasham/coding-interview-university,A complete computer science study plan to become a software engineer.,"{jwasham,avizmarlon}",2022-02-24T21:07:34.596111
+396805583,26586086,147350463,29,14,48553,leonardomso/33-js-concepts,📜 33 JavaScript concepts every developer should know.,"{leonardomso,ilker0}",2022-02-24T21:07:34.596111
 419128913,1255918,6326227,21,195,118,metamaps/metamaps,"A deployable web platform for collaborative conversation, ideation & sense-making. Use it for free at","{devvmh,Connoropolous}",2022-02-24T21:07:34.596111
-396805583,26586086,147350463,29,14,48540,leonardomso/33-js-concepts,📜 33 JavaScript concepts every developer should know.,"{leonardomso,ilker0}",2022-02-24T21:07:34.596111
-396166713,80793630,192428445,29,11,3,bitcoin-studio/LightningNespressoUI,Nespresso capsule vending machine - UI code,{Janaka-Steph},2022-02-24T21:07:34.596111
+397167684,52573181,60493101,1,47,217719,jwasham/coding-interview-university,A complete computer science study plan to become a software engineer.,"{jwasham,avizmarlon}",2022-02-24T21:07:34.596111
 304890007,69519470,133134007,1,3169,11898,OpenAPITools/openapi-generator,"OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)","{wing328,fehguy}",2022-02-24T21:07:34.596111
 417381369,79887,2928944,29,1643,3637,Azure/azure-sdk-for-net,This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ,"{azure-sdk,pakrym}",2022-02-24T21:07:34.596111
 374676867,6265396,63476337,29,247,134874,TheAlgorithms/Python,All Algorithms implemented in Python,"{harshildarji,cclauss}",2022-02-24T21:07:34.596111
@@ -4350,9 +4350,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 350456159,15004099,87873787,3,58,722,theNewDynamic/gohugo-theme-ananke,Ananke: A theme for Hugo Sites,"{budparr,regisphilibert}",2022-02-24T21:07:34.596111
 340929223,40713709,8424040,29,220,17345,processing/p5.js,"p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —","{lmccart,outofambit}",2022-02-24T21:07:34.596111
 348860575,6241164,219324014,29,11,119,nestjsx/automapper,An Object-Object AutoMapper module for NestJS.,"{nartc,bashleigh}",2022-02-24T21:07:34.596111
-388653553,75340837,28457823,7,150,344448,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-24T21:07:34.596111
+281077014,30334776,340187605,29,0,157,dmitryvinn/awesome-dev-advocacy,🥑  List of Awesome Developer Advocacy Resources,"{dmitryvinn,dmitryvinn-fb}",2022-02-24T21:07:34.596111
 341168991,3846874,809601,29,88,16534,handlebars-lang/handlebars.js,Minimal templating on steroids.,"{kpdecker,nknapp}",2022-02-24T21:07:34.596111
-391419133,58482194,71995937,29,532,39901,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-24T21:07:34.596111
+391419133,58482194,71995937,29,532,39908,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-24T21:07:34.596111
 349215600,16259450,46624643,29,138,5013,zplug/zplug,:hibiscus: A next-generation plugin manager for zsh,"{b4b4r07,NigoroJr}",2022-02-24T21:07:34.596111
 371931802,3450257,59152795,29,3,62,dracula/atom,🧛🏻‍♂️ Dark theme for Atom,"{rr-jimmy-multani,zenorocha}",2022-02-24T21:07:34.596111
 410258743,91016903,374901515,0,28,104,Amit366/FunwithPhysics,,"{Amit366,KushalGhosh9899}",2022-02-24T21:07:34.596111
@@ -4361,9 +4361,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 345032271,60850993,8936633,29,17,9397,maxogden/art-of-node,:snowflake: a short introduction to node.js,"{maxogden,zeke}",2022-02-24T21:07:34.596111
 344970841,38838958,248295170,29,6,3036,geist-org/react,A design system for building modern websites and applications.,"{unix,ofekashery}",2022-02-24T21:07:34.596111
 417287027,52336027,19415064,12,17,111880,ossu/computer-science,:mortar_board: Path to a free self-taught education in Computer Science!,"{ericdouglas,joshmhanson}",2022-02-24T21:07:34.596111
-393518546,47711025,5082119,29,12,379,deiv/driftnet," Driftnet watches network traffic, and picks out and displays JPEG and GIF images for display","{deiv,sandsmark}",2022-02-24T21:07:34.596111
+388653553,75340837,28457823,7,154,344470,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-24T21:07:34.596111
 370530334,3792749,1451352,28,266,21305,mochajs/mocha,"☕️ simple, flexible, fun javascript test framework for node.js & the browser","{tj,boneskull}",2022-02-24T21:07:34.596111
-281077014,30334776,340187605,29,0,156,dmitryvinn/awesome-dev-advocacy,🥑  List of Awesome Developer Advocacy Resources,"{dmitryvinn,dmitryvinn-fb}",2022-02-24T21:07:34.596111
+393518546,47711025,5082119,29,14,379,deiv/driftnet," Driftnet watches network traffic, and picks out and displays JPEG and GIF images for display","{deiv,sandsmark}",2022-02-24T21:07:34.596111
 410367620,2609511,88905488,29,5,2728,ShangtongZhang/DeepRL,Modularized Implementation of Deep RL Algorithms in PyTorch,"{ShangtongZhang,wassname}",2022-02-24T21:07:34.596111
 368306962,29547465,183712153,28,9,307,dasDaniel/svelte-table,A svelte-3 table implementation that allows sorting and filtering,"{dasDaniel,thilo-behnke}",2022-02-24T21:07:34.596111
 400813204,20134767,36040894,24,318,52627,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-24T21:07:34.596111
@@ -4400,24 +4400,24 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 436289040,61815862,7715820,29,64,8983,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
 432242215,10951893,254660586,29,12,2052,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-24T21:07:34.596111
 452075032,22186029,337208358,29,0,13,abhisheknaiidu/abhisheknaidu-cli,The Abhishek Naidu CLI,{abhisheknaiidu},2022-02-24T21:07:34.596111
+396048872,60254117,365976998,29,0,2,udberg/Weather-App,This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.,{udberg},2022-02-24T21:07:34.596111
 408003690,1305623,51270739,29,55,20162,viatsko/awesome-vscode,🎨 A curated list of delightful VS Code packages and resources.,"{viatsko,lannonbr}",2022-02-24T21:07:34.596111
 399559931,30369246,21405028,29,2,10427,ardanlabs/gotraining,Go Training Class Material : ,"{ardan-bkennedy,jcbwlkr}",2022-02-24T21:07:34.596111
 429224238,1645545,81075897,29,47,255,SciML/Catalyst.jl,"Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software","{isaacsas,TorkelE}",2022-02-24T21:07:34.596111
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-24T21:07:34.596111
-391706360,25867172,18696257,29,17,9875,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-24T21:07:34.596111
 465036506,19359944,2515323,29,37,1547,liip/LiipImagineBundle,Symfony Bundle to assist in imagine manipulation using the imagine library,"{lsmith77,makasim}",2022-03-02T08:10:40.488726
+391706360,25867172,18696257,29,17,9875,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-24T21:07:34.596111
 456168834,5381468,38383584,29,0,9,snicoll/spring-boot-configuration-binding,Showcase Spring Boot configuration support,{snicoll},2022-02-24T21:07:34.596111
 417311106,71297412,55631449,29,98,2168,jamstack/jamstack.org,The official Jamstack site,"{philhawksworth,zachleat}",2022-02-24T21:07:34.596111
-396048872,60254117,365976998,29,0,2,udberg/Weather-App,This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.,{udberg},2022-02-24T21:07:34.596111
 422278376,26007940,32883944,28,1,171,mcleonard/blog_posts,Blog posts for matatat.org,{mcleonard},2022-02-24T21:07:34.596111
 418672791,20727421,228068948,17,12,844,davatron5000/awesome-standalones,A curated list of awesome framework-agnostic standalone web components,"{davatron5000,andreruffert}",2022-02-24T21:07:34.596111
 382468183,8037469,172741073,29,388,19787,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-24T21:07:34.596111
-396051716,66696421,272382323,3,0,1,cozyCodr/coderXcoded.github.io,practice of what i have learnt on freecodecamp.org,{cozyCodr},2022-02-24T21:07:34.596111
 467288570,13059091,14682677,18,0,2,spaetow/ShibbolethECPAuthClient,A Shibboleth ECP authentication client that also exposes access to the SAML response received from the IdP,{spaetow},2022-03-09T11:40:32.128947
 470199505,11030551,279702593,18,3,4359,francisrstokes/super-expressive,🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language,"{francisrstokes,TimothyGillespie}",2022-03-16T02:40:44.887873
 330475048,61131314,31792824,29,10632,139096,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"{engine-flutter-autoroll,abarth}",2022-02-24T21:07:34.596111
 467581742,7222344,3452519,7,23,530,humanmade/Custom-Meta-Boxes,Lets you easily create metaboxes with custom fields that will blow your mind.   ,"{mattheu,mikeselander}",2022-03-09T10:39:40.818859
 302938010,211851,5373673,29,67,2733,jlord/sheetsee.js,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,"{jlord,mjhea0}",2022-02-24T21:07:34.596111
+396051716,66696421,272382323,3,0,1,cozyCodr/coderXcoded.github.io,practice of what i have learnt on freecodecamp.org,{cozyCodr},2022-02-24T21:07:34.596111
 363981975,46828701,258812961,29,13,519,cyrildiagne/ar-facedoodle,Doodle AR masks right from the browser with tensorflow.js,{cyrildiagne},2022-02-24T21:07:34.596111
 396028887,3012159,276613189,10,6,1,sieis/udemyYelpCamp,My code for the final YelpCamp project updated with Bootstrap 4,{sieis},2022-03-09T05:40:54.538531
 468472328,28269,39769,23,0,64,mzslater/learning-rails-sample-app,Sample application for the Learning Rails free online course in Ruby on Rails,"{michael-slater,learningrails}",2022-03-12T07:15:58.307833
@@ -4440,7 +4440,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 424945913,2339101,55896045,29,20,1,DrBenton/rougemine.com-online-resume,My over-engineered online resume,{DrBenton},2022-02-24T21:07:34.596111
 423934343,43640229,201108929,29,7,702,ChrisDryden/Canadian-Tech-Internships-Summer-2022,Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022,"{ChrisDryden,andkerr}",2022-02-24T21:07:34.596111
 317831562,67872399,323120066,28,0,1,An-prog-hub/human-pose-estimation,,{An-prog-hub},2022-02-24T21:07:34.596111
-396050805,25217168,7691631,16,4263,62849,moby/moby,Moby Project - a collaborative project for the container ecosystem to assemble container-based systems,"{thaJeztah,crosbymichael}",2022-02-24T21:07:34.596111
+396050805,25217168,7691631,16,4265,62853,moby/moby,Moby Project - a collaborative project for the container ecosystem to assemble container-based systems,"{thaJeztah,crosbymichael}",2022-02-24T21:07:34.596111
 481773353,20134767,36040894,25,322,52730,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-16T09:07:31.359819
 478736208,19353972,93446115,29,259,1174,hashicorp/terraform-provider-kubernetes,Terraform Kubernetes provider,"{alexsomesan,radeksimko}",2022-04-07T09:55:10.805423
 469853701,101365565,80050538,2,3,635,maintainers/public-resources,Public information on the invite-only maintainer community,"{MikeMcQuaid,devonzuegel}",2022-03-16T13:54:01.717626
