@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-23T22:43:50.562Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T01:02:56.462Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3648,8 +3648,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (432685277, 209, 0, 1, 0, 0, 'joelthelion/life_web', 'Life simulation written in rust', ARRAY['joelthelion', 'Robbepop'], '2022-02-24T21:06:05.080468+00:00'),
 (432722169, 4, 0, 1, 0, 9, 'mrwilson/advent-of-code-2021', 'It''s back. It''s worse.', ARRAY['mrwilson'], '2022-02-24T21:06:05.080468+00:00'),
 (437419319, 175, 3, 1, 0, 0, 'kefimochi/sync-contribution-graph', 'Generates empty commits to match contributions from other public GitHub accounts.', ARRAY['kefimochi', 'andypalmer'], '2022-02-24T21:06:05.080468+00:00'),
-(438410446, 1, 7, 1, 0, 0, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-24T21:06:05.080468+00:00'),
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-24T21:06:05.080468+00:00'),
+(438410446, 1, 7, 1, 0, 0, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-24T21:06:05.080468+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-24T21:06:05.080468+00:00'),
 (439330952, 8, 7, 1, 0, 14, 'CoinAlpha/hummingbot', 'Hummingbot is open source software that helps you build trading bots that run on any exchange or blockchain', ARRAY['Nullably', 'dennisocana'], '2022-02-24T21:06:05.080468+00:00'),
 (441646385, 0, 0, 1, 0, 4, 'cod-ed/simulate', 'A collection of simulations and visualizations for all sorts of stuff (Majorly Algorithmic or Mathematical)', ARRAY['yashlamba', 'akshansh2000'], '2022-02-24T21:06:05.080468+00:00'),
