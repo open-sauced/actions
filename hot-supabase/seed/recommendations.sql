@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T20:44:12.023Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T22:43:56.331Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -236,8 +236,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (4925652, 8936, 81, 1, 0, 14, 'robfig/cron', 'a cron library for go', ARRAY['robfig', 'wannes-ds'], '2022-02-24T21:06:05.080468+00:00'),
 (4928122, 1, 0, 1, 0, 5, 'jwalter/NotesApp', null, ARRAY['jwalter'], '2022-02-24T21:06:05.080468+00:00'),
 (4930716, 4190, 84, 1, 0, 3, 'zeek/zeek', 'Zeek is a powerful network analysis framework that is much different from the typical IDS you may know.', ARRAY['jsiwek', 'rsmmr'], '2022-02-24T21:06:05.080468+00:00'),
-(4933039, 3504, 1, 1, 0, 13, 'Fody/Fody', 'Extensible tool for weaving .net assemblies', ARRAY['SimonCropp', 'tom-englert'], '2022-02-24T21:06:05.080468+00:00'),
 (4979192, 708, 15, 1, 0, 12, 'enriclluelles/route_translator', 'Translate your rails app route to various languages without the hassle', ARRAY['tagliala', 'enriclluelles'], '2022-02-24T21:06:05.080468+00:00'),
+(4933039, 3504, 1, 1, 0, 13, 'Fody/Fody', 'Extensible tool for weaving .net assemblies', ARRAY['SimonCropp', 'tom-englert'], '2022-02-24T21:06:05.080468+00:00'),
 (5082119, 361, 15, 1, 0, 29, 'deiv/driftnet', ' Driftnet watches network traffic, and picks out and displays JPEG and GIF images for display', ARRAY['deiv', 'FauxFaux'], '2022-02-24T21:06:05.080468+00:00'),
 (5101141, 20958, 714, 1, 0, 22, 'stedolan/jq', 'Command-line JSON processor', ARRAY['nicowilliams', 'stedolan'], '2022-02-24T21:06:05.080468+00:00'),
 (5152285, 41336, 124, 1, 0, 22, 'square/okhttp', 'Square’s meticulous HTTP client for the JVM, Android, and GraalVM.', ARRAY['swankjesse', 'JakeWharton'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3230,8 +3230,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
 (363994683, 7, 10, 1, 0, 22, 'GSA/usagov-benefits-eligibility', 'This is the for the benefits eligibility website for usa.gov.', ARRAY['r-bartlett-gsa', 'sknep'], '2022-02-24T21:06:05.080468+00:00'),
 (364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
-(364149329, 42, 3, 1, 0, 26, 'orbit-love/github-actions-templates', 'Starter GitHub Actions templates to get you up and running with community built integrations', ARRAY['bencgreenberg', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
 (364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
+(364149329, 42, 3, 1, 0, 26, 'orbit-love/github-actions-templates', 'Starter GitHub Actions templates to get you up and running with community built integrations', ARRAY['bencgreenberg', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
 (364336351, 10, 0, 1, 0, 3, 'DiscordFactory/core', '🧡 The neuralgic heart of the application, this module gathers all the functionalities of the framework.', ARRAY['LeadcodeDev', 'devreluije'], '2022-02-24T21:06:05.080468+00:00'),
 (364413063, 2, 0, 1, 0, 1, 'thebearingedge/global-installs-are-bad', 'And unnecessary.', ARRAY['thebearingedge'], '2022-02-24T21:06:05.080468+00:00'),
 (364474335, 27354, 17, 1, 0, 0, 'google/zx', 'A tool for writing better scripts', ARRAY['antonmedv', 'antongolub'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3300,8 +3300,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (372718382, 256, 0, 1, 0, 3, 'ebosas/microservices', 'A microservices example in Go', ARRAY['ebosas'], '2022-02-24T21:06:05.080468+00:00'),
 (373301717, 10, 0, 1, 0, 1, 'oscakampala/made-in-uganda', 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ARRAY['oscakampala', 'KakoozaJerry'], '2022-02-24T21:06:05.080468+00:00'),
 (373327367, 30, 0, 1, 0, 12, 'rx-mind/ngrx-plugins', 'Reactive Angular Plugins', ARRAY['markostanimirovic'], '2022-02-24T21:06:05.080468+00:00'),
-(373396052, 44, 2, 1, 0, 29, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
-(373495126, 335, 1, 1, 0, 16, 'thevinter/styli.sh', 'A CLI tool for easy wallpaper management and image fetching', ARRAY['thevinter', 'ma3yta'], '2022-02-24T21:06:05.080468+00:00'),
 (373640770, 4, 6, 2, 0, 24.5, 'hughrawlinson/battlesnake', 'Battlesnake JS Bindings and Types', ARRAY['hughrawlinson'], '2022-02-24T21:06:05.080468+00:00'),
 (373681744, 1, 0, 1, 0, 29, 'muhammaddzaky/project-kalian', 'Hello', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (373693162, 5, 0, 1, 0, 26, 'imamdigmi/BicaraDANA', null, ARRAY['imamdigmi'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3309,6 +3307,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (373943090, 7, 0, 1, 0, 2, 'tspannhw/SpeakerProfile', 'My speaker profile for events and conferences based on codepo8/presenter-terms', ARRAY['tspannhw'], '2022-02-24T21:06:05.080468+00:00'),
 (374018112, 1006, 0, 1, 0, 26, 'sadanandpai/frontend-learning-kit', 'Frontend tech guide and collection of highly recommended materials', ARRAY['sadanandpai', 'dth99'], '2022-02-24T21:06:05.080468+00:00'),
 (374067908, 95, 0, 1, 0, 11, 'theredditbandit/awesome-cybersec', 'A collection of awesome platforms, blogs, documents, books, resources and cool stuff about security ', ARRAY['theredditbandit'], '2022-02-24T21:06:05.080468+00:00'),
+(373396052, 44, 2, 1, 0, 29, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
+(373495126, 335, 1, 1, 0, 16, 'thevinter/styli.sh', 'A CLI tool for easy wallpaper management and image fetching', ARRAY['thevinter', 'ma3yta'], '2022-02-24T21:06:05.080468+00:00'),
 (374341212, 196, 4, 1, 0, 22, 'rickclephas/KMP-NativeCoroutines', 'Library to use Kotlin Coroutines from Swift code in KMP apps', ARRAY['rickclephas'], '2022-02-24T21:06:05.080468+00:00'),
 (374712857, 5, 0, 1, 0, 27, 'shijithpk/music-discovery', 'How to find new music on Spotify by aggregating the choices of tastemakers', ARRAY['shijithpk'], '2022-02-24T21:06:05.080468+00:00'),
 (374729902, 19, 0, 1, 0, 14, 'sagars007/Proton-UI-connected-rounded-tabs', 'Firefox Proton UI minimal changes with nav-bar-connected rounded tabs, reduced compact mode, nightly color gradient accents etc..', ARRAY['sagars007'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3602,7 +3602,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (414238384, 35, 0, 1, 0, 3, 'Dzoukr/Funcaster', '⚡ Serverless .NET solution for hosting your 🔊 podcasts with (nearly) zero costs using Azure Functions and Azure Storage Account.', ARRAY['Dzoukr'], '2022-02-24T21:06:05.080468+00:00'),
 (414403319, 14, 0, 2, 0, 0, 'polarene/micro-template', 'A very tiny and simple text templating library for Kotlin.', ARRAY['polarene'], '2022-02-24T21:06:05.080468+00:00'),
 (414680083, 70, 3, 1, 0, 10, 'Borrus-sudo/Zeus', '🔭 A modern cross platform `ls` with powerful searching and querying capabilities to scale your productivity to the moon 🚀 (and yeah it has file explorer like capabilities too 🤫)', ARRAY['Borrus-sudo', 'rithulkamesh'], '2022-02-24T21:06:05.080468+00:00'),
-(414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-24T21:06:05.080468+00:00'),
 (415035403, 10, 0, 1, 0, 26, 'ch4rl3x/HtmlText', 'Jetpack Compose HtmlText', ARRAY['ch4rl3x'], '2022-02-24T21:06:05.080468+00:00'),
 (415122580, 1951, 28, 2, 0, 13.5, 'm3o/m3o', 'Next Generation Cloud Platform', ARRAY['asim', 'crufter'], '2022-02-24T21:06:05.080468+00:00'),
 (415688405, 2, 6, 1, 0, 18, 'wtm-buea/WTM-official-website', 'official website for Women Tech Makers Buea members to build during the period of Hacktoberfest 2021', ARRAY['alicendeh', 'Julia-yossa'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
+(414711758, 3, 2, 1, 0, 3, 'nickytonline/epic-actions', 'Epic GitHub Actions', ARRAY['nickytonline'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
