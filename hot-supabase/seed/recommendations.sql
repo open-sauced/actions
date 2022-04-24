@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T14:43:21.658Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T16:50:23.976Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -842,8 +842,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (48750547, 594, 46, 1, 0, 17, 'circleci/circleci-docs', 'Documentation for CircleCI.', ARRAY['michelle-luna', 'rosieyohannan'], '2022-02-24T21:06:05.080468+00:00'),
 (48769241, 6387, 168, 1, 0, 1, 'penpot/penpot', 'Penpot - The Open-Source design & prototyping platform', ARRAY['niwinz', 'Alotor'], '2022-02-24T21:06:05.080468+00:00'),
 (48808013, 232, 4, 1, 0, 17, 'rangle/angular2-redux-example', 'Angular 2 Redux Example', ARRAY['SethDavenport', 'greenkeeperio-bot'], '2022-02-24T21:06:05.080468+00:00'),
-(48869446, 620, 74, 1, 0, 2, 'kogosoftwarellc/open-api', 'A Monorepo of various packages to power OpenAPI in node', ARRAY['jsdevel', 'MugeSo'], '2022-02-24T21:06:05.080468+00:00'),
 (48863418, 9769, 60, 1, 0, 14, 'coryhouse/react-slingshot', 'React + Redux starter kit / boilerplate with Babel, hot reloading, testing, linting and a working example app built in', ARRAY['coryhouse', 'kwelch'], '2022-02-24T21:06:05.080468+00:00'),
+(48869446, 620, 74, 1, 0, 2, 'kogosoftwarellc/open-api', 'A Monorepo of various packages to power OpenAPI in node', ARRAY['jsdevel', 'MugeSo'], '2022-02-24T21:06:05.080468+00:00'),
 (48935181, 2459, 0, 1, 0, 12, 'cjcenizal/flexbox-patterns', 'Patterns for using flexbox CSS to build awesome UI components.', ARRAY['cjcenizal'], '2022-02-24T21:06:05.080468+00:00'),
 (49010787, 12634, 2, 2, 0, 14.5, 'mhinz/vim-galore', ':mortar_board: All things Vim!', ARRAY['mhinz', 'codeurge'], '2022-02-24T21:06:05.080468+00:00'),
 (49016322, 22382, 2088, 1, 0, 28, 'angular/components', 'Component infrastructure and Material Design components for Angular', ARRAY['crisbeto', 'devversion'], '2022-02-24T21:06:05.080468+00:00'),
