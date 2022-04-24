@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T18:46:16.811Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-24T20:44:12.023Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3230,8 +3230,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (363988779, 41, 1, 2, 0, 11, 'muchobien/tailscale-ui', 'Tailscale UI for Ubuntu', ARRAY['Lokeon', 'KROSF'], '2022-02-24T21:06:05.080468+00:00'),
 (363994683, 7, 10, 1, 0, 22, 'GSA/usagov-benefits-eligibility', 'This is the for the benefits eligibility website for usa.gov.', ARRAY['r-bartlett-gsa', 'sknep'], '2022-02-24T21:06:05.080468+00:00'),
 (364102931, 1, 0, 1, 0, 25, 'wyhaines/newrelic-ruby-agent', 'New Relic RPM Ruby Agent', ARRAY['jasonrclark', 'benweint'], '2022-02-24T21:06:05.080468+00:00'),
-(364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
 (364149329, 42, 3, 1, 0, 26, 'orbit-love/github-actions-templates', 'Starter GitHub Actions templates to get you up and running with community built integrations', ARRAY['bencgreenberg', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
+(364130745, 7, 0, 1, 0, 25, 'arbazkiraak/SmartContractLearning', 'Roadmap ', ARRAY['arbazkiraak'], '2022-02-24T21:06:05.080468+00:00'),
 (364336351, 10, 0, 1, 0, 3, 'DiscordFactory/core', '🧡 The neuralgic heart of the application, this module gathers all the functionalities of the framework.', ARRAY['LeadcodeDev', 'devreluije'], '2022-02-24T21:06:05.080468+00:00'),
 (364413063, 2, 0, 1, 0, 1, 'thebearingedge/global-installs-are-bad', 'And unnecessary.', ARRAY['thebearingedge'], '2022-02-24T21:06:05.080468+00:00'),
 (364474335, 27354, 17, 1, 0, 0, 'google/zx', 'A tool for writing better scripts', ARRAY['antonmedv', 'antongolub'], '2022-02-24T21:06:05.080468+00:00'),
