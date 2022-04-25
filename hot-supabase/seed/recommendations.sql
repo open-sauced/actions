@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T12:54:51.727Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T14:43:23.449Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -326,8 +326,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (9393759, 30955, 138, 1, 1, 29, 'photonstorm/phaser', 'Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.', ARRAY['photonstorm', 'pavle-goloskokovic'], '2022-02-24T21:06:05.080468+00:00'),
 (9394642, 6047, 51, 1, 0, 1, 'kristopolous/BOOTSTRA.386', 'A vintage 1980s DOS inspired Twitter Bootstrap theme', ARRAY['kristopolous', 'tomer'], '2022-02-24T21:06:05.080468+00:00'),
 (9405122, 8862, 937, 1, 0, 10, 'frida/frida', 'Clone this repo to build Frida', ARRAY['oleavr', 's1341'], '2022-02-24T21:06:05.080468+00:00'),
-(9603429, 88, 6, 1, 0, 4, 'sagefy/sagefy', ':telescope: Learn anything, adapted for you. Free.', ARRAY['heiskr', 'waffle-iron'], '2022-02-24T21:06:05.080468+00:00'),
 (9440238, 1624, 13, 1, 0, 9, 'blakeembrey/change-case', 'Convert strings between camelCase, PascalCase, Capital Case, snake_case and more', ARRAY['blakeembrey', 'Whoaa512'], '2022-02-24T21:06:05.080468+00:00'),
+(9603429, 88, 6, 1, 0, 4, 'sagefy/sagefy', ':telescope: Learn anything, adapted for you. Free.', ARRAY['heiskr', 'waffle-iron'], '2022-02-24T21:06:05.080468+00:00'),
 (9625333, 4488, 52, 1, 0, 18, 'mhinz/vim-startify', ':link: The fancy start screen for Vim.', ARRAY['mhinz', 'blueyed'], '2022-02-24T21:06:05.080468+00:00'),
 (9754983, 28661, 51, 2, 0, 7.5, 'eugenp/tutorials', 'Just Announced - ''Learn Spring Security OAuth'': ', ARRAY['lor6', 'johnA1331'], '2022-02-24T21:06:05.080468+00:00'),
 (9820094, 291, 25, 1, 0, 14, 'ProLoser/Github-Omnibox', 'Github Commands from Google Chrome Omnibox (address bar)', ARRAY['rodyhaddad', 'ProLoser'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1383,9 +1383,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (108473348, 428, 40, 1, 0, 5, 'stream-labs/obs-studio-node', 'libOBS (OBS Studio) for Node.Js, Electron and similar tools', ARRAY['EddyGharbi', 'computerquip-streamlabs'], '2022-02-24T21:06:05.080468+00:00'),
 (108510101, 5509, 421, 2, 0, 10.5, 'FaisalUmair/udemy-downloader-gui', 'A desktop application for downloading Udemy Courses', ARRAY['FaisalUmair', 'turkialawlqy'], '2022-02-24T21:06:05.080468+00:00'),
 (108669343, 1316, 3, 1, 0, 12, 'hosseinmoein/DataFrame', 'C++ DataFrame for statistical, Financial, and ML analysis -- in modern C++ using native types, continuous memory storage, and no pointers are involved', ARRAY['hosseinmoein', 'justinjk007'], '2022-02-24T21:06:05.080468+00:00'),
+(108708339, 7136, 4, 1, 0, 12, 'sudheerj/javascript-interview-questions', 'List of 1000 JavaScript Interview Questions', ARRAY['sudheerj', 'zonayedpca'], '2022-02-24T21:06:05.080468+00:00'),
 (108743517, 271, 2, 1, 0, 16, 'mechero/full-reactive-stack', 'Full Reactive Stack with Spring Boot (WebFlux), MongoDB and Angular', ARRAY['mechero'], '2022-02-24T21:06:05.080468+00:00'),
 (108758903, 619, 1, 1, 0, 24, 'mohnkhan/Free-OReilly-Books', 'Free O Reilly Books', ARRAY['mohnkhan'], '2022-02-24T21:06:05.080468+00:00'),
-(108708339, 7136, 4, 1, 0, 12, 'sudheerj/javascript-interview-questions', 'List of 1000 JavaScript Interview Questions', ARRAY['sudheerj', 'zonayedpca'], '2022-02-24T21:06:05.080468+00:00'),
 (108761645, 20824, 187, 1, 0, 1, 'nocodb/nocodb', ':fire: :fire: :fire: Open Source Airtable Alternative', ARRAY['pranavxc', 'o1lab'], '2022-02-24T21:06:05.080468+00:00'),
 (108800571, 638, 1, 1, 0, 12, 'jszwec/csvutil', 'csvutil provides fast and idiomatic mapping between CSV and Go (golang) values.', ARRAY['jszwec', 'andrewmostello'], '2022-02-24T21:06:05.080468+00:00'),
 (108859514, 2287, 0, 1, 0, 2, 'atulmy/crate', '👕 👖 📦  A sample web and mobile application built with Node, Express, React, React Native, Redux and GraphQL. Very basic replica of stitchfix.com / krate.in (allows users to get monthly subscription of trendy clothes and accessories).', ARRAY['atulmy', 'ebouJ'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1957,8 +1957,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (182764313, 510, 15, 1, 0, 20, 'wiedehopf/tar1090', 'Provides an improved webinterface for use with ADS-B decoders readsb / dump1090-fa', ARRAY['wiedehopf', 'vkirienko'], '2022-02-24T21:06:05.080468+00:00'),
 (182764801, 340, 20, 1, 0, 20, 'whatsplay/whatsapp-play', 'Command line software through which you can play with your WhatsApp. It is having different options to play with your WhatsApp like message blast, online tracking, whatsapp chat.. ', ARRAY['rpotter12', 'xandao6'], '2022-02-24T21:06:05.080468+00:00'),
 (182849188, 3910, 149, 1, 0, 1, 'delta-io/delta', 'An open-source storage layer that brings scalable, ACID transactions to Apache Spark™ and big data workloads.', ARRAY['zsxwing', 'brkyvz'], '2022-02-24T21:06:05.080468+00:00'),
-(183260314, 196, 1, 1, 0, 28, 'chinasaokolo/csGraduateFellowships', 'A curated list of fellowships for graduate students in Computer Science and related fields.', ARRAY['chinasaokolo'], '2022-02-24T21:06:05.080468+00:00'),
 (182957374, 6, 0, 1, 0, 6, 'imajkumar/laravel-binary-tree', null, ARRAY['imajkumar'], '2022-02-24T21:06:05.080468+00:00'),
+(183260314, 196, 1, 1, 0, 28, 'chinasaokolo/csGraduateFellowships', 'A curated list of fellowships for graduate students in Computer Science and related fields.', ARRAY['chinasaokolo'], '2022-02-24T21:06:05.080468+00:00'),
 (183267843, 1512, 7, 1, 0, 21, 'kentcdodds/advanced-react-hooks', 'Learn Advanced React Hooks workshop', ARRAY['kentcdodds', 'btnwtn'], '2022-02-24T21:06:05.080468+00:00'),
 (183454144, 17, 3, 1, 0, 2, 'pransh15/moz-starter-pack', 'A quick start guide for newbies to start Contributing for Mozilla as a Volunteer.', ARRAY['pransh15', 'pranitb10'], '2022-02-24T21:06:05.080468+00:00'),
 (183712153, 256, 8, 1, 0, 28, 'dasDaniel/svelte-table', 'A svelte-3 table implementation that allows sorting and filtering', ARRAY['dasDaniel', 'thilo-behnke'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2367,8 +2367,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (241753959, 2, 0, 1, 0, 25, 'mawricio/mdrepo', 'Repositório para armazenamento de código e notebooks de postagens do blog e cursos.', ARRAY['stacktecnologias'], '2022-02-24T21:06:05.080468+00:00'),
 (241900831, 23, 2, 1, 0, 18, 'brudaswen/kotlinx-serialization-csv', 'Library to easily use Kotlin Serialization to serialize to/from CSV.', ARRAY['brudaswen', 'peterfigure'], '2022-02-24T21:06:05.080468+00:00'),
 (242139417, 352, 23, 1, 0, 7, 'laurentS/slowapi', 'A rate limiter for Starlette and FastAPI', ARRAY['laurentS', 'Rested'], '2022-02-24T21:06:05.080468+00:00'),
-(242229368, 46, 3, 1, 0, 13, 'EskiMojo14/keycaplendar', 'React app documenting current, future and past keycap GBs.', ARRAY['EskiMojo14'], '2022-02-24T21:06:05.080468+00:00'),
 (242318453, 352, 9, 1, 0, 23, 'tokotype/PlusJakartaSans', '+Jakarta Sans is a open-source fonts. Designed for Jakarta ''City of collaboration'' program in 2020.', ARRAY['tokotype'], '2022-02-24T21:06:05.080468+00:00'),
+(242229368, 46, 3, 1, 0, 13, 'EskiMojo14/keycaplendar', 'React app documenting current, future and past keycap GBs.', ARRAY['EskiMojo14'], '2022-02-24T21:06:05.080468+00:00'),
 (242754476, 13959, 27, 1, 0, 12, 'tailwindlabs/heroicons', 'A set of free MIT-licensed high-quality SVG icons for UI development.', ARRAY['adamwathan', 'bradlc'], '2022-02-24T21:06:05.080468+00:00'),
 (242775289, 264, 66, 1, 0, 28, 'VulcanJS/vulcan-next', 'The Next starter for GraphQL developers', ARRAY['eric-burel', 'Timi-Duban'], '2022-02-24T21:06:05.080468+00:00'),
 (242870159, 2233, 2, 1, 0, 13, 'Machine-Learning-Tokyo/AI_Curriculum', 'Open Deep Learning and Reinforcement Learning lectures from top Universities like Stanford, MIT, UC Berkeley.', ARRAY['suzana-ilic', 'tejasmorkar'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2559,8 +2559,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-24T21:06:05.080468+00:00'),
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
-(267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
+(267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-24T21:06:05.080468+00:00'),
 (267884438, 7, 0, 1, 0, 4, 'BaseMax/CalculatorWeb', 'A online calculator using web technology based on Javascript.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
