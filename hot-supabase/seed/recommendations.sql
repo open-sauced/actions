@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T06:47:57.371Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T08:46:47.226Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2554,7 +2554,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266346243, 17, 1, 1, 0, 0, 'open-sauced/goals-template', 'This is the template repo for managing your contributions through opensauced.pizza', ARRAY['bdougie', 'gr2m'], '2022-02-24T21:06:05.080468+00:00'),
 (266427736, 175, 0, 1, 0, 8, '5t3ph/11ty-netlify-jumpstart', 'Quickly launch an 11ty-generated static site. Includes a minimal Sass framework, and generated sitemap, RSS feed, and social share preview images.', ARRAY['5t3ph', 'Waterstraal'], '2022-02-24T21:06:05.080468+00:00'),
 (266445736, 5394, 100, 1, 0, 22, 'owncast/owncast', 'Take control over your live stream video by running it yourself.  Streaming + chat out of the box.', ARRAY['gabek', 'gingervitis'], '2022-02-24T21:06:05.080468+00:00'),
-(266602206, 194, 65, 1, 0, 3, 'athensresearch/ClojureFam', 'Clojure Learning Program', ARRAY['nthd3gr33', 'Bardia95'], '2022-02-24T21:06:05.080468+00:00'),
 (266701578, 1, 0, 1, 0, 10, 'mohamedabotir/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-24T21:06:05.080468+00:00'),
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2562,6 +2561,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
 (267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
 (267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
+(266602206, 194, 65, 1, 0, 3, 'athensresearch/ClojureFam', 'Clojure Learning Program', ARRAY['nthd3gr33', 'Bardia95'], '2022-02-24T21:06:05.080468+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-24T21:06:05.080468+00:00'),
 (267884438, 7, 0, 1, 0, 4, 'BaseMax/CalculatorWeb', 'A online calculator using web technology based on Javascript.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (267956009, 52, 0, 1, 0, 2, 'jdubois/azure-native-spring-function', 'Tutorial on running Spring Boot + GraalVM native images on Azure Functions', ARRAY['jdubois', 'AzureAdvocateBit'], '2022-02-24T21:06:05.080468+00:00'),
