@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T14:43:23.449Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T16:52:09.434Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2367,8 +2367,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (241753959, 2, 0, 1, 0, 25, 'mawricio/mdrepo', 'Repositório para armazenamento de código e notebooks de postagens do blog e cursos.', ARRAY['stacktecnologias'], '2022-02-24T21:06:05.080468+00:00'),
 (241900831, 23, 2, 1, 0, 18, 'brudaswen/kotlinx-serialization-csv', 'Library to easily use Kotlin Serialization to serialize to/from CSV.', ARRAY['brudaswen', 'peterfigure'], '2022-02-24T21:06:05.080468+00:00'),
 (242139417, 352, 23, 1, 0, 7, 'laurentS/slowapi', 'A rate limiter for Starlette and FastAPI', ARRAY['laurentS', 'Rested'], '2022-02-24T21:06:05.080468+00:00'),
-(242318453, 352, 9, 1, 0, 23, 'tokotype/PlusJakartaSans', '+Jakarta Sans is a open-source fonts. Designed for Jakarta ''City of collaboration'' program in 2020.', ARRAY['tokotype'], '2022-02-24T21:06:05.080468+00:00'),
 (242229368, 46, 3, 1, 0, 13, 'EskiMojo14/keycaplendar', 'React app documenting current, future and past keycap GBs.', ARRAY['EskiMojo14'], '2022-02-24T21:06:05.080468+00:00'),
+(242318453, 352, 9, 1, 0, 23, 'tokotype/PlusJakartaSans', '+Jakarta Sans is a open-source fonts. Designed for Jakarta ''City of collaboration'' program in 2020.', ARRAY['tokotype'], '2022-02-24T21:06:05.080468+00:00'),
 (242754476, 13959, 27, 1, 0, 12, 'tailwindlabs/heroicons', 'A set of free MIT-licensed high-quality SVG icons for UI development.', ARRAY['adamwathan', 'bradlc'], '2022-02-24T21:06:05.080468+00:00'),
 (242775289, 264, 66, 1, 0, 28, 'VulcanJS/vulcan-next', 'The Next starter for GraphQL developers', ARRAY['eric-burel', 'Timi-Duban'], '2022-02-24T21:06:05.080468+00:00'),
 (242870159, 2233, 2, 1, 0, 13, 'Machine-Learning-Tokyo/AI_Curriculum', 'Open Deep Learning and Reinforcement Learning lectures from top Universities like Stanford, MIT, UC Berkeley.', ARRAY['suzana-ilic', 'tejasmorkar'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2559,8 +2559,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (266856296, 5, 6, 1, 0, 20, 'alexlee-dev/create-cli-application', 'A bootstrapper for creating a cli application with Node.', ARRAY['alexlee-dev', 'MartinRosenberg'], '2022-02-24T21:06:05.080468+00:00'),
 (266974036, 41, 64, 1, 0, 2, 'DistributedClocks/shiviz', 'A tool to visualize distributed system logs', ARRAY['albertxing', 'pqperry'], '2022-02-24T21:06:05.080468+00:00'),
 (267311267, 1, 0, 1, 0, 14, 'yomaokobiah/email_analysis', 'Email data analysis', ARRAY['yomaokobiah'], '2022-02-24T21:06:05.080468+00:00'),
-(267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
 (267374872, 6145, 61, 1, 0, 28, 'jpochyla/psst', 'Fast and multi-platform Spotify client with native GUI', ARRAY['jpochyla', 'martingoe'], '2022-02-24T21:06:05.080468+00:00'),
+(267429516, 3297, 185, 2, 0, 13.5, 'concrete-utopia/utopia', 'Design ❤️ Code', ARRAY['Rheeseyb', 'balazsbajorics'], '2022-02-24T21:06:05.080468+00:00'),
 (267563398, 269, 1, 1, 0, 14, 'bennycode/trading-signals', 'Technical indicators to run technical analysis with JavaScript / TypeScript. 📈', ARRAY['bennycode', 'nullobject'], '2022-02-24T21:06:05.080468+00:00'),
 (267874295, 1765, 2, 1, 0, 2, 'deepanshu1422/List-Of-Open-Source-Internships-Programs', 'A curated list of all the open-source internships/Programs', ARRAY['vybhav72954', 'deepanshu1422'], '2022-02-24T21:06:05.080468+00:00'),
 (267884438, 7, 0, 1, 0, 4, 'BaseMax/CalculatorWeb', 'A online calculator using web technology based on Javascript.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
