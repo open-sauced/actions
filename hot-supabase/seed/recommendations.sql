@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T20:44:36.443Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T22:44:17.175Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3253,11 +3253,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (366397300, 643, 3, 1, 0, 27, 'TheZoraiz/ascii-image-converter', 'A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!', ARRAY['TheZoraiz', 'xmarcos'], '2022-02-24T21:06:05.080468+00:00'),
 (366844495, 1883, 196, 1, 0, 5, 'stackblitz/webcontainer-core', null, ARRAY['EricSimons', 'sulco'], '2022-02-24T21:06:05.080468+00:00'),
 (366871642, 6, 6, 1, 0, 0, 'deepgram/python-sdk', 'Official Python SDK for Deepgram''s automated speech recognition APIs.', ARRAY['frumsdotxyz', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
-(367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-24T21:06:05.080468+00:00'),
 (367045564, 549, 9, 1, 0, 25, 'trekhleb/self-parking-car-evolution', '🧬 Training the car to do self-parking using a genetic algorithm', ARRAY['trekhleb', 'martincostello'], '2022-02-24T21:06:05.080468+00:00'),
+(367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-24T21:06:05.080468+00:00'),
 (367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-24T21:06:05.080468+00:00'),
-(367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
 (367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-24T21:06:05.080468+00:00'),
+(367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
 (367572934, 8, 2, 1, 0, 28, 'PostmanSpat/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖 Follow open NBT trading signals at', ARRAY['dargmuesli', 'PostmanSpat'], '2022-02-24T21:06:05.080468+00:00'),
 (367602396, 62, 2, 1, 0, 2, 'prince776/discode', 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ARRAY['prince776', 'HarshKapadia2'], '2022-02-24T21:06:05.080468+00:00'),
 (367697425, 1, 0, 2, 0, 0, 'iamtheozzy/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3531,8 +3531,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399071719, 2, 0, 1, 0, 1, 'Rohithgilla12/redwood-url-shortner', null, ARRAY['Rohithgilla12'], '2022-02-24T21:06:05.080468+00:00'),
 (399087415, 173, 7, 1, 0, 11, 'ged-odoo/blockdom', 'A fast virtual dom library', ARRAY['ged-odoo', 'HamedFathi'], '2022-02-24T21:06:05.080468+00:00'),
 (399197552, 6, 0, 1, 0, 7, 'CrossGeeks/ScrollRevealXFSample', null, ARRAY['Char0394'], '2022-02-24T21:06:05.080468+00:00'),
-(399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-24T21:06:05.080468+00:00'),
 (399220892, 5, 0, 1, 0, 7, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-24T21:06:05.080468+00:00'),
+(399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-24T21:06:05.080468+00:00'),
 (399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-24T21:06:05.080468+00:00'),
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-24T21:06:05.080468+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-24T21:06:05.080468+00:00'),
