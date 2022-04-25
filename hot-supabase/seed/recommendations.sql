@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T16:52:09.434Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T18:48:14.910Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1343,8 +1343,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (102664411, 1282, 4, 1, 0, 4, 'alinebastos/dev-practice', 'Practice your skills with these ideas.', ARRAY['alinebastos', 'adeonir'], '2022-02-24T21:06:05.080468+00:00'),
 (102784450, 1927, 108, 1, 0, 22, 'klaussinani/ao', 'Elegant Microsoft To-Do desktop app', ARRAY['klaussinani', 'mariosinani'], '2022-02-24T21:06:05.080468+00:00'),
 (103084166, 2698, 94, 1, 0, 8, 'accurics/terrascan', 'Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.', ARRAY['cesar-rodriguez', 'kanchwala-yusuf'], '2022-02-24T21:06:05.080468+00:00'),
-(103279624, 4, 6, 1, 0, 9, 'moleculerjs/moleculer-template-nano', ':mortar_board: Minimal project template for one microservice.', ARRAY['icebob'], '2022-02-24T21:06:05.080468+00:00'),
 (103313840, 674, 26, 1, 0, 21, 'wesbos/cobalt2-vscode', 'Cobalt2 Theme for VS Code', ARRAY['wesbos', 'palashmon'], '2022-02-24T21:06:05.080468+00:00'),
+(103279624, 4, 6, 1, 0, 9, 'moleculerjs/moleculer-template-nano', ':mortar_board: Minimal project template for one microservice.', ARRAY['icebob'], '2022-02-24T21:06:05.080468+00:00'),
 (103633984, 72884, 38, 3, 0, 21.333333333333332, 'goldbergyoni/nodebestpractices', ':white_check_mark:  The Node.js best practices list (December 2021)', ARRAY['goldbergyoni', 'anediaz'], '2022-02-24T21:06:05.080468+00:00'),
 (103674850, 55, 0, 1, 0, 5, 'vikpe/mongoose-mpath', 'Mongoose plugin for tree hierarchy using the materialized path pattern.', ARRAY['vikpe', 'florianbepunkt'], '2022-02-24T21:06:05.080468+00:00'),
 (103749180, 12942, 2460, 1, 0, 27, 'OpenGenus/cosmos', 'Hacktoberfest 2021 | World''s largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |', ARRAY['AdiChat', 'arnavb'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2570,7 +2570,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (268086996, 11, 30, 1, 0, 0, 'dotellie/nestjs-graphql-pagination', 'Decorators to allow easily building up relay compatible pagination types', ARRAY['renovate-bot', 'dotellie'], '2022-02-24T21:06:05.080468+00:00'),
 (268098312, 17, 6, 1, 0, 0, 'ZedThree/clang-tidy-review', 'Create a pull request review based on clang-tidy warnings', ARRAY['ZedThree', 'kgfoundrydig'], '2022-02-24T21:06:05.080468+00:00'),
 (268264498, 128, 7, 1, 0, 6, 'chakra-ui/chakra-ui-vue-next', '⚡️ The next most epic version of Chakra UI Vue based on Vue 3 🚀(WIP)', ARRAY['codebender828', 'koca'], '2022-02-24T21:06:05.080468+00:00'),
-(268292479, 1633, 0, 1, 0, 10, 'ivan-bilan/The-NLP-Pandect', 'A comprehensive reference for all topics related to Natural Language Processing', ARRAY['ivan-bilan', 'anoopkunchukuttan'], '2022-02-24T21:06:05.080468+00:00'),
 (268296877, 1, 0, 1, 0, 12, 'PiyushSuthar/covid19-twitter-bot', 'A Bot that tweets Covid Updates daily!', ARRAY['PiyushSuthar'], '2022-02-24T21:06:05.080468+00:00'),
 (268350681, 1792, 86, 1, 0, 26, 'Rem0o/FanControl.Releases', 'This is the release repository for Fan Control, a highly customizable fan controlling software for Windows.', ARRAY['Rem0o'], '2022-02-24T21:06:05.080468+00:00'),
 (268424739, 5010, 237, 1, 0, 17, 'helix-editor/helix', 'A post-modern modal text editor.', ARRAY['archseer', 'cessen'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2609,8 +2608,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (273319786, 1, 0, 1, 0, 24, 'mgroves/IntegrationTestPractice', 'practicing integration tests with github actions', ARRAY['mgroves', 'brantburnett'], '2022-02-24T21:06:05.080468+00:00'),
 (273497516, 385, 20, 1, 0, 22, 'bradtraversy/storybooks', 'Node.js app with Google OAuth', ARRAY['bradtraversy', 'mellonis'], '2022-02-24T21:06:05.080468+00:00'),
 (273499522, 2622, 85, 2, 0, 7, 'radix-ui/primitives', 'An open-source UI component library for building high-quality, accessible design systems and web apps. Maintained by @modulz.', ARRAY['jjenzz', 'benoitgrelard'], '2022-02-24T21:06:05.080468+00:00'),
-(273546408, 11043, 98, 1, 0, 5, 'foambubble/foam', 'A personal knowledge management and sharing system for VSCode', ARRAY['riccardoferretti', 'jevakallio'], '2022-02-24T21:06:05.080468+00:00'),
-(273622373, 6, 14, 1, 0, 19, 'guiaramos/ts-graphql-server', '🗄️  Start server with TypeScript, GraphQL, PG, Redis and TypeORM. Contains e2e and integration tests', ARRAY['guiaramos'], '2022-02-24T21:06:05.080468+00:00'),
 (273656785, 64, 1, 1, 0, 27, 'jfeng45/servicetmpl1', 'A self-evolved Microservice framework for Go and gRPC--an upgrade version for ''servicetmpl''', ARRAY['jfeng45'], '2022-02-24T21:06:05.080468+00:00'),
 (273780626, 4, 1, 1, 0, 23, 'brantburnett/run-couchbasefakeit', 'Runs CouchbaseFakeIt in a Docker container on the build agent, using definition files from your repository.', ARRAY['brantburnett'], '2022-02-24T21:06:05.080468+00:00'),
 (273810635, 8, 20, 1, 0, 16, 'M0nica/ambition-fund-website', 'Website for www.ambitionfund.org, micro-grant program to provide support for underrepresented people who need financial assistance pursuing professional development opportunities in the technology industry.', ARRAY['M0nica', 'jordan-paz'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2974,7 +2971,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (326163394, 38, 0, 1, 0, 4, 'ceoshikhar/better-github', 'Enhance your code reading experience on GitHub.', ARRAY['ceoshikhar', 'aahnik'], '2022-02-24T21:06:05.080468+00:00'),
 (326244055, 1, 0, 1, 0, 7, 'akshay9677/reactor-gen', 'React plugin installations and boiler plate code for plugins like redux, react router dom, eslint etc', ARRAY['akshay9677'], '2022-02-24T21:06:05.080468+00:00'),
 (326404870, 5686, 227, 1, 0, 0, 'SigNoz/signoz', 'SigNoz is an open-source APM. It helps developers monitor their applications & troubleshoot problems, an open-source alternative to DataDog, NewRelic, etc. 🔥 🖥.   👉  Open source Application Performance Monitoring (APM) & Observability tool', ARRAY['ankitnayan', 'palash-signoz'], '2022-02-24T21:06:05.080468+00:00'),
+(273546408, 11043, 98, 1, 0, 5, 'foambubble/foam', 'A personal knowledge management and sharing system for VSCode', ARRAY['riccardoferretti', 'jevakallio'], '2022-02-24T21:06:05.080468+00:00'),
+(273622373, 6, 14, 1, 0, 19, 'guiaramos/ts-graphql-server', '🗄️  Start server with TypeScript, GraphQL, PG, Redis and TypeORM. Contains e2e and integration tests', ARRAY['guiaramos'], '2022-02-24T21:06:05.080468+00:00'),
 (326420723, 854, 2, 1, 0, 5, 'kevquirk/simple.css', 'Simple.css is a classless CSS template that allows you to make a good looking website really quickly.', ARRAY['kevquirk', 'bobdenotter'], '2022-02-24T21:06:05.080468+00:00'),
+(268292479, 1633, 0, 1, 0, 10, 'ivan-bilan/The-NLP-Pandect', 'A comprehensive reference for all topics related to Natural Language Processing', ARRAY['ivan-bilan', 'anoopkunchukuttan'], '2022-02-24T21:06:05.080468+00:00'),
 (326460518, 1130, 7, 1, 0, 22, 'ratfactor/ziglings', 'Learn the Zig programming language by fixing tiny broken programs.', ARRAY['ratfactor', 'Palm404'], '2022-02-24T21:06:05.080468+00:00'),
 (326532559, 2, 0, 1, 0, 11, 'lesmo/pi-home', 'My personal ''thing box'' using a Raspberry Pi! Supports Bluetooth, Airplay and Spotify Connect, a The Lounge IRC chat service, Pi Hole, and whatever else I find useful for myself.', ARRAY['balena-ci', 'chrisys'], '2022-02-24T21:06:05.080468+00:00'),
 (326604100, 89, 9, 1, 0, 24, 'jthegedus/svelte-adapter-firebase', 'SvelteKit adapter for Firebase Hosting rewrites to Cloud Functions for a Svelte SSR experience', ARRAY['jthegedus', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
