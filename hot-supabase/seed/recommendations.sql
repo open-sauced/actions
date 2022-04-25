@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T01:02:54.286Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T03:06:56.909Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -694,8 +694,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (36040894, 51964, 376, 1, 0, 23, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:06:05.080468+00:00'),
 (36077404, 2306, 91, 1, 0, 10, 'jolibrain/deepdetect', 'Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE', ARRAY['beniz', 'fantes'], '2022-02-24T21:06:05.080468+00:00'),
 (36256540, 15611, 114, 2, 0, 10, 'css-modules/css-modules', 'Documentation about css-modules', ARRAY['geelen', 'markdalgleish'], '2022-02-24T21:06:05.080468+00:00'),
-(36307949, 8, 3, 1, 0, 7, 'sagielevy/C2Py', 'Convert C Structs to Python with ease!', ARRAY['sagielevy', 'sagielightricks'], '2022-02-24T21:06:05.080468+00:00'),
 (36323226, 5953, 90, 1, 0, 24, 'XAMPPRocky/tokei', 'Count your code, quickly.', ARRAY['XAMPPRocky', 'NickHackman'], '2022-02-24T21:06:05.080468+00:00'),
+(36307949, 8, 3, 1, 0, 7, 'sagielevy/C2Py', 'Convert C Structs to Python with ease!', ARRAY['sagielevy', 'sagielightricks'], '2022-02-24T21:06:05.080468+00:00'),
 (36470617, 1189, 135, 1, 0, 14, 'smpallen99/ex_admin', 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ARRAY['smpallen99', 'romul'], '2022-02-24T21:06:05.080468+00:00'),
 (36616176, 3175, 16, 2, 0, 6, 'elixirschool/elixirschool', 'The content behind Elixir School', ARRAY['doomspork', 'nscyclone'], '2022-02-24T21:06:05.080468+00:00'),
 (36633370, 74663, 141, 1, 0, 4, 'awesome-selfhosted/awesome-selfhosted', 'A list of Free Software network services and web applications which can be hosted on your own servers', ARRAY['nodiscc', 'n8225'], '2022-02-24T21:06:05.080468+00:00'),
