@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T03:06:56.909Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-25T04:49:25.777Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -694,8 +694,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (36040894, 51964, 376, 1, 0, 23, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:06:05.080468+00:00'),
 (36077404, 2306, 91, 1, 0, 10, 'jolibrain/deepdetect', 'Deep Learning API and Server in C++14 support for Caffe, Caffe2, PyTorch,TensorRT, Dlib, NCNN, Tensorflow, XGBoost and TSNE', ARRAY['beniz', 'fantes'], '2022-02-24T21:06:05.080468+00:00'),
 (36256540, 15611, 114, 2, 0, 10, 'css-modules/css-modules', 'Documentation about css-modules', ARRAY['geelen', 'markdalgleish'], '2022-02-24T21:06:05.080468+00:00'),
-(36323226, 5953, 90, 1, 0, 24, 'XAMPPRocky/tokei', 'Count your code, quickly.', ARRAY['XAMPPRocky', 'NickHackman'], '2022-02-24T21:06:05.080468+00:00'),
 (36307949, 8, 3, 1, 0, 7, 'sagielevy/C2Py', 'Convert C Structs to Python with ease!', ARRAY['sagielevy', 'sagielightricks'], '2022-02-24T21:06:05.080468+00:00'),
+(36323226, 5953, 90, 1, 0, 24, 'XAMPPRocky/tokei', 'Count your code, quickly.', ARRAY['XAMPPRocky', 'NickHackman'], '2022-02-24T21:06:05.080468+00:00'),
 (36470617, 1189, 135, 1, 0, 14, 'smpallen99/ex_admin', 'ExAdmin is an auto administration package for Elixir and the Phoenix Framework', ARRAY['smpallen99', 'romul'], '2022-02-24T21:06:05.080468+00:00'),
 (36616176, 3175, 16, 2, 0, 6, 'elixirschool/elixirschool', 'The content behind Elixir School', ARRAY['doomspork', 'nscyclone'], '2022-02-24T21:06:05.080468+00:00'),
 (36633370, 74663, 141, 1, 0, 4, 'awesome-selfhosted/awesome-selfhosted', 'A list of Free Software network services and web applications which can be hosted on your own servers', ARRAY['nodiscc', 'n8225'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2657,9 +2657,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (278139674, 5, 1, 1, 0, 1, 'e4c6/yemeksepeti_api', 'Yemeksepeti unofficial API. ', ARRAY['e4c6'], '2022-02-24T21:06:05.080468+00:00'),
 (278289913, 5278, 10, 1, 0, 8, 'mrdbourke/machine-learning-roadmap', 'A roadmap connecting many of the most important concepts in machine learning, how to learn them and what tools to use to perform them.', ARRAY['mrdbourke'], '2022-02-24T21:06:05.080468+00:00'),
 (278296523, 8663, 50, 1, 0, 11, 'kautukkundan/Awesome-Profile-README-templates', 'A collection of awesome readme templates to display on your profile', ARRAY['kautukkundan', 'LuizCarlosAbbott'], '2022-02-24T21:06:05.080468+00:00'),
-(278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-24T21:06:05.080468+00:00'),
 (278342702, 35, 0, 1, 0, 7, 'jmkitavi/interview-questions', 'Collections of Interview Questions from different Companies', ARRAY['jmkitavi'], '2022-02-24T21:06:05.080468+00:00'),
 (278388013, 1, 0, 1, 0, 16, 'shadowruge/mega_sena', 'Gerador de números da Mega-Sena aleatório(não é previsão)', ARRAY['shadowruge'], '2022-02-24T21:06:05.080468+00:00'),
+(278335273, 35234, 234, 3, 0, 13.666666666666666, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-24T21:06:05.080468+00:00'),
 (278451816, 1, 0, 1, 0, 21, 'mgroves/couchbasefakeit', 'Docker scripts for a base Couchbase Server image for testing/development, with support for fakeit for data generation', ARRAY['brantburnett', 'clupo'], '2022-02-24T21:06:05.080468+00:00'),
 (278454783, 18, 4, 1, 0, 25, 'Virtual-Coffee/open-source', 'A safe, welcoming space for developers to learn good practice for collaboration and try their hand at making contributions to OSS. Maintained by the Virtual Coffee Slack group.', ARRAY['tkshill', 'BekahHW'], '2022-02-24T21:06:05.080468+00:00'),
 (278455556, 13, 2, 1, 0, 5, 'bkegley/dotfiles', null, ARRAY['bkegley'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3281,8 +3281,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (370814753, 37, 5, 1, 0, 3, 'ossf/oss-vulnerability-guide', 'A guide on coordinated vulnerability disclosure for open source projects. Includes templates for security policies (security.md) and disclosure notifications.', ARRAY['david-a-wheeler', 'annabellegoth2boss'], '2022-02-24T21:06:05.080468+00:00'),
 (370944699, 508, 31, 1, 0, 0, 'shikijs/twoslash', 'You take some Shiki, add a hint of TypeScript compiler, and 🎉 incredible static code samples', ARRAY['orta', 'frencojobs'], '2022-02-24T21:06:05.080468+00:00'),
 (371116795, 6, 4, 1, 0, 8, 'Shobu95/SewisticApp', 'Sewistic Mobile app made using Flutter. ', ARRAY['Shobu95'], '2022-02-24T21:06:05.080468+00:00'),
-(371292556, 4, 1, 1, 0, 11, 'Nazeeh21/Meshare', 'It is a question-answer website for experienced and enthusiast developers. Any developer folk, who knows the workaround of the question or knows the solution can propose it.  If the solution provided by any folk solves the question, then the question''s author can tip that debugger in Ether coins.', ARRAY['Nazeeh21', 'miralsuthar'], '2022-02-24T21:06:05.080468+00:00'),
 (371298202, 116, 2, 1, 0, 24, 'wheatjs/vueuse-playground', 'An online playground for VueUse', ARRAY['wheatjs', 'cawa-93'], '2022-02-24T21:06:05.080468+00:00'),
+(371292556, 4, 1, 1, 0, 11, 'Nazeeh21/Meshare', 'It is a question-answer website for experienced and enthusiast developers. Any developer folk, who knows the workaround of the question or knows the solution can propose it.  If the solution provided by any folk solves the question, then the question''s author can tip that debugger in Ether coins.', ARRAY['Nazeeh21', 'miralsuthar'], '2022-02-24T21:06:05.080468+00:00'),
 (371488434, 79, 12, 1, 0, 9, 'github-php/sponsors', 'A package for PHP to interact with GitHub Sponsors.', ARRAY['driesvints', 'Gummibeer'], '2022-02-24T21:06:05.080468+00:00'),
 (371575501, 139, 16, 1, 0, 1, 'akd-io/create-next-stack', 'Create Next Stack is a website and CLI tool used to easily set up the boilerplate of new Next.js apps.', ARRAY['akd-io', 'jamesinaxx'], '2022-02-24T21:06:05.080468+00:00'),
 (371645725, 18, 1, 1, 0, 8, 'jaymrobinson/PoETools', null, ARRAY['jaymrobinson'], '2022-02-24T21:06:05.080468+00:00'),
