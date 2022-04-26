@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T01:03:40.801Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-26T03:14:09.644Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2508,13 +2508,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (260928305, 3066, 3, 1, 0, 4, 'mjhea0/awesome-fastapi', 'A curated list of awesome things related to FastAPI', ARRAY['mjhea0', 'fkromer'], '2022-02-24T21:06:05.080468+00:00'),
 (261039653, 1694, 24, 1, 0, 13, 'ingram-projects/animxyz', 'The first truly composable CSS animation library. Built for Vue, React, SCSS, and CSS, AnimXYZ will bring your website to life.', ARRAY['milesingrams', 'mattaningram'], '2022-02-24T21:06:05.080468+00:00'),
 (261049563, 74, 5, 1, 0, 1, 'LottieFiles/svelte-lottie-player', 'Lottie Player component for Svelte', ARRAY['jawish', 'karamalie'], '2022-02-24T21:06:05.080468+00:00'),
+(261283923, 1909, 69, 1, 0, 9, 'osohq/oso', 'Oso is a batteries-included framework for building authorization in your application.', ARRAY['gj', 'saolsen'], '2022-02-24T21:06:05.080468+00:00'),
 (261298767, 1876, 72, 1, 0, 24, 'revolist/revogrid', 'Powerful virtual data grid smartsheet with advanced customization. Best features from excel plus incredible  performance 🔋', ARRAY['revolist', 'm2a2x'], '2022-02-24T21:06:05.080468+00:00'),
 (261372860, 2629, 40, 1, 0, 23, 'DLR-RM/stable-baselines3', 'PyTorch version of Stable Baselines, reliable implementations of reinforcement learning algorithms. ', ARRAY['araffin', 'Artemis-Skade'], '2022-02-24T21:06:05.080468+00:00'),
 (261393739, 2, 0, 1, 0, 8, 'Layla-P/YodaTranslator', 'A quick Yoda translator app using Azure Functions and Twilio', ARRAY['Layla-P'], '2022-02-24T21:06:05.080468+00:00'),
 (261538171, 391, 11, 1, 0, 2, 'panorama-ed/memo_wise', 'The wise choice for Ruby memoization', ARRAY['ms-ati', 'JacobEvelyn'], '2022-02-24T21:06:05.080468+00:00'),
 (261787758, 34354, 1, 1, 0, 9, 'bradtraversy/design-resources-for-developers', 'Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more', ARRAY['Alaev', 'StefanSelfTaught'], '2022-02-24T21:06:05.080468+00:00'),
 (261861733, 1258, 190, 1, 0, 3, 'keras-team/keras-io', 'Keras documentation, hosted live at keras.io', ARRAY['fchollet', 'ksalama'], '2022-02-24T21:06:05.080468+00:00'),
-(261283923, 1909, 69, 1, 0, 9, 'osohq/oso', 'Oso is a batteries-included framework for building authorization in your application.', ARRAY['gj', 'saolsen'], '2022-02-24T21:06:05.080468+00:00'),
 (261871717, 2111, 21, 1, 0, 0, 'ThreeDotsLabs/wild-workouts-go-ddd-example', 'Go DDD example application. Complete project to show how to apply DDD, Clean Architecture, and CQRS by practical refactoring.', ARRAY['roblaszczak', 'm110'], '2022-02-24T21:06:05.080468+00:00'),
 (262286900, 17, 0, 1, 0, 27, 'know-prashant/vanilla-js-components', 'A list of 50 Components created in vanilla JS', ARRAY['know-prashant'], '2022-02-24T21:06:05.080468+00:00'),
 (262296122, 18296, 994, 1, 0, 5, 'PaddlePaddle/PaddleOCR', 'Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)', ARRAY['LDOUBLEV', 'WenmuZhou'], '2022-02-24T21:06:05.080468+00:00'),
