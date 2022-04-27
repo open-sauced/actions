@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T04:57:01.912Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T06:47:49.209Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -340,14 +340,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (10270250, 179681, 922, 1, 0, 11, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-24T21:06:05.080468+00:00'),
 (10299255, 1422, 6, 1, 0, 23, 'haileys/rustboot', 'A tiny 32 bit kernel written in Rust', ARRAY['haileys', 'igstan'], '2022-02-24T21:06:05.080468+00:00'),
 (10379106, 1785, 40, 1, 0, 26, 'browserify/watchify', 'watch mode for browserify builds', ARRAY['substack', 'zertosh'], '2022-02-24T21:06:05.080468+00:00'),
-(10395188, 6481, 287, 1, 0, 21, 'exercism/exercism', 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', ARRAY['iHiD', 'exercism-bot'], '2022-02-24T21:06:05.080468+00:00'),
-(10489882, 2436, 1, 1, 0, 8, 'nginx-boilerplate/nginx-boilerplate', 'Awesome Nginx configuration template', ARRAY['Umkus', 'agarzon'], '2022-02-24T21:06:05.080468+00:00'),
 (10530598, 784, 0, 1, 0, 1, 'greggigon/my-personal-kanban', 'This is a one page HTML/JavaScript application for people who would like to use simple and basic Kanban board for their personal stuff', ARRAY['greggigon', 'greggigon-dlg'], '2022-02-24T21:06:05.080468+00:00'),
 (10567197, 22166, 60, 1, 0, 10, 'dokku/dokku', 'A docker-powered PaaS that helps you build and manage the lifecycle of applications', ARRAY['josegonzalez', 'michaelshobbs'], '2022-02-24T21:06:05.080468+00:00'),
 (10581067, 60, 0, 1, 0, 12, 'kerryb/goos-ruby', 'The worked example from Growing Object-Oriented Software, Guided By Tests, ported to Ruby', ARRAY['kerryb'], '2022-02-24T21:06:05.080468+00:00'),
 (10639547, 822, 8, 1, 0, 21, 'ResponsiveBP/Responsive', ':iphone: A super lightweight HTML, Sass, CSS, and JavaScript framework for building responsive websites', ARRAY['JimBobSquarePants', 'dampee'], '2022-02-24T21:06:05.080468+00:00'),
 (10651420, 4536, 73, 1, 0, 16, 'tmate-io/tmate', 'Instant Terminal Sharing', ARRAY['nicm', 'ThomasAdam'], '2022-02-24T21:06:05.080468+00:00'),
 (10655361, 1071, 41, 1, 0, 15, 'simshaun/recurr', 'PHP library for working with recurrence rules (RRULE); meant to help with recurring calendar events.', ARRAY['simshaun', 'fentie'], '2022-02-24T21:06:05.080468+00:00'),
+(10395188, 6481, 287, 1, 0, 21, 'exercism/exercism', 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', ARRAY['iHiD', 'exercism-bot'], '2022-02-24T21:06:05.080468+00:00'),
+(10489882, 2436, 1, 1, 0, 8, 'nginx-boilerplate/nginx-boilerplate', 'Awesome Nginx configuration template', ARRAY['Umkus', 'agarzon'], '2022-02-24T21:06:05.080468+00:00'),
 (10851820, 21494, 296, 2, 0, 16, 'ramda/ramda', ':ram: Practical functional Javascript', ARRAY['buzzdecafe', 'davidchambers'], '2022-02-24T21:06:05.080468+00:00'),
 (10865436, 32955, 115, 1, 0, 20, 'dypsilon/frontend-dev-bookmarks', 'Manually curated collection of resources for frontend web developers.', ARRAY['dypsilon', 'arthurvr'], '2022-02-24T21:06:05.080468+00:00'),
 (10893519, 1747, 45, 1, 0, 16, 'glebm/i18n-tasks', 'Manage translation and localization with static analysis, for Ruby i18n', ARRAY['glebm', 'otoyo'], '2022-02-24T21:06:05.080468+00:00'),
