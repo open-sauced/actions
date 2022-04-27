@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T03:20:38.777Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-27T04:57:01.734Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4261,18 +4261,18 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (425791199, 7293310, 187916430, 29, 25, 830, 'muety/wakapi', '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics', ARRAY['muety', 'YC'], '2022-02-24T21:07:34.596111'),
 (377924746, 14868216, 802006, 29, 172, 7822, 'mediaelement/mediaelement', 'HTML5 <audio> or <video> player with support for MP4, WebM, and MP3 as well as HLS, Dash, YouTube, Facebook, SoundCloud and others with a common HTML5 MediaElement API, enabling a consistent UI in all browsers.', ARRAY['johndyer', 'rafa8626'], '2022-02-24T21:07:34.596111'),
 (434506268, 45293863, 300313988, 29, 1, 40, 'cyberpartizans/face_recognition', null, ARRAY['allyouneediscv', 'feanor-on-fire'], '2022-02-24T21:07:34.596111'),
+(403088539, 37635083, 400898185, 0, 0, 1, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:07:34.596111'),
 (381571653, 569510, 1535009, 29, 35, 4109, 'jazzband/tablib', 'Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.', ARRAY['kennethreitz', 'claudep'], '2022-02-24T21:07:34.596111'),
 (422702314, 2607477, 20904437, 2, 509, 58168, 'gin-gonic/gin', 'Gin is a HTTP web framework written in Go (Golang). It features a Martini-like API with much better performance -- up to 40 times faster. If you need smashing performance, get yourself some Gin.', ARRAY['manucorporat', 'javierprovecho'], '2022-02-24T21:07:34.596111'),
 (359953680, 3777549, 3984904, 29, 0, 17, 'jgillman/dotfiles', 'jgillman''s special collection of configs', ARRAY['jgillman'], '2022-02-24T21:07:34.596111'),
 (435647165, 23166349, 164225648, 29, 0, 848, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:07:34.596111'),
 (400276715, 10235902, 152145851, 1, 0, 2, 'rlnx/cpp-course-ffs', 'Materials on practical C++ course for foreign students', ARRAY['rlnx'], '2022-02-24T21:07:34.596111'),
-(399569599, 78520194, 96767206, 8, 514, 1494, 'gitcoinco/web', 'Grow Open Source', ARRAY['owocki', 'thelostone-mc'], '2022-02-24T21:07:34.596111'),
-(403088539, 37635083, 400898185, 0, 0, 1, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:07:34.596111'),
+(400776511, 24352546, 202291859, 2, 607, 12497, 'chatwoot/chatwoot', 'Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬', ARRAY['pranavrajs', 'sojan-official'], '2022-02-24T21:07:34.596111'),
+(399569599, 78520194, 96767206, 8, 522, 1494, 'gitcoinco/web', 'Grow Open Source', ARRAY['owocki', 'thelostone-mc'], '2022-02-24T21:07:34.596111'),
 (402886161, 29004466, 37860317, 29, 467, 1426, 'TASVideos/BizHawk', 'BizHawk is a multi-system emulator written in C#.  BizHawk provides nice features for casual gamers such as full screen, and joypad support in addition to full rerecording and debugging tools for all system cores.  ', ARRAY['adelikat', 'zeromus'], '2022-02-24T21:07:34.596111'),
 (403571490, 46643864, 202445312, 1, 36, 2202, 'open-wa/wa-automate-nodejs', ' 💬 🤖  The most reliable WhatsApp tool for chatbots with advanced features. Be sure to 🌟 this repository for updates! ', ARRAY['smashah', 'danielcardeenas'], '2022-02-24T21:07:34.596111'),
-(400776511, 24352546, 202291859, 2, 605, 12491, 'chatwoot/chatwoot', 'Open-source customer engagement suite, an alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬', ARRAY['pranavrajs', 'sojan-official'], '2022-02-24T21:07:34.596111'),
 (425311105, 57008950, 300932149, 15, 0, 1, 'RitikaJain8818/Programmers-Community', 'This repository contains various solution of a problem in Ruby, C, C++, Python and Java.', ARRAY['pooja-git11', 'Kuljeet-123'], '2022-02-24T21:07:34.596111'),
-(401824794, 65249694, 3678731, 12, 297, 60936, 'webpack/webpack', 'A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ''loaders'', modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.', ARRAY['sokra', 'timse'], '2022-02-24T21:07:34.596111'),
+(401824794, 65249694, 3678731, 12, 301, 60938, 'webpack/webpack', 'A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through ''loaders'', modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.', ARRAY['sokra', 'timse'], '2022-02-24T21:07:34.596111'),
 (381822676, 33669114, 116612925, 29, 1, 848, 'vaidehijoshi/basecs-series', 'A compiled list of resources from the basecs series', ARRAY['vaidehijoshi'], '2022-02-24T21:07:34.596111'),
 (358576983, 527550, 4449421, 29, 4, 670, 'karmi/elasticsearch-paramedic', 'A simple tool to inspect the state and statistics about ElasticSearch clusters', ARRAY['karmi', 'walokra'], '2022-02-24T21:07:34.596111'),
 (377391645, 57373172, 106017343, 29, 42, 55978, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:07:34.596111'),
@@ -4286,7 +4286,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (422280843, 289882, 661127, 22, 0, 2, 'lhanson/tomcookery', 'A social recipe website.', ARRAY['lhanson', 'gwincr11'], '2022-02-24T21:07:34.596111'),
 (352048060, 71386305, 88011908, 12, 13, 66690, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:07:34.596111'),
 (398934860, 34903088, 396613541, 29, 2, 440, 'antfu/vite-plugin-inspect', 'Inspect the intermediate state of Vite plugins', ARRAY['antfu', 'zheeeng'], '2022-02-24T21:07:34.596111'),
-(398740147, 34394719, 250355030, 29, 0, 316, 'schneefux/vscode-winddown', 'VS Code extension that encourages you to take a break.', ARRAY['schneefux'], '2022-02-24T21:07:34.596111'),
+(398740147, 34394719, 250355030, 29, 0, 317, 'schneefux/vscode-winddown', 'VS Code extension that encourages you to take a break.', ARRAY['schneefux'], '2022-02-24T21:07:34.596111'),
 (398348178, 39362365, 15185110, 17, 21, 407, 'timoxley/columnify', 'Create text-based columns suitable for console output. Supports cell wrapping.', ARRAY['timoxley', 'njhoffman'], '2022-02-24T21:07:34.596111'),
 (353295436, 22620727, 286080143, 29, 51, 9648, 'upptime/upptime', '⬆️ Free uptime monitor and status page powered by GitHub', ARRAY['upptime-bot', 'pabio-escobar'], '2022-02-24T21:07:34.596111'),
 (353612066, 31478648, 161691324, 29, 31, 1715, 'drwpow/openapi-typescript', 'Generate TypeScript types from Swagger OpenAPI specs', ARRAY['drwpow', 'DangoDev'], '2022-02-24T21:07:34.596111'),
@@ -4351,7 +4351,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (370530334, 3792749, 1451352, 28, 266, 21316, 'mochajs/mocha', '☕️ simple, flexible, fun javascript test framework for node.js & the browser', ARRAY['tj', 'boneskull'], '2022-02-24T21:07:34.596111'),
 (340929223, 40713709, 8424040, 29, 219, 17366, 'processing/p5.js', 'p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —', ARRAY['lmccart', 'outofambit'], '2022-02-24T21:07:34.596111'),
 (417287027, 52336027, 19415064, 12, 18, 112058, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-24T21:07:34.596111'),
-(398824985, 49831545, 263983855, 29, 27, 6364, 'Miodec/monkeytype', 'The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.', ARRAY['Miodec', 'UnrealApex'], '2022-02-24T21:07:34.596111'),
+(398824985, 49831545, 263983855, 29, 30, 6376, 'Miodec/monkeytype', 'The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.', ARRAY['Miodec', 'UnrealApex'], '2022-02-24T21:07:34.596111'),
 (341168991, 3846874, 809601, 29, 88, 16540, 'handlebars-lang/handlebars.js', 'Minimal templating on steroids.', ARRAY['kpdecker', 'nknapp'], '2022-02-24T21:07:34.596111'),
 (364902007, 38725511, 63477612, 22, 10, 19137, 'TheAlgorithms/C-Plus-Plus', 'Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.', ARRAY['kvedala', 'ayaankhan98'], '2022-02-24T21:07:34.596111'),
 (410258743, 91016903, 374901515, 0, 30, 104, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'KushalGhosh9899'], '2022-02-24T21:07:34.596111'),
@@ -4434,7 +4434,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (363981975, 46828701, 258812961, 29, 13, 521, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-24T21:07:34.596111'),
 (470199505, 11030551, 279702593, 18, 3, 4359, 'francisrstokes/super-expressive', '🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language', ARRAY['francisrstokes', 'TimothyGillespie'], '2022-03-16T02:40:44.887873'),
 (465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
-(478736208, 19353972, 93446115, 29, 257, 1174, 'hashicorp/terraform-provider-kubernetes', 'Terraform Kubernetes provider', ARRAY['alexsomesan', 'radeksimko'], '2022-04-07T09:55:10.805423'),
 (469853701, 101365565, 80050538, 2, 3, 635, 'maintainers/public-resources', 'Public information on the invite-only maintainer community', ARRAY['MikeMcQuaid', 'devonzuegel'], '2022-03-16T13:54:01.717626'),
 (476011893, 12780694, 3545227, 29, 73, 1768, 'webcamoid/webcamoid', 'Webcamoid is a full featured and multiplatform webcam suite.', ARRAY['hipersayanX', 'yarons'], '2022-04-02T07:17:17.428559'),
 (483288985, 47524279, 331254339, 5, 0, 2, 'projectashik/viod-mail', null, ARRAY['projectashik'], '2022-04-20T03:07:18.832769'),
@@ -4446,10 +4445,15 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (424360680, 5901851, 217545172, 29, 35, 1574, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:07:34.596111'),
 (478689660, 15233, 457822969, 29, 23, 2, 'coiled/coiled-runtime', null, ARRAY['ncclementi', 'hayesgb'], '2022-04-06T19:00:03.160586'),
 (317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111'),
+(478736208, 19353972, 93446115, 29, 255, 1174, 'hashicorp/terraform-provider-kubernetes', 'Terraform Kubernetes provider', ARRAY['alexsomesan', 'radeksimko'], '2022-04-07T09:55:10.805423'),
 (481773353, 20134767, 36040894, 25, 322, 52730, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-16T09:07:31.359819'),
 (396050805, 25217168, 7691631, 16, 4268, 62873, 'moby/moby', 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', ARRAY['thaJeztah', 'crosbymichael'], '2022-02-24T21:07:34.596111'),
 (476895720, 20134767, 36040894, 25, 324, 52674, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-02T07:06:05.544754'),
 (455678420, 6499373, 36040894, 24, 313, 52770, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
+(485850698, 87914378, 284521701, 23, 3, 551, 'johnthebrit/AzureMasterClass', 'Repo for the Azure Master Class', ARRAY['johnthebrit'], '2022-04-27T03:56:14.968962'),
 (485853986, 12782646, 74144348, 18, 0, 25, 'skydome20/R-Notes', 'Notes for using R language to do data mining and machine learning (Chinese)', ARRAY['skydome20'], '2022-04-26T16:25:08.624062'),
-(484178576, 20134767, 36040894, 25, 312, 52769, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-23T22:13:47.365856'),
-(484448667, 55883854, 97478419, 2, 56, 3789, 'mockoon/mockoon', 'Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.', ARRAY['255kb', 'gabrielperes97'], '2022-04-23T14:02:39.541007');
+(485850022, 79736938, 142471624, 29, 13, 87, 'udacity/andfun-kotlin-mars-real-estate', 'NASA photos with a whimsical theme demonstrate how to work with web services on Android.', ARRAY['DAGalpin', 'SudKul'], '2022-04-27T03:56:14.935863'),
+(485426249, 48335772, 1197428, 0, 158, 14340, 'zsh-users/zsh-syntax-highlighting', 'Fish shell like syntax highlighting for Zsh.', ARRAY['danielshahaf', 'phy1729'], '2022-04-27T04:20:25.88859'),
+(485857005, 33266556, 15953199, 0, 53, 13666, 'HubSpot/youmightnotneedjquery', null, ARRAY['Abbondanzo', 'adamschwartz'], '2022-04-27T04:39:49.686826'),
+(484448667, 55883854, 97478419, 2, 56, 3791, 'mockoon/mockoon', 'Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.', ARRAY['255kb', 'gabrielperes97'], '2022-04-23T14:02:39.541007'),
+(484178576, 20134767, 36040894, 25, 312, 52769, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-23T22:13:47.365856');
