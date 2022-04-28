@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T08:46:53.788Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T10:45:58.188Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2725,9 +2725,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (287110655, 1134, 17, 1, 0, 5, 'jstrieb/github-stats', 'Better GitHub statistics images for your profile, with stats from private repos too', ARRAY['jstrieb', 'rahul-jha98'], '2022-02-24T21:06:05.080468+00:00'),
 (287464616, 799, 2, 1, 0, 7, 'migueravila/Bento', '🍱 The minimalist, elegant and hackable startpage.', ARRAY['migueravila', 'Swiddis'], '2022-02-24T21:06:05.080468+00:00'),
 (287500642, 7, 0, 1, 0, 15, 'DeepARSDK/vonage-web-js', 'Video call using Vonage SDK with face masks provided by DeepAR SDK for Web', ARRAY['Sikter', 'Luka-M'], '2022-02-24T21:06:05.080468+00:00'),
+(287743349, 327, 7, 1, 0, 3, 'docker/login-action', 'GitHub Action to login against a Docker registry', ARRAY['crazy-max', 'tonistiigi'], '2022-02-24T21:06:05.080468+00:00'),
 (287542207, 397, 20, 1, 0, 16, '0xPolygon/polygon-sdk', 'A Framework for Building Ethereum-compatible Blockchain Networks', ARRAY['ferranbt', 'Kourin1996'], '2022-02-24T21:06:05.080468+00:00'),
 (287573157, 1123, 12, 1, 0, 0, 'Leniolabs/layoutit-grid', 'Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.', ARRAY['patak-dev', 'agustin-capeletto-lenio'], '2022-02-24T21:06:05.080468+00:00'),
-(287743349, 327, 7, 1, 0, 3, 'docker/login-action', 'GitHub Action to login against a Docker registry', ARRAY['crazy-max', 'tonistiigi'], '2022-02-24T21:06:05.080468+00:00'),
 (288234242, 803, 125, 1, 0, 7, 'nolar/kopf', 'A Python framework to write Kubernetes operators in just a few lines of code', ARRAY['nolar', 'dlmiddlecote'], '2022-02-24T21:06:05.080468+00:00'),
 (288511462, 2, 0, 1, 0, 14, 'teezzan/commitSpy-Core', 'commitSpy monitors a users github commits and punishes the user via alert mail or tweet and/or deduction from the users wallet when the user fails to fufil his preset commit goals in the preset time', ARRAY['teezzan'], '2022-02-24T21:06:05.080468+00:00'),
 (288627285, 655, 0, 1, 0, 25, 'wobsoriano/v-dashboard', 'Dashboard starter template built with Vue 3 and Tailwind CSS.', ARRAY['wobsoriano', 'sebassu'], '2022-02-24T21:06:05.080468+00:00'),
