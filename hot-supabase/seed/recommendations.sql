@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T01:03:55.065Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-28T03:34:24.545Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3637,8 +3637,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (429407366, 3, 0, 1, 0, 2, 'ryanlabar/next-page-transitions', null, ARRAY['ryanlabar'], '2022-02-24T21:06:05.080468+00:00'),
 (429654999, 93, 7, 1, 0, 9, 'WarenGonzaga/css-text-portrait-builder', 'A popular pure CSS text portrait builder for your loved ones. 🥰', ARRAY['WarenGonzaga'], '2022-02-24T21:06:05.080468+00:00'),
 (429658975, 4, 0, 2, 0, 0, 'open-sauced/party-line', null, ARRAY['regexident', 'jessmitch42'], '2022-02-24T21:06:05.080468+00:00'),
-(430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-24T21:06:05.080468+00:00'),
 (430789888, 111, 22, 1, 0, 2, 'Developer-DAO/web3-ui', 'The UI library for web3', ARRAY['etr2460', 'Dhaiwat10'], '2022-02-24T21:06:05.080468+00:00'),
+(430024025, 1, 0, 1, 0, 3, 'stevene/DAOists', 'DAOists Web-Tech-Dev Team Repo', ARRAY['stevene'], '2022-02-24T21:06:05.080468+00:00'),
 (430868786, 2, 0, 1, 0, 5, 'Milo123459/atomix', 'A simple and fast shell.', ARRAY['Milo123459'], '2022-02-24T21:06:05.080468+00:00'),
 (431137274, 16, 0, 1, 0, 0, 'alexadam/reactive-doc', 'Create Interactive Documents with Plain Text', ARRAY['alexadam'], '2022-02-24T21:06:05.080468+00:00'),
 (431201404, 0, 4, 1, 0, 9, 'fission-suite/ucan', 'Auth tokens for a distributed user controlled wrold', ARRAY['dholms', 'matheus23'], '2022-02-24T21:06:05.080468+00:00'),
