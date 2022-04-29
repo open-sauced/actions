@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T04:51:39.226Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T06:47:41.783Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2501,7 +2501,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (260669334, 1, 22, 1, 0, 27, 'SchoolOfFreelancing/Docker-Child-Protection', 'Docker application designed to help child protection workers and social workers in humanitarian and development contexts manage data on vulnerable children and survivors of violence', ARRAY['UbuntuEvangelist', 'goldshtofsara'], '2022-02-24T21:06:05.080468+00:00'),
 (260719813, 196, 7, 1, 0, 15, 'NyaomiDEV/Glasstron', 'The go-to solution to Electron composition effects, such as blurry windows.', ARRAY['NyaomiDEV', 'KorbsStudio'], '2022-02-24T21:06:05.080468+00:00'),
 (260751863, 14214, 44, 1, 0, 0, 'cyrildiagne/ar-cutpaste', 'Cut and paste your surroundings using AR', ARRAY['cyrildiagne', 'xraymemory'], '2022-02-24T21:06:05.080468+00:00'),
-(260800773, 3316, 0, 1, 0, 21, 'huangsam/ultimate-python', 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ARRAY['huangsam', 'Add1solver'], '2022-02-24T21:06:05.080468+00:00'),
 (260839280, 1, 9, 1, 0, 20, 'ColomboJuan/Covid19-Arg', null, ARRAY['ColomboJuan'], '2022-02-24T21:06:05.080468+00:00'),
 (260839409, 21, 1, 1, 0, 2, 'awtkns/vue-glow', 'A performant wrapper component to give dynamic glow effects in Vue ', ARRAY['awtkns'], '2022-02-24T21:06:05.080468+00:00'),
 (260898844, 5, 1, 2, 0, 1, 'open-sauced/code-of-conduct', 'This community is dedicated to providing a harassment-free experience for everyone.', ARRAY['bdougie'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2520,6 +2519,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (262296122, 18296, 994, 1, 0, 5, 'PaddlePaddle/PaddleOCR', 'Awesome multilingual OCR toolkits based on PaddlePaddle (practical ultra lightweight OCR system, support 80+ languages recognition, provide data annotation and synthesis tools, support training and deployment among server, mobile, embedded and IoT devices)', ARRAY['LDOUBLEV', 'WenmuZhou'], '2022-02-24T21:06:05.080468+00:00'),
 (262403451, 1, 0, 1, 0, 13, 'vagnersabadi/8-ways-looping-arrays-javascript', null, ARRAY['gabrielfroes', 'vinibispo'], '2022-02-24T21:06:05.080468+00:00'),
 (262451884, 11, 10, 1, 0, 17, 'jlengstorf/lwj-scenes', null, ARRAY['jlengstorf'], '2022-02-24T21:06:05.080468+00:00'),
+(260800773, 3316, 0, 1, 0, 21, 'huangsam/ultimate-python', 'Ultimate Python study guide for newcomers and professionals alike. :snake: :snake: :snake:', ARRAY['huangsam', 'Add1solver'], '2022-02-24T21:06:05.080468+00:00'),
 (262453387, 592, 0, 1, 0, 4, 'rubymorillo/pocket-tech-writing-list', 'A small but formidable list of technical writing resources for developers', ARRAY['rubymorillo', 'Markel'], '2022-02-24T21:06:05.080468+00:00'),
 (262501222, 2557, 7, 1, 0, 20, 'privatenumber/esbuild-loader', '⚡️ Speed up your Webpack build with esbuild', ARRAY['privatenumber', 'egoist'], '2022-02-24T21:06:05.080468+00:00'),
 (262658866, 13, 8, 1, 0, 12, 'jmcdo29/nestjs-oauth', 'An OAuth Module the mimics Passport''s functionality without some of passport''s wonkiness', ARRAY['jmcdo29'], '2022-02-24T21:06:05.080468+00:00'),
