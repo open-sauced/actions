@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T01:03:50.808Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T03:16:40.324Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2803,7 +2803,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (305063342, 622115, 3116751, 29, 50, 11166, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:07:34.596111'),
 (424109428, 88631894, 335819337, 0, 0, 1, 'MonkeDev/API-bot', 'The bot we use to manage our API.', ARRAY['Mafia-7777', 'BurnedBed'], '2022-02-24T21:07:34.596111'),
 (424103216, 2228196, 286132785, 29, 0, 1, 'lesmo/gitfolio', ':octocat: personal website + blog for every github user', ARRAY['imfunniee', 'bcliden'], '2022-02-24T21:07:34.596111'),
-(276703311, 29888641, 196701619, 29, 172, 37015, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
+(276703311, 29888641, 196701619, 29, 173, 37034, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
 (423938279, 20374545, 334465533, 0, 0, 1, 'Leonardo-Borba/auction-assistant', 'A bot to monitor MGT auctions and do automatic bids', ARRAY['Leonardo-Borba'], '2022-02-24T21:07:34.596111'),
 (2816, 28281924, 237448876, 22, 10, 735, 'qiangxue/go-rest-api', 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', ARRAY['qiangxue', 'chartinmarrel'], '2022-02-24T21:07:34.596111'),
 (2817, 28281924, 191531341, 23, 6, 208, 'site-prism/site_prism', null, ARRAY['luke-hill', 'natritmeyer'], '2022-02-24T21:07:34.596111'),
@@ -3146,8 +3146,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3150, 22620727, 192632000, 22, 246, 16394, 'dapr/dapr', 'Dapr is a portable, event-driven, runtime for building distributed applications across cloud and edge.', ARRAY['yaron2', 'youngbupark'], '2022-02-24T21:07:34.596111'),
 (3151, 22620727, 324778385, 23, 1, 1248, 'ebhy/budgetml', 'Deploy a ML inference service on a budget in less than 10 lines of code.', ARRAY['htahir1', 'strickvl'], '2022-02-24T21:07:34.596111'),
 (3152, 22620727, 262862475, 24, 277, 3637, 'amplication/amplication', 'Amplication is an open‑source development tool. It helps you develop quality Node.js applications without spending time on repetitive coding tasks.', ARRAY['iddan', 'yuval-hazaz'], '2022-02-24T21:07:34.596111'),
-(3153, 22620727, 62091339, 25, 211, 13622, 'kubernetes/kops', 'Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management', ARRAY['k8s-ci-robot', 'justinsb'], '2022-02-24T21:07:34.596111'),
 (3154, 22620727, 235283287, 26, 0, 4936, 'fpereiro/backendlore', 'How I write backends', ARRAY['fpereiro', 'sshine'], '2022-02-24T21:07:34.596111'),
+(3153, 22620727, 62091339, 25, 211, 13622, 'kubernetes/kops', 'Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management', ARRAY['k8s-ci-robot', 'justinsb'], '2022-02-24T21:07:34.596111'),
 (3155, 22620727, 219616873, 27, 59, 7639, 'charmbracelet/glow', 'Render markdown on the CLI, with pizzazz! 💅🏻', ARRAY['meowgorithm', 'muesli'], '2022-02-24T21:07:34.596111'),
 (3156, 22620727, 306587975, 28, 7, 462, 'compumike/hairpin-proxy', 'PROXY protocol support for internal-to-LoadBalancer traffic for Kubernetes Ingress users. If you''ve had problems with ingress-nginx, cert-manager, LetsEncrypt ACME HTTP01 self-check failures, and the PROXY protocol, read on.', ARRAY['compumike', 'themightychris'], '2022-02-24T21:07:34.596111'),
 (3157, 22620727, 286080143, 29, 47, 8945, 'upptime/upptime', '⬆️ Uptime monitor and status page powered by GitHub Actions, Issues, and Pages', ARRAY['upptime-bot', 'pabio-escobar'], '2022-02-24T21:07:34.596111'),
@@ -4237,13 +4237,14 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (404487277, 67718832, 59239347, 15, 887, 21459, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:07:34.596111'),
 (406428542, 3202514, 302085558, 1, 17, 23, 'Call-for-Code-for-Racial-Justice/TakeTwo', 'TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content', ARRAY['johnwalicki', 'eliallen89'], '2022-02-24T21:07:34.596111'),
 (381465486, 5842360, 47419579, 29, 32, 269, 'andreasgrill/auto-selfcontrol', 'Small utility to schedule start and stop times of SelfControl', ARRAY['andreasgrill', 'sbibauw'], '2022-02-24T21:07:34.596111'),
+(314317770, 4573607, 49760504, 5, 5, 7438, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-24T21:07:34.596111'),
 (379761757, 4247126, 196662111, 9, 0, 2, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-24T21:07:34.596111'),
 (353859750, 19475228, 5575055, 27, 127, 717, 'restforce/restforce', 'A Ruby client for the Salesforce REST API.', ARRAY['ejholmes', 'timrogers'], '2022-02-24T21:07:34.596111'),
 (382469096, 29648040, 120953088, 9, 0, 28, 'pioneerworks/lib-bash', 'BASH utilities shared by several projects.', ARRAY['kigster', 'skyeagle'], '2022-02-24T21:07:34.596111'),
 (379993090, 57826091, 135786093, 29, 2, 33176, 'typescript-cheatsheets/react', 'Cheatsheets for experienced React developers getting started with TypeScript', ARRAY['sw-yx', 'eps1lon'], '2022-02-24T21:07:34.596111'),
 (357195439, 3941126, 9393759, 29, 174, 31649, 'photonstorm/phaser', 'Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.', ARRAY['photonstorm', 'pavle-goloskokovic'], '2022-02-24T21:07:34.596111'),
 (312341626, 9935383, 13900913, 14, 58, 18403, 'dracula/dracula-theme', '🧛🏻‍♂️ One theme. All platforms.', ARRAY['zenorocha', 'luxonauta'], '2022-02-24T21:07:34.596111'),
-(314317770, 4573607, 49760504, 5, 5, 7438, 'samshadwell/TrumpScript', 'Make Python great again', ARRAY['samshadwell', 'CryoBrown'], '2022-02-24T21:07:34.596111'),
+(313760653, 3037127, 2349728, 25, 127, 9444, 'pockethub/PocketHub', 'PocketHub Android App', ARRAY['kevinsawicki', 'Meisolsson'], '2022-02-24T21:07:34.596111'),
 (357041459, 16315404, 112507086, 1, 0, 95056, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-24T21:07:34.596111'),
 (353955008, 53687927, 345420003, 29, 0, 1, 'dwaipayan05/android-gif-drawable', 'Views and Drawable for displaying animated GIFs on Android', ARRAY['koral--', 'os97673'], '2022-02-24T21:07:34.596111'),
 (405868985, 55982424, 196760810, 29, 15, 13866, 'Ebazhanov/linkedin-skill-assessments-quizzes', 'Full reference of LinkedIn answers 2022 for skill assessments (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test LinkedIn test questions and answers ', ARRAY['Ebazhanov', 'monkrus'], '2022-02-24T21:07:34.596111'),
@@ -4252,7 +4253,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (356891260, 1884246, 133969505, 29, 14, 111, 'wessberg/Polyfiller', 'Never worry about polyfills again.', ARRAY['wessberg', 'tommedema'], '2022-02-24T21:07:34.596111'),
 (278088103, 5467696, 257665403, 29, 28, 450, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-24T21:07:34.596111'),
 (403681762, 203683, 118986156, 29, 1, 12, 'myoung34/docker-jenkins', null, ARRAY['myoung34'], '2022-02-24T21:07:34.596111'),
-(313760653, 3037127, 2349728, 25, 127, 9445, 'pockethub/PocketHub', 'PocketHub Android App', ARRAY['kevinsawicki', 'Meisolsson'], '2022-02-24T21:07:34.596111'),
 (314182635, 19350071, 146164792, 29, 0, 180, 'g-plane/tiny-package-manager', 'Learn how npm or Yarn v1 works.', ARRAY['g-plane', 'voskresla'], '2022-02-24T21:07:34.596111'),
 (354384496, 17671332, 369905667, 3, 13, 34, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-24T21:07:34.596111'),
 (447732936, 3941856, 263146261, 29, 22, 2061, 'MaggieAppleton/digital-gardeners', 'Resources, links, projects, and ideas for gardeners tending their digital notes on the public interwebs', ARRAY['MaggieAppleton', 'theianjones'], '2022-02-24T21:07:34.596111'),
@@ -4380,6 +4380,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (359508510, 36890230, 114416028, 8, 0, 4, 'datadesk/audiogram', 'Turn audio into a shareable video.', ARRAY['veltman', 'palewire'], '2022-02-24T21:07:34.596111'),
 (452075032, 22186029, 337208358, 29, 0, 13, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
 (333601244, 12292047, 37205440, 29, 176, 4417, 'dequelabs/axe-core', 'Accessibility engine for automated Web UI testing', ARRAY['WilcoFiers', 'straker'], '2022-02-24T21:07:34.596111'),
+(320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
 (452754045, 76665107, 216936227, 0, 55, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 224, 2837, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
 (364328935, 667716, 137308605, 29, 5, 106, 'tamino-martinius/node-ts-dedent', 'TypeScript package which smartly trims and strips indentation from multi-line strings', ARRAY['tamino-martinius', 'AviVahl'], '2022-02-24T21:07:34.596111'),
@@ -4391,7 +4392,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (450574015, 3662109, 334169919, 29, 19, 1407, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 381843949, 29, 10, 1089, 'nickboucher/trojan-source', 'Trojan Source: Invisible Vulnerabilities', ARRAY['nickboucher', 'adamchainz'], '2022-02-24T21:07:34.596111'),
 (375196206, 57305940, 54496479, 29, 119, 215, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
-(320478294, 33148009, 113267532, 29, 2, 56, 'mjackson/dotfiles', 'My dotfiles', ARRAY['mjackson'], '2022-02-24T21:07:34.596111'),
 (396048780, 42749147, 323663755, 8, 0, 1, 'akobepeter/materializeProject', null, ARRAY['akobepeter'], '2022-02-24T21:07:34.596111'),
 (456471693, 83277146, 90528830, 4, 37, 40297, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (457526756, 74566464, 400851369, 29, 4, 673, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
@@ -4448,12 +4448,12 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (481773353, 20134767, 36040894, 25, 322, 52730, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-16T09:07:31.359819'),
 (483288985, 47524279, 331254339, 5, 0, 2, 'projectashik/viod-mail', null, ARRAY['projectashik'], '2022-04-20T03:07:18.832769'),
 (476895720, 20134767, 36040894, 25, 324, 52674, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-02T07:06:05.544754'),
-(320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
-(321809845, 907680, 70908474, 29, 54, 951, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (484448667, 55883854, 97478419, 2, 56, 3799, 'mockoon/mockoon', 'Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.', ARRAY['255kb', 'gabrielperes97'], '2022-04-23T14:02:39.541007'),
 (484178576, 20134767, 36040894, 25, 312, 52769, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-23T22:13:47.365856'),
 (485850698, 87914378, 284521701, 23, 3, 552, 'johnthebrit/AzureMasterClass', 'Repo for the Azure Master Class', ARRAY['johnthebrit'], '2022-04-27T03:56:14.968962'),
 (485853986, 12782646, 74144348, 18, 0, 25, 'skydome20/R-Notes', 'Notes for using R language to do data mining and machine learning (Chinese)', ARRAY['skydome20'], '2022-04-26T16:25:08.624062'),
 (485850022, 79736938, 142471624, 29, 13, 87, 'udacity/andfun-kotlin-mars-real-estate', 'NASA photos with a whimsical theme demonstrate how to work with web services on Android.', ARRAY['DAGalpin', 'SudKul'], '2022-04-27T03:56:14.935863'),
 (485857005, 33266556, 15953199, 0, 53, 13668, 'HubSpot/youmightnotneedjquery', null, ARRAY['Abbondanzo', 'adamschwartz'], '2022-04-27T04:39:49.686826'),
-(485426249, 48335772, 1197428, 0, 158, 14357, 'zsh-users/zsh-syntax-highlighting', 'Fish shell like syntax highlighting for Zsh.', ARRAY['danielshahaf', 'phy1729'], '2022-04-27T04:20:25.88859');
+(485426249, 48335772, 1197428, 0, 158, 14357, 'zsh-users/zsh-syntax-highlighting', 'Fish shell like syntax highlighting for Zsh.', ARRAY['danielshahaf', 'phy1729'], '2022-04-27T04:20:25.88859'),
+(320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
+(321809845, 907680, 70908474, 29, 54, 951, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111');
