@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T08:47:06.299Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-29T10:45:00.519Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2041,8 +2041,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (196030065, 364, 0, 1, 0, 25, 'dai-shi/will-this-react-global-state-work-in-concurrent-rendering', 'Test tearing and branching in React concurrent rendering', ARRAY['dai-shi', 'joshribakoff'], '2022-02-24T21:06:05.080468+00:00'),
 (196100645, 19, 21, 1, 0, 12, 'cdfoundation/foundation', 'Interactions with the CDF Staff and Board', ARRAY['danlopez00', 'tracymiranda'], '2022-02-24T21:06:05.080468+00:00'),
 (196110912, 2, 1, 1, 0, 20, 'dgraph-io/workshop', 'Dgraph workshop: Build a Twitter graph with Dgraph!', ARRAY['hackintoshrao', 'danielmai'], '2022-02-24T21:06:05.080468+00:00'),
-(196289604, 177, 9, 1, 0, 25, 'awslabs/aws-rails-provisioner', 'Define and deploy containerized Ruby on Rails Applications on AWS', ARRAY['mullermp', 'cjyclaire'], '2022-02-24T21:06:05.080468+00:00'),
 (196284711, 18742, 64, 1, 0, 12, 'microsoft/cascadia-code', 'This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.', ARRAY['aaronbell', 'cinnamon-msft'], '2022-02-24T21:06:05.080468+00:00'),
+(196289604, 177, 9, 1, 0, 25, 'awslabs/aws-rails-provisioner', 'Define and deploy containerized Ruby on Rails Applications on AWS', ARRAY['mullermp', 'cjyclaire'], '2022-02-24T21:06:05.080468+00:00'),
 (196530922, 3, 5, 1, 0, 1, 'jorgenkg/promise-priority-queue', 'Async bucket priority queue implemented in Typescript', ARRAY['renovate-bot', 'jorgengrimnes'], '2022-02-24T21:06:05.080468+00:00'),
 (196654655, 6, 18, 1, 0, 23, 'mvarona/CartasContraLaHumanidad', '¡El juego Cartas Contra la Humanidad, por fin, en español, gratuito y con las cartas oficiales! Juégalo con dos amigos más, ¡O con dos pestañas más si no tienes tantos amigos! :D', ARRAY['hparcells', 'mvarona'], '2022-02-24T21:06:05.080468+00:00'),
 (196662111, 2, 0, 1, 0, 9, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2070,6 +2070,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (198864465, 351, 11, 1, 0, 28, 'dragonman225/notablog', 'Tell stories of your work with Notion', ARRAY['dragonman225'], '2022-02-24T21:06:05.080468+00:00'),
 (198898598, 525, 77, 1, 0, 3, 'replicatedhq/kURL', 'Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components', ARRAY['laverya', 'emosbaugh'], '2022-02-24T21:06:05.080468+00:00'),
 (199048926, 576, 13, 1, 0, 5, 'juicyfx/vercel-php', '▲ Vercel PHP runtime  •  vercel-php •  now-php  •  🐘+ λ = ❤', ARRAY['f3l1x', 'ties-v'], '2022-02-24T21:06:05.080468+00:00'),
+(199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
 (199141711, 615, 23, 1, 0, 5, 'bUnit-dev/bUnit', 'bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.', ARRAY['egil', 'ventigrande'], '2022-02-24T21:06:05.080468+00:00'),
 (199327580, 2171, 11, 1, 0, 28, 'MindorksOpenSource/android-developer-roadmap', 'Android Developer Roadmap - A complete roadmap to learn Android App Development', ARRAY['amitshekhariitbhu', 'isfaaghyth'], '2022-02-24T21:06:05.080468+00:00'),
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2116,7 +2117,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (205250704, 1500, 51, 1, 0, 13, 'microsoft/DialoGPT', 'Large-scale pretraining for dialogue', ARRAY['dreasysnail', 'mgalley'], '2022-02-24T21:06:05.080468+00:00'),
 (205427090, 178, 4, 1, 0, 9, '0xb4lamx/nestjs-boilerplate-microservice', 'Nestjs Microservice boilerplate: apply DDD, CQRS, and Event Sourcing within an event driven architecture', ARRAY['0xb4lamx', 'itninja-hue'], '2022-02-24T21:06:05.080468+00:00'),
 (205473061, 811, 70, 1, 0, 15, 'infinyon/fluvio', 'Programmable platform for data in motion', ARRAY['sehz', 'nicholastmosher'], '2022-02-24T21:06:05.080468+00:00'),
-(199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
 (205593063, 2, 6, 2, 0, 0, 'tmc/dlp', 'DLP (data loss prevention) tools.', ARRAY['tmc', 'snyk-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (205594764, 204, 11, 1, 0, 17, 'alex-page/github-project-automation-plus', '🤖 Automate GitHub Project cards with any webhook event', ARRAY['hugovk', 'jurijzahn8019'], '2022-02-24T21:06:05.080468+00:00'),
 (205724327, 1465, 3, 1, 0, 8, 'storax/kubedoom', 'Kill Kubernetes pods by playing Id''s DOOM!', ARRAY['storax', 'cpressland'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3589,8 +3589,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (409910141, 4, 0, 1, 0, 14, 'FiretableProject/firetable', null, ARRAY['shamsmosowi', 'notsidney'], '2022-02-24T21:06:05.080468+00:00'),
 (410474951, 5, 8, 1, 0, 4, 'moonshotcollective/moonswap', null, ARRAY['farque65', 'QEDK'], '2022-02-24T21:06:05.080468+00:00'),
 (411003249, 14, 2, 2, 0, 10, 'mtfoley/pr-compliance-action', 'Check PR for compliance on title, linked issues, and files changed', ARRAY['mtfoley', 'MichaelDeBoey'], '2022-02-24T21:06:05.080468+00:00'),
-(411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-24T21:06:05.080468+00:00'),
 (411618332, 15, 0, 1, 0, 4, 'avinash201199/Hacktoberfest-Guide', 'Beginner''s guide to Hacktoberfest', ARRAY['avinash201199', 'sd78912'], '2022-02-24T21:06:05.080468+00:00'),
+(411705813, 6, 0, 1, 0, 5, 'avinash201199/Portfolio-Collection', 'This repository contains collection of portfolio''s .', ARRAY['avinash201199', 'sushrut29'], '2022-02-24T21:06:05.080468+00:00'),
 (412480152, 56, 22, 1, 0, 12, 'pyGuru123/HackFest21', 'Only valid pull requests will be allowed. Use python only and readme changes will not be accepted.', ARRAY['pyGuru123', 'alphasingh'], '2022-02-24T21:06:05.080468+00:00'),
 (412662918, 57, 24, 1, 0, 0, 'Developer-DAO/DAO-job-board', 'A job board connecting DAOs with talent.', ARRAY['angeljgomezc', 'PBillingsby'], '2022-02-24T21:06:05.080468+00:00'),
 (412750377, 1036, 11, 1, 0, 0, 'Panshak/arcinvoice', 'Fullstack open source Invoicing application made with MongoDB, Express, React & Nodejs (MERN)', ARRAY['panshak', 'Orivoir'], '2022-02-24T21:06:05.080468+00:00'),
