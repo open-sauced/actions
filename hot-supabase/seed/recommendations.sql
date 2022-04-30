@@ -1,13 +1,13 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T08:45:40.126Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T10:44:48.386Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) VALUES
 (507, 4401, 153, 1, 0, 3, 'sferik/twitter', 'A Ruby interface to the Twitter API.', ARRAY['sferik', 'jnunemaker'], '2022-02-24T21:06:05.080468+00:00'),
 (3287, 4457, 94, 1, 0, 20, 'preservim/nerdcommenter', 'Vim plugin for intensely nerdy commenting powers', ARRAY['alerque', 'scrooloose'], '2022-02-24T21:06:05.080468+00:00'),
-(5954, 4541, 0, 1, 0, 1, 'jeremyevans/sequel', 'Sequel: The Database Toolkit for Ruby', ARRAY['jeremyevans', 'ciconia'], '2022-02-24T21:06:05.080468+00:00'),
 (7497, 5150, 18, 1, 0, 15, 'formtastic/formtastic', 'A Rails form builder plugin with semantically rich and accessible markup.', ARRAY['justinfrench', 'mjonuschat'], '2022-02-24T21:06:05.080468+00:00'),
+(5954, 4541, 0, 1, 0, 1, 'jeremyevans/sequel', 'Sequel: The Database Toolkit for Ruby', ARRAY['jeremyevans', 'ciconia'], '2022-02-24T21:06:05.080468+00:00'),
 (8514, 49762, 598, 3, 0, 14.666666666666666, 'rails/rails', 'Ruby on Rails', ARRAY['rafaelfranca', 'tenderlove'], '2022-02-24T21:06:05.080468+00:00'),
 (36502, 40523, 90, 1, 0, 25, 'git/git', 'Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.', ARRAY['gitster', 'peff'], '2022-02-24T21:06:05.080468+00:00'),
 (65252, 43822, 165, 1, 0, 10, 'jekyll/jekyll', ':globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby', ARRAY['parkr', 'jekyllbot'], '2022-02-24T21:06:05.080468+00:00'),
