@@ -2798,7 +2798,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 305063342,622115,3116751,29,50,11166,androidannotations/androidannotations,Fast Android Development. Easy maintainance.,"{pyricau,WonderCsabo}",2022-02-24T21:07:34.596111
 424109428,88631894,335819337,0,0,1,MonkeDev/API-bot,The bot we use to manage our API.,"{Mafia-7777,BurnedBed}",2022-02-24T21:07:34.596111
 424103216,2228196,286132785,29,0,1,lesmo/gitfolio,:octocat: personal website + blog for every github user,"{imfunniee,bcliden}",2022-02-24T21:07:34.596111
-276703311,29888641,196701619,29,178,37074,tauri-apps/tauri,"Build smaller, faster, and more secure desktop applications with a web frontend.","{lucasfernog,jbolda}",2022-02-24T21:07:34.596111
+276703311,29888641,196701619,29,165,37097,tauri-apps/tauri,"Build smaller, faster, and more secure desktop applications with a web frontend.","{lucasfernog,jbolda}",2022-02-24T21:07:34.596111
 423938279,20374545,334465533,0,0,1,Leonardo-Borba/auction-assistant,A bot to monitor MGT auctions and do automatic bids,{Leonardo-Borba},2022-02-24T21:07:34.596111
 2816,28281924,237448876,22,10,735,qiangxue/go-rest-api,An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture,"{qiangxue,chartinmarrel}",2022-02-24T21:07:34.596111
 2817,28281924,191531341,23,6,208,site-prism/site_prism,,"{luke-hill,natritmeyer}",2022-02-24T21:07:34.596111
@@ -4229,16 +4229,16 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 355430347,455338,388673420,0,0,575,linuxdotexe/nordic-wallpapers,A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme,"{linuxdotexe,Hooregi}",2022-02-24T21:07:34.596111
 381465486,5842360,47419579,29,32,269,andreasgrill/auto-selfcontrol,Small utility to schedule start and stop times of SelfControl,"{andreasgrill,sbibauw}",2022-02-24T21:07:34.596111
 406428542,3202514,302085558,1,17,23,Call-for-Code-for-Racial-Justice/TakeTwo,TakeTwo solution provides a quick and simple tool for media creators and media consumers to be more vigilant to detect and eliminate racial bias (both overt and subtle) in their content,"{johnwalicki,eliallen89}",2022-02-24T21:07:34.596111
+314317770,4573607,49760504,5,5,7436,samshadwell/TrumpScript,Make Python great again,"{samshadwell,CryoBrown}",2022-02-24T21:07:34.596111
 404487277,67718832,59239347,15,885,21469,portainer/portainer,Making Docker and Kubernetes management easy.,"{deviantony,chiptus}",2022-02-24T21:07:34.596111
 381361156,72279316,109887187,28,129,892,danthareja/contribute-to-open-source,Learn the GitHub workflow by contributing code in a fun simulation project ,{danthareja},2022-02-24T21:07:34.596111
-314317770,4573607,49760504,5,5,7437,samshadwell/TrumpScript,Make Python great again,"{samshadwell,CryoBrown}",2022-02-24T21:07:34.596111
+313760653,3037127,2349728,25,127,9444,pockethub/PocketHub,PocketHub Android App,"{kevinsawicki,Meisolsson}",2022-02-24T21:07:34.596111
 357041459,16315404,112507086,1,0,95108,30-seconds/30-seconds-of-code,Short JavaScript code snippets for all your development needs,"{Chalarangelo,30secondsofcode}",2022-02-24T21:07:34.596111
 353859750,19475228,5575055,27,127,717,restforce/restforce,A Ruby client for the Salesforce REST API.,"{ejholmes,timrogers}",2022-02-24T21:07:34.596111
 379761757,4247126,196662111,9,0,2,mdb1710/mnmlurl,🔗 Modern URL shortener with support for custom alias,"{liyasthomas,mdb1710}",2022-02-24T21:07:34.596111
 353955008,53687927,345420003,29,0,1,dwaipayan05/android-gif-drawable,Views and Drawable for displaying animated GIFs on Android,"{koral--,os97673}",2022-02-24T21:07:34.596111
 382153724,49351279,174038031,29,13,27874,react-hook-form/react-hook-form,📋 React Hooks for form state management and validation (Web + React Native),"{bluebill1049,kotarella1110}",2022-02-24T21:07:34.596111
 382469096,29648040,120953088,9,0,28,pioneerworks/lib-bash,BASH utilities shared by several projects.,"{kigster,skyeagle}",2022-02-24T21:07:34.596111
-313760653,3037127,2349728,25,127,9444,pockethub/PocketHub,PocketHub Android App,"{kevinsawicki,Meisolsson}",2022-02-24T21:07:34.596111
 357195439,3941126,9393759,29,175,31654,photonstorm/phaser,"Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.","{photonstorm,pavle-goloskokovic}",2022-02-24T21:07:34.596111
 312341626,9935383,13900913,14,58,18406,dracula/dracula-theme,🧛🏻‍♂️ One theme. All platforms.,"{zenorocha,luxonauta}",2022-02-24T21:07:34.596111
 278088103,5467696,257665403,29,28,450,google/triage-party,🎉 Triage Party: massively multi-player GitHub triage 🎉,"{tstromberg,vavilen84}",2022-02-24T21:07:34.596111
@@ -4381,6 +4381,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 364328935,667716,137308605,29,5,106,tamino-martinius/node-ts-dedent,TypeScript package which smartly trims and strips indentation from multi-line strings,"{tamino-martinius,AviVahl}",2022-02-24T21:07:34.596111
 386705185,349523,902266,17,0,73,jamesshore/lets_play_tdd,Let's Play: Test-Driven Development,"{jamesshore,luontola}",2022-02-24T21:07:34.596111
 435800079,16268467,23083156,11,1062,77789,mui-org/material-ui,"MUI Core (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{oliviertassinari,dmtrKovalenko}",2022-02-24T21:07:34.596111
+457526756,74566464,400851369,29,4,675,lewis6991/impatient.nvim,Improve startup time for Neovim,"{lewis6991,clason}",2022-02-24T21:07:34.596111
 407663252,35779241,4067434,29,224,2839,andialbrecht/sqlparse,A non-validating SQL parser module for Python,"{andialbrecht,vmuriart}",2022-02-24T21:07:34.596111
 450574015,3662109,334169919,29,19,1407,projectdiscovery/interactsh,An OOB interaction gathering server and client library,"{ehsandeep,Mzack9999}",2022-02-24T21:07:34.596111
 436289040,61815862,7715820,29,62,9018,davatorium/rofi,"Rofi: A window switcher, application launcher and dmenu replacement","{DaveDavenport,sardemff7}",2022-02-24T21:07:34.596111
@@ -4388,11 +4389,10 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{g-ben-wiz},2022-02-24T21:07:34.596111
 396048780,42749147,323663755,8,0,1,akobepeter/materializeProject,,{akobepeter},2022-02-24T21:07:34.596111
 460725612,8200073,439686345,2,0,1,salindae25/frontend-challenges,frontend mentor challenges,{salindae25},2022-02-24T21:07:34.596111
-457526756,74566464,400851369,29,4,674,lewis6991/impatient.nvim,Improve startup time for Neovim,"{lewis6991,clason}",2022-02-24T21:07:34.596111
+456471693,83277146,90528830,4,37,40313,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","{Solido,jogboms}",2022-02-24T21:07:34.596111
 375196206,57305940,54496479,29,119,215,ppb/pursuedpybear,A python game engine.,"{pathunstrom,AstraLuma}",2022-02-24T21:07:34.596111
 452754045,76665107,216936227,0,56,11,CodeForPhilly/paws-data-pipeline,PAWS Data Pipeline Project,"{c-simpson,urirot}",2022-02-24T21:07:34.596111
 407102326,4386534,15393566,29,53,5713,AriaMinaei/theatre,Motion design editor for the web,"{AriaMinaei,colelawrence}",2022-02-24T21:07:34.596111
-456471693,83277146,90528830,4,37,40304,Solido/awesome-flutter,"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.","{Solido,jogboms}",2022-02-24T21:07:34.596111
 452075032,22186029,337208358,29,0,13,abhisheknaiidu/abhisheknaidu-cli,The Abhishek Naidu CLI,{abhisheknaiidu},2022-02-24T21:07:34.596111
 432242215,10951893,254660586,29,12,2055,openmainframeproject/cobol-programming-course,"Training materials and labs for a ""Getting Started"" level course on COBOL","{MikeBauerCA,tanto259}",2022-02-24T21:07:34.596111
 463772639,56942462,287081652,13,0,1,ugwustanley/search-countries,,{ugwustanley},2022-03-02T07:08:15.064056
@@ -4410,6 +4410,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 417311106,71297412,55631449,29,98,2168,jamstack/jamstack.org,The official Jamstack site,"{philhawksworth,zachleat}",2022-02-24T21:07:34.596111
 382468183,8037469,172741073,29,389,19796,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-24T21:07:34.596111
 409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-24T21:07:34.596111
+465760174,60147716,110375203,29,0,9,arindam-modak/YRASS-Media-Player,"YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.","{arindam-modak,yash-1998}",2022-03-05T03:05:44.386164
 470199505,11030551,279702593,18,3,4361,francisrstokes/super-expressive,🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language,"{francisrstokes,TimothyGillespie}",2022-03-16T02:40:44.887873
 330475048,61131314,31792824,29,10651,139283,flutter/flutter,Flutter makes it easy and fast to build beautiful apps for mobile and beyond,"{engine-flutter-autoroll,abarth}",2022-02-24T21:07:34.596111
 348380714,1645628,18609427,29,364,13183,tc39/ecma262,"Status, process, and documents for ECMA-262","{jmdyck,anba}",2022-02-24T21:07:34.596111
@@ -4425,7 +4426,6 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 468472328,28269,39769,23,0,64,mzslater/learning-rails-sample-app,Sample application for the Learning Rails free online course in Ruby on Rails,"{michael-slater,learningrails}",2022-03-12T07:15:58.307833
 467358729,9283692,66291203,2,0,37,margyle/heyMugsy,Mugsy is a Raspberry Pi and Arduino powered coffee making robot.,{margyle},2022-03-09T04:34:31.380795
 396028887,3012159,276613189,10,6,1,sieis/udemyYelpCamp,My code for the final YelpCamp project updated with Bootstrap 4,{sieis},2022-03-09T05:40:54.538531
-465760174,60147716,110375203,29,0,9,arindam-modak/YRASS-Media-Player,"YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.","{arindam-modak,yash-1998}",2022-03-05T03:05:44.386164
 464086557,20733994,189649243,3,3,3753,kentcdodds/react-fundamentals,Material for my React Fundamentals Workshop,"{kentcdodds,oscard0m}",2022-03-02T08:53:12.273412
 478736208,19353972,93446115,29,249,1176,hashicorp/terraform-provider-kubernetes,Terraform Kubernetes provider,"{alexsomesan,radeksimko}",2022-04-07T09:55:10.805423
 469853701,101365565,80050538,2,3,635,maintainers/public-resources,Public information on the invite-only maintainer community,"{MikeMcQuaid,devonzuegel}",2022-03-16T13:54:01.717626
@@ -4445,9 +4445,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 476895720,20134767,36040894,25,324,52674,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-02T07:06:05.544754
 485426249,48335772,1197428,0,159,14360,zsh-users/zsh-syntax-highlighting,Fish shell like syntax highlighting for Zsh.,"{danielshahaf,phy1729}",2022-04-27T04:20:25.88859
 485857005,33266556,15953199,0,52,13668,HubSpot/youmightnotneedjquery,,"{Abbondanzo,adamschwartz}",2022-04-27T04:39:49.686826
-484178576,20134767,36040894,25,312,52769,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-23T22:13:47.365856
-320434477,2658040,178404439,29,0,4,BaseMax/ColorConvertPy,"Tiny library to convert various colored units. (rgb, hex)",{BaseMax},2022-02-24T21:07:34.596111
 321809845,907680,70908474,29,54,952,whitecatboard/Lua-RTOS-ESP32,Lua RTOS for ESP32,"{jolivepetrus,chowette}",2022-02-24T21:07:34.596111
+484178576,20134767,36040894,25,312,52769,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-23T22:13:47.365856
 484448667,55883854,97478419,2,57,3801,mockoon/mockoon,"Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.","{255kb,gabrielperes97}",2022-04-23T14:02:39.541007
 485850698,87914378,284521701,23,3,555,johnthebrit/AzureMasterClass,Repo for the Azure Master Class,{johnthebrit},2022-04-27T03:56:14.968962
 485850022,79736938,142471624,29,13,87,udacity/andfun-kotlin-mars-real-estate,NASA photos with a whimsical theme demonstrate how to work with web services on Android.,"{DAGalpin,SudKul}",2022-04-27T03:56:14.935863
+320434477,2658040,178404439,29,0,4,BaseMax/ColorConvertPy,"Tiny library to convert various colored units. (rgb, hex)",{BaseMax},2022-02-24T21:07:34.596111
