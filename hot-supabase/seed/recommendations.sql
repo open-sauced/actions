@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T16:50:21.481Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T18:46:45.439Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3615,6 +3615,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (417937257, 3, 0, 1, 0, 15, 'monicatvera/preview-credit-card', 'A credit card preview app', ARRAY['monicatvera'], '2022-02-24T21:06:05.080468+00:00'),
 (418353420, 1, 0, 1, 0, 27, 'AndBible/docs', 'User documentation (readthedocs)', ARRAY['agrogers'], '2022-02-24T21:06:05.080468+00:00'),
 (418752214, 470, 7, 1, 0, 6, 'T-head-Semi/openc910', 'OpenXuantie - OpenC910 Core', ARRAY['purplelegant', 'Taurusxkyle'], '2022-02-24T21:06:05.080468+00:00'),
+(419402169, 42, 3, 1, 0, 1, 'rancher/os2', 'A Rancher and Kubernetes optimized immutable Linux distribution based on openSUSE', ARRAY['ibuildthecloud', 'mudler'], '2022-02-24T21:06:05.080468+00:00'),
 (420110494, 89, 0, 1, 0, 7, 'louelladev/Helpful-Tech-Resources', 'A collection of helpful and educational resources I found on social media', ARRAY['louelladev'], '2022-02-24T21:06:05.080468+00:00'),
 (420312993, 200, 5, 1, 0, 10, 'egoist/bget', 'Download and install binaries from GitHub Releases, interactively.', ARRAY['egoist'], '2022-02-24T21:06:05.080468+00:00'),
 (420484145, 2, 1, 1, 0, 10, 'jramirez857/email-cleaner', null, ARRAY['jramirez857'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(419402169, 42, 3, 1, 0, 1, 'rancher/os2', 'A Rancher and Kubernetes optimized immutable Linux distribution based on openSUSE', ARRAY['ibuildthecloud', 'mudler'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
