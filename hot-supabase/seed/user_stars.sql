@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T12:52:09.822Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-04-30T14:43:23.790Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3390,8 +3390,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3391, 60850993, 306971358, 12, 0, 35, 'imadovitch/Music-Player-App-built-with-Vue.js-Vue3-and-Howler.js', null, ARRAY['imadovitch'], '2022-02-24T21:07:34.596111'),
 (3392, 60850993, 171563505, 13, 0, 385, 'Asabeneh/JavaScript-for-Everyone', 'A step by step guide to learn JavaScript and programming', ARRAY['Asabeneh', 'engineerabdulsalam'], '2022-02-24T21:07:34.596111'),
 (3393, 60850993, 229764465, 14, 33, 11430, 'Asabeneh/30-Days-Of-JavaScript', '30 days of JavaScript programming challenge is a step-by-step guide to learn JavaScript programming language in 30 days. This challenge may take more than 100 days,  please just follow your own pace. ', ARRAY['Asabeneh', 'npnjuguna'], '2022-02-24T21:07:34.596111'),
-(3394, 60850993, 195070986, 15, 20, 1184, 'rogden/tailwind-config-viewer', 'A local UI tool for visualizing your Tailwind CSS configuration file.', ARRAY['rogden', 'olets'], '2022-02-24T21:07:34.596111'),
 (3395, 60850993, 50658096, 16, 10, 108, 'kehers/paystack', 'Nodejs API wrapper for Paystack', ARRAY['Subomi', 'kehers'], '2022-02-24T21:07:34.596111'),
+(3394, 60850993, 195070986, 15, 20, 1184, 'rogden/tailwind-config-viewer', 'A local UI tool for visualizing your Tailwind CSS configuration file.', ARRAY['rogden', 'olets'], '2022-02-24T21:07:34.596111'),
 (3396, 60850993, 21737465, 17, 36, 181071, 'sindresorhus/awesome', '😎 Awesome lists about all kinds of interesting topics', ARRAY['sindresorhus', 'davisonio'], '2022-02-24T21:07:34.596111'),
 (3397, 60850993, 85386965, 18, 10, 584, 'acekyd/made-in-nigeria', 'It is rumored that Nigerians only know how to consume tools and not create them. Here is a curation of awesome tools built by Nigerians that can be used by anybody and from anywhere in the world.', ARRAY['acekyd', 'whizkydee'], '2022-02-24T21:07:34.596111'),
 (3398, 60850993, 44882201, 19, 51, 37303, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:07:34.596111'),
@@ -4387,14 +4387,14 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (452754045, 76665107, 216936227, 0, 56, 11, 'CodeForPhilly/paws-data-pipeline', 'PAWS Data Pipeline Project', ARRAY['c-simpson', 'urirot'], '2022-02-24T21:07:34.596111'),
 (349125611, 237133, 422751904, 29, 32, 969, 'zdharma-continuum/zinit', '🌻 Flexible and fast ZSH plugin manager', ARRAY['psprint', 'pschmitt'], '2022-02-24T21:07:34.596111'),
 (435800079, 16268467, 23083156, 11, 1063, 77793, 'mui-org/material-ui', 'MUI Core (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.', ARRAY['oliviertassinari', 'dmtrKovalenko'], '2022-02-24T21:07:34.596111'),
-(457526756, 74566464, 400851369, 29, 4, 675, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
+(456471693, 83277146, 90528830, 4, 37, 40321, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
 (407663252, 35779241, 4067434, 29, 224, 2841, 'andialbrecht/sqlparse', 'A non-validating SQL parser module for Python', ARRAY['andialbrecht', 'vmuriart'], '2022-02-24T21:07:34.596111'),
 (450574015, 3662109, 334169919, 29, 19, 1407, 'projectdiscovery/interactsh', 'An OOB interaction gathering server and client library', ARRAY['ehsandeep', 'Mzack9999'], '2022-02-24T21:07:34.596111'),
 (364328935, 667716, 137308605, 29, 5, 106, 'tamino-martinius/node-ts-dedent', 'TypeScript package which smartly trims and strips indentation from multi-line strings', ARRAY['tamino-martinius', 'AviVahl'], '2022-02-24T21:07:34.596111'),
 (444433367, 656318, 38612708, 10, 2, 1, 'TeamTessie/tessietodo-static', 'Our static Tessie To-do App', ARRAY['tamacodechi', 'ShellyCoen'], '2022-02-24T21:07:34.596111'),
 (375196206, 57305940, 54496479, 29, 119, 215, 'ppb/pursuedpybear', 'A python game engine.', ARRAY['pathunstrom', 'AstraLuma'], '2022-02-24T21:07:34.596111'),
 (460725612, 8200073, 439686345, 2, 0, 1, 'salindae25/frontend-challenges', 'frontend mentor challenges', ARRAY['salindae25'], '2022-02-24T21:07:34.596111'),
-(456471693, 83277146, 90528830, 4, 37, 40313, 'Solido/awesome-flutter', 'An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.', ARRAY['Solido', 'jogboms'], '2022-02-24T21:07:34.596111'),
+(457526756, 74566464, 400851369, 29, 4, 677, 'lewis6991/impatient.nvim', 'Improve startup time for Neovim', ARRAY['lewis6991', 'clason'], '2022-02-24T21:07:34.596111'),
 (444571130, 469997, 516307, 23, 0, 3, 'g-ben-wiz/ARMinis', 'Augmented Reality Wargames Miniatures', ARRAY['g-ben-wiz'], '2022-02-24T21:07:34.596111'),
 (396048780, 42749147, 323663755, 8, 0, 1, 'akobepeter/materializeProject', null, ARRAY['akobepeter'], '2022-02-24T21:07:34.596111'),
 (452075032, 22186029, 337208358, 29, 0, 13, 'abhisheknaiidu/abhisheknaidu-cli', 'The Abhishek Naidu CLI', ARRAY['abhisheknaiidu'], '2022-02-24T21:07:34.596111'),
@@ -4443,8 +4443,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (455678420, 6499373, 36040894, 24, 320, 52784, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-02-24T21:07:34.596111'),
 (424945913, 2339101, 55896045, 29, 20, 1, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:07:34.596111'),
 (423934343, 43640229, 201108929, 29, 7, 705, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-24T21:07:34.596111'),
-(481773353, 20134767, 36040894, 25, 322, 52730, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-16T09:07:31.359819'),
 (317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111'),
+(481773353, 20134767, 36040894, 25, 322, 52730, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-16T09:07:31.359819'),
 (469853701, 101365565, 80050538, 2, 3, 635, 'maintainers/public-resources', 'Public information on the invite-only maintainer community', ARRAY['MikeMcQuaid', 'devonzuegel'], '2022-03-16T13:54:01.717626'),
 (476895720, 20134767, 36040894, 25, 324, 52674, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-02T07:06:05.544754'),
 (478736208, 19353972, 93446115, 29, 249, 1177, 'hashicorp/terraform-provider-kubernetes', 'Terraform Kubernetes provider', ARRAY['alexsomesan', 'radeksimko'], '2022-04-07T09:55:10.805423'),
