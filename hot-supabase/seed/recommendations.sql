@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T04:54:00.972Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-01T06:47:08.552Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2159,11 +2159,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (211340922, 278, 22, 1, 0, 11, 'uraimo/run-on-arch-action', 'A Github Action that executes jobs/commands on non-x86 cpu architectures (ARMv6, ARMv7, aarch64, s390x, ppc64le)', ARRAY['uraimo', 'elijahr'], '2022-02-24T21:06:05.080468+00:00'),
 (211467758, 1806, 32, 1, 0, 7, 'liuchengxu/vim-clap', ':clap: Modern performant fuzzy picker for Vim and NeoVim', ARRAY['liuchengxu', 'romgrk'], '2022-02-24T21:06:05.080468+00:00'),
 (211540698, 1413, 110, 1, 0, 24, 'kmonad/kmonad', 'An advanced keyboard manager', ARRAY['david-janssen', 'slotThe'], '2022-02-24T21:06:05.080468+00:00'),
+(211595183, 308, 0, 1, 0, 4, 'osamaqarem/spotify-lite', 'Spotify Lite made with React Native for iOS and Android', ARRAY['osamaqarem'], '2022-02-24T21:06:05.080468+00:00'),
 (211665033, 5129, 43, 1, 0, 21, 'andreasbm/web-skills', 'A visual overview of useful skills to learn as a web developer', ARRAY['andreasbm', 'AkshatJen'], '2022-02-24T21:06:05.080468+00:00'),
 (211698592, 29, 0, 1, 0, 28, 'alex2844/js-events', null, ARRAY['alex2844'], '2022-02-24T21:06:05.080468+00:00'),
 (216546495, 1, 0, 1, 0, 18, 'firasdib/fastify', 'Fast and low overhead web framework, for Node.js', ARRAY['delvedor', 'mcollina'], '2022-02-24T21:06:05.080468+00:00'),
 (211976003, 25, 7, 1, 0, 11, 'BekahHW/postpartum-wellness-app', 'An app to help moms monitor their well-being during the post-partum stage.', ARRAY['BekahHW', 'dominicduffin1'], '2022-02-24T21:06:05.080468+00:00'),
-(211595183, 308, 0, 1, 0, 4, 'osamaqarem/spotify-lite', 'Spotify Lite made with React Native for iOS and Android', ARRAY['osamaqarem'], '2022-02-24T21:06:05.080468+00:00'),
 (212077752, 371, 10, 1, 0, 23, 'MichaelBarney/LinkFree', 'A free and open source alternative to LinkTree', ARRAY['MichaelBarney', 'farellfaiz'], '2022-02-24T21:06:05.080468+00:00'),
 (212110787, 74, 0, 1, 0, 16, 'GoogleCloudPlatform/django-demo-app-unicodex', 'Serverless Django on Google Cloud ✨', ARRAY['glasnt'], '2022-02-24T21:06:05.080468+00:00'),
 (212270500, 29, 3, 1, 0, 22, '101t/jasmin-web-panel', '📨 Jasmin Web Panel for Jasmin SMS Gateway', ARRAY['101t', 'rakibulinux'], '2022-02-24T21:06:05.080468+00:00'),
