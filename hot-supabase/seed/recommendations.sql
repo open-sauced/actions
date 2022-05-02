@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T12:56:30.194Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T14:43:52.835Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1633,10 +1633,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (139329396, 4917, 11, 1, 0, 22, 'rhysd/vim.wasm', 'Vim editor ported to WebAssembly', ARRAY['brammool', 'rhysd'], '2022-02-24T21:06:05.080468+00:00'),
 (139596105, 13847, 11, 1, 0, 4, 'thedaviddias/Front-End-Performance-Checklist', '🎮 The only Front-End Performance Checklist that runs faster than the others', ARRAY['thedaviddias', 'prayagverma'], '2022-02-24T21:06:05.080468+00:00'),
 (139633235, 571, 9, 2, 0, 24.5, 'MoonHighway/learning-graphql', 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', ARRAY['eveporcello', 'MoonTahoe'], '2022-02-24T21:06:05.080468+00:00'),
+(139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
 (139914932, 9041, 1897, 1, 0, 27, 'quarkusio/quarkus', 'Quarkus: Supersonic Subatomic Java. ', ARRAY['gsmet', 'geoand'], '2022-02-24T21:06:05.080468+00:00'),
 (139952333, 1398, 150, 1, 0, 13, 'sigp/lighthouse', 'Rust Ethereum 2.0 Client', ARRAY['paulhauner', 'AgeManning'], '2022-02-24T21:06:05.080468+00:00'),
 (140059059, 146, 5, 1, 0, 12, 'ohbarye/rails-react-typescript-docker-example', 'An example app built on Ruby on Rails + React.js + TypeScript + Docker Compose', ARRAY['ohbarye', 'JPDepew'], '2022-02-24T21:06:05.080468+00:00'),
-(139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
 (140151334, 19, 2, 1, 0, 19, 'ssorallen/redux-persist-webextension-storage', 'A WebExtension Storage storage engine for redux-persist', ARRAY['ssorallen', 'martonlederer'], '2022-02-24T21:06:05.080468+00:00'),
 (140322995, 271, 5, 1, 0, 21, 'Finance-Hub/FinanceHub', 'Resources for Quantitative Finance', ARRAY['gusamarante', 'VFermat'], '2022-02-24T21:06:05.080468+00:00'),
 (140516922, 1181, 11, 1, 0, 4, 'DesignRevision/shards-dashboard', '🔥A beautiful Bootstrap 4 admin dashboard templates pack.', ARRAY['hisk'], '2022-02-24T21:06:05.080468+00:00'),
