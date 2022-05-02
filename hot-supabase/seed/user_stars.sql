@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T03:29:32.567Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T04:59:31.050Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2803,7 +2803,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (305063342, 622115, 3116751, 29, 50, 11166, 'androidannotations/androidannotations', 'Fast Android Development. Easy maintainance.', ARRAY['pyricau', 'WonderCsabo'], '2022-02-24T21:07:34.596111'),
 (424109428, 88631894, 335819337, 0, 0, 1, 'MonkeDev/API-bot', 'The bot we use to manage our API.', ARRAY['Mafia-7777', 'BurnedBed'], '2022-02-24T21:07:34.596111'),
 (424103216, 2228196, 286132785, 29, 0, 1, 'lesmo/gitfolio', ':octocat: personal website + blog for every github user', ARRAY['imfunniee', 'bcliden'], '2022-02-24T21:07:34.596111'),
-(276703311, 29888641, 196701619, 29, 165, 37157, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
+(276703311, 29888641, 196701619, 29, 158, 37180, 'tauri-apps/tauri', 'Build smaller, faster, and more secure desktop applications with a web frontend.', ARRAY['lucasfernog', 'jbolda'], '2022-02-24T21:07:34.596111'),
 (423938279, 20374545, 334465533, 0, 0, 1, 'Leonardo-Borba/auction-assistant', 'A bot to monitor MGT auctions and do automatic bids', ARRAY['Leonardo-Borba'], '2022-02-24T21:07:34.596111'),
 (2816, 28281924, 237448876, 22, 10, 735, 'qiangxue/go-rest-api', 'An idiomatic Go REST API starter kit (boilerplate) following the SOLID principles and Clean Architecture', ARRAY['qiangxue', 'chartinmarrel'], '2022-02-24T21:07:34.596111'),
 (2817, 28281924, 191531341, 23, 6, 208, 'site-prism/site_prism', null, ARRAY['luke-hill', 'natritmeyer'], '2022-02-24T21:07:34.596111'),
@@ -3706,8 +3706,9 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3709, 55907631, 60493101, 27, 41, 201791, 'jwasham/coding-interview-university', 'A complete computer science study plan to become a software engineer.', ARRAY['jwasham', 'avizmarlon'], '2022-02-24T21:07:34.596111'),
 (3710, 55907631, 239150878, 28, 2, 84, 'wobsoriano/coderstats', '📊 Data visualizations of your top languages, starred repositories and top repos.', ARRAY['wobsoriano'], '2022-02-24T21:07:34.596111'),
 (3711, 55907631, 209391513, 29, 27, 1045, 'CppCon/CppCon2019', ' Slides and other materials from CppCon 2019', ARRAY['kernhanda', 'Quuxplusone'], '2022-02-24T21:07:34.596111'),
-(3714, 907680, 39718308, 2, 145, 1200, 'uxmal/reko', 'Reko is a binary decompiler.', ARRAY['uxmal', 'ptomin'], '2022-02-24T21:07:34.596111'),
+(3712, 907680, 399821046, 0, 2, 1348, 'varbhat/exatorrent', 'Self-hostable , easy-to-use , lightweight and feature-rich torrent client written in Go . It comes with beautiful Web UI and Optional Multi-User Support . Run Locally or Host in Server . Open/Download/Stream Torrents in Browser Right Away! ', ARRAY['varbhat'], '2022-02-24T21:07:34.596111'),
 (3713, 907680, 182849188, 1, 149, 3910, 'delta-io/delta', 'An open-source storage layer that brings scalable, ACID transactions to Apache Spark™ and big data workloads.', ARRAY['zsxwing', 'brkyvz'], '2022-02-24T21:07:34.596111'),
+(3714, 907680, 39718308, 2, 145, 1200, 'uxmal/reko', 'Reko is a binary decompiler.', ARRAY['uxmal', 'ptomin'], '2022-02-24T21:07:34.596111'),
 (3715, 907680, 9377198, 3, 51, 636, 'OpenNMS/opennms', 'Enterprise-Grade Open-Source Network Management Platform', ARRAY['RangerRick', 'soleger'], '2022-02-24T21:07:34.596111'),
 (3716, 907680, 334777857, 4, 51, 1232, 'mszoek/airyx', 'A BSD-based OS project that aims to provide an experience like and some compatibility with macOS', ARRAY['mszoek', 'iddan'], '2022-02-24T21:07:34.596111'),
 (3717, 907680, 122837111, 5, 524, 3245, 'subhra74/xdm', 'Powerfull download accelerator and video downloader', ARRAY['subhra74', 'denzveloper'], '2022-02-24T21:07:34.596111'),
@@ -4244,7 +4245,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (357195439, 3941126, 9393759, 29, 175, 31664, 'photonstorm/phaser', 'Phaser is a fun, free and fast 2D game framework for making HTML5 games for desktop and mobile web browsers, supporting Canvas and WebGL rendering.', ARRAY['photonstorm', 'pavle-goloskokovic'], '2022-02-24T21:07:34.596111'),
 (403681762, 203683, 118986156, 29, 1, 12, 'myoung34/docker-jenkins', null, ARRAY['myoung34'], '2022-02-24T21:07:34.596111'),
 (357041459, 16315404, 112507086, 1, 0, 95147, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-24T21:07:34.596111'),
-(3712, 907680, 399821046, 0, 2, 1348, 'varbhat/exatorrent', 'Self-hostable , easy-to-use , lightweight and feature-rich torrent client written in Go . It comes with beautiful Web UI and Optional Multi-User Support . Run Locally or Host in Server . Open/Download/Stream Torrents in Browser Right Away! ', ARRAY['varbhat'], '2022-02-24T21:07:34.596111'),
 (354384496, 17671332, 369905667, 3, 13, 34, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-24T21:07:34.596111'),
 (312341626, 9935383, 13900913, 14, 58, 18415, 'dracula/dracula-theme', '🧛🏻‍♂️ One theme. All platforms.', ARRAY['zenorocha', 'luxonauta'], '2022-02-24T21:07:34.596111'),
 (278088103, 5467696, 257665403, 29, 28, 450, 'google/triage-party', '🎉 Triage Party: massively multi-player GitHub triage 🎉', ARRAY['tstromberg', 'vavilen84'], '2022-02-24T21:07:34.596111'),
@@ -4448,7 +4448,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (481773353, 20134767, 36040894, 25, 322, 52730, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-16T09:07:31.359819'),
 (317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111'),
 (476895720, 20134767, 36040894, 25, 324, 52674, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-02T07:06:05.544754'),
-(321809845, 907680, 70908474, 29, 54, 952, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111'),
 (484448667, 55883854, 97478419, 2, 57, 3801, 'mockoon/mockoon', 'Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.', ARRAY['255kb', 'gabrielperes97'], '2022-04-23T14:02:39.541007'),
 (485850698, 87914378, 284521701, 23, 3, 555, 'johnthebrit/AzureMasterClass', 'Repo for the Azure Master Class', ARRAY['johnthebrit'], '2022-04-27T03:56:14.968962'),
 (485850022, 79736938, 142471624, 29, 13, 87, 'udacity/andfun-kotlin-mars-real-estate', 'NASA photos with a whimsical theme demonstrate how to work with web services on Android.', ARRAY['DAGalpin', 'SudKul'], '2022-04-27T03:56:14.935863'),
@@ -4456,4 +4455,5 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (485853986, 12782646, 74144348, 21, 0, 25, 'skydome20/R-Notes', 'Notes for using R language to do data mining and machine learning (Chinese)', ARRAY['skydome20'], '2022-04-26T16:25:08.624062'),
 (484178576, 20134767, 36040894, 25, 312, 52769, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-23T22:13:47.365856'),
 (485857005, 33266556, 15953199, 0, 52, 13669, 'HubSpot/youmightnotneedjquery', null, ARRAY['Abbondanzo', 'adamschwartz'], '2022-04-27T04:39:49.686826'),
-(320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111');
+(320434477, 2658040, 178404439, 29, 0, 4, 'BaseMax/ColorConvertPy', 'Tiny library to convert various colored units. (rgb, hex)', ARRAY['BaseMax'], '2022-02-24T21:07:34.596111'),
+(321809845, 907680, 70908474, 29, 54, 952, 'whitecatboard/Lua-RTOS-ESP32', 'Lua RTOS for ESP32', ARRAY['jolivepetrus', 'chowette'], '2022-02-24T21:07:34.596111');
