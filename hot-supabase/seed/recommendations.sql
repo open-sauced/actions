@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T20:43:23.682Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T22:44:36.424Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -401,8 +401,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (13491895, 217091, 40, 2, 0, 16, 'EbookFoundation/free-programming-books', ':books: Freely available programming books', ARRAY['vhf', 'MHM5000'], '2022-02-24T21:06:05.080468+00:00'),
 (13510786, 525, 8, 1, 0, 6, 'tantaman/LargeLocalStorage', 'Problem: You need to store a large amount of key-value based data in IE, Chrome, Safari, AND Firefox', ARRAY['tantaman'], '2022-02-24T21:06:05.080468+00:00'),
 (13584262, 25600, 116, 1, 0, 24, 'webtorrent/webtorrent', '⚡️ Streaming torrent client for the web', ARRAY['feross', 'DiegoRBaquero'], '2022-02-24T21:06:05.080468+00:00'),
-(13601190, 5179, 278, 1, 0, 13, 'agentejo/cockpit', 'Add content management functionality to any site - plug & play / headless / api-first CMS', ARRAY['aheinze', 'raffaelj'], '2022-02-24T21:06:05.080468+00:00'),
 (13733351, 755, 2, 1, 0, 4, 'triketora/women-in-software-eng', 'Crowdsourced repository of women in software engineering stats.', ARRAY['triketora', 'saramartinez'], '2022-02-24T21:06:05.080468+00:00'),
+(13601190, 5179, 278, 1, 0, 13, 'agentejo/cockpit', 'Add content management functionality to any site - plug & play / headless / api-first CMS', ARRAY['aheinze', 'raffaelj'], '2022-02-24T21:06:05.080468+00:00'),
 (13753636, 19173, 71, 1, 0, 3, 'jhipster/generator-jhipster', 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', ARRAY['jdubois', 'deepu105'], '2022-02-24T21:06:05.080468+00:00'),
 (13812337, 431, 96, 1, 0, 4, 'osmlab/name-suggestion-index', 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', ARRAY['bhousel', 'kjonosm'], '2022-02-24T21:06:05.080468+00:00'),
 (13825712, 948, 61, 1, 0, 0, 'VirtoCommerce/vc-platform', 'VirtoCommerce Platform repository', ARRAY['vc-ci', 'tatarincev'], '2022-02-24T21:06:05.080468+00:00'),
@@ -836,9 +836,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (48242990, 10256, 156, 1, 0, 5, 'RobinLinus/snapdrop', 'A Progressive Web App for local file sharing ', ARRAY['RobinLinus', 'PaulSzymanski'], '2022-02-24T21:06:05.080468+00:00'),
 (48246447, 9328, 1, 1, 0, 7, 'analysis-tools-dev/static-analysis', '⚙️ A curated list of static analysis (SAST) tools for all programming languages, config files, build tools, and more.', ARRAY['mre', 'AristoChen'], '2022-02-24T21:06:05.080468+00:00'),
 (48356217, 9798, 83, 1, 0, 24, 'haltu/muuri', 'Infinite responsive, sortable, filterable and draggable layouts', ARRAY['niklasramo', 'aslakhellesoy'], '2022-02-24T21:06:05.080468+00:00'),
+(48623558, 16375, 171, 1, 0, 9, 'chubin/wttr.in', ':partly_sunny: The right way to check the weather', ARRAY['chubin', 'gregdan3'], '2022-02-24T21:06:05.080468+00:00'),
 (48701042, 2355, 34, 1, 0, 24, 'thechangelog/changelog.com', 'Changelog is news and podcast for developers. This is our open source platform.', ARRAY['jerodsanto', 'gerhard'], '2022-02-24T21:06:05.080468+00:00'),
 (48714685, 5997, 268, 1, 0, 13, 'open-policy-agent/opa', 'An open source, general-purpose policy engine.', ARRAY['tsandall', 'patrick-east'], '2022-02-24T21:06:05.080468+00:00'),
-(48623558, 16375, 171, 1, 0, 9, 'chubin/wttr.in', ':partly_sunny: The right way to check the weather', ARRAY['chubin', 'gregdan3'], '2022-02-24T21:06:05.080468+00:00'),
 (48750547, 594, 46, 1, 0, 17, 'circleci/circleci-docs', 'Documentation for CircleCI.', ARRAY['michelle-luna', 'rosieyohannan'], '2022-02-24T21:06:05.080468+00:00'),
 (48769241, 6387, 168, 1, 0, 1, 'penpot/penpot', 'Penpot - The Open-Source design & prototyping platform', ARRAY['niwinz', 'Alotor'], '2022-02-24T21:06:05.080468+00:00'),
 (48808013, 232, 4, 1, 0, 17, 'rangle/angular2-redux-example', 'Angular 2 Redux Example', ARRAY['SethDavenport', 'greenkeeperio-bot'], '2022-02-24T21:06:05.080468+00:00'),
