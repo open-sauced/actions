@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T10:46:01.688Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T12:56:30.194Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1633,10 +1633,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (139329396, 4917, 11, 1, 0, 22, 'rhysd/vim.wasm', 'Vim editor ported to WebAssembly', ARRAY['brammool', 'rhysd'], '2022-02-24T21:06:05.080468+00:00'),
 (139596105, 13847, 11, 1, 0, 4, 'thedaviddias/Front-End-Performance-Checklist', '🎮 The only Front-End Performance Checklist that runs faster than the others', ARRAY['thedaviddias', 'prayagverma'], '2022-02-24T21:06:05.080468+00:00'),
 (139633235, 571, 9, 2, 0, 24.5, 'MoonHighway/learning-graphql', 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', ARRAY['eveporcello', 'MoonTahoe'], '2022-02-24T21:06:05.080468+00:00'),
-(139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
 (139914932, 9041, 1897, 1, 0, 27, 'quarkusio/quarkus', 'Quarkus: Supersonic Subatomic Java. ', ARRAY['gsmet', 'geoand'], '2022-02-24T21:06:05.080468+00:00'),
 (139952333, 1398, 150, 1, 0, 13, 'sigp/lighthouse', 'Rust Ethereum 2.0 Client', ARRAY['paulhauner', 'AgeManning'], '2022-02-24T21:06:05.080468+00:00'),
 (140059059, 146, 5, 1, 0, 12, 'ohbarye/rails-react-typescript-docker-example', 'An example app built on Ruby on Rails + React.js + TypeScript + Docker Compose', ARRAY['ohbarye', 'JPDepew'], '2022-02-24T21:06:05.080468+00:00'),
+(139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
 (140151334, 19, 2, 1, 0, 19, 'ssorallen/redux-persist-webextension-storage', 'A WebExtension Storage storage engine for redux-persist', ARRAY['ssorallen', 'martonlederer'], '2022-02-24T21:06:05.080468+00:00'),
 (140322995, 271, 5, 1, 0, 21, 'Finance-Hub/FinanceHub', 'Resources for Quantitative Finance', ARRAY['gusamarante', 'VFermat'], '2022-02-24T21:06:05.080468+00:00'),
 (140516922, 1181, 11, 1, 0, 4, 'DesignRevision/shards-dashboard', '🔥A beautiful Bootstrap 4 admin dashboard templates pack.', ARRAY['hisk'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2076,6 +2076,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-24T21:06:05.080468+00:00'),
 (199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-24T21:06:05.080468+00:00'),
 (199486441, 24, 60, 1, 0, 9, 'esmero/archipelago-deployment', 'Archipelago Commons Docker Deployment Repository', ARRAY['DiegoPino', 'alliomeria'], '2022-02-24T21:06:05.080468+00:00'),
+(199880606, 301, 16, 1, 0, 12, 'takeshape/shape-form', 'A form library that uses JSON schema and works with Redux. Originally a part of the TakeShape React web client.', ARRAY['mshick', 'mcat'], '2022-02-24T21:06:05.080468+00:00'),
+(200094171, 47, 3, 1, 0, 6, 'oskros/MF_run_counter', 'MF run counter developed for Diablo 2. Allows users to collect stats about their run times and found items, and can track your holy grail progress', ARRAY['oskros'], '2022-02-24T21:06:05.080468+00:00'),
 (200212195, 4, 14, 1, 0, 25, 'xinlc/react-native-typescript-template', 'this is a template for reac native + TS + redux + saga architecture', ARRAY['xinlc'], '2022-02-24T21:06:05.080468+00:00'),
 (200424238, 112, 4, 1, 0, 4, 'icons-pack/react-simple-icons', '📦 This package provides the Simple Icons packaged as a set of React components.', ARRAY['wootsbot', 'jackmerrill'], '2022-02-24T21:06:05.080468+00:00'),
 (200590949, 2949, 29, 1, 0, 1, 'rsalmei/alive-progress', 'A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!', ARRAY['rsalmei'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2088,8 +2090,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (201327718, 515, 0, 1, 0, 4, 'odpi/OpenDS4All', 'OpenDS4All project, hosted by LF AI & Data', ARRAY['Frenchhorn005', 'zackives'], '2022-02-24T21:06:05.080468+00:00'),
 (201403923, 4084, 69, 1, 0, 4, 'activeloopai/Hub', 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', ARRAY['AbhinavTuli', 'nollied'], '2022-02-24T21:06:05.080468+00:00'),
 (201438745, 3, 0, 1, 0, 2, 'jatinderji/StudentMS', null, ARRAY['jatinderji'], '2022-02-24T21:06:05.080468+00:00'),
-(199880606, 301, 16, 1, 0, 12, 'takeshape/shape-form', 'A form library that uses JSON schema and works with Redux. Originally a part of the TakeShape React web client.', ARRAY['mshick', 'mcat'], '2022-02-24T21:06:05.080468+00:00'),
-(200094171, 47, 3, 1, 0, 6, 'oskros/MF_run_counter', 'MF run counter developed for Diablo 2. Allows users to collect stats about their run times and found items, and can track your holy grail progress', ARRAY['oskros'], '2022-02-24T21:06:05.080468+00:00'),
 (201535836, 1796, 26, 1, 0, 5, 'onderceylan/pwa-asset-generator', 'Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.', ARRAY['onderceylan', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (201570219, 14466, 107, 1, 0, 5, 'responsively-org/responsively-app', 'A modified web browser that helps in responsive web development. A web developer''s must have dev-tool.', ARRAY['manojVivek', 'jjavierdguezas'], '2022-02-24T21:06:05.080468+00:00'),
 (201658460, 9361, 23, 1, 0, 17, 'geektutu/7days-golang', '7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM, rpc framework GeeRPC etc)  7天用Go动手写/从零实现系列', ARRAY['geektutu', 'imageslr'], '2022-02-24T21:06:05.080468+00:00'),
