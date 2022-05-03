@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T03:14:58.024Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T04:51:51.061Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2222,8 +2222,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-24T21:06:05.080468+00:00'),
 (220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-24T21:06:05.080468+00:00'),
-(220651147, 143, 4, 1, 0, 18, 'pathivu/pathivu', 'An efficient log ingestion and log aggregation system https://pathivu.io/', ARRAY['poonai', 'L04DB4L4NC3R'], '2022-02-24T21:06:05.080468+00:00'),
 (220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-24T21:06:05.080468+00:00'),
+(220651147, 143, 4, 1, 0, 18, 'pathivu/pathivu', 'An efficient log ingestion and log aggregation system https://pathivu.io/', ARRAY['poonai', 'L04DB4L4NC3R'], '2022-02-24T21:06:05.080468+00:00'),
 (220809393, 31786, 40, 2, 0, 1.5, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:06:05.080468+00:00'),
 (220872906, 1, 2, 1, 0, 28, 'lesmo/wubbalubbadubdub', 'Este proyecto es un explorador de la Rick and Morty API, que tiene datos de todos los episodios, personajes y locaciones en los que se viven las increíbles aventuras de Rick and Morty.', ARRAY['lesmo'], '2022-02-24T21:06:05.080468+00:00'),
 (221078443, 403, 39, 1, 0, 13, 'google/android-emulator-hypervisor-driver-for-amd-processors', null, ARRAY['Taogle2018'], '2022-02-24T21:06:05.080468+00:00'),
