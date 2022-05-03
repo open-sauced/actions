@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T01:04:08.309Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T03:14:58.024Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -570,8 +570,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24297122, 20907, 1, 1, 0, 4, 'veggiemonk/awesome-docker', ':whale: A curated list of Docker resources and projects', ARRAY['veggiemonk', 'vegasbrianc'], '2022-02-24T21:06:05.080468+00:00'),
 (24470090, 3398, 53, 1, 0, 0, 'OpenDroneMap/ODM', 'A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷', ARRAY['pierotofy', 'dakotabenjamin'], '2022-02-24T21:06:05.080468+00:00'),
 (24516196, 7, 0, 1, 0, 6, 'nhat-nguyen/bittersweet', 'a color scheme for Sublime Text', ARRAY['nhat-nguyen'], '2022-02-24T21:06:05.080468+00:00'),
-(24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
 (24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
+(24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2222,8 +2222,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-24T21:06:05.080468+00:00'),
 (220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-24T21:06:05.080468+00:00'),
-(220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-24T21:06:05.080468+00:00'),
 (220651147, 143, 4, 1, 0, 18, 'pathivu/pathivu', 'An efficient log ingestion and log aggregation system https://pathivu.io/', ARRAY['poonai', 'L04DB4L4NC3R'], '2022-02-24T21:06:05.080468+00:00'),
+(220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-24T21:06:05.080468+00:00'),
 (220809393, 31786, 40, 2, 0, 1.5, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:06:05.080468+00:00'),
 (220872906, 1, 2, 1, 0, 28, 'lesmo/wubbalubbadubdub', 'Este proyecto es un explorador de la Rick and Morty API, que tiene datos de todos los episodios, personajes y locaciones en los que se viven las increíbles aventuras de Rick and Morty.', ARRAY['lesmo'], '2022-02-24T21:06:05.080468+00:00'),
 (221078443, 403, 39, 1, 0, 13, 'google/android-emulator-hypervisor-driver-for-amd-processors', null, ARRAY['Taogle2018'], '2022-02-24T21:06:05.080468+00:00'),
