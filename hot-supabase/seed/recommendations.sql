@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-02T22:44:36.424Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T01:04:08.309Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -401,8 +401,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (13491895, 217091, 40, 2, 0, 16, 'EbookFoundation/free-programming-books', ':books: Freely available programming books', ARRAY['vhf', 'MHM5000'], '2022-02-24T21:06:05.080468+00:00'),
 (13510786, 525, 8, 1, 0, 6, 'tantaman/LargeLocalStorage', 'Problem: You need to store a large amount of key-value based data in IE, Chrome, Safari, AND Firefox', ARRAY['tantaman'], '2022-02-24T21:06:05.080468+00:00'),
 (13584262, 25600, 116, 1, 0, 24, 'webtorrent/webtorrent', '⚡️ Streaming torrent client for the web', ARRAY['feross', 'DiegoRBaquero'], '2022-02-24T21:06:05.080468+00:00'),
-(13733351, 755, 2, 1, 0, 4, 'triketora/women-in-software-eng', 'Crowdsourced repository of women in software engineering stats.', ARRAY['triketora', 'saramartinez'], '2022-02-24T21:06:05.080468+00:00'),
 (13601190, 5179, 278, 1, 0, 13, 'agentejo/cockpit', 'Add content management functionality to any site - plug & play / headless / api-first CMS', ARRAY['aheinze', 'raffaelj'], '2022-02-24T21:06:05.080468+00:00'),
+(13733351, 755, 2, 1, 0, 4, 'triketora/women-in-software-eng', 'Crowdsourced repository of women in software engineering stats.', ARRAY['triketora', 'saramartinez'], '2022-02-24T21:06:05.080468+00:00'),
 (13753636, 19173, 71, 1, 0, 3, 'jhipster/generator-jhipster', 'JHipster is a development platform to quickly generate, develop, & deploy modern web applications & microservice architectures.', ARRAY['jdubois', 'deepu105'], '2022-02-24T21:06:05.080468+00:00'),
 (13812337, 431, 96, 1, 0, 4, 'osmlab/name-suggestion-index', 'Canonical common brand names, operators, transit and flags for OpenStreetMap.', ARRAY['bhousel', 'kjonosm'], '2022-02-24T21:06:05.080468+00:00'),
 (13825712, 948, 61, 1, 0, 0, 'VirtoCommerce/vc-platform', 'VirtoCommerce Platform repository', ARRAY['vc-ci', 'tatarincev'], '2022-02-24T21:06:05.080468+00:00'),
@@ -570,8 +570,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24297122, 20907, 1, 1, 0, 4, 'veggiemonk/awesome-docker', ':whale: A curated list of Docker resources and projects', ARRAY['veggiemonk', 'vegasbrianc'], '2022-02-24T21:06:05.080468+00:00'),
 (24470090, 3398, 53, 1, 0, 0, 'OpenDroneMap/ODM', 'A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷', ARRAY['pierotofy', 'dakotabenjamin'], '2022-02-24T21:06:05.080468+00:00'),
 (24516196, 7, 0, 1, 0, 6, 'nhat-nguyen/bittersweet', 'a color scheme for Sublime Text', ARRAY['nhat-nguyen'], '2022-02-24T21:06:05.080468+00:00'),
-(24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
+(24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
