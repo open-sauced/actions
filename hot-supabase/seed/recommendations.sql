@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T10:45:26.751Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T12:57:25.309Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -571,8 +571,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24470090, 3398, 53, 1, 0, 0, 'OpenDroneMap/ODM', 'A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷', ARRAY['pierotofy', 'dakotabenjamin'], '2022-02-24T21:06:05.080468+00:00'),
 (24516196, 7, 0, 1, 0, 6, 'nhat-nguyen/bittersweet', 'a color scheme for Sublime Text', ARRAY['nhat-nguyen'], '2022-02-24T21:06:05.080468+00:00'),
 (24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
-(24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
 (24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
+(24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
 (25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:06:05.080468+00:00'),
