@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-03T22:44:36.459Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T01:03:37.732Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1335,9 +1335,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (101448498, 110, 29, 1, 0, 5, 'SohoHouse/nuxt-oauth', 'Simple OAuth2 integration for your Nuxt app', ARRAY['samtgarson', 'hamishhossack'], '2022-02-24T21:06:05.080468+00:00'),
 (101704343, 3122, 28, 1, 0, 12, 'unidoc/unioffice', 'Pure go library for creating and processing Office Word (.docx), Excel (.xlsx) and Powerpoint (.pptx) documents', ARRAY['tbaliance', 'gunnsth'], '2022-02-24T21:06:05.080468+00:00'),
 (101752630, 16, 0, 1, 0, 6, 'joaocarmo/vcard-creator', 'A JavaScript vCard creator library for both Node.js and the web.', ARRAY['joaocarmo', 'Falklian'], '2022-02-24T21:06:05.080468+00:00'),
-(102210005, 1470, 35, 1, 0, 27, 'dethcrypto/TypeChain', '🔌 TypeScript bindings for Ethereum smart contracts', ARRAY['krzkaczor', 'zemse'], '2022-02-24T21:06:05.080468+00:00'),
 (101770883, 1872, 1, 1, 0, 9, 'tortuvshin/open-source-flutter-apps', ':iphone: List of open source Flutter applications :octocat:', ARRAY['tortuvshin', 'j-j-gajjar'], '2022-02-24T21:06:05.080468+00:00'),
 (101814136, 905, 59, 1, 0, 0, 'theKashey/react-focus-lock', 'It is a trap! A lock for a Focus. 🔓', ARRAY['theKashey', 'ai'], '2022-02-24T21:06:05.080468+00:00'),
+(102210005, 1470, 35, 1, 0, 27, 'dethcrypto/TypeChain', '🔌 TypeScript bindings for Ethereum smart contracts', ARRAY['krzkaczor', 'zemse'], '2022-02-24T21:06:05.080468+00:00'),
 (102371998, 1623, 320, 1, 0, 6, 'nuxt-community/auth-module', null, ARRAY['JoaoPedroAS51', 'pi0'], '2022-02-24T21:06:05.080468+00:00'),
 (102488287, 105, 0, 1, 0, 4, 'aleha84/simple.canvas.core2', 'SCG v2', ARRAY['aleha84'], '2022-02-24T21:06:05.080468+00:00'),
 (102664411, 1282, 4, 1, 0, 4, 'alinebastos/dev-practice', 'Practice your skills with these ideas.', ARRAY['alinebastos', 'adeonir'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3536,8 +3536,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-24T21:06:05.080468+00:00'),
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-24T21:06:05.080468+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-24T21:06:05.080468+00:00'),
-(399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-24T21:06:05.080468+00:00'),
+(399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-24T21:06:05.080468+00:00'),
 (400215964, 2902, 27, 1, 0, 8, 'notifirehq/notifire', '🚀 Open-source notification infrastructure for products', ARRAY['scopsy', 'ComBarnea'], '2022-02-24T21:06:05.080468+00:00'),
 (400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-24T21:06:05.080468+00:00'),
