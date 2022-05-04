@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T03:16:07.922Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T04:51:36.532Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3302,10 +3302,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (373327367, 30, 0, 1, 0, 12, 'rx-mind/ngrx-plugins', 'Reactive Angular Plugins', ARRAY['markostanimirovic'], '2022-02-24T21:06:05.080468+00:00'),
 (373396052, 44, 2, 1, 0, 29, 'ri7nz/rescript-chakra', '⚡️⚛️ ReScript bindings for @chakra-ui/react', ARRAY['ri7nz', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (373495126, 335, 1, 1, 0, 16, 'thevinter/styli.sh', 'A CLI tool for easy wallpaper management and image fetching', ARRAY['thevinter', 'ma3yta'], '2022-02-24T21:06:05.080468+00:00'),
-(373640770, 4, 6, 2, 0, 24.5, 'hughrawlinson/battlesnake', 'Battlesnake JS Bindings and Types', ARRAY['hughrawlinson'], '2022-02-24T21:06:05.080468+00:00'),
 (373681744, 1, 0, 1, 0, 29, 'muhammaddzaky/project-kalian', 'Hello', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (373693162, 5, 0, 1, 0, 26, 'imamdigmi/BicaraDANA', null, ARRAY['imamdigmi'], '2022-02-24T21:06:05.080468+00:00'),
 (373919310, 10, 0, 1, 0, 21, 'ionic-elements/crypto-starter-ionic', 'Crypto app with market data, graphs and latest news.', ARRAY['fmendoza'], '2022-02-24T21:06:05.080468+00:00'),
+(373640770, 4, 6, 2, 0, 24.5, 'hughrawlinson/battlesnake', 'Battlesnake JS Bindings and Types', ARRAY['hughrawlinson'], '2022-02-24T21:06:05.080468+00:00'),
 (373943090, 7, 0, 1, 0, 2, 'tspannhw/SpeakerProfile', 'My speaker profile for events and conferences based on codepo8/presenter-terms', ARRAY['tspannhw'], '2022-02-24T21:06:05.080468+00:00'),
 (374018112, 1006, 0, 1, 0, 26, 'sadanandpai/frontend-learning-kit', 'Frontend tech guide and collection of highly recommended materials', ARRAY['sadanandpai', 'dth99'], '2022-02-24T21:06:05.080468+00:00'),
 (374067908, 95, 0, 1, 0, 11, 'theredditbandit/awesome-cybersec', 'A collection of awesome platforms, blogs, documents, books, resources and cool stuff about security ', ARRAY['theredditbandit'], '2022-02-24T21:06:05.080468+00:00'),
