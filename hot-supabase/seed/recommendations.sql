@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T06:48:01.282Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T08:46:44.827Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -269,8 +269,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (6498492, 117641, 131, 1, 0, 2, 'airbnb/javascript', 'JavaScript Style Guide', ARRAY['ljharb', 'hshoff'], '2022-02-24T21:06:05.080468+00:00'),
 (6554957, 1097, 9, 1, 0, 0, 'edankwan/penis.js', null, ARRAY['jesseditson', 'edankwan'], '2022-02-24T21:06:05.080468+00:00'),
 (6639959, 27, 23, 1, 0, 17, 'berwinter/uvr1611', 'UVR1611 Data Logger Pro', ARRAY['berwinter', 'bobosch'], '2022-02-24T21:06:05.080468+00:00'),
-(6662075, 13417, 169, 2, 0, 17.5, 'joke2k/faker', 'Faker is a Python package that generates fake data for you.', ARRAY['fcurella', 'joke2k'], '2022-02-24T21:06:05.080468+00:00'),
 (6671099, 13070, 6, 1, 0, 5, 'mnielsen/neural-networks-and-deep-learning', 'Code samples for my book ''Neural Networks and Deep Learning''', ARRAY['mnielsen', 'fhisamoto'], '2022-02-24T21:06:05.080468+00:00'),
+(6662075, 13417, 169, 2, 0, 17.5, 'joke2k/faker', 'Faker is a Python package that generates fake data for you.', ARRAY['fcurella', 'joke2k'], '2022-02-24T21:06:05.080468+00:00'),
 (6698053, 6993, 147, 1, 0, 26, 'vimwiki/vimwiki', 'Personal Wiki for Vim', ARRAY['EinfachToll', 'ranebrown'], '2022-02-24T21:06:05.080468+00:00'),
 (6720403, 12126, 605, 1, 0, 5, 'simple-icons/simple-icons', 'SVG icons for popular brands', ARRAY['PeterShaggyNoble', 'birjolaxew'], '2022-02-24T21:06:05.080468+00:00'),
 (6750158, 6897, 11, 1, 0, 29, 'mgechev/javascript-algorithms', '💻 JavaScript implementations of computer science algorithms', ARRAY['mgechev', 'AndriiHeonia'], '2022-02-24T21:06:05.080468+00:00'),
@@ -342,8 +342,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (10379106, 1785, 40, 1, 0, 26, 'browserify/watchify', 'watch mode for browserify builds', ARRAY['substack', 'zertosh'], '2022-02-24T21:06:05.080468+00:00'),
 (10395188, 6481, 287, 1, 0, 21, 'exercism/exercism', 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', ARRAY['iHiD', 'exercism-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (10489882, 2436, 1, 1, 0, 8, 'nginx-boilerplate/nginx-boilerplate', 'Awesome Nginx configuration template', ARRAY['Umkus', 'agarzon'], '2022-02-24T21:06:05.080468+00:00'),
-(10567197, 22166, 60, 1, 0, 10, 'dokku/dokku', 'A docker-powered PaaS that helps you build and manage the lifecycle of applications', ARRAY['josegonzalez', 'michaelshobbs'], '2022-02-24T21:06:05.080468+00:00'),
 (10530598, 784, 0, 1, 0, 1, 'greggigon/my-personal-kanban', 'This is a one page HTML/JavaScript application for people who would like to use simple and basic Kanban board for their personal stuff', ARRAY['greggigon', 'greggigon-dlg'], '2022-02-24T21:06:05.080468+00:00'),
+(10567197, 22166, 60, 1, 0, 10, 'dokku/dokku', 'A docker-powered PaaS that helps you build and manage the lifecycle of applications', ARRAY['josegonzalez', 'michaelshobbs'], '2022-02-24T21:06:05.080468+00:00'),
 (10581067, 60, 0, 1, 0, 12, 'kerryb/goos-ruby', 'The worked example from Growing Object-Oriented Software, Guided By Tests, ported to Ruby', ARRAY['kerryb'], '2022-02-24T21:06:05.080468+00:00'),
 (10639547, 822, 8, 1, 0, 21, 'ResponsiveBP/Responsive', ':iphone: A super lightweight HTML, Sass, CSS, and JavaScript framework for building responsive websites', ARRAY['JimBobSquarePants', 'dampee'], '2022-02-24T21:06:05.080468+00:00'),
 (10651420, 4536, 73, 1, 0, 16, 'tmate-io/tmate', 'Instant Terminal Sharing', ARRAY['nicm', 'ThomasAdam'], '2022-02-24T21:06:05.080468+00:00'),
@@ -540,8 +540,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (21978103, 447, 0, 1, 0, 6, 'scottaohara/accessible_components', 'Listing of accessible components & patterns', ARRAY['scottaohara', 'kethinov'], '2022-02-24T21:06:05.080468+00:00'),
 (22091630, 255, 37, 1, 0, 8, 'RangeNetworks/OpenBTS-UMTS', '3G UMTS Data Radio Access Network Node', ARRAY['ttsou', 'iedemam'], '2022-02-24T21:06:05.080468+00:00'),
 (22119721, 38201, 14, 2, 0, 5.5, 'k88hudson/git-flight-rules', 'Flight rules for git', ARRAY['RichardLitt', 'simaki'], '2022-02-24T21:06:05.080468+00:00'),
-(22242868, 244, 3, 1, 0, 21, 'edgarjs/alfred-github-repos', 'Alfred workflow to easily open Github repositories', ARRAY['edgarjs', 'ileodo'], '2022-02-24T21:06:05.080468+00:00'),
 (22152430, 720, 11, 1, 0, 1, 'mrflix/dimensions', 'A Chrome extension for measuring screen dimensions', ARRAY['mrflix', 'arnaugiralt'], '2022-02-24T21:06:05.080468+00:00'),
+(22242868, 244, 3, 1, 0, 21, 'edgarjs/alfred-github-repos', 'Alfred workflow to easily open Github repositories', ARRAY['edgarjs', 'ileodo'], '2022-02-24T21:06:05.080468+00:00'),
 (22258112, 1558, 34, 1, 0, 21, 'quantifiedcode/python-anti-patterns', 'An open collection of Python anti-patterns and worst practices.', ARRAY['kaycebasques', 'adewes'], '2022-02-24T21:06:05.080468+00:00'),
 (22336000, 852, 35, 1, 0, 22, 'Pragmatists/JUnitParams', 'Parameterised tests that don''t suck', ARRAY['plipinski', 'woprzech'], '2022-02-24T21:06:05.080468+00:00'),
 (22386765, 2363, 162, 1, 0, 23, 'NUKnightLab/TimelineJS3', 'TimelineJS v3: A Storytelling Timeline built in JavaScript.  http://timeline.knightlab.com', ARRAY['JoeGermuska', 'zachwise'], '2022-02-24T21:06:05.080468+00:00'),
