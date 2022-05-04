@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T08:46:44.827Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-04T10:45:26.751Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -269,8 +269,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (6498492, 117641, 131, 1, 0, 2, 'airbnb/javascript', 'JavaScript Style Guide', ARRAY['ljharb', 'hshoff'], '2022-02-24T21:06:05.080468+00:00'),
 (6554957, 1097, 9, 1, 0, 0, 'edankwan/penis.js', null, ARRAY['jesseditson', 'edankwan'], '2022-02-24T21:06:05.080468+00:00'),
 (6639959, 27, 23, 1, 0, 17, 'berwinter/uvr1611', 'UVR1611 Data Logger Pro', ARRAY['berwinter', 'bobosch'], '2022-02-24T21:06:05.080468+00:00'),
-(6671099, 13070, 6, 1, 0, 5, 'mnielsen/neural-networks-and-deep-learning', 'Code samples for my book ''Neural Networks and Deep Learning''', ARRAY['mnielsen', 'fhisamoto'], '2022-02-24T21:06:05.080468+00:00'),
 (6662075, 13417, 169, 2, 0, 17.5, 'joke2k/faker', 'Faker is a Python package that generates fake data for you.', ARRAY['fcurella', 'joke2k'], '2022-02-24T21:06:05.080468+00:00'),
+(6671099, 13070, 6, 1, 0, 5, 'mnielsen/neural-networks-and-deep-learning', 'Code samples for my book ''Neural Networks and Deep Learning''', ARRAY['mnielsen', 'fhisamoto'], '2022-02-24T21:06:05.080468+00:00'),
 (6698053, 6993, 147, 1, 0, 26, 'vimwiki/vimwiki', 'Personal Wiki for Vim', ARRAY['EinfachToll', 'ranebrown'], '2022-02-24T21:06:05.080468+00:00'),
 (6720403, 12126, 605, 1, 0, 5, 'simple-icons/simple-icons', 'SVG icons for popular brands', ARRAY['PeterShaggyNoble', 'birjolaxew'], '2022-02-24T21:06:05.080468+00:00'),
 (6750158, 6897, 11, 1, 0, 29, 'mgechev/javascript-algorithms', '💻 JavaScript implementations of computer science algorithms', ARRAY['mgechev', 'AndriiHeonia'], '2022-02-24T21:06:05.080468+00:00'),
@@ -571,8 +571,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (24470090, 3398, 53, 1, 0, 0, 'OpenDroneMap/ODM', 'A command line toolkit to generate maps, point clouds, 3D models and DEMs from drone, balloon or kite images. 📷', ARRAY['pierotofy', 'dakotabenjamin'], '2022-02-24T21:06:05.080468+00:00'),
 (24516196, 7, 0, 1, 0, 6, 'nhat-nguyen/bittersweet', 'a color scheme for Sublime Text', ARRAY['nhat-nguyen'], '2022-02-24T21:06:05.080468+00:00'),
 (24579238, 21466, 356, 1, 0, 5, 'vuejs/devtools', '⚙️ Browser devtools extension for debugging Vue.js applications.', ARRAY['Akryum', 'yyx990803'], '2022-02-24T21:06:05.080468+00:00'),
-(24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
 (24956772, 8563, 411, 1, 0, 8, 'Hammerspoon/hammerspoon', 'Staggeringly powerful macOS desktop automation with Lua', ARRAY['cmsj', 'asmagill'], '2022-02-24T21:06:05.080468+00:00'),
+(24655114, 13422, 127, 1, 0, 0, 'ChainSafe/web3.js', 'Ethereum JavaScript API', ARRAY['frozeman', 'debris'], '2022-02-24T21:06:05.080468+00:00'),
 (24964908, 127, 7, 1, 0, 28, 'poliva/ggposrv', 'Unofficial ggpo server (re)implementation', ARRAY['poliva'], '2022-02-24T21:06:05.080468+00:00'),
 (25155580, 5186, 72, 2, 0, 19, 'JuanitoFatas/fast-ruby', ':dash: Writing Fast Ruby :heart_eyes: -- Collect Common Ruby idioms.', ARRAY['JuanitoFatas', 'Arcovion'], '2022-02-24T21:06:05.080468+00:00'),
 (25304276, 126, 127, 1, 1, 29, 'poliva/pyqtggpo', 'Cross platform (Linux, MacOSX, Windows) GUI client for FightCade', ARRAY['poliva', 'doctorguile'], '2022-02-24T21:06:05.080468+00:00'),
