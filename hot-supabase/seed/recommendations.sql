@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-05T10:45:31.400Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-05T12:56:34.723Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -496,8 +496,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (19029120, 1347, 101, 1, 0, 16, 'indutny/elliptic', 'Fast Elliptic Curve Cryptography in plain javascript', ARRAY['indutny', 'fanatid'], '2022-02-24T21:06:05.080468+00:00'),
 (19126114, 4215, 115, 1, 0, 13, 'rust-lang/rust-by-example', 'Learn Rust with examples (Live code editor included)', ARRAY['steveklabnik', 'marioidival'], '2022-02-24T21:06:05.080468+00:00'),
 (19148949, 34413, 2015, 1, 0, 17, 'PhilJay/MPAndroidChart', 'A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.', ARRAY['PhilJay', 'danielgindi'], '2022-02-24T21:06:05.080468+00:00'),
-(19257422, 7576, 179, 1, 0, 3, 'questdb/questdb', 'An open source SQL database designed to process time series data, faster', ARRAY['bluestreak01', 'ideoma'], '2022-02-24T21:06:05.080468+00:00'),
 (19208128, 2371, 55, 1, 0, 19, 'firasdib/Regex101', 'This repository is currently only used for issue tracking for www.regex101.com', ARRAY['firasdib', 'Zarthus'], '2022-02-24T21:06:05.080468+00:00'),
+(19257422, 7576, 179, 1, 0, 3, 'questdb/questdb', 'An open source SQL database designed to process time series data, faster', ARRAY['bluestreak01', 'ideoma'], '2022-02-24T21:06:05.080468+00:00'),
 (19319131, 792, 77, 1, 0, 27, 'mrmaffen/vlc-android-sdk', 'VLC Android SDK pushed to Maven Central. Primarily used in project tomahawk-android.', ARRAY['mrmaffen', 'xhochy'], '2022-02-24T21:06:05.080468+00:00'),
 (19331272, 1162, 53, 1, 0, 19, 'gocarina/gocsv', 'The GoCSV package aims to provide easy CSV serialization and deserialization to the golang programming language', ARRAY['pikanezi', 'JonathanPicques'], '2022-02-24T21:06:05.080468+00:00'),
 (19415064, 103959, 10, 1, 0, 1, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3533,6 +3533,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399197552, 6, 0, 1, 0, 7, 'CrossGeeks/ScrollRevealXFSample', null, ARRAY['Char0394'], '2022-02-24T21:06:05.080468+00:00'),
 (399220892, 5, 0, 1, 0, 7, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-24T21:06:05.080468+00:00'),
 (399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-24T21:06:05.080468+00:00'),
+(399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-24T21:06:05.080468+00:00'),
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-24T21:06:05.080468+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-24T21:06:05.080468+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
