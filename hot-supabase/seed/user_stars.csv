@@ -4309,12 +4309,13 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 376456966,118037,159981830,29,12,10718,khanhas/spicetify-cli,"Commandline tool to customize Spotify client. Supports Windows, MacOS and Linux.","{khanhas,afonsojramos}",2022-02-24T21:07:34.596111
 418247835,16165980,343965132,0,6,28909,microsoft/ML-For-Beginners,"12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all","{jlooper,softchris}",2022-02-24T21:07:34.596111
 374153645,3861088,11829145,29,79,16788,basecamp/trix,A rich text editor for everyday writing,"{javan,sstephenson}",2022-02-24T21:07:34.596111
-418295712,71458737,51595028,0,90,1353,OPCFoundation/UA-.NETStandard,OPC Unified Architecture .NET Standard,"{mregen,barnstee}",2022-02-24T21:07:34.596111
 363282160,4381106,70777180,13,8,12595,Foundry376/Mailspring,":love_letter: A beautiful, fast and fully open source mail client for Mac, Windows and Linux.","{bengotow,emorikawa}",2022-02-24T21:07:34.596111
 422332797,4066445,3214406,4,134,42878,meteor/meteor,"Meteor, the JavaScript App Platform","{benjamn,glasser}",2022-02-24T21:07:34.596111
 422279691,4910518,114484885,5,0,59,trectenwald/omnigraffle-aws,Omnigraffle stencils using AWS Simple Icons.,{trectenwald},2022-02-24T21:07:34.596111
 397167684,52573181,60493101,1,47,219005,jwasham/coding-interview-university,A complete computer science study plan to become a software engineer.,"{jwasham,avizmarlon}",2022-02-24T21:07:34.596111
 394896505,16942870,175043545,29,110,2907,cloudflare/wrangler,🤠   wrangle your Cloudflare Workers,"{EverlastingBugstopper,ashleymichal}",2022-02-24T21:07:34.596111
+418295712,71458737,51595028,0,91,1353,OPCFoundation/UA-.NETStandard,OPC Unified Architecture .NET Standard,"{mregen,barnstee}",2022-02-24T21:07:34.596111
+419094803,12849040,287573157,0,12,1186,Leniolabs/layoutit-grid,"Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.","{patak-dev,agustin-capeletto-lenio}",2022-02-24T21:07:34.596111
 431463238,24553355,362276202,29,13,511,Azure/counterfit,a CLI that provides a generic automation layer for assessing the security of ML models,"{moohax,rdheekonda}",2022-02-24T21:07:34.596111
 361187808,1295334,906834,17,7,80,avdgaag/nanoc-template,A simple template project for websites built with Nanoc,"{avdgaag,rolfvandekrol}",2022-02-24T21:07:34.596111
 342917803,68660520,178137889,0,0,3,mpsalisbury/raytracer,Ray Tracer from Ray Tracer Challenge,{mpsalisbury},2022-02-24T21:07:34.596111
@@ -4329,17 +4330,14 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 419462546,29417643,26573009,4,11,176,semmypurewal/BeginningJavaScript,"This repo contains the examples, notes and problems for my O'Reilly video ""Beginning Programming with JavaScript""",{semmypurewal},2022-02-24T21:07:34.596111
 423914895,19617280,333980205,29,0,143,cassidoo/cass.run,My own lil URL shortener,"{cassidoo,Jadhielv}",2022-02-24T21:07:34.596111
 360558767,2808728,22887094,29,369,44992,tesseract-ocr/tesseract,Tesseract Open Source OCR Engine (main repository),"{stweil,zdenop}",2022-02-24T21:07:34.596111
-419094803,12849040,287573157,0,12,1185,Leniolabs/layoutit-grid,"Layoutit grid is a CSS Grid layout generator. Quickly draw down web pages layouts with our clean editor, and get HTML and CSS code to quickstart your next project.","{patak-dev,agustin-capeletto-lenio}",2022-02-24T21:07:34.596111
-417381369,79887,2928944,29,1669,3653,Azure/azure-sdk-for-net,This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ,"{azure-sdk,pakrym}",2022-02-24T21:07:34.596111
-396049655,85258143,388004440,0,1,49,oscafrica/open-source-challenge-2021,The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.,"{BolajiAyodeji,Petec0x0}",2022-02-24T21:07:34.596111
 418175317,1917293,401300251,29,0,2,Gen-R/organisation,GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu,{mrchristian},2022-02-24T21:07:34.596111
+417381369,79887,2928944,29,1670,3653,Azure/azure-sdk-for-net,This repository is for active development of the Azure SDK for .NET. For consumers of the SDK we recommend visiting our public developer docs at https://docs.microsoft.com/dotnet/azure/ or our versioned developer docs at https://azure.github.io/azure-sdk-for-net. ,"{azure-sdk,pakrym}",2022-02-24T21:07:34.596111
+396049655,85258143,388004440,0,1,49,oscafrica/open-source-challenge-2021,The Open Source Challenge aims to support the tech ecosystem in Africa to contribute to open source projects.,"{BolajiAyodeji,Petec0x0}",2022-02-24T21:07:34.596111
 360376415,25194960,135224272,29,3,67,loomnetwork/solidity-social-example,"Super simple social network interaction, where users can post and comment on posts","{mattkanwisher,eduardonunesp}",2022-02-24T21:07:34.596111
 304890007,69519470,133134007,1,3162,12018,OpenAPITools/openapi-generator,"OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)","{wing328,fehguy}",2022-02-24T21:07:34.596111
 348840995,351693,197008093,0,11,49,fmartinou/whats-up-docker,What's up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.,"{fmartinou,ajgon}",2022-02-24T21:07:34.596111
 415612821,44642314,268098312,0,6,17,ZedThree/clang-tidy-review,Create a pull request review based on clang-tidy warnings,"{ZedThree,kgfoundrydig}",2022-02-24T21:07:34.596111
 408066383,58392246,407507122,0,0,1,dimassuam/project-kalian,Menyimpan daftar Project Kalian yang sudah disubmit di Discord,{sandhikagalih},2022-02-24T21:07:34.596111
-410367620,2609511,88905488,29,5,2733,ShangtongZhang/DeepRL,Modularized Implementation of Deep RL Algorithms in PyTorch,"{ShangtongZhang,wassname}",2022-02-24T21:07:34.596111
-381467530,83433840,206060082,0,6,68,octodemo/awesome-actions,Repository template used to showcase Actions that tie into pull request and issue events,"{jonico,pmanlukas}",2022-02-24T21:07:34.596111
 349215600,16259450,46624643,29,138,5022,zplug/zplug,:hibiscus: A next-generation plugin manager for zsh,"{b4b4r07,NigoroJr}",2022-02-24T21:07:34.596111
 368306962,29547465,183712153,28,9,311,dasDaniel/svelte-table,A svelte-3 table implementation that allows sorting and filtering,"{dasDaniel,thilo-behnke}",2022-02-24T21:07:34.596111
 364902007,38725511,63477612,22,12,19250,TheAlgorithms/C-Plus-Plus,"Collection of various algorithms in mathematics, machine learning, computer science and physics implemented in C++ for educational purposes.","{kvedala,ayaankhan98}",2022-02-24T21:07:34.596111
@@ -4347,21 +4345,23 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 393518546,47711025,5082119,29,14,382,deiv/driftnet," Driftnet watches network traffic, and picks out and displays JPEG and GIF images for display","{deiv,sandsmark}",2022-02-24T21:07:34.596111
 388653553,75340837,28457823,7,140,345375,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-24T21:07:34.596111
 398824985,49831545,263983855,29,29,6459,Miodec/monkeytype,"The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed.","{Miodec,UnrealApex}",2022-02-24T21:07:34.596111
-417287027,52336027,19415064,12,19,112401,ossu/computer-science,:mortar_board: Path to a free self-taught education in Computer Science!,"{ericdouglas,joshmhanson}",2022-02-24T21:07:34.596111
+410258743,91016903,374901515,0,25,105,Amit366/FunwithPhysics,,"{Amit366,KushalGhosh9899}",2022-02-24T21:07:34.596111
 409008084,46695719,382308978,29,0,56,tediko/planets-fact,Planets fact site with animated solar system built with ReactJS. ,{tediko},2022-02-24T21:07:34.596111
 281077014,30334776,340187605,29,0,157,dmitryvinn/awesome-dev-advocacy,🥑  List of Awesome Developer Advocacy Resources,"{dmitryvinn,dmitryvinn-fb}",2022-02-24T21:07:34.596111
 340929223,40713709,8424040,29,222,17415,processing/p5.js,"p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —","{lmccart,outofambit}",2022-02-24T21:07:34.596111
-414641681,11858762,6750158,29,6,7228,mgechev/javascript-algorithms,💻 JavaScript implementations of computer science algorithms,"{mgechev,AndriiHeonia}",2022-02-24T21:07:34.596111
+410367620,2609511,88905488,29,5,2734,ShangtongZhang/DeepRL,Modularized Implementation of Deep RL Algorithms in PyTorch,"{ShangtongZhang,wassname}",2022-02-24T21:07:34.596111
 345032271,60850993,8936633,29,17,9402,maxogden/art-of-node,:snowflake: a short introduction to node.js,"{maxogden,zeke}",2022-02-24T21:07:34.596111
-410258743,91016903,374901515,0,24,105,Amit366/FunwithPhysics,,"{Amit366,KushalGhosh9899}",2022-02-24T21:07:34.596111
+381467530,83433840,206060082,0,6,68,octodemo/awesome-actions,Repository template used to showcase Actions that tie into pull request and issue events,"{jonico,pmanlukas}",2022-02-24T21:07:34.596111
 368937172,54776315,289123163,29,1,53,adamdehaven/vue-custom-tooltip,A reusable tooltip component for Vue (and VuePress) projects.,{adamdehaven},2022-02-24T21:07:34.596111
 363319540,6842883,15062869,29,1090,38579,facebook/jest,Delightful JavaScript Testing.,"{SimenB,cpojer}",2022-02-24T21:07:34.596111
 391419133,58482194,71995937,29,432,40376,nuxt/nuxt.js,The Intuitive Vue(2) Framework,"{pi0,Atinux}",2022-02-24T21:07:34.596111
 370530334,3792749,1451352,28,264,21341,mochajs/mocha,"☕️ simple, flexible, fun javascript test framework for node.js & the browser","{tj,boneskull}",2022-02-24T21:07:34.596111
 341168991,3846874,809601,29,90,16551,handlebars-lang/handlebars.js,Minimal templating on steroids.,"{kpdecker,nknapp}",2022-02-24T21:07:34.596111
+417287027,52336027,19415064,12,19,112416,ossu/computer-science,:mortar_board: Path to a free self-taught education in Computer Science!,"{ericdouglas,joshmhanson}",2022-02-24T21:07:34.596111
 348860575,6241164,219324014,29,11,119,nestjsx/automapper,An Object-Object AutoMapper module for NestJS.,"{nartc,bashleigh}",2022-02-24T21:07:34.596111
 398440389,66239105,376296039,29,0,331,vibalijoshi/List-of-Opportunities,Keep track of opportunities and never miss a deadline again!,"{vibalijoshi,sadn1ck}",2022-02-24T21:07:34.596111
 344970841,38838958,248295170,29,11,3056,geist-org/react,A design system for building modern websites and applications.,"{unix,ofekashery}",2022-02-24T21:07:34.596111
+414641681,11858762,6750158,29,6,7227,mgechev/javascript-algorithms,💻 JavaScript implementations of computer science algorithms,"{mgechev,AndriiHeonia}",2022-02-24T21:07:34.596111
 350456159,15004099,87873787,3,63,726,theNewDynamic/gohugo-theme-ananke,Ananke: A theme for Hugo Sites,"{budparr,regisphilibert}",2022-02-24T21:07:34.596111
 371931802,3450257,59152795,29,3,62,dracula/atom,🧛🏻‍♂️ Dark theme for Atom,"{rr-jimmy-multani,zenorocha}",2022-02-24T21:07:34.596111
 400813204,20134767,36040894,24,318,52627,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-24T21:07:34.596111
@@ -4399,17 +4399,17 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 444571130,469997,516307,23,0,3,g-ben-wiz/ARMinis,Augmented Reality Wargames Miniatures,{g-ben-wiz},2022-02-24T21:07:34.596111
 272558455,42392347,254889040,22,0,1,ColomboJuan/AppCodvid19,Aplicacion Open Source de Codvid-19 - https://juan-colombo95.github.io/AppCodvid19/,{ColomboJuan},2022-02-24T21:07:34.596111
 422278376,26007940,32883944,28,1,171,mcleonard/blog_posts,Blog posts for matatat.org,{mcleonard},2022-02-24T21:07:34.596111
+409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-24T21:07:34.596111
 408003690,1305623,51270739,29,55,20227,viatsko/awesome-vscode,🎨 A curated list of delightful VS Code packages and resources.,"{viatsko,lannonbr}",2022-02-24T21:07:34.596111
 396048872,60254117,365976998,29,0,2,udberg/Weather-App,This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.,{udberg},2022-02-24T21:07:34.596111
 382468183,8037469,172741073,29,389,19795,snowpackjs/snowpack,"ESM-powered frontend build tool. Instant, lightweight, unbundled development. ✌️","{FredKSchott,drwpow}",2022-02-24T21:07:34.596111
 399559931,30369246,21405028,29,1,10459,ardanlabs/gotraining,Go Training Class Material : ,"{ardan-bkennedy,jcbwlkr}",2022-02-24T21:07:34.596111
-409822566,9968219,283210438,29,0,1,ramazansakin/log-aggregation-spring-boot-elastic-stack,"Example on how to use Elastic Stack with Docker to collect, process, store, index and visualize logs of Spring Boot microservices.","{cassiomolin,ramazansakin}",2022-02-24T21:07:34.596111
 429224238,1645545,81075897,29,49,259,SciML/Catalyst.jl,"Chemical reaction network and systems biology interface for scientific machine learning (SciML). High performance, GPU-parallelized, and O(1) solvers in open source software","{isaacsas,TorkelE}",2022-02-24T21:07:34.596111
 417311106,71297412,55631449,29,98,2168,jamstack/jamstack.org,The official Jamstack site,"{philhawksworth,zachleat}",2022-02-24T21:07:34.596111
 391706360,25867172,18696257,29,17,9877,qrohlf/trianglify,Algorithmically generated triangle art,"{qrohlf,enzuguri}",2022-02-24T21:07:34.596111
 456168834,5381468,145761460,29,3,861,marchof/java-almanac,The history and future of Java.,"{marchof,cayhorstmann}",2022-02-24T21:07:34.596111
 465036506,19359944,2515323,29,37,1549,liip/LiipImagineBundle,Symfony Bundle to assist in imagine manipulation using the imagine library,"{lsmith77,makasim}",2022-03-02T08:10:40.488726
-418672791,20727421,218282453,29,17,3177,saadpasta/developerFolio,🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.,"{saadpasta,kartikcho}",2022-02-24T21:07:34.596111
+418672791,20727421,218282453,29,17,3179,saadpasta/developerFolio,🚀 Software Developer Portfolio Template that helps you showcase your work and skills as a software developer.,"{saadpasta,kartikcho}",2022-02-24T21:07:34.596111
 467581742,7222344,3452519,7,23,530,humanmade/Custom-Meta-Boxes,Lets you easily create metaboxes with custom fields that will blow your mind.   ,"{mattheu,mikeselander}",2022-03-09T10:39:40.818859
 466201413,11489171,28457823,8,140,345375,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-03-05T04:56:52.874277
 465760174,60147716,110375203,29,0,9,arindam-modak/YRASS-Media-Player,"YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.","{arindam-modak,yash-1998}",2022-03-05T03:05:44.386164
@@ -4429,9 +4429,9 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 302938010,211851,5373673,29,66,2743,jlord/sheetsee.js,:eyes: :chart_with_upwards_trend: Visualize Data from a Google Spreadsheet,"{jlord,mjhea0}",2022-02-24T21:07:34.596111
 424360680,5901851,217545172,29,36,1577,ibrahimsn98/SmoothBottomBar,A lightweight Android material bottom navigation bar library,"{ibrahimsn98,mayokunadeniyi}",2022-02-24T21:07:34.596111
 455678420,6499373,36040894,24,327,52804,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-02-24T21:07:34.596111
-476011893,12780694,3545227,29,73,1776,webcamoid/webcamoid,Webcamoid is a full featured and multiplatform webcam suite.,"{hipersayanX,yarons}",2022-04-02T07:17:17.428559
 469853701,101365565,80050538,2,3,635,maintainers/public-resources,Public information on the invite-only maintainer community,"{MikeMcQuaid,devonzuegel}",2022-03-16T13:54:01.717626
 396050805,25217168,7691631,16,4272,62978,moby/moby,Moby Project - a collaborative project for the container ecosystem to assemble container-based systems,"{thaJeztah,crosbymichael}",2022-02-24T21:07:34.596111
+476011893,12780694,3545227,29,73,1776,webcamoid/webcamoid,Webcamoid is a full featured and multiplatform webcam suite.,"{hipersayanX,yarons}",2022-04-02T07:17:17.428559
 483288985,47524279,331254339,5,0,2,projectashik/viod-mail,,{projectashik},2022-04-20T03:07:18.832769
 424945913,2339101,55896045,29,20,1,DrBenton/rougemine.com-online-resume,My over-engineered online resume,{DrBenton},2022-02-24T21:07:34.596111
 482311242,17413306,392386677,29,4,5,babstrap/babstrap_settings_screen,This project help the developper to display a beautiful Settings Screen UI.,{babstrap},2022-04-20T05:33:54.564115
@@ -4444,7 +4444,7 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 478689660,15233,357333176,29,1,24,IBM/kgi-slot-filling,This is the code for our KILT leaderboard submission to the T-REx and zsRE tasks.  It includes code for training a DPR model then continuing training with RAG.,"{michaelrglass,gaetangate}",2022-04-06T19:00:03.160586
 476895720,20134767,36040894,25,324,52674,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-02T07:06:05.544754
 487587077,18058884,106964775,29,0,81,michaelschwobe/mac-dev-setup,A macOS setup guide specific to front-end development.,{michaelschwobe},2022-05-04T05:28:05.285748
-488421730,19538219,379429942,29,56,564,fishfight/FishFight,Tactical 2D shooter in fishy pixels style. Made with Rust-lang and Macroquad 🦀🌶,"{olefasting,not-fl3}",2022-05-04T14:06:10.984655
+487840128,47293786,96405972,5,0,2,bcgrillo/JWTAspNetWebApi,"Tutorial shows how to Issue JSON Web Token in ASP.NET Web API 2 and Owin middleware, then build list of Resource Servers relies on the Token Issuer Party (Authorization Server)","{tjoudeh,bcgrillo}",2022-05-04T14:06:11.315643
 487679107,31663172,94150359,17,28,3254,gitname/react-gh-pages,Deploying a React App (created using create-react-app) to GitHub Pages,"{gitname,AbhishekCode}",2022-05-04T02:51:31.359272
 485850022,79736938,142471624,29,13,87,udacity/andfun-kotlin-mars-real-estate,NASA photos with a whimsical theme demonstrate how to work with web services on Android.,"{DAGalpin,SudKul}",2022-04-27T03:56:14.935863
 485857005,33266556,15953199,0,52,13670,HubSpot/youmightnotneedjquery,,"{Abbondanzo,adamschwartz}",2022-04-27T04:39:49.686826
@@ -4452,8 +4452,8 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 484178576,20134767,36040894,25,312,52769,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-23T22:13:47.365856
 320434477,2658040,178404439,29,0,4,BaseMax/ColorConvertPy,"Tiny library to convert various colored units. (rgb, hex)",{BaseMax},2022-02-24T21:07:34.596111
 485426249,48335772,1197428,0,159,14408,zsh-users/zsh-syntax-highlighting,Fish shell like syntax highlighting for Zsh.,"{danielshahaf,phy1729}",2022-04-27T04:20:25.88859
-487840128,47293786,96405972,5,0,2,bcgrillo/JWTAspNetWebApi,"Tutorial shows how to Issue JSON Web Token in ASP.NET Web API 2 and Owin middleware, then build list of Resource Servers relies on the Token Issuer Party (Authorization Server)","{tjoudeh,bcgrillo}",2022-05-04T14:06:11.315643
 485850698,87914378,284521701,23,3,556,johnthebrit/AzureMasterClass,Repo for the Azure Master Class,{johnthebrit},2022-04-27T03:56:14.968962
+488421730,19538219,379429942,29,56,565,fishfight/FishFight,Tactical 2D shooter in fishy pixels style. Made with Rust-lang and Macroquad 🦀🌶,"{olefasting,not-fl3}",2022-05-04T14:06:10.984655
 485853986,12782646,74144348,21,0,25,skydome20/R-Notes,Notes for using R language to do data mining and machine learning (Chinese),{skydome20},2022-04-26T16:25:08.624062
 321809845,907680,70908474,29,54,953,whitecatboard/Lua-RTOS-ESP32,Lua RTOS for ESP32,"{jolivepetrus,chowette}",2022-02-24T21:07:34.596111
 487496953,8932275,476544920,0,0,2,moxie99/AdenikePortfolio2022,,"{ubaimutl,moxie99}",2022-05-04T10:15:01.68301
