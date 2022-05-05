@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-05T14:43:26.964Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-05T16:53:27.764Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -503,8 +503,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (19415064, 103959, 10, 1, 0, 1, 'ossu/computer-science', ':mortar_board: Path to a free self-taught education in Computer Science!', ARRAY['ericdouglas', 'joshmhanson'], '2022-02-24T21:06:05.080468+00:00'),
 (19717804, 1661, 32, 1, 0, 9, 'xgrommx/rx-book', null, ARRAY['xgrommx', 'mgrandrath'], '2022-02-24T21:06:05.080468+00:00'),
 (19872456, 45467, 63, 1, 0, 13, 'remix-run/react-router', 'Declarative routing for React', ARRAY['mjackson', 'ryanflorence'], '2022-02-24T21:06:05.080468+00:00'),
-(19884798, 41, 12, 1, 0, 19, 'derhansen/sf_event_mgt', 'An event management and registration extension for TYPO3 CMS based on ExtBase and Fluid.', ARRAY['derhansen', 'mmunz'], '2022-02-24T21:06:05.080468+00:00'),
 (20037550, 2040, 65, 1, 0, 11, 'ruby/rake', 'A make-like build utility for Ruby.', ARRAY['jimweirich', 'hsbt'], '2022-02-24T21:06:05.080468+00:00'),
+(19884798, 41, 12, 1, 0, 19, 'derhansen/sf_event_mgt', 'An event management and registration extension for TYPO3 CMS based on ExtBase and Fluid.', ARRAY['derhansen', 'mmunz'], '2022-02-24T21:06:05.080468+00:00'),
 (20190634, 1286, 106, 1, 0, 13, 'equalsraf/neovim-qt', 'Neovim client library and GUI, in Qt5.', ARRAY['equalsraf', 'jgehrig'], '2022-02-24T21:06:05.080468+00:00'),
 (20270252, 21049, 447, 1, 0, 20, 'feathericons/feather', 'Simply beautiful open source icons', ARRAY['colebemis', 'ashygee'], '2022-02-24T21:06:05.080468+00:00'),
 (20300177, 43226, 725, 1, 0, 20, 'google/guava', 'Google core libraries for Java', ARRAY['cpovirk', 'kluever'], '2022-02-24T21:06:05.080468+00:00'),
