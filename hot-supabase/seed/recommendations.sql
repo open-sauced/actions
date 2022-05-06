@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T01:02:59.293Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-06T03:02:59.462Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3024,6 +3024,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (333228035, 1, 0, 1, 0, 12, 'SufiaAshraf/Role_Based_Authentication', 'In computer systems security, role-based access control or role-based security is an approach to restricting system access to authorized users. I have build a role-based authentication app to restrict access for manager , admin and superadmin', ARRAY['SufiaAshraf'], '2022-02-24T21:06:05.080468+00:00'),
 (333280676, 1, 0, 1, 0, 18, 'juliobonon/learn-rust', 'Just a small project to learn rust lang.', ARRAY['juliobonon'], '2022-02-24T21:06:05.080468+00:00'),
 (333421996, 4756, 5, 1, 0, 9, 'therealsreehari/Learn-Data-Science-For-Free', 'This repositary is a combination of different resources lying scattered all over the internet. The reason for making such an repositary is to combine all the valuable resources in a sequential manner, so that it helps every beginners who are in a search of free and structured learning resource for Data Science. For Constant Updates Follow me in Twitter.', ARRAY['therealsreehari', 'tuxiqae'], '2022-02-24T21:06:05.080468+00:00'),
+(333719667, 1, 2, 1, 0, 22, 'EliseeCode/exolingo', 'Opensource flashCard system optimised for languages.', ARRAY['EliseeCode', 'nobalpha'], '2022-02-24T21:06:05.080468+00:00'),
+(333980205, 129, 0, 1, 0, 29, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:06:05.080468+00:00'),
 (334167971, 86, 16, 1, 0, 2, 'ashishsahu1/ML-ProjectYard', 'This repo consists of multiple machine learning based projects with frontend ', ARRAY['ashishsahu1', 'Amit366'], '2022-02-24T21:06:05.080468+00:00'),
 (334195792, 1, 0, 1, 0, 11, 'teezzan/flw_validator', 'A simple server-side validator. A submission for flutterwave''s coding assessment ', ARRAY['teezzan'], '2022-02-24T21:06:05.080468+00:00'),
 (334229943, 2596, 22, 1, 0, 18, 'nodegui/svelte-nodegui', 'Build performant, native and cross-platform desktop applications with native Svelte + powerful CSS-like styling.🚀', ARRAY['halfnelson', 'shirakaba'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3150,8 +3152,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (351298555, 3339, 5, 1, 0, 7, 'thedevdojo/wave', 'Wave - The Software as a Service Starter Kit, designed to help you build the SAAS of your dreams 🚀 💰 ', ARRAY['tnylea', 'bobbyiliev'], '2022-02-24T21:06:05.080468+00:00'),
 (351632872, 111, 3, 1, 0, 23, 'jcv8000/Codex', 'A free note-taking software for programmers and Computer Science students', ARRAY['jcv8000'], '2022-02-24T21:06:05.080468+00:00'),
 (351669095, 4324, 15, 1, 0, 1, 'seek-oss/vanilla-extract', 'Zero-runtime Stylesheets-in-TypeScript', ARRAY['mattcompiles', 'seek-oss-ci'], '2022-02-24T21:06:05.080468+00:00'),
-(333719667, 1, 2, 1, 0, 22, 'EliseeCode/exolingo', 'Opensource flashCard system optimised for languages.', ARRAY['EliseeCode', 'nobalpha'], '2022-02-24T21:06:05.080468+00:00'),
-(333980205, 129, 0, 1, 0, 29, 'cassidoo/cass.run', 'My own lil URL shortener', ARRAY['cassidoo', 'Jadhielv'], '2022-02-24T21:06:05.080468+00:00'),
 (351728562, 2, 0, 1, 0, 9, 'lukeocodes/nuxt-contentful-starter', 'Quick starter blog using Contentful. Uses generate router payload to reduce individual API calls to Contentful.', ARRAY['lukeocodes'], '2022-02-24T21:06:05.080468+00:00'),
 (351877820, 12, 5, 1, 0, 6, 'GuillaumeFalourd/poc-github-actions', 'Various proofs of concept examples using Github Actions 🤖', ARRAY['GuillaumeFalourd'], '2022-02-24T21:06:05.080468+00:00'),
 (351909863, 13, 1, 1, 0, 25, 'cloudflare/durable-objects-template', null, ARRAY['a-robinson', 'xortive'], '2022-02-24T21:06:05.080468+00:00'),
