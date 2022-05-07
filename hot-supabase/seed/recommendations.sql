@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T20:44:19.561Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T22:44:03.397Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1350,8 +1350,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (103749180, 12942, 2460, 1, 0, 27, 'OpenGenus/cosmos', 'Hacktoberfest 2021 | World''s largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |', ARRAY['AdiChat', 'arnavb'], '2022-02-24T21:06:05.080468+00:00'),
 (104133653, 5321, 46, 1, 0, 24, 'reakit/reakit', 'Toolkit for building accessible rich web apps with React', ARRAY['diegohaz', 'tcodes0'], '2022-02-24T21:06:05.080468+00:00'),
 (104184716, 179, 7, 1, 0, 8, 'vatz88/Pluralsight-Course-Downloader', 'Chrome Extension: Easily download course video from pluralsight. Videos renamed and organized in folder.', ARRAY['vatz88', 'richie777cfc'], '2022-02-24T21:06:05.080468+00:00'),
-(104307778, 1235, 6, 1, 0, 22, 'halturin/ergo', 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', ARRAY['halturin', 'Zert'], '2022-02-24T21:06:05.080468+00:00'),
-(104366016, 1242, 3, 1, 0, 22, 'protofire/blockchain-learning-path', 'A suggested learning path for blockchain development', ARRAY['mariano-aguero', 'fvictorio'], '2022-02-24T21:06:05.080468+00:00'),
 (104394958, 427, 6, 1, 0, 11, 'true-myth/true-myth', 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ARRAY['chriskrycho', 'bmakuh'], '2022-02-24T21:06:05.080468+00:00'),
 (104443108, 383, 4, 1, 0, 22, 'ukncsc/secure-development-and-deployment', 'NCSC Guidance for secure development and deployment', ARRAY['toby-ncsc', 'HowWeRollingham'], '2022-02-24T21:06:05.080468+00:00'),
 (104957153, 5074, 21, 1, 0, 20, 'nestjs/awesome-nestjs', 'A curated list of awesome things related to NestJS 😎', ARRAY['juliandavidmr', 'Tony133'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1364,7 +1362,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (105412971, 4574, 168, 1, 0, 10, 'stereobooster/react-snap', '👻 Zero-configuration framework-agnostic static prerendering for SPAs', ARRAY['stereobooster', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (105468219, 2083, 87, 1, 0, 22, 'IntelLabs/coach', 'Reinforcement Learning Coach by Intel AI Lab enables easy experimentation with state of the art Reinforcement Learning algorithms', ARRAY['zach-nervana', 'itaicaspi-intel'], '2022-02-24T21:06:05.080468+00:00'),
 (105563728, 174, 11, 1, 0, 12, 'basarat/typescript-react', 'Use TypeScript to develop react applications', ARRAY['basarat'], '2022-02-24T21:06:05.080468+00:00'),
+(104307778, 1235, 6, 1, 0, 22, 'halturin/ergo', 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', ARRAY['halturin', 'Zert'], '2022-02-24T21:06:05.080468+00:00'),
 (105649273, 6089, 129, 2, 0, 8, 'ElectronNET/Electron.NET', ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', ARRAY['GregorBiswanger', 'robertmuehsig'], '2022-02-24T21:06:05.080468+00:00'),
+(104366016, 1242, 3, 1, 0, 22, 'protofire/blockchain-learning-path', 'A suggested learning path for blockchain development', ARRAY['mariano-aguero', 'fvictorio'], '2022-02-24T21:06:05.080468+00:00'),
 (105802846, 1737, 241, 1, 0, 4, 'aws/jsii', 'jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!', ARRAY['RomainMuller', 'rix0rrr'], '2022-02-24T21:06:05.080468+00:00'),
 (106017343, 51300, 77, 1, 0, 27, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:06:05.080468+00:00'),
 (106144134, 2292, 0, 1, 0, 20, 'rafaelfgx/Architecture', '.NET 6, ASP.NET Core 6, Entity Framework Core 6, C# 10, Angular 13, Clean Code, SOLID, DDD.', ARRAY['rafaelfgx'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3320,6 +3320,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (375581675, 3, 0, 1, 0, 25, 'ezralazuardy/cats', '😷 Contactless Automatic Thermal Scanner', ARRAY['ezralazuardy'], '2022-02-24T21:06:05.080468+00:00'),
 (375818901, 1, 0, 1, 0, 15, 'henrik-ch/financials', null, ARRAY['henrik-ch', 'george-hawkins'], '2022-02-24T21:06:05.080468+00:00'),
 (376296039, 294, 2, 1, 0, 29, 'vibalijoshi/List-of-Opportunities', 'Keep track of opportunities and never miss a deadline again!', ARRAY['vibalijoshi', 'sadn1ck'], '2022-02-24T21:06:05.080468+00:00'),
+(376475936, 1, 0, 1, 0, 23, 'adil-Pathan/ionic-tk-social-network', 'Ionic 5 - social network starter project', ARRAY['thenaim'], '2022-02-24T21:06:05.080468+00:00'),
 (376492865, 2792, 3, 1, 0, 9, 'six-ddc/plow', 'A high-performance HTTP benchmarking tool with real-time web UI and terminal displaying', ARRAY['six-ddc', 'chenrui333'], '2022-02-24T21:06:05.080468+00:00'),
 (376732923, 1, 0, 1, 0, 15, 'kibybyte/kibybyte', 'Kibybyte''s Website', ARRAY['kibybyte'], '2022-02-24T21:06:05.080468+00:00'),
 (376953303, 91, 3, 1, 0, 13, 'cloudflare/zkp-ecdsa', 'Proves knowledge of a ECDSA-P256 signature under one of many public keys that are stored in a list.', ARRAY['wbl'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(376475936, 1, 0, 1, 0, 23, 'adil-Pathan/ionic-tk-social-network', 'Ionic 5 - social network starter project', ARRAY['thenaim'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
