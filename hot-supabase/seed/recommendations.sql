@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T16:50:31.538Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T18:46:28.296Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1001,8 +1001,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (64504667, 946, 0, 1, 0, 19, 'MBMIT/MBM-Artwork', 'MBM Artwork', ARRAY['mariobehling'], '2022-02-24T21:06:05.080468+00:00'),
 (64558143, 30259, 132, 1, 0, 21, 'Blankj/AndroidUtilCode', ':fire: Android developers should collect the following utils(updating).', ARRAY['Blankj', 'CaiMengjie'], '2022-02-24T21:06:05.080468+00:00'),
 (64700934, 14464, 97, 1, 0, 24, 'OpenZeppelin/openzeppelin-contracts', 'OpenZeppelin Contracts is a library for secure smart contract development.', ARRAY['frangio', 'nventuro'], '2022-02-24T21:06:05.080468+00:00'),
-(64782550, 39, 1, 1, 0, 27, 'indiegogo/apple-pay-js-stubs', 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', ARRAY['glentregoning', 'julianguyen'], '2022-02-24T21:06:05.080468+00:00'),
 (64877453, 1024, 36, 1, 0, 25, 'paypal/paypal-checkout-components', 'Javascript Integration for PayPal Button and PayPal Checkout', ARRAY['bluepnume', 'gregjopa'], '2022-02-24T21:06:05.080468+00:00'),
+(64782550, 39, 1, 1, 0, 27, 'indiegogo/apple-pay-js-stubs', 'The Apple Pay JS Stubs provide a stubbed implementation of the ApplePay JS framework allowing you to acceptance test your Apple Pay for the Web code without requiring Safari, or an iPhone with iOS 10', ARRAY['glentregoning', 'julianguyen'], '2022-02-24T21:06:05.080468+00:00'),
 (64889181, 49, 13, 1, 0, 7, 'jmtyszka/bidskit', 'Utility functions for working with DICOM and BIDS neuroimaging data', ARRAY['jmtyszka', 'nair-r'], '2022-02-24T21:06:05.080468+00:00'),
 (65089884, 60, 2, 1, 0, 3, 'jonschlinkert/dry', 'Dry is a new template engine and language, and is a superset of Shopify''s Liquid, with first-class support for advanced inheritance features, and more. From the creators of Enquirer, Assemble, Remarkable, and Micromatch.', ARRAY['jonschlinkert'], '2022-02-24T21:06:05.080468+00:00'),
 (65144724, 2465, 42, 1, 0, 11, 'metakirby5/codi.vim', ':notebook_with_decorative_cover: The interactive scratchpad for hackers.', ARRAY['metakirby5', 'still-dreaming-1'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1870,10 +1870,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (171566590, 2995, 150, 1, 0, 15, 'serverless-nextjs/serverless-next.js', '⚡ Deploy your Next.js apps on AWS Lambda@Edge via Serverless Components', ARRAY['dphang', 'danielcondemarin'], '2022-02-24T21:06:05.080468+00:00'),
 (171691256, 169, 1, 1, 0, 7, 'orbit-love/awesome-dot-dev', 'A list of awesome developer resources on the .dev TLD', ARRAY['patrickjwoods', 'dzello'], '2022-02-24T21:06:05.080468+00:00'),
 (171914326, 1, 0, 1, 0, 28, 'dimonga/OMNIA-AI-TRUCK', 'We are trying to build an escape room truck that will go all across people to alleviate their fear of AI by educating them about AI.', ARRAY['dimonga', 'tartarJR'], '2022-02-24T21:06:05.080468+00:00'),
-(172227885, 7691, 183, 1, 0, 16, 'tiangolo/full-stack-fastapi-postgresql', 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', ARRAY['tiangolo', 'ebreton'], '2022-02-24T21:06:05.080468+00:00'),
 (172362850, 12, 0, 1, 0, 28, 'BaseMax/TrigonometricFunctions', 'Analysis and thinking about trigonometry functions and how they work.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (172378503, 23891, 19, 1, 0, 9, 'romkatv/powerlevel10k', 'A Zsh theme', ARRAY['romkatv', 'dritter'], '2022-02-24T21:06:05.080468+00:00'),
 (172471552, 3694, 5, 1, 0, 7, 'aliyr/Nodejs-Developer-Roadmap', 'A Developer Roadmap to becoming a Node.js developer in 2019', ARRAY['aliyr', 'AGrant24'], '2022-02-24T21:06:05.080468+00:00'),
+(172227885, 7691, 183, 1, 0, 16, 'tiangolo/full-stack-fastapi-postgresql', 'Full stack, modern web application generator. Using FastAPI, PostgreSQL as database, Docker, automatic HTTPS and more.', ARRAY['tiangolo', 'ebreton'], '2022-02-24T21:06:05.080468+00:00'),
 (172473381, 33, 0, 1, 0, 29, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:06:05.080468+00:00'),
 (172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
 (172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3629,8 +3629,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (424955569, 13, 0, 1, 0, 0, 'falconmasters/como-conectarse-a-una-api-javascript', 'Código del tutorial: Como conectarse a una API con Javascript', ARRAY['falconmasters'], '2022-02-24T21:06:05.080468+00:00'),
 (425853395, 2, 1, 1, 0, 4, 'csellis/component-library', 'SvelteKit + Tailwind + Storybook', ARRAY['csellis'], '2022-02-24T21:06:05.080468+00:00'),
 (425941587, 2, 0, 1, 0, 1, '0-vortex/open-sauced-conventional-commit-test', 'Experimenting with commitizen configuration repository for opensauced.pizza', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
-(426671225, 1, 0, 1, 0, 14, 'bmorrisondev/go-notion', null, ARRAY['bmorrisondev'], '2022-02-24T21:06:05.080468+00:00'),
 (426988203, 15, 0, 1, 0, 2, 'vunderkind/ethereum-dappiverse', 'A hitchhiker''s guide to the Ethereum dAppiverse', ARRAY['vunderkind'], '2022-02-24T21:06:05.080468+00:00'),
+(426671225, 1, 0, 1, 0, 14, 'bmorrisondev/go-notion', null, ARRAY['bmorrisondev'], '2022-02-24T21:06:05.080468+00:00'),
 (427157632, 1, 1, 1, 0, 3, 'netlify-templates/sveltekit-netlify-starter', 'SvelteKit Starter ready for deployment on Netlify', ARRAY['renovate-bot', 'maxcell'], '2022-02-24T21:06:05.080468+00:00'),
 (427228421, 3, 0, 1, 0, 4, 'ChristBM/platzi_conf_merch', 'PWA store using React, PayPal payments and other interesting configurations.', ARRAY['ChristBM'], '2022-02-24T21:06:05.080468+00:00'),
 (428727515, 1, 0, 2, 0, 0, 'HMTEUNIS/react-beats', null, ARRAY['WBian618', 'dandesantis14'], '2022-02-24T21:06:05.080468+00:00'),
