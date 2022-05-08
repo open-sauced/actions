@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-07T22:44:03.397Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T01:03:44.968Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1350,6 +1350,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (103749180, 12942, 2460, 1, 0, 27, 'OpenGenus/cosmos', 'Hacktoberfest 2021 | World''s largest Contributor driven code dataset | Algorithms that run our universe | Your personal library of every algorithm and data structure code that you will ever encounter |', ARRAY['AdiChat', 'arnavb'], '2022-02-24T21:06:05.080468+00:00'),
 (104133653, 5321, 46, 1, 0, 24, 'reakit/reakit', 'Toolkit for building accessible rich web apps with React', ARRAY['diegohaz', 'tcodes0'], '2022-02-24T21:06:05.080468+00:00'),
 (104184716, 179, 7, 1, 0, 8, 'vatz88/Pluralsight-Course-Downloader', 'Chrome Extension: Easily download course video from pluralsight. Videos renamed and organized in folder.', ARRAY['vatz88', 'richie777cfc'], '2022-02-24T21:06:05.080468+00:00'),
+(104307778, 1235, 6, 1, 0, 22, 'halturin/ergo', 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', ARRAY['halturin', 'Zert'], '2022-02-24T21:06:05.080468+00:00'),
+(104366016, 1242, 3, 1, 0, 22, 'protofire/blockchain-learning-path', 'A suggested learning path for blockchain development', ARRAY['mariano-aguero', 'fvictorio'], '2022-02-24T21:06:05.080468+00:00'),
 (104394958, 427, 6, 1, 0, 11, 'true-myth/true-myth', 'A library for safer and smarter error- and ''nothing''-handling in TypeScript.', ARRAY['chriskrycho', 'bmakuh'], '2022-02-24T21:06:05.080468+00:00'),
 (104443108, 383, 4, 1, 0, 22, 'ukncsc/secure-development-and-deployment', 'NCSC Guidance for secure development and deployment', ARRAY['toby-ncsc', 'HowWeRollingham'], '2022-02-24T21:06:05.080468+00:00'),
 (104957153, 5074, 21, 1, 0, 20, 'nestjs/awesome-nestjs', 'A curated list of awesome things related to NestJS 😎', ARRAY['juliandavidmr', 'Tony133'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1362,9 +1364,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (105412971, 4574, 168, 1, 0, 10, 'stereobooster/react-snap', '👻 Zero-configuration framework-agnostic static prerendering for SPAs', ARRAY['stereobooster', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (105468219, 2083, 87, 1, 0, 22, 'IntelLabs/coach', 'Reinforcement Learning Coach by Intel AI Lab enables easy experimentation with state of the art Reinforcement Learning algorithms', ARRAY['zach-nervana', 'itaicaspi-intel'], '2022-02-24T21:06:05.080468+00:00'),
 (105563728, 174, 11, 1, 0, 12, 'basarat/typescript-react', 'Use TypeScript to develop react applications', ARRAY['basarat'], '2022-02-24T21:06:05.080468+00:00'),
-(104307778, 1235, 6, 1, 0, 22, 'halturin/ergo', 'a Framework for creating microservices using technologies and design patterns of Erlang/OTP in Golang', ARRAY['halturin', 'Zert'], '2022-02-24T21:06:05.080468+00:00'),
 (105649273, 6089, 129, 2, 0, 8, 'ElectronNET/Electron.NET', ':electron: Build cross platform desktop apps with ASP.NET Core (Razor Pages, MVC, Blazor).', ARRAY['GregorBiswanger', 'robertmuehsig'], '2022-02-24T21:06:05.080468+00:00'),
-(104366016, 1242, 3, 1, 0, 22, 'protofire/blockchain-learning-path', 'A suggested learning path for blockchain development', ARRAY['mariano-aguero', 'fvictorio'], '2022-02-24T21:06:05.080468+00:00'),
 (105802846, 1737, 241, 1, 0, 4, 'aws/jsii', 'jsii allows code in any language to naturally interact with JavaScript classes. It is the technology that enables the AWS Cloud Development Kit to deliver polyglot libraries from a single codebase!', ARRAY['RomainMuller', 'rix0rrr'], '2022-02-24T21:06:05.080468+00:00'),
 (106017343, 51300, 77, 1, 0, 27, 'tailwindlabs/tailwindcss', 'A utility-first CSS framework for rapid UI development.', ARRAY['adamwathan', 'reinink'], '2022-02-24T21:06:05.080468+00:00'),
 (106144134, 2292, 0, 1, 0, 20, 'rafaelfgx/Architecture', '.NET 6, ASP.NET Core 6, Entity Framework Core 6, C# 10, Angular 13, Clean Code, SOLID, DDD.', ARRAY['rafaelfgx'], '2022-02-24T21:06:05.080468+00:00'),
