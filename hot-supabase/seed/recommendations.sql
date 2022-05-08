@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T01:03:44.968Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-08T03:07:30.025Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2230,9 +2230,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (221095754, 534, 36, 1, 0, 26, 'bundit/kord-app', 'Spotify, Soundcloud, and YouTube all in one website!', ARRAY['bundit', 'Khaoz-Topsy'], '2022-02-24T21:06:05.080468+00:00'),
 (221316636, 449, 146, 1, 0, 1, 'airsonic-advanced/airsonic-advanced', null, ARRAY['randomnicode', 'muff1nman'], '2022-02-24T21:06:05.080468+00:00'),
 (221425180, 46, 9, 1, 0, 5, 'partycorgi/partycorgi', 'A GitHub repo containing party corgi related information and documents', ARRAY['RyanWarner', 'jlengstorf'], '2022-02-24T21:06:05.080468+00:00'),
-(221512407, 3471, 20, 1, 0, 11, 'neovim/nvim-lspconfig', 'Quickstart configurations for the Nvim LSP client', ARRAY['mjlbach', 'h-michael'], '2022-02-24T21:06:05.080468+00:00'),
 (221631156, 1163, 21, 1, 0, 1, 'trekhleb/machine-learning-experiments', '🤖 Interactive Machine Learning experiments: 🏋️models training + 🎨models demo', ARRAY['trekhleb'], '2022-02-24T21:06:05.080468+00:00'),
 (221981891, 31667, 447, 3, 0, 11.333333333333334, 'microsoft/playwright', 'Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ', ARRAY['pavelfeldman', 'dgozman'], '2022-02-24T21:06:05.080468+00:00'),
+(221512407, 3471, 20, 1, 0, 11, 'neovim/nvim-lspconfig', 'Quickstart configurations for the Nvim LSP client', ARRAY['mjlbach', 'h-michael'], '2022-02-24T21:06:05.080468+00:00'),
 (222007330, 382, 43, 1, 0, 4, 'microsoft/rnx-kit', 'Tools which help developers build, deliver, and maintain React Native apps and libraries.', ARRAY['tido64', 'rnbot'], '2022-02-24T21:06:05.080468+00:00'),
 (222079167, 272, 34, 1, 0, 11, 'shankarpandala/lazypredict', 'Lazy Predict help build a lot of basic models without much code and helps understand which models works better without any parameter tuning', ARRAY['shankarpandala', 'brendalf'], '2022-02-24T21:06:05.080468+00:00'),
 (222090175, 94, 5, 1, 0, 21, 'jovton/USB-Storage-on-WSL2', 'This article describes how you can access your USB storage device from Microsoft''s Windows Subsystem for Linux 2 (WSL2)', ARRAY['jovton', 'tskoda23'], '2022-02-24T21:06:05.080468+00:00'),
