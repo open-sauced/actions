@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T14:43:50.668Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T16:53:48.500Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1406,8 +1406,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (111915629, 944, 0, 1, 0, 20, 'MBMIT/MBM-Sandbox', 'Sandbox for MBM', ARRAY['mariobehling'], '2022-02-24T21:06:05.080468+00:00'),
 (111935215, 12, 3, 1, 0, 23, 'oaijs/ajv-oai', 'OpenAPI''s JsonSchema validator.', ARRAY['amazing-gao', 'javi11'], '2022-02-24T21:06:05.080468+00:00'),
 (112027892, 7556, 44, 1, 0, 20, 'brianegan/flutter_architecture_samples', 'TodoMVC for Flutter', ARRAY['brianegan', 'mmcc007'], '2022-02-24T21:06:05.080468+00:00'),
-(112287150, 1262, 12, 1, 0, 16, 'zboxfs/zbox', 'Zero-details, privacy-focused in-app file system.', ARRAY['burmecia', 'amiraeva'], '2022-02-24T21:06:05.080468+00:00'),
 (112103032, 1863, 212, 1, 0, 27, 'loic-sharma/BaGet', 'A lightweight NuGet and symbol server', ARRAY['loic-sharma', 'WernerMairl'], '2022-02-24T21:06:05.080468+00:00'),
+(112287150, 1262, 12, 1, 0, 16, 'zboxfs/zbox', 'Zero-details, privacy-focused in-app file system.', ARRAY['burmecia', 'amiraeva'], '2022-02-24T21:06:05.080468+00:00'),
 (112369276, 266, 20, 1, 0, 29, 'Unity-Technologies/com.unity.cinemachine', 'Smart camera tools for passionate creators', ARRAY['glabute', 'gaborkb'], '2022-02-24T21:06:05.080468+00:00'),
 (112475135, 5, 0, 1, 0, 1, 'AndreiShenets/code-styles', 'Styles I recommend at the moment', ARRAY['AndreiShenets', 'andrei-shenets-itechart'], '2022-02-24T21:06:05.080468+00:00'),
 (112507086, 91672, 6, 1, 0, 0, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2242,8 +2242,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (222375662, 21, 2, 1, 0, 4, 'shrutikapoor08/blogs', 'A collection of blog post articles on JavaScript, React, GraphQL and front-end development', ARRAY['shrutikapoor08', 'mstuart'], '2022-02-24T21:06:05.080468+00:00'),
 (222450899, 3, 1, 1, 0, 7, 'slidenerd/nuxt-auth', 'A dummy example to test nuxtjs with passport authentication', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (222535759, 3, 1, 1, 0, 24, 'jlengstorf/ast-transformations', null, ARRAY['jlengstorf'], '2022-02-24T21:06:05.080468+00:00'),
-(223368735, 235, 8, 1, 0, 12, 'jagaapple/next-secure-headers', 'Sets secure response headers for Next.js.', ARRAY['jagaapple', 'naotone'], '2022-02-24T21:06:05.080468+00:00'),
 (222791010, 35, 2, 1, 0, 2, 'twilio/rtc-diagnostics', null, ARRAY['mhuynh5757', 'charliesantos'], '2022-02-24T21:06:05.080468+00:00'),
+(223368735, 235, 8, 1, 0, 12, 'jagaapple/next-secure-headers', 'Sets secure response headers for Next.js.', ARRAY['jagaapple', 'naotone'], '2022-02-24T21:06:05.080468+00:00'),
 (223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-24T21:06:05.080468+00:00'),
 (224247781, 1480, 5, 1, 0, 27, 'nikhilpanju/FabFilter', 'Android app to showcase complex UI/Animations with and without MotionLayout', ARRAY['nikhilpanju'], '2022-02-24T21:06:05.080468+00:00'),
 (224663696, 19387, 9, 1, 0, 15, 'alpinejs/alpine', 'A rugged, minimal framework for composing JavaScript behavior in your markup. ', ARRAY['calebporzio', 'SimoTod'], '2022-02-24T21:06:05.080468+00:00'),
