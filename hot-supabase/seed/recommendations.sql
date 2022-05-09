@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T12:56:02.315Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T14:43:50.668Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1406,8 +1406,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (111915629, 944, 0, 1, 0, 20, 'MBMIT/MBM-Sandbox', 'Sandbox for MBM', ARRAY['mariobehling'], '2022-02-24T21:06:05.080468+00:00'),
 (111935215, 12, 3, 1, 0, 23, 'oaijs/ajv-oai', 'OpenAPI''s JsonSchema validator.', ARRAY['amazing-gao', 'javi11'], '2022-02-24T21:06:05.080468+00:00'),
 (112027892, 7556, 44, 1, 0, 20, 'brianegan/flutter_architecture_samples', 'TodoMVC for Flutter', ARRAY['brianegan', 'mmcc007'], '2022-02-24T21:06:05.080468+00:00'),
-(112103032, 1863, 212, 1, 0, 27, 'loic-sharma/BaGet', 'A lightweight NuGet and symbol server', ARRAY['loic-sharma', 'WernerMairl'], '2022-02-24T21:06:05.080468+00:00'),
 (112287150, 1262, 12, 1, 0, 16, 'zboxfs/zbox', 'Zero-details, privacy-focused in-app file system.', ARRAY['burmecia', 'amiraeva'], '2022-02-24T21:06:05.080468+00:00'),
+(112103032, 1863, 212, 1, 0, 27, 'loic-sharma/BaGet', 'A lightweight NuGet and symbol server', ARRAY['loic-sharma', 'WernerMairl'], '2022-02-24T21:06:05.080468+00:00'),
 (112369276, 266, 20, 1, 0, 29, 'Unity-Technologies/com.unity.cinemachine', 'Smart camera tools for passionate creators', ARRAY['glabute', 'gaborkb'], '2022-02-24T21:06:05.080468+00:00'),
 (112475135, 5, 0, 1, 0, 1, 'AndreiShenets/code-styles', 'Styles I recommend at the moment', ARRAY['AndreiShenets', 'andrei-shenets-itechart'], '2022-02-24T21:06:05.080468+00:00'),
 (112507086, 91672, 6, 1, 0, 0, '30-seconds/30-seconds-of-code', 'Short JavaScript code snippets for all your development needs', ARRAY['Chalarangelo', '30secondsofcode'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2067,11 +2067,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (198693545, 311, 101, 1, 0, 17, 'openware/opendax', 'Open-Source Cloud-Native Digital Asset & Cryptocurrency Exchange Platform', ARRAY['vshatravenko', 'kite-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (198782780, 27, 3, 1, 0, 22, 'trbngr/commanded_messaging', 'Common macros for messaging in a Commanded application', ARRAY['trbngr'], '2022-02-24T21:06:05.080468+00:00'),
 (198854821, 139, 18, 1, 0, 15, 'lowercasename/gathio', 'Self-destructing, shareable, no-registration event pages', ARRAY['lowercasename', 'dariusk'], '2022-02-24T21:06:05.080468+00:00'),
-(199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
-(198898598, 525, 77, 1, 0, 3, 'replicatedhq/kURL', 'Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components', ARRAY['laverya', 'emosbaugh'], '2022-02-24T21:06:05.080468+00:00'),
 (198864465, 351, 11, 1, 0, 28, 'dragonman225/notablog', 'Tell stories of your work with Notion', ARRAY['dragonman225'], '2022-02-24T21:06:05.080468+00:00'),
+(198898598, 525, 77, 1, 0, 3, 'replicatedhq/kURL', 'Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components', ARRAY['laverya', 'emosbaugh'], '2022-02-24T21:06:05.080468+00:00'),
 (199048926, 576, 13, 1, 0, 5, 'juicyfx/vercel-php', '▲ Vercel PHP runtime  •  vercel-php •  now-php  •  🐘+ λ = ❤', ARRAY['f3l1x', 'ties-v'], '2022-02-24T21:06:05.080468+00:00'),
+(199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
 (199141711, 615, 23, 1, 0, 5, 'bUnit-dev/bUnit', 'bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.', ARRAY['egil', 'ventigrande'], '2022-02-24T21:06:05.080468+00:00'),
+(199327580, 2171, 11, 1, 0, 28, 'MindorksOpenSource/android-developer-roadmap', 'Android Developer Roadmap - A complete roadmap to learn Android App Development', ARRAY['amitshekhariitbhu', 'isfaaghyth'], '2022-02-24T21:06:05.080468+00:00'),
+(199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-24T21:06:05.080468+00:00'),
+(199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-24T21:06:05.080468+00:00'),
 (199486441, 24, 60, 1, 0, 9, 'esmero/archipelago-deployment', 'Archipelago Commons Docker Deployment Repository', ARRAY['DiegoPino', 'alliomeria'], '2022-02-24T21:06:05.080468+00:00'),
 (199880606, 301, 16, 1, 0, 12, 'takeshape/shape-form', 'A form library that uses JSON schema and works with Redux. Originally a part of the TakeShape React web client.', ARRAY['mshick', 'mcat'], '2022-02-24T21:06:05.080468+00:00'),
 (200094171, 47, 3, 1, 0, 6, 'oskros/MF_run_counter', 'MF run counter developed for Diablo 2. Allows users to collect stats about their run times and found items, and can track your holy grail progress', ARRAY['oskros'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2087,9 +2090,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (201327718, 515, 0, 1, 0, 4, 'odpi/OpenDS4All', 'OpenDS4All project, hosted by LF AI & Data', ARRAY['Frenchhorn005', 'zackives'], '2022-02-24T21:06:05.080468+00:00'),
 (201403923, 4084, 69, 1, 0, 4, 'activeloopai/Hub', 'Dataset format for AI. Build, manage, & visualize datasets for deep learning. Stream data real-time to PyTorch/TensorFlow & version-control it. https://activeloop.ai ', ARRAY['AbhinavTuli', 'nollied'], '2022-02-24T21:06:05.080468+00:00'),
 (201438745, 3, 0, 1, 0, 2, 'jatinderji/StudentMS', null, ARRAY['jatinderji'], '2022-02-24T21:06:05.080468+00:00'),
-(199327580, 2171, 11, 1, 0, 28, 'MindorksOpenSource/android-developer-roadmap', 'Android Developer Roadmap - A complete roadmap to learn Android App Development', ARRAY['amitshekhariitbhu', 'isfaaghyth'], '2022-02-24T21:06:05.080468+00:00'),
-(199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-24T21:06:05.080468+00:00'),
-(199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-24T21:06:05.080468+00:00'),
 (201535836, 1796, 26, 1, 0, 5, 'onderceylan/pwa-asset-generator', 'Automates PWA asset generation and image declaration. Automatically generates icon and splash screen images, favicons and mstile images. Updates manifest.json and index.html files with the generated images according to Web App Manifest specs and Apple Human Interface guidelines.', ARRAY['onderceylan', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (201570219, 14466, 107, 1, 0, 5, 'responsively-org/responsively-app', 'A modified web browser that helps in responsive web development. A web developer''s must have dev-tool.', ARRAY['manojVivek', 'jjavierdguezas'], '2022-02-24T21:06:05.080468+00:00'),
 (201658460, 9361, 23, 1, 0, 17, 'geektutu/7days-golang', '7 days golang programs from scratch (web framework Gee, distributed cache GeeCache, object relational mapping ORM framework GeeORM, rpc framework GeeRPC etc)  7天用Go动手写/从零实现系列', ARRAY['geektutu', 'imageslr'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2242,8 +2242,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (222375662, 21, 2, 1, 0, 4, 'shrutikapoor08/blogs', 'A collection of blog post articles on JavaScript, React, GraphQL and front-end development', ARRAY['shrutikapoor08', 'mstuart'], '2022-02-24T21:06:05.080468+00:00'),
 (222450899, 3, 1, 1, 0, 7, 'slidenerd/nuxt-auth', 'A dummy example to test nuxtjs with passport authentication', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (222535759, 3, 1, 1, 0, 24, 'jlengstorf/ast-transformations', null, ARRAY['jlengstorf'], '2022-02-24T21:06:05.080468+00:00'),
-(222791010, 35, 2, 1, 0, 2, 'twilio/rtc-diagnostics', null, ARRAY['mhuynh5757', 'charliesantos'], '2022-02-24T21:06:05.080468+00:00'),
 (223368735, 235, 8, 1, 0, 12, 'jagaapple/next-secure-headers', 'Sets secure response headers for Next.js.', ARRAY['jagaapple', 'naotone'], '2022-02-24T21:06:05.080468+00:00'),
+(222791010, 35, 2, 1, 0, 2, 'twilio/rtc-diagnostics', null, ARRAY['mhuynh5757', 'charliesantos'], '2022-02-24T21:06:05.080468+00:00'),
 (223971726, 547, 115, 1, 0, 17, 'ryanheise/just_audio', 'Audio Player', ARRAY['ryanheise', 'bdlukaa'], '2022-02-24T21:06:05.080468+00:00'),
 (224247781, 1480, 5, 1, 0, 27, 'nikhilpanju/FabFilter', 'Android app to showcase complex UI/Animations with and without MotionLayout', ARRAY['nikhilpanju'], '2022-02-24T21:06:05.080468+00:00'),
 (224663696, 19387, 9, 1, 0, 15, 'alpinejs/alpine', 'A rugged, minimal framework for composing JavaScript behavior in your markup. ', ARRAY['calebporzio', 'SimoTod'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3666,7 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 3, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
-(3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
+(3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
