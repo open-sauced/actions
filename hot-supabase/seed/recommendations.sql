@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T04:51:54.908Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T06:47:57.739Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3437,6 +3437,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388693827, 1032, 3, 1, 0, 18, 'antfu/vitesse-webext', '⚡️ WebExtension Vite Starter Template', ARRAY['antfu', 'tmkx'], '2022-02-24T21:06:05.080468+00:00'),
 (388891464, 10, 0, 1, 0, 17, 'Salaah01/linux-ios-debugger', 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', ARRAY['Salaah01'], '2022-02-24T21:06:05.080468+00:00'),
 (389071137, 1, 0, 1, 0, 22, 'BolajiAyodeji/linear-regression', 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
+(389086554, 3, 0, 1, 0, 21, 'BolajiAyodeji/headless-swag-store', 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', ARRAY['BolajiAyodeji', 'acasazza'], '2022-02-24T21:06:05.080468+00:00'),
 (389156199, 91, 2, 1, 0, 24, '5t3ph/htmlrecipes', 'A collection of quick copy HTML snippets for a variety of common scenarios.', ARRAY['5t3ph', 'MWDelaney'], '2022-02-24T21:06:05.080468+00:00'),
 (425292451, 1, 0, 1, 0, 22, 'Tanmay000009/glocal', null, ARRAY['Tanmay000009', 'cryptus-neoxys'], '2022-02-24T21:06:05.080468+00:00'),
 (389247129, 2, 0, 1, 0, 1, 'lukasschwab/podcast-transcriber', 'Fully automated Cloud Function podcast transcriptions with Deepgram.', ARRAY['lukasschwab'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(389086554, 3, 0, 1, 0, 21, 'BolajiAyodeji/headless-swag-store', 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', ARRAY['BolajiAyodeji', 'acasazza'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
