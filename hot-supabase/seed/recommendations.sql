@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-09T22:44:36.756Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T01:02:49.276Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1225,9 +1225,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (87873787, 665, 51, 1, 0, 3, 'theNewDynamic/gohugo-theme-ananke', 'Ananke: A theme for Hugo Sites', ARRAY['budparr', 'regisphilibert'], '2022-02-24T21:06:05.080468+00:00'),
 (87973266, 2216, 191, 1, 0, 9, 'grain-lang/grain', 'The Grain compiler toolchain and CLI. Home of the modern web staple. 🌾', ARRAY['ospencer', 'phated'], '2022-02-24T21:06:05.080468+00:00'),
 (88077974, 15, 4, 1, 0, 12, 'tanhauhau/react-web-config', 'react-native-config for Web', ARRAY['tanhauhau'], '2022-02-24T21:06:05.080468+00:00'),
+(88243408, 33, 0, 1, 0, 12, 'powerman/wcwidth-icons', 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', ARRAY['powerman'], '2022-02-24T21:06:05.080468+00:00'),
 (88367107, 16, 1, 1, 0, 23, 'nusu/spectre.scss', 'port of spectre.css to sass', ARRAY['nusu', 'mtancoigne'], '2022-02-24T21:06:05.080468+00:00'),
 (88475372, 99, 0, 1, 0, 4, 'nin-jin/slides', 'Мои слайды для конференций', ARRAY['nin-jin', 'nin--jin'], '2022-02-24T21:06:05.080468+00:00'),
-(88243408, 33, 0, 1, 0, 12, 'powerman/wcwidth-icons', 'Support fonts with double-width icons in xterm/rxvt-unicode/zsh/vim/…', ARRAY['powerman'], '2022-02-24T21:06:05.080468+00:00'),
 (88674404, 11526, 91, 1, 0, 15, 'GoogleContainerTools/distroless', '🥑  Language focused docker images, minus the operating system.  ', ARRAY['loosebazooka', 'chanseokoh'], '2022-02-24T21:06:05.080468+00:00'),
 (88741624, 11859, 20, 1, 0, 28, 'goabstract/Marketing-for-Engineers', 'A curated collection of marketing articles & tools to grow your product. ', ARRAY['LisaDziuba', 'Geek-1001'], '2022-02-24T21:06:05.080468+00:00'),
 (88760614, 11839, 69, 1, 0, 6, 'automerge/automerge', 'A JSON-like data structure (a CRDT) that can be modified concurrently by different users, and merged again automatically.', ARRAY['ept', 'orionz'], '2022-02-24T21:06:05.080468+00:00'),
