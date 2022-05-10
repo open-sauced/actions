@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T02:57:20.026Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T04:48:18.597Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1559,7 +1559,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (129062358, 405, 3, 1, 0, 7, 'mgulener/turkiye-regex-kaliplari', 'Türkiye''de kullanılan bazı kalıpların regex kodları', ARRAY['mgulener', 'ooguz'], '2022-02-24T21:06:05.080468+00:00'),
 (129253372, 6, 3, 1, 0, 14, 'Parithi/Integrating-Vuforia-7-and-JPCT-AE-in-Android', 'This repository contains the project for rending a 3D Model (3DS, OBJ and more) supported by JPCT-AE and rendered over Vuforia 7', ARRAY['Parithi'], '2022-02-24T21:06:05.080468+00:00'),
 (129313877, 141, 16, 1, 0, 11, 'woubuc/sweep', 'Reduce the disk usage of your projects by removing dependencies & builds', ARRAY['woubuc', 'Atul9'], '2022-02-24T21:06:05.080468+00:00'),
-(129456680, 509, 48, 1, 0, 21, 'altangent/ccxws', 'WebSocket client for 38 cryptocurrency exchanges', ARRAY['bmancini55', 'ejfrancis'], '2022-02-24T21:06:05.080468+00:00'),
 (129543408, 38, 0, 1, 0, 6, 'witchard/tutorial-react-parcel-express', 'A tiny getting started for a react project, with front-end built with parcel, and served through express.', ARRAY['witchard', 'aronhoyer'], '2022-02-24T21:06:05.080468+00:00'),
 (129855787, 316, 0, 1, 0, 9, 'namvdo/CS-and-Programming-Books', 'Free computer science, programming books. Code examples, programming project guidlines, and more...', ARRAY['namvdo', 'suvasish114'], '2022-02-24T21:06:05.080468+00:00'),
 (129936360, 1114, 140, 1, 0, 3, 'PennyLaneAI/pennylane', 'PennyLane is a cross-platform Python library for differentiable programming of quantum computers.  Train a quantum computer the same way as a neural network.', ARRAY['josh146', 'co9olguy'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1567,6 +1566,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (130464961, 30920, 115, 1, 0, 7, 'sharkdp/bat', 'A cat(1) clone with wings.', ARRAY['sharkdp', 'Enselic'], '2022-02-24T21:06:05.080468+00:00'),
 (130597640, 1489, 21, 1, 0, 0, 'GantMan/ReactStateMuseum', 'A whirlwind tour of React state management systems by example', ARRAY['GantMan', 'marcelkalveram'], '2022-02-24T21:06:05.080468+00:00'),
 (130879558, 6308, 696, 1, 0, 21, 'gitpod-io/gitpod', 'Gitpod automates the provisioning of ready-to-code development environments. ', ARRAY['aledbf', 'csweichel'], '2022-02-24T21:06:05.080468+00:00'),
+(129456680, 509, 48, 1, 0, 21, 'altangent/ccxws', 'WebSocket client for 38 cryptocurrency exchanges', ARRAY['bmancini55', 'ejfrancis'], '2022-02-24T21:06:05.080468+00:00'),
 (130884470, 13199, 22, 2, 0, 16, 'solidjs/solid', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['ryansolid', 'davedbase'], '2022-02-24T21:06:05.080468+00:00'),
 (131081109, 5031, 61, 1, 0, 21, 'hiroppy/fusuma', '✍️Fusuma makes slides with Markdown easily.', ARRAY['hiroppy', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (131208436, 1, 0, 1, 0, 1, 'mariannnne/BodyMapItem_Online', 'JS scripts for displaying body map items', ARRAY['mariannnne'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3421,19 +3421,18 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (387461341, 1, 0, 1, 0, 19, 'muhammaddzaky/alfathir.github.io', null, ARRAY['alfathir', 'giadev25'], '2022-02-24T21:06:05.080468+00:00'),
 (387461746, 1, 0, 1, 0, 22, 'muhammaddzaky/mhdraihandzaky.github.io', 'Hello Teman Teman Belajar Html Atau Dasar Desinger', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (387466937, 1, 0, 1, 0, 21, 'muhammaddzaky/docker-radarr', null, ARRAY['sparklyballs', 'thelamer'], '2022-02-24T21:06:05.080468+00:00'),
-(387492408, 19, 0, 1, 0, 1, 'kentcdodds/testing-react-render-time-errors', null, ARRAY['kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
 (387501063, 31, 1, 1, 0, 6, 'cassidoo/shopify-next-netlify', 'A Shopify Next.js demo', ARRAY['cassidoo', 'verythorough'], '2022-02-24T21:06:05.080468+00:00'),
 (387624468, 3, 3, 1, 0, 7, 'gremlin/bootcamp-infrastructure', null, ARRAY['jyee'], '2022-02-24T21:06:05.080468+00:00'),
 (387630224, 11, 4, 1, 0, 18, 'carmenkolohe/CodeSchoolQA', 'Open source webapp to organize questions and answers for the Code School Q&A Stream built using NextJS, Sass, Node.js and Google Firebase Realtime Database', ARRAY['carmenkolohe', 'jendevelops'], '2022-02-24T21:06:05.080468+00:00'),
 (388004440, 47, 1, 1, 0, 0, 'oscafrica/open-source-challenge-2021', 'The Open Source Challenge 2021 aims to support the tech ecosystem in Africa to contribute to open source projects.', ARRAY['BolajiAyodeji', 'Petec0x0'], '2022-02-24T21:06:05.080468+00:00'),
 (388022569, 1, 0, 1, 0, 24, 'muhammaddzaky/zuramai', null, ARRAY['zuramai'], '2022-02-24T21:06:05.080468+00:00'),
+(387492408, 19, 0, 1, 0, 1, 'kentcdodds/testing-react-render-time-errors', null, ARRAY['kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
 (388026773, 4, 0, 1, 0, 2, 'elizabethsiegle/twilio-video-mask-ml5', 'Detect if someone is wearing a mask or not with Twilio Programmable Video, ml5.js, and Twilio Serverless.', ARRAY['elizabethsiegle'], '2022-02-24T21:06:05.080468+00:00'),
 (388180308, 5, 1, 1, 0, 3, 'naturalnat/symptoms-client', null, ARRAY['naturalnat'], '2022-02-24T21:06:05.080468+00:00'),
 (388210681, 9, 0, 1, 0, 2, 'Amoghtech/YTDownloader', 'Want to download your favorite Youtube videos on your Laptop,PC or Phone, then here''s the solution', ARRAY['Amoghtech'], '2022-02-24T21:06:05.080468+00:00'),
 (388456202, 2, 0, 1, 0, 25, 'Borrus-sudo/TypedJS', 'A library for run time JS types', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (388476124, 1, 5, 1, 0, 5, 'ganning127/azure-function-bot', null, ARRAY['ganning127'], '2022-02-24T21:06:05.080468+00:00'),
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-24T21:06:05.080468+00:00'),
-(388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:06:05.080468+00:00'),
 (388693827, 1032, 3, 1, 0, 18, 'antfu/vitesse-webext', '⚡️ WebExtension Vite Starter Template', ARRAY['antfu', 'tmkx'], '2022-02-24T21:06:05.080468+00:00'),
 (388891464, 10, 0, 1, 0, 17, 'Salaah01/linux-ios-debugger', 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', ARRAY['Salaah01'], '2022-02-24T21:06:05.080468+00:00'),
 (389071137, 1, 0, 1, 0, 22, 'BolajiAyodeji/linear-regression', 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3545,6 +3544,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-24T21:06:05.080468+00:00'),
+(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-24T21:06:05.080468+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:06:05.080468+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
+(388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
