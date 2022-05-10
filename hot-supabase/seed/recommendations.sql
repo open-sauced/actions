@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T01:02:49.276Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-10T02:57:20.026Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3545,7 +3545,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-24T21:06:05.080468+00:00'),
-(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-24T21:06:05.080468+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:06:05.080468+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
+(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
