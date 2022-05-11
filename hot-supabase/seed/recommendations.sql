@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T08:47:23.210Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T10:46:12.266Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1211,8 +1211,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (86115145, 4529, 3, 1, 0, 25, 'astorfi/TensorFlow-World', ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', ARRAY['astorfi', 'hadikazemi'], '2022-02-24T21:06:05.080468+00:00'),
 (86370198, 306, 0, 1, 0, 17, 'mechero/spring-boot-testing-strategies', 'Sample project demonstrating different Test Strategies that can be followed when using Spring Boot.', ARRAY['mechero'], '2022-02-24T21:06:05.080468+00:00'),
 (86491149, 707, 13, 1, 0, 21, 'ChromeDevTools/devtools-protocol', 'Chrome DevTools Protocol', ARRAY['devtools-bot', 'paulirish'], '2022-02-24T21:06:05.080468+00:00'),
-(86679721, 441, 2, 1, 0, 4, 'sindresorhus/quick-lru', 'Simple “Least Recently Used” (LRU) cache', ARRAY['sindresorhus', 'javi11'], '2022-02-24T21:06:05.080468+00:00'),
 (86756976, 2194, 58, 1, 0, 6, 'dnote/dnote', 'A simple command line notebook for programmers', ARRAY['sungwoncho', 'monomaxbot'], '2022-02-24T21:06:05.080468+00:00'),
+(86679721, 441, 2, 1, 0, 4, 'sindresorhus/quick-lru', 'Simple “Least Recently Used” (LRU) cache', ARRAY['sindresorhus', 'javi11'], '2022-02-24T21:06:05.080468+00:00'),
 (86764843, 39, 3, 1, 0, 22, 'ruby/date', 'A subclass of Object includes Comparable module for handling dates.', ARRAY['nobu', 'hsbt'], '2022-02-24T21:06:05.080468+00:00'),
 (86894350, 10527, 24, 1, 0, 20, 'Idnan/bash-guide', 'A guide to learn bash', ARRAY['omergulen', 'gibatronic'], '2022-02-24T21:06:05.080468+00:00'),
 (86981224, 4918, 7, 1, 0, 3, 'maximegris/angular-electron', 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', ARRAY['maximegris', 'whyboris'], '2022-02-24T21:06:05.080468+00:00'),
