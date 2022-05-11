@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T04:55:22.488Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T06:49:32.481Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -336,8 +336,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (9934117, 5566, 169, 1, 0, 7, 'phoboslab/jsmpeg', 'MPEG1 Video Decoder in JavaScript', ARRAY['phoboslab', 'maikmerten'], '2022-02-24T21:06:05.080468+00:00'),
 (9967702, 620, 653, 1, 0, 17, 'w3c/wcag', 'Web Content Accessibility Guidelines', ARRAY['michael-n-cooper', 'awkawk'], '2022-02-24T21:06:05.080468+00:00'),
 (10114077, 15408, 206, 1, 0, 22, 'SBoudrias/Inquirer.js', 'A collection of common interactive command line user interfaces.', ARRAY['SBoudrias', 'LitoMore'], '2022-02-24T21:06:05.080468+00:00'),
-(10270250, 179681, 922, 1, 0, 11, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-24T21:06:05.080468+00:00'),
 (10182011, 413, 0, 1, 0, 18, 'AzureAD/passport-azure-ad', 'The code for Passport Azure AD has been moved to the MSAL.js repo. Please open any issues or PRs at the link below.', ARRAY['lovemaths', 'brandwe'], '2022-02-24T21:06:05.080468+00:00'),
+(10270250, 179681, 922, 1, 0, 11, 'facebook/react', 'A declarative, efficient, and flexible JavaScript library for building user interfaces.', ARRAY['zpao', 'bvaughn'], '2022-02-24T21:06:05.080468+00:00'),
 (10299255, 1422, 6, 1, 0, 23, 'haileys/rustboot', 'A tiny 32 bit kernel written in Rust', ARRAY['haileys', 'igstan'], '2022-02-24T21:06:05.080468+00:00'),
 (10379106, 1785, 40, 1, 0, 26, 'browserify/watchify', 'watch mode for browserify builds', ARRAY['substack', 'zertosh'], '2022-02-24T21:06:05.080468+00:00'),
 (10395188, 6481, 287, 1, 0, 21, 'exercism/exercism', 'Crowd-sourced code mentorship. Practice having thoughtful conversations about code.', ARRAY['iHiD', 'exercism-bot'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2081,6 +2081,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (200212195, 4, 14, 1, 0, 25, 'xinlc/react-native-typescript-template', 'this is a template for reac native + TS + redux + saga architecture', ARRAY['xinlc'], '2022-02-24T21:06:05.080468+00:00'),
 (200424238, 112, 4, 1, 0, 4, 'icons-pack/react-simple-icons', '📦 This package provides the Simple Icons packaged as a set of React components.', ARRAY['wootsbot', 'jackmerrill'], '2022-02-24T21:06:05.080468+00:00'),
 (200590949, 2949, 29, 1, 0, 1, 'rsalmei/alive-progress', 'A new kind of Progress Bar, with real-time throughput, ETA, and very cool animations!', ARRAY['rsalmei'], '2022-02-24T21:06:05.080468+00:00'),
+(200731758, 353, 12, 1, 0, 10, 'serradura/u-case', 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', ARRAY['serradura', 'tomascco'], '2022-02-24T21:06:05.080468+00:00'),
 (200877850, 510, 27, 1, 0, 13, 'digitalocean/hacktoberfest', 'Hacktoberfest - App to manage the annual open-source challenge, used for the 2019 & 2020 seasons.', ARRAY['mkcode', 'fridaland'], '2022-02-24T21:06:05.080468+00:00'),
 (200928051, 684, 29, 1, 0, 27, 'HospitalRun/hospitalrun', 'Monorepo that holds all of HospitalRun''s v2 projects.', ARRAY['tehKapa', 'hospitalrunbot'], '2022-02-24T21:06:05.080468+00:00'),
 (201108929, 676, 7, 1, 0, 29, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2110,7 +2111,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (203213675, 521, 9, 1, 0, 9, 'nighto/brasil-portugal', 'Este repositório contém informações e dicas do processo de visto para brasileiros trabalharem com TI em Portugal', ARRAY['nighto', 'rezende79'], '2022-02-24T21:06:05.080468+00:00'),
 (203569485, 964, 59, 1, 0, 16, 'IjzerenHein/react-navigation-shared-element', 'React Navigation bindings for react-native-shared-element 💫', ARRAY['IjzerenHein', 'phamhoaivu911'], '2022-02-24T21:06:05.080468+00:00'),
 (203587744, 34708, 46, 1, 0, 8, 'hoppscotch/hoppscotch', '👽 Open source API development ecosystem https://hoppscotch.io', ARRAY['liyasthomas', 'AndrewBastin'], '2022-02-24T21:06:05.080468+00:00'),
-(200731758, 353, 12, 1, 0, 10, 'serradura/u-case', 'Represent use cases in a simple and powerful way while writing modular, expressive and sequentially logical code.', ARRAY['serradura', 'tomascco'], '2022-02-24T21:06:05.080468+00:00'),
 (204591335, 92, 24, 1, 0, 17, 'WICG/urlpattern', 'The URLPattern API provides a web platform primitive for matching URLs.', ARRAY['wanderview', 'lucacasonato'], '2022-02-24T21:06:05.080468+00:00'),
 (204996263, 74, 1, 1, 0, 2, 'umutphp/backend-best-practices', 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', ARRAY['umutphp', 'ilkka'], '2022-02-24T21:06:05.080468+00:00'),
 (205197166, 1, 0, 1, 0, 7, 'twhitacre/reactatl-9319', 'ReactATL Talk | Offline First Strategies | September 03, 2019', ARRAY['twhitacre'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3378,6 +3378,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (383299223, 2, 0, 1, 0, 16, 'Chronofit/chrono-website', null, ARRAY['sahilsharma356', 'SVD6'], '2022-02-24T21:06:05.080468+00:00'),
 (383495767, 1, 1, 2, 0, 0, 'osoc21/wepod-sandbox', null, ARRAY['barbarebelge'], '2022-02-24T21:06:05.080468+00:00'),
 (383584024, 88, 0, 1, 0, 23, 'cooperativesource/about', 'What is Cooperative Source?', ARRAY['zkat'], '2022-02-24T21:06:05.080468+00:00'),
+(383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
 (383784099, 37, 6, 1, 0, 6, 'microsoft/powerbi-client-angular', 'Power BI Angular component. This library lets you embed Power BI report, dashboard, dashboard tile, report visual, or Q&A in your Angular application.', ARRAY['parth-007', 'may-hartov'], '2022-02-24T21:06:05.080468+00:00'),
 (383845445, 39, 2, 1, 0, 1, 'wildmaples/minimal-ruby-project', 'A minimal Ruby project template', ARRAY['wildmaples'], '2022-02-24T21:06:05.080468+00:00'),
 (383845459, 4, 0, 1, 0, 2, 'lorenaaze/codewars.desafios', 'Solução de desafios encontrados na plataforma codewars ', ARRAY['lorenaaze'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3484,9 +3485,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (394433513, 51, 2, 1, 0, 20, 'Accudio/cead-consent', 'Simple, lightweight and easy-to-implement Cookie/Tracking consent manager for the web', ARRAY['Accudio'], '2022-02-24T21:06:05.080468+00:00'),
 (394559625, 1, 0, 1, 0, 7, 'muhammaddzaky/mhdraihandzaky.net', 'membuatwebsite', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (394632350, 0, 0, 1, 0, 13, 'SanchitaMishra170676/INNOGEEKS-2.0', null, ARRAY['chinmoy12c', 'Harsh-Gupta9897'], '2022-02-24T21:06:05.080468+00:00'),
+(394663818, 20, 3, 1, 0, 3, 'NickLiffen/ghas-enablement', 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', ARRAY['NickLiffen', 'LamarrD'], '2022-02-24T21:06:05.080468+00:00'),
 (394789638, 631, 23, 1, 0, 26, 'cloudflare/workers-rs', 'Write Cloudflare Workers in 100% Rust via WebAssembly', ARRAY['nilslice', 'caass'], '2022-02-24T21:06:05.080468+00:00'),
 (394896456, 1, 0, 1, 0, 12, 'muhammaddzaky/rsocket-cpp', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
-(394663818, 20, 3, 1, 0, 3, 'NickLiffen/ghas-enablement', 'A tool that aims to bulk automates the enablement of GitHub Code Scanning, Secret Scanning and Dependabot across multiple repositories. ', ARRAY['NickLiffen', 'LamarrD'], '2022-02-24T21:06:05.080468+00:00'),
 (394897014, 1, 0, 1, 0, 11, 'Yryty-go-id/rsocket-cpp', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (394904437, 1, 0, 1, 0, 9, 'Dzakyxd/MhdraihandzakySaragih', null, ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (394954667, 1, 0, 1, 0, 8, 'muhammaddzaky/BucinWibuX', 'BucinWibuX', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(383610774, 3, 0, 1, 0, 15, 'Chronofit/chrono-ios', null, ARRAY['sagar5534', 'harigovind1998'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
