@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T18:47:22.981Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T20:44:40.318Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3660,9 +3660,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (15393566, 5075, 21, 1, 2, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-24T21:06:05.080468+00:00'),
-(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
+(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 3, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
