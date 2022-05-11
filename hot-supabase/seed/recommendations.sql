@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T20:44:40.318Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T22:44:56.137Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1128,8 +1128,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (76993879, 388, 14, 1, 0, 16, 'TulipCharts/tulipnode', 'Tulip Node is the official node.js wrapper for Tulip Indicators. It provides over 100 technical analysis overlay and indicator functions.', ARRAY['codeplea', 'cschanaj'], '2022-02-24T21:06:05.080468+00:00'),
 (76996763, 11633, 35, 2, 0, 5.5, 'piotrwitek/react-redux-typescript-guide', 'The complete guide to static typing in ''React & Redux'' apps using TypeScript', ARRAY['piotrwitek', 'sosukesuzuki'], '2022-02-24T21:06:05.080468+00:00'),
 (77358263, 17586, 120, 1, 0, 21, 'SpaceVim/SpaceVim', 'A community-driven modular vim/neovim distribution - The ultimate vimrc', ARRAY['wsdjeg', 'sei40kr'], '2022-02-24T21:06:05.080468+00:00'),
-(77363394, 315, 27, 1, 0, 15, 'vlime/vlime', 'A Common Lisp dev environment for Vim (and Neovim)', ARRAY['l04m33', 'phmarek'], '2022-02-24T21:06:05.080468+00:00'),
-(77369463, 8016, 13, 2, 0, 17, 'James-Yu/LaTeX-Workshop', 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', ARRAY['jlelong', 'tamuratak'], '2022-02-24T21:06:05.080468+00:00'),
 (77512018, 699, 10, 1, 0, 17, 'nikhita/tech-conferences-india', 'A comprehensive list of tech conferences in India :india:', ARRAY['nikhita', 'championshuttler'], '2022-02-24T21:06:05.080468+00:00'),
 (77702046, 1031, 4, 1, 0, 23, 'github/opensourcefriday', '🚲 Contribute to the open source community every Friday', ARRAY['MikeMcQuaid', 'kenyonj'], '2022-02-24T21:06:05.080468+00:00'),
 (77765356, 38, 0, 1, 0, 11, 'riebschlager/make-the-internet-suck-less', null, ARRAY['riebschlager', 'bgkittrell'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1141,6 +1139,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (78685286, 1, 0, 1, 0, 24, 'akbarpasha/team6718', 'FRC Team 6718', ARRAY['raychatter', 'Clementef'], '2022-02-24T21:06:05.080468+00:00'),
 (78819190, 3441, 37, 1, 0, 7, 'prettier/prettier-eslint', 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', ARRAY['zimme', 'kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
 (78847475, 473, 36, 1, 0, 8, 'rossmann-engineering/EasyModbusTCP.NET', 'Modbus TCP, Modbus UDP and Modbus RTU client/server library for .NET implementations', ARRAY['rossmann-engineering', 'da66en'], '2022-02-24T21:06:05.080468+00:00'),
+(77369463, 8016, 13, 2, 0, 17, 'James-Yu/LaTeX-Workshop', 'Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.', ARRAY['jlelong', 'tamuratak'], '2022-02-24T21:06:05.080468+00:00'),
+(77363394, 315, 27, 1, 0, 15, 'vlime/vlime', 'A Common Lisp dev environment for Vim (and Neovim)', ARRAY['l04m33', 'phmarek'], '2022-02-24T21:06:05.080468+00:00'),
 (78880128, 4107, 35, 1, 0, 3, 'ohld/igbot', '🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!', ARRAY['ohld', 'sudoguy'], '2022-02-24T21:06:05.080468+00:00'),
 (79052338, 270, 2, 1, 0, 5, 'wikiti/pandoc-book-template', 'A simple Pandoc template to build documents and ebooks.', ARRAY['wikiti', 'ilikerobots'], '2022-02-24T21:06:05.080468+00:00'),
 (79065400, 170, 11, 1, 0, 28, 'A11yance/aria-query', 'Programmatic access to the ARIA specification', ARRAY['jessebeach', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3660,9 +3660,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (15393566, 5075, 21, 1, 2, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-24T21:06:05.080468+00:00'),
+(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
-(44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 3, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
