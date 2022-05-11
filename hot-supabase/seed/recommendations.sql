@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T10:46:12.266Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-11T12:57:31.191Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -302,8 +302,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (7761553, 125, 1, 2, 0, 0, 'jimniels/teamcolors', 'Team Colors for professional sports teams', ARRAY['jimniels', 'qwz'], '2022-02-24T21:06:05.080468+00:00'),
 (7833168, 16839, 9331, 1, 0, 22, 'elastic/kibana', 'Your window into the Elastic Stack', ARRAY['spalger', 'rashidkpc'], '2022-02-24T21:06:05.080468+00:00'),
 (7855340, 10287, 243, 1, 0, 11, 'chjj/blessed', 'A high-level terminal interface library for node.js.', ARRAY['chjj', 'dbkaplun'], '2022-02-24T21:06:05.080468+00:00'),
-(8162715, 14770, 274, 2, 0, 6.5, 'mirumee/saleor', 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', ARRAY['maarcingebala', 'dominik-zeglen'], '2022-02-24T21:06:05.080468+00:00'),
 (8424040, 16589, 209, 1, 0, 29, 'processing/p5.js', 'p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —', ARRAY['lmccart', 'outofambit'], '2022-02-24T21:06:05.080468+00:00'),
+(8162715, 14770, 274, 2, 0, 6.5, 'mirumee/saleor', 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', ARRAY['maarcingebala', 'dominik-zeglen'], '2022-02-24T21:06:05.080468+00:00'),
 (8456235, 177, 18, 1, 0, 24, 'NUKnightLab/soundcite', 'Making Inline Audio Easy and Seamless', ARRAY['JoeGermuska', 'scott2b'], '2022-02-24T21:06:05.080468+00:00'),
 (8459994, 209, 0, 1, 0, 11, 'google/google.github.io', null, ARRAY['willnorris', 'dazuma'], '2022-02-24T21:06:05.080468+00:00'),
 (8463294, 225, 42, 1, 0, 24, 'mozilla/treeherder', 'A system for managing CI data for Mozilla projects', ARRAY['wlach', 'edmorley'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1211,8 +1211,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (86115145, 4529, 3, 1, 0, 25, 'astorfi/TensorFlow-World', ':earth_americas: Simple and ready-to-use tutorials for TensorFlow', ARRAY['astorfi', 'hadikazemi'], '2022-02-24T21:06:05.080468+00:00'),
 (86370198, 306, 0, 1, 0, 17, 'mechero/spring-boot-testing-strategies', 'Sample project demonstrating different Test Strategies that can be followed when using Spring Boot.', ARRAY['mechero'], '2022-02-24T21:06:05.080468+00:00'),
 (86491149, 707, 13, 1, 0, 21, 'ChromeDevTools/devtools-protocol', 'Chrome DevTools Protocol', ARRAY['devtools-bot', 'paulirish'], '2022-02-24T21:06:05.080468+00:00'),
-(86756976, 2194, 58, 1, 0, 6, 'dnote/dnote', 'A simple command line notebook for programmers', ARRAY['sungwoncho', 'monomaxbot'], '2022-02-24T21:06:05.080468+00:00'),
 (86679721, 441, 2, 1, 0, 4, 'sindresorhus/quick-lru', 'Simple “Least Recently Used” (LRU) cache', ARRAY['sindresorhus', 'javi11'], '2022-02-24T21:06:05.080468+00:00'),
+(86756976, 2194, 58, 1, 0, 6, 'dnote/dnote', 'A simple command line notebook for programmers', ARRAY['sungwoncho', 'monomaxbot'], '2022-02-24T21:06:05.080468+00:00'),
 (86764843, 39, 3, 1, 0, 22, 'ruby/date', 'A subclass of Object includes Comparable module for handling dates.', ARRAY['nobu', 'hsbt'], '2022-02-24T21:06:05.080468+00:00'),
 (86894350, 10527, 24, 1, 0, 20, 'Idnan/bash-guide', 'A guide to learn bash', ARRAY['omergulen', 'gibatronic'], '2022-02-24T21:06:05.080468+00:00'),
 (86981224, 4918, 7, 1, 0, 3, 'maximegris/angular-electron', 'Ultra-fast bootstrapping with Angular and Electron (Typescript + SASS + Hot Reload) :speedboat:', ARRAY['maximegris', 'whyboris'], '2022-02-24T21:06:05.080468+00:00'),
