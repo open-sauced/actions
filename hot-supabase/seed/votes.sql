@@ -1,5 +1,5 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T14:44:47.838Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T16:54:34.778Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -77,4 +77,6 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (47, 5396211, 'orbit-love/orbit-model', '5396211-orbit-love/orbit-model', '2022-04-09T18:14:37.781773+00:00'),
 (48, 55883854, 'h5bp/Front-end-Developer-Interview-Questions', '55883854-h5bp/Front-end-Developer-Interview-Questions', '2022-04-22T14:07:16.953944+00:00'),
 (55, 55883854, 'freeCodeCamp/how-to-contribute-to-open-source', '55883854-freeCodeCamp/how-to-contribute-to-open-source', '2022-04-22T14:08:43.226196+00:00'),
-(56, 55883854, 'github-craftwork/start-here', '55883854-github-craftwork/start-here', '2022-04-22T14:09:10.518469+00:00');
+(56, 55883854, 'github-craftwork/start-here', '55883854-github-craftwork/start-here', '2022-04-22T14:09:10.518469+00:00'),
+(58, 5713670, 'elastic/kibana', '5713670-elastic/kibana', '2022-05-12T15:55:36.551039+00:00'),
+(59, 5713670, 'rust-lang/rust', '5713670-rust-lang/rust', '2022-05-12T15:55:37.442799+00:00');

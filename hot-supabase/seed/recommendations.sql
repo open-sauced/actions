@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T14:44:47.875Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T16:54:34.811Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -66,7 +66,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (667561, 34373, 303, 2, 0, 22, 'Marak/faker.js', 'generate massive amounts of realistic fake data in Node.js and the browser', ARRAY['Marak', 'FotoVerite'], '2022-02-24T21:06:05.080468+00:00'),
 (712530, 20981, 263, 1, 0, 0, 'fabricjs/fabric.js', 'Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser', ARRAY['kangax', 'asturur'], '2022-02-24T21:06:05.080468+00:00'),
 (715082, 6719, 65, 1, 0, 16, 'reactiveui/ReactiveUI', 'An advanced, composable, functional reactive model-view-viewmodel framework for all .NET platforms that is inspired by functional reactive programming. ReactiveUI allows you to  abstract mutable state away from your user interfaces, express the idea around a feature in one readable place and improve the testability of your application.', ARRAY['anaisbetts', 'jlaanstra'], '2022-02-24T21:06:05.080468+00:00'),
-(724712, 61717, 8143, 2, 1, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-24T21:06:05.080468+00:00'),
 (734957, 7279, 105, 1, 0, 0, 'kelektiv/node-cron', 'Cron for NodeJS.', ARRAY['ncb000gt', 'jodevsa'], '2022-02-24T21:06:05.080468+00:00'),
 (778828, 4111, 8, 1, 0, 27, 'MassTransit/MassTransit', 'Distributed Application Framework for .NET', ARRAY['phatboyg', 'drusellers'], '2022-02-24T21:06:05.080468+00:00'),
 (790359, 25465, 825, 1, 0, 8, 'sequelize/sequelize', 'An easy-to-use and promise-based multi SQL dialects ORM tool for Node.js', ARRAY['sdepold', 'mickhansen'], '2022-02-24T21:06:05.080468+00:00'),
@@ -300,7 +299,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (7730086, 2891, 21, 1, 0, 11, 'webpack/tapable', 'Just a little module for plugins.', ARRAY['sokra', 'ooflorent'], '2022-02-24T21:06:05.080468+00:00'),
 (7737247, 1359, 3, 1, 0, 13, 'lelylan/simple-oauth2', 'A simple Node.js client library for Oauth2', ARRAY['jonathansamines', 'andreareginato'], '2022-02-24T21:06:05.080468+00:00'),
 (7761553, 125, 1, 2, 0, 0, 'jimniels/teamcolors', 'Team Colors for professional sports teams', ARRAY['jimniels', 'qwz'], '2022-02-24T21:06:05.080468+00:00'),
-(7833168, 16839, 9331, 1, 0, 22, 'elastic/kibana', 'Your window into the Elastic Stack', ARRAY['spalger', 'rashidkpc'], '2022-02-24T21:06:05.080468+00:00'),
 (7855340, 10287, 243, 1, 0, 11, 'chjj/blessed', 'A high-level terminal interface library for node.js.', ARRAY['chjj', 'dbkaplun'], '2022-02-24T21:06:05.080468+00:00'),
 (8162715, 14770, 274, 2, 0, 6.5, 'mirumee/saleor', 'A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.', ARRAY['maarcingebala', 'dominik-zeglen'], '2022-02-24T21:06:05.080468+00:00'),
 (8424040, 16589, 209, 1, 0, 29, 'processing/p5.js', 'p5.js is a client-side JS platform that empowers artists, designers, students, and anyone to learn to code and express themselves creatively on the web. It is based on the core principles of Processing. http://twitter.com/p5xjs —', ARRAY['lmccart', 'outofambit'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2105,13 +2103,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (202693400, 6416, 18, 1, 0, 1, 'rougier/scientific-visualization-book', 'An open access book on scientific visualization using python and matplotlib', ARRAY['rougier', 'kinow'], '2022-02-24T21:06:05.080468+00:00'),
 (202770236, 328, 9, 1, 0, 25, 'unboundedsystems/adapt', 'ReactJS for your infrastructure. Create and deploy full-stack apps to any infrastructure using the power of React.', ARRAY['mterrel', 'mvachhar'], '2022-02-24T21:06:05.080468+00:00'),
 (202787876, 11107, 182, 2, 0, 23, 'Rigellute/spotify-tui', 'Spotify for the terminal written in Rust 🚀', ARRAY['Rigellute', 'jfaltis'], '2022-02-24T21:06:05.080468+00:00'),
-(202834928, 4, 2, 1, 0, 1, 'davidtorosyan/ti-js', 'TI-Basic interpreter written in JavaScript.', ARRAY['davidtorosyan', 'JEbertPrime'], '2022-02-24T21:06:05.080468+00:00'),
 (202890778, 22868, 119, 1, 0, 3, 'chakra-ui/chakra-ui', '⚡️ Simple, Modular & Accessible UI Components for your React Applications', ARRAY['segunadebayo', 'with-heart'], '2022-02-24T21:06:05.080468+00:00'),
 (203041686, 5, 0, 1, 0, 12, 'srenauld/loriot-sdk', 'A prototype NodeJS SDK to facilitate interaction with the LORIOT data and management APIs.', ARRAY['srenauld'], '2022-02-24T21:06:05.080468+00:00'),
+(202834928, 4, 2, 1, 0, 1, 'davidtorosyan/ti-js', 'TI-Basic interpreter written in JavaScript.', ARRAY['davidtorosyan', 'JEbertPrime'], '2022-02-24T21:06:05.080468+00:00'),
 (203213675, 521, 9, 1, 0, 9, 'nighto/brasil-portugal', 'Este repositório contém informações e dicas do processo de visto para brasileiros trabalharem com TI em Portugal', ARRAY['nighto', 'rezende79'], '2022-02-24T21:06:05.080468+00:00'),
-(203569485, 964, 59, 1, 0, 16, 'IjzerenHein/react-navigation-shared-element', 'React Navigation bindings for react-native-shared-element 💫', ARRAY['IjzerenHein', 'phamhoaivu911'], '2022-02-24T21:06:05.080468+00:00'),
 (203587744, 34708, 46, 1, 0, 8, 'hoppscotch/hoppscotch', '👽 Open source API development ecosystem https://hoppscotch.io', ARRAY['liyasthomas', 'AndrewBastin'], '2022-02-24T21:06:05.080468+00:00'),
 (204591335, 92, 24, 1, 0, 17, 'WICG/urlpattern', 'The URLPattern API provides a web platform primitive for matching URLs.', ARRAY['wanderview', 'lucacasonato'], '2022-02-24T21:06:05.080468+00:00'),
+(203569485, 964, 59, 1, 0, 16, 'IjzerenHein/react-navigation-shared-element', 'React Navigation bindings for react-native-shared-element 💫', ARRAY['IjzerenHein', 'phamhoaivu911'], '2022-02-24T21:06:05.080468+00:00'),
 (204996263, 74, 1, 1, 0, 2, 'umutphp/backend-best-practices', 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', ARRAY['umutphp', 'ilkka'], '2022-02-24T21:06:05.080468+00:00'),
 (205197166, 1, 0, 1, 0, 7, 'twhitacre/reactatl-9319', 'ReactATL Talk | Offline First Strategies | September 03, 2019', ARRAY['twhitacre'], '2022-02-24T21:06:05.080468+00:00'),
 (205250704, 1500, 51, 1, 0, 13, 'microsoft/DialoGPT', 'Large-scale pretraining for dialogue', ARRAY['dreasysnail', 'mgalley'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3667,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
-(208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00');
+(208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00'),
+(7833168, 16839, 9331, 1, 0, 22, 'elastic/kibana', 'Your window into the Elastic Stack', ARRAY['spalger', 'rashidkpc'], '2022-02-24T21:06:05.080468+00:00'),
+(724712, 61717, 8143, 2, 2, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-24T21:06:05.080468+00:00');
