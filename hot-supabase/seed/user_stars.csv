@@ -4430,14 +4430,14 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 470199505,11030551,279702593,18,3,4363,francisrstokes/super-expressive,🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language,"{francisrstokes,TimothyGillespie}",2022-03-16T02:40:44.887873
 465760174,60147716,110375203,29,0,9,arindam-modak/YRASS-Media-Player,"YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.","{arindam-modak,yash-1998}",2022-03-05T03:05:44.386164
 478689660,15233,400205829,29,0,42,ruiqi-zhong/Meta-tuning,EMNLP 2021 Adapting Language Models for Zero-shot Learning by Meta-tuning on Dataset and Prompt Collections,{ruiqi-zhong},2022-04-06T19:00:03.160586
-424360680,5901851,217545172,29,36,1583,ibrahimsn98/SmoothBottomBar,A lightweight Android material bottom navigation bar library,"{ibrahimsn98,mayokunadeniyi}",2022-02-24T21:07:34.596111
-423934343,43640229,201108929,29,7,706,ChrisDryden/Canadian-Tech-Internships-Summer-2022,Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022,"{ChrisDryden,andkerr}",2022-02-24T21:07:34.596111
+424360680,5901851,217545172,29,36,1582,ibrahimsn98/SmoothBottomBar,A lightweight Android material bottom navigation bar library,"{ibrahimsn98,mayokunadeniyi}",2022-02-24T21:07:34.596111
 483288985,47524279,331254339,5,0,2,projectashik/viod-mail,,{projectashik},2022-04-20T03:07:18.832769
 469853701,101365565,80050538,2,3,633,maintainers/public-resources,Public information on the invite-only maintainer community,"{MikeMcQuaid,devonzuegel}",2022-03-16T13:54:01.717626
 478736208,19353972,93446115,29,237,1186,hashicorp/terraform-provider-kubernetes,Terraform Kubernetes provider,"{alexsomesan,radeksimko}",2022-04-07T09:55:10.805423
+424945913,2339101,55896045,29,20,1,DrBenton/rougemine.com-online-resume,My over-engineered online resume,{DrBenton},2022-02-24T21:07:34.596111
 396050805,25217168,7691631,16,4275,63033,moby/moby,Moby Project - a collaborative project for the container ecosystem to assemble container-based systems,"{thaJeztah,crosbymichael}",2022-02-24T21:07:34.596111
 476011893,12780694,3545227,29,74,1777,webcamoid/webcamoid,Webcamoid is a full featured and multiplatform webcam suite.,"{hipersayanX,yarons}",2022-04-02T07:17:17.428559
-424945913,2339101,55896045,29,20,1,DrBenton/rougemine.com-online-resume,My over-engineered online resume,{DrBenton},2022-02-24T21:07:34.596111
+423934343,43640229,201108929,29,7,706,ChrisDryden/Canadian-Tech-Internships-Summer-2022,Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022,"{ChrisDryden,andkerr}",2022-02-24T21:07:34.596111
 317831562,67872399,323120066,28,0,1,An-prog-hub/human-pose-estimation,,{An-prog-hub},2022-02-24T21:07:34.596111
 482311242,17413306,392386677,29,4,5,babstrap/babstrap_settings_screen,This project help the developper to display a beautiful Settings Screen UI.,{babstrap},2022-04-20T05:33:54.564115
 481773353,20134767,36040894,25,322,52730,gatsbyjs/gatsby,"Build blazing fast, modern apps and websites with React","{KyleAMathews,pieh}",2022-04-16T09:07:31.359819
@@ -4468,4 +4468,4 @@ id,user_id,star_id,recency_score,issues,stars,repo_name,description,contributors
 490310734,65788728,163776268,29,13,3101,vercel/og-image,"Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc","{styfle,fpapado}",2022-05-11T02:49:28.093708
 484448667,55883854,97478419,2,54,3821,mockoon/mockoon,"Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.","{255kb,gabrielperes97}",2022-04-23T14:02:39.541007
 490560173,37085146,164776962,29,1,13,Make-School-Courses/CS-1.3-Core-Data-Structures,CS 1.3: Core Data Structures & Algorithms – Course Syllabus and Lessons,"{neptunius,jess-lemur}",2022-05-11T06:10:25.137114
-489933617,52573981,365051569,29,1,49,cassidoo/morsemoji,"Translate text to morse code, but the morse code is emojis",{cassidoo},2022-05-11T13:19:18.629109
+488399235,42341383,426820139,1,20,58,open-sauced/hot,🍕The site that recommends the hottest projects on GitHub.,"{bdougie,0-vortex}",2022-05-11T11:10:03.319915

@@ -1,5 +1,5 @@
 --
--- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T12:57:30.628Z
+-- Data for Name: user_stars; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T14:44:47.868Z
 -- COPY user_stars(id, user_id, star_id, recency_score, issues, stars, repo_name, description, contributors, created_at) FROM 'user_stars.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3313,7 +3313,6 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3315, 6241164, 72754695, 12, 14, 7084, 'styled-components/polished', 'A lightweight toolset for writing styles in JavaScript ✨', ARRAY['bhough', 'mxstbr'], '2022-02-24T21:07:34.596111'),
 (3316, 6241164, 147350463, 13, 9, 45617, 'leonardomso/33-js-concepts', '📜 33 JavaScript concepts every developer should know.', ARRAY['leonardomso', 'ilker0'], '2022-02-24T21:07:34.596111'),
 (3317, 6241164, 149827668, 14, 10, 52, 'james-wallis/wallis.dev', 'My personal website', ARRAY['james-wallis'], '2022-02-24T21:07:34.596111'),
-(3318, 6241164, 76569802, 15, 3, 51, 'ftlabs/transcription-service', 'A Node.js server that accepts audio/video files and transcribes the content', ARRAY['seanmtracey', 'wheresrhys'], '2022-02-24T21:07:34.596111'),
 (3319, 6241164, 35190860, 16, 0, 118, 'seven1m/open-bibles', 'Repository of public domain and freely licensed bibles in XML and other standard formats', ARRAY['seven1m', 'richiebful'], '2022-02-24T21:07:34.596111'),
 (3320, 6241164, 310490480, 17, 0, 16, 'cachecleanerjeet/readme-stats-github', 'Generate your GitHub''s Stats in SVG', ARRAY['avipatilpro'], '2022-02-24T21:07:34.596111'),
 (3321, 6241164, 319185224, 18, 9, 103, 'ubenmackin/ACVM', 'GUI frontend for qemu for Apple Silicon based Macs', ARRAY['ubenmackin', 'KhaosT'], '2022-02-24T21:07:34.596111'),
@@ -3624,6 +3623,7 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3628, 42392347, 291055052, 3, 191, 622, 'OpenSourceTogether/Hacktoberfest-2020', ':octocat: Welcome to Open-source! Simply add your details to contributors | Repo for Hacktoberfest 2020 ✅', ARRAY['chandan-reddy-k', 'CodesbyUnnati'], '2022-02-24T21:07:34.596111'),
 (3629, 42392347, 292611591, 4, 0, 35, 'Piyushhbhutoria/awesome-hacktoberfest-2020', 'We present a curated list of awesome Hacktoberfest 2021 repositories. If you enjoyed this resource, please leave a star :star: to support this project! :sparkles:', ARRAY['Piyushhbhutoria', 'brtymn'], '2022-02-24T21:07:34.596111'),
 (3630, 42392347, 279705398, 5, 3, 31, 'omidnikrah/profile-activity-generator', 'Generate custom profile activity for your profile README', ARRAY['omidnikrah'], '2022-02-24T21:07:34.596111'),
+(3318, 6241164, 76569802, 15, 3, 51, 'ftlabs/transcription-service', 'A Node.js server that accepts audio/video files and transcribes the content', ARRAY['seanmtracey', 'wheresrhys'], '2022-02-24T21:07:34.596111'),
 (3631, 42392347, 277028976, 6, 0, 2, 'elraffa/calendario-siembra', 'Simple app to know what to plant each month', ARRAY['elraffa'], '2022-02-24T21:07:34.596111'),
 (3632, 42392347, 279002648, 7, 22, 607, 'elangosundar/awesome-README-templates', 'A collection of awesome readme templates to display on your github profile.', ARRAY['elangosundar', 'AVS1508'], '2022-02-24T21:07:34.596111'),
 (3633, 42392347, 278335273, 8, 234, 35234, 'anuraghazra/github-readme-stats', ':zap: Dynamically generated stats for your github readmes', ARRAY['anuraghazra', 'qwerty541'], '2022-02-24T21:07:34.596111'),
@@ -3713,8 +3713,8 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (3716, 907680, 334777857, 4, 51, 1232, 'mszoek/airyx', 'A BSD-based OS project that aims to provide an experience like and some compatibility with macOS', ARRAY['mszoek', 'iddan'], '2022-02-24T21:07:34.596111'),
 (3717, 907680, 122837111, 5, 524, 3245, 'subhra74/xdm', 'Powerfull download accelerator and video downloader', ARRAY['subhra74', 'denzveloper'], '2022-02-24T21:07:34.596111'),
 (3718, 907680, 389952943, 6, 19, 1261, 'orbitersim/orbiter', 'Open-source repository of Orbiter Space Flight Simulator', ARRAY['mschweiger', 'DarkWanderer'], '2022-02-24T21:07:34.596111'),
-(3719, 907680, 258012772, 7, 46, 1569, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-24T21:07:34.596111'),
 (3720, 907680, 22091630, 8, 37, 255, 'RangeNetworks/OpenBTS-UMTS', '3G UMTS Data Radio Access Network Node', ARRAY['ttsou', 'iedemam'], '2022-02-24T21:07:34.596111'),
+(3719, 907680, 258012772, 7, 46, 1569, 'index-machines/index', 'The Index is an open source pick and place machine.', ARRAY['G-Pereira', 'sphawes'], '2022-02-24T21:07:34.596111'),
 (3721, 907680, 334274271, 9, 321, 4265, 'opensearch-project/OpenSearch', '🔎 Open source distributed and RESTful search engine.', ARRAY['kimchy', 's1monw'], '2022-02-24T21:07:34.596111'),
 (3722, 907680, 9405122, 10, 937, 8862, 'frida/frida', 'Clone this repo to build Frida', ARRAY['oleavr', 's1341'], '2022-02-24T21:07:34.596111'),
 (3723, 907680, 22887094, 11, 346, 43251, 'tesseract-ocr/tesseract', 'Tesseract Open Source OCR Engine (main repository)', ARRAY['stweil', 'zdenop'], '2022-02-24T21:07:34.596111'),
@@ -4435,14 +4435,14 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (470199505, 11030551, 279702593, 18, 3, 4363, 'francisrstokes/super-expressive', '🦜 Super Expressive is a zero-dependency JavaScript library for building regular expressions in (almost) natural language', ARRAY['francisrstokes', 'TimothyGillespie'], '2022-03-16T02:40:44.887873'),
 (465760174, 60147716, 110375203, 29, 0, 9, 'arindam-modak/YRASS-Media-Player', 'YRASS Media Player desktop application. Watch videos, movies, listen songs with cool interactive user interface and features.', ARRAY['arindam-modak', 'yash-1998'], '2022-03-05T03:05:44.386164'),
 (478689660, 15233, 400205829, 29, 0, 42, 'ruiqi-zhong/Meta-tuning', 'EMNLP 2021 Adapting Language Models for Zero-shot Learning by Meta-tuning on Dataset and Prompt Collections', ARRAY['ruiqi-zhong'], '2022-04-06T19:00:03.160586'),
-(424360680, 5901851, 217545172, 29, 36, 1583, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:07:34.596111'),
-(423934343, 43640229, 201108929, 29, 7, 706, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-24T21:07:34.596111'),
+(424360680, 5901851, 217545172, 29, 36, 1582, 'ibrahimsn98/SmoothBottomBar', 'A lightweight Android material bottom navigation bar library', ARRAY['ibrahimsn98', 'mayokunadeniyi'], '2022-02-24T21:07:34.596111'),
 (483288985, 47524279, 331254339, 5, 0, 2, 'projectashik/viod-mail', null, ARRAY['projectashik'], '2022-04-20T03:07:18.832769'),
 (469853701, 101365565, 80050538, 2, 3, 633, 'maintainers/public-resources', 'Public information on the invite-only maintainer community', ARRAY['MikeMcQuaid', 'devonzuegel'], '2022-03-16T13:54:01.717626'),
 (478736208, 19353972, 93446115, 29, 237, 1186, 'hashicorp/terraform-provider-kubernetes', 'Terraform Kubernetes provider', ARRAY['alexsomesan', 'radeksimko'], '2022-04-07T09:55:10.805423'),
+(424945913, 2339101, 55896045, 29, 20, 1, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:07:34.596111'),
 (396050805, 25217168, 7691631, 16, 4275, 63033, 'moby/moby', 'Moby Project - a collaborative project for the container ecosystem to assemble container-based systems', ARRAY['thaJeztah', 'crosbymichael'], '2022-02-24T21:07:34.596111'),
 (476011893, 12780694, 3545227, 29, 74, 1777, 'webcamoid/webcamoid', 'Webcamoid is a full featured and multiplatform webcam suite.', ARRAY['hipersayanX', 'yarons'], '2022-04-02T07:17:17.428559'),
-(424945913, 2339101, 55896045, 29, 20, 1, 'DrBenton/rougemine.com-online-resume', 'My over-engineered online resume', ARRAY['DrBenton'], '2022-02-24T21:07:34.596111'),
+(423934343, 43640229, 201108929, 29, 7, 706, 'ChrisDryden/Canadian-Tech-Internships-Summer-2022', 'Crowdsourced list of Canadian tech companies that are hiring interns for Summer 2022', ARRAY['ChrisDryden', 'andkerr'], '2022-02-24T21:07:34.596111'),
 (317831562, 67872399, 323120066, 28, 0, 1, 'An-prog-hub/human-pose-estimation', null, ARRAY['An-prog-hub'], '2022-02-24T21:07:34.596111'),
 (482311242, 17413306, 392386677, 29, 4, 5, 'babstrap/babstrap_settings_screen', 'This project help the developper to display a beautiful Settings Screen UI.', ARRAY['babstrap'], '2022-04-20T05:33:54.564115'),
 (481773353, 20134767, 36040894, 25, 322, 52730, 'gatsbyjs/gatsby', 'Build blazing fast, modern apps and websites with React', ARRAY['KyleAMathews', 'pieh'], '2022-04-16T09:07:31.359819'),
@@ -4473,5 +4473,5 @@ INSERT INTO user_stars(id, user_id, star_id, recency_score, issues, stars, repo_
 (490310734, 65788728, 163776268, 29, 13, 3101, 'vercel/og-image', 'Open Graph Image as a Service - generate cards for Twitter, Facebook, Slack, etc', ARRAY['styfle', 'fpapado'], '2022-05-11T02:49:28.093708'),
 (484448667, 55883854, 97478419, 2, 54, 3821, 'mockoon/mockoon', 'Mockoon is the easiest and quickest way to run mock APIs locally. No remote deployment, no account required, open source.', ARRAY['255kb', 'gabrielperes97'], '2022-04-23T14:02:39.541007'),
 (490560173, 37085146, 164776962, 29, 1, 13, 'Make-School-Courses/CS-1.3-Core-Data-Structures', 'CS 1.3: Core Data Structures & Algorithms – Course Syllabus and Lessons', ARRAY['neptunius', 'jess-lemur'], '2022-05-11T06:10:25.137114'),
-(489933617, 52573981, 365051569, 29, 1, 49, 'cassidoo/morsemoji', 'Translate text to morse code, but the morse code is emojis', ARRAY['cassidoo'], '2022-05-11T13:19:18.629109'),
-(488399235, 42341383, 426820139, 1, 20, 58, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-05-11T11:10:03.319915');
+(488399235, 42341383, 426820139, 1, 20, 58, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-05-11T11:10:03.319915'),
+(489933617, 52573981, 365051569, 29, 1, 49, 'cassidoo/morsemoji', 'Translate text to morse code, but the morse code is emojis', ARRAY['cassidoo'], '2022-05-11T13:19:18.629109');
