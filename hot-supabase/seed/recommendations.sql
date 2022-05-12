@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T10:46:32.506Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T12:57:30.433Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3551,6 +3551,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-24T21:06:05.080468+00:00'),
 (401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-24T21:06:05.080468+00:00'),
 (401300251, 2, 0, 1, 0, 29, 'Gen-R/organisation', 'GenR – open science communities #guideneeded Chat: https://matrix.to/#/#genr:matrix.org Twitter: @genr_r_ email: simon@genr.eu', ARRAY['mrchristian'], '2022-02-24T21:06:05.080468+00:00'),
+(401475275, 1, 0, 1, 0, 0, 'powershellsupport/MarkdownRenderFW', 'MarkdownRender for .NET Framework', ARRAY['sassdawe'], '2022-02-24T21:06:05.080468+00:00'),
 (401688124, 2, 2, 1, 0, 4, 'mohitjaisal/GithubCardss', 'A Github profile representation through cards with a Github API with some basic javascript.', ARRAY['mohitjaisal', 'AndrasBard'], '2022-02-24T21:06:05.080468+00:00'),
 (402030436, 1, 0, 1, 0, 7, 'mikerobards/100-days-of-code', 'Fork this template for the 100 days journal - to keep yourself accountable (multiple languages available)', ARRAY['kallaway', 'AurelieBayre'], '2022-02-24T21:06:05.080468+00:00'),
 (402189545, 976, 1, 1, 0, 0, 'juntossomosmais/frontend-guideline', '📝 Front-end Guideline by Juntos Somos Mais', ARRAY['felipefialho', 'hick97'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3581,6 +3582,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (407507122, 1, 0, 2, 0, 0, 'dimassuam/project-kalian', 'Menyimpan daftar Project Kalian yang sudah disubmit di Discord', ARRAY['sandhikagalih'], '2022-02-24T21:06:05.080468+00:00'),
 (407666234, 36, 0, 1, 0, 5, 'zero-to-mastery/coding_challenge-42', 'Hacktoberfest 2021', ARRAY['MattCSmith'], '2022-02-24T21:06:05.080468+00:00'),
 (408664831, 917, 0, 1, 0, 26, 'ai/nanocolors', 'Use picocolors instead. It is 3 times smaller and 50% faster.', ARRAY['jorgebucaran', 'ai'], '2022-02-24T21:06:05.080468+00:00'),
+(409285729, 5, 1, 1, 0, 5, 'Buckcli/Buck-python', 'Run multiple commands all in one . getbuck.tech', ARRAY['Pleasant-tech'], '2022-02-24T21:06:05.080468+00:00'),
 (409591032, 35, 2, 1, 0, 23, 'CornerBit/HikSink', 'Converts Hikvision camera events to MQTT', ARRAY['CornerBit'], '2022-02-24T21:06:05.080468+00:00'),
 (409743854, 5, 0, 1, 0, 16, 'mtfoley/gh-user-search', 'GitHub User Search', ARRAY['mtfoley'], '2022-02-24T21:06:05.080468+00:00'),
 (409762235, 1, 0, 1, 0, 7, 'rognan/deno-gradle-plugin', 'Use Deno (https://deno.land/) as part of your Gradle build.', ARRAY['rognan'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3646,8 +3648,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (432685277, 209, 0, 1, 0, 0, 'joelthelion/life_web', 'Life simulation written in rust', ARRAY['joelthelion', 'Robbepop'], '2022-02-24T21:06:05.080468+00:00'),
 (432722169, 4, 0, 1, 0, 9, 'mrwilson/advent-of-code-2021', 'It''s back. It''s worse.', ARRAY['mrwilson'], '2022-02-24T21:06:05.080468+00:00'),
 (437419319, 175, 3, 1, 0, 0, 'kefimochi/sync-contribution-graph', 'Generates empty commits to match contributions from other public GitHub accounts.', ARRAY['kefimochi', 'andypalmer'], '2022-02-24T21:06:05.080468+00:00'),
-(409285729, 5, 1, 1, 0, 5, 'Buckcli/Buck-python', 'Run multiple commands all in one . getbuck.tech', ARRAY['Pleasant-tech'], '2022-02-24T21:06:05.080468+00:00'),
-(401475275, 1, 0, 1, 0, 0, 'powershellsupport/MarkdownRenderFW', 'MarkdownRender for .NET Framework', ARRAY['sassdawe'], '2022-02-24T21:06:05.080468+00:00'),
 (438410446, 1, 7, 1, 0, 0, 'saitho/streamdeck-calculator', 'Calculator plugin for Streamdeck. Saves result in TXT file which can be read by OBS.', ARRAY['saitho'], '2022-02-24T21:06:05.080468+00:00'),
 (438686004, 1, 0, 2, 0, 14, 'xsky13/online-compiler', 'An online code compiler', ARRAY['xsky13'], '2022-02-24T21:06:05.080468+00:00'),
 (439057606, 867, 3, 1, 0, 19, 'DavidBuchanan314/ambiguous-png-packer', 'Craft PNG files that appear completely different in Apple software', ARRAY['DavidBuchanan314', 'mnixry'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3661,9 +3661,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (15393566, 5075, 21, 1, 2, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 5, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
+(177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
-(177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 3, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
 (62367558, 37545, 744, 5, 2, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
