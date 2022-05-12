@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T16:54:34.811Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T18:48:08.451Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2103,13 +2103,13 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (202693400, 6416, 18, 1, 0, 1, 'rougier/scientific-visualization-book', 'An open access book on scientific visualization using python and matplotlib', ARRAY['rougier', 'kinow'], '2022-02-24T21:06:05.080468+00:00'),
 (202770236, 328, 9, 1, 0, 25, 'unboundedsystems/adapt', 'ReactJS for your infrastructure. Create and deploy full-stack apps to any infrastructure using the power of React.', ARRAY['mterrel', 'mvachhar'], '2022-02-24T21:06:05.080468+00:00'),
 (202787876, 11107, 182, 2, 0, 23, 'Rigellute/spotify-tui', 'Spotify for the terminal written in Rust 🚀', ARRAY['Rigellute', 'jfaltis'], '2022-02-24T21:06:05.080468+00:00'),
+(202834928, 4, 2, 1, 0, 1, 'davidtorosyan/ti-js', 'TI-Basic interpreter written in JavaScript.', ARRAY['davidtorosyan', 'JEbertPrime'], '2022-02-24T21:06:05.080468+00:00'),
 (202890778, 22868, 119, 1, 0, 3, 'chakra-ui/chakra-ui', '⚡️ Simple, Modular & Accessible UI Components for your React Applications', ARRAY['segunadebayo', 'with-heart'], '2022-02-24T21:06:05.080468+00:00'),
 (203041686, 5, 0, 1, 0, 12, 'srenauld/loriot-sdk', 'A prototype NodeJS SDK to facilitate interaction with the LORIOT data and management APIs.', ARRAY['srenauld'], '2022-02-24T21:06:05.080468+00:00'),
-(202834928, 4, 2, 1, 0, 1, 'davidtorosyan/ti-js', 'TI-Basic interpreter written in JavaScript.', ARRAY['davidtorosyan', 'JEbertPrime'], '2022-02-24T21:06:05.080468+00:00'),
 (203213675, 521, 9, 1, 0, 9, 'nighto/brasil-portugal', 'Este repositório contém informações e dicas do processo de visto para brasileiros trabalharem com TI em Portugal', ARRAY['nighto', 'rezende79'], '2022-02-24T21:06:05.080468+00:00'),
+(203569485, 964, 59, 1, 0, 16, 'IjzerenHein/react-navigation-shared-element', 'React Navigation bindings for react-native-shared-element 💫', ARRAY['IjzerenHein', 'phamhoaivu911'], '2022-02-24T21:06:05.080468+00:00'),
 (203587744, 34708, 46, 1, 0, 8, 'hoppscotch/hoppscotch', '👽 Open source API development ecosystem https://hoppscotch.io', ARRAY['liyasthomas', 'AndrewBastin'], '2022-02-24T21:06:05.080468+00:00'),
 (204591335, 92, 24, 1, 0, 17, 'WICG/urlpattern', 'The URLPattern API provides a web platform primitive for matching URLs.', ARRAY['wanderview', 'lucacasonato'], '2022-02-24T21:06:05.080468+00:00'),
-(203569485, 964, 59, 1, 0, 16, 'IjzerenHein/react-navigation-shared-element', 'React Navigation bindings for react-native-shared-element 💫', ARRAY['IjzerenHein', 'phamhoaivu911'], '2022-02-24T21:06:05.080468+00:00'),
 (204996263, 74, 1, 1, 0, 2, 'umutphp/backend-best-practices', 'Arka uç geliştirirken dikkate alınabilecek örnek yöntemlerin derlendiği güncellenen bir kaynak.', ARRAY['umutphp', 'ilkka'], '2022-02-24T21:06:05.080468+00:00'),
 (205197166, 1, 0, 1, 0, 7, 'twhitacre/reactatl-9319', 'ReactATL Talk | Offline First Strategies | September 03, 2019', ARRAY['twhitacre'], '2022-02-24T21:06:05.080468+00:00'),
 (205250704, 1500, 51, 1, 0, 13, 'microsoft/DialoGPT', 'Large-scale pretraining for dialogue', ARRAY['dreasysnail', 'mgalley'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3313,7 +3313,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (374901515, 70, 15, 1, 0, 0, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'pragyamittal0'], '2022-02-24T21:06:05.080468+00:00'),
 (374950494, 42, 6, 1, 0, 3, 'lkrryba/weekly-web-dev-challenge-poll', 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', ARRAY['lkrryba', 'DoubleNemesis'], '2022-02-24T21:06:05.080468+00:00'),
 (375015992, 137, 0, 3, 0, 10.666666666666666, 'hacktivist123/content-plan-example', 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', ARRAY['hacktivist123', 'Youngestdev'], '2022-02-24T21:06:05.080468+00:00'),
-(375406891, 79, 0, 2, 0, 5.5, 'YashThakare/DSA_Uplift_Project', null, ARRAY['YashThakare', 'SwarnimaShishodia'], '2022-02-24T21:06:05.080468+00:00'),
 (375445655, 4142, 12, 1, 0, 16, 'facebookresearch/AugLy', 'A data augmentations library for audio, image, text, and video.', ARRAY['jbitton', 'zpapakipos'], '2022-02-24T21:06:05.080468+00:00'),
 (375581675, 3, 0, 1, 0, 25, 'ezralazuardy/cats', '😷 Contactless Automatic Thermal Scanner', ARRAY['ezralazuardy'], '2022-02-24T21:06:05.080468+00:00'),
 (375818901, 1, 0, 1, 0, 15, 'henrik-ch/financials', null, ARRAY['henrik-ch', 'george-hawkins'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00'),
 (7833168, 16839, 9331, 1, 0, 22, 'elastic/kibana', 'Your window into the Elastic Stack', ARRAY['spalger', 'rashidkpc'], '2022-02-24T21:06:05.080468+00:00'),
+(375406891, 79, 0, 2, 0, 5.5, 'YashThakare/DSA_Uplift_Project', null, ARRAY['YashThakare', 'SwarnimaShishodia'], '2022-02-24T21:06:05.080468+00:00'),
 (724712, 61717, 8143, 2, 2, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-24T21:06:05.080468+00:00');
