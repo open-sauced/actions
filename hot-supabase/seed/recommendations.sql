@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T18:48:08.451Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-12T20:45:10.665Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3313,6 +3313,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (374901515, 70, 15, 1, 0, 0, 'Amit366/FunwithPhysics', null, ARRAY['Amit366', 'pragyamittal0'], '2022-02-24T21:06:05.080468+00:00'),
 (374950494, 42, 6, 1, 0, 3, 'lkrryba/weekly-web-dev-challenge-poll', 'Submissions site for Scrimba''s Weekly Web Dev Challenge.', ARRAY['lkrryba', 'DoubleNemesis'], '2022-02-24T21:06:05.080468+00:00'),
 (375015992, 137, 0, 3, 0, 10.666666666666666, 'hacktivist123/content-plan-example', 'This is an example of a content plan, the idea is for devrel teams to see how to structure an effective content plan.', ARRAY['hacktivist123', 'Youngestdev'], '2022-02-24T21:06:05.080468+00:00'),
+(375406891, 79, 0, 2, 0, 5.5, 'YashThakare/DSA_Uplift_Project', null, ARRAY['YashThakare', 'SwarnimaShishodia'], '2022-02-24T21:06:05.080468+00:00'),
 (375445655, 4142, 12, 1, 0, 16, 'facebookresearch/AugLy', 'A data augmentations library for audio, image, text, and video.', ARRAY['jbitton', 'zpapakipos'], '2022-02-24T21:06:05.080468+00:00'),
 (375581675, 3, 0, 1, 0, 25, 'ezralazuardy/cats', '😷 Contactless Automatic Thermal Scanner', ARRAY['ezralazuardy'], '2022-02-24T21:06:05.080468+00:00'),
 (375818901, 1, 0, 1, 0, 15, 'henrik-ch/financials', null, ARRAY['henrik-ch', 'george-hawkins'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00'),
 (7833168, 16839, 9331, 1, 0, 22, 'elastic/kibana', 'Your window into the Elastic Stack', ARRAY['spalger', 'rashidkpc'], '2022-02-24T21:06:05.080468+00:00'),
-(375406891, 79, 0, 2, 0, 5.5, 'YashThakare/DSA_Uplift_Project', null, ARRAY['YashThakare', 'SwarnimaShishodia'], '2022-02-24T21:06:05.080468+00:00'),
 (724712, 61717, 8143, 2, 2, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-24T21:06:05.080468+00:00');
