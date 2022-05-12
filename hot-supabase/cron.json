@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-12T11:55:42.550Z",
+  "lastExecuted": "2022-05-12T12:20:19.664Z",
   "checked": {
     "bmilagre": {
       "owner": "bmilagre",
@@ -1905,6 +1905,11 @@
       "owner": "mklarsen",
       "notFound": false,
       "lastExecuted": "2022-05-12T09:22:32.768Z"
+    },
+    "FunIsDangerous": {
+      "owner": "FunIsDangerous",
+      "notFound": false,
+      "lastExecuted": "2022-05-12T12:20:19.664Z"
     }
   }
 }
