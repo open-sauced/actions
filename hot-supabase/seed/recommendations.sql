@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T05:01:03.717Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T06:50:20.099Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2822,7 +2822,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (304026138, 11, 0, 1, 0, 27, 'masaun/NFT-auth-token', 'NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management', ARRAY['masaun'], '2022-02-24T21:06:05.080468+00:00'),
 (304177900, 251, 1, 1, 0, 4, 'RyanFitzgerald/devfolio', 'A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS', ARRAY['RyanFitzgerald', 'zielinsm'], '2022-02-24T21:06:05.080468+00:00'),
 (304243554, 1171, 10, 1, 0, 15, 'craftzdog/dotfiles-public', 'My personal dotfiles', ARRAY['craftzdog', 'IlanCosman'], '2022-02-24T21:06:05.080468+00:00'),
-(304344049, 6089, 398, 4, 1, 12.25, 'sveltejs/kit', 'The fastest way to build Svelte apps', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00'),
 (304563696, 154, 0, 1, 0, 6, 'lemonadejs/lemonadejs', 'LemonadeJS is a micro (4Kb) reactive, with a two-way data binding, no dependencies, JavaScript library that aims to be as close to JavaScript Vanilla as possible.', ARRAY['pphod', 'hodeware'], '2022-02-24T21:06:05.080468+00:00'),
 (304940629, 2861, 2, 2, 0, 4.5, 'markodenic/web-development-resources', 'Awesome Web Development Resources.', ARRAY['markodenic', 'frankiefab100'], '2022-02-24T21:06:05.080468+00:00'),
 (305089628, 1961, 11, 1, 0, 3, 'Serial-Studio/Serial-Studio', 'Multi-purpose serial data visualization & processing program', ARRAY['alex-spataru', 'umarcor'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3053,8 +3052,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (337850512, 11, 4, 1, 0, 0, 'Call-for-Code-for-Racial-Justice/Call-for-Code-for-Racial-Justice', 'The main repository for information on Call for Code® for Racial Justice projects, hosted by The Linux Foundation.', ARRAY['krook', 'demilolu'], '2022-02-24T21:06:05.080468+00:00'),
 (338102540, 938, 5, 1, 0, 3, 'john-smilga/node-express-course', null, ARRAY['john-smilga'], '2022-02-24T21:06:05.080468+00:00'),
 (338315224, 100, 1, 1, 0, 5, 'kothariji/Querylizer', 'Create Stunning 🚩 Blazing ⚡ Interactive 🧠Database Diagrams 🚀. Easily convert your Beautiful Database Diagram to code. Hassle-Free.👨‍💻🚀', ARRAY['kothariji', 'akash-salvi'], '2022-02-24T21:06:05.080468+00:00'),
-(338348248, 9215, 231, 2, 0, 10, 'benawad/dogehouse', 'Taking voice conversations to the moon 🚀', ARRAY['benawad', 'amitojsingh366'], '2022-02-24T21:06:05.080468+00:00'),
 (338335614, 121, 15, 1, 0, 25, 'leafac/caxa', '📦 Package Node.js applications into executable binaries 📦', ARRAY['leafac', 'maxb2'], '2022-02-24T21:06:05.080468+00:00'),
+(338348248, 9215, 231, 2, 0, 10, 'benawad/dogehouse', 'Taking voice conversations to the moon 🚀', ARRAY['benawad', 'amitojsingh366'], '2022-02-24T21:06:05.080468+00:00'),
 (338590340, 318, 9, 1, 0, 4, 'lucydsl/liblucy', 'Core Lucy compiler', ARRAY['matthewp'], '2022-02-24T21:06:05.080468+00:00'),
 (338699314, 894, 26, 1, 0, 18, 'kentcdodds/mdx-bundler', '🦤 Give me MDX/TSX strings and I''ll give you back a component you can render. Supports imports!', ARRAY['kentcdodds', 'Arcath'], '2022-02-24T21:06:05.080468+00:00'),
 (338764631, 30, 6, 1, 0, 23, 'QuiltMC/quilt-installer', 'The Quilt installer for the official Minecraft launcher and servers', ARRAY['i509VCB', 'EnnuiL'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
 (208143342, 82, 5, 3, 1, 2.3333333333333335, 'github-craftwork/start-here', 'You should open this repo first', ARRAY['bdougie', 'JayantGoel001'], '2022-02-24T21:06:05.080468+00:00'),
 (7833168, 16839, 9331, 1, 0, 22, 'elastic/kibana', 'Your window into the Elastic Stack', ARRAY['spalger', 'rashidkpc'], '2022-02-24T21:06:05.080468+00:00'),
-(724712, 61717, 8143, 2, 2, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-24T21:06:05.080468+00:00');
+(724712, 61717, 8143, 2, 2, 11.5, 'rust-lang/rust', 'Empowering everyone to build reliable and efficient software.', ARRAY['bors', 'brson'], '2022-02-24T21:06:05.080468+00:00'),
+(304344049, 6089, 398, 4, 0, 12.25, 'sveltejs/kit', 'The fastest way to build Svelte apps', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00');

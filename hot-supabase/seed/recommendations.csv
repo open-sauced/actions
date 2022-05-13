@@ -2817,7 +2817,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 304026138,11,0,1,0,27,masaun/NFT-auth-token,NFT-based-Auth-Token is the smart contract that NFT is used for the AC (Access Control) management,{masaun},2022-02-24T21:06:05.080468+00:00
 304177900,251,1,1,0,4,RyanFitzgerald/devfolio,A modern and production-ready personal portfolio + blog template built with GatsbyJs and TailwindCSS,"{RyanFitzgerald,zielinsm}",2022-02-24T21:06:05.080468+00:00
 304243554,1171,10,1,0,15,craftzdog/dotfiles-public,My personal dotfiles,"{craftzdog,IlanCosman}",2022-02-24T21:06:05.080468+00:00
-304344049,6089,398,4,1,12.25,sveltejs/kit,The fastest way to build Svelte apps,"{Rich-Harris,benmccann}",2022-02-24T21:06:05.080468+00:00
 304563696,154,0,1,0,6,lemonadejs/lemonadejs,"LemonadeJS is a micro (4Kb) reactive, with a two-way data binding, no dependencies, JavaScript library that aims to be as close to JavaScript Vanilla as possible.","{pphod,hodeware}",2022-02-24T21:06:05.080468+00:00
 304940629,2861,2,2,0,4.5,markodenic/web-development-resources,Awesome Web Development Resources.,"{markodenic,frankiefab100}",2022-02-24T21:06:05.080468+00:00
 305089628,1961,11,1,0,3,Serial-Studio/Serial-Studio,Multi-purpose serial data visualization & processing program,"{alex-spataru,umarcor}",2022-02-24T21:06:05.080468+00:00
@@ -3664,3 +3663,4 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 69193081,5972,74,3,1,11,freeCodeCamp/how-to-contribute-to-open-source,A guide to contributing to open source,"{erictleung,QuincyLarson}",2022-02-24T21:06:05.080468+00:00
 208143342,82,5,3,1,2.3333333333333335,github-craftwork/start-here,You should open this repo first,"{bdougie,JayantGoel001}",2022-02-24T21:06:05.080468+00:00
 7833168,16839,9331,1,0,22,elastic/kibana,Your window into the Elastic Stack,"{spalger,rashidkpc}",2022-02-24T21:06:05.080468+00:00
+724712,61717,8143,2,2,11.5,rust-lang/rust,Empowering everyone to build reliable and efficient software.,"{bors,brson}",2022-02-24T21:06:05.080468+00:00
