@@ -3658,9 +3658,9 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 241805592,16880,48,3,1,14,rome/tools,"The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.","{sebmck,ematipico}",2022-02-24T21:06:05.080468+00:00
 71359796,573,29,4,3,0,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:06:05.080468+00:00
 3282,16409,20,1,1,9,preservim/nerdtree,A tree explorer plugin for vim.,"{scrooloose,PhilRunninger}",2022-02-24T21:06:05.080468+00:00
-62367558,37545,744,5,2,10.2,vercel/hyper,A terminal built on web technologies,"{rauchg,LabhanshAgrawal}",2022-02-24T21:06:05.080468+00:00
 3402537,51678,9,3,5,12,h5bp/Front-end-Developer-Interview-Questions,"A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.","{darcyclarke,appleboy}",2022-02-24T21:06:05.080468+00:00
 69193081,5972,74,3,1,11,freeCodeCamp/how-to-contribute-to-open-source,A guide to contributing to open source,"{erictleung,QuincyLarson}",2022-02-24T21:06:05.080468+00:00
 208143342,82,5,3,1,2.3333333333333335,github-craftwork/start-here,You should open this repo first,"{bdougie,JayantGoel001}",2022-02-24T21:06:05.080468+00:00
 7833168,16839,9331,1,0,22,elastic/kibana,Your window into the Elastic Stack,"{spalger,rashidkpc}",2022-02-24T21:06:05.080468+00:00
 724712,61717,8143,2,2,11.5,rust-lang/rust,Empowering everyone to build reliable and efficient software.,"{bors,brson}",2022-02-24T21:06:05.080468+00:00
+304344049,6089,398,4,0,12.25,sveltejs/kit,The fastest way to build Svelte apps,"{Rich-Harris,benmccann}",2022-02-24T21:06:05.080468+00:00
