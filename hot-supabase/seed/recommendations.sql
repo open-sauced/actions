@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T03:25:58.307Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T05:01:03.717Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3053,8 +3053,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (337850512, 11, 4, 1, 0, 0, 'Call-for-Code-for-Racial-Justice/Call-for-Code-for-Racial-Justice', 'The main repository for information on Call for Code® for Racial Justice projects, hosted by The Linux Foundation.', ARRAY['krook', 'demilolu'], '2022-02-24T21:06:05.080468+00:00'),
 (338102540, 938, 5, 1, 0, 3, 'john-smilga/node-express-course', null, ARRAY['john-smilga'], '2022-02-24T21:06:05.080468+00:00'),
 (338315224, 100, 1, 1, 0, 5, 'kothariji/Querylizer', 'Create Stunning 🚩 Blazing ⚡ Interactive 🧠Database Diagrams 🚀. Easily convert your Beautiful Database Diagram to code. Hassle-Free.👨‍💻🚀', ARRAY['kothariji', 'akash-salvi'], '2022-02-24T21:06:05.080468+00:00'),
-(338335614, 121, 15, 1, 0, 25, 'leafac/caxa', '📦 Package Node.js applications into executable binaries 📦', ARRAY['leafac', 'maxb2'], '2022-02-24T21:06:05.080468+00:00'),
 (338348248, 9215, 231, 2, 0, 10, 'benawad/dogehouse', 'Taking voice conversations to the moon 🚀', ARRAY['benawad', 'amitojsingh366'], '2022-02-24T21:06:05.080468+00:00'),
+(338335614, 121, 15, 1, 0, 25, 'leafac/caxa', '📦 Package Node.js applications into executable binaries 📦', ARRAY['leafac', 'maxb2'], '2022-02-24T21:06:05.080468+00:00'),
 (338590340, 318, 9, 1, 0, 4, 'lucydsl/liblucy', 'Core Lucy compiler', ARRAY['matthewp'], '2022-02-24T21:06:05.080468+00:00'),
 (338699314, 894, 26, 1, 0, 18, 'kentcdodds/mdx-bundler', '🦤 Give me MDX/TSX strings and I''ll give you back a component you can render. Supports imports!', ARRAY['kentcdodds', 'Arcath'], '2022-02-24T21:06:05.080468+00:00'),
 (338764631, 30, 6, 1, 0, 23, 'QuiltMC/quilt-installer', 'The Quilt installer for the official Minecraft launcher and servers', ARRAY['i509VCB', 'EnnuiL'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3435,10 +3435,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388693827, 1032, 3, 1, 0, 18, 'antfu/vitesse-webext', '⚡️ WebExtension Vite Starter Template', ARRAY['antfu', 'tmkx'], '2022-02-24T21:06:05.080468+00:00'),
 (388891464, 10, 0, 1, 0, 17, 'Salaah01/linux-ios-debugger', 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', ARRAY['Salaah01'], '2022-02-24T21:06:05.080468+00:00'),
 (389071137, 1, 0, 1, 0, 22, 'BolajiAyodeji/linear-regression', 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
+(389086554, 3, 0, 1, 0, 21, 'BolajiAyodeji/headless-swag-store', 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', ARRAY['BolajiAyodeji', 'acasazza'], '2022-02-24T21:06:05.080468+00:00'),
 (389156199, 91, 2, 1, 0, 24, '5t3ph/htmlrecipes', 'A collection of quick copy HTML snippets for a variety of common scenarios.', ARRAY['5t3ph', 'MWDelaney'], '2022-02-24T21:06:05.080468+00:00'),
 (425292451, 1, 0, 1, 0, 22, 'Tanmay000009/glocal', null, ARRAY['Tanmay000009', 'cryptus-neoxys'], '2022-02-24T21:06:05.080468+00:00'),
 (389247129, 2, 0, 1, 0, 1, 'lukasschwab/podcast-transcriber', 'Fully automated Cloud Function podcast transcriptions with Deepgram.', ARRAY['lukasschwab'], '2022-02-24T21:06:05.080468+00:00'),
-(389086554, 3, 0, 1, 0, 21, 'BolajiAyodeji/headless-swag-store', 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', ARRAY['BolajiAyodeji', 'acasazza'], '2022-02-24T21:06:05.080468+00:00'),
 (389264260, 59, 0, 1, 0, 7, 'bernaferrari/CashBalancer', 'It is too hard to balance money across different assets and accounts.', ARRAY['bernaferrari', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (389448238, 25, 0, 1, 0, 7, 'avinash201199/Free-courses-with-Certificates', 'Collection of free courses with certificates', ARRAY['avinash201199', 'ojasjain24'], '2022-02-24T21:06:05.080468+00:00'),
 (389568562, 1562, 8, 1, 0, 0, 'lahmatiy/react-render-tracker', 'React render tracker – a tool to discover performance issues related to unintentional re-renders and unmounts', ARRAY['lahmatiy', 'user1736'], '2022-02-24T21:06:05.080468+00:00'),
