@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T16:54:04.755Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T18:47:20.080Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3607,9 +3607,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (416667263, 6, 0, 1, 0, 10, 'hwslabs/grpc-kotlin-starter', 'A gRPC Kotlin based server and client starter that builds with Gradle and runs on the JVM', ARRAY['kartickvijayakumar'], '2022-02-24T21:06:05.080468+00:00'),
 (417156746, 29, 0, 1, 0, 1, 'mpetuska/kon', 'Kotlin Object Notation - Lightweight DSL to build fluid JSON trees', ARRAY['mpetuska'], '2022-02-24T21:06:05.080468+00:00'),
 (417268538, 6, 0, 1, 0, 5, 'tkwant/react-steps', null, ARRAY['tkwant'], '2022-02-24T21:06:05.080468+00:00'),
+(417656389, 2, 1, 1, 0, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
 (417782582, 32, 0, 1, 0, 4, 'mgdigital/tsinject', 'Lightweight dependency injection container for TypeScript', ARRAY['mgdigital'], '2022-02-24T21:06:05.080468+00:00'),
 (417937257, 3, 0, 1, 0, 15, 'monicatvera/preview-credit-card', 'A credit card preview app', ARRAY['monicatvera'], '2022-02-24T21:06:05.080468+00:00'),
-(417656389, 2, 1, 1, 0, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
 (418353420, 1, 0, 1, 0, 27, 'AndBible/docs', 'User documentation (readthedocs)', ARRAY['agrogers'], '2022-02-24T21:06:05.080468+00:00'),
 (418752214, 470, 7, 1, 0, 6, 'T-head-Semi/openc910', 'OpenXuantie - OpenC910 Core', ARRAY['purplelegant', 'Taurusxkyle'], '2022-02-24T21:06:05.080468+00:00'),
 (419402169, 42, 3, 1, 0, 1, 'rancher/os2', 'A Rancher and Kubernetes optimized immutable Linux distribution based on openSUSE', ARRAY['ibuildthecloud', 'mudler'], '2022-02-24T21:06:05.080468+00:00'),
