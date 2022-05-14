@@ -596,7 +596,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 28223437,1216,3,1,0,1,riverrun/comeonin,Password hashing specification for the Elixir programming language,"{riverrun,mutablestate}",2022-02-24T21:06:05.080468+00:00
 28320207,8899,78,1,0,19,majodev/google-webfonts-helper,"A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets","{majodev,maiadeutsch}",2022-02-24T21:06:05.080468+00:00
 28421899,75,2,1,0,1,ratracegrad/coderbyte-Beginner,The Beginner Challenges at Coderbyte.com,{ratracegrad},2022-02-24T21:06:05.080468+00:00
-28457823,337699,122,5,1,19.2,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-24T21:06:05.080468+00:00
 28548699,6193,2,1,0,3,cassidoo/getting-a-gig,Guide for getting a gig as a tech student.,"{cassidoo,dsouzarc}",2022-02-24T21:06:05.080468+00:00
 28573936,4,0,1,0,1,mahees/angular-nfc,Angular and Ionic NFC wrapper for phonegap-nfc,{mahees},2022-02-24T21:06:05.080468+00:00
 28704549,13215,89,1,0,5,philipwalton/flexbugs,A community-curated list of flexbox issues and cross-browser workarounds for them.,"{philipwalton,akaustav}",2022-02-24T21:06:05.080468+00:00
@@ -3649,8 +3648,8 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 88011908,60354,28,4,1,11.25,practical-tutorials/project-based-learning,Curated list of project-based tutorials,"{tuvtran,sayands}",2022-02-24T21:06:05.080468+00:00
 71359796,573,29,4,18,0,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:06:05.080468+00:00
 112150776,10908,441,5,2,12.4,11ty/eleventy,A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.,"{zachleat,MadeByMike}",2022-02-24T21:06:05.080468+00:00
+44882201,37303,51,8,10,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"{MunGell,JefMari}",2022-02-24T21:06:05.080468+00:00
 15393566,5075,21,1,2,29,AriaMinaei/theatre,Motion design editor for the web,"{AriaMinaei,jmyrland}",2022-02-24T21:06:05.080468+00:00
-44882201,37303,51,8,9,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"{MunGell,JefMari}",2022-02-24T21:06:05.080468+00:00
 177736533,260255,16833,1,0,2,996icu/996.ICU,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,"{996icu,ChangedenCZD}",2022-02-24T21:06:05.080468+00:00
 1039520,103987,4973,1,1,17,ytdl-org/youtube-dl,Command-line program to download videos from YouTube.com and other video sites,"{dstftw,phihag}",2022-02-24T21:06:05.080468+00:00
 241805592,16880,48,3,1,14,rome/tools,"The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.","{sebmck,ematipico}",2022-02-24T21:06:05.080468+00:00
@@ -3664,3 +3663,4 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 724712,61717,8143,2,2,11.5,rust-lang/rust,Empowering everyone to build reliable and efficient software.,"{bors,brson}",2022-02-24T21:06:05.080468+00:00
 304344049,6089,398,4,0,12.25,sveltejs/kit,The fastest way to build Svelte apps,"{Rich-Harris,benmccann}",2022-02-24T21:06:05.080468+00:00
 62367558,37545,744,5,1,10.2,vercel/hyper,A terminal built on web technologies,"{rauchg,LabhanshAgrawal}",2022-02-24T21:06:05.080468+00:00
+11180687,56014,717,3,2,18,gohugoio/hugo,The world’s fastest framework for building websites.,"{bep,spf13}",2022-02-24T21:06:05.080468+00:00
