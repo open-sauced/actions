@@ -1,12 +1,11 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-13T22:45:20.235Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T01:04:56.491Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (4, 5713670, 'kamranahmedse/developer-roadmap', '5713670-kamranahmedse/developer-roadmap', '2022-01-13T06:47:12.647373+00:00'),
 (98, 20134767, 'nuxt/nuxt.js', '20134767-nuxt/nuxt.js', '2022-01-25T21:29:10.802486+00:00'),
-(6, 5713670, 'slidevjs/slidev', '5713670-slidevjs/slidev', '2022-01-13T06:48:50.894315+00:00'),
 (100, 5713670, 'flutter/flutter', '5713670-flutter/flutter', '2022-01-25T23:48:23.190923+00:00'),
 (101, 5713670, 'AriaMinaei/theatre', '5713670-AriaMinaei/theatre', '2022-01-26T22:47:52.020398+00:00'),
 (10, 5713670, 'papers-we-love/papers-we-love', '5713670-papers-we-love/papers-we-love', '2022-01-13T06:55:51.030046+00:00'),
@@ -32,7 +31,6 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (54, 5713670, 'vercel/hyper', '5713670-vercel/hyper', '2022-01-16T20:57:00.494985+00:00'),
 (57, 5713670, 'photonstorm/phaser', '5713670-photonstorm/phaser', '2022-01-17T05:35:43.447998+00:00'),
 (60, 5713670, 'golang/go', '5713670-golang/go', '2022-01-17T07:16:40.352999+00:00'),
-(61, 5713670, 'open-sauced/hot', '5713670-open-sauced/hot', '2022-01-17T07:24:18.452165+00:00'),
 (64, 16826624, 'supabase/supabase', '16826624-supabase/supabase', '2022-01-17T22:42:21.64514+00:00'),
 (67, 16826624, 'MunGell/awesome-for-beginners', '16826624-MunGell/awesome-for-beginners', '2022-01-17T22:42:32.01327+00:00'),
 (70, 62628408, 'open-sauced/hot', '62628408-open-sauced/hot', '2022-01-18T18:22:32.005557+00:00'),
@@ -62,7 +60,7 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (9, 163561, '11ty/eleventy', '163561-11ty/eleventy', '2022-03-01T19:10:34.559073+00:00'),
 (11, 163561, 'open-sauced/hot', '163561-open-sauced/hot', '2022-03-01T19:42:12.000989+00:00'),
 (12, 163561, 'vitejs/vite', '163561-vitejs/vite', '2022-03-01T19:42:19.233352+00:00'),
-(52, 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced', '2022-01-16T10:02:51.693585+00:00'),
+(61, 5713670, 'open-sauced/hot', '5713670-open-sauced/hot', '2022-01-17T07:24:18.452165+00:00'),
 (21, 7222344, 'open-sauced/hot', '7222344-open-sauced/hot', '2022-03-08T16:08:52.097372+00:00'),
 (93, 14043845, 'open-sauced/hot', '14043845-open-sauced/hot', '2022-01-23T23:07:38.899855+00:00'),
 (26, 5713670, '996icu/996.ICU', '5713670-996icu/996.ICU', '2022-03-17T02:33:24.821991+00:00'),
@@ -79,4 +77,8 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (55, 55883854, 'freeCodeCamp/how-to-contribute-to-open-source', '55883854-freeCodeCamp/how-to-contribute-to-open-source', '2022-04-22T14:08:43.226196+00:00'),
 (56, 55883854, 'github-craftwork/start-here', '55883854-github-craftwork/start-here', '2022-04-22T14:09:10.518469+00:00'),
 (58, 5713670, 'elastic/kibana', '5713670-elastic/kibana', '2022-05-12T15:55:36.551039+00:00'),
-(59, 5713670, 'rust-lang/rust', '5713670-rust-lang/rust', '2022-05-12T15:55:37.442799+00:00');
+(59, 5713670, 'rust-lang/rust', '5713670-rust-lang/rust', '2022-05-12T15:55:37.442799+00:00'),
+(52, 5713670, 'open-sauced/open-sauced', '5713670-open-sauced/open-sauced', '2022-01-16T10:02:51.693585+00:00'),
+(6, 5713670, 'slidevjs/slidev', '5713670-slidevjs/slidev', '2022-01-13T06:48:50.894315+00:00'),
+(65, 5713670, 'gohugoio/hugo', '5713670-gohugoio/hugo', '2022-05-13T23:41:43.326109+00:00'),
+(82, 11777161, 'MunGell/awesome-for-beginners', '11777161-MunGell/awesome-for-beginners', '2022-05-13T23:43:20.563313+00:00');
