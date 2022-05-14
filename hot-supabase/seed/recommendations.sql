@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T03:29:50.809Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T05:07:34.873Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -662,9 +662,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (33546872, 834, 11, 1, 0, 6, 'cimgui/cimgui', 'c-api for imgui (https://github.com/ocornut/imgui)    Look at: https://github.com/cimgui for other widgets', ARRAY['sonoro1234', 'extrawurst'], '2022-02-24T21:06:05.080468+00:00'),
 (33614304, 65272, 234, 1, 0, 12, 'nvbn/thefuck', 'Magnificent app which corrects your previous console command.', ARRAY['nvbn', 'scorphus'], '2022-02-24T21:06:05.080468+00:00'),
 (33739333, 5255, 134, 1, 0, 1, 'thoughtbot/administrate', 'A Rails engine that helps you put together a super-flexible admin dashboard.', ARRAY['gracewashere', 'nickcharlton'], '2022-02-24T21:06:05.080468+00:00'),
-(33748729, 1073, 10, 1, 0, 4, 'mistic100/Photo-Sphere-Viewer', 'A JavaScript library to display Photo Sphere panoramas.', ARRAY['mistic100', 'JeremyHeleine'], '2022-02-24T21:06:05.080468+00:00'),
 (33763522, 15, 0, 1, 0, 10, 'alt-code/Research', null, ARRAY['chrisparnin', 'denaefordrobin'], '2022-02-24T21:06:05.080468+00:00'),
 (33820955, 5449, 4, 1, 0, 14, 'timjacobi/angular-education', 'A list of helpful material to develop using Angular', ARRAY['timjacobi', 'rengokantai'], '2022-02-24T21:06:05.080468+00:00'),
+(33748729, 1073, 10, 1, 0, 4, 'mistic100/Photo-Sphere-Viewer', 'A JavaScript library to display Photo Sphere panoramas.', ARRAY['mistic100', 'JeremyHeleine'], '2022-02-24T21:06:05.080468+00:00'),
 (33925906, 6459, 37, 1, 0, 15, 'Vincit/objection.js', 'An SQL-friendly ORM for Node.js', ARRAY['koskimas', 'mceachen'], '2022-02-24T21:06:05.080468+00:00'),
 (34039690, 4370, 20, 1, 0, 21, 'apache/groovy', 'Apache Groovy: A powerful multi-faceted programming language for the JVM platform', ARRAY['paulk-asert', 'danielsun1106'], '2022-02-24T21:06:05.080468+00:00'),
 (34134519, 4, 0, 1, 0, 3, 'awvalenti/materialdidatico', 'Material didático para assuntos gerais de desenvolvimento de software', ARRAY['awvalenti'], '2022-02-24T21:06:05.080468+00:00'),
