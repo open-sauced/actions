@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T18:46:54.553Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T20:44:35.218Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3269,8 +3269,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (369652397, 6, 1, 1, 0, 12, 'whitep4nth3r/unbreak.tech', 'UNBREAK.TECH — a platform for MEN to educate other MEN about the need for change and equality in tech.', ARRAY['whitep4nth3r'], '2022-02-24T21:06:05.080468+00:00'),
 (369719645, 72, 2, 1, 0, 26, 'Dhaiwat10/react-link-preview', 'A React library that generates beautiful previews for your links.', ARRAY['Dhaiwat10', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (369896619, 20, 17, 1, 0, 1, 'OrderAndCh4oS/hicetnunc-radio', 'Radio player for audio tracks in a tezos wallet.', ARRAY['OrderAndCh4oS', 'jclayton'], '2022-02-24T21:06:05.080468+00:00'),
-(369905667, 34, 12, 1, 0, 3, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-24T21:06:05.080468+00:00'),
 (370005059, 1, 0, 1, 0, 6, 'lesmo/LesmoMovies', null, ARRAY['lesmo'], '2022-02-24T21:06:05.080468+00:00'),
+(369905667, 34, 12, 1, 0, 3, 'Mintbean/DevCollective.io', 'DevCollective.io is an open source community of developers, by developers, for developers. If you like what we''re doing, don''t pay us. Just pay it forward. How? Check out the Discussion and Issues tabs. We''re a diverse, inclusive and newbie-friendly project.', ARRAY['monarchwadia', 'CoderDill'], '2022-02-24T21:06:05.080468+00:00'),
 (370083769, 97, 4, 1, 0, 23, 'SysSn13/leetcode-rating-predictor', 'Leetcode Rating Predictor built with Node. Browser extension and web interface.', ARRAY['SysSn13', 'Ajink7'], '2022-02-24T21:06:05.080468+00:00'),
 (370470353, 1, 0, 2, 0, 0, 'ViktorStiskala/tyre-energy-label', 'EU tyre label generator', ARRAY['ViktorStiskala'], '2022-02-24T21:06:05.080468+00:00'),
 (370814753, 37, 5, 1, 0, 3, 'ossf/oss-vulnerability-guide', 'A guide on coordinated vulnerability disclosure for open source projects. Includes templates for security policies (security.md) and disclosure notifications.', ARRAY['david-a-wheeler', 'annabellegoth2boss'], '2022-02-24T21:06:05.080468+00:00'),
