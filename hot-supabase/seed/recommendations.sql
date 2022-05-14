@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T08:46:17.338Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T10:46:00.242Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -940,8 +940,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-24T21:06:05.080468+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-24T21:06:05.080468+00:00'),
 (57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
-(57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
-(57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (57914774, 1665, 69, 1, 0, 18, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-24T21:06:05.080468+00:00'),
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-24T21:06:05.080468+00:00'),
 (58152535, 772, 34, 1, 0, 14, 'standardese/standardese', 'A (work-in-progress) nextgen Doxygen for C++', ARRAY['foonathan', 'saraedum'], '2022-02-24T21:06:05.080468+00:00'),
@@ -950,6 +948,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (59096058, 586, 43, 1, 0, 7, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-24T21:06:05.080468+00:00'),
 (59148646, 560, 28, 1, 0, 4, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
 (59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
+(57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
+(57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:06:05.080468+00:00'),
 (120538304, 50812, 4088, 2, 1, 14, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:06:05.080468+00:00'),
 (59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3651,14 +3651,14 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (191529732, 39905, 69, 8, 2, 16.25, 'lydiahallie/javascript-questions', 'A long list of (advanced) JavaScript questions, and their explanations :sparkles:  ', ARRAY['lydiahallie', 'Tarabass'], '2022-02-24T21:06:05.080468+00:00'),
 (191414235, 758, 4, 4, 4, 15, 'orbit-love/orbit-model', 'A framework for building high gravity communities 🪐', ARRAY['dzello', 'patrickjwoods'], '2022-02-24T21:06:05.080468+00:00'),
 (88011908, 60354, 28, 4, 1, 11.25, 'practical-tutorials/project-based-learning', 'Curated list of project-based tutorials', ARRAY['tuvtran', 'sayands'], '2022-02-24T21:06:05.080468+00:00'),
-(71359796, 573, 29, 4, 18, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
+(426820139, 42, 11, 1, 11, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (112150776, 10908, 441, 5, 2, 12.4, '11ty/eleventy', 'A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.', ARRAY['zachleat', 'MadeByMike'], '2022-02-24T21:06:05.080468+00:00'),
 (44882201, 37303, 51, 8, 10, 15.125, 'MunGell/awesome-for-beginners', 'A list of awesome beginners-friendly projects.', ARRAY['MunGell', 'JefMari'], '2022-02-24T21:06:05.080468+00:00'),
 (15393566, 5075, 21, 1, 2, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-24T21:06:05.080468+00:00'),
+(71359796, 573, 29, 4, 17, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
 (1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
 (241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
-(426820139, 42, 11, 1, 12, 0, 'open-sauced/hot', '🍕The site that recommends the hottest projects on GitHub.', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (361044034, 16821, 48, 4, 5, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
