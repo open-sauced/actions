@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T10:46:00.242Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T12:56:17.811Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -940,6 +940,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-24T21:06:05.080468+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-24T21:06:05.080468+00:00'),
 (57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
+(57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
+(57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (57914774, 1665, 69, 1, 0, 18, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-24T21:06:05.080468+00:00'),
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-24T21:06:05.080468+00:00'),
 (58152535, 772, 34, 1, 0, 14, 'standardese/standardese', 'A (work-in-progress) nextgen Doxygen for C++', ARRAY['foonathan', 'saraedum'], '2022-02-24T21:06:05.080468+00:00'),
@@ -948,8 +950,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (59096058, 586, 43, 1, 0, 7, 'TryGhost/Admin', 'Ghost''s admin client', ARRAY['kevinansfield', 'ErisDS'], '2022-02-24T21:06:05.080468+00:00'),
 (59148646, 560, 28, 1, 0, 4, 'dracula/visual-studio-code', '🧛🏻‍♂️ Dark theme for Visual Studio Code', ARRAY['dsifford', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
 (59152795, 61, 3, 1, 0, 29, 'dracula/atom', '🧛🏻‍♂️ Dark theme for Atom', ARRAY['rr-jimmy-multani', 'zenorocha'], '2022-02-24T21:06:05.080468+00:00'),
-(57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
-(57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (59239347, 20485, 834, 1, 0, 15, 'portainer/portainer', 'Making Docker and Kubernetes management easy.', ARRAY['deviantony', 'chiptus'], '2022-02-24T21:06:05.080468+00:00'),
 (120538304, 50812, 4088, 2, 1, 14, 'kelseyhightower/nocode', 'The best way to write secure and reliable applications. Write nothing; deploy nowhere.', ARRAY['kelseyhightower'], '2022-02-24T21:06:05.080468+00:00'),
 (59522149, 5465, 353, 1, 0, 10, 'gruntwork-io/terragrunt', 'Terragrunt is a thin wrapper for Terraform that provides extra tools for working with multiple Terraform modules.', ARRAY['brikis98', 'yorinasub17'], '2022-02-24T21:06:05.080468+00:00'),
