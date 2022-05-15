@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T16:52:50.321Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T18:46:48.209Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2065,8 +2065,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (198854821, 139, 18, 1, 0, 15, 'lowercasename/gathio', 'Self-destructing, shareable, no-registration event pages', ARRAY['lowercasename', 'dariusk'], '2022-02-24T21:06:05.080468+00:00'),
 (198864465, 351, 11, 1, 0, 28, 'dragonman225/notablog', 'Tell stories of your work with Notion', ARRAY['dragonman225'], '2022-02-24T21:06:05.080468+00:00'),
 (198898598, 525, 77, 1, 0, 3, 'replicatedhq/kURL', 'Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components', ARRAY['laverya', 'emosbaugh'], '2022-02-24T21:06:05.080468+00:00'),
-(199048926, 576, 13, 1, 0, 5, 'juicyfx/vercel-php', '▲ Vercel PHP runtime  •  vercel-php •  now-php  •  🐘+ λ = ❤', ARRAY['f3l1x', 'ties-v'], '2022-02-24T21:06:05.080468+00:00'),
 (199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
+(199048926, 576, 13, 1, 0, 5, 'juicyfx/vercel-php', '▲ Vercel PHP runtime  •  vercel-php •  now-php  •  🐘+ λ = ❤', ARRAY['f3l1x', 'ties-v'], '2022-02-24T21:06:05.080468+00:00'),
 (199141711, 615, 23, 1, 0, 5, 'bUnit-dev/bUnit', 'bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.', ARRAY['egil', 'ventigrande'], '2022-02-24T21:06:05.080468+00:00'),
 (199327580, 2171, 11, 1, 0, 28, 'MindorksOpenSource/android-developer-roadmap', 'Android Developer Roadmap - A complete roadmap to learn Android App Development', ARRAY['amitshekhariitbhu', 'isfaaghyth'], '2022-02-24T21:06:05.080468+00:00'),
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2294,10 +2294,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (232669620, 19, 1, 1, 0, 27, 'BattlesnakeOfficial/starter-snake-javascript', 'Getting started with Battlesnake and JavaScript', ARRAY['bvanvugt', 'brandonb927'], '2022-02-24T21:06:05.080468+00:00'),
 (232950013, 3, 2, 1, 0, 1, 'gitcomteam/gitcom', 'General discussion regarding platform future', ARRAY['mx2s'], '2022-02-24T21:06:05.080468+00:00'),
 (233020914, 78, 0, 1, 0, 1, 'Kirilllive/tuesday-js', 'simple web-based, free and open-source visual novel editor that can be used in a web browser. It is written in JavaScript without using any third party libraries and thus does not require additional software installation. The engine uses standard HTML document elements such as div and img. This allows the use of any media format supported by browsers including vector graphics svg, gif animations and css styles.', ARRAY['Kirilllive', 'Kurrrat'], '2022-02-24T21:06:05.080468+00:00'),
+(233472199, 9336, 31, 1, 0, 12, 'massgravel/Microsoft-Activation-Scripts', 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', ARRAY['WindowsAddict', 'mspaintmsi'], '2022-02-24T21:06:05.080468+00:00'),
 (233675781, 3, 0, 1, 0, 9, 'learn-co-curriculum/cli-project-planning', null, ARRAY['maxwellbenton', 'cernanb'], '2022-02-24T21:06:05.080468+00:00'),
 (234091935, 525, 3, 1, 0, 20, 'i5ik/sirdb', ':man: a simple, git diffable JSON database on yer filesystem. By the power of NodeJS', ARRAY['i5ik', 'rom10'], '2022-02-24T21:06:05.080468+00:00'),
 (234231371, 17421, 50, 2, 0, 22.5, 'gofiber/fiber', '⚡️ Express inspired web framework written in Go', ARRAY['Fenny', 'kiyonlin'], '2022-02-24T21:06:05.080468+00:00'),
-(233472199, 9336, 31, 1, 0, 12, 'massgravel/Microsoft-Activation-Scripts', 'A collection of scripts for activating Microsoft products using HWID / KMS38 / Online KMS activation methods with a focus on open-source code, less antivirus detection and user-friendliness.', ARRAY['WindowsAddict', 'mspaintmsi'], '2022-02-24T21:06:05.080468+00:00'),
 (234290189, 1, 0, 2, 0, 0, 'sarthakvarshney8081/kube-cluster', 'This repo contains scripts and documentatiion for setting up kubernetes cluster.', ARRAY['path2himanshu'], '2022-02-24T21:06:05.080468+00:00'),
 (234399448, 7, 7, 1, 0, 20, 'outsrc/my-app', 'Secure NextJS App users with Auth0 and TypeScript', ARRAY['ernestofreyreg'], '2022-02-24T21:06:05.080468+00:00'),
 (234611087, 1, 1, 1, 0, 1, 'tenpy/hdf5_io', 'Import and Export from Python and TeNPy to HDF5 Files', ARRAY['jhauschild'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3493,8 +3493,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (395280574, 12, 1, 1, 0, 2, 'NdR91/NdR-PhoneUI', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (395315972, 1, 0, 1, 0, 4, 'Rosh3639/tsf', 'Payment-Gateway-Integration', ARRAY['Rosh3639'], '2022-02-24T21:06:05.080468+00:00'),
 (395376449, 1, 0, 2, 0, 0, 'flan6/ml-cv-bot', 'This project aims to apply computer vision in games to automate repetitive tasks. My main goal is to study the fields of computer vision and machine learning while gaming. It uses YoloV4 and OpenCV to identify Crops in the game ''Albion Online¨.', ARRAY['flan6'], '2022-02-24T21:06:05.080468+00:00'),
-(395413091, 1, 0, 1, 0, 0, 'Mintbean/junior-developer-job-boards', null, ARRAY['Jc-008', 'monarchwadia'], '2022-02-24T21:06:05.080468+00:00'),
 (395433628, 4, 0, 1, 0, 9, 'exegeteio/dapr-mini-api', null, ARRAY['exegeteio'], '2022-02-24T21:06:05.080468+00:00'),
+(395413091, 1, 0, 1, 0, 0, 'Mintbean/junior-developer-job-boards', null, ARRAY['Jc-008', 'monarchwadia'], '2022-02-24T21:06:05.080468+00:00'),
 (395536461, 1456, 62, 1, 0, 26, 'mTvare6/hello-world.rs', '🚀Memory safe, blazing fast, configurable, minimal hello world written in rust(🚀) in a few lines of code with few(1092🚀) dependencies🚀', ARRAY['mTvare6', 'monosans'], '2022-02-24T21:06:05.080468+00:00'),
 (395575559, 10, 3, 1, 0, 21, 'teknologi-umum/blog', 'Blog for Teknologi Umum', ARRAY['aldy505', 'elianiva'], '2022-02-24T21:06:05.080468+00:00'),
 (395667322, 35, 1, 1, 0, 13, 'stack-on-fire/fire-flags', 'Dead simple and blazing fast feature-flags platform. Get started in minutes. Be confident when releasing new features for your application!', ARRAY['d-ivashchuk', 'edoardoc'], '2022-02-24T21:06:05.080468+00:00'),
