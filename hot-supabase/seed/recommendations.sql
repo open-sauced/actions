@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T12:55:56.615Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T14:43:39.405Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1981,11 +1981,11 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (187795542, 149, 0, 1, 0, 22, 'JoschuaSchneider/use-error-boundary', 'React hook for using error boundaries in your functional components', ARRAY['JoschuaSchneider', 'brandonpittman'], '2022-02-24T21:06:05.080468+00:00'),
 (187874263, 18, 0, 1, 0, 12, 'rjt-rockx/mee6-levels-api', 'An API wrapper for Mee6 levels', ARRAY['rjt-rockx', 'Lioness100'], '2022-02-24T21:06:05.080468+00:00'),
 (187894153, 218, 0, 1, 0, 5, 'iuridepaula/portfolio', 'My personal portfolio', ARRAY['iuridepaula'], '2022-02-24T21:06:05.080468+00:00'),
-(187915200, 2584, 38, 1, 0, 15, 'peaceiris/actions-gh-pages', 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', ARRAY['peaceiris', 'corollari'], '2022-02-24T21:06:05.080468+00:00'),
 (187916430, 633, 28, 1, 0, 21, 'muety/wakapi', '📊 A minimalist, self-hosted WakaTime-compatible backend for coding statistics', ARRAY['muety', 'YC'], '2022-02-24T21:06:05.080468+00:00'),
-(188243294, 3, 0, 1, 0, 10, 'BaseMax/ChessDesktopElectron', 'Chess game with two player based on electron. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (188246303, 2, 0, 1, 0, 9, 'BaseMax/CustomWindowsFormElectron', 'Custom Windows Frame with toolbar based on the electron.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (188299874, 2401, 420, 1, 0, 21, 'input-output-hk/cardano-node', 'The core component that is used to participate in a Cardano decentralised blockchain.', ARRAY['dcoutts', 'Jimbo4350'], '2022-02-24T21:06:05.080468+00:00'),
+(188243294, 3, 0, 1, 0, 10, 'BaseMax/ChessDesktopElectron', 'Chess game with two player based on electron. (SOON)', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
+(187915200, 2584, 38, 1, 0, 15, 'peaceiris/actions-gh-pages', 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.', ARRAY['peaceiris', 'corollari'], '2022-02-24T21:06:05.080468+00:00'),
 (188380025, 688, 41, 1, 0, 27, 'nice-boys/product-boilerplate', 'Quickly ship your apps with the power of code generation.', ARRAY['mxstbr', 'brianlovin'], '2022-02-24T21:06:05.080468+00:00'),
 (188450833, 130, 7, 1, 0, 3, 'jkettmann/graphql-passport', 'Strategy and utilities to use passport.js with GraphQL server', ARRAY['jkettmann', 'gforge'], '2022-02-24T21:06:05.080468+00:00'),
 (188660663, 32215, 57, 1, 0, 13, 'CorentinJ/Real-Time-Voice-Cloning', 'Clone a voice in 5 seconds to generate arbitrary speech in real-time', ARRAY['CorentinJ', 'alexpeattie'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3290,8 +3290,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (372098732, 47, 0, 1, 0, 14, 'nartc/ngrx-slice', 'createSlice for NgRX', ARRAY['nartc'], '2022-02-24T21:06:05.080468+00:00'),
 (372240402, 7954, 7, 1, 0, 16, 'alan2207/bulletproof-react', '🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications. ', ARRAY['alan2207', 'ryota-murakami'], '2022-02-24T21:06:05.080468+00:00'),
 (372263341, 18, 19, 1, 0, 17, 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', ARRAY['ChaelCodes', 'yagosansz'], '2022-02-24T21:06:05.080468+00:00'),
-(372409209, 2, 0, 1, 0, 28, 'fachryansyah/microservice-example-envoy', 'This is an example microservice implementation with envoy', ARRAY['fachryansyah'], '2022-02-24T21:06:05.080468+00:00'),
 (372449229, 75, 17, 1, 0, 1, 'GeekMasher/advanced-security-compliance', 'GitHub Advance Security Compliance Action', ARRAY['GeekMasher', 'pholleran'], '2022-02-24T21:06:05.080468+00:00'),
+(372409209, 2, 0, 1, 0, 28, 'fachryansyah/microservice-example-envoy', 'This is an example microservice implementation with envoy', ARRAY['fachryansyah'], '2022-02-24T21:06:05.080468+00:00'),
 (372718382, 256, 0, 1, 0, 3, 'ebosas/microservices', 'A microservices example in Go', ARRAY['ebosas'], '2022-02-24T21:06:05.080468+00:00'),
 (373301717, 10, 0, 1, 0, 1, 'oscakampala/made-in-uganda', 'It is rumored that Ugandans only know how to consume tools and not create them. Here is a curation of awesome tools built by Ugandans that can be used by anybody and from anywhere in the world.', ARRAY['oscakampala', 'KakoozaJerry'], '2022-02-24T21:06:05.080468+00:00'),
 (373327367, 30, 0, 1, 0, 12, 'rx-mind/ngrx-plugins', 'Reactive Angular Plugins', ARRAY['markostanimirovic'], '2022-02-24T21:06:05.080468+00:00'),
