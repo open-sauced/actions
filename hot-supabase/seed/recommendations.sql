@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T01:03:47.934Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T03:07:45.095Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2351,7 +2351,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (240673378, 4284, 22, 1, 0, 1, 'phuoc-ng/html-dom', 'Common tasks of managing HTML DOM with vanilla JavaScript. Give me 1 ⭐if it’s useful.', ARRAY['phuoc-ng', 'surajhell88'], '2022-02-24T21:06:05.080468+00:00'),
 (240786294, 897, 27, 1, 0, 2, 'HarshCasper/Rotten-Scripts', 'Scripts that will make you go WOW 😍💻 ', ARRAY['HarshCasper', 'vybhav72954'], '2022-02-24T21:06:05.080468+00:00'),
 (240795158, 80, 0, 1, 0, 16, 'KSJaay/Alita', 'A Discord.js bot using MongoDB (npm package Mongoose) to create a bot multipurpose', ARRAY['KSJaay', 'PegosStelios'], '2022-02-24T21:06:05.080468+00:00'),
-(240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-24T21:06:05.080468+00:00'),
 (240969480, 665, 7, 1, 0, 2, 'romkatv/zsh4humans', 'A turnkey configuration for Zsh', ARRAY['romkatv', 'Syphdias'], '2022-02-24T21:06:05.080468+00:00'),
 (241080452, 1, 0, 1, 0, 22, 'brettmillerb/sqlpackage-docker', 'Github repo to build and release container image for sqlpackage', ARRAY['brettmillerb'], '2022-02-24T21:06:05.080468+00:00'),
 (241092383, 1931, 27, 1, 0, 4, 'docker/build-push-action', 'GitHub Action to build and push Docker images with Buildx', ARRAY['crazy-max', 'zappy-shu'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2383,6 +2382,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (245222257, 138, 12, 1, 0, 11, 'jimmywarting/native-file-system-adapter', 'File system, based on the spec reference implementation', ARRAY['jimmywarting', 'tomayac'], '2022-02-24T21:06:05.080468+00:00'),
 (245273564, 32, 4, 1, 0, 28, 'asdf-vm/asdf-plugin-template', '📦 asdf-vm plugin template with GitHub Actions and more!', ARRAY['jthegedus', 'vic'], '2022-02-24T21:06:05.080468+00:00'),
 (245579777, 22, 1, 1, 0, 23, 'Leslie-Wong-H/game_of_life', 'An elegant implementation to John Conway''s Game of Life with JSXGraph. https://playgameoflife.live', ARRAY['Leslie-Wong-H', 'caiyijia'], '2022-02-24T21:06:05.080468+00:00'),
+(240960453, 7, 6, 1, 0, 28, 'cmgriffing/idiosyncrasy', null, ARRAY['CodeItQuick', 'cmgriffing'], '2022-02-24T21:06:05.080468+00:00'),
 (245685361, 3788, 41, 1, 0, 20, 'microsoft/codetour', 'VS Code extension that allows you to record and play back guided tours of codebases, directly within the editor.', ARRAY['lostintangent', 'joaomoreno'], '2022-02-24T21:06:05.080468+00:00'),
 (245734017, 53, 10, 1, 0, 17, 'ryancharris/react-livestream', 'Embed your Twitch, Mixer or YouTube stream in your website automatically when you''re live', ARRAY['ryancharris'], '2022-02-24T21:06:05.080468+00:00'),
 (245750702, 6, 3, 1, 0, 16, 'wwcodecolorado/career-returnship-website', 'A website for career returnship program where returners can showcase their work.  ', ARRAY['piqueen1', 'Rafna'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3532,10 +3532,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-24T21:06:05.080468+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-24T21:06:05.080468+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-24T21:06:05.080468+00:00'),
+(399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-24T21:06:05.080468+00:00'),
 (400215964, 2902, 27, 1, 0, 8, 'notifirehq/notifire', '🚀 Open-source notification infrastructure for products', ARRAY['scopsy', 'ComBarnea'], '2022-02-24T21:06:05.080468+00:00'),
 (400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-24T21:06:05.080468+00:00'),
-(399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (400528139, 267, 39, 1, 0, 2, 'tinkoff-ai/etna', 'ETNA – Time-Series Library', ARRAY['Mr-Geekman', 'alex-hse-repository'], '2022-02-24T21:06:05.080468+00:00'),
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
@@ -3613,9 +3613,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (419402169, 42, 3, 1, 0, 1, 'rancher/os2', 'A Rancher and Kubernetes optimized immutable Linux distribution based on openSUSE', ARRAY['ibuildthecloud', 'mudler'], '2022-02-24T21:06:05.080468+00:00'),
 (420110494, 89, 0, 1, 0, 7, 'louelladev/Helpful-Tech-Resources', 'A collection of helpful and educational resources I found on social media', ARRAY['louelladev'], '2022-02-24T21:06:05.080468+00:00'),
 (420312993, 200, 5, 1, 0, 10, 'egoist/bget', 'Download and install binaries from GitHub Releases, interactively.', ARRAY['egoist'], '2022-02-24T21:06:05.080468+00:00'),
-(420484145, 2, 1, 1, 0, 10, 'jramirez857/email-cleaner', null, ARRAY['jramirez857'], '2022-02-24T21:06:05.080468+00:00'),
 (420688085, 7, 0, 1, 0, 11, 'koladev32/node-express-jwt-tutorial', null, ARRAY['koladev32'], '2022-02-24T21:06:05.080468+00:00'),
 (421008345, 424, 21, 1, 0, 6, 'vercel/examples', 'Enjoy our curated collection of examples and solutions. Use these patterns to build your own robust and scalable applications.', ARRAY['lfades', 'steven-tey'], '2022-02-24T21:06:05.080468+00:00'),
+(420484145, 2, 1, 1, 0, 10, 'jramirez857/email-cleaner', null, ARRAY['jramirez857'], '2022-02-24T21:06:05.080468+00:00'),
 (421781906, 3, 0, 1, 0, 1, 'alanmynah/node-scrimba-stream', 'Code to go along with Scrimba''s Node stream', ARRAY['alanmynah'], '2022-02-24T21:06:05.080468+00:00'),
 (421838343, 114, 0, 1, 0, 12, 'nguyenphuminh/JeChain', 'An experimental, educational purpose proof-of-work blockchain network', ARRAY['nguyenphuminh'], '2022-02-24T21:06:05.080468+00:00'),
 (422215956, 1, 0, 1, 0, 14, 'Blazing-Mike/Monogram-Frontend-starter-files', 'starter files for monogram shop frontend challenge from frontendpratice.com', ARRAY['Blazing-Mike'], '2022-02-24T21:06:05.080468+00:00'),
