@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T06:47:53.846Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T08:46:03.987Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2216,8 +2216,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (219881030, 1, 0, 1, 0, 18, 'jseg787/random-playlist-generator', null, ARRAY['jseg787', 'ddesir'], '2022-02-24T21:06:05.080468+00:00'),
 (220251820, 1877, 13, 1, 0, 8, 'gerardog/gsudo', 'A Sudo for Windows - run elevated without spawning a new Console Host Window', ARRAY['gerardog', 'ddavness'], '2022-02-24T21:06:05.080468+00:00'),
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-24T21:06:05.080468+00:00'),
-(220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-24T21:06:05.080468+00:00'),
+(220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
 (220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-24T21:06:05.080468+00:00'),
 (220651147, 143, 4, 1, 0, 18, 'pathivu/pathivu', 'An efficient log ingestion and log aggregation system https://pathivu.io/', ARRAY['poonai', 'L04DB4L4NC3R'], '2022-02-24T21:06:05.080468+00:00'),
 (220809393, 31786, 40, 2, 0, 1.5, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3251,8 +3251,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (367045564, 549, 9, 1, 0, 25, 'trekhleb/self-parking-car-evolution', '🧬 Training the car to do self-parking using a genetic algorithm', ARRAY['trekhleb', 'martincostello'], '2022-02-24T21:06:05.080468+00:00'),
 (367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-24T21:06:05.080468+00:00'),
 (367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-24T21:06:05.080468+00:00'),
-(367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
 (367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-24T21:06:05.080468+00:00'),
+(367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
 (367572934, 8, 2, 1, 0, 28, 'PostmanSpat/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖 Follow open NBT trading signals at', ARRAY['dargmuesli', 'PostmanSpat'], '2022-02-24T21:06:05.080468+00:00'),
 (367602396, 62, 2, 1, 0, 2, 'prince776/discode', 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ARRAY['prince776', 'HarshKapadia2'], '2022-02-24T21:06:05.080468+00:00'),
 (367697425, 1, 0, 2, 0, 0, 'iamtheozzy/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
