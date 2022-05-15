@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-14T22:44:34.832Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T01:03:47.934Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3532,10 +3532,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-24T21:06:05.080468+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-24T21:06:05.080468+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-24T21:06:05.080468+00:00'),
-(399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-24T21:06:05.080468+00:00'),
 (400215964, 2902, 27, 1, 0, 8, 'notifirehq/notifire', '🚀 Open-source notification infrastructure for products', ARRAY['scopsy', 'ComBarnea'], '2022-02-24T21:06:05.080468+00:00'),
 (400468445, 28, 0, 1, 0, 7, 'g-plane/typacro', 'TypeCake is a language that compiles to TypeScript types. (WIP)', ARRAY['g-plane'], '2022-02-24T21:06:05.080468+00:00'),
+(399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (400528139, 267, 39, 1, 0, 2, 'tinkoff-ai/etna', 'ETNA – Time-Series Library', ARRAY['Mr-Geekman', 'alex-hse-repository'], '2022-02-24T21:06:05.080468+00:00'),
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
