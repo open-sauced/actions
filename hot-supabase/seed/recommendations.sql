@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T08:46:03.987Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T10:45:19.083Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2216,8 +2216,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (219881030, 1, 0, 1, 0, 18, 'jseg787/random-playlist-generator', null, ARRAY['jseg787', 'ddesir'], '2022-02-24T21:06:05.080468+00:00'),
 (220251820, 1877, 13, 1, 0, 8, 'gerardog/gsudo', 'A Sudo for Windows - run elevated without spawning a new Console Host Window', ARRAY['gerardog', 'ddavness'], '2022-02-24T21:06:05.080468+00:00'),
 (220342339, 49, 0, 1, 0, 17, 'asvetliakov/vim-easymotion', 'Vim motions on speed!', ARRAY['haya14busa', 'Lokaltog'], '2022-02-24T21:06:05.080468+00:00'),
-(220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-24T21:06:05.080468+00:00'),
 (220418983, 134, 2, 1, 0, 12, 'amannn/action-semantic-pull-request', 'A Github Action that ensures that your PR title matches the Conventional Commits spec.', ARRAY['amannn', 'semantic-release-bot'], '2022-02-24T21:06:05.080468+00:00'),
+(220448610, 1435, 53, 1, 0, 13, 'GoogleChromeLabs/bubblewrap', 'Bubblewrap is a Command Line Interface (CLI) that helps developers to create a Project for an Android application that launches an existing Progressive Web App (PWAs) using a Trusted Web Activity.', ARRAY['andreban', 'chenlevy24'], '2022-02-24T21:06:05.080468+00:00'),
 (220650639, 9, 0, 1, 0, 1, 'kt3k/license_checker', 'GitHub Action for checking the license lines of the files in a repository', ARRAY['kt3k', 'petrspelos'], '2022-02-24T21:06:05.080468+00:00'),
 (220651147, 143, 4, 1, 0, 18, 'pathivu/pathivu', 'An efficient log ingestion and log aggregation system https://pathivu.io/', ARRAY['poonai', 'L04DB4L4NC3R'], '2022-02-24T21:06:05.080468+00:00'),
 (220809393, 31786, 40, 2, 0, 1.5, 'willmcgugan/rich', 'Rich is a Python library for rich text and beautiful formatting in the terminal.', ARRAY['willmcgugan', 'nathanrpage97'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3604,9 +3604,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (416408131, 77, 7, 1, 0, 10, 'mattn/tailscale-systray', 'Linux port of tailscale system tray menu.', ARRAY['mattn', 'codenoid'], '2022-02-24T21:06:05.080468+00:00'),
 (416667263, 6, 0, 1, 0, 10, 'hwslabs/grpc-kotlin-starter', 'A gRPC Kotlin based server and client starter that builds with Gradle and runs on the JVM', ARRAY['kartickvijayakumar'], '2022-02-24T21:06:05.080468+00:00'),
 (417156746, 29, 0, 1, 0, 1, 'mpetuska/kon', 'Kotlin Object Notation - Lightweight DSL to build fluid JSON trees', ARRAY['mpetuska'], '2022-02-24T21:06:05.080468+00:00'),
-(417268538, 6, 0, 1, 0, 5, 'tkwant/react-steps', null, ARRAY['tkwant'], '2022-02-24T21:06:05.080468+00:00'),
-(417656389, 2, 1, 1, 0, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
 (417782582, 32, 0, 1, 0, 4, 'mgdigital/tsinject', 'Lightweight dependency injection container for TypeScript', ARRAY['mgdigital'], '2022-02-24T21:06:05.080468+00:00'),
+(417268538, 6, 0, 1, 0, 5, 'tkwant/react-steps', null, ARRAY['tkwant'], '2022-02-24T21:06:05.080468+00:00'),
 (417937257, 3, 0, 1, 0, 15, 'monicatvera/preview-credit-card', 'A credit card preview app', ARRAY['monicatvera'], '2022-02-24T21:06:05.080468+00:00'),
 (418353420, 1, 0, 1, 0, 27, 'AndBible/docs', 'User documentation (readthedocs)', ARRAY['agrogers'], '2022-02-24T21:06:05.080468+00:00'),
 (418752214, 470, 7, 1, 0, 6, 'T-head-Semi/openc910', 'OpenXuantie - OpenC910 Core', ARRAY['purplelegant', 'Taurusxkyle'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3668,5 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (304344049, 6089, 398, 4, 0, 12.25, 'sveltejs/kit', 'The fastest way to build Svelte apps', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00'),
 (62367558, 37545, 744, 5, 1, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (11180687, 56014, 717, 3, 2, 18, 'gohugoio/hugo', 'The world’s fastest framework for building websites.', ARRAY['bep', 'spf13'], '2022-02-24T21:06:05.080468+00:00'),
+(417656389, 2, 1, 1, 0, 2, 'github/automatic-contrib-prs', 'Automatically open a pull request for repositories that have no CONTRIBUTING.md file', ARRAY['zkoppert'], '2022-02-24T21:06:05.080468+00:00'),
 (28457823, 337699, 122, 5, 3, 19.2, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-02-24T21:06:05.080468+00:00');
