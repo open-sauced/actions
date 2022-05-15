@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T20:45:09.384Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T22:44:19.550Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2066,9 +2066,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (198864465, 351, 11, 1, 0, 28, 'dragonman225/notablog', 'Tell stories of your work with Notion', ARRAY['dragonman225'], '2022-02-24T21:06:05.080468+00:00'),
 (198898598, 525, 77, 1, 0, 3, 'replicatedhq/kURL', 'Production-grade, airgapped Kubernetes installer combining upstream k8s with overlays and popular components', ARRAY['laverya', 'emosbaugh'], '2022-02-24T21:06:05.080468+00:00'),
 (199048926, 576, 13, 1, 0, 5, 'juicyfx/vercel-php', '▲ Vercel PHP runtime  •  vercel-php •  now-php  •  🐘+ λ = ❤', ARRAY['f3l1x', 'ties-v'], '2022-02-24T21:06:05.080468+00:00'),
+(199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
 (199141711, 615, 23, 1, 0, 5, 'bUnit-dev/bUnit', 'bUnit is a testing library for Blazor components that make tests look, feel, and runs like regular unit tests. bUnit makes it easy to render and control a component under test’s life-cycle, pass parameter and inject services into it, trigger event handlers, and verify the rendered markup from the component using a built-in semantic HTML comparer.', ARRAY['egil', 'ventigrande'], '2022-02-24T21:06:05.080468+00:00'),
 (199327580, 2171, 11, 1, 0, 28, 'MindorksOpenSource/android-developer-roadmap', 'Android Developer Roadmap - A complete roadmap to learn Android App Development', ARRAY['amitshekhariitbhu', 'isfaaghyth'], '2022-02-24T21:06:05.080468+00:00'),
-(199079226, 2322, 144, 1, 0, 15, 'rbreaves/kinto', 'Mac-style shortcut keys for Linux & Windows.', ARRAY['rbreaves', 'RedBearAK'], '2022-02-24T21:06:05.080468+00:00'),
 (199344833, 1098, 58, 1, 0, 24, 'angular-eslint/angular-eslint', ':sparkles: Monorepo for all the tooling related to using ESLint with Angular', ARRAY['JamesHenry', 'rafaelss95'], '2022-02-24T21:06:05.080468+00:00'),
 (199474970, 9, 0, 1, 0, 21, 'bdelate/django-flutterwave', 'Django integration for Flutterwave Rave payments and subscriptions', ARRAY['bdelate'], '2022-02-24T21:06:05.080468+00:00'),
 (199486441, 24, 60, 1, 0, 9, 'esmero/archipelago-deployment', 'Archipelago Commons Docker Deployment Repository', ARRAY['DiegoPino', 'alliomeria'], '2022-02-24T21:06:05.080468+00:00'),
