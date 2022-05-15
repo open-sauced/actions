@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T04:51:51.833Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T06:47:53.846Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -277,6 +277,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (6804324, 5819, 90, 1, 0, 22, 'yeoman/generator-angular', 'Yeoman generator for AngularJS', ARRAY['eddiemonge', 'passy'], '2022-02-24T21:06:05.080468+00:00'),
 (6838921, 40183, 577, 1, 0, 2, 'prometheus/prometheus', 'The Prometheus monitoring system and time series database.', ARRAY['fabxc', 'juliusv'], '2022-02-24T21:06:05.080468+00:00'),
 (6887156, 3690, 68, 1, 0, 16, 'Yggdroot/indentLine', 'A vim plugin to display the indention levels with thin vertical lines', ARRAY['Yggdroot', 'stardiviner'], '2022-02-24T21:06:05.080468+00:00'),
+(6899875, 5349, 29, 1, 0, 16, 'opf/openproject', 'OpenProject is the leading open source project management software.', ARRAY['oliverguenther', 'ulferts'], '2022-02-24T21:06:05.080468+00:00'),
 (6991139, 1, 0, 1, 0, 22, 'ajoeofalltrades/hasoffers', 'Ruby gem implementation of the HasOffers API for affiliate advertising.', ARRAY['lukeludwig', 'jphenow'], '2022-02-24T21:06:05.080468+00:00'),
 (7034320, 703, 40, 1, 0, 21, 'MisterJames/GenFu', 'GenFu is a library you can use to generate realistic test data. It is composed of several property fillers that can populate commonly named properties through reflection using an internal database of values or randomly created data. You can override any of the fillers, give GenFu hints on how to fill them.', ARRAY['MisterJames', 'stimms'], '2022-02-24T21:06:05.080468+00:00'),
 (7122594, 13248, 200, 2, 0, 16, 'directus/directus', 'Open-Source Data Platform 🐰  — Directus wraps any SQL database with a real-time GraphQL+REST API and an intuitive app for non-technical users.', ARRAY['rijkvanzanten', 'benhaynes'], '2022-02-24T21:06:05.080468+00:00'),
@@ -327,7 +328,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (9603429, 88, 6, 1, 0, 4, 'sagefy/sagefy', ':telescope: Learn anything, adapted for you. Free.', ARRAY['heiskr', 'waffle-iron'], '2022-02-24T21:06:05.080468+00:00'),
 (9625333, 4488, 52, 1, 0, 18, 'mhinz/vim-startify', ':link: The fancy start screen for Vim.', ARRAY['mhinz', 'blueyed'], '2022-02-24T21:06:05.080468+00:00'),
 (9754983, 28661, 51, 2, 0, 7.5, 'eugenp/tutorials', 'Just Announced - ''Learn Spring Security OAuth'': ', ARRAY['lor6', 'johnA1331'], '2022-02-24T21:06:05.080468+00:00'),
-(6899875, 5349, 29, 1, 0, 16, 'opf/openproject', 'OpenProject is the leading open source project management software.', ARRAY['oliverguenther', 'ulferts'], '2022-02-24T21:06:05.080468+00:00'),
 (9820094, 291, 25, 1, 0, 14, 'ProLoser/Github-Omnibox', 'Github Commands from Google Chrome Omnibox (address bar)', ARRAY['rodyhaddad', 'ProLoser'], '2022-02-24T21:06:05.080468+00:00'),
 (9843651, 94, 9, 1, 0, 10, 'mozilla/mozilla.github.io', 'The Mozilla Project uses GitHub!', ARRAY['potch', 'fwenzel'], '2022-02-24T21:06:05.080468+00:00'),
 (9852918, 39282, 57, 2, 0, 7, 'TryGhost/Ghost', 'Turn your audience into a business. Publishing, memberships, subscriptions and newsletters.', ARRAY['ErisDS', 'renovate-bot'], '2022-02-24T21:06:05.080468+00:00'),
@@ -938,10 +938,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (56791509, 745, 3, 1, 0, 26, 'andrzejchm/RESTMock', 'HTTP Server for Android Instrumentation tests', ARRAY['andrzejchm', 'jwir3'], '2022-02-24T21:06:05.080468+00:00'),
 (56894212, 4635, 33, 1, 0, 4, 'jvm-profiling-tools/async-profiler', 'Sampling CPU and HEAP profiler for Java featuring AsyncGetCallTrace + perf_events', ARRAY['apangin', 'incubos'], '2022-02-24T21:06:05.080468+00:00'),
 (57182064, 7457, 101, 1, 0, 1, 'vercel/serve', 'Static file serving and directory listing', ARRAY['leo', 'rauchg'], '2022-02-24T21:06:05.080468+00:00'),
-(57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
 (57224308, 5953, 92, 1, 0, 26, 'ActivityWatch/activitywatch', 'The best free and open-source automated time tracker. Cross-platform, extensible, privacy-focused.', ARRAY['ErikBjare', 'johan-bjareholt'], '2022-02-24T21:06:05.080468+00:00'),
-(57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
+(57239556, 1432, 36, 1, 0, 10, 'ngx-rocket/generator-ngx-rocket', ':rocket: Extensible Angular 13+ enterprise-grade project generator', ARRAY['sinedied', 'captaincaius'], '2022-02-24T21:06:05.080468+00:00'),
 (57252451, 3485, 38, 1, 0, 2, 'gradle/kotlin-dsl-samples', 'Samples builds using the Gradle Kotlin DSL', ARRAY['bamboo', 'eskatos'], '2022-02-24T21:06:05.080468+00:00'),
+(57461213, 3503, 2029, 1, 0, 6, 'runelite/runelite', 'Open source Old School RuneScape client', ARRAY['Adam-', 'deathbeam'], '2022-02-24T21:06:05.080468+00:00'),
 (57914774, 1665, 69, 1, 0, 18, 'anandanand84/technicalindicators', 'A javascript technical indicators written in typescript with pattern recognition right in the browser', ARRAY['anandanand84', 'marcus-n3rd'], '2022-02-24T21:06:05.080468+00:00'),
 (58138623, 72, 2, 1, 0, 9, 'joshp23/ttrss-to-wallabag-v2', 'A Tiny Tiny RSS plugin to post to a Wallabg v2 instance', ARRAY['joshp23', 'tomershvueli'], '2022-02-24T21:06:05.080468+00:00'),
 (58152535, 772, 34, 1, 0, 14, 'standardese/standardese', 'A (work-in-progress) nextgen Doxygen for C++', ARRAY['foonathan', 'saraedum'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1611,8 +1611,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (137668545, 2774, 55, 1, 0, 16, 'galio-org/galio', 'Galio is a beautifully designed, Free and Open Source React Native Framework', ARRAY['palingheorghe', 'hetmann'], '2022-02-24T21:06:05.080468+00:00'),
 (137678747, 1832, 39, 1, 0, 1, 'eldadru/ksniff', 'Kubectl plugin to ease sniffing on kubernetes pods using tcpdump and wireshark', ARRAY['eldadru', 'bostrt'], '2022-02-24T21:06:05.080468+00:00'),
 (137724480, 24895, 1702, 1, 0, 19, 'hasura/graphql-engine', 'Blazing fast, instant realtime GraphQL APIs on your DB with fine grained access control, also trigger webhooks on database events.', ARRAY['rikinsk', 'rakeshkky'], '2022-02-24T21:06:05.080468+00:00'),
-(138280152, 95, 4, 1, 0, 19, 'GuoQichen/vue-pswipe', '🚀 Easy to use, no need to set size, support rotation, photoswipe based vue swipe plugin', ARRAY['GuoQichen', 'chawyehsu'], '2022-02-24T21:06:05.080468+00:00'),
 (138085677, 1, 24, 1, 0, 8, 'CodePartnersMD/MD201-01', null, ARRAY['zdiehlio'], '2022-02-24T21:06:05.080468+00:00'),
+(138280152, 95, 4, 1, 0, 19, 'GuoQichen/vue-pswipe', '🚀 Easy to use, no need to set size, support rotation, photoswipe based vue swipe plugin', ARRAY['GuoQichen', 'chawyehsu'], '2022-02-24T21:06:05.080468+00:00'),
 (138313497, 554, 205, 1, 0, 9, 'ChainSafe/lodestar', '🌟 Ethereum 2.0: TypeScript Implementation of the Beacon Chain ', ARRAY['wemeetagain', 'mpetrunic'], '2022-02-24T21:06:05.080468+00:00'),
 (138393139, 58967, 52, 1, 0, 0, 'trimstray/the-book-of-secret-knowledge', 'A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.', ARRAY['trimstray', 'lbonanomi'], '2022-02-24T21:06:05.080468+00:00'),
 (138463948, 325, 0, 1, 0, 5, 'mochow13/competitive-programming-library', 'Templates, algorithms and data structures implemented and collected for programming contests. Check README.md for an overview.', ARRAY['mochow13'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2929,8 +2929,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (320198472, 1, 0, 1, 0, 2, 'brokorus/terraform-azure-keyvault-tfvar-generator', null, ARRAY['brokorus'], '2022-02-24T21:06:05.080468+00:00'),
 (320237098, 2, 0, 1, 0, 0, 'brysonpdavis/grainstems', 'frontend for grainstems: a toy granular synthesizer web app', ARRAY['brysonpdavis'], '2022-02-24T21:06:05.080468+00:00'),
 (320365682, 2, 0, 1, 0, 20, 'thembari/API', null, ARRAY['vinosamari'], '2022-02-24T21:06:05.080468+00:00'),
-(320489195, 5, 0, 1, 0, 18, 'chait04/reactjs-interview-questions', 'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!', ARRAY['sudheerj', 'sakhidamaulik'], '2022-02-24T21:06:05.080468+00:00'),
 (320393623, 923, 23, 1, 0, 27, 'kentcdodds/remix-kentcdodds', 'My personal website', ARRAY['kentcdodds', 'smeijer'], '2022-02-24T21:06:05.080468+00:00'),
+(320489195, 5, 0, 1, 0, 18, 'chait04/reactjs-interview-questions', 'List of top 500 ReactJS Interview Questions & Answers....Coding exercise questions are coming soon!!', ARRAY['sudheerj', 'sakhidamaulik'], '2022-02-24T21:06:05.080468+00:00'),
 (320544192, 914, 40, 1, 0, 18, 'supabase/ui', 'Supabase UI Library', ARRAY['MildTomato', 'jonthomp'], '2022-02-24T21:06:05.080468+00:00'),
 (320588096, 183, 4, 1, 0, 0, 'DarkSecDevelopers/LitePhish', 'lite weight phishing tool with graphical panel and 19+ pages', ARRAY['graysuit', 'ImgBotApp'], '2022-02-24T21:06:05.080468+00:00'),
 (320609581, 1, 0, 1, 0, 20, 'HeavyBR/adventofcode', 'My solutions for Advent Of Code 2020, all of made with Go Language', ARRAY['HeavyBR'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3251,8 +3251,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (367045564, 549, 9, 1, 0, 25, 'trekhleb/self-parking-car-evolution', '🧬 Training the car to do self-parking using a genetic algorithm', ARRAY['trekhleb', 'martincostello'], '2022-02-24T21:06:05.080468+00:00'),
 (367138146, 452, 1, 1, 0, 2, 'samuelkraft/notion-blog-nextjs', 'Next.js example blog powered by Notion Public API', ARRAY['samuelkraft', 'Dipeshwagle'], '2022-02-24T21:06:05.080468+00:00'),
 (367395197, 1, 0, 1, 0, 11, 'Pumpkin-from-Scrimba/NapScript', 'The only true cat programming language. Made by a cat for people. This is the way. ', ARRAY['Pumpkin-from-Scrimba'], '2022-02-24T21:06:05.080468+00:00'),
-(367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-24T21:06:05.080468+00:00'),
 (367540620, 3, 0, 1, 0, 9, 'samuelsycamore/van-gogh', null, ARRAY['samuelsycamore'], '2022-02-24T21:06:05.080468+00:00'),
+(367431968, 5, 0, 1, 0, 2, 'zealousAnemone/strapi-css-tricks', 'CSS-Tricks website clone using Strapi & NextJS', ARRAY['zealousAnemone'], '2022-02-24T21:06:05.080468+00:00'),
 (367572934, 8, 2, 1, 0, 28, 'PostmanSpat/node-binance-trader', '💰 Cryptocurrency Trading Strategy & Portfolio Management Development Framework for Binance. 🤖 Follow open NBT trading signals at', ARRAY['dargmuesli', 'PostmanSpat'], '2022-02-24T21:06:05.080468+00:00'),
 (367602396, 62, 2, 1, 0, 2, 'prince776/discode', 'A web app to code collaboratively with voice chat in real time. Discord + coding = Discode', ARRAY['prince776', 'HarshKapadia2'], '2022-02-24T21:06:05.080468+00:00'),
 (367697425, 1, 0, 2, 0, 0, 'iamtheozzy/react-fundamentals', 'Material for my React Fundamentals Workshop', ARRAY['kentcdodds', 'Aprillion'], '2022-02-24T21:06:05.080468+00:00'),
