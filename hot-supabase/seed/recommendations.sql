@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-15T22:44:19.550Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-16T01:03:56.382Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -818,8 +818,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (46504338, 8, 0, 1, 0, 27, 'shantnu/Intro-to-Pandas', null, ARRAY['shantnu'], '2022-02-24T21:06:05.080468+00:00'),
 (46511887, 4343, 39, 1, 0, 13, 'searchkit/searchkit', 'GraphQL API & React UI components for Elasticsearch. The easiest way to build a great search experience', ARRAY['joemcelroy', 'ssetem'], '2022-02-24T21:06:05.080468+00:00'),
 (46624643, 4842, 138, 1, 0, 29, 'zplug/zplug', ':hibiscus: A next-generation plugin manager for zsh', ARRAY['b4b4r07', 'NigoroJr'], '2022-02-24T21:06:05.080468+00:00'),
-(46641250, 3596, 297, 1, 0, 24, 'codeceptjs/CodeceptJS', 'Supercharged End 2 End Testing Framework for NodeJS', ARRAY['DavertMik', 'PeterNgTr'], '2022-02-24T21:06:05.080468+00:00'),
 (46853356, 7, 20, 1, 0, 14, 'razorpay/razorpay-dot-net', 'Razorpay .NET SDK', ARRAY['sunnyagg', 'jitendra-1217'], '2022-02-24T21:06:05.080468+00:00'),
+(46641250, 3596, 297, 1, 0, 24, 'codeceptjs/CodeceptJS', 'Supercharged End 2 End Testing Framework for NodeJS', ARRAY['DavertMik', 'PeterNgTr'], '2022-02-24T21:06:05.080468+00:00'),
 (46958040, 2720, 37, 1, 0, 11, 'tapaswenipathak/Open-Source-Programs', 'A list of open source programs.', ARRAY['tapaswenipathak', 'emetowinner'], '2022-02-24T21:06:05.080468+00:00'),
 (47018239, 44454, 2, 4, 1, 10, 'DopplerHQ/awesome-interview-questions', ':octocat: A curated awesome list of lists of interview questions. Feel free to contribute! :mortar_board: ', ARRAY['MaksimAbramchuk', 'ryan-blunden'], '2022-02-24T21:06:05.080468+00:00'),
 (47099511, 8577, 52, 1, 0, 3, 'jlevy/og-equity-compensation', 'Stock options, RSUs, taxes — read the latest edition: www.holloway.com/ec', ARRAY['jlevy', 'RacheltheEditor'], '2022-02-24T21:06:05.080468+00:00'),
