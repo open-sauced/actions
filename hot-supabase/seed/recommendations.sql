@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-16T06:49:56.416Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-16T08:47:30.815Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1136,8 +1136,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (78369010, 5782, 62, 1, 0, 4, 'webslides/WebSlides', 'Create HTML presentations in seconds —', ARRAY['Antonio-Laguna', 'jlantunez'], '2022-02-24T21:06:05.080468+00:00'),
 (78685286, 1, 0, 1, 0, 24, 'akbarpasha/team6718', 'FRC Team 6718', ARRAY['raychatter', 'Clementef'], '2022-02-24T21:06:05.080468+00:00'),
 (78819190, 3441, 37, 1, 0, 7, 'prettier/prettier-eslint', 'Code :arrow_right: prettier :arrow_right: eslint --fix :arrow_right: Formatted Code :sparkles:', ARRAY['zimme', 'kentcdodds'], '2022-02-24T21:06:05.080468+00:00'),
-(78847475, 473, 36, 1, 0, 8, 'rossmann-engineering/EasyModbusTCP.NET', 'Modbus TCP, Modbus UDP and Modbus RTU client/server library for .NET implementations', ARRAY['rossmann-engineering', 'da66en'], '2022-02-24T21:06:05.080468+00:00'),
 (78880128, 4107, 35, 1, 0, 3, 'ohld/igbot', '🐙 Free scripts, bots and Python API wrapper. Get free followers with our auto like, auto follow and other scripts!', ARRAY['ohld', 'sudoguy'], '2022-02-24T21:06:05.080468+00:00'),
+(78847475, 473, 36, 1, 0, 8, 'rossmann-engineering/EasyModbusTCP.NET', 'Modbus TCP, Modbus UDP and Modbus RTU client/server library for .NET implementations', ARRAY['rossmann-engineering', 'da66en'], '2022-02-24T21:06:05.080468+00:00'),
 (79052338, 270, 2, 1, 0, 5, 'wikiti/pandoc-book-template', 'A simple Pandoc template to build documents and ebooks.', ARRAY['wikiti', 'ilikerobots'], '2022-02-24T21:06:05.080468+00:00'),
 (79065400, 170, 11, 1, 0, 28, 'A11yance/aria-query', 'Programmatic access to the ARIA specification', ARRAY['jessebeach', 'eps1lon'], '2022-02-24T21:06:05.080468+00:00'),
 (79162682, 27240, 390, 1, 0, 1, 'laurent22/joplin', 'Joplin - an open source note taking and to-do application with synchronization capabilities for Windows, macOS, Linux, Android and iOS. Forum: https://discourse.joplinapp.org/', ARRAY['laurent22', 'tessus'], '2022-02-24T21:06:05.080468+00:00'),
