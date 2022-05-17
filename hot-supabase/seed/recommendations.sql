@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T10:45:48.601Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T12:56:44.663Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -970,9 +970,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-24T21:06:05.080468+00:00'),
 (61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-24T21:06:05.080468+00:00'),
 (61319303, 588, 42, 1, 0, 2, 'adrcotfas/Goodtime', ':hourglass_flowing_sand: productivity app for Android', ARRAY['adrcotfas', 'fdw'], '2022-02-24T21:06:05.080468+00:00'),
+(61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-24T21:06:05.080468+00:00'),
 (61426855, 1903, 218, 2, 0, 12.5, 'jainaman224/Algo_Ds_Notes', 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', ARRAY['jainaman224', 'somya-kapoor'], '2022-02-24T21:06:05.080468+00:00'),
 (61583938, 544, 91, 1, 0, 24, 'linkedin/pygradle', 'Using Gradle to build Python projects', ARRAY['zvezdan', 'ethankhall'], '2022-02-24T21:06:05.080468+00:00'),
-(61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-24T21:06:05.080468+00:00'),
 (61593222, 97, 1, 1, 0, 14, 'samuxyz/bookstore', 'The bookstore repositore for my tutorial ''Test a Node RESTful API with Mocha and Chai'' hosted on Scotch.io', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (61668321, 2711, 39, 1, 0, 29, 'MoonHighway/learning-react', 'The code samples for Learning React by Alex Banks and Eve Porcello, published by O''Reilly Media', ARRAY['MoonTahoe', 'eveporcello'], '2022-02-24T21:06:05.080468+00:00'),
 (61893399, 28908, 1, 1, 0, 0, 'brillout/awesome-react-components', 'Curated List of React Components & Libraries.', ARRAY['bluepeter', 'devarchy-bot'], '2022-02-24T21:06:05.080468+00:00'),
