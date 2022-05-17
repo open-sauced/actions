@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T20:45:02.007Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T22:45:05.531Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1812,8 +1812,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (163639063, 3808, 17, 1, 0, 17, 'seanprashad/leetcode-patterns', 'A curated list of leetcode questions grouped by their common patterns', ARRAY['seanprashad', 'hiromik'], '2022-02-24T21:06:05.080468+00:00'),
 (163753499, 154, 5, 1, 0, 17, 'rungwiroon/BlazorGoogleMaps', 'Blazor interop for GoogleMap library', ARRAY['valentasm1', 'valentasm'], '2022-02-24T21:06:05.080468+00:00'),
 (163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-24T21:06:05.080468+00:00'),
-(163883279, 20036, 72, 2, 0, 10.5, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-24T21:06:05.080468+00:00'),
 (164225648, 672, 0, 1, 0, 29, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:06:05.080468+00:00'),
+(163883279, 20036, 72, 2, 0, 10.5, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-24T21:06:05.080468+00:00'),
 (164332663, 624, 0, 1, 0, 11, 'DrWaleedAYousef/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-24T21:06:05.080468+00:00'),
 (164419238, 3787, 6, 1, 0, 22, 'bregman-arie/devops-resources', 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', ARRAY['bregman-arie', 'RishiKumarRay'], '2022-02-24T21:06:05.080468+00:00'),
 (165093478, 91, 9, 1, 0, 2, 'stephane-r/HoloPlay', 'React-Native app using Invidious API for listening Youtube audio source.', ARRAY['stephane-r', 'splyy'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3540,8 +3540,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-24T21:06:05.080468+00:00'),
-(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-24T21:06:05.080468+00:00'),
+(400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:06:05.080468+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-24T21:06:05.080468+00:00'),
 (401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-24T21:06:05.080468+00:00'),
