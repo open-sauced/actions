@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T08:47:02.434Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T10:45:48.601Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -970,9 +970,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (61204818, 9480, 3, 1, 0, 4, 'github/opensource.guide', '📚 Community guides for open source creators', ARRAY['bkeepers', 'mlinksva'], '2022-02-24T21:06:05.080468+00:00'),
 (61276677, 247, 0, 1, 0, 6, 'Eschults/useful_stuff', 'Memo for my beloved students', ARRAY['Eschults', 'cveneziani'], '2022-02-24T21:06:05.080468+00:00'),
 (61319303, 588, 42, 1, 0, 2, 'adrcotfas/Goodtime', ':hourglass_flowing_sand: productivity app for Android', ARRAY['adrcotfas', 'fdw'], '2022-02-24T21:06:05.080468+00:00'),
-(61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-24T21:06:05.080468+00:00'),
 (61426855, 1903, 218, 2, 0, 12.5, 'jainaman224/Algo_Ds_Notes', 'It is a repository that is a collection of algorithms and data structures with implementation in various languages.', ARRAY['jainaman224', 'somya-kapoor'], '2022-02-24T21:06:05.080468+00:00'),
 (61583938, 544, 91, 1, 0, 24, 'linkedin/pygradle', 'Using Gradle to build Python projects', ARRAY['zvezdan', 'ethankhall'], '2022-02-24T21:06:05.080468+00:00'),
+(61412088, 2, 0, 1, 0, 17, 'Camsbury/coderbyte', null, ARRAY['Camsbury'], '2022-02-24T21:06:05.080468+00:00'),
 (61593222, 97, 1, 1, 0, 14, 'samuxyz/bookstore', 'The bookstore repositore for my tutorial ''Test a Node RESTful API with Mocha and Chai'' hosted on Scotch.io', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (61668321, 2711, 39, 1, 0, 29, 'MoonHighway/learning-react', 'The code samples for Learning React by Alex Banks and Eve Porcello, published by O''Reilly Media', ARRAY['MoonTahoe', 'eveporcello'], '2022-02-24T21:06:05.080468+00:00'),
 (61893399, 28908, 1, 1, 0, 0, 'brillout/awesome-react-components', 'Curated List of React Components & Libraries.', ARRAY['bluepeter', 'devarchy-bot'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1871,12 +1871,12 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (172378503, 23891, 19, 1, 0, 9, 'romkatv/powerlevel10k', 'A Zsh theme', ARRAY['romkatv', 'dritter'], '2022-02-24T21:06:05.080468+00:00'),
 (172471552, 3694, 5, 1, 0, 7, 'aliyr/Nodejs-Developer-Roadmap', 'A Developer Roadmap to becoming a Node.js developer in 2019', ARRAY['aliyr', 'AGrant24'], '2022-02-24T21:06:05.080468+00:00'),
 (172473381, 33, 0, 1, 0, 29, 'JamesUgbanu/react-native-woocommerce-api', null, ARRAY['JamesUgbanu', 'anwar-gul'], '2022-02-24T21:06:05.080468+00:00'),
+(172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
+(172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (172521926, 16173, 17, 2, 0, 4.5, 'pmndrs/react-three-fiber', '🇨🇭 A React renderer for Three.js', ARRAY['drcmda', 'joshuaellis'], '2022-02-24T21:06:05.080468+00:00'),
 (172550478, 40, 8, 1, 0, 13, 'SlalomBuild/blackslope.net', '.Net Core reference architecture', ARRAY['andykongchi', 'pmotameni'], '2022-02-24T21:06:05.080468+00:00'),
 (172562475, 46668, 282, 5, 0, 9.8, 'florinpop17/app-ideas', 'A Collection of application ideas which can be used to improve your coding skills.', ARRAY['florinpop17', 'jdmedlock'], '2022-02-24T21:06:05.080468+00:00'),
 (172773684, 2300, 1, 2, 0, 25.5, 'wesbos/eslint-config-wesbos', 'No-Sweat™ Eslint and Prettier Setup - with or without VS Code', ARRAY['wesbos', 'Asjas'], '2022-02-24T21:06:05.080468+00:00'),
-(172481928, 8332, 38, 1, 0, 14, 'londonappbrewery/Flutter-Course-Resources', 'Learn to Code While Building Apps - The Complete Flutter Development Bootcamp', ARRAY['TheMuellenator', 'angelabauer'], '2022-02-24T21:06:05.080468+00:00'),
-(172490214, 9, 0, 2, 0, 0, 'rohanbaraskar/UiPath-11', 'UiPath Projects', ARRAY['ishmeet1995'], '2022-02-24T21:06:05.080468+00:00'),
 (172915698, 12, 0, 1, 0, 18, 'BaseMax/WebSinatra', 'The Sample web project using ruby sinatra.', ARRAY['BaseMax'], '2022-02-24T21:06:05.080468+00:00'),
 (177987738, 2507, 96, 1, 0, 1, 'hedgedoc/hedgedoc', 'HedgeDoc - The best platform to write and share markdown.', ARRAY['jackycute', 'davidmehren'], '2022-02-24T21:06:05.080468+00:00'),
 (173286031, 587, 76, 1, 0, 20, 'input-output-hk/cardano-wallet', 'HTTP server & command-line for managing UTxOs and HD wallets in Cardano.', ARRAY['KtorZ', 'jonathanknowles'], '2022-02-24T21:06:05.080468+00:00'),
