@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T12:56:44.663Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T14:43:48.128Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3341,10 +3341,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (379649965, 2, 0, 1, 0, 10, 'defadels/defadels', null, ARRAY['defadels'], '2022-02-24T21:06:05.080468+00:00'),
 (379769983, 1, 0, 1, 0, 27, 'Dzaky-official/MhdraihandzakySaragih', null, ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (379900883, 42, 0, 1, 0, 0, 'Deveshb15/real-twitter-banner', null, ARRAY['Deveshb15', 'jainaayush01'], '2022-02-24T21:06:05.080468+00:00'),
-(380191749, 3168, 1, 1, 0, 20, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-24T21:06:05.080468+00:00'),
 (380298833, 59, 9, 1, 0, 21, 'prisma-labs/bema', '🐎 Delightful benchmarking for Node.js ', ARRAY['jasonkuhrt', 'iheyunfei'], '2022-02-24T21:06:05.080468+00:00'),
 (380302418, 73, 0, 1, 0, 12, 'ayushiee/fb-clone', 'A simple and responsive facebook clone built using Typescript and React.', ARRAY['ayushiee', 'karanpratapsingh'], '2022-02-24T21:06:05.080468+00:00'),
 (380721582, 7, 0, 1, 0, 21, 'devoverid/conf2021', 'Devover Conference 2021', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
+(380191749, 3168, 1, 1, 0, 20, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-24T21:06:05.080468+00:00'),
 (380767610, 71, 4, 1, 0, 23, 'sameersrivastava13/Vaccine-Tracker-App', 'Check Your Nearest Vaccination Center And Slots Availability using pincode and district name.', ARRAY['sameersrivastava13', 'kumarishalini6'], '2022-02-24T21:06:05.080468+00:00'),
 (380874662, 162, 6, 2, 0, 2, 'sdras/fortnite-vscode-theme', null, ARRAY['sdras', 'MichaelCurrin'], '2022-02-24T21:06:05.080468+00:00'),
 (380948393, 1, 0, 1, 0, 26, 'ABHCH/Expense-Track', 'I am develop Expense tracker using Javascript HTml css', ARRAY['ABHCH'], '2022-02-24T21:06:05.080468+00:00'),
