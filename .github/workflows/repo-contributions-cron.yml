@@ -1,0 +1,38 @@
+name: Repo contributions cron
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: supabase-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  populate-the-supabase:
+    name: run get contributions
+    runs-on: ubuntu-latest
+    steps:
+      - name: "☁️ checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "🔧 setup node"
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 16
+
+      - name: "🔧 install npm@latest"
+        run: npm i -g npm@latest
+
+      - name: "📦 install dependencies"
+        uses: bahmutov/npm-install@v1
+
+      - name: "🔍 populate supabase"
+        run: npm run contrib
+        env:
+          OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
+          OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          LIMIT_CONTRIBUTOR_DAYS: 5
+          LIMIT_CONTRIBUTOR_REPOS: 5

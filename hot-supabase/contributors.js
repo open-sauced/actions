@@ -15,69 +15,88 @@ console.log(`Started execution at ${lastExecuted}`)
 async function run() {
   const testDate = new Date(lastExecuted.getTime() - (limitDays * 24 * 60 * 60 * 1000))
 
-  const {data: getAvailableRepo, error} = await supabase
+  const {data: getAvailableRepos, error} = await supabase
     .from('repos')
     .select('*')
     .lte('last_fetched_contributors_at', JSON.stringify(testDate))
-    .limit(1)
-    .single()
+    .limit(process.env.LIMIT_CONTRIBUTOR_REPOS)
 
   if (error) {
     console.log(`Unable to fetch repos from supabase`, error)
     return
   }
 
-  const [owner, repo] = getAvailableRepo.full_name.split('/');
-  const {data, errors} = await api.persistedRepoDataFetch({owner, repo})
-
-  if (errors && errors.length > 0) {
-    console.log(`ERROR for ${owner}/${repo}`, errors)
-    return
-  }
-
-  if (
-    data.gitHub.repositoryOwner === null
-    || typeof data.gitHub.repositoryOwner.repository !== "object"
-  ) {
-    console.log(`ERROR for ${owner}/${repo}`, "No owner")
-    return
-  }
-
-  console.log(`Fetched repo ${getAvailableRepo.full_name}, getting contributor graph`,)
-
-  const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository
-
-  const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
-
   const contributions = []
 
-  consoleHeader('Parsing contributions')
-  await p(contributorNames.slice(0, 100))
-    .map(async (contributor) => {
-      const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
-      const {data, errors} = await api.persistedGitHubContributions({query});
-      const prCount = typeof data.gitHub.search.nodes !== "undefined" && data.gitHub.search.nodes.length || 0;
+  await p(getAvailableRepos)
+    .map(async (getAvailableRepo) => {
+      const [owner, repo] = getAvailableRepo.full_name.split('/');
+      const {data, errors} = await api.persistedRepoDataFetch({owner, repo})
 
       if (errors && errors.length > 0) {
-        console.log(`Error executing persistedQuery: ${query}`, errors);
-        return;
+        console.log(`ERROR for ${owner}/${repo}`, errors)
+        return
       }
 
-      const contribution = {
-        repo_id: getAvailableRepo.id,
-        contributor,
-        count: prCount,
-        last_merged_at: data.gitHub.search.nodes[0].mergedAt,
-        url: data.gitHub.search.nodes[0].url,
+      if (
+        data.gitHub.repositoryOwner === null
+        || typeof data.gitHub.repositoryOwner.repository !== "object"
+      ) {
+        console.log(`ERROR for ${owner}/${repo}`, "No owner")
+        return
       }
 
-      if (prCount > 0) {
-        console.log(`Pushing ${prCount} contributions from ${contributor} to ${getAvailableRepo.full_name}`)
-        contributions.push(contribution)
+      console.log(`Fetched repo ${getAvailableRepo.full_name}, getting contributor graph`,)
 
-        return contribution
+      const {contributors_oneGraph} = data.gitHub.repositoryOwner.repository
+
+      const contributorNames = await fetchContributorNames(contributors_oneGraph.nodes)
+
+      await p(contributorNames.slice(0, 100))
+        .map(async (contributor) => {
+          const query = `repo:${owner}/${repo} type:pr is:merged author:${contributor}`;
+          const {data, errors} = await api.persistedGitHubContributions({query});
+          const count = typeof data.gitHub.search.nodes !== "undefined" && data.gitHub.search.nodes.length || 0;
+
+          if (errors && errors.length > 0) {
+            console.log(`Error executing persistedQuery: ${query}`, errors);
+            return;
+          }
+
+          if (count === 0) {
+            console.log(`Contributor ${contributor} doesn't have any public code`,)
+            return;
+          }
+
+          const contribution = {
+            repo_id: getAvailableRepo.id,
+            contributor,
+            count,
+            last_merged_at: data.gitHub.search.nodes[0].mergedAt,
+            url: data.gitHub.search.nodes[0].url,
+          }
+
+          if (count > 0) {
+            console.log(`Pushing ${count} contributions from ${contributor} to ${getAvailableRepo.full_name}`)
+            contributions.push(contribution)
+
+            return contribution
+          }
+        })
+
+      const {error: timestampUpdateError} = await supabase
+        .from('repos')
+        .update({
+          last_fetched_contributors_at: JSON.stringify(lastExecuted),
+        }, {})
+        .eq('id', getAvailableRepo.id)
+
+      if (timestampUpdateError) {
+        console.log(`Unable to update timestamp`, timestampUpdateError)
       }
     })
+
+  consoleHeader('Versioning changes')
 
   const {count, error: bulkInsertError} = await supabase
     .from('contributions')
@@ -88,20 +107,6 @@ async function run() {
 
   if (bulkInsertError) {
     console.log(`Unable to upsert contributions`, bulkInsertError)
-    return
-  }
-
-  consoleHeader('Versioning changes')
-
-  const {error: timestampUpdateError} = await supabase
-    .from('repos')
-    .update({
-      last_fetched_contributors_at: JSON.stringify(lastExecuted),
-    }, {})
-    .eq('id', getAvailableRepo.id)
-
-  if (timestampUpdateError) {
-    console.log(`Unable to update timestamp`, timestampUpdateError)
     return
   }
 
