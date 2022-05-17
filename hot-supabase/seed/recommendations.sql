@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-16T22:44:52.429Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T01:03:26.103Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -596,9 +596,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (27817031, 2823, 18, 1, 0, 8, 'understrap/understrap', 'Underscores + Bootstrap = Understrap, the renowned open-source WordPress starter theme.', ARRAY['holger1411', 'IanDelMar'], '2022-02-24T21:06:05.080468+00:00'),
 (27839676, 5720, 71, 1, 0, 4, 'Spotifyd/spotifyd', 'A spotify daemon', ARRAY['SimonPersson', 'robinvd'], '2022-02-24T21:06:05.080468+00:00'),
 (27840307, 1471, 10, 1, 0, 14, 'watson-developer-cloud/node-sdk', ':comet: Node.js library to access IBM Watson services.', ARRAY['nfriedly', 'germanattanasio'], '2022-02-24T21:06:05.080468+00:00'),
+(28223437, 1216, 3, 1, 0, 1, 'riverrun/comeonin', 'Password hashing specification for the Elixir programming language', ARRAY['riverrun', 'mutablestate'], '2022-02-24T21:06:05.080468+00:00'),
 (27971466, 10046, 33, 1, 0, 17, 'browserslist/browserslist', '🦔 Share target browsers between different front-end tools, like Autoprefixer, Stylelint and babel-preset-env', ARRAY['ai', 'AleshaOleg'], '2022-02-24T21:06:05.080468+00:00'),
 (28160576, 235, 10, 2, 0, 9.5, 'Asana/python-asana', 'Official Python client library for the Asana API v1', ARRAY['rossgrambo-zz', 'tlrobinson'], '2022-02-24T21:06:05.080468+00:00'),
-(28223437, 1216, 3, 1, 0, 1, 'riverrun/comeonin', 'Password hashing specification for the Elixir programming language', ARRAY['riverrun', 'mutablestate'], '2022-02-24T21:06:05.080468+00:00'),
 (28320207, 8899, 78, 1, 0, 19, 'majodev/google-webfonts-helper', 'A Hassle-Free Way to Self-Host Google Fonts. Get eot, ttf, svg, woff and woff2 files + CSS snippets', ARRAY['majodev', 'maiadeutsch'], '2022-02-24T21:06:05.080468+00:00'),
 (28421899, 75, 2, 1, 0, 1, 'ratracegrad/coderbyte-Beginner', 'The Beginner Challenges at Coderbyte.com', ARRAY['ratracegrad'], '2022-02-24T21:06:05.080468+00:00'),
 (28548699, 6193, 2, 1, 0, 3, 'cassidoo/getting-a-gig', 'Guide for getting a gig as a tech student.', ARRAY['cassidoo', 'dsouzarc'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1720,8 +1720,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (149792249, 39, 0, 1, 0, 27, 'olist/work-at-olist-data', 'Apply for a job at Olist''s Data Team: http://bit.ly/olist-bsa', ARRAY['andresionek91', 'nosbielcs'], '2022-02-24T21:06:05.080468+00:00'),
 (149827668, 52, 10, 1, 0, 14, 'james-wallis/wallis.dev', 'My personal website', ARRAY['james-wallis'], '2022-02-24T21:06:05.080468+00:00'),
 (150042589, 17936, 54, 1, 0, 3, 'nostalgic-css/NES.css', 'NES-style CSS Framework | ファミコン風CSSフレームワーク', ARRAY['BcRikko', 'guastallaigor'], '2022-02-24T21:06:05.080468+00:00'),
-(150498735, 173, 8, 1, 0, 5, 'mauricioszabo/atom-chlorine', 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', ARRAY['mauricioszabo', 'seancorfield'], '2022-02-24T21:06:05.080468+00:00'),
 (151325516, 74, 237, 1, 0, 18, 'gitcoinco/kudosbadges', 'Kudos badges and creative assets for Gitcoin', ARRAY['owocki', 'MladenPetronijevic'], '2022-02-24T21:06:05.080468+00:00'),
+(150498735, 173, 8, 1, 0, 5, 'mauricioszabo/atom-chlorine', 'An Atom plugin to integrate with Socket-REPL over Clojure, ClojureScript, ClojureCLR, Joker, Babashka, Clojerl, Lumo and Plank', ARRAY['mauricioszabo', 'seancorfield'], '2022-02-24T21:06:05.080468+00:00'),
 (151391977, 55, 6, 1, 0, 11, 'Badmuts/aula', '🏫 A microservice oriented webservice exploring the CNCF landscape', ARRAY['Badmuts'], '2022-02-24T21:06:05.080468+00:00'),
 (151799924, 375, 4, 1, 0, 9, 'mazipan/hello-open-source', '🖐️ A repository to learn about open source code contributions flow', ARRAY['mazipan', 'drepram'], '2022-02-24T21:06:05.080468+00:00'),
 (151837779, 393, 33, 1, 0, 27, 'akosbalasko/yarle', 'Yarle - The ultimate converter of Evernote notes to Markdown', ARRAY['akosbalasko', 'rodbv'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3086,8 +3086,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (343048668, 5, 0, 1, 0, 4, 'raghavTinker/Smart-Home-Doorbell', 'Smart Home project built for a secure home', ARRAY['raghavTinker', 'rdotjain'], '2022-02-24T21:06:05.080468+00:00'),
 (343079204, 2762, 16, 2, 0, 20, 'tostercx/GTAO_Booster_PoC', null, ARRAY['tostercx', 'Achilles1515'], '2022-02-24T21:06:05.080468+00:00'),
 (343204738, 82, 1, 1, 0, 21, 'geerlingguy/obs-task-list-overlay', 'An HTML and Node.js-based task list overlay for OBS.', ARRAY['geerlingguy', 'glensouza'], '2022-02-24T21:06:05.080468+00:00'),
-(343441919, 1, 0, 1, 0, 2, 'wildanalifr/belajar-javascript', 'Repository ini merupakan hasil belajar javascript dari kursus jonas di udemy', ARRAY['wildanalifr'], '2022-02-24T21:06:05.080468+00:00'),
 (343520006, 1147, 2, 1, 0, 7, 'joehillen/sysz', 'An fzf  terminal UI for systemctl', ARRAY['joehillen', 'NullSense'], '2022-02-24T21:06:05.080468+00:00'),
+(343441919, 1, 0, 1, 0, 2, 'wildanalifr/belajar-javascript', 'Repository ini merupakan hasil belajar javascript dari kursus jonas di udemy', ARRAY['wildanalifr'], '2022-02-24T21:06:05.080468+00:00'),
 (343553753, 524, 4, 1, 0, 28, 'PatrickAlphaC/nft-mix', null, ARRAY['PatrickAlphaC', 'albertoxamin'], '2022-02-24T21:06:05.080468+00:00'),
 (343757632, 1633, 28, 1, 0, 21, 'olmps/memo', 'Memo is an open-source, programming-oriented spaced repetition software (SRS) written in Flutter.', ARRAY['matuella', 'ggirotto'], '2022-02-24T21:06:05.080468+00:00'),
 (343877885, 42, 2, 1, 0, 4, 'daily-demos/party-line', 'multiplatform audio only demos', ARRAY['regexident', 'jessmitch42'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3657,9 +3657,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (15393566, 5075, 21, 1, 2, 29, 'AriaMinaei/theatre', 'Motion design editor for the web', ARRAY['AriaMinaei', 'jmyrland'], '2022-02-24T21:06:05.080468+00:00'),
 (71359796, 573, 29, 4, 17, 0, 'open-sauced/open-sauced', '🍕  This is a project to identify your next open source contribution. ', ARRAY['bdougie', '0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (177736533, 260255, 16833, 1, 0, 2, '996icu/996.ICU', 'Repo for counting stars and contributing. Press F to pay respect to glorious developers.', ARRAY['996icu', 'ChangedenCZD'], '2022-02-24T21:06:05.080468+00:00'),
-(1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
-(241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
-(361044034, 16821, 48, 4, 5, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (3282, 16409, 20, 1, 1, 9, 'preservim/nerdtree', 'A tree explorer plugin for vim.', ARRAY['scrooloose', 'PhilRunninger'], '2022-02-24T21:06:05.080468+00:00'),
 (3402537, 51678, 9, 3, 5, 12, 'h5bp/Front-end-Developer-Interview-Questions', 'A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.', ARRAY['darcyclarke', 'appleboy'], '2022-02-24T21:06:05.080468+00:00'),
 (69193081, 5972, 74, 3, 1, 11, 'freeCodeCamp/how-to-contribute-to-open-source', 'A guide to contributing to open source', ARRAY['erictleung', 'QuincyLarson'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3669,4 +3666,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (304344049, 6089, 398, 4, 0, 12.25, 'sveltejs/kit', 'The fastest way to build Svelte apps', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00'),
 (62367558, 37545, 744, 5, 1, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (11180687, 56014, 717, 3, 2, 18, 'gohugoio/hugo', 'The world’s fastest framework for building websites.', ARRAY['bep', 'spf13'], '2022-02-24T21:06:05.080468+00:00'),
+(1039520, 103987, 4973, 1, 1, 17, 'ytdl-org/youtube-dl', 'Command-line program to download videos from YouTube.com and other video sites', ARRAY['dstftw', 'phihag'], '2022-02-24T21:06:05.080468+00:00'),
+(241805592, 16880, 48, 3, 1, 14, 'rome/tools', 'The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.', ARRAY['sebmck', 'ematipico'], '2022-02-24T21:06:05.080468+00:00'),
+(361044034, 16821, 48, 4, 5, 9.5, 'slidevjs/slidev', 'Presentation Slides for Developers (Beta)', ARRAY['antfu', 'nico-bachner'], '2022-02-24T21:06:05.080468+00:00'),
 (28457823, 337699, 122, 5, 3, 19.2, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-02-24T21:06:05.080468+00:00');
