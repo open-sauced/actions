@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T14:43:48.128Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T16:53:49.588Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2401,8 +2401,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (247399816, 560, 21, 1, 0, 17, 'psycopg/psycopg', 'New generation PostgreSQL database adapter for the Python programming language ', ARRAY['dvarrazzo', 'dlax'], '2022-02-24T21:06:05.080468+00:00'),
 (247512481, 495, 27, 1, 0, 3, 'lfades/static-tweet', null, ARRAY['lfades', 'AryanBeezadhur'], '2022-02-24T21:06:05.080468+00:00'),
 (247553843, 72, 22, 1, 0, 7, 'mattrglobal/jsonld-signatures-bbs', 'A linked data proof suite for BBS+ signatures', ARRAY['tplooker', 'kdenhartog'], '2022-02-24T21:06:05.080468+00:00'),
-(247563208, 4, 9, 1, 0, 7, 'mikejahn/support-your-local-businesses', 'A web application to support supporting your local businesses online', ARRAY['mikejahn', 'MattAdelberger'], '2022-02-24T21:06:05.080468+00:00'),
-(247589748, 13, 0, 1, 0, 5, 'Ursalink-CN/ursalink-decoder', 'Example decoder functions to Ursalink end-devices', ARRAY['Ursalink-CN'], '2022-02-24T21:06:05.080468+00:00'),
 (247607046, 4, 14, 1, 0, 10, 'jeffreybiles/vue-3-demo', null, ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (247734036, 3, 0, 1, 0, 6, 'rodridev77/ecommerce-project', null, ARRAY['patricchubaca', 'markusbue'], '2022-02-24T21:06:05.080468+00:00'),
 (247809638, 8, 0, 1, 0, 4, 'Aarif123456/KeystrokeDynamicsSpoofer', 'A keystroke biometric spoofer created to test the strength of the strength of various keystoke dynamic based authentication systems', ARRAY['Aarif123456'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2451,6 +2449,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (255770685, 20, 11, 1, 0, 14, 'rdbeach/wb', 'Online collaborative Whiteboard that is simple, free, easy to use and  to deploy', ARRAY['lovasoa', 'rdbeach'], '2022-02-24T21:06:05.080468+00:00'),
 (255803302, 286, 16, 1, 0, 13, 'abelljs/abell', 'a Static-Site-Generator for JavaScript Developers. Build fast, vanilla websites in the syntax you almost already know. [In alpha] 🌀', ARRAY['saurabhdaware', 'harshilparmar'], '2022-02-24T21:06:05.080468+00:00'),
 (255919240, 758, 2, 1, 0, 7, 'smv1999/CompetitiveProgrammingQuestionBank', 'This repository contains all the popular Competitive Programming and DSA questions with solutions for your Coding Interview Preparation. ', ARRAY['smv1999', 'Saviour1001'], '2022-02-24T21:06:05.080468+00:00'),
+(247563208, 4, 9, 1, 0, 7, 'mikejahn/support-your-local-businesses', 'A web application to support supporting your local businesses online', ARRAY['mikejahn', 'MattAdelberger'], '2022-02-24T21:06:05.080468+00:00'),
+(247589748, 13, 0, 1, 0, 5, 'Ursalink-CN/ursalink-decoder', 'Example decoder functions to Ursalink end-devices', ARRAY['Ursalink-CN'], '2022-02-24T21:06:05.080468+00:00'),
 (255940939, 3169, 63, 1, 0, 2, 'mifi/editly', 'Slick, declarative command line video editing & API', ARRAY['mifi', 'patcon'], '2022-02-24T21:06:05.080468+00:00'),
 (256037426, 253, 69, 1, 0, 4, 'onflow/flow', 'Flow is a fast, secure, and developer-friendly blockchain built to support the next generation of games, apps, and the digital assets that power them 🌊', ARRAY['10thfloor', 'psiemens'], '2022-02-24T21:06:05.080468+00:00'),
 (256039268, 3, 25, 1, 0, 17, 'progresak/lucrat-project', 'Lucrative automatic trading strategy system', ARRAY['progresak'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3341,10 +3341,10 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (379649965, 2, 0, 1, 0, 10, 'defadels/defadels', null, ARRAY['defadels'], '2022-02-24T21:06:05.080468+00:00'),
 (379769983, 1, 0, 1, 0, 27, 'Dzaky-official/MhdraihandzakySaragih', null, ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (379900883, 42, 0, 1, 0, 0, 'Deveshb15/real-twitter-banner', null, ARRAY['Deveshb15', 'jainaayush01'], '2022-02-24T21:06:05.080468+00:00'),
+(380191749, 3168, 1, 1, 0, 20, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-24T21:06:05.080468+00:00'),
 (380298833, 59, 9, 1, 0, 21, 'prisma-labs/bema', '🐎 Delightful benchmarking for Node.js ', ARRAY['jasonkuhrt', 'iheyunfei'], '2022-02-24T21:06:05.080468+00:00'),
 (380302418, 73, 0, 1, 0, 12, 'ayushiee/fb-clone', 'A simple and responsive facebook clone built using Typescript and React.', ARRAY['ayushiee', 'karanpratapsingh'], '2022-02-24T21:06:05.080468+00:00'),
 (380721582, 7, 0, 1, 0, 21, 'devoverid/conf2021', 'Devover Conference 2021', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
-(380191749, 3168, 1, 1, 0, 20, 'dair-ai/ML-YouTube-Courses', 'A repository to index and organize the latest machine learning courses found on YouTube.', ARRAY['omarsar', 'rasbt'], '2022-02-24T21:06:05.080468+00:00'),
 (380767610, 71, 4, 1, 0, 23, 'sameersrivastava13/Vaccine-Tracker-App', 'Check Your Nearest Vaccination Center And Slots Availability using pincode and district name.', ARRAY['sameersrivastava13', 'kumarishalini6'], '2022-02-24T21:06:05.080468+00:00'),
 (380874662, 162, 6, 2, 0, 2, 'sdras/fortnite-vscode-theme', null, ARRAY['sdras', 'MichaelCurrin'], '2022-02-24T21:06:05.080468+00:00'),
 (380948393, 1, 0, 1, 0, 26, 'ABHCH/Expense-Track', 'I am develop Expense tracker using Javascript HTml css', ARRAY['ABHCH'], '2022-02-24T21:06:05.080468+00:00'),
