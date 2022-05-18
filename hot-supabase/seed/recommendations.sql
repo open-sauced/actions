@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T10:45:31.329Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T12:57:49.352Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1811,6 +1811,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (163630911, 20, 2, 1, 0, 7, 'jsvine/visidata-plugins', 'A place for me to share VisiData plugins I''ve written.', ARRAY['jsvine', 'aborruso'], '2022-02-24T21:06:05.080468+00:00'),
 (163639063, 3808, 17, 1, 0, 17, 'seanprashad/leetcode-patterns', 'A curated list of leetcode questions grouped by their common patterns', ARRAY['seanprashad', 'hiromik'], '2022-02-24T21:06:05.080468+00:00'),
 (163753499, 154, 5, 1, 0, 17, 'rungwiroon/BlazorGoogleMaps', 'Blazor interop for GoogleMap library', ARRAY['valentasm1', 'valentasm'], '2022-02-24T21:06:05.080468+00:00'),
+(163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-24T21:06:05.080468+00:00'),
 (163883279, 20036, 72, 2, 0, 10.5, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-24T21:06:05.080468+00:00'),
 (164225648, 672, 0, 1, 0, 29, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:06:05.080468+00:00'),
 (164332663, 624, 0, 1, 0, 11, 'DrWaleedAYousef/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1836,7 +1837,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (167647146, 395, 8, 1, 0, 20, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', 'Build a Quiz App with HTML, CSS, and JavaScript', ARRAY['jamesqquick', 'thedamian'], '2022-02-24T21:06:05.080468+00:00'),
 (167697129, 16, 7, 1, 0, 20, 'rajatjindal/goodfirstissue', 'openfaas function to handle webhooks for goodfirstissue github app', ARRAY['rajatjindal', 'alexellis'], '2022-02-24T21:06:05.080468+00:00'),
 (167717410, 195, 3, 1, 0, 18, 'wiedehopf/graphs1090', 'Graphs for dump1090 (based on dump1090-tools by mutability)', ARRAY['wiedehopf', 'SaturnusDJ'], '2022-02-24T21:06:05.080468+00:00'),
-(163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-24T21:06:05.080468+00:00'),
 (168101431, 2, 0, 1, 0, 13, 'KubqoA/nginx-conf', 'Nginx configuration manager', ARRAY['KubqoA'], '2022-02-24T21:06:05.080468+00:00'),
 (168251225, 8, 1, 1, 0, 10, 'LEARNAcademy/Syllabus', null, ARRAY['sjproctor', 'JzGo'], '2022-02-24T21:06:05.080468+00:00'),
 (168267539, 115, 3, 1, 0, 15, 'andrersp/controleEstoque', 'Controle de Estoque PyQt5', ARRAY['andrersp', 'rhenter'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2044,7 +2044,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (196662111, 2, 0, 1, 0, 9, 'mdb1710/mnmlurl', '🔗 Modern URL shortener with support for custom alias', ARRAY['liyasthomas', 'mdb1710'], '2022-02-24T21:06:05.080468+00:00'),
 (196760810, 7094, 13, 4, 0, 15.25, 'Ebazhanov/linkedin-skill-assessments-quizzes', 'Full reference of LinkedIn answers 2021 for skill assessments, LinkedIn test, questions and answers (aws-lambda, rest-api, javascript, react, git, html, jquery, mongodb, java, Go, python, machine-learning, power-point) linkedin excel test lösungen, linkedin machine learning test', ARRAY['Ebazhanov', 'monkrus'], '2022-02-24T21:06:05.080468+00:00'),
 (196946519, 36, 2, 1, 0, 10, 'JRasmusBm/vim-peculiar', null, ARRAY['JRasmusBm'], '2022-02-24T21:06:05.080468+00:00'),
-(196987768, 255, 12, 1, 0, 6, 'TryGhost/eleventy-starter-ghost', 'A starter template to build websites with Ghost & Eleventy', ARRAY['renovate-bot', 'daviddarnes'], '2022-02-24T21:06:05.080468+00:00'),
 (196993956, 683, 29, 1, 0, 4, 'sourcery-ai/sourcery', 'Refactor Python using AI. ⭐  this repo and Sourcery Starbot will send you a PR', ARRAY['brendanator', 'Hellebore'], '2022-02-24T21:06:05.080468+00:00'),
 (197008093, 49, 11, 1, 0, 0, 'fmartinou/whats-up-docker', 'What''s up Docker ( aka WUD ) gets you notified when a new version of your Docker Container is available.', ARRAY['fmartinou', 'ajgon'], '2022-02-24T21:06:05.080468+00:00'),
 (197018189, 8386, 85, 1, 0, 16, 'wbkd/react-flow', 'Highly customizable library for building interactive node-based UIs, editors, flow charts and diagrams ', ARRAY['moklick', 'chrtze'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2410,6 +2409,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (248032165, 3029, 61, 1, 0, 26, 'spring-projects/spring-authorization-server', 'The Spring Authorization Server project is focused on delivering OAuth 2.1 Authorization Server support to the Spring community.', ARRAY['jgrandja', 'sjohnr'], '2022-02-24T21:06:05.080468+00:00'),
 (248661350, 62, 24, 2, 0, 5.5, 'drewclem/protege', 'Remote jobs for junior developers', ARRAY['drewclem', 'pickleat'], '2022-02-24T21:06:05.080468+00:00'),
 (248725819, 143, 3, 1, 0, 4, 'swade1987/deprek8ion', 'Rego policies to monitor Kubernetes APIs deprecations.', ARRAY['swade1987', 'ckotzbauer'], '2022-02-24T21:06:05.080468+00:00'),
+(196987768, 255, 12, 1, 0, 6, 'TryGhost/eleventy-starter-ghost', 'A starter template to build websites with Ghost & Eleventy', ARRAY['renovate-bot', 'daviddarnes'], '2022-02-24T21:06:05.080468+00:00'),
 (248862268, 159, 13, 1, 0, 6, 'GregorBiswanger/rxjs-fruits', 'A game for learning RxJS 🍎🍌', ARRAY['GregorBiswanger', 'hwanders'], '2022-02-24T21:06:05.080468+00:00'),
 (249064639, 1206, 76, 1, 0, 14, 'znck/vue-developer-experience', 'A collection of tools for vue ecosystem.', ARRAY['znck', 'cawa-93'], '2022-02-24T21:06:05.080468+00:00'),
 (249234386, 1376, 334, 1, 0, 27, 'steveseguin/vdo.ninja', 'VDO.Ninja is a powerful tool that lets you bring remote video feeds into OBS or other studio software via WebRTC.', ARRAY['steveseguin', 'jcalado'], '2022-02-24T21:06:05.080468+00:00'),
@@ -2481,8 +2481,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (258352165, 120, 5, 1, 0, 4, 'whoisryosuke/next-mdx-deck', 'Presentation decks using MDX, React, and Next.JS', ARRAY['whoisryosuke'], '2022-02-24T21:06:05.080468+00:00'),
 (258465213, 688, 66, 1, 0, 14, 'philips-labs/terraform-aws-github-runner', 'Terraform module for scalable GitHub action runners on AWS', ARRAY['npalm', 'gertjanmaas'], '2022-02-24T21:06:05.080468+00:00'),
 (258513101, 26, 9, 1, 0, 3, 'omariosouto/spotcast', ':sound: A Spotify + Pocket Casts merge, feito com React Native', ARRAY['omariosouto'], '2022-02-24T21:06:05.080468+00:00'),
-(258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-24T21:06:05.080468+00:00'),
 (258812961, 507, 11, 1, 0, 29, 'cyrildiagne/ar-facedoodle', 'Doodle AR masks right from the browser with tensorflow.js', ARRAY['cyrildiagne'], '2022-02-24T21:06:05.080468+00:00'),
+(258616743, 1, 0, 1, 0, 16, 'ryanbonial/car-gallery', null, ARRAY['ryanbonial'], '2022-02-24T21:06:05.080468+00:00'),
 (258862770, 8, 0, 1, 0, 1, 'kuasha/jvm', 'Home made java virtual machine', ARRAY['kuasha'], '2022-02-24T21:06:05.080468+00:00'),
 (258922512, 585, 22, 1, 0, 2, 'ShizukuIchi/pdf-editor', 'Offline PDF editor. Add images, signatures, text to PDF in your browser. 🚀', ARRAY['ShizukuIchi', 'realdennis'], '2022-02-24T21:06:05.080468+00:00'),
 (258994492, 9, 0, 1, 0, 1, 'HarshCasper/Data-Structures', 'An NPM Package built for Developers to get a High-Level API Access to various Data Structures 👨‍💻🗄️', ARRAY['HarshCasper'], '2022-02-24T21:06:05.080468+00:00'),
