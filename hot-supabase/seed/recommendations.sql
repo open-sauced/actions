@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T14:45:07.284Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T16:53:52.820Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3285,8 +3285,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (371738496, 2, 0, 1, 0, 19, 'Borrus-sudo/FileQuery', 'A command line utility to help you manage files seamlessly!', ARRAY['Borrus-sudo'], '2022-02-24T21:06:05.080468+00:00'),
 (371872698, 36, 1, 1, 0, 14, 'huibizhang/vitawind', 'Install and Setting Tailwindcss automatically for Vite', ARRAY['huibizhang', 'alesvaupotic'], '2022-02-24T21:06:05.080468+00:00'),
 (371973401, 5, 0, 1, 0, 1, 'zylkowski/SSSF', 'SSSF stands for Super Simple Simulation Framework.', ARRAY['zylkowski'], '2022-02-24T21:06:05.080468+00:00'),
-(372068780, 20, 0, 1, 0, 8, 'ibhagwan/pancake-swap-interface-v1', ':pancakes: Pancake trading interface V1', ARRAY['moodysalem', 'NoahZinsmeister'], '2022-02-24T21:06:05.080468+00:00'),
 (372046384, 1380, 0, 1, 0, 11, 'aidenybai/million', '🦁 <1kb compiler-augmented virtual DOM. It''s fast!', ARRAY['aidenybai', 'willdoescode'], '2022-02-24T21:06:05.080468+00:00'),
+(372068780, 20, 0, 1, 0, 8, 'ibhagwan/pancake-swap-interface-v1', ':pancakes: Pancake trading interface V1', ARRAY['moodysalem', 'NoahZinsmeister'], '2022-02-24T21:06:05.080468+00:00'),
 (372098732, 47, 0, 1, 0, 14, 'nartc/ngrx-slice', 'createSlice for NgRX', ARRAY['nartc'], '2022-02-24T21:06:05.080468+00:00'),
 (372240402, 7954, 7, 1, 0, 16, 'alan2207/bulletproof-react', '🛡️ ⚛️ A simple, scalable, and powerful architecture for building production ready React applications. ', ARRAY['alan2207', 'ryota-murakami'], '2022-02-24T21:06:05.080468+00:00'),
 (372263341, 18, 19, 1, 0, 17, 'ChaelCodes/ConfBuddies', 'An app to help you find and meet up with your buddies at conferences.', ARRAY['ChaelCodes', 'yagosansz'], '2022-02-24T21:06:05.080468+00:00'),
