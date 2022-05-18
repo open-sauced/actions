@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-17T22:45:05.531Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T01:04:05.444Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -588,8 +588,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (26743136, 1149, 1, 1, 0, 22, 'sumodirjo/engineering-blogs', 'A curated list of engineering blogs of startup and enterprise companies', ARRAY['sumodirjo', 'askhubchandani'], '2022-02-24T21:06:05.080468+00:00'),
 (26850443, 6766, 1254, 1, 0, 28, 'rust-lang/rust-clippy', 'A bunch of lints to catch common mistakes and improve your Rust code', ARRAY['bors', 'oli-obk'], '2022-02-24T21:06:05.080468+00:00'),
 (26971815, 6920, 43, 1, 0, 10, 'schachmat/wego', 'weather app for the terminal', ARRAY['schachmat', 'mattn'], '2022-02-24T21:06:05.080468+00:00'),
-(27193779, 83892, 1627, 3, 0, 5.666666666666667, 'nodejs/node', 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', ARRAY['ry', 'Trott'], '2022-02-24T21:06:05.080468+00:00'),
 (27222050, 3889, 29, 1, 0, 15, 'vicky002/AlgoWiki', 'Repository which contains links and resources on different topics of Computer Science.', ARRAY['vicky002', 'Byte7'], '2022-02-24T21:06:05.080468+00:00'),
+(27193779, 83892, 1627, 3, 0, 5.666666666666667, 'nodejs/node', 'Node.js JavaScript runtime :sparkles::turtle::rocket::sparkles:', ARRAY['ry', 'Trott'], '2022-02-24T21:06:05.080468+00:00'),
 (27291507, 12655, 117, 1, 0, 8, 'asdf-vm/asdf', 'Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more', ARRAY['Stratus3D', 'HashNuke'], '2022-02-24T21:06:05.080468+00:00'),
 (27292141, 3347, 145, 1, 0, 21, 'securingsincity/react-ace', 'React Ace Component', ARRAY['securingsincity', 'chentsulin'], '2022-02-24T21:06:05.080468+00:00'),
 (27548713, 1745, 29, 1, 0, 16, 'jenssegers/imagehash', '🌄 Perceptual image hashing for PHP', ARRAY['jenssegers', 'artyuum'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1812,8 +1812,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (163639063, 3808, 17, 1, 0, 17, 'seanprashad/leetcode-patterns', 'A curated list of leetcode questions grouped by their common patterns', ARRAY['seanprashad', 'hiromik'], '2022-02-24T21:06:05.080468+00:00'),
 (163753499, 154, 5, 1, 0, 17, 'rungwiroon/BlazorGoogleMaps', 'Blazor interop for GoogleMap library', ARRAY['valentasm1', 'valentasm'], '2022-02-24T21:06:05.080468+00:00'),
 (163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-24T21:06:05.080468+00:00'),
-(164225648, 672, 0, 1, 0, 29, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:06:05.080468+00:00'),
 (163883279, 20036, 72, 2, 0, 10.5, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-24T21:06:05.080468+00:00'),
+(164225648, 672, 0, 1, 0, 29, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:06:05.080468+00:00'),
 (164332663, 624, 0, 1, 0, 11, 'DrWaleedAYousef/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-24T21:06:05.080468+00:00'),
 (164419238, 3787, 6, 1, 0, 22, 'bregman-arie/devops-resources', 'DevOps resources - Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, Terraform, OpenStack, SQL, NoSQL, Azure, GCP', ARRAY['bregman-arie', 'RishiKumarRay'], '2022-02-24T21:06:05.080468+00:00'),
 (165093478, 91, 9, 1, 0, 2, 'stephane-r/HoloPlay', 'React-Native app using Invidious API for listening Youtube audio source.', ARRAY['stephane-r', 'splyy'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3540,8 +3540,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (400632376, 3, 6, 1, 0, 26, 'open-sauced/check-engines', 'Never break your dependency tree with npm-install-checks running on npx', ARRAY['0-vortex'], '2022-02-24T21:06:05.080468+00:00'),
 (400647518, 3, 0, 1, 0, 20, 'open-jumpco/kfsm-mpp-compose-traffic', 'KFSM MPP Compose Traffic Intersection', ARRAY[''], '2022-02-24T21:06:05.080468+00:00'),
 (400669165, 1, 0, 2, 0, 0, 'Laribene/MachineLearning', 'Este repositório é destinado aos meus estudos em Inteligência Artificial (Machine Learning and Deep Learning)', ARRAY['Laribene'], '2022-02-24T21:06:05.080468+00:00'),
-(400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-24T21:06:05.080468+00:00'),
 (400865703, 98, 0, 1, 0, 13, 'bilalbentoumi/win11-vue', 'Windows 11 Simulator built with Vue.js', ARRAY['bilalbentoumi'], '2022-02-24T21:06:05.080468+00:00'),
+(400887675, 888, 85, 1, 0, 1, 'vinitshahdeo/Hacktoberfest2021', 'A community-led mentorship initiative to help beginners kickstarting their open-source journey by completing Hacktoberfest''21 challenge | Curated list of beginner-friendly issues for Hacktoberfest 2021 | Raise PR to add your issues', ARRAY['vinitshahdeo', 'thisisamank'], '2022-02-24T21:06:05.080468+00:00'),
 (400898185, 1, 0, 2, 0, 0, 'NsdHSO/storybook', '📓 The UI component explorer. Develop, document, & test React, Vue, Angular, Web Components, Ember, Svelte & more!', ARRAY['shilman', 'ndelangen'], '2022-02-24T21:06:05.080468+00:00'),
 (401025196, 11, 5, 1, 0, 3, 'avinash201199/To-Do-List', 'To-Do-List  javascript project', ARRAY['avinash201199', 'manthanabc'], '2022-02-24T21:06:05.080468+00:00'),
 (401173533, 51, 0, 1, 0, 1, 'ginoleeswan/hero', 'A superhero encyclopaedia made in React Native. Pulls from the SuperHeroAPI & ComicVine API', ARRAY['ginoleeswan'], '2022-02-24T21:06:05.080468+00:00'),
