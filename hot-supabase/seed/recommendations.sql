@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T08:46:49.712Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T10:45:31.329Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1811,7 +1811,6 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (163630911, 20, 2, 1, 0, 7, 'jsvine/visidata-plugins', 'A place for me to share VisiData plugins I''ve written.', ARRAY['jsvine', 'aborruso'], '2022-02-24T21:06:05.080468+00:00'),
 (163639063, 3808, 17, 1, 0, 17, 'seanprashad/leetcode-patterns', 'A curated list of leetcode questions grouped by their common patterns', ARRAY['seanprashad', 'hiromik'], '2022-02-24T21:06:05.080468+00:00'),
 (163753499, 154, 5, 1, 0, 17, 'rungwiroon/BlazorGoogleMaps', 'Blazor interop for GoogleMap library', ARRAY['valentasm1', 'valentasm'], '2022-02-24T21:06:05.080468+00:00'),
-(163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-24T21:06:05.080468+00:00'),
 (163883279, 20036, 72, 2, 0, 10.5, 'nektos/act', 'Run your GitHub Actions locally 🚀', ARRAY['cplee', 'catthehacker'], '2022-02-24T21:06:05.080468+00:00'),
 (164225648, 672, 0, 1, 0, 29, 'David-VTUK/CKA-StudyGuide', 'Study guide for the CKA exam', ARRAY['David-VTUK', 'chipzoller'], '2022-02-24T21:06:05.080468+00:00'),
 (164332663, 624, 0, 1, 0, 11, 'DrWaleedAYousef/Teaching', 'Teaching Materials for Dr. Waleed A. Yousef', ARRAY['DrWaleedAYousef'], '2022-02-24T21:06:05.080468+00:00'),
@@ -1837,6 +1836,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (167647146, 395, 8, 1, 0, 20, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', 'Build a Quiz App with HTML, CSS, and JavaScript', ARRAY['jamesqquick', 'thedamian'], '2022-02-24T21:06:05.080468+00:00'),
 (167697129, 16, 7, 1, 0, 20, 'rajatjindal/goodfirstissue', 'openfaas function to handle webhooks for goodfirstissue github app', ARRAY['rajatjindal', 'alexellis'], '2022-02-24T21:06:05.080468+00:00'),
 (167717410, 195, 3, 1, 0, 18, 'wiedehopf/graphs1090', 'Graphs for dump1090 (based on dump1090-tools by mutability)', ARRAY['wiedehopf', 'SaturnusDJ'], '2022-02-24T21:06:05.080468+00:00'),
+(163827812, 26, 4, 1, 0, 8, 'freeletics/array_enum', 'String to integer mapping for PostgreSQL array columns', ARRAY['morgoth', 'wesleyeewong'], '2022-02-24T21:06:05.080468+00:00'),
 (168101431, 2, 0, 1, 0, 13, 'KubqoA/nginx-conf', 'Nginx configuration manager', ARRAY['KubqoA'], '2022-02-24T21:06:05.080468+00:00'),
 (168251225, 8, 1, 1, 0, 10, 'LEARNAcademy/Syllabus', null, ARRAY['sjproctor', 'JzGo'], '2022-02-24T21:06:05.080468+00:00'),
 (168267539, 115, 3, 1, 0, 15, 'andrersp/controleEstoque', 'Controle de Estoque PyQt5', ARRAY['andrersp', 'rhenter'], '2022-02-24T21:06:05.080468+00:00'),

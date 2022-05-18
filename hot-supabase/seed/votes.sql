@@ -1,9 +1,10 @@
 --
--- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T08:46:49.895Z
+-- Data for Name: votes; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T10:45:30.561Z
 -- COPY votes(id, github_user_id, repo_name, code, created_at) FROM 'votes.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
+(4, 5713670, 'kamranahmedse/developer-roadmap', '5713670-kamranahmedse/developer-roadmap', '2022-01-13T06:47:12.647373+00:00'),
 (98, 20134767, 'nuxt/nuxt.js', '20134767-nuxt/nuxt.js', '2022-01-25T21:29:10.802486+00:00'),
 (100, 5713670, 'flutter/flutter', '5713670-flutter/flutter', '2022-01-25T23:48:23.190923+00:00'),
 (101, 5713670, 'AriaMinaei/theatre', '5713670-AriaMinaei/theatre', '2022-01-26T22:47:52.020398+00:00'),
@@ -15,7 +16,6 @@ INSERT INTO votes(id, github_user_id, repo_name, code, created_at) VALUES
 (106, 237133, 'forem/forem', '237133-forem/forem', '2022-02-04T00:58:10.457586+00:00'),
 (107, 7221308, 'open-sauced/hot', '7221308-open-sauced/hot', '2022-02-04T15:07:36.221438+00:00'),
 (108, 7221308, 'redwoodjs/redwood', '7221308-redwoodjs/redwood', '2022-02-04T15:08:55.728481+00:00'),
-(4, 5713670, 'kamranahmedse/developer-roadmap', '5713670-kamranahmedse/developer-roadmap', '2022-01-13T06:47:12.647373+00:00'),
 (19, 5713670, 'sveltejs/kit', '5713670-sveltejs/kit', '2022-01-13T07:10:03.331997+00:00'),
 (20, 5713670, 'vitejs/vite', '5713670-vitejs/vite', '2022-01-13T07:10:27.974549+00:00'),
 (111, 5713670, 'go-gorm/gorm', '5713670-go-gorm/gorm', '2022-02-09T22:23:32.517646+00:00'),
