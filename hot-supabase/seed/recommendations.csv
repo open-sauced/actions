@@ -549,7 +549,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 22895156,1811,1,1,0,2,StartBootstrap/startbootstrap-agency,A one page HTML theme for agencies created by Start Bootstrap,"{davidtmiller,initplatform}",2022-02-24T21:06:05.080468+00:00
 23024191,625,71,1,0,7,neu-rah/ArduinoMenu,Arduino generic menu/interactivity system,"{neu-rah,TamojitSaha}",2022-02-24T21:06:05.080468+00:00
 23083156,73874,909,1,0,26,mui-org/material-ui,"MUI (formerly Material-UI) is the React UI library you always wanted. Follow your own design system, or start with Material Design.","{oliviertassinari,dmtrKovalenko}",2022-02-24T21:06:05.080468+00:00
-23096959,93649,7473,4,2,14,golang/go,The Go programming language,"{rsc,griesemer}",2022-02-24T21:06:05.080468+00:00
 23120157,1661,293,1,0,28,overtake/telegram,Source code of deprecated Telegram for macos version,"{overtake,yangshun}",2022-02-24T21:06:05.080468+00:00
 23123294,5162,0,1,0,9,angrave/SystemProgramming,Angrave's Crowd-Sourced System Programming Book used at UIUC,{angrave},2022-02-24T21:06:05.080468+00:00
 23202799,6641,766,1,0,11,microsoft/cpprestsdk,The C++ REST SDK is a Microsoft project for cloud-based client-server communication in native code using a modern asynchronous C++ API design. This project aims to help C++ developers connect to and interact with services.,"{stgates,ras0219-msft}",2022-02-24T21:06:05.080468+00:00
@@ -874,6 +873,7 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 51870853,2158,277,1,0,8,SimpleMobileTools/Simple-Gallery,Browse your memories without any interruptions with this photo and video gallery,"{tibbi,solokot}",2022-02-24T21:06:05.080468+00:00
 51980455,36519,314,2,0,11,alacritty/alacritty,"A cross-platform, OpenGL terminal emulator.","{chrisduerr,jwilm}",2022-02-24T21:06:05.080468+00:00
 52034309,14441,93,1,0,25,uber-go/zap,"Blazing fast, structured, leveled logging in Go.","{akshayjshah,abhinav}",2022-02-24T21:06:05.080468+00:00
+23096959,93649,7473,4,4,14,golang/go,The Go programming language,"{rsc,griesemer}",2022-02-24T21:06:05.080468+00:00
 52056522,202,14,1,0,5,LGoodDatePicker/LGoodDatePicker,"Java Swing Date Picker. Easy to use, good looking, nice features, and localized. Uses the JSR-310 standard. ","{BlakeTNC,WiseEagleOwl}",2022-02-24T21:06:05.080468+00:00
 52555254,2127,26,1,0,8,pressly/goose,A database migration tool. Supports SQL migrations and Go functions. ,"{VojtechVitek,liamstask}",2022-02-24T21:06:05.080468+00:00
 52595226,12720,80,1,0,2,xtaci/kcptun,"A Stable & Secure Tunnel based on KCP with N:M multiplexing and FEC. Available for ARM, MIPS, 386 and AMD64。KCPプロトコルに基づく安全なトンネル。KCP 프로토콜을 기반으로 하는 보안 터널입니다。","{xtaci,HigherSY}",2022-02-24T21:06:05.080468+00:00
@@ -1870,7 +1870,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 172490214,9,0,2,0,0,rohanbaraskar/UiPath-11,UiPath Projects,{ishmeet1995},2022-02-24T21:06:05.080468+00:00
 172521926,16173,17,2,0,4.5,pmndrs/react-three-fiber,🇨🇭 A React renderer for Three.js,"{drcmda,joshuaellis}",2022-02-24T21:06:05.080468+00:00
 172550478,40,8,1,0,13,SlalomBuild/blackslope.net,.Net Core reference architecture,"{andykongchi,pmotameni}",2022-02-24T21:06:05.080468+00:00
-172562475,46668,282,5,0,9.8,florinpop17/app-ideas,A Collection of application ideas which can be used to improve your coding skills.,"{florinpop17,jdmedlock}",2022-02-24T21:06:05.080468+00:00
 172773684,2300,1,2,0,25.5,wesbos/eslint-config-wesbos,No-Sweat™ Eslint and Prettier Setup - with or without VS Code,"{wesbos,Asjas}",2022-02-24T21:06:05.080468+00:00
 172915698,12,0,1,0,18,BaseMax/WebSinatra,The Sample web project using ruby sinatra.,{BaseMax},2022-02-24T21:06:05.080468+00:00
 177987738,2507,96,1,0,1,hedgedoc/hedgedoc,HedgeDoc - The best platform to write and share markdown.,"{jackycute,davidmehren}",2022-02-24T21:06:05.080468+00:00
@@ -3648,12 +3647,12 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 88011908,60354,28,4,1,11.25,practical-tutorials/project-based-learning,Curated list of project-based tutorials,"{tuvtran,sayands}",2022-02-24T21:06:05.080468+00:00
 426820139,42,11,1,11,0,open-sauced/hot,🍕The site that recommends the hottest projects on GitHub.,"{bdougie,0-vortex}",2022-02-24T21:06:05.080468+00:00
 112150776,10908,441,5,2,12.4,11ty/eleventy,A simpler static site generator. An alternative to Jekyll. Transforms a directory of templates (of varying types) into HTML.,"{zachleat,MadeByMike}",2022-02-24T21:06:05.080468+00:00
+44882201,37303,51,8,69,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"{MunGell,JefMari}",2022-02-24T21:06:05.080468+00:00
 15393566,5075,21,1,2,29,AriaMinaei/theatre,Motion design editor for the web,"{AriaMinaei,jmyrland}",2022-02-24T21:06:05.080468+00:00
 71359796,573,29,4,20,0,open-sauced/open-sauced,🍕  This is a project to identify your next open source contribution. ,"{bdougie,0-vortex}",2022-02-24T21:06:05.080468+00:00
 177736533,260255,16833,1,0,2,996icu/996.ICU,Repo for counting stars and contributing. Press F to pay respect to glorious developers.,"{996icu,ChangedenCZD}",2022-02-24T21:06:05.080468+00:00
 1039520,103987,4973,1,1,17,ytdl-org/youtube-dl,Command-line program to download videos from YouTube.com and other video sites,"{dstftw,phihag}",2022-02-24T21:06:05.080468+00:00
 241805592,16880,48,3,1,14,rome/tools,"The Rome Toolchain. A linter, compiler, bundler, and more for JavaScript, TypeScript, HTML, Markdown, and CSS.","{sebmck,ematipico}",2022-02-24T21:06:05.080468+00:00
-44882201,37303,51,8,15,15.125,MunGell/awesome-for-beginners,A list of awesome beginners-friendly projects.,"{MunGell,JefMari}",2022-02-24T21:06:05.080468+00:00
 361044034,16821,48,4,5,9.5,slidevjs/slidev,Presentation Slides for Developers (Beta),"{antfu,nico-bachner}",2022-02-24T21:06:05.080468+00:00
 3282,16409,20,1,1,9,preservim/nerdtree,A tree explorer plugin for vim.,"{scrooloose,PhilRunninger}",2022-02-24T21:06:05.080468+00:00
 3402537,51678,9,3,5,12,h5bp/Front-end-Developer-Interview-Questions,"A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.","{darcyclarke,appleboy}",2022-02-24T21:06:05.080468+00:00
@@ -3662,5 +3661,6 @@ id,stars,issues,total_stars,votes,avg_recency_score,repo_name,description,contri
 7833168,16839,9331,1,0,22,elastic/kibana,Your window into the Elastic Stack,"{spalger,rashidkpc}",2022-02-24T21:06:05.080468+00:00
 724712,61717,8143,2,2,11.5,rust-lang/rust,Empowering everyone to build reliable and efficient software.,"{bors,brson}",2022-02-24T21:06:05.080468+00:00
 304344049,6089,398,4,0,12.25,sveltejs/kit,The fastest way to build Svelte apps,"{Rich-Harris,benmccann}",2022-02-24T21:06:05.080468+00:00
-62367558,37545,744,5,1,10.2,vercel/hyper,A terminal built on web technologies,"{rauchg,LabhanshAgrawal}",2022-02-24T21:06:05.080468+00:00
 11180687,56014,717,3,2,18,gohugoio/hugo,The world’s fastest framework for building websites.,"{bep,spf13}",2022-02-24T21:06:05.080468+00:00
+28457823,337699,122,5,3,19.2,freeCodeCamp/freeCodeCamp,freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.,"{QuincyLarson,raisedadead}",2022-02-24T21:06:05.080468+00:00
+172562475,46668,282,5,-3,9.8,florinpop17/app-ideas,A Collection of application ideas which can be used to improve your coding skills.,"{florinpop17,jdmedlock}",2022-02-24T21:06:05.080468+00:00
