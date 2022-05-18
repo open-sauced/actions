@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T03:10:44.618Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T04:52:31.354Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3430,6 +3430,7 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (388657880, 3, 2, 1, 0, 27, 'prismicio-community/storybook-addon-gatsby', 'Storybook addon used to load stories built with Gatsby', ARRAY['angeloashmore', 'LuisOsta'], '2022-02-24T21:06:05.080468+00:00'),
 (388673420, 575, 0, 1, 0, 0, 'linuxdotexe/nordic-wallpapers', 'A collection of wallpapers that go well with the rices inspired by the Nord Colorscheme', ARRAY['linuxdotexe', 'Hooregi'], '2022-02-24T21:06:05.080468+00:00'),
 (388693827, 1032, 3, 1, 0, 18, 'antfu/vitesse-webext', '⚡️ WebExtension Vite Starter Template', ARRAY['antfu', 'tmkx'], '2022-02-24T21:06:05.080468+00:00'),
+(388891464, 10, 0, 1, 0, 17, 'Salaah01/linux-ios-debugger', 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', ARRAY['Salaah01'], '2022-02-24T21:06:05.080468+00:00'),
 (389071137, 1, 0, 1, 0, 22, 'BolajiAyodeji/linear-regression', 'Linear regression attempts to model the relationship between two variables by fitting a linear equation to observed data.', ARRAY['BolajiAyodeji'], '2022-02-24T21:06:05.080468+00:00'),
 (389086554, 3, 0, 1, 0, 21, 'BolajiAyodeji/headless-swag-store', 'A minimal ecommerce product page built with static content, HTML5, CSS, Javascript, and Commerce Layer.', ARRAY['BolajiAyodeji', 'acasazza'], '2022-02-24T21:06:05.080468+00:00'),
 (389156199, 91, 2, 1, 0, 24, '5t3ph/htmlrecipes', 'A collection of quick copy HTML snippets for a variety of common scenarios.', ARRAY['5t3ph', 'MWDelaney'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3668,5 +3669,4 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (304344049, 6089, 398, 4, 0, 12.25, 'sveltejs/kit', 'The fastest way to build Svelte apps', ARRAY['Rich-Harris', 'benmccann'], '2022-02-24T21:06:05.080468+00:00'),
 (62367558, 37545, 744, 5, 1, 10.2, 'vercel/hyper', 'A terminal built on web technologies', ARRAY['rauchg', 'LabhanshAgrawal'], '2022-02-24T21:06:05.080468+00:00'),
 (11180687, 56014, 717, 3, 2, 18, 'gohugoio/hugo', 'The world’s fastest framework for building websites.', ARRAY['bep', 'spf13'], '2022-02-24T21:06:05.080468+00:00'),
-(388891464, 10, 0, 1, 0, 17, 'Salaah01/linux-ios-debugger', 'This program will allow you to run the inspect element tool using the Google Chrome/Chromium browser on your Linux (Debian) machine.', ARRAY['Salaah01'], '2022-02-24T21:06:05.080468+00:00'),
 (28457823, 337699, 122, 5, 3, 19.2, 'freeCodeCamp/freeCodeCamp', 'freeCodeCamp.org''s open-source codebase and curriculum. Learn to code for free.', ARRAY['QuincyLarson', 'raisedadead'], '2022-02-24T21:06:05.080468+00:00');
