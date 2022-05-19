@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-18T22:44:47.685Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T01:03:32.042Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1630,8 +1630,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (139596105, 13847, 11, 1, 0, 4, 'thedaviddias/Front-End-Performance-Checklist', '🎮 The only Front-End Performance Checklist that runs faster than the others', ARRAY['thedaviddias', 'prayagverma'], '2022-02-24T21:06:05.080468+00:00'),
 (139633235, 571, 9, 2, 0, 24.5, 'MoonHighway/learning-graphql', 'The code samples for Learning GraphQL by Eve Porcello and Alex Banks, published by O''Reilly Media', ARRAY['eveporcello', 'MoonTahoe'], '2022-02-24T21:06:05.080468+00:00'),
 (139910229, 5291, 453, 1, 0, 2, 'npm/cli', 'the package manager for JavaScript', ARRAY['isaacs', 'iarna'], '2022-02-24T21:06:05.080468+00:00'),
-(139952333, 1398, 150, 1, 0, 13, 'sigp/lighthouse', 'Rust Ethereum 2.0 Client', ARRAY['paulhauner', 'AgeManning'], '2022-02-24T21:06:05.080468+00:00'),
 (139914932, 9041, 1897, 1, 0, 27, 'quarkusio/quarkus', 'Quarkus: Supersonic Subatomic Java. ', ARRAY['gsmet', 'geoand'], '2022-02-24T21:06:05.080468+00:00'),
+(139952333, 1398, 150, 1, 0, 13, 'sigp/lighthouse', 'Rust Ethereum 2.0 Client', ARRAY['paulhauner', 'AgeManning'], '2022-02-24T21:06:05.080468+00:00'),
 (140059059, 146, 5, 1, 0, 12, 'ohbarye/rails-react-typescript-docker-example', 'An example app built on Ruby on Rails + React.js + TypeScript + Docker Compose', ARRAY['ohbarye', 'JPDepew'], '2022-02-24T21:06:05.080468+00:00'),
 (140151334, 19, 2, 1, 0, 19, 'ssorallen/redux-persist-webextension-storage', 'A WebExtension Storage storage engine for redux-persist', ARRAY['ssorallen', 'martonlederer'], '2022-02-24T21:06:05.080468+00:00'),
 (140322995, 271, 5, 1, 0, 21, 'Finance-Hub/FinanceHub', 'Resources for Quantitative Finance', ARRAY['gusamarante', 'VFermat'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3527,9 +3527,9 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (399197552, 6, 0, 1, 0, 7, 'CrossGeeks/ScrollRevealXFSample', null, ARRAY['Char0394'], '2022-02-24T21:06:05.080468+00:00'),
 (399220892, 5, 0, 1, 0, 7, '3cpt/recorrente', 'Script that get all the information of a user public repos from the Github API and save it in an incremental CSV', ARRAY['3cpt'], '2022-02-24T21:06:05.080468+00:00'),
 (399239075, 207, 0, 1, 0, 25, 'mdisec/golang-for-hackers-turkish-edition', 'Golang for Hackers', ARRAY['kutayakbas', 'mdisec'], '2022-02-24T21:06:05.080468+00:00'),
+(399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-24T21:06:05.080468+00:00'),
 (399574627, 6, 1, 1, 0, 25, 'orta/typescript-api-shim', null, ARRAY['orta', 'johnnyreilly'], '2022-02-24T21:06:05.080468+00:00'),
 (399619886, 2, 0, 1, 0, 1, 'ousecTic/Ethereum-Voting-App', 'ReactJS, Ether.js, Hardhat', ARRAY['ousecTic'], '2022-02-24T21:06:05.080468+00:00'),
-(399495186, 6352, 135, 2, 0, 1.5, 'tiangolo/sqlmodel', 'SQL databases in Python, designed for simplicity, compatibility, and robustness.', ARRAY['tiangolo', 'Batalex'], '2022-02-24T21:06:05.080468+00:00'),
 (399772846, 58, 5, 1, 0, 0, 'commclassroom/mobileapp', 'This is an official mobile app for community classroom', ARRAY['thisisamank', 'VarunSAthreya'], '2022-02-24T21:06:05.080468+00:00'),
 (399821046, 1375, 6, 1, 0, 0, 'varbhat/exatorrent', 'Easy to Use Torrent Client. Can be hosted in Cloud. Files can be streamed in Browser/Media Player.', ARRAY['varbhat'], '2022-02-24T21:06:05.080468+00:00'),
 (400050094, 27, 0, 1, 0, 2, 'wlitwin/graphv', 'A real time 2D graphics renderer for OCaml', ARRAY['wlitwin'], '2022-02-24T21:06:05.080468+00:00'),
