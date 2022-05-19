@@ -85,7 +85,9 @@ You'll see a new dist/index.js file with your code and the compiled modules. You
 
 From your terminal, commit the updates to your action.yml, dist/index.js, and node_modules files.
 
+```sh
 git dist/index.js
 git commit -m "updated vercel/ncc"
 git tag -a -m "My first action release" v1.1
 git push --follow-tags
+```
