@@ -6,6 +6,7 @@ const url = 'https://serve.onegraph.com/graphql?app_id=06238984-0a96-4774-95ad-d
 
 // variables are generically labelled for easy updating.
 const docId1 = 'a0722788-adb0-4731-96fb-9e50c72a2528'; // RepoQuery
+const docId2 = '56e6ec67-9aac-40e4-84d2-eca97253ab1e'; // GitHubContributions
 
 // TODO: Move this entire file to an npm package
 const makeFetch = (docId, requiredVariables = [], operationName = false) => {
@@ -35,9 +36,11 @@ const makeFetch = (docId, requiredVariables = [], operationName = false) => {
 }
 
 const persistedRepoDataFetch = makeFetch(docId1, ['repo', 'owner']);
+const persistedGitHubContributions = makeFetch(docId2, ['query']);
 
 const api = {
   persistedRepoDataFetch,
+  persistedGitHubContributions,
 };
 
 export default api;

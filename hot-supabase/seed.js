@@ -5,11 +5,11 @@ import consoleHeader from "./lib/consoleHeader.js";
 
 const lastExecuted = new Date()
 const tables = [
-  'user_stars',
-  'stars',
   'users',
-  'recommendations',
-  'votes',
+  'repos',
+  'contributions',
+  'users_to_repos_stars',
+  'users_to_repos_votes',
 ]
 const queue = []
 

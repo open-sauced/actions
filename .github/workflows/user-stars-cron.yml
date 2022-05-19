@@ -1,0 +1,46 @@
+name: User stars cron
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: supabase-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  populate-the-supabase:
+    name: run populate-the-supabase
+    runs-on: ubuntu-latest
+    steps:
+      - name: "☁️ checkout repository"
+        uses: actions/checkout@v2
+
+      - name: "🔧 setup node"
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: 16
+
+      - name: "🔧 install npm@latest"
+        run: npm i -g npm@latest
+
+      - name: "📦 install dependencies"
+        uses: bahmutov/npm-install@v1
+
+      - name: "🔍 populate user stars"
+        run: npm run populate
+        env:
+          OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
+          OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          LIMIT_DAYS: 1
+          LIMIT_USERS: 5
+
+      - name: "🚀 Commit changes"
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: ./hot-supabase/*.json
+          commit_message: "chore: update supabase data [skip ci]"
+          commit_user_name: open-sauced[bot]
+          commit_user_email: 63161813+open-sauced[bot]@users.noreply.github.com
