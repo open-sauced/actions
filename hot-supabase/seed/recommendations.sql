@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T10:46:07.880Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T12:56:57.018Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3242,8 +3242,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (365739812, 4768, 88, 1, 0, 9, 'tldraw/tldraw', 'A tiny little drawing app.', ARRAY['steveruizok', 'seflless'], '2022-02-24T21:06:05.080468+00:00'),
 (365829520, 288, 0, 1, 0, 8, 'mbkore/lockup', 'A proof-of-concept Android application to detect and defeat some of the Cellebrite UFED forensic toolkit extraction techniques. ', ARRAY['mbkore', 'williamtheaker'], '2022-02-24T21:06:05.080468+00:00'),
 (365976998, 2, 0, 1, 0, 29, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
-(366126259, 73, 0, 1, 0, 4, 'slidevjs/themes', 'Official themes for Slidev', ARRAY['antfu', 'JeremyMeissner'], '2022-02-24T21:06:05.080468+00:00'),
 (366099717, 2, 0, 1, 0, 8, 'jfrogtraining/aws-ecs-docker-compose-workshop', null, ARRAY['jefferyfry'], '2022-02-24T21:06:05.080468+00:00'),
+(366126259, 73, 0, 1, 0, 4, 'slidevjs/themes', 'Official themes for Slidev', ARRAY['antfu', 'JeremyMeissner'], '2022-02-24T21:06:05.080468+00:00'),
 (366397300, 643, 3, 1, 0, 27, 'TheZoraiz/ascii-image-converter', 'A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!', ARRAY['TheZoraiz', 'xmarcos'], '2022-02-24T21:06:05.080468+00:00'),
 (366844495, 1883, 196, 1, 0, 5, 'stackblitz/webcontainer-core', null, ARRAY['EricSimons', 'sulco'], '2022-02-24T21:06:05.080468+00:00'),
 (366871642, 6, 6, 1, 0, 0, 'deepgram/python-sdk', 'Official Python SDK for Deepgram''s automated speech recognition APIs.', ARRAY['frumsdotxyz', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
