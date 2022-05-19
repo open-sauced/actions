@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T03:16:06.741Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T04:52:50.067Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1831,8 +1831,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (166831098, 1124, 327, 1, 0, 16, 'keptn/keptn', 'Cloud-native application life-cycle orchestration. Keptn automates your SLO-driven multi-stage delivery and operations & remediation of your applications.', ARRAY['bacherfl', 'agrimmer'], '2022-02-24T21:06:05.080468+00:00'),
 (167032345, 5100, 10, 1, 0, 16, 'labs42io/clean-code-typescript', 'Clean Code concepts adapted for TypeScript', ARRAY['dimadeveatii', 'asimionese'], '2022-02-24T21:06:05.080468+00:00'),
 (167304464, 7630, 106, 1, 0, 14, 'cortexlabs/cortex', 'Production infrastructure for machine learning at scale', ARRAY['deliahu', 'vishalbollu'], '2022-02-24T21:06:05.080468+00:00'),
-(167368839, 9049, 205, 1, 0, 20, 'jaredpalmer/tsdx', 'Zero-config CLI for TypeScript package development', ARRAY['jaredpalmer', 'agilgur5'], '2022-02-24T21:06:05.080468+00:00'),
 (167596974, 1230, 81, 1, 0, 6, 'pyenv-win/pyenv-win', 'pyenv for Windows. pyenv is a simple python version management tool. It lets you easily switch between multiple versions of Python. It''s simple, unobtrusive, and follows the UNIX tradition of single-purpose tools that do one thing well.', ARRAY['kirankotari', 'dedale'], '2022-02-24T21:06:05.080468+00:00'),
+(167368839, 9049, 205, 1, 0, 20, 'jaredpalmer/tsdx', 'Zero-config CLI for TypeScript package development', ARRAY['jaredpalmer', 'agilgur5'], '2022-02-24T21:06:05.080468+00:00'),
 (167632962, 253, 26, 1, 0, 29, 'bmoscon/cryptostore', 'A storage engine for cryptocurrency data', ARRAY['bmoscon', 'yohplala'], '2022-02-24T21:06:05.080468+00:00'),
 (167647146, 395, 8, 1, 0, 20, 'jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript', 'Build a Quiz App with HTML, CSS, and JavaScript', ARRAY['jamesqquick', 'thedamian'], '2022-02-24T21:06:05.080468+00:00'),
 (167697129, 16, 7, 1, 0, 20, 'rajatjindal/goodfirstissue', 'openfaas function to handle webhooks for goodfirstissue github app', ARRAY['rajatjindal', 'alexellis'], '2022-02-24T21:06:05.080468+00:00'),
