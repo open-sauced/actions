@@ -27,7 +27,7 @@ jobs:
       - name: "📦 install dependencies"
         uses: bahmutov/npm-install@v1
 
-      - name: "🔍 populate supabase"
+      - name: "🔍 populate contributions"
         run: npm run contrib
         env:
           OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
