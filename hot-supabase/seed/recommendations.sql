@@ -1,5 +1,5 @@
 --
--- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T08:47:06.060Z
+-- Data for Name: recommendations; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T10:46:07.880Z
 -- COPY recommendations(id, stars, issues, total_stars, votes, avg_recency_score, repo_name, description, contributors, created_at) FROM 'recommendations.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3242,8 +3242,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (365739812, 4768, 88, 1, 0, 9, 'tldraw/tldraw', 'A tiny little drawing app.', ARRAY['steveruizok', 'seflless'], '2022-02-24T21:06:05.080468+00:00'),
 (365829520, 288, 0, 1, 0, 8, 'mbkore/lockup', 'A proof-of-concept Android application to detect and defeat some of the Cellebrite UFED forensic toolkit extraction techniques. ', ARRAY['mbkore', 'williamtheaker'], '2022-02-24T21:06:05.080468+00:00'),
 (365976998, 2, 0, 1, 0, 29, 'udberg/Weather-App', 'This project is a simple Weather web application to demonstrate the understanding of Asynchronous JavaScript.', ARRAY['udberg'], '2022-02-24T21:06:05.080468+00:00'),
-(366099717, 2, 0, 1, 0, 8, 'jfrogtraining/aws-ecs-docker-compose-workshop', null, ARRAY['jefferyfry'], '2022-02-24T21:06:05.080468+00:00'),
 (366126259, 73, 0, 1, 0, 4, 'slidevjs/themes', 'Official themes for Slidev', ARRAY['antfu', 'JeremyMeissner'], '2022-02-24T21:06:05.080468+00:00'),
+(366099717, 2, 0, 1, 0, 8, 'jfrogtraining/aws-ecs-docker-compose-workshop', null, ARRAY['jefferyfry'], '2022-02-24T21:06:05.080468+00:00'),
 (366397300, 643, 3, 1, 0, 27, 'TheZoraiz/ascii-image-converter', 'A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!', ARRAY['TheZoraiz', 'xmarcos'], '2022-02-24T21:06:05.080468+00:00'),
 (366844495, 1883, 196, 1, 0, 5, 'stackblitz/webcontainer-core', null, ARRAY['EricSimons', 'sulco'], '2022-02-24T21:06:05.080468+00:00'),
 (366871642, 6, 6, 1, 0, 0, 'deepgram/python-sdk', 'Official Python SDK for Deepgram''s automated speech recognition APIs.', ARRAY['frumsdotxyz', 'phazonoverload'], '2022-02-24T21:06:05.080468+00:00'),
@@ -3400,8 +3400,8 @@ INSERT INTO recommendations(id, stars, issues, total_stars, votes, avg_recency_s
 (386607658, 37, 0, 1, 0, 12, 'mrezkys/readky', 'Readky is a Free Flutter News App Starter Template that can help you develop a News application much faster. ', ARRAY['mrezkys'], '2022-02-24T21:06:05.080468+00:00'),
 (386632210, 1, 0, 1, 0, 16, 'muhammaddzaky/Mengambil-Data-Sekolah', 'Mengambil Datang Sekolah ', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
 (386633454, 1, 0, 1, 0, 17, 'muhammaddzaky/Data-Pokok-Pendidikan', 'Data Pokok Pendidikan', ARRAY['muhammaddzaky'], '2022-02-24T21:06:05.080468+00:00'),
-(386693970, 35, 0, 1, 0, 2, 'avinash201199/Competitions-and-Programs-List', 'List of competitions with details for college students to participate and  to enhance their skills.', ARRAY['avinash201199', 'priya-singh07'], '2022-02-24T21:06:05.080468+00:00'),
 (386673780, 198, 1, 1, 0, 9, 'P0ssuidao/terraguard', '🛡️ 🔒 This project''s goal is to be simple to create and destroy your own VPN service using WireGuard.', ARRAY['P0ssuidao', '0xdutra'], '2022-02-24T21:06:05.080468+00:00'),
+(386693970, 35, 0, 1, 0, 2, 'avinash201199/Competitions-and-Programs-List', 'List of competitions with details for college students to participate and  to enhance their skills.', ARRAY['avinash201199', 'priya-singh07'], '2022-02-24T21:06:05.080468+00:00'),
 (386740498, 46, 5, 1, 0, 19, 'lukesmurray/scrawl', 'A chrome extension which lets you draw on any web page with excalidraw', ARRAY['lukesmurray'], '2022-02-24T21:06:05.080468+00:00'),
 (386777766, 1, 0, 1, 0, 25, 'a-trost/component-carousel', 'The website for the Component Carousel show', ARRAY['a-trost'], '2022-02-24T21:06:05.080468+00:00'),
 (386951260, 45, 1, 1, 0, 2, 'dabit3/nuxt-supabase-full-multi-user-blog', 'Build a mult-user blogging app with Supabase and Nuxt.js', ARRAY['dabit3'], '2022-02-24T21:06:05.080468+00:00'),
