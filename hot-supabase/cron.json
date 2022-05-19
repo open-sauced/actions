@@ -1,4 +1,35 @@
 {
-  "lastExecuted": "2022-05-16T00:51:48.261Z",
-  "checked": {}
+  "lastExecuted": "2022-05-19T21:47:44.349Z",
+  "checked": {
+    "AdamasFR": {
+      "owner": "AdamasFR",
+      "notFound": false,
+      "lastExecuted": "2022-05-19T21:47:44.349Z"
+    },
+    "Lamiiine": {
+      "owner": "Lamiiine",
+      "notFound": false,
+      "lastExecuted": "2022-05-19T21:47:44.349Z"
+    },
+    "karnatisrinivas": {
+      "owner": "karnatisrinivas",
+      "notFound": true,
+      "lastExecuted": "2022-05-19T21:47:44.349Z"
+    },
+    "rperez2021": {
+      "owner": "rperez2021",
+      "notFound": false,
+      "lastExecuted": "2022-05-19T21:47:44.349Z"
+    },
+    "FunIsDangerous": {
+      "owner": "FunIsDangerous",
+      "notFound": false,
+      "lastExecuted": "2022-05-19T21:47:44.349Z"
+    },
+    "mklarsen": {
+      "owner": "mklarsen",
+      "notFound": false,
+      "lastExecuted": "2022-05-19T21:47:44.349Z"
+    }
+  }
 }
