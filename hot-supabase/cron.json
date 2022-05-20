@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-20T05:37:44.188Z",
+  "lastExecuted": "2022-05-20T05:46:31.089Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1100,6 +1100,46 @@
       "owner": "mbchoa",
       "notFound": false,
       "lastExecuted": "2022-05-20T05:37:44.188Z"
+    },
+    "gogocharli": {
+      "owner": "gogocharli",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "UbuntuEvangelist": {
+      "owner": "UbuntuEvangelist",
+      "notFound": true,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "peteroneilljr": {
+      "owner": "peteroneilljr",
+      "notFound": true,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "henrik-ch": {
+      "owner": "henrik-ch",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "ahdbarjoud": {
+      "owner": "ahdbarjoud",
+      "notFound": true,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "haffmaestro": {
+      "owner": "haffmaestro",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "Samikmalhotra": {
+      "owner": "Samikmalhotra",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
+    },
+    "miralsuthar": {
+      "owner": "miralsuthar",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T05:46:31.089Z"
     }
   }
 }
