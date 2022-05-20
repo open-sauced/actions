@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T18:48:25.813Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T20:46:08.876Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2701,6 +2701,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2998, 14747598, 4, '2020-02-12T01:51:19', 'typicode', 'https://github.com/typicode/json-server/pull/1074'),
 (2999, 14747598, 1, '2017-06-27T18:28:34', 'bbruneau', 'https://github.com/typicode/json-server/pull/556'),
 (3000, 14747598, 1, '2016-12-08T21:53:16', 'Nilegfx', 'https://github.com/typicode/json-server/pull/432'),
+(3001, 14747598, 1, '2018-09-11T21:50:27', 'ruifortes', 'https://github.com/typicode/json-server/pull/794'),
 (3002, 14747598, 1, '2016-10-01T00:25:13', 'ashleahhill', 'https://github.com/typicode/json-server/pull/373'),
 (3003, 14747598, 1, '2017-07-08T18:08:04', 'Noyabronok', 'https://github.com/typicode/json-server/pull/559'),
 (3004, 14747598, 1, '2015-01-07T09:42:32', 'GSchutz', 'https://github.com/typicode/json-server/pull/38'),
@@ -2983,9 +2984,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3281, 184571651, 1, '2020-09-22T17:05:18', 'hashworks', 'https://github.com/material-shell/material-shell/pull/288'),
 (3282, 280531604, 4, '2021-11-09T19:00:50', 'NicollGuarnizo', 'https://github.com/eggheadio/egghead-next/pull/959'),
 (3283, 274495425, 4, '2022-05-07T08:49:23', 'Slashgear', 'https://github.com/remotion-dev/remotion/pull/976'),
+(3284, 280531604, 3, '2020-11-17T21:16:12', 'jh3y', 'https://github.com/eggheadio/egghead-next/pull/159'),
 (3285, 199486441, 2, '2020-12-16T19:43:57', 'patdunlavey', 'https://github.com/esmero/archipelago-deployment/pull/84'),
 (3286, 184571651, 1, '2020-09-02T09:32:14', 'Hikari', 'https://github.com/material-shell/material-shell/pull/242'),
-(3284, 280531604, 3, '2020-11-17T21:16:12', 'jh3y', 'https://github.com/eggheadio/egghead-next/pull/159'),
 (3287, 184571651, 4, '2020-07-03T16:33:32', 'nununoisy', 'https://github.com/material-shell/material-shell/pull/203'),
 (3288, 199486441, 2, '2020-01-24T18:17:24', 'mitchellkeaney', 'https://github.com/esmero/archipelago-deployment/pull/29'),
 (3289, 280531604, 1, '2021-04-14T20:28:54', 'dijonmusters', 'https://github.com/eggheadio/egghead-next/pull/556'),
@@ -3113,7 +3114,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3411, 293844582, 4, '2021-09-06T20:26:00', 'orsolyalukacs', 'https://github.com/spicygreenbook/greenbook-app/pull/421'),
 (3412, 293844582, 4, '2021-05-22T19:45:10', 'lirondco', 'https://github.com/spicygreenbook/greenbook-app/pull/403'),
 (3413, 293844582, 2, '2022-05-04T16:02:43', 'danilobatson', 'https://github.com/spicygreenbook/greenbook-app/pull/431'),
-(3001, 14747598, 1, '2018-09-11T21:50:27', 'ruifortes', 'https://github.com/typicode/json-server/pull/794'),
 (3414, 293844582, 1, '2020-12-29T22:01:50', 'joshkwannacode', 'https://github.com/spicygreenbook/greenbook-app/pull/197'),
 (3415, 293844582, 2, '2021-02-25T15:34:59', 'JeffDegoma', 'https://github.com/spicygreenbook/greenbook-app/pull/286'),
 (3416, 293844582, 1, '2021-03-31T01:15:41', 'codecustard', 'https://github.com/spicygreenbook/greenbook-app/pull/371'),
