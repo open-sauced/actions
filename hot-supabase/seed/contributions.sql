@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T12:57:43.687Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T14:44:55.959Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2725,8 +2725,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3022, 100060912, 4, '2022-05-17T14:56:04', 'j4james', 'https://github.com/microsoft/terminal/pull/13109'),
 (3023, 100060912, 4, '2022-05-06T19:55:59', 'zadjii-msft', 'https://github.com/microsoft/terminal/pull/13044'),
 (3024, 100060912, 4, '2019-07-25T17:44:59', 'metathinker', 'https://github.com/microsoft/terminal/pull/2050'),
+(3025, 100060912, 4, '2021-10-12T18:00:06', 'mpela81', 'https://github.com/microsoft/terminal/pull/11485'),
 (3026, 100060912, 4, '2020-02-10T22:09:09', 'mkitzan', 'https://github.com/microsoft/terminal/pull/4309'),
 (3027, 100060912, 4, '2020-02-27T00:30:06', 'ZoeyR', 'https://github.com/microsoft/terminal/pull/4733'),
+(3028, 100060912, 4, '2020-01-14T17:07:07', 'mcpiroman', 'https://github.com/microsoft/terminal/pull/4190'),
 (3029, 100060912, 4, '2022-05-04T20:17:20', 'PankajBhojwani', 'https://github.com/microsoft/terminal/pull/13032'),
 (3030, 100060912, 4, '2022-01-10T16:31:32', 'eltociear', 'https://github.com/microsoft/terminal/pull/12124'),
 (3031, 100060912, 4, '2022-03-24T17:54:12', 'cinnamon-msft', 'https://github.com/microsoft/terminal/pull/12737'),
@@ -2771,8 +2773,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3070, 273512313, 2, '2022-01-11T19:33:00', 'vchrombie', 'https://github.com/chaoss/community-handbook/pull/27'),
 (3071, 290234921, 1, '2020-10-13T18:17:08', 'MartinSeeler', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/38'),
 (3072, 273512313, 4, '2021-03-23T16:35:35', 'GeorgLink', 'https://github.com/chaoss/community-handbook/pull/14'),
-(3028, 100060912, 4, '2020-01-14T17:07:07', 'mcpiroman', 'https://github.com/microsoft/terminal/pull/4190'),
-(3025, 100060912, 4, '2021-10-12T18:00:06', 'mpela81', 'https://github.com/microsoft/terminal/pull/11485'),
 (3073, 290234921, 1, '2020-10-22T14:13:58', 'ifdiego', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/55'),
 (3074, 290234921, 1, '2021-06-15T22:08:23', 'arnavjindal', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/73'),
 (3075, 290234921, 1, '2020-10-12T02:16:27', 'alexandander', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/37'),
