@@ -1,11 +1,10 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T08:47:50.390Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T10:46:41.188Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) VALUES
 (2480219, 0, true, false, true, '2022-05-16T07:33:54.421184+00:00', 'eriber'),
-(17364711, 0, true, false, true, '2022-05-16T00:32:54.612284+00:00', 'FunIsDangerous'),
 (26963547, 0, true, false, true, '2022-05-16T00:32:56.016492+00:00', 'mklarsen'),
 (104824933, 0, true, false, true, '2022-05-16T00:32:57.159812+00:00', 'JIFswe'),
 (37085146, 0, true, false, true, '2022-05-16T00:33:12.078101+00:00', 'NinjaAung'),
@@ -107,11 +106,9 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (52573181, 0, true, false, true, '2022-05-16T10:36:16.74442+00:00', 'RabsonJ'),
 (26586086, 2, true, false, true, '2022-05-16T10:47:30.599538+00:00', 'bhantsi'),
 (80793630, 3, true, false, true, '2022-05-16T10:47:31.415982+00:00', 'Blazing-Mike'),
-(3597738, 0, true, false, true, '2022-05-19T17:57:58.946724+00:00', 'AdamasFR'),
+(17364711, 0, true, false, true, '2022-05-16T00:32:54.612284+00:00', 'FunIsDangerous'),
 (29484849, 0, true, false, true, '2022-05-16T00:32:51.894086+00:00', 'Lamiiine'),
 (34112620, 1, true, false, true, '2022-05-16T00:32:53.348652+00:00', 'rperez2021'),
-(34839258, 0, true, false, true, '2022-05-16T02:43:22.231878+00:00', 'adwinang'),
-(88112004, 0, true, false, true, '2022-05-16T03:44:58.140929+00:00', 'SClay345'),
 (17413306, 0, true, false, true, '2022-05-16T04:41:10.459881+00:00', 'babually'),
 (9283692, 0, true, true, true, '2022-05-16T05:23:33.036711+00:00', 'mpmccauley'),
 (62261622, 0, true, false, true, '2022-05-16T05:53:12.748342+00:00', 'sosplush'),
@@ -211,6 +208,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (16259450, 1, true, false, true, '2022-05-20T08:01:23.607631+00:00', 'rob-moore'),
 (6241164, 1, true, false, true, '2022-05-20T08:01:24.764557+00:00', 'devbyray'),
 (1645628, 8, true, false, true, '2022-05-20T08:13:26.017836+00:00', 'mikachan'),
+(34839258, 0, true, false, true, '2022-05-16T02:43:22.231878+00:00', 'adwinang'),
+(88112004, 0, true, false, true, '2022-05-16T03:44:58.140929+00:00', 'SClay345'),
 (60850993, 1, true, false, true, '2022-05-20T08:13:27.132881+00:00', 'vinosamari'),
 (38838958, 1, true, false, true, '2022-05-20T08:13:28.310505+00:00', 'frvs'),
 (70440141, 1, true, false, true, '2022-05-20T08:13:29.428958+00:00', 'jessiebelle'),
@@ -224,4 +223,19 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (55907631, 1, true, false, true, '2022-05-20T08:42:15.041397+00:00', 'yasht01'),
 (907680, 5, true, false, true, '2022-05-20T08:42:16.02188+00:00', 'deenadayalancs'),
 (2658040, 2, true, true, true, '2022-05-20T08:42:16.619654+00:00', 'BaseMax'),
-(33148009, 9, true, false, true, '2022-05-20T08:42:17.704103+00:00', 'papadavis47');
+(33148009, 9, true, false, true, '2022-05-20T08:42:17.704103+00:00', 'papadavis47'),
+(67872399, 3, true, false, true, '2022-05-20T08:52:52.743635+00:00', 'An-prog-hub'),
+(622115, 2, true, false, true, '2022-05-20T08:52:54.061045+00:00', 'LoicB'),
+(29888641, 16, true, false, true, '2022-05-20T08:52:55.416693+00:00', 'filiptronicek'),
+(32903278, 1, true, false, true, '2022-05-20T08:52:56.547492+00:00', 'onurbayraktar'),
+(4573607, 1, true, false, true, '2022-05-20T08:52:57.609711+00:00', 'lorenanicole'),
+(19350071, 1, true, false, true, '2022-05-20T09:02:16.263111+00:00', 'atosh502'),
+(3037127, 6, true, false, true, '2022-05-20T09:02:17.183406+00:00', 'cpretzer'),
+(5467696, 2, true, false, true, '2022-05-20T09:02:18.153717+00:00', 'fwoelffel'),
+(26205172, 2, true, false, true, '2022-05-20T09:02:19.104441+00:00', 'Alucard17'),
+(10012151, 1, true, true, true, '2022-05-20T09:02:19.919829+00:00', 'joaoapel'),
+(29295102, 1, true, false, true, '2022-05-20T09:14:24.454164+00:00', 'silvasobrinho'),
+(4199845, 6, true, false, true, '2022-05-20T09:14:25.520532+00:00', 'Wachiwi'),
+(14043845, 10, true, false, true, '2022-05-20T09:14:26.437678+00:00', 'jasonericdavis'),
+(5713670, 15, true, false, true, '2022-05-20T09:14:27.556372+00:00', 'bdougie'),
+(3597738, 0, true, false, true, '2022-05-19T17:57:58.946724+00:00', 'AdamasFR');
