@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T03:08:05.293Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T04:51:05.212Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -339,8 +339,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (637, 256786531, 4, '2021-09-09T21:00:05', 'delphinus', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1774'),
 (638, 256786531, 4, '2022-01-29T10:10:25', 'madskjeldgaard', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2395'),
 (639, 256786531, 4, '2022-04-25T21:36:37', 'MichaHoffmann', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2863'),
-(640, 256786531, 4, '2022-02-04T23:28:48', 'uyha', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2456'),
-(641, 256786531, 4, '2022-04-15T22:28:00', 'savq', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2803'),
 (642, 256786531, 4, '2022-05-06T08:31:13', 'undu', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2878'),
 (643, 79485650, 4, '2022-03-02T16:48:08', '36degrees', 'https://github.com/alphagov/accessible-autocomplete/pull/550'),
 (644, 256786531, 3, '2021-08-29T17:10:15', 'leo60228', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/1759'),
@@ -349,6 +347,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (647, 256786531, 4, '2022-01-07T10:14:29', 'numToStr', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2209'),
 (648, 79485650, 4, '2020-01-30T16:23:48', 'nickcolley', 'https://github.com/alphagov/accessible-autocomplete/pull/412'),
 (649, 79485650, 4, '2020-07-13T17:30:50', 'hannalaakso', 'https://github.com/alphagov/accessible-autocomplete/pull/452'),
+(640, 256786531, 4, '2022-02-04T23:28:48', 'uyha', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2456'),
+(641, 256786531, 4, '2022-04-15T22:28:00', 'savq', 'https://github.com/nvim-treesitter/nvim-treesitter/pull/2803'),
 (650, 79485650, 4, '2022-02-22T10:57:12', 'lfdebrux', 'https://github.com/alphagov/accessible-autocomplete/pull/543'),
 (651, 79485650, 3, '2022-02-08T13:20:54', 'vanitabarrett', 'https://github.com/alphagov/accessible-autocomplete/pull/538'),
 (652, 79485650, 1, '2019-09-19T10:03:34', 'markhunter27', 'https://github.com/alphagov/accessible-autocomplete/pull/355'),
@@ -535,9 +535,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (778, 125225914, 4, '2022-03-01T12:14:42', 'pmlopes', 'https://github.com/reactiverse/es4x/pull/581'),
 (779, 125225914, 1, '2021-10-08T17:58:07', 'loic5', 'https://github.com/reactiverse/es4x/pull/560'),
 (780, 125225914, 2, '2019-06-20T13:15:21', 'okou19900722', 'https://github.com/reactiverse/es4x/pull/113'),
-(781, 125225914, 1, '2018-10-13T18:20:50', 'gitter-badger', 'https://github.com/reactiverse/es4x/pull/46'),
-(782, 125225914, 2, '2021-11-10T13:17:39', 'laiweiwei', 'https://github.com/reactiverse/es4x/pull/385'),
-(783, 125225914, 2, '2020-10-06T07:22:54', 'ILGO0413', 'https://github.com/reactiverse/es4x/pull/420'),
 (784, 125225914, 1, '2019-07-16T11:40:46', 'ThomasPerkins1123', 'https://github.com/reactiverse/es4x/pull/121'),
 (785, 125225914, 1, '2019-09-26T12:28:05', 'elaatifi', 'https://github.com/reactiverse/es4x/pull/202'),
 (786, 125225914, 1, '2019-08-26T12:04:28', 'daihy8759', 'https://github.com/reactiverse/es4x/pull/176'),
@@ -547,7 +544,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (790, 9852918, 4, '2022-05-16T11:15:54', 'kevinansfield', 'https://github.com/TryGhost/Ghost/pull/14820'),
 (791, 9852918, 4, '2022-05-17T09:21:39', 'naz', 'https://github.com/TryGhost/Ghost/pull/14848'),
 (792, 9852918, 4, '2019-05-06T09:11:44', 'kirrg001', 'https://github.com/TryGhost/Ghost/pull/10726'),
+(781, 125225914, 1, '2018-10-13T18:20:50', 'gitter-badger', 'https://github.com/reactiverse/es4x/pull/46'),
+(782, 125225914, 2, '2021-11-10T13:17:39', 'laiweiwei', 'https://github.com/reactiverse/es4x/pull/385'),
 (793, 9852918, 4, '2013-12-23T10:40:01', 'matthojo', 'https://github.com/TryGhost/Ghost/pull/1745'),
+(783, 125225914, 2, '2020-10-06T07:22:54', 'ILGO0413', 'https://github.com/reactiverse/es4x/pull/420'),
 (794, 9852918, 4, '2017-02-11T12:48:05', 'javorszky', 'https://github.com/TryGhost/Ghost/pull/7982'),
 (795, 9852918, 4, '2022-05-17T07:27:13', 'ErisDS', 'https://github.com/TryGhost/Ghost/pull/14837'),
 (796, 9852918, 4, '2022-05-16T18:47:19', 'allouis', 'https://github.com/TryGhost/Ghost/pull/14795'),
@@ -766,8 +766,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1009, 345922282, 3, '2021-04-14T01:19:26', 'xiadd', 'https://github.com/Saul-Mirone/milkdown/pull/16'),
 (1010, 345922282, 2, '2021-12-26T04:36:30', 'shiyiya', 'https://github.com/Saul-Mirone/milkdown/pull/243'),
 (1011, 345922282, 1, '2021-09-17T03:49:46', 'AlexNeises', 'https://github.com/Saul-Mirone/milkdown/pull/133'),
-(1012, 345922282, 2, '2022-01-30T16:46:40', 'duhaime', 'https://github.com/Saul-Mirone/milkdown/pull/325'),
 (1013, 345922282, 4, '2022-03-09T11:50:02', 'kevinmarrec', 'https://github.com/Saul-Mirone/milkdown/pull/416'),
+(1012, 345922282, 2, '2022-01-30T16:46:40', 'duhaime', 'https://github.com/Saul-Mirone/milkdown/pull/325'),
 (1014, 345922282, 1, '2021-09-23T02:45:15', 'Brettm12345', 'https://github.com/Saul-Mirone/milkdown/pull/141'),
 (1015, 345922282, 1, '2021-08-14T17:20:01', 'songhn233', 'https://github.com/Saul-Mirone/milkdown/pull/94'),
 (1016, 345922282, 1, '2021-08-18T00:48:14', 'yobome', 'https://github.com/Saul-Mirone/milkdown/pull/99'),
