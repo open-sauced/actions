@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-20T01:20:30.571Z",
+  "lastExecuted": "2022-05-20T02:07:50.037Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -690,6 +690,36 @@
       "owner": "KengoTODA",
       "notFound": false,
       "lastExecuted": "2022-05-20T01:20:30.571Z"
+    },
+    "juanramollino": {
+      "owner": "juanramollino",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T02:07:50.037Z"
+    },
+    "gwincr11": {
+      "owner": "gwincr11",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T02:07:50.037Z"
+    },
+    "leftrightleft": {
+      "owner": "leftrightleft",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T02:07:50.037Z"
+    },
+    "mikerobards": {
+      "owner": "mikerobards",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T02:07:50.037Z"
+    },
+    "Allann": {
+      "owner": "Allann",
+      "notFound": true,
+      "lastExecuted": "2022-05-20T02:07:50.037Z"
+    },
+    "choznerol": {
+      "owner": "choznerol",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T02:07:50.037Z"
     }
   }
 }
