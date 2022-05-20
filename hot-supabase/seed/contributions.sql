@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T20:46:08.876Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T22:46:09.823Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2947,8 +2947,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3244, 184571651, 4, '2020-10-29T08:14:11', 'lfom', 'https://github.com/material-shell/material-shell/pull/446'),
 (3245, 274495425, 3, '2021-04-29T10:45:24', 'samuel-rl', 'https://github.com/remotion-dev/remotion/pull/322'),
 (3246, 199486441, 1, '2019-07-30T16:49:41', 't4k', 'https://github.com/esmero/archipelago-deployment/pull/3'),
-(3247, 274495425, 4, '2022-01-15T14:07:14', 'VirenMohindra', 'https://github.com/remotion-dev/remotion/pull/774'),
 (3248, 274495425, 3, '2022-04-29T15:15:55', 'kave-me', 'https://github.com/remotion-dev/remotion/pull/890'),
+(3247, 274495425, 4, '2022-01-15T14:07:14', 'VirenMohindra', 'https://github.com/remotion-dev/remotion/pull/774'),
 (3249, 274495425, 2, '2021-11-10T19:15:28', 'evancloutier', 'https://github.com/remotion-dev/remotion/pull/692'),
 (3250, 199486441, 2, '2020-02-19T00:45:43', 'marlo-longley', 'https://github.com/esmero/archipelago-deployment/pull/40'),
 (3251, 274495425, 3, '2021-05-01T17:17:36', 'j0nezz', 'https://github.com/remotion-dev/remotion/pull/330'),
