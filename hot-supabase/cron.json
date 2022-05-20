@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-20T06:58:33.828Z",
+  "lastExecuted": "2022-05-20T07:09:44.121Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1290,6 +1290,36 @@
       "owner": "microjumper",
       "notFound": false,
       "lastExecuted": "2022-05-20T06:58:33.828Z"
+    },
+    "GianCastle": {
+      "owner": "GianCastle",
+      "notFound": true,
+      "lastExecuted": "2022-05-20T07:09:44.121Z"
+    },
+    "RubesWorld": {
+      "owner": "RubesWorld",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T07:09:44.121Z"
+    },
+    "applesnort": {
+      "owner": "applesnort",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T07:09:44.121Z"
+    },
+    "raychatter": {
+      "owner": "raychatter",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T07:09:44.121Z"
+    },
+    "ghgoodreau": {
+      "owner": "ghgoodreau",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T07:09:44.121Z"
+    },
+    "HeavyBR": {
+      "owner": "HeavyBR",
+      "notFound": false,
+      "lastExecuted": "2022-05-20T07:09:44.121Z"
     }
   }
 }
