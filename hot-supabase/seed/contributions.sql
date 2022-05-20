@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-19T22:45:11.649Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-20T01:04:56.902Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -538,9 +538,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (781, 125225914, 1, '2018-10-13T18:20:50', 'gitter-badger', 'https://github.com/reactiverse/es4x/pull/46'),
 (782, 125225914, 2, '2021-11-10T13:17:39', 'laiweiwei', 'https://github.com/reactiverse/es4x/pull/385'),
 (783, 125225914, 2, '2020-10-06T07:22:54', 'ILGO0413', 'https://github.com/reactiverse/es4x/pull/420'),
-(784, 125225914, 1, '2019-07-16T11:40:46', 'ThomasPerkins1123', 'https://github.com/reactiverse/es4x/pull/121'),
 (785, 125225914, 1, '2019-09-26T12:28:05', 'elaatifi', 'https://github.com/reactiverse/es4x/pull/202'),
 (786, 125225914, 1, '2019-08-26T12:04:28', 'daihy8759', 'https://github.com/reactiverse/es4x/pull/176'),
+(784, 125225914, 1, '2019-07-16T11:40:46', 'ThomasPerkins1123', 'https://github.com/reactiverse/es4x/pull/121'),
 (787, 125225914, 1, '2020-05-02T14:07:34', 'travisgalloway', 'https://github.com/reactiverse/es4x/pull/348'),
 (788, 125225914, 1, '2019-09-21T10:07:19', 'mackiejimperial', 'https://github.com/reactiverse/es4x/pull/200'),
 (789, 125225914, 1, '2019-09-28T11:24:07', 'vincentfree', 'https://github.com/reactiverse/es4x/pull/203'),
