@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T16:51:31.853Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T18:47:41.545Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2444,8 +2444,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2695, 102371998, 2, '2017-11-09T14:56:32', 'herbertscruz', 'https://github.com/nuxt-community/auth-module/pull/11'),
 (2696, 304120355, 2, '2021-06-02T04:23:21', 'Guria', 'https://github.com/nanostores/nanostores/pull/21'),
 (2697, 102371998, 4, '2020-10-17T19:14:06', 'manniL', 'https://github.com/nuxt-community/auth-module/pull/826'),
-(2698, 102371998, 1, '2018-09-25T18:34:56', 'potato4d', 'https://github.com/nuxt-community/auth-module/pull/246'),
 (2699, 102371998, 1, '2019-01-11T12:49:07', 'LeCoupa', 'https://github.com/nuxt-community/auth-module/pull/282'),
+(2698, 102371998, 1, '2018-09-25T18:34:56', 'potato4d', 'https://github.com/nuxt-community/auth-module/pull/246'),
 (2700, 102371998, 3, '2018-05-18T08:01:05', 'robsontenorio', 'https://github.com/nuxt-community/auth-module/pull/175'),
 (2701, 13825712, 1, '2021-08-13T13:52:40', 'aartiomov', 'https://github.com/VirtoCommerce/vc-platform/pull/2342'),
 (2702, 13825712, 1, '2020-09-30T08:20:47', 'vc-ci', 'https://github.com/VirtoCommerce/vc-platform/pull/1955'),
@@ -2546,9 +2546,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2843, 3545227, 1, '2015-11-17T16:34:03', 'hpfn', 'https://github.com/webcamoid/webcamoid/pull/31'),
 (2844, 18609427, 4, '2021-02-11T23:43:03', 'rkirsling', 'https://github.com/tc39/ecma262/pull/2221'),
 (2845, 18609427, 4, '2021-08-15T19:50:20', 'codehag', 'https://github.com/tc39/ecma262/pull/2408'),
+(2846, 18609427, 4, '2022-04-15T05:35:10', 'ljharb', 'https://github.com/tc39/ecma262/pull/2735'),
 (2847, 18609427, 4, '2022-02-16T23:17:34', 'ExE-Boss', 'https://github.com/tc39/ecma262/pull/2591'),
 (2848, 18609427, 4, '2019-07-18T06:12:18', 'TimothyGu', 'https://github.com/tc39/ecma262/pull/1613'),
-(2846, 18609427, 4, '2022-04-15T05:35:10', 'ljharb', 'https://github.com/tc39/ecma262/pull/2735'),
 (2849, 110375203, 1, '2017-11-27T07:23:35', 'yash-1998', 'https://github.com/arindam-modak/YRASS-Media-Player/pull/1'),
 (2850, 27380215, 1, '2019-11-04T02:49:13', 'iBobik', 'https://github.com/vimagick/dockerfiles/pull/123'),
 (2851, 27380215, 1, '2019-10-26T23:34:01', 'udelblue', 'https://github.com/vimagick/dockerfiles/pull/114'),
