@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T18:47:41.279Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T20:45:28.275Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -167,14 +167,14 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (29547465, 6, true, false, true, '2022-05-16T14:24:23.397973+00:00', 'camopy'),
 (38725511, 1, true, false, true, '2022-05-16T14:24:24.742655+00:00', 'divakar54'),
 (13490604, 3, true, false, true, '2022-05-16T14:34:22.600173+00:00', 'xmbhasin'),
-(46828701, 0, true, false, true, '2022-05-16T14:34:26.440245+00:00', 'idanceinbetween'),
-(51794934, 1, true, false, true, '2022-05-16T14:51:34.13913+00:00', 'RubesWorld'),
+(667716, 10, true, false, true, '2022-05-16T14:34:24.603609+00:00', 'diminutivesloop'),
+(4838867, 0, true, false, true, '2022-05-16T14:51:32.62+00:00', 'microjumper'),
 (1295334, 1, true, false, true, '2022-05-16T14:51:35.502557+00:00', 'applesnort'),
 (2808728, 0, true, false, true, '2022-05-16T15:04:46.963667+00:00', 'raychatter'),
 (25194960, 1, true, false, true, '2022-05-16T15:04:48.376689+00:00', 'ghgoodreau'),
-(667716, 10, true, false, true, '2022-05-16T14:34:24.603609+00:00', 'diminutivesloop'),
-(4838867, 0, true, false, true, '2022-05-16T14:51:32.62+00:00', 'microjumper'),
 (28281924, 1, true, false, true, '2022-05-16T15:04:49.752109+00:00', 'HeavyBR'),
+(46828701, 0, true, false, true, '2022-05-16T14:34:26.440245+00:00', 'idanceinbetween'),
+(51794934, 1, true, false, true, '2022-05-16T14:51:34.13913+00:00', 'RubesWorld'),
 (3777549, 2, true, false, true, '2022-05-16T15:23:40.172714+00:00', 'alotoftype'),
 (36890230, 1, true, false, true, '2022-05-16T15:23:41.189013+00:00', 'JEbertPrime'),
 (15052690, 3, true, false, true, '2022-05-16T15:23:42.61745+00:00', 'creaturenex'),
@@ -192,13 +192,13 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (46935495, 1, true, false, true, '2022-05-17T21:45:40.745668+00:00', 'sarthakvarshney8081'),
 (72912813, 3, true, false, true, '2022-05-20T07:52:04.547937+00:00', 'earltacs96'),
 (22655167, 1, true, false, true, '2022-05-20T07:52:06.088064+00:00', 'loiclegoff'),
+(68660520, 2, true, false, true, '2022-05-20T07:52:07.530472+00:00', 'code-in-public'),
 (9283692, 0, true, true, true, '2022-05-16T05:23:33.036711+00:00', 'mpmccauley'),
 (17413306, 0, true, false, true, '2022-05-16T04:41:10.459881+00:00', 'babually'),
 (24553355, 2, true, false, true, '2022-05-16T07:22:15.519571+00:00', 'vtcaregorodtcev'),
 (2609511, 0, true, false, true, '2022-05-16T08:58:35.604423+00:00', 'hackintoshrao'),
 (67718832, 0, true, false, true, '2022-05-16T09:47:30.034645+00:00', 'matt-wiley'),
 (85258143, 0, true, false, true, '2022-05-16T10:54:44.848729+00:00', 'oscakampala'),
-(68660520, 2, true, false, true, '2022-05-20T07:52:07.530472+00:00', 'code-in-public'),
 (71386305, 1, true, false, true, '2022-05-20T07:52:09.011858+00:00', 'dileep-reddy-aella'),
 (3754311, 2, true, false, true, '2022-05-20T07:52:10.317346+00:00', 'lonewolf9277'),
 (69519470, 2, true, false, true, '2022-05-20T08:01:20.238516+00:00', 'Kakashi2998'),

@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T18:47:41.545Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T20:45:28.399Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2444,8 +2444,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2695, 102371998, 2, '2017-11-09T14:56:32', 'herbertscruz', 'https://github.com/nuxt-community/auth-module/pull/11'),
 (2696, 304120355, 2, '2021-06-02T04:23:21', 'Guria', 'https://github.com/nanostores/nanostores/pull/21'),
 (2697, 102371998, 4, '2020-10-17T19:14:06', 'manniL', 'https://github.com/nuxt-community/auth-module/pull/826'),
-(2699, 102371998, 1, '2019-01-11T12:49:07', 'LeCoupa', 'https://github.com/nuxt-community/auth-module/pull/282'),
 (2698, 102371998, 1, '2018-09-25T18:34:56', 'potato4d', 'https://github.com/nuxt-community/auth-module/pull/246'),
+(2699, 102371998, 1, '2019-01-11T12:49:07', 'LeCoupa', 'https://github.com/nuxt-community/auth-module/pull/282'),
 (2700, 102371998, 3, '2018-05-18T08:01:05', 'robsontenorio', 'https://github.com/nuxt-community/auth-module/pull/175'),
 (2701, 13825712, 1, '2021-08-13T13:52:40', 'aartiomov', 'https://github.com/VirtoCommerce/vc-platform/pull/2342'),
 (2702, 13825712, 1, '2020-09-30T08:20:47', 'vc-ci', 'https://github.com/VirtoCommerce/vc-platform/pull/1955'),
