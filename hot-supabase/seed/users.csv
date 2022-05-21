@@ -1,6 +1,5 @@
 id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 2480219,0,true,false,true,2022-05-16T07:33:54.421184+00:00,eriber
-37085146,0,true,false,true,2022-05-16T00:33:12.078101+00:00,NinjaAung
 42660551,0,true,false,true,2022-05-16T00:33:13.223324+00:00,Ramghimirecr7
 65788728,2,true,false,true,2022-05-16T00:33:14.714889+00:00,j-dogcoder
 81034521,0,true,false,true,2022-05-16T00:33:15.891969+00:00,zeerau
@@ -99,10 +98,11 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 52573181,0,true,false,true,2022-05-16T10:36:16.74442+00:00,RabsonJ
 26586086,2,true,false,true,2022-05-16T10:47:30.599538+00:00,bhantsi
 80793630,3,true,false,true,2022-05-16T10:47:31.415982+00:00,Blazing-Mike
-104824933,0,true,false,true,2022-05-16T00:32:57.159812+00:00,JIFswe
-17364711,0,true,false,true,2022-05-16T00:32:54.612284+00:00,FunIsDangerous
 26963547,0,true,false,true,2022-05-16T00:32:56.016492+00:00,mklarsen
-29484849,0,true,false,true,2022-05-16T00:32:51.894086+00:00,Lamiiine
+37085146,0,true,false,true,2022-05-16T00:33:12.078101+00:00,NinjaAung
+17364711,0,true,false,true,2022-05-16T00:32:54.612284+00:00,FunIsDangerous
+104824933,0,true,false,true,2022-05-16T00:32:57.159812+00:00,JIFswe
+34112620,1,true,false,true,2022-05-16T00:32:53.348652+00:00,rperez2021
 88112004,0,true,false,true,2022-05-16T03:44:58.140929+00:00,SClay345
 62261622,0,true,false,true,2022-05-16T05:53:12.748342+00:00,sosplush
 5901851,1,true,false,true,2022-05-16T07:51:11.59179+00:00,jayteealao
@@ -202,7 +202,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 16259450,1,true,false,true,2022-05-20T08:01:23.607631+00:00,rob-moore
 6241164,1,true,false,true,2022-05-20T08:01:24.764557+00:00,devbyray
 1645628,8,true,false,true,2022-05-20T08:13:26.017836+00:00,mikachan
-34112620,1,true,false,true,2022-05-16T00:32:53.348652+00:00,rperez2021
+29484849,0,true,false,true,2022-05-16T00:32:51.894086+00:00,Lamiiine
 34839258,0,true,false,true,2022-05-16T02:43:22.231878+00:00,adwinang
 60850993,1,true,false,true,2022-05-20T08:13:27.132881+00:00,vinosamari
 38838958,1,true,false,true,2022-05-20T08:13:28.310505+00:00,frvs
