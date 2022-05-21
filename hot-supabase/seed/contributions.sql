@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T10:46:06.391Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T12:54:16.339Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3444,8 +3444,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3776, 144873815, 2, '2019-08-12T10:24:32', 'infoverload', 'https://github.com/prisma/prisma-examples/pull/692'),
 (3777, 144873815, 2, '2021-03-25T15:11:42', 'Jolg42', 'https://github.com/prisma/prisma-examples/pull/2682'),
 (3778, 144873815, 1, '2019-03-21T14:23:46', '623841176', 'https://github.com/prisma/prisma-examples/pull/528'),
-(3780, 144873815, 4, '2020-09-13T04:47:41', 'steebchen', 'https://github.com/prisma/prisma-examples/pull/2010'),
 (3779, 144873815, 1, '2018-10-10T14:20:02', 'marktani', 'https://github.com/prisma/prisma-examples/pull/141'),
+(3780, 144873815, 4, '2020-09-13T04:47:41', 'steebchen', 'https://github.com/prisma/prisma-examples/pull/2010'),
 (3781, 144873815, 4, '2020-02-18T15:06:54', 'matthewmueller', 'https://github.com/prisma/prisma-examples/pull/1412'),
 (3782, 144873815, 4, '2021-08-20T07:42:14', 'ryands17', 'https://github.com/prisma/prisma-examples/pull/3088'),
 (3783, 144873815, 2, '2020-08-10T13:59:44', 'timsuchanek', 'https://github.com/prisma/prisma-examples/pull/1938'),
