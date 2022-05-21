@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T06:48:53.866Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-21T08:47:38.532Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -126,9 +126,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3540, 61426855, 4, '2018-08-15T15:49:22', 'ayushin78', 'https://github.com/jainaman224/Algo_Ds_Notes/pull/438'),
 (514, 175405157, 4, '2022-05-17T06:54:30', 'JanDeDobbeleer', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2282'),
 (515, 175405157, 3, '2022-02-27T19:55:04', 'icy-comet', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1826'),
-(516, 175405157, 3, '2021-12-26T16:17:44', 'Khaos66', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1469'),
-(517, 175405157, 4, '2021-12-20T17:42:45', 'memcpy-rand-rand-rand', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1471'),
-(518, 175405157, 4, '2022-04-11T20:37:19', 'lnu', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2076'),
 (519, 175405157, 4, '2021-01-22T18:22:36', 'tillig', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/366'),
 (520, 175405157, 3, '2022-02-15T11:18:34', 'stefanes', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1762'),
 (521, 175405157, 4, '2020-10-23T17:44:11', 'nwykes', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/92'),
@@ -140,6 +137,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (527, 175405157, 1, '2021-11-24T19:47:27', 'mikesigs', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1300'),
 (528, 175405157, 4, '2022-02-21T11:31:17', 'sectorogo', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1792'),
 (529, 175405157, 4, '2021-09-21T18:11:39', 'NickCraver', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/981'),
+(516, 175405157, 3, '2021-12-26T16:17:44', 'Khaos66', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1469'),
+(517, 175405157, 4, '2021-12-20T17:42:45', 'memcpy-rand-rand-rand', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/1471'),
+(518, 175405157, 4, '2022-04-11T20:37:19', 'lnu', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2076'),
 (530, 175405157, 4, '2022-04-11T05:36:59', 'asherber', 'https://github.com/JanDeDobbeleer/oh-my-posh/pull/2069'),
 (531, 176968819, 4, '2020-07-30T14:29:50', 'heyawhite', 'https://github.com/heyawhite/tech-writing-tools/pull/9'),
 (532, 26195776, 1, '2016-04-25T13:11:09', 'bgoscinski', 'https://github.com/JedWatson/classnames/pull/78'),
@@ -3736,8 +3736,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4068, 381979, 2, '2017-12-13T20:17:06', 'ettiennelouw', 'https://github.com/fullcalendar/fullcalendar/pull/3862'),
 (4069, 381979, 1, '2019-01-10T17:55:54', 'livmackintosh', 'https://github.com/fullcalendar/fullcalendar/pull/4135'),
 (4070, 381979, 1, '2019-01-10T16:49:31', 'alexander-schranz', 'https://github.com/fullcalendar/fullcalendar/pull/4233'),
-(4071, 381979, 1, '2017-07-17T18:01:15', 'nemanja947', 'https://github.com/fullcalendar/fullcalendar/pull/3656'),
 (4072, 369896619, 1, '2021-07-10T13:06:54', 'lauzaki', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/30'),
+(4071, 381979, 1, '2017-07-17T18:01:15', 'nemanja947', 'https://github.com/fullcalendar/fullcalendar/pull/3656'),
 (4073, 369896619, 4, '2021-07-10T13:28:28', 'OrderAndCh4oS', 'https://github.com/OrderAndCh4oS/hicetnunc-radio/pull/31'),
 (4074, 240786294, 4, '2021-03-31T09:07:36', 'vybhav72954', 'https://github.com/HarshCasper/Rotten-Scripts/pull/922'),
 (4075, 240786294, 4, '2020-08-25T14:08:10', 'HeroicHitesh', 'https://github.com/HarshCasper/Rotten-Scripts/pull/255'),
@@ -4072,8 +4072,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4404, 4132857, 1, '2019-05-21T16:55:22', 'sagotsky', 'https://github.com/insanum/gcalcli/pull/450'),
 (4405, 4132857, 1, '2015-09-14T05:16:51', 'danielfullmer', 'https://github.com/insanum/gcalcli/pull/206'),
 (4406, 4132857, 1, '2015-09-16T17:18:35', 'jcmuller', 'https://github.com/insanum/gcalcli/pull/207'),
-(4408, 89139214, 1, '2019-06-26T08:49:13', 'pacu', 'https://github.com/roberthein/BouncyLayout/pull/34'),
 (4407, 4132857, 1, '2016-01-19T00:47:56', 'matthewdavis', 'https://github.com/insanum/gcalcli/pull/227'),
+(4408, 89139214, 1, '2019-06-26T08:49:13', 'pacu', 'https://github.com/roberthein/BouncyLayout/pull/34'),
 (4409, 89139214, 1, '2020-07-14T17:47:01', 'marcus433', 'https://github.com/roberthein/BouncyLayout/pull/36'),
 (4410, 89139214, 1, '2017-05-04T07:25:56', 'bobek-balinek', 'https://github.com/roberthein/BouncyLayout/pull/4'),
 (4411, 16986405, 3, '2021-01-12T23:47:19', 'jmfd', 'https://github.com/liabru/matter-js/pull/639'),
@@ -4081,9 +4081,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4413, 16986405, 4, '2021-12-15T18:30:42', 'liabru', 'https://github.com/liabru/matter-js/pull/1069'),
 (4414, 16986405, 1, '2015-05-24T12:43:49', 'PlNG', 'https://github.com/liabru/matter-js/pull/60'),
 (4415, 16986405, 1, '2014-03-01T16:29:39', 'sethvincent', 'https://github.com/liabru/matter-js/pull/6'),
+(4416, 16986405, 1, '2016-04-05T22:57:54', 'Misiur', 'https://github.com/liabru/matter-js/pull/166'),
 (4417, 16986405, 1, '2016-12-02T00:29:25', 'RobertHerhold', 'https://github.com/liabru/matter-js/pull/288'),
 (4418, 16986405, 1, '2016-02-01T11:00:03', 'kevinboudot', 'https://github.com/liabru/matter-js/pull/199'),
-(4416, 16986405, 1, '2016-04-05T22:57:54', 'Misiur', 'https://github.com/liabru/matter-js/pull/166'),
 (4419, 16986405, 1, '2017-11-26T21:59:49', 'Quoteme', 'https://github.com/liabru/matter-js/pull/463'),
 (4420, 16986405, 1, '2015-05-20T22:13:12', 'foligno', 'https://github.com/liabru/matter-js/pull/69'),
 (4421, 16986405, 2, '2016-04-05T22:22:06', 'brollb', 'https://github.com/liabru/matter-js/pull/224'),
@@ -4467,9 +4467,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4799, 4302287, 2, '2012-10-15T07:56:45', 'tstirrat', 'https://github.com/plutext/docx4j/pull/30'),
 (4800, 4302287, 1, '2018-11-03T05:45:13', 'verkhovin', 'https://github.com/plutext/docx4j/pull/326'),
 (4801, 4302287, 1, '2017-10-04T07:05:09', 'Exandra', 'https://github.com/plutext/docx4j/pull/257'),
-(4802, 4302287, 1, '2017-01-19T06:03:37', 'ashtonbatty', 'https://github.com/plutext/docx4j/pull/231'),
 (4803, 4302287, 1, '2014-07-24T20:55:32', 'BobFleischman', 'https://github.com/plutext/docx4j/pull/129'),
 (4804, 4302287, 1, '2012-10-15T08:04:40', 'fmmfonseca', 'https://github.com/plutext/docx4j/pull/23'),
+(4802, 4302287, 1, '2017-01-19T06:03:37', 'ashtonbatty', 'https://github.com/plutext/docx4j/pull/231'),
 (4805, 4302287, 1, '2018-11-09T22:01:30', 'Lood', 'https://github.com/plutext/docx4j/pull/323'),
 (4806, 4302287, 1, '2018-08-31T22:43:17', 'adolbin', 'https://github.com/plutext/docx4j/pull/316'),
 (4807, 4302287, 1, '2015-12-07T05:54:28', 'tiagoskabrazil', 'https://github.com/plutext/docx4j/pull/140'),
