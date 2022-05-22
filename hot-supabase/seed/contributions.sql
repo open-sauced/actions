@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T04:49:21.899Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T06:49:42.698Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2869,8 +2869,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3166, 92396311, 1, '2018-06-08T19:36:12', 'alanrussian', 'https://github.com/rxlabz/audioplayer/pull/38'),
 (3167, 526028, 1, '2013-07-01T14:42:02', 'apetherick', 'https://github.com/concerto/concerto/pull/570'),
 (3168, 92396311, 1, '2018-03-20T20:08:34', 'gdcolella', 'https://github.com/rxlabz/audioplayer/pull/22'),
-(3169, 526028, 1, '2018-08-09T17:49:21', 'garci66', 'https://github.com/concerto/concerto/pull/1491'),
 (3170, 526028, 1, '2017-04-17T23:14:36', 'bryant1410', 'https://github.com/concerto/concerto/pull/1412'),
+(3169, 526028, 1, '2018-08-09T17:49:21', 'garci66', 'https://github.com/concerto/concerto/pull/1491'),
 (3171, 265925036, 2, '2020-08-11T19:06:17', 'teezzan', 'https://github.com/teezzan/halqah/pull/7'),
 (3172, 265925036, 2, '2020-07-10T18:22:34', 'brokewhale', 'https://github.com/teezzan/halqah/pull/2'),
 (3173, 526028, 1, '2013-11-20T02:50:13', 'android606', 'https://github.com/concerto/concerto/pull/756'),
@@ -4825,8 +4825,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5157, 13491895, 4, '2021-01-16T20:41:33', 'MrS4w', 'https://github.com/EbookFoundation/free-programming-books/pull/5263'),
 (5158, 13491895, 4, '2017-02-04T10:23:06', 'ericguirbal', 'https://github.com/EbookFoundation/free-programming-books/pull/2224'),
 (5159, 13491895, 4, '2020-12-03T21:59:44', 'borgified', 'https://github.com/EbookFoundation/free-programming-books/pull/5203'),
-(5160, 13491895, 4, '2020-12-28T17:19:51', 'vhf', 'https://github.com/EbookFoundation/free-programming-books/pull/5239'),
 (5161, 13491895, 4, '2014-06-29T23:34:16', 'Mouseion', 'https://github.com/EbookFoundation/free-programming-books/pull/1035'),
+(5160, 13491895, 4, '2020-12-28T17:19:51', 'vhf', 'https://github.com/EbookFoundation/free-programming-books/pull/5239'),
 (5162, 13491895, 4, '2022-02-28T16:14:01', 'mcicolella', 'https://github.com/EbookFoundation/free-programming-books/pull/6738'),
 (5163, 13491895, 4, '2021-10-06T01:08:28', 'SethFalco', 'https://github.com/EbookFoundation/free-programming-books/pull/5937'),
 (5164, 13491895, 4, '2021-01-15T14:43:55', 'maieul', 'https://github.com/EbookFoundation/free-programming-books/pull/5261'),
