@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T08:46:55.915Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T10:46:05.153Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5260,8 +5260,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (183, 183712153, 1, '2021-12-16T16:04:42', 'andrewSalemi', 'https://github.com/dasDaniel/svelte-table/pull/69'),
 (184, 183712153, 1, '2021-11-15T22:48:31', 'dysfunc', 'https://github.com/dasDaniel/svelte-table/pull/65'),
 (185, 183712153, 1, '2021-08-06T17:15:36', 'dennisjlee', 'https://github.com/dasDaniel/svelte-table/pull/34'),
-(186, 183712153, 2, '2020-12-10T06:33:04', 'thilo-behnke', 'https://github.com/dasDaniel/svelte-table/pull/26'),
 (187, 307397117, 4, '2021-11-05T22:48:14', 'jennmueng', 'https://github.com/getsentry/sentry-capacitor/pull/99'),
+(186, 183712153, 2, '2020-12-10T06:33:04', 'thilo-behnke', 'https://github.com/dasDaniel/svelte-table/pull/26'),
 (188, 307397117, 4, '2021-01-21T15:31:29', 'cSparkle', 'https://github.com/getsentry/sentry-capacitor/pull/22'),
 (189, 307397117, 4, '2022-03-29T18:05:15', 'bruno-garcia', 'https://github.com/getsentry/sentry-capacitor/pull/154'),
 (190, 307397117, 2, '2021-06-10T13:16:41', 'HazAT', 'https://github.com/getsentry/sentry-capacitor/pull/50'),
