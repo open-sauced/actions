@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T14:44:28.851Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T16:51:40.462Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -375,8 +375,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (673, 75024875, 1, '2021-11-04T12:05:26', 'IIeTpoc', 'https://github.com/Hekili/hekili/pull/1269'),
 (674, 75024875, 4, '2021-04-14T02:43:14', 'ShmooDude', 'https://github.com/Hekili/hekili/pull/1054'),
 (675, 75024875, 1, '2021-04-08T12:49:15', 'BPAle', 'https://github.com/Hekili/hekili/pull/1051'),
-(676, 75024875, 2, '2018-07-17T10:37:13', 'thunderchylde', 'https://github.com/Hekili/hekili/pull/23'),
 (677, 75024875, 2, '2020-12-28T02:07:25', 'Arrhae', 'https://github.com/Hekili/hekili/pull/745'),
+(676, 75024875, 2, '2018-07-17T10:37:13', 'thunderchylde', 'https://github.com/Hekili/hekili/pull/23'),
 (678, 75024875, 1, '2019-07-23T14:20:39', 'Baine', 'https://github.com/Hekili/hekili/pull/189'),
 (679, 75024875, 1, '2021-11-30T13:33:28', 'ChrisKader', 'https://github.com/Hekili/hekili/pull/1296'),
 (680, 75024875, 3, '2018-01-11T23:37:37', 'talst', 'https://github.com/Hekili/hekili/pull/4'),
@@ -966,6 +966,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1209, 342028554, 1, '2021-11-02T21:22:39', 'nathanchase', 'https://github.com/wheatjs/vite-plugin-vue-gql/pull/9'),
 (1210, 170738310, 4, '2020-02-28T08:40:24', 'madcake', 'https://github.com/trustwallet/wallet-core/pull/876'),
 (1211, 170738310, 4, '2019-05-08T18:26:25', 'alejandro-isaza', 'https://github.com/trustwallet/wallet-core/pull/416'),
+(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1213, 170738310, 4, '2020-04-23T23:28:54', 'vikmeup', 'https://github.com/trustwallet/wallet-core/pull/930'),
 (1214, 170738310, 4, '2019-08-13T04:40:02', 'dstranz', 'https://github.com/trustwallet/wallet-core/pull/577'),
 (1215, 170738310, 4, '2019-04-29T16:27:38', 'keefertaylor', 'https://github.com/trustwallet/wallet-core/pull/357'),
@@ -974,7 +975,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1218, 170738310, 4, '2019-08-13T02:53:23', 'BSathvik', 'https://github.com/trustwallet/wallet-core/pull/580'),
 (1219, 170738310, 4, '2022-03-31T21:57:33', 'ArtemGoryunov', 'https://github.com/trustwallet/wallet-core/pull/2111'),
 (1220, 170738310, 4, '2022-04-07T10:31:52', 'PiRK', 'https://github.com/trustwallet/wallet-core/pull/2130'),
-(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1221, 170738310, 4, '2020-09-28T06:35:00', 'terorie', 'https://github.com/trustwallet/wallet-core/pull/1114'),
 (1222, 170738310, 4, '2020-01-31T21:46:40', 'leoneparise', 'https://github.com/trustwallet/wallet-core/pull/841'),
 (1223, 170738310, 3, '2019-10-17T05:10:37', 'kolya182', 'https://github.com/trustwallet/wallet-core/pull/690'),
@@ -983,8 +983,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1226, 15720445, 3, '2017-09-19T17:07:43', 'philidem', 'https://github.com/marko-js/marko/pull/849'),
 (1227, 170738310, 4, '2020-12-08T09:02:40', 'CriesofCarrots', 'https://github.com/trustwallet/wallet-core/pull/1204'),
 (1228, 15720445, 4, '2018-02-20T18:33:44', 'scttdavs', 'https://github.com/marko-js/marko/pull/990'),
-(1230, 15720445, 4, '2018-12-28T16:57:08', 'BhavinPatel04', 'https://github.com/marko-js/marko/pull/1211'),
 (1229, 170738310, 3, '2019-04-09T17:17:56', 'yura-pakhuchiy', 'https://github.com/trustwallet/wallet-core/pull/283'),
+(1230, 15720445, 4, '2018-12-28T16:57:08', 'BhavinPatel04', 'https://github.com/marko-js/marko/pull/1211'),
 (1231, 15720445, 4, '2022-05-17T17:55:51', 'mlrawlings', 'https://github.com/marko-js/marko/pull/1800'),
 (1232, 15720445, 4, '2018-06-21T17:40:45', 'austinkelleher', 'https://github.com/marko-js/marko/pull/1062'),
 (1233, 170738310, 4, '2019-04-16T10:20:36', 'NashMiao', 'https://github.com/trustwallet/wallet-core/pull/327'),
@@ -2430,9 +2430,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2681, 314332691, 1, '2020-11-20T15:02:37', 'x3388638', 'https://github.com/realdennis/video2gif/pull/9'),
 (2682, 304120355, 1, '2021-10-22T13:09:56', 'davidmz', 'https://github.com/nanostores/nanostores/pull/76'),
 (2683, 212123834, 1, '2021-06-19T04:49:46', 'eranelbaz', 'https://github.com/kentaro-m/auto-assign-action/pull/45'),
-(2684, 304120355, 3, '2021-12-20T20:20:42', 'Beraliv', 'https://github.com/nanostores/nanostores/pull/88'),
 (2685, 304120355, 1, '2022-01-30T22:16:36', 'marcusstenbeck', 'https://github.com/nanostores/nanostores/pull/93'),
 (2686, 212123834, 1, '2020-02-13T15:23:19', 'brandonjmckay', 'https://github.com/kentaro-m/auto-assign-action/pull/15'),
+(2684, 304120355, 3, '2021-12-20T20:20:42', 'Beraliv', 'https://github.com/nanostores/nanostores/pull/88'),
 (2687, 212123834, 1, '2019-11-15T13:23:44', 'evantianx', 'https://github.com/kentaro-m/auto-assign-action/pull/10'),
 (2688, 389264260, 1, '2021-07-27T03:17:55', 'nihey', 'https://github.com/bernaferrari/CashBalancer/pull/4'),
 (2689, 304120355, 1, '2021-07-01T15:34:50', 'vasilii-kovalev', 'https://github.com/nanostores/nanostores/pull/36'),
