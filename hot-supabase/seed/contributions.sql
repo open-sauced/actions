@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T10:46:05.153Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T12:54:28.689Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2713,7 +2713,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3010, 14747598, 1, '2015-05-20T16:01:02', 'nuragic', 'https://github.com/typicode/json-server/pull/95'),
 (3011, 14747598, 1, '2016-01-20T19:08:06', 'bripkens', 'https://github.com/typicode/json-server/pull/222'),
 (3012, 14747598, 2, '2015-02-22T04:40:50', 'bahmutov', 'https://github.com/typicode/json-server/pull/50'),
-(3013, 14747598, 2, '2015-06-24T07:09:03', 'failpunk', 'https://github.com/typicode/json-server/pull/134'),
 (3014, 14747598, 1, '2015-04-28T15:22:23', 'binali-rustamov', 'https://github.com/typicode/json-server/pull/66'),
 (3015, 14747598, 1, '2017-10-10T21:49:51', 'ai', 'https://github.com/typicode/json-server/pull/655'),
 (3016, 14747598, 1, '2016-09-13T19:57:30', 'aegyed91', 'https://github.com/typicode/json-server/pull/338'),
@@ -3177,6 +3176,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3474, 9418724, 2, '2015-01-31T14:25:30', 'Ferada', 'https://github.com/petems/tugboat/pull/146'),
 (3475, 203364472, 4, '2021-12-16T05:11:46', 'Siedlerchr', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/40'),
 (3476, 75322405, 4, '2019-11-07T06:19:15', 'geeknoid', 'https://github.com/istio/proxy/pull/2488'),
+(3013, 14747598, 2, '2015-06-24T07:09:03', 'failpunk', 'https://github.com/typicode/json-server/pull/134'),
 (3477, 75322405, 4, '2017-06-21T20:36:54', 'mangchiandjjoe', 'https://github.com/istio/proxy/pull/377'),
 (3478, 75322405, 4, '2019-10-22T17:29:19', 'rshriram', 'https://github.com/istio/proxy/pull/2482'),
 (3479, 75322405, 4, '2017-09-08T16:45:33', 'mtakigiku', 'https://github.com/istio/proxy/pull/469'),
@@ -5260,8 +5260,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (183, 183712153, 1, '2021-12-16T16:04:42', 'andrewSalemi', 'https://github.com/dasDaniel/svelte-table/pull/69'),
 (184, 183712153, 1, '2021-11-15T22:48:31', 'dysfunc', 'https://github.com/dasDaniel/svelte-table/pull/65'),
 (185, 183712153, 1, '2021-08-06T17:15:36', 'dennisjlee', 'https://github.com/dasDaniel/svelte-table/pull/34'),
-(187, 307397117, 4, '2021-11-05T22:48:14', 'jennmueng', 'https://github.com/getsentry/sentry-capacitor/pull/99'),
 (186, 183712153, 2, '2020-12-10T06:33:04', 'thilo-behnke', 'https://github.com/dasDaniel/svelte-table/pull/26'),
+(187, 307397117, 4, '2021-11-05T22:48:14', 'jennmueng', 'https://github.com/getsentry/sentry-capacitor/pull/99'),
 (188, 307397117, 4, '2021-01-21T15:31:29', 'cSparkle', 'https://github.com/getsentry/sentry-capacitor/pull/22'),
 (189, 307397117, 4, '2022-03-29T18:05:15', 'bruno-garcia', 'https://github.com/getsentry/sentry-capacitor/pull/154'),
 (190, 307397117, 2, '2021-06-10T13:16:41', 'HazAT', 'https://github.com/getsentry/sentry-capacitor/pull/50'),
