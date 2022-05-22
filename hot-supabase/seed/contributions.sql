@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T12:54:28.689Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-22T14:44:28.851Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -966,7 +966,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1209, 342028554, 1, '2021-11-02T21:22:39', 'nathanchase', 'https://github.com/wheatjs/vite-plugin-vue-gql/pull/9'),
 (1210, 170738310, 4, '2020-02-28T08:40:24', 'madcake', 'https://github.com/trustwallet/wallet-core/pull/876'),
 (1211, 170738310, 4, '2019-05-08T18:26:25', 'alejandro-isaza', 'https://github.com/trustwallet/wallet-core/pull/416'),
-(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1213, 170738310, 4, '2020-04-23T23:28:54', 'vikmeup', 'https://github.com/trustwallet/wallet-core/pull/930'),
 (1214, 170738310, 4, '2019-08-13T04:40:02', 'dstranz', 'https://github.com/trustwallet/wallet-core/pull/577'),
 (1215, 170738310, 4, '2019-04-29T16:27:38', 'keefertaylor', 'https://github.com/trustwallet/wallet-core/pull/357'),
@@ -975,6 +974,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1218, 170738310, 4, '2019-08-13T02:53:23', 'BSathvik', 'https://github.com/trustwallet/wallet-core/pull/580'),
 (1219, 170738310, 4, '2022-03-31T21:57:33', 'ArtemGoryunov', 'https://github.com/trustwallet/wallet-core/pull/2111'),
 (1220, 170738310, 4, '2022-04-07T10:31:52', 'PiRK', 'https://github.com/trustwallet/wallet-core/pull/2130'),
+(1212, 170738310, 4, '2019-06-12T07:11:00', 'eddywm', 'https://github.com/trustwallet/wallet-core/pull/508'),
 (1221, 170738310, 4, '2020-09-28T06:35:00', 'terorie', 'https://github.com/trustwallet/wallet-core/pull/1114'),
 (1222, 170738310, 4, '2020-01-31T21:46:40', 'leoneparise', 'https://github.com/trustwallet/wallet-core/pull/841'),
 (1223, 170738310, 3, '2019-10-17T05:10:37', 'kolya182', 'https://github.com/trustwallet/wallet-core/pull/690'),
@@ -983,8 +983,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1226, 15720445, 3, '2017-09-19T17:07:43', 'philidem', 'https://github.com/marko-js/marko/pull/849'),
 (1227, 170738310, 4, '2020-12-08T09:02:40', 'CriesofCarrots', 'https://github.com/trustwallet/wallet-core/pull/1204'),
 (1228, 15720445, 4, '2018-02-20T18:33:44', 'scttdavs', 'https://github.com/marko-js/marko/pull/990'),
-(1229, 170738310, 3, '2019-04-09T17:17:56', 'yura-pakhuchiy', 'https://github.com/trustwallet/wallet-core/pull/283'),
 (1230, 15720445, 4, '2018-12-28T16:57:08', 'BhavinPatel04', 'https://github.com/marko-js/marko/pull/1211'),
+(1229, 170738310, 3, '2019-04-09T17:17:56', 'yura-pakhuchiy', 'https://github.com/trustwallet/wallet-core/pull/283'),
 (1231, 15720445, 4, '2022-05-17T17:55:51', 'mlrawlings', 'https://github.com/marko-js/marko/pull/1800'),
 (1232, 15720445, 4, '2018-06-21T17:40:45', 'austinkelleher', 'https://github.com/marko-js/marko/pull/1062'),
 (1233, 170738310, 4, '2019-04-16T10:20:36', 'NashMiao', 'https://github.com/trustwallet/wallet-core/pull/327'),
@@ -2713,6 +2713,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3010, 14747598, 1, '2015-05-20T16:01:02', 'nuragic', 'https://github.com/typicode/json-server/pull/95'),
 (3011, 14747598, 1, '2016-01-20T19:08:06', 'bripkens', 'https://github.com/typicode/json-server/pull/222'),
 (3012, 14747598, 2, '2015-02-22T04:40:50', 'bahmutov', 'https://github.com/typicode/json-server/pull/50'),
+(3013, 14747598, 2, '2015-06-24T07:09:03', 'failpunk', 'https://github.com/typicode/json-server/pull/134'),
 (3014, 14747598, 1, '2015-04-28T15:22:23', 'binali-rustamov', 'https://github.com/typicode/json-server/pull/66'),
 (3015, 14747598, 1, '2017-10-10T21:49:51', 'ai', 'https://github.com/typicode/json-server/pull/655'),
 (3016, 14747598, 1, '2016-09-13T19:57:30', 'aegyed91', 'https://github.com/typicode/json-server/pull/338'),
@@ -3176,7 +3177,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3474, 9418724, 2, '2015-01-31T14:25:30', 'Ferada', 'https://github.com/petems/tugboat/pull/146'),
 (3475, 203364472, 4, '2021-12-16T05:11:46', 'Siedlerchr', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/40'),
 (3476, 75322405, 4, '2019-11-07T06:19:15', 'geeknoid', 'https://github.com/istio/proxy/pull/2488'),
-(3013, 14747598, 2, '2015-06-24T07:09:03', 'failpunk', 'https://github.com/typicode/json-server/pull/134'),
 (3477, 75322405, 4, '2017-06-21T20:36:54', 'mangchiandjjoe', 'https://github.com/istio/proxy/pull/377'),
 (3478, 75322405, 4, '2019-10-22T17:29:19', 'rshriram', 'https://github.com/istio/proxy/pull/2482'),
 (3479, 75322405, 4, '2017-09-08T16:45:33', 'mtakigiku', 'https://github.com/istio/proxy/pull/469'),
