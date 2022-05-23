@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-23T16:52:43.787Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-23T18:48:39.837Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1052,6 +1052,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1482, 137104789, 1, '2019-10-05T22:32:51', 'DominikHerold', 'https://github.com/jamesmh/coravel/pull/112'),
 (1485, 137104789, 1, '2020-05-31T01:51:55', 'tolbxela', 'https://github.com/jamesmh/coravel/pull/169'),
 (1453, 16607898, 4, '2014-12-30T18:47:49', 'mnutt', 'https://github.com/harness/drone/pull/774'),
+(3786, 176946161, 2, '2021-06-17T17:48:12', 'sealedtx', 'https://github.com/sealedtx/java-youtube-downloader/pull/83'),
+(3787, 176946161, 1, '2021-04-16T06:28:06', 'jamesvickers19', 'https://github.com/sealedtx/java-youtube-downloader/pull/80'),
+(3790, 176946161, 2, '2020-09-07T17:44:24', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/49'),
+(3784, 176946161, 1, '2021-01-07T10:40:40', 'Fabulierer', 'https://github.com/sealedtx/java-youtube-downloader/pull/71'),
+(3785, 176946161, 1, '2020-06-02T20:11:09', 'Josemaralves', 'https://github.com/sealedtx/java-youtube-downloader/pull/21'),
 (3246, 199486441, 1, '2019-07-30T16:49:41', 't4k', 'https://github.com/esmero/archipelago-deployment/pull/3'),
 (3288, 199486441, 2, '2020-01-24T18:17:24', 'mitchellkeaney', 'https://github.com/esmero/archipelago-deployment/pull/29'),
 (3262, 199486441, 4, '2022-04-07T16:15:22', 'alliomeria', 'https://github.com/esmero/archipelago-deployment/pull/173'),
@@ -2233,8 +2238,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3241, 274495425, 4, '2022-05-21T14:07:51', 'JonnyBurger', 'https://github.com/remotion-dev/remotion/pull/1002'),
 (3254, 274495425, 4, '2021-04-28T17:58:44', 'Tobijudah', 'https://github.com/remotion-dev/remotion/pull/311'),
 (3283, 274495425, 4, '2022-05-07T08:49:23', 'Slashgear', 'https://github.com/remotion-dev/remotion/pull/976'),
-(3237, 274495425, 1, '2021-12-23T14:44:01', 'pablocubico', 'https://github.com/remotion-dev/remotion/pull/735'),
 (3251, 274495425, 3, '2021-05-01T17:17:36', 'j0nezz', 'https://github.com/remotion-dev/remotion/pull/330'),
+(3237, 274495425, 1, '2021-12-23T14:44:01', 'pablocubico', 'https://github.com/remotion-dev/remotion/pull/735'),
 (3269, 274495425, 4, '2022-02-27T18:42:50', 'tomByrer', 'https://github.com/remotion-dev/remotion/pull/856'),
 (3258, 274495425, 4, '2021-04-04T13:11:18', 'jeetiss', 'https://github.com/remotion-dev/remotion/pull/193'),
 (3253, 274495425, 2, '2021-10-25T15:25:56', 'bpedersen', 'https://github.com/remotion-dev/remotion/pull/656'),
@@ -2526,13 +2531,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3729, 2823326, 1, '2013-10-02T06:18:46', 'caseyscarborough', 'https://github.com/asciinema/asciinema/pull/38'),
 (3718, 2823326, 1, '2019-04-10T09:31:22', 'davidbradway', 'https://github.com/asciinema/asciinema/pull/350'),
 (3727, 2823326, 1, '2015-06-28T19:39:51', 'hpurmann', 'https://github.com/asciinema/asciinema/pull/115'),
-(3784, 176946161, 1, '2021-01-07T10:40:40', 'Fabulierer', 'https://github.com/sealedtx/java-youtube-downloader/pull/71'),
-(3785, 176946161, 1, '2020-06-02T20:11:09', 'Josemaralves', 'https://github.com/sealedtx/java-youtube-downloader/pull/21'),
-(3786, 176946161, 2, '2021-06-17T17:48:12', 'sealedtx', 'https://github.com/sealedtx/java-youtube-downloader/pull/83'),
-(3787, 176946161, 1, '2021-04-16T06:28:06', 'jamesvickers19', 'https://github.com/sealedtx/java-youtube-downloader/pull/80'),
-(3788, 176946161, 1, '2020-06-12T07:52:13', 'poornerd', 'https://github.com/sealedtx/java-youtube-downloader/pull/23'),
-(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63'),
-(3790, 176946161, 2, '2020-09-07T17:44:24', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/49'),
 (3791, 248032165, 2, '2022-02-22T17:37:54', 'jgrandja', 'https://github.com/spring-projects/spring-authorization-server/pull/628'),
 (3792, 248032165, 3, '2021-10-14T19:17:57', 'Kehrlann', 'https://github.com/spring-projects/spring-authorization-server/pull/450'),
 (3793, 248032165, 2, '2021-06-18T16:46:46', 'ovidiupopa91', 'https://github.com/spring-projects/spring-authorization-server/pull/314'),
@@ -2589,6 +2587,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3844, 90080868, 1, '2018-10-08T04:03:28', 'anelook', 'https://github.com/saadq/resumake.io/pull/76'),
 (3845, 34470375, 1, '2019-05-11T19:32:45', 'OllyHodgson', 'https://github.com/sachatrauwaen/OpenContent/pull/32'),
 (3846, 34470375, 4, '2021-06-04T10:48:35', 'skamphuis', 'https://github.com/sachatrauwaen/OpenContent/pull/170'),
+(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63'),
+(3788, 176946161, 1, '2020-06-12T07:52:13', 'poornerd', 'https://github.com/sealedtx/java-youtube-downloader/pull/23'),
 (3847, 34470375, 2, '2021-04-15T15:54:55', 'Timo-Breumelhof', 'https://github.com/sachatrauwaen/OpenContent/pull/121'),
 (3848, 34470375, 1, '2019-08-01T07:51:25', 'WillStrohl', 'https://github.com/sachatrauwaen/OpenContent/pull/91'),
 (3849, 34470375, 1, '2015-11-17T17:35:09', 'patrickgalbraith', 'https://github.com/sachatrauwaen/OpenContent/pull/2'),
