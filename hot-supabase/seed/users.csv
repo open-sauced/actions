@@ -116,11 +116,11 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 66239105,0,true,false,true,2022-05-16T10:23:11.978102+00:00,Amoghtech
 39362365,0,true,false,true,2022-05-16T10:36:14.975648+00:00,huntertrammell
 66696421,1,true,false,true,2022-05-16T10:47:32.280099+00:00,cozyCodr
-49831545,0,true,true,true,2022-05-16T10:23:10.331879+00:00,creeperkafasi
 25217168,0,true,false,true,2022-05-16T10:54:44.023671+00:00,KakoozaJerry
+49831545,0,true,true,true,2022-05-16T10:23:10.331879+00:00,creeperkafasi
 85258143,0,true,false,true,2022-05-16T10:54:44.848729+00:00,oscakampala
 42749147,0,true,false,true,2022-05-16T10:54:45.768326+00:00,akobepeter
-16942870,7,true,false,true,2022-05-16T11:08:17.989778+00:00,ThomasErhel
+60254117,0,true,false,true,2022-05-16T11:08:16.888048+00:00,jebitok-dev
 47711025,4,true,false,true,2022-05-16T11:08:18.931416+00:00,nobalpha
 30334776,0,true,false,true,2022-05-16T11:14:44.593556+00:00,BolajiAyodeji
 25867172,1,true,false,true,2022-05-16T11:14:45.432843+00:00,teezzan
@@ -162,13 +162,13 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 667716,10,true,false,true,2022-05-16T14:34:24.603609+00:00,diminutivesloop
 46828701,0,true,false,true,2022-05-16T14:34:26.440245+00:00,idanceinbetween
 4838867,0,true,false,true,2022-05-16T14:51:32.62+00:00,microjumper
-1295334,1,true,false,true,2022-05-16T14:51:35.502557+00:00,applesnort
+51794934,1,true,false,true,2022-05-16T14:51:34.13913+00:00,RubesWorld
+2808728,0,true,false,true,2022-05-16T15:04:46.963667+00:00,raychatter
 25194960,1,true,false,true,2022-05-16T15:04:48.376689+00:00,ghgoodreau
 28281924,1,true,false,true,2022-05-16T15:04:49.752109+00:00,HeavyBR
 3777549,2,true,false,true,2022-05-16T15:23:40.172714+00:00,alotoftype
 36890230,1,true,false,true,2022-05-16T15:23:41.189013+00:00,JEbertPrime
-51794934,1,true,false,true,2022-05-16T14:51:34.13913+00:00,RubesWorld
-2808728,0,true,false,true,2022-05-16T15:04:46.963667+00:00,raychatter
+1295334,1,true,false,true,2022-05-16T14:51:35.502557+00:00,applesnort
 15052690,3,true,false,true,2022-05-16T15:23:42.61745+00:00,creaturenex
 527550,2,true,false,true,2022-05-16T15:56:15.686488+00:00,atzorvas
 3941126,5,true,false,true,2022-05-16T15:56:17.50627+00:00,m-anwr
@@ -192,7 +192,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 2609511,0,true,false,true,2022-05-16T08:58:35.604423+00:00,hackintoshrao
 203683,0,true,false,true,2022-05-16T09:50:41.915566+00:00,virtualandy
 37635083,2,true,false,true,2022-05-16T09:50:43.516231+00:00,NsdHSO
-60254117,0,true,false,true,2022-05-16T11:08:16.888048+00:00,jebitok-dev
+16942870,7,true,false,true,2022-05-16T11:08:17.989778+00:00,ThomasErhel
 69519470,2,true,false,true,2022-05-20T08:01:20.238516+00:00,Kakashi2998
 35429278,3,true,false,true,2022-05-20T08:01:21.37572+00:00,enjinerd
 15004099,1,true,false,true,2022-05-20T08:01:22.39659+00:00,chadmcrowell
@@ -234,5 +234,5 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 13369991,0,true,false,true,2022-05-22T00:20:16.768573+00:00,rdt712
 141381,4,true,false,true,2022-05-20T13:25:14.048811+00:00,mauvehed
 22186029,0,true,true,true,2022-05-16T06:28:43.660068+00:00,BenjaminMichaelis
-103691815,1,true,false,true,2022-05-22T20:31:55.673341+00:00,TheTestTestington
+103691815,0,true,false,true,2022-05-22T20:31:55.673341+00:00,TheTestTestington
 60850993,1,true,false,true,2022-05-20T08:13:27.132881+00:00,vinosamari
