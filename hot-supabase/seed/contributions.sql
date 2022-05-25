@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T18:48:39.385Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T20:45:57.592Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1362,8 +1362,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1647, 378070841, 1, '2021-10-20T13:03:53', 'daboudii', 'https://github.com/ngneat/elf/pull/32'),
 (1648, 378070841, 3, '2022-04-17T07:14:18', 'shaharkazaz', 'https://github.com/ngneat/elf/pull/242'),
 (1649, 378070841, 3, '2022-03-23T06:44:49', 'EricPoul', 'https://github.com/ngneat/elf/pull/203'),
-(1650, 378070841, 1, '2022-01-24T16:53:39', 'davidsidlinger', 'https://github.com/ngneat/elf/pull/126'),
 (1651, 378070841, 1, '2022-03-12T17:40:54', 'pavankjadda', 'https://github.com/ngneat/elf/pull/191'),
+(1650, 378070841, 1, '2022-01-24T16:53:39', 'davidsidlinger', 'https://github.com/ngneat/elf/pull/126'),
 (1652, 378070841, 2, '2022-05-15T12:27:03', 'thomas-w-grant', 'https://github.com/ngneat/elf/pull/258'),
 (1653, 378070841, 1, '2021-10-07T04:51:19', 'ron-myers', 'https://github.com/ngneat/elf/pull/12'),
 (1654, 348060227, 4, '2022-05-17T15:44:50', 'FredKSchott', 'https://github.com/withastro/astro/pull/3386'),
