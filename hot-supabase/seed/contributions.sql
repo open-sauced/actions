@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T14:45:25.899Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T16:54:47.766Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4031,8 +4031,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5151, 13491895, 4, '2016-10-02T10:12:39', 'MHM5000', 'https://github.com/EbookFoundation/free-programming-books/pull/2054'),
 (5152, 13491895, 4, '2021-01-11T16:44:00', 'kadhirash', 'https://github.com/EbookFoundation/free-programming-books/pull/5252'),
 (5153, 13491895, 4, '2015-05-12T08:27:27', 'esparta', 'https://github.com/EbookFoundation/free-programming-books/pull/1473'),
-(5154, 13491895, 4, '2021-11-20T18:25:15', 'eshellman', 'https://github.com/EbookFoundation/free-programming-books/pull/6614'),
 (5155, 13491895, 4, '2018-08-30T20:45:00', 'alexanderfefelov', 'https://github.com/EbookFoundation/free-programming-books/pull/2953'),
+(5154, 13491895, 4, '2021-11-20T18:25:15', 'eshellman', 'https://github.com/EbookFoundation/free-programming-books/pull/6614'),
 (5156, 13491895, 4, '2022-04-18T16:51:23', 'davorpa', 'https://github.com/EbookFoundation/free-programming-books/pull/6828'),
 (5157, 13491895, 4, '2021-01-16T20:41:33', 'MrS4w', 'https://github.com/EbookFoundation/free-programming-books/pull/5263'),
 (5158, 13491895, 4, '2017-02-04T10:23:06', 'ericguirbal', 'https://github.com/EbookFoundation/free-programming-books/pull/2224'),
@@ -5019,9 +5019,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1911, 28548699, 1, '2019-05-27T02:27:43', 'parvezk', 'https://github.com/cassidoo/getting-a-gig/pull/41'),
 (1905, 28548699, 1, '2021-11-01T00:29:06', 'L-tech', 'https://github.com/cassidoo/getting-a-gig/pull/53'),
 (1901, 28548699, 1, '2015-03-12T17:51:56', 'rashiq', 'https://github.com/cassidoo/getting-a-gig/pull/14'),
-(1897, 28548699, 1, '2015-10-05T17:13:17', 'katamaritaco', 'https://github.com/cassidoo/getting-a-gig/pull/21'),
 (1887, 28548699, 1, '2017-04-05T06:48:37', 'domingohui', 'https://github.com/cassidoo/getting-a-gig/pull/38'),
 (1903, 28548699, 1, '2015-01-09T21:07:10', 'ruthgrace', 'https://github.com/cassidoo/getting-a-gig/pull/4'),
+(1897, 28548699, 1, '2015-10-05T17:13:17', 'katamaritaco', 'https://github.com/cassidoo/getting-a-gig/pull/21'),
 (1920, 28548699, 1, '2017-10-16T06:11:49', 'yangshun', 'https://github.com/cassidoo/getting-a-gig/pull/40'),
 (1916, 28548699, 1, '2016-12-22T21:26:43', 'SuyashLakhotia', 'https://github.com/cassidoo/getting-a-gig/pull/32'),
 (1915, 28548699, 1, '2015-01-11T00:55:51', 'kyeah', 'https://github.com/cassidoo/getting-a-gig/pull/9'),
