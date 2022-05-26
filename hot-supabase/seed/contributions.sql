@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-25T22:45:50.317Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T01:05:24.742Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2981,8 +2981,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3616, 45350538, 1, '2017-12-27T18:47:42', 'ab', 'https://github.com/piotrmurach/tty-prompt/pull/63'),
 (3626, 45350538, 1, '2020-09-05T11:31:27', 'caalberts', 'https://github.com/piotrmurach/tty-prompt/pull/149'),
 (3628, 45350538, 1, '2018-01-31T23:21:33', 'brodygov', 'https://github.com/piotrmurach/tty-prompt/pull/76'),
-(3599, 45350538, 1, '2016-01-06T20:35:17', 'frankschmitt', 'https://github.com/piotrmurach/tty-prompt/pull/7'),
 (3604, 45350538, 1, '2017-01-29T15:45:17', 'ddfreyne', 'https://github.com/piotrmurach/tty-prompt/pull/38'),
+(3599, 45350538, 1, '2016-01-06T20:35:17', 'frankschmitt', 'https://github.com/piotrmurach/tty-prompt/pull/7'),
 (3608, 45350538, 2, '2018-01-19T12:48:29', '64kramsystem', 'https://github.com/piotrmurach/tty-prompt/pull/73'),
 (3603, 45350538, 1, '2017-03-09T22:03:49', 'carlosefonseca', 'https://github.com/piotrmurach/tty-prompt/pull/48'),
 (3614, 45350538, 2, '2020-06-25T19:53:43', 'DanielVartanov', 'https://github.com/piotrmurach/tty-prompt/pull/147'),
