@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T04:53:02.275Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T06:49:03.105Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5245,8 +5245,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2447, 103953059, 1, '2017-11-12T13:45:18', 'BenjaminVanRyseghem', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/92'),
 (2206, 257314632, 2, '2022-03-22T17:58:49', 'marcoroth', 'https://github.com/onflow/fcl-js/pull/1073'),
 (2463, 103953059, 2, '2017-10-07T08:13:21', 'iifeoluwa', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/64'),
-(2429, 103953059, 1, '2017-11-12T13:46:07', 'ajbrzoz', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/91'),
 (2455, 103953059, 1, '2017-10-24T19:25:16', 'chaseholdren', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/74'),
+(2429, 103953059, 1, '2017-11-12T13:46:07', 'ajbrzoz', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/91'),
 (2469, 103953059, 1, '2018-05-23T19:10:28', 'tourniquet', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/116'),
 (2449, 103953059, 1, '2017-10-02T06:02:19', 'Glutnix', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/53'),
 (2440, 103953059, 1, '2017-09-20T17:59:55', 'bhageena', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/14'),
