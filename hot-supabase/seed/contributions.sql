@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T03:16:14.279Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T04:53:02.275Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1384,6 +1384,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1669, 378070841, 1, '2022-02-03T20:11:03', 'hig0r', 'https://github.com/ngneat/elf/pull/132'),
 (1670, 348060227, 4, '2022-04-26T19:26:21', 'Princesseuh', 'https://github.com/withastro/astro/pull/3209'),
 (1671, 348060227, 4, '2022-01-21T00:00:23', 'Mikkel-T', 'https://github.com/withastro/astro/pull/2429'),
+(1672, 378070841, 1, '2021-10-10T10:31:33', 'Pascalmh', 'https://github.com/ngneat/elf/pull/15'),
 (1673, 348060227, 4, '2022-01-06T00:25:39', 'jasikpark', 'https://github.com/withastro/astro/pull/2321'),
 (1674, 348060227, 4, '2022-05-12T16:05:55', 'bholmesdev', 'https://github.com/withastro/astro/pull/3337'),
 (1675, 348060227, 4, '2022-01-24T15:35:19', 'weakish', 'https://github.com/withastro/astro/pull/2449'),
@@ -1451,7 +1452,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1725, 27817031, 4, '2017-12-29T09:10:20', 'Vishal-Deshpande', 'https://github.com/understrap/understrap/pull/511'),
 (1721, 27817031, 1, '2017-06-09T05:52:21', 'ramiy', 'https://github.com/understrap/understrap/pull/346'),
 (1693, 27817031, 2, '2019-02-12T08:16:54', 'stevygee', 'https://github.com/understrap/understrap/pull/915'),
-(1672, 378070841, 1, '2021-10-10T10:31:33', 'Pascalmh', 'https://github.com/ngneat/elf/pull/15'),
 (1707, 27817031, 3, '2017-03-21T14:13:56', 'VesterDe', 'https://github.com/understrap/understrap/pull/273'),
 (1706, 27817031, 4, '2018-06-25T21:57:28', 'axlright', 'https://github.com/understrap/understrap/pull/711'),
 (3284, 280531604, 3, '2020-11-17T21:16:12', 'jh3y', 'https://github.com/eggheadio/egghead-next/pull/159'),
@@ -3577,8 +3577,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4382, 4132857, 4, '2020-04-20T15:16:09', 'jcrowgey', 'https://github.com/insanum/gcalcli/pull/515'),
 (4383, 4132857, 3, '2019-09-02T20:20:05', 'mruwek', 'https://github.com/insanum/gcalcli/pull/476'),
 (4395, 4132857, 1, '2016-07-29T18:08:58', 'karlicoss', 'https://github.com/insanum/gcalcli/pull/249'),
-(4397, 4132857, 1, '2019-06-12T04:41:05', 'Tyilo', 'https://github.com/insanum/gcalcli/pull/459'),
 (4403, 4132857, 1, '2013-01-17T17:38:27', 'mali', 'https://github.com/insanum/gcalcli/pull/49'),
+(4397, 4132857, 1, '2019-06-12T04:41:05', 'Tyilo', 'https://github.com/insanum/gcalcli/pull/459'),
 (4396, 4132857, 1, '2015-09-08T00:27:52', 'shigemk2', 'https://github.com/insanum/gcalcli/pull/198'),
 (4385, 4132857, 3, '2020-03-12T15:33:04', 'flicken', 'https://github.com/insanum/gcalcli/pull/518'),
 (4392, 4132857, 2, '2013-01-18T18:34:30', 'wor', 'https://github.com/insanum/gcalcli/pull/50'),
