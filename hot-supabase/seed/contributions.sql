@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T06:49:03.105Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-26T08:48:16.532Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3945,9 +3945,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4988, 37140605, 1, '2015-09-05T08:16:16', 'jalcine', 'https://github.com/dwyl/learn-tdd/pull/24'),
 (4995, 139156354, 4, '2022-03-11T19:05:43', 'bsekachev', 'https://github.com/openvinotoolkit/cvat/pull/4409'),
 (4991, 139156354, 4, '2021-07-15T11:27:25', 'zhiltsov-max', 'https://github.com/openvinotoolkit/cvat/pull/3411'),
-(4999, 139156354, 4, '2022-04-09T02:50:20', 'nmanovic', 'https://github.com/openvinotoolkit/cvat/pull/4556'),
 (4998, 139156354, 4, '2022-01-26T10:41:59', 'dvkruchinin', 'https://github.com/openvinotoolkit/cvat/pull/4236'),
 (4990, 139156354, 4, '2022-03-16T08:49:04', 'kirill-sizov', 'https://github.com/openvinotoolkit/cvat/pull/4403'),
+(4999, 139156354, 4, '2022-04-09T02:50:20', 'nmanovic', 'https://github.com/openvinotoolkit/cvat/pull/4556'),
 (4993, 139156354, 4, '2022-04-04T06:06:48', 'Marishka17', 'https://github.com/openvinotoolkit/cvat/pull/4541'),
 (4997, 139156354, 4, '2020-04-27T07:07:45', 'benhoff', 'https://github.com/openvinotoolkit/cvat/pull/1328'),
 (4994, 139156354, 4, '2022-03-25T11:21:37', 'k1won', 'https://github.com/openvinotoolkit/cvat/pull/4513'),
@@ -4865,9 +4865,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1335, 219294494, 1, '2020-12-18T19:49:10', 'petarvujovic98', 'https://github.com/xxh/xxh/pull/108'),
 (1312, 278150898, 1, '2020-12-04T16:49:59', 'cdriscol', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/43'),
 (1345, 219294494, 1, '2021-03-14T07:35:20', '0xflotus', 'https://github.com/xxh/xxh/pull/111'),
-(1325, 219294494, 1, '2020-03-22T13:48:00', 'dyuri', 'https://github.com/xxh/xxh/pull/65'),
 (1352, 219294494, 1, '2022-03-04T13:03:31', 'SBado', 'https://github.com/xxh/xxh/pull/136'),
 (1383, 219294494, 1, '2020-05-16T18:55:49', 'syndicut', 'https://github.com/xxh/xxh/pull/83'),
+(1325, 219294494, 1, '2020-03-22T13:48:00', 'dyuri', 'https://github.com/xxh/xxh/pull/65'),
 (1313, 278150898, 1, '2021-01-13T17:22:46', 'agcorrea', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/54'),
 (1348, 219294494, 2, '2020-06-20T08:04:33', 'onokatio', 'https://github.com/xxh/xxh/pull/90'),
 (1334, 219294494, 1, '2020-02-28T06:32:36', 'seanfarley', 'https://github.com/xxh/xxh/pull/33'),
@@ -5245,8 +5245,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2447, 103953059, 1, '2017-11-12T13:45:18', 'BenjaminVanRyseghem', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/92'),
 (2206, 257314632, 2, '2022-03-22T17:58:49', 'marcoroth', 'https://github.com/onflow/fcl-js/pull/1073'),
 (2463, 103953059, 2, '2017-10-07T08:13:21', 'iifeoluwa', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/64'),
-(2455, 103953059, 1, '2017-10-24T19:25:16', 'chaseholdren', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/74'),
 (2429, 103953059, 1, '2017-11-12T13:46:07', 'ajbrzoz', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/91'),
+(2455, 103953059, 1, '2017-10-24T19:25:16', 'chaseholdren', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/74'),
 (2469, 103953059, 1, '2018-05-23T19:10:28', 'tourniquet', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/116'),
 (2449, 103953059, 1, '2017-10-02T06:02:19', 'Glutnix', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/53'),
 (2440, 103953059, 1, '2017-09-20T17:59:55', 'bhageena', 'https://github.com/mbeaudru/modern-js-cheatsheet/pull/14'),
