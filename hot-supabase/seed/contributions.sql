@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T16:53:58.871Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T18:48:40.815Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2482,10 +2482,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2992, 172227885, 4, '2020-06-05T17:11:46', 'tiangolo', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/211'),
 (2970, 172227885, 2, '2020-02-07T20:04:02', 'dmontagu', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/37'),
 (2984, 172227885, 2, '2020-04-19T05:56:06', 'RCheese', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/148'),
-(2979, 172227885, 2, '2020-04-17T12:20:49', 'br3ndonland', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/121'),
 (2971, 172227885, 1, '2019-03-29T14:34:39', 'mpclarkson', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/4'),
 (2981, 172227885, 1, '2020-04-17T12:54:48', 'Nonameentered', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/135'),
 (2976, 172227885, 1, '2020-04-17T07:20:00', 'mocsar', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/106'),
+(2979, 172227885, 2, '2020-04-17T12:20:49', 'br3ndonland', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/121'),
 (2980, 172227885, 1, '2020-04-17T06:04:42', 'gucharbon', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/98'),
 (2982, 172227885, 1, '2020-04-17T05:56:10', 'StephenBrown2', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/87'),
 (2988, 172227885, 1, '2020-04-17T12:31:31', 'rlonka', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/129'),
@@ -2835,6 +2835,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (55, 246322368, 1, '2021-08-17T22:07:27', 'SirDaev', 'https://github.com/dayhaysoos/use-shopping-cart/pull/219'),
 (56, 246322368, 1, '2020-06-06T20:13:55', 'horacioh', 'https://github.com/dayhaysoos/use-shopping-cart/pull/116'),
 (57, 246322368, 1, '2020-05-01T17:05:15', 'jlengstorf', 'https://github.com/dayhaysoos/use-shopping-cart/pull/88'),
+(3475, 203364472, 4, '2021-12-16T05:11:46', 'Siedlerchr', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/40'),
 (3419, 293844582, 1, '2021-01-21T17:05:45', 'phil4lif', 'https://github.com/spicygreenbook/greenbook-app/pull/257'),
 (3463, 9418724, 4, '2014-01-25T17:59:00', 'pearkes', 'https://github.com/petems/tugboat/pull/87'),
 (3473, 9418724, 4, '2018-03-11T19:03:57', 'petems', 'https://github.com/petems/tugboat/pull/296'),
@@ -3121,7 +3122,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3813, 96395, 1, '2015-11-02T22:34:13', 'npauzenga', 'https://github.com/faker-ruby/faker/pull/447'),
 (3814, 96395, 4, '2020-10-28T07:24:22', 'amatsuda', 'https://github.com/faker-ruby/faker/pull/2182'),
 (3815, 96395, 4, '2018-07-12T17:13:41', 'tagliala', 'https://github.com/faker-ruby/faker/pull/1311'),
-(3475, 203364472, 4, '2021-12-16T05:11:46', 'Siedlerchr', 'https://github.com/mostafa-mansour1/previewAnyFile/pull/40'),
 (3816, 96395, 1, '2020-05-20T08:33:05', 'mattman', 'https://github.com/faker-ruby/faker/pull/1964'),
 (3817, 96395, 4, '2019-12-07T00:24:54', 'tiagofsilva', 'https://github.com/faker-ruby/faker/pull/1847'),
 (3818, 96395, 4, '2017-03-18T22:17:35', 'PascalSchumacher', 'https://github.com/faker-ruby/faker/pull/847'),
@@ -3209,13 +3209,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3891, 123625732, 4, '2022-05-18T20:00:36', 'chrisdholt', 'https://github.com/microsoft/fast/pull/5946'),
 (3893, 123625732, 4, '2022-04-19T18:11:26', 'janechu', 'https://github.com/microsoft/fast/pull/5714'),
 (3896, 123625732, 4, '2022-05-13T22:26:26', 'awentzel', 'https://github.com/microsoft/fast/pull/5973'),
+(3908, 123625732, 4, '2022-05-09T15:02:57', 'scomea', 'https://github.com/microsoft/fast/pull/5948'),
 (3892, 123625732, 4, '2022-05-23T22:12:19', 'nicholasrice', 'https://github.com/microsoft/fast/pull/6011'),
 (3902, 123625732, 4, '2022-02-18T19:28:38', 'khamudom', 'https://github.com/microsoft/fast/pull/5476'),
 (3894, 123625732, 4, '2022-05-02T22:25:17', 'radium-v', 'https://github.com/microsoft/fast/pull/5924'),
 (3904, 123625732, 4, '2022-05-13T22:00:15', 'huynhicode', 'https://github.com/microsoft/fast/pull/5956'),
-(3908, 123625732, 4, '2022-05-09T15:02:57', 'scomea', 'https://github.com/microsoft/fast/pull/5948'),
-(3903, 123625732, 4, '2020-06-30T19:28:42', 'SamanthaAO', 'https://github.com/microsoft/fast/pull/3407'),
 (3907, 123625732, 4, '2019-08-09T01:22:58', 'nalogiudice', 'https://github.com/microsoft/fast/pull/2108'),
+(3903, 123625732, 4, '2020-06-30T19:28:42', 'SamanthaAO', 'https://github.com/microsoft/fast/pull/3407'),
 (3899, 123625732, 4, '2022-03-03T23:18:42', 'SethDonohue', 'https://github.com/microsoft/fast/pull/5501'),
 (3906, 123625732, 4, '2022-05-06T05:51:37', 'bheston', 'https://github.com/microsoft/fast/pull/5855'),
 (3898, 123625732, 4, '2021-09-27T15:30:11', 'marjonlynch', 'https://github.com/microsoft/fast/pull/5223'),
@@ -3947,8 +3947,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4991, 139156354, 4, '2021-07-15T11:27:25', 'zhiltsov-max', 'https://github.com/openvinotoolkit/cvat/pull/3411'),
 (4999, 139156354, 4, '2022-04-09T02:50:20', 'nmanovic', 'https://github.com/openvinotoolkit/cvat/pull/4556'),
 (4998, 139156354, 4, '2022-01-26T10:41:59', 'dvkruchinin', 'https://github.com/openvinotoolkit/cvat/pull/4236'),
-(4990, 139156354, 4, '2022-03-16T08:49:04', 'kirill-sizov', 'https://github.com/openvinotoolkit/cvat/pull/4403'),
 (4993, 139156354, 4, '2022-04-04T06:06:48', 'Marishka17', 'https://github.com/openvinotoolkit/cvat/pull/4541'),
+(4990, 139156354, 4, '2022-03-16T08:49:04', 'kirill-sizov', 'https://github.com/openvinotoolkit/cvat/pull/4403'),
 (4997, 139156354, 4, '2020-04-27T07:07:45', 'benhoff', 'https://github.com/openvinotoolkit/cvat/pull/1328'),
 (4994, 139156354, 4, '2022-03-25T11:21:37', 'k1won', 'https://github.com/openvinotoolkit/cvat/pull/4513'),
 (4992, 139156354, 3, '2021-06-01T09:26:58', 'Jooong', 'https://github.com/openvinotoolkit/cvat/pull/3235'),
