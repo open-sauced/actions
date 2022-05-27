@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T04:53:32.639Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T06:49:15.378Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3915,8 +3915,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4958, 280028251, 2, '2020-10-18T17:06:42', 'JonathanGin52', 'https://github.com/JessicaLim8/JessicaLim8/pull/461'),
 (4959, 280028251, 4, '2022-01-13T15:56:30', 'JessicaLim8', 'https://github.com/JessicaLim8/JessicaLim8/pull/1856'),
 (4960, 37140605, 1, '2019-05-28T09:06:58', 'mattdrago', 'https://github.com/dwyl/learn-tdd/pull/125'),
-(4962, 37140605, 1, '2015-06-29T21:52:13', 'iteles', 'https://github.com/dwyl/learn-tdd/pull/19'),
 (4961, 37140605, 2, '2019-10-30T19:16:52', 'BurkHufnagel', 'https://github.com/dwyl/learn-tdd/pull/131'),
+(4962, 37140605, 1, '2015-06-29T21:52:13', 'iteles', 'https://github.com/dwyl/learn-tdd/pull/19'),
 (4963, 37140605, 1, '2016-05-23T20:15:29', 'joseluisq', 'https://github.com/dwyl/learn-tdd/pull/55'),
 (4964, 37140605, 4, '2021-11-03T17:20:39', 'nelsonic', 'https://github.com/dwyl/learn-tdd/pull/139'),
 (4965, 37140605, 1, '2017-08-04T08:30:14', 'emersonmellado', 'https://github.com/dwyl/learn-tdd/pull/104'),
@@ -4122,8 +4122,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5280, 326460518, 2, '2021-02-27T20:59:34', 'vishalsodani', 'https://github.com/ratfactor/ziglings/pull/27'),
 (5279, 326460518, 1, '2021-11-08T00:38:47', 'jhalmen', 'https://github.com/ratfactor/ziglings/pull/77'),
 (5286, 326460518, 1, '2022-01-06T23:08:43', 'adamu', 'https://github.com/ratfactor/ziglings/pull/88'),
-(5283, 326460518, 2, '2021-06-14T14:43:07', 'ZapAnton', 'https://github.com/ratfactor/ziglings/pull/58'),
 (5284, 326460518, 1, '2021-12-01T18:32:08', 'Arnavion', 'https://github.com/ratfactor/ziglings/pull/83'),
+(5283, 326460518, 2, '2021-06-14T14:43:07', 'ZapAnton', 'https://github.com/ratfactor/ziglings/pull/58'),
 (5300, 238316428, 4, '2022-05-24T07:40:54', 'CSSEGISandData', 'https://github.com/CSSEGISandData/COVID-19/pull/5757'),
 (5306, 238316428, 1, '2020-05-15T15:18:03', 'Yuhang065', 'https://github.com/CSSEGISandData/COVID-19/pull/2525'),
 (5302, 238316428, 4, '2020-03-05T19:22:45', 'hongru94', 'https://github.com/CSSEGISandData/COVID-19/pull/252'),
@@ -4515,9 +4515,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (347, 20619036, 4, '2021-10-23T18:43:20', 'bcambl', 'https://github.com/pi-hole/pi-hole/pull/4403'),
 (307, 11981144, 4, '2017-08-04T11:35:49', 'FredKruse', 'https://github.com/languagetool-org/languagetool/pull/763'),
 (360, 20619036, 4, '2022-04-01T05:47:44', 'rdwebdesign', 'https://github.com/pi-hole/pi-hole/pull/4664'),
+(338, 20619036, 2, '2016-05-11T20:53:38', 'yoosi', 'https://github.com/pi-hole/pi-hole/pull/500'),
 (344, 20619036, 4, '2022-04-19T17:34:22', 'MichaIng', 'https://github.com/pi-hole/pi-hole/pull/4694'),
 (337, 20619036, 4, '2016-11-08T05:45:24', 'brontide', 'https://github.com/pi-hole/pi-hole/pull/887'),
-(338, 20619036, 2, '2016-05-11T20:53:38', 'yoosi', 'https://github.com/pi-hole/pi-hole/pull/500'),
 (365, 20619036, 1, '2019-02-11T01:06:26', 'cryptomilk', 'https://github.com/pi-hole/pi-hole/pull/2621'),
 (366, 20619036, 2, '2017-02-21T21:49:20', 'ProtoFoo', 'https://github.com/pi-hole/pi-hole/pull/1265'),
 (343, 20619036, 3, '2016-10-24T09:48:53', 'airencracken', 'https://github.com/pi-hole/pi-hole/pull/838'),
@@ -4582,8 +4582,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (496, 22355214, 2, '2019-07-20T09:26:20', 'mike-north', 'https://github.com/remarkjs/remark/pull/383'),
 (597, 32247847, 4, '2021-12-01T19:06:31', 'kwonoj', 'https://github.com/ReactiveX/rxjs/pull/6668'),
 (606, 32247847, 4, '2022-04-16T08:21:56', 'cartant', 'https://github.com/ReactiveX/rxjs/pull/6934'),
-(497, 22355214, 1, '2021-08-29T15:41:32', 'aarondfrancis', 'https://github.com/remarkjs/remark/pull/826'),
 (610, 32247847, 4, '2022-03-10T00:15:08', 'benlesh', 'https://github.com/ReactiveX/rxjs/pull/6878'),
+(497, 22355214, 1, '2021-08-29T15:41:32', 'aarondfrancis', 'https://github.com/remarkjs/remark/pull/826'),
 (607, 32247847, 4, '2018-04-10T20:29:03', 'jasonaden', 'https://github.com/ReactiveX/rxjs/pull/3542'),
 (588, 32247847, 4, '2020-04-03T00:18:28', 'dzhavat', 'https://github.com/ReactiveX/rxjs/pull/5283'),
 (587, 32247847, 4, '2022-04-19T02:01:57', 'jakovljevic-mladen', 'https://github.com/ReactiveX/rxjs/pull/6912'),
