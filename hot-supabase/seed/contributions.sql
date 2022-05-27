@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T06:49:15.378Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T08:47:56.913Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3847,9 +3847,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4842, 507, 3, '2011-06-01T02:29:22', 'NateBarnes', 'https://github.com/sferik/twitter/pull/167'),
 (4853, 507, 3, '2012-05-04T15:22:36', 'tomykaira', 'https://github.com/sferik/twitter/pull/256'),
 (4849, 507, 2, '2013-08-01T11:08:05', 'korny', 'https://github.com/sferik/twitter/pull/436'),
-(4852, 507, 3, '2012-02-10T23:34:33', 'kunalmodi', 'https://github.com/sferik/twitter/pull/236'),
 (4840, 507, 1, '2014-05-14T12:28:39', 'spurton', 'https://github.com/sferik/twitter/pull/562'),
 (4850, 507, 4, '2015-01-13T17:47:05', 'rrrene', 'https://github.com/sferik/twitter/pull/645'),
+(4852, 507, 3, '2012-02-10T23:34:33', 'kunalmodi', 'https://github.com/sferik/twitter/pull/236'),
 (4858, 507, 2, '2016-12-06T05:16:39', 'tak1n', 'https://github.com/sferik/twitter/pull/816'),
 (4845, 507, 1, '2018-06-12T22:42:35', 'cyu', 'https://github.com/sferik/twitter/pull/926'),
 (4856, 507, 1, '2012-12-20T15:38:17', 'nbraem', 'https://github.com/sferik/twitter/pull/335'),
