@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T10:46:48.186Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-27T12:58:11.093Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2452,10 +2452,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2966, 229504810, 1, '2022-03-18T13:27:21', 'JulianPrieber', 'https://github.com/sethcottle/littlelink/pull/44'),
 (2965, 229504810, 1, '2020-11-02T20:53:48', 'SouVitorGabriel', 'https://github.com/sethcottle/littlelink/pull/2'),
 (2968, 229504810, 1, '2021-09-21T15:11:05', 'iCaotix', 'https://github.com/sethcottle/littlelink/pull/24'),
-(2969, 172227885, 1, '2020-02-07T20:15:11', 'daniel-butler', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/70'),
 (3021, 100060912, 3, '2019-04-29T19:12:02', 'waf', 'https://github.com/microsoft/terminal/pull/418'),
 (3022, 100060912, 4, '2022-05-17T14:56:04', 'j4james', 'https://github.com/microsoft/terminal/pull/13109'),
 (3023, 100060912, 4, '2022-05-06T19:55:59', 'zadjii-msft', 'https://github.com/microsoft/terminal/pull/13044'),
+(2969, 172227885, 1, '2020-02-07T20:15:11', 'daniel-butler', 'https://github.com/tiangolo/full-stack-fastapi-postgresql/pull/70'),
 (3024, 100060912, 4, '2019-07-25T17:44:59', 'metathinker', 'https://github.com/microsoft/terminal/pull/2050'),
 (3025, 100060912, 4, '2021-10-12T18:00:06', 'mpela81', 'https://github.com/microsoft/terminal/pull/11485'),
 (3026, 100060912, 4, '2020-02-10T22:09:09', 'mkitzan', 'https://github.com/microsoft/terminal/pull/4309'),
@@ -2698,8 +2698,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3294, 184571651, 4, '2022-04-27T15:48:12', 'jntesteves', 'https://github.com/material-shell/material-shell/pull/782'),
 (3298, 184571651, 1, '2022-01-10T08:49:51', 'bakennedy', 'https://github.com/material-shell/material-shell/pull/751'),
 (3301, 184571651, 4, '2022-05-04T21:44:05', 'HalfVoxel', 'https://github.com/material-shell/material-shell/pull/795'),
-(5036, 203587744, 4, '2021-12-02T14:50:25', '0xc0Der', 'https://github.com/hoppscotch/hoppscotch/pull/1952'),
 (5034, 203587744, 3, '2019-10-04T04:57:16', 'edisonaugusthy', 'https://github.com/hoppscotch/hoppscotch/pull/182'),
+(5036, 203587744, 4, '2021-12-02T14:50:25', '0xc0Der', 'https://github.com/hoppscotch/hoppscotch/pull/1952'),
 (3315, 184571651, 1, '2020-12-11T15:12:14', 'Pajn', 'https://github.com/material-shell/material-shell/pull/518'),
 (5038, 203587744, 4, '2022-04-20T18:18:26', 'kyteinsky', 'https://github.com/hoppscotch/hoppscotch/pull/2268'),
 (5041, 203587744, 4, '2022-04-30T13:53:43', 'anwarulislam', 'https://github.com/hoppscotch/hoppscotch/pull/2299'),
@@ -3343,9 +3343,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (179, 155288604, 1, '2021-08-19T09:54:50', 'aarondfrancis', 'https://github.com/shikijs/shiki/pull/202'),
 (169, 155288604, 1, '2021-12-09T17:36:33', 'jorgectf', 'https://github.com/shikijs/shiki/pull/274'),
 (165, 155288604, 1, '2020-08-26T05:45:57', 'oovm', 'https://github.com/shikijs/shiki/pull/80'),
-(166, 155288604, 1, '2020-09-28T03:01:56', 'sw-yx', 'https://github.com/shikijs/shiki/pull/96'),
 (172, 155288604, 2, '2022-01-05T09:00:27', 'pomber', 'https://github.com/shikijs/shiki/pull/284'),
 (167, 155288604, 1, '2021-08-03T18:47:30', '4310V343k', 'https://github.com/shikijs/shiki/pull/174'),
+(166, 155288604, 1, '2020-09-28T03:01:56', 'sw-yx', 'https://github.com/shikijs/shiki/pull/96'),
 (176, 155288604, 2, '2021-01-25T16:08:42', 'leafac', 'https://github.com/shikijs/shiki/pull/114'),
 (168, 155288604, 1, '2020-07-30T15:03:56', '0xflotus', 'https://github.com/shikijs/shiki/pull/37'),
 (175, 155288604, 1, '2021-12-09T07:07:36', 'sachinraja', 'https://github.com/shikijs/shiki/pull/271'),
