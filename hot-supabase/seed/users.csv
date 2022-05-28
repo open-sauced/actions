@@ -4,10 +4,10 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 18058884,1,true,false,true,2022-05-16T03:58:18.397463+00:00,anugrahsinghal
 8932275,0,true,false,true,2022-05-16T03:58:19.841219+00:00,moxie99
 33266556,0,true,false,true,2022-05-16T04:09:07.889448+00:00,honeynegi
-79736938,0,true,false,true,2022-05-16T04:09:11.045297+00:00,Nyanjuimarvin
-48335772,0,true,false,true,2022-05-16T04:23:11.392765+00:00,LauraLangdon
 87914378,0,true,false,true,2022-05-16T04:09:09.668578+00:00,Y4HYA4
+48335772,0,true,false,true,2022-05-16T04:23:11.392765+00:00,LauraLangdon
 55883854,3,true,false,true,2022-05-16T04:23:12.634687+00:00,nworiekingslee
+79736938,0,true,false,true,2022-05-16T04:09:11.045297+00:00,Nyanjuimarvin
 47524279,0,true,true,true,2022-05-16T04:23:14.108221+00:00,projectashik
 476818,2,true,true,true,2022-05-16T04:56:47.237445+00:00,dwwoelfel
 102984033,1,true,false,true,2022-05-16T04:56:48.618861+00:00,PlayingTheHero
@@ -202,10 +202,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 55982424,1,true,false,true,2022-05-16T09:47:29.084998+00:00,mukeshgurpude
 67718832,0,true,false,true,2022-05-16T09:47:30.034645+00:00,matt-wiley
 46643864,0,true,false,true,2022-05-16T09:50:42.699067+00:00,Khushi24699
-16259450,1,true,false,true,2022-05-20T08:01:23.607631+00:00,rob-moore
-60850993,1,true,false,true,2022-05-20T08:13:27.132881+00:00,vinosamari
-38838958,1,true,false,true,2022-05-20T08:13:28.310505+00:00,frvs
-70440141,1,true,false,true,2022-05-20T08:13:29.428958+00:00,jessiebelle
 3846874,3,true,true,true,2022-05-20T08:13:30.807898+00:00,SimonFinney
 40713709,1,true,false,true,2022-05-20T08:29:43.633838+00:00,sk1122
 9696352,2,true,false,true,2022-05-20T08:29:45.102136+00:00,cometkim
@@ -241,3 +237,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 2601974,2,true,false,true,2022-05-24T06:59:24.825818+00:00,geekygirlsarah
 103691815,0,true,false,true,2022-05-22T20:31:55.673341+00:00,TheTestTestington
 3597738,0,true,false,true,2022-05-19T17:57:58.946724+00:00,AdamasFR
+12782646,4,true,false,true,2022-05-16T03:58:21.266495+00:00,lcy101u
+16259450,1,true,false,true,2022-05-20T08:01:23.607631+00:00,rob-moore
+60850993,1,true,false,true,2022-05-20T08:13:27.132881+00:00,vinosamari
+38838958,1,true,false,true,2022-05-20T08:13:28.310505+00:00,frvs
