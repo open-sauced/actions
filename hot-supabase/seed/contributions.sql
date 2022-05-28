@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-28T16:52:47.923Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-28T18:47:56.936Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2616,8 +2616,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3484, 75322405, 4, '2022-03-28T19:09:13', 'bianpengyuan', 'https://github.com/istio/proxy/pull/3787'),
 (41, 246322368, 2, '2020-04-12T03:48:51', 'Developerayo', 'https://github.com/dayhaysoos/use-shopping-cart/pull/42'),
 (3481, 75322405, 4, '2020-12-10T00:49:02', 'gargnupur', 'https://github.com/istio/proxy/pull/3123'),
-(3431, 87520003, 1, '2018-11-01T13:00:28', 'iOSleep', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/21'),
 (3482, 75322405, 4, '2017-04-11T00:29:48', 'chowchow316', 'https://github.com/istio/proxy/pull/239'),
+(3431, 87520003, 1, '2018-11-01T13:00:28', 'iOSleep', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/21'),
 (3432, 87520003, 1, '2020-05-18T06:03:58', 'kdurant35', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/101'),
 (3433, 87520003, 2, '2022-02-15T08:53:27', 'vrwim', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/162'),
 (3434, 87520003, 1, '2018-10-10T13:00:13', 'MichalTKwiecien', 'https://github.com/iGhibli/iOS-DeviceSupport/pull/18'),
@@ -2755,8 +2755,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3589, 31792824, 4, '2022-05-16T20:44:24', 'yjbanov', 'https://github.com/flutter/flutter/pull/103754'),
 (3588, 31792824, 4, '2022-05-12T20:09:07', 'chunhtai', 'https://github.com/flutter/flutter/pull/103377'),
 (3590, 31792824, 4, '2022-02-04T20:45:20', 'devoncarew', 'https://github.com/flutter/flutter/pull/97749'),
-(5259, 18486300, 2, '2015-05-03T14:20:10', 'cimm', 'https://github.com/lewagon/setup/pull/6'),
 (5258, 18486300, 1, '2022-04-07T13:07:09', 'xunma', 'https://github.com/lewagon/setup/pull/375'),
+(5259, 18486300, 2, '2015-05-03T14:20:10', 'cimm', 'https://github.com/lewagon/setup/pull/6'),
 (5262, 18486300, 3, '2021-09-07T10:31:23', 'juliends', 'https://github.com/lewagon/setup/pull/323'),
 (5260, 18486300, 1, '2020-10-23T10:39:16', 'OliNott', 'https://github.com/lewagon/setup/pull/208'),
 (5267, 18486300, 2, '2021-10-04T10:06:33', 'trandthanh', 'https://github.com/lewagon/setup/pull/332'),
@@ -4782,8 +4782,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (321, 218115303, 4, '2020-06-12T23:42:54', 'sergiodxa', 'https://github.com/vercel/swr/pull/391'),
 (288, 218115303, 2, '2021-12-04T09:54:37', 'Andrewnt219', 'https://github.com/vercel/swr/pull/1691'),
 (304, 218115303, 2, '2019-10-29T11:08:08', 'clentfort', 'https://github.com/vercel/swr/pull/22'),
-(287, 218115303, 2, '2020-12-20T05:36:14', 'darrenjennings', 'https://github.com/vercel/swr/pull/834'),
 (316, 276976140, 2, '2021-07-28T00:55:50', 'vaibhavnshah', 'https://github.com/mergestat/mergestat/pull/144'),
+(287, 218115303, 2, '2020-12-20T05:36:14', 'darrenjennings', 'https://github.com/vercel/swr/pull/834'),
 (305, 218115303, 2, '2019-11-26T13:31:21', 'n3tr', 'https://github.com/vercel/swr/pull/149'),
 (303, 218115303, 2, '2020-07-08T08:36:29', 'dominictwlee', 'https://github.com/vercel/swr/pull/506'),
 (333, 11981144, 4, '2022-05-12T12:29:26', 'jaumeortola', 'https://github.com/languagetool-org/languagetool/pull/6662'),
@@ -4846,8 +4846,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (351, 20619036, 4, '2022-05-21T04:46:56', 'yubiuser', 'https://github.com/pi-hole/pi-hole/pull/4738'),
 (359, 20619036, 3, '2019-01-07T05:07:54', 'LudovicRousseau', 'https://github.com/pi-hole/pi-hole/pull/2575'),
 (341, 20619036, 4, '2018-07-16T16:34:23', 'rrobgill', 'https://github.com/pi-hole/pi-hole/pull/2280'),
-(352, 20619036, 4, '2020-07-05T12:36:42', 'XhmikosR', 'https://github.com/pi-hole/pi-hole/pull/3532'),
 (349, 20619036, 4, '2019-11-27T21:25:41', 'diginc', 'https://github.com/pi-hole/pi-hole/pull/2984'),
+(352, 20619036, 4, '2020-07-05T12:36:42', 'XhmikosR', 'https://github.com/pi-hole/pi-hole/pull/3532'),
 (2559, 9393759, 4, '2014-08-30T23:12:11', 'videlais', 'https://github.com/photonstorm/phaser/pull/1152'),
 (2535, 9393759, 1, '2020-10-02T08:42:48', 'svipal', 'https://github.com/photonstorm/phaser/pull/4992'),
 (2550, 9393759, 4, '2018-03-05T21:54:47', 'Twilrom', 'https://github.com/photonstorm/phaser/pull/3240'),
