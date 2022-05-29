@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-29T10:46:12.863Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-29T12:54:45.090Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -86,20 +86,20 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (42211, 6, true, false, true, '2022-05-16T10:36:15.933635+00:00', 'brandonroberts'),
 (52573181, 0, true, false, true, '2022-05-16T10:36:16.74442+00:00', 'RabsonJ'),
 (80793630, 3, true, false, true, '2022-05-16T10:47:31.415982+00:00', 'Blazing-Mike'),
-(26963547, 0, true, false, true, '2022-05-16T00:32:56.016492+00:00', 'mklarsen'),
-(26586086, 2, true, false, true, '2022-05-16T10:47:30.599538+00:00', 'bhantsi'),
 (104824933, 0, true, false, true, '2022-05-16T00:32:57.159812+00:00', 'JIFswe'),
+(26586086, 2, true, false, true, '2022-05-16T10:47:30.599538+00:00', 'bhantsi'),
 (37085146, 0, true, false, true, '2022-05-16T00:33:12.078101+00:00', 'NinjaAung'),
+(26963547, 0, true, false, true, '2022-05-16T00:32:56.016492+00:00', 'mklarsen'),
 (42660551, 0, true, false, true, '2022-05-16T00:33:13.223324+00:00', 'Ramghimirecr7'),
 (65788728, 2, true, false, true, '2022-05-16T00:33:14.714889+00:00', 'j-dogcoder'),
 (81034521, 0, true, false, true, '2022-05-16T00:33:15.891969+00:00', 'zeerau'),
 (59898438, 0, true, false, true, '2022-05-16T00:33:17.090793+00:00', 'JasonStrazisar'),
 (52573981, 0, true, false, true, '2022-05-16T02:43:22.805132+00:00', 'mrsantons'),
-(35779241, 0, true, false, true, '2022-05-16T09:37:11.969497+00:00', 'rgreen32'),
 (577424, 1, true, false, true, '2022-05-16T03:09:39.3077+00:00', 'matthewdeanmartin'),
+(35779241, 0, true, false, true, '2022-05-16T09:37:11.969497+00:00', 'rgreen32'),
 (42341383, 0, true, false, true, '2022-05-16T03:09:40.177449+00:00', 'tiamatu'),
-(6188161, 1, true, false, true, '2022-05-16T03:27:32.611039+00:00', 'zacjones93'),
 (3650761, 0, true, false, true, '2022-05-16T03:09:41.133995+00:00', 'dariye'),
+(6188161, 1, true, false, true, '2022-05-16T03:27:32.611039+00:00', 'zacjones93'),
 (1039388, 0, true, false, true, '2022-05-16T03:27:33.477416+00:00', 'i001962'),
 (19538219, 9, true, false, true, '2022-05-16T03:27:34.046184+00:00', 'sadiejay'),
 (47293786, 0, true, false, true, '2022-05-16T03:44:54.500147+00:00', 'tahabenammar'),
@@ -166,14 +166,14 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (3941126, 5, true, false, true, '2022-05-16T15:56:17.50627+00:00', 'm-anwr'),
 (16315404, 1, true, false, true, '2022-05-16T15:56:18.937403+00:00', 'dhuvikamboj'),
 (211851, 1, true, false, true, '2022-05-16T19:33:03.529883+00:00', 'justjeff'),
-(25751316, 1, true, false, true, '2022-05-16T21:32:13.880619+00:00', 'Tom-Wyszkowski'),
-(29484849, 0, true, false, true, '2022-05-16T00:32:51.894086+00:00', 'Lamiiine'),
-(31478648, 1, true, false, true, '2022-05-17T21:45:38.370199+00:00', 'adil-Pathan'),
-(22620727, 1, true, false, true, '2022-05-17T21:45:39.427869+00:00', 'svenkat683'),
-(6935431, 11, true, false, true, '2022-05-16T19:33:05.187648+00:00', 'zkoppert'),
 (17671332, 1, true, false, true, '2022-05-16T19:33:04.251504+00:00', 'CoderDill'),
 (53687927, 1, true, false, true, '2022-05-16T21:32:15.44691+00:00', 'dwaipayan05'),
 (34112620, 1, true, false, true, '2022-05-16T00:32:53.348652+00:00', 'rperez2021'),
+(31478648, 1, true, false, true, '2022-05-17T21:45:38.370199+00:00', 'adil-Pathan'),
+(22620727, 1, true, false, true, '2022-05-17T21:45:39.427869+00:00', 'svenkat683'),
+(25751316, 1, true, false, true, '2022-05-16T21:32:13.880619+00:00', 'Tom-Wyszkowski'),
+(6935431, 11, true, false, true, '2022-05-16T19:33:05.187648+00:00', 'zkoppert'),
+(29484849, 0, true, false, true, '2022-05-16T00:32:51.894086+00:00', 'Lamiiine'),
 (34839258, 0, true, false, true, '2022-05-16T02:43:22.231878+00:00', 'adwinang'),
 (88112004, 0, true, false, true, '2022-05-16T03:44:58.140929+00:00', 'SClay345'),
 (46935495, 1, true, false, true, '2022-05-17T21:45:40.745668+00:00', 'sarthakvarshney8081'),
@@ -212,8 +212,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (4199845, 6, true, false, true, '2022-05-20T09:14:25.520532+00:00', 'Wachiwi'),
 (14043845, 10, true, false, true, '2022-05-20T09:14:26.437678+00:00', 'jasonericdavis'),
 (5713670, 15, true, false, true, '2022-05-20T09:14:27.556372+00:00', 'bdougie'),
-(15172054, 3, true, false, true, '2022-05-28T23:01:49.044498+00:00', 'benjamin-antupit'),
-(3597738, 0, true, false, true, '2022-05-19T17:57:58.946724+00:00', 'AdamasFR'),
 (12782646, 4, true, false, true, '2022-05-16T03:58:21.266495+00:00', 'lcy101u'),
 (79809121, 5, true, false, true, '2022-05-28T13:34:21.537197+00:00', 'TAKANOME-DEV'),
 (55068936, 1, true, false, true, '2022-05-28T14:47:04.734244+00:00', 'Siddhant-K-code'),
@@ -251,4 +249,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (5467696, 2, true, false, true, '2022-05-20T09:02:18.153717+00:00', 'fwoelffel'),
 (26205172, 2, true, false, true, '2022-05-20T09:02:19.104441+00:00', 'Alucard17'),
 (7490938, 0, true, false, true, '2022-05-28T21:38:56.493594+00:00', 'kejne'),
-(103691815, 0, true, false, true, '2022-05-22T20:31:55.673341+00:00', 'TheTestTestington');
+(103691815, 0, true, false, true, '2022-05-22T20:31:55.673341+00:00', 'TheTestTestington'),
+(15172054, 3, true, true, true, '2022-05-28T23:01:49.044498+00:00', 'benjamin-antupit'),
+(3597738, 0, true, false, true, '2022-05-19T17:57:58.946724+00:00', 'AdamasFR');
