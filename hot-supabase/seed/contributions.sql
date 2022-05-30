@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-30T16:53:25.781Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-30T18:48:19.917Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1773,6 +1773,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2239, 51568094, 1, '2018-10-10T09:00:21', 'bialesdaniel', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/30'),
 (2241, 51568094, 1, '2020-03-19T10:56:06', 'chrismilson', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/59'),
 (2242, 51568094, 2, '2016-05-17T17:50:10', 'phil-targun-asurion', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/4'),
+(2243, 51568094, 2, '2021-05-24T17:52:40', 'greencarlos', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/77'),
+(6915, 270657720, 1, '2021-03-22T07:23:33', 'luthfimasruri', 'https://github.com/vuesomedev/awesome-vue-3/pull/58'),
 (6916, 270657720, 1, '2022-04-12T20:02:37', 'chnejohnson', 'https://github.com/vuesomedev/awesome-vue-3/pull/77'),
 (6917, 270657720, 1, '2020-10-21T13:02:21', 'matteobruni', 'https://github.com/vuesomedev/awesome-vue-3/pull/32'),
 (6918, 270657720, 2, '2020-10-17T20:19:06', 'Vannsl', 'https://github.com/vuesomedev/awesome-vue-3/pull/27'),
@@ -1788,8 +1790,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (6921, 270657720, 1, '2020-10-19T11:44:38', 'ismail9k', 'https://github.com/vuesomedev/awesome-vue-3/pull/28'),
 (6922, 270657720, 1, '2020-08-23T06:26:53', 'anish2690', 'https://github.com/vuesomedev/awesome-vue-3/pull/10'),
 (6923, 270657720, 2, '2021-05-19T17:10:29', 'robinrodricks', 'https://github.com/vuesomedev/awesome-vue-3/pull/63'),
-(2243, 51568094, 2, '2021-05-24T17:52:40', 'greencarlos', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/77'),
-(6915, 270657720, 1, '2021-03-22T07:23:33', 'luthfimasruri', 'https://github.com/vuesomedev/awesome-vue-3/pull/58'),
 (6924, 270657720, 1, '2020-10-27T07:32:37', 'andrewcourtice', 'https://github.com/vuesomedev/awesome-vue-3/pull/38'),
 (6925, 270657720, 2, '2021-05-02T10:29:51', 'levchak0910', 'https://github.com/vuesomedev/awesome-vue-3/pull/61'),
 (6926, 270657720, 1, '2021-01-06T18:21:00', 'web2033', 'https://github.com/vuesomedev/awesome-vue-3/pull/50'),
@@ -3669,6 +3669,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (931, 1446467, 4, '2015-09-23T22:44:11', 'rbtcollins', 'https://github.com/pypa/pip/pull/3093'),
 (915, 1446467, 4, '2020-10-30T09:51:49', 'McSinyx', 'https://github.com/pypa/pip/pull/9015'),
 (932, 1446467, 4, '2016-08-12T09:55:12', 'msabramo', 'https://github.com/pypa/pip/pull/3773'),
+(919, 1446467, 4, '2020-05-04T14:00:51', 'ilanschnell', 'https://github.com/pypa/pip/pull/8118'),
 (4504, 139258121, 1, '2019-07-27T07:04:40', 'waldemarnt', 'https://github.com/gajus/lightship/pull/13'),
 (4505, 139258121, 1, '2018-07-18T08:12:14', 'drubin', 'https://github.com/gajus/lightship/pull/2'),
 (4506, 139258121, 1, '2020-12-23T15:59:42', 'JohannesLamberts', 'https://github.com/gajus/lightship/pull/30'),
@@ -3730,7 +3731,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (938, 91851756, 2, '2021-05-26T16:52:42', 'AkihiroSuda', 'https://github.com/docker/docker-ce/pull/667'),
 (935, 91851756, 4, '2018-04-19T03:42:45', 'cpuguy83', 'https://github.com/docker/docker-ce/pull/509'),
 (942, 91851756, 4, '2018-03-06T15:37:27', 'tonistiigi', 'https://github.com/docker/docker-ce/pull/449'),
-(919, 1446467, 4, '2020-05-04T14:00:51', 'ilanschnell', 'https://github.com/pypa/pip/pull/8118'),
 (933, 91851756, 2, '2018-03-14T17:23:55', 'vdemeester', 'https://github.com/docker/docker-ce/pull/461'),
 (934, 91851756, 3, '2017-06-13T04:01:20', 'mavenugo', 'https://github.com/docker/docker-ce/pull/66'),
 (939, 91851756, 4, '2018-11-06T21:29:36', 'thaJeztah', 'https://github.com/docker/docker-ce/pull/567'),
@@ -4640,8 +4640,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (325, 218115303, 4, '2020-02-24T20:05:27', 'Svish', 'https://github.com/vercel/swr/pull/265'),
 (289, 218115303, 2, '2021-07-07T17:43:32', 'pacocoursey', 'https://github.com/vercel/swr/pull/1277'),
 (321, 218115303, 4, '2020-06-12T23:42:54', 'sergiodxa', 'https://github.com/vercel/swr/pull/391'),
-(304, 218115303, 2, '2019-10-29T11:08:08', 'clentfort', 'https://github.com/vercel/swr/pull/22'),
 (288, 218115303, 2, '2021-12-04T09:54:37', 'Andrewnt219', 'https://github.com/vercel/swr/pull/1691'),
+(304, 218115303, 2, '2019-10-29T11:08:08', 'clentfort', 'https://github.com/vercel/swr/pull/22'),
 (316, 276976140, 2, '2021-07-28T00:55:50', 'vaibhavnshah', 'https://github.com/mergestat/mergestat/pull/144'),
 (287, 218115303, 2, '2020-12-20T05:36:14', 'darrenjennings', 'https://github.com/vercel/swr/pull/834'),
 (305, 218115303, 2, '2019-11-26T13:31:21', 'n3tr', 'https://github.com/vercel/swr/pull/149'),
@@ -4773,9 +4773,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5928, 2630230, 1, '2020-03-05T20:39:38', 'fredck', 'https://github.com/mixmark-io/turndown/pull/302'),
 (5929, 2630230, 1, '2016-03-16T08:57:41', 'notslang', 'https://github.com/mixmark-io/turndown/pull/141'),
 (5930, 2630230, 2, '2016-07-07T06:44:03', 'Sebmaster', 'https://github.com/mixmark-io/turndown/pull/147'),
-(5931, 2630230, 1, '2015-01-20T08:30:12', 'danfinlay', 'https://github.com/mixmark-io/turndown/pull/57'),
 (5932, 2630230, 1, '2015-05-08T14:32:36', 'IonicaBizau', 'https://github.com/mixmark-io/turndown/pull/94'),
 (5933, 2630230, 1, '2016-03-15T18:59:48', 'rspieker', 'https://github.com/mixmark-io/turndown/pull/143'),
+(5931, 2630230, 1, '2015-01-20T08:30:12', 'danfinlay', 'https://github.com/mixmark-io/turndown/pull/57'),
 (5934, 2630230, 1, '2014-10-20T07:52:45', 'jriquelme', 'https://github.com/mixmark-io/turndown/pull/47'),
 (5935, 2630230, 1, '2017-07-05T08:13:09', 'fregante', 'https://github.com/mixmark-io/turndown/pull/187'),
 (5936, 2630230, 1, '2018-04-29T09:19:59', 'BlackGlory', 'https://github.com/mixmark-io/turndown/pull/216'),
