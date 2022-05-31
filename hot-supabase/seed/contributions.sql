@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T16:55:07.699Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T18:48:54.063Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3941,8 +3941,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4841, 507, 1, '2015-02-12T20:55:56', 'nidev', 'https://github.com/sferik/twitter/pull/655'),
 (4847, 507, 4, '2016-03-14T18:40:19', 'stve', 'https://github.com/sferik/twitter/pull/762'),
 (4846, 507, 4, '2013-09-29T20:00:54', 'ys', 'https://github.com/sferik/twitter/pull/454'),
-(4837, 507, 1, '2013-05-12T17:52:29', 'paulwalker', 'https://github.com/sferik/twitter/pull/393'),
 (2234, 257314632, 1, '2020-07-08T20:36:33', 'benjaminkvm', 'https://github.com/onflow/fcl-js/pull/125'),
+(4837, 507, 1, '2013-05-12T17:52:29', 'paulwalker', 'https://github.com/sferik/twitter/pull/393'),
 (2224, 257314632, 2, '2020-09-07T02:59:44', 'psiemens', 'https://github.com/onflow/fcl-js/pull/358'),
 (4839, 507, 1, '2011-08-29T04:13:40', 'jnak', 'https://github.com/sferik/twitter/pull/181'),
 (4866, 88447006, 1, '2017-07-05T14:15:46', 'ArjunBhuptani', 'https://github.com/Scanate/EthList/pull/15'),
@@ -5022,9 +5022,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (7809, 407840318, 1, '2021-10-03T09:17:37', 'KMuthusamyms', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/93'),
 (7810, 407840318, 1, '2022-02-28T12:51:20', 'sangamsaisrivinay', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/241'),
 (7811, 407840318, 1, '2021-09-27T17:30:32', 'suryanshudinkar', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/50'),
-(7812, 407840318, 2, '2021-10-11T16:43:52', 'RaghavMahexhwari', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/156'),
 (4240, 399981029, 3, '2021-08-26T14:22:30', 'noctisatrae', 'https://github.com/estebanrfp/gun-voting/pull/5'),
 (7813, 407840318, 1, '2021-10-09T08:10:43', 'aaakashkumar', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/140'),
+(7812, 407840318, 2, '2021-10-11T16:43:52', 'RaghavMahexhwari', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/156'),
 (7814, 407840318, 1, '2022-01-15T16:38:38', 'rbourdon', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/234'),
 (7815, 407840318, 1, '2021-10-08T10:46:55', 'eddicodes', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/136'),
 (7816, 407840318, 1, '2021-12-31T10:07:26', 'dollardhingra', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/193'),
