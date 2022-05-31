@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T20:46:26.727Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T22:45:52.777Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1770,8 +1770,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2230, 51568094, 2, '2020-01-07T16:42:31', 'mvivekc', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/54'),
 (2233, 51568094, 4, '2020-03-31T19:39:21', 'profnandaa', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/65'),
 (2236, 51568094, 1, '2016-02-22T22:47:22', 'dawsbot', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/3'),
-(2239, 51568094, 1, '2018-10-10T09:00:21', 'bialesdaniel', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/30'),
 (2241, 51568094, 1, '2020-03-19T10:56:06', 'chrismilson', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/59'),
+(2239, 51568094, 1, '2018-10-10T09:00:21', 'bialesdaniel', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/30'),
 (2242, 51568094, 2, '2016-05-17T17:50:10', 'phil-targun-asurion', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/4'),
 (2243, 51568094, 2, '2021-05-24T17:52:40', 'greencarlos', 'https://github.com/careercup/CtCI-6th-Edition-JavaScript/pull/77'),
 (6915, 270657720, 1, '2021-03-22T07:23:33', 'luthfimasruri', 'https://github.com/vuesomedev/awesome-vue-3/pull/58'),
@@ -5762,8 +5762,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8311, 27442967, 4, '2017-12-19T20:11:32', 'ohayon', 'https://github.com/fastlane/fastlane/pull/11287'),
 (8312, 27442967, 4, '2017-05-19T15:41:44', 'mfurtak', 'https://github.com/fastlane/fastlane/pull/9221'),
 (8313, 27442967, 4, '2019-02-05T17:57:23', 'KrauseFx', 'https://github.com/fastlane/fastlane/pull/14186'),
-(8314, 27442967, 4, '2022-05-25T01:52:10', 'lacostej', 'https://github.com/fastlane/fastlane/pull/20313'),
 (8315, 27442967, 4, '2018-09-11T14:18:25', 'taquitos', 'https://github.com/fastlane/fastlane/pull/13333'),
+(8314, 27442967, 4, '2022-05-25T01:52:10', 'lacostej', 'https://github.com/fastlane/fastlane/pull/20313'),
 (8316, 27442967, 4, '2020-09-10T19:53:45', 'janpio', 'https://github.com/fastlane/fastlane/pull/16537'),
 (8317, 27442967, 4, '2020-10-22T21:24:18', 'revolter', 'https://github.com/fastlane/fastlane/pull/17480'),
 (8318, 27442967, 4, '2018-01-08T09:57:45', 'hjanuschka', 'https://github.com/fastlane/fastlane/pull/11466'),
