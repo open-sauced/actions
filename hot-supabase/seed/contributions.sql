@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T08:48:56.697Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T10:47:19.300Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3047,8 +3047,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1198, 23974149, 1, '2015-03-06T14:16:12', 'SmileyChris', 'https://github.com/Dogfalo/materialize/pull/782'),
 (1196, 23974149, 4, '2016-02-10T03:06:05', 'soniahays', 'https://github.com/Dogfalo/materialize/pull/2768'),
 (1180, 23974149, 2, '2015-11-15T08:45:54', 's7dhansh', 'https://github.com/Dogfalo/materialize/pull/2294'),
-(1200, 23974149, 4, '2015-01-14T23:14:12', 'coltonfitzgerald', 'https://github.com/Dogfalo/materialize/pull/450'),
 (1202, 23974149, 1, '2017-07-03T00:46:32', 'alexisdiel', 'https://github.com/Dogfalo/materialize/pull/4893'),
+(1200, 23974149, 4, '2015-01-14T23:14:12', 'coltonfitzgerald', 'https://github.com/Dogfalo/materialize/pull/450'),
 (3674, 5405654, 4, '2022-03-03T16:09:12', 'pcottle', 'https://github.com/pcottle/learnGitBranching/pull/944'),
 (3677, 5405654, 4, '2020-11-06T16:11:52', 'olsza', 'https://github.com/pcottle/learnGitBranching/pull/757'),
 (3689, 5405654, 4, '2022-02-27T16:51:17', 'hong4rc', 'https://github.com/pcottle/learnGitBranching/pull/938'),
@@ -5298,8 +5298,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (7836, 488004650, 2, '2022-05-24T03:45:03', 'sriniiyer', 'https://github.com/facebookresearch/metaseq/pull/109'),
 (7837, 488004650, 1, '2022-05-04T13:19:02', 'zhiqwang', 'https://github.com/facebookresearch/metaseq/pull/27'),
 (7838, 488004650, 4, '2022-05-23T10:49:40', 'suchenzang', 'https://github.com/facebookresearch/metaseq/pull/116'),
-(7839, 488004650, 1, '2022-05-05T15:50:42', 'FahimFBA', 'https://github.com/facebookresearch/metaseq/pull/43'),
 (7840, 488004650, 3, '2022-05-04T22:16:24', 'tsor13', 'https://github.com/facebookresearch/metaseq/pull/39'),
+(7839, 488004650, 1, '2022-05-05T15:50:42', 'FahimFBA', 'https://github.com/facebookresearch/metaseq/pull/43'),
 (5273, 326460518, 2, '2021-02-13T01:29:51', 'Joefish', 'https://github.com/ratfactor/ziglings/pull/5'),
 (5271, 326460518, 3, '2021-08-24T13:28:21', 'Palm404', 'https://github.com/ratfactor/ziglings/pull/70'),
 (5272, 326460518, 1, '2021-03-13T01:14:06', 'mattnite', 'https://github.com/ratfactor/ziglings/pull/32'),
