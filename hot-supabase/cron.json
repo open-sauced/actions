@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-31T16:25:35.530Z",
+  "lastExecuted": "2022-05-31T16:45:10.612Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1409,37 +1409,37 @@
     "Sadmansamee": {
       "owner": "Sadmansamee",
       "notFound": true,
-      "lastExecuted": "2022-05-31T04:16:55.920Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "nitinbhadauria": {
       "owner": "nitinbhadauria",
       "notFound": true,
-      "lastExecuted": "2022-05-31T04:16:55.920Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "svenkat683": {
       "owner": "svenkat683",
       "notFound": false,
-      "lastExecuted": "2022-05-31T04:16:55.920Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "sarthakvarshney8081": {
       "owner": "sarthakvarshney8081",
       "notFound": false,
-      "lastExecuted": "2022-05-31T04:35:13.641Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "earltacs96": {
       "owner": "earltacs96",
       "notFound": false,
-      "lastExecuted": "2022-05-31T04:35:13.641Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "bigint": {
       "owner": "bigint",
       "notFound": true,
-      "lastExecuted": "2022-05-31T04:35:13.641Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "loiclegoff": {
       "owner": "loiclegoff",
       "notFound": false,
-      "lastExecuted": "2022-05-31T04:35:13.641Z"
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     },
     "code-in-public": {
       "owner": "code-in-public",
@@ -1885,6 +1885,11 @@
       "owner": "nbeck415",
       "notFound": false,
       "lastExecuted": "2022-05-31T16:10:07.412Z"
+    },
+    "vordimous": {
+      "owner": "vordimous",
+      "notFound": false,
+      "lastExecuted": "2022-05-31T16:45:10.612Z"
     }
   }
 }
