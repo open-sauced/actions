@@ -6353,3 +6353,7 @@ id,repo_id,count,last_merged_at,contributor,url
 9022,87380483,1,2019-03-06T21:52:19,Bringer128,https://github.com/socketry/async/pull/35
 9023,87380483,1,2020-04-23T15:24:07,swrobel,https://github.com/socketry/async/pull/65
 9024,87380483,2,2018-07-05T23:41:23,funny-falcon,https://github.com/socketry/async/pull/26
+9025,87380483,1,2020-12-19T21:42:23,muryoimpl,https://github.com/socketry/async/pull/79
+9026,165089100,4,2019-02-12T22:05:37,alyswerdlova,https://github.com/ReactQuantum/ReactQuantum/pull/55
+9027,165089100,4,2019-02-05T02:37:22,alchi126,https://github.com/ReactQuantum/ReactQuantum/pull/54
+9028,165089100,4,2019-04-23T03:48:47,wjp241,https://github.com/ReactQuantum/ReactQuantum/pull/81
