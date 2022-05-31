@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-05-31T14:36:32.671Z",
+  "lastExecuted": "2022-05-31T15:05:48.515Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -94,32 +94,32 @@
     "cakmoel": {
       "owner": "cakmoel",
       "notFound": true,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "dariye": {
       "owner": "dariye",
       "notFound": false,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "zacjones93": {
       "owner": "zacjones93",
       "notFound": false,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "Aniket777": {
       "owner": "Aniket777",
       "notFound": true,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "i001962": {
       "owner": "i001962",
       "notFound": false,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "sadiejay": {
       "owner": "sadiejay",
       "notFound": false,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "rdupontr": {
       "owner": "rdupontr",
@@ -1819,7 +1819,7 @@
     "TAKANOME-DEV": {
       "owner": "TAKANOME-DEV",
       "notFound": false,
-      "lastExecuted": "2022-05-31T03:03:32.005Z"
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     },
     "Siddhant-K-code": {
       "owner": "Siddhant-K-code",
@@ -1870,6 +1870,11 @@
       "owner": "vaibhsir1991",
       "notFound": false,
       "lastExecuted": "2022-05-31T10:26:00.324Z"
+    },
+    "lucas-santos": {
+      "owner": "lucas-santos",
+      "notFound": true,
+      "lastExecuted": "2022-05-31T15:05:48.515Z"
     }
   }
 }
