@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T03:14:57.642Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-05-31T04:53:45.327Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3520,8 +3520,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1199, 23974149, 1, '2015-05-06T15:42:36', 'ABeltramo', 'https://github.com/Dogfalo/materialize/pull/1266'),
 (1191, 23974149, 4, '2018-01-21T21:41:22', 'aularon', 'https://github.com/Dogfalo/materialize/pull/5546'),
 (1192, 23974149, 3, '2018-10-31T23:39:37', 'MaximBalaganskiy', 'https://github.com/Dogfalo/materialize/pull/5942'),
-(1379, 219294494, 1, '2020-06-20T08:16:56', 'chitoku-k', 'https://github.com/xxh/xxh/pull/91'),
 (1345, 219294494, 1, '2021-03-14T07:35:20', '0xflotus', 'https://github.com/xxh/xxh/pull/111'),
+(1379, 219294494, 1, '2020-06-20T08:16:56', 'chitoku-k', 'https://github.com/xxh/xxh/pull/91'),
 (1381, 219294494, 1, '2022-01-21T16:14:48', 'izissise', 'https://github.com/xxh/xxh/pull/132'),
 (1383, 219294494, 1, '2020-05-16T18:55:49', 'syndicut', 'https://github.com/xxh/xxh/pull/83'),
 (1313, 278150898, 1, '2021-01-13T17:22:46', 'agcorrea', 'https://github.com/GoogleCloudPlatform/fourkeys/pull/54'),
@@ -6362,4 +6362,12 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (9026, 165089100, 4, '2019-02-12T22:05:37', 'alyswerdlova', 'https://github.com/ReactQuantum/ReactQuantum/pull/55'),
 (9027, 165089100, 4, '2019-02-05T02:37:22', 'alchi126', 'https://github.com/ReactQuantum/ReactQuantum/pull/54'),
 (9028, 165089100, 4, '2019-04-23T03:48:47', 'wjp241', 'https://github.com/ReactQuantum/ReactQuantum/pull/81'),
-(9029, 165089100, 4, '2019-01-29T23:38:14', 'Silly-Turtle', 'https://github.com/ReactQuantum/ReactQuantum/pull/41');
+(9029, 165089100, 4, '2019-01-29T23:38:14', 'Silly-Turtle', 'https://github.com/ReactQuantum/ReactQuantum/pull/41'),
+(9030, 482621452, 1, '2022-05-29T07:19:28', 'TechplexEngineer', 'https://github.com/livebud/bud/pull/96'),
+(9031, 482621452, 1, '2022-05-16T06:41:50', 'joshuatalb', 'https://github.com/livebud/bud/pull/53'),
+(9032, 482621452, 1, '2022-05-17T05:17:51', 'thepudds', 'https://github.com/livebud/bud/pull/59'),
+(9033, 482621452, 1, '2022-05-27T11:45:14', 'syke99', 'https://github.com/livebud/bud/pull/89'),
+(9034, 482621452, 2, '2022-05-14T10:50:15', 'barelyhuman', 'https://github.com/livebud/bud/pull/34'),
+(9035, 482621452, 1, '2022-05-14T17:20:18', 'codenoid', 'https://github.com/livebud/bud/pull/28'),
+(9036, 482621452, 2, '2022-05-22T14:41:04', 'theEyeD', 'https://github.com/livebud/bud/pull/68'),
+(9037, 482621452, 4, '2022-05-30T10:15:44', 'matthewmueller', 'https://github.com/livebud/bud/pull/105');
