@@ -5,7 +5,6 @@ const login = process.env.LOGIN;
 const octokit = new Octokit({
   auth: process.env.GITHUB_TOKEN,
 });
-
 // fetch authenticated users stars
 async function getStars(user) {
   const { data } = await octokit
@@ -15,7 +14,6 @@ async function getStars(user) {
     .catch((err) => {
       console.log(err);
     });
-
   return Promise.all(
     data.map(async (repo) => {
       return {
@@ -35,19 +33,14 @@ async function getRepoGoals(issues) {
       // all goal issues follow the "owner/repo" format
       let [owner, name] = issue.title.split("/");
 
-      if (!owner || !name) return;
-
       const { data } = await octokit.rest.repos.get({
         owner: owner,
         repo: name,
       });
-
       console.log(`Title: ${issue.title} vs. ${data.full_name}`);
-
       if (data.full_name.trim() !== issue.title) {
         goalsToRename.push({ title: data.full_name, number: issue.number });
       }
-
       return {
         full_name: data.full_name,
         stargazers_count: data.stargazers_count,
@@ -57,7 +50,6 @@ async function getRepoGoals(issues) {
     })
   );
 }
-
 async function renameGoals() {
   return Promise.all(
     goalsToRename.map(async (goal) => {
@@ -70,7 +62,6 @@ async function renameGoals() {
     })
   );
 }
-
 const starsData = await getStars(login);
 
 // goals fetch and combine that with the stars
@@ -78,22 +69,21 @@ const starsData = await getStars(login);
 let repoIssues;
 let stagedIssues;
 let goalsToRename = [];
-
 try {
   stagedIssues = await octokit.rest.issues.listForRepo({
     owner: login,
     repo: "open-sauced-goals",
   });
   console.log("stagedIssues", stagedIssues);
-
-  repoIssues = await octokit.paginate(stagedIssues);
+  const issues = await octokit.paginate(stagedIssues);
+  // filter issues that don't match "owner/name" format
+  repoIssues = issues.filter((repoIssue) => !repoIssue.title.match(/\s/) && !repoIssue.title.match(/^[^/]*$/));
 } catch (err) {
   console.log(err);
 }
 
 const repoGoalsData = await getRepoGoals(repoIssues);
 if (goalsToRename.length > 0) await renameGoals();
-
 // create or update the json store
 fs.writeFileSync("data.json", JSON.stringify(repoGoalsData, null, 2));
 fs.writeFileSync("stars.json", JSON.stringify(starsData, null, 2));
