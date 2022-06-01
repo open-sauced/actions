@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T08:50:29.239Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T10:48:28.620Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4166,9 +4166,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (7798, 407840318, 2, '2021-12-30T14:05:34', 's-i-d-d-i-s', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/192'),
 (7799, 407840318, 1, '2021-12-30T09:32:28', 'shubham4756', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/186'),
 (2729, 102371998, 4, '2022-01-19T09:55:05', 'Intevel', 'https://github.com/nuxt-community/auth-module/pull/1444'),
-(2732, 102371998, 4, '2019-05-23T12:45:44', 'PJLindsay', 'https://github.com/nuxt-community/auth-module/pull/300'),
 (2731, 102371998, 3, '2018-08-22T19:54:38', 'Hugome', 'https://github.com/nuxt-community/auth-module/pull/230'),
 (2739, 102371998, 4, '2018-04-11T11:11:44', 'benmccallum', 'https://github.com/nuxt-community/auth-module/pull/135'),
+(2732, 102371998, 4, '2019-05-23T12:45:44', 'PJLindsay', 'https://github.com/nuxt-community/auth-module/pull/300'),
 (2697, 102371998, 4, '2020-10-17T19:14:06', 'manniL', 'https://github.com/nuxt-community/auth-module/pull/826'),
 (2735, 102371998, 4, '2018-05-07T07:09:42', 'jmschneider', 'https://github.com/nuxt-community/auth-module/pull/166'),
 (2725, 102371998, 3, '2021-09-22T09:53:25', 'bcnzer', 'https://github.com/nuxt-community/auth-module/pull/1305'),
