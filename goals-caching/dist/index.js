@@ -18067,8 +18067,13 @@ try {
   });
   console.log("stagedIssues", stagedIssues);
   const issues = await octokit.paginate(stagedIssues);
+<<<<<<< HEAD
   // filter issues created by bots
   repoIssues = issues.filter((repoIssue) => repoIssue.user.type !== "Bot");
+=======
+  // filter issues that don't match "owner/name" format
+  repoIssues = issues.filter((repoIssue) => !repoIssue.title.match(/\s/) && !repoIssue.title.match(/^[^/]*$/));
+>>>>>>> 033d3acd960ec80f3e47090de82f0b63f751a3f5
 } catch (err) {
   console.log(err);
 }
