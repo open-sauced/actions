@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T01:05:40.046Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T03:33:49.391Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3613,12 +3613,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (871, 402189545, 1, '2021-09-02T17:17:48', 'lupy100', 'https://github.com/juntossomosmais/frontend-guideline/pull/1'),
 (4443, 76404, 2, '2020-04-27T09:01:22', 'kamipo', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/786'),
 (4444, 76404, 1, '2019-03-07T00:04:12', 'lairtonlelis', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/681'),
+(4445, 76404, 2, '2020-02-25T10:58:53', 'auroranockert', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/703'),
 (4446, 76404, 4, '2019-05-24T23:08:21', 'metaskills', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/699'),
 (4447, 76404, 4, '2022-01-13T14:51:27', 'mgrunberg', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/992'),
 (4448, 76404, 4, '2011-12-02T19:58:23', 'jrafanie', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/151'),
+(4449, 76404, 4, '2022-01-18T21:35:48', 'wpolicarpo', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/997'),
 (4450, 76404, 2, '2014-08-27T00:49:29', 'annaswims', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/353'),
 (4451, 76404, 1, '2014-01-31T03:39:20', 'muloka', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/290'),
-(4449, 76404, 4, '2022-01-18T21:35:48', 'wpolicarpo', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/997'),
 (4452, 76404, 2, '2012-06-22T11:40:48', 'Altonymous', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/211'),
 (4453, 76404, 4, '2020-04-30T10:28:26', 'YehudaGold', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/796'),
 (4454, 76404, 1, '2018-09-28T11:41:18', 'matthewdunbar', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/653'),
@@ -4431,7 +4432,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (76, 78819190, 1, '2017-02-14T20:09:54', 'aaronshaf', 'https://github.com/prettier/prettier-eslint/pull/17'),
 (77, 78819190, 2, '2021-03-06T21:13:45', 'kylemh', 'https://github.com/prettier/prettier-eslint/pull/506'),
 (78, 78819190, 3, '2017-09-20T04:32:22', 'robwise', 'https://github.com/prettier/prettier-eslint/pull/127'),
-(4445, 76404, 2, '2020-02-25T10:58:53', 'auroranockert', 'https://github.com/rails-sqlserver/activerecord-sqlserver-adapter/pull/703'),
 (79, 78819190, 3, '2017-05-18T23:50:40', 'lukaszmoroz', 'https://github.com/prettier/prettier-eslint/pull/87'),
 (80, 78819190, 1, '2022-05-15T09:32:26', 'chrisbobbe', 'https://github.com/prettier/prettier-eslint/pull/749'),
 (81, 78819190, 1, '2017-12-19T20:49:58', 'FabioAntunes', 'https://github.com/prettier/prettier-eslint/pull/147'),

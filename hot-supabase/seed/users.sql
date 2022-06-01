@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T01:05:30.614Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T03:33:48.835Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -84,11 +84,11 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (80793630, 3, true, false, true, '2022-05-16T10:47:31.415982+00:00', 'Blazing-Mike'),
 (26963547, 0, true, false, true, '2022-05-16T00:32:56.016492+00:00', 'mklarsen'),
 (104824933, 0, true, false, true, '2022-05-16T00:32:57.159812+00:00', 'JIFswe'),
+(37085146, 0, true, false, true, '2022-05-16T00:33:12.078101+00:00', 'NinjaAung'),
+(65788728, 2, true, false, true, '2022-05-16T00:33:14.714889+00:00', 'j-dogcoder'),
+(59898438, 0, true, false, true, '2022-05-16T00:33:17.090793+00:00', 'JasonStrazisar'),
 (42660551, 0, true, false, true, '2022-05-16T00:33:13.223324+00:00', 'Ramghimirecr7'),
 (81034521, 0, true, false, true, '2022-05-16T00:33:15.891969+00:00', 'zeerau'),
-(37085146, 0, true, false, true, '2022-05-16T00:33:12.078101+00:00', 'NinjaAung'),
-(59898438, 0, true, false, true, '2022-05-16T00:33:17.090793+00:00', 'JasonStrazisar'),
-(65788728, 2, true, false, true, '2022-05-16T00:33:14.714889+00:00', 'j-dogcoder'),
 (52573981, 0, true, false, true, '2022-05-16T02:43:22.805132+00:00', 'mrsantons'),
 (577424, 1, true, false, true, '2022-05-16T03:09:39.3077+00:00', 'matthewdeanmartin'),
 (42341383, 0, true, false, true, '2022-05-16T03:09:40.177449+00:00', 'tiamatu'),
@@ -158,7 +158,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (36890230, 1, true, false, true, '2022-05-16T15:23:41.189013+00:00', 'JEbertPrime'),
 (15052690, 3, true, false, true, '2022-05-16T15:23:42.61745+00:00', 'creaturenex'),
 (29484849, 0, true, false, true, '2022-05-16T00:32:51.894086+00:00', 'Lamiiine'),
-(527550, 2, true, false, true, '2022-05-16T15:56:15.686488+00:00', 'atzorvas'),
 (3941126, 5, true, false, true, '2022-05-16T15:56:17.50627+00:00', 'm-anwr'),
 (16315404, 1, true, false, true, '2022-05-16T15:56:18.937403+00:00', 'dhuvikamboj'),
 (211851, 1, true, false, true, '2022-05-16T19:33:03.529883+00:00', 'justjeff'),
@@ -166,6 +165,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (6935431, 11, true, false, true, '2022-05-16T19:33:05.187648+00:00', 'zkoppert'),
 (25751316, 1, true, false, true, '2022-05-16T21:32:13.880619+00:00', 'Tom-Wyszkowski'),
 (34112620, 1, true, false, true, '2022-05-16T00:32:53.348652+00:00', 'rperez2021'),
+(527550, 2, true, false, true, '2022-05-16T15:56:15.686488+00:00', 'atzorvas'),
 (34839258, 0, true, false, true, '2022-05-16T02:43:22.231878+00:00', 'adwinang'),
 (31478648, 1, true, false, true, '2022-05-17T21:45:38.370199+00:00', 'adil-Pathan'),
 (68660520, 2, true, false, true, '2022-05-20T07:52:07.530472+00:00', 'code-in-public'),
@@ -236,11 +236,12 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (15172054, 3, true, true, true, '2022-05-28T23:01:49.044498+00:00', 'benjamin-antupit'),
 (3597738, 0, true, false, true, '2022-05-19T17:57:58.946724+00:00', 'AdamasFR'),
 (10012151, 1, true, true, true, '2022-05-20T09:02:19.919829+00:00', 'joaoapel'),
+(16787295, 1, true, false, true, '2022-06-01T03:33:10.812607+00:00', 'acrobertson'),
+(2754163, 1, true, false, true, '2022-05-29T13:28:53.513321+00:00', 'MrLeebo'),
 (29295102, 1, true, false, true, '2022-05-20T09:14:24.454164+00:00', 'silvasobrinho'),
 (4199845, 6, true, false, true, '2022-05-20T09:14:25.520532+00:00', 'Wachiwi'),
 (14043845, 10, true, false, true, '2022-05-20T09:14:26.437678+00:00', 'jasonericdavis'),
 (5713670, 15, true, false, true, '2022-05-20T09:14:27.556372+00:00', 'bdougie'),
-(2754163, 1, true, false, true, '2022-05-29T13:28:53.513321+00:00', 'MrLeebo'),
 (79809121, 5, true, false, true, '2022-05-28T13:34:21.537197+00:00', 'TAKANOME-DEV'),
 (55068936, 1, true, false, true, '2022-05-28T14:47:04.734244+00:00', 'Siddhant-K-code'),
 (40822355, 2, true, false, true, '2022-05-31T16:10:11.065779+00:00', 'suuus'),
