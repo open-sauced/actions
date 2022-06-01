@@ -3255,7 +3255,7 @@ async function handleRequest(app, {
           "content-type": "text/html"
         },
         text: `<h1>Token created successfull</h1>
-    
+
 <p>Your token is: <strong>${token}</strong>. Copy it now as it cannot be shown again.</p>`
       };
     }
@@ -18067,18 +18067,8 @@ try {
   });
   console.log("stagedIssues", stagedIssues);
   const issues = await octokit.paginate(stagedIssues);
-<<<<<<< HEAD
-  // filter issues created by bots
   repoIssues = issues.filter((repoIssue) => repoIssue.user.type !== "Bot");
-=======
-  // filter issues that don't match "owner/name" format
-  repoIssues = issues.filter((repoIssue) => !repoIssue.title.match(/\s/) && !repoIssue.title.match(/^[^/]*$/));
->>>>>>> 033d3acd960ec80f3e47090de82f0b63f751a3f5
 } catch (err) {
-  console.log(err);
-}
-
-const repoGoalsData = await getRepoGoals(repoIssues);
 if (goalsToRename.length > 0) await renameGoals();
 // create or update the json store
 fs__WEBPACK_IMPORTED_MODULE_0__.writeFileSync("data.json", JSON.stringify(repoGoalsData, null, 2));
@@ -18100,7 +18090,7 @@ module.exports = JSON.parse('[[[0,44],"disallowed_STD3_valid"],[[45,46],"valid"]
 /************************************************************************/
 /******/ // The module cache
 /******/ var __webpack_module_cache__ = {};
-/******/ 
+/******/
 /******/ // The require function
 /******/ function __nccwpck_require__(moduleId) {
 /******/ 	// Check if module is in cache
@@ -18114,7 +18104,7 @@ module.exports = JSON.parse('[[[0,44],"disallowed_STD3_valid"],[[45,46],"valid"]
 /******/ 		// no module.loaded needed
 /******/ 		exports: {}
 /******/ 	};
-/******/ 
+/******/
 /******/ 	// Execute the module function
 /******/ 	var threw = true;
 /******/ 	try {
@@ -18123,11 +18113,11 @@ module.exports = JSON.parse('[[[0,44],"disallowed_STD3_valid"],[[45,46],"valid"]
 /******/ 	} finally {
 /******/ 		if(threw) delete __webpack_module_cache__[moduleId];
 /******/ 	}
-/******/ 
+/******/
 /******/ 	// Return the exports of the module
 /******/ 	return module.exports;
 /******/ }
-/******/ 
+/******/
 /************************************************************************/
 /******/ /* webpack/runtime/async module */
 /******/ (() => {
@@ -18202,16 +18192,16 @@ module.exports = JSON.parse('[[[0,44],"disallowed_STD3_valid"],[[45,46],"valid"]
 /******/ 		isEvaluating = false;
 /******/ 	};
 /******/ })();
-/******/ 
+/******/
 /******/ /* webpack/runtime/compat */
-/******/ 
+/******/
 /******/ if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = new URL('.', import.meta.url).pathname.slice(import.meta.url.match(/^file:\/\/\/\w:/) ? 1 : 0, -1) + "/";
-/******/ 
+/******/
 /************************************************************************/
-/******/ 
+/******/
 /******/ // startup
 /******/ // Load entry module and return exports
 /******/ // This entry module used 'module' so it can't be inlined
 /******/ var __webpack_exports__ = __nccwpck_require__(1705);
 /******/ __webpack_exports__ = await __webpack_exports__;
-/******/ 
+/******/
