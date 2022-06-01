@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T06:50:52.706Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-01T08:50:29.239Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4141,8 +4141,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5209, 54346799, 4, '2021-12-28T06:36:14', 'ChaseDurand', 'https://github.com/public-apis/public-apis/pull/2979'),
 (5092, 70107786, 4, '2022-05-26T14:35:10', 'timneutkens', 'https://github.com/vercel/next.js/pull/37213'),
 (5096, 70107786, 4, '2022-04-25T18:28:29', 'nkzawa', 'https://github.com/vercel/next.js/pull/36452'),
-(5094, 70107786, 4, '2022-05-29T17:17:42', 'ijjk', 'https://github.com/vercel/next.js/pull/37278'),
 (5095, 70107786, 4, '2022-05-27T21:21:40', 'styfle', 'https://github.com/vercel/next.js/pull/37254'),
+(5094, 70107786, 4, '2022-05-29T17:17:42', 'ijjk', 'https://github.com/vercel/next.js/pull/37278'),
 (5093, 70107786, 4, '2018-03-17T10:59:47', 'arunoda', 'https://github.com/vercel/next.js/pull/4020'),
 (5097, 70107786, 4, '2021-04-14T08:44:07', 'Timer', 'https://github.com/vercel/next.js/pull/24034'),
 (5103, 70107786, 4, '2022-04-07T16:00:27', 'sokra', 'https://github.com/vercel/next.js/pull/35867'),
@@ -4325,6 +4325,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5366, 239281641, 3, '2020-10-07T10:34:54', 'iveelco', 'https://github.com/TryGhost/Dawn/pull/3'),
 (5368, 239281641, 1, '2021-01-05T05:50:06', 'deankroker', 'https://github.com/TryGhost/Dawn/pull/23'),
 (5364, 239281641, 1, '2022-04-26T15:50:36', 'royalfig', 'https://github.com/TryGhost/Dawn/pull/62'),
+(5367, 239281641, 1, '2021-08-16T01:39:44', 'Jorijn', 'https://github.com/TryGhost/Dawn/pull/44'),
 (5370, 91151442, 4, '2022-05-24T21:22:31', 'davidhewitt', 'https://github.com/PyO3/pyo3/pull/2399'),
 (5369, 91151442, 4, '2021-03-27T11:48:50', 'kngwyu', 'https://github.com/PyO3/pyo3/pull/1523'),
 (5375, 91151442, 4, '2022-05-29T02:36:05', 'messense', 'https://github.com/PyO3/pyo3/pull/2404'),
@@ -4375,7 +4376,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3572, 31792824, 4, '2022-04-19T18:42:40', 'HansMuller', 'https://github.com/flutter/flutter/pull/102152'),
 (3574, 31792824, 4, '2022-05-20T21:51:14', 'dnfield', 'https://github.com/flutter/flutter/pull/104292'),
 (3569, 31792824, 4, '2022-05-19T20:33:11', 'christopherfujino', 'https://github.com/flutter/flutter/pull/103924'),
-(5367, 239281641, 1, '2021-08-16T01:39:44', 'Jorijn', 'https://github.com/TryGhost/Dawn/pull/44'),
 (3582, 31792824, 4, '2022-04-14T15:48:30', 'Hixie', 'https://github.com/flutter/flutter/pull/101875'),
 (5422, 3544424, 4, '2022-01-23T12:52:38', 'jakubroztocil', 'https://github.com/httpie/httpie/pull/1277'),
 (5427, 3544424, 1, '2013-10-09T20:22:30', 'nlf', 'https://github.com/httpie/httpie/pull/171'),
