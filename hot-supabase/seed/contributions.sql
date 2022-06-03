@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T20:44:27.939Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T22:44:30.091Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3853,8 +3853,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2661, 21938243, 4, '2020-01-29T15:22:46', 'pravic', 'https://github.com/rust-unofficial/awesome-rust/pull/791'),
 (2644, 21938243, 4, '2021-02-02T16:22:20', 'Martin1887', 'https://github.com/rust-unofficial/awesome-rust/pull/997'),
 (2646, 21938243, 3, '2021-02-02T16:22:21', 'vamolessa', 'https://github.com/rust-unofficial/awesome-rust/pull/1002'),
-(2658, 21938243, 4, '2016-06-03T07:33:34', 'frewsxcv', 'https://github.com/rust-unofficial/awesome-rust/pull/164'),
 (2653, 21938243, 4, '2020-01-13T16:17:22', 'whitfin', 'https://github.com/rust-unofficial/awesome-rust/pull/758'),
+(2658, 21938243, 4, '2016-06-03T07:33:34', 'frewsxcv', 'https://github.com/rust-unofficial/awesome-rust/pull/164'),
 (2652, 21938243, 2, '2022-03-17T16:27:17', 'mgrachev', 'https://github.com/rust-unofficial/awesome-rust/pull/1218'),
 (3090, 273512313, 3, '2022-02-23T17:26:21', 'ElizabethN', 'https://github.com/chaoss/community-handbook/pull/28'),
 (3080, 273512313, 2, '2022-02-23T17:22:55', 'sgoggins', 'https://github.com/chaoss/community-handbook/pull/20'),
@@ -4189,8 +4189,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2092, 26500787, 1, '2015-11-01T22:10:12', 'fastred', 'https://github.com/tonsky/FiraCode/pull/60'),
 (2097, 26500787, 1, '2022-02-07T18:33:55', 'jsoref', 'https://github.com/tonsky/FiraCode/pull/1366'),
 (2109, 26500787, 1, '2019-03-27T17:25:07', 'davelab6', 'https://github.com/tonsky/FiraCode/pull/731'),
-(2098, 26500787, 1, '2020-12-06T22:32:27', 'vorburger', 'https://github.com/tonsky/FiraCode/pull/1164'),
 (2261, 191445024, 1, '2020-10-02T22:08:57', 'ir2010', 'https://github.com/sastava007/Tech-Interview-Preparation/pull/14'),
+(2098, 26500787, 1, '2020-12-06T22:32:27', 'vorburger', 'https://github.com/tonsky/FiraCode/pull/1164'),
 (2087, 26500787, 2, '2016-04-01T12:43:58', 'Dominionized', 'https://github.com/tonsky/FiraCode/pull/160'),
 (2112, 26500787, 3, '2017-09-28T07:56:55', 'j-f1', 'https://github.com/tonsky/FiraCode/pull/491'),
 (5243, 9052236, 2, '2021-06-24T06:19:00', 'chasemc', 'https://github.com/nextflow-io/nextflow/pull/2184'),
