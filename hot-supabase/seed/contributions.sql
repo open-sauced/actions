@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T12:56:08.403Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T14:44:37.221Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -629,9 +629,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1639, 16072585, 1, '2021-06-22T14:19:50', 'bcardarella', 'https://github.com/phoenixframework/phoenix/pull/4337'),
 (1626, 16072585, 4, '2022-03-10T07:20:47', 'milmazz', 'https://github.com/phoenixframework/phoenix/pull/4713'),
 (1619, 16072585, 4, '2020-05-16T11:24:53', 'jayjun', 'https://github.com/phoenixframework/phoenix/pull/3849'),
-(1638, 16072585, 4, '2021-11-10T07:03:09', 'appdevnick', 'https://github.com/phoenixframework/phoenix/pull/4588'),
 (1614, 16072585, 4, '2021-08-25T05:37:14', 'michallepicki', 'https://github.com/phoenixframework/phoenix/pull/4421'),
 (1628, 16072585, 4, '2021-03-23T18:25:00', 'henrik', 'https://github.com/phoenixframework/phoenix/pull/4258'),
+(1638, 16072585, 4, '2021-11-10T07:03:09', 'appdevnick', 'https://github.com/phoenixframework/phoenix/pull/4588'),
 (2937, 46261404, 4, '2020-01-29T12:38:55', 'cristianoc', 'https://github.com/reasonml/reason/pull/2539'),
 (2955, 46261404, 4, '2019-12-11T10:59:26', 'jaredly', 'https://github.com/reasonml/reason/pull/2504'),
 (2935, 46261404, 1, '2018-05-17T18:53:05', 'OhadRau', 'https://github.com/reasonml/reason/pull/1927'),
@@ -2602,8 +2602,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3298, 184571651, 1, '2022-01-10T08:49:51', 'bakennedy', 'https://github.com/material-shell/material-shell/pull/751'),
 (3349, 501689, 1, '2020-09-16T16:38:15', 'Dvoreth', 'https://github.com/antlr/stringtemplate4/pull/267'),
 (3301, 184571651, 4, '2022-05-04T21:44:05', 'HalfVoxel', 'https://github.com/material-shell/material-shell/pull/795'),
-(3347, 501689, 4, '2020-08-14T17:07:08', 'Clashsoft', 'https://github.com/antlr/stringtemplate4/pull/261'),
 (3346, 501689, 1, '2016-10-11T16:21:05', 'BurtHarris', 'https://github.com/antlr/stringtemplate4/pull/160'),
+(3347, 501689, 4, '2020-08-14T17:07:08', 'Clashsoft', 'https://github.com/antlr/stringtemplate4/pull/261'),
 (3345, 501689, 1, '2020-04-21T02:20:16', 'steinybot', 'https://github.com/antlr/stringtemplate4/pull/254'),
 (3338, 501689, 1, '2012-08-13T20:11:45', 'pgelinas', 'https://github.com/antlr/stringtemplate4/pull/13'),
 (3352, 501689, 1, '2015-12-03T21:24:20', 'jsnyders', 'https://github.com/antlr/stringtemplate4/pull/115'),
