@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T14:44:37.221Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T16:51:57.108Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -629,9 +629,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1639, 16072585, 1, '2021-06-22T14:19:50', 'bcardarella', 'https://github.com/phoenixframework/phoenix/pull/4337'),
 (1626, 16072585, 4, '2022-03-10T07:20:47', 'milmazz', 'https://github.com/phoenixframework/phoenix/pull/4713'),
 (1619, 16072585, 4, '2020-05-16T11:24:53', 'jayjun', 'https://github.com/phoenixframework/phoenix/pull/3849'),
+(1638, 16072585, 4, '2021-11-10T07:03:09', 'appdevnick', 'https://github.com/phoenixframework/phoenix/pull/4588'),
 (1614, 16072585, 4, '2021-08-25T05:37:14', 'michallepicki', 'https://github.com/phoenixframework/phoenix/pull/4421'),
 (1628, 16072585, 4, '2021-03-23T18:25:00', 'henrik', 'https://github.com/phoenixframework/phoenix/pull/4258'),
-(1638, 16072585, 4, '2021-11-10T07:03:09', 'appdevnick', 'https://github.com/phoenixframework/phoenix/pull/4588'),
 (2937, 46261404, 4, '2020-01-29T12:38:55', 'cristianoc', 'https://github.com/reasonml/reason/pull/2539'),
 (2955, 46261404, 4, '2019-12-11T10:59:26', 'jaredly', 'https://github.com/reasonml/reason/pull/2504'),
 (2935, 46261404, 1, '2018-05-17T18:53:05', 'OhadRau', 'https://github.com/reasonml/reason/pull/1927'),
@@ -3865,13 +3865,13 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1959, 14173176, 4, '2017-07-13T19:02:54', 'cypherdare', 'https://github.com/EsotericSoftware/kryo/pull/521'),
 (1955, 14173176, 1, '2018-06-09T06:58:30', 'qxo', 'https://github.com/EsotericSoftware/kryo/pull/533'),
 (1941, 14173176, 1, '2017-03-12T00:06:49', 'sschuberth', 'https://github.com/EsotericSoftware/kryo/pull/499'),
-(1968, 14173176, 2, '2021-04-01T17:16:11', 'FrauBoes', 'https://github.com/EsotericSoftware/kryo/pull/815'),
-(4859, 88447006, 2, '2018-02-26T18:23:09', 'WizardOfAus', 'https://github.com/Scanate/EthList/pull/37'),
 (4860, 88447006, 1, '2018-03-15T18:22:50', 'Wonderbeest', 'https://github.com/Scanate/EthList/pull/40'),
 (4861, 88447006, 2, '2017-10-10T18:59:05', 'yozef', 'https://github.com/Scanate/EthList/pull/22'),
 (4862, 88447006, 2, '2018-03-15T18:22:09', 'ethers', 'https://github.com/Scanate/EthList/pull/39'),
 (4863, 88447006, 2, '2018-01-22T14:37:17', 'Shivamnema', 'https://github.com/Scanate/EthList/pull/33'),
 (4864, 88447006, 1, '2017-05-27T14:47:11', 'kristallizer', 'https://github.com/Scanate/EthList/pull/7'),
+(1968, 14173176, 2, '2021-04-01T17:16:11', 'FrauBoes', 'https://github.com/EsotericSoftware/kryo/pull/815'),
+(4859, 88447006, 2, '2018-02-26T18:23:09', 'WizardOfAus', 'https://github.com/Scanate/EthList/pull/37'),
 (4865, 88447006, 1, '2017-05-27T14:45:27', 'naterush', 'https://github.com/Scanate/EthList/pull/6'),
 (4836, 507, 1, '2013-07-25T23:42:21', 'sferik', 'https://github.com/sferik/twitter/pull/429'),
 (4848, 507, 2, '2012-06-04T13:33:40', 'laserlemon', 'https://github.com/sferik/twitter/pull/265'),
@@ -4042,8 +4042,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5027, 203587744, 1, '2019-10-22T09:19:54', 'TheHollidayInn', 'https://github.com/hoppscotch/hoppscotch/pull/176'),
 (5032, 203587744, 1, '2019-11-27T11:52:31', 'athul', 'https://github.com/hoppscotch/hoppscotch/pull/344'),
 (5019, 203587744, 4, '2020-01-15T05:21:28', 'reefqi037', 'https://github.com/hoppscotch/hoppscotch/pull/492'),
-(5020, 203587744, 4, '2020-02-26T17:03:28', 'JacobAnavisca', 'https://github.com/hoppscotch/hoppscotch/pull/603'),
 (3071, 290234921, 1, '2020-10-13T18:17:08', 'MartinSeeler', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/38'),
+(5020, 203587744, 4, '2020-02-26T17:03:28', 'JacobAnavisca', 'https://github.com/hoppscotch/hoppscotch/pull/603'),
 (3098, 290234921, 1, '2021-03-21T18:25:11', 'Dibakarroy1997', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/68'),
 (3093, 290234921, 1, '2021-01-13T15:01:47', 'Elfocrash', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/62'),
 (3079, 290234921, 1, '2021-06-22T18:16:29', 'BayanBennett', 'https://github.com/JoseDeFreitas/awesome-youtubers/pull/74'),
