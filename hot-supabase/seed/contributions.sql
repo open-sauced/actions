@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T04:47:31.408Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-03T06:47:40.888Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4108,8 +4108,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5207, 54346799, 2, '2018-04-10T23:46:47', 'alxpez', 'https://github.com/public-apis/public-apis/pull/642'),
 (5214, 54346799, 4, '2021-10-03T07:00:04', 'CipherGirl', 'https://github.com/public-apis/public-apis/pull/2101'),
 (5210, 54346799, 4, '2018-10-19T00:44:51', 'NaveenDA', 'https://github.com/public-apis/public-apis/pull/791'),
-(5209, 54346799, 4, '2021-12-28T06:36:14', 'ChaseDurand', 'https://github.com/public-apis/public-apis/pull/2979'),
 (5092, 70107786, 4, '2022-05-26T14:35:10', 'timneutkens', 'https://github.com/vercel/next.js/pull/37213'),
+(5209, 54346799, 4, '2021-12-28T06:36:14', 'ChaseDurand', 'https://github.com/public-apis/public-apis/pull/2979'),
 (5096, 70107786, 4, '2022-04-25T18:28:29', 'nkzawa', 'https://github.com/vercel/next.js/pull/36452'),
 (5095, 70107786, 4, '2022-05-27T21:21:40', 'styfle', 'https://github.com/vercel/next.js/pull/37254'),
 (5094, 70107786, 4, '2022-05-29T17:17:42', 'ijjk', 'https://github.com/vercel/next.js/pull/37278'),
