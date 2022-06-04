@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T16:49:31.347Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-04T18:46:03.942Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4246,8 +4246,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2090, 26500787, 2, '2021-11-12T13:30:11', 'andrewarchi', 'https://github.com/tonsky/FiraCode/pull/1310'),
 (2088, 26500787, 2, '2021-12-20T11:59:32', 'moshuying', 'https://github.com/tonsky/FiraCode/pull/1341'),
 (2093, 26500787, 4, '2019-04-06T15:04:06', 'thundernixon', 'https://github.com/tonsky/FiraCode/pull/742'),
-(2115, 26500787, 3, '2020-02-08T19:49:51', 'drify', 'https://github.com/tonsky/FiraCode/pull/943'),
 (11455, 77558427, 1, '2020-02-12T15:07:35', 'mdribera', 'https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript/pull/39'),
+(2115, 26500787, 3, '2020-02-08T19:49:51', 'drify', 'https://github.com/tonsky/FiraCode/pull/943'),
 (11456, 357272600, 4, '2021-10-25T07:35:07', 'kodie', 'https://github.com/nextapps-de/winbox/pull/83'),
 (11457, 77558427, 1, '2020-10-04T19:58:52', 'PokhrelAnish', 'https://github.com/amejiarosario/dsa.js-data-structures-algorithms-javascript/pull/86'),
 (11458, 357272600, 1, '2021-05-01T08:43:20', 'itgoldman', 'https://github.com/nextapps-de/winbox/pull/9'),
@@ -5659,8 +5659,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8518, 166558054, 4, '2019-10-06T08:45:31', 'TheSecEng', 'https://github.com/Ullaakut/nmap/pull/33'),
 (8519, 166558054, 3, '2019-06-04T11:56:01', 'botastic', 'https://github.com/Ullaakut/nmap/pull/12'),
 (8520, 166558054, 1, '2019-05-27T11:03:22', 'blshkv', 'https://github.com/Ullaakut/nmap/pull/13'),
-(8521, 166558054, 1, '2021-07-14T08:48:56', 'cyrinux', 'https://github.com/Ullaakut/nmap/pull/87'),
 (8522, 166558054, 1, '2019-10-20T02:53:41', 'beckler', 'https://github.com/Ullaakut/nmap/pull/37'),
+(8521, 166558054, 1, '2021-07-14T08:48:56', 'cyrinux', 'https://github.com/Ullaakut/nmap/pull/87'),
 (8523, 166558054, 1, '2021-07-13T14:07:04', 'mxrch', 'https://github.com/Ullaakut/nmap/pull/85'),
 (8524, 166558054, 1, '2019-07-24T16:59:55', 'voidint', 'https://github.com/Ullaakut/nmap/pull/19'),
 (8525, 166558054, 1, '2021-04-06T06:09:55', 'MaineK00n', 'https://github.com/Ullaakut/nmap/pull/77'),
