@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-05T15:03:41.357Z",
+  "lastExecuted": "2022-06-05T15:28:11.042Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1034,12 +1034,12 @@
     "BolajiAyodeji": {
       "owner": "BolajiAyodeji",
       "notFound": false,
-      "lastExecuted": "2022-06-05T03:25:32.578Z"
+      "lastExecuted": "2022-06-05T15:28:11.042Z"
     },
     "teezzan": {
       "owner": "teezzan",
       "notFound": false,
-      "lastExecuted": "2022-06-05T03:25:32.578Z"
+      "lastExecuted": "2022-06-05T15:28:11.042Z"
     },
     "Borrus-sudo": {
       "owner": "Borrus-sudo",
@@ -1344,17 +1344,17 @@
     "oscard0m": {
       "owner": "oscard0m",
       "notFound": true,
-      "lastExecuted": "2022-06-05T03:25:32.578Z"
+      "lastExecuted": "2022-06-05T15:28:11.042Z"
     },
     "creaturenex": {
       "owner": "creaturenex",
       "notFound": false,
-      "lastExecuted": "2022-06-05T03:25:32.578Z"
+      "lastExecuted": "2022-06-05T15:28:11.042Z"
     },
     "atzorvas": {
       "owner": "atzorvas",
       "notFound": false,
-      "lastExecuted": "2022-06-05T03:25:32.578Z"
+      "lastExecuted": "2022-06-05T15:28:11.042Z"
     },
     "m-anwr": {
       "owner": "m-anwr",
@@ -1995,6 +1995,11 @@
       "owner": "Elia-Darwish",
       "notFound": false,
       "lastExecuted": "2022-06-05T08:55:34.006Z"
+    },
+    "Shoetan": {
+      "owner": "Shoetan",
+      "notFound": false,
+      "lastExecuted": "2022-06-05T15:28:11.042Z"
     }
   }
 }
