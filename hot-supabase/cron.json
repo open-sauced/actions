@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-07T18:10:34.180Z",
+  "lastExecuted": "2022-06-07T18:29:37.720Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -74,17 +74,17 @@
     "mrsantons": {
       "owner": "mrsantons",
       "notFound": false,
-      "lastExecuted": "2022-06-07T06:20:38.692Z"
+      "lastExecuted": "2022-06-07T18:29:37.720Z"
     },
     "MatElGran": {
       "owner": "MatElGran",
       "notFound": true,
-      "lastExecuted": "2022-06-07T06:20:38.692Z"
+      "lastExecuted": "2022-06-07T18:29:37.720Z"
     },
     "matthewdeanmartin": {
       "owner": "matthewdeanmartin",
       "notFound": false,
-      "lastExecuted": "2022-06-07T06:20:38.692Z"
+      "lastExecuted": "2022-06-07T18:29:37.720Z"
     },
     "tiamatu": {
       "owner": "tiamatu",
@@ -1164,7 +1164,7 @@
     "techn0gichida2": {
       "owner": "techn0gichida2",
       "notFound": false,
-      "lastExecuted": "2022-06-07T06:20:38.692Z"
+      "lastExecuted": "2022-06-07T18:29:37.720Z"
     },
     "DevenPerkins": {
       "owner": "DevenPerkins",
@@ -2014,7 +2014,7 @@
     "daniellemadry": {
       "owner": "daniellemadry",
       "notFound": false,
-      "lastExecuted": "2022-06-07T06:20:38.692Z"
+      "lastExecuted": "2022-06-07T18:29:37.720Z"
     },
     "ktravers": {
       "owner": "ktravers",
@@ -2035,6 +2035,11 @@
       "owner": "AndreaGriffiths11",
       "notFound": false,
       "lastExecuted": "2022-06-07T16:47:51.919Z"
+    },
+    "lucalves": {
+      "owner": "lucalves",
+      "notFound": false,
+      "lastExecuted": "2022-06-07T18:29:37.720Z"
     }
   }
 }
