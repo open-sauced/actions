@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-07T12:57:37.127Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-07T14:44:39.464Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -740,9 +740,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2542, 9393759, 4, '2019-04-08T11:18:10', 'pixelpicosean', 'https://github.com/photonstorm/phaser/pull/3979'),
 (2535, 9393759, 1, '2020-10-02T08:42:48', 'svipal', 'https://github.com/photonstorm/phaser/pull/4992'),
 (2564, 9393759, 4, '2019-02-24T23:07:11', 'englercj', 'https://github.com/photonstorm/phaser/pull/4380'),
+(2541, 9393759, 4, '2022-02-03T16:03:21', 'vforsh', 'https://github.com/photonstorm/phaser/pull/5968'),
 (2547, 9393759, 4, '2017-01-18T11:27:26', 'vbornand', 'https://github.com/photonstorm/phaser/pull/2969'),
 (2540, 9393759, 4, '2019-06-22T10:05:24', 'D-Parkinson1', 'https://github.com/photonstorm/phaser/pull/4610'),
-(2541, 9393759, 4, '2022-02-03T16:03:21', 'vforsh', 'https://github.com/photonstorm/phaser/pull/5968'),
 (1686, 348060227, 4, '2022-02-28T20:03:22', 'jonathantneal', 'https://github.com/withastro/astro/pull/2675'),
 (1763, 1834988, 4, '2013-04-18T23:19:54', 'mfenner', 'https://github.com/ropensci/rplos/pull/39'),
 (1703, 348060227, 4, '2022-02-07T15:16:56', 'MarcusOtter', 'https://github.com/withastro/astro/pull/2540'),
@@ -3486,8 +3486,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2656, 21938243, 3, '2021-08-08T21:19:22', 'williamdes', 'https://github.com/rust-unofficial/awesome-rust/pull/1138'),
 (4110, 184961291, 2, '2021-12-09T06:27:51', 'gilescope', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/21'),
 (4111, 184961291, 1, '2019-11-01T01:26:14', 'nearmax', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/1'),
-(4115, 184961291, 1, '2021-10-25T01:24:48', 'adamdossa', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/17'),
 (4114, 184961291, 1, '2020-02-12T10:09:42', 'gluk64', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/2'),
+(4115, 184961291, 1, '2021-10-25T01:24:48', 'adamdossa', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/17'),
 (4112, 184961291, 1, '2020-08-03T01:02:27', 'andynog', 'https://github.com/rust-in-blockchain/awesome-blockchain-rust/pull/6'),
 (9014, 87380483, 1, '2017-04-10T00:45:06', 'picatz', 'https://github.com/socketry/async/pull/7'),
 (9018, 87380483, 1, '2018-11-12T07:26:07', 'jjyr', 'https://github.com/socketry/async/pull/30'),
@@ -3814,8 +3814,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4483, 276414382, 4, '2021-08-12T19:25:11', 'pavelfeldman', 'https://github.com/microsoft/playwright-python/pull/845'),
 (4484, 276414382, 1, '2020-12-09T16:36:58', 'Mattwmaster58', 'https://github.com/microsoft/playwright-python/pull/353'),
 (5631, 1542281, 1, '2018-02-21T20:52:47', 'SomeoneToIgnore', 'https://github.com/ChrisMarinos/FSharpKoans/pull/61'),
-(5636, 1542281, 2, '2012-11-01T08:15:47', 'harold', 'https://github.com/ChrisMarinos/FSharpKoans/pull/12'),
 (5637, 1542281, 2, '2018-04-08T19:22:32', 'spaasis', 'https://github.com/ChrisMarinos/FSharpKoans/pull/68'),
+(5636, 1542281, 2, '2012-11-01T08:15:47', 'harold', 'https://github.com/ChrisMarinos/FSharpKoans/pull/12'),
 (5644, 1542281, 1, '2019-04-23T18:59:44', 'craigjbass', 'https://github.com/ChrisMarinos/FSharpKoans/pull/85'),
 (5639, 1542281, 1, '2014-11-24T15:24:51', 'CalMlynarczyk', 'https://github.com/ChrisMarinos/FSharpKoans/pull/32'),
 (5638, 1542281, 2, '2018-08-20T21:11:01', 'nskins', 'https://github.com/ChrisMarinos/FSharpKoans/pull/70'),
@@ -3841,9 +3841,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4514, 26291683, 1, '2016-03-10T23:55:43', 'alex-teren', 'https://github.com/twitter/twemoji/pull/130'),
 (4515, 26291683, 1, '2014-11-08T00:31:11', 'thii', 'https://github.com/twitter/twemoji/pull/6'),
 (4516, 26291683, 3, '2015-04-09T12:43:58', 'jasmussen', 'https://github.com/twitter/twemoji/pull/69'),
-(4517, 26291683, 1, '2019-09-04T18:55:29', 'Abhik1998', 'https://github.com/twitter/twemoji/pull/376'),
 (4518, 26291683, 1, '2014-11-11T18:16:31', 'andypiper', 'https://github.com/twitter/twemoji/pull/24'),
 (4519, 26291683, 1, '2016-10-10T10:52:28', 'S-Raghav', 'https://github.com/twitter/twemoji/pull/187'),
+(4517, 26291683, 1, '2019-09-04T18:55:29', 'Abhik1998', 'https://github.com/twitter/twemoji/pull/376'),
 (4520, 26291683, 1, '2015-04-14T11:48:29', 'AnSavvides', 'https://github.com/twitter/twemoji/pull/74'),
 (4521, 26291683, 1, '2016-02-09T08:29:57', 'anirvan', 'https://github.com/twitter/twemoji/pull/117'),
 (4522, 26291683, 2, '2021-06-08T02:11:27', 'goooseman', 'https://github.com/twitter/twemoji/pull/491'),
@@ -4263,8 +4263,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4977, 37140605, 1, '2018-10-16T07:00:01', 'lumie31', 'https://github.com/dwyl/learn-tdd/pull/113'),
 (4978, 37140605, 1, '2015-09-19T22:00:22', 'Joshua-Ronan-Phillips', 'https://github.com/dwyl/learn-tdd/pull/29'),
 (4979, 37140605, 2, '2017-02-27T14:15:58', 'oliverjam', 'https://github.com/dwyl/learn-tdd/pull/81'),
-(4980, 37140605, 2, '2017-03-22T22:53:09', 'Cleop', 'https://github.com/dwyl/learn-tdd/pull/86'),
 (4981, 37140605, 1, '2017-07-17T18:50:33', 'kfern', 'https://github.com/dwyl/learn-tdd/pull/97'),
+(4980, 37140605, 2, '2017-03-22T22:53:09', 'Cleop', 'https://github.com/dwyl/learn-tdd/pull/86'),
 (4982, 37140605, 1, '2017-05-10T17:12:41', 'ZooeyMiller', 'https://github.com/dwyl/learn-tdd/pull/89'),
 (4983, 37140605, 1, '2015-12-24T03:10:13', 'jkbits1', 'https://github.com/dwyl/learn-tdd/pull/42'),
 (4984, 37140605, 1, '2016-03-31T17:15:25', 'byr-gdp', 'https://github.com/dwyl/learn-tdd/pull/49'),
@@ -4819,8 +4819,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3003, 14747598, 1, '2017-07-08T18:08:04', 'Noyabronok', 'https://github.com/typicode/json-server/pull/559'),
 (3018, 14747598, 1, '2015-11-08T21:22:03', 'andreruffert', 'https://github.com/typicode/json-server/pull/194'),
 (6918, 270657720, 2, '2020-10-17T20:19:06', 'Vannsl', 'https://github.com/vuesomedev/awesome-vue-3/pull/27'),
-(188, 307397117, 4, '2021-01-21T15:31:29', 'cSparkle', 'https://github.com/getsentry/sentry-capacitor/pull/22'),
 (2869, 27380215, 1, '2021-05-06T07:58:03', 'tevino', 'https://github.com/vimagick/dockerfiles/pull/175'),
+(188, 307397117, 4, '2021-01-21T15:31:29', 'cSparkle', 'https://github.com/getsentry/sentry-capacitor/pull/22'),
 (2862, 27380215, 1, '2016-07-04T05:19:48', 'marekyggdrasil', 'https://github.com/vimagick/dockerfiles/pull/20'),
 (2861, 27380215, 1, '2021-07-02T08:19:14', 'Rajpratik71', 'https://github.com/vimagick/dockerfiles/pull/182'),
 (2878, 27380215, 1, '2019-10-26T23:33:12', 'nedtwigg', 'https://github.com/vimagick/dockerfiles/pull/87'),
