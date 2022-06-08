@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T12:57:31.863Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T14:49:22.909Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1121,8 +1121,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1407, 149339935, 1, '2021-11-05T21:14:27', 'ksuquix', 'https://github.com/esmero/strawberryfield/pull/206'),
 (1408, 149339935, 4, '2021-11-05T21:12:14', 'patdunlavey', 'https://github.com/esmero/strawberryfield/pull/208'),
 (1409, 149339935, 3, '2021-03-22T14:39:58', 'pcambra', 'https://github.com/esmero/strawberryfield/pull/162'),
-(1410, 149339935, 4, '2020-02-24T15:54:54', 'marlo-longley', 'https://github.com/esmero/strawberryfield/pull/73'),
 (6844, 3947396, 3, '2012-06-18T16:54:18', 'hmarr', 'https://github.com/getsentry/sentry-ruby/pull/12'),
+(1410, 149339935, 4, '2020-02-24T15:54:54', 'marlo-longley', 'https://github.com/esmero/strawberryfield/pull/73'),
 (6828, 3947396, 1, '2017-04-07T21:12:33', 'schneiderderek', 'https://github.com/getsentry/sentry-ruby/pull/656'),
 (861, 188897728, 3, '2020-01-05T11:57:29', 'andrijajocic', 'https://github.com/csinn/CSInn/pull/49'),
 (863, 188897728, 1, '2019-05-28T15:54:11', 'HelloWorld183L', 'https://github.com/csinn/CSInn/pull/23'),
@@ -2315,8 +2315,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1997, 81975372, 1, '2018-02-02T18:42:57', 'emrecosar', 'https://github.com/kdn251/interviews/pull/58'),
 (2229, 257314632, 4, '2022-03-25T16:15:29', 'srinjoyc', 'https://github.com/onflow/fcl-js/pull/1087'),
 (2219, 257314632, 1, '2020-09-22T19:39:10', 'janezpodhostnik', 'https://github.com/onflow/fcl-js/pull/374'),
-(2222, 257314632, 3, '2020-07-08T18:25:47', 'cybercent', 'https://github.com/onflow/fcl-js/pull/147'),
 (2205, 257314632, 3, '2021-12-10T17:49:21', 'gnujoow', 'https://github.com/onflow/fcl-js/pull/919'),
+(2222, 257314632, 3, '2020-07-08T18:25:47', 'cybercent', 'https://github.com/onflow/fcl-js/pull/147'),
 (2240, 257314632, 1, '2021-06-08T18:14:32', 'danielhour', 'https://github.com/onflow/fcl-js/pull/661'),
 (2209, 257314632, 3, '2021-11-23T00:39:07', 'MaxStalker', 'https://github.com/onflow/fcl-js/pull/883'),
 (2210, 257314632, 2, '2020-09-14T17:46:55', 'alxocity', 'https://github.com/onflow/fcl-js/pull/365'),
@@ -6054,8 +6054,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4236, 35866694, 4, '2021-10-19T02:05:58', 'Sing-Li', 'https://github.com/RocketChat/Rocket.Chat/pull/23497'),
 (4213, 35866694, 4, '2022-05-30T15:47:45', 'MarcosSpessatto', 'https://github.com/RocketChat/Rocket.Chat/pull/25683'),
 (4216, 35866694, 4, '2022-05-23T15:46:32', 'marceloschmidt', 'https://github.com/RocketChat/Rocket.Chat/pull/25329'),
-(4222, 35866694, 4, '2019-09-19T19:37:33', 'Hudell', 'https://github.com/RocketChat/Rocket.Chat/pull/15294'),
 (4233, 35866694, 4, '2022-06-02T17:08:25', 'tassoevan', 'https://github.com/RocketChat/Rocket.Chat/pull/25697'),
+(4222, 35866694, 4, '2019-09-19T19:37:33', 'Hudell', 'https://github.com/RocketChat/Rocket.Chat/pull/15294'),
 (4234, 35866694, 4, '2017-03-05T02:32:20', 'nishimaki10', 'https://github.com/RocketChat/Rocket.Chat/pull/6234'),
 (4230, 35866694, 4, '2018-07-03T12:03:10', 'gdelavald', 'https://github.com/RocketChat/Rocket.Chat/pull/11267'),
 (4229, 35866694, 4, '2022-06-01T01:50:13', 'd-gubert', 'https://github.com/RocketChat/Rocket.Chat/pull/25702'),
