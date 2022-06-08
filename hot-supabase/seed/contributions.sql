@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T04:50:40.938Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T06:47:42.092Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4796,8 +4796,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2869, 27380215, 1, '2021-05-06T07:58:03', 'tevino', 'https://github.com/vimagick/dockerfiles/pull/175'),
 (2862, 27380215, 1, '2016-07-04T05:19:48', 'marekyggdrasil', 'https://github.com/vimagick/dockerfiles/pull/20'),
 (2861, 27380215, 1, '2021-07-02T08:19:14', 'Rajpratik71', 'https://github.com/vimagick/dockerfiles/pull/182'),
-(2878, 27380215, 1, '2019-10-26T23:33:12', 'nedtwigg', 'https://github.com/vimagick/dockerfiles/pull/87'),
 (6921, 270657720, 1, '2020-10-19T11:44:38', 'ismail9k', 'https://github.com/vuesomedev/awesome-vue-3/pull/28'),
+(2878, 27380215, 1, '2019-10-26T23:33:12', 'nedtwigg', 'https://github.com/vimagick/dockerfiles/pull/87'),
 (6925, 270657720, 2, '2021-05-02T10:29:51', 'levchak0910', 'https://github.com/vuesomedev/awesome-vue-3/pull/61'),
 (6928, 270657720, 1, '2020-09-24T19:04:47', 'Maronato', 'https://github.com/vuesomedev/awesome-vue-3/pull/15'),
 (6926, 270657720, 1, '2021-01-06T18:21:00', 'web2033', 'https://github.com/vuesomedev/awesome-vue-3/pull/50'),
@@ -5681,8 +5681,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4404, 4132857, 1, '2019-05-21T16:55:22', 'sagotsky', 'https://github.com/insanum/gcalcli/pull/450'),
 (4400, 4132857, 1, '2013-12-13T02:01:59', 'jimparis', 'https://github.com/insanum/gcalcli/pull/118'),
 (4402, 4132857, 1, '2019-04-04T04:05:53', 'maxwell-k', 'https://github.com/insanum/gcalcli/pull/439'),
-(4406, 4132857, 1, '2015-09-16T17:18:35', 'jcmuller', 'https://github.com/insanum/gcalcli/pull/207'),
 (4407, 4132857, 1, '2016-01-19T00:47:56', 'matthewdavis', 'https://github.com/insanum/gcalcli/pull/227'),
+(4406, 4132857, 1, '2015-09-16T17:18:35', 'jcmuller', 'https://github.com/insanum/gcalcli/pull/207'),
 (4386, 4132857, 2, '2012-05-13T06:51:55', 'grahamking', 'https://github.com/insanum/gcalcli/pull/4'),
 (4403, 4132857, 1, '2013-01-17T17:38:27', 'mali', 'https://github.com/insanum/gcalcli/pull/49'),
 (4398, 4132857, 1, '2020-02-13T05:43:05', 'coudenysj', 'https://github.com/insanum/gcalcli/pull/510'),
@@ -7720,4 +7720,31 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2905, 97559842, 1, '2021-03-02T17:14:00', 'CarlosGines', 'https://github.com/bvaughn/react-error-boundary/pull/85'),
 (2881, 97559842, 1, '2020-09-15T17:52:02', 'youngbob', 'https://github.com/bvaughn/react-error-boundary/pull/70'),
 (2911, 97559842, 1, '2020-08-24T17:11:56', 'imp-dance', 'https://github.com/bvaughn/react-error-boundary/pull/64'),
-(2885, 97559842, 1, '2017-10-09T16:48:01', 'hanse', 'https://github.com/bvaughn/react-error-boundary/pull/1');
+(2885, 97559842, 1, '2017-10-09T16:48:01', 'hanse', 'https://github.com/bvaughn/react-error-boundary/pull/1'),
+(17133, 1549138, 4, '2020-11-20T15:44:05', 'bpoplauschi', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1191'),
+(17134, 1549138, 4, '2018-10-25T14:55:26', 'rivera-ernesto', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/977'),
+(17135, 1549138, 4, '2022-05-18T16:29:50', 'ffried', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1300'),
+(17136, 1549138, 4, '2019-09-30T11:50:55', 'lolgear', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1083'),
+(17137, 1549138, 4, '2022-02-09T16:39:23', 'sushichop', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1281'),
+(17138, 1549138, 4, '2019-06-17T19:42:41', 'hhanesand', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1076'),
+(17139, 1549138, 4, '2016-11-15T12:56:50', 'MaddTheSane', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/803'),
+(17140, 1549138, 4, '2013-11-07T01:51:02', 'kolyuchiy', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/156'),
+(17141, 1549138, 4, '2014-07-02T08:27:22', 'dvor', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/303'),
+(17142, 1549138, 4, '2022-02-16T17:37:20', 'jcbertin', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1292'),
+(17143, 1549138, 1, '2018-12-29T16:46:30', 'tmsrtx', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/998'),
+(17144, 1549138, 1, '2015-10-21T13:30:14', 'erysaj', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/621'),
+(17145, 1549138, 4, '2015-11-20T12:57:22', 'sinoru', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/660'),
+(17146, 1549138, 2, '2015-10-12T13:36:14', 'matthiaswenz', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/604'),
+(17147, 1549138, 4, '2021-10-28T15:10:56', 'nrbrook', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1262'),
+(17148, 1549138, 4, '2017-01-09T18:39:38', 'DD-P', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/822'),
+(17149, 1549138, 1, '2014-09-16T02:59:51', 'colemancda', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/341'),
+(17150, 1549138, 1, '2020-04-13T16:01:21', 'ls-bertrand-landry-hetu', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1131'),
+(17151, 1549138, 1, '2014-09-10T04:03:24', 'slarew', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/339'),
+(17152, 1549138, 1, '2014-05-20T01:50:16', 'sebikeller', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/285'),
+(17153, 1549138, 4, '2018-10-11T19:32:54', 'ksuther', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/957'),
+(17154, 1549138, 1, '2015-06-01T13:24:18', 'mackross', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/446'),
+(17155, 1549138, 4, '2015-10-16T09:23:55', 'timbodeit', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/622'),
+(17156, 1549138, 4, '2019-10-24T22:45:25', 'diederich', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1104'),
+(17157, 1549138, 3, '2015-06-24T19:20:48', 'pk', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/500'),
+(17158, 1549138, 4, '2021-12-13T11:56:37', 'nekrich', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1265'),
+(17159, 1549138, 4, '2022-01-28T13:40:13', 'kinarobin', 'https://github.com/CocoaLumberjack/CocoaLumberjack/pull/1280');
