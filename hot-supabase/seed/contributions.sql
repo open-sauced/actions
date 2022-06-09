@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T06:48:04.834Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T08:54:41.413Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6800,10 +6800,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (16966, 478185779, 2, '2022-04-11T15:42:34', 'Susmita-Dey', 'https://github.com/XollabOS/talktometechnology/pull/24'),
 (16967, 45495679, 1, '2016-05-02T13:07:22', 'GJena', 'https://github.com/EpistasisLab/tpot/pull/126'),
 (16968, 45495679, 1, '2018-08-30T18:08:21', 'TomAugspurger', 'https://github.com/EpistasisLab/tpot/pull/752'),
-(16971, 45495679, 4, '2017-11-10T14:38:36', 'rhiever', 'https://github.com/EpistasisLab/tpot/pull/621'),
-(16972, 478185779, 1, '2022-05-02T19:41:08', 'pan-alex', 'https://github.com/XollabOS/talktometechnology/pull/51'),
 (16969, 478185779, 1, '2022-04-14T16:13:15', 'abh139', 'https://github.com/XollabOS/talktometechnology/pull/26'),
 (16970, 45495679, 4, '2016-08-29T14:58:49', 'bartleyn', 'https://github.com/EpistasisLab/tpot/pull/244'),
+(16971, 45495679, 4, '2017-11-10T14:38:36', 'rhiever', 'https://github.com/EpistasisLab/tpot/pull/621'),
+(16972, 478185779, 1, '2022-05-02T19:41:08', 'pan-alex', 'https://github.com/XollabOS/talktometechnology/pull/51'),
 (16973, 45495679, 2, '2017-01-03T16:12:45', 'sahil-b-shah', 'https://github.com/EpistasisLab/tpot/pull/334'),
 (16974, 45495679, 2, '2017-07-17T15:22:29', 'PGijsbers', 'https://github.com/EpistasisLab/tpot/pull/506'),
 (16975, 45495679, 4, '2017-06-03T13:01:57', 'rasbt', 'https://github.com/EpistasisLab/tpot/pull/489'),
@@ -6976,6 +6976,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (17885, 18696257, 1, '2020-04-11T20:51:37', 'timgates42', 'https://github.com/qrohlf/trianglify/pull/125'),
 (17886, 18696257, 1, '2017-08-30T17:59:36', 'hosein2398', 'https://github.com/qrohlf/trianglify/pull/80'),
 (18012, 217545172, 1, '2021-06-19T14:35:02', 'milon27', 'https://github.com/ibrahimsn98/SmoothBottomBar/pull/81'),
+(18045, 128468095, 1, '2018-04-06T21:53:08', 'SaumoPal97', 'https://github.com/llSourcell/Learn_Computer_Science_in_5_Months/pull/1'),
 (930, 1446467, 4, '2021-09-27T08:20:48', 'jdufresne', 'https://github.com/pypa/pip/pull/10509'),
 (929, 1446467, 4, '2019-11-25T21:40:34', 'takluyver', 'https://github.com/pypa/pip/pull/7394'),
 (912, 1446467, 4, '2022-06-01T06:21:12', 'sbidoul', 'https://github.com/pypa/pip/pull/11137'),
