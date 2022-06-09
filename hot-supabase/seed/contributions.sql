@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T16:53:14.906Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T18:47:08.701Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6371,8 +6371,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8514, 172473381, 1, '2019-04-16T20:44:58', 'seanonthenet', 'https://github.com/JamesUgbanu/react-native-woocommerce-api/pull/3'),
 (8512, 172473381, 3, '2020-05-08T11:44:38', 'JamesUgbanu', 'https://github.com/JamesUgbanu/react-native-woocommerce-api/pull/10'),
 (8511, 172473381, 1, '2020-04-13T16:36:55', 'anwar-gul', 'https://github.com/JamesUgbanu/react-native-woocommerce-api/pull/6'),
-(8545, 26743136, 1, '2017-09-23T19:24:47', 'rishabh115', 'https://github.com/sumodirjo/engineering-blogs/pull/45'),
 (8548, 26743136, 3, '2016-12-16T02:08:58', 'JuanitoFatas', 'https://github.com/sumodirjo/engineering-blogs/pull/22'),
+(8545, 26743136, 1, '2017-09-23T19:24:47', 'rishabh115', 'https://github.com/sumodirjo/engineering-blogs/pull/45'),
 (8546, 26743136, 4, '2022-03-22T01:04:18', 'kanglicheng', 'https://github.com/sumodirjo/engineering-blogs/pull/119'),
 (8547, 26743136, 1, '2015-09-10T12:34:19', 'emptyflash', 'https://github.com/sumodirjo/engineering-blogs/pull/6'),
 (8544, 26743136, 3, '2018-10-27T07:28:33', 'carolstran', 'https://github.com/sumodirjo/engineering-blogs/pull/80'),
