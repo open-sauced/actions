@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-08T22:44:28.686Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T01:05:10.993Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4489,8 +4489,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5177, 13491895, 4, '2022-01-31T16:58:32', 'charlottetan', 'https://github.com/EbookFoundation/free-programming-books/pull/6677'),
 (5178, 13491895, 4, '2022-01-28T21:40:39', 'LuigiImVector', 'https://github.com/EbookFoundation/free-programming-books/pull/6687'),
 (5179, 13491895, 4, '2014-08-21T09:30:47', 'JIghtuse', 'https://github.com/EbookFoundation/free-programming-books/pull/1100'),
-(5180, 13491895, 1, '2013-11-05T09:18:11', 'tml', 'https://github.com/EbookFoundation/free-programming-books/pull/332'),
 (17399, 290669864, 1, '2021-09-01T02:29:50', 't-botz', 'https://github.com/KengoTODA/actions-setup-docker-compose/pull/274'),
+(5180, 13491895, 1, '2013-11-05T09:18:11', 'tml', 'https://github.com/EbookFoundation/free-programming-books/pull/332'),
 (7792, 407840318, 2, '2021-10-08T17:20:40', 'Kaustubh-Natuskar', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/138'),
 (7794, 407840318, 4, '2021-10-04T13:39:49', 'iyoushe1703', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/112'),
 (3449, 9418724, 1, '2015-12-01T00:08:59', 'mtbottle', 'https://github.com/petems/tugboat/pull/221'),
@@ -7075,6 +7075,11 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (17105, 61397447, 2, '2019-08-16T16:08:49', 'evilches', 'https://github.com/microsoft/AcademicContent/pull/208'),
 (17106, 61397447, 3, '2022-06-06T08:54:43', 'dikodev', 'https://github.com/microsoft/AcademicContent/pull/355'),
 (17107, 61397447, 3, '2019-10-08T01:49:50', 'cheahengsoon', 'https://github.com/microsoft/AcademicContent/pull/215'),
+(17618, 245750702, 4, '2021-02-11T00:35:37', 'piqueen1', 'https://github.com/wwcodecolorado/career-returnship-website/pull/73'),
+(17619, 245750702, 4, '2021-06-04T20:56:26', 'OlliesWorld', 'https://github.com/wwcodecolorado/career-returnship-website/pull/112'),
+(17620, 245750702, 4, '2021-04-03T18:08:19', 'Rafna', 'https://github.com/wwcodecolorado/career-returnship-website/pull/108'),
+(17621, 245750702, 4, '2020-10-17T01:17:11', 'c-gaila', 'https://github.com/wwcodecolorado/career-returnship-website/pull/51'),
+(17622, 245750702, 2, '2020-08-07T03:22:16', 'KateKhazieff', 'https://github.com/wwcodecolorado/career-returnship-website/pull/33'),
 (792, 9852918, 4, '2019-05-06T09:11:44', 'kirrg001', 'https://github.com/TryGhost/Ghost/pull/10726'),
 (797, 9852918, 4, '2020-07-06T16:09:25', 'JohnONolan', 'https://github.com/TryGhost/Ghost/pull/11986'),
 (807, 9852918, 4, '2022-05-30T21:42:34', 'daniellockyer', 'https://github.com/TryGhost/Ghost/pull/14946'),
