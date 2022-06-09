@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T14:45:34.346Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-09T16:53:14.906Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -4896,6 +4896,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (63, 78819190, 4, '2020-06-07T02:09:46', 'hamzahamidi', 'https://github.com/prettier/prettier-eslint/pull/353'),
 (64, 78819190, 4, '2017-08-30T17:14:07', 'kentcdodds', 'https://github.com/prettier/prettier-eslint/pull/119'),
 (65, 78819190, 3, '2017-03-09T18:25:14', 'michaelgmcd', 'https://github.com/prettier/prettier-eslint/pull/47'),
+(66, 78819190, 1, '2017-12-12T02:03:45', 'alexmckenley', 'https://github.com/prettier/prettier-eslint/pull/150'),
 (67, 78819190, 4, '2022-05-11T16:02:28', 'idahogurl', 'https://github.com/prettier/prettier-eslint/pull/745'),
 (68, 78819190, 3, '2017-03-14T16:43:48', 'sheerun', 'https://github.com/prettier/prettier-eslint/pull/53'),
 (69, 78819190, 1, '2019-06-12T10:20:55', 'chinesedfan', 'https://github.com/prettier/prettier-eslint/pull/211'),
@@ -5086,7 +5087,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (7802, 407840318, 3, '2021-09-30T12:53:41', 'GurvinderBawa', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/72'),
 (3369, 501689, 1, '2019-07-07T15:51:34', 'marcohu', 'https://github.com/antlr/stringtemplate4/pull/218'),
 (3352, 501689, 1, '2015-12-03T21:24:20', 'jsnyders', 'https://github.com/antlr/stringtemplate4/pull/115'),
-(66, 78819190, 1, '2017-12-12T02:03:45', 'alexmckenley', 'https://github.com/prettier/prettier-eslint/pull/150'),
 (5941, 2630230, 1, '2019-08-23T08:01:34', 'kevindew', 'https://github.com/mixmark-io/turndown/pull/281'),
 (5942, 2630230, 1, '2016-10-18T13:44:09', 'JorgenEvens', 'https://github.com/mixmark-io/turndown/pull/167'),
 (5944, 2630230, 1, '2017-03-17T05:52:17', 'Brooooooklyn', 'https://github.com/mixmark-io/turndown/pull/178'),
