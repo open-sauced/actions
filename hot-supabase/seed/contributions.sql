@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-10T04:49:31.541Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-10T06:47:43.718Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -5471,8 +5471,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2485, 35955666, 1, '2016-08-26T15:46:59', 'mark-i-m', 'https://github.com/jlevy/the-art-of-command-line/pull/450'),
 (2529, 35955666, 1, '2015-07-08T15:16:01', 'BishopWolf', 'https://github.com/jlevy/the-art-of-command-line/pull/164'),
 (2527, 35955666, 1, '2015-12-02T02:08:29', 'ClumsyLee', 'https://github.com/jlevy/the-art-of-command-line/pull/304'),
-(2510, 35955666, 4, '2016-08-20T22:35:29', 'dmytro', 'https://github.com/jlevy/the-art-of-command-line/pull/445'),
 (2514, 35955666, 4, '2016-01-22T21:21:17', 'uggla', 'https://github.com/jlevy/the-art-of-command-line/pull/350'),
+(2510, 35955666, 4, '2016-08-20T22:35:29', 'dmytro', 'https://github.com/jlevy/the-art-of-command-line/pull/445'),
 (2508, 35955666, 1, '2016-01-30T02:09:44', '0xCD', 'https://github.com/jlevy/the-art-of-command-line/pull/357'),
 (2526, 35955666, 3, '2016-02-20T18:53:28', 'timacs', 'https://github.com/jlevy/the-art-of-command-line/pull/383'),
 (2543, 35955666, 1, '2016-08-25T19:07:14', 'fernandoalmeida', 'https://github.com/jlevy/the-art-of-command-line/pull/452'),
