@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-10T13:42:06.814Z",
+  "lastExecuted": "2022-06-10T13:53:40.075Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1479,17 +1479,17 @@
     "colmdoyle": {
       "owner": "colmdoyle",
       "notFound": true,
-      "lastExecuted": "2022-06-09T23:46:34.734Z"
+      "lastExecuted": "2022-06-10T13:53:40.075Z"
     },
     "rob-moore": {
       "owner": "rob-moore",
       "notFound": false,
-      "lastExecuted": "2022-06-09T23:46:34.734Z"
+      "lastExecuted": "2022-06-10T13:53:40.075Z"
     },
     "devbyray": {
       "owner": "devbyray",
       "notFound": false,
-      "lastExecuted": "2022-06-09T23:46:34.734Z"
+      "lastExecuted": "2022-06-10T13:53:40.075Z"
     },
     "mikachan": {
       "owner": "mikachan",
@@ -1534,7 +1534,7 @@
     "cometkim": {
       "owner": "cometkim",
       "notFound": false,
-      "lastExecuted": "2022-06-09T13:19:04.104Z"
+      "lastExecuted": "2022-06-10T13:53:40.075Z"
     },
     "guillaumemillot": {
       "owner": "guillaumemillot",
@@ -2090,6 +2090,16 @@
       "owner": "brob",
       "notFound": false,
       "lastExecuted": "2022-06-10T13:24:40.566Z"
+    },
+    "JoeKarow": {
+      "owner": "JoeKarow",
+      "notFound": false,
+      "lastExecuted": "2022-06-10T13:53:40.075Z"
+    },
+    "RakshithNM": {
+      "owner": "RakshithNM",
+      "notFound": false,
+      "lastExecuted": "2022-06-10T13:53:40.075Z"
     }
   }
 }
