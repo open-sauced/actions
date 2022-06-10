@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-10T13:53:40.075Z",
+  "lastExecuted": "2022-06-10T14:03:17.039Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1539,27 +1539,27 @@
     "guillaumemillot": {
       "owner": "guillaumemillot",
       "notFound": true,
-      "lastExecuted": "2022-06-09T13:51:44.020Z"
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
     },
     "gavinhenderson": {
       "owner": "gavinhenderson",
       "notFound": true,
-      "lastExecuted": "2022-06-09T13:51:44.020Z"
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
     },
     "Mogakamo": {
       "owner": "Mogakamo",
       "notFound": false,
-      "lastExecuted": "2022-06-09T13:51:44.020Z"
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
     },
     "ColomboJuan": {
       "owner": "ColomboJuan",
       "notFound": false,
-      "lastExecuted": "2022-06-09T13:51:44.020Z"
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
     },
     "MattMarquise": {
       "owner": "MattMarquise",
       "notFound": false,
-      "lastExecuted": "2022-06-09T13:51:44.020Z"
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
     },
     "AvantSekai": {
       "owner": "AvantSekai",
@@ -2100,6 +2100,16 @@
       "owner": "RakshithNM",
       "notFound": false,
       "lastExecuted": "2022-06-10T13:53:40.075Z"
+    },
+    "AYEREID": {
+      "owner": "AYEREID",
+      "notFound": false,
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
+    },
+    "perkinsjr": {
+      "owner": "perkinsjr",
+      "notFound": false,
+      "lastExecuted": "2022-06-10T14:03:17.039Z"
     }
   }
 }
