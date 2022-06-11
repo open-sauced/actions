@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-11T22:52:52.119Z",
+  "lastExecuted": "2022-06-11T23:02:14.161Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -544,42 +544,42 @@
     "seth808rose": {
       "owner": "seth808rose",
       "notFound": true,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "Wisheechia": {
       "owner": "Wisheechia",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "manisuec": {
       "owner": "manisuec",
       "notFound": true,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "anis00723": {
       "owner": "anis00723",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "ChamMach": {
       "owner": "ChamMach",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "bagatka": {
       "owner": "bagatka",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "JuanMore": {
       "owner": "JuanMore",
       "notFound": true,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "jramirez857": {
       "owner": "jramirez857",
       "notFound": false,
-      "lastExecuted": "2022-06-11T10:57:57.437Z"
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     },
     "vtcaregorodtcev": {
       "owner": "vtcaregorodtcev",
@@ -2225,6 +2225,11 @@
       "owner": "someshfengde",
       "notFound": false,
       "lastExecuted": "2022-06-11T21:26:12.578Z"
+    },
+    "lbugasu": {
+      "owner": "lbugasu",
+      "notFound": true,
+      "lastExecuted": "2022-06-11T23:02:14.161Z"
     }
   }
 }
