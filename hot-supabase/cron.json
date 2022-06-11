@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-11T17:10:36.780Z",
+  "lastExecuted": "2022-06-11T17:22:49.379Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -64,7 +64,7 @@
     "JasonStrazisar": {
       "owner": "JasonStrazisar",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:15:29.802Z"
+      "lastExecuted": "2022-06-11T17:22:49.379Z"
     },
     "adwinang": {
       "owner": "adwinang",
@@ -924,7 +924,7 @@
     "ketsindian": {
       "owner": "ketsindian",
       "notFound": false,
-      "lastExecuted": "2022-06-11T04:54:02.747Z"
+      "lastExecuted": "2022-06-11T17:22:49.379Z"
     },
     "Elixer3000": {
       "owner": "Elixer3000",
@@ -1984,7 +1984,7 @@
     "derneuere": {
       "owner": "derneuere",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:15:29.802Z"
+      "lastExecuted": "2022-06-11T17:22:49.379Z"
     },
     "Dun-sin": {
       "owner": "Dun-sin",
@@ -2034,7 +2034,7 @@
     "AndreaGriffiths11": {
       "owner": "AndreaGriffiths11",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:15:29.802Z"
+      "lastExecuted": "2022-06-11T17:22:49.379Z"
     },
     "lucalves": {
       "owner": "lucalves",
@@ -2215,6 +2215,11 @@
       "owner": "davwheat",
       "notFound": false,
       "lastExecuted": "2022-06-11T16:36:26.624Z"
+    },
+    "Sami64": {
+      "owner": "Sami64",
+      "notFound": false,
+      "lastExecuted": "2022-06-11T17:22:49.379Z"
     }
   }
 }
