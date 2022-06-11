@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-11T17:49:45.515Z",
+  "lastExecuted": "2022-06-11T17:58:24.744Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1019,22 +1019,22 @@
     "jebitok-dev": {
       "owner": "jebitok-dev",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:44:15.584Z"
+      "lastExecuted": "2022-06-11T17:58:24.744Z"
     },
     "ThomasErhel": {
       "owner": "ThomasErhel",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:53:05.783Z"
+      "lastExecuted": "2022-06-11T17:58:24.744Z"
     },
     "nobalpha": {
       "owner": "nobalpha",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:53:05.783Z"
+      "lastExecuted": "2022-06-11T17:58:24.744Z"
     },
     "BolajiAyodeji": {
       "owner": "BolajiAyodeji",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:53:05.783Z"
+      "lastExecuted": "2022-06-11T17:58:24.744Z"
     },
     "teezzan": {
       "owner": "teezzan",
@@ -1989,7 +1989,7 @@
     "Dun-sin": {
       "owner": "Dun-sin",
       "notFound": false,
-      "lastExecuted": "2022-06-11T05:53:05.783Z"
+      "lastExecuted": "2022-06-11T17:58:24.744Z"
     },
     "Elia-Darwish": {
       "owner": "Elia-Darwish",
@@ -2053,8 +2053,8 @@
     },
     "KushalTanna24": {
       "owner": "KushalTanna24",
-      "notFound": false,
-      "lastExecuted": "2022-06-11T05:53:05.783Z"
+      "notFound": true,
+      "lastExecuted": "2022-06-11T17:58:24.744Z"
     },
     "DerekCrosson": {
       "owner": "DerekCrosson",
