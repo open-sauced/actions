@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-12T19:14:05.185Z",
+  "lastExecuted": "2022-06-12T19:23:45.934Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1094,22 +1094,22 @@
     "waxidiotic": {
       "owner": "waxidiotic",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "mbchoa": {
       "owner": "mbchoa",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "gogocharli": {
       "owner": "gogocharli",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "UbuntuEvangelist": {
       "owner": "UbuntuEvangelist",
       "notFound": true,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "peteroneilljr": {
       "owner": "peteroneilljr",
@@ -1119,17 +1119,17 @@
     "henrik-ch": {
       "owner": "henrik-ch",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "ahdbarjoud": {
       "owner": "ahdbarjoud",
       "notFound": true,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "haffmaestro": {
       "owner": "haffmaestro",
       "notFound": false,
-      "lastExecuted": "2022-06-12T07:21:25.524Z"
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     },
     "Samikmalhotra": {
       "owner": "Samikmalhotra",
@@ -2245,6 +2245,11 @@
       "owner": "rahulkarda",
       "notFound": false,
       "lastExecuted": "2022-06-12T14:22:34.241Z"
+    },
+    "Android-Jester": {
+      "owner": "Android-Jester",
+      "notFound": true,
+      "lastExecuted": "2022-06-12T19:23:45.934Z"
     }
   }
 }
