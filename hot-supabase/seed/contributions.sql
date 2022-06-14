@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T14:44:23.849Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T16:52:49.816Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -6634,9 +6634,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (973, 33820955, 2, '2016-11-05T11:17:17', 'haoliangyu', 'https://github.com/timjacobi/angular-education/pull/156'),
 (16830, 52855516, 4, '2022-04-06T10:10:38', 'MikeMcQuaid', 'https://github.com/Homebrew/homebrew-core/pull/98675'),
 (9370, 304145636, 1, '2020-11-27T15:48:03', 'lodmfjord', 'https://github.com/DoneDeal0/Talkr/pull/6'),
-(9371, 304145636, 2, '2022-02-16T13:44:16', 'DoneDeal0', 'https://github.com/DoneDeal0/Talkr/pull/17'),
 (16832, 52855516, 4, '2022-04-26T17:25:16', 'cho-m', 'https://github.com/Homebrew/homebrew-core/pull/100177'),
 (16834, 52855516, 4, '2022-06-01T14:32:07', 'Bo98', 'https://github.com/Homebrew/homebrew-core/pull/102745'),
+(9371, 304145636, 2, '2022-02-16T13:44:16', 'DoneDeal0', 'https://github.com/DoneDeal0/Talkr/pull/17'),
 (16836, 52855516, 4, '2021-09-05T18:05:14', 'jonchang', 'https://github.com/Homebrew/homebrew-core/pull/84729'),
 (16835, 52855516, 4, '2022-03-23T23:52:23', 'dtrodrigues', 'https://github.com/Homebrew/homebrew-core/pull/97632'),
 (16838, 52855516, 4, '2020-02-03T20:28:32', 'igas', 'https://github.com/Homebrew/homebrew-core/pull/49745'),
@@ -7319,8 +7319,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4858, 507, 2, '2016-12-06T05:16:39', 'tak1n', 'https://github.com/sferik/twitter/pull/816'),
 (4856, 507, 1, '2012-12-20T15:38:17', 'nbraem', 'https://github.com/sferik/twitter/pull/335'),
 (13440, 239281641, 1, '2022-05-31T08:59:37', 'vikaspotluri123', 'https://github.com/TryGhost/Dawn/pull/64'),
-(8291, 177010499, 4, '2022-04-21T13:54:20', 'cpanato', 'https://github.com/google/ko/pull/690'),
 (8308, 177010499, 1, '2021-10-27T15:10:27', 'benmoss', 'https://github.com/google/ko/pull/486'),
+(8291, 177010499, 4, '2022-04-21T13:54:20', 'cpanato', 'https://github.com/google/ko/pull/690'),
 (8292, 177010499, 2, '2021-09-15T10:20:44', 'chmouel', 'https://github.com/google/ko/pull/437'),
 (8298, 177010499, 2, '2021-01-13T17:08:01', 'vaikas', 'https://github.com/google/ko/pull/291'),
 (8307, 177010499, 1, '2020-12-21T19:40:44', 'arve0', 'https://github.com/google/ko/pull/266'),
