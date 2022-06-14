@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T18:47:59.854Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-14T20:45:12.301Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -2454,8 +2454,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (474, 33001311, 3, '2020-02-15T12:13:40', 'JustinGrote', 'https://github.com/dfinke/ImportExcel/pull/782'),
 (3089, 7034320, 4, '2018-03-07T03:17:54', 'stimms', 'https://github.com/MisterJames/GenFu/pull/135'),
 (5628, 1542281, 1, '2021-02-10T15:58:58', 'g2udevelopment', 'https://github.com/ChrisMarinos/FSharpKoans/pull/101'),
-(2270, 21911597, 1, '2018-11-10T12:47:58', 'roziunicorn', 'https://github.com/tayllan/awesome-algorithms/pull/83'),
 (5633, 1542281, 2, '2012-11-01T10:37:00', 'panesofglass', 'https://github.com/ChrisMarinos/FSharpKoans/pull/10'),
+(2270, 21911597, 1, '2018-11-10T12:47:58', 'roziunicorn', 'https://github.com/tayllan/awesome-algorithms/pull/83'),
 (467, 33001311, 1, '2015-04-20T20:00:29', 'Claustn', 'https://github.com/dfinke/ImportExcel/pull/6'),
 (456, 33001311, 2, '2016-07-07T11:50:25', 'attilamihalicz', 'https://github.com/dfinke/ImportExcel/pull/113'),
 (7065, 139914932, 4, '2021-10-19T06:09:37', 'kenfinnigan', 'https://github.com/quarkusio/quarkus/pull/20858'),
@@ -3696,8 +3696,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4530, 26291683, 2, '2016-03-18T23:55:28', 'bhaggs', 'https://github.com/twitter/twemoji/pull/134'),
 (4531, 26291683, 1, '2022-03-31T01:21:48', 'blakegearin', 'https://github.com/twitter/twemoji/pull/514'),
 (4532, 26291683, 2, '2017-04-06T08:35:36', 'Crissov', 'https://github.com/twitter/twemoji/pull/216'),
-(4534, 26291683, 1, '2015-01-13T22:07:50', 'unindented', 'https://github.com/twitter/twemoji/pull/37'),
 (4533, 26291683, 1, '2015-04-11T18:18:21', 'WebReflection', 'https://github.com/twitter/twemoji/pull/73'),
+(4534, 26291683, 1, '2015-01-13T22:07:50', 'unindented', 'https://github.com/twitter/twemoji/pull/37'),
 (4535, 26291683, 2, '2015-06-30T14:16:30', 'prdolmos', 'https://github.com/twitter/twemoji/pull/89'),
 (920, 1446467, 4, '2020-07-11T00:09:31', 'deveshks', 'https://github.com/pypa/pip/pull/8566'),
 (4540, 378536025, 1, '2021-06-25T05:00:39', 'Dev-Mehta', 'https://github.com/OffcierCia/DeFi-Developer-Road-Map/pull/12'),
@@ -4298,6 +4298,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8488, 82289483, 2, '2018-11-19T08:30:45', 'dkuida', 'https://github.com/moleculerjs/moleculer/pull/420'),
 (8487, 82289483, 1, '2018-04-08T14:29:25', 'zllovesuki', 'https://github.com/moleculerjs/moleculer/pull/232'),
 (16780, 343078060, 1, '2022-01-01T17:47:29', 'KierenConnell', 'https://github.com/Lissy93/dashy/pull/396'),
+(24156, 8864406, 2, '2017-09-06T18:26:50', 'josephfusco', 'https://github.com/wesbos/Cobalt2-Alfred-Theme/pull/5'),
 (2914, 61893399, 2, '2019-05-28T02:13:58', 'antonfisher', 'https://github.com/brillout/awesome-react-components/pull/97'),
 (2915, 61893399, 4, '2020-03-11T16:49:07', 'dandv', 'https://github.com/brillout/awesome-react-components/pull/210'),
 (16757, 343078060, 4, '2022-06-04T20:41:43', 'Lissy93', 'https://github.com/Lissy93/dashy/pull/685'),
@@ -4354,6 +4355,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (18019, 115883761, 1, '2020-05-22T22:42:56', 'AmoVanB', 'https://github.com/tdlib/td/pull/1046'),
 (18027, 115883761, 1, '2020-11-21T11:54:35', 'darmiel', 'https://github.com/tdlib/td/pull/1301'),
 (18030, 115883761, 1, '2019-09-08T01:37:30', 'dstaley', 'https://github.com/tdlib/td/pull/636'),
+(24157, 8864406, 1, '2015-08-26T12:39:05', 's10wen', 'https://github.com/wesbos/Cobalt2-Alfred-Theme/pull/1'),
 (17409, 98999731, 1, '2020-05-14T20:06:18', 'CSteinmetz15', 'https://github.com/enkimute/ganja.js/pull/84'),
 (17406, 98999731, 1, '2020-04-09T20:17:16', 'steveyen', 'https://github.com/enkimute/ganja.js/pull/83'),
 (17405, 98999731, 4, '2020-02-04T16:02:00', 'eric-wieser', 'https://github.com/enkimute/ganja.js/pull/77'),
@@ -4414,6 +4416,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (17752, 299482335, 4, '2021-11-06T08:11:30', 'alexnaiman', 'https://github.com/withfig/autocomplete/pull/701'),
 (17750, 299482335, 4, '2021-06-10T07:14:16', 'seonggwonyoon', 'https://github.com/withfig/autocomplete/pull/266'),
 (17753, 299482335, 4, '2022-04-01T10:20:36', 'miketheman', 'https://github.com/withfig/autocomplete/pull/824'),
+(8901, 160651810, 1, '2020-09-22T06:38:49', 'Semro', 'https://github.com/markjprice/cs8dotnetcore3/pull/17'),
 (11466, 191531341, 1, '2020-06-03T09:33:23', 'oieioi', 'https://github.com/site-prism/site_prism/pull/49'),
 (11473, 212965919, 4, '2022-05-26T07:40:17', 'eko', 'https://github.com/eko/gocache/pull/143'),
 (11470, 212965919, 3, '2020-08-22T15:44:36', 'corinapurcarea', 'https://github.com/eko/gocache/pull/59'),
@@ -6276,7 +6279,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8888, 393493377, 4, '2022-06-13T09:17:28', 'joelhooks', 'https://github.com/skillrecordings/products/pull/271'),
 (5431, 3544424, 1, '2016-07-29T21:17:00', 'medecau', 'https://github.com/httpie/httpie/pull/493'),
 (5434, 3544424, 3, '2014-09-07T08:45:29', 'frewsxcv', 'https://github.com/httpie/httpie/pull/249'),
-(8901, 160651810, 1, '2020-09-22T06:38:49', 'Semro', 'https://github.com/markjprice/cs8dotnetcore3/pull/17'),
 (8899, 393030139, 1, '2021-11-19T06:28:48', 'saideepd', 'https://github.com/atapas/promise-interview-ready/pull/6'),
 (8900, 393030139, 4, '2021-10-07T10:34:47', 'atapas', 'https://github.com/atapas/promise-interview-ready/pull/7'),
 (8902, 393030139, 2, '2021-11-19T06:30:16', 'raditotev', 'https://github.com/atapas/promise-interview-ready/pull/9'),
@@ -7987,7 +7989,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (18645, 22651412, 1, '2016-08-22T17:25:39', 'EloB', 'https://github.com/KyleAMathews/react-gravatar/pull/105'),
 (18646, 22651412, 1, '2016-10-28T19:06:32', 'renekopcem', 'https://github.com/KyleAMathews/react-gravatar/pull/132'),
 (18647, 22651412, 1, '2015-03-26T16:23:48', 'VinSpee', 'https://github.com/KyleAMathews/react-gravatar/pull/2'),
-(18648, 22651412, 1, '2017-04-30T05:33:43', 'thevikas', 'https://github.com/KyleAMathews/react-gravatar/pull/138'),
 (3510, 276961406, 1, '2020-08-31T15:29:37', 'zacjones93', 'https://github.com/colbyfayock/launchtime-workshop/pull/3'),
 (18650, 22651412, 1, '2020-09-10T03:39:22', 'lukaselmer', 'https://github.com/KyleAMathews/react-gravatar/pull/152'),
 (3220, 324575078, 4, '2021-03-17T06:39:17', 'TawfikYasser', 'https://github.com/Kushal997-das/Project-Guidance/pull/140'),
@@ -8002,6 +8003,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (3209, 324575078, 2, '2022-03-08T15:15:10', 'rajdip-b', 'https://github.com/Kushal997-das/Project-Guidance/pull/337'),
 (12301, 324575078, 3, '2022-05-28T15:42:00', 'Viraj-Sanap', 'https://github.com/Kushal997-das/Project-Guidance/pull/716'),
 (3196, 324575078, 4, '2022-05-20T04:47:52', 'ayushi1210', 'https://github.com/Kushal997-das/Project-Guidance/pull/677'),
+(18648, 22651412, 1, '2017-04-30T05:33:43', 'thevikas', 'https://github.com/KyleAMathews/react-gravatar/pull/138'),
 (6482, 324575078, 3, '2022-05-20T04:06:35', 'Kumar-laxmi', 'https://github.com/Kushal997-das/Project-Guidance/pull/644'),
 (3205, 324575078, 2, '2022-05-15T03:58:50', 'Anthima', 'https://github.com/Kushal997-das/Project-Guidance/pull/651'),
 (3201, 324575078, 4, '2022-03-02T07:09:19', 'Programmer1473', 'https://github.com/Kushal997-das/Project-Guidance/pull/221'),
