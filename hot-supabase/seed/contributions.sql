@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T10:46:20.949Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T12:57:23.715Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1710,8 +1710,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1281, 306449955, 3, '2022-01-18T07:58:34', 'FoundationGames', 'https://github.com/IrisShaders/Iris/pull/1185'),
 (1276, 306449955, 4, '2021-11-29T03:07:16', 'Justsnoopy30', 'https://github.com/IrisShaders/Iris/pull/975'),
 (1277, 306449955, 4, '2021-04-08T21:23:39', 'OverlordsIII', 'https://github.com/IrisShaders/Iris/pull/209'),
-(1534, 60374819, 4, '2022-06-02T14:52:19', 'echarles', 'https://github.com/jupyterlab/jupyterlab/pull/12646'),
 (1487, 137104789, 1, '2018-08-30T18:22:30', 'mattwelke', 'https://github.com/jamesmh/coravel/pull/34'),
+(1534, 60374819, 4, '2022-06-02T14:52:19', 'echarles', 'https://github.com/jupyterlab/jupyterlab/pull/12646'),
 (6919, 270657720, 1, '2022-04-12T19:53:50', 'Tahul', 'https://github.com/vuesomedev/awesome-vue-3/pull/49'),
 (1540, 60374819, 4, '2022-02-09T20:11:32', 'mbektas', 'https://github.com/jupyterlab/jupyterlab/pull/12033'),
 (3974, 404324019, 1, '2021-10-01T08:50:48', 'manish831', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/26'),
@@ -8744,9 +8744,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (8455, 257485422, 4, '2020-07-16T20:33:20', 'daychongyang', 'https://github.com/vitejs/vite/pull/483'),
 (8457, 257485422, 4, '2021-05-17T12:41:40', 'nihalgonsalves', 'https://github.com/vitejs/vite/pull/3447'),
 (8459, 257485422, 4, '2020-11-27T16:54:50', 'remorses', 'https://github.com/vitejs/vite/pull/1159'),
-(8469, 257485422, 4, '2022-02-02T05:02:39', 'IanVS', 'https://github.com/vitejs/vite/pull/6715'),
-(8458, 257485422, 4, '2021-06-08T17:52:33', 'cawa-93', 'https://github.com/vitejs/vite/pull/3703'),
-(8467, 257485422, 4, '2021-10-27T11:52:32', 'iheyunfei', 'https://github.com/vitejs/vite/pull/4703'),
 (20436, 312900303, 1, '2021-09-01T12:49:56', 'captainjack64', 'https://github.com/steeviebops/hacktv-gui/pull/2'),
 (20437, 247024339, 1, '2021-05-23T15:11:23', 'jld3103', 'https://github.com/dreemurrs-embedded/Jumpdrive/pull/50'),
 (20438, 247024339, 1, '2021-02-24T18:26:30', 'craftyguy', 'https://github.com/dreemurrs-embedded/Jumpdrive/pull/45'),
@@ -9043,4 +9040,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (17629, 274055064, 4, '2022-02-11T03:08:32', 'evangelinedrink', 'https://github.com/hassanhabib/OtripleS/pull/1598'),
 (17640, 274055064, 4, '2022-02-24T02:04:14', 'Bbereket1', 'https://github.com/hassanhabib/OtripleS/pull/1808'),
 (17637, 274055064, 4, '2021-05-30T07:03:57', 'ZionLloyd05', 'https://github.com/hassanhabib/OtripleS/pull/388'),
+(8469, 257485422, 4, '2022-02-02T05:02:39', 'IanVS', 'https://github.com/vitejs/vite/pull/6715'),
+(8458, 257485422, 4, '2021-06-08T17:52:33', 'cawa-93', 'https://github.com/vitejs/vite/pull/3703'),
+(8467, 257485422, 4, '2021-10-27T11:52:32', 'iheyunfei', 'https://github.com/vitejs/vite/pull/4703'),
 (17648, 274055064, 4, '2020-08-25T22:28:55', 'HatemGamal', 'https://github.com/hassanhabib/OtripleS/pull/134');
