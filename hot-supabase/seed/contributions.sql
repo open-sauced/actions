@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T08:47:32.064Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-15T10:46:20.949Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1710,8 +1710,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1281, 306449955, 3, '2022-01-18T07:58:34', 'FoundationGames', 'https://github.com/IrisShaders/Iris/pull/1185'),
 (1276, 306449955, 4, '2021-11-29T03:07:16', 'Justsnoopy30', 'https://github.com/IrisShaders/Iris/pull/975'),
 (1277, 306449955, 4, '2021-04-08T21:23:39', 'OverlordsIII', 'https://github.com/IrisShaders/Iris/pull/209'),
-(1487, 137104789, 1, '2018-08-30T18:22:30', 'mattwelke', 'https://github.com/jamesmh/coravel/pull/34'),
 (1534, 60374819, 4, '2022-06-02T14:52:19', 'echarles', 'https://github.com/jupyterlab/jupyterlab/pull/12646'),
+(1487, 137104789, 1, '2018-08-30T18:22:30', 'mattwelke', 'https://github.com/jamesmh/coravel/pull/34'),
 (6919, 270657720, 1, '2022-04-12T19:53:50', 'Tahul', 'https://github.com/vuesomedev/awesome-vue-3/pull/49'),
 (1540, 60374819, 4, '2022-02-09T20:11:32', 'mbektas', 'https://github.com/jupyterlab/jupyterlab/pull/12033'),
 (3974, 404324019, 1, '2021-10-01T08:50:48', 'manish831', 'https://github.com/arpit456jain/Getting-Started-with-open-source/pull/26'),
@@ -4701,8 +4701,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4057, 381979, 1, '2017-04-26T19:47:10', 'floriancargoet', 'https://github.com/fullcalendar/fullcalendar/pull/3609'),
 (4061, 381979, 1, '2019-01-10T17:41:40', 'kdenzel', 'https://github.com/fullcalendar/fullcalendar/pull/4197'),
 (228, 10395188, 4, '2021-09-02T12:58:50', 'iHiD', 'https://github.com/exercism/exercism/pull/5667'),
-(229, 10395188, 4, '2021-03-27T18:24:37', 'SaschaMann', 'https://github.com/exercism/exercism/pull/5501'),
 (227, 10395188, 4, '2022-05-11T14:25:35', 'exercism-bot', 'https://github.com/exercism/exercism/pull/6358'),
+(229, 10395188, 4, '2021-03-27T18:24:37', 'SaschaMann', 'https://github.com/exercism/exercism/pull/5501'),
 (230, 10395188, 4, '2022-03-24T15:41:38', 'kytrinyx', 'https://github.com/exercism/exercism/pull/6299'),
 (2794, 377305568, 4, '2022-01-06T20:24:59', 'rishabkumar7', 'https://github.com/learntocloud/learn-to-cloud/pull/23'),
 (2638, 21938243, 2, '2021-08-21T14:35:51', 'vityafx', 'https://github.com/rust-unofficial/awesome-rust/pull/1143'),
