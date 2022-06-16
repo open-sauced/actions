@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-16T08:26:06.376Z",
+  "lastExecuted": "2022-06-16T08:41:46.224Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -94,32 +94,32 @@
     "cakmoel": {
       "owner": "cakmoel",
       "notFound": true,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "dariye": {
       "owner": "dariye",
       "notFound": false,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "zacjones93": {
       "owner": "zacjones93",
       "notFound": false,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "Aniket777": {
       "owner": "Aniket777",
       "notFound": true,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "i001962": {
       "owner": "i001962",
       "notFound": false,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "sadiejay": {
       "owner": "sadiejay",
       "notFound": false,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "rdupontr": {
       "owner": "rdupontr",
@@ -2259,7 +2259,7 @@
     "Mingyu-Song": {
       "owner": "Mingyu-Song",
       "notFound": true,
-      "lastExecuted": "2022-06-15T20:33:02.933Z"
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     },
     "vishjain": {
       "owner": "vishjain",
@@ -2270,6 +2270,11 @@
       "owner": "leon-wolf",
       "notFound": false,
       "lastExecuted": "2022-06-15T21:24:35.286Z"
+    },
+    "Duck-the-dev": {
+      "owner": "Duck-the-dev",
+      "notFound": false,
+      "lastExecuted": "2022-06-16T08:41:46.224Z"
     }
   }
 }
