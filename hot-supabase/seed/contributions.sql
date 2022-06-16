@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-16T01:05:00.770Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-16T03:15:28.225Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -3994,8 +3994,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (4913, 468515960, 2, '2022-04-04T08:41:11', 'henryhchchc', 'https://github.com/CodeEditApp/CodeEdit/pull/242'),
 (4914, 468515960, 3, '2022-03-16T04:35:08', 'MysteryCoder456', 'https://github.com/CodeEditApp/CodeEdit/pull/10'),
 (4915, 468515960, 2, '2022-04-21T08:15:47', 'avdept', 'https://github.com/CodeEditApp/CodeEdit/pull/516'),
-(4917, 468515960, 4, '2022-05-04T21:52:14', 'richardtop', 'https://github.com/CodeEditApp/CodeEdit/pull/595'),
 (4916, 468515960, 2, '2022-04-15T00:28:31', 'dzign1', 'https://github.com/CodeEditApp/CodeEdit/pull/458'),
+(4917, 468515960, 4, '2022-05-04T21:52:14', 'richardtop', 'https://github.com/CodeEditApp/CodeEdit/pull/595'),
 (4918, 468515960, 4, '2022-04-30T19:59:15', 'Angelk90', 'https://github.com/CodeEditApp/CodeEdit/pull/568'),
 (4919, 468515960, 3, '2022-03-28T22:58:49', 'Jeehut', 'https://github.com/CodeEditApp/CodeEdit/pull/292'),
 (4920, 468515960, 1, '2022-03-14T02:12:49', 'jasonplatts', 'https://github.com/CodeEditApp/CodeEdit/pull/8'),
@@ -4131,8 +4131,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5077, 60493101, 1, '2022-01-05T16:09:56', 'DimoDimchev', 'https://github.com/jwasham/coding-interview-university/pull/1036'),
 (5078, 60493101, 2, '2021-02-14T19:28:41', 'vsay01', 'https://github.com/jwasham/coding-interview-university/pull/738'),
 (5079, 60493101, 1, '2021-07-31T17:45:10', 'kgnblg', 'https://github.com/jwasham/coding-interview-university/pull/283'),
-(5081, 60493101, 1, '2017-01-03T03:38:38', 'sqrthree', 'https://github.com/jwasham/coding-interview-university/pull/108'),
 (5080, 60493101, 2, '2017-05-20T19:03:00', 'letientai299', 'https://github.com/jwasham/coding-interview-university/pull/207'),
+(5081, 60493101, 1, '2017-01-03T03:38:38', 'sqrthree', 'https://github.com/jwasham/coding-interview-university/pull/108'),
 (5082, 60493101, 1, '2021-07-29T16:02:02', 'amoraitis', 'https://github.com/jwasham/coding-interview-university/pull/167'),
 (5083, 60493101, 1, '2017-02-25T01:18:35', 'wilkoklak', 'https://github.com/jwasham/coding-interview-university/pull/121'),
 (5084, 60493101, 1, '2020-04-09T16:12:30', 'mbiesiad', 'https://github.com/jwasham/coding-interview-university/pull/507'),
