@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-17T12:56:20.925Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-17T14:49:57.625Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -604,8 +604,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (13622, 141334515, 1, '2020-06-15T01:29:57', 'AlleahSTAR', 'https://github.com/kormyen/memex/pull/16'),
 (13623, 141334515, 1, '2019-12-23T10:59:51', 'TangentFoxy', 'https://github.com/kormyen/memex/pull/14'),
 (4847, 507, 4, '2016-03-14T18:40:19', 'stve', 'https://github.com/sferik/twitter/pull/762'),
-(4857, 507, 2, '2013-10-02T14:32:29', 'michaelherold', 'https://github.com/sferik/twitter/pull/459'),
 (1065, 36895421, 4, '2022-01-03T17:25:31', 'choldgraf', 'https://github.com/jupyter/jupyter/pull/604'),
+(4857, 507, 2, '2013-10-02T14:32:29', 'michaelherold', 'https://github.com/sferik/twitter/pull/459'),
 (1051, 36895421, 4, '2017-02-20T20:29:50', 'takluyver', 'https://github.com/jupyter/jupyter/pull/238'),
 (1047, 36895421, 4, '2018-01-04T09:33:01', 'willingc', 'https://github.com/jupyter/jupyter/pull/309'),
 (1041, 36895421, 4, '2016-08-10T10:57:44', 'minrk', 'https://github.com/jupyter/jupyter/pull/192'),
@@ -8753,8 +8753,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (18419, 40416236, 1, '2015-08-18T16:38:55', 'sempf', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/53'),
 (18408, 40416236, 1, '2015-08-17T14:05:20', 'dushmis', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/41'),
 (18407, 40416236, 1, '2019-12-01T23:20:26', 'TheJambo', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/165'),
-(18426, 40416236, 1, '2017-01-16T16:19:59', 'AnthonySteele', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/116'),
 (18414, 40416236, 1, '2015-08-13T02:34:08', 'hooriza', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/36'),
+(18426, 40416236, 1, '2017-01-16T16:19:59', 'AnthonySteele', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/116'),
 (18410, 40416236, 1, '2015-08-10T18:43:01', 'donatj', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/6'),
 (18421, 40416236, 1, '2015-08-10T21:17:39', 'mariusschulz', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/10'),
 (18415, 40416236, 1, '2015-11-03T06:50:48', 'clickthisnick', 'https://github.com/minimaxir/big-list-of-naughty-strings/pull/84'),
