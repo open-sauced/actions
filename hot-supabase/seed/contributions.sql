@@ -1,5 +1,5 @@
 --
--- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-17T18:48:23.403Z
+-- Data for Name: contributions; Type: TABLE DATA; Schema: public; Timestamp: 2022-06-17T20:44:37.729Z
 -- COPY contributions(id, repo_id, count, last_merged_at, contributor, url) FROM 'contributions.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -1855,7 +1855,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (2387, 14741294, 4, '2019-10-29T20:22:21', 'tkwidmer', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/605'),
 (13974, 306762726, 1, '2021-04-01T17:48:29', 'lakshaymehra', 'https://github.com/ZihanWangKi/XClass/pull/3'),
 (1268, 306449955, 3, '2021-09-03T05:45:16', 'Kroppeb', 'https://github.com/IrisShaders/Iris/pull/750'),
-(3788, 176946161, 1, '2020-06-12T07:52:13', 'poornerd', 'https://github.com/sealedtx/java-youtube-downloader/pull/23'),
 (28227, 179522851, 1, '2019-10-25T07:10:44', 'bouiboui', 'https://github.com/saasify-sh/saasify/pull/20'),
 (2388, 14741294, 4, '2014-03-16T01:11:59', 'dominic', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/88'),
 (2389, 14741294, 3, '2014-02-15T21:48:34', 'crackofdusk', 'https://github.com/RefugeRestrooms/refugerestrooms/pull/48'),
@@ -5297,6 +5296,8 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (5648, 1542281, 1, '2011-09-29T19:10:43', 'marcusoftnet', 'https://github.com/ChrisMarinos/FSharpKoans/pull/2'),
 (5652, 1542281, 1, '2017-07-07T14:55:51', 'richkeenan', 'https://github.com/ChrisMarinos/FSharpKoans/pull/57'),
 (5651, 1542281, 1, '2020-01-29T20:46:41', 'niccou', 'https://github.com/ChrisMarinos/FSharpKoans/pull/91'),
+(3786, 176946161, 2, '2021-06-17T17:48:12', 'sealedtx', 'https://github.com/sealedtx/java-youtube-downloader/pull/83'),
+(3784, 176946161, 1, '2021-01-07T10:40:40', 'Fabulierer', 'https://github.com/sealedtx/java-youtube-downloader/pull/71'),
 (5351, 71948498, 4, '2022-05-03T15:10:13', 'silv-io', 'https://github.com/localstack/localstack/pull/6002'),
 (1759, 1834988, 1, '2018-02-19T01:00:08', 'katrinleinweber', 'https://github.com/ropensci/rplos/pull/117'),
 (1697, 348060227, 4, '2022-05-16T18:34:46', 'JuanM04', 'https://github.com/withastro/astro/pull/3368'),
@@ -5306,8 +5307,6 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1711, 348060227, 4, '2022-02-09T07:24:02', 'boehs', 'https://github.com/withastro/astro/pull/2556'),
 (1685, 348060227, 4, '2021-10-12T16:35:05', 'ElianCodes', 'https://github.com/withastro/astro/pull/1533'),
 (1680, 348060227, 4, '2022-05-31T14:11:49', 'sarah11918', 'https://github.com/withastro/astro/pull/3482'),
-(3786, 176946161, 2, '2021-06-17T17:48:12', 'sealedtx', 'https://github.com/sealedtx/java-youtube-downloader/pull/83'),
-(3784, 176946161, 1, '2021-01-07T10:40:40', 'Fabulierer', 'https://github.com/sealedtx/java-youtube-downloader/pull/71'),
 (17393, 247563208, 4, '2020-03-18T02:11:14', 'mikejahn', 'https://github.com/mikejahn/support-your-local-businesses/pull/21'),
 (17394, 247563208, 1, '2020-03-17T16:03:52', 'jonathanyeong', 'https://github.com/mikejahn/support-your-local-businesses/pull/10'),
 (4886, 413830263, 4, '2022-04-19T15:01:09', 'recurser', 'https://github.com/recurser/string-is/pull/327'),
@@ -5386,13 +5385,9 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (286, 11981144, 3, '2021-09-16T20:10:12', 'yakovru', 'https://github.com/languagetool-org/languagetool/pull/5690'),
 (327, 276976140, 1, '2021-03-13T20:21:07', 'lherbert-square', 'https://github.com/mergestat/mergestat/pull/122'),
 (334, 276976140, 1, '2020-07-06T22:28:47', 'michiel', 'https://github.com/mergestat/mergestat/pull/7'),
-(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63'),
 (5359, 71948498, 4, '2021-10-19T19:51:40', 'monty16597', 'https://github.com/localstack/localstack/pull/4746'),
 (5348, 71948498, 4, '2021-10-31T18:18:24', 'serkan-ozal', 'https://github.com/localstack/localstack/pull/4822'),
 (2144, 94150359, 1, '2018-06-30T19:35:50', 'AbhishekCode', 'https://github.com/gitname/react-gh-pages/pull/4'),
-(3790, 176946161, 4, '2022-06-01T08:02:15', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/101'),
-(3787, 176946161, 1, '2021-04-16T06:28:06', 'jamesvickers19', 'https://github.com/sealedtx/java-youtube-downloader/pull/80'),
-(3785, 176946161, 1, '2020-06-02T20:11:09', 'Josemaralves', 'https://github.com/sealedtx/java-youtube-downloader/pull/21'),
 (7802, 407840318, 3, '2021-09-30T12:53:41', 'GurvinderBawa', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/72'),
 (7822, 407840318, 1, '2021-10-10T16:03:18', 'manishandroid', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/144'),
 (7803, 407840318, 4, '2021-10-09T18:00:53', 'code1511', 'https://github.com/Kaustubh-Natuskar/moreThanFAANGM/pull/142'),
@@ -5445,6 +5440,10 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (14355, 28223437, 2, '2021-01-12T00:25:57', 'kianmeng', 'https://github.com/riverrun/comeonin/pull/155'),
 (14346, 28223437, 1, '2017-07-11T07:20:59', 'gitter-badger', 'https://github.com/riverrun/comeonin/pull/112'),
 (314, 11981144, 4, '2021-11-22T10:24:48', 'plumaj', 'https://github.com/languagetool-org/languagetool/pull/6052'),
+(3789, 176946161, 3, '2020-11-06T13:56:14', 'kangsLee', 'https://github.com/sealedtx/java-youtube-downloader/pull/63'),
+(3790, 176946161, 4, '2022-06-01T08:02:15', 'Grodou', 'https://github.com/sealedtx/java-youtube-downloader/pull/101'),
+(3785, 176946161, 1, '2020-06-02T20:11:09', 'Josemaralves', 'https://github.com/sealedtx/java-youtube-downloader/pull/21'),
+(3787, 176946161, 1, '2021-04-16T06:28:06', 'jamesvickers19', 'https://github.com/sealedtx/java-youtube-downloader/pull/80'),
 (8282, 177010499, 4, '2022-02-23T12:23:48', 'mattmoor', 'https://github.com/google/ko/pull/609'),
 (5318, 90194616, 4, '2021-12-19T10:24:52', 'layday', 'https://github.com/samuelcolvin/pydantic/pull/3540'),
 (5323, 90194616, 4, '2021-09-03T22:47:11', 'nuno-andre', 'https://github.com/samuelcolvin/pydantic/pull/2718'),
@@ -7704,6 +7703,7 @@ INSERT INTO contributions(id, repo_id, count, last_merged_at, contributor, url) 
 (1628, 16072585, 4, '2021-03-23T18:25:00', 'henrik', 'https://github.com/phoenixframework/phoenix/pull/4258'),
 (1626, 16072585, 4, '2022-03-10T07:20:47', 'milmazz', 'https://github.com/phoenixframework/phoenix/pull/4713'),
 (1630, 16072585, 4, '2020-07-12T16:18:03', 'mitchellhenke', 'https://github.com/phoenixframework/phoenix/pull/3924'),
+(3788, 176946161, 1, '2020-06-12T07:52:13', 'poornerd', 'https://github.com/sealedtx/java-youtube-downloader/pull/23'),
 (18379, 157014461, 1, '2020-04-21T17:02:07', 'jfrumar-infinitusai', 'https://github.com/welldone-software/why-did-you-render/pull/106'),
 (18380, 157014461, 1, '2019-12-27T15:19:03', 'AndersDJohnson', 'https://github.com/welldone-software/why-did-you-render/pull/79'),
 (18381, 157014461, 1, '2019-06-13T16:15:44', 'leroydev', 'https://github.com/welldone-software/why-did-you-render/pull/39'),
