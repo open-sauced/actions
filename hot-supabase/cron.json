@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-18T11:29:38.860Z",
+  "lastExecuted": "2022-06-18T11:38:08.429Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1434,12 +1434,12 @@
     "bigint": {
       "owner": "bigint",
       "notFound": true,
-      "lastExecuted": "2022-06-17T14:34:29.071Z"
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "loiclegoff": {
       "owner": "loiclegoff",
       "notFound": false,
-      "lastExecuted": "2022-06-17T14:34:29.071Z"
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "code-in-public": {
       "owner": "code-in-public",
@@ -1899,7 +1899,7 @@
     "warrenbuckley": {
       "owner": "warrenbuckley",
       "notFound": false,
-      "lastExecuted": "2022-06-17T23:35:42.104Z"
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "acrobertson": {
       "owner": "acrobertson",
@@ -1994,7 +1994,7 @@
     "Elia-Darwish": {
       "owner": "Elia-Darwish",
       "notFound": false,
-      "lastExecuted": "2022-06-17T23:35:42.104Z"
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "Shoetan": {
       "owner": "Shoetan",
@@ -2008,8 +2008,8 @@
     },
     "sc250024": {
       "owner": "sc250024",
-      "notFound": false,
-      "lastExecuted": "2022-06-17T23:35:42.104Z"
+      "notFound": true,
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "daniellemadry": {
       "owner": "daniellemadry",
@@ -2024,7 +2024,7 @@
     "huangdi791226": {
       "owner": "huangdi791226",
       "notFound": false,
-      "lastExecuted": "2022-06-17T23:35:42.104Z"
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "Vad1mo": {
       "owner": "Vad1mo",
@@ -2184,7 +2184,7 @@
     "Ahmed-Elswerky": {
       "owner": "Ahmed-Elswerky",
       "notFound": false,
-      "lastExecuted": "2022-06-17T23:35:42.104Z"
+      "lastExecuted": "2022-06-18T11:38:08.429Z"
     },
     "nhristov": {
       "owner": "nhristov",
