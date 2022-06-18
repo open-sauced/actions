@@ -35,4 +35,4 @@ jobs:
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           LIMIT_CONTRIBUTOR_DAYS: 5
-          LIMIT_CONTRIBUTOR_REPOS: 5
+          LIMIT_CONTRIBUTOR_REPOS: 50
