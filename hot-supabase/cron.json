@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-18T00:29:57.922Z",
+  "lastExecuted": "2022-06-18T00:56:48.910Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -354,57 +354,57 @@
     "KyleMcKell": {
       "owner": "KyleMcKell",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:47:56.230Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "IrfanKhalid": {
       "owner": "IrfanKhalid",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:47:56.230Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "ugwustanley": {
       "owner": "ugwustanley",
       "notFound": false,
-      "lastExecuted": "2022-06-17T11:47:56.230Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "KevinKoetz": {
       "owner": "KevinKoetz",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:47:56.230Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "kanetronv2": {
       "owner": "kanetronv2",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:47:56.230Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "sosplush": {
       "owner": "sosplush",
       "notFound": false,
-      "lastExecuted": "2022-06-17T11:47:56.230Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "salindae25": {
       "owner": "salindae25",
       "notFound": false,
-      "lastExecuted": "2022-06-17T11:56:43.881Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "gmarcos87": {
       "owner": "gmarcos87",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:56:43.881Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "akashp1712": {
       "owner": "akashp1712",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:56:43.881Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "jochemste": {
       "owner": "jochemste",
       "notFound": true,
-      "lastExecuted": "2022-06-17T11:56:43.881Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "Pandademic": {
       "owner": "Pandademic",
       "notFound": false,
-      "lastExecuted": "2022-06-17T11:56:43.881Z"
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     },
     "ashwth": {
       "owner": "ashwth",
@@ -2295,6 +2295,11 @@
       "owner": "MuhamedMagdi",
       "notFound": true,
       "lastExecuted": "2022-06-17T21:59:46.311Z"
+    },
+    "STRRL": {
+      "owner": "STRRL",
+      "notFound": false,
+      "lastExecuted": "2022-06-18T00:56:48.910Z"
     }
   }
 }
