@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-19T12:37:26.082Z",
+  "lastExecuted": "2022-06-19T12:54:17.154Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -334,12 +334,12 @@
     "ChrisGibe": {
       "owner": "ChrisGibe",
       "notFound": true,
-      "lastExecuted": "2022-06-19T00:49:54.530Z"
+      "lastExecuted": "2022-06-19T12:54:17.154Z"
     },
     "cescfamadas": {
       "owner": "cescfamadas",
       "notFound": false,
-      "lastExecuted": "2022-06-19T00:49:54.530Z"
+      "lastExecuted": "2022-06-19T12:54:17.154Z"
     },
     "Karobwe": {
       "owner": "Karobwe",
@@ -1924,7 +1924,7 @@
     "ahzia": {
       "owner": "ahzia",
       "notFound": false,
-      "lastExecuted": "2022-06-19T00:49:54.530Z"
+      "lastExecuted": "2022-06-19T12:54:17.154Z"
     },
     "peterrauscher": {
       "owner": "peterrauscher",
@@ -1944,7 +1944,7 @@
     "crazy4pi314": {
       "owner": "crazy4pi314",
       "notFound": false,
-      "lastExecuted": "2022-06-19T00:49:54.530Z"
+      "lastExecuted": "2022-06-19T12:54:17.154Z"
     },
     "saintmalik": {
       "owner": "saintmalik",
@@ -2309,7 +2309,7 @@
     "arth2002": {
       "owner": "arth2002",
       "notFound": false,
-      "lastExecuted": "2022-06-19T00:49:54.530Z"
+      "lastExecuted": "2022-06-19T12:54:17.154Z"
     },
     "thnhtus": {
       "owner": "thnhtus",
@@ -2320,6 +2320,11 @@
       "owner": "TheyCallMeCheng",
       "notFound": false,
       "lastExecuted": "2022-06-19T09:00:29.310Z"
+    },
+    "rcasia": {
+      "owner": "rcasia",
+      "notFound": false,
+      "lastExecuted": "2022-06-19T12:54:17.154Z"
     }
   }
 }
