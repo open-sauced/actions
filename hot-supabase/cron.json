@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-27T12:10:34.100Z",
+  "lastExecuted": "2022-06-27T12:26:45.690Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1049,47 +1049,47 @@
     "lucywheel": {
       "owner": "lucywheel",
       "notFound": true,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "TriStanNtn": {
       "owner": "TriStanNtn",
       "notFound": false,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "daptheHuman": {
       "owner": "daptheHuman",
       "notFound": true,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "jwalter": {
       "owner": "jwalter",
       "notFound": false,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "mgcarbonell": {
       "owner": "mgcarbonell",
       "notFound": false,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "VivekThazhathattil": {
       "owner": "VivekThazhathattil",
       "notFound": true,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "0-vortex": {
       "owner": "0-vortex",
       "notFound": false,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "UltiRequiem": {
       "owner": "UltiRequiem",
       "notFound": true,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "iamtheozzy": {
       "owner": "iamtheozzy",
       "notFound": false,
-      "lastExecuted": "2022-06-26T16:33:14.407Z"
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     },
     "waxidiotic": {
       "owner": "waxidiotic",
@@ -2425,6 +2425,11 @@
       "owner": "TianZong48",
       "notFound": false,
       "lastExecuted": "2022-06-27T08:46:53.660Z"
+    },
+    "FanisDeligiannis": {
+      "owner": "FanisDeligiannis",
+      "notFound": true,
+      "lastExecuted": "2022-06-27T12:26:45.690Z"
     }
   }
 }
