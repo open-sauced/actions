@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-06-28T00:55:42.602Z",
+  "lastExecuted": "2022-06-28T01:36:34.942Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -984,12 +984,12 @@
     "blackgirlbytes": {
       "owner": "blackgirlbytes",
       "notFound": true,
-      "lastExecuted": "2022-06-27T11:57:44.189Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "bhantsi": {
       "owner": "bhantsi",
       "notFound": false,
-      "lastExecuted": "2022-06-27T11:57:44.189Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "Blazing-Mike": {
       "owner": "Blazing-Mike",
@@ -1044,32 +1044,32 @@
     "Borrus-sudo": {
       "owner": "Borrus-sudo",
       "notFound": false,
-      "lastExecuted": "2022-06-27T11:40:21.786Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "lucywheel": {
       "owner": "lucywheel",
       "notFound": true,
-      "lastExecuted": "2022-06-27T12:26:45.690Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "TriStanNtn": {
       "owner": "TriStanNtn",
       "notFound": false,
-      "lastExecuted": "2022-06-27T12:26:45.690Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "daptheHuman": {
       "owner": "daptheHuman",
       "notFound": true,
-      "lastExecuted": "2022-06-27T12:26:45.690Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "jwalter": {
       "owner": "jwalter",
       "notFound": false,
-      "lastExecuted": "2022-06-27T12:26:45.690Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "mgcarbonell": {
       "owner": "mgcarbonell",
       "notFound": false,
-      "lastExecuted": "2022-06-27T12:26:45.690Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "VivekThazhathattil": {
       "owner": "VivekThazhathattil",
@@ -2429,7 +2429,7 @@
     "FanisDeligiannis": {
       "owner": "FanisDeligiannis",
       "notFound": true,
-      "lastExecuted": "2022-06-27T12:26:45.690Z"
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     },
     "fatonarifi": {
       "owner": "fatonarifi",
@@ -2450,6 +2450,11 @@
       "owner": "thisbailiwick",
       "notFound": false,
       "lastExecuted": "2022-06-27T23:53:13.465Z"
+    },
+    "juanfer2": {
+      "owner": "juanfer2",
+      "notFound": true,
+      "lastExecuted": "2022-06-28T01:36:34.942Z"
     }
   }
 }
