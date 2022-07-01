@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-01T07:34:50.865Z",
+  "lastExecuted": "2022-07-01T07:44:01.846Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -94,32 +94,32 @@
     "cakmoel": {
       "owner": "cakmoel",
       "notFound": true,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "dariye": {
       "owner": "dariye",
       "notFound": false,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "zacjones93": {
       "owner": "zacjones93",
       "notFound": false,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "Aniket777": {
       "owner": "Aniket777",
       "notFound": true,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "i001962": {
       "owner": "i001962",
       "notFound": false,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "sadiejay": {
       "owner": "sadiejay",
       "notFound": false,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "rdupontr": {
       "owner": "rdupontr",
@@ -589,17 +589,17 @@
     "MaheraFurniturewala": {
       "owner": "MaheraFurniturewala",
       "notFound": true,
-      "lastExecuted": "2022-06-30T10:53:36.613Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "jibrel": {
       "owner": "jibrel",
       "notFound": true,
-      "lastExecuted": "2022-06-30T10:53:36.613Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "cryptus-neoxys": {
       "owner": "cryptus-neoxys",
       "notFound": false,
-      "lastExecuted": "2022-06-30T10:53:36.613Z"
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     },
     "LucasGabrielBecker": {
       "owner": "LucasGabrielBecker",
@@ -2488,8 +2488,8 @@
     },
     "Zakichanu": {
       "owner": "Zakichanu",
-      "notFound": false,
-      "lastExecuted": "2022-06-30T19:35:38.322Z"
+      "notFound": true,
+      "lastExecuted": "2022-07-01T07:44:01.846Z"
     }
   }
 }
