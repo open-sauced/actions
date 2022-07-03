@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-03T00:52:26.625Z",
+  "lastExecuted": "2022-07-03T01:30:37.553Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -984,27 +984,27 @@
     "blackgirlbytes": {
       "owner": "blackgirlbytes",
       "notFound": true,
-      "lastExecuted": "2022-07-02T11:03:50.804Z"
+      "lastExecuted": "2022-07-03T01:30:37.553Z"
     },
     "bhantsi": {
       "owner": "bhantsi",
       "notFound": false,
-      "lastExecuted": "2022-07-02T11:03:50.804Z"
+      "lastExecuted": "2022-07-03T01:30:37.553Z"
     },
     "Blazing-Mike": {
       "owner": "Blazing-Mike",
       "notFound": false,
-      "lastExecuted": "2022-07-02T12:14:27.200Z"
+      "lastExecuted": "2022-07-03T01:30:37.553Z"
     },
     "cozyCodr": {
       "owner": "cozyCodr",
       "notFound": false,
-      "lastExecuted": "2022-07-02T12:14:27.200Z"
+      "lastExecuted": "2022-07-03T01:30:37.553Z"
     },
     "KakoozaJerry": {
       "owner": "KakoozaJerry",
       "notFound": false,
-      "lastExecuted": "2022-07-02T12:14:27.200Z"
+      "lastExecuted": "2022-07-03T01:30:37.553Z"
     },
     "oscakampala": {
       "owner": "oscakampala",
@@ -2505,6 +2505,11 @@
       "owner": "Clue355",
       "notFound": false,
       "lastExecuted": "2022-07-02T15:53:24.799Z"
+    },
+    "Fube": {
+      "owner": "Fube",
+      "notFound": false,
+      "lastExecuted": "2022-07-03T01:30:37.553Z"
     }
   }
 }
