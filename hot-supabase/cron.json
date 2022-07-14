@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-14T11:54:48.067Z",
+  "lastExecuted": "2022-07-14T12:05:47.150Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -369,42 +369,42 @@
     "KevinKoetz": {
       "owner": "KevinKoetz",
       "notFound": true,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "kanetronv2": {
       "owner": "kanetronv2",
       "notFound": true,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "sosplush": {
       "owner": "sosplush",
       "notFound": false,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "salindae25": {
       "owner": "salindae25",
       "notFound": false,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "gmarcos87": {
       "owner": "gmarcos87",
       "notFound": true,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "akashp1712": {
       "owner": "akashp1712",
       "notFound": true,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "jochemste": {
       "owner": "jochemste",
       "notFound": true,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "Pandademic": {
       "owner": "Pandademic",
       "notFound": false,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "ashwth": {
       "owner": "ashwth",
@@ -2599,12 +2599,22 @@
     "sakomws": {
       "owner": "sakomws",
       "notFound": true,
-      "lastExecuted": "2022-07-13T23:54:53.462Z"
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     },
     "DeonFranklin": {
       "owner": "DeonFranklin",
       "notFound": false,
       "lastExecuted": "2022-07-14T04:20:12.404Z"
+    },
+    "90N45-d3v": {
+      "owner": "90N45-d3v",
+      "notFound": false,
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
+    },
+    "kdaigle": {
+      "owner": "kdaigle",
+      "notFound": false,
+      "lastExecuted": "2022-07-14T12:05:47.150Z"
     }
   }
 }
