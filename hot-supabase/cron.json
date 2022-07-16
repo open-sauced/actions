@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-16T07:09:33.076Z",
+  "lastExecuted": "2022-07-16T07:22:01.536Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2164,22 +2164,22 @@
     "vanderFlierFilip": {
       "owner": "vanderFlierFilip",
       "notFound": false,
-      "lastExecuted": "2022-07-15T19:12:21.195Z"
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     },
     "ralphiz": {
       "owner": "ralphiz",
       "notFound": false,
-      "lastExecuted": "2022-07-15T19:12:21.195Z"
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     },
     "seonghyeonkimm": {
       "owner": "seonghyeonkimm",
       "notFound": false,
-      "lastExecuted": "2022-07-15T19:12:21.195Z"
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     },
     "kvcarido": {
       "owner": "kvcarido",
       "notFound": false,
-      "lastExecuted": "2022-07-15T19:12:21.195Z"
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     },
     "Ahmed-Elswerky": {
       "owner": "Ahmed-Elswerky",
@@ -2194,7 +2194,7 @@
     "TheLearneer": {
       "owner": "TheLearneer",
       "notFound": true,
-      "lastExecuted": "2022-07-15T19:12:21.195Z"
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     },
     "incognitojam": {
       "owner": "incognitojam",
@@ -2214,7 +2214,7 @@
     "davwheat": {
       "owner": "davwheat",
       "notFound": true,
-      "lastExecuted": "2022-07-15T19:12:21.195Z"
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     },
     "Sami64": {
       "owner": "Sami64",
@@ -2620,6 +2620,11 @@
       "owner": "pplanel",
       "notFound": false,
       "lastExecuted": "2022-07-16T02:24:38.410Z"
+    },
+    "Raynor-X": {
+      "owner": "Raynor-X",
+      "notFound": false,
+      "lastExecuted": "2022-07-16T07:22:01.536Z"
     }
   }
 }
