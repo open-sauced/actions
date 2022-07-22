@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-22T17:48:14.287Z",
+  "lastExecuted": "2022-07-22T19:48:40.225Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2614,7 +2614,7 @@
     "kdaigle": {
       "owner": "kdaigle",
       "notFound": false,
-      "lastExecuted": "2022-07-22T04:01:07.294Z"
+      "lastExecuted": "2022-07-22T19:48:40.225Z"
     },
     "pplanel": {
       "owner": "pplanel",
@@ -2649,7 +2649,7 @@
     "ricci2511": {
       "owner": "ricci2511",
       "notFound": false,
-      "lastExecuted": "2022-07-22T07:40:04.274Z"
+      "lastExecuted": "2022-07-22T19:48:40.225Z"
     },
     "theednaffattack": {
       "owner": "theednaffattack",
@@ -2669,7 +2669,7 @@
     "aviramha": {
       "owner": "aviramha",
       "notFound": false,
-      "lastExecuted": "2022-07-22T07:40:04.274Z"
+      "lastExecuted": "2022-07-22T19:48:40.225Z"
     },
     "thegillis": {
       "owner": "thegillis",
@@ -2694,12 +2694,17 @@
     "Skn0tt": {
       "owner": "Skn0tt",
       "notFound": false,
-      "lastExecuted": "2022-07-22T07:40:04.274Z"
+      "lastExecuted": "2022-07-22T19:48:40.225Z"
     },
     "ctoffanin": {
       "owner": "ctoffanin",
       "notFound": false,
       "lastExecuted": "2022-07-22T14:21:35.468Z"
+    },
+    "Cerchie": {
+      "owner": "Cerchie",
+      "notFound": false,
+      "lastExecuted": "2022-07-22T19:48:40.225Z"
     }
   }
 }
