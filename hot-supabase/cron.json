@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-22T10:54:54.849Z",
+  "lastExecuted": "2022-07-22T14:21:35.468Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2589,7 +2589,7 @@
     "JoshuaPoddoku": {
       "owner": "JoshuaPoddoku",
       "notFound": false,
-      "lastExecuted": "2022-07-21T23:52:01.738Z"
+      "lastExecuted": "2022-07-22T14:21:35.468Z"
     },
     "Selko2013": {
       "owner": "Selko2013",
@@ -2624,7 +2624,7 @@
     "Raynor-X": {
       "owner": "Raynor-X",
       "notFound": false,
-      "lastExecuted": "2022-07-21T20:27:04.738Z"
+      "lastExecuted": "2022-07-22T14:21:35.468Z"
     },
     "AssassinK786": {
       "owner": "AssassinK786",
@@ -2644,7 +2644,7 @@
     "code-with-onye": {
       "owner": "code-with-onye",
       "notFound": false,
-      "lastExecuted": "2022-07-22T00:59:34.214Z"
+      "lastExecuted": "2022-07-22T14:21:35.468Z"
     },
     "ricci2511": {
       "owner": "ricci2511",
@@ -2659,7 +2659,7 @@
     "CMCSWEENE": {
       "owner": "CMCSWEENE",
       "notFound": false,
-      "lastExecuted": "2022-07-21T23:32:46.320Z"
+      "lastExecuted": "2022-07-22T14:21:35.468Z"
     },
     "travi": {
       "owner": "travi",
@@ -2695,6 +2695,11 @@
       "owner": "Skn0tt",
       "notFound": false,
       "lastExecuted": "2022-07-22T07:40:04.274Z"
+    },
+    "ctoffanin": {
+      "owner": "ctoffanin",
+      "notFound": false,
+      "lastExecuted": "2022-07-22T14:21:35.468Z"
     }
   }
 }
