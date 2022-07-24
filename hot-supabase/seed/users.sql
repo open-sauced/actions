@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T16:51:16.754Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-24T18:47:52.581Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -308,7 +308,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (6486256, 5, true, false, true, '2022-06-02T21:40:44.788089+00:00', 'crazy4pi314'),
 (3957722, 4, true, false, true, '2022-07-11T03:10:08.213733+00:00', 'renjujv'),
 (90222871, 3, true, false, true, '2022-06-11T12:22:23.564518+00:00', 'nhristov'),
-(79598596, 3, true, false, true, '2022-07-14T12:05:53.779409+00:00', '90N45-d3v'),
 (46659975, 0, true, false, true, '2022-06-11T04:44:00.676352+00:00', 'kvcarido'),
 (13966404, 19, true, false, true, '2022-06-11T04:31:00.063819+00:00', 'seonghyeonkimm'),
 (8064235, 0, true, false, true, '2022-07-03T01:30:42.634042+00:00', 'Fube'),
@@ -325,7 +324,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (9616739, 1, true, false, true, '2022-07-02T03:52:25.150602+00:00', 'Lckythr33'),
 (7938258, 1, true, false, true, '2022-06-25T22:00:47.963865+00:00', 'TsatsuAmable'),
 (89362919, 1, true, false, true, '2022-06-11T16:36:37.001793+00:00', 'ThnksCJ'),
-(491368, 1, true, false, true, '2022-07-14T14:11:38.984123+00:00', 'pplanel'),
+(79598596, 3, true, false, true, '2022-07-14T12:05:53.779409+00:00', '90N45-d3v'),
 (99875329, 0, true, false, true, '2022-06-20T23:01:24.440262+00:00', 'Sherelle-S'),
 (4038174, 6, true, false, true, '2022-06-11T16:36:35.29466+00:00', 'incognitojam'),
 (32559031, 0, true, false, true, '2022-06-15T10:14:59.393131+00:00', 'michellbrito'),
@@ -376,7 +375,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (36790617, 0, true, false, true, '2022-06-19T03:45:28.977712+00:00', 'thnhtus'),
 (90490253, 0, true, false, true, '2022-06-28T18:44:58.272734+00:00', 'aroramrinaal'),
 (73789849, 1, true, false, true, '2022-06-22T18:55:24.785419+00:00', 'haleyjung'),
-(62794161, 1, true, true, true, '2022-07-17T15:20:00.939366+00:00', 'lhhuman'),
+(491368, 1, true, false, true, '2022-07-14T14:11:38.984123+00:00', 'pplanel'),
 (10395817, 2, true, false, true, '2022-07-07T07:15:11.953391+00:00', 'liyasthomas'),
 (41201924, 2, true, false, true, '2022-07-19T06:21:59.303658+00:00', 'aviramha'),
 (102608325, 3, true, false, true, '2022-06-28T18:28:37.902439+00:00', 'alex-colvin'),
@@ -384,7 +383,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (60453988, 1, true, false, true, '2022-06-09T20:42:57.720634+00:00', 'adrireid'),
 (68105273, 6, true, false, true, '2022-06-21T14:53:43.659457+00:00', 'KhushP786'),
 (2555182, 2, true, false, true, '2022-07-18T19:39:50.267623+00:00', 'theednaffattack'),
-(1551031, 4, true, false, true, '2022-07-19T16:44:21.073635+00:00', 'thegillis'),
+(126441, 1, true, false, true, '2022-07-19T04:48:13.305024+00:00', 'travi'),
 (17050237, 3, true, false, true, '2022-06-27T19:16:16.877071+00:00', 'diegorramos84'),
 (16942870, 7, true, false, true, '2022-05-16T11:08:17.989778+00:00', 'ThomasErhel'),
 (34313413, 4, true, false, true, '2022-07-01T15:01:22.23681+00:00', 'BekahHW'),
@@ -399,9 +398,10 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (80591403, 1, true, false, true, '2022-06-19T09:00:32.749103+00:00', 'TheyCallMeCheng'),
 (8643036, 1, true, false, true, '2022-07-05T17:46:10.218605+00:00', 'WinterCore'),
 (20221408, 6, true, false, true, '2022-06-18T00:56:54.533231+00:00', 'STRRL'),
-(126441, 1, true, false, true, '2022-07-19T04:48:13.305024+00:00', 'travi'),
+(62794161, 1, true, true, true, '2022-07-17T15:20:00.939366+00:00', 'lhhuman'),
 (58410019, 1, true, false, true, '2022-07-03T15:52:38.725266+00:00', 'AlphaHot'),
 (5056251, 6, true, false, true, '2022-07-01T21:26:03.9586+00:00', 'beardage'),
+(1551031, 4, true, false, true, '2022-07-19T16:44:21.073635+00:00', 'thegillis'),
 (45469, 1, true, false, true, '2022-07-05T19:52:23.703536+00:00', 'ljharb'),
 (75282221, 1, true, false, true, '2022-06-16T08:41:51.048805+00:00', 'Duck-the-dev'),
 (95306716, 1, true, false, true, '2022-07-13T03:49:17.326562+00:00', 'DeonFranklin'),
