@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-26T18:48:27.677Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-26T20:45:31.775Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -317,7 +317,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (22246286, 1, true, false, true, '2022-07-05T14:36:45.613084+00:00', 'aida-martinez'),
 (39627458, 1, true, false, true, '2022-06-23T07:12:10.146094+00:00', 'Olaism'),
 (108130680, 0, true, false, true, '2022-06-24T11:56:40.340896+00:00', 'VinayShreeramaiah'),
-(80476005, 1, true, false, true, '2022-07-18T18:51:13.192976+00:00', 'ricci2511'),
+(491368, 1, true, false, true, '2022-07-14T14:11:38.984123+00:00', 'pplanel'),
 (13868653, 0, true, false, true, '2022-06-22T19:17:20.32997+00:00', 'gissilali'),
 (126441, 1, true, false, true, '2022-07-19T04:48:13.305024+00:00', 'travi'),
 (3898642, 6, true, true, true, '2022-06-27T08:47:02.957779+00:00', 'TianZong48'),
@@ -359,7 +359,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (76396335, 4, true, false, true, '2022-06-18T12:40:42.238036+00:00', 'arth2002'),
 (37847523, 1, true, false, true, '2022-06-28T18:00:20.634498+00:00', 'bdsqqq'),
 (67071462, 0, true, false, true, '2022-06-23T15:23:33.515443+00:00', 'kum9748ar'),
-(491368, 1, true, false, true, '2022-07-14T14:11:38.984123+00:00', 'pplanel'),
+(54046179, 1, true, false, true, '2022-07-22T18:59:06.561526+00:00', 'Cerchie'),
 (9039234, 2, true, false, true, '2022-06-26T22:39:24.237047+00:00', 'KrisMannino'),
 (62794161, 1, true, true, true, '2022-07-17T15:20:00.939366+00:00', 'lhhuman'),
 (35054601, 1, true, false, true, '2022-06-01T05:21:41.096723+00:00', 'kudoabhijeet'),
@@ -375,7 +375,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (36790617, 0, true, false, true, '2022-06-19T03:45:28.977712+00:00', 'thnhtus'),
 (90490253, 0, true, false, true, '2022-06-28T18:44:58.272734+00:00', 'aroramrinaal'),
 (73789849, 1, true, false, true, '2022-06-22T18:55:24.785419+00:00', 'haleyjung'),
-(14912729, 2, true, false, true, '2022-07-22T07:40:07.966383+00:00', 'Skn0tt'),
+(41201924, 2, true, false, true, '2022-07-19T06:21:59.303658+00:00', 'aviramha'),
 (10395817, 2, true, false, true, '2022-07-07T07:15:11.953391+00:00', 'liyasthomas'),
 (33223727, 5, true, false, true, '2022-07-12T13:49:29.475984+00:00', 'Selko2013'),
 (102608325, 3, true, false, true, '2022-06-28T18:28:37.902439+00:00', 'alex-colvin'),
@@ -389,7 +389,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (34313413, 4, true, false, true, '2022-07-01T15:01:22.23681+00:00', 'BekahHW'),
 (95355656, 1, true, false, true, '2022-07-12T08:40:38.487571+00:00', 'jay-tau'),
 (33803374, 1, true, false, true, '2022-06-25T19:24:27.455787+00:00', 'ChrisGibe'),
-(41201924, 2, true, false, true, '2022-07-19T06:21:59.303658+00:00', 'aviramha'),
+(80476005, 1, true, false, true, '2022-07-18T18:51:13.192976+00:00', 'ricci2511'),
 (42097653, 0, true, false, true, '2022-06-11T21:26:16.071022+00:00', 'someshfengde'),
 (12637253, 1, true, false, true, '2022-06-27T23:53:18.61854+00:00', 'thisbailiwick'),
 (98709555, 1, true, false, true, '2022-07-17T21:49:38.412869+00:00', 'jusjones2284'),
@@ -398,7 +398,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (80591403, 1, true, false, true, '2022-06-19T09:00:32.749103+00:00', 'TheyCallMeCheng'),
 (8643036, 1, true, false, true, '2022-07-05T17:46:10.218605+00:00', 'WinterCore'),
 (20221408, 6, true, false, true, '2022-06-18T00:56:54.533231+00:00', 'STRRL'),
-(54046179, 1, true, false, true, '2022-07-22T18:59:06.561526+00:00', 'Cerchie'),
+(14912729, 2, true, false, true, '2022-07-22T07:40:07.966383+00:00', 'Skn0tt'),
 (58410019, 1, true, false, true, '2022-07-03T15:52:38.725266+00:00', 'AlphaHot'),
 (5056251, 6, true, false, true, '2022-07-01T21:26:03.9586+00:00', 'beardage'),
 (45469, 1, true, false, true, '2022-07-05T19:52:23.703536+00:00', 'ljharb'),
