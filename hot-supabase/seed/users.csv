@@ -307,7 +307,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 13966404,19,true,false,true,2022-06-11T04:31:00.063819+00:00,seonghyeonkimm
 8064235,0,true,false,true,2022-07-03T01:30:42.634042+00:00,Fube
 43038575,1,true,false,true,2022-06-22T03:18:15.475319+00:00,ZacharySeebeck2020
-79598596,3,true,false,true,2022-07-14T12:05:53.779409+00:00,90N45-d3v
 19453294,2,true,false,true,2022-06-23T05:30:05.262221+00:00,techieeliot
 22246286,1,true,false,true,2022-07-05T14:36:45.613084+00:00,aida-martinez
 39627458,1,true,false,true,2022-06-23T07:12:10.146094+00:00,Olaism
@@ -396,6 +395,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 14912729,2,true,false,true,2022-07-22T07:40:07.966383+00:00,Skn0tt
 58410019,1,true,false,true,2022-07-03T15:52:38.725266+00:00,AlphaHot
 5056251,6,true,false,true,2022-07-01T21:26:03.9586+00:00,beardage
+79598596,3,true,false,true,2022-07-14T12:05:53.779409+00:00,90N45-d3v
 45469,1,true,false,true,2022-07-05T19:52:23.703536+00:00,ljharb
 75282221,1,true,false,true,2022-06-16T08:41:51.048805+00:00,Duck-the-dev
 85348050,8,true,false,true,2022-07-16T08:47:25.882903+00:00,AssassinK786
