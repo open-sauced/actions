@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-07-27T16:33:54.670Z",
+  "lastExecuted": "2022-07-27T17:37:03.744Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2579,17 +2579,17 @@
     "renjujv": {
       "owner": "renjujv",
       "notFound": false,
-      "lastExecuted": "2022-07-25T22:42:35.188Z"
+      "lastExecuted": "2022-07-27T17:37:03.744Z"
     },
     "jay-tau": {
       "owner": "jay-tau",
       "notFound": true,
-      "lastExecuted": "2022-07-25T22:42:35.188Z"
+      "lastExecuted": "2022-07-27T17:37:03.744Z"
     },
     "JoshuaPoddoku": {
       "owner": "JoshuaPoddoku",
       "notFound": false,
-      "lastExecuted": "2022-07-26T10:44:24.097Z"
+      "lastExecuted": "2022-07-27T17:37:03.744Z"
     },
     "Selko2013": {
       "owner": "Selko2013",
@@ -2644,7 +2644,7 @@
     "code-with-onye": {
       "owner": "code-with-onye",
       "notFound": false,
-      "lastExecuted": "2022-07-27T04:30:02.512Z"
+      "lastExecuted": "2022-07-27T17:37:03.744Z"
     },
     "ricci2511": {
       "owner": "ricci2511",
@@ -2735,6 +2735,16 @@
       "owner": "pixelsbyeryc",
       "notFound": false,
       "lastExecuted": "2022-07-27T16:33:54.670Z"
+    },
+    "rubiin": {
+      "owner": "rubiin",
+      "notFound": false,
+      "lastExecuted": "2022-07-27T17:37:03.744Z"
+    },
+    "adiati98": {
+      "owner": "adiati98",
+      "notFound": false,
+      "lastExecuted": "2022-07-27T17:37:03.744Z"
     }
   }
 }
