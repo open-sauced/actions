@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-28T12:59:11.812Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-28T14:46:03.363Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -413,6 +413,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (88614410, 1, true, false, true, '2022-07-28T11:09:54.995386+00:00', 'nurbekdev'),
 (95306716, 1, true, false, true, '2022-07-13T03:49:17.326562+00:00', 'DeonFranklin'),
 (25034, 3, true, false, true, '2022-07-27T23:07:14.502858+00:00', 'mariocesar'),
+(16826624, 1, true, false, true, '2022-07-28T14:31:49.592656+00:00', 'hokagedemehin'),
 (13385801, 0, true, false, true, '2022-07-28T00:51:19.469332+00:00', 'cynthiateeters'),
 (101464991, 1, true, false, true, '2022-07-27T15:53:35.864255+00:00', 'pixelsbyeryc'),
 (40502796, 1, true, false, true, '2022-07-26T12:17:37.999824+00:00', 'cameronldroberts'),
