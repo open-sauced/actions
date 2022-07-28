@@ -51,6 +51,11 @@ async function run() {
       continue
     }
 
+    if (installation.suspended_at) {
+      console.log(`${installation.account.login} has been suspended`)
+      continue
+    }
+
     // we don't have a local commit log of checking these installations
     if (typeof cache.users[installation.account.login] === 'undefined') {
       console.log(`${installation.account.login} is not in our cache, adding to the queue`)
