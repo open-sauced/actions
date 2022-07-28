@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-28T01:05:43.417Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-07-28T03:20:50.300Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -31,8 +31,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (45293863, 0, true, true, true, '2022-05-16T07:09:20.57671+00:00', 'bagatka'),
 (11067335, 0, true, false, true, '2022-05-16T07:43:06.849984+00:00', 'TerrelRJones'),
 (3202514, 0, true, false, true, '2022-05-16T09:37:14.23792+00:00', 'demilolu'),
-(56942462, 0, true, false, true, '2022-05-16T05:53:11.170511+00:00', 'ugwustanley'),
 (24606613, 0, true, false, true, '2022-05-16T06:58:34.770878+00:00', 'udhaykumarbala'),
+(56942462, 0, true, false, true, '2022-05-16T05:53:11.170511+00:00', 'ugwustanley'),
 (19617280, 2, true, false, true, '2022-05-16T07:59:15.800535+00:00', 'a-trost'),
 (52573181, 0, true, false, true, '2022-05-16T10:36:16.74442+00:00', 'RabsonJ'),
 (3650761, 0, true, false, true, '2022-05-16T03:09:41.133995+00:00', 'dariye'),
@@ -136,8 +136,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (6935431, 11, true, false, true, '2022-05-16T19:33:05.187648+00:00', 'zkoppert'),
 (15052690, 3, true, false, true, '2022-05-16T15:23:42.61745+00:00', 'creaturenex'),
 (20727421, 0, true, false, true, '2022-05-16T08:39:11.42517+00:00', 'ryan3738'),
-(17671332, 1, true, false, true, '2022-05-16T19:33:04.251504+00:00', 'CoderDill'),
 (54776315, 2, true, false, true, '2022-05-16T14:24:22.562603+00:00', 'HipyCas'),
+(17671332, 1, true, false, true, '2022-05-16T19:33:04.251504+00:00', 'CoderDill'),
 (24217493, 2, true, false, true, '2022-05-16T14:00:32.183406+00:00', 'Jussii'),
 (65249694, 0, true, false, true, '2022-05-16T09:58:47.424083+00:00', 'xiyiwang'),
 (85258143, 0, true, false, true, '2022-05-16T10:54:44.848729+00:00', 'oscakampala'),
@@ -400,7 +400,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (80476005, 1, true, false, true, '2022-07-18T18:51:13.192976+00:00', 'ricci2511'),
 (58410019, 1, true, false, true, '2022-07-03T15:52:38.725266+00:00', 'AlphaHot'),
 (5056251, 6, true, false, true, '2022-07-01T21:26:03.9586+00:00', 'beardage'),
-(95306716, 1, true, false, true, '2022-07-13T03:49:17.326562+00:00', 'DeonFranklin'),
+(98709555, 1, true, false, true, '2022-07-17T21:49:38.412869+00:00', 'jusjones2284'),
 (45469, 1, true, false, true, '2022-07-05T19:52:23.703536+00:00', 'ljharb'),
 (75282221, 1, true, false, true, '2022-06-16T08:41:51.048805+00:00', 'Duck-the-dev'),
 (14912729, 2, true, false, true, '2022-07-22T07:40:07.966383+00:00', 'Skn0tt'),
@@ -409,7 +409,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (126441, 1, true, false, true, '2022-07-19T04:48:13.305024+00:00', 'travi'),
 (1415873, 2, true, false, true, '2022-07-23T13:51:23.00453+00:00', 'FDelporte'),
 (6735115, 1, true, false, true, '2022-07-23T15:12:06.339903+00:00', 'arylatt'),
-(98709555, 1, true, false, true, '2022-07-17T21:49:38.412869+00:00', 'jusjones2284'),
 (101464991, 1, true, false, true, '2022-07-27T15:53:35.864255+00:00', 'pixelsbyeryc'),
 (40502796, 1, true, false, true, '2022-07-26T12:17:37.999824+00:00', 'cameronldroberts'),
 (30007828, 1, true, false, true, '2022-07-26T04:25:09.08284+00:00', 'Ryankolsen'),
@@ -419,4 +418,5 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (1205776, 1, true, false, true, '2022-07-27T19:20:49.724818+00:00', 'mhuggins7278'),
 (76804824, 1, true, false, true, '2022-07-25T10:41:28.962264+00:00', 'chiragtatva'),
 (25034, 3, true, false, true, '2022-07-27T23:07:14.502858+00:00', 'mariocesar'),
-(13385801, 0, true, false, true, '2022-07-28T00:51:19.469332+00:00', 'cynthiateeters');
+(13385801, 0, true, false, true, '2022-07-28T00:51:19.469332+00:00', 'cynthiateeters'),
+(95306716, 1, true, false, true, '2022-07-13T03:49:17.326562+00:00', 'DeonFranklin');
