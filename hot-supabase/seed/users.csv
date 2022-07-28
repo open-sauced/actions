@@ -319,6 +319,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 9616739,1,true,false,true,2022-07-02T03:52:25.150602+00:00,Lckythr33
 7938258,1,true,false,true,2022-06-25T22:00:47.963865+00:00,TsatsuAmable
 89362919,1,true,false,true,2022-06-11T16:36:37.001793+00:00,ThnksCJ
+100371690,1,true,false,true,2022-07-18T22:56:26.777185+00:00,CMCSWEENE
 99875329,0,true,false,true,2022-06-20T23:01:24.440262+00:00,Sherelle-S
 4038174,6,true,false,true,2022-06-11T16:36:35.29466+00:00,incognitojam
 32559031,0,true,false,true,2022-06-15T10:14:59.393131+00:00,michellbrito
@@ -371,12 +372,12 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 73789849,1,true,false,true,2022-06-22T18:55:24.785419+00:00,haleyjung
 491368,1,true,false,true,2022-07-14T14:11:38.984123+00:00,pplanel
 10395817,2,true,false,true,2022-07-07T07:15:11.953391+00:00,liyasthomas
+1682188,22,true,false,true,2022-07-22T14:21:41.378153+00:00,ctoffanin
 102608325,3,true,false,true,2022-06-28T18:28:37.902439+00:00,alex-colvin
 54046179,1,true,false,true,2022-07-22T18:59:06.561526+00:00,Cerchie
 60453988,1,true,false,true,2022-06-09T20:42:57.720634+00:00,adrireid
 68105273,6,true,false,true,2022-06-21T14:53:43.659457+00:00,KhushP786
 41201924,2,true,false,true,2022-07-19T06:21:59.303658+00:00,aviramha
-85189857,1,true,false,true,2022-07-18T11:53:07.749155+00:00,code-with-onye
 17050237,3,true,false,true,2022-06-27T19:16:16.877071+00:00,diegorramos84
 16942870,7,true,false,true,2022-05-16T11:08:17.989778+00:00,ThomasErhel
 34313413,4,true,false,true,2022-07-01T15:01:22.23681+00:00,BekahHW
@@ -385,7 +386,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 20276785,3,true,false,true,2022-07-24T22:53:45.599885+00:00,rcmtcristian
 42097653,0,true,false,true,2022-06-11T21:26:16.071022+00:00,someshfengde
 12637253,1,true,false,true,2022-06-27T23:53:18.61854+00:00,thisbailiwick
-100371690,1,true,false,true,2022-07-18T22:56:26.777185+00:00,CMCSWEENE
+85189857,1,true,false,true,2022-07-18T11:53:07.749155+00:00,code-with-onye
 1551031,4,true,false,true,2022-07-19T16:44:21.073635+00:00,thegillis
 577424,1,true,false,true,2022-05-16T03:09:39.3077+00:00,matthewdeanmartin
 80591403,1,true,false,true,2022-06-19T09:00:32.749103+00:00,TheyCallMeCheng
@@ -394,7 +395,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 79598596,3,true,false,true,2022-07-14T12:05:53.779409+00:00,90N45-d3v
 58410019,1,true,false,true,2022-07-03T15:52:38.725266+00:00,AlphaHot
 5056251,6,true,false,true,2022-07-01T21:26:03.9586+00:00,beardage
-1682188,21,true,false,true,2022-07-22T14:21:41.378153+00:00,ctoffanin
+98709555,1,true,false,true,2022-07-17T21:49:38.412869+00:00,jusjones2284
 45469,1,true,false,true,2022-07-05T19:52:23.703536+00:00,ljharb
 75282221,1,true,false,true,2022-06-16T08:41:51.048805+00:00,Duck-the-dev
 1795,5,true,false,true,2022-07-20T10:29:13.658255+00:00,jakobo
@@ -403,7 +404,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 85348050,8,true,false,true,2022-07-16T08:47:25.882903+00:00,AssassinK786
 1415873,2,true,false,true,2022-07-23T13:51:23.00453+00:00,FDelporte
 6735115,1,true,false,true,2022-07-23T15:12:06.339903+00:00,arylatt
-98709555,1,true,false,true,2022-07-17T21:49:38.412869+00:00,jusjones2284
 76804824,1,true,false,true,2022-07-25T10:41:28.962264+00:00,chiragtatva
 88614410,1,true,false,true,2022-07-28T11:09:54.995386+00:00,nurbekdev
 95306716,1,true,false,true,2022-07-13T03:49:17.326562+00:00,DeonFranklin
@@ -413,6 +413,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login
 101464991,1,true,false,true,2022-07-27T15:53:35.864255+00:00,pixelsbyeryc
 40502796,1,true,false,true,2022-07-26T12:17:37.999824+00:00,cameronldroberts
 30007828,1,true,false,true,2022-07-26T04:25:09.08284+00:00,Ryankolsen
-8222059,3,true,false,true,2022-07-27T17:37:07.761769+00:00,rubiin
+8222059,0,true,false,true,2022-07-27T17:37:07.761769+00:00,rubiin
 45172775,0,true,false,true,2022-07-27T17:37:08.703547+00:00,adiati98
 51391611,2,true,false,true,2022-07-27T18:08:36.820576+00:00,coffeedome
