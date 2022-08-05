@@ -9,7 +9,9 @@ const tables = [
   'repos',
   'contributions',
   'users_to_repos_stars',
+  'users_to_repos_submissions',
   'users_to_repos_votes',
+  'users_to_repos_stargazers',
 ]
 const queue = []
 
