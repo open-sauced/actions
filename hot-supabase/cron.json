@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-10T03:22:21.890Z",
+  "lastExecuted": "2022-08-10T03:41:20.191Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2384,7 +2384,7 @@
     "techieeliot": {
       "owner": "techieeliot",
       "notFound": false,
-      "lastExecuted": "2022-08-09T15:27:10.601Z"
+      "lastExecuted": "2022-08-10T03:41:20.191Z"
     },
     "Olaism": {
       "owner": "Olaism",
@@ -2579,12 +2579,12 @@
     "renjujv": {
       "owner": "renjujv",
       "notFound": false,
-      "lastExecuted": "2022-08-09T15:27:10.601Z"
+      "lastExecuted": "2022-08-10T03:41:20.191Z"
     },
     "jay-tau": {
       "owner": "jay-tau",
       "notFound": true,
-      "lastExecuted": "2022-08-09T15:27:10.601Z"
+      "lastExecuted": "2022-08-10T03:41:20.191Z"
     },
     "JoshuaPoddoku": {
       "owner": "JoshuaPoddoku",
@@ -2819,7 +2819,7 @@
     "Funkycodes": {
       "owner": "Funkycodes",
       "notFound": false,
-      "lastExecuted": "2022-08-09T15:27:10.601Z"
+      "lastExecuted": "2022-08-10T03:41:20.191Z"
     },
     "chriswburke": {
       "owner": "chriswburke",
@@ -2945,6 +2945,16 @@
       "owner": "TemitopeAgbaje",
       "notFound": false,
       "lastExecuted": "2022-08-09T18:34:52.503Z"
+    },
+    "dpkreativ": {
+      "owner": "dpkreativ",
+      "notFound": false,
+      "lastExecuted": "2022-08-10T03:41:20.191Z"
+    },
+    "ddsuhaimi": {
+      "owner": "ddsuhaimi",
+      "notFound": false,
+      "lastExecuted": "2022-08-10T03:41:20.191Z"
     }
   }
 }
