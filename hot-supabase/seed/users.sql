@@ -1,9 +1,10 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-19T16:54:14.463Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-19T18:49:42.579Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login, updated_at, deleted_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
 INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login, updated_at, deleted_at) VALUES
+(93688482, 0, true, false, true, '2022-08-18T00:01:21.635104+00:00', 'eseosa22', '2022-08-18T00:01:21.635104+00:00', null),
 (17699027, 1, true, false, true, '2022-08-06T20:20:35.791774+00:00', 'NicolaCorvo90', '2022-08-06T20:20:35.791774+00:00', null),
 (71881414, 1, true, false, true, '2022-08-09T18:35:00.192877+00:00', 'TemitopeAgbaje', '2022-08-09T18:35:00.192877+00:00', null),
 (14126525, 4, true, false, true, '2022-06-16T17:00:51.934714+00:00', 'hasanhakkaev', '2022-06-16T17:00:51.934714+00:00', null),
@@ -20,9 +21,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (30659198, 1, true, false, true, '2022-08-10T03:41:28.649159+00:00', 'ddsuhaimi', '2022-08-10T03:41:28.649159+00:00', null),
 (108594159, 0, true, false, true, '2022-08-11T17:26:23.176612+00:00', 'mynameissaraah', '2022-08-11T17:26:23.176612+00:00', null),
 (49480381, 1, true, false, true, '2022-08-10T03:41:27.279462+00:00', 'dpkreativ', '2022-08-10T03:41:27.279462+00:00', null),
-(3335181, 2, true, false, true, '2022-08-18T18:04:33.19488+00:00', 'JoshuaKGoldberg', '2022-08-18T18:04:33.19488+00:00', null),
-(93688482, 0, true, false, true, '2022-08-18T00:01:21.635104+00:00', 'eseosa22', '2022-08-18T00:01:21.635104+00:00', null),
 (69505350, 1, true, false, true, '2022-08-13T06:25:36.065519+00:00', 'Oluwatemmy', '2022-08-13T06:25:36.065519+00:00', null),
+(3335181, 2, true, false, true, '2022-08-18T18:04:33.19488+00:00', 'JoshuaKGoldberg', '2022-08-18T18:04:33.19488+00:00', null),
 (2480219, 0, true, false, true, '2022-05-16T07:33:54.421184+00:00', 'eriber', '2022-05-16T07:33:54.421184+00:00', null),
 (3957722, 4, true, false, true, '2022-07-11T03:10:08.213733+00:00', 'renjujv', '2022-07-11T03:10:08.213733+00:00', null),
 (40502796, 3, true, false, true, '2022-07-26T12:17:37.999824+00:00', 'cameronldroberts', '2022-07-26T12:17:37.999824+00:00', null),
@@ -100,7 +100,6 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (7860023, 2, true, false, true, '2022-05-16T07:09:17.090279+00:00', 'anis00723', '2022-05-16T07:09:17.090279+00:00', null),
 (33266556, 0, true, false, true, '2022-05-16T04:09:07.889448+00:00', 'honeynegi', '2022-05-16T04:09:07.889448+00:00', null),
 (289882, 1, true, false, true, '2022-05-16T08:14:35.734751+00:00', 'gwincr11', '2022-05-16T08:14:35.734751+00:00', null),
-(100199494, 1, true, false, true, '2022-08-17T08:38:02.540391+00:00', 'Raphael3423', '2022-08-17T08:38:02.540391+00:00', null),
 (52336027, 0, true, false, true, '2022-05-16T08:58:31.633207+00:00', 'mohamedabotir', '2022-05-16T08:58:31.633207+00:00', null),
 (43477095, 0, true, false, true, '2022-08-14T13:13:45.994617+00:00', 'Ceres6', '2022-08-14T13:13:45.994617+00:00', null),
 (91947169, 1, true, false, true, '2022-08-12T15:28:24.149905+00:00', 'Vubere', '2022-08-12T15:28:24.149905+00:00', null),
@@ -132,6 +131,7 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (1305623, 0, true, false, true, '2022-05-16T09:21:19.832736+00:00', 'phucthaidoan', '2022-05-16T09:21:19.832736+00:00', null),
 (19359944, 0, true, false, true, '2022-05-16T05:45:19.921522+00:00', 'Karobwe', '2022-05-16T05:45:19.921522+00:00', null),
 (26147156, 1, true, false, true, '2022-08-11T02:24:40.863935+00:00', 'AdekolaToniloba', '2022-08-11T02:24:40.863935+00:00', null),
+(100199494, 1, true, false, true, '2022-08-17T08:38:02.540391+00:00', 'Raphael3423', '2022-08-17T08:38:02.540391+00:00', null),
 (4910518, 0, true, false, true, '2022-05-16T08:24:16.087028+00:00', 'leftrightleft', '2022-05-16T08:24:16.087028+00:00', null),
 (3941856, 0, true, false, true, '2022-05-16T06:45:04.3384+00:00', 'prophen', '2022-05-16T06:45:04.3384+00:00', null),
 (26007940, 0, true, false, true, '2022-05-16T08:24:17.552522+00:00', 'mikerobards', '2022-05-16T08:24:17.552522+00:00', null),
