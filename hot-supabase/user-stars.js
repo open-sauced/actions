@@ -251,14 +251,35 @@ async function run() {
           continue
         }
 
-        const {data: [star], error} = await supabase
-          .from('users_to_repos_stars')
-          .upsert({
+        const { data: [starExists], error: starExistsError } = await supabase
+          .from("users_to_repos_stars")
+          .select(`*`)
+          .eq("user_id", user_id)
+          .eq("repo_id", repo.id);
+
+        if (starExistsError) {
+          console.log(`Error getting existing stars for ${user_id}/${repo.id}`, starExistsError)
+          continue
+        }
+
+        if (starExists) {
+          console.log(`Skipping ${user_id}/${repo.id} because stars for it already exist`)
+          continue
+        }
+
+        const {data: [starInsert], error: starInsertError} = await supabase
+          .from("users_to_repos_stars")
+          .insert({
             user_id,
             repo_id: repo.id,
-          })
+          });
 
-        !error && (cache.stars[star.id] = star);
+        if (starInsertError) {
+          console.log(`Error inserting stars for ${user_id}/${repo.id}`, starInsertError)
+          continue
+        }
+
+        starInsert && (cache.stars[starInsert.id] = starInsert);
       }
     })
 
