@@ -1,5 +1,5 @@
 --
--- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-21T01:04:59.443Z
+-- Data for Name: users; Type: TABLE DATA; Schema: public; Timestamp: 2022-08-21T03:21:45.951Z
 -- COPY users(id, open_issues, has_stars_data, is_private, is_open_sauced_member, created_at, login, updated_at, deleted_at) FROM 'users.csv' WITH DELIMITER ',' CSV HEADER;
 --
 
@@ -56,9 +56,9 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (60168324, 2, true, false, true, '2022-08-07T23:01:29.835341+00:00', 'marisabrantley', '2022-08-07T23:01:29.835341+00:00', null),
 (23369123, 4, true, false, true, '2022-08-18T11:18:12.404993+00:00', 'Tailine', '2022-08-18T11:18:12.404993+00:00', null),
 (81192726, 1, true, false, true, '2022-08-16T22:38:58.827656+00:00', 'debisho', '2022-08-16T22:38:58.827656+00:00', null),
-(92822432, 0, true, false, true, '2022-08-15T23:38:53.58499+00:00', 'Teslimxcv', '2022-08-15T23:38:53.58499+00:00', null),
 (22624429, 1, true, false, true, '2022-08-19T03:24:56.947713+00:00', 'SpencerGee', '2022-08-19T03:24:56.947713+00:00', null),
 (54031531, 0, true, false, true, '2022-08-19T03:24:57.955712+00:00', 'erinmikailstaples', '2022-08-19T03:24:57.955712+00:00', null),
+(92822432, 0, true, false, true, '2022-08-15T23:38:53.58499+00:00', 'Teslimxcv', '2022-08-15T23:38:53.58499+00:00', null),
 (83507890, 1, true, false, true, '2022-06-08T05:11:33.86745+00:00', 'KushalTanna24', '2022-06-08T05:11:33.86745+00:00', null),
 (7490938, 0, true, false, true, '2022-05-28T21:38:56.493594+00:00', 'kejne', '2022-05-28T21:38:56.493594+00:00', null),
 (38852717, 1, true, false, true, '2022-08-17T08:23:44.387874+00:00', 'SebastianWebster', '2022-08-17T08:23:44.387874+00:00', null),
@@ -72,8 +72,8 @@ INSERT INTO users(id, open_issues, has_stars_data, is_private, is_open_sauced_me
 (72113368, 1, true, false, true, '2022-08-14T12:20:47.128028+00:00', 'Obafemi-NG', '2022-08-14T12:20:47.128028+00:00', null),
 (33808005, 1, true, false, true, '2022-08-12T12:37:09.075817+00:00', 'iamkelv', '2022-08-12T12:37:09.075817+00:00', null),
 (100608427, 1, true, false, true, '2022-05-26T19:31:22.481994+00:00', 'ismayil-hakhveriyev-mox', '2022-05-26T19:31:22.481994+00:00', null),
-(8271635, 0, true, false, true, '2022-08-16T03:26:49.991442+00:00', 'aboutthatjazz', '2022-08-16T03:26:49.991442+00:00', null),
 (107480924, 1, true, false, true, '2022-08-08T12:24:31.796377+00:00', 'adavadkardhruv13', '2022-08-08T12:24:31.796377+00:00', null),
+(8271635, 0, true, false, true, '2022-08-16T03:26:49.991442+00:00', 'aboutthatjazz', '2022-08-16T03:26:49.991442+00:00', null),
 (90222871, 3, true, false, true, '2022-06-11T12:22:23.564518+00:00', 'nhristov', '2022-06-11T12:22:23.564518+00:00', null),
 (52573981, 0, true, false, true, '2022-05-16T02:43:22.805132+00:00', 'mrsantons', '2022-05-16T02:43:22.805132+00:00', null),
 (1930729, 1, true, false, true, '2022-05-16T08:39:08.630488+00:00', 'nersoh', '2022-05-16T08:39:08.630488+00:00', null),
