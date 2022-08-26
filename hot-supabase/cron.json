@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-26T13:32:04.955Z",
+  "lastExecuted": "2022-08-26T13:48:45.021Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2184,7 +2184,7 @@
     "Ahmed-Elswerky": {
       "owner": "Ahmed-Elswerky",
       "notFound": false,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "nhristov": {
       "owner": "nhristov",
@@ -2194,37 +2194,37 @@
     "TheLearneer": {
       "owner": "TheLearneer",
       "notFound": true,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "incognitojam": {
       "owner": "incognitojam",
       "notFound": true,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "ThnksCJ": {
       "owner": "ThnksCJ",
       "notFound": true,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "AnuragRoy485": {
       "owner": "AnuragRoy485",
       "notFound": false,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "davwheat": {
       "owner": "davwheat",
       "notFound": true,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "Sami64": {
       "owner": "Sami64",
       "notFound": false,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "someshfengde": {
       "owner": "someshfengde",
       "notFound": false,
-      "lastExecuted": "2022-08-26T01:39:01.064Z"
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     },
     "lbugasu": {
       "owner": "lbugasu",
@@ -3305,6 +3305,11 @@
       "owner": "STBoyden",
       "notFound": true,
       "lastExecuted": "2022-08-26T13:13:58.065Z"
+    },
+    "adelpro": {
+      "owner": "adelpro",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T13:48:45.021Z"
     }
   }
 }
