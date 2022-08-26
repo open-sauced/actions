@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-26T17:12:56.327Z",
+  "lastExecuted": "2022-08-26T17:27:29.238Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -249,27 +249,27 @@
     "real-tea": {
       "owner": "real-tea",
       "notFound": true,
-      "lastExecuted": "2022-08-25T17:00:52.664Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "petertwalker": {
       "owner": "petertwalker",
       "notFound": true,
-      "lastExecuted": "2022-08-25T17:00:52.664Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "harshrai654": {
       "owner": "harshrai654",
       "notFound": true,
-      "lastExecuted": "2022-08-25T17:00:52.664Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "royanger": {
       "owner": "royanger",
       "notFound": true,
-      "lastExecuted": "2022-08-25T17:00:52.664Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "DavidMerenyi": {
       "owner": "DavidMerenyi",
       "notFound": false,
-      "lastExecuted": "2022-08-25T17:00:52.664Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "1ynmuldrow": {
       "owner": "1ynmuldrow",
@@ -3109,12 +3109,12 @@
     "livlevi": {
       "owner": "livlevi",
       "notFound": false,
-      "lastExecuted": "2022-08-26T05:06:46.852Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "Jazzy-Julius": {
       "owner": "Jazzy-Julius",
       "notFound": false,
-      "lastExecuted": "2022-08-26T05:06:46.852Z"
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     },
     "debisho": {
       "owner": "debisho",
@@ -3355,6 +3355,16 @@
       "owner": "rf-santos",
       "notFound": false,
       "lastExecuted": "2022-08-26T17:12:56.327Z"
+    },
+    "JohannesPtaszyk": {
+      "owner": "JohannesPtaszyk",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
+    },
+    "aromalsanthosh": {
+      "owner": "aromalsanthosh",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T17:27:29.238Z"
     }
   }
 }
