@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-26T15:11:59.714Z",
+  "lastExecuted": "2022-08-26T15:26:58.007Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -64,17 +64,17 @@
     "JasonStrazisar": {
       "owner": "JasonStrazisar",
       "notFound": false,
-      "lastExecuted": "2022-08-25T15:15:35.956Z"
+      "lastExecuted": "2022-08-26T15:26:58.007Z"
     },
     "adwinang": {
       "owner": "adwinang",
       "notFound": true,
-      "lastExecuted": "2022-08-25T15:15:35.956Z"
+      "lastExecuted": "2022-08-26T15:26:58.007Z"
     },
     "mrsantons": {
       "owner": "mrsantons",
       "notFound": false,
-      "lastExecuted": "2022-08-25T15:15:35.956Z"
+      "lastExecuted": "2022-08-26T15:26:58.007Z"
     },
     "MatElGran": {
       "owner": "MatElGran",
@@ -84,12 +84,12 @@
     "matthewdeanmartin": {
       "owner": "matthewdeanmartin",
       "notFound": false,
-      "lastExecuted": "2022-08-25T15:29:52.921Z"
+      "lastExecuted": "2022-08-26T15:26:58.007Z"
     },
     "tiamatu": {
       "owner": "tiamatu",
       "notFound": false,
-      "lastExecuted": "2022-08-25T15:29:52.921Z"
+      "lastExecuted": "2022-08-26T15:26:58.007Z"
     },
     "cakmoel": {
       "owner": "cakmoel",
@@ -3330,6 +3330,11 @@
       "owner": "simusr2",
       "notFound": false,
       "lastExecuted": "2022-08-26T15:11:59.714Z"
+    },
+    "berserkin1337": {
+      "owner": "berserkin1337",
+      "notFound": false,
+      "lastExecuted": "2022-08-26T15:26:58.007Z"
     }
   }
 }
