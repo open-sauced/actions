@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-27T12:46:14.894Z",
+  "lastExecuted": "2022-08-27T13:04:37.037Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2314,12 +2314,12 @@
     "thnhtus": {
       "owner": "thnhtus",
       "notFound": false,
-      "lastExecuted": "2022-08-27T00:49:44.197Z"
+      "lastExecuted": "2022-08-27T13:04:37.037Z"
     },
     "TheyCallMeCheng": {
       "owner": "TheyCallMeCheng",
       "notFound": false,
-      "lastExecuted": "2022-08-27T00:25:23.991Z"
+      "lastExecuted": "2022-08-27T13:04:37.037Z"
     },
     "rcasia": {
       "owner": "rcasia",
@@ -3299,7 +3299,7 @@
     "SaxJ": {
       "owner": "SaxJ",
       "notFound": false,
-      "lastExecuted": "2022-08-27T00:49:44.197Z"
+      "lastExecuted": "2022-08-27T13:04:37.037Z"
     },
     "STBoyden": {
       "owner": "STBoyden",
@@ -3374,7 +3374,7 @@
     "Azanul": {
       "owner": "Azanul",
       "notFound": false,
-      "lastExecuted": "2022-08-27T00:49:44.197Z"
+      "lastExecuted": "2022-08-27T13:04:37.037Z"
     },
     "Jasonnemo": {
       "owner": "Jasonnemo",
@@ -3415,6 +3415,11 @@
       "owner": "unrealnerd",
       "notFound": false,
       "lastExecuted": "2022-08-27T12:46:14.894Z"
+    },
+    "SUGARXUST": {
+      "owner": "SUGARXUST",
+      "notFound": false,
+      "lastExecuted": "2022-08-27T13:04:37.037Z"
     }
   }
 }
