@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-28T13:43:33.660Z",
+  "lastExecuted": "2022-08-28T13:52:30.880Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -1864,12 +1864,12 @@
     "thsnyzkn": {
       "owner": "thsnyzkn",
       "notFound": false,
-      "lastExecuted": "2022-08-27T15:07:38.121Z"
+      "lastExecuted": "2022-08-28T13:52:30.880Z"
     },
     "vaibhsir1991": {
       "owner": "vaibhsir1991",
       "notFound": false,
-      "lastExecuted": "2022-08-27T15:07:38.121Z"
+      "lastExecuted": "2022-08-28T13:52:30.880Z"
     },
     "lucas-santos": {
       "owner": "lucas-santos",
@@ -1879,17 +1879,17 @@
     "suuus": {
       "owner": "suuus",
       "notFound": false,
-      "lastExecuted": "2022-08-27T15:07:38.121Z"
+      "lastExecuted": "2022-08-28T13:52:30.880Z"
     },
     "nbeck415": {
       "owner": "nbeck415",
       "notFound": false,
-      "lastExecuted": "2022-08-27T15:07:38.121Z"
+      "lastExecuted": "2022-08-28T13:52:30.880Z"
     },
     "vordimous": {
       "owner": "vordimous",
       "notFound": false,
-      "lastExecuted": "2022-08-27T13:20:00.516Z"
+      "lastExecuted": "2022-08-28T13:52:30.880Z"
     },
     "simeonoriko": {
       "owner": "simeonoriko",
@@ -3455,6 +3455,11 @@
       "owner": "Wizyma",
       "notFound": false,
       "lastExecuted": "2022-08-28T10:23:56.853Z"
+    },
+    "whummer": {
+      "owner": "whummer",
+      "notFound": true,
+      "lastExecuted": "2022-08-28T13:52:30.880Z"
     }
   }
 }
