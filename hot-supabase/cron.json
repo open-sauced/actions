@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-28T06:44:46.159Z",
+  "lastExecuted": "2022-08-28T06:55:00.848Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2064,17 +2064,17 @@
     "prajapatiomkar": {
       "owner": "prajapatiomkar",
       "notFound": false,
-      "lastExecuted": "2022-08-27T18:16:37.076Z"
+      "lastExecuted": "2022-08-28T06:55:00.848Z"
     },
     "ahmedsaheed": {
       "owner": "ahmedsaheed",
       "notFound": true,
-      "lastExecuted": "2022-08-27T18:16:37.076Z"
+      "lastExecuted": "2022-08-28T06:55:00.848Z"
     },
     "adrireid": {
       "owner": "adrireid",
       "notFound": false,
-      "lastExecuted": "2022-08-27T12:24:56.742Z"
+      "lastExecuted": "2022-08-28T06:55:00.848Z"
     },
     "bkager": {
       "owner": "bkager",
@@ -2169,12 +2169,12 @@
     "ralphiz": {
       "owner": "ralphiz",
       "notFound": false,
-      "lastExecuted": "2022-08-27T18:16:37.076Z"
+      "lastExecuted": "2022-08-28T06:55:00.848Z"
     },
     "seonghyeonkimm": {
       "owner": "seonghyeonkimm",
       "notFound": false,
-      "lastExecuted": "2022-08-27T18:16:37.076Z"
+      "lastExecuted": "2022-08-28T06:55:00.848Z"
     },
     "kvcarido": {
       "owner": "kvcarido",
@@ -3435,6 +3435,11 @@
       "owner": "Omo-Gbadamson",
       "notFound": false,
       "lastExecuted": "2022-08-28T02:13:35.490Z"
+    },
+    "manan30": {
+      "owner": "manan30",
+      "notFound": false,
+      "lastExecuted": "2022-08-28T06:55:00.848Z"
     }
   }
 }
