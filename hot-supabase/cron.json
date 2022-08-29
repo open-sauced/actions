@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-29T08:21:25.225Z",
+  "lastExecuted": "2022-08-29T08:37:31.010Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2969,7 +2969,7 @@
     "Adrasi": {
       "owner": "Adrasi",
       "notFound": false,
-      "lastExecuted": "2022-08-28T19:57:34.683Z"
+      "lastExecuted": "2022-08-29T08:37:31.010Z"
     },
     "AbdulrasheedApampa": {
       "owner": "AbdulrasheedApampa",
@@ -2979,12 +2979,12 @@
     "AdekolaToniloba": {
       "owner": "AdekolaToniloba",
       "notFound": false,
-      "lastExecuted": "2022-08-28T19:57:34.683Z"
+      "lastExecuted": "2022-08-29T08:37:31.010Z"
     },
     "HoodGenie": {
       "owner": "HoodGenie",
       "notFound": false,
-      "lastExecuted": "2022-08-28T19:57:34.683Z"
+      "lastExecuted": "2022-08-29T08:37:31.010Z"
     },
     "SleemBee444": {
       "owner": "SleemBee444",
@@ -3469,7 +3469,7 @@
     "AlexandreKempf": {
       "owner": "AlexandreKempf",
       "notFound": false,
-      "lastExecuted": "2022-08-28T20:22:19.191Z"
+      "lastExecuted": "2022-08-29T08:37:31.010Z"
     },
     "barcellos-pedro": {
       "owner": "barcellos-pedro",
@@ -3500,6 +3500,11 @@
       "owner": "xuancanh",
       "notFound": false,
       "lastExecuted": "2022-08-29T02:19:58.037Z"
+    },
+    "AzmanAmin": {
+      "owner": "AzmanAmin",
+      "notFound": false,
+      "lastExecuted": "2022-08-29T08:37:31.010Z"
     }
   }
 }
