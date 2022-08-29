@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-29T18:00:36.298Z",
+  "lastExecuted": "2022-08-29T18:12:33.108Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3219,7 +3219,7 @@
     "cliffordfajardo": {
       "owner": "cliffordfajardo",
       "notFound": false,
-      "lastExecuted": "2022-08-29T06:04:08.662Z"
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
     },
     "Aahil13": {
       "owner": "Aahil13",
@@ -3239,7 +3239,7 @@
     "Tonathe3rd": {
       "owner": "Tonathe3rd",
       "notFound": false,
-      "lastExecuted": "2022-08-29T06:04:08.662Z"
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
     },
     "svetlyak40wt": {
       "owner": "svetlyak40wt",
@@ -3359,12 +3359,12 @@
     "JohannesPtaszyk": {
       "owner": "JohannesPtaszyk",
       "notFound": false,
-      "lastExecuted": "2022-08-29T06:04:08.662Z"
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
     },
     "aromalsanthosh": {
       "owner": "aromalsanthosh",
       "notFound": false,
-      "lastExecuted": "2022-08-29T06:04:08.662Z"
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
     },
     "Ciia86": {
       "owner": "Ciia86",
@@ -3394,7 +3394,7 @@
     "rerost": {
       "owner": "rerost",
       "notFound": true,
-      "lastExecuted": "2022-08-29T06:04:08.662Z"
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
     },
     "roderick-zambrano": {
       "owner": "roderick-zambrano",
@@ -3515,6 +3515,16 @@
       "owner": "Kundanmourya",
       "notFound": true,
       "lastExecuted": "2022-08-29T13:08:50.243Z"
+    },
+    "duyet": {
+      "owner": "duyet",
+      "notFound": false,
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
+    },
+    "Bernd-L": {
+      "owner": "Bernd-L",
+      "notFound": true,
+      "lastExecuted": "2022-08-29T18:12:33.108Z"
     }
   }
 }
