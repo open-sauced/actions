@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-08-30T21:29:16.875Z",
+  "lastExecuted": "2022-08-30T22:53:00.772Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3429,7 +3429,7 @@
     "onlydole": {
       "owner": "onlydole",
       "notFound": false,
-      "lastExecuted": "2022-08-30T09:51:10.886Z"
+      "lastExecuted": "2022-08-30T22:53:00.772Z"
     },
     "Omo-Gbadamson": {
       "owner": "Omo-Gbadamson",
@@ -3444,17 +3444,17 @@
     "saifltr": {
       "owner": "saifltr",
       "notFound": false,
-      "lastExecuted": "2022-08-30T09:31:49.355Z"
+      "lastExecuted": "2022-08-30T22:53:00.772Z"
     },
     "Arif-un": {
       "owner": "Arif-un",
       "notFound": false,
-      "lastExecuted": "2022-08-30T09:42:20.237Z"
+      "lastExecuted": "2022-08-30T22:53:00.772Z"
     },
     "Wizyma": {
       "owner": "Wizyma",
       "notFound": false,
-      "lastExecuted": "2022-08-30T10:38:45.022Z"
+      "lastExecuted": "2022-08-30T22:53:00.772Z"
     },
     "whummer": {
       "owner": "whummer",
@@ -3479,7 +3479,7 @@
     "fiqrisr": {
       "owner": "fiqrisr",
       "notFound": false,
-      "lastExecuted": "2022-08-30T10:26:08.384Z"
+      "lastExecuted": "2022-08-30T22:53:00.772Z"
     },
     "nicofloch": {
       "owner": "nicofloch",
@@ -3543,8 +3543,8 @@
     },
     "sokratisvas": {
       "owner": "sokratisvas",
-      "notFound": false,
-      "lastExecuted": "2022-08-30T09:31:49.355Z"
+      "notFound": true,
+      "lastExecuted": "2022-08-30T22:53:00.772Z"
     },
     "TommasoBianchi": {
       "owner": "TommasoBianchi",
