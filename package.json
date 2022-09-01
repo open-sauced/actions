@@ -27,7 +27,9 @@
     "seed": "node --experimental-json-modules ./hot-supabase/seed.js",
     "seed:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/seed.js",
     "contrib": "node --experimental-json-modules ./hot-supabase/contributors.js",
-    "contrib:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/contributors.js"
+    "contrib:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/contributors.js",
+    "backfill": "node --experimental-json-modules ./hot-supabase/backfill-github-users.js",
+    "backfill:dev": "node --experimental-json-modules -r dotenv/config ./hot-supabase/backfill-github-users.js"
   },
   "dependencies": {
     "@antfu/utils": "^0.5.2",

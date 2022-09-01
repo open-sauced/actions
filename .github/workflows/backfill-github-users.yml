@@ -1,4 +1,4 @@
-name: Repo contributions cron
+name: Backfill GitHub users
 on:
   schedule:
     - cron: '*/5 * * * *'
@@ -6,7 +6,7 @@ on:
 
 jobs:
   populate-the-supabase:
-    name: run get contributions
+    name: run backfill users
     runs-on: ubuntu-latest
     steps:
       - name: "☁️ checkout repository"
@@ -24,11 +24,10 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: "🔍 populate contributions"
-        run: npm run contrib
+        run: npm run backfill
         env:
           OPEN_SAUCED_APP_ID: ${{ secrets.OPEN_SAUCED_APP_ID }}
           OPEN_SAUCED_PRIVATE_KEY: ${{ secrets.OPEN_SAUCED_PRIVATE_KEY }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-          LIMIT_CONTRIBUTOR_DAYS: 5
-          LIMIT_CONTRIBUTOR_REPOS: 50
+          LIMIT_USERS: 5
