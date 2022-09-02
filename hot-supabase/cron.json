@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-02T04:25:27.657Z",
+  "lastExecuted": "2022-09-02T05:04:17.214Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3299,7 +3299,7 @@
     "SaxJ": {
       "owner": "SaxJ",
       "notFound": false,
-      "lastExecuted": "2022-09-01T16:26:56.690Z"
+      "lastExecuted": "2022-09-02T05:04:17.214Z"
     },
     "STBoyden": {
       "owner": "STBoyden",
@@ -3374,7 +3374,7 @@
     "Azanul": {
       "owner": "Azanul",
       "notFound": false,
-      "lastExecuted": "2022-09-01T16:26:56.690Z"
+      "lastExecuted": "2022-09-02T05:04:17.214Z"
     },
     "Jasonnemo": {
       "owner": "Jasonnemo",
@@ -3419,7 +3419,7 @@
     "SUGARXUST": {
       "owner": "SUGARXUST",
       "notFound": false,
-      "lastExecuted": "2022-09-01T16:26:56.690Z"
+      "lastExecuted": "2022-09-02T05:04:17.214Z"
     },
     "ajhalili2006": {
       "owner": "ajhalili2006",
@@ -3459,7 +3459,7 @@
     "whummer": {
       "owner": "whummer",
       "notFound": true,
-      "lastExecuted": "2022-09-01T16:26:56.690Z"
+      "lastExecuted": "2022-09-02T05:04:17.214Z"
     },
     "hpoul": {
       "owner": "hpoul",
@@ -3499,7 +3499,7 @@
     "xuancanh": {
       "owner": "xuancanh",
       "notFound": false,
-      "lastExecuted": "2022-09-01T16:26:56.690Z"
+      "lastExecuted": "2022-09-02T05:04:17.214Z"
     },
     "AzmanAmin": {
       "owner": "AzmanAmin",
@@ -3685,6 +3685,11 @@
       "owner": "Tuzi555",
       "notFound": false,
       "lastExecuted": "2022-09-02T04:25:27.657Z"
+    },
+    "minsk-dev": {
+      "owner": "minsk-dev",
+      "notFound": false,
+      "lastExecuted": "2022-09-02T05:04:17.214Z"
     }
   }
 }
