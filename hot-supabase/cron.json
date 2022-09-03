@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-03T16:57:26.887Z",
+  "lastExecuted": "2022-09-03T17:22:38.934Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2734,22 +2734,22 @@
     "pixelsbyeryc": {
       "owner": "pixelsbyeryc",
       "notFound": false,
-      "lastExecuted": "2022-09-03T05:04:27.389Z"
+      "lastExecuted": "2022-09-03T17:22:38.934Z"
     },
     "rubiin": {
       "owner": "rubiin",
       "notFound": true,
-      "lastExecuted": "2022-09-03T05:04:27.389Z"
+      "lastExecuted": "2022-09-03T17:22:38.934Z"
     },
     "adiati98": {
       "owner": "adiati98",
       "notFound": false,
-      "lastExecuted": "2022-09-03T05:04:27.389Z"
+      "lastExecuted": "2022-09-03T17:22:38.934Z"
     },
     "coffeedome": {
       "owner": "coffeedome",
       "notFound": false,
-      "lastExecuted": "2022-09-03T05:04:27.389Z"
+      "lastExecuted": "2022-09-03T17:22:38.934Z"
     },
     "mhuggins7278": {
       "owner": "mhuggins7278",
@@ -3825,6 +3825,16 @@
       "owner": "mamba-dev-KE",
       "notFound": false,
       "lastExecuted": "2022-09-03T16:57:26.887Z"
+    },
+    "leonardssh": {
+      "owner": "leonardssh",
+      "notFound": false,
+      "lastExecuted": "2022-09-03T17:22:38.934Z"
+    },
+    "Bikram-ghuku": {
+      "owner": "Bikram-ghuku",
+      "notFound": false,
+      "lastExecuted": "2022-09-03T17:22:38.934Z"
     }
   }
 }
