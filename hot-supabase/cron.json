@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-05T02:16:06.456Z",
+  "lastExecuted": "2022-09-05T03:19:46.399Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3734,12 +3734,12 @@
     "MugiD": {
       "owner": "MugiD",
       "notFound": false,
-      "lastExecuted": "2022-09-04T14:41:41.389Z"
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
     },
     "rhedwan": {
       "owner": "rhedwan",
       "notFound": false,
-      "lastExecuted": "2022-09-04T14:41:41.389Z"
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
     },
     "Aayush2492": {
       "owner": "Aayush2492",
@@ -3814,12 +3814,12 @@
     "AtharvaBondre": {
       "owner": "AtharvaBondre",
       "notFound": false,
-      "lastExecuted": "2022-09-04T14:41:41.389Z"
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
     },
     "slf188": {
       "owner": "slf188",
       "notFound": false,
-      "lastExecuted": "2022-09-04T14:41:41.389Z"
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
     },
     "mamba-dev-KE": {
       "owner": "mamba-dev-KE",
@@ -3864,12 +3864,17 @@
     "xrexy": {
       "owner": "xrexy",
       "notFound": true,
-      "lastExecuted": "2022-09-04T14:21:33.921Z"
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
     },
     "mmarinero": {
       "owner": "mmarinero",
       "notFound": true,
-      "lastExecuted": "2022-09-04T14:41:41.389Z"
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
+    },
+    "sncalvo": {
+      "owner": "sncalvo",
+      "notFound": false,
+      "lastExecuted": "2022-09-05T03:19:46.399Z"
     }
   }
 }
