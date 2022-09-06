@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-06T12:30:40.688Z",
+  "lastExecuted": "2022-09-06T12:54:22.952Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2809,22 +2809,22 @@
     "danish-mehmood": {
       "owner": "danish-mehmood",
       "notFound": false,
-      "lastExecuted": "2022-09-05T20:27:49.791Z"
+      "lastExecuted": "2022-09-06T12:54:22.952Z"
     },
     "bossoncode": {
       "owner": "bossoncode",
       "notFound": false,
-      "lastExecuted": "2022-09-05T20:27:49.791Z"
+      "lastExecuted": "2022-09-06T12:54:22.952Z"
     },
     "Funkycodes": {
       "owner": "Funkycodes",
       "notFound": false,
-      "lastExecuted": "2022-09-05T20:27:49.791Z"
+      "lastExecuted": "2022-09-06T12:54:22.952Z"
     },
     "chriswburke": {
       "owner": "chriswburke",
       "notFound": false,
-      "lastExecuted": "2022-09-05T20:13:37.283Z"
+      "lastExecuted": "2022-09-06T12:54:22.952Z"
     },
     "Em2see": {
       "owner": "Em2see",
@@ -2834,7 +2834,7 @@
     "Koethan": {
       "owner": "Koethan",
       "notFound": false,
-      "lastExecuted": "2022-09-05T20:13:37.283Z"
+      "lastExecuted": "2022-09-06T12:54:22.952Z"
     },
     "LTY526": {
       "owner": "LTY526",
@@ -2848,8 +2848,8 @@
     },
     "Aditya-Gupta1": {
       "owner": "Aditya-Gupta1",
-      "notFound": false,
-      "lastExecuted": "2022-09-05T17:41:22.962Z"
+      "notFound": true,
+      "lastExecuted": "2022-09-06T12:54:22.952Z"
     },
     "JoviDeCroock": {
       "owner": "JoviDeCroock",
