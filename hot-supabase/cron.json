@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-07T10:27:07.929Z",
+  "lastExecuted": "2022-09-07T10:41:23.230Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3124,12 +3124,12 @@
     "SebastianWebster": {
       "owner": "SebastianWebster",
       "notFound": false,
-      "lastExecuted": "2022-09-06T22:25:37.034Z"
+      "lastExecuted": "2022-09-07T10:41:23.230Z"
     },
     "Raphael3423": {
       "owner": "Raphael3423",
       "notFound": false,
-      "lastExecuted": "2022-09-06T22:25:37.034Z"
+      "lastExecuted": "2022-09-07T10:41:23.230Z"
     },
     "kumar-kalyan": {
       "owner": "kumar-kalyan",
@@ -3139,12 +3139,12 @@
     "eseosa22": {
       "owner": "eseosa22",
       "notFound": false,
-      "lastExecuted": "2022-09-06T22:10:52.132Z"
+      "lastExecuted": "2022-09-07T10:41:23.230Z"
     },
     "NjengaFelix": {
       "owner": "NjengaFelix",
       "notFound": false,
-      "lastExecuted": "2022-09-06T21:59:41.372Z"
+      "lastExecuted": "2022-09-07T10:41:23.230Z"
     },
     "Tailine": {
       "owner": "Tailine",
@@ -3985,6 +3985,11 @@
       "owner": "arielbk",
       "notFound": false,
       "lastExecuted": "2022-09-07T10:13:17.532Z"
+    },
+    "fraserws": {
+      "owner": "fraserws",
+      "notFound": false,
+      "lastExecuted": "2022-09-07T10:41:23.230Z"
     }
   }
 }
