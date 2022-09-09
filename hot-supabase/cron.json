@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-09T15:03:57.932Z",
+  "lastExecuted": "2022-09-09T15:16:50.606Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2609,7 +2609,7 @@
     "90N45-d3v": {
       "owner": "90N45-d3v",
       "notFound": false,
-      "lastExecuted": "2022-09-08T15:10:25.623Z"
+      "lastExecuted": "2022-09-09T15:16:50.606Z"
     },
     "kdaigle": {
       "owner": "kdaigle",
@@ -2619,22 +2619,22 @@
     "pplanel": {
       "owner": "pplanel",
       "notFound": true,
-      "lastExecuted": "2022-09-08T15:10:25.623Z"
+      "lastExecuted": "2022-09-09T15:16:50.606Z"
     },
     "Raynor-X": {
       "owner": "Raynor-X",
       "notFound": false,
-      "lastExecuted": "2022-09-08T15:10:25.623Z"
+      "lastExecuted": "2022-09-09T15:16:50.606Z"
     },
     "AssassinK786": {
       "owner": "AssassinK786",
       "notFound": false,
-      "lastExecuted": "2022-09-08T15:10:25.623Z"
+      "lastExecuted": "2022-09-09T15:16:50.606Z"
     },
     "lhhuman": {
       "owner": "lhhuman",
       "notFound": false,
-      "lastExecuted": "2022-09-08T14:58:55.325Z"
+      "lastExecuted": "2022-09-09T15:16:50.606Z"
     },
     "jusjones2284": {
       "owner": "jusjones2284",
@@ -4055,6 +4055,11 @@
       "owner": "420-samm",
       "notFound": false,
       "lastExecuted": "2022-09-09T03:18:25.104Z"
+    },
+    "rmdp-trouva": {
+      "owner": "rmdp-trouva",
+      "notFound": false,
+      "lastExecuted": "2022-09-09T15:16:50.606Z"
     }
   }
 }
