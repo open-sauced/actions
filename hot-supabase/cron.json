@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-12T07:10:37.819Z",
+  "lastExecuted": "2022-09-12T07:29:08.200Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3484,17 +3484,17 @@
     "nicofloch": {
       "owner": "nicofloch",
       "notFound": false,
-      "lastExecuted": "2022-09-11T18:21:19.843Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "AminFazlMondo": {
       "owner": "AminFazlMondo",
       "notFound": false,
-      "lastExecuted": "2022-09-11T17:36:34.719Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "jdorfman": {
       "owner": "jdorfman",
       "notFound": true,
-      "lastExecuted": "2022-09-11T17:36:34.719Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "xuancanh": {
       "owner": "xuancanh",
@@ -3509,7 +3509,7 @@
     "micalm": {
       "owner": "micalm",
       "notFound": false,
-      "lastExecuted": "2022-09-11T17:36:34.719Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "Kundanmourya": {
       "owner": "Kundanmourya",
@@ -3544,7 +3544,7 @@
     "sokratisvas": {
       "owner": "sokratisvas",
       "notFound": true,
-      "lastExecuted": "2022-09-11T17:36:34.719Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "TommasoBianchi": {
       "owner": "TommasoBianchi",
@@ -3584,7 +3584,7 @@
     "sappkevin": {
       "owner": "sappkevin",
       "notFound": false,
-      "lastExecuted": "2022-09-11T18:36:29.742Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "tylim88": {
       "owner": "tylim88",
@@ -3664,7 +3664,7 @@
     "jsred": {
       "owner": "jsred",
       "notFound": false,
-      "lastExecuted": "2022-09-11T18:36:29.742Z"
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     },
     "victor-teles": {
       "owner": "victor-teles",
@@ -4100,6 +4100,11 @@
       "owner": "JealousGx",
       "notFound": false,
       "lastExecuted": "2022-09-12T05:13:24.781Z"
+    },
+    "Jonasdero": {
+      "owner": "Jonasdero",
+      "notFound": true,
+      "lastExecuted": "2022-09-12T07:29:08.200Z"
     }
   }
 }
