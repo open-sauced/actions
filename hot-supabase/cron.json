@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-12T09:53:16.832Z",
+  "lastExecuted": "2022-09-12T10:02:49.681Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3604,12 +3604,12 @@
     "Kathalysth": {
       "owner": "Kathalysth",
       "notFound": false,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "timheuer": {
       "owner": "timheuer",
       "notFound": true,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "VladyslavLukyanenko": {
       "owner": "VladyslavLukyanenko",
@@ -3704,12 +3704,12 @@
     "tanbar999": {
       "owner": "tanbar999",
       "notFound": false,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "liamg": {
       "owner": "liamg",
       "notFound": false,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "KieronJenkins": {
       "owner": "KieronJenkins",
@@ -3799,7 +3799,7 @@
     "DevXcode1": {
       "owner": "DevXcode1",
       "notFound": false,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "hatamiarash7": {
       "owner": "hatamiarash7",
@@ -3839,7 +3839,7 @@
     "dariosena": {
       "owner": "dariosena",
       "notFound": true,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "muhammadzadeh": {
       "owner": "muhammadzadeh",
@@ -3924,7 +3924,7 @@
     "SoloOrchid": {
       "owner": "SoloOrchid",
       "notFound": false,
-      "lastExecuted": "2022-09-11T22:02:04.004Z"
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     },
     "julianchong00": {
       "owner": "julianchong00",
@@ -4115,6 +4115,16 @@
       "owner": "MauriceKau",
       "notFound": false,
       "lastExecuted": "2022-09-12T09:00:13.863Z"
+    },
+    "SivertGullbergHansen": {
+      "owner": "SivertGullbergHansen",
+      "notFound": true,
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
+    },
+    "Gryta-Krutt": {
+      "owner": "Gryta-Krutt",
+      "notFound": true,
+      "lastExecuted": "2022-09-12T10:02:49.681Z"
     }
   }
 }
