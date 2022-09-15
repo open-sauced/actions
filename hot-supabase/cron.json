@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-15T07:11:37.637Z",
+  "lastExecuted": "2022-09-15T07:28:01.742Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3824,7 +3824,7 @@
     "mamba-dev-KE": {
       "owner": "mamba-dev-KE",
       "notFound": false,
-      "lastExecuted": "2022-09-14T19:26:47.232Z"
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     },
     "leonardssh": {
       "owner": "leonardssh",
@@ -3864,22 +3864,22 @@
     "xrexy": {
       "owner": "xrexy",
       "notFound": true,
-      "lastExecuted": "2022-09-14T19:02:11.008Z"
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     },
     "mmarinero": {
       "owner": "mmarinero",
       "notFound": true,
-      "lastExecuted": "2022-09-14T19:02:11.008Z"
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     },
     "sncalvo": {
       "owner": "sncalvo",
       "notFound": false,
-      "lastExecuted": "2022-09-14T19:02:11.008Z"
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     },
     "tanvimoharir": {
       "owner": "tanvimoharir",
       "notFound": false,
-      "lastExecuted": "2022-09-14T19:26:47.232Z"
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     },
     "Bhanuchander210": {
       "owner": "Bhanuchander210",
@@ -3964,7 +3964,7 @@
     "daanschenkel": {
       "owner": "daanschenkel",
       "notFound": false,
-      "lastExecuted": "2022-09-14T19:26:47.232Z"
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     },
     "chungquantin": {
       "owner": "chungquantin",
@@ -4205,6 +4205,11 @@
       "owner": "Inerska",
       "notFound": false,
       "lastExecuted": "2022-09-15T07:11:37.637Z"
+    },
+    "BuyMyMojo": {
+      "owner": "BuyMyMojo",
+      "notFound": false,
+      "lastExecuted": "2022-09-15T07:28:01.742Z"
     }
   }
 }
