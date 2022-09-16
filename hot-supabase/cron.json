@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-16T19:05:07.350Z",
+  "lastExecuted": "2022-09-16T19:17:38.272Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2579,12 +2579,12 @@
     "renjujv": {
       "owner": "renjujv",
       "notFound": false,
-      "lastExecuted": "2022-09-14T18:07:28.165Z"
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "jay-tau": {
       "owner": "jay-tau",
       "notFound": true,
-      "lastExecuted": "2022-09-14T18:07:28.165Z"
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "JoshuaPoddoku": {
       "owner": "JoshuaPoddoku",
@@ -3809,7 +3809,7 @@
     "martinclason123": {
       "owner": "martinclason123",
       "notFound": false,
-      "lastExecuted": "2022-09-16T07:16:02.899Z"
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "AtharvaBondre": {
       "owner": "AtharvaBondre",
@@ -3908,8 +3908,8 @@
     },
     "bashangbasir": {
       "owner": "bashangbasir",
-      "notFound": false,
-      "lastExecuted": "2022-09-16T07:16:02.899Z"
+      "notFound": true,
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "dr1tch": {
       "owner": "dr1tch",
@@ -3934,7 +3934,7 @@
     "BaySercan": {
       "owner": "BaySercan",
       "notFound": false,
-      "lastExecuted": "2022-09-16T07:16:02.899Z"
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "kellz-prog": {
       "owner": "kellz-prog",
@@ -3954,12 +3954,12 @@
     "ericksarabia": {
       "owner": "ericksarabia",
       "notFound": false,
-      "lastExecuted": "2022-09-16T07:16:02.899Z"
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "jonathanashagre": {
       "owner": "jonathanashagre",
       "notFound": false,
-      "lastExecuted": "2022-09-16T07:16:02.899Z"
+      "lastExecuted": "2022-09-16T19:17:38.272Z"
     },
     "daanschenkel": {
       "owner": "daanschenkel",
