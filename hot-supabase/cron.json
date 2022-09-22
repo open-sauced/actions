@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-09-22T19:40:49.514Z",
+  "lastExecuted": "2022-09-22T19:49:29.472Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2624,27 +2624,27 @@
     "Raynor-X": {
       "owner": "Raynor-X",
       "notFound": false,
-      "lastExecuted": "2022-09-20T19:34:01.982Z"
+      "lastExecuted": "2022-09-22T19:49:29.472Z"
     },
     "AssassinK786": {
       "owner": "AssassinK786",
       "notFound": false,
-      "lastExecuted": "2022-09-20T19:34:01.982Z"
+      "lastExecuted": "2022-09-22T19:49:29.472Z"
     },
     "lhhuman": {
       "owner": "lhhuman",
       "notFound": false,
-      "lastExecuted": "2022-09-20T19:34:01.982Z"
+      "lastExecuted": "2022-09-22T19:49:29.472Z"
     },
     "jusjones2284": {
       "owner": "jusjones2284",
       "notFound": false,
-      "lastExecuted": "2022-09-20T19:34:01.982Z"
+      "lastExecuted": "2022-09-22T19:49:29.472Z"
     },
     "code-with-onye": {
       "owner": "code-with-onye",
       "notFound": false,
-      "lastExecuted": "2022-09-20T18:47:04.196Z"
+      "lastExecuted": "2022-09-22T19:49:29.472Z"
     },
     "ricci2511": {
       "owner": "ricci2511",
@@ -4320,6 +4320,11 @@
       "owner": "nitedani",
       "notFound": false,
       "lastExecuted": "2022-09-22T18:11:49.723Z"
+    },
+    "Huluvu424242": {
+      "owner": "Huluvu424242",
+      "notFound": true,
+      "lastExecuted": "2022-09-22T19:49:29.472Z"
     }
   }
 }
