@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-10-20T00:35:24.319Z",
+  "lastExecuted": "2022-10-20T01:48:23.648Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3989,12 +3989,12 @@
     "fraserws": {
       "owner": "fraserws",
       "notFound": false,
-      "lastExecuted": "2022-10-19T13:30:45.716Z"
+      "lastExecuted": "2022-10-20T01:48:23.648Z"
     },
     "helene-nguyen": {
       "owner": "helene-nguyen",
       "notFound": false,
-      "lastExecuted": "2022-10-19T13:30:45.716Z"
+      "lastExecuted": "2022-10-20T01:48:23.648Z"
     },
     "PrabhuKiran8790": {
       "owner": "PrabhuKiran8790",
@@ -4034,7 +4034,7 @@
     "The-Hasanov": {
       "owner": "The-Hasanov",
       "notFound": true,
-      "lastExecuted": "2022-10-19T13:30:45.716Z"
+      "lastExecuted": "2022-10-20T01:48:23.648Z"
     },
     "metalcorpe": {
       "owner": "metalcorpe",
@@ -4144,7 +4144,7 @@
     "adityaoberai": {
       "owner": "adityaoberai",
       "notFound": false,
-      "lastExecuted": "2022-10-19T13:30:45.716Z"
+      "lastExecuted": "2022-10-20T01:48:23.648Z"
     },
     "morehwachege": {
       "owner": "morehwachege",
@@ -4434,7 +4434,7 @@
     "Deadreyo": {
       "owner": "Deadreyo",
       "notFound": false,
-      "lastExecuted": "2022-10-19T13:30:45.716Z"
+      "lastExecuted": "2022-10-20T01:48:23.648Z"
     },
     "avicndugu": {
       "owner": "avicndugu",
@@ -4510,6 +4510,11 @@
       "owner": "Exceltuxil",
       "notFound": true,
       "lastExecuted": "2022-10-19T22:11:39.967Z"
+    },
+    "smith-xyz": {
+      "owner": "smith-xyz",
+      "notFound": false,
+      "lastExecuted": "2022-10-20T01:48:23.648Z"
     }
   }
 }
