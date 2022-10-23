@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-10-23T19:55:45.749Z",
+  "lastExecuted": "2022-10-23T20:06:28.624Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -3474,17 +3474,17 @@
     "barcellos-pedro": {
       "owner": "barcellos-pedro",
       "notFound": false,
-      "lastExecuted": "2022-10-23T07:59:46.754Z"
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     },
     "fiqrisr": {
       "owner": "fiqrisr",
       "notFound": false,
-      "lastExecuted": "2022-10-23T07:59:46.754Z"
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     },
     "nicofloch": {
       "owner": "nicofloch",
       "notFound": false,
-      "lastExecuted": "2022-10-23T07:59:46.754Z"
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     },
     "AminFazlMondo": {
       "owner": "AminFazlMondo",
@@ -3509,12 +3509,12 @@
     "micalm": {
       "owner": "micalm",
       "notFound": false,
-      "lastExecuted": "2022-10-23T07:59:46.754Z"
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     },
     "Kundanmourya": {
       "owner": "Kundanmourya",
       "notFound": true,
-      "lastExecuted": "2022-10-23T07:59:46.754Z"
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     },
     "duyet": {
       "owner": "duyet",
@@ -3524,7 +3524,7 @@
     "Bernd-L": {
       "owner": "Bernd-L",
       "notFound": true,
-      "lastExecuted": "2022-10-23T07:59:46.754Z"
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     },
     "HarshPanchal18": {
       "owner": "HarshPanchal18",
@@ -4520,6 +4520,11 @@
       "owner": "FelixLttks",
       "notFound": true,
       "lastExecuted": "2022-10-23T16:12:59.232Z"
+    },
+    "John-Njau": {
+      "owner": "John-Njau",
+      "notFound": false,
+      "lastExecuted": "2022-10-23T20:06:28.624Z"
     }
   }
 }
