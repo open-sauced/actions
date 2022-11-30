@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-11-30T23:18:40.347Z",
+  "lastExecuted": "2022-11-30T23:29:43.978Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -4474,7 +4474,7 @@
     "akinason": {
       "owner": "akinason",
       "notFound": false,
-      "lastExecuted": "2022-11-30T11:26:32.987Z"
+      "lastExecuted": "2022-11-30T23:29:43.978Z"
     },
     "delisma": {
       "owner": "delisma",
@@ -4539,7 +4539,7 @@
     "ImanolGo": {
       "owner": "ImanolGo",
       "notFound": false,
-      "lastExecuted": "2022-11-30T11:26:32.987Z"
+      "lastExecuted": "2022-11-30T23:29:43.978Z"
     },
     "manishshahi1": {
       "owner": "manishshahi1",
@@ -4564,12 +4564,12 @@
     "roro-commits": {
       "owner": "roro-commits",
       "notFound": false,
-      "lastExecuted": "2022-11-30T11:26:32.987Z"
+      "lastExecuted": "2022-11-30T23:29:43.978Z"
     },
     "spostek2": {
       "owner": "spostek2",
       "notFound": false,
-      "lastExecuted": "2022-11-30T11:26:32.987Z"
+      "lastExecuted": "2022-11-30T23:29:43.978Z"
     },
     "troycurtisjr": {
       "owner": "troycurtisjr",
@@ -4614,7 +4614,7 @@
     "carlogilmar": {
       "owner": "carlogilmar",
       "notFound": false,
-      "lastExecuted": "2022-11-30T11:26:32.987Z"
+      "lastExecuted": "2022-11-30T23:29:43.978Z"
     },
     "TobiasWust": {
       "owner": "TobiasWust",
@@ -4630,6 +4630,11 @@
       "owner": "Tanja-4732",
       "notFound": true,
       "lastExecuted": "2022-11-30T19:54:07.906Z"
+    },
+    "amyers1793": {
+      "owner": "amyers1793",
+      "notFound": true,
+      "lastExecuted": "2022-11-30T23:29:43.978Z"
     }
   }
 }
