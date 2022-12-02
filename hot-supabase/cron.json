@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2022-12-02T15:46:23.501Z",
+  "lastExecuted": "2022-12-02T15:55:10.018Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -284,7 +284,7 @@
     "mpmccauley": {
       "owner": "mpmccauley",
       "notFound": false,
-      "lastExecuted": "2022-12-02T03:51:11.665Z"
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "ifoi": {
       "owner": "ifoi",
@@ -2059,7 +2059,7 @@
     "DerekCrosson": {
       "owner": "DerekCrosson",
       "notFound": false,
-      "lastExecuted": "2022-09-10T22:29:10.461Z"
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "prajapatiomkar": {
       "owner": "prajapatiomkar",
@@ -3984,17 +3984,17 @@
     "arielbk": {
       "owner": "arielbk",
       "notFound": false,
-      "lastExecuted": "2022-12-02T03:51:11.665Z"
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "fraserws": {
       "owner": "fraserws",
       "notFound": false,
-      "lastExecuted": "2022-12-02T03:51:11.665Z"
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "helene-nguyen": {
       "owner": "helene-nguyen",
       "notFound": false,
-      "lastExecuted": "2022-12-02T03:51:11.665Z"
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "PrabhuKiran8790": {
       "owner": "PrabhuKiran8790",
@@ -4018,8 +4018,8 @@
     },
     "jan-may": {
       "owner": "jan-may",
-      "notFound": false,
-      "lastExecuted": "2022-12-02T03:51:11.665Z"
+      "notFound": true,
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "shaiq-dev": {
       "owner": "shaiq-dev",
@@ -4034,7 +4034,7 @@
     "The-Hasanov": {
       "owner": "The-Hasanov",
       "notFound": true,
-      "lastExecuted": "2022-12-02T03:51:11.665Z"
+      "lastExecuted": "2022-12-02T15:55:10.018Z"
     },
     "metalcorpe": {
       "owner": "metalcorpe",
