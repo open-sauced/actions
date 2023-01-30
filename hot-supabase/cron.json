@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2023-01-30T18:31:19.392Z",
+  "lastExecuted": "2023-01-30T18:41:09.723Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2419,7 +2419,7 @@
     "KrisMannino": {
       "owner": "KrisMannino",
       "notFound": false,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "TianZong48": {
       "owner": "TianZong48",
@@ -2434,37 +2434,37 @@
     "fatonarifi": {
       "owner": "fatonarifi",
       "notFound": false,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "diegorramos84": {
       "owner": "diegorramos84",
       "notFound": true,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "colbywhite": {
       "owner": "colbywhite",
       "notFound": true,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "thisbailiwick": {
       "owner": "thisbailiwick",
       "notFound": true,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "juanfer2": {
       "owner": "juanfer2",
       "notFound": true,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "olearycrew": {
       "owner": "olearycrew",
       "notFound": false,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "bdsqqq": {
       "owner": "bdsqqq",
       "notFound": false,
-      "lastExecuted": "2023-01-30T06:11:16.847Z"
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     },
     "alex-colvin": {
       "owner": "alex-colvin",
@@ -4745,6 +4745,11 @@
       "owner": "Kellprog",
       "notFound": false,
       "lastExecuted": "2023-01-30T09:45:03.757Z"
+    },
+    "garretthunyadi": {
+      "owner": "garretthunyadi",
+      "notFound": false,
+      "lastExecuted": "2023-01-30T18:41:09.723Z"
     }
   }
 }
