@@ -84,10 +84,11 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 1297475,12,true,false,true,2022-09-23T07:51:19.796529+00:00,Huluvu424242,2022-10-22T21:16:25.47948+00:00,,10,true,true,,,,,,,false,,javascript
 930247,1,true,false,true,2022-10-04T18:38:24.802441+00:00,mcalhoun,2022-10-04T18:38:24.802441+00:00,,10,false,false,,,,,,,false,,javascript
 63415584,0,true,false,true,2022-08-30T06:22:25.174958+00:00,HarshPanchal18,2022-08-30T06:22:25.174958+00:00,,10,false,false,,,,,,,false,,javascript
-55796944,1,true,true,true,2022-09-13T19:53:24.075692+00:00,avinashkranjan,2022-09-13T19:53:24.075692+00:00,,10,false,false,,,,,,,false,,javascript
+20974756,2,true,false,true,2022-09-07T05:55:00.432733+00:00,daanschenkel,2022-09-07T05:55:00.432733+00:00,,10,false,false,,,,,,,false,,javascript
 385879,0,true,false,true,2022-09-01T21:52:59.300742+00:00,JimBobSquarePants,2022-09-01T21:52:59.300742+00:00,,10,false,false,,,,,,,false,,javascript
 49501306,2,true,false,true,2022-09-02T02:39:08.31992+00:00,jsred,2022-09-02T02:39:08.31992+00:00,,10,false,false,,,,,,,false,,javascript
 53471824,1,true,false,true,2022-09-07T20:57:18.938971+00:00,shaiq-dev,2022-09-07T20:57:18.938971+00:00,,10,false,false,,,,,,,false,,javascript
+55796944,1,true,true,true,2022-09-13T19:53:24.075692+00:00,avinashkranjan,2022-09-13T19:53:24.075692+00:00,,10,false,false,,,,,,,false,,javascript
 43725109,3,true,false,true,2022-08-20T17:39:48.192743+00:00,techemmy,2022-08-20T17:39:48.192743+00:00,,10,false,false,,,,,,,false,,javascript
 10782481,1,true,false,true,2022-09-10T09:07:41.761618+00:00,JuzerShakir,2022-09-10T09:07:41.761618+00:00,,10,false,false,,,,,,,false,,javascript
 42029519,5,true,false,true,2022-08-27T00:49:48.325772+00:00,Azanul,2022-12-08T13:05:56.040648+00:00,,10,true,false,,,,,,,false,,javascript
@@ -130,14 +131,13 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 113472781,1,true,false,true,2022-09-13T20:30:23.277473+00:00,ddiamondcarter,2022-09-13T20:30:23.277473+00:00,,10,false,false,,,,,,,false,,javascript
 32095327,0,true,false,true,2022-08-18T06:59:37.139485+00:00,NjengaFelix,2022-08-18T06:59:37.139485+00:00,,10,false,false,,,,,,,false,,javascript
 116848054,0,false,false,false,2022-11-14T04:39:50.451+00:00,qqap,2022-11-14T04:40:08.095815+00:00,,10,true,false,,,,,,,false,,javascript
-20974756,2,true,false,true,2022-09-07T05:55:00.432733+00:00,daanschenkel,2022-09-07T05:55:00.432733+00:00,,10,false,false,,,,,,,false,,javascript
 67546953,2,true,true,true,2022-08-25T13:48:25.052342+00:00,AaronDewes,2022-08-25T13:48:25.052342+00:00,,10,false,false,,,,,,,false,,javascript
 116693822,0,false,false,false,2022-11-16T22:47:15.153+00:00,cwen13,2022-11-16T22:49:00.023234+00:00,,10,true,false,,,,,,,false,,javascript
 3777549,2,true,false,true,2022-05-16T15:23:40.172714+00:00,alotoftype,2022-05-16T15:23:40.172714+00:00,,10,false,false,,,,,,,false,,javascript
 8037469,1,true,false,true,2022-05-16T11:34:56.322833+00:00,waxidiotic,2022-05-16T11:34:56.322833+00:00,,10,false,false,,,,,,,false,,javascript
 76926119,1,true,false,true,2022-08-05T17:21:02.66269+00:00,FeljxFeljx,2022-08-05T17:21:02.66269+00:00,,10,false,false,,,,,,,false,,javascript
 66240426,0,true,false,true,2022-08-10T13:54:18.381028+00:00,AbdulrasheedApampa,2022-08-10T13:54:18.381028+00:00,,10,false,false,,,,,,,false,,javascript
-7439749,3,true,false,true,2022-09-12T08:12:41.142419+00:00,Ninad89,2022-09-12T08:12:41.142419+00:00,,10,false,false,,,,,,,false,,javascript
+43332,5,true,false,true,2022-09-10T16:10:32.953356+00:00,davidalpert,2022-09-10T16:10:32.953356+00:00,,10,false,false,,,,,,,false,,javascript
 85789377,0,true,false,true,2022-09-02T14:00:01.781219+00:00,MugiD,2022-09-02T14:00:01.781219+00:00,,10,false,false,,,,,,,false,,javascript
 467554,0,true,false,true,2022-09-02T21:16:49.097638+00:00,saidbakr,2022-09-02T21:16:49.097638+00:00,,10,false,false,,,,,,,false,,javascript
 94331754,1,true,false,true,2022-08-12T11:35:59.282309+00:00,Christiano112,2022-11-07T05:59:07.596384+00:00,,10,true,false,,,,,,,false,,javascript
@@ -149,6 +149,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 111617616,1,true,false,true,2022-08-27T03:15:22.883611+00:00,Jasonnemo,2022-08-27T03:15:22.883611+00:00,,10,false,false,,,,,,,false,,javascript
 65026704,0,true,false,true,2022-09-21T12:29:56.495477+00:00,ibrahimakintundek,2022-09-21T12:29:56.495477+00:00,,10,false,false,,,,,,,false,,javascript
 81192726,1,true,false,true,2022-08-16T22:38:58.827656+00:00,debisho,2022-08-16T22:38:58.827656+00:00,,10,false,false,,,,,,,false,,javascript
+7439749,3,true,false,true,2022-09-12T08:12:41.142419+00:00,Ninad89,2022-09-12T08:12:41.142419+00:00,,10,false,false,,,,,,,false,,javascript
 108130680,0,true,false,true,2022-06-24T11:56:40.340896+00:00,VinayShreeramaiah,2022-06-24T11:56:40.340896+00:00,,10,false,false,,,,,,,false,,javascript
 9154918,2,true,false,true,2022-08-05T02:22:41.312384+00:00,aebibtech,2022-08-05T02:22:41.312384+00:00,,10,false,false,,,,,,,false,,javascript
 10088485,1,true,false,true,2022-09-03T16:57:31.385776+00:00,mamba-dev-KE,2022-09-03T16:57:31.385776+00:00,,10,false,false,,,,,,,false,,javascript
@@ -156,7 +157,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 31401437,1,true,false,true,2022-09-13T14:31:44.693709+00:00,adityaoberai,2022-09-13T14:31:44.693709+00:00,,10,false,false,,,,,,,false,,javascript
 28387128,1,true,false,true,2022-08-26T11:01:27.556603+00:00,watevadafa,2022-10-28T20:08:33.052019+00:00,,10,true,false,,,,,,,false,,javascript
 12715277,4,true,false,true,2022-09-28T22:30:00.141204+00:00,stijnelskens,2022-09-28T22:30:00.141204+00:00,,10,false,false,,,,,,,false,,javascript
-75380946,1,true,false,true,2022-09-09T15:16:55.781715+00:00,rmdp-trouva,2022-09-09T15:16:55.781715+00:00,,10,false,false,,,,,,,false,,javascript
+72260960,1,true,false,true,2022-09-08T06:25:51.775598+00:00,sanyam810,2022-09-08T06:25:51.775598+00:00,,10,false,false,,,,,,,false,,javascript
 17254592,2,true,false,true,2022-09-23T08:00:52.044676+00:00,Phillip9587,2022-09-23T08:00:52.044676+00:00,,10,false,false,,,,,,,false,,javascript
 21148272,1,true,false,true,2022-10-10T21:33:28.050187+00:00,akinason,2022-10-10T21:33:28.050187+00:00,,10,false,false,,,,,,,false,,javascript
 45422350,1,true,false,true,2022-09-15T07:11:46.227194+00:00,charlieaboumoussa,2022-09-15T07:11:46.227194+00:00,,10,false,false,,,,,,,false,,javascript
@@ -169,7 +170,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 100371690,1,true,false,true,2022-07-18T22:56:26.777185+00:00,CMCSWEENE,2022-07-18T22:56:26.777185+00:00,,10,false,false,,,,,,,false,,javascript
 38761135,1,true,false,true,2022-09-05T12:53:00.085098+00:00,bashangbasir,2022-09-05T12:53:00.085098+00:00,,10,false,false,,,,,,,false,,javascript
 47026269,6,true,false,true,2022-08-07T08:37:10.25453+00:00,AlexNti,2022-08-07T08:37:10.25453+00:00,,10,false,false,,,,,,,false,,javascript
-72260960,1,true,false,true,2022-09-08T06:25:51.775598+00:00,sanyam810,2022-09-08T06:25:51.775598+00:00,,10,false,false,,,,,,,false,,javascript
 55999418,2,true,false,true,2022-10-24T20:59:31.093409+00:00,AhmedAlamoudi192,2022-10-24T20:59:31.093409+00:00,,10,false,false,,,,,,,false,,javascript
 23220342,1,true,false,true,2022-09-05T23:33:30.991286+00:00,renzodamgo,2022-09-05T23:33:30.991286+00:00,,10,false,false,,,,,,,false,,javascript
 78874691,3,true,false,true,2022-09-02T03:39:44.584873+00:00,victor-teles,2022-09-02T03:39:44.584873+00:00,,10,false,false,,,,,,,false,,javascript
@@ -195,7 +195,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 48399373,0,false,false,false,2022-06-21T16:10:14.446+00:00,shamimbinnur,2022-12-21T11:01:41.972973+00:00,,10,true,false,,,,,,,false,,javascript
 335356,1,true,false,true,2022-08-27T12:46:19.117888+00:00,unrealnerd,2022-08-27T12:46:19.117888+00:00,,10,false,false,,,,,,,false,,javascript
 16273537,3,true,false,true,2022-11-02T14:24:20.509911+00:00,troycurtisjr,2022-11-02T14:24:20.509911+00:00,,10,false,false,,,,,,,false,,javascript
-43332,5,true,false,true,2022-09-10T16:10:32.953356+00:00,davidalpert,2022-09-10T16:10:32.953356+00:00,,10,false,false,,,,,,,false,,javascript
+75380946,1,true,false,true,2022-09-09T15:16:55.781715+00:00,rmdp-trouva,2022-09-09T15:16:55.781715+00:00,,10,false,false,,,,,,,false,,javascript
 22624429,1,true,false,true,2022-08-19T03:24:56.947713+00:00,SpencerGee,2022-08-19T03:24:56.947713+00:00,,10,false,false,,,,,,,false,,javascript
 95306716,1,true,false,true,2022-07-13T03:49:17.326562+00:00,DeonFranklin,2022-07-13T03:49:17.326562+00:00,,10,false,false,,,,,,,false,,javascript
 23369123,4,true,false,true,2022-08-18T11:18:12.404993+00:00,Tailine,2022-08-18T11:18:12.404993+00:00,,10,false,false,,,,,,,false,,javascript
@@ -216,7 +216,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 38852717,1,true,false,true,2022-08-17T08:23:44.387874+00:00,SebastianWebster,2022-08-17T08:23:44.387874+00:00,,10,false,false,,,,,,,false,,javascript
 66009198,2,true,false,true,2022-09-12T09:00:19.433307+00:00,MauriceKau,2022-09-12T09:00:19.433307+00:00,,10,false,false,,,,,,,false,,javascript
 62188066,8,true,false,true,2022-09-02T04:25:34.325981+00:00,Tuzi555,2022-09-02T04:25:34.325981+00:00,,10,false,false,,,,,,,false,,javascript
-92874719,0,true,false,true,2022-09-11T00:54:12.286607+00:00,kevinochoa8266,2022-09-11T00:54:12.286607+00:00,,10,false,false,,,,,,,false,,javascript
+360261,0,true,false,true,2022-09-09T17:11:04.849953+00:00,danieltott,2022-09-09T17:11:04.849953+00:00,,10,false,false,,,,,,,false,,javascript
 29306872,5,true,false,true,2022-07-31T13:16:47.116958+00:00,pauldolden,2022-07-31T13:16:47.116958+00:00,,10,false,false,,,,,,,false,,javascript
 35114389,1,true,false,true,2022-09-05T18:00:02.606992+00:00,dr1tch,2022-09-05T18:00:02.606992+00:00,,10,false,false,,,,,,,false,,javascript
 87377676,1,true,true,true,2022-08-27T13:04:43.698142+00:00,SUGARXUST,2022-08-27T13:04:43.698142+00:00,,10,false,false,,,,,,,false,,javascript
@@ -228,7 +228,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 25552262,4,true,false,true,2022-08-26T15:50:35.200611+00:00,Jeevan-J,2022-08-26T15:50:35.200611+00:00,,10,false,false,,,,,,,false,,javascript
 86315719,0,false,false,false,2022-11-14T14:25:16.426+00:00,bchase_humana,2022-10-24T02:22:48.998+00:00,,10,false,false,,,,,,,false,,javascript
 73251178,0,false,false,false,2022-11-14T08:15:04.823+00:00,NORZACO,2022-11-14T08:15:37.497912+00:00,,10,true,false,,,,,,,false,,javascript
-86601758,0,true,false,true,2022-09-07T13:26:17.68994+00:00,PrabhuKiran8790,2022-09-07T13:26:17.68994+00:00,,10,false,false,,,,,,,false,,javascript
 39966439,1,true,false,true,2022-09-03T11:54:59.941862+00:00,martinclason123,2022-09-03T11:54:59.941862+00:00,,10,false,false,,,,,,,false,,javascript
 94555430,1,true,false,true,2022-09-18T23:02:22.488+00:00,kiddo7565,2022-09-18T23:02:22.488+00:00,,10,false,false,,,,,,,false,,javascript
 75211982,1,true,false,true,2022-09-14T12:06:19.729758+00:00,cdhiraj40,2022-09-14T12:06:19.729758+00:00,,10,false,false,,,,,,,false,,javascript
@@ -243,11 +242,11 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 117527195,1,true,false,true,2022-11-10T01:35:17.460403+00:00,eeeeerick,2022-11-10T01:35:17.460403+00:00,,10,false,false,,,,,,,false,,javascript
 13303617,1,true,false,true,2022-10-19T21:59:51.302802+00:00,PEvansik,2022-10-19T21:59:51.302802+00:00,,10,false,false,,,,,,,false,,javascript
 44289179,4,true,false,true,2022-09-26T08:58:14.929119+00:00,EngMustafaSabah,2022-09-26T08:58:14.929119+00:00,,10,false,false,,,,,,,false,,javascript
-76877744,1,true,false,true,2022-09-13T15:33:09.322974+00:00,morehwachege,2022-09-13T15:33:09.322974+00:00,,10,false,false,,,,,,,false,,javascript
+92874719,0,true,false,true,2022-09-11T00:54:12.286607+00:00,kevinochoa8266,2022-09-11T00:54:12.286607+00:00,,10,false,false,,,,,,,false,,javascript
 29790797,1,true,false,true,2022-09-23T17:04:07.22422+00:00,jameshskoh,2022-09-23T17:04:07.22422+00:00,,10,false,false,,,,,,,false,,javascript
 8019071,1,true,false,true,2022-09-08T11:32:29.997432+00:00,The-Hasanov,2022-09-08T11:32:29.997432+00:00,,10,false,false,,,,,,,false,,javascript
 97243126,2,true,false,true,2022-09-06T15:18:41.760081+00:00,Kellprog,2022-09-06T15:18:41.760081+00:00,,10,false,false,,,,,,,false,,javascript
-360261,0,true,false,true,2022-09-09T17:11:04.849953+00:00,danieltott,2022-09-09T17:11:04.849953+00:00,,10,false,false,,,,,,,false,,javascript
+86601758,0,true,false,true,2022-09-07T13:26:17.68994+00:00,PrabhuKiran8790,2022-09-07T13:26:17.68994+00:00,,10,false,false,,,,,,,false,,javascript
 24443350,0,true,false,true,2022-09-19T10:36:07.093336+00:00,TobiasCunnen,2022-09-19T10:36:07.093336+00:00,,10,false,false,,,,,,,false,,javascript
 75436804,0,true,false,true,2022-08-31T20:47:31.448551+00:00,Davidezangrando,2022-08-31T20:47:31.448551+00:00,,10,false,false,,,,,,,false,,javascript
 8271635,0,true,false,true,2022-08-16T03:26:49.991442+00:00,aboutthatjazz,2022-08-16T03:26:49.991442+00:00,,10,false,false,,,,,,,false,,javascript
@@ -261,6 +260,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 44123854,1,true,false,true,2022-09-01T23:11:35.713748+00:00,ktfth,2022-09-01T23:11:35.713748+00:00,,10,false,false,,,,,,,false,,javascript
 44118965,1,true,false,true,2022-09-16T16:44:01.408349+00:00,BarbarianTarkus,2022-09-16T16:44:01.408349+00:00,,10,false,false,,,,,,,false,,javascript
 858793,1,true,false,true,2022-10-25T14:32:23.751652+00:00,ImanolGo,2022-10-25T14:32:23.751652+00:00,,10,false,false,,,,,,,false,,javascript
+76877744,1,true,false,true,2022-09-13T15:33:09.322974+00:00,morehwachege,2022-09-13T15:33:09.322974+00:00,,10,false,false,,,,,,,false,,javascript
 6156286,4,true,false,true,2022-08-28T22:42:32.265074+00:00,nicofloch,2022-08-28T22:42:32.265074+00:00,,10,false,false,,,,,,,false,,javascript
 60453988,1,true,false,true,2022-06-09T20:42:57.720634+00:00,adrireid,2022-06-09T20:42:57.720634+00:00,,10,false,false,,,,,,,false,,javascript
 72113368,1,true,false,true,2022-08-14T12:20:47.128028+00:00,Obafemi-NG,2022-08-14T12:20:47.128028+00:00,,10,false,false,,,,,,,false,,javascript
@@ -607,6 +607,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 95355656,1,true,false,true,2022-07-12T08:40:38.487571+00:00,jay-tau,2022-07-12T08:40:38.487571+00:00,,10,false,false,,,,,,,false,,javascript
 35736525,0,true,false,true,2022-07-07T02:13:57.17978+00:00,lyqht,2022-07-07T02:13:57.17978+00:00,,10,false,false,,,,,,,false,,javascript
 8643036,1,true,false,true,2022-07-05T17:46:10.218605+00:00,WinterCore,2022-07-05T17:46:10.218605+00:00,,10,false,false,,,,,,,false,,javascript
+20791966,3,true,false,true,2022-09-08T19:50:58.156487+00:00,metalcorpe,2023-01-07T20:52:43.304737+00:00,,10,true,false,,,,,,,false,,javascript
 1415873,2,true,false,true,2022-07-23T13:51:23.00453+00:00,FDelporte,2022-07-23T13:51:23.00453+00:00,,10,false,false,,,,,,,false,,javascript
 6735115,1,true,false,true,2022-07-23T15:12:06.339903+00:00,arylatt,2022-07-23T15:12:06.339903+00:00,,10,false,false,,,,,,,false,,javascript
 25034,3,true,false,true,2022-07-27T23:07:14.502858+00:00,mariocesar,2022-07-27T23:07:14.502858+00:00,,10,false,false,,,,,,,false,,javascript
@@ -653,7 +654,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 8808086,1,true,false,true,2022-06-10T14:36:31.757+00:00,savkaoleg,2022-06-10T14:36:31.757+00:00,,10,false,false,,,,,,,false,,javascript
 577424,1,true,false,true,2022-05-16T03:09:39.3077+00:00,matthewdeanmartin,2022-05-16T03:09:39.3077+00:00,,10,false,false,,,,,,,false,,javascript
 6044920,3,true,false,true,2022-06-28T18:00:19.525457+00:00,olearycrew,2022-06-28T18:00:19.525457+00:00,,10,false,false,,,,,,,false,,javascript
-20791966,3,true,false,true,2022-09-08T19:50:58.156487+00:00,metalcorpe,2023-01-07T20:52:43.304737+00:00,,10,true,false,,,,,,,false,,javascript
 93167066,0,true,false,true,2022-09-03T06:42:08.933096+00:00,ItsJustLukas78,2022-09-03T06:42:08.933096+00:00,,10,false,false,,,,,,,false,,javascript
 30007828,1,true,false,true,2022-07-26T04:25:09.08284+00:00,Ryankolsen,2022-07-26T04:25:09.08284+00:00,,10,false,false,,,,,,,false,,javascript
 44528202,2,true,false,true,2022-08-03T05:33:56.323362+00:00,Aditya-Gupta1,2022-08-03T05:33:56.323362+00:00,,10,false,false,,,,,,,false,,javascript
@@ -675,7 +675,6 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 51304449,4,true,false,true,2022-10-20T01:48:29.301528+00:00,smith-xyz,2022-10-20T01:48:29.301528+00:00,,10,false,false,,,,,,,false,,javascript
 33556500,0,false,false,false,2022-11-17T01:50:58.307+00:00,mnida,2022-11-17T01:51:54.046596+00:00,,10,true,false,,,,,,,false,,javascript
 35978975,4,true,false,true,2022-09-17T20:33:23.746094+00:00,michaelfromyeg,2022-12-24T05:44:23.932154+00:00,,10,true,false,,,,,,,false,,javascript
-45557700,2,true,false,true,2022-09-07T15:09:24.446489+00:00,fkoch-tgm,2022-12-12T11:35:35.524543+00:00,,10,true,false,,,,,,,false,,javascript
 47885393,0,true,false,true,2022-09-19T16:17:23.357559+00:00,shesha4572,2022-09-19T16:17:23.357559+00:00,,10,false,false,,,,,,,false,,javascript
 39962391,1,true,false,true,2022-08-10T18:59:19.215509+00:00,amansingh1999,2022-08-10T18:59:19.215509+00:00,,10,false,false,,,,,,,false,,javascript
 21284100,1,true,false,true,2022-09-02T19:40:44.690717+00:00,Stuyk,2022-09-02T19:40:44.690717+00:00,,10,false,false,,,,,,,false,,javascript
@@ -692,10 +691,10 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 77902178,2,true,false,true,2022-10-13T20:39:27.309523+00:00,pantheredeye,2022-10-13T20:39:27.309523+00:00,,10,false,false,,,,,,,false,,javascript
 1187060,1,true,false,true,2022-09-02T08:32:33.709442+00:00,liamg,2022-09-02T08:32:33.709442+00:00,,10,false,false,,,,,,,false,,javascript
 19453294,2,true,false,true,2022-06-23T05:30:05.262221+00:00,techieeliot,2022-06-23T05:30:05.262221+00:00,,10,false,false,,,,,,,false,,javascript
-59947649,1,true,false,true,2022-09-12T15:32:43.593775+00:00,AayushBajaj2000,2022-09-12T15:32:43.593775+00:00,,10,false,false,,,,,,,false,,javascript
+55863239,1,true,false,true,2022-09-11T09:03:02.452484+00:00,mankarsandesh,2022-09-11T09:03:02.452484+00:00,,10,false,false,,,,,,,false,,javascript
 72051159,2,true,false,true,2022-07-29T07:27:36.724992+00:00,dev-phantom,2023-01-06T03:50:00.151701+00:00,,10,true,false,,,,,,,false,,javascript
 21232366,3,true,false,true,2022-08-31T23:31:33.860539+00:00,JacobAnavisca,2022-08-31T23:31:33.860539+00:00,,10,false,false,,,,,,,false,,javascript
-55863239,1,true,false,true,2022-09-11T09:03:02.452484+00:00,mankarsandesh,2022-09-11T09:03:02.452484+00:00,,10,false,false,,,,,,,false,,javascript
+65201911,1,true,false,true,2022-09-07T19:29:05.530402+00:00,narmada-nannaka,2022-09-07T19:29:05.530402+00:00,,10,false,false,,,,,,,false,,javascript
 51391611,2,true,false,true,2022-07-27T18:08:36.820576+00:00,coffeedome,2022-07-27T18:08:36.820576+00:00,,10,false,false,,,,,,,false,,javascript
 1330523,1,true,false,true,2022-10-01T16:44:41.539848+00:00,mkazin,2022-10-01T16:44:41.539848+00:00,,10,false,false,,,,,,,false,,javascript
 109640072,1,true,false,true,2022-09-07T02:39:55.847207+00:00,jonathanashagre,2022-09-07T02:39:55.847207+00:00,,10,false,false,,,,,,,false,,javascript
@@ -713,7 +712,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 17125876,6,true,false,true,2022-08-03T13:49:07.771861+00:00,JoviDeCroock,2022-08-03T13:49:07.771861+00:00,,10,false,false,,,,,,,false,,javascript
 5519705,0,false,false,false,2022-11-17T18:24:22.122+00:00,courtneyr-dev,2022-11-17T18:24:18.266+00:00,,10,false,false,,,,,,,false,,javascript
 26002496,1,true,false,true,2022-08-26T17:27:41.167376+00:00,JohannesPtaszyk,2022-08-26T17:27:41.167376+00:00,,10,false,false,,,,,,,false,,javascript
-65201911,1,true,false,true,2022-09-07T19:29:05.530402+00:00,narmada-nannaka,2022-09-07T19:29:05.530402+00:00,,10,false,false,,,,,,,false,,javascript
+45557700,2,true,false,true,2022-09-07T15:09:24.446489+00:00,fkoch-tgm,2022-12-12T11:35:35.524543+00:00,,10,true,false,,,,,,,false,,javascript
 9587419,0,false,false,false,2022-08-06T16:58:07.912+00:00,lakamson,2022-10-26T23:42:48.15+00:00,,10,false,false,,,,,,,false,,javascript
 9039234,2,true,false,true,2022-06-26T22:39:24.237047+00:00,KrisMannino,2022-06-26T22:39:24.237047+00:00,,10,false,false,,,,,,,false,,javascript
 5299412,3,true,false,true,2022-10-08T19:26:50.368699+00:00,peckjon,2022-10-08T19:26:50.368699+00:00,,10,false,false,,,,,,,false,,javascript
@@ -726,7 +725,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 56833915,1,true,false,true,2022-08-26T17:13:02.924473+00:00,rf-santos,2022-08-26T17:13:02.924473+00:00,,10,false,false,,,,,,,false,,javascript
 106763134,0,true,false,true,2022-08-04T19:52:51.06335+00:00,jakebitz,2022-08-04T19:52:51.06335+00:00,,10,false,false,,,,,,,false,,javascript
 1083967,1,true,false,true,2022-08-26T14:22:02.327793+00:00,gmatheu,2022-08-26T14:22:02.327793+00:00,,10,false,false,,,,,,,false,,javascript
-62995161,2,true,false,true,2022-11-14T18:45:01.288+00:00,OgDev-01,2022-11-14T18:46:37.779268+00:00,,10,true,false,,,,,,,false,,javascript
+59947649,1,true,false,true,2022-09-12T15:32:43.593775+00:00,AayushBajaj2000,2022-09-12T15:32:43.593775+00:00,,10,false,false,,,,,,,false,,javascript
 7938258,1,true,false,true,2022-06-25T22:00:47.963865+00:00,TsatsuAmable,2022-06-25T22:00:47.963865+00:00,,10,false,false,,,,,,,false,,javascript
 71087863,0,true,false,true,2022-08-30T15:58:30.955294+00:00,theetherGit,2022-11-01T15:56:14.966294+00:00,,10,true,false,,,,,,,false,,javascript
 4552395,0,true,false,true,2022-06-10T16:00:59.587838+00:00,umangmathur92,2022-06-10T16:00:59.587838+00:00,,10,false,false,,,,,,,false,,javascript
@@ -735,13 +734,14 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 11030551,0,true,false,true,2022-05-16T05:09:43.427882+00:00,DavidMerenyi,2022-12-07T14:55:51.178244+00:00,,10,true,false,,,,,,,false,,javascript
 37213663,1,true,false,true,2022-10-07T09:26:05.262499+00:00,avicndugu,2022-10-07T09:26:05.262499+00:00,,10,false,false,,,,,,,false,,javascript
 63897038,1,true,false,true,2022-09-05T12:00:27.979807+00:00,shivamupadhyay008,2022-09-05T12:00:27.979807+00:00,,10,false,false,,,,,,,false,,javascript
+62995161,2,true,false,true,2022-11-14T18:45:01.288+00:00,OgDev-01,2022-11-14T18:46:37.779268+00:00,,10,true,false,,,,,,,false,,javascript
 67121288,0,true,false,true,2022-09-17T21:15:21.770811+00:00,batangaTroy,2022-11-20T20:03:09.088069+00:00,,10,true,false,,,,,,,false,,javascript
 67798925,0,false,false,false,2022-11-14T13:37:19.594+00:00,Joseonaviyal,2023-01-06T09:35:41.414876+00:00,,10,true,false,,,,,,,false,,javascript
 9024682,1,true,false,true,2022-09-27T03:42:08.481543+00:00,TWL007,2022-09-27T03:42:08.481543+00:00,,10,false,false,,,,,,,false,,javascript
 24584526,0,false,false,false,2022-11-18T03:25:10.949+00:00,mariorecinos,2022-11-18T03:25:49.983115+00:00,,10,true,false,,,,,,,false,,javascript
-66690487,1,true,true,true,2022-09-09T03:18:29.794682+00:00,420-samm,2022-09-09T03:18:29.794682+00:00,,10,false,false,,,,,,,false,,javascript
 72661513,0,true,false,true,2022-10-29T16:14:09.99634+00:00,roro-commits,2022-10-29T16:14:09.99634+00:00,,10,false,false,,,,,,,false,,javascript
 111018543,2,true,false,true,2022-08-12T18:32:43.454991+00:00,M16H7Y-QU1NN,2022-08-12T18:32:43.454991+00:00,,10,false,false,,,,,,,false,,javascript
+66690487,1,true,true,true,2022-09-09T03:18:29.794682+00:00,420-samm,2022-09-09T03:18:29.794682+00:00,,10,false,false,,,,,,,false,,javascript
 26021453,0,false,false,false,2022-11-18T09:02:42.259+00:00,InBlue,2022-11-18T09:03:21.023141+00:00,,10,true,false,,,,,,,false,,javascript
 50759463,0,false,false,false,2022-11-18T15:26:06.447+00:00,fzn0x,2022-11-18T15:27:18.204444+00:00,,10,true,false,,,,,,,false,,javascript
 2011812,0,false,false,false,2022-11-18T17:27:44.241+00:00,shankardevy,2022-11-18T17:27:39.728+00:00,,10,false,false,,,,,,,false,,javascript
@@ -1136,7 +1136,7 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 54043933,0,false,false,false,2023-01-20T20:34:21.142+00:00,tk-425,2023-01-20T20:35:22.820148+00:00,,10,true,false,,,,,,,false,,javascript
 9346771,0,false,false,false,2023-01-25T14:54:29.043+00:00,shiralizadeh,2023-01-25T14:54:26.607+00:00,,10,false,false,,,,,,,false,,javascript
 5898009,0,false,false,false,2023-01-27T21:33:52.564+00:00,Spiteless,2023-01-27T21:35:11.346216+00:00,,10,true,false,,,,,,,false,,javascript
-1881520,2,true,false,true,2022-09-12T10:54:45.383804+00:00,josesimoes,2022-09-12T10:54:45.383804+00:00,,10,false,false,,,,,,,false,,javascript
+25463206,1,true,false,true,2022-09-10T05:55:26.139386+00:00,BachAmadou,2022-09-10T05:55:26.139386+00:00,,10,false,false,,,,,,,false,,javascript
 64831126,0,false,false,false,2023-01-21T13:37:37.211+00:00,mwelwankuta,2023-01-21T13:39:43.435842+00:00,,10,true,false,,,,,,,false,,javascript
 78448350,0,false,false,false,2023-01-21T13:44:18.447+00:00,AbedrahmanYassen,2023-01-21T13:45:38.686396+00:00,,10,true,false,,,,,,,false,,javascript
 123419782,0,false,false,false,2023-01-26T00:40:16.619+00:00,thelynda,2023-01-26T00:40:11.444+00:00,,10,false,false,,,,,,,false,,javascript
@@ -1171,9 +1171,9 @@ id,open_issues,has_stars_data,is_private,is_open_sauced_member,created_at,login,
 85189857,1,true,false,true,2022-07-18T11:53:07.749155+00:00,code-with-onye,2022-07-18T11:53:07.749155+00:00,,10,false,false,,,,,,,false,,javascript
 31725457,2,true,false,true,2022-07-12T09:53:53.654286+00:00,JoshuaPoddoku,2022-07-12T09:53:53.654286+00:00,,10,false,false,,,,,,,false,,javascript
 68414911,3,true,false,true,2022-07-06T05:24:36.322897+00:00,mdirshaddev,2022-07-06T05:24:36.322897+00:00,,10,false,false,,,,,,,false,,javascript
+1881520,2,true,false,true,2022-09-12T10:54:45.383804+00:00,josesimoes,2022-09-12T10:54:45.383804+00:00,,10,false,false,,,,,,,false,,javascript
 53984236,1,true,false,true,2022-12-29T03:58:37.243334+00:00,MrMyastan,2022-12-29T03:58:37.243334+00:00,,10,false,false,,,,,,,false,,javascript
 107635537,1,true,false,true,2023-01-18T22:10:02.933221+00:00,eshuffman,2023-01-18T22:10:02.933221+00:00,,10,false,false,,,,,,,false,,javascript
-25463206,1,true,false,true,2022-09-10T05:55:26.139386+00:00,BachAmadou,2022-09-10T05:55:26.139386+00:00,,10,false,false,,,,,,,false,,javascript
 31360475,1,true,false,true,2022-08-10T10:46:39.630483+00:00,sunday4me,2022-08-10T10:46:39.630483+00:00,,10,false,false,,,,,,,false,,javascript
 15212281,1,true,false,true,2023-01-18T13:24:11.996766+00:00,tuan-nng,2023-01-18T13:24:11.996766+00:00,,10,false,false,,,,,,,false,,javascript
 57393961,1,true,false,true,2023-01-18T02:02:04.964912+00:00,TheDesertKing,2023-01-18T02:02:04.964912+00:00,,10,false,false,,,,,,,false,,javascript
