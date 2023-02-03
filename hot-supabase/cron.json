@@ -1,5 +1,5 @@
 {
-  "lastExecuted": "2023-02-03T07:06:31.737Z",
+  "lastExecuted": "2023-02-03T07:18:29.379Z",
   "checked": {
     "AdamasFR": {
       "owner": "AdamasFR",
@@ -2544,7 +2544,7 @@
     "yhoungdev": {
       "owner": "yhoungdev",
       "notFound": false,
-      "lastExecuted": "2023-02-02T16:36:14.746Z"
+      "lastExecuted": "2023-02-03T07:18:29.379Z"
     },
     "lyqht": {
       "owner": "lyqht",
@@ -2699,22 +2699,22 @@
     "ctoffanin": {
       "owner": "ctoffanin",
       "notFound": false,
-      "lastExecuted": "2023-02-02T19:09:19.786Z"
+      "lastExecuted": "2023-02-03T07:18:29.379Z"
     },
     "Cerchie": {
       "owner": "Cerchie",
       "notFound": false,
-      "lastExecuted": "2023-02-02T19:09:19.786Z"
+      "lastExecuted": "2023-02-03T07:18:29.379Z"
     },
     "rcmtcristian": {
       "owner": "rcmtcristian",
       "notFound": false,
-      "lastExecuted": "2023-02-02T19:09:19.786Z"
+      "lastExecuted": "2023-02-03T07:18:29.379Z"
     },
     "chiragtatva": {
       "owner": "chiragtatva",
       "notFound": false,
-      "lastExecuted": "2023-02-02T19:09:19.786Z"
+      "lastExecuted": "2023-02-03T07:18:29.379Z"
     },
     "Ryankolsen": {
       "owner": "Ryankolsen",
@@ -4748,8 +4748,8 @@
     },
     "garretthunyadi": {
       "owner": "garretthunyadi",
-      "notFound": false,
-      "lastExecuted": "2023-02-02T19:09:19.786Z"
+      "notFound": true,
+      "lastExecuted": "2023-02-03T07:18:29.379Z"
     }
   }
 }
